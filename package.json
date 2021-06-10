@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "Standard library statistical functions.",
   "license": "Apache-2.0",
   "author": {
