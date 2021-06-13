@@ -21,19 +21,19 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/bernoulli/cdf' );
-import Bernoulli = require( '@stdlib/stats/base/dists/bernoulli/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/bernoulli/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/bernoulli/kurtosis' );
-import mean = require( '@stdlib/stats/base/dists/bernoulli/mean' );
-import median = require( '@stdlib/stats/base/dists/bernoulli/median' );
-import mgf = require( '@stdlib/stats/base/dists/bernoulli/mgf' );
-import mode = require( '@stdlib/stats/base/dists/bernoulli/mode' );
-import pmf = require( '@stdlib/stats/base/dists/bernoulli/pmf' );
-import quantile = require( '@stdlib/stats/base/dists/bernoulli/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/bernoulli/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/bernoulli/stdev' );
-import variance = require( '@stdlib/stats/base/dists/bernoulli/variance' );
+import cdf = require( './../../../../../base/dists/bernoulli/cdf' );
+import Bernoulli = require( './../../../../../base/dists/bernoulli/ctor' );
+import entropy = require( './../../../../../base/dists/bernoulli/entropy' );
+import kurtosis = require( './../../../../../base/dists/bernoulli/kurtosis' );
+import mean = require( './../../../../../base/dists/bernoulli/mean' );
+import median = require( './../../../../../base/dists/bernoulli/median' );
+import mgf = require( './../../../../../base/dists/bernoulli/mgf' );
+import mode = require( './../../../../../base/dists/bernoulli/mode' );
+import pmf = require( './../../../../../base/dists/bernoulli/pmf' );
+import quantile = require( './../../../../../base/dists/bernoulli/quantile' );
+import skewness = require( './../../../../../base/dists/bernoulli/skewness' );
+import stdev = require( './../../../../../base/dists/bernoulli/stdev' );
+import variance = require( './../../../../../base/dists/bernoulli/variance' );
 
 /**
 * Interface describing the `bernoulli` namespace.

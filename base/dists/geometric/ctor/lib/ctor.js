@@ -26,20 +26,20 @@ var defineProperty = require( '@stdlib/utils/define-property' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isProbability = require( '@stdlib/assert/is-probability' ).isPrimitive;
-var entropy = require( '@stdlib/stats/base/dists/geometric/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/geometric/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/geometric/mean' );
-var median = require( '@stdlib/stats/base/dists/geometric/median' );
-var mode = require( '@stdlib/stats/base/dists/geometric/mode' );
-var skewness = require( '@stdlib/stats/base/dists/geometric/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/geometric/stdev' );
-var variance = require( '@stdlib/stats/base/dists/geometric/variance' );
-var cdf = require( '@stdlib/stats/base/dists/geometric/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/geometric/logcdf' );
-var logpmf = require( '@stdlib/stats/base/dists/geometric/logpmf' );
-var mgf = require( '@stdlib/stats/base/dists/geometric/mgf' );
-var pmf = require( '@stdlib/stats/base/dists/geometric/pmf' );
-var quantile = require( '@stdlib/stats/base/dists/geometric/quantile' );
+var entropy = require( './../../../../../base/dists/geometric/entropy' );
+var kurtosis = require( './../../../../../base/dists/geometric/kurtosis' );
+var mean = require( './../../../../../base/dists/geometric/mean' );
+var median = require( './../../../../../base/dists/geometric/median' );
+var mode = require( './../../../../../base/dists/geometric/mode' );
+var skewness = require( './../../../../../base/dists/geometric/skewness' );
+var stdev = require( './../../../../../base/dists/geometric/stdev' );
+var variance = require( './../../../../../base/dists/geometric/variance' );
+var cdf = require( './../../../../../base/dists/geometric/cdf' );
+var logcdf = require( './../../../../../base/dists/geometric/logcdf' );
+var logpmf = require( './../../../../../base/dists/geometric/logpmf' );
+var mgf = require( './../../../../../base/dists/geometric/mgf' );
+var pmf = require( './../../../../../base/dists/geometric/pmf' );
+var quantile = require( './../../../../../base/dists/geometric/quantile' );
 
 
 // FUNCTIONS //

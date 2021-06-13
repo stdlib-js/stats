@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dsempn = require( '@stdlib/stats/base/dsempn' ).ndarray;
+var dsempn = require( './../../../base/dsempn' ).ndarray;
 
 
 // MAIN //

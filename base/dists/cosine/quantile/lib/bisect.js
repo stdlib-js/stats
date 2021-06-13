@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var cosineCDF = require( '@stdlib/stats/base/dists/cosine/cdf' );
+var cosineCDF = require( './../../../../../base/dists/cosine/cdf' );
 
 
 // VARIABLES //

@@ -28,17 +28,17 @@ var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
 var isnan = require( '@stdlib/assert/is-nan' );
-var entropy = require( '@stdlib/stats/base/dists/levy/entropy' );
-var mean = require( '@stdlib/stats/base/dists/levy/mean' );
-var median = require( '@stdlib/stats/base/dists/levy/median' );
-var mode = require( '@stdlib/stats/base/dists/levy/mode' );
-var stdev = require( '@stdlib/stats/base/dists/levy/stdev' );
-var variance = require( '@stdlib/stats/base/dists/levy/variance' );
-var cdf = require( '@stdlib/stats/base/dists/levy/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/levy/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/levy/logpdf' );
-var pdf = require( '@stdlib/stats/base/dists/levy/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/levy/quantile' );
+var entropy = require( './../../../../../base/dists/levy/entropy' );
+var mean = require( './../../../../../base/dists/levy/mean' );
+var median = require( './../../../../../base/dists/levy/median' );
+var mode = require( './../../../../../base/dists/levy/mode' );
+var stdev = require( './../../../../../base/dists/levy/stdev' );
+var variance = require( './../../../../../base/dists/levy/variance' );
+var cdf = require( './../../../../../base/dists/levy/cdf' );
+var logcdf = require( './../../../../../base/dists/levy/logcdf' );
+var logpdf = require( './../../../../../base/dists/levy/logpdf' );
+var pdf = require( './../../../../../base/dists/levy/pdf' );
+var quantile = require( './../../../../../base/dists/levy/quantile' );
 
 
 // FUNCTIONS //

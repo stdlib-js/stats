@@ -43,7 +43,7 @@ var arcsine = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/arcsine/cdf}
 */
-setReadOnly( arcsine, 'cdf', require( '@stdlib/stats/base/dists/arcsine/cdf' ) );
+setReadOnly( arcsine, 'cdf', require( './../../../../base/dists/arcsine/cdf' ) );
 
 /**
 * @name Arcsine
@@ -52,7 +52,7 @@ setReadOnly( arcsine, 'cdf', require( '@stdlib/stats/base/dists/arcsine/cdf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/arcsine/ctor}
 */
-setReadOnly( arcsine, 'Arcsine', require( '@stdlib/stats/base/dists/arcsine/ctor' ) );
+setReadOnly( arcsine, 'Arcsine', require( './../../../../base/dists/arcsine/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( arcsine, 'Arcsine', require( '@stdlib/stats/base/dists/arcsine/ctor
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/arcsine/entropy}
 */
-setReadOnly( arcsine, 'entropy', require( '@stdlib/stats/base/dists/arcsine/entropy' ) );
+setReadOnly( arcsine, 'entropy', require( './../../../../base/dists/arcsine/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( arcsine, 'entropy', require( '@stdlib/stats/base/dists/arcsine/entr
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/arcsine/kurtosis}
 */
-setReadOnly( arcsine, 'kurtosis', require( '@stdlib/stats/base/dists/arcsine/kurtosis' ) );
+setReadOnly( arcsine, 'kurtosis', require( './../../../../base/dists/arcsine/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -79,7 +79,7 @@ setReadOnly( arcsine, 'kurtosis', require( '@stdlib/stats/base/dists/arcsine/kur
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/arcsine/logcdf}
 */
-setReadOnly( arcsine, 'logcdf', require( '@stdlib/stats/base/dists/arcsine/logcdf' ) );
+setReadOnly( arcsine, 'logcdf', require( './../../../../base/dists/arcsine/logcdf' ) );
 
 /**
 * @name logpdf
@@ -88,7 +88,7 @@ setReadOnly( arcsine, 'logcdf', require( '@stdlib/stats/base/dists/arcsine/logcd
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/arcsine/logpdf}
 */
-setReadOnly( arcsine, 'logpdf', require( '@stdlib/stats/base/dists/arcsine/logpdf' ) );
+setReadOnly( arcsine, 'logpdf', require( './../../../../base/dists/arcsine/logpdf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( arcsine, 'logpdf', require( '@stdlib/stats/base/dists/arcsine/logpd
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/arcsine/mean}
 */
-setReadOnly( arcsine, 'mean', require( '@stdlib/stats/base/dists/arcsine/mean' ) );
+setReadOnly( arcsine, 'mean', require( './../../../../base/dists/arcsine/mean' ) );
 
 /**
 * @name median
@@ -106,7 +106,7 @@ setReadOnly( arcsine, 'mean', require( '@stdlib/stats/base/dists/arcsine/mean' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/arcsine/median}
 */
-setReadOnly( arcsine, 'median', require( '@stdlib/stats/base/dists/arcsine/median' ) );
+setReadOnly( arcsine, 'median', require( './../../../../base/dists/arcsine/median' ) );
 
 /**
 * @name mode
@@ -115,7 +115,7 @@ setReadOnly( arcsine, 'median', require( '@stdlib/stats/base/dists/arcsine/media
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/arcsine/mode}
 */
-setReadOnly( arcsine, 'mode', require( '@stdlib/stats/base/dists/arcsine/mode' ) );
+setReadOnly( arcsine, 'mode', require( './../../../../base/dists/arcsine/mode' ) );
 
 /**
 * @name pdf
@@ -124,7 +124,7 @@ setReadOnly( arcsine, 'mode', require( '@stdlib/stats/base/dists/arcsine/mode' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/arcsine/pdf}
 */
-setReadOnly( arcsine, 'pdf', require( '@stdlib/stats/base/dists/arcsine/pdf' ) );
+setReadOnly( arcsine, 'pdf', require( './../../../../base/dists/arcsine/pdf' ) );
 
 /**
 * @name quantile
@@ -133,7 +133,7 @@ setReadOnly( arcsine, 'pdf', require( '@stdlib/stats/base/dists/arcsine/pdf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/arcsine/quantile}
 */
-setReadOnly( arcsine, 'quantile', require( '@stdlib/stats/base/dists/arcsine/quantile' ) );
+setReadOnly( arcsine, 'quantile', require( './../../../../base/dists/arcsine/quantile' ) );
 
 /**
 * @name skewness
@@ -142,7 +142,7 @@ setReadOnly( arcsine, 'quantile', require( '@stdlib/stats/base/dists/arcsine/qua
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/arcsine/skewness}
 */
-setReadOnly( arcsine, 'skewness', require( '@stdlib/stats/base/dists/arcsine/skewness' ) );
+setReadOnly( arcsine, 'skewness', require( './../../../../base/dists/arcsine/skewness' ) );
 
 /**
 * @name stdev
@@ -151,7 +151,7 @@ setReadOnly( arcsine, 'skewness', require( '@stdlib/stats/base/dists/arcsine/ske
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/arcsine/stdev}
 */
-setReadOnly( arcsine, 'stdev', require( '@stdlib/stats/base/dists/arcsine/stdev' ) );
+setReadOnly( arcsine, 'stdev', require( './../../../../base/dists/arcsine/stdev' ) );
 
 /**
 * @name variance
@@ -160,7 +160,7 @@ setReadOnly( arcsine, 'stdev', require( '@stdlib/stats/base/dists/arcsine/stdev'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/arcsine/variance}
 */
-setReadOnly( arcsine, 'variance', require( '@stdlib/stats/base/dists/arcsine/variance' ) );
+setReadOnly( arcsine, 'variance', require( './../../../../base/dists/arcsine/variance' ) );
 
 
 // EXPORTS //

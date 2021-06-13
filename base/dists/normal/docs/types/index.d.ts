@@ -21,20 +21,20 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/normal/cdf' );
-import Normal = require( '@stdlib/stats/base/dists/normal/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/normal/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/normal/kurtosis' );
-import logpdf = require( '@stdlib/stats/base/dists/normal/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/normal/mean' );
-import median = require( '@stdlib/stats/base/dists/normal/median' );
-import mgf = require( '@stdlib/stats/base/dists/normal/mgf' );
-import mode = require( '@stdlib/stats/base/dists/normal/mode' );
-import pdf = require( '@stdlib/stats/base/dists/normal/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/normal/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/normal/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/normal/stdev' );
-import variance = require( '@stdlib/stats/base/dists/normal/variance' );
+import cdf = require( './../../../../../base/dists/normal/cdf' );
+import Normal = require( './../../../../../base/dists/normal/ctor' );
+import entropy = require( './../../../../../base/dists/normal/entropy' );
+import kurtosis = require( './../../../../../base/dists/normal/kurtosis' );
+import logpdf = require( './../../../../../base/dists/normal/logpdf' );
+import mean = require( './../../../../../base/dists/normal/mean' );
+import median = require( './../../../../../base/dists/normal/median' );
+import mgf = require( './../../../../../base/dists/normal/mgf' );
+import mode = require( './../../../../../base/dists/normal/mode' );
+import pdf = require( './../../../../../base/dists/normal/pdf' );
+import quantile = require( './../../../../../base/dists/normal/quantile' );
+import skewness = require( './../../../../../base/dists/normal/skewness' );
+import stdev = require( './../../../../../base/dists/normal/stdev' );
+import variance = require( './../../../../../base/dists/normal/variance' );
 
 /**
 * Interface describing the `normal` namespace.

@@ -21,21 +21,21 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/geometric/cdf' );
-import Geometric = require( '@stdlib/stats/base/dists/geometric/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/geometric/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/geometric/kurtosis' );
-import logcdf = require( '@stdlib/stats/base/dists/geometric/logcdf' );
-import logpmf = require( '@stdlib/stats/base/dists/geometric/logpmf' );
-import mean = require( '@stdlib/stats/base/dists/geometric/mean' );
-import median = require( '@stdlib/stats/base/dists/geometric/median' );
-import mgf = require( '@stdlib/stats/base/dists/geometric/mgf' );
-import mode = require( '@stdlib/stats/base/dists/geometric/mode' );
-import pmf = require( '@stdlib/stats/base/dists/geometric/pmf' );
-import quantile = require( '@stdlib/stats/base/dists/geometric/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/geometric/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/geometric/stdev' );
-import variance = require( '@stdlib/stats/base/dists/geometric/variance' );
+import cdf = require( './../../../../../base/dists/geometric/cdf' );
+import Geometric = require( './../../../../../base/dists/geometric/ctor' );
+import entropy = require( './../../../../../base/dists/geometric/entropy' );
+import kurtosis = require( './../../../../../base/dists/geometric/kurtosis' );
+import logcdf = require( './../../../../../base/dists/geometric/logcdf' );
+import logpmf = require( './../../../../../base/dists/geometric/logpmf' );
+import mean = require( './../../../../../base/dists/geometric/mean' );
+import median = require( './../../../../../base/dists/geometric/median' );
+import mgf = require( './../../../../../base/dists/geometric/mgf' );
+import mode = require( './../../../../../base/dists/geometric/mode' );
+import pmf = require( './../../../../../base/dists/geometric/pmf' );
+import quantile = require( './../../../../../base/dists/geometric/quantile' );
+import skewness = require( './../../../../../base/dists/geometric/skewness' );
+import stdev = require( './../../../../../base/dists/geometric/stdev' );
+import variance = require( './../../../../../base/dists/geometric/variance' );
 
 /**
 * Interface describing the `geometric` namespace.

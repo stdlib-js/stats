@@ -43,7 +43,7 @@ var frechet = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/frechet/cdf}
 */
-setReadOnly( frechet, 'cdf', require( '@stdlib/stats/base/dists/frechet/cdf' ) );
+setReadOnly( frechet, 'cdf', require( './../../../../base/dists/frechet/cdf' ) );
 
 /**
 * @name Frechet
@@ -52,7 +52,7 @@ setReadOnly( frechet, 'cdf', require( '@stdlib/stats/base/dists/frechet/cdf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/frechet/ctor}
 */
-setReadOnly( frechet, 'Frechet', require( '@stdlib/stats/base/dists/frechet/ctor' ) );
+setReadOnly( frechet, 'Frechet', require( './../../../../base/dists/frechet/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( frechet, 'Frechet', require( '@stdlib/stats/base/dists/frechet/ctor
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/frechet/entropy}
 */
-setReadOnly( frechet, 'entropy', require( '@stdlib/stats/base/dists/frechet/entropy' ) );
+setReadOnly( frechet, 'entropy', require( './../../../../base/dists/frechet/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( frechet, 'entropy', require( '@stdlib/stats/base/dists/frechet/entr
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/frechet/kurtosis}
 */
-setReadOnly( frechet, 'kurtosis', require( '@stdlib/stats/base/dists/frechet/kurtosis' ) );
+setReadOnly( frechet, 'kurtosis', require( './../../../../base/dists/frechet/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -79,7 +79,7 @@ setReadOnly( frechet, 'kurtosis', require( '@stdlib/stats/base/dists/frechet/kur
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/frechet/logcdf}
 */
-setReadOnly( frechet, 'logcdf', require( '@stdlib/stats/base/dists/frechet/logcdf' ) );
+setReadOnly( frechet, 'logcdf', require( './../../../../base/dists/frechet/logcdf' ) );
 
 /**
 * @name logpdf
@@ -88,7 +88,7 @@ setReadOnly( frechet, 'logcdf', require( '@stdlib/stats/base/dists/frechet/logcd
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/frechet/logpdf}
 */
-setReadOnly( frechet, 'logpdf', require( '@stdlib/stats/base/dists/frechet/logpdf' ) );
+setReadOnly( frechet, 'logpdf', require( './../../../../base/dists/frechet/logpdf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( frechet, 'logpdf', require( '@stdlib/stats/base/dists/frechet/logpd
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/frechet/mean}
 */
-setReadOnly( frechet, 'mean', require( '@stdlib/stats/base/dists/frechet/mean' ) );
+setReadOnly( frechet, 'mean', require( './../../../../base/dists/frechet/mean' ) );
 
 /**
 * @name median
@@ -106,7 +106,7 @@ setReadOnly( frechet, 'mean', require( '@stdlib/stats/base/dists/frechet/mean' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/frechet/median}
 */
-setReadOnly( frechet, 'median', require( '@stdlib/stats/base/dists/frechet/median' ) );
+setReadOnly( frechet, 'median', require( './../../../../base/dists/frechet/median' ) );
 
 /**
 * @name mode
@@ -115,7 +115,7 @@ setReadOnly( frechet, 'median', require( '@stdlib/stats/base/dists/frechet/media
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/frechet/mode}
 */
-setReadOnly( frechet, 'mode', require( '@stdlib/stats/base/dists/frechet/mode' ) );
+setReadOnly( frechet, 'mode', require( './../../../../base/dists/frechet/mode' ) );
 
 /**
 * @name pdf
@@ -124,7 +124,7 @@ setReadOnly( frechet, 'mode', require( '@stdlib/stats/base/dists/frechet/mode' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/frechet/pdf}
 */
-setReadOnly( frechet, 'pdf', require( '@stdlib/stats/base/dists/frechet/pdf' ) );
+setReadOnly( frechet, 'pdf', require( './../../../../base/dists/frechet/pdf' ) );
 
 /**
 * @name quantile
@@ -133,7 +133,7 @@ setReadOnly( frechet, 'pdf', require( '@stdlib/stats/base/dists/frechet/pdf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/frechet/quantile}
 */
-setReadOnly( frechet, 'quantile', require( '@stdlib/stats/base/dists/frechet/quantile' ) );
+setReadOnly( frechet, 'quantile', require( './../../../../base/dists/frechet/quantile' ) );
 
 /**
 * @name skewness
@@ -142,7 +142,7 @@ setReadOnly( frechet, 'quantile', require( '@stdlib/stats/base/dists/frechet/qua
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/frechet/skewness}
 */
-setReadOnly( frechet, 'skewness', require( '@stdlib/stats/base/dists/frechet/skewness' ) );
+setReadOnly( frechet, 'skewness', require( './../../../../base/dists/frechet/skewness' ) );
 
 /**
 * @name stdev
@@ -151,7 +151,7 @@ setReadOnly( frechet, 'skewness', require( '@stdlib/stats/base/dists/frechet/ske
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/frechet/stdev}
 */
-setReadOnly( frechet, 'stdev', require( '@stdlib/stats/base/dists/frechet/stdev' ) );
+setReadOnly( frechet, 'stdev', require( './../../../../base/dists/frechet/stdev' ) );
 
 /**
 * @name variance
@@ -160,7 +160,7 @@ setReadOnly( frechet, 'stdev', require( '@stdlib/stats/base/dists/frechet/stdev'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/frechet/variance}
 */
-setReadOnly( frechet, 'variance', require( '@stdlib/stats/base/dists/frechet/variance' ) );
+setReadOnly( frechet, 'variance', require( './../../../../base/dists/frechet/variance' ) );
 
 
 // EXPORTS //

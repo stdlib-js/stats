@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dsmeanpn = require( '@stdlib/stats/base/dsmeanpn' ).ndarray;
+var dsmeanpn = require( './../../../base/dsmeanpn' ).ndarray;
 
 
 // MAIN //

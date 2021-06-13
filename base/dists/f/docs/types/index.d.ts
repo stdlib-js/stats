@@ -21,17 +21,17 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/f/cdf' );
-import F = require( '@stdlib/stats/base/dists/f/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/f/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/f/kurtosis' );
-import mean = require( '@stdlib/stats/base/dists/f/mean' );
-import mode = require( '@stdlib/stats/base/dists/f/mode' );
-import pdf = require( '@stdlib/stats/base/dists/f/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/f/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/f/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/f/stdev' );
-import variance = require( '@stdlib/stats/base/dists/f/variance' );
+import cdf = require( './../../../../../base/dists/f/cdf' );
+import F = require( './../../../../../base/dists/f/ctor' );
+import entropy = require( './../../../../../base/dists/f/entropy' );
+import kurtosis = require( './../../../../../base/dists/f/kurtosis' );
+import mean = require( './../../../../../base/dists/f/mean' );
+import mode = require( './../../../../../base/dists/f/mode' );
+import pdf = require( './../../../../../base/dists/f/pdf' );
+import quantile = require( './../../../../../base/dists/f/quantile' );
+import skewness = require( './../../../../../base/dists/f/skewness' );
+import stdev = require( './../../../../../base/dists/f/stdev' );
+import variance = require( './../../../../../base/dists/f/variance' );
 
 /**
 * Interface describing the `f` namespace.

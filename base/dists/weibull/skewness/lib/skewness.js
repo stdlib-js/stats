@@ -21,10 +21,10 @@
 // MODULES //
 
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var variance = require( '@stdlib/stats/base/dists/weibull/variance' );
+var variance = require( './../../../../../base/dists/weibull/variance' );
 var gamma = require( '@stdlib/math/base/special/gamma' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var mean = require( '@stdlib/stats/base/dists/weibull/mean' );
+var mean = require( './../../../../../base/dists/weibull/mean' );
 var pow = require( '@stdlib/math/base/special/pow' );
 
 

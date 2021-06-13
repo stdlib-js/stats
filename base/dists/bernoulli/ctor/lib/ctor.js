@@ -26,18 +26,18 @@ var defineProperty = require( '@stdlib/utils/define-property' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isProbability = require( '@stdlib/assert/is-probability' ).isPrimitive;
-var entropy = require( '@stdlib/stats/base/dists/bernoulli/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/bernoulli/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/bernoulli/mean' );
-var mode = require( '@stdlib/stats/base/dists/bernoulli/mode' );
-var median = require( '@stdlib/stats/base/dists/bernoulli/median' );
-var skewness = require( '@stdlib/stats/base/dists/bernoulli/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/bernoulli/stdev' );
-var variance = require( '@stdlib/stats/base/dists/bernoulli/variance' );
-var cdf = require( '@stdlib/stats/base/dists/bernoulli/cdf' );
-var mgf = require( '@stdlib/stats/base/dists/bernoulli/mgf' );
-var pmf = require( '@stdlib/stats/base/dists/bernoulli/pmf' );
-var quantile = require( '@stdlib/stats/base/dists/bernoulli/quantile' );
+var entropy = require( './../../../../../base/dists/bernoulli/entropy' );
+var kurtosis = require( './../../../../../base/dists/bernoulli/kurtosis' );
+var mean = require( './../../../../../base/dists/bernoulli/mean' );
+var mode = require( './../../../../../base/dists/bernoulli/mode' );
+var median = require( './../../../../../base/dists/bernoulli/median' );
+var skewness = require( './../../../../../base/dists/bernoulli/skewness' );
+var stdev = require( './../../../../../base/dists/bernoulli/stdev' );
+var variance = require( './../../../../../base/dists/bernoulli/variance' );
+var cdf = require( './../../../../../base/dists/bernoulli/cdf' );
+var mgf = require( './../../../../../base/dists/bernoulli/mgf' );
+var pmf = require( './../../../../../base/dists/bernoulli/pmf' );
+var quantile = require( './../../../../../base/dists/bernoulli/quantile' );
 
 
 // FUNCTIONS //

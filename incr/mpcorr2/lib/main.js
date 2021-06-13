@@ -22,7 +22,7 @@
 
 var isPositiveInteger = require( '@stdlib/assert/is-positive-integer' ).isPrimitive;
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
-var incrmpcorr = require( '@stdlib/stats/incr/mpcorr' );
+var incrmpcorr = require( './../../../incr/mpcorr' );
 
 
 // MAIN //

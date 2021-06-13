@@ -26,7 +26,7 @@ var randu = require( '@stdlib/random/base/randu' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
-var cdf = require( '@stdlib/stats/base/dists/gamma/cdf' );
+var cdf = require( './../../../../../base/dists/gamma/cdf' );
 var ln = require( '@stdlib/math/base/special/ln' );
 var logcdf = require( './../lib/logcdf.js' );
 

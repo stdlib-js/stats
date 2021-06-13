@@ -22,7 +22,7 @@
 
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
-var uniformCDF = require( '@stdlib/stats/base/dists/uniform/cdf' );
+var uniformCDF = require( './../../base/dists/uniform/cdf' );
 var isObject = require( '@stdlib/assert/is-object' );
 var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
 var ascending = require( './../lib/ascending.js' );

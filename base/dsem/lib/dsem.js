@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dsempn = require( '@stdlib/stats/base/dsempn' );
+var dsempn = require( './../../../base/dsempn' );
 
 
 // MAIN //

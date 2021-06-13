@@ -23,17 +23,17 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/levy/quantile' );
-var logcdf = require( '@stdlib/stats/base/dists/levy/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/levy/logpdf' );
-var cdf = require( '@stdlib/stats/base/dists/levy/cdf' );
-var pdf = require( '@stdlib/stats/base/dists/levy/pdf' );
-var variance = require( '@stdlib/stats/base/dists/levy/variance' );
-var entropy = require( '@stdlib/stats/base/dists/levy/entropy' );
-var stdev = require( '@stdlib/stats/base/dists/levy/stdev' );
-var median = require( '@stdlib/stats/base/dists/levy/median' );
-var mode = require( '@stdlib/stats/base/dists/levy/mode' );
-var mean = require( '@stdlib/stats/base/dists/levy/mean' );
+var quantile = require( './../../../../../base/dists/levy/quantile' );
+var logcdf = require( './../../../../../base/dists/levy/logcdf' );
+var logpdf = require( './../../../../../base/dists/levy/logpdf' );
+var cdf = require( './../../../../../base/dists/levy/cdf' );
+var pdf = require( './../../../../../base/dists/levy/pdf' );
+var variance = require( './../../../../../base/dists/levy/variance' );
+var entropy = require( './../../../../../base/dists/levy/entropy' );
+var stdev = require( './../../../../../base/dists/levy/stdev' );
+var median = require( './../../../../../base/dists/levy/median' );
+var mode = require( './../../../../../base/dists/levy/mode' );
+var mean = require( './../../../../../base/dists/levy/mean' );
 var Levy = require( './../lib' );
 
 

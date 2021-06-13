@@ -21,7 +21,7 @@
 // MODULES //
 
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var incrsumabs2 = require( '@stdlib/stats/incr/sumabs2' );
+var incrsumabs2 = require( './../../../incr/sumabs2' );
 
 
 // MAIN //

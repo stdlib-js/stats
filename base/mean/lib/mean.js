@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var meanpn = require( '@stdlib/stats/base/meanpn' );
+var meanpn = require( './../../../base/meanpn' );
 
 
 // MAIN //

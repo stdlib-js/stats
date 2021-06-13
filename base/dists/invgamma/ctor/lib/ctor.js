@@ -26,17 +26,17 @@ var defineProperty = require( '@stdlib/utils/define-property' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
-var entropy = require( '@stdlib/stats/base/dists/invgamma/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/invgamma/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/invgamma/mean' );
-var mode = require( '@stdlib/stats/base/dists/invgamma/mode' );
-var quantile = require( '@stdlib/stats/base/dists/invgamma/quantile' );
-var logpdf = require( '@stdlib/stats/base/dists/invgamma/logpdf' );
-var skewness = require( '@stdlib/stats/base/dists/invgamma/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/invgamma/stdev' );
-var variance = require( '@stdlib/stats/base/dists/invgamma/variance' );
-var cdf = require( '@stdlib/stats/base/dists/invgamma/cdf' );
-var pdf = require( '@stdlib/stats/base/dists/invgamma/pdf' );
+var entropy = require( './../../../../../base/dists/invgamma/entropy' );
+var kurtosis = require( './../../../../../base/dists/invgamma/kurtosis' );
+var mean = require( './../../../../../base/dists/invgamma/mean' );
+var mode = require( './../../../../../base/dists/invgamma/mode' );
+var quantile = require( './../../../../../base/dists/invgamma/quantile' );
+var logpdf = require( './../../../../../base/dists/invgamma/logpdf' );
+var skewness = require( './../../../../../base/dists/invgamma/skewness' );
+var stdev = require( './../../../../../base/dists/invgamma/stdev' );
+var variance = require( './../../../../../base/dists/invgamma/variance' );
+var cdf = require( './../../../../../base/dists/invgamma/cdf' );
+var pdf = require( './../../../../../base/dists/invgamma/pdf' );
 
 
 // FUNCTIONS //

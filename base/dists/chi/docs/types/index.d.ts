@@ -21,18 +21,18 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/chi/cdf' );
-import Chi = require( '@stdlib/stats/base/dists/chi/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/chi/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/chi/kurtosis' );
-import logpdf = require( '@stdlib/stats/base/dists/chi/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/chi/mean' );
-import mode = require( '@stdlib/stats/base/dists/chi/mode' );
-import pdf = require( '@stdlib/stats/base/dists/chi/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/chi/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/chi/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/chi/stdev' );
-import variance = require( '@stdlib/stats/base/dists/chi/variance' );
+import cdf = require( './../../../../../base/dists/chi/cdf' );
+import Chi = require( './../../../../../base/dists/chi/ctor' );
+import entropy = require( './../../../../../base/dists/chi/entropy' );
+import kurtosis = require( './../../../../../base/dists/chi/kurtosis' );
+import logpdf = require( './../../../../../base/dists/chi/logpdf' );
+import mean = require( './../../../../../base/dists/chi/mean' );
+import mode = require( './../../../../../base/dists/chi/mode' );
+import pdf = require( './../../../../../base/dists/chi/pdf' );
+import quantile = require( './../../../../../base/dists/chi/quantile' );
+import skewness = require( './../../../../../base/dists/chi/skewness' );
+import stdev = require( './../../../../../base/dists/chi/stdev' );
+import variance = require( './../../../../../base/dists/chi/variance' );
 
 /**
 * Interface describing the `chi` namespace.

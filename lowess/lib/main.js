@@ -22,7 +22,7 @@
 
 var isNumberArray = require( '@stdlib/assert/is-number-array' ).primitives;
 var isTypedArrayLike = require( '@stdlib/assert/is-typed-array-like' );
-var range = require( '@stdlib/stats/base/range' );
+var range = require( './../../base/range' );
 var lowess = require( './lowess.js' );
 var validate = require( './validate.js' );
 

@@ -28,19 +28,19 @@ var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var entropy = require( '@stdlib/stats/base/dists/frechet/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/frechet/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/frechet/mean' );
-var median = require( '@stdlib/stats/base/dists/frechet/median' );
-var mode = require( '@stdlib/stats/base/dists/frechet/mode' );
-var skewness = require( '@stdlib/stats/base/dists/frechet/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/frechet/stdev' );
-var variance = require( '@stdlib/stats/base/dists/frechet/variance' );
-var cdf = require( '@stdlib/stats/base/dists/frechet/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/frechet/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/frechet/logpdf' );
-var pdf = require( '@stdlib/stats/base/dists/frechet/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/frechet/quantile' );
+var entropy = require( './../../../../../base/dists/frechet/entropy' );
+var kurtosis = require( './../../../../../base/dists/frechet/kurtosis' );
+var mean = require( './../../../../../base/dists/frechet/mean' );
+var median = require( './../../../../../base/dists/frechet/median' );
+var mode = require( './../../../../../base/dists/frechet/mode' );
+var skewness = require( './../../../../../base/dists/frechet/skewness' );
+var stdev = require( './../../../../../base/dists/frechet/stdev' );
+var variance = require( './../../../../../base/dists/frechet/variance' );
+var cdf = require( './../../../../../base/dists/frechet/cdf' );
+var logcdf = require( './../../../../../base/dists/frechet/logcdf' );
+var logpdf = require( './../../../../../base/dists/frechet/logpdf' );
+var pdf = require( './../../../../../base/dists/frechet/pdf' );
+var quantile = require( './../../../../../base/dists/frechet/quantile' );
 
 
 // FUNCTIONS //

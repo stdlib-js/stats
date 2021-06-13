@@ -26,7 +26,7 @@ var isPositiveInteger = require( '@stdlib/assert/is-positive-integer' ).isPrimit
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var incrmminabs = require( '@stdlib/stats/incr/mminabs' );
+var incrmminabs = require( './../../../incr/mminabs' );
 
 
 // MAIN //

@@ -43,7 +43,7 @@ var poisson = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/poisson/cdf}
 */
-setReadOnly( poisson, 'cdf', require( '@stdlib/stats/base/dists/poisson/cdf' ) );
+setReadOnly( poisson, 'cdf', require( './../../../../base/dists/poisson/cdf' ) );
 
 /**
 * @name Poisson
@@ -52,7 +52,7 @@ setReadOnly( poisson, 'cdf', require( '@stdlib/stats/base/dists/poisson/cdf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/poisson/ctor}
 */
-setReadOnly( poisson, 'Poisson', require( '@stdlib/stats/base/dists/poisson/ctor' ) );
+setReadOnly( poisson, 'Poisson', require( './../../../../base/dists/poisson/ctor' ) );
 
 /**
 * @name kurtosis
@@ -61,7 +61,7 @@ setReadOnly( poisson, 'Poisson', require( '@stdlib/stats/base/dists/poisson/ctor
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/poisson/kurtosis}
 */
-setReadOnly( poisson, 'kurtosis', require( '@stdlib/stats/base/dists/poisson/kurtosis' ) );
+setReadOnly( poisson, 'kurtosis', require( './../../../../base/dists/poisson/kurtosis' ) );
 
 /**
 * @name logpmf
@@ -70,7 +70,7 @@ setReadOnly( poisson, 'kurtosis', require( '@stdlib/stats/base/dists/poisson/kur
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/poisson/logpmf}
 */
-setReadOnly( poisson, 'logpmf', require( '@stdlib/stats/base/dists/poisson/logpmf' ) );
+setReadOnly( poisson, 'logpmf', require( './../../../../base/dists/poisson/logpmf' ) );
 
 /**
 * @name mean
@@ -79,7 +79,7 @@ setReadOnly( poisson, 'logpmf', require( '@stdlib/stats/base/dists/poisson/logpm
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/poisson/mean}
 */
-setReadOnly( poisson, 'mean', require( '@stdlib/stats/base/dists/poisson/mean' ) );
+setReadOnly( poisson, 'mean', require( './../../../../base/dists/poisson/mean' ) );
 
 /**
 * @name median
@@ -88,7 +88,7 @@ setReadOnly( poisson, 'mean', require( '@stdlib/stats/base/dists/poisson/mean' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/poisson/median}
 */
-setReadOnly( poisson, 'median', require( '@stdlib/stats/base/dists/poisson/median' ) );
+setReadOnly( poisson, 'median', require( './../../../../base/dists/poisson/median' ) );
 
 /**
 * @name mgf
@@ -97,7 +97,7 @@ setReadOnly( poisson, 'median', require( '@stdlib/stats/base/dists/poisson/media
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/poisson/mgf}
 */
-setReadOnly( poisson, 'mgf', require( '@stdlib/stats/base/dists/poisson/mgf' ) );
+setReadOnly( poisson, 'mgf', require( './../../../../base/dists/poisson/mgf' ) );
 
 /**
 * @name mode
@@ -106,7 +106,7 @@ setReadOnly( poisson, 'mgf', require( '@stdlib/stats/base/dists/poisson/mgf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/poisson/mode}
 */
-setReadOnly( poisson, 'mode', require( '@stdlib/stats/base/dists/poisson/mode' ) );
+setReadOnly( poisson, 'mode', require( './../../../../base/dists/poisson/mode' ) );
 
 /**
 * @name pmf
@@ -115,7 +115,7 @@ setReadOnly( poisson, 'mode', require( '@stdlib/stats/base/dists/poisson/mode' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/poisson/pmf}
 */
-setReadOnly( poisson, 'pmf', require( '@stdlib/stats/base/dists/poisson/pmf' ) );
+setReadOnly( poisson, 'pmf', require( './../../../../base/dists/poisson/pmf' ) );
 
 /**
 * @name quantile
@@ -124,7 +124,7 @@ setReadOnly( poisson, 'pmf', require( '@stdlib/stats/base/dists/poisson/pmf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/poisson/quantile}
 */
-setReadOnly( poisson, 'quantile', require( '@stdlib/stats/base/dists/poisson/quantile' ) );
+setReadOnly( poisson, 'quantile', require( './../../../../base/dists/poisson/quantile' ) );
 
 /**
 * @name skewness
@@ -133,7 +133,7 @@ setReadOnly( poisson, 'quantile', require( '@stdlib/stats/base/dists/poisson/qua
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/poisson/skewness}
 */
-setReadOnly( poisson, 'skewness', require( '@stdlib/stats/base/dists/poisson/skewness' ) );
+setReadOnly( poisson, 'skewness', require( './../../../../base/dists/poisson/skewness' ) );
 
 /**
 * @name stdev
@@ -142,7 +142,7 @@ setReadOnly( poisson, 'skewness', require( '@stdlib/stats/base/dists/poisson/ske
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/poisson/stdev}
 */
-setReadOnly( poisson, 'stdev', require( '@stdlib/stats/base/dists/poisson/stdev' ) );
+setReadOnly( poisson, 'stdev', require( './../../../../base/dists/poisson/stdev' ) );
 
 /**
 * @name variance
@@ -151,7 +151,7 @@ setReadOnly( poisson, 'stdev', require( '@stdlib/stats/base/dists/poisson/stdev'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/poisson/variance}
 */
-setReadOnly( poisson, 'variance', require( '@stdlib/stats/base/dists/poisson/variance' ) );
+setReadOnly( poisson, 'variance', require( './../../../../base/dists/poisson/variance' ) );
 
 
 // EXPORTS //

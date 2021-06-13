@@ -43,7 +43,7 @@ var binomial = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/binomial/cdf}
 */
-setReadOnly( binomial, 'cdf', require( '@stdlib/stats/base/dists/binomial/cdf' ) );
+setReadOnly( binomial, 'cdf', require( './../../../../base/dists/binomial/cdf' ) );
 
 /**
 * @name Binomial
@@ -52,7 +52,7 @@ setReadOnly( binomial, 'cdf', require( '@stdlib/stats/base/dists/binomial/cdf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/binomial/ctor}
 */
-setReadOnly( binomial, 'Binomial', require( '@stdlib/stats/base/dists/binomial/ctor' ) );
+setReadOnly( binomial, 'Binomial', require( './../../../../base/dists/binomial/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( binomial, 'Binomial', require( '@stdlib/stats/base/dists/binomial/c
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/binomial/entropy}
 */
-setReadOnly( binomial, 'entropy', require( '@stdlib/stats/base/dists/binomial/entropy' ) );
+setReadOnly( binomial, 'entropy', require( './../../../../base/dists/binomial/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( binomial, 'entropy', require( '@stdlib/stats/base/dists/binomial/en
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/binomial/kurtosis}
 */
-setReadOnly( binomial, 'kurtosis', require( '@stdlib/stats/base/dists/binomial/kurtosis' ) );
+setReadOnly( binomial, 'kurtosis', require( './../../../../base/dists/binomial/kurtosis' ) );
 
 /**
 * @name logpmf
@@ -79,7 +79,7 @@ setReadOnly( binomial, 'kurtosis', require( '@stdlib/stats/base/dists/binomial/k
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/binomial/logpmf}
 */
-setReadOnly( binomial, 'logpmf', require( '@stdlib/stats/base/dists/binomial/logpmf' ) );
+setReadOnly( binomial, 'logpmf', require( './../../../../base/dists/binomial/logpmf' ) );
 
 /**
 * @name mean
@@ -88,7 +88,7 @@ setReadOnly( binomial, 'logpmf', require( '@stdlib/stats/base/dists/binomial/log
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/binomial/mean}
 */
-setReadOnly( binomial, 'mean', require( '@stdlib/stats/base/dists/binomial/mean' ) );
+setReadOnly( binomial, 'mean', require( './../../../../base/dists/binomial/mean' ) );
 
 /**
 * @name median
@@ -97,7 +97,7 @@ setReadOnly( binomial, 'mean', require( '@stdlib/stats/base/dists/binomial/mean'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/binomial/median}
 */
-setReadOnly( binomial, 'median', require( '@stdlib/stats/base/dists/binomial/median' ) );
+setReadOnly( binomial, 'median', require( './../../../../base/dists/binomial/median' ) );
 
 /**
 * @name mgf
@@ -106,7 +106,7 @@ setReadOnly( binomial, 'median', require( '@stdlib/stats/base/dists/binomial/med
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/binomial/mgf}
 */
-setReadOnly( binomial, 'mgf', require( '@stdlib/stats/base/dists/binomial/mgf' ) );
+setReadOnly( binomial, 'mgf', require( './../../../../base/dists/binomial/mgf' ) );
 
 /**
 * @name mode
@@ -115,7 +115,7 @@ setReadOnly( binomial, 'mgf', require( '@stdlib/stats/base/dists/binomial/mgf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/binomial/mode}
 */
-setReadOnly( binomial, 'mode', require( '@stdlib/stats/base/dists/binomial/mode' ) );
+setReadOnly( binomial, 'mode', require( './../../../../base/dists/binomial/mode' ) );
 
 /**
 * @name pmf
@@ -124,7 +124,7 @@ setReadOnly( binomial, 'mode', require( '@stdlib/stats/base/dists/binomial/mode'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/binomial/pmf}
 */
-setReadOnly( binomial, 'pmf', require( '@stdlib/stats/base/dists/binomial/pmf' ) );
+setReadOnly( binomial, 'pmf', require( './../../../../base/dists/binomial/pmf' ) );
 
 /**
 * @name quantile
@@ -133,7 +133,7 @@ setReadOnly( binomial, 'pmf', require( '@stdlib/stats/base/dists/binomial/pmf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/binomial/quantile}
 */
-setReadOnly( binomial, 'quantile', require( '@stdlib/stats/base/dists/binomial/quantile' ) );
+setReadOnly( binomial, 'quantile', require( './../../../../base/dists/binomial/quantile' ) );
 
 /**
 * @name skewness
@@ -142,7 +142,7 @@ setReadOnly( binomial, 'quantile', require( '@stdlib/stats/base/dists/binomial/q
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/binomial/skewness}
 */
-setReadOnly( binomial, 'skewness', require( '@stdlib/stats/base/dists/binomial/skewness' ) );
+setReadOnly( binomial, 'skewness', require( './../../../../base/dists/binomial/skewness' ) );
 
 /**
 * @name stdev
@@ -151,7 +151,7 @@ setReadOnly( binomial, 'skewness', require( '@stdlib/stats/base/dists/binomial/s
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/binomial/stdev}
 */
-setReadOnly( binomial, 'stdev', require( '@stdlib/stats/base/dists/binomial/stdev' ) );
+setReadOnly( binomial, 'stdev', require( './../../../../base/dists/binomial/stdev' ) );
 
 /**
 * @name variance
@@ -160,7 +160,7 @@ setReadOnly( binomial, 'stdev', require( '@stdlib/stats/base/dists/binomial/stde
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/binomial/variance}
 */
-setReadOnly( binomial, 'variance', require( '@stdlib/stats/base/dists/binomial/variance' ) );
+setReadOnly( binomial, 'variance', require( './../../../../base/dists/binomial/variance' ) );
 
 
 // EXPORTS //

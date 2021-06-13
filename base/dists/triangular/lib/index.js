@@ -43,7 +43,7 @@ var triangular = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/cdf}
 */
-setReadOnly( triangular, 'cdf', require( '@stdlib/stats/base/dists/triangular/cdf' ) );
+setReadOnly( triangular, 'cdf', require( './../../../../base/dists/triangular/cdf' ) );
 
 /**
 * @name Triangular
@@ -52,7 +52,7 @@ setReadOnly( triangular, 'cdf', require( '@stdlib/stats/base/dists/triangular/cd
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/ctor}
 */
-setReadOnly( triangular, 'Triangular', require( '@stdlib/stats/base/dists/triangular/ctor' ) );
+setReadOnly( triangular, 'Triangular', require( './../../../../base/dists/triangular/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( triangular, 'Triangular', require( '@stdlib/stats/base/dists/triang
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/entropy}
 */
-setReadOnly( triangular, 'entropy', require( '@stdlib/stats/base/dists/triangular/entropy' ) );
+setReadOnly( triangular, 'entropy', require( './../../../../base/dists/triangular/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( triangular, 'entropy', require( '@stdlib/stats/base/dists/triangula
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/kurtosis}
 */
-setReadOnly( triangular, 'kurtosis', require( '@stdlib/stats/base/dists/triangular/kurtosis' ) );
+setReadOnly( triangular, 'kurtosis', require( './../../../../base/dists/triangular/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -79,7 +79,7 @@ setReadOnly( triangular, 'kurtosis', require( '@stdlib/stats/base/dists/triangul
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/logcdf}
 */
-setReadOnly( triangular, 'logcdf', require( '@stdlib/stats/base/dists/triangular/logcdf' ) );
+setReadOnly( triangular, 'logcdf', require( './../../../../base/dists/triangular/logcdf' ) );
 
 /**
 * @name logpdf
@@ -88,7 +88,7 @@ setReadOnly( triangular, 'logcdf', require( '@stdlib/stats/base/dists/triangular
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/logpdf}
 */
-setReadOnly( triangular, 'logpdf', require( '@stdlib/stats/base/dists/triangular/logpdf' ) );
+setReadOnly( triangular, 'logpdf', require( './../../../../base/dists/triangular/logpdf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( triangular, 'logpdf', require( '@stdlib/stats/base/dists/triangular
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/mean}
 */
-setReadOnly( triangular, 'mean', require( '@stdlib/stats/base/dists/triangular/mean' ) );
+setReadOnly( triangular, 'mean', require( './../../../../base/dists/triangular/mean' ) );
 
 /**
 * @name median
@@ -106,7 +106,7 @@ setReadOnly( triangular, 'mean', require( '@stdlib/stats/base/dists/triangular/m
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/median}
 */
-setReadOnly( triangular, 'median', require( '@stdlib/stats/base/dists/triangular/median' ) );
+setReadOnly( triangular, 'median', require( './../../../../base/dists/triangular/median' ) );
 
 /**
 * @name mgf
@@ -115,7 +115,7 @@ setReadOnly( triangular, 'median', require( '@stdlib/stats/base/dists/triangular
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/mgf}
 */
-setReadOnly( triangular, 'mgf', require( '@stdlib/stats/base/dists/triangular/mgf' ) );
+setReadOnly( triangular, 'mgf', require( './../../../../base/dists/triangular/mgf' ) );
 
 /**
 * @name mode
@@ -124,7 +124,7 @@ setReadOnly( triangular, 'mgf', require( '@stdlib/stats/base/dists/triangular/mg
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/mode}
 */
-setReadOnly( triangular, 'mode', require( '@stdlib/stats/base/dists/triangular/mode' ) );
+setReadOnly( triangular, 'mode', require( './../../../../base/dists/triangular/mode' ) );
 
 /**
 * @name pdf
@@ -133,7 +133,7 @@ setReadOnly( triangular, 'mode', require( '@stdlib/stats/base/dists/triangular/m
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/pdf}
 */
-setReadOnly( triangular, 'pdf', require( '@stdlib/stats/base/dists/triangular/pdf' ) );
+setReadOnly( triangular, 'pdf', require( './../../../../base/dists/triangular/pdf' ) );
 
 /**
 * @name quantile
@@ -142,7 +142,7 @@ setReadOnly( triangular, 'pdf', require( '@stdlib/stats/base/dists/triangular/pd
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/quantile}
 */
-setReadOnly( triangular, 'quantile', require( '@stdlib/stats/base/dists/triangular/quantile' ) );
+setReadOnly( triangular, 'quantile', require( './../../../../base/dists/triangular/quantile' ) );
 
 /**
 * @name skewness
@@ -151,7 +151,7 @@ setReadOnly( triangular, 'quantile', require( '@stdlib/stats/base/dists/triangul
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/skewness}
 */
-setReadOnly( triangular, 'skewness', require( '@stdlib/stats/base/dists/triangular/skewness' ) );
+setReadOnly( triangular, 'skewness', require( './../../../../base/dists/triangular/skewness' ) );
 
 /**
 * @name stdev
@@ -160,7 +160,7 @@ setReadOnly( triangular, 'skewness', require( '@stdlib/stats/base/dists/triangul
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/stdev}
 */
-setReadOnly( triangular, 'stdev', require( '@stdlib/stats/base/dists/triangular/stdev' ) );
+setReadOnly( triangular, 'stdev', require( './../../../../base/dists/triangular/stdev' ) );
 
 /**
 * @name variance
@@ -169,7 +169,7 @@ setReadOnly( triangular, 'stdev', require( '@stdlib/stats/base/dists/triangular/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/triangular/variance}
 */
-setReadOnly( triangular, 'variance', require( '@stdlib/stats/base/dists/triangular/variance' ) );
+setReadOnly( triangular, 'variance', require( './../../../../base/dists/triangular/variance' ) );
 
 
 // EXPORTS //

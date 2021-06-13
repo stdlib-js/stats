@@ -28,10 +28,10 @@ var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
 var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
 var isFunction = require( '@stdlib/assert/is-function' );
 var rnorm = require( '@stdlib/random/base/normal' );
-var incrmean = require( '@stdlib/stats/incr/mean' );
-var incrstdev = require( '@stdlib/stats/incr/stdev' );
-var incrmin = require( '@stdlib/stats/incr/min' );
-var incrmax = require( '@stdlib/stats/incr/max' );
+var incrmean = require( './../../../incr/mean' );
+var incrstdev = require( './../../../incr/stdev' );
+var incrmin = require( './../../../incr/min' );
+var incrmax = require( './../../../incr/max' );
 var VENUS_SEMIDIAMETERS = require( '@stdlib/datasets/herndon-venus-semidiameters' );
 var incrgrubbs = require( './../lib' );
 

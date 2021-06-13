@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dvariancepn = require( '@stdlib/stats/base/dvariancepn' ).ndarray;
+var dvariancepn = require( './../../../base/dvariancepn' ).ndarray;
 
 
 // MAIN //

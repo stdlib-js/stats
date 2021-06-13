@@ -21,9 +21,9 @@
 // MODULES //
 
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var skewness = require( '@stdlib/stats/base/dists/chi/skewness' );
-var variance = require( '@stdlib/stats/base/dists/chi/variance' );
-var mean = require( '@stdlib/stats/base/dists/chi/mean' );
+var skewness = require( './../../../../../base/dists/chi/skewness' );
+var variance = require( './../../../../../base/dists/chi/variance' );
+var mean = require( './../../../../../base/dists/chi/mean' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 
 

@@ -21,7 +21,7 @@
 // MODULES //
 
 var isNonNegativeInteger = require( '@stdlib/math/base/assert/is-nonnegative-integer' );
-var gammaCDF = require( '@stdlib/stats/base/dists/gamma/cdf' );
+var gammaCDF = require( './../../../../../base/dists/gamma/cdf' );
 
 
 // MAIN //

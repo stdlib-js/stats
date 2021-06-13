@@ -43,7 +43,7 @@ var logistic = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/cdf}
 */
-setReadOnly( logistic, 'cdf', require( '@stdlib/stats/base/dists/logistic/cdf' ) );
+setReadOnly( logistic, 'cdf', require( './../../../../base/dists/logistic/cdf' ) );
 
 /**
 * @name Logistic
@@ -52,7 +52,7 @@ setReadOnly( logistic, 'cdf', require( '@stdlib/stats/base/dists/logistic/cdf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/ctor}
 */
-setReadOnly( logistic, 'Logistic', require( '@stdlib/stats/base/dists/logistic/ctor' ) );
+setReadOnly( logistic, 'Logistic', require( './../../../../base/dists/logistic/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( logistic, 'Logistic', require( '@stdlib/stats/base/dists/logistic/c
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/entropy}
 */
-setReadOnly( logistic, 'entropy', require( '@stdlib/stats/base/dists/logistic/entropy' ) );
+setReadOnly( logistic, 'entropy', require( './../../../../base/dists/logistic/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( logistic, 'entropy', require( '@stdlib/stats/base/dists/logistic/en
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/kurtosis}
 */
-setReadOnly( logistic, 'kurtosis', require( '@stdlib/stats/base/dists/logistic/kurtosis' ) );
+setReadOnly( logistic, 'kurtosis', require( './../../../../base/dists/logistic/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -79,7 +79,7 @@ setReadOnly( logistic, 'kurtosis', require( '@stdlib/stats/base/dists/logistic/k
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/logcdf}
 */
-setReadOnly( logistic, 'logcdf', require( '@stdlib/stats/base/dists/logistic/logcdf' ) );
+setReadOnly( logistic, 'logcdf', require( './../../../../base/dists/logistic/logcdf' ) );
 
 /**
 * @name logpdf
@@ -88,7 +88,7 @@ setReadOnly( logistic, 'logcdf', require( '@stdlib/stats/base/dists/logistic/log
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/logpdf}
 */
-setReadOnly( logistic, 'logpdf', require( '@stdlib/stats/base/dists/logistic/logpdf' ) );
+setReadOnly( logistic, 'logpdf', require( './../../../../base/dists/logistic/logpdf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( logistic, 'logpdf', require( '@stdlib/stats/base/dists/logistic/log
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/mean}
 */
-setReadOnly( logistic, 'mean', require( '@stdlib/stats/base/dists/logistic/mean' ) );
+setReadOnly( logistic, 'mean', require( './../../../../base/dists/logistic/mean' ) );
 
 /**
 * @name median
@@ -106,7 +106,7 @@ setReadOnly( logistic, 'mean', require( '@stdlib/stats/base/dists/logistic/mean'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/median}
 */
-setReadOnly( logistic, 'median', require( '@stdlib/stats/base/dists/logistic/median' ) );
+setReadOnly( logistic, 'median', require( './../../../../base/dists/logistic/median' ) );
 
 /**
 * @name mgf
@@ -115,7 +115,7 @@ setReadOnly( logistic, 'median', require( '@stdlib/stats/base/dists/logistic/med
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/mgf}
 */
-setReadOnly( logistic, 'mgf', require( '@stdlib/stats/base/dists/logistic/mgf' ) );
+setReadOnly( logistic, 'mgf', require( './../../../../base/dists/logistic/mgf' ) );
 
 /**
 * @name mode
@@ -124,7 +124,7 @@ setReadOnly( logistic, 'mgf', require( '@stdlib/stats/base/dists/logistic/mgf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/mode}
 */
-setReadOnly( logistic, 'mode', require( '@stdlib/stats/base/dists/logistic/mode' ) );
+setReadOnly( logistic, 'mode', require( './../../../../base/dists/logistic/mode' ) );
 
 /**
 * @name pdf
@@ -133,7 +133,7 @@ setReadOnly( logistic, 'mode', require( '@stdlib/stats/base/dists/logistic/mode'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/pdf}
 */
-setReadOnly( logistic, 'pdf', require( '@stdlib/stats/base/dists/logistic/pdf' ) );
+setReadOnly( logistic, 'pdf', require( './../../../../base/dists/logistic/pdf' ) );
 
 /**
 * @name quantile
@@ -142,7 +142,7 @@ setReadOnly( logistic, 'pdf', require( '@stdlib/stats/base/dists/logistic/pdf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/quantile}
 */
-setReadOnly( logistic, 'quantile', require( '@stdlib/stats/base/dists/logistic/quantile' ) );
+setReadOnly( logistic, 'quantile', require( './../../../../base/dists/logistic/quantile' ) );
 
 /**
 * @name skewness
@@ -151,7 +151,7 @@ setReadOnly( logistic, 'quantile', require( '@stdlib/stats/base/dists/logistic/q
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/skewness}
 */
-setReadOnly( logistic, 'skewness', require( '@stdlib/stats/base/dists/logistic/skewness' ) );
+setReadOnly( logistic, 'skewness', require( './../../../../base/dists/logistic/skewness' ) );
 
 /**
 * @name stdev
@@ -160,7 +160,7 @@ setReadOnly( logistic, 'skewness', require( '@stdlib/stats/base/dists/logistic/s
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/stdev}
 */
-setReadOnly( logistic, 'stdev', require( '@stdlib/stats/base/dists/logistic/stdev' ) );
+setReadOnly( logistic, 'stdev', require( './../../../../base/dists/logistic/stdev' ) );
 
 /**
 * @name variance
@@ -169,7 +169,7 @@ setReadOnly( logistic, 'stdev', require( '@stdlib/stats/base/dists/logistic/stde
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/logistic/variance}
 */
-setReadOnly( logistic, 'variance', require( '@stdlib/stats/base/dists/logistic/variance' ) );
+setReadOnly( logistic, 'variance', require( './../../../../base/dists/logistic/variance' ) );
 
 
 // EXPORTS //

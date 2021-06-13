@@ -21,20 +21,20 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/pareto-type1/cdf' );
-import Pareto1 = require( '@stdlib/stats/base/dists/pareto-type1/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/pareto-type1/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/pareto-type1/kurtosis' );
-import logcdf = require( '@stdlib/stats/base/dists/pareto-type1/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/pareto-type1/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/pareto-type1/mean' );
-import median = require( '@stdlib/stats/base/dists/pareto-type1/median' );
-import mode = require( '@stdlib/stats/base/dists/pareto-type1/mode' );
-import pdf = require( '@stdlib/stats/base/dists/pareto-type1/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/pareto-type1/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/pareto-type1/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/pareto-type1/stdev' );
-import variance = require( '@stdlib/stats/base/dists/pareto-type1/variance' );
+import cdf = require( './../../../../../base/dists/pareto-type1/cdf' );
+import Pareto1 = require( './../../../../../base/dists/pareto-type1/ctor' );
+import entropy = require( './../../../../../base/dists/pareto-type1/entropy' );
+import kurtosis = require( './../../../../../base/dists/pareto-type1/kurtosis' );
+import logcdf = require( './../../../../../base/dists/pareto-type1/logcdf' );
+import logpdf = require( './../../../../../base/dists/pareto-type1/logpdf' );
+import mean = require( './../../../../../base/dists/pareto-type1/mean' );
+import median = require( './../../../../../base/dists/pareto-type1/median' );
+import mode = require( './../../../../../base/dists/pareto-type1/mode' );
+import pdf = require( './../../../../../base/dists/pareto-type1/pdf' );
+import quantile = require( './../../../../../base/dists/pareto-type1/quantile' );
+import skewness = require( './../../../../../base/dists/pareto-type1/skewness' );
+import stdev = require( './../../../../../base/dists/pareto-type1/stdev' );
+import variance = require( './../../../../../base/dists/pareto-type1/variance' );
 
 /**
 * Interface describing the `pareto-type1` namespace.

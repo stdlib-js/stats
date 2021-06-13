@@ -43,7 +43,7 @@ var chi = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chi/cdf}
 */
-setReadOnly( chi, 'cdf', require( '@stdlib/stats/base/dists/chi/cdf' ) );
+setReadOnly( chi, 'cdf', require( './../../../../base/dists/chi/cdf' ) );
 
 /**
 * @name Chi
@@ -52,7 +52,7 @@ setReadOnly( chi, 'cdf', require( '@stdlib/stats/base/dists/chi/cdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chi/ctor}
 */
-setReadOnly( chi, 'Chi', require( '@stdlib/stats/base/dists/chi/ctor' ) );
+setReadOnly( chi, 'Chi', require( './../../../../base/dists/chi/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( chi, 'Chi', require( '@stdlib/stats/base/dists/chi/ctor' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chi/entropy}
 */
-setReadOnly( chi, 'entropy', require( '@stdlib/stats/base/dists/chi/entropy' ) );
+setReadOnly( chi, 'entropy', require( './../../../../base/dists/chi/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( chi, 'entropy', require( '@stdlib/stats/base/dists/chi/entropy' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chi/kurtosis}
 */
-setReadOnly( chi, 'kurtosis', require( '@stdlib/stats/base/dists/chi/kurtosis' ) );
+setReadOnly( chi, 'kurtosis', require( './../../../../base/dists/chi/kurtosis' ) );
 
 /**
 * @name logpdf
@@ -79,7 +79,7 @@ setReadOnly( chi, 'kurtosis', require( '@stdlib/stats/base/dists/chi/kurtosis' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chi/logpdf}
 */
-setReadOnly( chi, 'logpdf', require( '@stdlib/stats/base/dists/chi/logpdf' ) );
+setReadOnly( chi, 'logpdf', require( './../../../../base/dists/chi/logpdf' ) );
 
 /**
 * @name mean
@@ -88,7 +88,7 @@ setReadOnly( chi, 'logpdf', require( '@stdlib/stats/base/dists/chi/logpdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chi/mean}
 */
-setReadOnly( chi, 'mean', require( '@stdlib/stats/base/dists/chi/mean' ) );
+setReadOnly( chi, 'mean', require( './../../../../base/dists/chi/mean' ) );
 
 /**
 * @name mode
@@ -97,7 +97,7 @@ setReadOnly( chi, 'mean', require( '@stdlib/stats/base/dists/chi/mean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chi/mode}
 */
-setReadOnly( chi, 'mode', require( '@stdlib/stats/base/dists/chi/mode' ) );
+setReadOnly( chi, 'mode', require( './../../../../base/dists/chi/mode' ) );
 
 /**
 * @name pdf
@@ -106,7 +106,7 @@ setReadOnly( chi, 'mode', require( '@stdlib/stats/base/dists/chi/mode' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chi/pdf}
 */
-setReadOnly( chi, 'pdf', require( '@stdlib/stats/base/dists/chi/pdf' ) );
+setReadOnly( chi, 'pdf', require( './../../../../base/dists/chi/pdf' ) );
 
 /**
 * @name quantile
@@ -115,7 +115,7 @@ setReadOnly( chi, 'pdf', require( '@stdlib/stats/base/dists/chi/pdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chi/quantile}
 */
-setReadOnly( chi, 'quantile', require( '@stdlib/stats/base/dists/chi/quantile' ) );
+setReadOnly( chi, 'quantile', require( './../../../../base/dists/chi/quantile' ) );
 
 /**
 * @name skewness
@@ -124,7 +124,7 @@ setReadOnly( chi, 'quantile', require( '@stdlib/stats/base/dists/chi/quantile' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chi/skewness}
 */
-setReadOnly( chi, 'skewness', require( '@stdlib/stats/base/dists/chi/skewness' ) );
+setReadOnly( chi, 'skewness', require( './../../../../base/dists/chi/skewness' ) );
 
 /**
 * @name stdev
@@ -133,7 +133,7 @@ setReadOnly( chi, 'skewness', require( '@stdlib/stats/base/dists/chi/skewness' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chi/stdev}
 */
-setReadOnly( chi, 'stdev', require( '@stdlib/stats/base/dists/chi/stdev' ) );
+setReadOnly( chi, 'stdev', require( './../../../../base/dists/chi/stdev' ) );
 
 /**
 * @name variance
@@ -142,7 +142,7 @@ setReadOnly( chi, 'stdev', require( '@stdlib/stats/base/dists/chi/stdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chi/variance}
 */
-setReadOnly( chi, 'variance', require( '@stdlib/stats/base/dists/chi/variance' ) );
+setReadOnly( chi, 'variance', require( './../../../../base/dists/chi/variance' ) );
 
 
 // EXPORTS //

@@ -23,18 +23,18 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/erlang/quantile' );
-var cdf = require( '@stdlib/stats/base/dists/erlang/cdf' );
-var logpdf = require( '@stdlib/stats/base/dists/erlang/logpdf' );
-var mgf = require( '@stdlib/stats/base/dists/erlang/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/erlang/pdf' );
-var entropy = require( '@stdlib/stats/base/dists/erlang/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/erlang/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/erlang/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/erlang/stdev' );
-var variance = require( '@stdlib/stats/base/dists/erlang/variance' );
-var mode = require( '@stdlib/stats/base/dists/erlang/mode' );
-var mean = require( '@stdlib/stats/base/dists/erlang/mean' );
+var quantile = require( './../../../../../base/dists/erlang/quantile' );
+var cdf = require( './../../../../../base/dists/erlang/cdf' );
+var logpdf = require( './../../../../../base/dists/erlang/logpdf' );
+var mgf = require( './../../../../../base/dists/erlang/mgf' );
+var pdf = require( './../../../../../base/dists/erlang/pdf' );
+var entropy = require( './../../../../../base/dists/erlang/entropy' );
+var kurtosis = require( './../../../../../base/dists/erlang/kurtosis' );
+var skewness = require( './../../../../../base/dists/erlang/skewness' );
+var stdev = require( './../../../../../base/dists/erlang/stdev' );
+var variance = require( './../../../../../base/dists/erlang/variance' );
+var mode = require( './../../../../../base/dists/erlang/mode' );
+var mean = require( './../../../../../base/dists/erlang/mean' );
 var Erlang = require( './../lib' );
 
 

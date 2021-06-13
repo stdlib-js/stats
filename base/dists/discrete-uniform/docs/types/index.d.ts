@@ -21,20 +21,20 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/discrete-uniform/cdf' );
-import DiscreteUniform = require( '@stdlib/stats/base/dists/discrete-uniform/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/discrete-uniform/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/discrete-uniform/kurtosis' );
-import logcdf = require( '@stdlib/stats/base/dists/discrete-uniform/logcdf' );
-import logpmf = require( '@stdlib/stats/base/dists/discrete-uniform/logpmf' );
-import mean = require( '@stdlib/stats/base/dists/discrete-uniform/mean' );
-import median = require( '@stdlib/stats/base/dists/discrete-uniform/median' );
-import mgf = require( '@stdlib/stats/base/dists/discrete-uniform/mgf' );
-import pmf = require( '@stdlib/stats/base/dists/discrete-uniform/pmf' );
-import quantile = require( '@stdlib/stats/base/dists/discrete-uniform/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/discrete-uniform/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/discrete-uniform/stdev' );
-import variance = require( '@stdlib/stats/base/dists/discrete-uniform/variance' );
+import cdf = require( './../../../../../base/dists/discrete-uniform/cdf' );
+import DiscreteUniform = require( './../../../../../base/dists/discrete-uniform/ctor' );
+import entropy = require( './../../../../../base/dists/discrete-uniform/entropy' );
+import kurtosis = require( './../../../../../base/dists/discrete-uniform/kurtosis' );
+import logcdf = require( './../../../../../base/dists/discrete-uniform/logcdf' );
+import logpmf = require( './../../../../../base/dists/discrete-uniform/logpmf' );
+import mean = require( './../../../../../base/dists/discrete-uniform/mean' );
+import median = require( './../../../../../base/dists/discrete-uniform/median' );
+import mgf = require( './../../../../../base/dists/discrete-uniform/mgf' );
+import pmf = require( './../../../../../base/dists/discrete-uniform/pmf' );
+import quantile = require( './../../../../../base/dists/discrete-uniform/quantile' );
+import skewness = require( './../../../../../base/dists/discrete-uniform/skewness' );
+import stdev = require( './../../../../../base/dists/discrete-uniform/stdev' );
+import variance = require( './../../../../../base/dists/discrete-uniform/variance' );
 
 /**
 * Interface describing the `discrete-uniform` namespace.

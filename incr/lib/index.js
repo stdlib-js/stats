@@ -43,7 +43,7 @@ var ns = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/apcorr}
 */
-setReadOnly( ns, 'incrapcorr', require( '@stdlib/stats/incr/apcorr' ) );
+setReadOnly( ns, 'incrapcorr', require( './../../incr/apcorr' ) );
 
 /**
 * @name incrcount
@@ -52,7 +52,7 @@ setReadOnly( ns, 'incrapcorr', require( '@stdlib/stats/incr/apcorr' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/count}
 */
-setReadOnly( ns, 'incrcount', require( '@stdlib/stats/incr/count' ) );
+setReadOnly( ns, 'incrcount', require( './../../incr/count' ) );
 
 /**
 * @name incrcovariance
@@ -61,7 +61,7 @@ setReadOnly( ns, 'incrcount', require( '@stdlib/stats/incr/count' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/covariance}
 */
-setReadOnly( ns, 'incrcovariance', require( '@stdlib/stats/incr/covariance' ) );
+setReadOnly( ns, 'incrcovariance', require( './../../incr/covariance' ) );
 
 /**
 * @name incrcovmat
@@ -70,7 +70,7 @@ setReadOnly( ns, 'incrcovariance', require( '@stdlib/stats/incr/covariance' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/covmat}
 */
-setReadOnly( ns, 'incrcovmat', require( '@stdlib/stats/incr/covmat' ) );
+setReadOnly( ns, 'incrcovmat', require( './../../incr/covmat' ) );
 
 /**
 * @name incrcv
@@ -79,7 +79,7 @@ setReadOnly( ns, 'incrcovmat', require( '@stdlib/stats/incr/covmat' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/cv}
 */
-setReadOnly( ns, 'incrcv', require( '@stdlib/stats/incr/cv' ) );
+setReadOnly( ns, 'incrcv', require( './../../incr/cv' ) );
 
 /**
 * @name increwmean
@@ -88,7 +88,7 @@ setReadOnly( ns, 'incrcv', require( '@stdlib/stats/incr/cv' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/ewmean}
 */
-setReadOnly( ns, 'increwmean', require( '@stdlib/stats/incr/ewmean' ) );
+setReadOnly( ns, 'increwmean', require( './../../incr/ewmean' ) );
 
 /**
 * @name increwstdev
@@ -97,7 +97,7 @@ setReadOnly( ns, 'increwmean', require( '@stdlib/stats/incr/ewmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/ewstdev}
 */
-setReadOnly( ns, 'increwstdev', require( '@stdlib/stats/incr/ewstdev' ) );
+setReadOnly( ns, 'increwstdev', require( './../../incr/ewstdev' ) );
 
 /**
 * @name increwvariance
@@ -106,7 +106,7 @@ setReadOnly( ns, 'increwstdev', require( '@stdlib/stats/incr/ewstdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/ewvariance}
 */
-setReadOnly( ns, 'increwvariance', require( '@stdlib/stats/incr/ewvariance' ) );
+setReadOnly( ns, 'increwvariance', require( './../../incr/ewvariance' ) );
 
 /**
 * @name incrgmean
@@ -115,7 +115,7 @@ setReadOnly( ns, 'increwvariance', require( '@stdlib/stats/incr/ewvariance' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/gmean}
 */
-setReadOnly( ns, 'incrgmean', require( '@stdlib/stats/incr/gmean' ) );
+setReadOnly( ns, 'incrgmean', require( './../../incr/gmean' ) );
 
 /**
 * @name incrgrubbs
@@ -124,7 +124,7 @@ setReadOnly( ns, 'incrgmean', require( '@stdlib/stats/incr/gmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/grubbs}
 */
-setReadOnly( ns, 'incrgrubbs', require( '@stdlib/stats/incr/grubbs' ) );
+setReadOnly( ns, 'incrgrubbs', require( './../../incr/grubbs' ) );
 
 /**
 * @name incrhmean
@@ -133,7 +133,7 @@ setReadOnly( ns, 'incrgrubbs', require( '@stdlib/stats/incr/grubbs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/hmean}
 */
-setReadOnly( ns, 'incrhmean', require( '@stdlib/stats/incr/hmean' ) );
+setReadOnly( ns, 'incrhmean', require( './../../incr/hmean' ) );
 
 /**
 * @name incrkurtosis
@@ -142,7 +142,7 @@ setReadOnly( ns, 'incrhmean', require( '@stdlib/stats/incr/hmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/kurtosis}
 */
-setReadOnly( ns, 'incrkurtosis', require( '@stdlib/stats/incr/kurtosis' ) );
+setReadOnly( ns, 'incrkurtosis', require( './../../incr/kurtosis' ) );
 
 /**
 * @name incrmaape
@@ -151,7 +151,7 @@ setReadOnly( ns, 'incrkurtosis', require( '@stdlib/stats/incr/kurtosis' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/maape}
 */
-setReadOnly( ns, 'incrmaape', require( '@stdlib/stats/incr/maape' ) );
+setReadOnly( ns, 'incrmaape', require( './../../incr/maape' ) );
 
 /**
 * @name incrmae
@@ -160,7 +160,7 @@ setReadOnly( ns, 'incrmaape', require( '@stdlib/stats/incr/maape' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mae}
 */
-setReadOnly( ns, 'incrmae', require( '@stdlib/stats/incr/mae' ) );
+setReadOnly( ns, 'incrmae', require( './../../incr/mae' ) );
 
 /**
 * @name incrmapcorr
@@ -169,7 +169,7 @@ setReadOnly( ns, 'incrmae', require( '@stdlib/stats/incr/mae' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mapcorr}
 */
-setReadOnly( ns, 'incrmapcorr', require( '@stdlib/stats/incr/mapcorr' ) );
+setReadOnly( ns, 'incrmapcorr', require( './../../incr/mapcorr' ) );
 
 /**
 * @name incrmape
@@ -178,7 +178,7 @@ setReadOnly( ns, 'incrmapcorr', require( '@stdlib/stats/incr/mapcorr' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mape}
 */
-setReadOnly( ns, 'incrmape', require( '@stdlib/stats/incr/mape' ) );
+setReadOnly( ns, 'incrmape', require( './../../incr/mape' ) );
 
 /**
 * @name incrmax
@@ -187,7 +187,7 @@ setReadOnly( ns, 'incrmape', require( '@stdlib/stats/incr/mape' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/max}
 */
-setReadOnly( ns, 'incrmax', require( '@stdlib/stats/incr/max' ) );
+setReadOnly( ns, 'incrmax', require( './../../incr/max' ) );
 
 /**
 * @name incrmaxabs
@@ -196,7 +196,7 @@ setReadOnly( ns, 'incrmax', require( '@stdlib/stats/incr/max' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/maxabs}
 */
-setReadOnly( ns, 'incrmaxabs', require( '@stdlib/stats/incr/maxabs' ) );
+setReadOnly( ns, 'incrmaxabs', require( './../../incr/maxabs' ) );
 
 /**
 * @name incrmcovariance
@@ -205,7 +205,7 @@ setReadOnly( ns, 'incrmaxabs', require( '@stdlib/stats/incr/maxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mcovariance}
 */
-setReadOnly( ns, 'incrmcovariance', require( '@stdlib/stats/incr/mcovariance' ) );
+setReadOnly( ns, 'incrmcovariance', require( './../../incr/mcovariance' ) );
 
 /**
 * @name incrmcv
@@ -214,7 +214,7 @@ setReadOnly( ns, 'incrmcovariance', require( '@stdlib/stats/incr/mcovariance' ) 
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mcv}
 */
-setReadOnly( ns, 'incrmcv', require( '@stdlib/stats/incr/mcv' ) );
+setReadOnly( ns, 'incrmcv', require( './../../incr/mcv' ) );
 
 /**
 * @name incrmda
@@ -223,7 +223,7 @@ setReadOnly( ns, 'incrmcv', require( '@stdlib/stats/incr/mcv' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mda}
 */
-setReadOnly( ns, 'incrmda', require( '@stdlib/stats/incr/mda' ) );
+setReadOnly( ns, 'incrmda', require( './../../incr/mda' ) );
 
 /**
 * @name incrme
@@ -232,7 +232,7 @@ setReadOnly( ns, 'incrmda', require( '@stdlib/stats/incr/mda' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/me}
 */
-setReadOnly( ns, 'incrme', require( '@stdlib/stats/incr/me' ) );
+setReadOnly( ns, 'incrme', require( './../../incr/me' ) );
 
 /**
 * @name incrmean
@@ -241,7 +241,7 @@ setReadOnly( ns, 'incrme', require( '@stdlib/stats/incr/me' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mean}
 */
-setReadOnly( ns, 'incrmean', require( '@stdlib/stats/incr/mean' ) );
+setReadOnly( ns, 'incrmean', require( './../../incr/mean' ) );
 
 /**
 * @name incrmeanabs
@@ -250,7 +250,7 @@ setReadOnly( ns, 'incrmean', require( '@stdlib/stats/incr/mean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/meanabs}
 */
-setReadOnly( ns, 'incrmeanabs', require( '@stdlib/stats/incr/meanabs' ) );
+setReadOnly( ns, 'incrmeanabs', require( './../../incr/meanabs' ) );
 
 /**
 * @name incrmeanabs2
@@ -259,7 +259,7 @@ setReadOnly( ns, 'incrmeanabs', require( '@stdlib/stats/incr/meanabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/meanabs2}
 */
-setReadOnly( ns, 'incrmeanabs2', require( '@stdlib/stats/incr/meanabs2' ) );
+setReadOnly( ns, 'incrmeanabs2', require( './../../incr/meanabs2' ) );
 
 /**
 * @name incrmeanstdev
@@ -268,7 +268,7 @@ setReadOnly( ns, 'incrmeanabs2', require( '@stdlib/stats/incr/meanabs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/meanstdev}
 */
-setReadOnly( ns, 'incrmeanstdev', require( '@stdlib/stats/incr/meanstdev' ) );
+setReadOnly( ns, 'incrmeanstdev', require( './../../incr/meanstdev' ) );
 
 /**
 * @name incrmeanvar
@@ -277,7 +277,7 @@ setReadOnly( ns, 'incrmeanstdev', require( '@stdlib/stats/incr/meanstdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/meanvar}
 */
-setReadOnly( ns, 'incrmeanvar', require( '@stdlib/stats/incr/meanvar' ) );
+setReadOnly( ns, 'incrmeanvar', require( './../../incr/meanvar' ) );
 
 /**
 * @name incrmgmean
@@ -286,7 +286,7 @@ setReadOnly( ns, 'incrmeanvar', require( '@stdlib/stats/incr/meanvar' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mgmean}
 */
-setReadOnly( ns, 'incrmgmean', require( '@stdlib/stats/incr/mgmean' ) );
+setReadOnly( ns, 'incrmgmean', require( './../../incr/mgmean' ) );
 
 /**
 * @name incrmgrubbs
@@ -295,7 +295,7 @@ setReadOnly( ns, 'incrmgmean', require( '@stdlib/stats/incr/mgmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mgrubbs}
 */
-setReadOnly( ns, 'incrmgrubbs', require( '@stdlib/stats/incr/mgrubbs' ) );
+setReadOnly( ns, 'incrmgrubbs', require( './../../incr/mgrubbs' ) );
 
 /**
 * @name incrmhmean
@@ -304,7 +304,7 @@ setReadOnly( ns, 'incrmgrubbs', require( '@stdlib/stats/incr/mgrubbs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mhmean}
 */
-setReadOnly( ns, 'incrmhmean', require( '@stdlib/stats/incr/mhmean' ) );
+setReadOnly( ns, 'incrmhmean', require( './../../incr/mhmean' ) );
 
 /**
 * @name incrmidrange
@@ -313,7 +313,7 @@ setReadOnly( ns, 'incrmhmean', require( '@stdlib/stats/incr/mhmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/midrange}
 */
-setReadOnly( ns, 'incrmidrange', require( '@stdlib/stats/incr/midrange' ) );
+setReadOnly( ns, 'incrmidrange', require( './../../incr/midrange' ) );
 
 /**
 * @name incrmin
@@ -322,7 +322,7 @@ setReadOnly( ns, 'incrmidrange', require( '@stdlib/stats/incr/midrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/min}
 */
-setReadOnly( ns, 'incrmin', require( '@stdlib/stats/incr/min' ) );
+setReadOnly( ns, 'incrmin', require( './../../incr/min' ) );
 
 /**
 * @name incrminabs
@@ -331,7 +331,7 @@ setReadOnly( ns, 'incrmin', require( '@stdlib/stats/incr/min' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/minabs}
 */
-setReadOnly( ns, 'incrminabs', require( '@stdlib/stats/incr/minabs' ) );
+setReadOnly( ns, 'incrminabs', require( './../../incr/minabs' ) );
 
 /**
 * @name incrminmax
@@ -340,7 +340,7 @@ setReadOnly( ns, 'incrminabs', require( '@stdlib/stats/incr/minabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/minmax}
 */
-setReadOnly( ns, 'incrminmax', require( '@stdlib/stats/incr/minmax' ) );
+setReadOnly( ns, 'incrminmax', require( './../../incr/minmax' ) );
 
 /**
 * @name incrminmaxabs
@@ -349,7 +349,7 @@ setReadOnly( ns, 'incrminmax', require( '@stdlib/stats/incr/minmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/minmaxabs}
 */
-setReadOnly( ns, 'incrminmaxabs', require( '@stdlib/stats/incr/minmaxabs' ) );
+setReadOnly( ns, 'incrminmaxabs', require( './../../incr/minmaxabs' ) );
 
 /**
 * @name incrmmaape
@@ -358,7 +358,7 @@ setReadOnly( ns, 'incrminmaxabs', require( '@stdlib/stats/incr/minmaxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmaape}
 */
-setReadOnly( ns, 'incrmmaape', require( '@stdlib/stats/incr/mmaape' ) );
+setReadOnly( ns, 'incrmmaape', require( './../../incr/mmaape' ) );
 
 /**
 * @name incrmmae
@@ -367,7 +367,7 @@ setReadOnly( ns, 'incrmmaape', require( '@stdlib/stats/incr/mmaape' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmae}
 */
-setReadOnly( ns, 'incrmmae', require( '@stdlib/stats/incr/mmae' ) );
+setReadOnly( ns, 'incrmmae', require( './../../incr/mmae' ) );
 
 /**
 * @name incrmmape
@@ -376,7 +376,7 @@ setReadOnly( ns, 'incrmmae', require( '@stdlib/stats/incr/mmae' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmape}
 */
-setReadOnly( ns, 'incrmmape', require( '@stdlib/stats/incr/mmape' ) );
+setReadOnly( ns, 'incrmmape', require( './../../incr/mmape' ) );
 
 /**
 * @name incrmmax
@@ -385,7 +385,7 @@ setReadOnly( ns, 'incrmmape', require( '@stdlib/stats/incr/mmape' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmax}
 */
-setReadOnly( ns, 'incrmmax', require( '@stdlib/stats/incr/mmax' ) );
+setReadOnly( ns, 'incrmmax', require( './../../incr/mmax' ) );
 
 /**
 * @name incrmmaxabs
@@ -394,7 +394,7 @@ setReadOnly( ns, 'incrmmax', require( '@stdlib/stats/incr/mmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmaxabs}
 */
-setReadOnly( ns, 'incrmmaxabs', require( '@stdlib/stats/incr/mmaxabs' ) );
+setReadOnly( ns, 'incrmmaxabs', require( './../../incr/mmaxabs' ) );
 
 /**
 * @name incrmmda
@@ -403,7 +403,7 @@ setReadOnly( ns, 'incrmmaxabs', require( '@stdlib/stats/incr/mmaxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmda}
 */
-setReadOnly( ns, 'incrmmda', require( '@stdlib/stats/incr/mmda' ) );
+setReadOnly( ns, 'incrmmda', require( './../../incr/mmda' ) );
 
 /**
 * @name incrmme
@@ -412,7 +412,7 @@ setReadOnly( ns, 'incrmmda', require( '@stdlib/stats/incr/mmda' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mme}
 */
-setReadOnly( ns, 'incrmme', require( '@stdlib/stats/incr/mme' ) );
+setReadOnly( ns, 'incrmme', require( './../../incr/mme' ) );
 
 /**
 * @name incrmmean
@@ -421,7 +421,7 @@ setReadOnly( ns, 'incrmme', require( '@stdlib/stats/incr/mme' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmean}
 */
-setReadOnly( ns, 'incrmmean', require( '@stdlib/stats/incr/mmean' ) );
+setReadOnly( ns, 'incrmmean', require( './../../incr/mmean' ) );
 
 /**
 * @name incrmmeanabs
@@ -430,7 +430,7 @@ setReadOnly( ns, 'incrmmean', require( '@stdlib/stats/incr/mmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmeanabs}
 */
-setReadOnly( ns, 'incrmmeanabs', require( '@stdlib/stats/incr/mmeanabs' ) );
+setReadOnly( ns, 'incrmmeanabs', require( './../../incr/mmeanabs' ) );
 
 /**
 * @name incrmmeanabs2
@@ -439,7 +439,7 @@ setReadOnly( ns, 'incrmmeanabs', require( '@stdlib/stats/incr/mmeanabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmeanabs2}
 */
-setReadOnly( ns, 'incrmmeanabs2', require( '@stdlib/stats/incr/mmeanabs2' ) );
+setReadOnly( ns, 'incrmmeanabs2', require( './../../incr/mmeanabs2' ) );
 
 /**
 * @name incrmmeanstdev
@@ -448,7 +448,7 @@ setReadOnly( ns, 'incrmmeanabs2', require( '@stdlib/stats/incr/mmeanabs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmeanstdev}
 */
-setReadOnly( ns, 'incrmmeanstdev', require( '@stdlib/stats/incr/mmeanstdev' ) );
+setReadOnly( ns, 'incrmmeanstdev', require( './../../incr/mmeanstdev' ) );
 
 /**
 * @name incrmmeanvar
@@ -457,7 +457,7 @@ setReadOnly( ns, 'incrmmeanstdev', require( '@stdlib/stats/incr/mmeanstdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmeanvar}
 */
-setReadOnly( ns, 'incrmmeanvar', require( '@stdlib/stats/incr/mmeanvar' ) );
+setReadOnly( ns, 'incrmmeanvar', require( './../../incr/mmeanvar' ) );
 
 /**
 * @name incrmmidrange
@@ -466,7 +466,7 @@ setReadOnly( ns, 'incrmmeanvar', require( '@stdlib/stats/incr/mmeanvar' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmidrange}
 */
-setReadOnly( ns, 'incrmmidrange', require( '@stdlib/stats/incr/mmidrange' ) );
+setReadOnly( ns, 'incrmmidrange', require( './../../incr/mmidrange' ) );
 
 /**
 * @name incrmmin
@@ -475,7 +475,7 @@ setReadOnly( ns, 'incrmmidrange', require( '@stdlib/stats/incr/mmidrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmin}
 */
-setReadOnly( ns, 'incrmmin', require( '@stdlib/stats/incr/mmin' ) );
+setReadOnly( ns, 'incrmmin', require( './../../incr/mmin' ) );
 
 /**
 * @name incrmminabs
@@ -484,7 +484,7 @@ setReadOnly( ns, 'incrmmin', require( '@stdlib/stats/incr/mmin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mminabs}
 */
-setReadOnly( ns, 'incrmminabs', require( '@stdlib/stats/incr/mminabs' ) );
+setReadOnly( ns, 'incrmminabs', require( './../../incr/mminabs' ) );
 
 /**
 * @name incrmminmax
@@ -493,7 +493,7 @@ setReadOnly( ns, 'incrmminabs', require( '@stdlib/stats/incr/mminabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mminmax}
 */
-setReadOnly( ns, 'incrmminmax', require( '@stdlib/stats/incr/mminmax' ) );
+setReadOnly( ns, 'incrmminmax', require( './../../incr/mminmax' ) );
 
 /**
 * @name incrmminmaxabs
@@ -502,7 +502,7 @@ setReadOnly( ns, 'incrmminmax', require( '@stdlib/stats/incr/mminmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mminmaxabs}
 */
-setReadOnly( ns, 'incrmminmaxabs', require( '@stdlib/stats/incr/mminmaxabs' ) );
+setReadOnly( ns, 'incrmminmaxabs', require( './../../incr/mminmaxabs' ) );
 
 /**
 * @name incrmmpe
@@ -511,7 +511,7 @@ setReadOnly( ns, 'incrmminmaxabs', require( '@stdlib/stats/incr/mminmaxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmpe}
 */
-setReadOnly( ns, 'incrmmpe', require( '@stdlib/stats/incr/mmpe' ) );
+setReadOnly( ns, 'incrmmpe', require( './../../incr/mmpe' ) );
 
 /**
 * @name incrmmse
@@ -520,7 +520,7 @@ setReadOnly( ns, 'incrmmpe', require( '@stdlib/stats/incr/mmpe' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mmse}
 */
-setReadOnly( ns, 'incrmmse', require( '@stdlib/stats/incr/mmse' ) );
+setReadOnly( ns, 'incrmmse', require( './../../incr/mmse' ) );
 
 /**
 * @name incrmpcorr
@@ -529,7 +529,7 @@ setReadOnly( ns, 'incrmmse', require( '@stdlib/stats/incr/mmse' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mpcorr}
 */
-setReadOnly( ns, 'incrmpcorr', require( '@stdlib/stats/incr/mpcorr' ) );
+setReadOnly( ns, 'incrmpcorr', require( './../../incr/mpcorr' ) );
 
 /**
 * @name incrmpcorr2
@@ -538,7 +538,7 @@ setReadOnly( ns, 'incrmpcorr', require( '@stdlib/stats/incr/mpcorr' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mpcorr2}
 */
-setReadOnly( ns, 'incrmpcorr2', require( '@stdlib/stats/incr/mpcorr2' ) );
+setReadOnly( ns, 'incrmpcorr2', require( './../../incr/mpcorr2' ) );
 
 /**
 * @name incrmpcorrdist
@@ -547,7 +547,7 @@ setReadOnly( ns, 'incrmpcorr2', require( '@stdlib/stats/incr/mpcorr2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mpcorrdist}
 */
-setReadOnly( ns, 'incrmpcorrdist', require( '@stdlib/stats/incr/mpcorrdist' ) );
+setReadOnly( ns, 'incrmpcorrdist', require( './../../incr/mpcorrdist' ) );
 
 /**
 * @name incrmpe
@@ -556,7 +556,7 @@ setReadOnly( ns, 'incrmpcorrdist', require( '@stdlib/stats/incr/mpcorrdist' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mpe}
 */
-setReadOnly( ns, 'incrmpe', require( '@stdlib/stats/incr/mpe' ) );
+setReadOnly( ns, 'incrmpe', require( './../../incr/mpe' ) );
 
 /**
 * @name incrmprod
@@ -565,7 +565,7 @@ setReadOnly( ns, 'incrmpe', require( '@stdlib/stats/incr/mpe' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mprod}
 */
-setReadOnly( ns, 'incrmprod', require( '@stdlib/stats/incr/mprod' ) );
+setReadOnly( ns, 'incrmprod', require( './../../incr/mprod' ) );
 
 /**
 * @name incrmrange
@@ -574,7 +574,7 @@ setReadOnly( ns, 'incrmprod', require( '@stdlib/stats/incr/mprod' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mrange}
 */
-setReadOnly( ns, 'incrmrange', require( '@stdlib/stats/incr/mrange' ) );
+setReadOnly( ns, 'incrmrange', require( './../../incr/mrange' ) );
 
 /**
 * @name incrmrmse
@@ -583,7 +583,7 @@ setReadOnly( ns, 'incrmrange', require( '@stdlib/stats/incr/mrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mrmse}
 */
-setReadOnly( ns, 'incrmrmse', require( '@stdlib/stats/incr/mrmse' ) );
+setReadOnly( ns, 'incrmrmse', require( './../../incr/mrmse' ) );
 
 /**
 * @name incrmrss
@@ -592,7 +592,7 @@ setReadOnly( ns, 'incrmrmse', require( '@stdlib/stats/incr/mrmse' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mrss}
 */
-setReadOnly( ns, 'incrmrss', require( '@stdlib/stats/incr/mrss' ) );
+setReadOnly( ns, 'incrmrss', require( './../../incr/mrss' ) );
 
 /**
 * @name incrmse
@@ -601,7 +601,7 @@ setReadOnly( ns, 'incrmrss', require( '@stdlib/stats/incr/mrss' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mse}
 */
-setReadOnly( ns, 'incrmse', require( '@stdlib/stats/incr/mse' ) );
+setReadOnly( ns, 'incrmse', require( './../../incr/mse' ) );
 
 /**
 * @name incrmstdev
@@ -610,7 +610,7 @@ setReadOnly( ns, 'incrmse', require( '@stdlib/stats/incr/mse' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mstdev}
 */
-setReadOnly( ns, 'incrmstdev', require( '@stdlib/stats/incr/mstdev' ) );
+setReadOnly( ns, 'incrmstdev', require( './../../incr/mstdev' ) );
 
 /**
 * @name incrmsum
@@ -619,7 +619,7 @@ setReadOnly( ns, 'incrmstdev', require( '@stdlib/stats/incr/mstdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/msum}
 */
-setReadOnly( ns, 'incrmsum', require( '@stdlib/stats/incr/msum' ) );
+setReadOnly( ns, 'incrmsum', require( './../../incr/msum' ) );
 
 /**
 * @name incrmsumabs
@@ -628,7 +628,7 @@ setReadOnly( ns, 'incrmsum', require( '@stdlib/stats/incr/msum' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/msumabs}
 */
-setReadOnly( ns, 'incrmsumabs', require( '@stdlib/stats/incr/msumabs' ) );
+setReadOnly( ns, 'incrmsumabs', require( './../../incr/msumabs' ) );
 
 /**
 * @name incrmsumabs2
@@ -637,7 +637,7 @@ setReadOnly( ns, 'incrmsumabs', require( '@stdlib/stats/incr/msumabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/msumabs2}
 */
-setReadOnly( ns, 'incrmsumabs2', require( '@stdlib/stats/incr/msumabs2' ) );
+setReadOnly( ns, 'incrmsumabs2', require( './../../incr/msumabs2' ) );
 
 /**
 * @name incrmsummary
@@ -646,7 +646,7 @@ setReadOnly( ns, 'incrmsumabs2', require( '@stdlib/stats/incr/msumabs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/msummary}
 */
-setReadOnly( ns, 'incrmsummary', require( '@stdlib/stats/incr/msummary' ) );
+setReadOnly( ns, 'incrmsummary', require( './../../incr/msummary' ) );
 
 /**
 * @name incrmsumprod
@@ -655,7 +655,7 @@ setReadOnly( ns, 'incrmsummary', require( '@stdlib/stats/incr/msummary' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/msumprod}
 */
-setReadOnly( ns, 'incrmsumprod', require( '@stdlib/stats/incr/msumprod' ) );
+setReadOnly( ns, 'incrmsumprod', require( './../../incr/msumprod' ) );
 
 /**
 * @name incrmvariance
@@ -664,7 +664,7 @@ setReadOnly( ns, 'incrmsumprod', require( '@stdlib/stats/incr/msumprod' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mvariance}
 */
-setReadOnly( ns, 'incrmvariance', require( '@stdlib/stats/incr/mvariance' ) );
+setReadOnly( ns, 'incrmvariance', require( './../../incr/mvariance' ) );
 
 /**
 * @name incrmvmr
@@ -673,7 +673,7 @@ setReadOnly( ns, 'incrmvariance', require( '@stdlib/stats/incr/mvariance' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/mvmr}
 */
-setReadOnly( ns, 'incrmvmr', require( '@stdlib/stats/incr/mvmr' ) );
+setReadOnly( ns, 'incrmvmr', require( './../../incr/mvmr' ) );
 
 /**
 * @name incrnancount
@@ -682,7 +682,7 @@ setReadOnly( ns, 'incrmvmr', require( '@stdlib/stats/incr/mvmr' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/nancount}
 */
-setReadOnly( ns, 'incrnancount', require( '@stdlib/stats/incr/nancount' ) );
+setReadOnly( ns, 'incrnancount', require( './../../incr/nancount' ) );
 
 /**
 * @name incrnansum
@@ -691,7 +691,7 @@ setReadOnly( ns, 'incrnancount', require( '@stdlib/stats/incr/nancount' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/nansum}
 */
-setReadOnly( ns, 'incrnansum', require( '@stdlib/stats/incr/nansum' ) );
+setReadOnly( ns, 'incrnansum', require( './../../incr/nansum' ) );
 
 /**
 * @name incrnansumabs
@@ -700,7 +700,7 @@ setReadOnly( ns, 'incrnansum', require( '@stdlib/stats/incr/nansum' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/nansumabs}
 */
-setReadOnly( ns, 'incrnansumabs', require( '@stdlib/stats/incr/nansumabs' ) );
+setReadOnly( ns, 'incrnansumabs', require( './../../incr/nansumabs' ) );
 
 /**
 * @name incrnansumabs2
@@ -709,7 +709,7 @@ setReadOnly( ns, 'incrnansumabs', require( '@stdlib/stats/incr/nansumabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/nansumabs2}
 */
-setReadOnly( ns, 'incrnansumabs2', require( '@stdlib/stats/incr/nansumabs2' ) );
+setReadOnly( ns, 'incrnansumabs2', require( './../../incr/nansumabs2' ) );
 
 /**
 * @name incrpcorr
@@ -718,7 +718,7 @@ setReadOnly( ns, 'incrnansumabs2', require( '@stdlib/stats/incr/nansumabs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/pcorr}
 */
-setReadOnly( ns, 'incrpcorr', require( '@stdlib/stats/incr/pcorr' ) );
+setReadOnly( ns, 'incrpcorr', require( './../../incr/pcorr' ) );
 
 /**
 * @name incrpcorr2
@@ -727,7 +727,7 @@ setReadOnly( ns, 'incrpcorr', require( '@stdlib/stats/incr/pcorr' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/pcorr2}
 */
-setReadOnly( ns, 'incrpcorr2', require( '@stdlib/stats/incr/pcorr2' ) );
+setReadOnly( ns, 'incrpcorr2', require( './../../incr/pcorr2' ) );
 
 /**
 * @name incrpcorrdist
@@ -736,7 +736,7 @@ setReadOnly( ns, 'incrpcorr2', require( '@stdlib/stats/incr/pcorr2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/pcorrdist}
 */
-setReadOnly( ns, 'incrpcorrdist', require( '@stdlib/stats/incr/pcorrdist' ) );
+setReadOnly( ns, 'incrpcorrdist', require( './../../incr/pcorrdist' ) );
 
 /**
 * @name incrpcorrdistmat
@@ -745,7 +745,7 @@ setReadOnly( ns, 'incrpcorrdist', require( '@stdlib/stats/incr/pcorrdist' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/pcorrdistmat}
 */
-setReadOnly( ns, 'incrpcorrdistmat', require( '@stdlib/stats/incr/pcorrdistmat' ) );
+setReadOnly( ns, 'incrpcorrdistmat', require( './../../incr/pcorrdistmat' ) );
 
 /**
 * @name incrpcorrmat
@@ -754,7 +754,7 @@ setReadOnly( ns, 'incrpcorrdistmat', require( '@stdlib/stats/incr/pcorrdistmat' 
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/pcorrmat}
 */
-setReadOnly( ns, 'incrpcorrmat', require( '@stdlib/stats/incr/pcorrmat' ) );
+setReadOnly( ns, 'incrpcorrmat', require( './../../incr/pcorrmat' ) );
 
 /**
 * @name incrprod
@@ -763,7 +763,7 @@ setReadOnly( ns, 'incrpcorrmat', require( '@stdlib/stats/incr/pcorrmat' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/prod}
 */
-setReadOnly( ns, 'incrprod', require( '@stdlib/stats/incr/prod' ) );
+setReadOnly( ns, 'incrprod', require( './../../incr/prod' ) );
 
 /**
 * @name incrrange
@@ -772,7 +772,7 @@ setReadOnly( ns, 'incrprod', require( '@stdlib/stats/incr/prod' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/range}
 */
-setReadOnly( ns, 'incrrange', require( '@stdlib/stats/incr/range' ) );
+setReadOnly( ns, 'incrrange', require( './../../incr/range' ) );
 
 /**
 * @name incrrmse
@@ -781,7 +781,7 @@ setReadOnly( ns, 'incrrange', require( '@stdlib/stats/incr/range' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/rmse}
 */
-setReadOnly( ns, 'incrrmse', require( '@stdlib/stats/incr/rmse' ) );
+setReadOnly( ns, 'incrrmse', require( './../../incr/rmse' ) );
 
 /**
 * @name incrrss
@@ -790,7 +790,7 @@ setReadOnly( ns, 'incrrmse', require( '@stdlib/stats/incr/rmse' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/rss}
 */
-setReadOnly( ns, 'incrrss', require( '@stdlib/stats/incr/rss' ) );
+setReadOnly( ns, 'incrrss', require( './../../incr/rss' ) );
 
 /**
 * @name incrskewness
@@ -799,7 +799,7 @@ setReadOnly( ns, 'incrrss', require( '@stdlib/stats/incr/rss' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/skewness}
 */
-setReadOnly( ns, 'incrskewness', require( '@stdlib/stats/incr/skewness' ) );
+setReadOnly( ns, 'incrskewness', require( './../../incr/skewness' ) );
 
 /**
 * @name incrstdev
@@ -808,7 +808,7 @@ setReadOnly( ns, 'incrskewness', require( '@stdlib/stats/incr/skewness' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/stdev}
 */
-setReadOnly( ns, 'incrstdev', require( '@stdlib/stats/incr/stdev' ) );
+setReadOnly( ns, 'incrstdev', require( './../../incr/stdev' ) );
 
 /**
 * @name incrsum
@@ -817,7 +817,7 @@ setReadOnly( ns, 'incrstdev', require( '@stdlib/stats/incr/stdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/sum}
 */
-setReadOnly( ns, 'incrsum', require( '@stdlib/stats/incr/sum' ) );
+setReadOnly( ns, 'incrsum', require( './../../incr/sum' ) );
 
 /**
 * @name incrsumabs
@@ -826,7 +826,7 @@ setReadOnly( ns, 'incrsum', require( '@stdlib/stats/incr/sum' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/sumabs}
 */
-setReadOnly( ns, 'incrsumabs', require( '@stdlib/stats/incr/sumabs' ) );
+setReadOnly( ns, 'incrsumabs', require( './../../incr/sumabs' ) );
 
 /**
 * @name incrsumabs2
@@ -835,7 +835,7 @@ setReadOnly( ns, 'incrsumabs', require( '@stdlib/stats/incr/sumabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/sumabs2}
 */
-setReadOnly( ns, 'incrsumabs2', require( '@stdlib/stats/incr/sumabs2' ) );
+setReadOnly( ns, 'incrsumabs2', require( './../../incr/sumabs2' ) );
 
 /**
 * @name incrsummary
@@ -844,7 +844,7 @@ setReadOnly( ns, 'incrsumabs2', require( '@stdlib/stats/incr/sumabs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/summary}
 */
-setReadOnly( ns, 'incrsummary', require( '@stdlib/stats/incr/summary' ) );
+setReadOnly( ns, 'incrsummary', require( './../../incr/summary' ) );
 
 /**
 * @name incrsumprod
@@ -853,7 +853,7 @@ setReadOnly( ns, 'incrsummary', require( '@stdlib/stats/incr/summary' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/sumprod}
 */
-setReadOnly( ns, 'incrsumprod', require( '@stdlib/stats/incr/sumprod' ) );
+setReadOnly( ns, 'incrsumprod', require( './../../incr/sumprod' ) );
 
 /**
 * @name incrvariance
@@ -862,7 +862,7 @@ setReadOnly( ns, 'incrsumprod', require( '@stdlib/stats/incr/sumprod' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/variance}
 */
-setReadOnly( ns, 'incrvariance', require( '@stdlib/stats/incr/variance' ) );
+setReadOnly( ns, 'incrvariance', require( './../../incr/variance' ) );
 
 /**
 * @name incrvmr
@@ -871,7 +871,7 @@ setReadOnly( ns, 'incrvariance', require( '@stdlib/stats/incr/variance' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/vmr}
 */
-setReadOnly( ns, 'incrvmr', require( '@stdlib/stats/incr/vmr' ) );
+setReadOnly( ns, 'incrvmr', require( './../../incr/vmr' ) );
 
 /**
 * @name incrwmean
@@ -880,7 +880,7 @@ setReadOnly( ns, 'incrvmr', require( '@stdlib/stats/incr/vmr' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/incr/wmean}
 */
-setReadOnly( ns, 'incrwmean', require( '@stdlib/stats/incr/wmean' ) );
+setReadOnly( ns, 'incrwmean', require( './../../incr/wmean' ) );
 
 
 // EXPORTS //

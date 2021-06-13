@@ -21,7 +21,7 @@
 // MODULES //
 
 var isPositiveInteger = require( '@stdlib/assert/is-positive-integer' ).isPrimitive;
-var incrmsum = require( '@stdlib/stats/incr/msum' );
+var incrmsum = require( './../../../incr/msum' );
 
 
 // MAIN //

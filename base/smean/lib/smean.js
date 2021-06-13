@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var smeanpn = require( '@stdlib/stats/base/smeanpn' );
+var smeanpn = require( './../../../base/smeanpn' );
 
 
 // MAIN //

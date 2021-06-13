@@ -43,7 +43,7 @@ var lognormal = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/lognormal/cdf}
 */
-setReadOnly( lognormal, 'cdf', require( '@stdlib/stats/base/dists/lognormal/cdf' ) );
+setReadOnly( lognormal, 'cdf', require( './../../../../base/dists/lognormal/cdf' ) );
 
 /**
 * @name LogNormal
@@ -52,7 +52,7 @@ setReadOnly( lognormal, 'cdf', require( '@stdlib/stats/base/dists/lognormal/cdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/lognormal/ctor}
 */
-setReadOnly( lognormal, 'LogNormal', require( '@stdlib/stats/base/dists/lognormal/ctor' ) );
+setReadOnly( lognormal, 'LogNormal', require( './../../../../base/dists/lognormal/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( lognormal, 'LogNormal', require( '@stdlib/stats/base/dists/lognorma
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/lognormal/entropy}
 */
-setReadOnly( lognormal, 'entropy', require( '@stdlib/stats/base/dists/lognormal/entropy' ) );
+setReadOnly( lognormal, 'entropy', require( './../../../../base/dists/lognormal/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( lognormal, 'entropy', require( '@stdlib/stats/base/dists/lognormal/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/lognormal/kurtosis}
 */
-setReadOnly( lognormal, 'kurtosis', require( '@stdlib/stats/base/dists/lognormal/kurtosis' ) );
+setReadOnly( lognormal, 'kurtosis', require( './../../../../base/dists/lognormal/kurtosis' ) );
 
 /**
 * @name logpdf
@@ -79,7 +79,7 @@ setReadOnly( lognormal, 'kurtosis', require( '@stdlib/stats/base/dists/lognormal
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/lognormal/logpdf}
 */
-setReadOnly( lognormal, 'logpdf', require( '@stdlib/stats/base/dists/lognormal/logpdf' ) );
+setReadOnly( lognormal, 'logpdf', require( './../../../../base/dists/lognormal/logpdf' ) );
 
 /**
 * @name mean
@@ -88,7 +88,7 @@ setReadOnly( lognormal, 'logpdf', require( '@stdlib/stats/base/dists/lognormal/l
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/lognormal/mean}
 */
-setReadOnly( lognormal, 'mean', require( '@stdlib/stats/base/dists/lognormal/mean' ) );
+setReadOnly( lognormal, 'mean', require( './../../../../base/dists/lognormal/mean' ) );
 
 /**
 * @name median
@@ -97,7 +97,7 @@ setReadOnly( lognormal, 'mean', require( '@stdlib/stats/base/dists/lognormal/mea
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/lognormal/median}
 */
-setReadOnly( lognormal, 'median', require( '@stdlib/stats/base/dists/lognormal/median' ) );
+setReadOnly( lognormal, 'median', require( './../../../../base/dists/lognormal/median' ) );
 
 /**
 * @name mode
@@ -106,7 +106,7 @@ setReadOnly( lognormal, 'median', require( '@stdlib/stats/base/dists/lognormal/m
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/lognormal/mode}
 */
-setReadOnly( lognormal, 'mode', require( '@stdlib/stats/base/dists/lognormal/mode' ) );
+setReadOnly( lognormal, 'mode', require( './../../../../base/dists/lognormal/mode' ) );
 
 /**
 * @name pdf
@@ -115,7 +115,7 @@ setReadOnly( lognormal, 'mode', require( '@stdlib/stats/base/dists/lognormal/mod
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/lognormal/pdf}
 */
-setReadOnly( lognormal, 'pdf', require( '@stdlib/stats/base/dists/lognormal/pdf' ) );
+setReadOnly( lognormal, 'pdf', require( './../../../../base/dists/lognormal/pdf' ) );
 
 /**
 * @name quantile
@@ -124,7 +124,7 @@ setReadOnly( lognormal, 'pdf', require( '@stdlib/stats/base/dists/lognormal/pdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/lognormal/quantile}
 */
-setReadOnly( lognormal, 'quantile', require( '@stdlib/stats/base/dists/lognormal/quantile' ) );
+setReadOnly( lognormal, 'quantile', require( './../../../../base/dists/lognormal/quantile' ) );
 
 /**
 * @name skewness
@@ -133,7 +133,7 @@ setReadOnly( lognormal, 'quantile', require( '@stdlib/stats/base/dists/lognormal
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/lognormal/skewness}
 */
-setReadOnly( lognormal, 'skewness', require( '@stdlib/stats/base/dists/lognormal/skewness' ) );
+setReadOnly( lognormal, 'skewness', require( './../../../../base/dists/lognormal/skewness' ) );
 
 /**
 * @name stdev
@@ -142,7 +142,7 @@ setReadOnly( lognormal, 'skewness', require( '@stdlib/stats/base/dists/lognormal
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/lognormal/stdev}
 */
-setReadOnly( lognormal, 'stdev', require( '@stdlib/stats/base/dists/lognormal/stdev' ) );
+setReadOnly( lognormal, 'stdev', require( './../../../../base/dists/lognormal/stdev' ) );
 
 /**
 * @name variance
@@ -151,7 +151,7 @@ setReadOnly( lognormal, 'stdev', require( '@stdlib/stats/base/dists/lognormal/st
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/lognormal/variance}
 */
-setReadOnly( lognormal, 'variance', require( '@stdlib/stats/base/dists/lognormal/variance' ) );
+setReadOnly( lognormal, 'variance', require( './../../../../base/dists/lognormal/variance' ) );
 
 
 // EXPORTS //

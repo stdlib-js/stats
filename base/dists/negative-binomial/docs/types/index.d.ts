@@ -21,18 +21,18 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/negative-binomial/cdf' );
-import NegativeBinomial = require( '@stdlib/stats/base/dists/negative-binomial/ctor' );
-import kurtosis = require( '@stdlib/stats/base/dists/negative-binomial/kurtosis' );
-import logpmf = require( '@stdlib/stats/base/dists/negative-binomial/logpmf' );
-import mean = require( '@stdlib/stats/base/dists/negative-binomial/mean' );
-import mgf = require( '@stdlib/stats/base/dists/negative-binomial/mgf' );
-import mode = require( '@stdlib/stats/base/dists/negative-binomial/mode' );
-import pmf = require( '@stdlib/stats/base/dists/negative-binomial/pmf' );
-import quantile = require( '@stdlib/stats/base/dists/negative-binomial/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/negative-binomial/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/negative-binomial/stdev' );
-import variance = require( '@stdlib/stats/base/dists/negative-binomial/variance' );
+import cdf = require( './../../../../../base/dists/negative-binomial/cdf' );
+import NegativeBinomial = require( './../../../../../base/dists/negative-binomial/ctor' );
+import kurtosis = require( './../../../../../base/dists/negative-binomial/kurtosis' );
+import logpmf = require( './../../../../../base/dists/negative-binomial/logpmf' );
+import mean = require( './../../../../../base/dists/negative-binomial/mean' );
+import mgf = require( './../../../../../base/dists/negative-binomial/mgf' );
+import mode = require( './../../../../../base/dists/negative-binomial/mode' );
+import pmf = require( './../../../../../base/dists/negative-binomial/pmf' );
+import quantile = require( './../../../../../base/dists/negative-binomial/quantile' );
+import skewness = require( './../../../../../base/dists/negative-binomial/skewness' );
+import stdev = require( './../../../../../base/dists/negative-binomial/stdev' );
+import variance = require( './../../../../../base/dists/negative-binomial/variance' );
 
 /**
 * Interface describing the `negative-binomial` namespace.

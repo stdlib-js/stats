@@ -23,20 +23,20 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/beta/quantile' );
-var logcdf = require( '@stdlib/stats/base/dists/beta/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/beta/logpdf' );
-var cdf = require( '@stdlib/stats/base/dists/beta/cdf' );
-var mgf = require( '@stdlib/stats/base/dists/beta/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/beta/pdf' );
-var kurtosis = require( '@stdlib/stats/base/dists/beta/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/beta/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/beta/stdev' );
-var variance = require( '@stdlib/stats/base/dists/beta/variance' );
-var entropy = require( '@stdlib/stats/base/dists/beta/entropy' );
-var median = require( '@stdlib/stats/base/dists/beta/median' );
-var mode = require( '@stdlib/stats/base/dists/beta/mode' );
-var mean = require( '@stdlib/stats/base/dists/beta/mean' );
+var quantile = require( './../../../../../base/dists/beta/quantile' );
+var logcdf = require( './../../../../../base/dists/beta/logcdf' );
+var logpdf = require( './../../../../../base/dists/beta/logpdf' );
+var cdf = require( './../../../../../base/dists/beta/cdf' );
+var mgf = require( './../../../../../base/dists/beta/mgf' );
+var pdf = require( './../../../../../base/dists/beta/pdf' );
+var kurtosis = require( './../../../../../base/dists/beta/kurtosis' );
+var skewness = require( './../../../../../base/dists/beta/skewness' );
+var stdev = require( './../../../../../base/dists/beta/stdev' );
+var variance = require( './../../../../../base/dists/beta/variance' );
+var entropy = require( './../../../../../base/dists/beta/entropy' );
+var median = require( './../../../../../base/dists/beta/median' );
+var mode = require( './../../../../../base/dists/beta/mode' );
+var mean = require( './../../../../../base/dists/beta/mean' );
 var Beta = require( './../lib' );
 
 

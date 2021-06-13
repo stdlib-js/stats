@@ -21,9 +21,9 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/signrank/cdf' );
-import pdf = require( '@stdlib/stats/base/dists/signrank/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/signrank/quantile' );
+import cdf = require( './../../../../../base/dists/signrank/cdf' );
+import pdf = require( './../../../../../base/dists/signrank/pdf' );
+import quantile = require( './../../../../../base/dists/signrank/quantile' );
 
 /**
 * Interface describing the `signrank` namespace.

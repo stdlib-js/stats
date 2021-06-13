@@ -43,7 +43,7 @@ var levy = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/levy/cdf}
 */
-setReadOnly( levy, 'cdf', require( '@stdlib/stats/base/dists/levy/cdf' ) );
+setReadOnly( levy, 'cdf', require( './../../../../base/dists/levy/cdf' ) );
 
 /**
 * @name Levy
@@ -52,7 +52,7 @@ setReadOnly( levy, 'cdf', require( '@stdlib/stats/base/dists/levy/cdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/levy/ctor}
 */
-setReadOnly( levy, 'Levy', require( '@stdlib/stats/base/dists/levy/ctor' ) );
+setReadOnly( levy, 'Levy', require( './../../../../base/dists/levy/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( levy, 'Levy', require( '@stdlib/stats/base/dists/levy/ctor' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/levy/entropy}
 */
-setReadOnly( levy, 'entropy', require( '@stdlib/stats/base/dists/levy/entropy' ) );
+setReadOnly( levy, 'entropy', require( './../../../../base/dists/levy/entropy' ) );
 
 /**
 * @name logcdf
@@ -70,7 +70,7 @@ setReadOnly( levy, 'entropy', require( '@stdlib/stats/base/dists/levy/entropy' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/levy/logcdf}
 */
-setReadOnly( levy, 'logcdf', require( '@stdlib/stats/base/dists/levy/logcdf' ) );
+setReadOnly( levy, 'logcdf', require( './../../../../base/dists/levy/logcdf' ) );
 
 /**
 * @name logpdf
@@ -79,7 +79,7 @@ setReadOnly( levy, 'logcdf', require( '@stdlib/stats/base/dists/levy/logcdf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/levy/logpdf}
 */
-setReadOnly( levy, 'logpdf', require( '@stdlib/stats/base/dists/levy/logpdf' ) );
+setReadOnly( levy, 'logpdf', require( './../../../../base/dists/levy/logpdf' ) );
 
 /**
 * @name mean
@@ -88,7 +88,7 @@ setReadOnly( levy, 'logpdf', require( '@stdlib/stats/base/dists/levy/logpdf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/levy/mean}
 */
-setReadOnly( levy, 'mean', require( '@stdlib/stats/base/dists/levy/mean' ) );
+setReadOnly( levy, 'mean', require( './../../../../base/dists/levy/mean' ) );
 
 /**
 * @name median
@@ -97,7 +97,7 @@ setReadOnly( levy, 'mean', require( '@stdlib/stats/base/dists/levy/mean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/levy/median}
 */
-setReadOnly( levy, 'median', require( '@stdlib/stats/base/dists/levy/median' ) );
+setReadOnly( levy, 'median', require( './../../../../base/dists/levy/median' ) );
 
 /**
 * @name mode
@@ -106,7 +106,7 @@ setReadOnly( levy, 'median', require( '@stdlib/stats/base/dists/levy/median' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/levy/mode}
 */
-setReadOnly( levy, 'mode', require( '@stdlib/stats/base/dists/levy/mode' ) );
+setReadOnly( levy, 'mode', require( './../../../../base/dists/levy/mode' ) );
 
 /**
 * @name pdf
@@ -115,7 +115,7 @@ setReadOnly( levy, 'mode', require( '@stdlib/stats/base/dists/levy/mode' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/levy/pdf}
 */
-setReadOnly( levy, 'pdf', require( '@stdlib/stats/base/dists/levy/pdf' ) );
+setReadOnly( levy, 'pdf', require( './../../../../base/dists/levy/pdf' ) );
 
 /**
 * @name quantile
@@ -124,7 +124,7 @@ setReadOnly( levy, 'pdf', require( '@stdlib/stats/base/dists/levy/pdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/levy/quantile}
 */
-setReadOnly( levy, 'quantile', require( '@stdlib/stats/base/dists/levy/quantile' ) );
+setReadOnly( levy, 'quantile', require( './../../../../base/dists/levy/quantile' ) );
 
 /**
 * @name stdev
@@ -133,7 +133,7 @@ setReadOnly( levy, 'quantile', require( '@stdlib/stats/base/dists/levy/quantile'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/levy/stdev}
 */
-setReadOnly( levy, 'stdev', require( '@stdlib/stats/base/dists/levy/stdev' ) );
+setReadOnly( levy, 'stdev', require( './../../../../base/dists/levy/stdev' ) );
 
 /**
 * @name variance
@@ -142,7 +142,7 @@ setReadOnly( levy, 'stdev', require( '@stdlib/stats/base/dists/levy/stdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/levy/variance}
 */
-setReadOnly( levy, 'variance', require( '@stdlib/stats/base/dists/levy/variance' ) );
+setReadOnly( levy, 'variance', require( './../../../../base/dists/levy/variance' ) );
 
 
 // EXPORTS //

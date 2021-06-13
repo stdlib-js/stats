@@ -22,7 +22,7 @@
 
 var isPositiveInteger = require( '@stdlib/assert/is-positive-integer' ).isPrimitive;
 var abs = require( '@stdlib/math/base/special/abs' );
-var incrmmean = require( '@stdlib/stats/incr/mmean' );
+var incrmmean = require( './../../../incr/mmean' );
 
 
 // MAIN //

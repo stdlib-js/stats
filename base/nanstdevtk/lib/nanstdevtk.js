@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var nanvariancetk = require( '@stdlib/stats/base/nanvariancetk' );
+var nanvariancetk = require( './../../../base/nanvariancetk' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 
 

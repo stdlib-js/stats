@@ -24,7 +24,7 @@ var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
 var isObject = require( '@stdlib/assert/is-object' );
 var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
-var stdev = require( '@stdlib/stats/base/dists/uniform/stdev' );
+var stdev = require( './../../base/dists/uniform/stdev' );
 var pkg = require( './../package.json' ).name;
 var ztest2 = require( './../lib' );
 

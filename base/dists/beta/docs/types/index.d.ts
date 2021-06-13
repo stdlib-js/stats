@@ -21,21 +21,21 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/beta/cdf' );
-import Beta = require( '@stdlib/stats/base/dists/beta/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/beta/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/beta/kurtosis' );
-import logcdf = require( '@stdlib/stats/base/dists/beta/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/beta/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/beta/mean' );
-import median = require( '@stdlib/stats/base/dists/beta/median' );
-import mgf = require( '@stdlib/stats/base/dists/beta/mgf' );
-import mode = require( '@stdlib/stats/base/dists/beta/mode' );
-import pdf = require( '@stdlib/stats/base/dists/beta/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/beta/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/beta/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/beta/stdev' );
-import variance = require( '@stdlib/stats/base/dists/beta/variance' );
+import cdf = require( './../../../../../base/dists/beta/cdf' );
+import Beta = require( './../../../../../base/dists/beta/ctor' );
+import entropy = require( './../../../../../base/dists/beta/entropy' );
+import kurtosis = require( './../../../../../base/dists/beta/kurtosis' );
+import logcdf = require( './../../../../../base/dists/beta/logcdf' );
+import logpdf = require( './../../../../../base/dists/beta/logpdf' );
+import mean = require( './../../../../../base/dists/beta/mean' );
+import median = require( './../../../../../base/dists/beta/median' );
+import mgf = require( './../../../../../base/dists/beta/mgf' );
+import mode = require( './../../../../../base/dists/beta/mode' );
+import pdf = require( './../../../../../base/dists/beta/pdf' );
+import quantile = require( './../../../../../base/dists/beta/quantile' );
+import skewness = require( './../../../../../base/dists/beta/skewness' );
+import stdev = require( './../../../../../base/dists/beta/stdev' );
+import variance = require( './../../../../../base/dists/beta/variance' );
 
 /**
 * Interface describing the `beta` namespace.

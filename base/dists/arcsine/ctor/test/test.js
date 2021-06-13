@@ -23,19 +23,19 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/arcsine/quantile' );
-var logcdf = require( '@stdlib/stats/base/dists/arcsine/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/arcsine/logpdf' );
-var cdf = require( '@stdlib/stats/base/dists/arcsine/cdf' );
-var pdf = require( '@stdlib/stats/base/dists/arcsine/pdf' );
-var kurtosis = require( '@stdlib/stats/base/dists/arcsine/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/arcsine/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/arcsine/stdev' );
-var variance = require( '@stdlib/stats/base/dists/arcsine/variance' );
-var entropy = require( '@stdlib/stats/base/dists/arcsine/entropy' );
-var median = require( '@stdlib/stats/base/dists/arcsine/median' );
-var mode = require( '@stdlib/stats/base/dists/arcsine/mode' );
-var mean = require( '@stdlib/stats/base/dists/arcsine/mean' );
+var quantile = require( './../../../../../base/dists/arcsine/quantile' );
+var logcdf = require( './../../../../../base/dists/arcsine/logcdf' );
+var logpdf = require( './../../../../../base/dists/arcsine/logpdf' );
+var cdf = require( './../../../../../base/dists/arcsine/cdf' );
+var pdf = require( './../../../../../base/dists/arcsine/pdf' );
+var kurtosis = require( './../../../../../base/dists/arcsine/kurtosis' );
+var skewness = require( './../../../../../base/dists/arcsine/skewness' );
+var stdev = require( './../../../../../base/dists/arcsine/stdev' );
+var variance = require( './../../../../../base/dists/arcsine/variance' );
+var entropy = require( './../../../../../base/dists/arcsine/entropy' );
+var median = require( './../../../../../base/dists/arcsine/median' );
+var mode = require( './../../../../../base/dists/arcsine/mode' );
+var mean = require( './../../../../../base/dists/arcsine/mean' );
 var Arcsine = require( './../lib' );
 
 

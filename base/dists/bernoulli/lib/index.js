@@ -43,7 +43,7 @@ var bernoulli = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/bernoulli/cdf}
 */
-setReadOnly( bernoulli, 'cdf', require( '@stdlib/stats/base/dists/bernoulli/cdf' ) );
+setReadOnly( bernoulli, 'cdf', require( './../../../../base/dists/bernoulli/cdf' ) );
 
 /**
 * @name Bernoulli
@@ -52,7 +52,7 @@ setReadOnly( bernoulli, 'cdf', require( '@stdlib/stats/base/dists/bernoulli/cdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/bernoulli/ctor}
 */
-setReadOnly( bernoulli, 'Bernoulli', require( '@stdlib/stats/base/dists/bernoulli/ctor' ) );
+setReadOnly( bernoulli, 'Bernoulli', require( './../../../../base/dists/bernoulli/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( bernoulli, 'Bernoulli', require( '@stdlib/stats/base/dists/bernoull
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/bernoulli/entropy}
 */
-setReadOnly( bernoulli, 'entropy', require( '@stdlib/stats/base/dists/bernoulli/entropy' ) );
+setReadOnly( bernoulli, 'entropy', require( './../../../../base/dists/bernoulli/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( bernoulli, 'entropy', require( '@stdlib/stats/base/dists/bernoulli/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/bernoulli/kurtosis}
 */
-setReadOnly( bernoulli, 'kurtosis', require( '@stdlib/stats/base/dists/bernoulli/kurtosis' ) );
+setReadOnly( bernoulli, 'kurtosis', require( './../../../../base/dists/bernoulli/kurtosis' ) );
 
 /**
 * @name mean
@@ -79,7 +79,7 @@ setReadOnly( bernoulli, 'kurtosis', require( '@stdlib/stats/base/dists/bernoulli
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/bernoulli/mean}
 */
-setReadOnly( bernoulli, 'mean', require( '@stdlib/stats/base/dists/bernoulli/mean' ) );
+setReadOnly( bernoulli, 'mean', require( './../../../../base/dists/bernoulli/mean' ) );
 
 /**
 * @name median
@@ -88,7 +88,7 @@ setReadOnly( bernoulli, 'mean', require( '@stdlib/stats/base/dists/bernoulli/mea
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/bernoulli/median}
 */
-setReadOnly( bernoulli, 'median', require( '@stdlib/stats/base/dists/bernoulli/median' ) );
+setReadOnly( bernoulli, 'median', require( './../../../../base/dists/bernoulli/median' ) );
 
 /**
 * @name mgf
@@ -97,7 +97,7 @@ setReadOnly( bernoulli, 'median', require( '@stdlib/stats/base/dists/bernoulli/m
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/bernoulli/mgf}
 */
-setReadOnly( bernoulli, 'mgf', require( '@stdlib/stats/base/dists/bernoulli/mgf' ) );
+setReadOnly( bernoulli, 'mgf', require( './../../../../base/dists/bernoulli/mgf' ) );
 
 /**
 * @name mode
@@ -106,7 +106,7 @@ setReadOnly( bernoulli, 'mgf', require( '@stdlib/stats/base/dists/bernoulli/mgf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/bernoulli/mode}
 */
-setReadOnly( bernoulli, 'mode', require( '@stdlib/stats/base/dists/bernoulli/mode' ) );
+setReadOnly( bernoulli, 'mode', require( './../../../../base/dists/bernoulli/mode' ) );
 
 /**
 * @name pmf
@@ -115,7 +115,7 @@ setReadOnly( bernoulli, 'mode', require( '@stdlib/stats/base/dists/bernoulli/mod
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/bernoulli/pmf}
 */
-setReadOnly( bernoulli, 'pmf', require( '@stdlib/stats/base/dists/bernoulli/pmf' ) );
+setReadOnly( bernoulli, 'pmf', require( './../../../../base/dists/bernoulli/pmf' ) );
 
 /**
 * @name quantile
@@ -124,7 +124,7 @@ setReadOnly( bernoulli, 'pmf', require( '@stdlib/stats/base/dists/bernoulli/pmf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/bernoulli/quantile}
 */
-setReadOnly( bernoulli, 'quantile', require( '@stdlib/stats/base/dists/bernoulli/quantile' ) );
+setReadOnly( bernoulli, 'quantile', require( './../../../../base/dists/bernoulli/quantile' ) );
 
 /**
 * @name skewness
@@ -133,7 +133,7 @@ setReadOnly( bernoulli, 'quantile', require( '@stdlib/stats/base/dists/bernoulli
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/bernoulli/skewness}
 */
-setReadOnly( bernoulli, 'skewness', require( '@stdlib/stats/base/dists/bernoulli/skewness' ) );
+setReadOnly( bernoulli, 'skewness', require( './../../../../base/dists/bernoulli/skewness' ) );
 
 /**
 * @name stdev
@@ -142,7 +142,7 @@ setReadOnly( bernoulli, 'skewness', require( '@stdlib/stats/base/dists/bernoulli
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/bernoulli/stdev}
 */
-setReadOnly( bernoulli, 'stdev', require( '@stdlib/stats/base/dists/bernoulli/stdev' ) );
+setReadOnly( bernoulli, 'stdev', require( './../../../../base/dists/bernoulli/stdev' ) );
 
 /**
 * @name variance
@@ -151,7 +151,7 @@ setReadOnly( bernoulli, 'stdev', require( '@stdlib/stats/base/dists/bernoulli/st
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/bernoulli/variance}
 */
-setReadOnly( bernoulli, 'variance', require( '@stdlib/stats/base/dists/bernoulli/variance' ) );
+setReadOnly( bernoulli, 'variance', require( './../../../../base/dists/bernoulli/variance' ) );
 
 
 // EXPORTS //

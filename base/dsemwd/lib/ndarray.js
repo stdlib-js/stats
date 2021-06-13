@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dvariancewd = require( '@stdlib/stats/base/dvariancewd' ).ndarray;
+var dvariancewd = require( './../../../base/dvariancewd' ).ndarray;
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 
 

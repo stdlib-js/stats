@@ -43,7 +43,7 @@ var cauchy = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cauchy/cdf}
 */
-setReadOnly( cauchy, 'cdf', require( '@stdlib/stats/base/dists/cauchy/cdf' ) );
+setReadOnly( cauchy, 'cdf', require( './../../../../base/dists/cauchy/cdf' ) );
 
 /**
 * @name Cauchy
@@ -52,7 +52,7 @@ setReadOnly( cauchy, 'cdf', require( '@stdlib/stats/base/dists/cauchy/cdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cauchy/ctor}
 */
-setReadOnly( cauchy, 'Cauchy', require( '@stdlib/stats/base/dists/cauchy/ctor' ) );
+setReadOnly( cauchy, 'Cauchy', require( './../../../../base/dists/cauchy/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( cauchy, 'Cauchy', require( '@stdlib/stats/base/dists/cauchy/ctor' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cauchy/entropy}
 */
-setReadOnly( cauchy, 'entropy', require( '@stdlib/stats/base/dists/cauchy/entropy' ) );
+setReadOnly( cauchy, 'entropy', require( './../../../../base/dists/cauchy/entropy' ) );
 
 /**
 * @name logcdf
@@ -70,7 +70,7 @@ setReadOnly( cauchy, 'entropy', require( '@stdlib/stats/base/dists/cauchy/entrop
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cauchy/logcdf}
 */
-setReadOnly( cauchy, 'logcdf', require( '@stdlib/stats/base/dists/cauchy/logcdf' ) );
+setReadOnly( cauchy, 'logcdf', require( './../../../../base/dists/cauchy/logcdf' ) );
 
 /**
 * @name logpdf
@@ -79,7 +79,7 @@ setReadOnly( cauchy, 'logcdf', require( '@stdlib/stats/base/dists/cauchy/logcdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cauchy/logpdf}
 */
-setReadOnly( cauchy, 'logpdf', require( '@stdlib/stats/base/dists/cauchy/logpdf' ) );
+setReadOnly( cauchy, 'logpdf', require( './../../../../base/dists/cauchy/logpdf' ) );
 
 /**
 * @name median
@@ -88,7 +88,7 @@ setReadOnly( cauchy, 'logpdf', require( '@stdlib/stats/base/dists/cauchy/logpdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cauchy/median}
 */
-setReadOnly( cauchy, 'median', require( '@stdlib/stats/base/dists/cauchy/median' ) );
+setReadOnly( cauchy, 'median', require( './../../../../base/dists/cauchy/median' ) );
 
 /**
 * @name mode
@@ -97,7 +97,7 @@ setReadOnly( cauchy, 'median', require( '@stdlib/stats/base/dists/cauchy/median'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cauchy/mode}
 */
-setReadOnly( cauchy, 'mode', require( '@stdlib/stats/base/dists/cauchy/mode' ) );
+setReadOnly( cauchy, 'mode', require( './../../../../base/dists/cauchy/mode' ) );
 
 /**
 * @name pdf
@@ -106,7 +106,7 @@ setReadOnly( cauchy, 'mode', require( '@stdlib/stats/base/dists/cauchy/mode' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cauchy/pdf}
 */
-setReadOnly( cauchy, 'pdf', require( '@stdlib/stats/base/dists/cauchy/pdf' ) );
+setReadOnly( cauchy, 'pdf', require( './../../../../base/dists/cauchy/pdf' ) );
 
 /**
 * @name quantile
@@ -115,7 +115,7 @@ setReadOnly( cauchy, 'pdf', require( '@stdlib/stats/base/dists/cauchy/pdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cauchy/quantile}
 */
-setReadOnly( cauchy, 'quantile', require( '@stdlib/stats/base/dists/cauchy/quantile' ) );
+setReadOnly( cauchy, 'quantile', require( './../../../../base/dists/cauchy/quantile' ) );
 
 
 // EXPORTS //

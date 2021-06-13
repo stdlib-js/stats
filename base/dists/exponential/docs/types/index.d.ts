@@ -21,21 +21,21 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/exponential/cdf' );
-import Exponential = require( '@stdlib/stats/base/dists/exponential/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/exponential/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/exponential/kurtosis' );
-import logcdf = require( '@stdlib/stats/base/dists/exponential/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/exponential/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/exponential/mean' );
-import median = require( '@stdlib/stats/base/dists/exponential/median' );
-import mgf = require( '@stdlib/stats/base/dists/exponential/mgf' );
-import mode = require( '@stdlib/stats/base/dists/exponential/mode' );
-import pdf = require( '@stdlib/stats/base/dists/exponential/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/exponential/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/exponential/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/exponential/stdev' );
-import variance = require( '@stdlib/stats/base/dists/exponential/variance' );
+import cdf = require( './../../../../../base/dists/exponential/cdf' );
+import Exponential = require( './../../../../../base/dists/exponential/ctor' );
+import entropy = require( './../../../../../base/dists/exponential/entropy' );
+import kurtosis = require( './../../../../../base/dists/exponential/kurtosis' );
+import logcdf = require( './../../../../../base/dists/exponential/logcdf' );
+import logpdf = require( './../../../../../base/dists/exponential/logpdf' );
+import mean = require( './../../../../../base/dists/exponential/mean' );
+import median = require( './../../../../../base/dists/exponential/median' );
+import mgf = require( './../../../../../base/dists/exponential/mgf' );
+import mode = require( './../../../../../base/dists/exponential/mode' );
+import pdf = require( './../../../../../base/dists/exponential/pdf' );
+import quantile = require( './../../../../../base/dists/exponential/quantile' );
+import skewness = require( './../../../../../base/dists/exponential/skewness' );
+import stdev = require( './../../../../../base/dists/exponential/stdev' );
+import variance = require( './../../../../../base/dists/exponential/variance' );
 
 /**
 * Interface describing the `exponential` namespace.

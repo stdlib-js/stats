@@ -26,16 +26,16 @@ var defineProperty = require( '@stdlib/utils/define-property' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
-var entropy = require( '@stdlib/stats/base/dists/f/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/f/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/f/mean' );
-var mode = require( '@stdlib/stats/base/dists/f/mode' );
-var skewness = require( '@stdlib/stats/base/dists/f/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/f/stdev' );
-var variance = require( '@stdlib/stats/base/dists/f/variance' );
-var cdf = require( '@stdlib/stats/base/dists/f/cdf' );
-var pdf = require( '@stdlib/stats/base/dists/f/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/f/quantile' );
+var entropy = require( './../../../../../base/dists/f/entropy' );
+var kurtosis = require( './../../../../../base/dists/f/kurtosis' );
+var mean = require( './../../../../../base/dists/f/mean' );
+var mode = require( './../../../../../base/dists/f/mode' );
+var skewness = require( './../../../../../base/dists/f/skewness' );
+var stdev = require( './../../../../../base/dists/f/stdev' );
+var variance = require( './../../../../../base/dists/f/variance' );
+var cdf = require( './../../../../../base/dists/f/cdf' );
+var pdf = require( './../../../../../base/dists/f/pdf' );
+var quantile = require( './../../../../../base/dists/f/quantile' );
 
 
 // FUNCTIONS //

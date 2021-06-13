@@ -23,19 +23,19 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/weibull/quantile' );
-var logcdf = require( '@stdlib/stats/base/dists/weibull/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/weibull/logpdf' );
-var cdf = require( '@stdlib/stats/base/dists/weibull/cdf' );
-var mgf = require( '@stdlib/stats/base/dists/weibull/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/weibull/pdf' );
-var entropy = require( '@stdlib/stats/base/dists/weibull/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/weibull/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/weibull/skewness' );
-var variance = require( '@stdlib/stats/base/dists/weibull/variance' );
-var stdev = require( '@stdlib/stats/base/dists/weibull/stdev' );
-var mode = require( '@stdlib/stats/base/dists/weibull/mode' );
-var mean = require( '@stdlib/stats/base/dists/weibull/mean' );
+var quantile = require( './../../../../../base/dists/weibull/quantile' );
+var logcdf = require( './../../../../../base/dists/weibull/logcdf' );
+var logpdf = require( './../../../../../base/dists/weibull/logpdf' );
+var cdf = require( './../../../../../base/dists/weibull/cdf' );
+var mgf = require( './../../../../../base/dists/weibull/mgf' );
+var pdf = require( './../../../../../base/dists/weibull/pdf' );
+var entropy = require( './../../../../../base/dists/weibull/entropy' );
+var kurtosis = require( './../../../../../base/dists/weibull/kurtosis' );
+var skewness = require( './../../../../../base/dists/weibull/skewness' );
+var variance = require( './../../../../../base/dists/weibull/variance' );
+var stdev = require( './../../../../../base/dists/weibull/stdev' );
+var mode = require( './../../../../../base/dists/weibull/mode' );
+var mean = require( './../../../../../base/dists/weibull/mean' );
 var Weibull = require( './../lib' );
 
 

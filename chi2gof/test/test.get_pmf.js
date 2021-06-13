@@ -21,13 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var bernoulliPMF = require( '@stdlib/stats/base/dists/bernoulli/pmf' );
-var binomialPMF = require( '@stdlib/stats/base/dists/binomial/pmf' );
-var geometricPMF = require( '@stdlib/stats/base/dists/geometric/pmf' );
-var hypergeometricPMF = require( '@stdlib/stats/base/dists/hypergeometric/pmf' );
-var negativeBinomialPMF = require( '@stdlib/stats/base/dists/negative-binomial/pmf' );
-var discreteUniformPMF = require( '@stdlib/stats/base/dists/discrete-uniform/pmf' );
-var poissonPMF = require( '@stdlib/stats/base/dists/poisson/pmf' );
+var bernoulliPMF = require( './../../base/dists/bernoulli/pmf' );
+var binomialPMF = require( './../../base/dists/binomial/pmf' );
+var geometricPMF = require( './../../base/dists/geometric/pmf' );
+var hypergeometricPMF = require( './../../base/dists/hypergeometric/pmf' );
+var negativeBinomialPMF = require( './../../base/dists/negative-binomial/pmf' );
+var discreteUniformPMF = require( './../../base/dists/discrete-uniform/pmf' );
+var poissonPMF = require( './../../base/dists/poisson/pmf' );
 var getPMF = require( './../lib/get_pmf.js' );
 
 

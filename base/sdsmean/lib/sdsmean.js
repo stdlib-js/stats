@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var sdsmeanors = require( '@stdlib/stats/base/sdsmeanors' );
+var sdsmeanors = require( './../../../base/sdsmeanors' );
 
 
 // MAIN //

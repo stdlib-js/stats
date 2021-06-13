@@ -21,18 +21,18 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/betaprime/cdf' );
-import BetaPrime = require( '@stdlib/stats/base/dists/betaprime/ctor' );
-import kurtosis = require( '@stdlib/stats/base/dists/betaprime/kurtosis' );
-import logcdf = require( '@stdlib/stats/base/dists/betaprime/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/betaprime/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/betaprime/mean' );
-import mode = require( '@stdlib/stats/base/dists/betaprime/mode' );
-import pdf = require( '@stdlib/stats/base/dists/betaprime/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/betaprime/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/betaprime/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/betaprime/stdev' );
-import variance = require( '@stdlib/stats/base/dists/betaprime/variance' );
+import cdf = require( './../../../../../base/dists/betaprime/cdf' );
+import BetaPrime = require( './../../../../../base/dists/betaprime/ctor' );
+import kurtosis = require( './../../../../../base/dists/betaprime/kurtosis' );
+import logcdf = require( './../../../../../base/dists/betaprime/logcdf' );
+import logpdf = require( './../../../../../base/dists/betaprime/logpdf' );
+import mean = require( './../../../../../base/dists/betaprime/mean' );
+import mode = require( './../../../../../base/dists/betaprime/mode' );
+import pdf = require( './../../../../../base/dists/betaprime/pdf' );
+import quantile = require( './../../../../../base/dists/betaprime/quantile' );
+import skewness = require( './../../../../../base/dists/betaprime/skewness' );
+import stdev = require( './../../../../../base/dists/betaprime/stdev' );
+import variance = require( './../../../../../base/dists/betaprime/variance' );
 
 /**
 * Interface describing the `betaprime` namespace.

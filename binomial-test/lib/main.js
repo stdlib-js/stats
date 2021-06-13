@@ -23,11 +23,11 @@
 var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 var isNumberArray = require( '@stdlib/assert/is-number-array' );
 var isNonNegativeInteger = require( '@stdlib/assert/is-nonnegative-integer' );
-var betaQuantile = require( '@stdlib/stats/base/dists/beta/quantile' );
+var betaQuantile = require( './../../base/dists/beta/quantile' );
 var floor = require( '@stdlib/math/base/special/floor' );
 var ceil = require( '@stdlib/math/base/special/ceil' );
-var binomialCDF = require( '@stdlib/stats/base/dists/binomial/cdf' );
-var binomialPMF = require( '@stdlib/stats/base/dists/binomial/pmf' );
+var binomialCDF = require( './../../base/dists/binomial/cdf' );
+var binomialPMF = require( './../../base/dists/binomial/pmf' );
 var validate = require( './validate.js' );
 var print = require( './print.js' ); // eslint-disable-line stdlib/no-redeclare
 

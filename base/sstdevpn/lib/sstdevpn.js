@@ -21,7 +21,7 @@
 // MODULES //
 
 var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
-var svariancepn = require( '@stdlib/stats/base/svariancepn' );
+var svariancepn = require( './../../../base/svariancepn' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 
 

@@ -21,7 +21,7 @@
 // MODULES //
 
 var abs = require( '@stdlib/math/base/special/abs' );
-var incrmean = require( '@stdlib/stats/incr/mean' );
+var incrmean = require( './../../../incr/mean' );
 
 
 // MAIN //

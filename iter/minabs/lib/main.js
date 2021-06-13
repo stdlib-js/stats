@@ -22,7 +22,7 @@
 
 var isIteratorLike = require( '@stdlib/assert/is-iterator-like' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var incrminabs = require( '@stdlib/stats/incr/minabs' );
+var incrminabs = require( './../../../incr/minabs' );
 
 
 // MAIN //

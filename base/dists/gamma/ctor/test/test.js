@@ -23,19 +23,19 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/gamma/quantile' );
-var logcdf = require( '@stdlib/stats/base/dists/gamma/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/gamma/logpdf' );
-var cdf = require( '@stdlib/stats/base/dists/gamma/cdf' );
-var mgf = require( '@stdlib/stats/base/dists/gamma/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/gamma/pdf' );
-var entropy = require( '@stdlib/stats/base/dists/gamma/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/gamma/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/gamma/skewness' );
-var variance = require( '@stdlib/stats/base/dists/gamma/variance' );
-var stdev = require( '@stdlib/stats/base/dists/gamma/stdev' );
-var mode = require( '@stdlib/stats/base/dists/gamma/mode' );
-var mean = require( '@stdlib/stats/base/dists/gamma/mean' );
+var quantile = require( './../../../../../base/dists/gamma/quantile' );
+var logcdf = require( './../../../../../base/dists/gamma/logcdf' );
+var logpdf = require( './../../../../../base/dists/gamma/logpdf' );
+var cdf = require( './../../../../../base/dists/gamma/cdf' );
+var mgf = require( './../../../../../base/dists/gamma/mgf' );
+var pdf = require( './../../../../../base/dists/gamma/pdf' );
+var entropy = require( './../../../../../base/dists/gamma/entropy' );
+var kurtosis = require( './../../../../../base/dists/gamma/kurtosis' );
+var skewness = require( './../../../../../base/dists/gamma/skewness' );
+var variance = require( './../../../../../base/dists/gamma/variance' );
+var stdev = require( './../../../../../base/dists/gamma/stdev' );
+var mode = require( './../../../../../base/dists/gamma/mode' );
+var mean = require( './../../../../../base/dists/gamma/mean' );
 var Gamma = require( './../lib' );
 
 

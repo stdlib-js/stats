@@ -23,20 +23,20 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/logistic/quantile' );
-var logcdf = require( '@stdlib/stats/base/dists/logistic/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/logistic/logpdf' );
-var cdf = require( '@stdlib/stats/base/dists/logistic/cdf' );
-var mgf = require( '@stdlib/stats/base/dists/logistic/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/logistic/pdf' );
-var kurtosis = require( '@stdlib/stats/base/dists/logistic/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/logistic/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/logistic/stdev' );
-var variance = require( '@stdlib/stats/base/dists/logistic/variance' );
-var entropy = require( '@stdlib/stats/base/dists/logistic/entropy' );
-var median = require( '@stdlib/stats/base/dists/logistic/median' );
-var mode = require( '@stdlib/stats/base/dists/logistic/mode' );
-var mean = require( '@stdlib/stats/base/dists/logistic/mean' );
+var quantile = require( './../../../../../base/dists/logistic/quantile' );
+var logcdf = require( './../../../../../base/dists/logistic/logcdf' );
+var logpdf = require( './../../../../../base/dists/logistic/logpdf' );
+var cdf = require( './../../../../../base/dists/logistic/cdf' );
+var mgf = require( './../../../../../base/dists/logistic/mgf' );
+var pdf = require( './../../../../../base/dists/logistic/pdf' );
+var kurtosis = require( './../../../../../base/dists/logistic/kurtosis' );
+var skewness = require( './../../../../../base/dists/logistic/skewness' );
+var stdev = require( './../../../../../base/dists/logistic/stdev' );
+var variance = require( './../../../../../base/dists/logistic/variance' );
+var entropy = require( './../../../../../base/dists/logistic/entropy' );
+var median = require( './../../../../../base/dists/logistic/median' );
+var mode = require( './../../../../../base/dists/logistic/mode' );
+var mean = require( './../../../../../base/dists/logistic/mean' );
 var Logistic = require( './../lib' );
 
 

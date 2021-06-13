@@ -23,19 +23,19 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/normal/quantile' );
-var cdf = require( '@stdlib/stats/base/dists/normal/cdf' );
-var logpdf = require( '@stdlib/stats/base/dists/normal/logpdf' );
-var mgf = require( '@stdlib/stats/base/dists/normal/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/normal/pdf' );
-var kurtosis = require( '@stdlib/stats/base/dists/normal/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/normal/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/normal/stdev' );
-var variance = require( '@stdlib/stats/base/dists/normal/variance' );
-var entropy = require( '@stdlib/stats/base/dists/normal/entropy' );
-var median = require( '@stdlib/stats/base/dists/normal/median' );
-var mode = require( '@stdlib/stats/base/dists/normal/mode' );
-var mean = require( '@stdlib/stats/base/dists/normal/mean' );
+var quantile = require( './../../../../../base/dists/normal/quantile' );
+var cdf = require( './../../../../../base/dists/normal/cdf' );
+var logpdf = require( './../../../../../base/dists/normal/logpdf' );
+var mgf = require( './../../../../../base/dists/normal/mgf' );
+var pdf = require( './../../../../../base/dists/normal/pdf' );
+var kurtosis = require( './../../../../../base/dists/normal/kurtosis' );
+var skewness = require( './../../../../../base/dists/normal/skewness' );
+var stdev = require( './../../../../../base/dists/normal/stdev' );
+var variance = require( './../../../../../base/dists/normal/variance' );
+var entropy = require( './../../../../../base/dists/normal/entropy' );
+var median = require( './../../../../../base/dists/normal/median' );
+var mode = require( './../../../../../base/dists/normal/mode' );
+var mean = require( './../../../../../base/dists/normal/mean' );
 var Normal = require( './../lib' );
 
 

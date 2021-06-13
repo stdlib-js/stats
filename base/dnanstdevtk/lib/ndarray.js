@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dnanvariancetk = require( '@stdlib/stats/base/dnanvariancetk' ).ndarray;
+var dnanvariancetk = require( './../../../base/dnanvariancetk' ).ndarray;
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 
 

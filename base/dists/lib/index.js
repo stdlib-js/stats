@@ -43,7 +43,7 @@ var dist = {};
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/arcsine}
 */
-setReadOnly( dist, 'arcsine', require( '@stdlib/stats/base/dists/arcsine' ) );
+setReadOnly( dist, 'arcsine', require( './../../../base/dists/arcsine' ) );
 
 /**
 * @name bernoulli
@@ -52,7 +52,7 @@ setReadOnly( dist, 'arcsine', require( '@stdlib/stats/base/dists/arcsine' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/bernoulli}
 */
-setReadOnly( dist, 'bernoulli', require( '@stdlib/stats/base/dists/bernoulli' ) );
+setReadOnly( dist, 'bernoulli', require( './../../../base/dists/bernoulli' ) );
 
 /**
 * @name beta
@@ -61,7 +61,7 @@ setReadOnly( dist, 'bernoulli', require( '@stdlib/stats/base/dists/bernoulli' ) 
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/beta}
 */
-setReadOnly( dist, 'beta', require( '@stdlib/stats/base/dists/beta' ) );
+setReadOnly( dist, 'beta', require( './../../../base/dists/beta' ) );
 
 /**
 * @name betaprime
@@ -70,7 +70,7 @@ setReadOnly( dist, 'beta', require( '@stdlib/stats/base/dists/beta' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/betaprime}
 */
-setReadOnly( dist, 'betaprime', require( '@stdlib/stats/base/dists/betaprime' ) );
+setReadOnly( dist, 'betaprime', require( './../../../base/dists/betaprime' ) );
 
 /**
 * @name binomial
@@ -79,7 +79,7 @@ setReadOnly( dist, 'betaprime', require( '@stdlib/stats/base/dists/betaprime' ) 
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/binomial}
 */
-setReadOnly( dist, 'binomial', require( '@stdlib/stats/base/dists/binomial' ) );
+setReadOnly( dist, 'binomial', require( './../../../base/dists/binomial' ) );
 
 /**
 * @name cauchy
@@ -88,7 +88,7 @@ setReadOnly( dist, 'binomial', require( '@stdlib/stats/base/dists/binomial' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/cauchy}
 */
-setReadOnly( dist, 'cauchy', require( '@stdlib/stats/base/dists/cauchy' ) );
+setReadOnly( dist, 'cauchy', require( './../../../base/dists/cauchy' ) );
 
 /**
 * @name chi
@@ -97,7 +97,7 @@ setReadOnly( dist, 'cauchy', require( '@stdlib/stats/base/dists/cauchy' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/chi}
 */
-setReadOnly( dist, 'chi', require( '@stdlib/stats/base/dists/chi' ) );
+setReadOnly( dist, 'chi', require( './../../../base/dists/chi' ) );
 
 /**
 * @name chisquare
@@ -106,7 +106,7 @@ setReadOnly( dist, 'chi', require( '@stdlib/stats/base/dists/chi' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/chisquare}
 */
-setReadOnly( dist, 'chisquare', require( '@stdlib/stats/base/dists/chisquare' ) );
+setReadOnly( dist, 'chisquare', require( './../../../base/dists/chisquare' ) );
 
 /**
 * @name cosine
@@ -115,7 +115,7 @@ setReadOnly( dist, 'chisquare', require( '@stdlib/stats/base/dists/chisquare' ) 
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/cosine}
 */
-setReadOnly( dist, 'cosine', require( '@stdlib/stats/base/dists/cosine' ) );
+setReadOnly( dist, 'cosine', require( './../../../base/dists/cosine' ) );
 
 /**
 * @name degenerate
@@ -124,7 +124,7 @@ setReadOnly( dist, 'cosine', require( '@stdlib/stats/base/dists/cosine' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/degenerate}
 */
-setReadOnly( dist, 'degenerate', require( '@stdlib/stats/base/dists/degenerate' ) );
+setReadOnly( dist, 'degenerate', require( './../../../base/dists/degenerate' ) );
 
 /**
 * @name discreteUniform
@@ -133,7 +133,7 @@ setReadOnly( dist, 'degenerate', require( '@stdlib/stats/base/dists/degenerate' 
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform}
 */
-setReadOnly( dist, 'discreteUniform', require( '@stdlib/stats/base/dists/discrete-uniform' ) );
+setReadOnly( dist, 'discreteUniform', require( './../../../base/dists/discrete-uniform' ) );
 
 /**
 * @name erlang
@@ -142,7 +142,7 @@ setReadOnly( dist, 'discreteUniform', require( '@stdlib/stats/base/dists/discret
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/erlang}
 */
-setReadOnly( dist, 'erlang', require( '@stdlib/stats/base/dists/erlang' ) );
+setReadOnly( dist, 'erlang', require( './../../../base/dists/erlang' ) );
 
 /**
 * @name exponential
@@ -151,7 +151,7 @@ setReadOnly( dist, 'erlang', require( '@stdlib/stats/base/dists/erlang' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/exponential}
 */
-setReadOnly( dist, 'exponential', require( '@stdlib/stats/base/dists/exponential' ) );
+setReadOnly( dist, 'exponential', require( './../../../base/dists/exponential' ) );
 
 /**
 * @name f
@@ -160,7 +160,7 @@ setReadOnly( dist, 'exponential', require( '@stdlib/stats/base/dists/exponential
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/f}
 */
-setReadOnly( dist, 'f', require( '@stdlib/stats/base/dists/f' ) );
+setReadOnly( dist, 'f', require( './../../../base/dists/f' ) );
 
 /**
 * @name frechet
@@ -169,7 +169,7 @@ setReadOnly( dist, 'f', require( '@stdlib/stats/base/dists/f' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/frechet}
 */
-setReadOnly( dist, 'frechet', require( '@stdlib/stats/base/dists/frechet' ) );
+setReadOnly( dist, 'frechet', require( './../../../base/dists/frechet' ) );
 
 /**
 * @name gamma
@@ -178,7 +178,7 @@ setReadOnly( dist, 'frechet', require( '@stdlib/stats/base/dists/frechet' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/gamma}
 */
-setReadOnly( dist, 'gamma', require( '@stdlib/stats/base/dists/gamma' ) );
+setReadOnly( dist, 'gamma', require( './../../../base/dists/gamma' ) );
 
 /**
 * @name geometric
@@ -187,7 +187,7 @@ setReadOnly( dist, 'gamma', require( '@stdlib/stats/base/dists/gamma' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/geometric}
 */
-setReadOnly( dist, 'geometric', require( '@stdlib/stats/base/dists/geometric' ) );
+setReadOnly( dist, 'geometric', require( './../../../base/dists/geometric' ) );
 
 /**
 * @name gumbel
@@ -196,7 +196,7 @@ setReadOnly( dist, 'geometric', require( '@stdlib/stats/base/dists/geometric' ) 
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/gumbel}
 */
-setReadOnly( dist, 'gumbel', require( '@stdlib/stats/base/dists/gumbel' ) );
+setReadOnly( dist, 'gumbel', require( './../../../base/dists/gumbel' ) );
 
 /**
 * @name hypergeometric
@@ -206,7 +206,7 @@ setReadOnly( dist, 'gumbel', require( '@stdlib/stats/base/dists/gumbel' ) );
 * @see {@link module:@stdlib/stats/base/dists/hypergeometric}
 */
 
-setReadOnly( dist, 'hypergeometric', require( '@stdlib/stats/base/dists/hypergeometric' ) );
+setReadOnly( dist, 'hypergeometric', require( './../../../base/dists/hypergeometric' ) );
 
 /**
 * @name invgamma
@@ -215,7 +215,7 @@ setReadOnly( dist, 'hypergeometric', require( '@stdlib/stats/base/dists/hypergeo
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/invgamma}
 */
-setReadOnly( dist, 'invgamma', require( '@stdlib/stats/base/dists/invgamma' ) );
+setReadOnly( dist, 'invgamma', require( './../../../base/dists/invgamma' ) );
 
 /**
 * @name kumaraswamy
@@ -224,7 +224,7 @@ setReadOnly( dist, 'invgamma', require( '@stdlib/stats/base/dists/invgamma' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/kumaraswamy}
 */
-setReadOnly( dist, 'kumaraswamy', require( '@stdlib/stats/base/dists/kumaraswamy' ) );
+setReadOnly( dist, 'kumaraswamy', require( './../../../base/dists/kumaraswamy' ) );
 
 /**
 * @name laplace
@@ -233,7 +233,7 @@ setReadOnly( dist, 'kumaraswamy', require( '@stdlib/stats/base/dists/kumaraswamy
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/laplace}
 */
-setReadOnly( dist, 'laplace', require( '@stdlib/stats/base/dists/laplace' ) );
+setReadOnly( dist, 'laplace', require( './../../../base/dists/laplace' ) );
 
 /**
 * @name levy
@@ -242,7 +242,7 @@ setReadOnly( dist, 'laplace', require( '@stdlib/stats/base/dists/laplace' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/levy}
 */
-setReadOnly( dist, 'levy', require( '@stdlib/stats/base/dists/levy' ) );
+setReadOnly( dist, 'levy', require( './../../../base/dists/levy' ) );
 
 /**
 * @name logistic
@@ -251,7 +251,7 @@ setReadOnly( dist, 'levy', require( '@stdlib/stats/base/dists/levy' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/logistic}
 */
-setReadOnly( dist, 'logistic', require( '@stdlib/stats/base/dists/logistic' ) );
+setReadOnly( dist, 'logistic', require( './../../../base/dists/logistic' ) );
 
 /**
 * @name lognormal
@@ -260,7 +260,7 @@ setReadOnly( dist, 'logistic', require( '@stdlib/stats/base/dists/logistic' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/lognormal}
 */
-setReadOnly( dist, 'lognormal', require( '@stdlib/stats/base/dists/lognormal' ) );
+setReadOnly( dist, 'lognormal', require( './../../../base/dists/lognormal' ) );
 
 /**
 * @name negativeBinomial
@@ -269,7 +269,7 @@ setReadOnly( dist, 'lognormal', require( '@stdlib/stats/base/dists/lognormal' ) 
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/negative-binomial}
 */
-setReadOnly( dist, 'negativeBinomial', require( '@stdlib/stats/base/dists/negative-binomial' ) );
+setReadOnly( dist, 'negativeBinomial', require( './../../../base/dists/negative-binomial' ) );
 
 /**
 * @name normal
@@ -278,7 +278,7 @@ setReadOnly( dist, 'negativeBinomial', require( '@stdlib/stats/base/dists/negati
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/normal}
 */
-setReadOnly( dist, 'normal', require( '@stdlib/stats/base/dists/normal' ) );
+setReadOnly( dist, 'normal', require( './../../../base/dists/normal' ) );
 
 /**
 * @name pareto1
@@ -287,7 +287,7 @@ setReadOnly( dist, 'normal', require( '@stdlib/stats/base/dists/normal' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1}
 */
-setReadOnly( dist, 'pareto1', require( '@stdlib/stats/base/dists/pareto-type1' ) );
+setReadOnly( dist, 'pareto1', require( './../../../base/dists/pareto-type1' ) );
 
 /**
 * @name poisson
@@ -296,7 +296,7 @@ setReadOnly( dist, 'pareto1', require( '@stdlib/stats/base/dists/pareto-type1' )
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/poisson}
 */
-setReadOnly( dist, 'poisson', require( '@stdlib/stats/base/dists/poisson' ) );
+setReadOnly( dist, 'poisson', require( './../../../base/dists/poisson' ) );
 
 /**
 * @name rayleigh
@@ -305,7 +305,7 @@ setReadOnly( dist, 'poisson', require( '@stdlib/stats/base/dists/poisson' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh}
 */
-setReadOnly( dist, 'rayleigh', require( '@stdlib/stats/base/dists/rayleigh' ) );
+setReadOnly( dist, 'rayleigh', require( './../../../base/dists/rayleigh' ) );
 
 /**
 * @name t
@@ -314,7 +314,7 @@ setReadOnly( dist, 'rayleigh', require( '@stdlib/stats/base/dists/rayleigh' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/t}
 */
-setReadOnly( dist, 't', require( '@stdlib/stats/base/dists/t' ) );
+setReadOnly( dist, 't', require( './../../../base/dists/t' ) );
 
 /**
 * @name triangular
@@ -323,7 +323,7 @@ setReadOnly( dist, 't', require( '@stdlib/stats/base/dists/t' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/triangular}
 */
-setReadOnly( dist, 'triangular', require( '@stdlib/stats/base/dists/triangular' ) );
+setReadOnly( dist, 'triangular', require( './../../../base/dists/triangular' ) );
 
 /**
 * @name truncatedNormal
@@ -332,7 +332,7 @@ setReadOnly( dist, 'triangular', require( '@stdlib/stats/base/dists/triangular' 
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/truncated-normal}
 */
-setReadOnly( dist, 'truncatedNormal', require( '@stdlib/stats/base/dists/truncated-normal' ) );
+setReadOnly( dist, 'truncatedNormal', require( './../../../base/dists/truncated-normal' ) );
 
 /**
 * @name uniform
@@ -341,7 +341,7 @@ setReadOnly( dist, 'truncatedNormal', require( '@stdlib/stats/base/dists/truncat
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/uniform}
 */
-setReadOnly( dist, 'uniform', require( '@stdlib/stats/base/dists/uniform' ) );
+setReadOnly( dist, 'uniform', require( './../../../base/dists/uniform' ) );
 
 /**
 * @name weibull
@@ -350,7 +350,7 @@ setReadOnly( dist, 'uniform', require( '@stdlib/stats/base/dists/uniform' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists/weibull}
 */
-setReadOnly( dist, 'weibull', require( '@stdlib/stats/base/dists/weibull' ) );
+setReadOnly( dist, 'weibull', require( './../../../base/dists/weibull' ) );
 
 
 // EXPORTS //

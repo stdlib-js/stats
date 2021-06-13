@@ -43,7 +43,7 @@ var weibull = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/cdf}
 */
-setReadOnly( weibull, 'cdf', require( '@stdlib/stats/base/dists/weibull/cdf' ) );
+setReadOnly( weibull, 'cdf', require( './../../../../base/dists/weibull/cdf' ) );
 
 /**
 * @name Weibull
@@ -52,7 +52,7 @@ setReadOnly( weibull, 'cdf', require( '@stdlib/stats/base/dists/weibull/cdf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/ctor}
 */
-setReadOnly( weibull, 'Weibull', require( '@stdlib/stats/base/dists/weibull/ctor' ) );
+setReadOnly( weibull, 'Weibull', require( './../../../../base/dists/weibull/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( weibull, 'Weibull', require( '@stdlib/stats/base/dists/weibull/ctor
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/entropy}
 */
-setReadOnly( weibull, 'entropy', require( '@stdlib/stats/base/dists/weibull/entropy' ) );
+setReadOnly( weibull, 'entropy', require( './../../../../base/dists/weibull/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( weibull, 'entropy', require( '@stdlib/stats/base/dists/weibull/entr
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/kurtosis}
 */
-setReadOnly( weibull, 'kurtosis', require( '@stdlib/stats/base/dists/weibull/kurtosis' ) );
+setReadOnly( weibull, 'kurtosis', require( './../../../../base/dists/weibull/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -79,7 +79,7 @@ setReadOnly( weibull, 'kurtosis', require( '@stdlib/stats/base/dists/weibull/kur
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/logcdf}
 */
-setReadOnly( weibull, 'logcdf', require( '@stdlib/stats/base/dists/weibull/logcdf' ) );
+setReadOnly( weibull, 'logcdf', require( './../../../../base/dists/weibull/logcdf' ) );
 
 /**
 * @name logpdf
@@ -88,7 +88,7 @@ setReadOnly( weibull, 'logcdf', require( '@stdlib/stats/base/dists/weibull/logcd
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/logpdf}
 */
-setReadOnly( weibull, 'logpdf', require( '@stdlib/stats/base/dists/weibull/logpdf' ) );
+setReadOnly( weibull, 'logpdf', require( './../../../../base/dists/weibull/logpdf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( weibull, 'logpdf', require( '@stdlib/stats/base/dists/weibull/logpd
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/mean}
 */
-setReadOnly( weibull, 'mean', require( '@stdlib/stats/base/dists/weibull/mean' ) );
+setReadOnly( weibull, 'mean', require( './../../../../base/dists/weibull/mean' ) );
 
 /**
 * @name median
@@ -106,7 +106,7 @@ setReadOnly( weibull, 'mean', require( '@stdlib/stats/base/dists/weibull/mean' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/median}
 */
-setReadOnly( weibull, 'median', require( '@stdlib/stats/base/dists/weibull/median' ) );
+setReadOnly( weibull, 'median', require( './../../../../base/dists/weibull/median' ) );
 
 /**
 * @name mgf
@@ -115,7 +115,7 @@ setReadOnly( weibull, 'median', require( '@stdlib/stats/base/dists/weibull/media
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/mgf}
 */
-setReadOnly( weibull, 'mgf', require( '@stdlib/stats/base/dists/weibull/mgf' ) );
+setReadOnly( weibull, 'mgf', require( './../../../../base/dists/weibull/mgf' ) );
 
 /**
 * @name mode
@@ -124,7 +124,7 @@ setReadOnly( weibull, 'mgf', require( '@stdlib/stats/base/dists/weibull/mgf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/mode}
 */
-setReadOnly( weibull, 'mode', require( '@stdlib/stats/base/dists/weibull/mode' ) );
+setReadOnly( weibull, 'mode', require( './../../../../base/dists/weibull/mode' ) );
 
 /**
 * @name pdf
@@ -133,7 +133,7 @@ setReadOnly( weibull, 'mode', require( '@stdlib/stats/base/dists/weibull/mode' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/pdf}
 */
-setReadOnly( weibull, 'pdf', require( '@stdlib/stats/base/dists/weibull/pdf' ) );
+setReadOnly( weibull, 'pdf', require( './../../../../base/dists/weibull/pdf' ) );
 
 /**
 * @name quantile
@@ -142,7 +142,7 @@ setReadOnly( weibull, 'pdf', require( '@stdlib/stats/base/dists/weibull/pdf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/quantile}
 */
-setReadOnly( weibull, 'quantile', require( '@stdlib/stats/base/dists/weibull/quantile' ) );
+setReadOnly( weibull, 'quantile', require( './../../../../base/dists/weibull/quantile' ) );
 
 /**
 * @name skewness
@@ -151,7 +151,7 @@ setReadOnly( weibull, 'quantile', require( '@stdlib/stats/base/dists/weibull/qua
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/skewness}
 */
-setReadOnly( weibull, 'skewness', require( '@stdlib/stats/base/dists/weibull/skewness' ) );
+setReadOnly( weibull, 'skewness', require( './../../../../base/dists/weibull/skewness' ) );
 
 /**
 * @name stdev
@@ -160,7 +160,7 @@ setReadOnly( weibull, 'skewness', require( '@stdlib/stats/base/dists/weibull/ske
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/stdev}
 */
-setReadOnly( weibull, 'stdev', require( '@stdlib/stats/base/dists/weibull/stdev' ) );
+setReadOnly( weibull, 'stdev', require( './../../../../base/dists/weibull/stdev' ) );
 
 /**
 * @name variance
@@ -169,7 +169,7 @@ setReadOnly( weibull, 'stdev', require( '@stdlib/stats/base/dists/weibull/stdev'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/weibull/variance}
 */
-setReadOnly( weibull, 'variance', require( '@stdlib/stats/base/dists/weibull/variance' ) );
+setReadOnly( weibull, 'variance', require( './../../../../base/dists/weibull/variance' ) );
 
 
 // EXPORTS //

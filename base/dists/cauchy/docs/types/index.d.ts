@@ -21,15 +21,15 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/cauchy/cdf' );
-import Cauchy = require( '@stdlib/stats/base/dists/cauchy/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/cauchy/entropy' );
-import logcdf = require( '@stdlib/stats/base/dists/cauchy/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/cauchy/logpdf' );
-import median = require( '@stdlib/stats/base/dists/cauchy/median' );
-import mode = require( '@stdlib/stats/base/dists/cauchy/mode' );
-import pdf = require( '@stdlib/stats/base/dists/cauchy/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/cauchy/quantile' );
+import cdf = require( './../../../../../base/dists/cauchy/cdf' );
+import Cauchy = require( './../../../../../base/dists/cauchy/ctor' );
+import entropy = require( './../../../../../base/dists/cauchy/entropy' );
+import logcdf = require( './../../../../../base/dists/cauchy/logcdf' );
+import logpdf = require( './../../../../../base/dists/cauchy/logpdf' );
+import median = require( './../../../../../base/dists/cauchy/median' );
+import mode = require( './../../../../../base/dists/cauchy/mode' );
+import pdf = require( './../../../../../base/dists/cauchy/pdf' );
+import quantile = require( './../../../../../base/dists/cauchy/quantile' );
 
 /**
 * Interface describing the `cauchy` namespace.

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var variancepn = require( '@stdlib/stats/base/variancepn' );
+var variancepn = require( './../../../base/variancepn' );
 
 
 // MAIN //

@@ -28,19 +28,19 @@ var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
 var isnan = require( '@stdlib/assert/is-nan' );
-var entropy = require( '@stdlib/stats/base/dists/normal/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/normal/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/normal/mean' );
-var median = require( '@stdlib/stats/base/dists/normal/median' );
-var mode = require( '@stdlib/stats/base/dists/normal/mode' );
-var skewness = require( '@stdlib/stats/base/dists/normal/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/normal/stdev' );
-var variance = require( '@stdlib/stats/base/dists/normal/variance' );
-var cdf = require( '@stdlib/stats/base/dists/normal/cdf' );
-var logpdf = require( '@stdlib/stats/base/dists/normal/logpdf' );
-var mgf = require( '@stdlib/stats/base/dists/normal/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/normal/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/normal/quantile' );
+var entropy = require( './../../../../../base/dists/normal/entropy' );
+var kurtosis = require( './../../../../../base/dists/normal/kurtosis' );
+var mean = require( './../../../../../base/dists/normal/mean' );
+var median = require( './../../../../../base/dists/normal/median' );
+var mode = require( './../../../../../base/dists/normal/mode' );
+var skewness = require( './../../../../../base/dists/normal/skewness' );
+var stdev = require( './../../../../../base/dists/normal/stdev' );
+var variance = require( './../../../../../base/dists/normal/variance' );
+var cdf = require( './../../../../../base/dists/normal/cdf' );
+var logpdf = require( './../../../../../base/dists/normal/logpdf' );
+var mgf = require( './../../../../../base/dists/normal/mgf' );
+var pdf = require( './../../../../../base/dists/normal/pdf' );
+var quantile = require( './../../../../../base/dists/normal/quantile' );
 
 
 // FUNCTIONS //

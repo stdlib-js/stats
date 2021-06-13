@@ -21,27 +21,27 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import anova1 = require( '@stdlib/stats/anova1' );
-import bartlettTest = require( '@stdlib/stats/bartlett-test' );
-import binomialTest = require( '@stdlib/stats/binomial-test' );
-import chi2gof = require( '@stdlib/stats/chi2gof' );
-import chi2test = require( '@stdlib/stats/chi2test' );
-import flignerTest = require( '@stdlib/stats/fligner-test' );
-import incr = require( '@stdlib/stats/incr' );
-import iterators = require( '@stdlib/stats/iter' );
-import kde2d = require( '@stdlib/stats/kde2d' );
-import kruskalTest = require( '@stdlib/stats/kruskal-test' );
-import kstest = require( '@stdlib/stats/kstest' );
-import lowess = require( '@stdlib/stats/lowess' );
-import padjust = require( '@stdlib/stats/padjust' );
-import pcorrtest = require( '@stdlib/stats/pcorrtest' );
-import ranks = require( '@stdlib/stats/ranks' );
-import ttest = require( '@stdlib/stats/ttest' );
-import ttest2 = require( '@stdlib/stats/ttest2' );
-import vartest = require( '@stdlib/stats/vartest' );
-import wilcoxon = require( '@stdlib/stats/wilcoxon' );
-import ztest = require( '@stdlib/stats/ztest' );
-import ztest2 = require( '@stdlib/stats/ztest2' );
+import anova1 = require( './../../anova1' );
+import bartlettTest = require( './../../bartlett-test' );
+import binomialTest = require( './../../binomial-test' );
+import chi2gof = require( './../../chi2gof' );
+import chi2test = require( './../../chi2test' );
+import flignerTest = require( './../../fligner-test' );
+import incr = require( './../../incr' );
+import iterators = require( './../../iter' );
+import kde2d = require( './../../kde2d' );
+import kruskalTest = require( './../../kruskal-test' );
+import kstest = require( './../../kstest' );
+import lowess = require( './../../lowess' );
+import padjust = require( './../../padjust' );
+import pcorrtest = require( './../../pcorrtest' );
+import ranks = require( './../../ranks' );
+import ttest = require( './../../ttest' );
+import ttest2 = require( './../../ttest2' );
+import vartest = require( './../../vartest' );
+import wilcoxon = require( './../../wilcoxon' );
+import ztest = require( './../../ztest' );
+import ztest2 = require( './../../ztest2' );
 
 /**
 * Interface describing the `stats` namespace.

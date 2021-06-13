@@ -21,7 +21,7 @@
 // MODULES //
 
 var min = require( '@stdlib/math/base/special/min' );
-var cumax = require( '@stdlib/stats/base/cumax' );
+var cumax = require( './../../base/cumax' );
 var Float64Array = require( '@stdlib/array/float64' );
 var order = require( './order.js' );
 

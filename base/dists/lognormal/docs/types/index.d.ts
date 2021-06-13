@@ -21,19 +21,19 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/lognormal/cdf' );
-import LogNormal = require( '@stdlib/stats/base/dists/lognormal/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/lognormal/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/lognormal/kurtosis' );
-import logpdf = require( '@stdlib/stats/base/dists/lognormal/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/lognormal/mean' );
-import median = require( '@stdlib/stats/base/dists/lognormal/median' );
-import mode = require( '@stdlib/stats/base/dists/lognormal/mode' );
-import pdf = require( '@stdlib/stats/base/dists/lognormal/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/lognormal/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/lognormal/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/lognormal/stdev' );
-import variance = require( '@stdlib/stats/base/dists/lognormal/variance' );
+import cdf = require( './../../../../../base/dists/lognormal/cdf' );
+import LogNormal = require( './../../../../../base/dists/lognormal/ctor' );
+import entropy = require( './../../../../../base/dists/lognormal/entropy' );
+import kurtosis = require( './../../../../../base/dists/lognormal/kurtosis' );
+import logpdf = require( './../../../../../base/dists/lognormal/logpdf' );
+import mean = require( './../../../../../base/dists/lognormal/mean' );
+import median = require( './../../../../../base/dists/lognormal/median' );
+import mode = require( './../../../../../base/dists/lognormal/mode' );
+import pdf = require( './../../../../../base/dists/lognormal/pdf' );
+import quantile = require( './../../../../../base/dists/lognormal/quantile' );
+import skewness = require( './../../../../../base/dists/lognormal/skewness' );
+import stdev = require( './../../../../../base/dists/lognormal/stdev' );
+import variance = require( './../../../../../base/dists/lognormal/variance' );
 
 /**
 * Interface describing the `lognormal` namespace.

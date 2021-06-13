@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var degenerate = require( '@stdlib/stats/base/dists/degenerate/cdf' ).factory;
-var gammaFactory = require( '@stdlib/stats/base/dists/gamma/cdf' ).factory;
+var degenerate = require( './../../../../../base/dists/degenerate/cdf' ).factory;
+var gammaFactory = require( './../../../../../base/dists/gamma/cdf' ).factory;
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 
 

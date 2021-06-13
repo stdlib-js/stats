@@ -23,19 +23,19 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/cosine/quantile' );
-var logcdf = require( '@stdlib/stats/base/dists/cosine/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/cosine/logpdf' );
-var cdf = require( '@stdlib/stats/base/dists/cosine/cdf' );
-var mgf = require( '@stdlib/stats/base/dists/cosine/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/cosine/pdf' );
-var kurtosis = require( '@stdlib/stats/base/dists/cosine/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/cosine/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/cosine/stdev' );
-var variance = require( '@stdlib/stats/base/dists/cosine/variance' );
-var median = require( '@stdlib/stats/base/dists/cosine/median' );
-var mode = require( '@stdlib/stats/base/dists/cosine/mode' );
-var mean = require( '@stdlib/stats/base/dists/cosine/mean' );
+var quantile = require( './../../../../../base/dists/cosine/quantile' );
+var logcdf = require( './../../../../../base/dists/cosine/logcdf' );
+var logpdf = require( './../../../../../base/dists/cosine/logpdf' );
+var cdf = require( './../../../../../base/dists/cosine/cdf' );
+var mgf = require( './../../../../../base/dists/cosine/mgf' );
+var pdf = require( './../../../../../base/dists/cosine/pdf' );
+var kurtosis = require( './../../../../../base/dists/cosine/kurtosis' );
+var skewness = require( './../../../../../base/dists/cosine/skewness' );
+var stdev = require( './../../../../../base/dists/cosine/stdev' );
+var variance = require( './../../../../../base/dists/cosine/variance' );
+var median = require( './../../../../../base/dists/cosine/median' );
+var mode = require( './../../../../../base/dists/cosine/mode' );
+var mean = require( './../../../../../base/dists/cosine/mean' );
 var Cosine = require( './../lib' );
 
 

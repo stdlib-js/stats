@@ -43,7 +43,7 @@ var degenerate = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/cdf}
 */
-setReadOnly( degenerate, 'cdf', require( '@stdlib/stats/base/dists/degenerate/cdf' ) );
+setReadOnly( degenerate, 'cdf', require( './../../../../base/dists/degenerate/cdf' ) );
 
 /**
 * @name Degenerate
@@ -52,7 +52,7 @@ setReadOnly( degenerate, 'cdf', require( '@stdlib/stats/base/dists/degenerate/cd
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/ctor}
 */
-setReadOnly( degenerate, 'Degenerate', require( '@stdlib/stats/base/dists/degenerate/ctor' ) );
+setReadOnly( degenerate, 'Degenerate', require( './../../../../base/dists/degenerate/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( degenerate, 'Degenerate', require( '@stdlib/stats/base/dists/degene
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/entropy}
 */
-setReadOnly( degenerate, 'entropy', require( '@stdlib/stats/base/dists/degenerate/entropy' ) );
+setReadOnly( degenerate, 'entropy', require( './../../../../base/dists/degenerate/entropy' ) );
 
 /**
 * @name logcdf
@@ -70,7 +70,7 @@ setReadOnly( degenerate, 'entropy', require( '@stdlib/stats/base/dists/degenerat
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/logcdf}
 */
-setReadOnly( degenerate, 'logcdf', require( '@stdlib/stats/base/dists/degenerate/logcdf' ) );
+setReadOnly( degenerate, 'logcdf', require( './../../../../base/dists/degenerate/logcdf' ) );
 
 /**
 * @name logpdf
@@ -79,7 +79,7 @@ setReadOnly( degenerate, 'logcdf', require( '@stdlib/stats/base/dists/degenerate
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/logpdf}
 */
-setReadOnly( degenerate, 'logpdf', require( '@stdlib/stats/base/dists/degenerate/logpdf' ) );
+setReadOnly( degenerate, 'logpdf', require( './../../../../base/dists/degenerate/logpdf' ) );
 
 /**
 * @name logpmf
@@ -88,7 +88,7 @@ setReadOnly( degenerate, 'logpdf', require( '@stdlib/stats/base/dists/degenerate
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/logpmf}
 */
-setReadOnly( degenerate, 'logpmf', require( '@stdlib/stats/base/dists/degenerate/logpmf' ) );
+setReadOnly( degenerate, 'logpmf', require( './../../../../base/dists/degenerate/logpmf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( degenerate, 'logpmf', require( '@stdlib/stats/base/dists/degenerate
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/mean}
 */
-setReadOnly( degenerate, 'mean', require( '@stdlib/stats/base/dists/degenerate/mean' ) );
+setReadOnly( degenerate, 'mean', require( './../../../../base/dists/degenerate/mean' ) );
 
 /**
 * @name median
@@ -106,7 +106,7 @@ setReadOnly( degenerate, 'mean', require( '@stdlib/stats/base/dists/degenerate/m
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/median}
 */
-setReadOnly( degenerate, 'median', require( '@stdlib/stats/base/dists/degenerate/median' ) );
+setReadOnly( degenerate, 'median', require( './../../../../base/dists/degenerate/median' ) );
 
 /**
 * @name mgf
@@ -115,7 +115,7 @@ setReadOnly( degenerate, 'median', require( '@stdlib/stats/base/dists/degenerate
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/mgf}
 */
-setReadOnly( degenerate, 'mgf', require( '@stdlib/stats/base/dists/degenerate/mgf' ) );
+setReadOnly( degenerate, 'mgf', require( './../../../../base/dists/degenerate/mgf' ) );
 
 /**
 * @name mode
@@ -124,7 +124,7 @@ setReadOnly( degenerate, 'mgf', require( '@stdlib/stats/base/dists/degenerate/mg
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/mode}
 */
-setReadOnly( degenerate, 'mode', require( '@stdlib/stats/base/dists/degenerate/mode' ) );
+setReadOnly( degenerate, 'mode', require( './../../../../base/dists/degenerate/mode' ) );
 
 /**
 * @name pdf
@@ -133,7 +133,7 @@ setReadOnly( degenerate, 'mode', require( '@stdlib/stats/base/dists/degenerate/m
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/pdf}
 */
-setReadOnly( degenerate, 'pdf', require( '@stdlib/stats/base/dists/degenerate/pdf' ) );
+setReadOnly( degenerate, 'pdf', require( './../../../../base/dists/degenerate/pdf' ) );
 
 /**
 * @name pmf
@@ -142,7 +142,7 @@ setReadOnly( degenerate, 'pdf', require( '@stdlib/stats/base/dists/degenerate/pd
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/pmf}
 */
-setReadOnly( degenerate, 'pmf', require( '@stdlib/stats/base/dists/degenerate/pmf' ) );
+setReadOnly( degenerate, 'pmf', require( './../../../../base/dists/degenerate/pmf' ) );
 
 /**
 * @name quantile
@@ -151,7 +151,7 @@ setReadOnly( degenerate, 'pmf', require( '@stdlib/stats/base/dists/degenerate/pm
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/quantile}
 */
-setReadOnly( degenerate, 'quantile', require( '@stdlib/stats/base/dists/degenerate/quantile' ) );
+setReadOnly( degenerate, 'quantile', require( './../../../../base/dists/degenerate/quantile' ) );
 
 /**
 * @name stdev
@@ -160,7 +160,7 @@ setReadOnly( degenerate, 'quantile', require( '@stdlib/stats/base/dists/degenera
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/stdev}
 */
-setReadOnly( degenerate, 'stdev', require( '@stdlib/stats/base/dists/degenerate/stdev' ) );
+setReadOnly( degenerate, 'stdev', require( './../../../../base/dists/degenerate/stdev' ) );
 
 /**
 * @name variance
@@ -169,7 +169,7 @@ setReadOnly( degenerate, 'stdev', require( '@stdlib/stats/base/dists/degenerate/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/degenerate/variance}
 */
-setReadOnly( degenerate, 'variance', require( '@stdlib/stats/base/dists/degenerate/variance' ) );
+setReadOnly( degenerate, 'variance', require( './../../../../base/dists/degenerate/variance' ) );
 
 
 // EXPORTS //

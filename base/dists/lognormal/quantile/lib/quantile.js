@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var qnormal = require( '@stdlib/stats/base/dists/normal/quantile' );
+var qnormal = require( './../../../../../base/dists/normal/quantile' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var exp = require( '@stdlib/math/base/special/exp' );
 

@@ -28,14 +28,14 @@ var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
 var isnan = require( '@stdlib/assert/is-nan' );
-var entropy = require( '@stdlib/stats/base/dists/cauchy/entropy' );
-var median = require( '@stdlib/stats/base/dists/cauchy/median' );
-var mode = require( '@stdlib/stats/base/dists/cauchy/mode' );
-var cdf = require( '@stdlib/stats/base/dists/cauchy/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/cauchy/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/cauchy/logpdf' );
-var pdf = require( '@stdlib/stats/base/dists/cauchy/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/cauchy/quantile' );
+var entropy = require( './../../../../../base/dists/cauchy/entropy' );
+var median = require( './../../../../../base/dists/cauchy/median' );
+var mode = require( './../../../../../base/dists/cauchy/mode' );
+var cdf = require( './../../../../../base/dists/cauchy/cdf' );
+var logcdf = require( './../../../../../base/dists/cauchy/logcdf' );
+var logpdf = require( './../../../../../base/dists/cauchy/logpdf' );
+var pdf = require( './../../../../../base/dists/cauchy/pdf' );
+var quantile = require( './../../../../../base/dists/cauchy/quantile' );
 
 
 // FUNCTIONS //

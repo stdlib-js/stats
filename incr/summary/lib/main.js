@@ -20,17 +20,17 @@
 
 // MODULES //
 
-var incrcount = require( '@stdlib/stats/incr/count' );
-var incrmax = require( '@stdlib/stats/incr/max' );
-var incrmin = require( '@stdlib/stats/incr/min' );
-var incrrange = require( '@stdlib/stats/incr/range' );
-var incrmidrange = require( '@stdlib/stats/incr/midrange' );
-var incrsum = require( '@stdlib/stats/incr/sum' );
-var incrmean = require( '@stdlib/stats/incr/mean' );
-var incrvariance = require( '@stdlib/stats/incr/variance' );
-var incrstdev = require( '@stdlib/stats/incr/stdev' );
-var incrskewness = require( '@stdlib/stats/incr/skewness' );
-var incrkurtosis = require( '@stdlib/stats/incr/kurtosis' );
+var incrcount = require( './../../../incr/count' );
+var incrmax = require( './../../../incr/max' );
+var incrmin = require( './../../../incr/min' );
+var incrrange = require( './../../../incr/range' );
+var incrmidrange = require( './../../../incr/midrange' );
+var incrsum = require( './../../../incr/sum' );
+var incrmean = require( './../../../incr/mean' );
+var incrvariance = require( './../../../incr/variance' );
+var incrstdev = require( './../../../incr/stdev' );
+var incrskewness = require( './../../../incr/skewness' );
+var incrkurtosis = require( './../../../incr/kurtosis' );
 
 
 // MAIN //

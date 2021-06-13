@@ -23,20 +23,20 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/laplace/quantile' );
-var logcdf = require( '@stdlib/stats/base/dists/laplace/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/laplace/logpdf' );
-var cdf = require( '@stdlib/stats/base/dists/laplace/cdf' );
-var mgf = require( '@stdlib/stats/base/dists/laplace/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/laplace/pdf' );
-var kurtosis = require( '@stdlib/stats/base/dists/laplace/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/laplace/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/laplace/stdev' );
-var variance = require( '@stdlib/stats/base/dists/laplace/variance' );
-var entropy = require( '@stdlib/stats/base/dists/laplace/entropy' );
-var median = require( '@stdlib/stats/base/dists/laplace/median' );
-var mode = require( '@stdlib/stats/base/dists/laplace/mode' );
-var mean = require( '@stdlib/stats/base/dists/laplace/mean' );
+var quantile = require( './../../../../../base/dists/laplace/quantile' );
+var logcdf = require( './../../../../../base/dists/laplace/logcdf' );
+var logpdf = require( './../../../../../base/dists/laplace/logpdf' );
+var cdf = require( './../../../../../base/dists/laplace/cdf' );
+var mgf = require( './../../../../../base/dists/laplace/mgf' );
+var pdf = require( './../../../../../base/dists/laplace/pdf' );
+var kurtosis = require( './../../../../../base/dists/laplace/kurtosis' );
+var skewness = require( './../../../../../base/dists/laplace/skewness' );
+var stdev = require( './../../../../../base/dists/laplace/stdev' );
+var variance = require( './../../../../../base/dists/laplace/variance' );
+var entropy = require( './../../../../../base/dists/laplace/entropy' );
+var median = require( './../../../../../base/dists/laplace/median' );
+var mode = require( './../../../../../base/dists/laplace/mode' );
+var mean = require( './../../../../../base/dists/laplace/mean' );
 var Laplace = require( './../lib' );
 
 

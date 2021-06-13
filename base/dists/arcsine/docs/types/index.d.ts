@@ -21,20 +21,20 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/arcsine/cdf' );
-import Arcsine = require( '@stdlib/stats/base/dists/arcsine/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/arcsine/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/arcsine/kurtosis' );
-import logcdf = require( '@stdlib/stats/base/dists/arcsine/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/arcsine/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/arcsine/mean' );
-import median = require( '@stdlib/stats/base/dists/arcsine/median' );
-import mode = require( '@stdlib/stats/base/dists/arcsine/mode' );
-import pdf = require( '@stdlib/stats/base/dists/arcsine/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/arcsine/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/arcsine/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/arcsine/stdev' );
-import variance = require( '@stdlib/stats/base/dists/arcsine/variance' );
+import cdf = require( './../../../../../base/dists/arcsine/cdf' );
+import Arcsine = require( './../../../../../base/dists/arcsine/ctor' );
+import entropy = require( './../../../../../base/dists/arcsine/entropy' );
+import kurtosis = require( './../../../../../base/dists/arcsine/kurtosis' );
+import logcdf = require( './../../../../../base/dists/arcsine/logcdf' );
+import logpdf = require( './../../../../../base/dists/arcsine/logpdf' );
+import mean = require( './../../../../../base/dists/arcsine/mean' );
+import median = require( './../../../../../base/dists/arcsine/median' );
+import mode = require( './../../../../../base/dists/arcsine/mode' );
+import pdf = require( './../../../../../base/dists/arcsine/pdf' );
+import quantile = require( './../../../../../base/dists/arcsine/quantile' );
+import skewness = require( './../../../../../base/dists/arcsine/skewness' );
+import stdev = require( './../../../../../base/dists/arcsine/stdev' );
+import variance = require( './../../../../../base/dists/arcsine/variance' );
 
 /**
 * Interface describing the `arcsine` namespace.

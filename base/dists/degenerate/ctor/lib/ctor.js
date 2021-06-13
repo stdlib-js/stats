@@ -27,20 +27,20 @@ var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-propert
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isNumber = require( '@stdlib/assert/is-number' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var entropy = require( '@stdlib/stats/base/dists/degenerate/entropy' );
-var mean = require( '@stdlib/stats/base/dists/degenerate/mean' );
-var mode = require( '@stdlib/stats/base/dists/degenerate/mode' );
-var median = require( '@stdlib/stats/base/dists/degenerate/median' );
-var stdev = require( '@stdlib/stats/base/dists/degenerate/stdev' );
-var variance = require( '@stdlib/stats/base/dists/degenerate/variance' );
-var cdf = require( '@stdlib/stats/base/dists/degenerate/cdf' );
-var mgf = require( '@stdlib/stats/base/dists/degenerate/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/degenerate/pdf' );
-var pmf = require( '@stdlib/stats/base/dists/degenerate/pmf' );
-var logcdf = require( '@stdlib/stats/base/dists/degenerate/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/degenerate/logpdf' );
-var logpmf = require( '@stdlib/stats/base/dists/degenerate/logpmf' );
-var quantile = require( '@stdlib/stats/base/dists/degenerate/quantile' );
+var entropy = require( './../../../../../base/dists/degenerate/entropy' );
+var mean = require( './../../../../../base/dists/degenerate/mean' );
+var mode = require( './../../../../../base/dists/degenerate/mode' );
+var median = require( './../../../../../base/dists/degenerate/median' );
+var stdev = require( './../../../../../base/dists/degenerate/stdev' );
+var variance = require( './../../../../../base/dists/degenerate/variance' );
+var cdf = require( './../../../../../base/dists/degenerate/cdf' );
+var mgf = require( './../../../../../base/dists/degenerate/mgf' );
+var pdf = require( './../../../../../base/dists/degenerate/pdf' );
+var pmf = require( './../../../../../base/dists/degenerate/pmf' );
+var logcdf = require( './../../../../../base/dists/degenerate/logcdf' );
+var logpdf = require( './../../../../../base/dists/degenerate/logpdf' );
+var logpmf = require( './../../../../../base/dists/degenerate/logpmf' );
+var quantile = require( './../../../../../base/dists/degenerate/quantile' );
 
 
 // FUNCTIONS //

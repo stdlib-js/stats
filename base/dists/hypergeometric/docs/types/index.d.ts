@@ -21,17 +21,17 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/hypergeometric/cdf' );
-import Hypergeometric = require( '@stdlib/stats/base/dists/hypergeometric/ctor' );
-import kurtosis = require( '@stdlib/stats/base/dists/hypergeometric/kurtosis' );
-import logpmf = require( '@stdlib/stats/base/dists/hypergeometric/logpmf' );
-import mean = require( '@stdlib/stats/base/dists/hypergeometric/mean' );
-import mode = require( '@stdlib/stats/base/dists/hypergeometric/mode' );
-import pmf = require( '@stdlib/stats/base/dists/hypergeometric/pmf' );
-import quantile = require( '@stdlib/stats/base/dists/hypergeometric/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/hypergeometric/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/hypergeometric/stdev' );
-import variance = require( '@stdlib/stats/base/dists/hypergeometric/variance' );
+import cdf = require( './../../../../../base/dists/hypergeometric/cdf' );
+import Hypergeometric = require( './../../../../../base/dists/hypergeometric/ctor' );
+import kurtosis = require( './../../../../../base/dists/hypergeometric/kurtosis' );
+import logpmf = require( './../../../../../base/dists/hypergeometric/logpmf' );
+import mean = require( './../../../../../base/dists/hypergeometric/mean' );
+import mode = require( './../../../../../base/dists/hypergeometric/mode' );
+import pmf = require( './../../../../../base/dists/hypergeometric/pmf' );
+import quantile = require( './../../../../../base/dists/hypergeometric/quantile' );
+import skewness = require( './../../../../../base/dists/hypergeometric/skewness' );
+import stdev = require( './../../../../../base/dists/hypergeometric/stdev' );
+import variance = require( './../../../../../base/dists/hypergeometric/variance' );
 
 /**
 * Interface describing the `hypergeometric` namespace.

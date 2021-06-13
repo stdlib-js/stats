@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var gammaLogPDF = require( '@stdlib/stats/base/dists/gamma/logpdf' );
+var gammaLogPDF = require( './../../../../../base/dists/gamma/logpdf' );
 
 
 // MAIN //

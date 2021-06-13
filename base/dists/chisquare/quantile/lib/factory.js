@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var gammaFactory = require( '@stdlib/stats/base/dists/gamma/quantile' ).factory;
+var gammaFactory = require( './../../../../../base/dists/gamma/quantile' ).factory;
 
 
 // MAIN //

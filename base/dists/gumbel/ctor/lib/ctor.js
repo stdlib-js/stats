@@ -28,20 +28,20 @@ var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
 var isnan = require( '@stdlib/assert/is-nan' );
-var entropy = require( '@stdlib/stats/base/dists/gumbel/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/gumbel/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/gumbel/mean' );
-var median = require( '@stdlib/stats/base/dists/gumbel/median' );
-var mode = require( '@stdlib/stats/base/dists/gumbel/mode' );
-var skewness = require( '@stdlib/stats/base/dists/gumbel/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/gumbel/stdev' );
-var variance = require( '@stdlib/stats/base/dists/gumbel/variance' );
-var cdf = require( '@stdlib/stats/base/dists/gumbel/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/gumbel/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/gumbel/logpdf' );
-var mgf = require( '@stdlib/stats/base/dists/gumbel/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/gumbel/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/gumbel/quantile' );
+var entropy = require( './../../../../../base/dists/gumbel/entropy' );
+var kurtosis = require( './../../../../../base/dists/gumbel/kurtosis' );
+var mean = require( './../../../../../base/dists/gumbel/mean' );
+var median = require( './../../../../../base/dists/gumbel/median' );
+var mode = require( './../../../../../base/dists/gumbel/mode' );
+var skewness = require( './../../../../../base/dists/gumbel/skewness' );
+var stdev = require( './../../../../../base/dists/gumbel/stdev' );
+var variance = require( './../../../../../base/dists/gumbel/variance' );
+var cdf = require( './../../../../../base/dists/gumbel/cdf' );
+var logcdf = require( './../../../../../base/dists/gumbel/logcdf' );
+var logpdf = require( './../../../../../base/dists/gumbel/logpdf' );
+var mgf = require( './../../../../../base/dists/gumbel/mgf' );
+var pdf = require( './../../../../../base/dists/gumbel/pdf' );
+var quantile = require( './../../../../../base/dists/gumbel/quantile' );
 
 
 // FUNCTIONS //

@@ -43,7 +43,7 @@ var discreteUniform = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform/cdf}
 */
-setReadOnly( discreteUniform, 'cdf', require( '@stdlib/stats/base/dists/discrete-uniform/cdf' ) );
+setReadOnly( discreteUniform, 'cdf', require( './../../../../base/dists/discrete-uniform/cdf' ) );
 
 /**
 * @name DiscreteUniform
@@ -52,7 +52,7 @@ setReadOnly( discreteUniform, 'cdf', require( '@stdlib/stats/base/dists/discrete
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform/ctor}
 */
-setReadOnly( discreteUniform, 'DiscreteUniform', require( '@stdlib/stats/base/dists/discrete-uniform/ctor' ) );
+setReadOnly( discreteUniform, 'DiscreteUniform', require( './../../../../base/dists/discrete-uniform/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( discreteUniform, 'DiscreteUniform', require( '@stdlib/stats/base/di
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform/entropy}
 */
-setReadOnly( discreteUniform, 'entropy', require( '@stdlib/stats/base/dists/discrete-uniform/entropy' ) );
+setReadOnly( discreteUniform, 'entropy', require( './../../../../base/dists/discrete-uniform/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( discreteUniform, 'entropy', require( '@stdlib/stats/base/dists/disc
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform/kurtosis}
 */
-setReadOnly( discreteUniform, 'kurtosis', require( '@stdlib/stats/base/dists/discrete-uniform/kurtosis' ) );
+setReadOnly( discreteUniform, 'kurtosis', require( './../../../../base/dists/discrete-uniform/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -79,7 +79,7 @@ setReadOnly( discreteUniform, 'kurtosis', require( '@stdlib/stats/base/dists/dis
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform/logcdf}
 */
-setReadOnly( discreteUniform, 'logcdf', require( '@stdlib/stats/base/dists/discrete-uniform/logcdf' ) );
+setReadOnly( discreteUniform, 'logcdf', require( './../../../../base/dists/discrete-uniform/logcdf' ) );
 
 /**
 * @name logpmf
@@ -88,7 +88,7 @@ setReadOnly( discreteUniform, 'logcdf', require( '@stdlib/stats/base/dists/discr
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform/logpmf}
 */
-setReadOnly( discreteUniform, 'logpmf', require( '@stdlib/stats/base/dists/discrete-uniform/logpmf' ) );
+setReadOnly( discreteUniform, 'logpmf', require( './../../../../base/dists/discrete-uniform/logpmf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( discreteUniform, 'logpmf', require( '@stdlib/stats/base/dists/discr
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform/mean}
 */
-setReadOnly( discreteUniform, 'mean', require( '@stdlib/stats/base/dists/discrete-uniform/mean' ) );
+setReadOnly( discreteUniform, 'mean', require( './../../../../base/dists/discrete-uniform/mean' ) );
 
 /**
 * @name median
@@ -106,7 +106,7 @@ setReadOnly( discreteUniform, 'mean', require( '@stdlib/stats/base/dists/discret
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform/median}
 */
-setReadOnly( discreteUniform, 'median', require( '@stdlib/stats/base/dists/discrete-uniform/median' ) );
+setReadOnly( discreteUniform, 'median', require( './../../../../base/dists/discrete-uniform/median' ) );
 
 /**
 * @name mgf
@@ -115,7 +115,7 @@ setReadOnly( discreteUniform, 'median', require( '@stdlib/stats/base/dists/discr
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform/mgf}
 */
-setReadOnly( discreteUniform, 'mgf', require( '@stdlib/stats/base/dists/discrete-uniform/mgf' ) );
+setReadOnly( discreteUniform, 'mgf', require( './../../../../base/dists/discrete-uniform/mgf' ) );
 
 /**
 * @name pmf
@@ -124,7 +124,7 @@ setReadOnly( discreteUniform, 'mgf', require( '@stdlib/stats/base/dists/discrete
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform/pmf}
 */
-setReadOnly( discreteUniform, 'pmf', require( '@stdlib/stats/base/dists/discrete-uniform/pmf' ) );
+setReadOnly( discreteUniform, 'pmf', require( './../../../../base/dists/discrete-uniform/pmf' ) );
 
 /**
 * @name quantile
@@ -133,7 +133,7 @@ setReadOnly( discreteUniform, 'pmf', require( '@stdlib/stats/base/dists/discrete
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform/quantile}
 */
-setReadOnly( discreteUniform, 'quantile', require( '@stdlib/stats/base/dists/discrete-uniform/quantile' ) );
+setReadOnly( discreteUniform, 'quantile', require( './../../../../base/dists/discrete-uniform/quantile' ) );
 
 /**
 * @name skewness
@@ -142,7 +142,7 @@ setReadOnly( discreteUniform, 'quantile', require( '@stdlib/stats/base/dists/dis
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform/skewness}
 */
-setReadOnly( discreteUniform, 'skewness', require( '@stdlib/stats/base/dists/discrete-uniform/skewness' ) );
+setReadOnly( discreteUniform, 'skewness', require( './../../../../base/dists/discrete-uniform/skewness' ) );
 
 /**
 * @name stdev
@@ -151,7 +151,7 @@ setReadOnly( discreteUniform, 'skewness', require( '@stdlib/stats/base/dists/dis
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform/stdev}
 */
-setReadOnly( discreteUniform, 'stdev', require( '@stdlib/stats/base/dists/discrete-uniform/stdev' ) );
+setReadOnly( discreteUniform, 'stdev', require( './../../../../base/dists/discrete-uniform/stdev' ) );
 
 /**
 * @name variance
@@ -160,7 +160,7 @@ setReadOnly( discreteUniform, 'stdev', require( '@stdlib/stats/base/dists/discre
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/discrete-uniform/variance}
 */
-setReadOnly( discreteUniform, 'variance', require( '@stdlib/stats/base/dists/discrete-uniform/variance' ) );
+setReadOnly( discreteUniform, 'variance', require( './../../../../base/dists/discrete-uniform/variance' ) );
 
 
 // EXPORTS //

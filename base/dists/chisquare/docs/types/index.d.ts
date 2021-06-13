@@ -21,20 +21,20 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/chisquare/cdf' );
-import ChiSquare = require( '@stdlib/stats/base/dists/chisquare/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/chisquare/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/chisquare/kurtosis' );
-import logpdf = require( '@stdlib/stats/base/dists/chisquare/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/chisquare/mean' );
-import median = require( '@stdlib/stats/base/dists/chisquare/median' );
-import mgf = require( '@stdlib/stats/base/dists/chisquare/mgf' );
-import mode = require( '@stdlib/stats/base/dists/chisquare/mode' );
-import pdf = require( '@stdlib/stats/base/dists/chisquare/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/chisquare/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/chisquare/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/chisquare/stdev' );
-import variance = require( '@stdlib/stats/base/dists/chisquare/variance' );
+import cdf = require( './../../../../../base/dists/chisquare/cdf' );
+import ChiSquare = require( './../../../../../base/dists/chisquare/ctor' );
+import entropy = require( './../../../../../base/dists/chisquare/entropy' );
+import kurtosis = require( './../../../../../base/dists/chisquare/kurtosis' );
+import logpdf = require( './../../../../../base/dists/chisquare/logpdf' );
+import mean = require( './../../../../../base/dists/chisquare/mean' );
+import median = require( './../../../../../base/dists/chisquare/median' );
+import mgf = require( './../../../../../base/dists/chisquare/mgf' );
+import mode = require( './../../../../../base/dists/chisquare/mode' );
+import pdf = require( './../../../../../base/dists/chisquare/pdf' );
+import quantile = require( './../../../../../base/dists/chisquare/quantile' );
+import skewness = require( './../../../../../base/dists/chisquare/skewness' );
+import stdev = require( './../../../../../base/dists/chisquare/stdev' );
+import variance = require( './../../../../../base/dists/chisquare/variance' );
 
 /**
 * Interface describing the `chisquare` namespace.

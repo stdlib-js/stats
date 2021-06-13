@@ -43,7 +43,7 @@ var hypergeometric = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/hypergeometric/cdf}
 */
-setReadOnly( hypergeometric, 'cdf', require( '@stdlib/stats/base/dists/hypergeometric/cdf' ) );
+setReadOnly( hypergeometric, 'cdf', require( './../../../../base/dists/hypergeometric/cdf' ) );
 
 /**
 * @name Hypergeometric
@@ -52,7 +52,7 @@ setReadOnly( hypergeometric, 'cdf', require( '@stdlib/stats/base/dists/hypergeom
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/hypergeometric/ctor}
 */
-setReadOnly( hypergeometric, 'Hypergeometric', require( '@stdlib/stats/base/dists/hypergeometric/ctor' ) );
+setReadOnly( hypergeometric, 'Hypergeometric', require( './../../../../base/dists/hypergeometric/ctor' ) );
 
 /**
 * @name kurtosis
@@ -61,7 +61,7 @@ setReadOnly( hypergeometric, 'Hypergeometric', require( '@stdlib/stats/base/dist
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/hypergeometric/kurtosis}
 */
-setReadOnly( hypergeometric, 'kurtosis', require( '@stdlib/stats/base/dists/hypergeometric/kurtosis' ) );
+setReadOnly( hypergeometric, 'kurtosis', require( './../../../../base/dists/hypergeometric/kurtosis' ) );
 
 /**
 * @name logpmf
@@ -70,7 +70,7 @@ setReadOnly( hypergeometric, 'kurtosis', require( '@stdlib/stats/base/dists/hype
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/hypergeometric/logpmf}
 */
-setReadOnly( hypergeometric, 'logpmf', require( '@stdlib/stats/base/dists/hypergeometric/logpmf' ) );
+setReadOnly( hypergeometric, 'logpmf', require( './../../../../base/dists/hypergeometric/logpmf' ) );
 
 /**
 * @name mean
@@ -79,7 +79,7 @@ setReadOnly( hypergeometric, 'logpmf', require( '@stdlib/stats/base/dists/hyperg
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/hypergeometric/mean}
 */
-setReadOnly( hypergeometric, 'mean', require( '@stdlib/stats/base/dists/hypergeometric/mean' ) );
+setReadOnly( hypergeometric, 'mean', require( './../../../../base/dists/hypergeometric/mean' ) );
 
 /**
 * @name mode
@@ -88,7 +88,7 @@ setReadOnly( hypergeometric, 'mean', require( '@stdlib/stats/base/dists/hypergeo
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/hypergeometric/mode}
 */
-setReadOnly( hypergeometric, 'mode', require( '@stdlib/stats/base/dists/hypergeometric/mode' ) );
+setReadOnly( hypergeometric, 'mode', require( './../../../../base/dists/hypergeometric/mode' ) );
 
 /**
 * @name pmf
@@ -97,7 +97,7 @@ setReadOnly( hypergeometric, 'mode', require( '@stdlib/stats/base/dists/hypergeo
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/hypergeometric/pmf}
 */
-setReadOnly( hypergeometric, 'pmf', require( '@stdlib/stats/base/dists/hypergeometric/pmf' ) );
+setReadOnly( hypergeometric, 'pmf', require( './../../../../base/dists/hypergeometric/pmf' ) );
 
 /**
 * @name quantile
@@ -106,7 +106,7 @@ setReadOnly( hypergeometric, 'pmf', require( '@stdlib/stats/base/dists/hypergeom
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/hypergeometric/quantile}
 */
-setReadOnly( hypergeometric, 'quantile', require( '@stdlib/stats/base/dists/hypergeometric/quantile' ) );
+setReadOnly( hypergeometric, 'quantile', require( './../../../../base/dists/hypergeometric/quantile' ) );
 
 /**
 * @name skewness
@@ -115,7 +115,7 @@ setReadOnly( hypergeometric, 'quantile', require( '@stdlib/stats/base/dists/hype
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/hypergeometric/skewness}
 */
-setReadOnly( hypergeometric, 'skewness', require( '@stdlib/stats/base/dists/hypergeometric/skewness' ) );
+setReadOnly( hypergeometric, 'skewness', require( './../../../../base/dists/hypergeometric/skewness' ) );
 
 /**
 * @name stdev
@@ -124,7 +124,7 @@ setReadOnly( hypergeometric, 'skewness', require( '@stdlib/stats/base/dists/hype
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/hypergeometric/stdev}
 */
-setReadOnly( hypergeometric, 'stdev', require( '@stdlib/stats/base/dists/hypergeometric/stdev' ) );
+setReadOnly( hypergeometric, 'stdev', require( './../../../../base/dists/hypergeometric/stdev' ) );
 
 /**
 * @name variance
@@ -133,7 +133,7 @@ setReadOnly( hypergeometric, 'stdev', require( '@stdlib/stats/base/dists/hyperge
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/hypergeometric/variance}
 */
-setReadOnly( hypergeometric, 'variance', require( '@stdlib/stats/base/dists/hypergeometric/variance' ) );
+setReadOnly( hypergeometric, 'variance', require( './../../../../base/dists/hypergeometric/variance' ) );
 
 
 // EXPORTS //

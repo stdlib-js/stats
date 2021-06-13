@@ -27,20 +27,20 @@ var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-propert
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var entropy = require( '@stdlib/stats/base/dists/triangular/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/triangular/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/triangular/mean' );
-var median = require( '@stdlib/stats/base/dists/triangular/median' );
-var mode = require( '@stdlib/stats/base/dists/triangular/mode' );
-var skewness = require( '@stdlib/stats/base/dists/triangular/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/triangular/stdev' );
-var variance = require( '@stdlib/stats/base/dists/triangular/variance' );
-var cdf = require( '@stdlib/stats/base/dists/triangular/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/triangular/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/triangular/logpdf' );
-var mgf = require( '@stdlib/stats/base/dists/triangular/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/triangular/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/triangular/quantile' );
+var entropy = require( './../../../../../base/dists/triangular/entropy' );
+var kurtosis = require( './../../../../../base/dists/triangular/kurtosis' );
+var mean = require( './../../../../../base/dists/triangular/mean' );
+var median = require( './../../../../../base/dists/triangular/median' );
+var mode = require( './../../../../../base/dists/triangular/mode' );
+var skewness = require( './../../../../../base/dists/triangular/skewness' );
+var stdev = require( './../../../../../base/dists/triangular/stdev' );
+var variance = require( './../../../../../base/dists/triangular/variance' );
+var cdf = require( './../../../../../base/dists/triangular/cdf' );
+var logcdf = require( './../../../../../base/dists/triangular/logcdf' );
+var logpdf = require( './../../../../../base/dists/triangular/logpdf' );
+var mgf = require( './../../../../../base/dists/triangular/mgf' );
+var pdf = require( './../../../../../base/dists/triangular/pdf' );
+var quantile = require( './../../../../../base/dists/triangular/quantile' );
 
 
 // FUNCTIONS //

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var incrmean = require( '@stdlib/stats/incr/mean' );
+var incrmean = require( './../../../incr/mean' );
 var signum = require( '@stdlib/math/base/special/signum' );
 var kroneckerDelta = require( '@stdlib/math/base/special/kronecker-delta' );
 

@@ -21,19 +21,19 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/erlang/cdf' );
-import Erlang = require( '@stdlib/stats/base/dists/erlang/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/erlang/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/erlang/kurtosis' );
-import logpdf = require( '@stdlib/stats/base/dists/erlang/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/erlang/mean' );
-import mgf = require( '@stdlib/stats/base/dists/erlang/mgf' );
-import mode = require( '@stdlib/stats/base/dists/erlang/mode' );
-import pdf = require( '@stdlib/stats/base/dists/erlang/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/erlang/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/erlang/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/erlang/stdev' );
-import variance = require( '@stdlib/stats/base/dists/erlang/variance' );
+import cdf = require( './../../../../../base/dists/erlang/cdf' );
+import Erlang = require( './../../../../../base/dists/erlang/ctor' );
+import entropy = require( './../../../../../base/dists/erlang/entropy' );
+import kurtosis = require( './../../../../../base/dists/erlang/kurtosis' );
+import logpdf = require( './../../../../../base/dists/erlang/logpdf' );
+import mean = require( './../../../../../base/dists/erlang/mean' );
+import mgf = require( './../../../../../base/dists/erlang/mgf' );
+import mode = require( './../../../../../base/dists/erlang/mode' );
+import pdf = require( './../../../../../base/dists/erlang/pdf' );
+import quantile = require( './../../../../../base/dists/erlang/quantile' );
+import skewness = require( './../../../../../base/dists/erlang/skewness' );
+import stdev = require( './../../../../../base/dists/erlang/stdev' );
+import variance = require( './../../../../../base/dists/erlang/variance' );
 
 /**
 * Interface describing the `erlang` namespace.

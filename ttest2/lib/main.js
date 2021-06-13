@@ -23,13 +23,13 @@
 var isNumberArray = require( '@stdlib/assert/is-number-array' ).primitives;
 var isTypedArrayLike = require( '@stdlib/assert/is-typed-array-like' );
 var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
-var tCDF = require( '@stdlib/stats/base/dists/t/cdf' );
-var tQuantile = require( '@stdlib/stats/base/dists/t/quantile' );
+var tCDF = require( './../../base/dists/t/cdf' );
+var tQuantile = require( './../../base/dists/t/quantile' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 var abs = require( '@stdlib/math/base/special/abs' );
 var pow = require( '@stdlib/math/base/special/pow' );
-var mean = require( '@stdlib/stats/base/mean' );
-var variance = require( '@stdlib/stats/base/variance' );
+var mean = require( './../../base/mean' );
+var variance = require( './../../base/variance' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var validate = require( './validate.js' );

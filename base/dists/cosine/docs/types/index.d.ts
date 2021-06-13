@@ -21,20 +21,20 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/cosine/cdf' );
-import Cosine = require( '@stdlib/stats/base/dists/cosine/ctor' );
-import kurtosis = require( '@stdlib/stats/base/dists/cosine/kurtosis' );
-import logcdf = require( '@stdlib/stats/base/dists/cosine/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/cosine/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/cosine/mean' );
-import median = require( '@stdlib/stats/base/dists/cosine/median' );
-import mgf = require( '@stdlib/stats/base/dists/cosine/mgf' );
-import mode = require( '@stdlib/stats/base/dists/cosine/mode' );
-import pdf = require( '@stdlib/stats/base/dists/cosine/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/cosine/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/cosine/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/cosine/stdev' );
-import variance = require( '@stdlib/stats/base/dists/cosine/variance' );
+import cdf = require( './../../../../../base/dists/cosine/cdf' );
+import Cosine = require( './../../../../../base/dists/cosine/ctor' );
+import kurtosis = require( './../../../../../base/dists/cosine/kurtosis' );
+import logcdf = require( './../../../../../base/dists/cosine/logcdf' );
+import logpdf = require( './../../../../../base/dists/cosine/logpdf' );
+import mean = require( './../../../../../base/dists/cosine/mean' );
+import median = require( './../../../../../base/dists/cosine/median' );
+import mgf = require( './../../../../../base/dists/cosine/mgf' );
+import mode = require( './../../../../../base/dists/cosine/mode' );
+import pdf = require( './../../../../../base/dists/cosine/pdf' );
+import quantile = require( './../../../../../base/dists/cosine/quantile' );
+import skewness = require( './../../../../../base/dists/cosine/skewness' );
+import stdev = require( './../../../../../base/dists/cosine/stdev' );
+import variance = require( './../../../../../base/dists/cosine/variance' );
 
 /**
 * Interface describing the `cosine` namespace.

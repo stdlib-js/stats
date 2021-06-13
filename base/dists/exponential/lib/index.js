@@ -43,7 +43,7 @@ var exponential = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/cdf}
 */
-setReadOnly( exponential, 'cdf', require( '@stdlib/stats/base/dists/exponential/cdf' ) );
+setReadOnly( exponential, 'cdf', require( './../../../../base/dists/exponential/cdf' ) );
 
 /**
 * @name Exponential
@@ -52,7 +52,7 @@ setReadOnly( exponential, 'cdf', require( '@stdlib/stats/base/dists/exponential/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/ctor}
 */
-setReadOnly( exponential, 'Exponential', require( '@stdlib/stats/base/dists/exponential/ctor' ) );
+setReadOnly( exponential, 'Exponential', require( './../../../../base/dists/exponential/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( exponential, 'Exponential', require( '@stdlib/stats/base/dists/expo
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/entropy}
 */
-setReadOnly( exponential, 'entropy', require( '@stdlib/stats/base/dists/exponential/entropy' ) );
+setReadOnly( exponential, 'entropy', require( './../../../../base/dists/exponential/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( exponential, 'entropy', require( '@stdlib/stats/base/dists/exponent
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/kurtosis}
 */
-setReadOnly( exponential, 'kurtosis', require( '@stdlib/stats/base/dists/exponential/kurtosis' ) );
+setReadOnly( exponential, 'kurtosis', require( './../../../../base/dists/exponential/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -79,7 +79,7 @@ setReadOnly( exponential, 'kurtosis', require( '@stdlib/stats/base/dists/exponen
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/logcdf}
 */
-setReadOnly( exponential, 'logcdf', require( '@stdlib/stats/base/dists/exponential/logcdf' ) );
+setReadOnly( exponential, 'logcdf', require( './../../../../base/dists/exponential/logcdf' ) );
 
 /**
 * @name logpdf
@@ -88,7 +88,7 @@ setReadOnly( exponential, 'logcdf', require( '@stdlib/stats/base/dists/exponenti
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/logpdf}
 */
-setReadOnly( exponential, 'logpdf', require( '@stdlib/stats/base/dists/exponential/logpdf' ) );
+setReadOnly( exponential, 'logpdf', require( './../../../../base/dists/exponential/logpdf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( exponential, 'logpdf', require( '@stdlib/stats/base/dists/exponenti
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/mean}
 */
-setReadOnly( exponential, 'mean', require( '@stdlib/stats/base/dists/exponential/mean' ) );
+setReadOnly( exponential, 'mean', require( './../../../../base/dists/exponential/mean' ) );
 
 /**
 * @name median
@@ -106,7 +106,7 @@ setReadOnly( exponential, 'mean', require( '@stdlib/stats/base/dists/exponential
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/median}
 */
-setReadOnly( exponential, 'median', require( '@stdlib/stats/base/dists/exponential/median' ) );
+setReadOnly( exponential, 'median', require( './../../../../base/dists/exponential/median' ) );
 
 /**
 * @name mgf
@@ -115,7 +115,7 @@ setReadOnly( exponential, 'median', require( '@stdlib/stats/base/dists/exponenti
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/mgf}
 */
-setReadOnly( exponential, 'mgf', require( '@stdlib/stats/base/dists/exponential/mgf' ) );
+setReadOnly( exponential, 'mgf', require( './../../../../base/dists/exponential/mgf' ) );
 
 /**
 * @name mode
@@ -124,7 +124,7 @@ setReadOnly( exponential, 'mgf', require( '@stdlib/stats/base/dists/exponential/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/mode}
 */
-setReadOnly( exponential, 'mode', require( '@stdlib/stats/base/dists/exponential/mode' ) );
+setReadOnly( exponential, 'mode', require( './../../../../base/dists/exponential/mode' ) );
 
 /**
 * @name pdf
@@ -133,7 +133,7 @@ setReadOnly( exponential, 'mode', require( '@stdlib/stats/base/dists/exponential
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/pdf}
 */
-setReadOnly( exponential, 'pdf', require( '@stdlib/stats/base/dists/exponential/pdf' ) );
+setReadOnly( exponential, 'pdf', require( './../../../../base/dists/exponential/pdf' ) );
 
 /**
 * @name quantile
@@ -142,7 +142,7 @@ setReadOnly( exponential, 'pdf', require( '@stdlib/stats/base/dists/exponential/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/quantile}
 */
-setReadOnly( exponential, 'quantile', require( '@stdlib/stats/base/dists/exponential/quantile' ) );
+setReadOnly( exponential, 'quantile', require( './../../../../base/dists/exponential/quantile' ) );
 
 /**
 * @name skewness
@@ -151,7 +151,7 @@ setReadOnly( exponential, 'quantile', require( '@stdlib/stats/base/dists/exponen
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/skewness}
 */
-setReadOnly( exponential, 'skewness', require( '@stdlib/stats/base/dists/exponential/skewness' ) );
+setReadOnly( exponential, 'skewness', require( './../../../../base/dists/exponential/skewness' ) );
 
 /**
 * @name stdev
@@ -160,7 +160,7 @@ setReadOnly( exponential, 'skewness', require( '@stdlib/stats/base/dists/exponen
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/stdev}
 */
-setReadOnly( exponential, 'stdev', require( '@stdlib/stats/base/dists/exponential/stdev' ) );
+setReadOnly( exponential, 'stdev', require( './../../../../base/dists/exponential/stdev' ) );
 
 /**
 * @name variance
@@ -169,7 +169,7 @@ setReadOnly( exponential, 'stdev', require( '@stdlib/stats/base/dists/exponentia
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/exponential/variance}
 */
-setReadOnly( exponential, 'variance', require( '@stdlib/stats/base/dists/exponential/variance' ) );
+setReadOnly( exponential, 'variance', require( './../../../../base/dists/exponential/variance' ) );
 
 
 // EXPORTS //

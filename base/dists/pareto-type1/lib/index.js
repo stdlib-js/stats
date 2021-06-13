@@ -43,7 +43,7 @@ var pareto1 = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1/cdf}
 */
-setReadOnly( pareto1, 'cdf', require( '@stdlib/stats/base/dists/pareto-type1/cdf' ) );
+setReadOnly( pareto1, 'cdf', require( './../../../../base/dists/pareto-type1/cdf' ) );
 
 /**
 * @name Pareto1
@@ -52,7 +52,7 @@ setReadOnly( pareto1, 'cdf', require( '@stdlib/stats/base/dists/pareto-type1/cdf
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1/ctor}
 */
-setReadOnly( pareto1, 'Pareto1', require( '@stdlib/stats/base/dists/pareto-type1/ctor' ) );
+setReadOnly( pareto1, 'Pareto1', require( './../../../../base/dists/pareto-type1/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( pareto1, 'Pareto1', require( '@stdlib/stats/base/dists/pareto-type1
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1/entropy}
 */
-setReadOnly( pareto1, 'entropy', require( '@stdlib/stats/base/dists/pareto-type1/entropy' ) );
+setReadOnly( pareto1, 'entropy', require( './../../../../base/dists/pareto-type1/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( pareto1, 'entropy', require( '@stdlib/stats/base/dists/pareto-type1
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1/kurtosis}
 */
-setReadOnly( pareto1, 'kurtosis', require( '@stdlib/stats/base/dists/pareto-type1/kurtosis' ) );
+setReadOnly( pareto1, 'kurtosis', require( './../../../../base/dists/pareto-type1/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -79,7 +79,7 @@ setReadOnly( pareto1, 'kurtosis', require( '@stdlib/stats/base/dists/pareto-type
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1/logcdf}
 */
-setReadOnly( pareto1, 'logcdf', require( '@stdlib/stats/base/dists/pareto-type1/logcdf' ) );
+setReadOnly( pareto1, 'logcdf', require( './../../../../base/dists/pareto-type1/logcdf' ) );
 
 /**
 * @name logpdf
@@ -88,7 +88,7 @@ setReadOnly( pareto1, 'logcdf', require( '@stdlib/stats/base/dists/pareto-type1/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1/logpdf}
 */
-setReadOnly( pareto1, 'logpdf', require( '@stdlib/stats/base/dists/pareto-type1/logpdf' ) );
+setReadOnly( pareto1, 'logpdf', require( './../../../../base/dists/pareto-type1/logpdf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( pareto1, 'logpdf', require( '@stdlib/stats/base/dists/pareto-type1/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1/mean}
 */
-setReadOnly( pareto1, 'mean', require( '@stdlib/stats/base/dists/pareto-type1/mean' ) );
+setReadOnly( pareto1, 'mean', require( './../../../../base/dists/pareto-type1/mean' ) );
 
 /**
 * @name median
@@ -106,7 +106,7 @@ setReadOnly( pareto1, 'mean', require( '@stdlib/stats/base/dists/pareto-type1/me
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1/median}
 */
-setReadOnly( pareto1, 'median', require( '@stdlib/stats/base/dists/pareto-type1/median' ) );
+setReadOnly( pareto1, 'median', require( './../../../../base/dists/pareto-type1/median' ) );
 
 /**
 * @name mode
@@ -115,7 +115,7 @@ setReadOnly( pareto1, 'median', require( '@stdlib/stats/base/dists/pareto-type1/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1/mode}
 */
-setReadOnly( pareto1, 'mode', require( '@stdlib/stats/base/dists/pareto-type1/mode' ) );
+setReadOnly( pareto1, 'mode', require( './../../../../base/dists/pareto-type1/mode' ) );
 
 /**
 * @name pdf
@@ -124,7 +124,7 @@ setReadOnly( pareto1, 'mode', require( '@stdlib/stats/base/dists/pareto-type1/mo
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1/pdf}
 */
-setReadOnly( pareto1, 'pdf', require( '@stdlib/stats/base/dists/pareto-type1/pdf' ) );
+setReadOnly( pareto1, 'pdf', require( './../../../../base/dists/pareto-type1/pdf' ) );
 
 /**
 * @name quantile
@@ -133,7 +133,7 @@ setReadOnly( pareto1, 'pdf', require( '@stdlib/stats/base/dists/pareto-type1/pdf
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1/quantile}
 */
-setReadOnly( pareto1, 'quantile', require( '@stdlib/stats/base/dists/pareto-type1/quantile' ) );
+setReadOnly( pareto1, 'quantile', require( './../../../../base/dists/pareto-type1/quantile' ) );
 
 /**
 * @name skewness
@@ -142,7 +142,7 @@ setReadOnly( pareto1, 'quantile', require( '@stdlib/stats/base/dists/pareto-type
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1/skewness}
 */
-setReadOnly( pareto1, 'skewness', require( '@stdlib/stats/base/dists/pareto-type1/skewness' ) );
+setReadOnly( pareto1, 'skewness', require( './../../../../base/dists/pareto-type1/skewness' ) );
 
 /**
 * @name stdev
@@ -151,7 +151,7 @@ setReadOnly( pareto1, 'skewness', require( '@stdlib/stats/base/dists/pareto-type
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1/stdev}
 */
-setReadOnly( pareto1, 'stdev', require( '@stdlib/stats/base/dists/pareto-type1/stdev' ) );
+setReadOnly( pareto1, 'stdev', require( './../../../../base/dists/pareto-type1/stdev' ) );
 
 /**
 * @name variance
@@ -160,7 +160,7 @@ setReadOnly( pareto1, 'stdev', require( '@stdlib/stats/base/dists/pareto-type1/s
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1/variance}
 */
-setReadOnly( pareto1, 'variance', require( '@stdlib/stats/base/dists/pareto-type1/variance' ) );
+setReadOnly( pareto1, 'variance', require( './../../../../base/dists/pareto-type1/variance' ) );
 
 
 // EXPORTS //

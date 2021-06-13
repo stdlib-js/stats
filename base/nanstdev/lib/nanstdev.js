@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var nanstdevpn = require( '@stdlib/stats/base/nanstdevpn' );
+var nanstdevpn = require( './../../../base/nanstdevpn' );
 
 
 // MAIN //

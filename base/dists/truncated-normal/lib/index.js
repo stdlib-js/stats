@@ -43,7 +43,7 @@ var truncatedNormal = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/truncated-normal/pdf}
 */
-setReadOnly( truncatedNormal, 'pdf', require( '@stdlib/stats/base/dists/truncated-normal/pdf' ) );
+setReadOnly( truncatedNormal, 'pdf', require( './../../../../base/dists/truncated-normal/pdf' ) );
 
 
 // EXPORTS //

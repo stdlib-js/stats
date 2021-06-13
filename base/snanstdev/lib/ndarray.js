@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var snanstdevpn = require( '@stdlib/stats/base/snanstdevpn' ).ndarray;
+var snanstdevpn = require( './../../../base/snanstdevpn' ).ndarray;
 
 
 // MAIN //

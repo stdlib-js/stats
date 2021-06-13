@@ -26,16 +26,16 @@ var isNonNegativeInteger = require( '@stdlib/assert/is-nonnegative-integer' ).is
 var defineProperty = require( '@stdlib/utils/define-property' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
-var kurtosis = require( '@stdlib/stats/base/dists/hypergeometric/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/hypergeometric/mean' );
-var mode = require( '@stdlib/stats/base/dists/hypergeometric/mode' );
-var skewness = require( '@stdlib/stats/base/dists/hypergeometric/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/hypergeometric/stdev' );
-var variance = require( '@stdlib/stats/base/dists/hypergeometric/variance' );
-var cdf = require( '@stdlib/stats/base/dists/hypergeometric/cdf' );
-var logpmf = require( '@stdlib/stats/base/dists/hypergeometric/logpmf' );
-var pmf = require( '@stdlib/stats/base/dists/hypergeometric/pmf' );
-var quantile = require( '@stdlib/stats/base/dists/hypergeometric/quantile' );
+var kurtosis = require( './../../../../../base/dists/hypergeometric/kurtosis' );
+var mean = require( './../../../../../base/dists/hypergeometric/mean' );
+var mode = require( './../../../../../base/dists/hypergeometric/mode' );
+var skewness = require( './../../../../../base/dists/hypergeometric/skewness' );
+var stdev = require( './../../../../../base/dists/hypergeometric/stdev' );
+var variance = require( './../../../../../base/dists/hypergeometric/variance' );
+var cdf = require( './../../../../../base/dists/hypergeometric/cdf' );
+var logpmf = require( './../../../../../base/dists/hypergeometric/logpmf' );
+var pmf = require( './../../../../../base/dists/hypergeometric/pmf' );
+var quantile = require( './../../../../../base/dists/hypergeometric/quantile' );
 
 
 // FUNCTIONS //

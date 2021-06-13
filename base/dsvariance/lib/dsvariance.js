@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dsvariancepn = require( '@stdlib/stats/base/dsvariancepn' );
+var dsvariancepn = require( './../../../base/dsvariancepn' );
 
 
 // MAIN //

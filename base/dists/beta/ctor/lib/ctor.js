@@ -26,20 +26,20 @@ var defineProperty = require( '@stdlib/utils/define-property' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
-var entropy = require( '@stdlib/stats/base/dists/beta/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/beta/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/beta/mean' );
-var median = require( '@stdlib/stats/base/dists/beta/median' );
-var mode = require( '@stdlib/stats/base/dists/beta/mode' );
-var skewness = require( '@stdlib/stats/base/dists/beta/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/beta/stdev' );
-var variance = require( '@stdlib/stats/base/dists/beta/variance' );
-var cdf = require( '@stdlib/stats/base/dists/beta/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/beta/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/beta/logpdf' );
-var mgf = require( '@stdlib/stats/base/dists/beta/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/beta/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/beta/quantile' );
+var entropy = require( './../../../../../base/dists/beta/entropy' );
+var kurtosis = require( './../../../../../base/dists/beta/kurtosis' );
+var mean = require( './../../../../../base/dists/beta/mean' );
+var median = require( './../../../../../base/dists/beta/median' );
+var mode = require( './../../../../../base/dists/beta/mode' );
+var skewness = require( './../../../../../base/dists/beta/skewness' );
+var stdev = require( './../../../../../base/dists/beta/stdev' );
+var variance = require( './../../../../../base/dists/beta/variance' );
+var cdf = require( './../../../../../base/dists/beta/cdf' );
+var logcdf = require( './../../../../../base/dists/beta/logcdf' );
+var logpdf = require( './../../../../../base/dists/beta/logpdf' );
+var mgf = require( './../../../../../base/dists/beta/mgf' );
+var pdf = require( './../../../../../base/dists/beta/pdf' );
+var quantile = require( './../../../../../base/dists/beta/quantile' );
 
 
 // FUNCTIONS //

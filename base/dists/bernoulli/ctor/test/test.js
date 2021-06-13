@@ -23,18 +23,18 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/bernoulli/quantile' );
-var cdf = require( '@stdlib/stats/base/dists/bernoulli/cdf' );
-var mgf = require( '@stdlib/stats/base/dists/bernoulli/mgf' );
-var pmf = require( '@stdlib/stats/base/dists/bernoulli/pmf' );
-var entropy = require( '@stdlib/stats/base/dists/bernoulli/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/bernoulli/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/bernoulli/skewness' );
-var variance = require( '@stdlib/stats/base/dists/bernoulli/variance' );
-var median = require( '@stdlib/stats/base/dists/bernoulli/median' );
-var mode = require( '@stdlib/stats/base/dists/bernoulli/mode' );
-var stdev = require( '@stdlib/stats/base/dists/bernoulli/stdev' );
-var mean = require( '@stdlib/stats/base/dists/bernoulli/mean' );
+var quantile = require( './../../../../../base/dists/bernoulli/quantile' );
+var cdf = require( './../../../../../base/dists/bernoulli/cdf' );
+var mgf = require( './../../../../../base/dists/bernoulli/mgf' );
+var pmf = require( './../../../../../base/dists/bernoulli/pmf' );
+var entropy = require( './../../../../../base/dists/bernoulli/entropy' );
+var kurtosis = require( './../../../../../base/dists/bernoulli/kurtosis' );
+var skewness = require( './../../../../../base/dists/bernoulli/skewness' );
+var variance = require( './../../../../../base/dists/bernoulli/variance' );
+var median = require( './../../../../../base/dists/bernoulli/median' );
+var mode = require( './../../../../../base/dists/bernoulli/mode' );
+var stdev = require( './../../../../../base/dists/bernoulli/stdev' );
+var mean = require( './../../../../../base/dists/bernoulli/mean' );
 var Bernoulli = require( './../lib' );
 
 

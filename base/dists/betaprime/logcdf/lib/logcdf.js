@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var betaLogCDF = require( '@stdlib/stats/base/dists/beta/logcdf' );
+var betaLogCDF = require( './../../../../../base/dists/beta/logcdf' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var PINF = require( '@stdlib/constants/float64/pinf' );

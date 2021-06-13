@@ -23,17 +23,17 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/kumaraswamy/quantile' );
-var cdf = require( '@stdlib/stats/base/dists/kumaraswamy/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/kumaraswamy/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/kumaraswamy/logpdf' );
-var pdf = require( '@stdlib/stats/base/dists/kumaraswamy/pdf' );
-var kurtosis = require( '@stdlib/stats/base/dists/kumaraswamy/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/kumaraswamy/skewness' );
-var variance = require( '@stdlib/stats/base/dists/kumaraswamy/variance' );
-var stdev = require( '@stdlib/stats/base/dists/kumaraswamy/stdev' );
-var mode = require( '@stdlib/stats/base/dists/kumaraswamy/mode' );
-var mean = require( '@stdlib/stats/base/dists/kumaraswamy/mean' );
+var quantile = require( './../../../../../base/dists/kumaraswamy/quantile' );
+var cdf = require( './../../../../../base/dists/kumaraswamy/cdf' );
+var logcdf = require( './../../../../../base/dists/kumaraswamy/logcdf' );
+var logpdf = require( './../../../../../base/dists/kumaraswamy/logpdf' );
+var pdf = require( './../../../../../base/dists/kumaraswamy/pdf' );
+var kurtosis = require( './../../../../../base/dists/kumaraswamy/kurtosis' );
+var skewness = require( './../../../../../base/dists/kumaraswamy/skewness' );
+var variance = require( './../../../../../base/dists/kumaraswamy/variance' );
+var stdev = require( './../../../../../base/dists/kumaraswamy/stdev' );
+var mode = require( './../../../../../base/dists/kumaraswamy/mode' );
+var mean = require( './../../../../../base/dists/kumaraswamy/mean' );
 var Kumaraswamy = require( './../lib' );
 
 

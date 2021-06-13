@@ -21,7 +21,7 @@
 // MODULES //
 
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var incrmean = require( '@stdlib/stats/incr/mean' );
+var incrmean = require( './../../../incr/mean' );
 
 
 // MAIN //

@@ -21,21 +21,21 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/triangular/cdf' );
-import Triangular = require( '@stdlib/stats/base/dists/triangular/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/triangular/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/triangular/kurtosis' );
-import logcdf = require( '@stdlib/stats/base/dists/triangular/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/triangular/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/triangular/mean' );
-import median = require( '@stdlib/stats/base/dists/triangular/median' );
-import mgf = require( '@stdlib/stats/base/dists/triangular/mgf' );
-import mode = require( '@stdlib/stats/base/dists/triangular/mode' );
-import pdf = require( '@stdlib/stats/base/dists/triangular/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/triangular/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/triangular/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/triangular/stdev' );
-import variance = require( '@stdlib/stats/base/dists/triangular/variance' );
+import cdf = require( './../../../../../base/dists/triangular/cdf' );
+import Triangular = require( './../../../../../base/dists/triangular/ctor' );
+import entropy = require( './../../../../../base/dists/triangular/entropy' );
+import kurtosis = require( './../../../../../base/dists/triangular/kurtosis' );
+import logcdf = require( './../../../../../base/dists/triangular/logcdf' );
+import logpdf = require( './../../../../../base/dists/triangular/logpdf' );
+import mean = require( './../../../../../base/dists/triangular/mean' );
+import median = require( './../../../../../base/dists/triangular/median' );
+import mgf = require( './../../../../../base/dists/triangular/mgf' );
+import mode = require( './../../../../../base/dists/triangular/mode' );
+import pdf = require( './../../../../../base/dists/triangular/pdf' );
+import quantile = require( './../../../../../base/dists/triangular/quantile' );
+import skewness = require( './../../../../../base/dists/triangular/skewness' );
+import stdev = require( './../../../../../base/dists/triangular/stdev' );
+import variance = require( './../../../../../base/dists/triangular/variance' );
 
 /**
 * Interface describing the `triangular` namespace.

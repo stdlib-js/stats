@@ -27,19 +27,19 @@ var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-propert
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var entropy = require( '@stdlib/stats/base/dists/uniform/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/uniform/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/uniform/mean' );
-var median = require( '@stdlib/stats/base/dists/uniform/median' );
-var skewness = require( '@stdlib/stats/base/dists/uniform/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/uniform/stdev' );
-var variance = require( '@stdlib/stats/base/dists/uniform/variance' );
-var cdf = require( '@stdlib/stats/base/dists/uniform/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/uniform/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/uniform/logpdf' );
-var mgf = require( '@stdlib/stats/base/dists/uniform/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/uniform/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/uniform/quantile' );
+var entropy = require( './../../../../../base/dists/uniform/entropy' );
+var kurtosis = require( './../../../../../base/dists/uniform/kurtosis' );
+var mean = require( './../../../../../base/dists/uniform/mean' );
+var median = require( './../../../../../base/dists/uniform/median' );
+var skewness = require( './../../../../../base/dists/uniform/skewness' );
+var stdev = require( './../../../../../base/dists/uniform/stdev' );
+var variance = require( './../../../../../base/dists/uniform/variance' );
+var cdf = require( './../../../../../base/dists/uniform/cdf' );
+var logcdf = require( './../../../../../base/dists/uniform/logcdf' );
+var logpdf = require( './../../../../../base/dists/uniform/logpdf' );
+var mgf = require( './../../../../../base/dists/uniform/mgf' );
+var pdf = require( './../../../../../base/dists/uniform/pdf' );
+var quantile = require( './../../../../../base/dists/uniform/quantile' );
 
 
 // FUNCTIONS //

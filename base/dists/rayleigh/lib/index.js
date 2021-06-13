@@ -43,7 +43,7 @@ var rayleigh = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh/cdf}
 */
-setReadOnly( rayleigh, 'cdf', require( '@stdlib/stats/base/dists/rayleigh/cdf' ) );
+setReadOnly( rayleigh, 'cdf', require( './../../../../base/dists/rayleigh/cdf' ) );
 
 /**
 * @name Rayleigh
@@ -52,7 +52,7 @@ setReadOnly( rayleigh, 'cdf', require( '@stdlib/stats/base/dists/rayleigh/cdf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh/ctor}
 */
-setReadOnly( rayleigh, 'Rayleigh', require( '@stdlib/stats/base/dists/rayleigh/ctor' ) );
+setReadOnly( rayleigh, 'Rayleigh', require( './../../../../base/dists/rayleigh/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( rayleigh, 'Rayleigh', require( '@stdlib/stats/base/dists/rayleigh/c
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh/entropy}
 */
-setReadOnly( rayleigh, 'entropy', require( '@stdlib/stats/base/dists/rayleigh/entropy' ) );
+setReadOnly( rayleigh, 'entropy', require( './../../../../base/dists/rayleigh/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( rayleigh, 'entropy', require( '@stdlib/stats/base/dists/rayleigh/en
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh/kurtosis}
 */
-setReadOnly( rayleigh, 'kurtosis', require( '@stdlib/stats/base/dists/rayleigh/kurtosis' ) );
+setReadOnly( rayleigh, 'kurtosis', require( './../../../../base/dists/rayleigh/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -79,7 +79,7 @@ setReadOnly( rayleigh, 'kurtosis', require( '@stdlib/stats/base/dists/rayleigh/k
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh/logcdf}
 */
-setReadOnly( rayleigh, 'logcdf', require( '@stdlib/stats/base/dists/rayleigh/logcdf' ) );
+setReadOnly( rayleigh, 'logcdf', require( './../../../../base/dists/rayleigh/logcdf' ) );
 
 /**
 * @name logpdf
@@ -88,7 +88,7 @@ setReadOnly( rayleigh, 'logcdf', require( '@stdlib/stats/base/dists/rayleigh/log
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh/logpdf}
 */
-setReadOnly( rayleigh, 'logpdf', require( '@stdlib/stats/base/dists/rayleigh/logpdf' ) );
+setReadOnly( rayleigh, 'logpdf', require( './../../../../base/dists/rayleigh/logpdf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( rayleigh, 'logpdf', require( '@stdlib/stats/base/dists/rayleigh/log
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh/mean}
 */
-setReadOnly( rayleigh, 'mean', require( '@stdlib/stats/base/dists/rayleigh/mean' ) );
+setReadOnly( rayleigh, 'mean', require( './../../../../base/dists/rayleigh/mean' ) );
 
 /**
 * @name median
@@ -106,7 +106,7 @@ setReadOnly( rayleigh, 'mean', require( '@stdlib/stats/base/dists/rayleigh/mean'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh/median}
 */
-setReadOnly( rayleigh, 'median', require( '@stdlib/stats/base/dists/rayleigh/median' ) );
+setReadOnly( rayleigh, 'median', require( './../../../../base/dists/rayleigh/median' ) );
 
 /**
 * @name mgf
@@ -115,7 +115,7 @@ setReadOnly( rayleigh, 'median', require( '@stdlib/stats/base/dists/rayleigh/med
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh/mgf}
 */
-setReadOnly( rayleigh, 'mgf', require( '@stdlib/stats/base/dists/rayleigh/mgf' ) );
+setReadOnly( rayleigh, 'mgf', require( './../../../../base/dists/rayleigh/mgf' ) );
 
 /**
 * @name mode
@@ -124,7 +124,7 @@ setReadOnly( rayleigh, 'mgf', require( '@stdlib/stats/base/dists/rayleigh/mgf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh/mode}
 */
-setReadOnly( rayleigh, 'mode', require( '@stdlib/stats/base/dists/rayleigh/mode' ) );
+setReadOnly( rayleigh, 'mode', require( './../../../../base/dists/rayleigh/mode' ) );
 
 /**
 * @name pdf
@@ -133,7 +133,7 @@ setReadOnly( rayleigh, 'mode', require( '@stdlib/stats/base/dists/rayleigh/mode'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh/pdf}
 */
-setReadOnly( rayleigh, 'pdf', require( '@stdlib/stats/base/dists/rayleigh/pdf' ) );
+setReadOnly( rayleigh, 'pdf', require( './../../../../base/dists/rayleigh/pdf' ) );
 
 /**
 * @name quantile
@@ -142,7 +142,7 @@ setReadOnly( rayleigh, 'pdf', require( '@stdlib/stats/base/dists/rayleigh/pdf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh/quantile}
 */
-setReadOnly( rayleigh, 'quantile', require( '@stdlib/stats/base/dists/rayleigh/quantile' ) );
+setReadOnly( rayleigh, 'quantile', require( './../../../../base/dists/rayleigh/quantile' ) );
 
 /**
 * @name skewness
@@ -151,7 +151,7 @@ setReadOnly( rayleigh, 'quantile', require( '@stdlib/stats/base/dists/rayleigh/q
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh/skewness}
 */
-setReadOnly( rayleigh, 'skewness', require( '@stdlib/stats/base/dists/rayleigh/skewness' ) );
+setReadOnly( rayleigh, 'skewness', require( './../../../../base/dists/rayleigh/skewness' ) );
 
 /**
 * @name variance
@@ -160,7 +160,7 @@ setReadOnly( rayleigh, 'skewness', require( '@stdlib/stats/base/dists/rayleigh/s
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/rayleigh/variance}
 */
-setReadOnly( rayleigh, 'variance', require( '@stdlib/stats/base/dists/rayleigh/variance' ) );
+setReadOnly( rayleigh, 'variance', require( './../../../../base/dists/rayleigh/variance' ) );
 
 
 // EXPORTS //

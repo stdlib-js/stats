@@ -21,20 +21,20 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/gamma/cdf' );
-import Gamma = require( '@stdlib/stats/base/dists/gamma/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/gamma/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/gamma/kurtosis' );
-import logcdf = require( '@stdlib/stats/base/dists/gamma/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/gamma/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/gamma/mean' );
-import mgf = require( '@stdlib/stats/base/dists/gamma/mgf' );
-import mode = require( '@stdlib/stats/base/dists/gamma/mode' );
-import pdf = require( '@stdlib/stats/base/dists/gamma/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/gamma/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/gamma/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/gamma/stdev' );
-import variance = require( '@stdlib/stats/base/dists/gamma/variance' );
+import cdf = require( './../../../../../base/dists/gamma/cdf' );
+import Gamma = require( './../../../../../base/dists/gamma/ctor' );
+import entropy = require( './../../../../../base/dists/gamma/entropy' );
+import kurtosis = require( './../../../../../base/dists/gamma/kurtosis' );
+import logcdf = require( './../../../../../base/dists/gamma/logcdf' );
+import logpdf = require( './../../../../../base/dists/gamma/logpdf' );
+import mean = require( './../../../../../base/dists/gamma/mean' );
+import mgf = require( './../../../../../base/dists/gamma/mgf' );
+import mode = require( './../../../../../base/dists/gamma/mode' );
+import pdf = require( './../../../../../base/dists/gamma/pdf' );
+import quantile = require( './../../../../../base/dists/gamma/quantile' );
+import skewness = require( './../../../../../base/dists/gamma/skewness' );
+import stdev = require( './../../../../../base/dists/gamma/stdev' );
+import variance = require( './../../../../../base/dists/gamma/variance' );
 
 /**
 * Interface describing the `gamma` namespace.

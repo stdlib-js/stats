@@ -26,20 +26,20 @@ var defineProperty = require( '@stdlib/utils/define-property' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
-var entropy = require( '@stdlib/stats/base/dists/exponential/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/exponential/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/exponential/mean' );
-var median = require( '@stdlib/stats/base/dists/exponential/median' );
-var mode = require( '@stdlib/stats/base/dists/exponential/mode' );
-var skewness = require( '@stdlib/stats/base/dists/exponential/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/exponential/stdev' );
-var variance = require( '@stdlib/stats/base/dists/exponential/variance' );
-var cdf = require( '@stdlib/stats/base/dists/exponential/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/exponential/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/exponential/logpdf' );
-var mgf = require( '@stdlib/stats/base/dists/exponential/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/exponential/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/exponential/quantile' );
+var entropy = require( './../../../../../base/dists/exponential/entropy' );
+var kurtosis = require( './../../../../../base/dists/exponential/kurtosis' );
+var mean = require( './../../../../../base/dists/exponential/mean' );
+var median = require( './../../../../../base/dists/exponential/median' );
+var mode = require( './../../../../../base/dists/exponential/mode' );
+var skewness = require( './../../../../../base/dists/exponential/skewness' );
+var stdev = require( './../../../../../base/dists/exponential/stdev' );
+var variance = require( './../../../../../base/dists/exponential/variance' );
+var cdf = require( './../../../../../base/dists/exponential/cdf' );
+var logcdf = require( './../../../../../base/dists/exponential/logcdf' );
+var logpdf = require( './../../../../../base/dists/exponential/logpdf' );
+var mgf = require( './../../../../../base/dists/exponential/mgf' );
+var pdf = require( './../../../../../base/dists/exponential/pdf' );
+var quantile = require( './../../../../../base/dists/exponential/quantile' );
 
 
 // FUNCTIONS //

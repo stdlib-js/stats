@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dmeanvarpn = require( '@stdlib/stats/base/dmeanvarpn' );
+var dmeanvarpn = require( './../../../base/dmeanvarpn' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 
 

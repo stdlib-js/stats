@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dmeanstdevpn = require( '@stdlib/stats/base/dmeanstdevpn' );
+var dmeanstdevpn = require( './../../../base/dmeanstdevpn' );
 
 
 // MAIN //

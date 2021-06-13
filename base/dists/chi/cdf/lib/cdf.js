@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var gammaCDF = require( '@stdlib/stats/base/dists/gamma/cdf' );
+var gammaCDF = require( './../../../../../base/dists/gamma/cdf' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 
 

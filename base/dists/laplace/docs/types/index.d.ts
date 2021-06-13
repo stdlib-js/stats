@@ -21,21 +21,21 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/laplace/cdf' );
-import Laplace = require( '@stdlib/stats/base/dists/laplace/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/laplace/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/laplace/kurtosis' );
-import logcdf = require( '@stdlib/stats/base/dists/laplace/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/laplace/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/laplace/mean' );
-import median = require( '@stdlib/stats/base/dists/laplace/median' );
-import mgf = require( '@stdlib/stats/base/dists/laplace/mgf' );
-import mode = require( '@stdlib/stats/base/dists/laplace/mode' );
-import pdf = require( '@stdlib/stats/base/dists/laplace/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/laplace/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/laplace/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/laplace/stdev' );
-import variance = require( '@stdlib/stats/base/dists/laplace/variance' );
+import cdf = require( './../../../../../base/dists/laplace/cdf' );
+import Laplace = require( './../../../../../base/dists/laplace/ctor' );
+import entropy = require( './../../../../../base/dists/laplace/entropy' );
+import kurtosis = require( './../../../../../base/dists/laplace/kurtosis' );
+import logcdf = require( './../../../../../base/dists/laplace/logcdf' );
+import logpdf = require( './../../../../../base/dists/laplace/logpdf' );
+import mean = require( './../../../../../base/dists/laplace/mean' );
+import median = require( './../../../../../base/dists/laplace/median' );
+import mgf = require( './../../../../../base/dists/laplace/mgf' );
+import mode = require( './../../../../../base/dists/laplace/mode' );
+import pdf = require( './../../../../../base/dists/laplace/pdf' );
+import quantile = require( './../../../../../base/dists/laplace/quantile' );
+import skewness = require( './../../../../../base/dists/laplace/skewness' );
+import stdev = require( './../../../../../base/dists/laplace/stdev' );
+import variance = require( './../../../../../base/dists/laplace/variance' );
 
 /**
 * Interface describing the `laplace` namespace.

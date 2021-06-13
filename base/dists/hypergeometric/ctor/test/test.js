@@ -23,16 +23,16 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/hypergeometric/quantile' );
-var cdf = require( '@stdlib/stats/base/dists/hypergeometric/cdf' );
-var logpmf = require( '@stdlib/stats/base/dists/hypergeometric/logpmf' );
-var pmf = require( '@stdlib/stats/base/dists/hypergeometric/pmf' );
-var kurtosis = require( '@stdlib/stats/base/dists/hypergeometric/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/hypergeometric/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/hypergeometric/stdev' );
-var variance = require( '@stdlib/stats/base/dists/hypergeometric/variance' );
-var mode = require( '@stdlib/stats/base/dists/hypergeometric/mode' );
-var mean = require( '@stdlib/stats/base/dists/hypergeometric/mean' );
+var quantile = require( './../../../../../base/dists/hypergeometric/quantile' );
+var cdf = require( './../../../../../base/dists/hypergeometric/cdf' );
+var logpmf = require( './../../../../../base/dists/hypergeometric/logpmf' );
+var pmf = require( './../../../../../base/dists/hypergeometric/pmf' );
+var kurtosis = require( './../../../../../base/dists/hypergeometric/kurtosis' );
+var skewness = require( './../../../../../base/dists/hypergeometric/skewness' );
+var stdev = require( './../../../../../base/dists/hypergeometric/stdev' );
+var variance = require( './../../../../../base/dists/hypergeometric/variance' );
+var mode = require( './../../../../../base/dists/hypergeometric/mode' );
+var mean = require( './../../../../../base/dists/hypergeometric/mean' );
 var Hypergeometric = require( './../lib' );
 
 

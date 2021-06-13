@@ -21,7 +21,7 @@
 // MODULES //
 
 var isNonNegativeInteger = require( '@stdlib/math/base/assert/is-nonnegative-integer' );
-var gammaLogPDF = require( '@stdlib/stats/base/dists/gamma/logpdf' );
+var gammaLogPDF = require( './../../../../../base/dists/gamma/logpdf' );
 
 
 // MAIN //

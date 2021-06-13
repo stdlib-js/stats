@@ -23,20 +23,20 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/gumbel/quantile' );
-var logcdf = require( '@stdlib/stats/base/dists/gumbel/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/gumbel/logpdf' );
-var cdf = require( '@stdlib/stats/base/dists/gumbel/cdf' );
-var mgf = require( '@stdlib/stats/base/dists/gumbel/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/gumbel/pdf' );
-var kurtosis = require( '@stdlib/stats/base/dists/gumbel/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/gumbel/skewness' );
-var variance = require( '@stdlib/stats/base/dists/gumbel/variance' );
-var entropy = require( '@stdlib/stats/base/dists/gumbel/entropy' );
-var median = require( '@stdlib/stats/base/dists/gumbel/median' );
-var stdev = require( '@stdlib/stats/base/dists/gumbel/stdev' );
-var mode = require( '@stdlib/stats/base/dists/gumbel/mode' );
-var mean = require( '@stdlib/stats/base/dists/gumbel/mean' );
+var quantile = require( './../../../../../base/dists/gumbel/quantile' );
+var logcdf = require( './../../../../../base/dists/gumbel/logcdf' );
+var logpdf = require( './../../../../../base/dists/gumbel/logpdf' );
+var cdf = require( './../../../../../base/dists/gumbel/cdf' );
+var mgf = require( './../../../../../base/dists/gumbel/mgf' );
+var pdf = require( './../../../../../base/dists/gumbel/pdf' );
+var kurtosis = require( './../../../../../base/dists/gumbel/kurtosis' );
+var skewness = require( './../../../../../base/dists/gumbel/skewness' );
+var variance = require( './../../../../../base/dists/gumbel/variance' );
+var entropy = require( './../../../../../base/dists/gumbel/entropy' );
+var median = require( './../../../../../base/dists/gumbel/median' );
+var stdev = require( './../../../../../base/dists/gumbel/stdev' );
+var mode = require( './../../../../../base/dists/gumbel/mode' );
+var mean = require( './../../../../../base/dists/gumbel/mean' );
 var Gumbel = require( './../lib' );
 
 

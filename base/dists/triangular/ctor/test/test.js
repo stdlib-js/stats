@@ -23,19 +23,19 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/triangular/quantile' );
-var logcdf = require( '@stdlib/stats/base/dists/triangular/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/triangular/logpdf' );
-var cdf = require( '@stdlib/stats/base/dists/triangular/cdf' );
-var pdf = require( '@stdlib/stats/base/dists/triangular/pdf' );
-var kurtosis = require( '@stdlib/stats/base/dists/triangular/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/triangular/skewness' );
-var variance = require( '@stdlib/stats/base/dists/triangular/variance' );
-var entropy = require( '@stdlib/stats/base/dists/triangular/entropy' );
-var median = require( '@stdlib/stats/base/dists/triangular/median' );
-var stdev = require( '@stdlib/stats/base/dists/triangular/stdev' );
-var mean = require( '@stdlib/stats/base/dists/triangular/mean' );
-var mode = require( '@stdlib/stats/base/dists/triangular/mode' );
+var quantile = require( './../../../../../base/dists/triangular/quantile' );
+var logcdf = require( './../../../../../base/dists/triangular/logcdf' );
+var logpdf = require( './../../../../../base/dists/triangular/logpdf' );
+var cdf = require( './../../../../../base/dists/triangular/cdf' );
+var pdf = require( './../../../../../base/dists/triangular/pdf' );
+var kurtosis = require( './../../../../../base/dists/triangular/kurtosis' );
+var skewness = require( './../../../../../base/dists/triangular/skewness' );
+var variance = require( './../../../../../base/dists/triangular/variance' );
+var entropy = require( './../../../../../base/dists/triangular/entropy' );
+var median = require( './../../../../../base/dists/triangular/median' );
+var stdev = require( './../../../../../base/dists/triangular/stdev' );
+var mean = require( './../../../../../base/dists/triangular/mean' );
+var mode = require( './../../../../../base/dists/triangular/mode' );
 var Triangular = require( './../lib' );
 
 

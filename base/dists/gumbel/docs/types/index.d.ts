@@ -21,21 +21,21 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/gumbel/cdf' );
-import Gumbel = require( '@stdlib/stats/base/dists/gumbel/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/gumbel/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/gumbel/kurtosis' );
-import logcdf = require( '@stdlib/stats/base/dists/gumbel/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/gumbel/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/gumbel/mean' );
-import median = require( '@stdlib/stats/base/dists/gumbel/median' );
-import mgf = require( '@stdlib/stats/base/dists/gumbel/mgf' );
-import mode = require( '@stdlib/stats/base/dists/gumbel/mode' );
-import pdf = require( '@stdlib/stats/base/dists/gumbel/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/gumbel/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/gumbel/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/gumbel/stdev' );
-import variance = require( '@stdlib/stats/base/dists/gumbel/variance' );
+import cdf = require( './../../../../../base/dists/gumbel/cdf' );
+import Gumbel = require( './../../../../../base/dists/gumbel/ctor' );
+import entropy = require( './../../../../../base/dists/gumbel/entropy' );
+import kurtosis = require( './../../../../../base/dists/gumbel/kurtosis' );
+import logcdf = require( './../../../../../base/dists/gumbel/logcdf' );
+import logpdf = require( './../../../../../base/dists/gumbel/logpdf' );
+import mean = require( './../../../../../base/dists/gumbel/mean' );
+import median = require( './../../../../../base/dists/gumbel/median' );
+import mgf = require( './../../../../../base/dists/gumbel/mgf' );
+import mode = require( './../../../../../base/dists/gumbel/mode' );
+import pdf = require( './../../../../../base/dists/gumbel/pdf' );
+import quantile = require( './../../../../../base/dists/gumbel/quantile' );
+import skewness = require( './../../../../../base/dists/gumbel/skewness' );
+import stdev = require( './../../../../../base/dists/gumbel/stdev' );
+import variance = require( './../../../../../base/dists/gumbel/variance' );
 
 /**
 * Interface describing the `gumbel` namespace.

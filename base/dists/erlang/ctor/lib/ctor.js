@@ -27,18 +27,18 @@ var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-propert
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isPositiveInteger = require( '@stdlib/assert/is-positive-integer' ).isPrimitive;
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
-var entropy = require( '@stdlib/stats/base/dists/erlang/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/erlang/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/erlang/mean' );
-var mode = require( '@stdlib/stats/base/dists/erlang/mode' );
-var skewness = require( '@stdlib/stats/base/dists/erlang/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/erlang/stdev' );
-var variance = require( '@stdlib/stats/base/dists/erlang/variance' );
-var cdf = require( '@stdlib/stats/base/dists/erlang/cdf' );
-var logpdf = require( '@stdlib/stats/base/dists/erlang/logpdf' );
-var mgf = require( '@stdlib/stats/base/dists/erlang/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/erlang/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/erlang/quantile' );
+var entropy = require( './../../../../../base/dists/erlang/entropy' );
+var kurtosis = require( './../../../../../base/dists/erlang/kurtosis' );
+var mean = require( './../../../../../base/dists/erlang/mean' );
+var mode = require( './../../../../../base/dists/erlang/mode' );
+var skewness = require( './../../../../../base/dists/erlang/skewness' );
+var stdev = require( './../../../../../base/dists/erlang/stdev' );
+var variance = require( './../../../../../base/dists/erlang/variance' );
+var cdf = require( './../../../../../base/dists/erlang/cdf' );
+var logpdf = require( './../../../../../base/dists/erlang/logpdf' );
+var mgf = require( './../../../../../base/dists/erlang/mgf' );
+var pdf = require( './../../../../../base/dists/erlang/pdf' );
+var quantile = require( './../../../../../base/dists/erlang/quantile' );
 
 
 // FUNCTIONS //

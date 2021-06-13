@@ -21,7 +21,7 @@
 // MODULES //
 
 var abs = require( '@stdlib/math/base/special/abs' );
-var incrmax = require( '@stdlib/stats/incr/max' );
+var incrmax = require( './../../../incr/max' );
 
 
 // MAIN //

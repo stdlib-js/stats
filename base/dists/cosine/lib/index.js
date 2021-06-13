@@ -43,7 +43,7 @@ var cosine = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cosine/cdf}
 */
-setReadOnly( cosine, 'cdf', require( '@stdlib/stats/base/dists/cosine/cdf' ) );
+setReadOnly( cosine, 'cdf', require( './../../../../base/dists/cosine/cdf' ) );
 
 /**
 * @name Cosine
@@ -52,7 +52,7 @@ setReadOnly( cosine, 'cdf', require( '@stdlib/stats/base/dists/cosine/cdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cosine/ctor}
 */
-setReadOnly( cosine, 'Cosine', require( '@stdlib/stats/base/dists/cosine/ctor' ) );
+setReadOnly( cosine, 'Cosine', require( './../../../../base/dists/cosine/ctor' ) );
 
 /**
 * @name kurtosis
@@ -61,7 +61,7 @@ setReadOnly( cosine, 'Cosine', require( '@stdlib/stats/base/dists/cosine/ctor' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cosine/kurtosis}
 */
-setReadOnly( cosine, 'kurtosis', require( '@stdlib/stats/base/dists/cosine/kurtosis' ) );
+setReadOnly( cosine, 'kurtosis', require( './../../../../base/dists/cosine/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -70,7 +70,7 @@ setReadOnly( cosine, 'kurtosis', require( '@stdlib/stats/base/dists/cosine/kurto
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cosine/logcdf}
 */
-setReadOnly( cosine, 'logcdf', require( '@stdlib/stats/base/dists/cosine/logcdf' ) );
+setReadOnly( cosine, 'logcdf', require( './../../../../base/dists/cosine/logcdf' ) );
 
 /**
 * @name logpdf
@@ -79,7 +79,7 @@ setReadOnly( cosine, 'logcdf', require( '@stdlib/stats/base/dists/cosine/logcdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cosine/logpdf}
 */
-setReadOnly( cosine, 'logpdf', require( '@stdlib/stats/base/dists/cosine/logpdf' ) );
+setReadOnly( cosine, 'logpdf', require( './../../../../base/dists/cosine/logpdf' ) );
 
 /**
 * @name mean
@@ -88,7 +88,7 @@ setReadOnly( cosine, 'logpdf', require( '@stdlib/stats/base/dists/cosine/logpdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cosine/mean}
 */
-setReadOnly( cosine, 'mean', require( '@stdlib/stats/base/dists/cosine/mean' ) );
+setReadOnly( cosine, 'mean', require( './../../../../base/dists/cosine/mean' ) );
 
 /**
 * @name median
@@ -97,7 +97,7 @@ setReadOnly( cosine, 'mean', require( '@stdlib/stats/base/dists/cosine/mean' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cosine/median}
 */
-setReadOnly( cosine, 'median', require( '@stdlib/stats/base/dists/cosine/median' ) );
+setReadOnly( cosine, 'median', require( './../../../../base/dists/cosine/median' ) );
 
 /**
 * @name mgf
@@ -106,7 +106,7 @@ setReadOnly( cosine, 'median', require( '@stdlib/stats/base/dists/cosine/median'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cosine/mgf}
 */
-setReadOnly( cosine, 'mgf', require( '@stdlib/stats/base/dists/cosine/mgf' ) );
+setReadOnly( cosine, 'mgf', require( './../../../../base/dists/cosine/mgf' ) );
 
 /**
 * @name mode
@@ -115,7 +115,7 @@ setReadOnly( cosine, 'mgf', require( '@stdlib/stats/base/dists/cosine/mgf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cosine/mode}
 */
-setReadOnly( cosine, 'mode', require( '@stdlib/stats/base/dists/cosine/mode' ) );
+setReadOnly( cosine, 'mode', require( './../../../../base/dists/cosine/mode' ) );
 
 /**
 * @name pdf
@@ -124,7 +124,7 @@ setReadOnly( cosine, 'mode', require( '@stdlib/stats/base/dists/cosine/mode' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cosine/pdf}
 */
-setReadOnly( cosine, 'pdf', require( '@stdlib/stats/base/dists/cosine/pdf' ) );
+setReadOnly( cosine, 'pdf', require( './../../../../base/dists/cosine/pdf' ) );
 
 /**
 * @name quantile
@@ -133,7 +133,7 @@ setReadOnly( cosine, 'pdf', require( '@stdlib/stats/base/dists/cosine/pdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cosine/quantile}
 */
-setReadOnly( cosine, 'quantile', require( '@stdlib/stats/base/dists/cosine/quantile' ) );
+setReadOnly( cosine, 'quantile', require( './../../../../base/dists/cosine/quantile' ) );
 
 /**
 * @name skewness
@@ -142,7 +142,7 @@ setReadOnly( cosine, 'quantile', require( '@stdlib/stats/base/dists/cosine/quant
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cosine/skewness}
 */
-setReadOnly( cosine, 'skewness', require( '@stdlib/stats/base/dists/cosine/skewness' ) );
+setReadOnly( cosine, 'skewness', require( './../../../../base/dists/cosine/skewness' ) );
 
 /**
 * @name stdev
@@ -151,7 +151,7 @@ setReadOnly( cosine, 'skewness', require( '@stdlib/stats/base/dists/cosine/skewn
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cosine/stdev}
 */
-setReadOnly( cosine, 'stdev', require( '@stdlib/stats/base/dists/cosine/stdev' ) );
+setReadOnly( cosine, 'stdev', require( './../../../../base/dists/cosine/stdev' ) );
 
 /**
 * @name variance
@@ -160,7 +160,7 @@ setReadOnly( cosine, 'stdev', require( '@stdlib/stats/base/dists/cosine/stdev' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/cosine/variance}
 */
-setReadOnly( cosine, 'variance', require( '@stdlib/stats/base/dists/cosine/variance' ) );
+setReadOnly( cosine, 'variance', require( './../../../../base/dists/cosine/variance' ) );
 
 
 // EXPORTS //

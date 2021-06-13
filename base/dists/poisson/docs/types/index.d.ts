@@ -21,19 +21,19 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/poisson/cdf' );
-import Poisson = require( '@stdlib/stats/base/dists/poisson/ctor' );
-import kurtosis = require( '@stdlib/stats/base/dists/poisson/kurtosis' );
-import logpmf = require( '@stdlib/stats/base/dists/poisson/logpmf' );
-import mean = require( '@stdlib/stats/base/dists/poisson/mean' );
-import median = require( '@stdlib/stats/base/dists/poisson/median' );
-import mgf = require( '@stdlib/stats/base/dists/poisson/mgf' );
-import mode = require( '@stdlib/stats/base/dists/poisson/mode' );
-import pmf = require( '@stdlib/stats/base/dists/poisson/pmf' );
-import quantile = require( '@stdlib/stats/base/dists/poisson/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/poisson/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/poisson/stdev' );
-import variance = require( '@stdlib/stats/base/dists/poisson/variance' );
+import cdf = require( './../../../../../base/dists/poisson/cdf' );
+import Poisson = require( './../../../../../base/dists/poisson/ctor' );
+import kurtosis = require( './../../../../../base/dists/poisson/kurtosis' );
+import logpmf = require( './../../../../../base/dists/poisson/logpmf' );
+import mean = require( './../../../../../base/dists/poisson/mean' );
+import median = require( './../../../../../base/dists/poisson/median' );
+import mgf = require( './../../../../../base/dists/poisson/mgf' );
+import mode = require( './../../../../../base/dists/poisson/mode' );
+import pmf = require( './../../../../../base/dists/poisson/pmf' );
+import quantile = require( './../../../../../base/dists/poisson/quantile' );
+import skewness = require( './../../../../../base/dists/poisson/skewness' );
+import stdev = require( './../../../../../base/dists/poisson/stdev' );
+import variance = require( './../../../../../base/dists/poisson/variance' );
 
 /**
 * Interface describing the `poisson` namespace.

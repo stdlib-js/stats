@@ -43,7 +43,7 @@ var chisquare = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chisquare/cdf}
 */
-setReadOnly( chisquare, 'cdf', require( '@stdlib/stats/base/dists/chisquare/cdf' ) );
+setReadOnly( chisquare, 'cdf', require( './../../../../base/dists/chisquare/cdf' ) );
 
 /**
 * @name ChiSquare
@@ -52,7 +52,7 @@ setReadOnly( chisquare, 'cdf', require( '@stdlib/stats/base/dists/chisquare/cdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chisquare/ctor}
 */
-setReadOnly( chisquare, 'ChiSquare', require( '@stdlib/stats/base/dists/chisquare/ctor' ) );
+setReadOnly( chisquare, 'ChiSquare', require( './../../../../base/dists/chisquare/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( chisquare, 'ChiSquare', require( '@stdlib/stats/base/dists/chisquar
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chisquare/entropy}
 */
-setReadOnly( chisquare, 'entropy', require( '@stdlib/stats/base/dists/chisquare/entropy' ) );
+setReadOnly( chisquare, 'entropy', require( './../../../../base/dists/chisquare/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( chisquare, 'entropy', require( '@stdlib/stats/base/dists/chisquare/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chisquare/kurtosis}
 */
-setReadOnly( chisquare, 'kurtosis', require( '@stdlib/stats/base/dists/chisquare/kurtosis' ) );
+setReadOnly( chisquare, 'kurtosis', require( './../../../../base/dists/chisquare/kurtosis' ) );
 
 /**
 * @name logpdf
@@ -79,7 +79,7 @@ setReadOnly( chisquare, 'kurtosis', require( '@stdlib/stats/base/dists/chisquare
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chisquare/logpdf}
 */
-setReadOnly( chisquare, 'logpdf', require( '@stdlib/stats/base/dists/chisquare/logpdf' ) );
+setReadOnly( chisquare, 'logpdf', require( './../../../../base/dists/chisquare/logpdf' ) );
 
 /**
 * @name mean
@@ -88,7 +88,7 @@ setReadOnly( chisquare, 'logpdf', require( '@stdlib/stats/base/dists/chisquare/l
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chisquare/mean}
 */
-setReadOnly( chisquare, 'mean', require( '@stdlib/stats/base/dists/chisquare/mean' ) );
+setReadOnly( chisquare, 'mean', require( './../../../../base/dists/chisquare/mean' ) );
 
 /**
 * @name median
@@ -97,7 +97,7 @@ setReadOnly( chisquare, 'mean', require( '@stdlib/stats/base/dists/chisquare/mea
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chisquare/median}
 */
-setReadOnly( chisquare, 'median', require( '@stdlib/stats/base/dists/chisquare/median' ) );
+setReadOnly( chisquare, 'median', require( './../../../../base/dists/chisquare/median' ) );
 
 /**
 * @name mgf
@@ -106,7 +106,7 @@ setReadOnly( chisquare, 'median', require( '@stdlib/stats/base/dists/chisquare/m
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chisquare/mgf}
 */
-setReadOnly( chisquare, 'mgf', require( '@stdlib/stats/base/dists/chisquare/mgf' ) );
+setReadOnly( chisquare, 'mgf', require( './../../../../base/dists/chisquare/mgf' ) );
 
 /**
 * @name mode
@@ -115,7 +115,7 @@ setReadOnly( chisquare, 'mgf', require( '@stdlib/stats/base/dists/chisquare/mgf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chisquare/mode}
 */
-setReadOnly( chisquare, 'mode', require( '@stdlib/stats/base/dists/chisquare/mode' ) );
+setReadOnly( chisquare, 'mode', require( './../../../../base/dists/chisquare/mode' ) );
 
 /**
 * @name pdf
@@ -124,7 +124,7 @@ setReadOnly( chisquare, 'mode', require( '@stdlib/stats/base/dists/chisquare/mod
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chisquare/pdf}
 */
-setReadOnly( chisquare, 'pdf', require( '@stdlib/stats/base/dists/chisquare/pdf' ) );
+setReadOnly( chisquare, 'pdf', require( './../../../../base/dists/chisquare/pdf' ) );
 
 /**
 * @name quantile
@@ -133,7 +133,7 @@ setReadOnly( chisquare, 'pdf', require( '@stdlib/stats/base/dists/chisquare/pdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chisquare/quantile}
 */
-setReadOnly( chisquare, 'quantile', require( '@stdlib/stats/base/dists/chisquare/quantile' ) );
+setReadOnly( chisquare, 'quantile', require( './../../../../base/dists/chisquare/quantile' ) );
 
 /**
 * @name skewness
@@ -142,7 +142,7 @@ setReadOnly( chisquare, 'quantile', require( '@stdlib/stats/base/dists/chisquare
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chisquare/skewness}
 */
-setReadOnly( chisquare, 'skewness', require( '@stdlib/stats/base/dists/chisquare/skewness' ) );
+setReadOnly( chisquare, 'skewness', require( './../../../../base/dists/chisquare/skewness' ) );
 
 /**
 * @name stdev
@@ -151,7 +151,7 @@ setReadOnly( chisquare, 'skewness', require( '@stdlib/stats/base/dists/chisquare
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chisquare/stdev}
 */
-setReadOnly( chisquare, 'stdev', require( '@stdlib/stats/base/dists/chisquare/stdev' ) );
+setReadOnly( chisquare, 'stdev', require( './../../../../base/dists/chisquare/stdev' ) );
 
 /**
 * @name variance
@@ -160,7 +160,7 @@ setReadOnly( chisquare, 'stdev', require( '@stdlib/stats/base/dists/chisquare/st
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/chisquare/variance}
 */
-setReadOnly( chisquare, 'variance', require( '@stdlib/stats/base/dists/chisquare/variance' ) );
+setReadOnly( chisquare, 'variance', require( './../../../../base/dists/chisquare/variance' ) );
 
 
 // EXPORTS //

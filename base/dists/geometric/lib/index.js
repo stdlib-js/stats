@@ -43,7 +43,7 @@ var geometric = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/cdf}
 */
-setReadOnly( geometric, 'cdf', require( '@stdlib/stats/base/dists/geometric/cdf' ) );
+setReadOnly( geometric, 'cdf', require( './../../../../base/dists/geometric/cdf' ) );
 
 /**
 * @name Geometric
@@ -52,7 +52,7 @@ setReadOnly( geometric, 'cdf', require( '@stdlib/stats/base/dists/geometric/cdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/ctor}
 */
-setReadOnly( geometric, 'Geometric', require( '@stdlib/stats/base/dists/geometric/ctor' ) );
+setReadOnly( geometric, 'Geometric', require( './../../../../base/dists/geometric/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( geometric, 'Geometric', require( '@stdlib/stats/base/dists/geometri
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/entropy}
 */
-setReadOnly( geometric, 'entropy', require( '@stdlib/stats/base/dists/geometric/entropy' ) );
+setReadOnly( geometric, 'entropy', require( './../../../../base/dists/geometric/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( geometric, 'entropy', require( '@stdlib/stats/base/dists/geometric/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/kurtosis}
 */
-setReadOnly( geometric, 'kurtosis', require( '@stdlib/stats/base/dists/geometric/kurtosis' ) );
+setReadOnly( geometric, 'kurtosis', require( './../../../../base/dists/geometric/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -79,7 +79,7 @@ setReadOnly( geometric, 'kurtosis', require( '@stdlib/stats/base/dists/geometric
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/logcdf}
 */
-setReadOnly( geometric, 'logcdf', require( '@stdlib/stats/base/dists/geometric/logcdf' ) );
+setReadOnly( geometric, 'logcdf', require( './../../../../base/dists/geometric/logcdf' ) );
 
 /**
 * @name logpmf
@@ -88,7 +88,7 @@ setReadOnly( geometric, 'logcdf', require( '@stdlib/stats/base/dists/geometric/l
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/logpmf}
 */
-setReadOnly( geometric, 'logpmf', require( '@stdlib/stats/base/dists/geometric/logpmf' ) );
+setReadOnly( geometric, 'logpmf', require( './../../../../base/dists/geometric/logpmf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( geometric, 'logpmf', require( '@stdlib/stats/base/dists/geometric/l
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/mean}
 */
-setReadOnly( geometric, 'mean', require( '@stdlib/stats/base/dists/geometric/mean' ) );
+setReadOnly( geometric, 'mean', require( './../../../../base/dists/geometric/mean' ) );
 
 /**
 * @name median
@@ -106,7 +106,7 @@ setReadOnly( geometric, 'mean', require( '@stdlib/stats/base/dists/geometric/mea
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/median}
 */
-setReadOnly( geometric, 'median', require( '@stdlib/stats/base/dists/geometric/median' ) );
+setReadOnly( geometric, 'median', require( './../../../../base/dists/geometric/median' ) );
 
 /**
 * @name mgf
@@ -115,7 +115,7 @@ setReadOnly( geometric, 'median', require( '@stdlib/stats/base/dists/geometric/m
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/mgf}
 */
-setReadOnly( geometric, 'mgf', require( '@stdlib/stats/base/dists/geometric/mgf' ) );
+setReadOnly( geometric, 'mgf', require( './../../../../base/dists/geometric/mgf' ) );
 
 /**
 * @name mode
@@ -124,7 +124,7 @@ setReadOnly( geometric, 'mgf', require( '@stdlib/stats/base/dists/geometric/mgf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/mode}
 */
-setReadOnly( geometric, 'mode', require( '@stdlib/stats/base/dists/geometric/mode' ) );
+setReadOnly( geometric, 'mode', require( './../../../../base/dists/geometric/mode' ) );
 
 /**
 * @name pmf
@@ -133,7 +133,7 @@ setReadOnly( geometric, 'mode', require( '@stdlib/stats/base/dists/geometric/mod
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/pmf}
 */
-setReadOnly( geometric, 'pmf', require( '@stdlib/stats/base/dists/geometric/pmf' ) );
+setReadOnly( geometric, 'pmf', require( './../../../../base/dists/geometric/pmf' ) );
 
 /**
 * @name quantile
@@ -142,7 +142,7 @@ setReadOnly( geometric, 'pmf', require( '@stdlib/stats/base/dists/geometric/pmf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/quantile}
 */
-setReadOnly( geometric, 'quantile', require( '@stdlib/stats/base/dists/geometric/quantile' ) );
+setReadOnly( geometric, 'quantile', require( './../../../../base/dists/geometric/quantile' ) );
 
 /**
 * @name skewness
@@ -151,7 +151,7 @@ setReadOnly( geometric, 'quantile', require( '@stdlib/stats/base/dists/geometric
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/skewness}
 */
-setReadOnly( geometric, 'skewness', require( '@stdlib/stats/base/dists/geometric/skewness' ) );
+setReadOnly( geometric, 'skewness', require( './../../../../base/dists/geometric/skewness' ) );
 
 /**
 * @name stdev
@@ -160,7 +160,7 @@ setReadOnly( geometric, 'skewness', require( '@stdlib/stats/base/dists/geometric
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/stdev}
 */
-setReadOnly( geometric, 'stdev', require( '@stdlib/stats/base/dists/geometric/stdev' ) );
+setReadOnly( geometric, 'stdev', require( './../../../../base/dists/geometric/stdev' ) );
 
 /**
 * @name variance
@@ -169,7 +169,7 @@ setReadOnly( geometric, 'stdev', require( '@stdlib/stats/base/dists/geometric/st
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/geometric/variance}
 */
-setReadOnly( geometric, 'variance', require( '@stdlib/stats/base/dists/geometric/variance' ) );
+setReadOnly( geometric, 'variance', require( './../../../../base/dists/geometric/variance' ) );
 
 
 // EXPORTS //

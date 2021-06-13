@@ -21,18 +21,18 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/invgamma/cdf' );
-import InvGamma = require( '@stdlib/stats/base/dists/invgamma/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/invgamma/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/invgamma/kurtosis' );
-import logpdf = require( '@stdlib/stats/base/dists/invgamma/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/invgamma/mean' );
-import mode = require( '@stdlib/stats/base/dists/invgamma/mode' );
-import pdf = require( '@stdlib/stats/base/dists/invgamma/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/invgamma/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/invgamma/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/invgamma/stdev' );
-import variance = require( '@stdlib/stats/base/dists/invgamma/variance' );
+import cdf = require( './../../../../../base/dists/invgamma/cdf' );
+import InvGamma = require( './../../../../../base/dists/invgamma/ctor' );
+import entropy = require( './../../../../../base/dists/invgamma/entropy' );
+import kurtosis = require( './../../../../../base/dists/invgamma/kurtosis' );
+import logpdf = require( './../../../../../base/dists/invgamma/logpdf' );
+import mean = require( './../../../../../base/dists/invgamma/mean' );
+import mode = require( './../../../../../base/dists/invgamma/mode' );
+import pdf = require( './../../../../../base/dists/invgamma/pdf' );
+import quantile = require( './../../../../../base/dists/invgamma/quantile' );
+import skewness = require( './../../../../../base/dists/invgamma/skewness' );
+import stdev = require( './../../../../../base/dists/invgamma/stdev' );
+import variance = require( './../../../../../base/dists/invgamma/variance' );
 
 /**
 * Interface describing the `invgamma` namespace.

@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var contains = require( '@stdlib/assert/contains' );
 var uniform = require( '@stdlib/random/base/uniform' ).factory;
-var uniformCDF = require( '@stdlib/stats/base/dists/uniform/cdf' );
+var uniformCDF = require( './../../base/dists/uniform/cdf' );
 var abs = require( '@stdlib/math/base/special/abs' );
 var Float64Array = require( '@stdlib/array/float64' );
 var EPS = require( '@stdlib/constants/float64/eps' );

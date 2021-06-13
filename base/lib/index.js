@@ -43,7 +43,7 @@ var ns = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/cumax}
 */
-setReadOnly( ns, 'cumax', require( '@stdlib/stats/base/cumax' ) );
+setReadOnly( ns, 'cumax', require( './../../base/cumax' ) );
 
 /**
 * @name cumaxabs
@@ -52,7 +52,7 @@ setReadOnly( ns, 'cumax', require( '@stdlib/stats/base/cumax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/cumaxabs}
 */
-setReadOnly( ns, 'cumaxabs', require( '@stdlib/stats/base/cumaxabs' ) );
+setReadOnly( ns, 'cumaxabs', require( './../../base/cumaxabs' ) );
 
 /**
 * @name cumin
@@ -61,7 +61,7 @@ setReadOnly( ns, 'cumaxabs', require( '@stdlib/stats/base/cumaxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/cumin}
 */
-setReadOnly( ns, 'cumin', require( '@stdlib/stats/base/cumin' ) );
+setReadOnly( ns, 'cumin', require( './../../base/cumin' ) );
 
 /**
 * @name cuminabs
@@ -70,7 +70,7 @@ setReadOnly( ns, 'cumin', require( '@stdlib/stats/base/cumin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/cuminabs}
 */
-setReadOnly( ns, 'cuminabs', require( '@stdlib/stats/base/cuminabs' ) );
+setReadOnly( ns, 'cuminabs', require( './../../base/cuminabs' ) );
 
 /**
 * @name dcumax
@@ -79,7 +79,7 @@ setReadOnly( ns, 'cuminabs', require( '@stdlib/stats/base/cuminabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dcumax}
 */
-setReadOnly( ns, 'dcumax', require( '@stdlib/stats/base/dcumax' ) );
+setReadOnly( ns, 'dcumax', require( './../../base/dcumax' ) );
 
 /**
 * @name dcumaxabs
@@ -88,7 +88,7 @@ setReadOnly( ns, 'dcumax', require( '@stdlib/stats/base/dcumax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dcumaxabs}
 */
-setReadOnly( ns, 'dcumaxabs', require( '@stdlib/stats/base/dcumaxabs' ) );
+setReadOnly( ns, 'dcumaxabs', require( './../../base/dcumaxabs' ) );
 
 /**
 * @name dcumin
@@ -97,7 +97,7 @@ setReadOnly( ns, 'dcumaxabs', require( '@stdlib/stats/base/dcumaxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dcumin}
 */
-setReadOnly( ns, 'dcumin', require( '@stdlib/stats/base/dcumin' ) );
+setReadOnly( ns, 'dcumin', require( './../../base/dcumin' ) );
 
 /**
 * @name dcuminabs
@@ -106,7 +106,7 @@ setReadOnly( ns, 'dcumin', require( '@stdlib/stats/base/dcumin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dcuminabs}
 */
-setReadOnly( ns, 'dcuminabs', require( '@stdlib/stats/base/dcuminabs' ) );
+setReadOnly( ns, 'dcuminabs', require( './../../base/dcuminabs' ) );
 
 /**
 * @name dists
@@ -115,7 +115,7 @@ setReadOnly( ns, 'dcuminabs', require( '@stdlib/stats/base/dcuminabs' ) );
 * @type {Namespace}
 * @see {@link module:@stdlib/stats/base/dists}
 */
-setReadOnly( ns, 'dists', require( '@stdlib/stats/base/dists' ) );
+setReadOnly( ns, 'dists', require( './../../base/dists' ) );
 
 /**
 * @name dmax
@@ -124,7 +124,7 @@ setReadOnly( ns, 'dists', require( '@stdlib/stats/base/dists' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmax}
 */
-setReadOnly( ns, 'dmax', require( '@stdlib/stats/base/dmax' ) );
+setReadOnly( ns, 'dmax', require( './../../base/dmax' ) );
 
 /**
 * @name dmaxabs
@@ -133,7 +133,7 @@ setReadOnly( ns, 'dmax', require( '@stdlib/stats/base/dmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmaxabs}
 */
-setReadOnly( ns, 'dmaxabs', require( '@stdlib/stats/base/dmaxabs' ) );
+setReadOnly( ns, 'dmaxabs', require( './../../base/dmaxabs' ) );
 
 /**
 * @name dmaxabssorted
@@ -142,7 +142,7 @@ setReadOnly( ns, 'dmaxabs', require( '@stdlib/stats/base/dmaxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmaxabssorted}
 */
-setReadOnly( ns, 'dmaxabssorted', require( '@stdlib/stats/base/dmaxabssorted' ) );
+setReadOnly( ns, 'dmaxabssorted', require( './../../base/dmaxabssorted' ) );
 
 /**
 * @name dmaxsorted
@@ -151,7 +151,7 @@ setReadOnly( ns, 'dmaxabssorted', require( '@stdlib/stats/base/dmaxabssorted' ) 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmaxsorted}
 */
-setReadOnly( ns, 'dmaxsorted', require( '@stdlib/stats/base/dmaxsorted' ) );
+setReadOnly( ns, 'dmaxsorted', require( './../../base/dmaxsorted' ) );
 
 /**
 * @name dmean
@@ -160,7 +160,7 @@ setReadOnly( ns, 'dmaxsorted', require( '@stdlib/stats/base/dmaxsorted' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmean}
 */
-setReadOnly( ns, 'dmean', require( '@stdlib/stats/base/dmean' ) );
+setReadOnly( ns, 'dmean', require( './../../base/dmean' ) );
 
 /**
 * @name dmeankbn
@@ -169,7 +169,7 @@ setReadOnly( ns, 'dmean', require( '@stdlib/stats/base/dmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmeankbn}
 */
-setReadOnly( ns, 'dmeankbn', require( '@stdlib/stats/base/dmeankbn' ) );
+setReadOnly( ns, 'dmeankbn', require( './../../base/dmeankbn' ) );
 
 /**
 * @name dmeankbn2
@@ -178,7 +178,7 @@ setReadOnly( ns, 'dmeankbn', require( '@stdlib/stats/base/dmeankbn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmeankbn2}
 */
-setReadOnly( ns, 'dmeankbn2', require( '@stdlib/stats/base/dmeankbn2' ) );
+setReadOnly( ns, 'dmeankbn2', require( './../../base/dmeankbn2' ) );
 
 /**
 * @name dmeanli
@@ -187,7 +187,7 @@ setReadOnly( ns, 'dmeankbn2', require( '@stdlib/stats/base/dmeankbn2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmeanli}
 */
-setReadOnly( ns, 'dmeanli', require( '@stdlib/stats/base/dmeanli' ) );
+setReadOnly( ns, 'dmeanli', require( './../../base/dmeanli' ) );
 
 /**
 * @name dmeanlipw
@@ -196,7 +196,7 @@ setReadOnly( ns, 'dmeanli', require( '@stdlib/stats/base/dmeanli' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmeanlipw}
 */
-setReadOnly( ns, 'dmeanlipw', require( '@stdlib/stats/base/dmeanlipw' ) );
+setReadOnly( ns, 'dmeanlipw', require( './../../base/dmeanlipw' ) );
 
 /**
 * @name dmeanors
@@ -205,7 +205,7 @@ setReadOnly( ns, 'dmeanlipw', require( '@stdlib/stats/base/dmeanlipw' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmeanors}
 */
-setReadOnly( ns, 'dmeanors', require( '@stdlib/stats/base/dmeanors' ) );
+setReadOnly( ns, 'dmeanors', require( './../../base/dmeanors' ) );
 
 /**
 * @name dmeanpn
@@ -214,7 +214,7 @@ setReadOnly( ns, 'dmeanors', require( '@stdlib/stats/base/dmeanors' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmeanpn}
 */
-setReadOnly( ns, 'dmeanpn', require( '@stdlib/stats/base/dmeanpn' ) );
+setReadOnly( ns, 'dmeanpn', require( './../../base/dmeanpn' ) );
 
 /**
 * @name dmeanpw
@@ -223,7 +223,7 @@ setReadOnly( ns, 'dmeanpn', require( '@stdlib/stats/base/dmeanpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmeanpw}
 */
-setReadOnly( ns, 'dmeanpw', require( '@stdlib/stats/base/dmeanpw' ) );
+setReadOnly( ns, 'dmeanpw', require( './../../base/dmeanpw' ) );
 
 /**
 * @name dmeanstdev
@@ -232,7 +232,7 @@ setReadOnly( ns, 'dmeanpw', require( '@stdlib/stats/base/dmeanpw' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmeanstdev}
 */
-setReadOnly( ns, 'dmeanstdev', require( '@stdlib/stats/base/dmeanstdev' ) );
+setReadOnly( ns, 'dmeanstdev', require( './../../base/dmeanstdev' ) );
 
 /**
 * @name dmeanstdevpn
@@ -241,7 +241,7 @@ setReadOnly( ns, 'dmeanstdev', require( '@stdlib/stats/base/dmeanstdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmeanstdevpn}
 */
-setReadOnly( ns, 'dmeanstdevpn', require( '@stdlib/stats/base/dmeanstdevpn' ) );
+setReadOnly( ns, 'dmeanstdevpn', require( './../../base/dmeanstdevpn' ) );
 
 /**
 * @name dmeanvar
@@ -250,7 +250,7 @@ setReadOnly( ns, 'dmeanstdevpn', require( '@stdlib/stats/base/dmeanstdevpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmeanvar}
 */
-setReadOnly( ns, 'dmeanvar', require( '@stdlib/stats/base/dmeanvar' ) );
+setReadOnly( ns, 'dmeanvar', require( './../../base/dmeanvar' ) );
 
 /**
 * @name dmeanvarpn
@@ -259,7 +259,7 @@ setReadOnly( ns, 'dmeanvar', require( '@stdlib/stats/base/dmeanvar' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmeanvarpn}
 */
-setReadOnly( ns, 'dmeanvarpn', require( '@stdlib/stats/base/dmeanvarpn' ) );
+setReadOnly( ns, 'dmeanvarpn', require( './../../base/dmeanvarpn' ) );
 
 /**
 * @name dmeanwd
@@ -268,7 +268,7 @@ setReadOnly( ns, 'dmeanvarpn', require( '@stdlib/stats/base/dmeanvarpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmeanwd}
 */
-setReadOnly( ns, 'dmeanwd', require( '@stdlib/stats/base/dmeanwd' ) );
+setReadOnly( ns, 'dmeanwd', require( './../../base/dmeanwd' ) );
 
 /**
 * @name dmediansorted
@@ -277,7 +277,7 @@ setReadOnly( ns, 'dmeanwd', require( '@stdlib/stats/base/dmeanwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmediansorted}
 */
-setReadOnly( ns, 'dmediansorted', require( '@stdlib/stats/base/dmediansorted' ) );
+setReadOnly( ns, 'dmediansorted', require( './../../base/dmediansorted' ) );
 
 /**
 * @name dmidrange
@@ -286,7 +286,7 @@ setReadOnly( ns, 'dmediansorted', require( '@stdlib/stats/base/dmediansorted' ) 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmidrange}
 */
-setReadOnly( ns, 'dmidrange', require( '@stdlib/stats/base/dmidrange' ) );
+setReadOnly( ns, 'dmidrange', require( './../../base/dmidrange' ) );
 
 /**
 * @name dmin
@@ -295,7 +295,7 @@ setReadOnly( ns, 'dmidrange', require( '@stdlib/stats/base/dmidrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmin}
 */
-setReadOnly( ns, 'dmin', require( '@stdlib/stats/base/dmin' ) );
+setReadOnly( ns, 'dmin', require( './../../base/dmin' ) );
 
 /**
 * @name dminabs
@@ -304,7 +304,7 @@ setReadOnly( ns, 'dmin', require( '@stdlib/stats/base/dmin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dminabs}
 */
-setReadOnly( ns, 'dminabs', require( '@stdlib/stats/base/dminabs' ) );
+setReadOnly( ns, 'dminabs', require( './../../base/dminabs' ) );
 
 /**
 * @name dminsorted
@@ -313,7 +313,7 @@ setReadOnly( ns, 'dminabs', require( '@stdlib/stats/base/dminabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dminsorted}
 */
-setReadOnly( ns, 'dminsorted', require( '@stdlib/stats/base/dminsorted' ) );
+setReadOnly( ns, 'dminsorted', require( './../../base/dminsorted' ) );
 
 /**
 * @name dmskmax
@@ -322,7 +322,7 @@ setReadOnly( ns, 'dminsorted', require( '@stdlib/stats/base/dminsorted' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmskmax}
 */
-setReadOnly( ns, 'dmskmax', require( '@stdlib/stats/base/dmskmax' ) );
+setReadOnly( ns, 'dmskmax', require( './../../base/dmskmax' ) );
 
 /**
 * @name dmskmin
@@ -331,7 +331,7 @@ setReadOnly( ns, 'dmskmax', require( '@stdlib/stats/base/dmskmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmskmin}
 */
-setReadOnly( ns, 'dmskmin', require( '@stdlib/stats/base/dmskmin' ) );
+setReadOnly( ns, 'dmskmin', require( './../../base/dmskmin' ) );
 
 /**
 * @name dmskrange
@@ -340,7 +340,7 @@ setReadOnly( ns, 'dmskmin', require( '@stdlib/stats/base/dmskmin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dmskrange}
 */
-setReadOnly( ns, 'dmskrange', require( '@stdlib/stats/base/dmskrange' ) );
+setReadOnly( ns, 'dmskrange', require( './../../base/dmskrange' ) );
 
 /**
 * @name dnanmax
@@ -349,7 +349,7 @@ setReadOnly( ns, 'dmskrange', require( '@stdlib/stats/base/dmskrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanmax}
 */
-setReadOnly( ns, 'dnanmax', require( '@stdlib/stats/base/dnanmax' ) );
+setReadOnly( ns, 'dnanmax', require( './../../base/dnanmax' ) );
 
 /**
 * @name dnanmaxabs
@@ -358,7 +358,7 @@ setReadOnly( ns, 'dnanmax', require( '@stdlib/stats/base/dnanmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanmaxabs}
 */
-setReadOnly( ns, 'dnanmaxabs', require( '@stdlib/stats/base/dnanmaxabs' ) );
+setReadOnly( ns, 'dnanmaxabs', require( './../../base/dnanmaxabs' ) );
 
 /**
 * @name dnanmean
@@ -367,7 +367,7 @@ setReadOnly( ns, 'dnanmaxabs', require( '@stdlib/stats/base/dnanmaxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanmean}
 */
-setReadOnly( ns, 'dnanmean', require( '@stdlib/stats/base/dnanmean' ) );
+setReadOnly( ns, 'dnanmean', require( './../../base/dnanmean' ) );
 
 /**
 * @name dnanmeanors
@@ -376,7 +376,7 @@ setReadOnly( ns, 'dnanmean', require( '@stdlib/stats/base/dnanmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanmeanors}
 */
-setReadOnly( ns, 'dnanmeanors', require( '@stdlib/stats/base/dnanmeanors' ) );
+setReadOnly( ns, 'dnanmeanors', require( './../../base/dnanmeanors' ) );
 
 /**
 * @name dnanmeanpn
@@ -385,7 +385,7 @@ setReadOnly( ns, 'dnanmeanors', require( '@stdlib/stats/base/dnanmeanors' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanmeanpn}
 */
-setReadOnly( ns, 'dnanmeanpn', require( '@stdlib/stats/base/dnanmeanpn' ) );
+setReadOnly( ns, 'dnanmeanpn', require( './../../base/dnanmeanpn' ) );
 
 /**
 * @name dnanmeanpw
@@ -394,7 +394,7 @@ setReadOnly( ns, 'dnanmeanpn', require( '@stdlib/stats/base/dnanmeanpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanmeanpw}
 */
-setReadOnly( ns, 'dnanmeanpw', require( '@stdlib/stats/base/dnanmeanpw' ) );
+setReadOnly( ns, 'dnanmeanpw', require( './../../base/dnanmeanpw' ) );
 
 /**
 * @name dnanmeanwd
@@ -403,7 +403,7 @@ setReadOnly( ns, 'dnanmeanpw', require( '@stdlib/stats/base/dnanmeanpw' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanmeanwd}
 */
-setReadOnly( ns, 'dnanmeanwd', require( '@stdlib/stats/base/dnanmeanwd' ) );
+setReadOnly( ns, 'dnanmeanwd', require( './../../base/dnanmeanwd' ) );
 
 /**
 * @name dnanmin
@@ -412,7 +412,7 @@ setReadOnly( ns, 'dnanmeanwd', require( '@stdlib/stats/base/dnanmeanwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanmin}
 */
-setReadOnly( ns, 'dnanmin', require( '@stdlib/stats/base/dnanmin' ) );
+setReadOnly( ns, 'dnanmin', require( './../../base/dnanmin' ) );
 
 /**
 * @name dnanminabs
@@ -421,7 +421,7 @@ setReadOnly( ns, 'dnanmin', require( '@stdlib/stats/base/dnanmin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanminabs}
 */
-setReadOnly( ns, 'dnanminabs', require( '@stdlib/stats/base/dnanminabs' ) );
+setReadOnly( ns, 'dnanminabs', require( './../../base/dnanminabs' ) );
 
 /**
 * @name dnanmskmax
@@ -430,7 +430,7 @@ setReadOnly( ns, 'dnanminabs', require( '@stdlib/stats/base/dnanminabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanmskmax}
 */
-setReadOnly( ns, 'dnanmskmax', require( '@stdlib/stats/base/dnanmskmax' ) );
+setReadOnly( ns, 'dnanmskmax', require( './../../base/dnanmskmax' ) );
 
 /**
 * @name dnanmskmin
@@ -439,7 +439,7 @@ setReadOnly( ns, 'dnanmskmax', require( '@stdlib/stats/base/dnanmskmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanmskmin}
 */
-setReadOnly( ns, 'dnanmskmin', require( '@stdlib/stats/base/dnanmskmin' ) );
+setReadOnly( ns, 'dnanmskmin', require( './../../base/dnanmskmin' ) );
 
 /**
 * @name dnanmskrange
@@ -448,7 +448,7 @@ setReadOnly( ns, 'dnanmskmin', require( '@stdlib/stats/base/dnanmskmin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanmskrange}
 */
-setReadOnly( ns, 'dnanmskrange', require( '@stdlib/stats/base/dnanmskrange' ) );
+setReadOnly( ns, 'dnanmskrange', require( './../../base/dnanmskrange' ) );
 
 /**
 * @name dnanrange
@@ -457,7 +457,7 @@ setReadOnly( ns, 'dnanmskrange', require( '@stdlib/stats/base/dnanmskrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanrange}
 */
-setReadOnly( ns, 'dnanrange', require( '@stdlib/stats/base/dnanrange' ) );
+setReadOnly( ns, 'dnanrange', require( './../../base/dnanrange' ) );
 
 /**
 * @name dnanstdev
@@ -466,7 +466,7 @@ setReadOnly( ns, 'dnanrange', require( '@stdlib/stats/base/dnanrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanstdev}
 */
-setReadOnly( ns, 'dnanstdev', require( '@stdlib/stats/base/dnanstdev' ) );
+setReadOnly( ns, 'dnanstdev', require( './../../base/dnanstdev' ) );
 
 /**
 * @name dnanstdevch
@@ -475,7 +475,7 @@ setReadOnly( ns, 'dnanstdev', require( '@stdlib/stats/base/dnanstdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanstdevch}
 */
-setReadOnly( ns, 'dnanstdevch', require( '@stdlib/stats/base/dnanstdevch' ) );
+setReadOnly( ns, 'dnanstdevch', require( './../../base/dnanstdevch' ) );
 
 /**
 * @name dnanstdevpn
@@ -484,7 +484,7 @@ setReadOnly( ns, 'dnanstdevch', require( '@stdlib/stats/base/dnanstdevch' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanstdevpn}
 */
-setReadOnly( ns, 'dnanstdevpn', require( '@stdlib/stats/base/dnanstdevpn' ) );
+setReadOnly( ns, 'dnanstdevpn', require( './../../base/dnanstdevpn' ) );
 
 /**
 * @name dnanstdevtk
@@ -493,7 +493,7 @@ setReadOnly( ns, 'dnanstdevpn', require( '@stdlib/stats/base/dnanstdevpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanstdevtk}
 */
-setReadOnly( ns, 'dnanstdevtk', require( '@stdlib/stats/base/dnanstdevtk' ) );
+setReadOnly( ns, 'dnanstdevtk', require( './../../base/dnanstdevtk' ) );
 
 /**
 * @name dnanstdevwd
@@ -502,7 +502,7 @@ setReadOnly( ns, 'dnanstdevtk', require( '@stdlib/stats/base/dnanstdevtk' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanstdevwd}
 */
-setReadOnly( ns, 'dnanstdevwd', require( '@stdlib/stats/base/dnanstdevwd' ) );
+setReadOnly( ns, 'dnanstdevwd', require( './../../base/dnanstdevwd' ) );
 
 /**
 * @name dnanstdevyc
@@ -511,7 +511,7 @@ setReadOnly( ns, 'dnanstdevwd', require( '@stdlib/stats/base/dnanstdevwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanstdevyc}
 */
-setReadOnly( ns, 'dnanstdevyc', require( '@stdlib/stats/base/dnanstdevyc' ) );
+setReadOnly( ns, 'dnanstdevyc', require( './../../base/dnanstdevyc' ) );
 
 /**
 * @name dnanvariance
@@ -520,7 +520,7 @@ setReadOnly( ns, 'dnanstdevyc', require( '@stdlib/stats/base/dnanstdevyc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanvariance}
 */
-setReadOnly( ns, 'dnanvariance', require( '@stdlib/stats/base/dnanvariance' ) );
+setReadOnly( ns, 'dnanvariance', require( './../../base/dnanvariance' ) );
 
 /**
 * @name dnanvariancech
@@ -529,7 +529,7 @@ setReadOnly( ns, 'dnanvariance', require( '@stdlib/stats/base/dnanvariance' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanvariancech}
 */
-setReadOnly( ns, 'dnanvariancech', require( '@stdlib/stats/base/dnanvariancech' ) );
+setReadOnly( ns, 'dnanvariancech', require( './../../base/dnanvariancech' ) );
 
 /**
 * @name dnanvariancepn
@@ -538,7 +538,7 @@ setReadOnly( ns, 'dnanvariancech', require( '@stdlib/stats/base/dnanvariancech' 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanvariancepn}
 */
-setReadOnly( ns, 'dnanvariancepn', require( '@stdlib/stats/base/dnanvariancepn' ) );
+setReadOnly( ns, 'dnanvariancepn', require( './../../base/dnanvariancepn' ) );
 
 /**
 * @name dnanvariancetk
@@ -547,7 +547,7 @@ setReadOnly( ns, 'dnanvariancepn', require( '@stdlib/stats/base/dnanvariancepn' 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanvariancetk}
 */
-setReadOnly( ns, 'dnanvariancetk', require( '@stdlib/stats/base/dnanvariancetk' ) );
+setReadOnly( ns, 'dnanvariancetk', require( './../../base/dnanvariancetk' ) );
 
 /**
 * @name dnanvariancewd
@@ -556,7 +556,7 @@ setReadOnly( ns, 'dnanvariancetk', require( '@stdlib/stats/base/dnanvariancetk' 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanvariancewd}
 */
-setReadOnly( ns, 'dnanvariancewd', require( '@stdlib/stats/base/dnanvariancewd' ) );
+setReadOnly( ns, 'dnanvariancewd', require( './../../base/dnanvariancewd' ) );
 
 /**
 * @name dnanvarianceyc
@@ -565,7 +565,7 @@ setReadOnly( ns, 'dnanvariancewd', require( '@stdlib/stats/base/dnanvariancewd' 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dnanvarianceyc}
 */
-setReadOnly( ns, 'dnanvarianceyc', require( '@stdlib/stats/base/dnanvarianceyc' ) );
+setReadOnly( ns, 'dnanvarianceyc', require( './../../base/dnanvarianceyc' ) );
 
 /**
 * @name drange
@@ -574,7 +574,7 @@ setReadOnly( ns, 'dnanvarianceyc', require( '@stdlib/stats/base/dnanvarianceyc' 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/drange}
 */
-setReadOnly( ns, 'drange', require( '@stdlib/stats/base/drange' ) );
+setReadOnly( ns, 'drange', require( './../../base/drange' ) );
 
 /**
 * @name dsem
@@ -583,7 +583,7 @@ setReadOnly( ns, 'drange', require( '@stdlib/stats/base/drange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsem}
 */
-setReadOnly( ns, 'dsem', require( '@stdlib/stats/base/dsem' ) );
+setReadOnly( ns, 'dsem', require( './../../base/dsem' ) );
 
 /**
 * @name dsemch
@@ -592,7 +592,7 @@ setReadOnly( ns, 'dsem', require( '@stdlib/stats/base/dsem' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsemch}
 */
-setReadOnly( ns, 'dsemch', require( '@stdlib/stats/base/dsemch' ) );
+setReadOnly( ns, 'dsemch', require( './../../base/dsemch' ) );
 
 /**
 * @name dsempn
@@ -601,7 +601,7 @@ setReadOnly( ns, 'dsemch', require( '@stdlib/stats/base/dsemch' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsempn}
 */
-setReadOnly( ns, 'dsempn', require( '@stdlib/stats/base/dsempn' ) );
+setReadOnly( ns, 'dsempn', require( './../../base/dsempn' ) );
 
 /**
 * @name dsemtk
@@ -610,7 +610,7 @@ setReadOnly( ns, 'dsempn', require( '@stdlib/stats/base/dsempn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsemtk}
 */
-setReadOnly( ns, 'dsemtk', require( '@stdlib/stats/base/dsemtk' ) );
+setReadOnly( ns, 'dsemtk', require( './../../base/dsemtk' ) );
 
 /**
 * @name dsemwd
@@ -619,7 +619,7 @@ setReadOnly( ns, 'dsemtk', require( '@stdlib/stats/base/dsemtk' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsemwd}
 */
-setReadOnly( ns, 'dsemwd', require( '@stdlib/stats/base/dsemwd' ) );
+setReadOnly( ns, 'dsemwd', require( './../../base/dsemwd' ) );
 
 /**
 * @name dsemyc
@@ -628,7 +628,7 @@ setReadOnly( ns, 'dsemwd', require( '@stdlib/stats/base/dsemwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsemyc}
 */
-setReadOnly( ns, 'dsemyc', require( '@stdlib/stats/base/dsemyc' ) );
+setReadOnly( ns, 'dsemyc', require( './../../base/dsemyc' ) );
 
 /**
 * @name dsmean
@@ -637,7 +637,7 @@ setReadOnly( ns, 'dsemyc', require( '@stdlib/stats/base/dsemyc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsmean}
 */
-setReadOnly( ns, 'dsmean', require( '@stdlib/stats/base/dsmean' ) );
+setReadOnly( ns, 'dsmean', require( './../../base/dsmean' ) );
 
 /**
 * @name dsmeanors
@@ -646,7 +646,7 @@ setReadOnly( ns, 'dsmean', require( '@stdlib/stats/base/dsmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsmeanors}
 */
-setReadOnly( ns, 'dsmeanors', require( '@stdlib/stats/base/dsmeanors' ) );
+setReadOnly( ns, 'dsmeanors', require( './../../base/dsmeanors' ) );
 
 /**
 * @name dsmeanpn
@@ -655,7 +655,7 @@ setReadOnly( ns, 'dsmeanors', require( '@stdlib/stats/base/dsmeanors' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsmeanpn}
 */
-setReadOnly( ns, 'dsmeanpn', require( '@stdlib/stats/base/dsmeanpn' ) );
+setReadOnly( ns, 'dsmeanpn', require( './../../base/dsmeanpn' ) );
 
 /**
 * @name dsmeanpw
@@ -664,7 +664,7 @@ setReadOnly( ns, 'dsmeanpn', require( '@stdlib/stats/base/dsmeanpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsmeanpw}
 */
-setReadOnly( ns, 'dsmeanpw', require( '@stdlib/stats/base/dsmeanpw' ) );
+setReadOnly( ns, 'dsmeanpw', require( './../../base/dsmeanpw' ) );
 
 /**
 * @name dsmeanwd
@@ -673,7 +673,7 @@ setReadOnly( ns, 'dsmeanpw', require( '@stdlib/stats/base/dsmeanpw' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsmeanwd}
 */
-setReadOnly( ns, 'dsmeanwd', require( '@stdlib/stats/base/dsmeanwd' ) );
+setReadOnly( ns, 'dsmeanwd', require( './../../base/dsmeanwd' ) );
 
 /**
 * @name dsnanmean
@@ -682,7 +682,7 @@ setReadOnly( ns, 'dsmeanwd', require( '@stdlib/stats/base/dsmeanwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsnanmean}
 */
-setReadOnly( ns, 'dsnanmean', require( '@stdlib/stats/base/dsnanmean' ) );
+setReadOnly( ns, 'dsnanmean', require( './../../base/dsnanmean' ) );
 
 /**
 * @name dsnanmeanors
@@ -691,7 +691,7 @@ setReadOnly( ns, 'dsnanmean', require( '@stdlib/stats/base/dsnanmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsnanmeanors}
 */
-setReadOnly( ns, 'dsnanmeanors', require( '@stdlib/stats/base/dsnanmeanors' ) );
+setReadOnly( ns, 'dsnanmeanors', require( './../../base/dsnanmeanors' ) );
 
 /**
 * @name dsnanmeanpn
@@ -700,7 +700,7 @@ setReadOnly( ns, 'dsnanmeanors', require( '@stdlib/stats/base/dsnanmeanors' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsnanmeanpn}
 */
-setReadOnly( ns, 'dsnanmeanpn', require( '@stdlib/stats/base/dsnanmeanpn' ) );
+setReadOnly( ns, 'dsnanmeanpn', require( './../../base/dsnanmeanpn' ) );
 
 /**
 * @name dsnanmeanwd
@@ -709,7 +709,7 @@ setReadOnly( ns, 'dsnanmeanpn', require( '@stdlib/stats/base/dsnanmeanpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsnanmeanwd}
 */
-setReadOnly( ns, 'dsnanmeanwd', require( '@stdlib/stats/base/dsnanmeanwd' ) );
+setReadOnly( ns, 'dsnanmeanwd', require( './../../base/dsnanmeanwd' ) );
 
 /**
 * @name dstdev
@@ -718,7 +718,7 @@ setReadOnly( ns, 'dsnanmeanwd', require( '@stdlib/stats/base/dsnanmeanwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dstdev}
 */
-setReadOnly( ns, 'dstdev', require( '@stdlib/stats/base/dstdev' ) );
+setReadOnly( ns, 'dstdev', require( './../../base/dstdev' ) );
 
 /**
 * @name dstdevch
@@ -727,7 +727,7 @@ setReadOnly( ns, 'dstdev', require( '@stdlib/stats/base/dstdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dstdevch}
 */
-setReadOnly( ns, 'dstdevch', require( '@stdlib/stats/base/dstdevch' ) );
+setReadOnly( ns, 'dstdevch', require( './../../base/dstdevch' ) );
 
 /**
 * @name dstdevpn
@@ -736,7 +736,7 @@ setReadOnly( ns, 'dstdevch', require( '@stdlib/stats/base/dstdevch' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dstdevpn}
 */
-setReadOnly( ns, 'dstdevpn', require( '@stdlib/stats/base/dstdevpn' ) );
+setReadOnly( ns, 'dstdevpn', require( './../../base/dstdevpn' ) );
 
 /**
 * @name dstdevtk
@@ -745,7 +745,7 @@ setReadOnly( ns, 'dstdevpn', require( '@stdlib/stats/base/dstdevpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dstdevtk}
 */
-setReadOnly( ns, 'dstdevtk', require( '@stdlib/stats/base/dstdevtk' ) );
+setReadOnly( ns, 'dstdevtk', require( './../../base/dstdevtk' ) );
 
 /**
 * @name dstdevwd
@@ -754,7 +754,7 @@ setReadOnly( ns, 'dstdevtk', require( '@stdlib/stats/base/dstdevtk' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dstdevwd}
 */
-setReadOnly( ns, 'dstdevwd', require( '@stdlib/stats/base/dstdevwd' ) );
+setReadOnly( ns, 'dstdevwd', require( './../../base/dstdevwd' ) );
 
 /**
 * @name dstdevyc
@@ -763,7 +763,7 @@ setReadOnly( ns, 'dstdevwd', require( '@stdlib/stats/base/dstdevwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dstdevyc}
 */
-setReadOnly( ns, 'dstdevyc', require( '@stdlib/stats/base/dstdevyc' ) );
+setReadOnly( ns, 'dstdevyc', require( './../../base/dstdevyc' ) );
 
 /**
 * @name dsvariance
@@ -772,7 +772,7 @@ setReadOnly( ns, 'dstdevyc', require( '@stdlib/stats/base/dstdevyc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsvariance}
 */
-setReadOnly( ns, 'dsvariance', require( '@stdlib/stats/base/dsvariance' ) );
+setReadOnly( ns, 'dsvariance', require( './../../base/dsvariance' ) );
 
 /**
 * @name dsvariancepn
@@ -781,7 +781,7 @@ setReadOnly( ns, 'dsvariance', require( '@stdlib/stats/base/dsvariance' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dsvariancepn}
 */
-setReadOnly( ns, 'dsvariancepn', require( '@stdlib/stats/base/dsvariancepn' ) );
+setReadOnly( ns, 'dsvariancepn', require( './../../base/dsvariancepn' ) );
 
 /**
 * @name dvariance
@@ -790,7 +790,7 @@ setReadOnly( ns, 'dsvariancepn', require( '@stdlib/stats/base/dsvariancepn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dvariance}
 */
-setReadOnly( ns, 'dvariance', require( '@stdlib/stats/base/dvariance' ) );
+setReadOnly( ns, 'dvariance', require( './../../base/dvariance' ) );
 
 /**
 * @name dvariancech
@@ -799,7 +799,7 @@ setReadOnly( ns, 'dvariance', require( '@stdlib/stats/base/dvariance' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dvariancech}
 */
-setReadOnly( ns, 'dvariancech', require( '@stdlib/stats/base/dvariancech' ) );
+setReadOnly( ns, 'dvariancech', require( './../../base/dvariancech' ) );
 
 /**
 * @name dvariancepn
@@ -808,7 +808,7 @@ setReadOnly( ns, 'dvariancech', require( '@stdlib/stats/base/dvariancech' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dvariancepn}
 */
-setReadOnly( ns, 'dvariancepn', require( '@stdlib/stats/base/dvariancepn' ) );
+setReadOnly( ns, 'dvariancepn', require( './../../base/dvariancepn' ) );
 
 /**
 * @name dvariancetk
@@ -817,7 +817,7 @@ setReadOnly( ns, 'dvariancepn', require( '@stdlib/stats/base/dvariancepn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dvariancetk}
 */
-setReadOnly( ns, 'dvariancetk', require( '@stdlib/stats/base/dvariancetk' ) );
+setReadOnly( ns, 'dvariancetk', require( './../../base/dvariancetk' ) );
 
 /**
 * @name dvariancewd
@@ -826,7 +826,7 @@ setReadOnly( ns, 'dvariancetk', require( '@stdlib/stats/base/dvariancetk' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dvariancewd}
 */
-setReadOnly( ns, 'dvariancewd', require( '@stdlib/stats/base/dvariancewd' ) );
+setReadOnly( ns, 'dvariancewd', require( './../../base/dvariancewd' ) );
 
 /**
 * @name dvarianceyc
@@ -835,7 +835,7 @@ setReadOnly( ns, 'dvariancewd', require( '@stdlib/stats/base/dvariancewd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dvarianceyc}
 */
-setReadOnly( ns, 'dvarianceyc', require( '@stdlib/stats/base/dvarianceyc' ) );
+setReadOnly( ns, 'dvarianceyc', require( './../../base/dvarianceyc' ) );
 
 /**
 * @name dvarm
@@ -844,7 +844,7 @@ setReadOnly( ns, 'dvarianceyc', require( '@stdlib/stats/base/dvarianceyc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dvarm}
 */
-setReadOnly( ns, 'dvarm', require( '@stdlib/stats/base/dvarm' ) );
+setReadOnly( ns, 'dvarm', require( './../../base/dvarm' ) );
 
 /**
 * @name dvarmpn
@@ -853,7 +853,7 @@ setReadOnly( ns, 'dvarm', require( '@stdlib/stats/base/dvarm' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dvarmpn}
 */
-setReadOnly( ns, 'dvarmpn', require( '@stdlib/stats/base/dvarmpn' ) );
+setReadOnly( ns, 'dvarmpn', require( './../../base/dvarmpn' ) );
 
 /**
 * @name dvarmtk
@@ -862,7 +862,7 @@ setReadOnly( ns, 'dvarmpn', require( '@stdlib/stats/base/dvarmpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dvarmtk}
 */
-setReadOnly( ns, 'dvarmtk', require( '@stdlib/stats/base/dvarmtk' ) );
+setReadOnly( ns, 'dvarmtk', require( './../../base/dvarmtk' ) );
 
 /**
 * @name max
@@ -871,7 +871,7 @@ setReadOnly( ns, 'dvarmtk', require( '@stdlib/stats/base/dvarmtk' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/max}
 */
-setReadOnly( ns, 'max', require( '@stdlib/stats/base/max' ) );
+setReadOnly( ns, 'max', require( './../../base/max' ) );
 
 /**
 * @name maxBy
@@ -880,7 +880,7 @@ setReadOnly( ns, 'max', require( '@stdlib/stats/base/max' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/max-by}
 */
-setReadOnly( ns, 'maxBy', require( '@stdlib/stats/base/max-by' ) );
+setReadOnly( ns, 'maxBy', require( './../../base/max-by' ) );
 
 /**
 * @name maxabs
@@ -889,7 +889,7 @@ setReadOnly( ns, 'maxBy', require( '@stdlib/stats/base/max-by' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/maxabs}
 */
-setReadOnly( ns, 'maxabs', require( '@stdlib/stats/base/maxabs' ) );
+setReadOnly( ns, 'maxabs', require( './../../base/maxabs' ) );
 
 /**
 * @name maxsorted
@@ -898,7 +898,7 @@ setReadOnly( ns, 'maxabs', require( '@stdlib/stats/base/maxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/maxsorted}
 */
-setReadOnly( ns, 'maxsorted', require( '@stdlib/stats/base/maxsorted' ) );
+setReadOnly( ns, 'maxsorted', require( './../../base/maxsorted' ) );
 
 /**
 * @name mean
@@ -907,7 +907,7 @@ setReadOnly( ns, 'maxsorted', require( '@stdlib/stats/base/maxsorted' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/mean}
 */
-setReadOnly( ns, 'mean', require( '@stdlib/stats/base/mean' ) );
+setReadOnly( ns, 'mean', require( './../../base/mean' ) );
 
 /**
 * @name meankbn
@@ -916,7 +916,7 @@ setReadOnly( ns, 'mean', require( '@stdlib/stats/base/mean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/meankbn}
 */
-setReadOnly( ns, 'meankbn', require( '@stdlib/stats/base/meankbn' ) );
+setReadOnly( ns, 'meankbn', require( './../../base/meankbn' ) );
 
 /**
 * @name meankbn2
@@ -925,7 +925,7 @@ setReadOnly( ns, 'meankbn', require( '@stdlib/stats/base/meankbn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/meankbn2}
 */
-setReadOnly( ns, 'meankbn2', require( '@stdlib/stats/base/meankbn2' ) );
+setReadOnly( ns, 'meankbn2', require( './../../base/meankbn2' ) );
 
 /**
 * @name meanors
@@ -934,7 +934,7 @@ setReadOnly( ns, 'meankbn2', require( '@stdlib/stats/base/meankbn2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/meanors}
 */
-setReadOnly( ns, 'meanors', require( '@stdlib/stats/base/meanors' ) );
+setReadOnly( ns, 'meanors', require( './../../base/meanors' ) );
 
 /**
 * @name meanpn
@@ -943,7 +943,7 @@ setReadOnly( ns, 'meanors', require( '@stdlib/stats/base/meanors' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/meanpn}
 */
-setReadOnly( ns, 'meanpn', require( '@stdlib/stats/base/meanpn' ) );
+setReadOnly( ns, 'meanpn', require( './../../base/meanpn' ) );
 
 /**
 * @name meanpw
@@ -952,7 +952,7 @@ setReadOnly( ns, 'meanpn', require( '@stdlib/stats/base/meanpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/meanpw}
 */
-setReadOnly( ns, 'meanpw', require( '@stdlib/stats/base/meanpw' ) );
+setReadOnly( ns, 'meanpw', require( './../../base/meanpw' ) );
 
 /**
 * @name meanwd
@@ -961,7 +961,7 @@ setReadOnly( ns, 'meanpw', require( '@stdlib/stats/base/meanpw' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/meanwd}
 */
-setReadOnly( ns, 'meanwd', require( '@stdlib/stats/base/meanwd' ) );
+setReadOnly( ns, 'meanwd', require( './../../base/meanwd' ) );
 
 /**
 * @name mediansorted
@@ -970,7 +970,7 @@ setReadOnly( ns, 'meanwd', require( '@stdlib/stats/base/meanwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/mediansorted}
 */
-setReadOnly( ns, 'mediansorted', require( '@stdlib/stats/base/mediansorted' ) );
+setReadOnly( ns, 'mediansorted', require( './../../base/mediansorted' ) );
 
 /**
 * @name min
@@ -979,7 +979,7 @@ setReadOnly( ns, 'mediansorted', require( '@stdlib/stats/base/mediansorted' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/min}
 */
-setReadOnly( ns, 'min', require( '@stdlib/stats/base/min' ) );
+setReadOnly( ns, 'min', require( './../../base/min' ) );
 
 /**
 * @name minBy
@@ -988,7 +988,7 @@ setReadOnly( ns, 'min', require( '@stdlib/stats/base/min' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/min-by}
 */
-setReadOnly( ns, 'minBy', require( '@stdlib/stats/base/min-by' ) );
+setReadOnly( ns, 'minBy', require( './../../base/min-by' ) );
 
 /**
 * @name minabs
@@ -997,7 +997,7 @@ setReadOnly( ns, 'minBy', require( '@stdlib/stats/base/min-by' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/minabs}
 */
-setReadOnly( ns, 'minabs', require( '@stdlib/stats/base/minabs' ) );
+setReadOnly( ns, 'minabs', require( './../../base/minabs' ) );
 
 /**
 * @name minsorted
@@ -1006,7 +1006,7 @@ setReadOnly( ns, 'minabs', require( '@stdlib/stats/base/minabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/minsorted}
 */
-setReadOnly( ns, 'minsorted', require( '@stdlib/stats/base/minsorted' ) );
+setReadOnly( ns, 'minsorted', require( './../../base/minsorted' ) );
 
 /**
 * @name mskmax
@@ -1015,7 +1015,7 @@ setReadOnly( ns, 'minsorted', require( '@stdlib/stats/base/minsorted' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/mskmax}
 */
-setReadOnly( ns, 'mskmax', require( '@stdlib/stats/base/mskmax' ) );
+setReadOnly( ns, 'mskmax', require( './../../base/mskmax' ) );
 
 /**
 * @name mskmin
@@ -1024,7 +1024,7 @@ setReadOnly( ns, 'mskmax', require( '@stdlib/stats/base/mskmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/mskmin}
 */
-setReadOnly( ns, 'mskmin', require( '@stdlib/stats/base/mskmin' ) );
+setReadOnly( ns, 'mskmin', require( './../../base/mskmin' ) );
 
 /**
 * @name mskrange
@@ -1033,7 +1033,7 @@ setReadOnly( ns, 'mskmin', require( '@stdlib/stats/base/mskmin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/mskrange}
 */
-setReadOnly( ns, 'mskrange', require( '@stdlib/stats/base/mskrange' ) );
+setReadOnly( ns, 'mskrange', require( './../../base/mskrange' ) );
 
 /**
 * @name nanmax
@@ -1042,7 +1042,7 @@ setReadOnly( ns, 'mskrange', require( '@stdlib/stats/base/mskrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanmax}
 */
-setReadOnly( ns, 'nanmax', require( '@stdlib/stats/base/nanmax' ) );
+setReadOnly( ns, 'nanmax', require( './../../base/nanmax' ) );
 
 /**
 * @name nanmaxBy
@@ -1051,7 +1051,7 @@ setReadOnly( ns, 'nanmax', require( '@stdlib/stats/base/nanmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanmax-by}
 */
-setReadOnly( ns, 'nanmaxBy', require( '@stdlib/stats/base/nanmax-by' ) );
+setReadOnly( ns, 'nanmaxBy', require( './../../base/nanmax-by' ) );
 
 /**
 * @name nanmaxabs
@@ -1060,7 +1060,7 @@ setReadOnly( ns, 'nanmaxBy', require( '@stdlib/stats/base/nanmax-by' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanmaxabs}
 */
-setReadOnly( ns, 'nanmaxabs', require( '@stdlib/stats/base/nanmaxabs' ) );
+setReadOnly( ns, 'nanmaxabs', require( './../../base/nanmaxabs' ) );
 
 /**
 * @name nanmean
@@ -1069,7 +1069,7 @@ setReadOnly( ns, 'nanmaxabs', require( '@stdlib/stats/base/nanmaxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanmean}
 */
-setReadOnly( ns, 'nanmean', require( '@stdlib/stats/base/nanmean' ) );
+setReadOnly( ns, 'nanmean', require( './../../base/nanmean' ) );
 
 /**
 * @name nanmeanors
@@ -1078,7 +1078,7 @@ setReadOnly( ns, 'nanmean', require( '@stdlib/stats/base/nanmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanmeanors}
 */
-setReadOnly( ns, 'nanmeanors', require( '@stdlib/stats/base/nanmeanors' ) );
+setReadOnly( ns, 'nanmeanors', require( './../../base/nanmeanors' ) );
 
 /**
 * @name nanmeanpn
@@ -1087,7 +1087,7 @@ setReadOnly( ns, 'nanmeanors', require( '@stdlib/stats/base/nanmeanors' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanmeanpn}
 */
-setReadOnly( ns, 'nanmeanpn', require( '@stdlib/stats/base/nanmeanpn' ) );
+setReadOnly( ns, 'nanmeanpn', require( './../../base/nanmeanpn' ) );
 
 /**
 * @name nanmeanwd
@@ -1096,7 +1096,7 @@ setReadOnly( ns, 'nanmeanpn', require( '@stdlib/stats/base/nanmeanpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanmeanwd}
 */
-setReadOnly( ns, 'nanmeanwd', require( '@stdlib/stats/base/nanmeanwd' ) );
+setReadOnly( ns, 'nanmeanwd', require( './../../base/nanmeanwd' ) );
 
 /**
 * @name nanmin
@@ -1105,7 +1105,7 @@ setReadOnly( ns, 'nanmeanwd', require( '@stdlib/stats/base/nanmeanwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanmin}
 */
-setReadOnly( ns, 'nanmin', require( '@stdlib/stats/base/nanmin' ) );
+setReadOnly( ns, 'nanmin', require( './../../base/nanmin' ) );
 
 /**
 * @name nanminBy
@@ -1114,7 +1114,7 @@ setReadOnly( ns, 'nanmin', require( '@stdlib/stats/base/nanmin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanmin-by}
 */
-setReadOnly( ns, 'nanminBy', require( '@stdlib/stats/base/nanmin-by' ) );
+setReadOnly( ns, 'nanminBy', require( './../../base/nanmin-by' ) );
 
 /**
 * @name nanminabs
@@ -1123,7 +1123,7 @@ setReadOnly( ns, 'nanminBy', require( '@stdlib/stats/base/nanmin-by' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanminabs}
 */
-setReadOnly( ns, 'nanminabs', require( '@stdlib/stats/base/nanminabs' ) );
+setReadOnly( ns, 'nanminabs', require( './../../base/nanminabs' ) );
 
 /**
 * @name nanmskmax
@@ -1132,7 +1132,7 @@ setReadOnly( ns, 'nanminabs', require( '@stdlib/stats/base/nanminabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanmskmax}
 */
-setReadOnly( ns, 'nanmskmax', require( '@stdlib/stats/base/nanmskmax' ) );
+setReadOnly( ns, 'nanmskmax', require( './../../base/nanmskmax' ) );
 
 /**
 * @name nanmskmin
@@ -1141,7 +1141,7 @@ setReadOnly( ns, 'nanmskmax', require( '@stdlib/stats/base/nanmskmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanmskmin}
 */
-setReadOnly( ns, 'nanmskmin', require( '@stdlib/stats/base/nanmskmin' ) );
+setReadOnly( ns, 'nanmskmin', require( './../../base/nanmskmin' ) );
 
 /**
 * @name nanmskrange
@@ -1150,7 +1150,7 @@ setReadOnly( ns, 'nanmskmin', require( '@stdlib/stats/base/nanmskmin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanmskrange}
 */
-setReadOnly( ns, 'nanmskrange', require( '@stdlib/stats/base/nanmskrange' ) );
+setReadOnly( ns, 'nanmskrange', require( './../../base/nanmskrange' ) );
 
 /**
 * @name nanrange
@@ -1159,7 +1159,7 @@ setReadOnly( ns, 'nanmskrange', require( '@stdlib/stats/base/nanmskrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanrange}
 */
-setReadOnly( ns, 'nanrange', require( '@stdlib/stats/base/nanrange' ) );
+setReadOnly( ns, 'nanrange', require( './../../base/nanrange' ) );
 
 /**
 * @name nanrangeBy
@@ -1168,7 +1168,7 @@ setReadOnly( ns, 'nanrange', require( '@stdlib/stats/base/nanrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanrange-by}
 */
-setReadOnly( ns, 'nanrangeBy', require( '@stdlib/stats/base/nanrange-by' ) );
+setReadOnly( ns, 'nanrangeBy', require( './../../base/nanrange-by' ) );
 
 /**
 * @name nanstdev
@@ -1177,7 +1177,7 @@ setReadOnly( ns, 'nanrangeBy', require( '@stdlib/stats/base/nanrange-by' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanstdev}
 */
-setReadOnly( ns, 'nanstdev', require( '@stdlib/stats/base/nanstdev' ) );
+setReadOnly( ns, 'nanstdev', require( './../../base/nanstdev' ) );
 
 /**
 * @name nanstdevch
@@ -1186,7 +1186,7 @@ setReadOnly( ns, 'nanstdev', require( '@stdlib/stats/base/nanstdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanstdevch}
 */
-setReadOnly( ns, 'nanstdevch', require( '@stdlib/stats/base/nanstdevch' ) );
+setReadOnly( ns, 'nanstdevch', require( './../../base/nanstdevch' ) );
 
 /**
 * @name nanstdevpn
@@ -1195,7 +1195,7 @@ setReadOnly( ns, 'nanstdevch', require( '@stdlib/stats/base/nanstdevch' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanstdevpn}
 */
-setReadOnly( ns, 'nanstdevpn', require( '@stdlib/stats/base/nanstdevpn' ) );
+setReadOnly( ns, 'nanstdevpn', require( './../../base/nanstdevpn' ) );
 
 /**
 * @name nanstdevtk
@@ -1204,7 +1204,7 @@ setReadOnly( ns, 'nanstdevpn', require( '@stdlib/stats/base/nanstdevpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanstdevtk}
 */
-setReadOnly( ns, 'nanstdevtk', require( '@stdlib/stats/base/nanstdevtk' ) );
+setReadOnly( ns, 'nanstdevtk', require( './../../base/nanstdevtk' ) );
 
 /**
 * @name nanstdevwd
@@ -1213,7 +1213,7 @@ setReadOnly( ns, 'nanstdevtk', require( '@stdlib/stats/base/nanstdevtk' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanstdevwd}
 */
-setReadOnly( ns, 'nanstdevwd', require( '@stdlib/stats/base/nanstdevwd' ) );
+setReadOnly( ns, 'nanstdevwd', require( './../../base/nanstdevwd' ) );
 
 /**
 * @name nanstdevyc
@@ -1222,7 +1222,7 @@ setReadOnly( ns, 'nanstdevwd', require( '@stdlib/stats/base/nanstdevwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanstdevyc}
 */
-setReadOnly( ns, 'nanstdevyc', require( '@stdlib/stats/base/nanstdevyc' ) );
+setReadOnly( ns, 'nanstdevyc', require( './../../base/nanstdevyc' ) );
 
 /**
 * @name nanvariance
@@ -1231,7 +1231,7 @@ setReadOnly( ns, 'nanstdevyc', require( '@stdlib/stats/base/nanstdevyc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanvariance}
 */
-setReadOnly( ns, 'nanvariance', require( '@stdlib/stats/base/nanvariance' ) );
+setReadOnly( ns, 'nanvariance', require( './../../base/nanvariance' ) );
 
 /**
 * @name nanvariancech
@@ -1240,7 +1240,7 @@ setReadOnly( ns, 'nanvariance', require( '@stdlib/stats/base/nanvariance' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanvariancech}
 */
-setReadOnly( ns, 'nanvariancech', require( '@stdlib/stats/base/nanvariancech' ) );
+setReadOnly( ns, 'nanvariancech', require( './../../base/nanvariancech' ) );
 
 /**
 * @name nanvariancepn
@@ -1249,7 +1249,7 @@ setReadOnly( ns, 'nanvariancech', require( '@stdlib/stats/base/nanvariancech' ) 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanvariancepn}
 */
-setReadOnly( ns, 'nanvariancepn', require( '@stdlib/stats/base/nanvariancepn' ) );
+setReadOnly( ns, 'nanvariancepn', require( './../../base/nanvariancepn' ) );
 
 /**
 * @name nanvariancetk
@@ -1258,7 +1258,7 @@ setReadOnly( ns, 'nanvariancepn', require( '@stdlib/stats/base/nanvariancepn' ) 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanvariancetk}
 */
-setReadOnly( ns, 'nanvariancetk', require( '@stdlib/stats/base/nanvariancetk' ) );
+setReadOnly( ns, 'nanvariancetk', require( './../../base/nanvariancetk' ) );
 
 /**
 * @name nanvariancewd
@@ -1267,7 +1267,7 @@ setReadOnly( ns, 'nanvariancetk', require( '@stdlib/stats/base/nanvariancetk' ) 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanvariancewd}
 */
-setReadOnly( ns, 'nanvariancewd', require( '@stdlib/stats/base/nanvariancewd' ) );
+setReadOnly( ns, 'nanvariancewd', require( './../../base/nanvariancewd' ) );
 
 /**
 * @name nanvarianceyc
@@ -1276,7 +1276,7 @@ setReadOnly( ns, 'nanvariancewd', require( '@stdlib/stats/base/nanvariancewd' ) 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/nanvarianceyc}
 */
-setReadOnly( ns, 'nanvarianceyc', require( '@stdlib/stats/base/nanvarianceyc' ) );
+setReadOnly( ns, 'nanvarianceyc', require( './../../base/nanvarianceyc' ) );
 
 /**
 * @name range
@@ -1285,7 +1285,7 @@ setReadOnly( ns, 'nanvarianceyc', require( '@stdlib/stats/base/nanvarianceyc' ) 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/range}
 */
-setReadOnly( ns, 'range', require( '@stdlib/stats/base/range' ) );
+setReadOnly( ns, 'range', require( './../../base/range' ) );
 
 /**
 * @name rangeBy
@@ -1294,7 +1294,7 @@ setReadOnly( ns, 'range', require( '@stdlib/stats/base/range' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/range-by}
 */
-setReadOnly( ns, 'rangeBy', require( '@stdlib/stats/base/range-by' ) );
+setReadOnly( ns, 'rangeBy', require( './../../base/range-by' ) );
 
 /**
 * @name scumax
@@ -1303,7 +1303,7 @@ setReadOnly( ns, 'rangeBy', require( '@stdlib/stats/base/range-by' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/scumax}
 */
-setReadOnly( ns, 'scumax', require( '@stdlib/stats/base/scumax' ) );
+setReadOnly( ns, 'scumax', require( './../../base/scumax' ) );
 
 /**
 * @name scumaxabs
@@ -1312,7 +1312,7 @@ setReadOnly( ns, 'scumax', require( '@stdlib/stats/base/scumax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/scumaxabs}
 */
-setReadOnly( ns, 'scumaxabs', require( '@stdlib/stats/base/scumaxabs' ) );
+setReadOnly( ns, 'scumaxabs', require( './../../base/scumaxabs' ) );
 
 /**
 * @name scumin
@@ -1321,7 +1321,7 @@ setReadOnly( ns, 'scumaxabs', require( '@stdlib/stats/base/scumaxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/scumin}
 */
-setReadOnly( ns, 'scumin', require( '@stdlib/stats/base/scumin' ) );
+setReadOnly( ns, 'scumin', require( './../../base/scumin' ) );
 
 /**
 * @name scuminabs
@@ -1330,7 +1330,7 @@ setReadOnly( ns, 'scumin', require( '@stdlib/stats/base/scumin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/scuminabs}
 */
-setReadOnly( ns, 'scuminabs', require( '@stdlib/stats/base/scuminabs' ) );
+setReadOnly( ns, 'scuminabs', require( './../../base/scuminabs' ) );
 
 /**
 * @name sdsmean
@@ -1339,7 +1339,7 @@ setReadOnly( ns, 'scuminabs', require( '@stdlib/stats/base/scuminabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/sdsmean}
 */
-setReadOnly( ns, 'sdsmean', require( '@stdlib/stats/base/sdsmean' ) );
+setReadOnly( ns, 'sdsmean', require( './../../base/sdsmean' ) );
 
 /**
 * @name sdsmeanors
@@ -1348,7 +1348,7 @@ setReadOnly( ns, 'sdsmean', require( '@stdlib/stats/base/sdsmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/sdsmeanors}
 */
-setReadOnly( ns, 'sdsmeanors', require( '@stdlib/stats/base/sdsmeanors' ) );
+setReadOnly( ns, 'sdsmeanors', require( './../../base/sdsmeanors' ) );
 
 /**
 * @name sdsnanmean
@@ -1357,7 +1357,7 @@ setReadOnly( ns, 'sdsmeanors', require( '@stdlib/stats/base/sdsmeanors' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/sdsnanmean}
 */
-setReadOnly( ns, 'sdsnanmean', require( '@stdlib/stats/base/sdsnanmean' ) );
+setReadOnly( ns, 'sdsnanmean', require( './../../base/sdsnanmean' ) );
 
 /**
 * @name sdsnanmeanors
@@ -1366,7 +1366,7 @@ setReadOnly( ns, 'sdsnanmean', require( '@stdlib/stats/base/sdsnanmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/sdsnanmeanors}
 */
-setReadOnly( ns, 'sdsnanmeanors', require( '@stdlib/stats/base/sdsnanmeanors' ) );
+setReadOnly( ns, 'sdsnanmeanors', require( './../../base/sdsnanmeanors' ) );
 
 /**
 * @name smax
@@ -1375,7 +1375,7 @@ setReadOnly( ns, 'sdsnanmeanors', require( '@stdlib/stats/base/sdsnanmeanors' ) 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smax}
 */
-setReadOnly( ns, 'smax', require( '@stdlib/stats/base/smax' ) );
+setReadOnly( ns, 'smax', require( './../../base/smax' ) );
 
 /**
 * @name smaxabs
@@ -1384,7 +1384,7 @@ setReadOnly( ns, 'smax', require( '@stdlib/stats/base/smax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smaxabs}
 */
-setReadOnly( ns, 'smaxabs', require( '@stdlib/stats/base/smaxabs' ) );
+setReadOnly( ns, 'smaxabs', require( './../../base/smaxabs' ) );
 
 /**
 * @name smaxabssorted
@@ -1393,7 +1393,7 @@ setReadOnly( ns, 'smaxabs', require( '@stdlib/stats/base/smaxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smaxabssorted}
 */
-setReadOnly( ns, 'smaxabssorted', require( '@stdlib/stats/base/smaxabssorted' ) );
+setReadOnly( ns, 'smaxabssorted', require( './../../base/smaxabssorted' ) );
 
 /**
 * @name smaxsorted
@@ -1402,7 +1402,7 @@ setReadOnly( ns, 'smaxabssorted', require( '@stdlib/stats/base/smaxabssorted' ) 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smaxsorted}
 */
-setReadOnly( ns, 'smaxsorted', require( '@stdlib/stats/base/smaxsorted' ) );
+setReadOnly( ns, 'smaxsorted', require( './../../base/smaxsorted' ) );
 
 /**
 * @name smean
@@ -1411,7 +1411,7 @@ setReadOnly( ns, 'smaxsorted', require( '@stdlib/stats/base/smaxsorted' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smean}
 */
-setReadOnly( ns, 'smean', require( '@stdlib/stats/base/smean' ) );
+setReadOnly( ns, 'smean', require( './../../base/smean' ) );
 
 /**
 * @name smeankbn
@@ -1420,7 +1420,7 @@ setReadOnly( ns, 'smean', require( '@stdlib/stats/base/smean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smeankbn}
 */
-setReadOnly( ns, 'smeankbn', require( '@stdlib/stats/base/smeankbn' ) );
+setReadOnly( ns, 'smeankbn', require( './../../base/smeankbn' ) );
 
 /**
 * @name smeankbn2
@@ -1429,7 +1429,7 @@ setReadOnly( ns, 'smeankbn', require( '@stdlib/stats/base/smeankbn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smeankbn2}
 */
-setReadOnly( ns, 'smeankbn2', require( '@stdlib/stats/base/smeankbn2' ) );
+setReadOnly( ns, 'smeankbn2', require( './../../base/smeankbn2' ) );
 
 /**
 * @name smeanli
@@ -1438,7 +1438,7 @@ setReadOnly( ns, 'smeankbn2', require( '@stdlib/stats/base/smeankbn2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smeanli}
 */
-setReadOnly( ns, 'smeanli', require( '@stdlib/stats/base/smeanli' ) );
+setReadOnly( ns, 'smeanli', require( './../../base/smeanli' ) );
 
 /**
 * @name smeanlipw
@@ -1447,7 +1447,7 @@ setReadOnly( ns, 'smeanli', require( '@stdlib/stats/base/smeanli' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smeanlipw}
 */
-setReadOnly( ns, 'smeanlipw', require( '@stdlib/stats/base/smeanlipw' ) );
+setReadOnly( ns, 'smeanlipw', require( './../../base/smeanlipw' ) );
 
 /**
 * @name smeanors
@@ -1456,7 +1456,7 @@ setReadOnly( ns, 'smeanlipw', require( '@stdlib/stats/base/smeanlipw' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smeanors}
 */
-setReadOnly( ns, 'smeanors', require( '@stdlib/stats/base/smeanors' ) );
+setReadOnly( ns, 'smeanors', require( './../../base/smeanors' ) );
 
 /**
 * @name smeanpn
@@ -1465,7 +1465,7 @@ setReadOnly( ns, 'smeanors', require( '@stdlib/stats/base/smeanors' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smeanpn}
 */
-setReadOnly( ns, 'smeanpn', require( '@stdlib/stats/base/smeanpn' ) );
+setReadOnly( ns, 'smeanpn', require( './../../base/smeanpn' ) );
 
 /**
 * @name smeanpw
@@ -1474,7 +1474,7 @@ setReadOnly( ns, 'smeanpn', require( '@stdlib/stats/base/smeanpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smeanpw}
 */
-setReadOnly( ns, 'smeanpw', require( '@stdlib/stats/base/smeanpw' ) );
+setReadOnly( ns, 'smeanpw', require( './../../base/smeanpw' ) );
 
 /**
 * @name smeanwd
@@ -1483,7 +1483,7 @@ setReadOnly( ns, 'smeanpw', require( '@stdlib/stats/base/smeanpw' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smeanwd}
 */
-setReadOnly( ns, 'smeanwd', require( '@stdlib/stats/base/smeanwd' ) );
+setReadOnly( ns, 'smeanwd', require( './../../base/smeanwd' ) );
 
 /**
 * @name smediansorted
@@ -1492,7 +1492,7 @@ setReadOnly( ns, 'smeanwd', require( '@stdlib/stats/base/smeanwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smediansorted}
 */
-setReadOnly( ns, 'smediansorted', require( '@stdlib/stats/base/smediansorted' ) );
+setReadOnly( ns, 'smediansorted', require( './../../base/smediansorted' ) );
 
 /**
 * @name smidrange
@@ -1501,7 +1501,7 @@ setReadOnly( ns, 'smediansorted', require( '@stdlib/stats/base/smediansorted' ) 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smidrange}
 */
-setReadOnly( ns, 'smidrange', require( '@stdlib/stats/base/smidrange' ) );
+setReadOnly( ns, 'smidrange', require( './../../base/smidrange' ) );
 
 /**
 * @name smin
@@ -1510,7 +1510,7 @@ setReadOnly( ns, 'smidrange', require( '@stdlib/stats/base/smidrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smin}
 */
-setReadOnly( ns, 'smin', require( '@stdlib/stats/base/smin' ) );
+setReadOnly( ns, 'smin', require( './../../base/smin' ) );
 
 /**
 * @name sminabs
@@ -1519,7 +1519,7 @@ setReadOnly( ns, 'smin', require( '@stdlib/stats/base/smin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/sminabs}
 */
-setReadOnly( ns, 'sminabs', require( '@stdlib/stats/base/sminabs' ) );
+setReadOnly( ns, 'sminabs', require( './../../base/sminabs' ) );
 
 /**
 * @name sminsorted
@@ -1528,7 +1528,7 @@ setReadOnly( ns, 'sminabs', require( '@stdlib/stats/base/sminabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/sminsorted}
 */
-setReadOnly( ns, 'sminsorted', require( '@stdlib/stats/base/sminsorted' ) );
+setReadOnly( ns, 'sminsorted', require( './../../base/sminsorted' ) );
 
 /**
 * @name smskmax
@@ -1537,7 +1537,7 @@ setReadOnly( ns, 'sminsorted', require( '@stdlib/stats/base/sminsorted' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smskmax}
 */
-setReadOnly( ns, 'smskmax', require( '@stdlib/stats/base/smskmax' ) );
+setReadOnly( ns, 'smskmax', require( './../../base/smskmax' ) );
 
 /**
 * @name smskmin
@@ -1546,7 +1546,7 @@ setReadOnly( ns, 'smskmax', require( '@stdlib/stats/base/smskmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smskmin}
 */
-setReadOnly( ns, 'smskmin', require( '@stdlib/stats/base/smskmin' ) );
+setReadOnly( ns, 'smskmin', require( './../../base/smskmin' ) );
 
 /**
 * @name smskrange
@@ -1555,7 +1555,7 @@ setReadOnly( ns, 'smskmin', require( '@stdlib/stats/base/smskmin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/smskrange}
 */
-setReadOnly( ns, 'smskrange', require( '@stdlib/stats/base/smskrange' ) );
+setReadOnly( ns, 'smskrange', require( './../../base/smskrange' ) );
 
 /**
 * @name snanmax
@@ -1564,7 +1564,7 @@ setReadOnly( ns, 'smskrange', require( '@stdlib/stats/base/smskrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanmax}
 */
-setReadOnly( ns, 'snanmax', require( '@stdlib/stats/base/snanmax' ) );
+setReadOnly( ns, 'snanmax', require( './../../base/snanmax' ) );
 
 /**
 * @name snanmaxabs
@@ -1573,7 +1573,7 @@ setReadOnly( ns, 'snanmax', require( '@stdlib/stats/base/snanmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanmaxabs}
 */
-setReadOnly( ns, 'snanmaxabs', require( '@stdlib/stats/base/snanmaxabs' ) );
+setReadOnly( ns, 'snanmaxabs', require( './../../base/snanmaxabs' ) );
 
 /**
 * @name snanmean
@@ -1582,7 +1582,7 @@ setReadOnly( ns, 'snanmaxabs', require( '@stdlib/stats/base/snanmaxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanmean}
 */
-setReadOnly( ns, 'snanmean', require( '@stdlib/stats/base/snanmean' ) );
+setReadOnly( ns, 'snanmean', require( './../../base/snanmean' ) );
 
 /**
 * @name snanmeanors
@@ -1591,7 +1591,7 @@ setReadOnly( ns, 'snanmean', require( '@stdlib/stats/base/snanmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanmeanors}
 */
-setReadOnly( ns, 'snanmeanors', require( '@stdlib/stats/base/snanmeanors' ) );
+setReadOnly( ns, 'snanmeanors', require( './../../base/snanmeanors' ) );
 
 /**
 * @name snanmeanpn
@@ -1600,7 +1600,7 @@ setReadOnly( ns, 'snanmeanors', require( '@stdlib/stats/base/snanmeanors' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanmeanpn}
 */
-setReadOnly( ns, 'snanmeanpn', require( '@stdlib/stats/base/snanmeanpn' ) );
+setReadOnly( ns, 'snanmeanpn', require( './../../base/snanmeanpn' ) );
 
 /**
 * @name snanmeanwd
@@ -1609,7 +1609,7 @@ setReadOnly( ns, 'snanmeanpn', require( '@stdlib/stats/base/snanmeanpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanmeanwd}
 */
-setReadOnly( ns, 'snanmeanwd', require( '@stdlib/stats/base/snanmeanwd' ) );
+setReadOnly( ns, 'snanmeanwd', require( './../../base/snanmeanwd' ) );
 
 /**
 * @name snanmin
@@ -1618,7 +1618,7 @@ setReadOnly( ns, 'snanmeanwd', require( '@stdlib/stats/base/snanmeanwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanmin}
 */
-setReadOnly( ns, 'snanmin', require( '@stdlib/stats/base/snanmin' ) );
+setReadOnly( ns, 'snanmin', require( './../../base/snanmin' ) );
 
 /**
 * @name snanminabs
@@ -1627,7 +1627,7 @@ setReadOnly( ns, 'snanmin', require( '@stdlib/stats/base/snanmin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanminabs}
 */
-setReadOnly( ns, 'snanminabs', require( '@stdlib/stats/base/snanminabs' ) );
+setReadOnly( ns, 'snanminabs', require( './../../base/snanminabs' ) );
 
 /**
 * @name snanmskmax
@@ -1636,7 +1636,7 @@ setReadOnly( ns, 'snanminabs', require( '@stdlib/stats/base/snanminabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanmskmax}
 */
-setReadOnly( ns, 'snanmskmax', require( '@stdlib/stats/base/snanmskmax' ) );
+setReadOnly( ns, 'snanmskmax', require( './../../base/snanmskmax' ) );
 
 /**
 * @name snanmskmin
@@ -1645,7 +1645,7 @@ setReadOnly( ns, 'snanmskmax', require( '@stdlib/stats/base/snanmskmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanmskmin}
 */
-setReadOnly( ns, 'snanmskmin', require( '@stdlib/stats/base/snanmskmin' ) );
+setReadOnly( ns, 'snanmskmin', require( './../../base/snanmskmin' ) );
 
 /**
 * @name snanmskrange
@@ -1654,7 +1654,7 @@ setReadOnly( ns, 'snanmskmin', require( '@stdlib/stats/base/snanmskmin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanmskrange}
 */
-setReadOnly( ns, 'snanmskrange', require( '@stdlib/stats/base/snanmskrange' ) );
+setReadOnly( ns, 'snanmskrange', require( './../../base/snanmskrange' ) );
 
 /**
 * @name snanrange
@@ -1663,7 +1663,7 @@ setReadOnly( ns, 'snanmskrange', require( '@stdlib/stats/base/snanmskrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanrange}
 */
-setReadOnly( ns, 'snanrange', require( '@stdlib/stats/base/snanrange' ) );
+setReadOnly( ns, 'snanrange', require( './../../base/snanrange' ) );
 
 /**
 * @name snanstdev
@@ -1672,7 +1672,7 @@ setReadOnly( ns, 'snanrange', require( '@stdlib/stats/base/snanrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanstdev}
 */
-setReadOnly( ns, 'snanstdev', require( '@stdlib/stats/base/snanstdev' ) );
+setReadOnly( ns, 'snanstdev', require( './../../base/snanstdev' ) );
 
 /**
 * @name snanstdevch
@@ -1681,7 +1681,7 @@ setReadOnly( ns, 'snanstdev', require( '@stdlib/stats/base/snanstdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanstdevch}
 */
-setReadOnly( ns, 'snanstdevch', require( '@stdlib/stats/base/snanstdevch' ) );
+setReadOnly( ns, 'snanstdevch', require( './../../base/snanstdevch' ) );
 
 /**
 * @name snanstdevpn
@@ -1690,7 +1690,7 @@ setReadOnly( ns, 'snanstdevch', require( '@stdlib/stats/base/snanstdevch' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanstdevpn}
 */
-setReadOnly( ns, 'snanstdevpn', require( '@stdlib/stats/base/snanstdevpn' ) );
+setReadOnly( ns, 'snanstdevpn', require( './../../base/snanstdevpn' ) );
 
 /**
 * @name snanstdevtk
@@ -1699,7 +1699,7 @@ setReadOnly( ns, 'snanstdevpn', require( '@stdlib/stats/base/snanstdevpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanstdevtk}
 */
-setReadOnly( ns, 'snanstdevtk', require( '@stdlib/stats/base/snanstdevtk' ) );
+setReadOnly( ns, 'snanstdevtk', require( './../../base/snanstdevtk' ) );
 
 /**
 * @name snanstdevwd
@@ -1708,7 +1708,7 @@ setReadOnly( ns, 'snanstdevtk', require( '@stdlib/stats/base/snanstdevtk' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanstdevwd}
 */
-setReadOnly( ns, 'snanstdevwd', require( '@stdlib/stats/base/snanstdevwd' ) );
+setReadOnly( ns, 'snanstdevwd', require( './../../base/snanstdevwd' ) );
 
 /**
 * @name snanstdevyc
@@ -1717,7 +1717,7 @@ setReadOnly( ns, 'snanstdevwd', require( '@stdlib/stats/base/snanstdevwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanstdevyc}
 */
-setReadOnly( ns, 'snanstdevyc', require( '@stdlib/stats/base/snanstdevyc' ) );
+setReadOnly( ns, 'snanstdevyc', require( './../../base/snanstdevyc' ) );
 
 /**
 * @name snanvariance
@@ -1726,7 +1726,7 @@ setReadOnly( ns, 'snanstdevyc', require( '@stdlib/stats/base/snanstdevyc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanvariance}
 */
-setReadOnly( ns, 'snanvariance', require( '@stdlib/stats/base/snanvariance' ) );
+setReadOnly( ns, 'snanvariance', require( './../../base/snanvariance' ) );
 
 /**
 * @name snanvariancech
@@ -1735,7 +1735,7 @@ setReadOnly( ns, 'snanvariance', require( '@stdlib/stats/base/snanvariance' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanvariancech}
 */
-setReadOnly( ns, 'snanvariancech', require( '@stdlib/stats/base/snanvariancech' ) );
+setReadOnly( ns, 'snanvariancech', require( './../../base/snanvariancech' ) );
 
 /**
 * @name snanvariancepn
@@ -1744,7 +1744,7 @@ setReadOnly( ns, 'snanvariancech', require( '@stdlib/stats/base/snanvariancech' 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanvariancepn}
 */
-setReadOnly( ns, 'snanvariancepn', require( '@stdlib/stats/base/snanvariancepn' ) );
+setReadOnly( ns, 'snanvariancepn', require( './../../base/snanvariancepn' ) );
 
 /**
 * @name snanvariancetk
@@ -1753,7 +1753,7 @@ setReadOnly( ns, 'snanvariancepn', require( '@stdlib/stats/base/snanvariancepn' 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanvariancetk}
 */
-setReadOnly( ns, 'snanvariancetk', require( '@stdlib/stats/base/snanvariancetk' ) );
+setReadOnly( ns, 'snanvariancetk', require( './../../base/snanvariancetk' ) );
 
 /**
 * @name snanvariancewd
@@ -1762,7 +1762,7 @@ setReadOnly( ns, 'snanvariancetk', require( '@stdlib/stats/base/snanvariancetk' 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanvariancewd}
 */
-setReadOnly( ns, 'snanvariancewd', require( '@stdlib/stats/base/snanvariancewd' ) );
+setReadOnly( ns, 'snanvariancewd', require( './../../base/snanvariancewd' ) );
 
 /**
 * @name snanvarianceyc
@@ -1771,7 +1771,7 @@ setReadOnly( ns, 'snanvariancewd', require( '@stdlib/stats/base/snanvariancewd' 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/snanvarianceyc}
 */
-setReadOnly( ns, 'snanvarianceyc', require( '@stdlib/stats/base/snanvarianceyc' ) );
+setReadOnly( ns, 'snanvarianceyc', require( './../../base/snanvarianceyc' ) );
 
 /**
 * @name srange
@@ -1780,7 +1780,7 @@ setReadOnly( ns, 'snanvarianceyc', require( '@stdlib/stats/base/snanvarianceyc' 
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/srange}
 */
-setReadOnly( ns, 'srange', require( '@stdlib/stats/base/srange' ) );
+setReadOnly( ns, 'srange', require( './../../base/srange' ) );
 
 /**
 * @name sstdev
@@ -1789,7 +1789,7 @@ setReadOnly( ns, 'srange', require( '@stdlib/stats/base/srange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/sstdev}
 */
-setReadOnly( ns, 'sstdev', require( '@stdlib/stats/base/sstdev' ) );
+setReadOnly( ns, 'sstdev', require( './../../base/sstdev' ) );
 
 /**
 * @name sstdevch
@@ -1798,7 +1798,7 @@ setReadOnly( ns, 'sstdev', require( '@stdlib/stats/base/sstdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/sstdevch}
 */
-setReadOnly( ns, 'sstdevch', require( '@stdlib/stats/base/sstdevch' ) );
+setReadOnly( ns, 'sstdevch', require( './../../base/sstdevch' ) );
 
 /**
 * @name sstdevpn
@@ -1807,7 +1807,7 @@ setReadOnly( ns, 'sstdevch', require( '@stdlib/stats/base/sstdevch' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/sstdevpn}
 */
-setReadOnly( ns, 'sstdevpn', require( '@stdlib/stats/base/sstdevpn' ) );
+setReadOnly( ns, 'sstdevpn', require( './../../base/sstdevpn' ) );
 
 /**
 * @name sstdevtk
@@ -1816,7 +1816,7 @@ setReadOnly( ns, 'sstdevpn', require( '@stdlib/stats/base/sstdevpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/sstdevtk}
 */
-setReadOnly( ns, 'sstdevtk', require( '@stdlib/stats/base/sstdevtk' ) );
+setReadOnly( ns, 'sstdevtk', require( './../../base/sstdevtk' ) );
 
 /**
 * @name sstdevwd
@@ -1825,7 +1825,7 @@ setReadOnly( ns, 'sstdevtk', require( '@stdlib/stats/base/sstdevtk' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/sstdevwd}
 */
-setReadOnly( ns, 'sstdevwd', require( '@stdlib/stats/base/sstdevwd' ) );
+setReadOnly( ns, 'sstdevwd', require( './../../base/sstdevwd' ) );
 
 /**
 * @name sstdevyc
@@ -1834,7 +1834,7 @@ setReadOnly( ns, 'sstdevwd', require( '@stdlib/stats/base/sstdevwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/sstdevyc}
 */
-setReadOnly( ns, 'sstdevyc', require( '@stdlib/stats/base/sstdevyc' ) );
+setReadOnly( ns, 'sstdevyc', require( './../../base/sstdevyc' ) );
 
 /**
 * @name stdev
@@ -1843,7 +1843,7 @@ setReadOnly( ns, 'sstdevyc', require( '@stdlib/stats/base/sstdevyc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/stdev}
 */
-setReadOnly( ns, 'stdev', require( '@stdlib/stats/base/stdev' ) );
+setReadOnly( ns, 'stdev', require( './../../base/stdev' ) );
 
 /**
 * @name stdevch
@@ -1852,7 +1852,7 @@ setReadOnly( ns, 'stdev', require( '@stdlib/stats/base/stdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/stdevch}
 */
-setReadOnly( ns, 'stdevch', require( '@stdlib/stats/base/stdevch' ) );
+setReadOnly( ns, 'stdevch', require( './../../base/stdevch' ) );
 
 /**
 * @name stdevpn
@@ -1861,7 +1861,7 @@ setReadOnly( ns, 'stdevch', require( '@stdlib/stats/base/stdevch' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/stdevpn}
 */
-setReadOnly( ns, 'stdevpn', require( '@stdlib/stats/base/stdevpn' ) );
+setReadOnly( ns, 'stdevpn', require( './../../base/stdevpn' ) );
 
 /**
 * @name stdevtk
@@ -1870,7 +1870,7 @@ setReadOnly( ns, 'stdevpn', require( '@stdlib/stats/base/stdevpn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/stdevtk}
 */
-setReadOnly( ns, 'stdevtk', require( '@stdlib/stats/base/stdevtk' ) );
+setReadOnly( ns, 'stdevtk', require( './../../base/stdevtk' ) );
 
 /**
 * @name stdevwd
@@ -1879,7 +1879,7 @@ setReadOnly( ns, 'stdevtk', require( '@stdlib/stats/base/stdevtk' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/stdevwd}
 */
-setReadOnly( ns, 'stdevwd', require( '@stdlib/stats/base/stdevwd' ) );
+setReadOnly( ns, 'stdevwd', require( './../../base/stdevwd' ) );
 
 /**
 * @name stdevyc
@@ -1888,7 +1888,7 @@ setReadOnly( ns, 'stdevwd', require( '@stdlib/stats/base/stdevwd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/stdevyc}
 */
-setReadOnly( ns, 'stdevyc', require( '@stdlib/stats/base/stdevyc' ) );
+setReadOnly( ns, 'stdevyc', require( './../../base/stdevyc' ) );
 
 /**
 * @name svariance
@@ -1897,7 +1897,7 @@ setReadOnly( ns, 'stdevyc', require( '@stdlib/stats/base/stdevyc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/svariance}
 */
-setReadOnly( ns, 'svariance', require( '@stdlib/stats/base/svariance' ) );
+setReadOnly( ns, 'svariance', require( './../../base/svariance' ) );
 
 /**
 * @name svariancech
@@ -1906,7 +1906,7 @@ setReadOnly( ns, 'svariance', require( '@stdlib/stats/base/svariance' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/svariancech}
 */
-setReadOnly( ns, 'svariancech', require( '@stdlib/stats/base/svariancech' ) );
+setReadOnly( ns, 'svariancech', require( './../../base/svariancech' ) );
 
 /**
 * @name svariancepn
@@ -1915,7 +1915,7 @@ setReadOnly( ns, 'svariancech', require( '@stdlib/stats/base/svariancech' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/svariancepn}
 */
-setReadOnly( ns, 'svariancepn', require( '@stdlib/stats/base/svariancepn' ) );
+setReadOnly( ns, 'svariancepn', require( './../../base/svariancepn' ) );
 
 /**
 * @name svariancetk
@@ -1924,7 +1924,7 @@ setReadOnly( ns, 'svariancepn', require( '@stdlib/stats/base/svariancepn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/svariancetk}
 */
-setReadOnly( ns, 'svariancetk', require( '@stdlib/stats/base/svariancetk' ) );
+setReadOnly( ns, 'svariancetk', require( './../../base/svariancetk' ) );
 
 /**
 * @name svariancewd
@@ -1933,7 +1933,7 @@ setReadOnly( ns, 'svariancetk', require( '@stdlib/stats/base/svariancetk' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/svariancewd}
 */
-setReadOnly( ns, 'svariancewd', require( '@stdlib/stats/base/svariancewd' ) );
+setReadOnly( ns, 'svariancewd', require( './../../base/svariancewd' ) );
 
 /**
 * @name svarianceyc
@@ -1942,7 +1942,7 @@ setReadOnly( ns, 'svariancewd', require( '@stdlib/stats/base/svariancewd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/svarianceyc}
 */
-setReadOnly( ns, 'svarianceyc', require( '@stdlib/stats/base/svarianceyc' ) );
+setReadOnly( ns, 'svarianceyc', require( './../../base/svarianceyc' ) );
 
 /**
 * @name variance
@@ -1951,7 +1951,7 @@ setReadOnly( ns, 'svarianceyc', require( '@stdlib/stats/base/svarianceyc' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/variance}
 */
-setReadOnly( ns, 'variance', require( '@stdlib/stats/base/variance' ) );
+setReadOnly( ns, 'variance', require( './../../base/variance' ) );
 
 /**
 * @name variancech
@@ -1960,7 +1960,7 @@ setReadOnly( ns, 'variance', require( '@stdlib/stats/base/variance' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/variancech}
 */
-setReadOnly( ns, 'variancech', require( '@stdlib/stats/base/variancech' ) );
+setReadOnly( ns, 'variancech', require( './../../base/variancech' ) );
 
 /**
 * @name variancepn
@@ -1969,7 +1969,7 @@ setReadOnly( ns, 'variancech', require( '@stdlib/stats/base/variancech' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/variancepn}
 */
-setReadOnly( ns, 'variancepn', require( '@stdlib/stats/base/variancepn' ) );
+setReadOnly( ns, 'variancepn', require( './../../base/variancepn' ) );
 
 /**
 * @name variancetk
@@ -1978,7 +1978,7 @@ setReadOnly( ns, 'variancepn', require( '@stdlib/stats/base/variancepn' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/variancetk}
 */
-setReadOnly( ns, 'variancetk', require( '@stdlib/stats/base/variancetk' ) );
+setReadOnly( ns, 'variancetk', require( './../../base/variancetk' ) );
 
 /**
 * @name variancewd
@@ -1987,7 +1987,7 @@ setReadOnly( ns, 'variancetk', require( '@stdlib/stats/base/variancetk' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/variancewd}
 */
-setReadOnly( ns, 'variancewd', require( '@stdlib/stats/base/variancewd' ) );
+setReadOnly( ns, 'variancewd', require( './../../base/variancewd' ) );
 
 /**
 * @name varianceyc
@@ -1996,7 +1996,7 @@ setReadOnly( ns, 'variancewd', require( '@stdlib/stats/base/variancewd' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/varianceyc}
 */
-setReadOnly( ns, 'varianceyc', require( '@stdlib/stats/base/varianceyc' ) );
+setReadOnly( ns, 'varianceyc', require( './../../base/varianceyc' ) );
 
 
 // EXPORTS //

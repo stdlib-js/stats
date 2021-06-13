@@ -21,18 +21,18 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/levy/cdf' );
-import Levy = require( '@stdlib/stats/base/dists/levy/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/levy/entropy' );
-import logcdf = require( '@stdlib/stats/base/dists/levy/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/levy/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/levy/mean' );
-import median = require( '@stdlib/stats/base/dists/levy/median' );
-import mode = require( '@stdlib/stats/base/dists/levy/mode' );
-import pdf = require( '@stdlib/stats/base/dists/levy/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/levy/quantile' );
-import stdev = require( '@stdlib/stats/base/dists/levy/stdev' );
-import variance = require( '@stdlib/stats/base/dists/levy/variance' );
+import cdf = require( './../../../../../base/dists/levy/cdf' );
+import Levy = require( './../../../../../base/dists/levy/ctor' );
+import entropy = require( './../../../../../base/dists/levy/entropy' );
+import logcdf = require( './../../../../../base/dists/levy/logcdf' );
+import logpdf = require( './../../../../../base/dists/levy/logpdf' );
+import mean = require( './../../../../../base/dists/levy/mean' );
+import median = require( './../../../../../base/dists/levy/median' );
+import mode = require( './../../../../../base/dists/levy/mode' );
+import pdf = require( './../../../../../base/dists/levy/pdf' );
+import quantile = require( './../../../../../base/dists/levy/quantile' );
+import stdev = require( './../../../../../base/dists/levy/stdev' );
+import variance = require( './../../../../../base/dists/levy/variance' );
 
 /**
 * Interface describing the `levy` namespace.

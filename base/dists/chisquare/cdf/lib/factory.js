@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var gammaFactory = require( '@stdlib/stats/base/dists/gamma/cdf' ).factory;
+var gammaFactory = require( './../../../../../base/dists/gamma/cdf' ).factory;
 
 
 // MAIN //

@@ -43,7 +43,7 @@ var ns = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/cugmean}
 */
-setReadOnly( ns, 'itercugmean', require( '@stdlib/stats/iter/cugmean' ) );
+setReadOnly( ns, 'itercugmean', require( './../../iter/cugmean' ) );
 
 /**
 * @name itercuhmean
@@ -52,7 +52,7 @@ setReadOnly( ns, 'itercugmean', require( '@stdlib/stats/iter/cugmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/cuhmean}
 */
-setReadOnly( ns, 'itercuhmean', require( '@stdlib/stats/iter/cuhmean' ) );
+setReadOnly( ns, 'itercuhmean', require( './../../iter/cuhmean' ) );
 
 /**
 * @name itercumax
@@ -61,7 +61,7 @@ setReadOnly( ns, 'itercuhmean', require( '@stdlib/stats/iter/cuhmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/cumax}
 */
-setReadOnly( ns, 'itercumax', require( '@stdlib/stats/iter/cumax' ) );
+setReadOnly( ns, 'itercumax', require( './../../iter/cumax' ) );
 
 /**
 * @name itercumaxabs
@@ -70,7 +70,7 @@ setReadOnly( ns, 'itercumax', require( '@stdlib/stats/iter/cumax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/cumaxabs}
 */
-setReadOnly( ns, 'itercumaxabs', require( '@stdlib/stats/iter/cumaxabs' ) );
+setReadOnly( ns, 'itercumaxabs', require( './../../iter/cumaxabs' ) );
 
 /**
 * @name itercumean
@@ -79,7 +79,7 @@ setReadOnly( ns, 'itercumaxabs', require( '@stdlib/stats/iter/cumaxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/cumean}
 */
-setReadOnly( ns, 'itercumean', require( '@stdlib/stats/iter/cumean' ) );
+setReadOnly( ns, 'itercumean', require( './../../iter/cumean' ) );
 
 /**
 * @name itercumeanabs
@@ -88,7 +88,7 @@ setReadOnly( ns, 'itercumean', require( '@stdlib/stats/iter/cumean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/cumeanabs}
 */
-setReadOnly( ns, 'itercumeanabs', require( '@stdlib/stats/iter/cumeanabs' ) );
+setReadOnly( ns, 'itercumeanabs', require( './../../iter/cumeanabs' ) );
 
 /**
 * @name itercumeanabs2
@@ -97,7 +97,7 @@ setReadOnly( ns, 'itercumeanabs', require( '@stdlib/stats/iter/cumeanabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/cumeanabs2}
 */
-setReadOnly( ns, 'itercumeanabs2', require( '@stdlib/stats/iter/cumeanabs2' ) );
+setReadOnly( ns, 'itercumeanabs2', require( './../../iter/cumeanabs2' ) );
 
 /**
 * @name itercumidrange
@@ -106,7 +106,7 @@ setReadOnly( ns, 'itercumeanabs2', require( '@stdlib/stats/iter/cumeanabs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/cumidrange}
 */
-setReadOnly( ns, 'itercumidrange', require( '@stdlib/stats/iter/cumidrange' ) );
+setReadOnly( ns, 'itercumidrange', require( './../../iter/cumidrange' ) );
 
 /**
 * @name itercumin
@@ -115,7 +115,7 @@ setReadOnly( ns, 'itercumidrange', require( '@stdlib/stats/iter/cumidrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/cumin}
 */
-setReadOnly( ns, 'itercumin', require( '@stdlib/stats/iter/cumin' ) );
+setReadOnly( ns, 'itercumin', require( './../../iter/cumin' ) );
 
 /**
 * @name itercuminabs
@@ -124,7 +124,7 @@ setReadOnly( ns, 'itercumin', require( '@stdlib/stats/iter/cumin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/cuminabs}
 */
-setReadOnly( ns, 'itercuminabs', require( '@stdlib/stats/iter/cuminabs' ) );
+setReadOnly( ns, 'itercuminabs', require( './../../iter/cuminabs' ) );
 
 /**
 * @name itercuprod
@@ -133,7 +133,7 @@ setReadOnly( ns, 'itercuminabs', require( '@stdlib/stats/iter/cuminabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/cuprod}
 */
-setReadOnly( ns, 'itercuprod', require( '@stdlib/stats/iter/cuprod' ) );
+setReadOnly( ns, 'itercuprod', require( './../../iter/cuprod' ) );
 
 /**
 * @name itercurange
@@ -142,7 +142,7 @@ setReadOnly( ns, 'itercuprod', require( '@stdlib/stats/iter/cuprod' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/curange}
 */
-setReadOnly( ns, 'itercurange', require( '@stdlib/stats/iter/curange' ) );
+setReadOnly( ns, 'itercurange', require( './../../iter/curange' ) );
 
 /**
 * @name itercusum
@@ -151,7 +151,7 @@ setReadOnly( ns, 'itercurange', require( '@stdlib/stats/iter/curange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/cusum}
 */
-setReadOnly( ns, 'itercusum', require( '@stdlib/stats/iter/cusum' ) );
+setReadOnly( ns, 'itercusum', require( './../../iter/cusum' ) );
 
 /**
 * @name itercusumabs
@@ -160,7 +160,7 @@ setReadOnly( ns, 'itercusum', require( '@stdlib/stats/iter/cusum' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/cusumabs}
 */
-setReadOnly( ns, 'itercusumabs', require( '@stdlib/stats/iter/cusumabs' ) );
+setReadOnly( ns, 'itercusumabs', require( './../../iter/cusumabs' ) );
 
 /**
 * @name itercusumabs2
@@ -169,7 +169,7 @@ setReadOnly( ns, 'itercusumabs', require( '@stdlib/stats/iter/cusumabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/cusumabs2}
 */
-setReadOnly( ns, 'itercusumabs2', require( '@stdlib/stats/iter/cusumabs2' ) );
+setReadOnly( ns, 'itercusumabs2', require( './../../iter/cusumabs2' ) );
 
 /**
 * @name itermax
@@ -178,7 +178,7 @@ setReadOnly( ns, 'itercusumabs2', require( '@stdlib/stats/iter/cusumabs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/max}
 */
-setReadOnly( ns, 'itermax', require( '@stdlib/stats/iter/max' ) );
+setReadOnly( ns, 'itermax', require( './../../iter/max' ) );
 
 /**
 * @name itermaxabs
@@ -187,7 +187,7 @@ setReadOnly( ns, 'itermax', require( '@stdlib/stats/iter/max' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/maxabs}
 */
-setReadOnly( ns, 'itermaxabs', require( '@stdlib/stats/iter/maxabs' ) );
+setReadOnly( ns, 'itermaxabs', require( './../../iter/maxabs' ) );
 
 /**
 * @name itermean
@@ -196,7 +196,7 @@ setReadOnly( ns, 'itermaxabs', require( '@stdlib/stats/iter/maxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/mean}
 */
-setReadOnly( ns, 'itermean', require( '@stdlib/stats/iter/mean' ) );
+setReadOnly( ns, 'itermean', require( './../../iter/mean' ) );
 
 /**
 * @name itermeanabs
@@ -205,7 +205,7 @@ setReadOnly( ns, 'itermean', require( '@stdlib/stats/iter/mean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/meanabs}
 */
-setReadOnly( ns, 'itermeanabs', require( '@stdlib/stats/iter/meanabs' ) );
+setReadOnly( ns, 'itermeanabs', require( './../../iter/meanabs' ) );
 
 /**
 * @name itermeanabs2
@@ -214,7 +214,7 @@ setReadOnly( ns, 'itermeanabs', require( '@stdlib/stats/iter/meanabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/meanabs2}
 */
-setReadOnly( ns, 'itermeanabs2', require( '@stdlib/stats/iter/meanabs2' ) );
+setReadOnly( ns, 'itermeanabs2', require( './../../iter/meanabs2' ) );
 
 /**
 * @name itermidrange
@@ -223,7 +223,7 @@ setReadOnly( ns, 'itermeanabs2', require( '@stdlib/stats/iter/meanabs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/midrange}
 */
-setReadOnly( ns, 'itermidrange', require( '@stdlib/stats/iter/midrange' ) );
+setReadOnly( ns, 'itermidrange', require( './../../iter/midrange' ) );
 
 /**
 * @name itermin
@@ -232,7 +232,7 @@ setReadOnly( ns, 'itermidrange', require( '@stdlib/stats/iter/midrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/min}
 */
-setReadOnly( ns, 'itermin', require( '@stdlib/stats/iter/min' ) );
+setReadOnly( ns, 'itermin', require( './../../iter/min' ) );
 
 /**
 * @name iterminabs
@@ -241,7 +241,7 @@ setReadOnly( ns, 'itermin', require( '@stdlib/stats/iter/min' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/minabs}
 */
-setReadOnly( ns, 'iterminabs', require( '@stdlib/stats/iter/minabs' ) );
+setReadOnly( ns, 'iterminabs', require( './../../iter/minabs' ) );
 
 /**
 * @name itermmax
@@ -250,7 +250,7 @@ setReadOnly( ns, 'iterminabs', require( '@stdlib/stats/iter/minabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/mmax}
 */
-setReadOnly( ns, 'itermmax', require( '@stdlib/stats/iter/mmax' ) );
+setReadOnly( ns, 'itermmax', require( './../../iter/mmax' ) );
 
 /**
 * @name itermmaxabs
@@ -259,7 +259,7 @@ setReadOnly( ns, 'itermmax', require( '@stdlib/stats/iter/mmax' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/mmaxabs}
 */
-setReadOnly( ns, 'itermmaxabs', require( '@stdlib/stats/iter/mmaxabs' ) );
+setReadOnly( ns, 'itermmaxabs', require( './../../iter/mmaxabs' ) );
 
 /**
 * @name itermmean
@@ -268,7 +268,7 @@ setReadOnly( ns, 'itermmaxabs', require( '@stdlib/stats/iter/mmaxabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/mmean}
 */
-setReadOnly( ns, 'itermmean', require( '@stdlib/stats/iter/mmean' ) );
+setReadOnly( ns, 'itermmean', require( './../../iter/mmean' ) );
 
 /**
 * @name itermmeanabs
@@ -277,7 +277,7 @@ setReadOnly( ns, 'itermmean', require( '@stdlib/stats/iter/mmean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/mmeanabs}
 */
-setReadOnly( ns, 'itermmeanabs', require( '@stdlib/stats/iter/mmeanabs' ) );
+setReadOnly( ns, 'itermmeanabs', require( './../../iter/mmeanabs' ) );
 
 /**
 * @name itermmeanabs2
@@ -286,7 +286,7 @@ setReadOnly( ns, 'itermmeanabs', require( '@stdlib/stats/iter/mmeanabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/mmeanabs2}
 */
-setReadOnly( ns, 'itermmeanabs2', require( '@stdlib/stats/iter/mmeanabs2' ) );
+setReadOnly( ns, 'itermmeanabs2', require( './../../iter/mmeanabs2' ) );
 
 /**
 * @name itermmidrange
@@ -295,7 +295,7 @@ setReadOnly( ns, 'itermmeanabs2', require( '@stdlib/stats/iter/mmeanabs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/mmidrange}
 */
-setReadOnly( ns, 'itermmidrange', require( '@stdlib/stats/iter/mmidrange' ) );
+setReadOnly( ns, 'itermmidrange', require( './../../iter/mmidrange' ) );
 
 /**
 * @name itermmin
@@ -304,7 +304,7 @@ setReadOnly( ns, 'itermmidrange', require( '@stdlib/stats/iter/mmidrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/mmin}
 */
-setReadOnly( ns, 'itermmin', require( '@stdlib/stats/iter/mmin' ) );
+setReadOnly( ns, 'itermmin', require( './../../iter/mmin' ) );
 
 /**
 * @name itermminabs
@@ -313,7 +313,7 @@ setReadOnly( ns, 'itermmin', require( '@stdlib/stats/iter/mmin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/mminabs}
 */
-setReadOnly( ns, 'itermminabs', require( '@stdlib/stats/iter/mminabs' ) );
+setReadOnly( ns, 'itermminabs', require( './../../iter/mminabs' ) );
 
 /**
 * @name itermprod
@@ -322,7 +322,7 @@ setReadOnly( ns, 'itermminabs', require( '@stdlib/stats/iter/mminabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/mprod}
 */
-setReadOnly( ns, 'itermprod', require( '@stdlib/stats/iter/mprod' ) );
+setReadOnly( ns, 'itermprod', require( './../../iter/mprod' ) );
 
 /**
 * @name itermrange
@@ -331,7 +331,7 @@ setReadOnly( ns, 'itermprod', require( '@stdlib/stats/iter/mprod' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/mrange}
 */
-setReadOnly( ns, 'itermrange', require( '@stdlib/stats/iter/mrange' ) );
+setReadOnly( ns, 'itermrange', require( './../../iter/mrange' ) );
 
 /**
 * @name itermsum
@@ -340,7 +340,7 @@ setReadOnly( ns, 'itermrange', require( '@stdlib/stats/iter/mrange' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/msum}
 */
-setReadOnly( ns, 'itermsum', require( '@stdlib/stats/iter/msum' ) );
+setReadOnly( ns, 'itermsum', require( './../../iter/msum' ) );
 
 /**
 * @name itermsumabs
@@ -349,7 +349,7 @@ setReadOnly( ns, 'itermsum', require( '@stdlib/stats/iter/msum' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/msumabs}
 */
-setReadOnly( ns, 'itermsumabs', require( '@stdlib/stats/iter/msumabs' ) );
+setReadOnly( ns, 'itermsumabs', require( './../../iter/msumabs' ) );
 
 /**
 * @name itermsumabs2
@@ -358,7 +358,7 @@ setReadOnly( ns, 'itermsumabs', require( '@stdlib/stats/iter/msumabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/msumabs2}
 */
-setReadOnly( ns, 'itermsumabs2', require( '@stdlib/stats/iter/msumabs2' ) );
+setReadOnly( ns, 'itermsumabs2', require( './../../iter/msumabs2' ) );
 
 /**
 * @name iterprod
@@ -367,7 +367,7 @@ setReadOnly( ns, 'itermsumabs2', require( '@stdlib/stats/iter/msumabs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/prod}
 */
-setReadOnly( ns, 'iterprod', require( '@stdlib/stats/iter/prod' ) );
+setReadOnly( ns, 'iterprod', require( './../../iter/prod' ) );
 
 /**
 * @name iterrange
@@ -376,7 +376,7 @@ setReadOnly( ns, 'iterprod', require( '@stdlib/stats/iter/prod' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/range}
 */
-setReadOnly( ns, 'iterrange', require( '@stdlib/stats/iter/range' ) );
+setReadOnly( ns, 'iterrange', require( './../../iter/range' ) );
 
 /**
 * @name iterstdev
@@ -385,7 +385,7 @@ setReadOnly( ns, 'iterrange', require( '@stdlib/stats/iter/range' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/stdev}
 */
-setReadOnly( ns, 'iterstdev', require( '@stdlib/stats/iter/stdev' ) );
+setReadOnly( ns, 'iterstdev', require( './../../iter/stdev' ) );
 
 /**
 * @name itersum
@@ -394,7 +394,7 @@ setReadOnly( ns, 'iterstdev', require( '@stdlib/stats/iter/stdev' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/sum}
 */
-setReadOnly( ns, 'itersum', require( '@stdlib/stats/iter/sum' ) );
+setReadOnly( ns, 'itersum', require( './../../iter/sum' ) );
 
 /**
 * @name itersumabs
@@ -403,7 +403,7 @@ setReadOnly( ns, 'itersum', require( '@stdlib/stats/iter/sum' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/sumabs}
 */
-setReadOnly( ns, 'itersumabs', require( '@stdlib/stats/iter/sumabs' ) );
+setReadOnly( ns, 'itersumabs', require( './../../iter/sumabs' ) );
 
 /**
 * @name itersumabs2
@@ -412,7 +412,7 @@ setReadOnly( ns, 'itersumabs', require( '@stdlib/stats/iter/sumabs' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/sumabs2}
 */
-setReadOnly( ns, 'itersumabs2', require( '@stdlib/stats/iter/sumabs2' ) );
+setReadOnly( ns, 'itersumabs2', require( './../../iter/sumabs2' ) );
 
 /**
 * @name itervariance
@@ -421,7 +421,7 @@ setReadOnly( ns, 'itersumabs2', require( '@stdlib/stats/iter/sumabs2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/iter/variance}
 */
-setReadOnly( ns, 'itervariance', require( '@stdlib/stats/iter/variance' ) );
+setReadOnly( ns, 'itervariance', require( './../../iter/variance' ) );
 
 
 // EXPORTS //

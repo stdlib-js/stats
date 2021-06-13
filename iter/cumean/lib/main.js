@@ -25,7 +25,7 @@ var isIteratorLike = require( '@stdlib/assert/is-iterator-like' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var incrmean = require( '@stdlib/stats/incr/mean' );
+var incrmean = require( './../../../incr/mean' );
 
 
 // MAIN //

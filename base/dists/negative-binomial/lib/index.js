@@ -43,7 +43,7 @@ var negativeBinomial = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/negative-binomial/cdf}
 */
-setReadOnly( negativeBinomial, 'cdf', require( '@stdlib/stats/base/dists/negative-binomial/cdf' ) );
+setReadOnly( negativeBinomial, 'cdf', require( './../../../../base/dists/negative-binomial/cdf' ) );
 
 /**
 * @name NegativeBinomial
@@ -52,7 +52,7 @@ setReadOnly( negativeBinomial, 'cdf', require( '@stdlib/stats/base/dists/negativ
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/negative-binomial/ctor}
 */
-setReadOnly( negativeBinomial, 'NegativeBinomial', require( '@stdlib/stats/base/dists/negative-binomial/ctor' ) );
+setReadOnly( negativeBinomial, 'NegativeBinomial', require( './../../../../base/dists/negative-binomial/ctor' ) );
 
 /**
 * @name kurtosis
@@ -61,7 +61,7 @@ setReadOnly( negativeBinomial, 'NegativeBinomial', require( '@stdlib/stats/base/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/negative-binomial/kurtosis}
 */
-setReadOnly( negativeBinomial, 'kurtosis', require( '@stdlib/stats/base/dists/negative-binomial/kurtosis' ) );
+setReadOnly( negativeBinomial, 'kurtosis', require( './../../../../base/dists/negative-binomial/kurtosis' ) );
 
 /**
 * @name logpmf
@@ -70,7 +70,7 @@ setReadOnly( negativeBinomial, 'kurtosis', require( '@stdlib/stats/base/dists/ne
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/negative-binomial/logpmf}
 */
-setReadOnly( negativeBinomial, 'logpmf', require( '@stdlib/stats/base/dists/negative-binomial/logpmf' ) );
+setReadOnly( negativeBinomial, 'logpmf', require( './../../../../base/dists/negative-binomial/logpmf' ) );
 
 /**
 * @name mean
@@ -79,7 +79,7 @@ setReadOnly( negativeBinomial, 'logpmf', require( '@stdlib/stats/base/dists/nega
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/negative-binomial/mean}
 */
-setReadOnly( negativeBinomial, 'mean', require( '@stdlib/stats/base/dists/negative-binomial/mean' ) );
+setReadOnly( negativeBinomial, 'mean', require( './../../../../base/dists/negative-binomial/mean' ) );
 
 /**
 * @name mgf
@@ -88,7 +88,7 @@ setReadOnly( negativeBinomial, 'mean', require( '@stdlib/stats/base/dists/negati
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/negative-binomial/mgf}
 */
-setReadOnly( negativeBinomial, 'mgf', require( '@stdlib/stats/base/dists/negative-binomial/mgf' ) );
+setReadOnly( negativeBinomial, 'mgf', require( './../../../../base/dists/negative-binomial/mgf' ) );
 
 /**
 * @name mode
@@ -97,7 +97,7 @@ setReadOnly( negativeBinomial, 'mgf', require( '@stdlib/stats/base/dists/negativ
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/negative-binomial/mode}
 */
-setReadOnly( negativeBinomial, 'mode', require( '@stdlib/stats/base/dists/negative-binomial/mode' ) );
+setReadOnly( negativeBinomial, 'mode', require( './../../../../base/dists/negative-binomial/mode' ) );
 
 /**
 * @name pmf
@@ -106,7 +106,7 @@ setReadOnly( negativeBinomial, 'mode', require( '@stdlib/stats/base/dists/negati
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/negative-binomial/pmf}
 */
-setReadOnly( negativeBinomial, 'pmf', require( '@stdlib/stats/base/dists/negative-binomial/pmf' ) );
+setReadOnly( negativeBinomial, 'pmf', require( './../../../../base/dists/negative-binomial/pmf' ) );
 
 /**
 * @name quantile
@@ -115,7 +115,7 @@ setReadOnly( negativeBinomial, 'pmf', require( '@stdlib/stats/base/dists/negativ
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/negative-binomial/quantile}
 */
-setReadOnly( negativeBinomial, 'quantile', require( '@stdlib/stats/base/dists/negative-binomial/quantile' ) );
+setReadOnly( negativeBinomial, 'quantile', require( './../../../../base/dists/negative-binomial/quantile' ) );
 
 /**
 * @name skewness
@@ -124,7 +124,7 @@ setReadOnly( negativeBinomial, 'quantile', require( '@stdlib/stats/base/dists/ne
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/negative-binomial/skewness}
 */
-setReadOnly( negativeBinomial, 'skewness', require( '@stdlib/stats/base/dists/negative-binomial/skewness' ) );
+setReadOnly( negativeBinomial, 'skewness', require( './../../../../base/dists/negative-binomial/skewness' ) );
 
 /**
 * @name stdev
@@ -133,7 +133,7 @@ setReadOnly( negativeBinomial, 'skewness', require( '@stdlib/stats/base/dists/ne
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/negative-binomial/stdev}
 */
-setReadOnly( negativeBinomial, 'stdev', require( '@stdlib/stats/base/dists/negative-binomial/stdev' ) );
+setReadOnly( negativeBinomial, 'stdev', require( './../../../../base/dists/negative-binomial/stdev' ) );
 
 /**
 * @name variance
@@ -142,7 +142,7 @@ setReadOnly( negativeBinomial, 'stdev', require( '@stdlib/stats/base/dists/negat
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/negative-binomial/variance}
 */
-setReadOnly( negativeBinomial, 'variance', require( '@stdlib/stats/base/dists/negative-binomial/variance' ) );
+setReadOnly( negativeBinomial, 'variance', require( './../../../../base/dists/negative-binomial/variance' ) );
 
 
 // EXPORTS //

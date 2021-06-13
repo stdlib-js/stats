@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dnanvariancepn = require( '@stdlib/stats/base/dnanvariancepn' );
+var dnanvariancepn = require( './../../../base/dnanvariancepn' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 
 

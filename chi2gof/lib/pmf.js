@@ -20,13 +20,13 @@
 
 // MODULES //
 
-var bernoulli = require( '@stdlib/stats/base/dists/bernoulli/pmf' );
-var binomial = require( '@stdlib/stats/base/dists/binomial/pmf' );
-var discreteUniform = require( '@stdlib/stats/base/dists/discrete-uniform/pmf' );
-var geometric = require( '@stdlib/stats/base/dists/geometric/pmf' );
-var hypergeometric = require( '@stdlib/stats/base/dists/hypergeometric/pmf' );
-var negativeBinomial = require( '@stdlib/stats/base/dists/negative-binomial/pmf' );
-var poisson = require( '@stdlib/stats/base/dists/poisson/pmf' );
+var bernoulli = require( './../../base/dists/bernoulli/pmf' );
+var binomial = require( './../../base/dists/binomial/pmf' );
+var discreteUniform = require( './../../base/dists/discrete-uniform/pmf' );
+var geometric = require( './../../base/dists/geometric/pmf' );
+var hypergeometric = require( './../../base/dists/hypergeometric/pmf' );
+var negativeBinomial = require( './../../base/dists/negative-binomial/pmf' );
+var poisson = require( './../../base/dists/poisson/pmf' );
 
 
 // MAIN //

@@ -28,20 +28,20 @@ var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
 var isnan = require( '@stdlib/assert/is-nan' );
-var entropy = require( '@stdlib/stats/base/dists/laplace/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/laplace/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/laplace/mean' );
-var median = require( '@stdlib/stats/base/dists/laplace/median' );
-var mode = require( '@stdlib/stats/base/dists/laplace/mode' );
-var skewness = require( '@stdlib/stats/base/dists/laplace/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/laplace/stdev' );
-var variance = require( '@stdlib/stats/base/dists/laplace/variance' );
-var cdf = require( '@stdlib/stats/base/dists/laplace/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/laplace/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/laplace/logpdf' );
-var mgf = require( '@stdlib/stats/base/dists/laplace/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/laplace/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/laplace/quantile' );
+var entropy = require( './../../../../../base/dists/laplace/entropy' );
+var kurtosis = require( './../../../../../base/dists/laplace/kurtosis' );
+var mean = require( './../../../../../base/dists/laplace/mean' );
+var median = require( './../../../../../base/dists/laplace/median' );
+var mode = require( './../../../../../base/dists/laplace/mode' );
+var skewness = require( './../../../../../base/dists/laplace/skewness' );
+var stdev = require( './../../../../../base/dists/laplace/stdev' );
+var variance = require( './../../../../../base/dists/laplace/variance' );
+var cdf = require( './../../../../../base/dists/laplace/cdf' );
+var logcdf = require( './../../../../../base/dists/laplace/logcdf' );
+var logpdf = require( './../../../../../base/dists/laplace/logpdf' );
+var mgf = require( './../../../../../base/dists/laplace/mgf' );
+var pdf = require( './../../../../../base/dists/laplace/pdf' );
+var quantile = require( './../../../../../base/dists/laplace/quantile' );
 
 
 // FUNCTIONS //

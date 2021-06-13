@@ -23,20 +23,20 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/rayleigh/quantile' );
-var cdf = require( '@stdlib/stats/base/dists/rayleigh/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/rayleigh/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/rayleigh/logpdf' );
-var mgf = require( '@stdlib/stats/base/dists/rayleigh/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/rayleigh/pdf' );
-var entropy = require( '@stdlib/stats/base/dists/rayleigh/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/rayleigh/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/rayleigh/skewness' );
-var variance = require( '@stdlib/stats/base/dists/rayleigh/variance' );
-var median = require( '@stdlib/stats/base/dists/rayleigh/median' );
-var stdev = require( '@stdlib/stats/base/dists/rayleigh/stdev' );
-var mode = require( '@stdlib/stats/base/dists/rayleigh/mode' );
-var mean = require( '@stdlib/stats/base/dists/rayleigh/mean' );
+var quantile = require( './../../../../../base/dists/rayleigh/quantile' );
+var cdf = require( './../../../../../base/dists/rayleigh/cdf' );
+var logcdf = require( './../../../../../base/dists/rayleigh/logcdf' );
+var logpdf = require( './../../../../../base/dists/rayleigh/logpdf' );
+var mgf = require( './../../../../../base/dists/rayleigh/mgf' );
+var pdf = require( './../../../../../base/dists/rayleigh/pdf' );
+var entropy = require( './../../../../../base/dists/rayleigh/entropy' );
+var kurtosis = require( './../../../../../base/dists/rayleigh/kurtosis' );
+var skewness = require( './../../../../../base/dists/rayleigh/skewness' );
+var variance = require( './../../../../../base/dists/rayleigh/variance' );
+var median = require( './../../../../../base/dists/rayleigh/median' );
+var stdev = require( './../../../../../base/dists/rayleigh/stdev' );
+var mode = require( './../../../../../base/dists/rayleigh/mode' );
+var mean = require( './../../../../../base/dists/rayleigh/mean' );
 var Rayleigh = require( './../lib' );
 
 

@@ -43,7 +43,7 @@ var erlang = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/erlang/cdf}
 */
-setReadOnly( erlang, 'cdf', require( '@stdlib/stats/base/dists/erlang/cdf' ) );
+setReadOnly( erlang, 'cdf', require( './../../../../base/dists/erlang/cdf' ) );
 
 /**
 * @name Erlang
@@ -52,7 +52,7 @@ setReadOnly( erlang, 'cdf', require( '@stdlib/stats/base/dists/erlang/cdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/erlang/ctor}
 */
-setReadOnly( erlang, 'Erlang', require( '@stdlib/stats/base/dists/erlang/ctor' ) );
+setReadOnly( erlang, 'Erlang', require( './../../../../base/dists/erlang/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( erlang, 'Erlang', require( '@stdlib/stats/base/dists/erlang/ctor' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/erlang/entropy}
 */
-setReadOnly( erlang, 'entropy', require( '@stdlib/stats/base/dists/erlang/entropy' ) );
+setReadOnly( erlang, 'entropy', require( './../../../../base/dists/erlang/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( erlang, 'entropy', require( '@stdlib/stats/base/dists/erlang/entrop
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/erlang/kurtosis}
 */
-setReadOnly( erlang, 'kurtosis', require( '@stdlib/stats/base/dists/erlang/kurtosis' ) );
+setReadOnly( erlang, 'kurtosis', require( './../../../../base/dists/erlang/kurtosis' ) );
 
 /**
 * @name logpdf
@@ -79,7 +79,7 @@ setReadOnly( erlang, 'kurtosis', require( '@stdlib/stats/base/dists/erlang/kurto
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/erlang/logpdf}
 */
-setReadOnly( erlang, 'logpdf', require( '@stdlib/stats/base/dists/erlang/logpdf' ) );
+setReadOnly( erlang, 'logpdf', require( './../../../../base/dists/erlang/logpdf' ) );
 
 /**
 * @name mean
@@ -88,7 +88,7 @@ setReadOnly( erlang, 'logpdf', require( '@stdlib/stats/base/dists/erlang/logpdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/erlang/mean}
 */
-setReadOnly( erlang, 'mean', require( '@stdlib/stats/base/dists/erlang/mean' ) );
+setReadOnly( erlang, 'mean', require( './../../../../base/dists/erlang/mean' ) );
 
 /**
 * @name mgf
@@ -97,7 +97,7 @@ setReadOnly( erlang, 'mean', require( '@stdlib/stats/base/dists/erlang/mean' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/erlang/mgf}
 */
-setReadOnly( erlang, 'mgf', require( '@stdlib/stats/base/dists/erlang/mgf' ) );
+setReadOnly( erlang, 'mgf', require( './../../../../base/dists/erlang/mgf' ) );
 
 /**
 * @name mode
@@ -106,7 +106,7 @@ setReadOnly( erlang, 'mgf', require( '@stdlib/stats/base/dists/erlang/mgf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/erlang/mode}
 */
-setReadOnly( erlang, 'mode', require( '@stdlib/stats/base/dists/erlang/mode' ) );
+setReadOnly( erlang, 'mode', require( './../../../../base/dists/erlang/mode' ) );
 
 /**
 * @name pdf
@@ -115,7 +115,7 @@ setReadOnly( erlang, 'mode', require( '@stdlib/stats/base/dists/erlang/mode' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/erlang/pdf}
 */
-setReadOnly( erlang, 'pdf', require( '@stdlib/stats/base/dists/erlang/pdf' ) );
+setReadOnly( erlang, 'pdf', require( './../../../../base/dists/erlang/pdf' ) );
 
 /**
 * @name quantile
@@ -124,7 +124,7 @@ setReadOnly( erlang, 'pdf', require( '@stdlib/stats/base/dists/erlang/pdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/erlang/quantile}
 */
-setReadOnly( erlang, 'quantile', require( '@stdlib/stats/base/dists/erlang/quantile' ) );
+setReadOnly( erlang, 'quantile', require( './../../../../base/dists/erlang/quantile' ) );
 
 /**
 * @name skewness
@@ -133,7 +133,7 @@ setReadOnly( erlang, 'quantile', require( '@stdlib/stats/base/dists/erlang/quant
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/erlang/skewness}
 */
-setReadOnly( erlang, 'skewness', require( '@stdlib/stats/base/dists/erlang/skewness' ) );
+setReadOnly( erlang, 'skewness', require( './../../../../base/dists/erlang/skewness' ) );
 
 /**
 * @name stdev
@@ -142,7 +142,7 @@ setReadOnly( erlang, 'skewness', require( '@stdlib/stats/base/dists/erlang/skewn
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/erlang/stdev}
 */
-setReadOnly( erlang, 'stdev', require( '@stdlib/stats/base/dists/erlang/stdev' ) );
+setReadOnly( erlang, 'stdev', require( './../../../../base/dists/erlang/stdev' ) );
 
 /**
 * @name variance
@@ -151,7 +151,7 @@ setReadOnly( erlang, 'stdev', require( '@stdlib/stats/base/dists/erlang/stdev' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/erlang/variance}
 */
-setReadOnly( erlang, 'variance', require( '@stdlib/stats/base/dists/erlang/variance' ) );
+setReadOnly( erlang, 'variance', require( './../../../../base/dists/erlang/variance' ) );
 
 
 // EXPORTS //

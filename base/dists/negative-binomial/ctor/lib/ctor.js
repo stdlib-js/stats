@@ -27,17 +27,17 @@ var defineProperty = require( '@stdlib/utils/define-property' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
-var kurtosis = require( '@stdlib/stats/base/dists/negative-binomial/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/negative-binomial/mean' );
-var mode = require( '@stdlib/stats/base/dists/negative-binomial/mode' );
-var skewness = require( '@stdlib/stats/base/dists/negative-binomial/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/negative-binomial/stdev' );
-var variance = require( '@stdlib/stats/base/dists/negative-binomial/variance' );
-var cdf = require( '@stdlib/stats/base/dists/negative-binomial/cdf' );
-var logpmf = require( '@stdlib/stats/base/dists/negative-binomial/logpmf' );
-var mgf = require( '@stdlib/stats/base/dists/negative-binomial/mgf' );
-var pmf = require( '@stdlib/stats/base/dists/negative-binomial/pmf' );
-var quantile = require( '@stdlib/stats/base/dists/negative-binomial/quantile' );
+var kurtosis = require( './../../../../../base/dists/negative-binomial/kurtosis' );
+var mean = require( './../../../../../base/dists/negative-binomial/mean' );
+var mode = require( './../../../../../base/dists/negative-binomial/mode' );
+var skewness = require( './../../../../../base/dists/negative-binomial/skewness' );
+var stdev = require( './../../../../../base/dists/negative-binomial/stdev' );
+var variance = require( './../../../../../base/dists/negative-binomial/variance' );
+var cdf = require( './../../../../../base/dists/negative-binomial/cdf' );
+var logpmf = require( './../../../../../base/dists/negative-binomial/logpmf' );
+var mgf = require( './../../../../../base/dists/negative-binomial/mgf' );
+var pmf = require( './../../../../../base/dists/negative-binomial/pmf' );
+var quantile = require( './../../../../../base/dists/negative-binomial/quantile' );
 
 
 // FUNCTIONS //

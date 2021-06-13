@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dvarianceyc = require( '@stdlib/stats/base/dvarianceyc' );
+var dvarianceyc = require( './../../../base/dvarianceyc' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 
 

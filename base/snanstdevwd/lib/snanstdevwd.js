@@ -21,7 +21,7 @@
 // MODULES //
 
 var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
-var snanvariancewd = require( '@stdlib/stats/base/snanvariancewd' );
+var snanvariancewd = require( './../../../base/snanvariancewd' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 
 

@@ -27,18 +27,18 @@ var isProbability = require( '@stdlib/assert/is-probability' ).isPrimitive;
 var defineProperty = require( '@stdlib/utils/define-property' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
-var kurtosis = require( '@stdlib/stats/base/dists/binomial/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/binomial/mean' );
-var median = require( '@stdlib/stats/base/dists/binomial/median' );
-var mode = require( '@stdlib/stats/base/dists/binomial/mode' );
-var skewness = require( '@stdlib/stats/base/dists/binomial/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/binomial/stdev' );
-var variance = require( '@stdlib/stats/base/dists/binomial/variance' );
-var cdf = require( '@stdlib/stats/base/dists/binomial/cdf' );
-var logpmf = require( '@stdlib/stats/base/dists/binomial/logpmf' );
-var mgf = require( '@stdlib/stats/base/dists/binomial/mgf' );
-var pmf = require( '@stdlib/stats/base/dists/binomial/pmf' );
-var quantile = require( '@stdlib/stats/base/dists/binomial/quantile' );
+var kurtosis = require( './../../../../../base/dists/binomial/kurtosis' );
+var mean = require( './../../../../../base/dists/binomial/mean' );
+var median = require( './../../../../../base/dists/binomial/median' );
+var mode = require( './../../../../../base/dists/binomial/mode' );
+var skewness = require( './../../../../../base/dists/binomial/skewness' );
+var stdev = require( './../../../../../base/dists/binomial/stdev' );
+var variance = require( './../../../../../base/dists/binomial/variance' );
+var cdf = require( './../../../../../base/dists/binomial/cdf' );
+var logpmf = require( './../../../../../base/dists/binomial/logpmf' );
+var mgf = require( './../../../../../base/dists/binomial/mgf' );
+var pmf = require( './../../../../../base/dists/binomial/pmf' );
+var quantile = require( './../../../../../base/dists/binomial/quantile' );
 
 
 // FUNCTIONS //

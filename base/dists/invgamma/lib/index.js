@@ -43,7 +43,7 @@ var invgamma = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/invgamma/cdf}
 */
-setReadOnly( invgamma, 'cdf', require( '@stdlib/stats/base/dists/invgamma/cdf' ) );
+setReadOnly( invgamma, 'cdf', require( './../../../../base/dists/invgamma/cdf' ) );
 
 /**
 * @name InvGamma
@@ -52,7 +52,7 @@ setReadOnly( invgamma, 'cdf', require( '@stdlib/stats/base/dists/invgamma/cdf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/invgamma/ctor}
 */
-setReadOnly( invgamma, 'InvGamma', require( '@stdlib/stats/base/dists/invgamma/ctor' ) );
+setReadOnly( invgamma, 'InvGamma', require( './../../../../base/dists/invgamma/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( invgamma, 'InvGamma', require( '@stdlib/stats/base/dists/invgamma/c
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/invgamma/entropy}
 */
-setReadOnly( invgamma, 'entropy', require( '@stdlib/stats/base/dists/invgamma/entropy' ) );
+setReadOnly( invgamma, 'entropy', require( './../../../../base/dists/invgamma/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( invgamma, 'entropy', require( '@stdlib/stats/base/dists/invgamma/en
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/invgamma/kurtosis}
 */
-setReadOnly( invgamma, 'kurtosis', require( '@stdlib/stats/base/dists/invgamma/kurtosis' ) );
+setReadOnly( invgamma, 'kurtosis', require( './../../../../base/dists/invgamma/kurtosis' ) );
 
 /**
 * @name logpdf
@@ -79,7 +79,7 @@ setReadOnly( invgamma, 'kurtosis', require( '@stdlib/stats/base/dists/invgamma/k
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/invgamma/logpdf}
 */
-setReadOnly( invgamma, 'logpdf', require( '@stdlib/stats/base/dists/invgamma/logpdf' ) );
+setReadOnly( invgamma, 'logpdf', require( './../../../../base/dists/invgamma/logpdf' ) );
 
 /**
 * @name mean
@@ -88,7 +88,7 @@ setReadOnly( invgamma, 'logpdf', require( '@stdlib/stats/base/dists/invgamma/log
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/invgamma/mean}
 */
-setReadOnly( invgamma, 'mean', require( '@stdlib/stats/base/dists/invgamma/mean' ) );
+setReadOnly( invgamma, 'mean', require( './../../../../base/dists/invgamma/mean' ) );
 
 /**
 * @name mode
@@ -97,7 +97,7 @@ setReadOnly( invgamma, 'mean', require( '@stdlib/stats/base/dists/invgamma/mean'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/invgamma/mode}
 */
-setReadOnly( invgamma, 'mode', require( '@stdlib/stats/base/dists/invgamma/mode' ) );
+setReadOnly( invgamma, 'mode', require( './../../../../base/dists/invgamma/mode' ) );
 
 /**
 * @name pdf
@@ -106,7 +106,7 @@ setReadOnly( invgamma, 'mode', require( '@stdlib/stats/base/dists/invgamma/mode'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/invgamma/pdf}
 */
-setReadOnly( invgamma, 'pdf', require( '@stdlib/stats/base/dists/invgamma/pdf' ) );
+setReadOnly( invgamma, 'pdf', require( './../../../../base/dists/invgamma/pdf' ) );
 
 /**
 * @name quantile
@@ -115,7 +115,7 @@ setReadOnly( invgamma, 'pdf', require( '@stdlib/stats/base/dists/invgamma/pdf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/invgamma/quantile}
 */
-setReadOnly( invgamma, 'quantile', require( '@stdlib/stats/base/dists/invgamma/quantile' ) );
+setReadOnly( invgamma, 'quantile', require( './../../../../base/dists/invgamma/quantile' ) );
 
 /**
 * @name skewness
@@ -124,7 +124,7 @@ setReadOnly( invgamma, 'quantile', require( '@stdlib/stats/base/dists/invgamma/q
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/invgamma/skewness}
 */
-setReadOnly( invgamma, 'skewness', require( '@stdlib/stats/base/dists/invgamma/skewness' ) );
+setReadOnly( invgamma, 'skewness', require( './../../../../base/dists/invgamma/skewness' ) );
 
 /**
 * @name stdev
@@ -133,7 +133,7 @@ setReadOnly( invgamma, 'skewness', require( '@stdlib/stats/base/dists/invgamma/s
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/invgamma/stdev}
 */
-setReadOnly( invgamma, 'stdev', require( '@stdlib/stats/base/dists/invgamma/stdev' ) );
+setReadOnly( invgamma, 'stdev', require( './../../../../base/dists/invgamma/stdev' ) );
 
 /**
 * @name variance
@@ -142,7 +142,7 @@ setReadOnly( invgamma, 'stdev', require( '@stdlib/stats/base/dists/invgamma/stde
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/invgamma/variance}
 */
-setReadOnly( invgamma, 'variance', require( '@stdlib/stats/base/dists/invgamma/variance' ) );
+setReadOnly( invgamma, 'variance', require( './../../../../base/dists/invgamma/variance' ) );
 
 
 // EXPORTS //

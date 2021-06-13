@@ -23,9 +23,9 @@
 var isNumberArray = require( '@stdlib/assert/is-number-array' ).primitives;
 var isTypedArrayLike = require( '@stdlib/assert/is-typed-array-like' );
 var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
-var fCDF = require( '@stdlib/stats/base/dists/f/cdf' );
-var fQuantile = require( '@stdlib/stats/base/dists/f/quantile' );
-var variance = require( '@stdlib/stats/base/variance' );
+var fCDF = require( './../../base/dists/f/cdf' );
+var fQuantile = require( './../../base/dists/f/quantile' );
+var variance = require( './../../base/variance' );
 var min = require( '@stdlib/math/base/special/min' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var validate = require( './validate.js' );

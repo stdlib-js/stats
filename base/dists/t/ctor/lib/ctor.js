@@ -26,19 +26,19 @@ var defineProperty = require( '@stdlib/utils/define-property' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
-var entropy = require( '@stdlib/stats/base/dists/t/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/t/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/t/mean' );
-var median = require( '@stdlib/stats/base/dists/t/median' );
-var mode = require( '@stdlib/stats/base/dists/t/mode' );
-var skewness = require( '@stdlib/stats/base/dists/t/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/t/stdev' );
-var variance = require( '@stdlib/stats/base/dists/t/variance' );
-var cdf = require( '@stdlib/stats/base/dists/t/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/t/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/t/logpdf' );
-var pdf = require( '@stdlib/stats/base/dists/t/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/t/quantile' );
+var entropy = require( './../../../../../base/dists/t/entropy' );
+var kurtosis = require( './../../../../../base/dists/t/kurtosis' );
+var mean = require( './../../../../../base/dists/t/mean' );
+var median = require( './../../../../../base/dists/t/median' );
+var mode = require( './../../../../../base/dists/t/mode' );
+var skewness = require( './../../../../../base/dists/t/skewness' );
+var stdev = require( './../../../../../base/dists/t/stdev' );
+var variance = require( './../../../../../base/dists/t/variance' );
+var cdf = require( './../../../../../base/dists/t/cdf' );
+var logcdf = require( './../../../../../base/dists/t/logcdf' );
+var logpdf = require( './../../../../../base/dists/t/logpdf' );
+var pdf = require( './../../../../../base/dists/t/pdf' );
+var quantile = require( './../../../../../base/dists/t/quantile' );
 
 
 // FUNCTIONS //

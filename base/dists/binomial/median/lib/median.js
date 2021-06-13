@@ -23,7 +23,7 @@
 var isNonNegativeInteger = require( '@stdlib/math/base/assert/is-nonnegative-integer' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var round = require( '@stdlib/math/base/special/round' );
-var mean = require( '@stdlib/stats/base/dists/binomial/mean' );
+var mean = require( './../../../../../base/dists/binomial/mean' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 
 

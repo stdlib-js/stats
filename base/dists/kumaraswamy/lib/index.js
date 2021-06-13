@@ -43,7 +43,7 @@ var kumaraswamy = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/kumaraswamy/cdf}
 */
-setReadOnly( kumaraswamy, 'cdf', require( '@stdlib/stats/base/dists/kumaraswamy/cdf' ) );
+setReadOnly( kumaraswamy, 'cdf', require( './../../../../base/dists/kumaraswamy/cdf' ) );
 
 /**
 * @name Kumaraswamy
@@ -52,7 +52,7 @@ setReadOnly( kumaraswamy, 'cdf', require( '@stdlib/stats/base/dists/kumaraswamy/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/kumaraswamy/ctor}
 */
-setReadOnly( kumaraswamy, 'Kumaraswamy', require( '@stdlib/stats/base/dists/kumaraswamy/ctor' ) );
+setReadOnly( kumaraswamy, 'Kumaraswamy', require( './../../../../base/dists/kumaraswamy/ctor' ) );
 
 /**
 * @name kurtosis
@@ -61,7 +61,7 @@ setReadOnly( kumaraswamy, 'Kumaraswamy', require( '@stdlib/stats/base/dists/kuma
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/kumaraswamy/kurtosis}
 */
-setReadOnly( kumaraswamy, 'kurtosis', require( '@stdlib/stats/base/dists/kumaraswamy/kurtosis' ) );
+setReadOnly( kumaraswamy, 'kurtosis', require( './../../../../base/dists/kumaraswamy/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -70,7 +70,7 @@ setReadOnly( kumaraswamy, 'kurtosis', require( '@stdlib/stats/base/dists/kumaras
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/kumaraswamy/logcdf}
 */
-setReadOnly( kumaraswamy, 'logcdf', require( '@stdlib/stats/base/dists/kumaraswamy/logcdf' ) );
+setReadOnly( kumaraswamy, 'logcdf', require( './../../../../base/dists/kumaraswamy/logcdf' ) );
 
 /**
 * @name logpdf
@@ -79,7 +79,7 @@ setReadOnly( kumaraswamy, 'logcdf', require( '@stdlib/stats/base/dists/kumaraswa
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/kumaraswamy/logpdf}
 */
-setReadOnly( kumaraswamy, 'logpdf', require( '@stdlib/stats/base/dists/kumaraswamy/logpdf' ) );
+setReadOnly( kumaraswamy, 'logpdf', require( './../../../../base/dists/kumaraswamy/logpdf' ) );
 
 /**
 * @name mean
@@ -88,7 +88,7 @@ setReadOnly( kumaraswamy, 'logpdf', require( '@stdlib/stats/base/dists/kumaraswa
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/kumaraswamy/mean}
 */
-setReadOnly( kumaraswamy, 'mean', require( '@stdlib/stats/base/dists/kumaraswamy/mean' ) );
+setReadOnly( kumaraswamy, 'mean', require( './../../../../base/dists/kumaraswamy/mean' ) );
 
 /**
 * @name median
@@ -97,7 +97,7 @@ setReadOnly( kumaraswamy, 'mean', require( '@stdlib/stats/base/dists/kumaraswamy
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/kumaraswamy/median}
 */
-setReadOnly( kumaraswamy, 'median', require( '@stdlib/stats/base/dists/kumaraswamy/median' ) );
+setReadOnly( kumaraswamy, 'median', require( './../../../../base/dists/kumaraswamy/median' ) );
 
 /**
 * @name mode
@@ -106,7 +106,7 @@ setReadOnly( kumaraswamy, 'median', require( '@stdlib/stats/base/dists/kumaraswa
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/kumaraswamy/mode}
 */
-setReadOnly( kumaraswamy, 'mode', require( '@stdlib/stats/base/dists/kumaraswamy/mode' ) );
+setReadOnly( kumaraswamy, 'mode', require( './../../../../base/dists/kumaraswamy/mode' ) );
 
 /**
 * @name pdf
@@ -115,7 +115,7 @@ setReadOnly( kumaraswamy, 'mode', require( '@stdlib/stats/base/dists/kumaraswamy
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/kumaraswamy/pdf}
 */
-setReadOnly( kumaraswamy, 'pdf', require( '@stdlib/stats/base/dists/kumaraswamy/pdf' ) );
+setReadOnly( kumaraswamy, 'pdf', require( './../../../../base/dists/kumaraswamy/pdf' ) );
 
 /**
 * @name quantile
@@ -124,7 +124,7 @@ setReadOnly( kumaraswamy, 'pdf', require( '@stdlib/stats/base/dists/kumaraswamy/
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/kumaraswamy/quantile}
 */
-setReadOnly( kumaraswamy, 'quantile', require( '@stdlib/stats/base/dists/kumaraswamy/quantile' ) );
+setReadOnly( kumaraswamy, 'quantile', require( './../../../../base/dists/kumaraswamy/quantile' ) );
 
 /**
 * @name skewness
@@ -133,7 +133,7 @@ setReadOnly( kumaraswamy, 'quantile', require( '@stdlib/stats/base/dists/kumaras
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/kumaraswamy/skewness}
 */
-setReadOnly( kumaraswamy, 'skewness', require( '@stdlib/stats/base/dists/kumaraswamy/skewness' ) );
+setReadOnly( kumaraswamy, 'skewness', require( './../../../../base/dists/kumaraswamy/skewness' ) );
 
 /**
 * @name stdev
@@ -142,7 +142,7 @@ setReadOnly( kumaraswamy, 'skewness', require( '@stdlib/stats/base/dists/kumaras
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/kumaraswamy/stdev}
 */
-setReadOnly( kumaraswamy, 'stdev', require( '@stdlib/stats/base/dists/kumaraswamy/stdev' ) );
+setReadOnly( kumaraswamy, 'stdev', require( './../../../../base/dists/kumaraswamy/stdev' ) );
 
 /**
 * @name variance
@@ -151,7 +151,7 @@ setReadOnly( kumaraswamy, 'stdev', require( '@stdlib/stats/base/dists/kumaraswam
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/kumaraswamy/variance}
 */
-setReadOnly( kumaraswamy, 'variance', require( '@stdlib/stats/base/dists/kumaraswamy/variance' ) );
+setReadOnly( kumaraswamy, 'variance', require( './../../../../base/dists/kumaraswamy/variance' ) );
 
 
 // EXPORTS //

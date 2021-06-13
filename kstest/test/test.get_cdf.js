@@ -21,31 +21,31 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var arcsineCDF = require( '@stdlib/stats/base/dists/arcsine/cdf' );
-var betaCDF = require( '@stdlib/stats/base/dists/beta/cdf' );
-var betaprimeCDF = require( '@stdlib/stats/base/dists/betaprime/cdf' );
-var cauchyCDF = require( '@stdlib/stats/base/dists/cauchy/cdf' );
-var chiCDF = require( '@stdlib/stats/base/dists/chi/cdf' );
-var chisquareCDF = require( '@stdlib/stats/base/dists/chisquare/cdf' );
-var cosineCDF = require( '@stdlib/stats/base/dists/cosine/cdf' );
-var erlangCDF = require( '@stdlib/stats/base/dists/erlang/cdf' );
-var exponentialCDF = require( '@stdlib/stats/base/dists/exponential/cdf' );
-var fCDF = require( '@stdlib/stats/base/dists/f/cdf' );
-var frechetCDF = require( '@stdlib/stats/base/dists/frechet/cdf' );
-var gammaCDF = require( '@stdlib/stats/base/dists/gamma/cdf' );
-var gumbelCDF = require( '@stdlib/stats/base/dists/gumbel/cdf' );
-var invgammaCDF = require( '@stdlib/stats/base/dists/invgamma/cdf' );
-var kumaraswamyCDF = require( '@stdlib/stats/base/dists/kumaraswamy/cdf' );
-var laplaceCDF = require( '@stdlib/stats/base/dists/laplace/cdf' );
-var logisticCDF = require( '@stdlib/stats/base/dists/logistic/cdf' );
-var lognormalCDF = require( '@stdlib/stats/base/dists/lognormal/cdf' );
-var rayleighCDF = require( '@stdlib/stats/base/dists/rayleigh/cdf' );
-var tCDF = require( '@stdlib/stats/base/dists/t/cdf' );
-var uniformCDF = require( '@stdlib/stats/base/dists/uniform/cdf' );
-var normalCDF = require( '@stdlib/stats/base/dists/normal/cdf' );
-var paretoCDF = require( '@stdlib/stats/base/dists/pareto-type1/cdf' );
-var triangularCDF = require( '@stdlib/stats/base/dists/triangular/cdf' );
-var weibullCDF = require( '@stdlib/stats/base/dists/weibull/cdf' );
+var arcsineCDF = require( './../../base/dists/arcsine/cdf' );
+var betaCDF = require( './../../base/dists/beta/cdf' );
+var betaprimeCDF = require( './../../base/dists/betaprime/cdf' );
+var cauchyCDF = require( './../../base/dists/cauchy/cdf' );
+var chiCDF = require( './../../base/dists/chi/cdf' );
+var chisquareCDF = require( './../../base/dists/chisquare/cdf' );
+var cosineCDF = require( './../../base/dists/cosine/cdf' );
+var erlangCDF = require( './../../base/dists/erlang/cdf' );
+var exponentialCDF = require( './../../base/dists/exponential/cdf' );
+var fCDF = require( './../../base/dists/f/cdf' );
+var frechetCDF = require( './../../base/dists/frechet/cdf' );
+var gammaCDF = require( './../../base/dists/gamma/cdf' );
+var gumbelCDF = require( './../../base/dists/gumbel/cdf' );
+var invgammaCDF = require( './../../base/dists/invgamma/cdf' );
+var kumaraswamyCDF = require( './../../base/dists/kumaraswamy/cdf' );
+var laplaceCDF = require( './../../base/dists/laplace/cdf' );
+var logisticCDF = require( './../../base/dists/logistic/cdf' );
+var lognormalCDF = require( './../../base/dists/lognormal/cdf' );
+var rayleighCDF = require( './../../base/dists/rayleigh/cdf' );
+var tCDF = require( './../../base/dists/t/cdf' );
+var uniformCDF = require( './../../base/dists/uniform/cdf' );
+var normalCDF = require( './../../base/dists/normal/cdf' );
+var paretoCDF = require( './../../base/dists/pareto-type1/cdf' );
+var triangularCDF = require( './../../base/dists/triangular/cdf' );
+var weibullCDF = require( './../../base/dists/weibull/cdf' );
 var getCDF = require( './../lib/get_cdf.js' );
 
 

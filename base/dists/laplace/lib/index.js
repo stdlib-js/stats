@@ -43,7 +43,7 @@ var laplace = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/cdf}
 */
-setReadOnly( laplace, 'cdf', require( '@stdlib/stats/base/dists/laplace/cdf' ) );
+setReadOnly( laplace, 'cdf', require( './../../../../base/dists/laplace/cdf' ) );
 
 /**
 * @name Laplace
@@ -52,7 +52,7 @@ setReadOnly( laplace, 'cdf', require( '@stdlib/stats/base/dists/laplace/cdf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/ctor}
 */
-setReadOnly( laplace, 'Laplace', require( '@stdlib/stats/base/dists/laplace/ctor' ) );
+setReadOnly( laplace, 'Laplace', require( './../../../../base/dists/laplace/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( laplace, 'Laplace', require( '@stdlib/stats/base/dists/laplace/ctor
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/entropy}
 */
-setReadOnly( laplace, 'entropy', require( '@stdlib/stats/base/dists/laplace/entropy' ) );
+setReadOnly( laplace, 'entropy', require( './../../../../base/dists/laplace/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( laplace, 'entropy', require( '@stdlib/stats/base/dists/laplace/entr
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/kurtosis}
 */
-setReadOnly( laplace, 'kurtosis', require( '@stdlib/stats/base/dists/laplace/kurtosis' ) );
+setReadOnly( laplace, 'kurtosis', require( './../../../../base/dists/laplace/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -79,7 +79,7 @@ setReadOnly( laplace, 'kurtosis', require( '@stdlib/stats/base/dists/laplace/kur
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/logcdf}
 */
-setReadOnly( laplace, 'logcdf', require( '@stdlib/stats/base/dists/laplace/logcdf' ) );
+setReadOnly( laplace, 'logcdf', require( './../../../../base/dists/laplace/logcdf' ) );
 
 /**
 * @name logpdf
@@ -88,7 +88,7 @@ setReadOnly( laplace, 'logcdf', require( '@stdlib/stats/base/dists/laplace/logcd
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/logpdf}
 */
-setReadOnly( laplace, 'logpdf', require( '@stdlib/stats/base/dists/laplace/logpdf' ) );
+setReadOnly( laplace, 'logpdf', require( './../../../../base/dists/laplace/logpdf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( laplace, 'logpdf', require( '@stdlib/stats/base/dists/laplace/logpd
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/mean}
 */
-setReadOnly( laplace, 'mean', require( '@stdlib/stats/base/dists/laplace/mean' ) );
+setReadOnly( laplace, 'mean', require( './../../../../base/dists/laplace/mean' ) );
 
 /**
 * @name median
@@ -106,7 +106,7 @@ setReadOnly( laplace, 'mean', require( '@stdlib/stats/base/dists/laplace/mean' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/median}
 */
-setReadOnly( laplace, 'median', require( '@stdlib/stats/base/dists/laplace/median' ) );
+setReadOnly( laplace, 'median', require( './../../../../base/dists/laplace/median' ) );
 
 /**
 * @name mgf
@@ -115,7 +115,7 @@ setReadOnly( laplace, 'median', require( '@stdlib/stats/base/dists/laplace/media
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/mgf}
 */
-setReadOnly( laplace, 'mgf', require( '@stdlib/stats/base/dists/laplace/mgf' ) );
+setReadOnly( laplace, 'mgf', require( './../../../../base/dists/laplace/mgf' ) );
 
 /**
 * @name mode
@@ -124,7 +124,7 @@ setReadOnly( laplace, 'mgf', require( '@stdlib/stats/base/dists/laplace/mgf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/mode}
 */
-setReadOnly( laplace, 'mode', require( '@stdlib/stats/base/dists/laplace/mode' ) );
+setReadOnly( laplace, 'mode', require( './../../../../base/dists/laplace/mode' ) );
 
 /**
 * @name pdf
@@ -133,7 +133,7 @@ setReadOnly( laplace, 'mode', require( '@stdlib/stats/base/dists/laplace/mode' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/pdf}
 */
-setReadOnly( laplace, 'pdf', require( '@stdlib/stats/base/dists/laplace/pdf' ) );
+setReadOnly( laplace, 'pdf', require( './../../../../base/dists/laplace/pdf' ) );
 
 /**
 * @name quantile
@@ -142,7 +142,7 @@ setReadOnly( laplace, 'pdf', require( '@stdlib/stats/base/dists/laplace/pdf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/quantile}
 */
-setReadOnly( laplace, 'quantile', require( '@stdlib/stats/base/dists/laplace/quantile' ) );
+setReadOnly( laplace, 'quantile', require( './../../../../base/dists/laplace/quantile' ) );
 
 /**
 * @name skewness
@@ -151,7 +151,7 @@ setReadOnly( laplace, 'quantile', require( '@stdlib/stats/base/dists/laplace/qua
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/skewness}
 */
-setReadOnly( laplace, 'skewness', require( '@stdlib/stats/base/dists/laplace/skewness' ) );
+setReadOnly( laplace, 'skewness', require( './../../../../base/dists/laplace/skewness' ) );
 
 /**
 * @name stdev
@@ -160,7 +160,7 @@ setReadOnly( laplace, 'skewness', require( '@stdlib/stats/base/dists/laplace/ske
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/stdev}
 */
-setReadOnly( laplace, 'stdev', require( '@stdlib/stats/base/dists/laplace/stdev' ) );
+setReadOnly( laplace, 'stdev', require( './../../../../base/dists/laplace/stdev' ) );
 
 /**
 * @name variance
@@ -169,7 +169,7 @@ setReadOnly( laplace, 'stdev', require( '@stdlib/stats/base/dists/laplace/stdev'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/laplace/variance}
 */
-setReadOnly( laplace, 'variance', require( '@stdlib/stats/base/dists/laplace/variance' ) );
+setReadOnly( laplace, 'variance', require( './../../../../base/dists/laplace/variance' ) );
 
 
 // EXPORTS //

@@ -21,14 +21,14 @@
 // MODULES //
 
 var isPositiveInteger = require( '@stdlib/assert/is-positive-integer' ).isPrimitive;
-var incrmsum = require( '@stdlib/stats/incr/msum' );
-var incrmmean = require( '@stdlib/stats/incr/mmean' );
-var incrmvariance = require( '@stdlib/stats/incr/mvariance' );
-var incrmstdev = require( '@stdlib/stats/incr/mstdev' );
-var incrmmin = require( '@stdlib/stats/incr/mmin' );
-var incrmmax = require( '@stdlib/stats/incr/mmax' );
-var incrmrange = require( '@stdlib/stats/incr/mrange' );
-var incrmmidrange = require( '@stdlib/stats/incr/mmidrange' );
+var incrmsum = require( './../../../incr/msum' );
+var incrmmean = require( './../../../incr/mmean' );
+var incrmvariance = require( './../../../incr/mvariance' );
+var incrmstdev = require( './../../../incr/mstdev' );
+var incrmmin = require( './../../../incr/mmin' );
+var incrmmax = require( './../../../incr/mmax' );
+var incrmrange = require( './../../../incr/mrange' );
+var incrmmidrange = require( './../../../incr/mmidrange' );
 
 
 // MAIN //

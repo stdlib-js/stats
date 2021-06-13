@@ -27,19 +27,19 @@ var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-propert
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var entropy = require( '@stdlib/stats/base/dists/arcsine/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/arcsine/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/arcsine/mean' );
-var median = require( '@stdlib/stats/base/dists/arcsine/median' );
-var mode = require( '@stdlib/stats/base/dists/arcsine/mode' );
-var skewness = require( '@stdlib/stats/base/dists/arcsine/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/arcsine/stdev' );
-var variance = require( '@stdlib/stats/base/dists/arcsine/variance' );
-var cdf = require( '@stdlib/stats/base/dists/arcsine/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/arcsine/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/arcsine/logpdf' );
-var pdf = require( '@stdlib/stats/base/dists/arcsine/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/arcsine/quantile' );
+var entropy = require( './../../../../../base/dists/arcsine/entropy' );
+var kurtosis = require( './../../../../../base/dists/arcsine/kurtosis' );
+var mean = require( './../../../../../base/dists/arcsine/mean' );
+var median = require( './../../../../../base/dists/arcsine/median' );
+var mode = require( './../../../../../base/dists/arcsine/mode' );
+var skewness = require( './../../../../../base/dists/arcsine/skewness' );
+var stdev = require( './../../../../../base/dists/arcsine/stdev' );
+var variance = require( './../../../../../base/dists/arcsine/variance' );
+var cdf = require( './../../../../../base/dists/arcsine/cdf' );
+var logcdf = require( './../../../../../base/dists/arcsine/logcdf' );
+var logpdf = require( './../../../../../base/dists/arcsine/logpdf' );
+var pdf = require( './../../../../../base/dists/arcsine/pdf' );
+var quantile = require( './../../../../../base/dists/arcsine/quantile' );
 
 
 // FUNCTIONS //

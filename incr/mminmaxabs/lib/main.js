@@ -22,7 +22,7 @@
 
 var isPositiveInteger = require( '@stdlib/assert/is-positive-integer' ).isPrimitive;
 var isArrayLike = require( '@stdlib/assert/is-array-like-object' );
-var incrmminmax = require( '@stdlib/stats/incr/mminmax' );
+var incrmminmax = require( './../../../incr/mminmax' );
 var abs = require( '@stdlib/math/base/special/abs' );
 
 

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dvarmpn = require( '@stdlib/stats/base/dvarmpn' ).ndarray;
+var dvarmpn = require( './../../../base/dvarmpn' ).ndarray;
 
 
 // MAIN //

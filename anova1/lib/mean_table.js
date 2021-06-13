@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var incrstdev = require( '@stdlib/stats/incr/stdev' );
+var incrstdev = require( './../../incr/stdev' );
 
 
 // MAIN //

@@ -26,19 +26,19 @@ var defineProperty = require( '@stdlib/utils/define-property' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
-var entropy = require( '@stdlib/stats/base/dists/gamma/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/gamma/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/gamma/mean' );
-var mode = require( '@stdlib/stats/base/dists/gamma/mode' );
-var quantile = require( '@stdlib/stats/base/dists/gamma/quantile' );
-var skewness = require( '@stdlib/stats/base/dists/gamma/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/gamma/stdev' );
-var variance = require( '@stdlib/stats/base/dists/gamma/variance' );
-var cdf = require( '@stdlib/stats/base/dists/gamma/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/gamma/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/gamma/logpdf' );
-var mgf = require( '@stdlib/stats/base/dists/gamma/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/gamma/pdf' );
+var entropy = require( './../../../../../base/dists/gamma/entropy' );
+var kurtosis = require( './../../../../../base/dists/gamma/kurtosis' );
+var mean = require( './../../../../../base/dists/gamma/mean' );
+var mode = require( './../../../../../base/dists/gamma/mode' );
+var quantile = require( './../../../../../base/dists/gamma/quantile' );
+var skewness = require( './../../../../../base/dists/gamma/skewness' );
+var stdev = require( './../../../../../base/dists/gamma/stdev' );
+var variance = require( './../../../../../base/dists/gamma/variance' );
+var cdf = require( './../../../../../base/dists/gamma/cdf' );
+var logcdf = require( './../../../../../base/dists/gamma/logcdf' );
+var logpdf = require( './../../../../../base/dists/gamma/logpdf' );
+var mgf = require( './../../../../../base/dists/gamma/mgf' );
+var pdf = require( './../../../../../base/dists/gamma/pdf' );
 
 
 // FUNCTIONS //

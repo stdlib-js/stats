@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var sstdevpn = require( '@stdlib/stats/base/sstdevpn' );
+var sstdevpn = require( './../../../base/sstdevpn' );
 
 
 // MAIN //

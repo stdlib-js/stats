@@ -22,7 +22,7 @@
 
 var isIteratorLike = require( '@stdlib/assert/is-iterator-like' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var incrsum = require( '@stdlib/stats/incr/sum' );
+var incrsum = require( './../../../incr/sum' );
 
 
 // MAIN //

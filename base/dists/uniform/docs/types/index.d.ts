@@ -21,20 +21,20 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/uniform/cdf' );
-import Uniform = require( '@stdlib/stats/base/dists/uniform/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/uniform/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/uniform/kurtosis' );
-import logcdf = require( '@stdlib/stats/base/dists/uniform/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/uniform/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/uniform/mean' );
-import median = require( '@stdlib/stats/base/dists/uniform/median' );
-import mgf = require( '@stdlib/stats/base/dists/uniform/mgf' );
-import pdf = require( '@stdlib/stats/base/dists/uniform/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/uniform/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/uniform/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/uniform/stdev' );
-import variance = require( '@stdlib/stats/base/dists/uniform/variance' );
+import cdf = require( './../../../../../base/dists/uniform/cdf' );
+import Uniform = require( './../../../../../base/dists/uniform/ctor' );
+import entropy = require( './../../../../../base/dists/uniform/entropy' );
+import kurtosis = require( './../../../../../base/dists/uniform/kurtosis' );
+import logcdf = require( './../../../../../base/dists/uniform/logcdf' );
+import logpdf = require( './../../../../../base/dists/uniform/logpdf' );
+import mean = require( './../../../../../base/dists/uniform/mean' );
+import median = require( './../../../../../base/dists/uniform/median' );
+import mgf = require( './../../../../../base/dists/uniform/mgf' );
+import pdf = require( './../../../../../base/dists/uniform/pdf' );
+import quantile = require( './../../../../../base/dists/uniform/quantile' );
+import skewness = require( './../../../../../base/dists/uniform/skewness' );
+import stdev = require( './../../../../../base/dists/uniform/stdev' );
+import variance = require( './../../../../../base/dists/uniform/variance' );
 
 /**
 * Interface describing the `uniform` namespace.

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var variancepn = require( '@stdlib/stats/base/variancepn' ).ndarray;
+var variancepn = require( './../../../base/variancepn' ).ndarray;
 
 
 // MAIN //

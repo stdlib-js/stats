@@ -23,20 +23,20 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/degenerate/quantile' );
-var cdf = require( '@stdlib/stats/base/dists/degenerate/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/degenerate/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/degenerate/logpdf' );
-var logpmf = require( '@stdlib/stats/base/dists/degenerate/logpmf' );
-var mgf = require( '@stdlib/stats/base/dists/degenerate/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/degenerate/pdf' );
-var pmf = require( '@stdlib/stats/base/dists/degenerate/pmf' );
-var entropy = require( '@stdlib/stats/base/dists/degenerate/entropy' );
-var variance = require( '@stdlib/stats/base/dists/degenerate/variance' );
-var median = require( '@stdlib/stats/base/dists/degenerate/median' );
-var mode = require( '@stdlib/stats/base/dists/degenerate/mode' );
-var stdev = require( '@stdlib/stats/base/dists/degenerate/stdev' );
-var mean = require( '@stdlib/stats/base/dists/degenerate/mean' );
+var quantile = require( './../../../../../base/dists/degenerate/quantile' );
+var cdf = require( './../../../../../base/dists/degenerate/cdf' );
+var logcdf = require( './../../../../../base/dists/degenerate/logcdf' );
+var logpdf = require( './../../../../../base/dists/degenerate/logpdf' );
+var logpmf = require( './../../../../../base/dists/degenerate/logpmf' );
+var mgf = require( './../../../../../base/dists/degenerate/mgf' );
+var pdf = require( './../../../../../base/dists/degenerate/pdf' );
+var pmf = require( './../../../../../base/dists/degenerate/pmf' );
+var entropy = require( './../../../../../base/dists/degenerate/entropy' );
+var variance = require( './../../../../../base/dists/degenerate/variance' );
+var median = require( './../../../../../base/dists/degenerate/median' );
+var mode = require( './../../../../../base/dists/degenerate/mode' );
+var stdev = require( './../../../../../base/dists/degenerate/stdev' );
+var mean = require( './../../../../../base/dists/degenerate/mean' );
 var Degenerate = require( './../lib' );
 
 

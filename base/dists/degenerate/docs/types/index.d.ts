@@ -21,21 +21,21 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/degenerate/cdf' );
-import Degenerate = require( '@stdlib/stats/base/dists/degenerate/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/degenerate/entropy' );
-import logcdf = require( '@stdlib/stats/base/dists/degenerate/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/degenerate/logpdf' );
-import logpmf = require( '@stdlib/stats/base/dists/degenerate/logpmf' );
-import mean = require( '@stdlib/stats/base/dists/degenerate/mean' );
-import median = require( '@stdlib/stats/base/dists/degenerate/median' );
-import mgf = require( '@stdlib/stats/base/dists/degenerate/mgf' );
-import mode = require( '@stdlib/stats/base/dists/degenerate/mode' );
-import pdf = require( '@stdlib/stats/base/dists/degenerate/pdf' );
-import pmf = require( '@stdlib/stats/base/dists/degenerate/pmf' );
-import quantile = require( '@stdlib/stats/base/dists/degenerate/quantile' );
-import stdev = require( '@stdlib/stats/base/dists/degenerate/stdev' );
-import variance = require( '@stdlib/stats/base/dists/degenerate/variance' );
+import cdf = require( './../../../../../base/dists/degenerate/cdf' );
+import Degenerate = require( './../../../../../base/dists/degenerate/ctor' );
+import entropy = require( './../../../../../base/dists/degenerate/entropy' );
+import logcdf = require( './../../../../../base/dists/degenerate/logcdf' );
+import logpdf = require( './../../../../../base/dists/degenerate/logpdf' );
+import logpmf = require( './../../../../../base/dists/degenerate/logpmf' );
+import mean = require( './../../../../../base/dists/degenerate/mean' );
+import median = require( './../../../../../base/dists/degenerate/median' );
+import mgf = require( './../../../../../base/dists/degenerate/mgf' );
+import mode = require( './../../../../../base/dists/degenerate/mode' );
+import pdf = require( './../../../../../base/dists/degenerate/pdf' );
+import pmf = require( './../../../../../base/dists/degenerate/pmf' );
+import quantile = require( './../../../../../base/dists/degenerate/quantile' );
+import stdev = require( './../../../../../base/dists/degenerate/stdev' );
+import variance = require( './../../../../../base/dists/degenerate/variance' );
 
 /**
 * Interface describing the `degenerate` namespace.

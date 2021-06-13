@@ -21,7 +21,7 @@
 // MODULES //
 
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
-var incrpcorr = require( '@stdlib/stats/incr/pcorr' );
+var incrpcorr = require( './../../../incr/pcorr' );
 
 
 // MAIN //

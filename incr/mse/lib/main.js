@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var incrmean = require( '@stdlib/stats/incr/mean' );
+var incrmean = require( './../../../incr/mean' );
 
 
 // MAIN //

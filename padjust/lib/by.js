@@ -21,7 +21,7 @@
 // MODULES //
 
 var min = require( '@stdlib/math/base/special/min' );
-var cumin = require( '@stdlib/stats/base/cumin' );
+var cumin = require( './../../base/cumin' );
 var Float64Array = require( '@stdlib/array/float64' );
 var order = require( './order.js' );
 

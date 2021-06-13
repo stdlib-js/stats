@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dnanmeanpn = require( '@stdlib/stats/base/dnanmeanpn' );
+var dnanmeanpn = require( './../../../base/dnanmeanpn' );
 
 
 // MAIN //

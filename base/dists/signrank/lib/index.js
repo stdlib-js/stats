@@ -43,7 +43,7 @@ var signrank = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/signrank/cdf}
 */
-setReadOnly( signrank, 'cdf', require( '@stdlib/stats/base/dists/signrank/cdf' ) );
+setReadOnly( signrank, 'cdf', require( './../../../../base/dists/signrank/cdf' ) );
 
 /**
 * @name pdf
@@ -52,7 +52,7 @@ setReadOnly( signrank, 'cdf', require( '@stdlib/stats/base/dists/signrank/cdf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/signrank/pdf}
 */
-setReadOnly( signrank, 'pdf', require( '@stdlib/stats/base/dists/signrank/pdf' ) );
+setReadOnly( signrank, 'pdf', require( './../../../../base/dists/signrank/pdf' ) );
 
 /**
 * @name quantile
@@ -61,7 +61,7 @@ setReadOnly( signrank, 'pdf', require( '@stdlib/stats/base/dists/signrank/pdf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/signrank/quantile}
 */
-setReadOnly( signrank, 'quantile', require( '@stdlib/stats/base/dists/signrank/quantile' ) );
+setReadOnly( signrank, 'quantile', require( './../../../../base/dists/signrank/quantile' ) );
 
 
 // EXPORTS //

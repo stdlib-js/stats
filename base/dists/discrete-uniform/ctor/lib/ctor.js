@@ -26,19 +26,19 @@ var defineProperty = require( '@stdlib/utils/define-property' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isInteger = require( '@stdlib/assert/is-integer' ).isPrimitive;
-var entropy = require( '@stdlib/stats/base/dists/discrete-uniform/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/discrete-uniform/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/discrete-uniform/mean' );
-var median = require( '@stdlib/stats/base/dists/discrete-uniform/median' );
-var skewness = require( '@stdlib/stats/base/dists/discrete-uniform/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/discrete-uniform/stdev' );
-var variance = require( '@stdlib/stats/base/dists/discrete-uniform/variance' );
-var cdf = require( '@stdlib/stats/base/dists/discrete-uniform/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/discrete-uniform/logcdf' );
-var logpmf = require( '@stdlib/stats/base/dists/discrete-uniform/logpmf' );
-var mgf = require( '@stdlib/stats/base/dists/discrete-uniform/mgf' );
-var pmf = require( '@stdlib/stats/base/dists/discrete-uniform/pmf' );
-var quantile = require( '@stdlib/stats/base/dists/discrete-uniform/quantile' );
+var entropy = require( './../../../../../base/dists/discrete-uniform/entropy' );
+var kurtosis = require( './../../../../../base/dists/discrete-uniform/kurtosis' );
+var mean = require( './../../../../../base/dists/discrete-uniform/mean' );
+var median = require( './../../../../../base/dists/discrete-uniform/median' );
+var skewness = require( './../../../../../base/dists/discrete-uniform/skewness' );
+var stdev = require( './../../../../../base/dists/discrete-uniform/stdev' );
+var variance = require( './../../../../../base/dists/discrete-uniform/variance' );
+var cdf = require( './../../../../../base/dists/discrete-uniform/cdf' );
+var logcdf = require( './../../../../../base/dists/discrete-uniform/logcdf' );
+var logpmf = require( './../../../../../base/dists/discrete-uniform/logpmf' );
+var mgf = require( './../../../../../base/dists/discrete-uniform/mgf' );
+var pmf = require( './../../../../../base/dists/discrete-uniform/pmf' );
+var quantile = require( './../../../../../base/dists/discrete-uniform/quantile' );
 
 
 // FUNCTIONS //

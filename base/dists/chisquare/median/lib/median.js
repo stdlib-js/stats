@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var quantile = require( '@stdlib/stats/base/dists/chisquare/quantile' );
+var quantile = require( './../../../../../base/dists/chisquare/quantile' );
 
 
 // MAIN //

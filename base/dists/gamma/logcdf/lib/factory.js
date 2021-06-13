@@ -21,7 +21,7 @@
 // MODULES //
 
 var constantFunction = require( '@stdlib/utils/constant-function' );
-var degenerate = require( '@stdlib/stats/base/dists/degenerate/logcdf' ).factory;
+var degenerate = require( './../../../../../base/dists/degenerate/logcdf' ).factory;
 var gammainc = require( '@stdlib/math/base/special/gammainc' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var PINF = require( '@stdlib/constants/float64/pinf' );

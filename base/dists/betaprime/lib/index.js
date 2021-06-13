@@ -43,7 +43,7 @@ var betaprime = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/betaprime/cdf}
 */
-setReadOnly( betaprime, 'cdf', require( '@stdlib/stats/base/dists/betaprime/cdf' ) );
+setReadOnly( betaprime, 'cdf', require( './../../../../base/dists/betaprime/cdf' ) );
 
 /**
 * @name BetaPrime
@@ -52,7 +52,7 @@ setReadOnly( betaprime, 'cdf', require( '@stdlib/stats/base/dists/betaprime/cdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/betaprime/ctor}
 */
-setReadOnly( betaprime, 'BetaPrime', require( '@stdlib/stats/base/dists/betaprime/ctor' ) );
+setReadOnly( betaprime, 'BetaPrime', require( './../../../../base/dists/betaprime/ctor' ) );
 
 /**
 * @name kurtosis
@@ -61,7 +61,7 @@ setReadOnly( betaprime, 'BetaPrime', require( '@stdlib/stats/base/dists/betaprim
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/betaprime/kurtosis}
 */
-setReadOnly( betaprime, 'kurtosis', require( '@stdlib/stats/base/dists/betaprime/kurtosis' ) );
+setReadOnly( betaprime, 'kurtosis', require( './../../../../base/dists/betaprime/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -70,7 +70,7 @@ setReadOnly( betaprime, 'kurtosis', require( '@stdlib/stats/base/dists/betaprime
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/betaprime/logcdf}
 */
-setReadOnly( betaprime, 'logcdf', require( '@stdlib/stats/base/dists/betaprime/logcdf' ) );
+setReadOnly( betaprime, 'logcdf', require( './../../../../base/dists/betaprime/logcdf' ) );
 
 /**
 * @name logpdf
@@ -79,7 +79,7 @@ setReadOnly( betaprime, 'logcdf', require( '@stdlib/stats/base/dists/betaprime/l
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/betaprime/logpdf}
 */
-setReadOnly( betaprime, 'logpdf', require( '@stdlib/stats/base/dists/betaprime/logpdf' ) );
+setReadOnly( betaprime, 'logpdf', require( './../../../../base/dists/betaprime/logpdf' ) );
 
 /**
 * @name mean
@@ -88,7 +88,7 @@ setReadOnly( betaprime, 'logpdf', require( '@stdlib/stats/base/dists/betaprime/l
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/betaprime/mean}
 */
-setReadOnly( betaprime, 'mean', require( '@stdlib/stats/base/dists/betaprime/mean' ) );
+setReadOnly( betaprime, 'mean', require( './../../../../base/dists/betaprime/mean' ) );
 
 /**
 * @name mode
@@ -97,7 +97,7 @@ setReadOnly( betaprime, 'mean', require( '@stdlib/stats/base/dists/betaprime/mea
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/betaprime/mode}
 */
-setReadOnly( betaprime, 'mode', require( '@stdlib/stats/base/dists/betaprime/mode' ) );
+setReadOnly( betaprime, 'mode', require( './../../../../base/dists/betaprime/mode' ) );
 
 /**
 * @name pdf
@@ -106,7 +106,7 @@ setReadOnly( betaprime, 'mode', require( '@stdlib/stats/base/dists/betaprime/mod
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/betaprime/pdf}
 */
-setReadOnly( betaprime, 'pdf', require( '@stdlib/stats/base/dists/betaprime/pdf' ) );
+setReadOnly( betaprime, 'pdf', require( './../../../../base/dists/betaprime/pdf' ) );
 
 /**
 * @name quantile
@@ -115,7 +115,7 @@ setReadOnly( betaprime, 'pdf', require( '@stdlib/stats/base/dists/betaprime/pdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/betaprime/quantile}
 */
-setReadOnly( betaprime, 'quantile', require( '@stdlib/stats/base/dists/betaprime/quantile' ) );
+setReadOnly( betaprime, 'quantile', require( './../../../../base/dists/betaprime/quantile' ) );
 
 /**
 * @name skewness
@@ -124,7 +124,7 @@ setReadOnly( betaprime, 'quantile', require( '@stdlib/stats/base/dists/betaprime
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/betaprime/skewness}
 */
-setReadOnly( betaprime, 'skewness', require( '@stdlib/stats/base/dists/betaprime/skewness' ) );
+setReadOnly( betaprime, 'skewness', require( './../../../../base/dists/betaprime/skewness' ) );
 
 /**
 * @name stdev
@@ -133,7 +133,7 @@ setReadOnly( betaprime, 'skewness', require( '@stdlib/stats/base/dists/betaprime
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/betaprime/stdev}
 */
-setReadOnly( betaprime, 'stdev', require( '@stdlib/stats/base/dists/betaprime/stdev' ) );
+setReadOnly( betaprime, 'stdev', require( './../../../../base/dists/betaprime/stdev' ) );
 
 /**
 * @name variance
@@ -142,7 +142,7 @@ setReadOnly( betaprime, 'stdev', require( '@stdlib/stats/base/dists/betaprime/st
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/betaprime/variance}
 */
-setReadOnly( betaprime, 'variance', require( '@stdlib/stats/base/dists/betaprime/variance' ) );
+setReadOnly( betaprime, 'variance', require( './../../../../base/dists/betaprime/variance' ) );
 
 
 // EXPORTS //

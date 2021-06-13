@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dvarmpn = require( '@stdlib/stats/base/dvarmpn' );
+var dvarmpn = require( './../../../base/dvarmpn' );
 
 
 // MAIN //

@@ -23,14 +23,14 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/cauchy/quantile' );
-var logcdf = require( '@stdlib/stats/base/dists/cauchy/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/cauchy/logpdf' );
-var cdf = require( '@stdlib/stats/base/dists/cauchy/cdf' );
-var pdf = require( '@stdlib/stats/base/dists/cauchy/pdf' );
-var entropy = require( '@stdlib/stats/base/dists/cauchy/entropy' );
-var median = require( '@stdlib/stats/base/dists/cauchy/median' );
-var mode = require( '@stdlib/stats/base/dists/cauchy/mode' );
+var quantile = require( './../../../../../base/dists/cauchy/quantile' );
+var logcdf = require( './../../../../../base/dists/cauchy/logcdf' );
+var logpdf = require( './../../../../../base/dists/cauchy/logpdf' );
+var cdf = require( './../../../../../base/dists/cauchy/cdf' );
+var pdf = require( './../../../../../base/dists/cauchy/pdf' );
+var entropy = require( './../../../../../base/dists/cauchy/entropy' );
+var median = require( './../../../../../base/dists/cauchy/median' );
+var mode = require( './../../../../../base/dists/cauchy/mode' );
 var Cauchy = require( './../lib' );
 
 

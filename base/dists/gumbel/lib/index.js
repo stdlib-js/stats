@@ -43,7 +43,7 @@ var gumbel = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/cdf}
 */
-setReadOnly( gumbel, 'cdf', require( '@stdlib/stats/base/dists/gumbel/cdf' ) );
+setReadOnly( gumbel, 'cdf', require( './../../../../base/dists/gumbel/cdf' ) );
 
 /**
 * @name Gumbel
@@ -52,7 +52,7 @@ setReadOnly( gumbel, 'cdf', require( '@stdlib/stats/base/dists/gumbel/cdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/ctor}
 */
-setReadOnly( gumbel, 'Gumbel', require( '@stdlib/stats/base/dists/gumbel/ctor' ) );
+setReadOnly( gumbel, 'Gumbel', require( './../../../../base/dists/gumbel/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( gumbel, 'Gumbel', require( '@stdlib/stats/base/dists/gumbel/ctor' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/entropy}
 */
-setReadOnly( gumbel, 'entropy', require( '@stdlib/stats/base/dists/gumbel/entropy' ) );
+setReadOnly( gumbel, 'entropy', require( './../../../../base/dists/gumbel/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( gumbel, 'entropy', require( '@stdlib/stats/base/dists/gumbel/entrop
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/kurtosis}
 */
-setReadOnly( gumbel, 'kurtosis', require( '@stdlib/stats/base/dists/gumbel/kurtosis' ) );
+setReadOnly( gumbel, 'kurtosis', require( './../../../../base/dists/gumbel/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -79,7 +79,7 @@ setReadOnly( gumbel, 'kurtosis', require( '@stdlib/stats/base/dists/gumbel/kurto
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/logcdf}
 */
-setReadOnly( gumbel, 'logcdf', require( '@stdlib/stats/base/dists/gumbel/logcdf' ) );
+setReadOnly( gumbel, 'logcdf', require( './../../../../base/dists/gumbel/logcdf' ) );
 
 /**
 * @name logpdf
@@ -88,7 +88,7 @@ setReadOnly( gumbel, 'logcdf', require( '@stdlib/stats/base/dists/gumbel/logcdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/logpdf}
 */
-setReadOnly( gumbel, 'logpdf', require( '@stdlib/stats/base/dists/gumbel/logpdf' ) );
+setReadOnly( gumbel, 'logpdf', require( './../../../../base/dists/gumbel/logpdf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( gumbel, 'logpdf', require( '@stdlib/stats/base/dists/gumbel/logpdf'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/mean}
 */
-setReadOnly( gumbel, 'mean', require( '@stdlib/stats/base/dists/gumbel/mean' ) );
+setReadOnly( gumbel, 'mean', require( './../../../../base/dists/gumbel/mean' ) );
 
 /**
 * @name median
@@ -106,7 +106,7 @@ setReadOnly( gumbel, 'mean', require( '@stdlib/stats/base/dists/gumbel/mean' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/median}
 */
-setReadOnly( gumbel, 'median', require( '@stdlib/stats/base/dists/gumbel/median' ) );
+setReadOnly( gumbel, 'median', require( './../../../../base/dists/gumbel/median' ) );
 
 /**
 * @name mgf
@@ -115,7 +115,7 @@ setReadOnly( gumbel, 'median', require( '@stdlib/stats/base/dists/gumbel/median'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/mgf}
 */
-setReadOnly( gumbel, 'mgf', require( '@stdlib/stats/base/dists/gumbel/mgf' ) );
+setReadOnly( gumbel, 'mgf', require( './../../../../base/dists/gumbel/mgf' ) );
 
 /**
 * @name mode
@@ -124,7 +124,7 @@ setReadOnly( gumbel, 'mgf', require( '@stdlib/stats/base/dists/gumbel/mgf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/mode}
 */
-setReadOnly( gumbel, 'mode', require( '@stdlib/stats/base/dists/gumbel/mode' ) );
+setReadOnly( gumbel, 'mode', require( './../../../../base/dists/gumbel/mode' ) );
 
 /**
 * @name pdf
@@ -133,7 +133,7 @@ setReadOnly( gumbel, 'mode', require( '@stdlib/stats/base/dists/gumbel/mode' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/pdf}
 */
-setReadOnly( gumbel, 'pdf', require( '@stdlib/stats/base/dists/gumbel/pdf' ) );
+setReadOnly( gumbel, 'pdf', require( './../../../../base/dists/gumbel/pdf' ) );
 
 /**
 * @name quantile
@@ -142,7 +142,7 @@ setReadOnly( gumbel, 'pdf', require( '@stdlib/stats/base/dists/gumbel/pdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/quantile}
 */
-setReadOnly( gumbel, 'quantile', require( '@stdlib/stats/base/dists/gumbel/quantile' ) );
+setReadOnly( gumbel, 'quantile', require( './../../../../base/dists/gumbel/quantile' ) );
 
 /**
 * @name skewness
@@ -151,7 +151,7 @@ setReadOnly( gumbel, 'quantile', require( '@stdlib/stats/base/dists/gumbel/quant
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/skewness}
 */
-setReadOnly( gumbel, 'skewness', require( '@stdlib/stats/base/dists/gumbel/skewness' ) );
+setReadOnly( gumbel, 'skewness', require( './../../../../base/dists/gumbel/skewness' ) );
 
 /**
 * @name stdev
@@ -160,7 +160,7 @@ setReadOnly( gumbel, 'skewness', require( '@stdlib/stats/base/dists/gumbel/skewn
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/stdev}
 */
-setReadOnly( gumbel, 'stdev', require( '@stdlib/stats/base/dists/gumbel/stdev' ) );
+setReadOnly( gumbel, 'stdev', require( './../../../../base/dists/gumbel/stdev' ) );
 
 /**
 * @name variance
@@ -169,7 +169,7 @@ setReadOnly( gumbel, 'stdev', require( '@stdlib/stats/base/dists/gumbel/stdev' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gumbel/variance}
 */
-setReadOnly( gumbel, 'variance', require( '@stdlib/stats/base/dists/gumbel/variance' ) );
+setReadOnly( gumbel, 'variance', require( './../../../../base/dists/gumbel/variance' ) );
 
 
 // EXPORTS //

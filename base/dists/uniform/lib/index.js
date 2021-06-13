@@ -43,7 +43,7 @@ var uniform = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/uniform/cdf}
 */
-setReadOnly( uniform, 'cdf', require( '@stdlib/stats/base/dists/uniform/cdf' ) );
+setReadOnly( uniform, 'cdf', require( './../../../../base/dists/uniform/cdf' ) );
 
 /**
 * @name Uniform
@@ -52,7 +52,7 @@ setReadOnly( uniform, 'cdf', require( '@stdlib/stats/base/dists/uniform/cdf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/uniform/ctor}
 */
-setReadOnly( uniform, 'Uniform', require( '@stdlib/stats/base/dists/uniform/ctor' ) );
+setReadOnly( uniform, 'Uniform', require( './../../../../base/dists/uniform/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( uniform, 'Uniform', require( '@stdlib/stats/base/dists/uniform/ctor
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/uniform/entropy}
 */
-setReadOnly( uniform, 'entropy', require( '@stdlib/stats/base/dists/uniform/entropy' ) );
+setReadOnly( uniform, 'entropy', require( './../../../../base/dists/uniform/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( uniform, 'entropy', require( '@stdlib/stats/base/dists/uniform/entr
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/uniform/kurtosis}
 */
-setReadOnly( uniform, 'kurtosis', require( '@stdlib/stats/base/dists/uniform/kurtosis' ) );
+setReadOnly( uniform, 'kurtosis', require( './../../../../base/dists/uniform/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -79,7 +79,7 @@ setReadOnly( uniform, 'kurtosis', require( '@stdlib/stats/base/dists/uniform/kur
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/uniform/logcdf}
 */
-setReadOnly( uniform, 'logcdf', require( '@stdlib/stats/base/dists/uniform/logcdf' ) );
+setReadOnly( uniform, 'logcdf', require( './../../../../base/dists/uniform/logcdf' ) );
 
 /**
 * @name logpdf
@@ -88,7 +88,7 @@ setReadOnly( uniform, 'logcdf', require( '@stdlib/stats/base/dists/uniform/logcd
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/uniform/logpdf}
 */
-setReadOnly( uniform, 'logpdf', require( '@stdlib/stats/base/dists/uniform/logpdf' ) );
+setReadOnly( uniform, 'logpdf', require( './../../../../base/dists/uniform/logpdf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( uniform, 'logpdf', require( '@stdlib/stats/base/dists/uniform/logpd
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/uniform/mean}
 */
-setReadOnly( uniform, 'mean', require( '@stdlib/stats/base/dists/uniform/mean' ) );
+setReadOnly( uniform, 'mean', require( './../../../../base/dists/uniform/mean' ) );
 
 /**
 * @name median
@@ -106,7 +106,7 @@ setReadOnly( uniform, 'mean', require( '@stdlib/stats/base/dists/uniform/mean' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/uniform/median}
 */
-setReadOnly( uniform, 'median', require( '@stdlib/stats/base/dists/uniform/median' ) );
+setReadOnly( uniform, 'median', require( './../../../../base/dists/uniform/median' ) );
 
 /**
 * @name mgf
@@ -115,7 +115,7 @@ setReadOnly( uniform, 'median', require( '@stdlib/stats/base/dists/uniform/media
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/uniform/mgf}
 */
-setReadOnly( uniform, 'mgf', require( '@stdlib/stats/base/dists/uniform/mgf' ) );
+setReadOnly( uniform, 'mgf', require( './../../../../base/dists/uniform/mgf' ) );
 
 /**
 * @name pdf
@@ -124,7 +124,7 @@ setReadOnly( uniform, 'mgf', require( '@stdlib/stats/base/dists/uniform/mgf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/uniform/pdf}
 */
-setReadOnly( uniform, 'pdf', require( '@stdlib/stats/base/dists/uniform/pdf' ) );
+setReadOnly( uniform, 'pdf', require( './../../../../base/dists/uniform/pdf' ) );
 
 /**
 * @name quantile
@@ -133,7 +133,7 @@ setReadOnly( uniform, 'pdf', require( '@stdlib/stats/base/dists/uniform/pdf' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/uniform/quantile}
 */
-setReadOnly( uniform, 'quantile', require( '@stdlib/stats/base/dists/uniform/quantile' ) );
+setReadOnly( uniform, 'quantile', require( './../../../../base/dists/uniform/quantile' ) );
 
 /**
 * @name skewness
@@ -142,7 +142,7 @@ setReadOnly( uniform, 'quantile', require( '@stdlib/stats/base/dists/uniform/qua
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/uniform/skewness}
 */
-setReadOnly( uniform, 'skewness', require( '@stdlib/stats/base/dists/uniform/skewness' ) );
+setReadOnly( uniform, 'skewness', require( './../../../../base/dists/uniform/skewness' ) );
 
 /**
 * @name stdev
@@ -151,7 +151,7 @@ setReadOnly( uniform, 'skewness', require( '@stdlib/stats/base/dists/uniform/ske
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/uniform/stdev}
 */
-setReadOnly( uniform, 'stdev', require( '@stdlib/stats/base/dists/uniform/stdev' ) );
+setReadOnly( uniform, 'stdev', require( './../../../../base/dists/uniform/stdev' ) );
 
 /**
 * @name variance
@@ -160,7 +160,7 @@ setReadOnly( uniform, 'stdev', require( '@stdlib/stats/base/dists/uniform/stdev'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/uniform/variance}
 */
-setReadOnly( uniform, 'variance', require( '@stdlib/stats/base/dists/uniform/variance' ) );
+setReadOnly( uniform, 'variance', require( './../../../../base/dists/uniform/variance' ) );
 
 
 // EXPORTS //

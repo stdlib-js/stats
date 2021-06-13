@@ -21,20 +21,20 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import cdf = require( '@stdlib/stats/base/dists/frechet/cdf' );
-import Frechet = require( '@stdlib/stats/base/dists/frechet/ctor' );
-import entropy = require( '@stdlib/stats/base/dists/frechet/entropy' );
-import kurtosis = require( '@stdlib/stats/base/dists/frechet/kurtosis' );
-import logcdf = require( '@stdlib/stats/base/dists/frechet/logcdf' );
-import logpdf = require( '@stdlib/stats/base/dists/frechet/logpdf' );
-import mean = require( '@stdlib/stats/base/dists/frechet/mean' );
-import median = require( '@stdlib/stats/base/dists/frechet/median' );
-import mode = require( '@stdlib/stats/base/dists/frechet/mode' );
-import pdf = require( '@stdlib/stats/base/dists/frechet/pdf' );
-import quantile = require( '@stdlib/stats/base/dists/frechet/quantile' );
-import skewness = require( '@stdlib/stats/base/dists/frechet/skewness' );
-import stdev = require( '@stdlib/stats/base/dists/frechet/stdev' );
-import variance = require( '@stdlib/stats/base/dists/frechet/variance' );
+import cdf = require( './../../../../../base/dists/frechet/cdf' );
+import Frechet = require( './../../../../../base/dists/frechet/ctor' );
+import entropy = require( './../../../../../base/dists/frechet/entropy' );
+import kurtosis = require( './../../../../../base/dists/frechet/kurtosis' );
+import logcdf = require( './../../../../../base/dists/frechet/logcdf' );
+import logpdf = require( './../../../../../base/dists/frechet/logpdf' );
+import mean = require( './../../../../../base/dists/frechet/mean' );
+import median = require( './../../../../../base/dists/frechet/median' );
+import mode = require( './../../../../../base/dists/frechet/mode' );
+import pdf = require( './../../../../../base/dists/frechet/pdf' );
+import quantile = require( './../../../../../base/dists/frechet/quantile' );
+import skewness = require( './../../../../../base/dists/frechet/skewness' );
+import stdev = require( './../../../../../base/dists/frechet/stdev' );
+import variance = require( './../../../../../base/dists/frechet/variance' );
 
 /**
 * Interface describing the `frechet` namespace.

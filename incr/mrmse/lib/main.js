@@ -21,7 +21,7 @@
 // MODULES //
 
 var isPositiveInteger = require( '@stdlib/assert/is-positive-integer' ).isPrimitive;
-var incrmmean = require( '@stdlib/stats/incr/mmean' );
+var incrmmean = require( './../../../incr/mmean' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 
 

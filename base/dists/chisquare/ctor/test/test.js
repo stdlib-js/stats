@@ -23,18 +23,18 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/chisquare/quantile' );
-var cdf = require( '@stdlib/stats/base/dists/chisquare/cdf' );
-var mgf = require( '@stdlib/stats/base/dists/chisquare/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/chisquare/pdf' );
-var entropy = require( '@stdlib/stats/base/dists/chisquare/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/chisquare/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/chisquare/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/chisquare/stdev' );
-var variance = require( '@stdlib/stats/base/dists/chisquare/variance' );
-var mode = require( '@stdlib/stats/base/dists/chisquare/mode' );
-var median = require( '@stdlib/stats/base/dists/chisquare/median' );
-var mean = require( '@stdlib/stats/base/dists/chisquare/mean' );
+var quantile = require( './../../../../../base/dists/chisquare/quantile' );
+var cdf = require( './../../../../../base/dists/chisquare/cdf' );
+var mgf = require( './../../../../../base/dists/chisquare/mgf' );
+var pdf = require( './../../../../../base/dists/chisquare/pdf' );
+var entropy = require( './../../../../../base/dists/chisquare/entropy' );
+var kurtosis = require( './../../../../../base/dists/chisquare/kurtosis' );
+var skewness = require( './../../../../../base/dists/chisquare/skewness' );
+var stdev = require( './../../../../../base/dists/chisquare/stdev' );
+var variance = require( './../../../../../base/dists/chisquare/variance' );
+var mode = require( './../../../../../base/dists/chisquare/mode' );
+var median = require( './../../../../../base/dists/chisquare/median' );
+var mean = require( './../../../../../base/dists/chisquare/mean' );
 var ChiSquare = require( './../lib' );
 
 

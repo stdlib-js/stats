@@ -21,7 +21,7 @@
 // MODULES //
 
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
-var incrpcorr = require( '@stdlib/stats/incr/pcorr' );
+var incrpcorr = require( './../../../incr/pcorr' );
 var abs = require( '@stdlib/math/base/special/abs' );
 
 
@@ -56,7 +56,7 @@ var abs = require( '@stdlib/math/base/special/abs' );
 */
 function incrapcorr( meanx, meany ) {
 	var acc;
-	var N = 0;
+	var N;
 	if ( arguments.length ) {
 		if ( !isNumber( meanx ) ) {
 			throw new TypeError( 'invalid argument. First argument must be a number primitive. Value: `' + meanx + '`.' );
@@ -68,6 +68,7 @@ function incrapcorr( meanx, meany ) {
 	} else {
 		acc = incrpcorr();
 	}
+	N = 0;
 	return accumulator;
 
 	/**

@@ -26,7 +26,7 @@ var randu = require( '@stdlib/random/iter/randu' );
 var array2iterator = require( '@stdlib/array/to-iterator' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var incrgmean = require( '@stdlib/stats/incr/gmean' );
+var incrgmean = require( './../../../incr/gmean' );
 var itercugmean = require( './../lib' );
 
 

@@ -26,20 +26,20 @@ var defineProperty = require( '@stdlib/utils/define-property' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
-var entropy = require( '@stdlib/stats/base/dists/weibull/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/weibull/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/weibull/mean' );
-var median = require( '@stdlib/stats/base/dists/weibull/median' );
-var mode = require( '@stdlib/stats/base/dists/weibull/mode' );
-var skewness = require( '@stdlib/stats/base/dists/weibull/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/weibull/stdev' );
-var variance = require( '@stdlib/stats/base/dists/weibull/variance' );
-var cdf = require( '@stdlib/stats/base/dists/weibull/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/weibull/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/weibull/logpdf' );
-var mgf = require( '@stdlib/stats/base/dists/weibull/mgf' );
-var pdf = require( '@stdlib/stats/base/dists/weibull/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/weibull/quantile' );
+var entropy = require( './../../../../../base/dists/weibull/entropy' );
+var kurtosis = require( './../../../../../base/dists/weibull/kurtosis' );
+var mean = require( './../../../../../base/dists/weibull/mean' );
+var median = require( './../../../../../base/dists/weibull/median' );
+var mode = require( './../../../../../base/dists/weibull/mode' );
+var skewness = require( './../../../../../base/dists/weibull/skewness' );
+var stdev = require( './../../../../../base/dists/weibull/stdev' );
+var variance = require( './../../../../../base/dists/weibull/variance' );
+var cdf = require( './../../../../../base/dists/weibull/cdf' );
+var logcdf = require( './../../../../../base/dists/weibull/logcdf' );
+var logpdf = require( './../../../../../base/dists/weibull/logpdf' );
+var mgf = require( './../../../../../base/dists/weibull/mgf' );
+var pdf = require( './../../../../../base/dists/weibull/pdf' );
+var quantile = require( './../../../../../base/dists/weibull/quantile' );
 
 
 // FUNCTIONS //

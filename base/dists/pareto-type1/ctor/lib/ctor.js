@@ -26,18 +26,18 @@ var defineProperty = require( '@stdlib/utils/define-property' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var setReadOnlyAccessor = require( '@stdlib/utils/define-nonenumerable-read-only-accessor' );
 var isPositive = require( '@stdlib/assert/is-positive-number' ).isPrimitive;
-var entropy = require( '@stdlib/stats/base/dists/pareto-type1/entropy' );
-var kurtosis = require( '@stdlib/stats/base/dists/pareto-type1/kurtosis' );
-var mean = require( '@stdlib/stats/base/dists/pareto-type1/mean' );
-var median = require( '@stdlib/stats/base/dists/pareto-type1/median' );
-var mode = require( '@stdlib/stats/base/dists/pareto-type1/mode' );
-var skewness = require( '@stdlib/stats/base/dists/pareto-type1/skewness' );
-var variance = require( '@stdlib/stats/base/dists/pareto-type1/variance' );
-var cdf = require( '@stdlib/stats/base/dists/pareto-type1/cdf' );
-var logcdf = require( '@stdlib/stats/base/dists/pareto-type1/logcdf' );
-var logpdf = require( '@stdlib/stats/base/dists/pareto-type1/logpdf' );
-var pdf = require( '@stdlib/stats/base/dists/pareto-type1/pdf' );
-var quantile = require( '@stdlib/stats/base/dists/pareto-type1/quantile' );
+var entropy = require( './../../../../../base/dists/pareto-type1/entropy' );
+var kurtosis = require( './../../../../../base/dists/pareto-type1/kurtosis' );
+var mean = require( './../../../../../base/dists/pareto-type1/mean' );
+var median = require( './../../../../../base/dists/pareto-type1/median' );
+var mode = require( './../../../../../base/dists/pareto-type1/mode' );
+var skewness = require( './../../../../../base/dists/pareto-type1/skewness' );
+var variance = require( './../../../../../base/dists/pareto-type1/variance' );
+var cdf = require( './../../../../../base/dists/pareto-type1/cdf' );
+var logcdf = require( './../../../../../base/dists/pareto-type1/logcdf' );
+var logpdf = require( './../../../../../base/dists/pareto-type1/logpdf' );
+var pdf = require( './../../../../../base/dists/pareto-type1/pdf' );
+var quantile = require( './../../../../../base/dists/pareto-type1/quantile' );
 
 
 // FUNCTIONS //

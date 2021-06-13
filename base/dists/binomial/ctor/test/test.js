@@ -23,18 +23,18 @@
 var tape = require( 'tape' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var quantile = require( '@stdlib/stats/base/dists/binomial/quantile' );
-var logpmf = require( '@stdlib/stats/base/dists/binomial/logpmf' );
-var cdf = require( '@stdlib/stats/base/dists/binomial/cdf' );
-var mgf = require( '@stdlib/stats/base/dists/binomial/mgf' );
-var pmf = require( '@stdlib/stats/base/dists/binomial/pmf' );
-var kurtosis = require( '@stdlib/stats/base/dists/binomial/kurtosis' );
-var skewness = require( '@stdlib/stats/base/dists/binomial/skewness' );
-var stdev = require( '@stdlib/stats/base/dists/binomial/stdev' );
-var variance = require( '@stdlib/stats/base/dists/binomial/variance' );
-var median = require( '@stdlib/stats/base/dists/binomial/median' );
-var mode = require( '@stdlib/stats/base/dists/binomial/mode' );
-var mean = require( '@stdlib/stats/base/dists/binomial/mean' );
+var quantile = require( './../../../../../base/dists/binomial/quantile' );
+var logpmf = require( './../../../../../base/dists/binomial/logpmf' );
+var cdf = require( './../../../../../base/dists/binomial/cdf' );
+var mgf = require( './../../../../../base/dists/binomial/mgf' );
+var pmf = require( './../../../../../base/dists/binomial/pmf' );
+var kurtosis = require( './../../../../../base/dists/binomial/kurtosis' );
+var skewness = require( './../../../../../base/dists/binomial/skewness' );
+var stdev = require( './../../../../../base/dists/binomial/stdev' );
+var variance = require( './../../../../../base/dists/binomial/variance' );
+var median = require( './../../../../../base/dists/binomial/median' );
+var mode = require( './../../../../../base/dists/binomial/mode' );
+var mean = require( './../../../../../base/dists/binomial/mean' );
 var Binomial = require( './../lib' );
 
 

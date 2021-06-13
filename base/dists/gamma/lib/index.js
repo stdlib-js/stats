@@ -43,7 +43,7 @@ var gamma = {};
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gamma/cdf}
 */
-setReadOnly( gamma, 'cdf', require( '@stdlib/stats/base/dists/gamma/cdf' ) );
+setReadOnly( gamma, 'cdf', require( './../../../../base/dists/gamma/cdf' ) );
 
 /**
 * @name Gamma
@@ -52,7 +52,7 @@ setReadOnly( gamma, 'cdf', require( '@stdlib/stats/base/dists/gamma/cdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gamma/ctor}
 */
-setReadOnly( gamma, 'Gamma', require( '@stdlib/stats/base/dists/gamma/ctor' ) );
+setReadOnly( gamma, 'Gamma', require( './../../../../base/dists/gamma/ctor' ) );
 
 /**
 * @name entropy
@@ -61,7 +61,7 @@ setReadOnly( gamma, 'Gamma', require( '@stdlib/stats/base/dists/gamma/ctor' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gamma/entropy}
 */
-setReadOnly( gamma, 'entropy', require( '@stdlib/stats/base/dists/gamma/entropy' ) );
+setReadOnly( gamma, 'entropy', require( './../../../../base/dists/gamma/entropy' ) );
 
 /**
 * @name kurtosis
@@ -70,7 +70,7 @@ setReadOnly( gamma, 'entropy', require( '@stdlib/stats/base/dists/gamma/entropy'
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gamma/kurtosis}
 */
-setReadOnly( gamma, 'kurtosis', require( '@stdlib/stats/base/dists/gamma/kurtosis' ) );
+setReadOnly( gamma, 'kurtosis', require( './../../../../base/dists/gamma/kurtosis' ) );
 
 /**
 * @name logcdf
@@ -79,7 +79,7 @@ setReadOnly( gamma, 'kurtosis', require( '@stdlib/stats/base/dists/gamma/kurtosi
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gamma/logcdf}
 */
-setReadOnly( gamma, 'logcdf', require( '@stdlib/stats/base/dists/gamma/logcdf' ) );
+setReadOnly( gamma, 'logcdf', require( './../../../../base/dists/gamma/logcdf' ) );
 
 /**
 * @name logpdf
@@ -88,7 +88,7 @@ setReadOnly( gamma, 'logcdf', require( '@stdlib/stats/base/dists/gamma/logcdf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gamma/logpdf}
 */
-setReadOnly( gamma, 'logpdf', require( '@stdlib/stats/base/dists/gamma/logpdf' ) );
+setReadOnly( gamma, 'logpdf', require( './../../../../base/dists/gamma/logpdf' ) );
 
 /**
 * @name mean
@@ -97,7 +97,7 @@ setReadOnly( gamma, 'logpdf', require( '@stdlib/stats/base/dists/gamma/logpdf' )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gamma/mean}
 */
-setReadOnly( gamma, 'mean', require( '@stdlib/stats/base/dists/gamma/mean' ) );
+setReadOnly( gamma, 'mean', require( './../../../../base/dists/gamma/mean' ) );
 
 /**
 * @name mgf
@@ -106,7 +106,7 @@ setReadOnly( gamma, 'mean', require( '@stdlib/stats/base/dists/gamma/mean' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gamma/mgf}
 */
-setReadOnly( gamma, 'mgf', require( '@stdlib/stats/base/dists/gamma/mgf' ) );
+setReadOnly( gamma, 'mgf', require( './../../../../base/dists/gamma/mgf' ) );
 
 /**
 * @name mode
@@ -115,7 +115,7 @@ setReadOnly( gamma, 'mgf', require( '@stdlib/stats/base/dists/gamma/mgf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gamma/mode}
 */
-setReadOnly( gamma, 'mode', require( '@stdlib/stats/base/dists/gamma/mode' ) );
+setReadOnly( gamma, 'mode', require( './../../../../base/dists/gamma/mode' ) );
 
 /**
 * @name pdf
@@ -124,7 +124,7 @@ setReadOnly( gamma, 'mode', require( '@stdlib/stats/base/dists/gamma/mode' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gamma/pdf}
 */
-setReadOnly( gamma, 'pdf', require( '@stdlib/stats/base/dists/gamma/pdf' ) );
+setReadOnly( gamma, 'pdf', require( './../../../../base/dists/gamma/pdf' ) );
 
 /**
 * @name quantile
@@ -133,7 +133,7 @@ setReadOnly( gamma, 'pdf', require( '@stdlib/stats/base/dists/gamma/pdf' ) );
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gamma/quantile}
 */
-setReadOnly( gamma, 'quantile', require( '@stdlib/stats/base/dists/gamma/quantile' ) );
+setReadOnly( gamma, 'quantile', require( './../../../../base/dists/gamma/quantile' ) );
 
 /**
 * @name skewness
@@ -142,7 +142,7 @@ setReadOnly( gamma, 'quantile', require( '@stdlib/stats/base/dists/gamma/quantil
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gamma/skewness}
 */
-setReadOnly( gamma, 'skewness', require( '@stdlib/stats/base/dists/gamma/skewness' ) );
+setReadOnly( gamma, 'skewness', require( './../../../../base/dists/gamma/skewness' ) );
 
 /**
 * @name stdev
@@ -151,7 +151,7 @@ setReadOnly( gamma, 'skewness', require( '@stdlib/stats/base/dists/gamma/skewnes
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gamma/stdev}
 */
-setReadOnly( gamma, 'stdev', require( '@stdlib/stats/base/dists/gamma/stdev' ) );
+setReadOnly( gamma, 'stdev', require( './../../../../base/dists/gamma/stdev' ) );
 
 /**
 * @name variance
@@ -160,7 +160,7 @@ setReadOnly( gamma, 'stdev', require( '@stdlib/stats/base/dists/gamma/stdev' ) )
 * @type {Function}
 * @see {@link module:@stdlib/stats/base/dists/gamma/variance}
 */
-setReadOnly( gamma, 'variance', require( '@stdlib/stats/base/dists/gamma/variance' ) );
+setReadOnly( gamma, 'variance', require( './../../../../base/dists/gamma/variance' ) );
 
 
 // EXPORTS //

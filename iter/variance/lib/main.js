@@ -23,7 +23,7 @@
 var isIteratorLike = require( '@stdlib/assert/is-iterator-like' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
 var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
-var incrvariance = require( '@stdlib/stats/incr/variance' );
+var incrvariance = require( './../../../incr/variance' );
 
 
 // MAIN //

@@ -21,7 +21,7 @@
 // MODULES //
 
 var constantFunction = require( '@stdlib/utils/constant-function' );
-var betaFactory = require( '@stdlib/stats/base/dists/beta/cdf' ).factory;
+var betaFactory = require( './../../../../../base/dists/beta/cdf' ).factory;
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 
