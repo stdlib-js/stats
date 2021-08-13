@@ -32,6 +32,7 @@ import iterators = require( './../../iter' );
 import kde2d = require( './../../kde2d' );
 import kruskalTest = require( './../../kruskal-test' );
 import kstest = require( './../../kstest' );
+import leveneTest = require( './../../levene-test' );
 import lowess = require( './../../lowess' );
 import padjust = require( './../../padjust' );
 import pcorrtest = require( './../../pcorrtest' );
@@ -211,6 +212,17 @@ interface Namespace {
 	* // returns { 'pValue': ~0.015, 'statistic': ~0.556, ... }
 	*/
 	kstest: typeof kstest;
+
+	/**
+	* Computes Levene's test for equal variances.
+	*
+	* @param x - first numeric array
+	* @param y - second numeric array
+	* @param args - subsequent numeric arrays and an optional options object
+	* @throws must provide valid options
+	* @returns test results
+	*/
+	leveneTest: typeof leveneTest;
 
 	/**
 	* Locally-weighted polynomial regression via the LOWESS algorithm.
