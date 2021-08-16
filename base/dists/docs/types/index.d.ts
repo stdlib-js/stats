@@ -51,8 +51,10 @@ import normal = require( './../../../../base/dists/normal' );
 import pareto1 = require( './../../../../base/dists/pareto-type1' );
 import poisson = require( './../../../../base/dists/poisson' );
 import rayleigh = require( './../../../../base/dists/rayleigh' );
+import signrank = require( './../../../../base/dists/signrank' );
 import t = require( './../../../../base/dists/t' );
 import triangular = require( './../../../../base/dists/triangular' );
+import truncatedNormal = require( './../../../../base/dists/truncated-normal' );
 import uniform = require( './../../../../base/dists/uniform' );
 import weibull = require( './../../../../base/dists/weibull' );
 
@@ -211,6 +213,11 @@ interface Namespace {
 	rayleigh: typeof rayleigh;
 
 	/**
+	* Distribution of Wilcoxon signed rank test statistic.
+	*/
+	signrank: typeof signrank;
+
+	/**
 	* Student's t distribution.
 	*/
 	t: typeof t;
@@ -219,6 +226,11 @@ interface Namespace {
 	* Triangular distribution.
 	*/
 	triangular: typeof triangular;
+
+	/**
+	* Truncated normal distribution.
+	*/
+	truncatedNormal: typeof truncatedNormal;
 
 	/**
 	* Uniform distribution.
