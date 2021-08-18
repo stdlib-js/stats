@@ -270,7 +270,7 @@ console.log( out.toString() );
 
 <section class="links">
 
-[@stdlib/ndarray/array]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array
 
 </section>
 
