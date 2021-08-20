@@ -36,17 +36,17 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array": "github:stdlib-js/array",
-    "@stdlib/assert": "github:stdlib-js/assert",
-    "@stdlib/blas": "github:stdlib-js/blas",
-    "@stdlib/constants": "github:stdlib-js/constants",
-    "@stdlib/math": "github:stdlib-js/math",
-    "@stdlib/ndarray": "github:stdlib-js/ndarray",
-    "@stdlib/random": "github:stdlib-js/random",
-    "@stdlib/string": "github:stdlib-js/string",
-    "@stdlib/symbol": "github:stdlib-js/symbol",
-    "@stdlib/types": "github:stdlib-js/types",
-    "@stdlib/utils": "github:stdlib-js/utils"
+    "@stdlib/array": "github:stdlib-js/array#main",
+    "@stdlib/assert": "github:stdlib-js/assert#main",
+    "@stdlib/blas": "github:stdlib-js/blas#main",
+    "@stdlib/constants": "github:stdlib-js/constants#main",
+    "@stdlib/math": "github:stdlib-js/math#main",
+    "@stdlib/ndarray": "github:stdlib-js/ndarray#main",
+    "@stdlib/random": "github:stdlib-js/random#main",
+    "@stdlib/string": "github:stdlib-js/string#main",
+    "@stdlib/symbol": "github:stdlib-js/symbol#main",
+    "@stdlib/types": "github:stdlib-js/types#main",
+    "@stdlib/utils": "github:stdlib-js/utils#main"
   },
   "devDependencies": {
     "@stdlib/bench": "github:stdlib-js/bench",
