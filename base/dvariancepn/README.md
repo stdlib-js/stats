@@ -221,6 +221,26 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dnanvariancepn`][@stdlib/stats/base/dnanvariancepn]: https://github.com/stdlib-js/stats/tree/main/base/dnanvariancepn`][@stdlib/stats/base/dnanvariancepn
+-   [`@stdlib/stats/base/dstdevpn`][@stdlib/stats/base/dstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/dstdevpn`][@stdlib/stats/base/dstdevpn
+-   [`@stdlib/stats/base/dvariance`][@stdlib/stats/base/dvariance]: https://github.com/stdlib-js/stats/tree/main/base/dvariance`][@stdlib/stats/base/dvariance
+-   [`@stdlib/stats/base/svariancepn`][@stdlib/stats/base/svariancepn]: https://github.com/stdlib-js/stats/tree/main/base/svariancepn`][@stdlib/stats/base/svariancepn
+-   [`@stdlib/stats/base/variancepn`][@stdlib/stats/base/variancepn]: https://github.com/stdlib-js/stats/tree/main/base/variancepn`][@stdlib/stats/base/variancepn
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [variance]: https://en.wikipedia.org/wiki/Variance
@@ -232,6 +252,20 @@ console.log( v );
 [@neely:1966a]: https://doi.org/10.1145/365719.365958
 
 [@schubert:2018a]: https://doi.org/10.1145/3221269.3223036
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dnanvariancepn]: https://github.com/stdlib-js/stats/tree/main/base/dnanvariancepn
+
+[@stdlib/stats/base/dstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/dstdevpn
+
+[@stdlib/stats/base/dvariance]: https://github.com/stdlib-js/stats/tree/main/base/dvariance
+
+[@stdlib/stats/base/svariancepn]: https://github.com/stdlib-js/stats/tree/main/base/svariancepn
+
+[@stdlib/stats/base/variancepn]: https://github.com/stdlib-js/stats/tree/main/base/variancepn
+
+<!-- </related-links> -->
 
 </section>
 

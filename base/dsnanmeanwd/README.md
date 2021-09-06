@@ -190,6 +190,27 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dnanmeanwd`][@stdlib/stats/base/dnanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/dnanmeanwd`][@stdlib/stats/base/dnanmeanwd
+-   [`@stdlib/stats/base/dsmeanwd`][@stdlib/stats/base/dsmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/dsmeanwd`][@stdlib/stats/base/dsmeanwd
+-   [`@stdlib/stats/base/dsnanmean`][@stdlib/stats/base/dsnanmean]: https://github.com/stdlib-js/stats/tree/main/base/dsnanmean`][@stdlib/stats/base/dsnanmean
+-   [`@stdlib/stats/base/nanmeanwd`][@stdlib/stats/base/nanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/nanmeanwd`][@stdlib/stats/base/nanmeanwd
+-   [`@stdlib/stats/base/sdsnanmean`][@stdlib/stats/base/sdsnanmean]: https://github.com/stdlib-js/stats/tree/main/base/sdsnanmean`][@stdlib/stats/base/sdsnanmean
+-   [`@stdlib/stats/base/snanmeanwd`][@stdlib/stats/base/snanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/snanmeanwd`][@stdlib/stats/base/snanmeanwd
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
@@ -201,6 +222,22 @@ console.log( v );
 [@welford:1962a]: https://doi.org/10.1080/00401706.1962.10490022
 
 [@vanreeken:1968a]: https://doi.org/10.1145/362929.362961
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dnanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/dnanmeanwd
+
+[@stdlib/stats/base/dsmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/dsmeanwd
+
+[@stdlib/stats/base/dsnanmean]: https://github.com/stdlib-js/stats/tree/main/base/dsnanmean
+
+[@stdlib/stats/base/nanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/nanmeanwd
+
+[@stdlib/stats/base/sdsnanmean]: https://github.com/stdlib-js/stats/tree/main/base/sdsnanmean
+
+[@stdlib/stats/base/snanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/snanmeanwd
+
+<!-- </related-links> -->
 
 </section>
 

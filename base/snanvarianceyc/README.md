@@ -218,6 +218,26 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dnanvarianceyc`][@stdlib/stats/base/dnanvarianceyc]: https://github.com/stdlib-js/stats/tree/main/base/dnanvarianceyc`][@stdlib/stats/base/dnanvarianceyc
+-   [`@stdlib/stats/base/nanvarianceyc`][@stdlib/stats/base/nanvarianceyc]: https://github.com/stdlib-js/stats/tree/main/base/nanvarianceyc`][@stdlib/stats/base/nanvarianceyc
+-   [`@stdlib/stats/base/snanstdevyc`][@stdlib/stats/base/snanstdevyc]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevyc`][@stdlib/stats/base/snanstdevyc
+-   [`@stdlib/stats/base/snanvariance`][@stdlib/stats/base/snanvariance]: https://github.com/stdlib-js/stats/tree/main/base/snanvariance`][@stdlib/stats/base/snanvariance
+-   [`@stdlib/stats/base/svarianceyc`][@stdlib/stats/base/svarianceyc]: https://github.com/stdlib-js/stats/tree/main/base/svarianceyc`][@stdlib/stats/base/svarianceyc
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [variance]: https://en.wikipedia.org/wiki/Variance
@@ -227,6 +247,20 @@ console.log( v );
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [@youngs:1971a]: https://doi.org/10.1080/00401706.1971.10488826
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dnanvarianceyc]: https://github.com/stdlib-js/stats/tree/main/base/dnanvarianceyc
+
+[@stdlib/stats/base/nanvarianceyc]: https://github.com/stdlib-js/stats/tree/main/base/nanvarianceyc
+
+[@stdlib/stats/base/snanstdevyc]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevyc
+
+[@stdlib/stats/base/snanvariance]: https://github.com/stdlib-js/stats/tree/main/base/snanvariance
+
+[@stdlib/stats/base/svarianceyc]: https://github.com/stdlib-js/stats/tree/main/base/svarianceyc
+
+<!-- </related-links> -->
 
 </section>
 

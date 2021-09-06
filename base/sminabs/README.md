@@ -160,11 +160,45 @@ console.log( v );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dminabs`][@stdlib/stats/base/dminabs]: https://github.com/stdlib-js/stats/tree/main/base/dminabs`][@stdlib/stats/base/dminabs
+-   [`@stdlib/stats/base/minabs`][@stdlib/stats/base/minabs]: https://github.com/stdlib-js/stats/tree/main/base/minabs`][@stdlib/stats/base/minabs
+-   [`@stdlib/stats/base/smaxabs`][@stdlib/stats/base/smaxabs]: https://github.com/stdlib-js/stats/tree/main/base/smaxabs`][@stdlib/stats/base/smaxabs
+-   [`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin`][@stdlib/stats/base/smin
+-   [`@stdlib/stats/base/snanminabs`][@stdlib/stats/base/snanminabs]: https://github.com/stdlib-js/stats/tree/main/base/snanminabs`][@stdlib/stats/base/snanminabs
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dminabs]: https://github.com/stdlib-js/stats/tree/main/base/dminabs
+
+[@stdlib/stats/base/minabs]: https://github.com/stdlib-js/stats/tree/main/base/minabs
+
+[@stdlib/stats/base/smaxabs]: https://github.com/stdlib-js/stats/tree/main/base/smaxabs
+
+[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin
+
+[@stdlib/stats/base/snanminabs]: https://github.com/stdlib-js/stats/tree/main/base/snanminabs
+
+<!-- </related-links> -->
 
 </section>
 

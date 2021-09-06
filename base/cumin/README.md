@@ -165,15 +165,40 @@ console.log( y );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/cumax`][@stdlib/stats/base/cumax]: https://github.com/stdlib-js/stats/tree/main/base/cumax`][@stdlib/stats/base/cumax
+-   [`@stdlib/stats/base/dcumin`][@stdlib/stats/base/dcumin]: https://github.com/stdlib-js/stats/tree/main/base/dcumin`][@stdlib/stats/base/dcumin
+-   [`@stdlib/stats/base/scumin`][@stdlib/stats/base/scumin]: https://github.com/stdlib-js/stats/tree/main/base/scumin`][@stdlib/stats/base/scumin
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/cumax]: https://github.com/stdlib-js/stats/tree/main/base/cumax
+
 [@stdlib/stats/base/dcumin]: https://github.com/stdlib-js/stats/tree/main/base/dcumin
 
 [@stdlib/stats/base/scumin]: https://github.com/stdlib-js/stats/tree/main/base/scumin
+
+<!-- </related-links> -->
 
 </section>
 

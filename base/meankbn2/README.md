@@ -178,6 +178,24 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dmeankbn2`][@stdlib/stats/base/dmeankbn2]: https://github.com/stdlib-js/stats/tree/main/base/dmeankbn2`][@stdlib/stats/base/dmeankbn2
+-   [`@stdlib/stats/base/mean`][@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats/tree/main/base/mean`][@stdlib/stats/base/mean
+-   [`@stdlib/stats/base/smeankbn2`][@stdlib/stats/base/smeankbn2]: https://github.com/stdlib-js/stats/tree/main/base/smeankbn2`][@stdlib/stats/base/smeankbn2
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
@@ -186,11 +204,17 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+[@klein:2005a]: https://doi.org/10.1007/s00607-005-0139-x
+
+<!-- <related-links> -->
+
 [@stdlib/stats/base/dmeankbn2]: https://github.com/stdlib-js/stats/tree/main/base/dmeankbn2
+
+[@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats/tree/main/base/mean
 
 [@stdlib/stats/base/smeankbn2]: https://github.com/stdlib-js/stats/tree/main/base/smeankbn2
 
-[@klein:2005a]: https://doi.org/10.1007/s00607-005-0139-x
+<!-- </related-links> -->
 
 </section>
 

@@ -209,6 +209,25 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dvariance`][@stdlib/stats/base/dvariance]: https://github.com/stdlib-js/stats/tree/main/base/dvariance`][@stdlib/stats/base/dvariance
+-   [`@stdlib/stats/base/nanvariance`][@stdlib/stats/base/nanvariance]: https://github.com/stdlib-js/stats/tree/main/base/nanvariance`][@stdlib/stats/base/nanvariance
+-   [`@stdlib/stats/base/stdev`][@stdlib/stats/base/stdev]: https://github.com/stdlib-js/stats/tree/main/base/stdev`][@stdlib/stats/base/stdev
+-   [`@stdlib/stats/base/svariance`][@stdlib/stats/base/svariance]: https://github.com/stdlib-js/stats/tree/main/base/svariance`][@stdlib/stats/base/svariance
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [variance]: https://en.wikipedia.org/wiki/Variance
@@ -217,9 +236,18 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+
+<!-- <related-links> -->
+
 [@stdlib/stats/base/dvariance]: https://github.com/stdlib-js/stats/tree/main/base/dvariance
 
+[@stdlib/stats/base/nanvariance]: https://github.com/stdlib-js/stats/tree/main/base/nanvariance
+
+[@stdlib/stats/base/stdev]: https://github.com/stdlib-js/stats/tree/main/base/stdev
+
 [@stdlib/stats/base/svariance]: https://github.com/stdlib-js/stats/tree/main/base/svariance
+
+<!-- </related-links> -->
 
 </section>
 

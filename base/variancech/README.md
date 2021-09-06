@@ -217,6 +217,25 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dvariancech`][@stdlib/stats/base/dvariancech]: https://github.com/stdlib-js/stats/tree/main/base/dvariancech`][@stdlib/stats/base/dvariancech
+-   [`@stdlib/stats/base/nanvariancech`][@stdlib/stats/base/nanvariancech]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancech`][@stdlib/stats/base/nanvariancech
+-   [`@stdlib/stats/base/stdevch`][@stdlib/stats/base/stdevch]: https://github.com/stdlib-js/stats/tree/main/base/stdevch`][@stdlib/stats/base/stdevch
+-   [`@stdlib/stats/base/variance`][@stdlib/stats/base/variance]: https://github.com/stdlib-js/stats/tree/main/base/variance`][@stdlib/stats/base/variance
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [variance]: https://en.wikipedia.org/wiki/Variance
@@ -224,8 +243,6 @@ console.log( v );
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
-
-[@stdlib/stats/base/dvariancech]: https://github.com/stdlib-js/stats/tree/main/base/dvariancech
 
 [@stdlib/stats/base/svariancech]: https://github.com/stdlib-js/stats/tree/main/base/svariancech
 
@@ -236,6 +253,18 @@ console.log( v );
 [@chan:1983a]: https://doi.org/10.1080/00031305.1983.10483115
 
 [@schubert:2018a]: https://doi.org/10.1145/3221269.3223036
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dvariancech]: https://github.com/stdlib-js/stats/tree/main/base/dvariancech
+
+[@stdlib/stats/base/nanvariancech]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancech
+
+[@stdlib/stats/base/stdevch]: https://github.com/stdlib-js/stats/tree/main/base/stdevch
+
+[@stdlib/stats/base/variance]: https://github.com/stdlib-js/stats/tree/main/base/variance
+
+<!-- </related-links> -->
 
 </section>
 

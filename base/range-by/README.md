@@ -210,6 +210,27 @@ console.log( v );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/drange`][@stdlib/stats/base/drange]: https://github.com/stdlib-js/stats/tree/main/base/drange`][@stdlib/stats/base/drange
+-   [`@stdlib/stats/base/max-by`][@stdlib/stats/base/max-by]: https://github.com/stdlib-js/stats/tree/main/base/max-by`][@stdlib/stats/base/max-by
+-   [`@stdlib/stats/base/min-by`][@stdlib/stats/base/min-by]: https://github.com/stdlib-js/stats/tree/main/base/min-by`][@stdlib/stats/base/min-by
+-   [`@stdlib/stats/base/nanrange-by`][@stdlib/stats/base/nanrange-by]: https://github.com/stdlib-js/stats/tree/main/base/nanrange-by`][@stdlib/stats/base/nanrange-by
+-   [`@stdlib/stats/base/range`][@stdlib/stats/base/range]: https://github.com/stdlib-js/stats/tree/main/base/range`][@stdlib/stats/base/range
+-   [`@stdlib/stats/base/srange`][@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats/tree/main/base/srange`][@stdlib/stats/base/srange
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [range]: https://en.wikipedia.org/wiki/Range_%28statistics%29
@@ -218,11 +239,21 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+<!-- <related-links> -->
+
 [@stdlib/stats/base/drange]: https://github.com/stdlib-js/stats/tree/main/base/drange
+
+[@stdlib/stats/base/max-by]: https://github.com/stdlib-js/stats/tree/main/base/max-by
+
+[@stdlib/stats/base/min-by]: https://github.com/stdlib-js/stats/tree/main/base/min-by
+
+[@stdlib/stats/base/nanrange-by]: https://github.com/stdlib-js/stats/tree/main/base/nanrange-by
 
 [@stdlib/stats/base/range]: https://github.com/stdlib-js/stats/tree/main/base/range
 
 [@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats/tree/main/base/srange
+
+<!-- </related-links> -->
 
 </section>
 

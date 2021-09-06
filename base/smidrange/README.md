@@ -160,6 +160,26 @@ console.log( v );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dmidrange`][@stdlib/stats/base/dmidrange]: https://github.com/stdlib-js/stats/tree/main/base/dmidrange`][@stdlib/stats/base/dmidrange
+-   [`@stdlib/stats/base/smax`][@stdlib/stats/base/smax]: https://github.com/stdlib-js/stats/tree/main/base/smax`][@stdlib/stats/base/smax
+-   [`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]: https://github.com/stdlib-js/stats/tree/main/base/smean`][@stdlib/stats/base/smean
+-   [`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin`][@stdlib/stats/base/smin
+-   [`@stdlib/stats/base/srange`][@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats/tree/main/base/srange`][@stdlib/stats/base/srange
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mid-range]: https://en.wikipedia.org/wiki/Mid-range
@@ -167,6 +187,20 @@ console.log( v );
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmidrange]: https://github.com/stdlib-js/stats/tree/main/base/dmidrange
+
+[@stdlib/stats/base/smax]: https://github.com/stdlib-js/stats/tree/main/base/smax
+
+[@stdlib/stats/base/smean]: https://github.com/stdlib-js/stats/tree/main/base/smean
+
+[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin
+
+[@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats/tree/main/base/srange
+
+<!-- </related-links> -->
 
 </section>
 

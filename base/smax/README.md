@@ -160,11 +160,42 @@ console.log( v );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dmax`][@stdlib/stats/base/dmax]: https://github.com/stdlib-js/stats/tree/main/base/dmax`][@stdlib/stats/base/dmax
+-   [`@stdlib/stats/base/max`][@stdlib/stats/base/max]: https://github.com/stdlib-js/stats/tree/main/base/max`][@stdlib/stats/base/max
+-   [`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin`][@stdlib/stats/base/smin
+-   [`@stdlib/stats/base/snanmax`][@stdlib/stats/base/snanmax]: https://github.com/stdlib-js/stats/tree/main/base/snanmax`][@stdlib/stats/base/snanmax
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmax]: https://github.com/stdlib-js/stats/tree/main/base/dmax
+
+[@stdlib/stats/base/max]: https://github.com/stdlib-js/stats/tree/main/base/max
+
+[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin
+
+[@stdlib/stats/base/snanmax]: https://github.com/stdlib-js/stats/tree/main/base/snanmax
+
+<!-- </related-links> -->
 
 </section>
 

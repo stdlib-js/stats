@@ -187,6 +187,25 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dmean`][@stdlib/stats/base/dmean]: https://github.com/stdlib-js/stats/tree/main/base/dmean`][@stdlib/stats/base/dmean
+-   [`@stdlib/stats/base/dmeanli`][@stdlib/stats/base/dmeanli]: https://github.com/stdlib-js/stats/tree/main/base/dmeanli`][@stdlib/stats/base/dmeanli
+-   [`@stdlib/stats/base/dmeanpw`][@stdlib/stats/base/dmeanpw]: https://github.com/stdlib-js/stats/tree/main/base/dmeanpw`][@stdlib/stats/base/dmeanpw
+-   [`@stdlib/stats/base/smeanlipw`][@stdlib/stats/base/smeanlipw]: https://github.com/stdlib-js/stats/tree/main/base/smeanlipw`][@stdlib/stats/base/smeanlipw
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
@@ -202,6 +221,18 @@ console.log( v );
 [@ling:1974a]: https://doi.org/10.2307/2286154
 
 [@higham:1993a]: https://doi.org/10.1137/0914050
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmean]: https://github.com/stdlib-js/stats/tree/main/base/dmean
+
+[@stdlib/stats/base/dmeanli]: https://github.com/stdlib-js/stats/tree/main/base/dmeanli
+
+[@stdlib/stats/base/dmeanpw]: https://github.com/stdlib-js/stats/tree/main/base/dmeanpw
+
+[@stdlib/stats/base/smeanlipw]: https://github.com/stdlib-js/stats/tree/main/base/smeanlipw
+
+<!-- </related-links> -->
 
 </section>
 

@@ -184,6 +184,27 @@ console.log( v );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dmskmax`][@stdlib/stats/base/dmskmax]: https://github.com/stdlib-js/stats/tree/main/base/dmskmax`][@stdlib/stats/base/dmskmax
+-   [`@stdlib/stats/base/dmskmin`][@stdlib/stats/base/dmskmin]: https://github.com/stdlib-js/stats/tree/main/base/dmskmin`][@stdlib/stats/base/dmskmin
+-   [`@stdlib/stats/base/dnanrange`][@stdlib/stats/base/dnanrange]: https://github.com/stdlib-js/stats/tree/main/base/dnanrange`][@stdlib/stats/base/dnanrange
+-   [`@stdlib/stats/base/drange`][@stdlib/stats/base/drange]: https://github.com/stdlib-js/stats/tree/main/base/drange`][@stdlib/stats/base/drange
+-   [`@stdlib/stats/base/mskrange`][@stdlib/stats/base/mskrange]: https://github.com/stdlib-js/stats/tree/main/base/mskrange`][@stdlib/stats/base/mskrange
+-   [`@stdlib/stats/base/smskrange`][@stdlib/stats/base/smskrange]: https://github.com/stdlib-js/stats/tree/main/base/smskrange`][@stdlib/stats/base/smskrange
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [range]: https://en.wikipedia.org/wiki/Range_%28statistics%29
@@ -193,6 +214,22 @@ console.log( v );
 [@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmskmax]: https://github.com/stdlib-js/stats/tree/main/base/dmskmax
+
+[@stdlib/stats/base/dmskmin]: https://github.com/stdlib-js/stats/tree/main/base/dmskmin
+
+[@stdlib/stats/base/dnanrange]: https://github.com/stdlib-js/stats/tree/main/base/dnanrange
+
+[@stdlib/stats/base/drange]: https://github.com/stdlib-js/stats/tree/main/base/drange
+
+[@stdlib/stats/base/mskrange]: https://github.com/stdlib-js/stats/tree/main/base/mskrange
+
+[@stdlib/stats/base/smskrange]: https://github.com/stdlib-js/stats/tree/main/base/smskrange
+
+<!-- </related-links> -->
 
 </section>
 

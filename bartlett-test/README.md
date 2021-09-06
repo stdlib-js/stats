@@ -197,7 +197,32 @@ var table = out.print();
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/vartest`][@stdlib/stats/vartest]: https://github.com/stdlib-js/stats/tree/main/vartest`][@stdlib/stats/vartest
+-   [`@stdlib/stats/levene-test`][@stdlib/stats/levene-test]: https://github.com/stdlib-js/stats/tree/main/levene-test`][@stdlib/stats/levene-test
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/stats/vartest]: https://github.com/stdlib-js/stats/tree/main/vartest
+
+[@stdlib/stats/levene-test]: https://github.com/stdlib-js/stats/tree/main/levene-test
+
+<!-- </related-links> -->
 
 </section>
 

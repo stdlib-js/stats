@@ -201,6 +201,23 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dsem`][@stdlib/stats/base/dsem]: https://github.com/stdlib-js/stats/tree/main/base/dsem`][@stdlib/stats/base/dsem
+-   [`@stdlib/stats/base/dstdevwd`][@stdlib/stats/base/dstdevwd]: https://github.com/stdlib-js/stats/tree/main/base/dstdevwd`][@stdlib/stats/base/dstdevwd
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [standard-error]: https://en.wikipedia.org/wiki/Standard_error
@@ -214,6 +231,14 @@ console.log( v );
 [@welford:1962a]: https://doi.org/10.1080/00401706.1962.10490022
 
 [@vanreeken:1968a]: https://doi.org/10.1145/362929.362961
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dsem]: https://github.com/stdlib-js/stats/tree/main/base/dsem
+
+[@stdlib/stats/base/dstdevwd]: https://github.com/stdlib-js/stats/tree/main/base/dstdevwd
+
+<!-- </related-links> -->
 
 </section>
 

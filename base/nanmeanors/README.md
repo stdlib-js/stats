@@ -178,6 +178,25 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dnanmeanors`][@stdlib/stats/base/dnanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/dnanmeanors`][@stdlib/stats/base/dnanmeanors
+-   [`@stdlib/stats/base/meanors`][@stdlib/stats/base/meanors]: https://github.com/stdlib-js/stats/tree/main/base/meanors`][@stdlib/stats/base/meanors
+-   [`@stdlib/stats/base/nanmean`][@stdlib/stats/base/nanmean]: https://github.com/stdlib-js/stats/tree/main/base/nanmean`][@stdlib/stats/base/nanmean
+-   [`@stdlib/stats/base/snanmeanors`][@stdlib/stats/base/snanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/snanmeanors`][@stdlib/stats/base/snanmeanors
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
@@ -186,9 +205,17 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+<!-- <related-links> -->
+
 [@stdlib/stats/base/dnanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/dnanmeanors
 
+[@stdlib/stats/base/meanors]: https://github.com/stdlib-js/stats/tree/main/base/meanors
+
+[@stdlib/stats/base/nanmean]: https://github.com/stdlib-js/stats/tree/main/base/nanmean
+
 [@stdlib/stats/base/snanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/snanmeanors
+
+<!-- </related-links> -->
 
 </section>
 

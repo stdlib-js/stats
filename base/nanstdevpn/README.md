@@ -214,6 +214,26 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dnanstdevpn`][@stdlib/stats/base/dnanstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/dnanstdevpn`][@stdlib/stats/base/dnanstdevpn
+-   [`@stdlib/stats/base/nanvariancepn`][@stdlib/stats/base/nanvariancepn]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancepn`][@stdlib/stats/base/nanvariancepn
+-   [`@stdlib/stats/base/nanstdev`][@stdlib/stats/base/nanstdev]: https://github.com/stdlib-js/stats/tree/main/base/nanstdev`][@stdlib/stats/base/nanstdev
+-   [`@stdlib/stats/base/snanstdevpn`][@stdlib/stats/base/snanstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevpn`][@stdlib/stats/base/snanstdevpn
+-   [`@stdlib/stats/base/stdevpn`][@stdlib/stats/base/stdevpn]: https://github.com/stdlib-js/stats/tree/main/base/stdevpn`][@stdlib/stats/base/stdevpn
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [standard-deviation]: https://en.wikipedia.org/wiki/Standard_deviation
@@ -222,13 +242,23 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/stats/base/dnanstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/dnanstdevpn
-
-[@stdlib/stats/base/snanstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevpn
-
 [@neely:1966a]: https://doi.org/10.1145/365719.365958
 
 [@schubert:2018a]: https://doi.org/10.1145/3221269.3223036
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dnanstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/dnanstdevpn
+
+[@stdlib/stats/base/nanvariancepn]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancepn
+
+[@stdlib/stats/base/nanstdev]: https://github.com/stdlib-js/stats/tree/main/base/nanstdev
+
+[@stdlib/stats/base/snanstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevpn
+
+[@stdlib/stats/base/stdevpn]: https://github.com/stdlib-js/stats/tree/main/base/stdevpn
+
+<!-- </related-links> -->
 
 </section>
 

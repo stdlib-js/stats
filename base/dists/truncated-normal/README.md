@@ -55,15 +55,11 @@ The namespace contains the following functions for calculating distribution prop
 
 <!-- <toc pattern="*+(entropy|kurtosis|mean|median|mode|skewness|stdev|variance)*"> -->
 
-
-
 <!-- </toc> -->
 
 The namespace contains a constructor function for creating a [truncated normal][truncated-normal-distribution] distribution object.
 
 <!-- <toc pattern="*ctor*"> -->
-
-
 
 <!-- </toc> -->
 
@@ -89,6 +85,16 @@ console.log( objectKeys( truncatedNormal ) );
 </section>
 
 <!-- /.examples -->
+
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
 

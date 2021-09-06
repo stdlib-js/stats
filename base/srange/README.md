@@ -162,6 +162,26 @@ console.log( v );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/drange`][@stdlib/stats/base/drange]: https://github.com/stdlib-js/stats/tree/main/base/drange`][@stdlib/stats/base/drange
+-   [`@stdlib/stats/base/smax`][@stdlib/stats/base/smax]: https://github.com/stdlib-js/stats/tree/main/base/smax`][@stdlib/stats/base/smax
+-   [`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin`][@stdlib/stats/base/smin
+-   [`@stdlib/stats/base/snanrange`][@stdlib/stats/base/snanrange]: https://github.com/stdlib-js/stats/tree/main/base/snanrange`][@stdlib/stats/base/snanrange
+-   [`@stdlib/stats/base/range`][@stdlib/stats/base/range]: https://github.com/stdlib-js/stats/tree/main/base/range`][@stdlib/stats/base/range
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [range]: https://en.wikipedia.org/wiki/Range_%28statistics%29
@@ -169,6 +189,20 @@ console.log( v );
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/drange]: https://github.com/stdlib-js/stats/tree/main/base/drange
+
+[@stdlib/stats/base/smax]: https://github.com/stdlib-js/stats/tree/main/base/smax
+
+[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin
+
+[@stdlib/stats/base/snanrange]: https://github.com/stdlib-js/stats/tree/main/base/snanrange
+
+[@stdlib/stats/base/range]: https://github.com/stdlib-js/stats/tree/main/base/range
+
+<!-- </related-links> -->
 
 </section>
 

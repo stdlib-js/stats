@@ -194,6 +194,22 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dstdev`][@stdlib/stats/base/dstdev]: https://github.com/stdlib-js/stats/tree/main/base/dstdev`][@stdlib/stats/base/dstdev
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [standard-error]: https://en.wikipedia.org/wiki/Standard_error
@@ -203,6 +219,12 @@ console.log( v );
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dstdev]: https://github.com/stdlib-js/stats/tree/main/base/dstdev
+
+<!-- </related-links> -->
 
 </section>
 

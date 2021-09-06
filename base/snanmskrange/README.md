@@ -188,6 +188,27 @@ console.log( v );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dnanmskrange`][@stdlib/stats/base/dnanmskrange]: https://github.com/stdlib-js/stats/tree/main/base/dnanmskrange`][@stdlib/stats/base/dnanmskrange
+-   [`@stdlib/stats/base/nanmskrange`][@stdlib/stats/base/nanmskrange]: https://github.com/stdlib-js/stats/tree/main/base/nanmskrange`][@stdlib/stats/base/nanmskrange
+-   [`@stdlib/stats/base/smskrange`][@stdlib/stats/base/smskrange]: https://github.com/stdlib-js/stats/tree/main/base/smskrange`][@stdlib/stats/base/smskrange
+-   [`@stdlib/stats/base/snanrange`][@stdlib/stats/base/snanrange]: https://github.com/stdlib-js/stats/tree/main/base/snanrange`][@stdlib/stats/base/snanrange
+-   [`@stdlib/stats/base/snanmskmax`][@stdlib/stats/base/snanmskmax]: https://github.com/stdlib-js/stats/tree/main/base/snanmskmax`][@stdlib/stats/base/snanmskmax
+-   [`@stdlib/stats/base/snanmskmin`][@stdlib/stats/base/snanmskmin]: https://github.com/stdlib-js/stats/tree/main/base/snanmskmin`][@stdlib/stats/base/snanmskmin
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [range]: https://en.wikipedia.org/wiki/Range_%28statistics%29
@@ -197,6 +218,22 @@ console.log( v );
 [@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dnanmskrange]: https://github.com/stdlib-js/stats/tree/main/base/dnanmskrange
+
+[@stdlib/stats/base/nanmskrange]: https://github.com/stdlib-js/stats/tree/main/base/nanmskrange
+
+[@stdlib/stats/base/smskrange]: https://github.com/stdlib-js/stats/tree/main/base/smskrange
+
+[@stdlib/stats/base/snanrange]: https://github.com/stdlib-js/stats/tree/main/base/snanrange
+
+[@stdlib/stats/base/snanmskmax]: https://github.com/stdlib-js/stats/tree/main/base/snanmskmax
+
+[@stdlib/stats/base/snanmskmin]: https://github.com/stdlib-js/stats/tree/main/base/snanmskmin
+
+<!-- </related-links> -->
 
 </section>
 

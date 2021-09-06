@@ -159,15 +159,45 @@ console.log( v );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dnanminabs`][@stdlib/stats/base/dnanminabs]: https://github.com/stdlib-js/stats/tree/main/base/dnanminabs`][@stdlib/stats/base/dnanminabs
+-   [`@stdlib/stats/base/minabs`][@stdlib/stats/base/minabs]: https://github.com/stdlib-js/stats/tree/main/base/minabs`][@stdlib/stats/base/minabs
+-   [`@stdlib/stats/base/nanmaxabs`][@stdlib/stats/base/nanmaxabs]: https://github.com/stdlib-js/stats/tree/main/base/nanmaxabs`][@stdlib/stats/base/nanmaxabs
+-   [`@stdlib/stats/base/nanmin`][@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats/tree/main/base/nanmin`][@stdlib/stats/base/nanmin
+-   [`@stdlib/stats/base/snanminabs`][@stdlib/stats/base/snanminabs]: https://github.com/stdlib-js/stats/tree/main/base/snanminabs`][@stdlib/stats/base/snanminabs
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+<!-- <related-links> -->
+
 [@stdlib/stats/base/dnanminabs]: https://github.com/stdlib-js/stats/tree/main/base/dnanminabs
 
+[@stdlib/stats/base/minabs]: https://github.com/stdlib-js/stats/tree/main/base/minabs
+
+[@stdlib/stats/base/nanmaxabs]: https://github.com/stdlib-js/stats/tree/main/base/nanmaxabs
+
+[@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats/tree/main/base/nanmin
+
 [@stdlib/stats/base/snanminabs]: https://github.com/stdlib-js/stats/tree/main/base/snanminabs
+
+<!-- </related-links> -->
 
 </section>
 

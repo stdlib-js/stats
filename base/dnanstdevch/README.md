@@ -222,6 +222,26 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dnanstdev`][@stdlib/stats/base/dnanstdev]: https://github.com/stdlib-js/stats/tree/main/base/dnanstdev`][@stdlib/stats/base/dnanstdev
+-   [`@stdlib/stats/base/dnanvariancech`][@stdlib/stats/base/dnanvariancech]: https://github.com/stdlib-js/stats/tree/main/base/dnanvariancech`][@stdlib/stats/base/dnanvariancech
+-   [`@stdlib/stats/base/dstdevch`][@stdlib/stats/base/dstdevch]: https://github.com/stdlib-js/stats/tree/main/base/dstdevch`][@stdlib/stats/base/dstdevch
+-   [`@stdlib/stats/base/nanstdevch`][@stdlib/stats/base/nanstdevch]: https://github.com/stdlib-js/stats/tree/main/base/nanstdevch`][@stdlib/stats/base/nanstdevch
+-   [`@stdlib/stats/base/snanstdevch`][@stdlib/stats/base/snanstdevch]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevch`][@stdlib/stats/base/snanstdevch
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [standard-deviation]: https://en.wikipedia.org/wiki/Standard_deviation
@@ -237,6 +257,20 @@ console.log( v );
 [@chan:1983a]: https://doi.org/10.1080/00031305.1983.10483115
 
 [@schubert:2018a]: https://doi.org/10.1145/3221269.3223036
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dnanstdev]: https://github.com/stdlib-js/stats/tree/main/base/dnanstdev
+
+[@stdlib/stats/base/dnanvariancech]: https://github.com/stdlib-js/stats/tree/main/base/dnanvariancech
+
+[@stdlib/stats/base/dstdevch]: https://github.com/stdlib-js/stats/tree/main/base/dstdevch
+
+[@stdlib/stats/base/nanstdevch]: https://github.com/stdlib-js/stats/tree/main/base/nanstdevch
+
+[@stdlib/stats/base/snanstdevch]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevch
+
+<!-- </related-links> -->
 
 </section>
 

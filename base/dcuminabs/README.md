@@ -172,11 +172,42 @@ console.log( y );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/cuminabs`][@stdlib/stats/base/cuminabs]: https://github.com/stdlib-js/stats/tree/main/base/cuminabs`][@stdlib/stats/base/cuminabs
+-   [`@stdlib/stats/base/dcumaxabs`][@stdlib/stats/base/dcumaxabs]: https://github.com/stdlib-js/stats/tree/main/base/dcumaxabs`][@stdlib/stats/base/dcumaxabs
+-   [`@stdlib/stats/base/dcumin`][@stdlib/stats/base/dcumin]: https://github.com/stdlib-js/stats/tree/main/base/dcumin`][@stdlib/stats/base/dcumin
+-   [`@stdlib/stats/base/scuminabs`][@stdlib/stats/base/scuminabs]: https://github.com/stdlib-js/stats/tree/main/base/scuminabs`][@stdlib/stats/base/scuminabs
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/cuminabs]: https://github.com/stdlib-js/stats/tree/main/base/cuminabs
+
+[@stdlib/stats/base/dcumaxabs]: https://github.com/stdlib-js/stats/tree/main/base/dcumaxabs
+
+[@stdlib/stats/base/dcumin]: https://github.com/stdlib-js/stats/tree/main/base/dcumin
+
+[@stdlib/stats/base/scuminabs]: https://github.com/stdlib-js/stats/tree/main/base/scuminabs
+
+<!-- </related-links> -->
 
 </section>
 

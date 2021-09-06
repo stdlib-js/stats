@@ -161,11 +161,39 @@ console.log( v );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dmean`][@stdlib/stats/base/dmean]: https://github.com/stdlib-js/stats/tree/main/base/dmean`][@stdlib/stats/base/dmean
+-   [`@stdlib/stats/base/mediansorted`][@stdlib/stats/base/mediansorted]: https://github.com/stdlib-js/stats/tree/main/base/mediansorted`][@stdlib/stats/base/mediansorted
+-   [`@stdlib/stats/base/smediansorted`][@stdlib/stats/base/smediansorted]: https://github.com/stdlib-js/stats/tree/main/base/smediansorted`][@stdlib/stats/base/smediansorted
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmean]: https://github.com/stdlib-js/stats/tree/main/base/dmean
+
+[@stdlib/stats/base/mediansorted]: https://github.com/stdlib-js/stats/tree/main/base/mediansorted
+
+[@stdlib/stats/base/smediansorted]: https://github.com/stdlib-js/stats/tree/main/base/smediansorted
+
+<!-- </related-links> -->
 
 </section>
 

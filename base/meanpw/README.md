@@ -179,6 +179,24 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dmeanpw`][@stdlib/stats/base/dmeanpw]: https://github.com/stdlib-js/stats/tree/main/base/dmeanpw`][@stdlib/stats/base/dmeanpw
+-   [`@stdlib/stats/base/mean`][@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats/tree/main/base/mean`][@stdlib/stats/base/mean
+-   [`@stdlib/stats/base/smeanpw`][@stdlib/stats/base/smeanpw]: https://github.com/stdlib-js/stats/tree/main/base/smeanpw`][@stdlib/stats/base/smeanpw
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
@@ -187,11 +205,17 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+[@higham:1993a]: https://doi.org/10.1137/0914050
+
+<!-- <related-links> -->
+
 [@stdlib/stats/base/dmeanpw]: https://github.com/stdlib-js/stats/tree/main/base/dmeanpw
+
+[@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats/tree/main/base/mean
 
 [@stdlib/stats/base/smeanpw]: https://github.com/stdlib-js/stats/tree/main/base/smeanpw
 
-[@higham:1993a]: https://doi.org/10.1137/0914050
+<!-- </related-links> -->
 
 </section>
 
