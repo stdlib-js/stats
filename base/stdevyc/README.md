@@ -221,11 +221,11 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dstdevyc`][@stdlib/stats/base/dstdevyc]: https://github.com/stdlib-js/stats/tree/main/base/dstdevyc`][@stdlib/stats/base/dstdevyc
--   [`@stdlib/stats/base/nanstdevyc`][@stdlib/stats/base/nanstdevyc]: https://github.com/stdlib-js/stats/tree/main/base/nanstdevyc`][@stdlib/stats/base/nanstdevyc
--   [`@stdlib/stats/base/sstdevyc`][@stdlib/stats/base/sstdevyc]: https://github.com/stdlib-js/stats/tree/main/base/sstdevyc`][@stdlib/stats/base/sstdevyc
--   [`@stdlib/stats/base/stdev`][@stdlib/stats/base/stdev]: https://github.com/stdlib-js/stats/tree/main/base/stdev`][@stdlib/stats/base/stdev
--   [`@stdlib/stats/base/varianceyc`][@stdlib/stats/base/varianceyc]: https://github.com/stdlib-js/stats/tree/main/base/varianceyc`][@stdlib/stats/base/varianceyc
+-   [`@stdlib/stats/base/dstdevyc`][@stdlib/stats/base/dstdevyc]: calculate the standard deviation of a double-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.
+-   [`@stdlib/stats/base/nanstdevyc`][@stdlib/stats/base/nanstdevyc]: calculate the standard deviation of a strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.
+-   [`@stdlib/stats/base/sstdevyc`][@stdlib/stats/base/sstdevyc]: calculate the standard deviation of a single-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.
+-   [`@stdlib/stats/base/stdev`][@stdlib/stats/base/stdev]: calculate the standard deviation of a strided array.
+-   [`@stdlib/stats/base/varianceyc`][@stdlib/stats/base/varianceyc]: calculate the variance of a strided array using a one-pass algorithm proposed by Youngs and Cramer.
 
 </section>
 

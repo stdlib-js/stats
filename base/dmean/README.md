@@ -179,9 +179,9 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dnanmean`][@stdlib/stats/base/dnanmean]: https://github.com/stdlib-js/stats/tree/main/base/dnanmean`][@stdlib/stats/base/dnanmean
--   [`@stdlib/stats/base/mean`][@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats/tree/main/base/mean`][@stdlib/stats/base/mean
--   [`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]: https://github.com/stdlib-js/stats/tree/main/base/smean`][@stdlib/stats/base/smean
+-   [`@stdlib/stats/base/dnanmean`][@stdlib/stats/base/dnanmean]: calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/mean`][@stdlib/stats/base/mean]: calculate the arithmetic mean of a strided array.
+-   [`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]: calculate the arithmetic mean of a single-precision floating-point strided array.
 
 </section>
 

@@ -173,9 +173,9 @@ console.log( y );
 
 ## See Also
 
--   [`@stdlib/stats/base/cumax`][@stdlib/stats/base/cumax]: https://github.com/stdlib-js/stats/tree/main/base/cumax`][@stdlib/stats/base/cumax
--   [`@stdlib/stats/base/dcumin`][@stdlib/stats/base/dcumin]: https://github.com/stdlib-js/stats/tree/main/base/dcumin`][@stdlib/stats/base/dcumin
--   [`@stdlib/stats/base/scumin`][@stdlib/stats/base/scumin]: https://github.com/stdlib-js/stats/tree/main/base/scumin`][@stdlib/stats/base/scumin
+-   [`@stdlib/stats/base/cumax`][@stdlib/stats/base/cumax]: calculate the cumulative maximum of a strided array.
+-   [`@stdlib/stats/base/dcumin`][@stdlib/stats/base/dcumin]: calculate the cumulative minimum of double-precision floating-point strided array elements.
+-   [`@stdlib/stats/base/scumin`][@stdlib/stats/base/scumin]: calculate the cumulative minimum of single-precision floating-point strided array elements.
 
 </section>
 

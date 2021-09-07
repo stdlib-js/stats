@@ -220,10 +220,10 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dnanstdev`][@stdlib/stats/base/dnanstdev]: https://github.com/stdlib-js/stats/tree/main/base/dnanstdev`][@stdlib/stats/base/dnanstdev
--   [`@stdlib/stats/base/nanstdev`][@stdlib/stats/base/nanstdev]: https://github.com/stdlib-js/stats/tree/main/base/nanstdev`][@stdlib/stats/base/nanstdev
--   [`@stdlib/stats/base/snanvariance`][@stdlib/stats/base/snanvariance]: https://github.com/stdlib-js/stats/tree/main/base/snanvariance`][@stdlib/stats/base/snanvariance
--   [`@stdlib/stats/base/sstdev`][@stdlib/stats/base/sstdev]: https://github.com/stdlib-js/stats/tree/main/base/sstdev`][@stdlib/stats/base/sstdev
+-   [`@stdlib/stats/base/dnanstdev`][@stdlib/stats/base/dnanstdev]: calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values.
+-   [`@stdlib/stats/base/nanstdev`][@stdlib/stats/base/nanstdev]: calculate the standard deviation of a strided array ignoring NaN values.
+-   [`@stdlib/stats/base/snanvariance`][@stdlib/stats/base/snanvariance]: calculate the variance of a single-precision floating-point strided array ignoring NaN values.
+-   [`@stdlib/stats/base/sstdev`][@stdlib/stats/base/sstdev]: calculate the standard deviation of a single-precision floating-point strided array.
 
 </section>
 

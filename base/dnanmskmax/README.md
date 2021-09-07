@@ -194,11 +194,11 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmskmax`][@stdlib/stats/base/dmskmax]: https://github.com/stdlib-js/stats/tree/main/base/dmskmax`][@stdlib/stats/base/dmskmax
--   [`@stdlib/stats/base/dnanmax`][@stdlib/stats/base/dnanmax]: https://github.com/stdlib-js/stats/tree/main/base/dnanmax`][@stdlib/stats/base/dnanmax
--   [`@stdlib/stats/base/dnanmskmin`][@stdlib/stats/base/dnanmskmin]: https://github.com/stdlib-js/stats/tree/main/base/dnanmskmin`][@stdlib/stats/base/dnanmskmin
--   [`@stdlib/stats/base/nanmskmax`][@stdlib/stats/base/nanmskmax]: https://github.com/stdlib-js/stats/tree/main/base/nanmskmax`][@stdlib/stats/base/nanmskmax
--   [`@stdlib/stats/base/snanmskmax`][@stdlib/stats/base/snanmskmax]: https://github.com/stdlib-js/stats/tree/main/base/snanmskmax`][@stdlib/stats/base/snanmskmax
+-   [`@stdlib/stats/base/dmskmax`][@stdlib/stats/base/dmskmax]: calculate the maximum value of a double-precision floating-point strided array according to a mask.
+-   [`@stdlib/stats/base/dnanmax`][@stdlib/stats/base/dnanmax]: calculate the maximum value of a double-precision floating-point strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/dnanmskmin`][@stdlib/stats/base/dnanmskmin]: calculate the minimum value of a double-precision floating-point strided array according to a mask, ignoring NaN values.
+-   [`@stdlib/stats/base/nanmskmax`][@stdlib/stats/base/nanmskmax]: calculate the maximum value of a strided array according to a mask, ignoring NaN values.
+-   [`@stdlib/stats/base/snanmskmax`][@stdlib/stats/base/snanmskmax]: calculate the maximum value of a single-precision floating-point strided array according to a mask, ignoring NaN values.
 
 </section>
 

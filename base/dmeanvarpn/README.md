@@ -244,10 +244,10 @@ console.log( out );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmeanpn`][@stdlib/stats/base/dmeanpn]: https://github.com/stdlib-js/stats/tree/main/base/dmeanpn`][@stdlib/stats/base/dmeanpn
--   [`@stdlib/stats/base/dmeanstdevpn`][@stdlib/stats/base/dmeanstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/dmeanstdevpn`][@stdlib/stats/base/dmeanstdevpn
--   [`@stdlib/stats/base/dmeanvar`][@stdlib/stats/base/dmeanvar]: https://github.com/stdlib-js/stats/tree/main/base/dmeanvar`][@stdlib/stats/base/dmeanvar
--   [`@stdlib/stats/base/dvariancepn`][@stdlib/stats/base/dvariancepn]: https://github.com/stdlib-js/stats/tree/main/base/dvariancepn`][@stdlib/stats/base/dvariancepn
+-   [`@stdlib/stats/base/dmeanpn`][@stdlib/stats/base/dmeanpn]: calculate the arithmetic mean of a double-precision floating-point strided array using a two-pass error correction algorithm.
+-   [`@stdlib/stats/base/dmeanstdevpn`][@stdlib/stats/base/dmeanstdevpn]: calculate the mean and standard deviation of a double-precision floating-point strided array using a two-pass algorithm.
+-   [`@stdlib/stats/base/dmeanvar`][@stdlib/stats/base/dmeanvar]: calculate the mean and variance of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/dvariancepn`][@stdlib/stats/base/dvariancepn]: calculate the variance of a double-precision floating-point strided array using a two-pass algorithm.
 
 </section>
 

@@ -197,10 +197,10 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dnanmeanpn`][@stdlib/stats/base/dnanmeanpn]: https://github.com/stdlib-js/stats/tree/main/base/dnanmeanpn`][@stdlib/stats/base/dnanmeanpn
--   [`@stdlib/stats/base/nanmeanpn`][@stdlib/stats/base/nanmeanpn]: https://github.com/stdlib-js/stats/tree/main/base/nanmeanpn`][@stdlib/stats/base/nanmeanpn
--   [`@stdlib/stats/base/smeanpn`][@stdlib/stats/base/smeanpn]: https://github.com/stdlib-js/stats/tree/main/base/smeanpn`][@stdlib/stats/base/smeanpn
--   [`@stdlib/stats/base/snanmean`][@stdlib/stats/base/snanmean]: https://github.com/stdlib-js/stats/tree/main/base/snanmean`][@stdlib/stats/base/snanmean
+-   [`@stdlib/stats/base/dnanmeanpn`][@stdlib/stats/base/dnanmeanpn]: calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values and using a two-pass error correction algorithm.
+-   [`@stdlib/stats/base/nanmeanpn`][@stdlib/stats/base/nanmeanpn]: calculate the arithmetic mean of a strided array, ignoring NaN values and using a two-pass error correction algorithm.
+-   [`@stdlib/stats/base/smeanpn`][@stdlib/stats/base/smeanpn]: calculate the arithmetic mean of a single-precision floating-point strided array using a two-pass error correction algorithm.
+-   [`@stdlib/stats/base/snanmean`][@stdlib/stats/base/snanmean]: calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values.
 
 </section>
 

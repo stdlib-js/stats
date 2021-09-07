@@ -196,12 +196,12 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dnanmskrange`][@stdlib/stats/base/dnanmskrange]: https://github.com/stdlib-js/stats/tree/main/base/dnanmskrange`][@stdlib/stats/base/dnanmskrange
--   [`@stdlib/stats/base/nanmskrange`][@stdlib/stats/base/nanmskrange]: https://github.com/stdlib-js/stats/tree/main/base/nanmskrange`][@stdlib/stats/base/nanmskrange
--   [`@stdlib/stats/base/smskrange`][@stdlib/stats/base/smskrange]: https://github.com/stdlib-js/stats/tree/main/base/smskrange`][@stdlib/stats/base/smskrange
--   [`@stdlib/stats/base/snanrange`][@stdlib/stats/base/snanrange]: https://github.com/stdlib-js/stats/tree/main/base/snanrange`][@stdlib/stats/base/snanrange
--   [`@stdlib/stats/base/snanmskmax`][@stdlib/stats/base/snanmskmax]: https://github.com/stdlib-js/stats/tree/main/base/snanmskmax`][@stdlib/stats/base/snanmskmax
--   [`@stdlib/stats/base/snanmskmin`][@stdlib/stats/base/snanmskmin]: https://github.com/stdlib-js/stats/tree/main/base/snanmskmin`][@stdlib/stats/base/snanmskmin
+-   [`@stdlib/stats/base/dnanmskrange`][@stdlib/stats/base/dnanmskrange]: calculate the range of a double-precision floating-point strided array according to a mask, ignoring NaN values.
+-   [`@stdlib/stats/base/nanmskrange`][@stdlib/stats/base/nanmskrange]: calculate the range of a strided array according to a mask, ignoring NaN values.
+-   [`@stdlib/stats/base/smskrange`][@stdlib/stats/base/smskrange]: calculate the range of a single-precision floating-point strided array according to a mask.
+-   [`@stdlib/stats/base/snanrange`][@stdlib/stats/base/snanrange]: calculate the range of a single-precision floating-point strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/snanmskmax`][@stdlib/stats/base/snanmskmax]: calculate the maximum value of a single-precision floating-point strided array according to a mask, ignoring NaN values.
+-   [`@stdlib/stats/base/snanmskmin`][@stdlib/stats/base/snanmskmin]: calculate the minimum value of a single-precision floating-point strided array according to a mask, ignoring NaN values.
 
 </section>
 

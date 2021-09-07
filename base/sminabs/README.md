@@ -168,11 +168,11 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dminabs`][@stdlib/stats/base/dminabs]: https://github.com/stdlib-js/stats/tree/main/base/dminabs`][@stdlib/stats/base/dminabs
--   [`@stdlib/stats/base/minabs`][@stdlib/stats/base/minabs]: https://github.com/stdlib-js/stats/tree/main/base/minabs`][@stdlib/stats/base/minabs
--   [`@stdlib/stats/base/smaxabs`][@stdlib/stats/base/smaxabs]: https://github.com/stdlib-js/stats/tree/main/base/smaxabs`][@stdlib/stats/base/smaxabs
--   [`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin`][@stdlib/stats/base/smin
--   [`@stdlib/stats/base/snanminabs`][@stdlib/stats/base/snanminabs]: https://github.com/stdlib-js/stats/tree/main/base/snanminabs`][@stdlib/stats/base/snanminabs
+-   [`@stdlib/stats/base/dminabs`][@stdlib/stats/base/dminabs]: calculate the minimum absolute value of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/minabs`][@stdlib/stats/base/minabs]: calculate the minimum absolute value of a strided array.
+-   [`@stdlib/stats/base/smaxabs`][@stdlib/stats/base/smaxabs]: calculate the maximum absolute value of a single-precision floating-point strided array.
+-   [`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]: calculate the minimum value of a single-precision floating-point strided array.
+-   [`@stdlib/stats/base/snanminabs`][@stdlib/stats/base/snanminabs]: calculate the minimum absolute value of a single-precision floating-point strided array, ignoring NaN values.
 
 </section>
 

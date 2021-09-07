@@ -197,10 +197,10 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmeanwd`][@stdlib/stats/base/dmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/dmeanwd`][@stdlib/stats/base/dmeanwd
--   [`@stdlib/stats/base/dnanmean`][@stdlib/stats/base/dnanmean]: https://github.com/stdlib-js/stats/tree/main/base/dnanmean`][@stdlib/stats/base/dnanmean
--   [`@stdlib/stats/base/nanmeanwd`][@stdlib/stats/base/nanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/nanmeanwd`][@stdlib/stats/base/nanmeanwd
--   [`@stdlib/stats/base/snanmeanwd`][@stdlib/stats/base/snanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/snanmeanwd`][@stdlib/stats/base/snanmeanwd
+-   [`@stdlib/stats/base/dmeanwd`][@stdlib/stats/base/dmeanwd]: calculate the arithmetic mean of a double-precision floating-point strided array using Welford's algorithm.
+-   [`@stdlib/stats/base/dnanmean`][@stdlib/stats/base/dnanmean]: calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/nanmeanwd`][@stdlib/stats/base/nanmeanwd]: calculate the arithmetic mean of a strided array, ignoring NaN values and using Welford's algorithm.
+-   [`@stdlib/stats/base/snanmeanwd`][@stdlib/stats/base/snanmeanwd]: calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using Welford's algorithm.
 
 </section>
 

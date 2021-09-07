@@ -202,7 +202,7 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dstdev`][@stdlib/stats/base/dstdev]: https://github.com/stdlib-js/stats/tree/main/base/dstdev`][@stdlib/stats/base/dstdev
+-   [`@stdlib/stats/base/dstdev`][@stdlib/stats/base/dstdev]: calculate the standard deviation of a double-precision floating-point strided array.
 
 </section>
 

@@ -217,6 +217,12 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dvariance`][@stdlib/stats/base/dvariance]: calculate the variance of a double-precision floating-point strided array.
+
 </section>
 
 <!-- /.related -->
@@ -230,6 +236,12 @@ console.log( v );
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dvariance]: https://github.com/stdlib-js/stats/tree/main/base/dvariance
+
+<!-- </related-links> -->
 
 </section>
 

@@ -163,6 +163,14 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dmaxabs`][@stdlib/stats/base/dmaxabs]: calculate the maximum absolute value of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/dmaxsorted`][@stdlib/stats/base/dmaxsorted]: calculate the maximum value of a sorted double-precision floating-point strided array.
+-   [`@stdlib/stats/base/smaxabssorted`][@stdlib/stats/base/smaxabssorted]: calculate the maximum absolute value of a sorted single-precision floating-point strided array.
+
 </section>
 
 <!-- /.related -->
@@ -174,6 +182,16 @@ console.log( v );
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmaxabs]: https://github.com/stdlib-js/stats/tree/main/base/dmaxabs
+
+[@stdlib/stats/base/dmaxsorted]: https://github.com/stdlib-js/stats/tree/main/base/dmaxsorted
+
+[@stdlib/stats/base/smaxabssorted]: https://github.com/stdlib-js/stats/tree/main/base/smaxabssorted
+
+<!-- </related-links> -->
 
 </section>
 

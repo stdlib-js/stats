@@ -169,9 +169,9 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmean`][@stdlib/stats/base/dmean]: https://github.com/stdlib-js/stats/tree/main/base/dmean`][@stdlib/stats/base/dmean
--   [`@stdlib/stats/base/mediansorted`][@stdlib/stats/base/mediansorted]: https://github.com/stdlib-js/stats/tree/main/base/mediansorted`][@stdlib/stats/base/mediansorted
--   [`@stdlib/stats/base/smediansorted`][@stdlib/stats/base/smediansorted]: https://github.com/stdlib-js/stats/tree/main/base/smediansorted`][@stdlib/stats/base/smediansorted
+-   [`@stdlib/stats/base/dmean`][@stdlib/stats/base/dmean]: calculate the arithmetic mean of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/mediansorted`][@stdlib/stats/base/mediansorted]: calculate the median value of a sorted strided array.
+-   [`@stdlib/stats/base/smediansorted`][@stdlib/stats/base/smediansorted]: calculate the median value of a sorted single-precision floating-point strided array.
 
 </section>
 

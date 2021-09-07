@@ -167,9 +167,9 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmaxabssorted`][@stdlib/stats/base/dmaxabssorted]: https://github.com/stdlib-js/stats/tree/main/base/dmaxabssorted`][@stdlib/stats/base/dmaxabssorted
--   [`@stdlib/stats/base/smaxabs`][@stdlib/stats/base/smaxabs]: https://github.com/stdlib-js/stats/tree/main/base/smaxabs`][@stdlib/stats/base/smaxabs
--   [`@stdlib/stats/base/smaxsorted`][@stdlib/stats/base/smaxsorted]: https://github.com/stdlib-js/stats/tree/main/base/smaxsorted`][@stdlib/stats/base/smaxsorted
+-   [`@stdlib/stats/base/dmaxabssorted`][@stdlib/stats/base/dmaxabssorted]: calculate the maximum absolute value of a sorted double-precision floating-point strided array.
+-   [`@stdlib/stats/base/smaxabs`][@stdlib/stats/base/smaxabs]: calculate the maximum absolute value of a single-precision floating-point strided array.
+-   [`@stdlib/stats/base/smaxsorted`][@stdlib/stats/base/smaxsorted]: calculate the maximum value of a sorted single-precision floating-point strided array.
 
 </section>
 

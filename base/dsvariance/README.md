@@ -223,9 +223,9 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dvariance`][@stdlib/stats/base/dvariance]: https://github.com/stdlib-js/stats/tree/main/base/dvariance`][@stdlib/stats/base/dvariance
--   [`@stdlib/stats/base/variance`][@stdlib/stats/base/variance]: https://github.com/stdlib-js/stats/tree/main/base/variance`][@stdlib/stats/base/variance
--   [`@stdlib/stats/base/svariance`][@stdlib/stats/base/svariance]: https://github.com/stdlib-js/stats/tree/main/base/svariance`][@stdlib/stats/base/svariance
+-   [`@stdlib/stats/base/dvariance`][@stdlib/stats/base/dvariance]: calculate the variance of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/variance`][@stdlib/stats/base/variance]: calculate the variance of a strided array.
+-   [`@stdlib/stats/base/svariance`][@stdlib/stats/base/svariance]: calculate the variance of a single-precision floating-point strided array.
 
 </section>
 

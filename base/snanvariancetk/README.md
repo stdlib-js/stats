@@ -227,11 +227,11 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dnanvariancetk`][@stdlib/stats/base/dnanvariancetk]: https://github.com/stdlib-js/stats/tree/main/base/dnanvariancetk`][@stdlib/stats/base/dnanvariancetk
--   [`@stdlib/stats/base/nanvariancetk`][@stdlib/stats/base/nanvariancetk]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancetk`][@stdlib/stats/base/nanvariancetk
--   [`@stdlib/stats/base/snanstdevtk`][@stdlib/stats/base/snanstdevtk]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevtk`][@stdlib/stats/base/snanstdevtk
--   [`@stdlib/stats/base/snanvariance`][@stdlib/stats/base/snanvariance]: https://github.com/stdlib-js/stats/tree/main/base/snanvariance`][@stdlib/stats/base/snanvariance
--   [`@stdlib/stats/base/svariancetk`][@stdlib/stats/base/svariancetk]: https://github.com/stdlib-js/stats/tree/main/base/svariancetk`][@stdlib/stats/base/svariancetk
+-   [`@stdlib/stats/base/dnanvariancetk`][@stdlib/stats/base/dnanvariancetk]: calculate the variance of a double-precision floating-point strided array ignoring NaN values and using a one-pass textbook algorithm.
+-   [`@stdlib/stats/base/nanvariancetk`][@stdlib/stats/base/nanvariancetk]: calculate the variance of a strided array ignoring NaN values and using a one-pass textbook algorithm.
+-   [`@stdlib/stats/base/snanstdevtk`][@stdlib/stats/base/snanstdevtk]: calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a one-pass textbook algorithm.
+-   [`@stdlib/stats/base/snanvariance`][@stdlib/stats/base/snanvariance]: calculate the variance of a single-precision floating-point strided array ignoring NaN values.
+-   [`@stdlib/stats/base/svariancetk`][@stdlib/stats/base/svariancetk]: calculate the variance of a single-precision floating-point strided array using a one-pass textbook algorithm.
 
 </section>
 

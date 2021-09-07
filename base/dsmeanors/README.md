@@ -187,11 +187,11 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmeanors`][@stdlib/stats/base/dmeanors]: https://github.com/stdlib-js/stats/tree/main/base/dmeanors`][@stdlib/stats/base/dmeanors
--   [`@stdlib/stats/base/dsmean`][@stdlib/stats/base/dsmean]: https://github.com/stdlib-js/stats/tree/main/base/dsmean`][@stdlib/stats/base/dsmean
--   [`@stdlib/stats/base/dsnanmeanors`][@stdlib/stats/base/dsnanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/dsnanmeanors`][@stdlib/stats/base/dsnanmeanors
--   [`@stdlib/stats/base/meanors`][@stdlib/stats/base/meanors]: https://github.com/stdlib-js/stats/tree/main/base/meanors`][@stdlib/stats/base/meanors
--   [`@stdlib/stats/base/smeanors`][@stdlib/stats/base/smeanors]: https://github.com/stdlib-js/stats/tree/main/base/smeanors`][@stdlib/stats/base/smeanors
+-   [`@stdlib/stats/base/dmeanors`][@stdlib/stats/base/dmeanors]: calculate the arithmetic mean of a double-precision floating-point strided array using ordinary recursive summation.
+-   [`@stdlib/stats/base/dsmean`][@stdlib/stats/base/dsmean]: calculate the arithmetic mean of a single-precision floating-point strided array using extended accumulation and returning an extended precision result.
+-   [`@stdlib/stats/base/dsnanmeanors`][@stdlib/stats/base/dsnanmeanors]: calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values, using ordinary recursive summation with extended accumulation, and returning an extended precision result.
+-   [`@stdlib/stats/base/meanors`][@stdlib/stats/base/meanors]: calculate the arithmetic mean of a strided array using ordinary recursive summation.
+-   [`@stdlib/stats/base/smeanors`][@stdlib/stats/base/smeanors]: calculate the arithmetic mean of a single-precision floating-point strided array using ordinary recursive summation.
 
 </section>
 

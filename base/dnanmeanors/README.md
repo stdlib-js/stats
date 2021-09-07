@@ -185,10 +185,10 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmeanors`][@stdlib/stats/base/dmeanors]: https://github.com/stdlib-js/stats/tree/main/base/dmeanors`][@stdlib/stats/base/dmeanors
--   [`@stdlib/stats/base/dnanmean`][@stdlib/stats/base/dnanmean]: https://github.com/stdlib-js/stats/tree/main/base/dnanmean`][@stdlib/stats/base/dnanmean
--   [`@stdlib/stats/base/nanmeanors`][@stdlib/stats/base/nanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/nanmeanors`][@stdlib/stats/base/nanmeanors
--   [`@stdlib/stats/base/snanmeanors`][@stdlib/stats/base/snanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/snanmeanors`][@stdlib/stats/base/snanmeanors
+-   [`@stdlib/stats/base/dmeanors`][@stdlib/stats/base/dmeanors]: calculate the arithmetic mean of a double-precision floating-point strided array using ordinary recursive summation.
+-   [`@stdlib/stats/base/dnanmean`][@stdlib/stats/base/dnanmean]: calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/nanmeanors`][@stdlib/stats/base/nanmeanors]: calculate the arithmetic mean of a strided array, ignoring NaN values and using ordinary recursive summation.
+-   [`@stdlib/stats/base/snanmeanors`][@stdlib/stats/base/snanmeanors]: calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation.
 
 </section>
 

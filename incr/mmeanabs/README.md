@@ -134,6 +134,14 @@ console.log( accumulator() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/incr/meanabs`][@stdlib/stats/incr/meanabs]: compute an arithmetic mean of absolute values incrementally.
+-   [`@stdlib/stats/incr/mmean`][@stdlib/stats/incr/mmean]: compute a moving arithmetic mean incrementally.
+-   [`@stdlib/stats/incr/msumabs`][@stdlib/stats/incr/msumabs]: compute a moving sum of absolute values incrementally.
+
 </section>
 
 <!-- /.related -->
@@ -143,6 +151,16 @@ console.log( accumulator() );
 <section class="links">
 
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/meanabs]: https://github.com/stdlib-js/stats/tree/main/incr/meanabs
+
+[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats/tree/main/incr/mmean
+
+[@stdlib/stats/incr/msumabs]: https://github.com/stdlib-js/stats/tree/main/incr/msumabs
+
+<!-- </related-links> -->
 
 </section>
 

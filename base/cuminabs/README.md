@@ -173,10 +173,10 @@ console.log( y );
 
 ## See Also
 
--   [`@stdlib/stats/base/cumaxabs`][@stdlib/stats/base/cumaxabs]: https://github.com/stdlib-js/stats/tree/main/base/cumaxabs`][@stdlib/stats/base/cumaxabs
--   [`@stdlib/stats/base/cumin`][@stdlib/stats/base/cumin]: https://github.com/stdlib-js/stats/tree/main/base/cumin`][@stdlib/stats/base/cumin
--   [`@stdlib/stats/base/dcuminabs`][@stdlib/stats/base/dcuminabs]: https://github.com/stdlib-js/stats/tree/main/base/dcuminabs`][@stdlib/stats/base/dcuminabs
--   [`@stdlib/stats/base/scuminabs`][@stdlib/stats/base/scuminabs]: https://github.com/stdlib-js/stats/tree/main/base/scuminabs`][@stdlib/stats/base/scuminabs
+-   [`@stdlib/stats/base/cumaxabs`][@stdlib/stats/base/cumaxabs]: calculate the cumulative maximum absolute value of a strided array.
+-   [`@stdlib/stats/base/cumin`][@stdlib/stats/base/cumin]: calculate the cumulative minimum of a strided array.
+-   [`@stdlib/stats/base/dcuminabs`][@stdlib/stats/base/dcuminabs]: calculate the cumulative minimum absolute value of double-precision floating-point strided array elements.
+-   [`@stdlib/stats/base/scuminabs`][@stdlib/stats/base/scuminabs]: calculate the cumulative minimum absolute value of single-precision floating-point strided array elements.
 
 </section>
 

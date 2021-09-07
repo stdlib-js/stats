@@ -194,9 +194,9 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmean`][@stdlib/stats/base/dmean]: https://github.com/stdlib-js/stats/tree/main/base/dmean`][@stdlib/stats/base/dmean
--   [`@stdlib/stats/base/dmeanlipw`][@stdlib/stats/base/dmeanlipw]: https://github.com/stdlib-js/stats/tree/main/base/dmeanlipw`][@stdlib/stats/base/dmeanlipw
--   [`@stdlib/stats/base/smeanli`][@stdlib/stats/base/smeanli]: https://github.com/stdlib-js/stats/tree/main/base/smeanli`][@stdlib/stats/base/smeanli
+-   [`@stdlib/stats/base/dmean`][@stdlib/stats/base/dmean]: calculate the arithmetic mean of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/dmeanlipw`][@stdlib/stats/base/dmeanlipw]: calculate the arithmetic mean of a double-precision floating-point strided array using a one-pass trial mean algorithm with pairwise summation.
+-   [`@stdlib/stats/base/smeanli`][@stdlib/stats/base/smeanli]: calculate the arithmetic mean of a single-precision floating-point strided array using a one-pass trial mean algorithm.
 
 </section>
 

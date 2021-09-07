@@ -187,9 +187,9 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmeanpw`][@stdlib/stats/base/dmeanpw]: https://github.com/stdlib-js/stats/tree/main/base/dmeanpw`][@stdlib/stats/base/dmeanpw
--   [`@stdlib/stats/base/mean`][@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats/tree/main/base/mean`][@stdlib/stats/base/mean
--   [`@stdlib/stats/base/smeanpw`][@stdlib/stats/base/smeanpw]: https://github.com/stdlib-js/stats/tree/main/base/smeanpw`][@stdlib/stats/base/smeanpw
+-   [`@stdlib/stats/base/dmeanpw`][@stdlib/stats/base/dmeanpw]: calculate the arithmetic mean of a double-precision floating-point strided array using pairwise summation.
+-   [`@stdlib/stats/base/mean`][@stdlib/stats/base/mean]: calculate the arithmetic mean of a strided array.
+-   [`@stdlib/stats/base/smeanpw`][@stdlib/stats/base/smeanpw]: calculate the arithmetic mean of a single-precision floating-point strided array using pairwise summation.
 
 </section>
 

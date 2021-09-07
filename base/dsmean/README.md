@@ -180,11 +180,11 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmean`][@stdlib/stats/base/dmean]: https://github.com/stdlib-js/stats/tree/main/base/dmean`][@stdlib/stats/base/dmean
--   [`@stdlib/stats/base/dsnanmean`][@stdlib/stats/base/dsnanmean]: https://github.com/stdlib-js/stats/tree/main/base/dsnanmean`][@stdlib/stats/base/dsnanmean
--   [`@stdlib/stats/base/mean`][@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats/tree/main/base/mean`][@stdlib/stats/base/mean
--   [`@stdlib/stats/base/sdsmean`][@stdlib/stats/base/sdsmean]: https://github.com/stdlib-js/stats/tree/main/base/sdsmean`][@stdlib/stats/base/sdsmean
--   [`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]: https://github.com/stdlib-js/stats/tree/main/base/smean`][@stdlib/stats/base/smean
+-   [`@stdlib/stats/base/dmean`][@stdlib/stats/base/dmean]: calculate the arithmetic mean of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/dsnanmean`][@stdlib/stats/base/dsnanmean]: calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values, using extended accumulation, and returning an extended precision result.
+-   [`@stdlib/stats/base/mean`][@stdlib/stats/base/mean]: calculate the arithmetic mean of a strided array.
+-   [`@stdlib/stats/base/sdsmean`][@stdlib/stats/base/sdsmean]: calculate the arithmetic mean of a single-precision floating-point strided array using extended accumulation.
+-   [`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]: calculate the arithmetic mean of a single-precision floating-point strided array.
 
 </section>
 

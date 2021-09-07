@@ -173,10 +173,10 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmaxsorted`][@stdlib/stats/base/dmaxsorted]: https://github.com/stdlib-js/stats/tree/main/base/dmaxsorted`][@stdlib/stats/base/dmaxsorted
--   [`@stdlib/stats/base/maxsorted`][@stdlib/stats/base/maxsorted]: https://github.com/stdlib-js/stats/tree/main/base/maxsorted`][@stdlib/stats/base/maxsorted
--   [`@stdlib/stats/base/smax`][@stdlib/stats/base/smax]: https://github.com/stdlib-js/stats/tree/main/base/smax`][@stdlib/stats/base/smax
--   [`@stdlib/stats/base/sminsorted`][@stdlib/stats/base/sminsorted]: https://github.com/stdlib-js/stats/tree/main/base/sminsorted`][@stdlib/stats/base/sminsorted
+-   [`@stdlib/stats/base/dmaxsorted`][@stdlib/stats/base/dmaxsorted]: calculate the maximum value of a sorted double-precision floating-point strided array.
+-   [`@stdlib/stats/base/maxsorted`][@stdlib/stats/base/maxsorted]: calculate the maximum value of a sorted strided array.
+-   [`@stdlib/stats/base/smax`][@stdlib/stats/base/smax]: calculate the maximum value of a single-precision floating-point strided array.
+-   [`@stdlib/stats/base/sminsorted`][@stdlib/stats/base/sminsorted]: calculate the minimum value of a sorted single-precision floating-point strided array.
 
 </section>
 

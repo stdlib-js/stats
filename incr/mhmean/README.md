@@ -134,6 +134,14 @@ console.log( accumulator() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/incr/hmean`][@stdlib/stats/incr/hmean]: compute a harmonic mean incrementally.
+-   [`@stdlib/stats/incr/mgmean`][@stdlib/stats/incr/mgmean]: compute a moving geometric mean incrementally.
+-   [`@stdlib/stats/incr/mmean`][@stdlib/stats/incr/mmean]: compute a moving arithmetic mean incrementally.
+
 </section>
 
 <!-- /.related -->
@@ -143,6 +151,16 @@ console.log( accumulator() );
 <section class="links">
 
 [harmonic-mean]: https://en.wikipedia.org/wiki/Harmonic_mean
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/hmean]: https://github.com/stdlib-js/stats/tree/main/incr/hmean
+
+[@stdlib/stats/incr/mgmean]: https://github.com/stdlib-js/stats/tree/main/incr/mgmean
+
+[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats/tree/main/incr/mmean
+
+<!-- </related-links> -->
 
 </section>
 

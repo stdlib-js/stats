@@ -163,11 +163,11 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dminabs`][@stdlib/stats/base/dminabs]: https://github.com/stdlib-js/stats/tree/main/base/dminabs`][@stdlib/stats/base/dminabs
--   [`@stdlib/stats/base/maxabs`][@stdlib/stats/base/maxabs]: https://github.com/stdlib-js/stats/tree/main/base/maxabs`][@stdlib/stats/base/maxabs
--   [`@stdlib/stats/base/min`][@stdlib/stats/base/min]: https://github.com/stdlib-js/stats/tree/main/base/min`][@stdlib/stats/base/min
--   [`@stdlib/stats/base/nanminabs`][@stdlib/stats/base/nanminabs]: https://github.com/stdlib-js/stats/tree/main/base/nanminabs`][@stdlib/stats/base/nanminabs
--   [`@stdlib/stats/base/sminabs`][@stdlib/stats/base/sminabs]: https://github.com/stdlib-js/stats/tree/main/base/sminabs`][@stdlib/stats/base/sminabs
+-   [`@stdlib/stats/base/dminabs`][@stdlib/stats/base/dminabs]: calculate the minimum absolute value of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/maxabs`][@stdlib/stats/base/maxabs]: calculate the maximum absolute value of a strided array.
+-   [`@stdlib/stats/base/min`][@stdlib/stats/base/min]: calculate the minimum value of a strided array.
+-   [`@stdlib/stats/base/nanminabs`][@stdlib/stats/base/nanminabs]: calculate the minimum absolute value of a strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/sminabs`][@stdlib/stats/base/sminabs]: calculate the minimum absolute value of a single-precision floating-point strided array.
 
 </section>
 

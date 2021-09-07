@@ -172,10 +172,10 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dnanmin`][@stdlib/stats/base/dnanmin]: https://github.com/stdlib-js/stats/tree/main/base/dnanmin`][@stdlib/stats/base/dnanmin
--   [`@stdlib/stats/base/nanmin`][@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats/tree/main/base/nanmin`][@stdlib/stats/base/nanmin
--   [`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin`][@stdlib/stats/base/smin
--   [`@stdlib/stats/base/snanmax`][@stdlib/stats/base/snanmax]: https://github.com/stdlib-js/stats/tree/main/base/snanmax`][@stdlib/stats/base/snanmax
+-   [`@stdlib/stats/base/dnanmin`][@stdlib/stats/base/dnanmin]: calculate the minimum value of a double-precision floating-point strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/nanmin`][@stdlib/stats/base/nanmin]: calculate the minimum value of a strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]: calculate the minimum value of a single-precision floating-point strided array.
+-   [`@stdlib/stats/base/snanmax`][@stdlib/stats/base/snanmax]: calculate the maximum value of a single-precision floating-point strided array, ignoring NaN values.
 
 </section>
 

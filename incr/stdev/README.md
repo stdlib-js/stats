@@ -128,6 +128,17 @@ console.log( accumulator() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/incr/kurtosis`][@stdlib/stats/incr/kurtosis]: compute a corrected sample excess kurtosis incrementally.
+-   [`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]: compute an arithmetic mean incrementally.
+-   [`@stdlib/stats/incr/mstdev`][@stdlib/stats/incr/mstdev]: compute a moving corrected sample standard deviation incrementally.
+-   [`@stdlib/stats/incr/skewness`][@stdlib/stats/incr/skewness]: compute a corrected sample skewness incrementally.
+-   [`@stdlib/stats/incr/summary`][@stdlib/stats/incr/summary]: compute a statistical summary incrementally.
+-   [`@stdlib/stats/incr/variance`][@stdlib/stats/incr/variance]: compute an unbiased sample variance incrementally.
+
 </section>
 
 <!-- /.related -->
@@ -137,6 +148,22 @@ console.log( accumulator() );
 <section class="links">
 
 [sample-stdev]: https://en.wikipedia.org/wiki/Standard_deviation
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/kurtosis]: https://github.com/stdlib-js/stats/tree/main/incr/kurtosis
+
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats/tree/main/incr/mean
+
+[@stdlib/stats/incr/mstdev]: https://github.com/stdlib-js/stats/tree/main/incr/mstdev
+
+[@stdlib/stats/incr/skewness]: https://github.com/stdlib-js/stats/tree/main/incr/skewness
+
+[@stdlib/stats/incr/summary]: https://github.com/stdlib-js/stats/tree/main/incr/summary
+
+[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats/tree/main/incr/variance
+
+<!-- </related-links> -->
 
 </section>
 

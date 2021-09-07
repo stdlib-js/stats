@@ -229,11 +229,11 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dnanvariancepn`][@stdlib/stats/base/dnanvariancepn]: https://github.com/stdlib-js/stats/tree/main/base/dnanvariancepn`][@stdlib/stats/base/dnanvariancepn
--   [`@stdlib/stats/base/dstdevpn`][@stdlib/stats/base/dstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/dstdevpn`][@stdlib/stats/base/dstdevpn
--   [`@stdlib/stats/base/dvariance`][@stdlib/stats/base/dvariance]: https://github.com/stdlib-js/stats/tree/main/base/dvariance`][@stdlib/stats/base/dvariance
--   [`@stdlib/stats/base/svariancepn`][@stdlib/stats/base/svariancepn]: https://github.com/stdlib-js/stats/tree/main/base/svariancepn`][@stdlib/stats/base/svariancepn
--   [`@stdlib/stats/base/variancepn`][@stdlib/stats/base/variancepn]: https://github.com/stdlib-js/stats/tree/main/base/variancepn`][@stdlib/stats/base/variancepn
+-   [`@stdlib/stats/base/dnanvariancepn`][@stdlib/stats/base/dnanvariancepn]: calculate the variance of a double-precision floating-point strided array ignoring NaN values and using a two-pass algorithm.
+-   [`@stdlib/stats/base/dstdevpn`][@stdlib/stats/base/dstdevpn]: calculate the standard deviation of a double-precision floating-point strided array using a two-pass algorithm.
+-   [`@stdlib/stats/base/dvariance`][@stdlib/stats/base/dvariance]: calculate the variance of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/svariancepn`][@stdlib/stats/base/svariancepn]: calculate the variance of a single-precision floating-point strided array using a two-pass algorithm.
+-   [`@stdlib/stats/base/variancepn`][@stdlib/stats/base/variancepn]: calculate the variance of a strided array using a two-pass algorithm.
 
 </section>
 

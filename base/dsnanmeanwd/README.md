@@ -198,12 +198,12 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dnanmeanwd`][@stdlib/stats/base/dnanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/dnanmeanwd`][@stdlib/stats/base/dnanmeanwd
--   [`@stdlib/stats/base/dsmeanwd`][@stdlib/stats/base/dsmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/dsmeanwd`][@stdlib/stats/base/dsmeanwd
--   [`@stdlib/stats/base/dsnanmean`][@stdlib/stats/base/dsnanmean]: https://github.com/stdlib-js/stats/tree/main/base/dsnanmean`][@stdlib/stats/base/dsnanmean
--   [`@stdlib/stats/base/nanmeanwd`][@stdlib/stats/base/nanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/nanmeanwd`][@stdlib/stats/base/nanmeanwd
--   [`@stdlib/stats/base/sdsnanmean`][@stdlib/stats/base/sdsnanmean]: https://github.com/stdlib-js/stats/tree/main/base/sdsnanmean`][@stdlib/stats/base/sdsnanmean
--   [`@stdlib/stats/base/snanmeanwd`][@stdlib/stats/base/snanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/snanmeanwd`][@stdlib/stats/base/snanmeanwd
+-   [`@stdlib/stats/base/dnanmeanwd`][@stdlib/stats/base/dnanmeanwd]: calculate the arithmetic mean of a double-precision floating-point strided array, using Welford's algorithm and ignoring NaN values.
+-   [`@stdlib/stats/base/dsmeanwd`][@stdlib/stats/base/dsmeanwd]: calculate the arithmetic mean of a single-precision floating-point strided array using Welford's algorithm with extended accumulation and returning an extended precision result.
+-   [`@stdlib/stats/base/dsnanmean`][@stdlib/stats/base/dsnanmean]: calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values, using extended accumulation, and returning an extended precision result.
+-   [`@stdlib/stats/base/nanmeanwd`][@stdlib/stats/base/nanmeanwd]: calculate the arithmetic mean of a strided array, ignoring NaN values and using Welford's algorithm.
+-   [`@stdlib/stats/base/sdsnanmean`][@stdlib/stats/base/sdsnanmean]: calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using extended accumulation.
+-   [`@stdlib/stats/base/snanmeanwd`][@stdlib/stats/base/snanmeanwd]: calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using Welford's algorithm.
 
 </section>
 

@@ -229,11 +229,11 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dstdevpn`][@stdlib/stats/base/dstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/dstdevpn`][@stdlib/stats/base/dstdevpn
--   [`@stdlib/stats/base/snanstdevpn`][@stdlib/stats/base/snanstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevpn`][@stdlib/stats/base/snanstdevpn
--   [`@stdlib/stats/base/sstdev`][@stdlib/stats/base/sstdev]: https://github.com/stdlib-js/stats/tree/main/base/sstdev`][@stdlib/stats/base/sstdev
--   [`@stdlib/stats/base/stdevpn`][@stdlib/stats/base/stdevpn]: https://github.com/stdlib-js/stats/tree/main/base/stdevpn`][@stdlib/stats/base/stdevpn
--   [`@stdlib/stats/base/svariancepn`][@stdlib/stats/base/svariancepn]: https://github.com/stdlib-js/stats/tree/main/base/svariancepn`][@stdlib/stats/base/svariancepn
+-   [`@stdlib/stats/base/dstdevpn`][@stdlib/stats/base/dstdevpn]: calculate the standard deviation of a double-precision floating-point strided array using a two-pass algorithm.
+-   [`@stdlib/stats/base/snanstdevpn`][@stdlib/stats/base/snanstdevpn]: calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a two-pass algorithm.
+-   [`@stdlib/stats/base/sstdev`][@stdlib/stats/base/sstdev]: calculate the standard deviation of a single-precision floating-point strided array.
+-   [`@stdlib/stats/base/stdevpn`][@stdlib/stats/base/stdevpn]: calculate the standard deviation of a strided array using a two-pass algorithm.
+-   [`@stdlib/stats/base/svariancepn`][@stdlib/stats/base/svariancepn]: calculate the variance of a single-precision floating-point strided array using a two-pass algorithm.
 
 </section>
 

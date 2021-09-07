@@ -190,12 +190,12 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmskmin`][@stdlib/stats/base/dmskmin]: https://github.com/stdlib-js/stats/tree/main/base/dmskmin`][@stdlib/stats/base/dmskmin
--   [`@stdlib/stats/base/mskmin`][@stdlib/stats/base/mskmin]: https://github.com/stdlib-js/stats/tree/main/base/mskmin`][@stdlib/stats/base/mskmin
--   [`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin`][@stdlib/stats/base/smin
--   [`@stdlib/stats/base/smskmax`][@stdlib/stats/base/smskmax]: https://github.com/stdlib-js/stats/tree/main/base/smskmax`][@stdlib/stats/base/smskmax
--   [`@stdlib/stats/base/snanmin`][@stdlib/stats/base/snanmin]: https://github.com/stdlib-js/stats/tree/main/base/snanmin`][@stdlib/stats/base/snanmin
--   [`@stdlib/stats/base/snanmskmin`][@stdlib/stats/base/snanmskmin]: https://github.com/stdlib-js/stats/tree/main/base/snanmskmin`][@stdlib/stats/base/snanmskmin
+-   [`@stdlib/stats/base/dmskmin`][@stdlib/stats/base/dmskmin]: calculate the minimum value of a double-precision floating-point strided array according to a mask.
+-   [`@stdlib/stats/base/mskmin`][@stdlib/stats/base/mskmin]: calculate the minimum value of a strided array according to a mask.
+-   [`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]: calculate the minimum value of a single-precision floating-point strided array.
+-   [`@stdlib/stats/base/smskmax`][@stdlib/stats/base/smskmax]: calculate the maximum value of a single-precision floating-point strided array according to a mask.
+-   [`@stdlib/stats/base/snanmin`][@stdlib/stats/base/snanmin]: calculate the minimum value of a single-precision floating-point strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/snanmskmin`][@stdlib/stats/base/snanmskmin]: calculate the minimum value of a single-precision floating-point strided array according to a mask, ignoring NaN values.
 
 </section>
 

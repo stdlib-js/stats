@@ -222,12 +222,12 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dnanrange`][@stdlib/stats/base/dnanrange]: https://github.com/stdlib-js/stats/tree/main/base/dnanrange`][@stdlib/stats/base/dnanrange
--   [`@stdlib/stats/base/nanmax-by`][@stdlib/stats/base/nanmax-by]: https://github.com/stdlib-js/stats/tree/main/base/nanmax-by`][@stdlib/stats/base/nanmax-by
--   [`@stdlib/stats/base/nanmin-by`][@stdlib/stats/base/nanmin-by]: https://github.com/stdlib-js/stats/tree/main/base/nanmin-by`][@stdlib/stats/base/nanmin-by
--   [`@stdlib/stats/base/nanrange`][@stdlib/stats/base/nanrange]: https://github.com/stdlib-js/stats/tree/main/base/nanrange`][@stdlib/stats/base/nanrange
--   [`@stdlib/stats/base/range-by`][@stdlib/stats/base/range-by]: https://github.com/stdlib-js/stats/tree/main/base/range-by`][@stdlib/stats/base/range-by
--   [`@stdlib/stats/base/snanrange`][@stdlib/stats/base/snanrange]: https://github.com/stdlib-js/stats/tree/main/base/snanrange`][@stdlib/stats/base/snanrange
+-   [`@stdlib/stats/base/dnanrange`][@stdlib/stats/base/dnanrange]: calculate the range of a double-precision floating-point strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/nanmax-by`][@stdlib/stats/base/nanmax-by]: calculate the maximum value of a strided array via a callback function, ignoring NaN values.
+-   [`@stdlib/stats/base/nanmin-by`][@stdlib/stats/base/nanmin-by]: calculate the minimum value of a strided array via a callback function, ignoring NaN values.
+-   [`@stdlib/stats/base/nanrange`][@stdlib/stats/base/nanrange]: calculate the range of a strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/range-by`][@stdlib/stats/base/range-by]: calculate the range of a strided array via a callback function.
+-   [`@stdlib/stats/base/snanrange`][@stdlib/stats/base/snanrange]: calculate the range of a single-precision floating-point strided array, ignoring NaN values.
 
 </section>
 

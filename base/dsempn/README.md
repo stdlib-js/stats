@@ -209,8 +209,8 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dsem`][@stdlib/stats/base/dsem]: https://github.com/stdlib-js/stats/tree/main/base/dsem`][@stdlib/stats/base/dsem
--   [`@stdlib/stats/base/dstdevpn`][@stdlib/stats/base/dstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/dstdevpn`][@stdlib/stats/base/dstdevpn
+-   [`@stdlib/stats/base/dsem`][@stdlib/stats/base/dsem]: calculate the standard error of the mean for a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/dstdevpn`][@stdlib/stats/base/dstdevpn]: calculate the standard deviation of a double-precision floating-point strided array using a two-pass algorithm.
 
 </section>
 

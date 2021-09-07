@@ -170,11 +170,11 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmax`][@stdlib/stats/base/dmax]: https://github.com/stdlib-js/stats/tree/main/base/dmax`][@stdlib/stats/base/dmax
--   [`@stdlib/stats/base/dmin`][@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats/tree/main/base/dmin`][@stdlib/stats/base/dmin
--   [`@stdlib/stats/base/dnanrange`][@stdlib/stats/base/dnanrange]: https://github.com/stdlib-js/stats/tree/main/base/dnanrange`][@stdlib/stats/base/dnanrange
--   [`@stdlib/stats/base/range`][@stdlib/stats/base/range]: https://github.com/stdlib-js/stats/tree/main/base/range`][@stdlib/stats/base/range
--   [`@stdlib/stats/base/srange`][@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats/tree/main/base/srange`][@stdlib/stats/base/srange
+-   [`@stdlib/stats/base/dmax`][@stdlib/stats/base/dmax]: calculate the maximum value of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/dmin`][@stdlib/stats/base/dmin]: calculate the minimum value of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/dnanrange`][@stdlib/stats/base/dnanrange]: calculate the range of a double-precision floating-point strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/range`][@stdlib/stats/base/range]: calculate the range of a strided array.
+-   [`@stdlib/stats/base/srange`][@stdlib/stats/base/srange]: calculate the range of a single-precision floating-point strided array.
 
 </section>
 

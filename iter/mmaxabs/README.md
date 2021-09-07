@@ -133,6 +133,14 @@ while ( true ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/iter/maxabs`][@stdlib/stats/iter/maxabs]: compute the maximum absolute value of all iterated values.
+-   [`@stdlib/stats/iter/mmax`][@stdlib/stats/iter/mmax]: create an iterator which iteratively computes a moving maximum value.
+-   [`@stdlib/stats/iter/mminabs`][@stdlib/stats/iter/mminabs]: create an iterator which iteratively computes a moving minimum absolute value.
+
 </section>
 
 <!-- /.related -->
@@ -142,6 +150,16 @@ while ( true ) {
 <section class="links">
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+<!-- <related-links> -->
+
+[@stdlib/stats/iter/maxabs]: https://github.com/stdlib-js/stats/tree/main/iter/maxabs
+
+[@stdlib/stats/iter/mmax]: https://github.com/stdlib-js/stats/tree/main/iter/mmax
+
+[@stdlib/stats/iter/mminabs]: https://github.com/stdlib-js/stats/tree/main/iter/mminabs
+
+<!-- </related-links> -->
 
 </section>
 

@@ -168,11 +168,11 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmidrange`][@stdlib/stats/base/dmidrange]: https://github.com/stdlib-js/stats/tree/main/base/dmidrange`][@stdlib/stats/base/dmidrange
--   [`@stdlib/stats/base/smax`][@stdlib/stats/base/smax]: https://github.com/stdlib-js/stats/tree/main/base/smax`][@stdlib/stats/base/smax
--   [`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]: https://github.com/stdlib-js/stats/tree/main/base/smean`][@stdlib/stats/base/smean
--   [`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin`][@stdlib/stats/base/smin
--   [`@stdlib/stats/base/srange`][@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats/tree/main/base/srange`][@stdlib/stats/base/srange
+-   [`@stdlib/stats/base/dmidrange`][@stdlib/stats/base/dmidrange]: calculate the mid-range of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/smax`][@stdlib/stats/base/smax]: calculate the maximum value of a single-precision floating-point strided array.
+-   [`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]: calculate the arithmetic mean of a single-precision floating-point strided array.
+-   [`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]: calculate the minimum value of a single-precision floating-point strided array.
+-   [`@stdlib/stats/base/srange`][@stdlib/stats/base/srange]: calculate the range of a single-precision floating-point strided array.
 
 </section>
 

@@ -227,11 +227,11 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dnanvariancewd`][@stdlib/stats/base/dnanvariancewd]: https://github.com/stdlib-js/stats/tree/main/base/dnanvariancewd`][@stdlib/stats/base/dnanvariancewd
--   [`@stdlib/stats/base/nanvariancewd`][@stdlib/stats/base/nanvariancewd]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancewd`][@stdlib/stats/base/nanvariancewd
--   [`@stdlib/stats/base/snanstdevwd`][@stdlib/stats/base/snanstdevwd]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevwd`][@stdlib/stats/base/snanstdevwd
--   [`@stdlib/stats/base/snanvariance`][@stdlib/stats/base/snanvariance]: https://github.com/stdlib-js/stats/tree/main/base/snanvariance`][@stdlib/stats/base/snanvariance
--   [`@stdlib/stats/base/svariancewd`][@stdlib/stats/base/svariancewd]: https://github.com/stdlib-js/stats/tree/main/base/svariancewd`][@stdlib/stats/base/svariancewd
+-   [`@stdlib/stats/base/dnanvariancewd`][@stdlib/stats/base/dnanvariancewd]: calculate the variance of a double-precision floating-point strided array ignoring NaN values and using Welford's algorithm.
+-   [`@stdlib/stats/base/nanvariancewd`][@stdlib/stats/base/nanvariancewd]: calculate the variance of a strided array ignoring NaN values and using Welford's algorithm.
+-   [`@stdlib/stats/base/snanstdevwd`][@stdlib/stats/base/snanstdevwd]: calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using Welford's algorithm.
+-   [`@stdlib/stats/base/snanvariance`][@stdlib/stats/base/snanvariance]: calculate the variance of a single-precision floating-point strided array ignoring NaN values.
+-   [`@stdlib/stats/base/svariancewd`][@stdlib/stats/base/svariancewd]: calculate the variance of a single-precision floating-point strided array using Welford's algorithm.
 
 </section>
 

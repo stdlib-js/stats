@@ -218,12 +218,12 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/drange`][@stdlib/stats/base/drange]: https://github.com/stdlib-js/stats/tree/main/base/drange`][@stdlib/stats/base/drange
--   [`@stdlib/stats/base/max-by`][@stdlib/stats/base/max-by]: https://github.com/stdlib-js/stats/tree/main/base/max-by`][@stdlib/stats/base/max-by
--   [`@stdlib/stats/base/min-by`][@stdlib/stats/base/min-by]: https://github.com/stdlib-js/stats/tree/main/base/min-by`][@stdlib/stats/base/min-by
--   [`@stdlib/stats/base/nanrange-by`][@stdlib/stats/base/nanrange-by]: https://github.com/stdlib-js/stats/tree/main/base/nanrange-by`][@stdlib/stats/base/nanrange-by
--   [`@stdlib/stats/base/range`][@stdlib/stats/base/range]: https://github.com/stdlib-js/stats/tree/main/base/range`][@stdlib/stats/base/range
--   [`@stdlib/stats/base/srange`][@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats/tree/main/base/srange`][@stdlib/stats/base/srange
+-   [`@stdlib/stats/base/drange`][@stdlib/stats/base/drange]: calculate the range of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/max-by`][@stdlib/stats/base/max-by]: calculate the maximum value of a strided array via a callback function.
+-   [`@stdlib/stats/base/min-by`][@stdlib/stats/base/min-by]: calculate the minimum value of a strided array via a callback function.
+-   [`@stdlib/stats/base/nanrange-by`][@stdlib/stats/base/nanrange-by]: calculate the range of a strided array via a callback function, ignoring NaN values.
+-   [`@stdlib/stats/base/range`][@stdlib/stats/base/range]: calculate the range of a strided array.
+-   [`@stdlib/stats/base/srange`][@stdlib/stats/base/srange]: calculate the range of a single-precision floating-point strided array.
 
 </section>
 

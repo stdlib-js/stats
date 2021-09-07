@@ -230,11 +230,11 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dnanstdev`][@stdlib/stats/base/dnanstdev]: https://github.com/stdlib-js/stats/tree/main/base/dnanstdev`][@stdlib/stats/base/dnanstdev
--   [`@stdlib/stats/base/dnanvariancech`][@stdlib/stats/base/dnanvariancech]: https://github.com/stdlib-js/stats/tree/main/base/dnanvariancech`][@stdlib/stats/base/dnanvariancech
--   [`@stdlib/stats/base/dstdevch`][@stdlib/stats/base/dstdevch]: https://github.com/stdlib-js/stats/tree/main/base/dstdevch`][@stdlib/stats/base/dstdevch
--   [`@stdlib/stats/base/nanstdevch`][@stdlib/stats/base/nanstdevch]: https://github.com/stdlib-js/stats/tree/main/base/nanstdevch`][@stdlib/stats/base/nanstdevch
--   [`@stdlib/stats/base/snanstdevch`][@stdlib/stats/base/snanstdevch]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevch`][@stdlib/stats/base/snanstdevch
+-   [`@stdlib/stats/base/dnanstdev`][@stdlib/stats/base/dnanstdev]: calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values.
+-   [`@stdlib/stats/base/dnanvariancech`][@stdlib/stats/base/dnanvariancech]: calculate the variance of a double-precision floating-point strided array ignoring NaN values and using a one-pass trial mean algorithm.
+-   [`@stdlib/stats/base/dstdevch`][@stdlib/stats/base/dstdevch]: calculate the standard deviation of a double-precision floating-point strided array using a one-pass trial mean algorithm.
+-   [`@stdlib/stats/base/nanstdevch`][@stdlib/stats/base/nanstdevch]: calculate the standard deviation of a strided array ignoring NaN values and using a one-pass trial mean algorithm.
+-   [`@stdlib/stats/base/snanstdevch`][@stdlib/stats/base/snanstdevch]: calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a one-pass trial mean algorithm.
 
 </section>
 

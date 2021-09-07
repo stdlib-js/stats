@@ -168,10 +168,10 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmax`][@stdlib/stats/base/dmax]: https://github.com/stdlib-js/stats/tree/main/base/dmax`][@stdlib/stats/base/dmax
--   [`@stdlib/stats/base/dnanmin`][@stdlib/stats/base/dnanmin]: https://github.com/stdlib-js/stats/tree/main/base/dnanmin`][@stdlib/stats/base/dnanmin
--   [`@stdlib/stats/base/min`][@stdlib/stats/base/min]: https://github.com/stdlib-js/stats/tree/main/base/min`][@stdlib/stats/base/min
--   [`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin`][@stdlib/stats/base/smin
+-   [`@stdlib/stats/base/dmax`][@stdlib/stats/base/dmax]: calculate the maximum value of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/dnanmin`][@stdlib/stats/base/dnanmin]: calculate the minimum value of a double-precision floating-point strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/min`][@stdlib/stats/base/min]: calculate the minimum value of a strided array.
+-   [`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]: calculate the minimum value of a single-precision floating-point strided array.
 
 </section>
 

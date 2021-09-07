@@ -222,11 +222,11 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dnanvariance`][@stdlib/stats/base/dnanvariance]: https://github.com/stdlib-js/stats/tree/main/base/dnanvariance`][@stdlib/stats/base/dnanvariance
--   [`@stdlib/stats/base/dstdev`][@stdlib/stats/base/dstdev]: https://github.com/stdlib-js/stats/tree/main/base/dstdev`][@stdlib/stats/base/dstdev
--   [`@stdlib/stats/base/dvarm`][@stdlib/stats/base/dvarm]: https://github.com/stdlib-js/stats/tree/main/base/dvarm`][@stdlib/stats/base/dvarm
--   [`@stdlib/stats/base/svariance`][@stdlib/stats/base/svariance]: https://github.com/stdlib-js/stats/tree/main/base/svariance`][@stdlib/stats/base/svariance
--   [`@stdlib/stats/base/variance`][@stdlib/stats/base/variance]: https://github.com/stdlib-js/stats/tree/main/base/variance`][@stdlib/stats/base/variance
+-   [`@stdlib/stats/base/dnanvariance`][@stdlib/stats/base/dnanvariance]: calculate the variance of a double-precision floating-point strided array ignoring NaN values.
+-   [`@stdlib/stats/base/dstdev`][@stdlib/stats/base/dstdev]: calculate the standard deviation of a double-precision floating-point strided array.
+-   [`@stdlib/stats/base/dvarm`][@stdlib/stats/base/dvarm]: calculate the variance of a double-precision floating-point strided array provided a known mean.
+-   [`@stdlib/stats/base/svariance`][@stdlib/stats/base/svariance]: calculate the variance of a single-precision floating-point strided array.
+-   [`@stdlib/stats/base/variance`][@stdlib/stats/base/variance]: calculate the variance of a strided array.
 
 </section>
 

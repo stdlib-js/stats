@@ -191,9 +191,9 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/dmeankbn`][@stdlib/stats/base/dmeankbn]: https://github.com/stdlib-js/stats/tree/main/base/dmeankbn`][@stdlib/stats/base/dmeankbn
--   [`@stdlib/stats/base/meankbn`][@stdlib/stats/base/meankbn]: https://github.com/stdlib-js/stats/tree/main/base/meankbn`][@stdlib/stats/base/meankbn
--   [`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]: https://github.com/stdlib-js/stats/tree/main/base/smean`][@stdlib/stats/base/smean
+-   [`@stdlib/stats/base/dmeankbn`][@stdlib/stats/base/dmeankbn]: calculate the arithmetic mean of a double-precision floating-point strided array using an improved Kahan–Babuška algorithm.
+-   [`@stdlib/stats/base/meankbn`][@stdlib/stats/base/meankbn]: calculate the arithmetic mean of a strided array using an improved Kahan–Babuška algorithm.
+-   [`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]: calculate the arithmetic mean of a single-precision floating-point strided array.
 
 </section>
 

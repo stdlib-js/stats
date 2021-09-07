@@ -180,8 +180,8 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/stats/base/sdsmean`][@stdlib/stats/base/sdsmean]: https://github.com/stdlib-js/stats/tree/main/base/sdsmean`][@stdlib/stats/base/sdsmean
--   [`@stdlib/stats/base/sdsnanmeanors`][@stdlib/stats/base/sdsnanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/sdsnanmeanors`][@stdlib/stats/base/sdsnanmeanors
+-   [`@stdlib/stats/base/sdsmean`][@stdlib/stats/base/sdsmean]: calculate the arithmetic mean of a single-precision floating-point strided array using extended accumulation.
+-   [`@stdlib/stats/base/sdsnanmeanors`][@stdlib/stats/base/sdsnanmeanors]: calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation with extended accumulation.
 
 </section>
 

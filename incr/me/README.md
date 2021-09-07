@@ -126,6 +126,14 @@ console.log( accumulator() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/incr/mae`][@stdlib/stats/incr/mae]: compute the mean absolute error (MAE) incrementally.
+-   [`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]: compute an arithmetic mean incrementally.
+-   [`@stdlib/stats/incr/mme`][@stdlib/stats/incr/mme]: compute a moving mean error (ME) incrementally.
+
 </section>
 
 <!-- /.related -->
@@ -135,6 +143,16 @@ console.log( accumulator() );
 <section class="links">
 
 [mean-absolute-error]: https://en.wikipedia.org/wiki/Mean_absolute_error
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/mae]: https://github.com/stdlib-js/stats/tree/main/incr/mae
+
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats/tree/main/incr/mean
+
+[@stdlib/stats/incr/mme]: https://github.com/stdlib-js/stats/tree/main/incr/mme
+
+<!-- </related-links> -->
 
 </section>
 

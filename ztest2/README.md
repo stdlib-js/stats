@@ -231,6 +231,12 @@ console.log( table );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/ztest`][@stdlib/stats/ztest]: one-sample and paired z-Test.
+
 </section>
 
 <!-- /.related -->
@@ -242,6 +248,12 @@ console.log( table );
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays
+
+<!-- <related-links> -->
+
+[@stdlib/stats/ztest]: https://github.com/stdlib-js/stats/tree/main/ztest
+
+<!-- </related-links> -->
 
 </section>
 

@@ -205,8 +205,8 @@ var table = out.print();
 
 ## See Also
 
--   [`@stdlib/stats/vartest`][@stdlib/stats/vartest]: https://github.com/stdlib-js/stats/tree/main/vartest`][@stdlib/stats/vartest
--   [`@stdlib/stats/levene-test`][@stdlib/stats/levene-test]: https://github.com/stdlib-js/stats/tree/main/levene-test`][@stdlib/stats/levene-test
+-   [`@stdlib/stats/vartest`][@stdlib/stats/vartest]: two-sample F-test for equal variances
+-   [`@stdlib/stats/levene-test`][@stdlib/stats/levene-test]: Levene's test for equal variances.
 
 </section>
 

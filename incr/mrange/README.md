@@ -125,6 +125,16 @@ console.log( accumulator() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/incr/mmax`][@stdlib/stats/incr/mmax]: compute a moving maximum incrementally.
+-   [`@stdlib/stats/incr/mmean`][@stdlib/stats/incr/mmean]: compute a moving arithmetic mean incrementally.
+-   [`@stdlib/stats/incr/mmin`][@stdlib/stats/incr/mmin]: compute a moving minimum incrementally.
+-   [`@stdlib/stats/incr/msummary`][@stdlib/stats/incr/msummary]: compute a moving statistical summary incrementally.
+-   [`@stdlib/stats/incr/range`][@stdlib/stats/incr/range]: compute a range incrementally.
+
 </section>
 
 <!-- /.related -->
@@ -134,6 +144,20 @@ console.log( accumulator() );
 <section class="links">
 
 [range]: https://en.wikipedia.org/wiki/Range_%28statistics%29
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/mmax]: https://github.com/stdlib-js/stats/tree/main/incr/mmax
+
+[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats/tree/main/incr/mmean
+
+[@stdlib/stats/incr/mmin]: https://github.com/stdlib-js/stats/tree/main/incr/mmin
+
+[@stdlib/stats/incr/msummary]: https://github.com/stdlib-js/stats/tree/main/incr/msummary
+
+[@stdlib/stats/incr/range]: https://github.com/stdlib-js/stats/tree/main/incr/range
+
+<!-- </related-links> -->
 
 </section>
 
