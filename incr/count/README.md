@@ -95,6 +95,14 @@ console.log( accumulator() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/sum`][@stdlib/stats/incr/sum]</span><span class="delimiter">: </span><span class="description">compute a sum incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/summary`][@stdlib/stats/incr/summary]</span><span class="delimiter">: </span><span class="description">compute a statistical summary incrementally.</span>
+
 </section>
 
 <!-- /.related -->
@@ -102,6 +110,16 @@ console.log( accumulator() );
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats/tree/main/incr/mean
+
+[@stdlib/stats/incr/sum]: https://github.com/stdlib-js/stats/tree/main/incr/sum
+
+[@stdlib/stats/incr/summary]: https://github.com/stdlib-js/stats/tree/main/incr/summary
+
+<!-- </related-links> -->
 
 </section>
 

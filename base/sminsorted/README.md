@@ -169,6 +169,15 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dminsorted`][@stdlib/stats/base/dminsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/minsorted`][@stdlib/stats/base/minsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smaxsorted`][@stdlib/stats/base/smaxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -180,6 +189,18 @@ console.log( v );
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dminsorted]: https://github.com/stdlib-js/stats/tree/main/base/dminsorted
+
+[@stdlib/stats/base/minsorted]: https://github.com/stdlib-js/stats/tree/main/base/minsorted
+
+[@stdlib/stats/base/smaxsorted]: https://github.com/stdlib-js/stats/tree/main/base/smaxsorted
+
+[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin
+
+<!-- </related-links> -->
 
 </section>
 

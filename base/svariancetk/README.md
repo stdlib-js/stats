@@ -247,6 +247,16 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dvariancetk`][@stdlib/stats/base/dvariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanvariancetk`][@stdlib/stats/base/snanvariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array ignoring NaN values and using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/sstdevtk`][@stdlib/stats/base/sstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/svariance`][@stdlib/stats/base/svariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/variancetk`][@stdlib/stats/base/variancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a one-pass textbook algorithm.</span>
+
 </section>
 
 <!-- /.related -->
@@ -262,6 +272,20 @@ console.log( v );
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [@ling:1974a]: https://doi.org/10.2307/2286154
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dvariancetk]: https://github.com/stdlib-js/stats/tree/main/base/dvariancetk
+
+[@stdlib/stats/base/snanvariancetk]: https://github.com/stdlib-js/stats/tree/main/base/snanvariancetk
+
+[@stdlib/stats/base/sstdevtk]: https://github.com/stdlib-js/stats/tree/main/base/sstdevtk
+
+[@stdlib/stats/base/svariance]: https://github.com/stdlib-js/stats/tree/main/base/svariance
+
+[@stdlib/stats/base/variancetk]: https://github.com/stdlib-js/stats/tree/main/base/variancetk
+
+<!-- </related-links> -->
 
 </section>
 

@@ -221,6 +221,16 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dnanstdevch`][@stdlib/stats/base/dnanstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/nanvariancech`][@stdlib/stats/base/nanvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/nanstdev`][@stdlib/stats/base/nanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanstdevch`][@stdlib/stats/base/snanstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/stdevch`][@stdlib/stats/base/stdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass trial mean algorithm.</span>
+
 </section>
 
 <!-- /.related -->
@@ -235,10 +245,6 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/stats/base/dnanstdevch]: https://github.com/stdlib-js/stats/tree/main/base/dnanstdevch
-
-[@stdlib/stats/base/snanstdevch]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevch
-
 [@neely:1966a]: https://doi.org/10.1145/365719.365958
 
 [@ling:1974a]: https://doi.org/10.2307/2286154
@@ -246,6 +252,20 @@ console.log( v );
 [@chan:1983a]: https://doi.org/10.1080/00031305.1983.10483115
 
 [@schubert:2018a]: https://doi.org/10.1145/3221269.3223036
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dnanstdevch]: https://github.com/stdlib-js/stats/tree/main/base/dnanstdevch
+
+[@stdlib/stats/base/nanvariancech]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancech
+
+[@stdlib/stats/base/nanstdev]: https://github.com/stdlib-js/stats/tree/main/base/nanstdev
+
+[@stdlib/stats/base/snanstdevch]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevch
+
+[@stdlib/stats/base/stdevch]: https://github.com/stdlib-js/stats/tree/main/base/stdevch
+
+<!-- </related-links> -->
 
 </section>
 

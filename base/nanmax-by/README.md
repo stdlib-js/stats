@@ -210,6 +210,16 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dnanmax`][@stdlib/stats/base/dnanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/max-by`][@stdlib/stats/base/max-by]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array via a callback function.</span>
+-   <span class="package-name">[`@stdlib/stats/base/nanmax`][@stdlib/stats/base/nanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/nanmin-by`][@stdlib/stats/base/nanmin-by]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array via a callback function, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanmax`][@stdlib/stats/base/snanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array, ignoring NaN values.</span>
+
 </section>
 
 <!-- /.related -->
@@ -222,11 +232,19 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+<!-- <related-links> -->
+
 [@stdlib/stats/base/dnanmax]: https://github.com/stdlib-js/stats/tree/main/base/dnanmax
+
+[@stdlib/stats/base/max-by]: https://github.com/stdlib-js/stats/tree/main/base/max-by
 
 [@stdlib/stats/base/nanmax]: https://github.com/stdlib-js/stats/tree/main/base/nanmax
 
+[@stdlib/stats/base/nanmin-by]: https://github.com/stdlib-js/stats/tree/main/base/nanmin-by
+
 [@stdlib/stats/base/snanmax]: https://github.com/stdlib-js/stats/tree/main/base/snanmax
+
+<!-- </related-links> -->
 
 </section>
 

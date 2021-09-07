@@ -191,6 +191,14 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dmeanlipw`][@stdlib/stats/base/dmeanlipw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a one-pass trial mean algorithm with pairwise summation.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smeanli`][@stdlib/stats/base/smeanli]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using a one-pass trial mean algorithm.</span>
+
 </section>
 
 <!-- /.related -->
@@ -212,6 +220,16 @@ console.log( v );
 [@ling:1974a]: https://doi.org/10.2307/2286154
 
 [@higham:1993a]: https://doi.org/10.1137/0914050
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmeanlipw]: https://github.com/stdlib-js/stats/tree/main/base/dmeanlipw
+
+[@stdlib/stats/base/smean]: https://github.com/stdlib-js/stats/tree/main/base/smean
+
+[@stdlib/stats/base/smeanli]: https://github.com/stdlib-js/stats/tree/main/base/smeanli
+
+<!-- </related-links> -->
 
 </section>
 

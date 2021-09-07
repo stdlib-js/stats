@@ -141,6 +141,14 @@ while ( true ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/iter/cumidrange`][@stdlib/stats/iter/cumidrange]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative mid-range.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/cusum`][@stdlib/stats/iter/cusum]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative sum.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/mean`][@stdlib/stats/iter/mean]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean over all iterated values.</span>
+
 </section>
 
 <!-- /.related -->
@@ -152,6 +160,16 @@ while ( true ) {
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+<!-- <related-links> -->
+
+[@stdlib/stats/iter/cumidrange]: https://github.com/stdlib-js/stats/tree/main/iter/cumidrange
+
+[@stdlib/stats/iter/cusum]: https://github.com/stdlib-js/stats/tree/main/iter/cusum
+
+[@stdlib/stats/iter/mean]: https://github.com/stdlib-js/stats/tree/main/iter/mean
+
+<!-- </related-links> -->
 
 </section>
 

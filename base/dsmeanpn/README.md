@@ -189,6 +189,16 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dmeanpn`][@stdlib/stats/base/dmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a two-pass error correction algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dsmean`][@stdlib/stats/base/dsmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using extended accumulation and returning an extended precision result.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dsnanmeanpn`][@stdlib/stats/base/dsnanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values, using a two-pass error correction algorithm with extended accumulation, and returning an extended precision result.</span>
+-   <span class="package-name">[`@stdlib/stats/base/meanpn`][@stdlib/stats/base/meanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using a two-pass error correction algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smeanpn`][@stdlib/stats/base/smeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using a two-pass error correction algorithm.</span>
+
 </section>
 
 <!-- /.related -->
@@ -206,6 +216,20 @@ console.log( v );
 [@neely:1966a]: https://doi.org/10.1145/365719.365958
 
 [@schubert:2018a]: https://doi.org/10.1145/3221269.3223036
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmeanpn]: https://github.com/stdlib-js/stats/tree/main/base/dmeanpn
+
+[@stdlib/stats/base/dsmean]: https://github.com/stdlib-js/stats/tree/main/base/dsmean
+
+[@stdlib/stats/base/dsnanmeanpn]: https://github.com/stdlib-js/stats/tree/main/base/dsnanmeanpn
+
+[@stdlib/stats/base/meanpn]: https://github.com/stdlib-js/stats/tree/main/base/meanpn
+
+[@stdlib/stats/base/smeanpn]: https://github.com/stdlib-js/stats/tree/main/base/smeanpn
+
+<!-- </related-links> -->
 
 </section>
 

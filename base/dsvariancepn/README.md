@@ -226,6 +226,15 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dvariancepn`][@stdlib/stats/base/dvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a two-pass algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dsvariance`][@stdlib/stats/base/dsvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using extended accumulation and returning an extended precision result.</span>
+-   <span class="package-name">[`@stdlib/stats/base/variancepn`][@stdlib/stats/base/variancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a two-pass algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/svariancepn`][@stdlib/stats/base/svariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a two-pass algorithm.</span>
+
 </section>
 
 <!-- /.related -->
@@ -243,6 +252,18 @@ console.log( v );
 [@neely:1966a]: https://doi.org/10.1145/365719.365958
 
 [@schubert:2018a]: https://doi.org/10.1145/3221269.3223036
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dvariancepn]: https://github.com/stdlib-js/stats/tree/main/base/dvariancepn
+
+[@stdlib/stats/base/dsvariance]: https://github.com/stdlib-js/stats/tree/main/base/dsvariance
+
+[@stdlib/stats/base/variancepn]: https://github.com/stdlib-js/stats/tree/main/base/variancepn
+
+[@stdlib/stats/base/svariancepn]: https://github.com/stdlib-js/stats/tree/main/base/svariancepn
+
+<!-- </related-links> -->
 
 </section>
 

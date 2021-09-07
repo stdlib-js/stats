@@ -125,6 +125,15 @@ console.log( accumulator() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/incr/ewvariance`][@stdlib/stats/incr/ewvariance]</span><span class="delimiter">: </span><span class="description">compute an exponentially weighted variance incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mmean`][@stdlib/stats/incr/mmean]</span><span class="delimiter">: </span><span class="description">compute a moving arithmetic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/wmean`][@stdlib/stats/incr/wmean]</span><span class="delimiter">: </span><span class="description">compute a weighted arithmetic mean incrementally.</span>
+
 </section>
 
 <!-- /.related -->
@@ -134,6 +143,18 @@ console.log( accumulator() );
 <section class="links">
 
 [moving-average]: https://en.wikipedia.org/wiki/Moving_average
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/ewvariance]: https://github.com/stdlib-js/stats/tree/main/incr/ewvariance
+
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats/tree/main/incr/mean
+
+[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats/tree/main/incr/mmean
+
+[@stdlib/stats/incr/wmean]: https://github.com/stdlib-js/stats/tree/main/incr/wmean
+
+<!-- </related-links> -->
 
 </section>
 

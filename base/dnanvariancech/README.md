@@ -226,6 +226,15 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dvariancech`][@stdlib/stats/base/dvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dnanvariance`][@stdlib/stats/base/dnanvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/nanvariancech`][@stdlib/stats/base/nanvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanvariancech`][@stdlib/stats/base/snanvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
+
 </section>
 
 <!-- /.related -->
@@ -247,6 +256,18 @@ console.log( v );
 [@chan:1983a]: https://doi.org/10.1080/00031305.1983.10483115
 
 [@schubert:2018a]: https://doi.org/10.1145/3221269.3223036
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dvariancech]: https://github.com/stdlib-js/stats/tree/main/base/dvariancech
+
+[@stdlib/stats/base/dnanvariance]: https://github.com/stdlib-js/stats/tree/main/base/dnanvariance
+
+[@stdlib/stats/base/nanvariancech]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancech
+
+[@stdlib/stats/base/snanvariancech]: https://github.com/stdlib-js/stats/tree/main/base/snanvariancech
+
+<!-- </related-links> -->
 
 </section>
 

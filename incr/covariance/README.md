@@ -141,6 +141,14 @@ console.log( accumulator() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/incr/mcovariance`][@stdlib/stats/incr/mcovariance]</span><span class="delimiter">: </span><span class="description">compute a moving unbiased sample covariance incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/pcorr`][@stdlib/stats/incr/pcorr]</span><span class="delimiter">: </span><span class="description">compute a sample Pearson product-moment correlation coefficient.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/variance`][@stdlib/stats/incr/variance]</span><span class="delimiter">: </span><span class="description">compute an unbiased sample variance incrementally.</span>
+
 </section>
 
 <!-- /.related -->
@@ -150,6 +158,16 @@ console.log( accumulator() );
 <section class="links">
 
 [covariance]: https://en.wikipedia.org/wiki/Covariance
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/mcovariance]: https://github.com/stdlib-js/stats/tree/main/incr/mcovariance
+
+[@stdlib/stats/incr/pcorr]: https://github.com/stdlib-js/stats/tree/main/incr/pcorr
+
+[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats/tree/main/incr/variance
+
+<!-- </related-links> -->
 
 </section>
 

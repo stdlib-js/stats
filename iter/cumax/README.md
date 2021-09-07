@@ -130,6 +130,15 @@ while ( true ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/iter/cumidrange`][@stdlib/stats/iter/cumidrange]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative mid-range.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/cumin`][@stdlib/stats/iter/cumin]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative minimum value.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/curange`][@stdlib/stats/iter/curange]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative range.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/max`][@stdlib/stats/iter/max]</span><span class="delimiter">: </span><span class="description">compute the maximum value of all iterated values.</span>
+
 </section>
 
 <!-- /.related -->
@@ -139,6 +148,18 @@ while ( true ) {
 <section class="links">
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+<!-- <related-links> -->
+
+[@stdlib/stats/iter/cumidrange]: https://github.com/stdlib-js/stats/tree/main/iter/cumidrange
+
+[@stdlib/stats/iter/cumin]: https://github.com/stdlib-js/stats/tree/main/iter/cumin
+
+[@stdlib/stats/iter/curange]: https://github.com/stdlib-js/stats/tree/main/iter/curange
+
+[@stdlib/stats/iter/max]: https://github.com/stdlib-js/stats/tree/main/iter/max
+
+<!-- </related-links> -->
 
 </section>
 

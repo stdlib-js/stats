@@ -163,6 +163,15 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dnanmax`][@stdlib/stats/base/dnanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/max`][@stdlib/stats/base/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/nanmin`][@stdlib/stats/base/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanmax`][@stdlib/stats/base/snanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array, ignoring NaN values.</span>
+
 </section>
 
 <!-- /.related -->
@@ -175,9 +184,17 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+<!-- <related-links> -->
+
 [@stdlib/stats/base/dnanmax]: https://github.com/stdlib-js/stats/tree/main/base/dnanmax
 
+[@stdlib/stats/base/max]: https://github.com/stdlib-js/stats/tree/main/base/max
+
+[@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats/tree/main/base/nanmin
+
 [@stdlib/stats/base/snanmax]: https://github.com/stdlib-js/stats/tree/main/base/snanmax
+
+<!-- </related-links> -->
 
 </section>
 

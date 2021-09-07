@@ -205,6 +205,13 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dsem`][@stdlib/stats/base/dsem]</span><span class="delimiter">: </span><span class="description">calculate the standard error of the mean for a double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dstdevtk`][@stdlib/stats/base/dstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a one-pass textbook algorithm.</span>
+
 </section>
 
 <!-- /.related -->
@@ -222,6 +229,14 @@ console.log( v );
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [@ling:1974a]: https://doi.org/10.2307/2286154
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dsem]: https://github.com/stdlib-js/stats/tree/main/base/dsem
+
+[@stdlib/stats/base/dstdevtk]: https://github.com/stdlib-js/stats/tree/main/base/dstdevtk
+
+<!-- </related-links> -->
 
 </section>
 

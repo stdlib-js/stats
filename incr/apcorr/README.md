@@ -146,6 +146,14 @@ console.log( accumulator() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/incr/mapcorr`][@stdlib/stats/incr/mapcorr]</span><span class="delimiter">: </span><span class="description">compute a moving sample absolute Pearson product-moment correlation coefficient incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/pcorr`][@stdlib/stats/incr/pcorr]</span><span class="delimiter">: </span><span class="description">compute a sample Pearson product-moment correlation coefficient.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/pcorr2`][@stdlib/stats/incr/pcorr2]</span><span class="delimiter">: </span><span class="description">compute a squared sample Pearson product-moment correlation coefficient.</span>
+
 </section>
 
 <!-- /.related -->
@@ -157,6 +165,16 @@ console.log( accumulator() );
 [pearson-correlation]: https://en.wikipedia.org/wiki/Pearson_correlation_coefficient
 
 [covariance]: https://en.wikipedia.org/wiki/Covariance
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/mapcorr]: https://github.com/stdlib-js/stats/tree/main/incr/mapcorr
+
+[@stdlib/stats/incr/pcorr]: https://github.com/stdlib-js/stats/tree/main/incr/pcorr
+
+[@stdlib/stats/incr/pcorr2]: https://github.com/stdlib-js/stats/tree/main/incr/pcorr2
+
+<!-- </related-links> -->
 
 </section>
 

@@ -188,6 +188,14 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dmeanpw`][@stdlib/stats/base/dmeanpw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using pairwise summation.</span>
+-   <span class="package-name">[`@stdlib/stats/base/meanpw`][@stdlib/stats/base/meanpw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using pairwise summation.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -203,6 +211,16 @@ console.log( v );
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [@higham:1993a]: https://doi.org/10.1137/0914050
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmeanpw]: https://github.com/stdlib-js/stats/tree/main/base/dmeanpw
+
+[@stdlib/stats/base/meanpw]: https://github.com/stdlib-js/stats/tree/main/base/meanpw
+
+[@stdlib/stats/base/smean]: https://github.com/stdlib-js/stats/tree/main/base/smean
+
+<!-- </related-links> -->
 
 </section>
 

@@ -158,6 +158,14 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dmediansorted`][@stdlib/stats/base/dmediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/mean`][@stdlib/stats/base/mean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smediansorted`][@stdlib/stats/base/smediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted single-precision floating-point strided array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -169,6 +177,16 @@ console.log( v );
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmediansorted]: https://github.com/stdlib-js/stats/tree/main/base/dmediansorted
+
+[@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats/tree/main/base/mean
+
+[@stdlib/stats/base/smediansorted]: https://github.com/stdlib-js/stats/tree/main/base/smediansorted
+
+<!-- </related-links> -->
 
 </section>
 

@@ -152,6 +152,15 @@ console.log( accumulator() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mcv`][@stdlib/stats/incr/mcv]</span><span class="delimiter">: </span><span class="description">compute a moving coefficient of variation (CV) incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/stdev`][@stdlib/stats/incr/stdev]</span><span class="delimiter">: </span><span class="description">compute a corrected sample standard deviation incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/vmr`][@stdlib/stats/incr/vmr]</span><span class="delimiter">: </span><span class="description">compute a variance-to-mean ratio (VMR) incrementally.</span>
+
 </section>
 
 <!-- /.related -->
@@ -165,6 +174,18 @@ console.log( accumulator() );
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
 
 [sample-stdev]: https://en.wikipedia.org/wiki/Standard_deviation
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats/tree/main/incr/mean
+
+[@stdlib/stats/incr/mcv]: https://github.com/stdlib-js/stats/tree/main/incr/mcv
+
+[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats/tree/main/incr/stdev
+
+[@stdlib/stats/incr/vmr]: https://github.com/stdlib-js/stats/tree/main/incr/vmr
+
+<!-- </related-links> -->
 
 </section>
 

@@ -141,6 +141,15 @@ while ( true ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/iter/cumean`][@stdlib/stats/iter/cumean]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative arithmetic mean.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/cumeanabs2`][@stdlib/stats/iter/cumeanabs2]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative arithmetic mean of squared absolute values.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/cusumabs`][@stdlib/stats/iter/cusumabs]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative sum of absolute values.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/meanabs`][@stdlib/stats/iter/meanabs]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean of absolute values for all iterated values.</span>
+
 </section>
 
 <!-- /.related -->
@@ -152,6 +161,18 @@ while ( true ) {
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+<!-- <related-links> -->
+
+[@stdlib/stats/iter/cumean]: https://github.com/stdlib-js/stats/tree/main/iter/cumean
+
+[@stdlib/stats/iter/cumeanabs2]: https://github.com/stdlib-js/stats/tree/main/iter/cumeanabs2
+
+[@stdlib/stats/iter/cusumabs]: https://github.com/stdlib-js/stats/tree/main/iter/cusumabs
+
+[@stdlib/stats/iter/meanabs]: https://github.com/stdlib-js/stats/tree/main/iter/meanabs
+
+<!-- </related-links> -->
 
 </section>
 

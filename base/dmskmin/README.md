@@ -186,6 +186,17 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dmin`][@stdlib/stats/base/dmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dmskmax`][@stdlib/stats/base/dmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dnanmin`][@stdlib/stats/base/dnanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dnanmskmin`][@stdlib/stats/base/dnanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/mskmin`][@stdlib/stats/base/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smskmin`][@stdlib/stats/base/smskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask.</span>
+
 </section>
 
 <!-- /.related -->
@@ -199,6 +210,22 @@ console.log( v );
 [@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats/tree/main/base/dmin
+
+[@stdlib/stats/base/dmskmax]: https://github.com/stdlib-js/stats/tree/main/base/dmskmax
+
+[@stdlib/stats/base/dnanmin]: https://github.com/stdlib-js/stats/tree/main/base/dnanmin
+
+[@stdlib/stats/base/dnanmskmin]: https://github.com/stdlib-js/stats/tree/main/base/dnanmskmin
+
+[@stdlib/stats/base/mskmin]: https://github.com/stdlib-js/stats/tree/main/base/mskmin
+
+[@stdlib/stats/base/smskmin]: https://github.com/stdlib-js/stats/tree/main/base/smskmin
+
+<!-- </related-links> -->
 
 </section>
 

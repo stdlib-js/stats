@@ -218,6 +218,16 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dstdevtk`][@stdlib/stats/base/dstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/nanstdevtk`][@stdlib/stats/base/nanstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values and using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/sstdevtk`][@stdlib/stats/base/sstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/stdev`][@stdlib/stats/base/stdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/variancetk`][@stdlib/stats/base/variancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a one-pass textbook algorithm.</span>
+
 </section>
 
 <!-- /.related -->
@@ -232,11 +242,21 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+[@ling:1974a]: https://doi.org/10.2307/2286154
+
+<!-- <related-links> -->
+
 [@stdlib/stats/base/dstdevtk]: https://github.com/stdlib-js/stats/tree/main/base/dstdevtk
+
+[@stdlib/stats/base/nanstdevtk]: https://github.com/stdlib-js/stats/tree/main/base/nanstdevtk
 
 [@stdlib/stats/base/sstdevtk]: https://github.com/stdlib-js/stats/tree/main/base/sstdevtk
 
-[@ling:1974a]: https://doi.org/10.2307/2286154
+[@stdlib/stats/base/stdev]: https://github.com/stdlib-js/stats/tree/main/base/stdev
+
+[@stdlib/stats/base/variancetk]: https://github.com/stdlib-js/stats/tree/main/base/variancetk
+
+<!-- </related-links> -->
 
 </section>
 

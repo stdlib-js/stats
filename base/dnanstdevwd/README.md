@@ -223,6 +223,16 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dnanstdev`][@stdlib/stats/base/dnanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dnanvariancewd`][@stdlib/stats/base/dnanvariancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array ignoring NaN values and using Welford's algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dstdevwd`][@stdlib/stats/base/dstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using Welford's algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/nanstdevwd`][@stdlib/stats/base/nanstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values and using Welford's algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanstdevwd`][@stdlib/stats/base/snanstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using Welford's algorithm.</span>
+
 </section>
 
 <!-- /.related -->
@@ -240,6 +250,20 @@ console.log( v );
 [@welford:1962a]: https://doi.org/10.1080/00401706.1962.10490022
 
 [@vanreeken:1968a]: https://doi.org/10.1145/362929.362961
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dnanstdev]: https://github.com/stdlib-js/stats/tree/main/base/dnanstdev
+
+[@stdlib/stats/base/dnanvariancewd]: https://github.com/stdlib-js/stats/tree/main/base/dnanvariancewd
+
+[@stdlib/stats/base/dstdevwd]: https://github.com/stdlib-js/stats/tree/main/base/dstdevwd
+
+[@stdlib/stats/base/nanstdevwd]: https://github.com/stdlib-js/stats/tree/main/base/nanstdevwd
+
+[@stdlib/stats/base/snanstdevwd]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevwd
+
+<!-- </related-links> -->
 
 </section>
 

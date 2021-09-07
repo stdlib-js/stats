@@ -187,6 +187,14 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dmeankbn2`][@stdlib/stats/base/dmeankbn2]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a second-order iterative Kahan–Babuška algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/meankbn2`][@stdlib/stats/base/meankbn2]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using a second-order iterative Kahan–Babuška algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -202,6 +210,16 @@ console.log( v );
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [@klein:2005a]: https://doi.org/10.1007/s00607-005-0139-x
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmeankbn2]: https://github.com/stdlib-js/stats/tree/main/base/dmeankbn2
+
+[@stdlib/stats/base/meankbn2]: https://github.com/stdlib-js/stats/tree/main/base/meankbn2
+
+[@stdlib/stats/base/smean]: https://github.com/stdlib-js/stats/tree/main/base/smean
+
+<!-- </related-links> -->
 
 </section>
 

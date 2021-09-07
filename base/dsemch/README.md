@@ -208,6 +208,13 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dsem`][@stdlib/stats/base/dsem]</span><span class="delimiter">: </span><span class="description">calculate the standard error of the mean for a double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dstdevch`][@stdlib/stats/base/dstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
+
 </section>
 
 <!-- /.related -->
@@ -231,6 +238,14 @@ console.log( v );
 [@chan:1983a]: https://doi.org/10.1080/00031305.1983.10483115
 
 [@schubert:2018a]: https://doi.org/10.1145/3221269.3223036
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dsem]: https://github.com/stdlib-js/stats/tree/main/base/dsem
+
+[@stdlib/stats/base/dstdevch]: https://github.com/stdlib-js/stats/tree/main/base/dstdevch
+
+<!-- </related-links> -->
 
 </section>
 

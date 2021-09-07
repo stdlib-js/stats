@@ -175,6 +175,14 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dnanmean`][@stdlib/stats/base/dnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/mean`][@stdlib/stats/base/mean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanmean`][@stdlib/stats/base/snanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values.</span>
+
 </section>
 
 <!-- /.related -->
@@ -189,9 +197,15 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+<!-- <related-links> -->
+
 [@stdlib/stats/base/dnanmean]: https://github.com/stdlib-js/stats/tree/main/base/dnanmean
 
+[@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats/tree/main/base/mean
+
 [@stdlib/stats/base/snanmean]: https://github.com/stdlib-js/stats/tree/main/base/snanmean
+
+<!-- </related-links> -->
 
 </section>
 

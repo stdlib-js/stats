@@ -179,6 +179,17 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dmskrange`][@stdlib/stats/base/dmskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/base/range`][@stdlib/stats/base/range]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/mskmax`][@stdlib/stats/base/mskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/base/mskmin`][@stdlib/stats/base/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/base/nanrange`][@stdlib/stats/base/nanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smskrange`][@stdlib/stats/base/smskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array according to a mask.</span>
+
 </section>
 
 <!-- /.related -->
@@ -193,9 +204,21 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+<!-- <related-links> -->
+
 [@stdlib/stats/base/dmskrange]: https://github.com/stdlib-js/stats/tree/main/base/dmskrange
 
+[@stdlib/stats/base/range]: https://github.com/stdlib-js/stats/tree/main/base/range
+
+[@stdlib/stats/base/mskmax]: https://github.com/stdlib-js/stats/tree/main/base/mskmax
+
+[@stdlib/stats/base/mskmin]: https://github.com/stdlib-js/stats/tree/main/base/mskmin
+
+[@stdlib/stats/base/nanrange]: https://github.com/stdlib-js/stats/tree/main/base/nanrange
+
 [@stdlib/stats/base/smskrange]: https://github.com/stdlib-js/stats/tree/main/base/smskrange
+
+<!-- </related-links> -->
 
 </section>
 

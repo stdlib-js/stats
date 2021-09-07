@@ -141,6 +141,13 @@ while ( true ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/iter/cuhmean`][@stdlib/stats/iter/cuhmean]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative harmonic mean.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/cumean`][@stdlib/stats/iter/cumean]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative arithmetic mean.</span>
+
 </section>
 
 <!-- /.related -->
@@ -152,6 +159,14 @@ while ( true ) {
 [geometric-mean]: https://en.wikipedia.org/wiki/Geometric_mean
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+<!-- <related-links> -->
+
+[@stdlib/stats/iter/cuhmean]: https://github.com/stdlib-js/stats/tree/main/iter/cuhmean
+
+[@stdlib/stats/iter/cumean]: https://github.com/stdlib-js/stats/tree/main/iter/cumean
+
+<!-- </related-links> -->
 
 </section>
 

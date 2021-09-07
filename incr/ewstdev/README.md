@@ -127,6 +127,14 @@ console.log( accumulator() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/incr/ewvariance`][@stdlib/stats/incr/ewvariance]</span><span class="delimiter">: </span><span class="description">compute an exponentially weighted variance incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mstdev`][@stdlib/stats/incr/mstdev]</span><span class="delimiter">: </span><span class="description">compute a moving corrected sample standard deviation incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/stdev`][@stdlib/stats/incr/stdev]</span><span class="delimiter">: </span><span class="description">compute a corrected sample standard deviation incrementally.</span>
+
 </section>
 
 <!-- /.related -->
@@ -138,6 +146,16 @@ console.log( accumulator() );
 [moving-average]: https://en.wikipedia.org/wiki/Moving_average
 
 [@stdlib/stats/incr/ewmean]: https://github.com/stdlib-js/stats/tree/main/incr/ewmean
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/ewvariance]: https://github.com/stdlib-js/stats/tree/main/incr/ewvariance
+
+[@stdlib/stats/incr/mstdev]: https://github.com/stdlib-js/stats/tree/main/incr/mstdev
+
+[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats/tree/main/incr/stdev
+
+<!-- </related-links> -->
 
 </section>
 

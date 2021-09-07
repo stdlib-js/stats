@@ -189,6 +189,16 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dmeanwd`][@stdlib/stats/base/dmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using Welford's algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dsmean`][@stdlib/stats/base/dsmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using extended accumulation and returning an extended precision result.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dsnanmeanwd`][@stdlib/stats/base/dsnanmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values, using Welford's algorithm with extended accumulation, and returning an extended precision result.</span>
+-   <span class="package-name">[`@stdlib/stats/base/meanwd`][@stdlib/stats/base/meanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using Welford's algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smeanwd`][@stdlib/stats/base/smeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using Welford's algorithm.</span>
+
 </section>
 
 <!-- /.related -->
@@ -206,6 +216,20 @@ console.log( v );
 [@welford:1962a]: https://doi.org/10.1080/00401706.1962.10490022
 
 [@vanreeken:1968a]: https://doi.org/10.1145/362929.362961
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/dmeanwd
+
+[@stdlib/stats/base/dsmean]: https://github.com/stdlib-js/stats/tree/main/base/dsmean
+
+[@stdlib/stats/base/dsnanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/dsnanmeanwd
+
+[@stdlib/stats/base/meanwd]: https://github.com/stdlib-js/stats/tree/main/base/meanwd
+
+[@stdlib/stats/base/smeanwd]: https://github.com/stdlib-js/stats/tree/main/base/smeanwd
+
+<!-- </related-links> -->
 
 </section>
 

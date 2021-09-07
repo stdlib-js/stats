@@ -160,6 +160,16 @@ console.log( accumulator() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/skewness`][@stdlib/stats/incr/skewness]</span><span class="delimiter">: </span><span class="description">compute a corrected sample skewness incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/stdev`][@stdlib/stats/incr/stdev]</span><span class="delimiter">: </span><span class="description">compute a corrected sample standard deviation incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/summary`][@stdlib/stats/incr/summary]</span><span class="delimiter">: </span><span class="description">compute a statistical summary incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/variance`][@stdlib/stats/incr/variance]</span><span class="delimiter">: </span><span class="description">compute an unbiased sample variance incrementally.</span>
+
 </section>
 
 <!-- /.related -->
@@ -171,6 +181,20 @@ console.log( accumulator() );
 [sample-excess-kurtosis]: https://en.wikipedia.org/wiki/Kurtosis
 
 [@joanes:1998]: http://onlinelibrary.wiley.com/doi/10.1111/1467-9884.00122/
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats/tree/main/incr/mean
+
+[@stdlib/stats/incr/skewness]: https://github.com/stdlib-js/stats/tree/main/incr/skewness
+
+[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats/tree/main/incr/stdev
+
+[@stdlib/stats/incr/summary]: https://github.com/stdlib-js/stats/tree/main/incr/summary
+
+[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats/tree/main/incr/variance
+
+<!-- </related-links> -->
 
 </section>
 

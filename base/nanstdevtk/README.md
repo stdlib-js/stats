@@ -218,6 +218,16 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dnanstdevtk`][@stdlib/stats/base/dnanstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values and using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/nanvariancetk`][@stdlib/stats/base/nanvariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values and using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/nanstdev`][@stdlib/stats/base/nanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanstdevtk`][@stdlib/stats/base/snanstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/stdevtk`][@stdlib/stats/base/stdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass textbook algorithm.</span>
+
 </section>
 
 <!-- /.related -->
@@ -232,11 +242,21 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+[@ling:1974a]: https://doi.org/10.2307/2286154
+
+<!-- <related-links> -->
+
 [@stdlib/stats/base/dnanstdevtk]: https://github.com/stdlib-js/stats/tree/main/base/dnanstdevtk
+
+[@stdlib/stats/base/nanvariancetk]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancetk
+
+[@stdlib/stats/base/nanstdev]: https://github.com/stdlib-js/stats/tree/main/base/nanstdev
 
 [@stdlib/stats/base/snanstdevtk]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevtk
 
-[@ling:1974a]: https://doi.org/10.2307/2286154
+[@stdlib/stats/base/stdevtk]: https://github.com/stdlib-js/stats/tree/main/base/stdevtk
+
+<!-- </related-links> -->
 
 </section>
 

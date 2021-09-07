@@ -251,6 +251,12 @@ Test Decision: Reject null in favor of alternative at 5% significance level
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/incr/mgrubbs`][@stdlib/stats/incr/mgrubbs]</span><span class="delimiter">: </span><span class="description">moving Grubbs' test for outliers.</span>
+
 </section>
 
 <!-- /.related -->
@@ -264,6 +270,12 @@ Test Decision: Reject null in favor of alternative at 5% significance level
 [@grubbs:1950a]: https://doi.org/10.1214/aoms/1177729885
 
 [@grubbs:1969a]: https://doi.org/10.1080/00401706.1969.10490657
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/mgrubbs]: https://github.com/stdlib-js/stats/tree/main/incr/mgrubbs
+
+<!-- </related-links> -->
 
 </section>
 

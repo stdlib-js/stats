@@ -137,6 +137,15 @@ console.log( accumulator() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/incr/mae`][@stdlib/stats/incr/mae]</span><span class="delimiter">: </span><span class="description">compute the mean absolute error (MAE) incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mape`][@stdlib/stats/incr/mape]</span><span class="delimiter">: </span><span class="description">compute the mean absolute percentage error (MAPE) incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mmaape`][@stdlib/stats/incr/mmaape]</span><span class="delimiter">: </span><span class="description">compute a moving arctangent mean absolute percentage error (MAAPE) incrementally.</span>
+
 </section>
 
 <!-- /.related -->
@@ -147,7 +156,17 @@ console.log( accumulator() );
 
 [@kim:2016a]: https://www.sciencedirect.com/science/article/pii/S0169207016000121
 
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/mae]: https://github.com/stdlib-js/stats/tree/main/incr/mae
+
 [@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats/tree/main/incr/mape
+
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats/tree/main/incr/mean
+
+[@stdlib/stats/incr/mmaape]: https://github.com/stdlib-js/stats/tree/main/incr/mmaape
+
+<!-- </related-links> -->
 
 </section>
 

@@ -122,6 +122,15 @@ console.log( accumulator() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/incr/gmean`][@stdlib/stats/incr/gmean]</span><span class="delimiter">: </span><span class="description">compute a geometric mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mhmean`][@stdlib/stats/incr/mhmean]</span><span class="delimiter">: </span><span class="description">compute a moving harmonic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/summary`][@stdlib/stats/incr/summary]</span><span class="delimiter">: </span><span class="description">compute a statistical summary incrementally.</span>
+
 </section>
 
 <!-- /.related -->
@@ -131,6 +140,18 @@ console.log( accumulator() );
 <section class="links">
 
 [harmonic-mean]: https://en.wikipedia.org/wiki/Harmonic_mean
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/gmean]: https://github.com/stdlib-js/stats/tree/main/incr/gmean
+
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats/tree/main/incr/mean
+
+[@stdlib/stats/incr/mhmean]: https://github.com/stdlib-js/stats/tree/main/incr/mhmean
+
+[@stdlib/stats/incr/summary]: https://github.com/stdlib-js/stats/tree/main/incr/summary
+
+<!-- </related-links> -->
 
 </section>
 

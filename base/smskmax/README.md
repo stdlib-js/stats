@@ -186,6 +186,16 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dmskmax`][@stdlib/stats/base/dmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/base/mskmax`][@stdlib/stats/base/mskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smax`][@stdlib/stats/base/smax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smskmin`][@stdlib/stats/base/smskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanmax`][@stdlib/stats/base/snanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array, ignoring NaN values.</span>
+
 </section>
 
 <!-- /.related -->
@@ -199,6 +209,20 @@ console.log( v );
 [@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmskmax]: https://github.com/stdlib-js/stats/tree/main/base/dmskmax
+
+[@stdlib/stats/base/mskmax]: https://github.com/stdlib-js/stats/tree/main/base/mskmax
+
+[@stdlib/stats/base/smax]: https://github.com/stdlib-js/stats/tree/main/base/smax
+
+[@stdlib/stats/base/smskmin]: https://github.com/stdlib-js/stats/tree/main/base/smskmin
+
+[@stdlib/stats/base/snanmax]: https://github.com/stdlib-js/stats/tree/main/base/snanmax
+
+<!-- </related-links> -->
 
 </section>
 

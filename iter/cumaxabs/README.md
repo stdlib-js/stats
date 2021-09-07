@@ -130,6 +130,14 @@ while ( true ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/iter/cumax`][@stdlib/stats/iter/cumax]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative maximum value.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/cuminabs`][@stdlib/stats/iter/cuminabs]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative minimum absolute value.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/maxabs`][@stdlib/stats/iter/maxabs]</span><span class="delimiter">: </span><span class="description">compute the maximum absolute value of all iterated values.</span>
+
 </section>
 
 <!-- /.related -->
@@ -139,6 +147,16 @@ while ( true ) {
 <section class="links">
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+<!-- <related-links> -->
+
+[@stdlib/stats/iter/cumax]: https://github.com/stdlib-js/stats/tree/main/iter/cumax
+
+[@stdlib/stats/iter/cuminabs]: https://github.com/stdlib-js/stats/tree/main/iter/cuminabs
+
+[@stdlib/stats/iter/maxabs]: https://github.com/stdlib-js/stats/tree/main/iter/maxabs
+
+<!-- </related-links> -->
 
 </section>
 

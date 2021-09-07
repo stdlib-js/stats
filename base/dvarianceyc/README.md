@@ -224,6 +224,16 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dnanvarianceyc`][@stdlib/stats/base/dnanvarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dstdevyc`][@stdlib/stats/base/dstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
+-   <span class="package-name">[`@stdlib/stats/base/dvariance`][@stdlib/stats/base/dvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/svarianceyc`][@stdlib/stats/base/svarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
+-   <span class="package-name">[`@stdlib/stats/base/varianceyc`][@stdlib/stats/base/varianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
+
 </section>
 
 <!-- /.related -->
@@ -239,6 +249,20 @@ console.log( v );
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [@youngs:1971a]: https://doi.org/10.1080/00401706.1971.10488826
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dnanvarianceyc]: https://github.com/stdlib-js/stats/tree/main/base/dnanvarianceyc
+
+[@stdlib/stats/base/dstdevyc]: https://github.com/stdlib-js/stats/tree/main/base/dstdevyc
+
+[@stdlib/stats/base/dvariance]: https://github.com/stdlib-js/stats/tree/main/base/dvariance
+
+[@stdlib/stats/base/svarianceyc]: https://github.com/stdlib-js/stats/tree/main/base/svarianceyc
+
+[@stdlib/stats/base/varianceyc]: https://github.com/stdlib-js/stats/tree/main/base/varianceyc
+
+<!-- </related-links> -->
 
 </section>
 

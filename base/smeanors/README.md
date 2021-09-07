@@ -182,6 +182,15 @@ console.log( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/base/dmeanors`][@stdlib/stats/base/dmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using ordinary recursive summation.</span>
+-   <span class="package-name">[`@stdlib/stats/base/meanors`][@stdlib/stats/base/meanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using ordinary recursive summation.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanmeanors`][@stdlib/stats/base/snanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation.</span>
+
 </section>
 
 <!-- /.related -->
@@ -195,6 +204,18 @@ console.log( v );
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/stats/base/dmeanors]: https://github.com/stdlib-js/stats/tree/main/base/dmeanors
+
+[@stdlib/stats/base/meanors]: https://github.com/stdlib-js/stats/tree/main/base/meanors
+
+[@stdlib/stats/base/smean]: https://github.com/stdlib-js/stats/tree/main/base/smean
+
+[@stdlib/stats/base/snanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/snanmeanors
+
+<!-- </related-links> -->
 
 </section>
 

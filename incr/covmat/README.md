@@ -208,6 +208,13 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/incr/covariance`][@stdlib/stats/incr/covariance]</span><span class="delimiter">: </span><span class="description">compute an unbiased sample covariance incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/pcorrmat`][@stdlib/stats/incr/pcorrmat]</span><span class="delimiter">: </span><span class="description">compute a sample Pearson product-moment correlation matrix incrementally.</span>
+
 </section>
 
 <!-- /.related -->
@@ -219,6 +226,14 @@ for ( i = 0; i < 100; i++ ) {
 [covariance-matrix]: https://en.wikipedia.org/wiki/Covariance_matrix
 
 [@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/covariance]: https://github.com/stdlib-js/stats/tree/main/incr/covariance
+
+[@stdlib/stats/incr/pcorrmat]: https://github.com/stdlib-js/stats/tree/main/incr/pcorrmat
+
+<!-- </related-links> -->
 
 </section>
 
