@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> Standard library statistical functions.
+> Statistical functions.
 
 <section class="installation">
 
@@ -44,7 +44,7 @@ var statistics = require( '@stdlib/stats' );
 
 #### statistics
 
-Standard library statistical functions.
+Namespace containing statistical functions.
 
 ```javascript
 var stats = statistics;
