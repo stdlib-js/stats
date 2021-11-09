@@ -20,7 +20,7 @@ limitations under the License.
 
 # Stats
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Statistical functions.
 
@@ -84,8 +84,8 @@ In addition, it contains an assortment of functions for computing statistics inc
 
 <div class="namespace-toc">
 
--   <span class="signature">[`incr`][@stdlib/stats/incr]</span><span class="delimiter">: </span><span class="description">standard library functions for computing statistics incrementally.</span>
--   <span class="signature">[`iterators`][@stdlib/stats/iter]</span><span class="delimiter">: </span><span class="description">standard library functions for computing statistics over iterators.</span>
+-   <span class="signature">[`incr`][@stdlib/stats/incr]</span><span class="delimiter">: </span><span class="description">incremental statistics.</span>
+-   <span class="signature">[`iterators`][@stdlib/stats/iter]</span><span class="delimiter">: </span><span class="description">statistical function iterators.</span>
 
 </div>
 
@@ -184,8 +184,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
