@@ -29,7 +29,7 @@ var rank = require( './../../ranks' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var chisqCDF = require( './../../base/dists/chisquare/cdf' );
 var identity = require( '@stdlib/utils/identity-function' );
-var incrspace = require( '@stdlib/array/incrspace' );
+var incrspace = require( '@stdlib/array/base/incrspace' );
 var validate = require( './validate.js' );
 var print = require( './print.js' ); // eslint-disable-line stdlib/no-redeclare
 
