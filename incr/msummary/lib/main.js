@@ -29,6 +29,7 @@ var incrmmin = require( './../../../incr/mmin' );
 var incrmmax = require( './../../../incr/mmax' );
 var incrmrange = require( './../../../incr/mrange' );
 var incrmmidrange = require( './../../../incr/mmidrange' );
+var format = require( '@stdlib/string/format' );
 
 
 // MAIN //
@@ -66,7 +67,7 @@ function incrmsummary( W ) {
 	var mmax;
 	var mmin;
 	if ( !isPositiveInteger( W ) ) {
-		throw new TypeError( 'invalid argument. Must provide a positive integer. Value: `' + W + '`.' );
+		throw new TypeError( format( 'invalid argument. Must provide a positive integer. Value: `%s`.', W ) );
 	}
 	mvariance = incrmvariance( W );
 	mmidrange = incrmmidrange( W );
