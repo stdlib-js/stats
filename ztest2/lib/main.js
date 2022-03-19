@@ -26,6 +26,7 @@ var isPositiveNumber = require( '@stdlib/assert/is-positive-number' ).isPrimitiv
 var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 var quantileFactory = require( './../../base/dists/normal/quantile' ).factory;
 var cdfFactory = require( './../../base/dists/normal/cdf' ).factory;
+var format = require( '@stdlib/string/format' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 var abs = require( '@stdlib/math/base/special/abs' );
 var mean = require( './../../base/mean' );
@@ -82,16 +83,16 @@ function ztest2( x, y, sigmax, sigmay, options ) {
 	var ny;
 
 	if ( !isTypedArrayLike( x ) && !isNumberArray( x ) ) {
-		throw new TypeError( 'invalid argument. First argument `x` must be a numeric array. Value: `' + x + '`.' );
+		throw new TypeError( format( 'invalid argument. First argument `x` must be a numeric array. Value: `%s`.', x ) );
 	}
 	if ( !isTypedArrayLike( y ) && !isNumberArray( y ) ) {
-		throw new TypeError( 'invalid argument. Second argument `y` must be a numeric array. Value: `' + y + '`.' );
+		throw new TypeError( format( 'invalid argument. Second argument `y` must be a numeric array. Value: `%s`.', y ) );
 	}
 	if ( !isPositiveNumber( sigmax ) ) {
-		throw new TypeError( 'invalid argument. Third argument `sigmax` must be a positive number. Value: `' + sigmax + '`.' );
+		throw new TypeError( format( 'invalid argument. Third argument `sigmax` must be a positive number. Value: `%s`.', sigmax ) );
 	}
 	if ( !isPositiveNumber( sigmay ) ) {
-		throw new TypeError( 'invalid argument. Third argument `sigmay` must be a positive number. Value: `' + sigmay + '`.' );
+		throw new TypeError( format( 'invalid argument. Third argument `sigmay` must be a positive number. Value: `%s`.', sigmay ) );
 	}
 	opts = {};
 	if ( options ) {
@@ -139,7 +140,7 @@ function ztest2( x, y, sigmax, sigmay, options ) {
 		cint[ 1 ] = diff + (cint[ 1 ] * stderr);
 		break;
 	default:
-		throw new Error( 'Invalid option. `alternative` must be either `two-sided`, `less` or `greater`. Value: `' + alt + '`' );
+		throw new Error( format( 'Invalid option. `alternative` must be either `two-sided`, `less`, or `greater`. Value: `%s`.', alt ) );
 	}
 	out = {};
 	setReadOnly( out, 'rejected', pval <= alpha );
