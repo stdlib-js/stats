@@ -59,7 +59,7 @@ function validate( opts, options ) {
 	if ( hasOwnProp( options, 'alpha' ) ) {
 		opts.alpha = options.alpha;
 		if ( !isNumber( opts.alpha ) || isnan( opts.alpha ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a number primitive. Option: `%s`.', 'alpha', opts.alpha ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a number. Option: `%s`.', 'alpha', opts.alpha ) );
 		}
 		if ( opts.alpha < 0.0 || opts.alpha > 1.0 ) {
 			return new RangeError( format( 'invalid argument. Option `%s` must be a number in the range 0 to 1. Value: `%f`.', 'alpha', opts.alpha ) );
@@ -68,7 +68,7 @@ function validate( opts, options ) {
 	if ( hasOwnProp( options, 'alternative' ) ) {
 		opts.alternative = options.alternative;
 		if ( !isString( opts.alternative ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a string primitive. Option: `%s`.', 'alternative', opts.alternative ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a string. Option: `%s`.', 'alternative', opts.alternative ) );
 		}
 		if ( !contains( ALTERNATIVE_VALUES, opts.alternative ) ) {
 			return new Error( format( 'invalid option. `%s` option must be one of %s. Option: `%s`.', 'alternative', ALTERNATIVE_VALUES.join( ', ' ), opts.alternative ) );
@@ -77,7 +77,7 @@ function validate( opts, options ) {
 	if ( hasOwnProp( options, 'correction' ) ) {
 		opts.correction = options.correction;
 		if ( !isBoolean( opts.correction ) || isnan( opts.correction ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a boolean primitive. Option: `%s`.', 'correction', opts.alpha ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a boolean. Option: `%s`.', 'correction', opts.alpha ) );
 		}
 	}
 	if ( hasOwnProp( options, 'exact' ) ) {
@@ -86,19 +86,19 @@ function validate( opts, options ) {
 			!isBoolean( opts.exact ) ||
 			isnan( opts.exact )
 		) {
-			return new TypeError( format( 'invalid option. `%s` option must be a boolean primitive. Option: `%s`.', 'exact', opts.alpha ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a boolean. Option: `%s`.', 'exact', opts.alpha ) );
 		}
 	}
 	if ( hasOwnProp( options, 'mu' ) ) {
 		opts.mu = options.mu;
 		if ( !isNumber( opts.mu ) || isnan( opts.mu ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a number primitive. Option: `%s`.', 'mu', opts.mu ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a number. Option: `%s`.', 'mu', opts.mu ) );
 		}
 	}
 	if ( hasOwnProp( options, 'zeroMethod' ) ) {
 		opts.zeroMethod = options.zeroMethod;
 		if ( !isString( opts.zeroMethod ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a string primitive. Option: `%s`.', 'zeroMethod', opts.alternative ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a string. Option: `%s`.', 'zeroMethod', opts.alternative ) );
 		}
 		if ( !contains( ZERO_METHOD_VALUES, opts.zeroMethod ) ) {
 			return new Error( format( 'invalid option. `%s` option must be one of %s. Option: `%s`.', 'zeroMethod', ZERO_METHOD_VALUES.join( ', ' ), opts.zeroMethod ) );

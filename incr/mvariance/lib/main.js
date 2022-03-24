@@ -101,7 +101,7 @@ var format = require( '@stdlib/string/format' );
 * @param {PositiveInteger} W - window size
 * @param {number} [mean] - mean value
 * @throws {TypeError} first argument must be a positive integer
-* @throws {TypeError} second argument must be a number primitive
+* @throws {TypeError} second argument must be a number
 * @returns {Function} accumulator function
 *
 * @example
@@ -149,7 +149,7 @@ function incrmvariance( W, mean ) {
 	N = 0;
 	if ( arguments.length > 1 ) {
 		if ( !isNumber( mean ) ) {
-			throw new TypeError( format( 'invalid argument. Must provide a number primitive. Value: `%s`.', mean ) );
+			throw new TypeError( format( 'invalid argument. Must provide a number. Value: `%s`.', mean ) );
 		}
 		mu = mean;
 		return accumulator2;

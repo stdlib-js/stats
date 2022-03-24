@@ -109,8 +109,8 @@ function arcsineQuantile( p ) {
 * @constructor
 * @param {number} [a=0.0] - minimum support
 * @param {number} [b=1.0] - maximum support
-* @throws {TypeError} `a` must be a number primitive
-* @throws {TypeError} `b` must be a number primitive
+* @throws {TypeError} `a` must be a number
+* @throws {TypeError} `b` must be a number
 * @throws {RangeError} `a` must be less than `b`
 * @returns {Arcsine} distribution instance
 *
@@ -136,10 +136,10 @@ function Arcsine() {
 		a = arguments[ 0 ];
 		b = arguments[ 1 ];
 		if ( !isNumber( a ) || isnan( a ) ) {
-			throw new TypeError( format( 'invalid argument. Minimum support `a` must be a number primitive. Value: `%s`.', a ) );
+			throw new TypeError( format( 'invalid argument. Minimum support `a` must be a number. Value: `%s`.', a ) );
 		}
 		if ( !isNumber( b ) || isnan( b ) ) {
-			throw new TypeError( format( 'invalid argument. Maximum support `b` must be a number primitive. Value: `%s`.', b ) );
+			throw new TypeError( format( 'invalid argument. Maximum support `b` must be a number. Value: `%s`.', b ) );
 		}
 		if ( a >= b ) {
 			throw new RangeError( format( 'invalid arguments. Minimum support `a` must be less than maximum support `b`. Value: `%f,%f`.', a, b ) );
@@ -156,10 +156,10 @@ function Arcsine() {
 		},
 		'set': function set( value ) {
 			if ( !isNumber( value ) || isnan( value ) ) {
-				throw new TypeError( format( 'invalid value. Must be a number primitive. Value: `%s`.', value ) );
+				throw new TypeError( format( 'invalid value. Must be a number. Value: `%s`.', value ) );
 			}
 			if ( value >= b ) {
-				throw new RangeError( format( 'invalid value. Must be less than `b`. Value: `%f`', value ) );
+				throw new RangeError( format( 'invalid value. Must be less than `b`. Value: `%f.`', value ) );
 			}
 			a = value;
 		}
@@ -172,7 +172,7 @@ function Arcsine() {
 		},
 		'set': function set( value ) {
 			if ( !isNumber( value ) || isnan( value ) ) {
-				throw new TypeError( format( 'invalid value. Must be a number primitive. Value: `%s`.', value ) );
+				throw new TypeError( format( 'invalid value. Must be a number. Value: `%s`.', value ) );
 			}
 			if ( value <= a ) {
 				throw new RangeError( format( 'invalid value. Must be greater than `a`. Value: `%f`.', value ) );

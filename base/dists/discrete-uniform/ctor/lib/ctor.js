@@ -39,6 +39,7 @@ var logpmf = require( './../../../../../base/dists/discrete-uniform/logpmf' );
 var mgf = require( './../../../../../base/dists/discrete-uniform/mgf' );
 var pmf = require( './../../../../../base/dists/discrete-uniform/pmf' );
 var quantile = require( './../../../../../base/dists/discrete-uniform/quantile' );
+var format = require( '@stdlib/string/format' );
 
 
 // FUNCTIONS //
@@ -120,7 +121,7 @@ function discreteUniformQuantile( p ) {
 * @param {integer} [b=1] - maximum support
 * @throws {TypeError} `a` must be an integer
 * @throws {TypeError} `b` must be an integer
-* @throws {RangeError} `a` must be smaller than `b`
+* @throws {RangeError} `a` must be less than `b`
 * @returns {DiscreteUniform} distribution instance
 *
 * @example
@@ -145,10 +146,10 @@ function DiscreteUniform() {
 		a = arguments[ 0 ];
 		b = arguments[ 1 ];
 		if ( !isInteger( a ) ) {
-			throw new TypeError( 'invalid argument. Minimum support `a` must be an integer. Value: `' + a + '`' );
+			throw new TypeError( format( 'invalid argument. Minimum support `a` must be an integer. Value: `%s`.', a ) );
 		}
 		if ( !isInteger( b ) ) {
-			throw new TypeError( 'invalid argument. Maximum support `b` must be an integer. Value: `' + b + '`' );
+			throw new TypeError( format( 'invalid argument. Maximum support `b` must be an integer. Value: `%s`.', b ) );
 		}
 		if ( a > b ) {
 			throw new RangeError( 'invalid arguments. Minimum support `a` must be less than or equal to maximum support `b`. Value: `' + a + ',' + b + '`' );
@@ -165,10 +166,10 @@ function DiscreteUniform() {
 		},
 		'set': function set( value ) {
 			if ( !isInteger( value ) ) {
-				throw new TypeError( 'invalid value. Must be an integer. Value: `' + value + '`' );
+				throw new TypeError( format( 'invalid value. Must be an integer. Value: `%s`.', value ) );
 			}
 			if ( value > b ) {
-				throw new RangeError( 'invalid value. Must be smaller than or equal to `b`. Value: `'+ value + '`' );
+				throw new RangeError( 'invalid value. Must be less than or equal to `b`. Value: `'+ value + '`' );
 			}
 			a = value;
 		}
@@ -181,10 +182,10 @@ function DiscreteUniform() {
 		},
 		'set': function set( value ) {
 			if ( !isInteger( value ) ) {
-				throw new TypeError( 'invalid value. Must be an integer. Value: `' + value + '`' );
+				throw new TypeError( format( 'invalid value. Must be an integer. Value: `%s`.', value ) );
 			}
 			if ( a > value ) {
-				throw new RangeError( 'invalid value. Must be greater than or equal to `a`. Value: `'+ value + '`' );
+				throw new RangeError( format( 'invalid value. Must be greater than or equal to `a`. Value: `%s`.', value ) );
 			}
 			b = value;
 		}

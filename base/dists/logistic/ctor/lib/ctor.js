@@ -147,7 +147,7 @@ function Logistic() {
 		mu = arguments[ 0 ];
 		s = arguments[ 1 ];
 		if ( !isNumber( mu ) || isnan( mu ) ) {
-			throw new TypeError( format( 'invalid argument. Location parameter `mu` must be a number primitive. Value: `%s`.', mu ) );
+			throw new TypeError( format( 'invalid argument. Location parameter `mu` must be a number. Value: `%s`.', mu ) );
 		}
 		if ( !isPositive( s ) ) {
 			throw new TypeError( format( 'invalid argument. Scale parameter `s` must be a positive number. Value: `%s`.', s ) );
@@ -164,7 +164,7 @@ function Logistic() {
 		},
 		'set': function set( value ) {
 			if ( !isNumber( value ) || isnan( value ) ) {
-				throw new TypeError( format( 'invalid value. Must be a number primitive. Value: `%s`.', value ) );
+				throw new TypeError( format( 'invalid value. Must be a number. Value: `%s`.', value ) );
 			}
 			mu = value;
 		}

@@ -133,7 +133,7 @@ function Levy() {
 		mu = arguments[ 0 ];
 		c = arguments[ 1 ];
 		if ( !isNumber( mu ) || isnan( mu ) ) {
-			throw new TypeError( format( 'invalid argument. Location parameter `mu` must be a number primitive. Value: `%s`.', mu ) );
+			throw new TypeError( format( 'invalid argument. Location parameter `mu` must be a number. Value: `%s`.', mu ) );
 		}
 		if ( !isPositive( c ) ) {
 			throw new TypeError( format( 'invalid argument. Scale parameter `c` must be a positive number. Value: `%s`.', c ) );
@@ -150,7 +150,7 @@ function Levy() {
 		},
 		'set': function set( value ) {
 			if ( !isNumber( value ) || isnan( value ) ) {
-				throw new TypeError( format( 'invalid value. Must be a number primitive. Value: `%s`.', value ) );
+				throw new TypeError( format( 'invalid value. Must be a number. Value: `%s`.', value ) );
 			}
 			mu = value;
 		}

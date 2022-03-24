@@ -49,25 +49,25 @@ function validate( opts, options ) {
 	if ( hasOwnProp( options, 'alpha' ) ) {
 		opts.alpha = options.alpha;
 		if ( !isNumber( opts.alpha ) || isnan( opts.alpha ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a number primitive. Option: `%s`.', 'alpha', opts.alpha ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a number. Option: `%s`.', 'alpha', opts.alpha ) );
 		}
 	}
 	if ( hasOwnProp( options, 'alternative' ) ) {
 		opts.alternative = options.alternative;
 		if ( !isString( opts.alternative ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a string primitive. Option: `%s`.', 'alternative', opts.alternative ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a string. Option: `%s`.', 'alternative', opts.alternative ) );
 		}
 	}
 	if ( hasOwnProp( options, 'difference' ) ) {
 		opts.difference = options.difference;
 		if ( !isNumber( opts.difference ) || isnan( opts.difference ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a number primitive. Option: `%s`.', 'difference', opts.difference ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a number. Option: `%s`.', 'difference', opts.difference ) );
 		}
 	}
 	if ( hasOwnProp( options, 'variance' ) ) {
 		opts.variance = options.variance;
 		if ( !isString( opts.variance ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a string primitive. Option: `%s`.', 'variance', opts.variance ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a string. Option: `%s`.', 'variance', opts.variance ) );
 		}
 	}
 	return null;

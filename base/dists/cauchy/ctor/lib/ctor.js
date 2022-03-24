@@ -130,7 +130,7 @@ function Cauchy() {
 		x0 = arguments[ 0 ];
 		gamma = arguments[ 1 ];
 		if ( !isNumber( x0 ) || isnan( x0 ) ) {
-			throw new TypeError( format( 'invalid argument. Location parameter `x0` must be a number primitive. Value: `%s`.', x0 ) );
+			throw new TypeError( format( 'invalid argument. Location parameter `x0` must be a number. Value: `%s`.', x0 ) );
 		}
 		if ( !isPositive( gamma ) ) {
 			throw new TypeError( format( 'invalid argument. Scale parameter `gamma` must be a positive number. Value: `%s`.', gamma ) );
@@ -147,7 +147,7 @@ function Cauchy() {
 		},
 		'set': function set( value ) {
 			if ( !isNumber( value ) || isnan( value ) ) {
-				throw new TypeError( format( 'invalid value. Must be a number primitive. Value: `%s`.', value ) );
+				throw new TypeError( format( 'invalid value. Must be a number. Value: `%s`.', value ) );
 			}
 			x0 = value;
 		}

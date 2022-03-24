@@ -60,7 +60,7 @@ function validate( opts, options ) {
 	if ( hasOwnProp( options, 'alpha' ) ) {
 		opts.alpha = options.alpha;
 		if ( !isNumber( opts.alpha ) || isnan( opts.alpha ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a number primitive. Option: `%s`.', 'alpha', opts.alpha ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a number. Option: `%s`.', 'alpha', opts.alpha ) );
 		}
 		if ( opts.alpha < 0.0 || opts.alpha > 1.0 ) {
 			return new RangeError( format( 'invalid option. `%s` option must be on the interval [0,1]. Option: `%f`.', 'alpha', opts.alpha ) );
@@ -69,7 +69,7 @@ function validate( opts, options ) {
 	if ( hasOwnProp( options, 'alternative' ) ) {
 		opts.alternative = options.alternative;
 		if ( !isString( opts.alternative ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a string primitive. Option: `%s`.', 'alternative', opts.alternative ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a string. Option: `%s`.', 'alternative', opts.alternative ) );
 		}
 	}
 	return null;

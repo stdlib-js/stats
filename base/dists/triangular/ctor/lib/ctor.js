@@ -41,6 +41,7 @@ var logpdf = require( './../../../../../base/dists/triangular/logpdf' );
 var mgf = require( './../../../../../base/dists/triangular/mgf' );
 var pdf = require( './../../../../../base/dists/triangular/pdf' );
 var quantile = require( './../../../../../base/dists/triangular/quantile' );
+var format = require( '@stdlib/string/format' );
 
 
 // FUNCTIONS //
@@ -121,10 +122,10 @@ function triangularQuantile( p ) {
 * @param {number} [a=0.0] - minimum support
 * @param {number} [b=1.0] - maximum support
 * @param {number} [c=0.5] - mode
-* @throws {TypeError} `a` must be a number primitive
-* @throws {TypeError} `b` must be a number primitive
-* @throws {TypeError} `c` must be a number primitive
-* @throws {RangeError} `a` must be smaller than or equal to `b` and `c`
+* @throws {TypeError} `a` must be a number
+* @throws {TypeError} `b` must be a number
+* @throws {TypeError} `c` must be a number
+* @throws {RangeError} `a` must be less than or equal to `b` and `c`
 * @throws {RangeError} `b` must be greater than or equal to `a` and `b`
 * @throws {RangeError} `c` must be greater than or equal to `a` and smaller than or equal to `b`
 * @returns {Triangular} distribution instance
@@ -153,13 +154,13 @@ function Triangular() {
 		b = arguments[ 1 ];
 		c = arguments[ 2 ];
 		if ( !isNumber( a ) || isnan( a ) ) {
-			throw new TypeError( 'invalid argument. Minimum support `a` must be a number primitive. Value: `' + a + '`' );
+			throw new TypeError( format( 'invalid argument. Minimum support `a` must be a number. Value: `%s`.', a ) );
 		}
 		if ( !isNumber( b ) || isnan( b ) ) {
-			throw new TypeError( 'invalid argument. Maximum support `b` must be a number primitive. Value: `' + b + '`' );
+			throw new TypeError( format( 'invalid argument. Maximum support `b` must be a number. Value: `%s`.', b ) );
 		}
 		if ( !isNumber( c ) || isnan( c ) ) {
-			throw new TypeError( 'invalid argument. Mode `c` must be a number primitive. Value: `' + c + '`' );
+			throw new TypeError( format( 'invalid argument. Mode `c` must be a number. Value: `%s`.', c ) );
 		}
 		if ( !( a <= c && c <= b ) ) {
 			throw new RangeError( 'invalid arguments. Parameters must satisfy `a <= c <= b`. Value: `' + a + ',' + b + ',' + c + '`' );
@@ -177,10 +178,10 @@ function Triangular() {
 		},
 		'set': function set( value ) {
 			if ( !isNumber( value ) || isnan( value ) ) {
-				throw new TypeError( 'invalid value. Must be a number primitive. Value: `' + value + '`' );
+				throw new TypeError( format( 'invalid value. Must be a number. Value: `%s`.', value ) );
 			}
 			if ( value > b || value > c ) {
-				throw new RangeError( 'invalid value. Must be smaller than or equal to `b` and `c`. Value: `'+ value + '`' );
+				throw new RangeError( 'invalid value. Must be less than or equal to `b` and `c`. Value: `'+ value + '`' );
 			}
 			a = value;
 		}
@@ -193,7 +194,7 @@ function Triangular() {
 		},
 		'set': function set( value ) {
 			if ( !isNumber( value ) || isnan( value ) ) {
-				throw new TypeError( 'invalid value. Must be a number primitive. Value: `' + value + '`' );
+				throw new TypeError( format( 'invalid value. Must be a number. Value: `%s`.', value ) );
 			}
 			if ( a > value || c > value ) {
 				throw new RangeError( 'invalid value. Must be greater than or equal to `a` and `c`. Value: `'+ value + '`' );
@@ -209,7 +210,7 @@ function Triangular() {
 		},
 		'set': function set( value ) {
 			if ( !isNumber( value ) || isnan( value ) ) {
-				throw new TypeError( 'invalid value. Must be a number primitive. Value: `' + value + '`' );
+				throw new TypeError( format( 'invalid value. Must be a number. Value: `%s`.', value ) );
 			}
 			if ( a > value || b < value ) {
 				throw new RangeError( 'invalid value. Must be greater than or equal to `a` and smaller than or equal to `b`. Value: `'+ value + '`' );

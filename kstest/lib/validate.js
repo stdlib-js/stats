@@ -49,19 +49,19 @@ function validate( opts, options ) {
 	if ( hasOwnProp( options, 'alpha' ) ) {
 		opts.alpha = options.alpha;
 		if ( !isNumber( opts.alpha ) || isnan( opts.alpha ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a number primitive. Option: `%s`.', 'alpha', opts.alpha ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a number. Option: `%s`.', 'alpha', opts.alpha ) );
 		}
 	}
 	if ( hasOwnProp( options, 'alternative' ) ) {
 		opts.alternative = options.alternative;
 		if ( !isString( opts.alternative ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a string primitive. Option: `%s`.', 'alternative', opts.alternative ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a string. Option: `%s`.', 'alternative', opts.alternative ) );
 		}
 	}
 	if ( hasOwnProp( options, 'sorted' ) ) {
 		opts.sorted = options.sorted;
 		if ( !isBoolean( opts.sorted ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a boolean primitive. Option: `%s`.', 'sorted', opts.sorted ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a boolean. Option: `%s`.', 'sorted', opts.sorted ) );
 		}
 	}
 	return null;

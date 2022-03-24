@@ -29,6 +29,7 @@ var absdiff = require( '@stdlib/math/base/utils/absolute-difference' );
 var FLOAT64_SQRT_EPS = require( '@stdlib/constants/float64/sqrt-eps' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var chisqCDF = require( './../../base/dists/chisquare/cdf' );
+var format = require( '@stdlib/string/format' );
 var isnan = require( '@stdlib/assert/is-nan' );
 var daxpy = require( '@stdlib/blas/base/daxpy' );
 var dscal = require( '@stdlib/blas/base/dscal' );
@@ -62,7 +63,7 @@ var Results = require( './results.js' );
 * @throws {Error} first and second arguments must have the same length
 * @throws {Error} first argument must contain at least one element greater than zero
 * @throws {RangeError} significance level must be a number on the interval `[0,1]`
-* @throws {TypeError} probability mass function (PMF) arguments must be number primitives
+* @throws {TypeError} probability mass function (PMF) arguments must be numbers
 * @returns {Object} test results
 *
 * @example
@@ -104,7 +105,7 @@ function chi2gof( x, y ) {
 		s = 1;
 		o = 0;
 	} else {
-		throw new TypeError( 'invalid argument. First argument must be either an array-like object or a 1-dimensional ndarray. Value: `' + x + '`.' );
+		throw new TypeError( format( 'invalid argument. First argument must be either an array-like object or a 1-dimensional ndarray. Value: `%s`.', x ) );
 	}
 	N = x.length;
 
@@ -136,7 +137,7 @@ function chi2gof( x, y ) {
 		for ( i = 0; i < nargs; i++ ) {
 			v = arguments[ i+2 ];
 			if ( !isNumber( v ) || isnan( v ) ) {
-				throw new TypeError( 'invalid argument. Probability mass function (PMF) arguments must be number primitives. Argument: `' + (i+2) + '`. Value: `' + v + '`.' );
+				throw new TypeError( format( 'invalid argument. Probability mass function (PMF) arguments must be numbers. Argument: `%f`. Value: `%f`.', i+2, v ) );
 			}
 			args.push( v );
 		}
@@ -166,7 +167,7 @@ function chi2gof( x, y ) {
 			s = 1;
 			o = 0;
 		} else {
-			throw new TypeError( 'invalid argument. Second argument must be either an array-like object (or 1-dimensional ndarray) of probabilities summing to one, an array-like object (or 1-dimensional ndarray) of expected frequencies, or a discrete probability distribution name. Value: `' + y + '`.' );
+			throw new TypeError( format( 'invalid argument. Second argument must be either an array-like object (or 1-dimensional ndarray) of probabilities summing to one, an array-like object (or 1-dimensional ndarray) of expected frequencies, or a discrete probability distribution name. Value: `%s`.', y ) );
 		}
 		if ( y.length !== N ) {
 			throw new Error( 'invalid arguments. First and second arguments must have the same length.' );
@@ -176,7 +177,7 @@ function chi2gof( x, y ) {
 		for ( i = 0; i < N; i++ ) {
 			v = d[ o+(s*i) ];
 			if ( !isNumber( v ) ) {
-				throw new TypeError( 'invalid argument. Second argument must only contain numbers. Index: `' + i + '`. Value: `' + v + '`.' );
+				throw new TypeError( format( 'invalid argument. Second argument must only contain numbers. Index: `%u`. Value: `%f`.', i, v ) );
 			}
 			if ( v < 0.0 ) {
 				throw new TypeError( 'invalid argument. Second argument must only contain nonnegative numbers. Index: `' + i + '`. Value: `' + v + '`.' );

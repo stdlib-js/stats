@@ -147,7 +147,7 @@ function Laplace() {
 		mu = arguments[ 0 ];
 		b = arguments[ 1 ];
 		if ( !isNumber( mu ) || isnan( mu ) ) {
-			throw new TypeError( format( 'invalid argument. Location parameter `mu` must be a number primitive. Value: `%s`.', mu ) );
+			throw new TypeError( format( 'invalid argument. Location parameter `mu` must be a number. Value: `%s`.', mu ) );
 		}
 		if ( !isPositive( b ) ) {
 			throw new TypeError( format( 'invalid argument. Scale parameter `b` must be a positive number. Value: `%s`.', b ) );
@@ -164,7 +164,7 @@ function Laplace() {
 		},
 		'set': function set( value ) {
 			if ( !isNumber( value ) || isnan( value ) ) {
-				throw new TypeError( format( 'invalid value. Must be a number primitive. Value: `%s`.', value ) );
+				throw new TypeError( format( 'invalid value. Must be a number. Value: `%s`.', value ) );
 			}
 			mu = value;
 		}

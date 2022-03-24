@@ -36,6 +36,7 @@ var cdf = require( './../../../../../base/dists/hypergeometric/cdf' );
 var logpmf = require( './../../../../../base/dists/hypergeometric/logpmf' );
 var pmf = require( './../../../../../base/dists/hypergeometric/pmf' );
 var quantile = require( './../../../../../base/dists/hypergeometric/quantile' );
+var format = require( '@stdlib/string/format' );
 
 
 // FUNCTIONS //
@@ -115,19 +116,19 @@ function Hypergeometric( N, K, n ) {
 		return new Hypergeometric( N, K, n );
 	}
 	if ( !isNonNegativeInteger( N ) ) {
-		throw new TypeError( 'invalid argument. Population size `N` must be a nonnegative integer. Value: `' + N + '`' );
+		throw new TypeError( format( 'invalid argument. Population size `N` must be a nonnegative integer. Value: `%s`.', N ) );
 	}
 	if ( !isNonNegativeInteger( K ) ) {
-		throw new TypeError( 'invalid argument. Subpopulation size `K` must be a nonnegative integer. Value: `' + K + '`' );
+		throw new TypeError( format( 'invalid argument. Subpopulation size `K` must be a nonnegative integer. Value: `%s`.', K ) );
 	}
 	if ( !isNonNegativeInteger( n ) ) {
-		throw new TypeError( 'invalid argument. Number of draws `n` must be a nonnegative integer. Value: `' + n + '`' );
+		throw new TypeError( format( 'invalid argument. Number of draws `n` must be a nonnegative integer. Value: `%s`.', n ) );
 	}
 	if ( K > N ) {
-		throw new RangeError( 'invalid arguments. Subpopulation size `K` must be smaller than or equal to `N`.' );
+		throw new RangeError( 'invalid arguments. Subpopulation size `K` must be less than or equal to `N`.' );
 	}
 	if ( n > N ) {
-		throw new RangeError( 'invalid arguments. Number of draws `n` must be smaller than or equal to `N`.' );
+		throw new RangeError( 'invalid arguments. Number of draws `n` must be less than or equal to `N`.' );
 	}
 	defineProperty( this, 'N', {
 		'configurable': false,
@@ -137,13 +138,13 @@ function Hypergeometric( N, K, n ) {
 		},
 		'set': function set( value ) {
 			if ( !isNonNegativeInteger( value ) ) {
-				throw new TypeError( 'invalid value. Must be a nonnegative integer. Value: `' + value + '`' );
+				throw new TypeError( format( 'invalid value. Must be a nonnegative integer. Value: `%s`.', value ) );
 			}
 			if ( K > value ) {
-				throw new RangeError( 'invalid value. Must be larger than or equal to `K`. Value: `' + value + '`' );
+				throw new RangeError( format( 'invalid value. Must be larger than or equal to `%s`. Value: `%u`.', 'K', value ) );
 			}
 			if ( n > value ) {
-				throw new RangeError( 'invalid value. Must be larger than or equal to `n`. Value: `' + value + '`' );
+				throw new RangeError( format( 'invalid value. Must be larger than or equal to `%s`. Value: `%u`.', 'n', value ) );
 			}
 			N = value;
 		}
@@ -156,10 +157,10 @@ function Hypergeometric( N, K, n ) {
 		},
 		'set': function set( value ) {
 			if ( !isNonNegativeInteger( value ) ) {
-				throw new TypeError( 'invalid value. Must be a nonnegative integer. Value: `' + value + '`' );
+				throw new TypeError( format( 'invalid value. Must be a nonnegative integer. Value: `%s`.', value ) );
 			}
 			if ( value > N ) {
-				throw new RangeError( 'invalid value. Must be smaller than or equal to `N`. Value: `' + value + '`' );
+				throw new RangeError( format( 'invalid value. Must be less than or equal to `%s`. Value: `%u`.', 'N', value ) );
 			}
 			K = value;
 		}
@@ -172,10 +173,10 @@ function Hypergeometric( N, K, n ) {
 		},
 		'set': function set( value ) {
 			if ( !isNonNegativeInteger( value ) ) {
-				throw new TypeError( 'invalid value. Must be a nonnegative integer. Value: `' + value + '`' );
+				throw new TypeError( format( 'invalid value. Must be a nonnegative integer. Value: `%s`.', value ) );
 			}
 			if ( value > N ) {
-				throw new RangeError( 'invalid value. Must be smaller than or equal to `N`. Value: `' + value + '`' );
+				throw new RangeError( format( 'invalid value. Must be less than or equal to `%s`. Value: `%u`.', 'N', value ) );
 			}
 			n = value;
 		}
