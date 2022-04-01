@@ -22,6 +22,7 @@
 
 var isPlainObject = require( '@stdlib/assert/is-plain-object' );
 var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
+var format = require( '@stdlib/string/format' );
 var anova1 = require( './../../anova1' );
 var absMeanDiff = require( './absdiff.js' );
 var validate = require( './validate.js' );
@@ -41,7 +42,7 @@ var print = require( './print.js' ); // eslint-disable-line stdlib/no-redeclare
 * @throws {TypeError} must provide array-like arguments
 * @throws {RangeError} alpha option must be a number on the interval `[0,1]`
 * @throws {Error} must provide at least two array-like arguments if `groups` is not provided
-* @throws {TypeError} options must be an object
+* @throws {TypeError} Options argument must be an object
 * @throws {TypeError} must provide valid options
 * @returns {Object} test results
 *
@@ -87,7 +88,7 @@ function levene() {
 		levels = unique( groups );
 		k = levels.length;
 		if ( k < 2 ) {
-			throw new Error( 'invalid option. `groups` option must contain at least two unique elements. Value: `' + levels + '`.' );
+			throw new Error( format( 'invalid option. `%s` option must contain at least two unique elements. Value: `%s`.', 'groups', levels ) );
 		}
 	} else {
 		groups = [];
@@ -96,7 +97,7 @@ function levene() {
 		for ( i = 0; i < k; i++ ) {
 			arg = arguments[ i ];
 			if ( arg.length === 0 ) {
-				throw new Error( 'invalid argument. Provided arrays cannot be empty. Value: `' + arg + '`.' );
+				throw new Error( format( 'invalid argument. Provided arrays cannot be empty. Value: `%s`.', arg ) );
 			}
 			args = args.concat( arg );
 			for ( j = 0; j < arg.length; j++ ) {
