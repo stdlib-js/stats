@@ -51,7 +51,7 @@ var gaussian = require( './gaussian.js' );
 * @param {(string|Function)} [options.kernel='gaussian'] - a string or function to specifying the used kernel function
 * @throws {TypeError} first argument must be an array or matrix-like
 * @throws {TypeError} second argument must be an array
-* @throws {Error} first and second arguments must be of the same length
+* @throws {Error} first and second arguments must have the same length
 * @throws {RangeError} `xMin` must be less than `xMax`
 * @throws {RangeError} `yMin` must be less than `yMax`
 * @throws {TypeError} options argument must be an object
@@ -105,13 +105,13 @@ function kde2d() {
 		x = arguments[ 0 ];
 		y = arguments[ 1 ];
 		if ( !isNumericArray( x ) ) {
-			throw new TypeError( format( 'invalid argument. First argument `x` must be a numeric array. Value: `%s`.', x ) );
+			throw new TypeError( format( 'invalid argument. First argument must be a numeric array. Value: `%s`.', x ) );
 		}
 		if ( !isNumericArray( y ) ) {
-			throw new TypeError( format( 'invalid argument. Second argument `y` must be a numeric array. Value: `%s`.', y ) );
+			throw new TypeError( format( 'invalid argument. Second argument must be a numeric array. Value: `%s`.', y ) );
 		}
 		if ( x.length !== y.length ) {
-			throw new Error( 'invalid arguments. Arguments `x` and `y` must be arrays of the same length' );
+			throw new Error( 'invalid arguments. First and second arguments must be arrays having the same length.' );
 		}
 		arr = ndarrayLike( x, y );
 		maxArgs = 2;
@@ -136,10 +136,10 @@ function kde2d() {
 	yMax = opts.yMax || max( arr, 1, arr.shape[0] );
 
 	if ( xMin >= xMax ) {
-		throw new RangeError( '`x` min must be strictly less than max' );
+		throw new RangeError( format( 'invalid option. Lower bound `%s` must be strictly less than the upper bound `%s`.', 'xMin', 'xMax' ) );
 	}
 	if ( yMin >= yMax ) {
-		throw new RangeError( '`y` min must be strictly less than max' );
+		throw new RangeError( format( 'invalid option. Lower bound `%s` must be strictly less than the upper bound `%s`.', 'yMin', 'yMax' ) );
 	}
 
 	kernelFunction = opts.kernel || gaussian;
