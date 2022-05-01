@@ -104,7 +104,7 @@ function ttest2( x, y, options ) {
 		alpha = opts.alpha;
 	}
 	if ( alpha < 0.0 || alpha > 1.0 ) {
-		throw new RangeError( format( 'invalid argument. `%s` option must be a number on the interval: [0, 1]. Value: `%f`.', 'alpha', alpha ) );
+		throw new RangeError( format( 'invalid option. `%s` option must be a number on the interval: [0, 1]. Option: `%f`.', 'alpha', alpha ) );
 	}
 	nx = x.length;
 	ny = y.length;
@@ -128,7 +128,7 @@ function ttest2( x, y, options ) {
 		df = pow( stderr, 4 ) / v;
 	}
 	else {
-		throw new Error( format( 'invalid option. `variance` must be either `equal` or `unequal`. Value: `%s`.', vars ) );
+		throw new Error( format( 'invalid option. `%s` option must be either `equal` or `unequal`. Option: `%s`.', 'variance', vars ) );
 	}
 
 	xmean = mean( nx, x, 1 );
@@ -157,7 +157,7 @@ function ttest2( x, y, options ) {
 		cint[ 1 ] = diff + (cint[ 1 ] * stderr);
 		break;
 	default:
-		throw new Error( format( 'invalid option. `alternative` must be either `two-sided`, `less`, or `greater`. Option: `%s`.', alt ) );
+		throw new Error( format( 'invalid option. `%s` option must be one of the following: "%s". Option: `%s`.', 'alternative', [ 'two-sided', 'less', 'greater' ].join( '", "' ), alt ) );
 	}
 	out = {};
 	setReadOnly( out, 'rejected', pval <= alpha );

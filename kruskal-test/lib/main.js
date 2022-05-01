@@ -101,7 +101,7 @@ function kruskal() {
 	if ( opts.groups ) {
 		x = arguments[ 0 ];
 		if ( x.length !== opts.groups.length ) {
-			throw new RangeError( format( 'invalid arguments. First argument and `%s` must be arrays of the same length.', 'opts.groups' ) );
+			throw new RangeError( format( 'invalid arguments. First argument and `%s` must be arrays having the same length.', 'opts.groups' ) );
 		}
 		n = countBy( opts.groups, identity );
 		levels = objectKeys( n );
@@ -111,14 +111,14 @@ function kruskal() {
 			groupRankSums[ key ] = 0;
 		}
 		if ( ngroups < 2 ) {
-			throw new Error( format( 'invalid number of groups. `%s` array must contain at least two unique elements. Value: `%s`.', 'groups', levels ) );
+			throw new Error( format( 'invalid option. `%s` option must be an array containing at least two unique elements. Option: `%s`.', 'groups', levels ) );
 		}
 		groupsIndicators = opts.groups;
 	} else {
 		x = [];
 		groupsIndicators = [];
 		if ( ngroups < 2 ) {
-			throw new Error( format( 'invalid number of input arguments. Must provide at least two array-like arguments. Value: `%s`.', arg ) );
+			throw new Error( format( 'invalid invocation. Incorrect number of arguments. Must provide at least two array-like arguments. Value: `%s`.', arg ) );
 		}
 		for ( i = 0; i < ngroups; i++ ) {
 			arg = arguments[ i ];

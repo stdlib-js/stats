@@ -163,7 +163,7 @@ function Triangular() {
 			throw new TypeError( format( 'invalid argument. Mode must be a number. Value: `%s`.', c ) );
 		}
 		if ( !( a <= c && c <= b ) ) {
-			throw new RangeError( format( 'invalid arguments. Parameters must satisfy `a <= c <= b`. `a: %f, b: %f, c: %f`.', a, b, c ) );
+			throw new RangeError( format( 'invalid arguments. Parameters must satisfy the following condition: %s. a: `%f`. b: `%f`. c: `%f`.', 'a <= c <= b', a, b, c ) );
 		}
 	} else {
 		a = 0.0;
@@ -178,10 +178,10 @@ function Triangular() {
 		},
 		'set': function set( value ) {
 			if ( !isNumber( value ) || isnan( value ) ) {
-				throw new TypeError( format( 'invalid value. Must be a number. Value: `%s`.', value ) );
+				throw new TypeError( format( 'invalid assignment. Must be a number. Value: `%s`.', value ) );
 			}
 			if ( value > b || value > c ) {
-				throw new RangeError( format( 'invalid value. Must be less than or equal to `b` and `c`. Value: `%f`.', value ) );
+				throw new RangeError( format( 'invalid assignment. Must be less than or equal to maximum support and mode. Value: `%f`.', value ) );
 			}
 			a = value;
 		}
@@ -194,10 +194,10 @@ function Triangular() {
 		},
 		'set': function set( value ) {
 			if ( !isNumber( value ) || isnan( value ) ) {
-				throw new TypeError( format( 'invalid value. Must be a number. Value: `%s`.', value ) );
+				throw new TypeError( format( 'invalid assignment. Must be a number. Value: `%s`.', value ) );
 			}
 			if ( a > value || c > value ) {
-				throw new RangeError( format( 'invalid value. Must be greater than or equal to `a` and `c`. Value: `%f`.', value ) );
+				throw new RangeError( format( 'invalid assignment. Must be greater than or equal to minimum support and mode. Value: `%f`.', value ) );
 			}
 			b = value;
 		}
@@ -210,10 +210,10 @@ function Triangular() {
 		},
 		'set': function set( value ) {
 			if ( !isNumber( value ) || isnan( value ) ) {
-				throw new TypeError( format( 'invalid value. Must be a number. Value: `%s`.', value ) );
+				throw new TypeError( format( 'invalid assignment. Must be a number. Value: `%s`.', value ) );
 			}
 			if ( a > value || b < value ) {
-				throw new RangeError( format( 'invalid value. Must be greater than or equal to `a` and smaller than or equal to `b`. Value: `%f`.', value ) );
+				throw new RangeError( format( 'invalid assignment. Must be greater than or equal to minimum support and smaller than or equal to maximum support. Value: `%f`.', value ) );
 			}
 			c = value;
 		}

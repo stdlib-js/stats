@@ -97,7 +97,7 @@ function vartest( x, y, options ) {
 		alpha = opts.alpha;
 	}
 	if ( alpha < 0.0 || alpha > 1.0 ) {
-		throw new RangeError( format( 'invalid argument. `%s` option must be a number on the interval: [0, 1]. Value: `%f`.', 'alpha', alpha ) );
+		throw new RangeError( format( 'invalid option. `%s` option must be a number on the interval: [0, 1]. Option: `%f`.', 'alpha', alpha ) );
 	}
 	dfX = x.length - 1;
 	dfY = y.length - 1;
@@ -133,7 +133,7 @@ function vartest( x, y, options ) {
 		];
 		break;
 	default:
-		throw new Error( format( 'invalid option. `alternative` must be either `two-sided`, `less`, or `greater`. Option: `%s`.', alt ) );
+		throw new Error( format( 'invalid option. `%s` option must be one of the following: "%s". Option: `%s`.', 'alternative', [ 'two-sided', 'less', 'greater' ].join( '", "' ), alt ) );
 	}
 	out = {};
 	setReadOnly( out, 'rejected', pval <= alpha );

@@ -106,7 +106,7 @@ function binomialTest() {
 	if ( isNumberArray( arguments[ 0 ] ) ) {
 		x = arguments[ 0 ];
 		if ( x.length !== 2 ) {
-			throw new Error( format( 'invalid argument. If provided an array, it must have two elements. Value: `%s`.', x ) );
+			throw new Error( format( 'invalid argument. An array argument must contain two elements. Value: `%s`.', x ) );
 		}
 		n = x[ 1 ] + x[ 0 ];
 		x = x[ 0 ];
@@ -123,7 +123,7 @@ function binomialTest() {
 			throw new TypeError( format( 'invalid argument. Must provide a nonnegative integer. Value: `%s`.', n ) );
 		}
 		if ( x > n ) {
-			throw new TypeError( format( 'invalid arguments. `x` cannot be larger than `n`. `x: %u, n: %u`.' ) );
+			throw new TypeError( format( 'invalid arguments. Number of successes cannot be larger than total number of observations. x: `%u`. n: `%u`.' ) );
 		}
 		if ( arguments[ 2 ] ) {
 			err = validate( opts, arguments[ 2 ] );
@@ -139,7 +139,7 @@ function binomialTest() {
 		alpha = opts.alpha;
 	}
 	if ( alpha < 0.0 || alpha > 1.0 ) {
-		throw new RangeError( format( 'invalid argument. `%s` option must be a number on the interval: [0, 1]. Value: `%f`.', 'alpha', alpha ) );
+		throw new RangeError( format( 'invalid option. `%s` option must be a number on the interval: [0, 1]. Option: `%f`.', 'alpha', alpha ) );
 	}
 	if ( opts.p === void 0 ) {
 		p = 0.5;
@@ -147,7 +147,7 @@ function binomialTest() {
 		p = opts.p;
 	}
 	if ( p < 0.0 || p > 1.0 ) {
-		throw new RangeError( format( 'invalid argument. `%s` option must be a probability. Value: `%f`.', 'p', p ) );
+		throw new RangeError( format( 'invalid option. `%s` option must be a probability. Option: `%f`.', 'p', p ) );
 	}
 
 	alt = opts.alternative || 'two-sided';
@@ -186,7 +186,7 @@ function binomialTest() {
 		cint = [ lower( x, n, alpha/2.0 ), upper( x, n, alpha/2.0 ) ];
 		break;
 	default:
-		throw new Error( format( 'Invalid option. `alternative` must be either `two-sided`, `less`, or `greater`. Option: `%s`.', alt ) );
+		throw new Error( format( 'invalid option. `%s` option must be one of the following: "%s". Option: `%s`.', 'alternative', [ 'two-sided', 'less', 'greater' ].join( '", "' ), alt ) );
 	}
 
 	out = {};

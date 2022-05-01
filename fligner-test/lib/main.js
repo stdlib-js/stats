@@ -128,7 +128,7 @@ function fligner() {
 		levels = objectKeys( table );
 		ngroups = levels.length;
 		if ( ngroups < 2 ) {
-			throw new Error( format( 'invalid number of groups. `%s` array must contain at least two unique elements. Value: `%s`.', 'groups', levels ) );
+			throw new Error( format( 'invalid option. `%s` option must be an array containing at least two unique elements. Option: `%s`.', 'groups', levels ) );
 		}
 		for ( i = 0; i < ngroups; i++ ) {
 			args.push( table[ levels[ i ] ] );
@@ -146,7 +146,7 @@ function fligner() {
 		alpha = opts.alpha;
 	}
 	if ( alpha < 0.0 || alpha > 1.0 ) {
-		throw new RangeError( format( 'invalid argument. `%s` option must be a number on the interval: [0, 1]. Value: `%f`.', 'alpha', alpha ) );
+		throw new RangeError( format( 'invalid option. `%s` option must be a number on the interval: [0, 1]. Option: `%f`.', 'alpha', alpha ) );
 	}
 	x = [];
 	for ( i = 0; i < ngroups; i++ ) {

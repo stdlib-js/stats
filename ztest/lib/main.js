@@ -111,7 +111,7 @@ function ztest( x, sigma, options ) {
 		alpha = opts.alpha;
 	}
 	if ( alpha < 0.0 || alpha > 1.0 ) {
-		throw new RangeError( format( 'invalid argument. `%s` option must be a number on the interval: [0, 1]. Value: `%f`.', 'alpha', alpha ) );
+		throw new RangeError( format( 'invalid option. `%s` option must be a number on the interval: [0, 1]. Option: `%f`.', 'alpha', alpha ) );
 	}
 	if ( len < 2 ) {
 		throw new Error( format( 'invalid argument. First argument must contain at least two elements. Value: `%s`.', x ) );
@@ -142,7 +142,7 @@ function ztest( x, sigma, options ) {
 		cint[ 1 ] = mu + (cint[ 1 ] * stderr);
 		break;
 	default:
-		throw new Error( format( 'invalid option. `alternative` must be either `two-sided`, `less`, or `greater`. Option: `%s`.', alt ) );
+		throw new Error( format( 'invalid option. `%s` option must be one of the following: "%s". Option: `%s`.', 'alternative', [ 'two-sided', 'less', 'greater' ].join( '", "' ), alt ) );
 	}
 	out = {};
 	setReadOnly( out, 'rejected', pval <= alpha );
