@@ -37,6 +37,7 @@ var skewness = require( './../../../../../base/dists/lognormal/skewness' );
 var stdev = require( './../../../../../base/dists/lognormal/stdev' );
 var variance = require( './../../../../../base/dists/lognormal/variance' );
 var cdf = require( './../../../../../base/dists/lognormal/cdf' );
+var logcdf = require( './../../../../../base/dists/lognormal/logcdf' );
 var logpdf = require( './../../../../../base/dists/lognormal/logpdf' );
 var pdf = require( './../../../../../base/dists/lognormal/pdf' );
 var quantile = require( './../../../../../base/dists/lognormal/quantile' );
@@ -57,11 +58,22 @@ function lognormalCDF( x ) {
 }
 
 /**
+* Evaluates the natural logarithm of the cumulative distribution function (CDF).
+*
+* @private
+* @param {number} x - input value
+* @returns {number} evaluated logCDF
+*/
+function lognormalLogCDF( x ) {
+	return logcdf( x, this.mu, this.sigma );
+}
+
+/**
 * Evaluates the natural logarithm of the probability density function (PDF).
 *
 * @private
 * @param {number} x - input value
-* @returns {number} evaluated PDF
+* @returns {number} evaluated logPDF
 */
 function lognormalLogPDF( x ) {
 	return logpdf( x, this.mu, this.sigma );
@@ -324,13 +336,31 @@ setReadOnlyAccessor( LogNormal.prototype, 'variance', function get() {
 setReadOnly( LogNormal.prototype, 'cdf', lognormalCDF );
 
 /**
+* Evaluates the natural logarithm of the cumulative distribution function (CDF).
+*
+* @name logcdf
+* @memberof LogNormal.prototype
+* @type {Function}
+* @param {number} x - input value
+* @returns {number} evaluated logCDF
+* @see [cdf]{@link https://en.wikipedia.org/wiki/Cumulative_distribution_function}
+*
+* @example
+* var lognormal = new LogNormal( 2.0, 4.0 );
+*
+* var v = lognormal.logcdf( 0.5 );
+* // returns ~-1.385
+*/
+setReadOnly( LogNormal.prototype, 'logcdf', lognormalLogCDF );
+
+/**
 * Evaluates the natural logarithm of the probability density function (PDF).
 *
 * @name logpdf
 * @memberof LogNormal.prototype
 * @type {Function}
 * @param {number} x - input value
-* @returns {number} evaluated PDF
+* @returns {number} evaluated logPDF
 * @see [pdf]{@link https://en.wikipedia.org/wiki/Probability_density_function}
 *
 * @example

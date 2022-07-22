@@ -73,6 +73,15 @@ setReadOnly( lognormal, 'entropy', require( './../../../../base/dists/lognormal/
 setReadOnly( lognormal, 'kurtosis', require( './../../../../base/dists/lognormal/kurtosis' ) );
 
 /**
+* @name logcdf
+* @memberof lognormal
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/dists/lognormal/logcdf}
+*/
+setReadOnly( lognormal, 'logcdf', require( './../../../../base/dists/lognormal/logcdf' ) );
+
+/**
 * @name logpdf
 * @memberof lognormal
 * @readonly

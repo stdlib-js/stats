@@ -25,6 +25,7 @@ var isFunction = require( '@stdlib/assert/is-function' );
 var hasOwnProp = require( '@stdlib/assert/has-own-property' );
 var quantile = require( './../../../../../base/dists/lognormal/quantile' );
 var cdf = require( './../../../../../base/dists/lognormal/cdf' );
+var logcdf = require( './../../../../../base/dists/lognormal/logcdf' );
 var logpdf = require( './../../../../../base/dists/lognormal/logpdf' );
 var pdf = require( './../../../../../base/dists/lognormal/pdf' );
 var kurtosis = require( './../../../../../base/dists/lognormal/kurtosis' );
@@ -339,6 +340,20 @@ tape( 'the distribution prototype has a method for evaluating the natural logari
 	y = lognormal.logpdf( 0.2 );
 
 	t.strictEqual( y, logpdf( 0.2, 0.0, 1.0 ), 'returns expected value' );
+	t.end();
+});
+
+tape( 'the distribution prototype has a method for evaluating the natural logarithm of the cumulative distribution function (CDF)', function test( t ) {
+	var lognormal;
+	var y;
+
+	t.strictEqual( hasOwnProp( LogNormal.prototype, 'logcdf' ), true, 'has property' );
+	t.strictEqual( isFunction( LogNormal.prototype.logcdf ), true, 'has method' );
+
+	lognormal = new LogNormal();
+	y = lognormal.logcdf( 0.2 );
+
+	t.strictEqual( y, logcdf( 0.2, 0.0, 1.0 ), 'returns expected value' );
 	t.end();
 });
 
