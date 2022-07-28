@@ -25,6 +25,7 @@ import cdf = require( './../../../../../base/dists/lognormal/cdf' );
 import LogNormal = require( './../../../../../base/dists/lognormal/ctor' );
 import entropy = require( './../../../../../base/dists/lognormal/entropy' );
 import kurtosis = require( './../../../../../base/dists/lognormal/kurtosis' );
+import logcdf = require( './../../../../../base/dists/lognormal/logcdf' );
 import logpdf = require( './../../../../../base/dists/lognormal/logpdf' );
 import mean = require( './../../../../../base/dists/lognormal/mean' );
 import median = require( './../../../../../base/dists/lognormal/median' );
@@ -134,6 +135,24 @@ interface Namespace {
 	* // returns NaN
 	*/
 	kurtosis: typeof kurtosis;
+
+	/**
+	* Lognormal distribution natural logarithm of cumulative distribution function (CDF).
+	*
+	* @param x - input value
+	* @param mu - mean
+	* @param sigma - standard deviation
+	* @returns evaluated logcdf
+	*
+	* @example
+	* var y = ns.logcdf( 2.0, 0.0, 1.0 );
+	* // returns ~-0.2799
+	*
+	* var mylogcdf = ns.logcdf.factory( 10.0, 2.0 );
+	* y = mylogcdf( 10.0 );
+	* // returns ~-9.732
+	*/
+	logcdf: typeof logcdf;
 
 	/**
 	* Lognormal distribution natural logarithm of probability density function (logPDF).
