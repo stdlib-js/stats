@@ -317,6 +317,15 @@ setReadOnly( dist, 'rayleigh', require( './../../../base/dists/rayleigh' ) );
 setReadOnly( dist, 'signrank', require( './../../../base/dists/signrank' ) );
 
 /**
+* @name tukey
+* @memberof dist
+* @readonly
+* @type {Namespace}
+* @see {@link module:@stdlib/stats/base/dists/studentized-range}
+*/
+setReadOnly( dist, 'tukey', require( './../../../base/dists/studentized-range' ) );
+
+/**
 * @name t
 * @memberof dist
 * @readonly
