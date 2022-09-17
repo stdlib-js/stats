@@ -36,6 +36,24 @@ var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 */
 var tukey = {};
 
+/**
+* @name cdf
+* @memberof tukey
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/dists/studentized-range/cdf}
+*/
+setReadOnly( tukey, 'cdf', require( './../../../../base/dists/studentized-range/cdf' ) );
+
+/**
+* @name quantile
+* @memberof tukey
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/dists/studentized-range/quantile}
+*/
+setReadOnly( tukey, 'quantile', require( './../../../../base/dists/studentized-range/quantile' ) );
+
 
 // EXPORTS //
 
