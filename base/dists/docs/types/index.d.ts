@@ -52,6 +52,7 @@ import pareto1 = require( './../../../../base/dists/pareto-type1' );
 import poisson = require( './../../../../base/dists/poisson' );
 import rayleigh = require( './../../../../base/dists/rayleigh' );
 import signrank = require( './../../../../base/dists/signrank' );
+import tukey = require( './../../../../base/dists/studentized-range' );
 import t = require( './../../../../base/dists/t' );
 import triangular = require( './../../../../base/dists/triangular' );
 import truncatedNormal = require( './../../../../base/dists/truncated-normal' );
@@ -216,6 +217,11 @@ interface Namespace {
 	* Distribution of Wilcoxon signed rank test statistic.
 	*/
 	signrank: typeof signrank;
+
+	/**
+	* Studentized range distribution.
+	*/
+	tukey: typeof tukey;
 
 	/**
 	* Student's t distribution.
