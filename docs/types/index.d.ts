@@ -23,6 +23,7 @@
 
 import anova1 = require( './../../anova1' );
 import bartlettTest = require( './../../bartlett-test' );
+import base = require( './../../base' );
 import binomialTest = require( './../../binomial-test' );
 import chi2gof = require( './../../chi2gof' );
 import chi2test = require( './../../chi2test' );
@@ -78,6 +79,11 @@ interface Namespace {
 	* @returns test results
 	*/
 	bartlettTest: typeof bartlettTest;
+
+	/**
+	* Base (i.e., lower-level) statistical functions.
+	*/
+	base: typeof base;
 
 	/**
 	* Computes an exact test for the success probability in a Bernoulli experiment.
