@@ -107,6 +107,7 @@ Other statistical functions included are:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`base`][@stdlib/stats/base]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) statistical functions.</span>
 -   <span class="signature">[`kde2d()`][@stdlib/stats/kde2d]</span><span class="delimiter">: </span><span class="description">two-dimensional kernel density estimation.</span>
 -   <span class="signature">[`lowess( x, y[, opts] )`][@stdlib/stats/lowess]</span><span class="delimiter">: </span><span class="description">locally-weighted polynomial regression via the LOWESS algorithm.</span>
 -   <span class="signature">[`padjust( pvals, method[, comparisons] )`][@stdlib/stats/padjust]</span><span class="delimiter">: </span><span class="description">adjust supplied p-values for multiple comparisons.</span>
@@ -217,6 +218,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/stats/base]: https://github.com/stdlib-js/stats/tree/main/base
 
 [@stdlib/stats/kde2d]: https://github.com/stdlib-js/stats/tree/main/kde2d
 
