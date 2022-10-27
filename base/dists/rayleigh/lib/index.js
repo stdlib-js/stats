@@ -154,6 +154,15 @@ setReadOnly( rayleigh, 'quantile', require( './../../../../base/dists/rayleigh/q
 setReadOnly( rayleigh, 'skewness', require( './../../../../base/dists/rayleigh/skewness' ) );
 
 /**
+* @name stdev
+* @memberof rayleigh
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/dists/rayleigh/stdev}
+*/
+setReadOnly( rayleigh, 'stdev', require( './../../../../base/dists/rayleigh/stdev' ) );
+
+/**
 * @name variance
 * @memberof rayleigh
 * @readonly

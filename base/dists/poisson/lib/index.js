@@ -55,6 +55,15 @@ setReadOnly( poisson, 'cdf', require( './../../../../base/dists/poisson/cdf' ) )
 setReadOnly( poisson, 'Poisson', require( './../../../../base/dists/poisson/ctor' ) );
 
 /**
+* @name entropy
+* @memberof poisson
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/dists/poisson/entropy}
+*/
+setReadOnly( poisson, 'entropy', require( './../../../../base/dists/poisson/entropy' ) );
+
+/**
 * @name kurtosis
 * @memberof poisson
 * @readonly
