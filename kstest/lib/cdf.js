@@ -22,36 +22,66 @@
 * When adding modules to the namespace, ensure that they are added in alphabetical order according to module name.
 */
 
+// MODULES //
+
+var arcsine = require( './../../base/dists/arcsine/cdf' );
+var beta = require( './../../base/dists/beta/cdf' );
+var betaprime = require( './../../base/dists/betaprime/cdf' );
+var cauchy = require( './../../base/dists/cauchy/cdf' );
+var chi = require( './../../base/dists/chi/cdf' );
+var chisquare = require( './../../base/dists/chisquare/cdf' );
+var cosine = require( './../../base/dists/cosine/cdf' );
+var erlang = require( './../../base/dists/erlang/cdf' );
+var exponential = require( './../../base/dists/exponential/cdf' );
+var f = require( './../../base/dists/f/cdf' );
+var frechet = require( './../../base/dists/frechet/cdf' );
+var gamma = require( './../../base/dists/gamma/cdf' );
+var gumbel = require( './../../base/dists/gumbel/cdf' );
+var invgamma = require( './../../base/dists/invgamma/cdf' );
+var kumaraswamy = require( './../../base/dists/kumaraswamy/cdf' );
+var laplace = require( './../../base/dists/laplace/cdf' );
+var levy = require( './../../base/dists/levy/cdf' );
+var logistic = require( './../../base/dists/logistic/cdf' );
+var lognormal = require( './../../base/dists/lognormal/cdf' );
+var normal = require( './../../base/dists/normal/cdf' );
+var pareto1 = require( './../../base/dists/pareto-type1/cdf' );
+var rayleigh = require( './../../base/dists/rayleigh/cdf' );
+var t = require( './../../base/dists/t/cdf' );
+var triangular = require( './../../base/dists/triangular/cdf' );
+var uniform = require( './../../base/dists/uniform/cdf' );
+var weibull = require( './../../base/dists/weibull/cdf' );
+
+
 // MAIN //
 
 var CDF = {};
 
-CDF[ 'arcsine' ] = require( './../../base/dists/arcsine/cdf' );
-CDF[ 'beta' ] = require( './../../base/dists/beta/cdf' );
-CDF[ 'betaprime' ] = require( './../../base/dists/betaprime/cdf' );
-CDF[ 'cauchy' ] = require( './../../base/dists/cauchy/cdf' );
-CDF[ 'chi' ] = require( './../../base/dists/chi/cdf' );
-CDF[ 'chisquare' ] = require( './../../base/dists/chisquare/cdf' );
-CDF[ 'cosine' ] = require( './../../base/dists/cosine/cdf' );
-CDF[ 'erlang' ] = require( './../../base/dists/erlang/cdf' );
-CDF[ 'exponential' ] = require( './../../base/dists/exponential/cdf' );
-CDF[ 'f' ] = require( './../../base/dists/f/cdf' );
-CDF[ 'frechet' ] = require( './../../base/dists/frechet/cdf' );
-CDF[ 'gamma' ] = require( './../../base/dists/gamma/cdf' );
-CDF[ 'gumbel' ] = require( './../../base/dists/gumbel/cdf' );
-CDF[ 'invgamma' ] = require( './../../base/dists/invgamma/cdf' );
-CDF[ 'kumaraswamy' ] = require( './../../base/dists/kumaraswamy/cdf' );
-CDF[ 'laplace' ] = require( './../../base/dists/laplace/cdf' );
-CDF[ 'levy' ] = require( './../../base/dists/levy/cdf' );
-CDF[ 'logistic' ] = require( './../../base/dists/logistic/cdf' );
-CDF[ 'lognormal' ] = require( './../../base/dists/lognormal/cdf' );
-CDF[ 'normal' ] = require( './../../base/dists/normal/cdf' );
-CDF[ 'pareto-type1' ] = require( './../../base/dists/pareto-type1/cdf' );
-CDF[ 'rayleigh' ] = require( './../../base/dists/rayleigh/cdf' );
-CDF[ 't' ] = require( './../../base/dists/t/cdf' );
-CDF[ 'triangular' ] = require( './../../base/dists/triangular/cdf' );
-CDF[ 'uniform' ] = require( './../../base/dists/uniform/cdf' );
-CDF[ 'weibull' ] = require( './../../base/dists/weibull/cdf' );
+CDF[ 'arcsine' ] = arcsine;
+CDF[ 'beta' ] = beta;
+CDF[ 'betaprime' ] = betaprime;
+CDF[ 'cauchy' ] = cauchy;
+CDF[ 'chi' ] = chi;
+CDF[ 'chisquare' ] = chisquare;
+CDF[ 'cosine' ] = cosine;
+CDF[ 'erlang' ] = erlang;
+CDF[ 'exponential' ] = exponential;
+CDF[ 'f' ] = f;
+CDF[ 'frechet' ] = frechet;
+CDF[ 'gamma' ] = gamma;
+CDF[ 'gumbel' ] = gumbel;
+CDF[ 'invgamma' ] = invgamma;
+CDF[ 'kumaraswamy' ] = kumaraswamy;
+CDF[ 'laplace' ] = laplace;
+CDF[ 'levy' ] = levy;
+CDF[ 'logistic' ] = logistic;
+CDF[ 'lognormal' ] = lognormal;
+CDF[ 'normal' ] = normal;
+CDF[ 'pareto1' ] = pareto1;
+CDF[ 'rayleigh' ] = rayleigh;
+CDF[ 't' ] = t;
+CDF[ 'triangular' ] = triangular;
+CDF[ 'uniform' ] = uniform;
+CDF[ 'weibull' ] = weibull;
 
 
 // EXPORTS //
