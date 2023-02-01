@@ -29,11 +29,10 @@ on:
   # Allow the workflow to be manually run:
   workflow_dispatch:
     inputs:
-      skip-tests:
-        description: 'Skip tests?'
+      require-passing-tests:
+        description: 'Require passing tests for creating bundles'
         type: boolean
-        required: false
-        default: false
+        default: true
 
 # Concurrency group to prevent multiple concurrent executions:
 concurrency:
@@ -137,9 +136,10 @@ jobs:
 
     # Define the sequence of job steps...
     steps:
+
       # Checkout the repository:
       - name: 'Checkout repository'
-        if: ${{ github.event.inputs.skip-tests != 'true' }}
+        if: ${{ github.event.inputs.require-passing-tests == 'true' }}
         uses: actions/checkout@v3
         with:
           # Use the `production` branch:
@@ -147,7 +147,7 @@ jobs:
 
       # Install Node.js:
       - name: 'Install Node.js'
-        if: ${{ github.event.inputs.skip-tests != 'true' }}
+        if: ${{ github.event.inputs.require-passing-tests == 'true' }}
         uses: actions/setup-node@v3
         with:
           node-version: 16
@@ -155,7 +155,7 @@ jobs:
 
       # Install dependencies:
       - name: 'Install production and development dependencies'
-        if: ${{ github.event.inputs.skip-tests != 'true' }}
+        if: ${{ github.event.inputs.require-passing-tests == 'true' }}
         id: install
         run: |
           npm install || npm install || npm install
@@ -163,7 +163,7 @@ jobs:
 
       # Build native add-on if present:
       - name: 'Build native add-on (if present)'
-        if: ${{ github.event.inputs.skip-tests != 'true' }}
+        if: ${{ github.event.inputs.require-passing-tests == 'true' }}
         run: |
           if [ -f "binding.gyp" ]; then
             npm install node-gyp --no-save && ./node_modules/.bin/node-gyp rebuild
@@ -171,7 +171,7 @@ jobs:
 
       # Run tests:
       - name: 'Run tests'
-        if: ${{ github.event.inputs.skip-tests != 'true' }}
+        if: ${{ github.event.inputs.require-passing-tests == 'true' }}
         id: tests
         run: |
           npm test || npm test || npm test
