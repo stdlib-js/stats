@@ -50,10 +50,10 @@
     "@stdlib/utils": "github:stdlib-js/utils#main"
   },
   "devDependencies": {
-    "@stdlib/bench": "github:stdlib-js/bench",
-    "@stdlib/datasets": "github:stdlib-js/datasets",
-    "@stdlib/iter": "github:stdlib-js/iter",
-    "@stdlib/plot": "github:stdlib-js/plot",
+    "@stdlib/bench": "github:stdlib-js/bench#main",
+    "@stdlib/datasets": "github:stdlib-js/datasets#main",
+    "@stdlib/iter": "github:stdlib-js/iter#main",
+    "@stdlib/plot": "github:stdlib-js/plot#main",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
@@ -87,7 +87,7 @@
     "stats"
   ],
   "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/athan"
+    "type": "opencollective",
+    "url": "https://opencollective.com/stdlib"
   }
 }
