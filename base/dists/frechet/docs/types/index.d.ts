@@ -18,8 +18,7 @@
 
 // TypeScript Version: 4.1
 
-/* tslint:disable:max-line-length */
-/* tslint:disable:max-file-line-count */
+/* eslint-disable max-lines */
 
 import cdf = require( './../../../../../base/dists/frechet/cdf' );
 import Frechet = require( './../../../../../base/dists/frechet/ctor' );

@@ -18,8 +18,7 @@
 
 // TypeScript Version: 4.1
 
-/* tslint:disable:max-line-length */
-/* tslint:disable:max-file-line-count */
+/* eslint-disable max-lines */
 
 import cdf = require( './../../../../../base/dists/poisson/cdf' );
 import Poisson = require( './../../../../../base/dists/poisson/ctor' );

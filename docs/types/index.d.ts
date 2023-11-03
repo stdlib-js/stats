@@ -18,8 +18,7 @@
 
 // TypeScript Version: 4.1
 
-/* tslint:disable:max-line-length */
-/* tslint:disable:max-file-line-count */
+/* eslint-disable max-lines */
 
 import anova1 = require( './../../anova1' );
 import bartlettTest = require( './../../bartlett-test' );
