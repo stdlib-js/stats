@@ -186,13 +186,9 @@ console.log( v );
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats/tree/main/base/dmin
-
 [@stdlib/stats/base/max]: https://github.com/stdlib-js/stats/tree/main/base/max
 
 [@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats/tree/main/base/nanmin
-
-[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin
 
 <!-- </related-links> -->
 
