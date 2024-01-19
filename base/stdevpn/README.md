@@ -268,11 +268,7 @@ console.log( v );
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/dstdevpn
-
 [@stdlib/stats/base/nanstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/nanstdevpn
-
-[@stdlib/stats/base/sstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/sstdevpn
 
 [@stdlib/stats/base/stdev]: https://github.com/stdlib-js/stats/tree/main/base/stdev
 
