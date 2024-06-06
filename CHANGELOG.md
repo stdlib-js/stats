@@ -73,6 +73,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`c3ebfa8`](https://github.com/stdlib-js/stdlib/commit/c3ebfa80e311db338b171ebf8eb5f46bc66e9bf6) - **docs:** update namespace table of contents and address spelling errors _(by Philipp Burckhardt)_
 -   [`ac73b91`](https://github.com/stdlib-js/stdlib/commit/ac73b9195cf4f4e087dca2df535ac49831e1aa07) - **docs:** satisfy spellchecker _(by Philipp Burckhardt)_
 -   [`867726b`](https://github.com/stdlib-js/stdlib/commit/867726bb7ef6851ca0986ecdb91bf5a5f246ee5a) - **docs:** update examples in `stats/base/dists/uniform` _(by Muhammad Haris, Philipp Burckhardt)_
 -   [`3806e20`](https://github.com/stdlib-js/stdlib/commit/3806e206f436e4aad81f5bfe80f637fb6b83aa8b) - **build:** add cspell ESLint plugin for spellchecking [(#2234)](https://github.com/stdlib-js/stdlib/pull/2234) _(by Philipp Burckhardt, Athan Reines)_
