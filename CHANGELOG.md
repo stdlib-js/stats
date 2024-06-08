@@ -74,6 +74,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`cc5d91f`](https://github.com/stdlib-js/stdlib/commit/cc5d91fb3df5155821344d6fffbeef23f37e8153) - **style:** remove blank line [(#2339)](https://github.com/stdlib-js/stdlib/pull/2339) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`922122e`](https://github.com/stdlib-js/stdlib/commit/922122e319c37170f16e14ce5d074273fd7f0675) - **docs:** improve examples for `stats/base/dists/normal` namespace _(by NightKnight, Philipp Burckhardt)_
 -   [`c3ebfa8`](https://github.com/stdlib-js/stdlib/commit/c3ebfa80e311db338b171ebf8eb5f46bc66e9bf6) - **docs:** update namespace table of contents and address spelling errors _(by Philipp Burckhardt)_
 -   [`ac73b91`](https://github.com/stdlib-js/stdlib/commit/ac73b9195cf4f4e087dca2df535ac49831e1aa07) - **docs:** satisfy spellchecker _(by Philipp Burckhardt)_
