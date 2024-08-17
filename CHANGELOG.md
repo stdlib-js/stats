@@ -2,53 +2,17 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2024-08-01)
+## 0.3.0 (2024-08-17)
 
 <section class="packages">
 
 ### Packages
 
-<section class="package" id="stats-base-dists-t-unreleased">
-
-#### [@stdlib/stats/base/dists/t](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t)
-
-<details>
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#1645 ](https://github.com/stdlib-js/stdlib/issues/1645 )
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
 </section>
 
 <!-- /.packages -->
-
-<section class="issues">
-
-### Closed Issues
-
-This release closes the following issue:
-
-[#1645 ](https://github.com/stdlib-js/stdlib/issues/1645 )
-
-</section>
-
-<!-- /.issues -->
 
 <section class="contributors">
 
@@ -111,3465 +75,23 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <!-- /.release -->
 
+<section class="release" id="v0.2.1">
+
 ## 0.2.1 (2024-02-05)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.2.0">
 
 ## 0.2.0 (2024-02-05)
 
 <section class="packages">
 
 ### Packages
-
-<section class="package" id="stats-v0.2.0">
-
-#### [@stdlib/stats](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-bartlett--v0.2.0">
-
-#### [@stdlib/stats/bartlett-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/bartlett-)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-v0.2.0">
-
-#### [@stdlib/stats/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dcumax-v0.2.0">
-
-#### [@stdlib/stats/base/dcumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dcumax)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dcumaxabs-v0.2.0">
-
-#### [@stdlib/stats/base/dcumaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dcumaxabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dcumin-v0.2.0">
-
-#### [@stdlib/stats/base/dcumin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dcumin)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dcuminabs-v0.2.0">
-
-#### [@stdlib/stats/base/dcuminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dcuminabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-v0.2.0">
-
-#### [@stdlib/stats/base/dists](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-arcsine-v0.2.0">
-
-#### [@stdlib/stats/base/dists/arcsine](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/arcsine)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-arcsine-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/arcsine/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/arcsine/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-v0.2.0">
-
-#### [@stdlib/stats/base/dists/bernoulli](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-bernoulli-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/bernoulli/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-beta-v0.2.0">
-
-#### [@stdlib/stats/base/dists/beta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/beta)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-beta-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/beta/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/beta/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-betaprime-v0.2.0">
-
-#### [@stdlib/stats/base/dists/betaprime](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-betaprime-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/betaprime/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-cauchy-v0.2.0">
-
-#### [@stdlib/stats/base/dists/cauchy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/cauchy)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-cauchy-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/cauchy/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/cauchy/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-chi-v0.2.0">
-
-#### [@stdlib/stats/base/dists/chi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/chi)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-chi-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/chi/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/chi/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-chisquare-v0.2.0">
-
-#### [@stdlib/stats/base/dists/chisquare](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/chisquare)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-chisquare-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/chisquare/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/chisquare/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-cosine-v0.2.0">
-
-#### [@stdlib/stats/base/dists/cosine](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/cosine)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-cosine-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/cosine/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/cosine/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-degenerate-v0.2.0">
-
-#### [@stdlib/stats/base/dists/degenerate](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/degenerate)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-degenerate-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/degenerate/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/degenerate/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-discrete-uniform-v0.2.0">
-
-#### [@stdlib/stats/base/dists/discrete-uniform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/discrete-uniform)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-discrete-uniform-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/discrete-uniform/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/discrete-uniform/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-erlang-v0.2.0">
-
-#### [@stdlib/stats/base/dists/erlang](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/erlang)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-erlang-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/erlang/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/erlang/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-exponential-v0.2.0">
-
-#### [@stdlib/stats/base/dists/exponential](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/exponential)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-exponential-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/exponential/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/exponential/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-f-v0.2.0">
-
-#### [@stdlib/stats/base/dists/f](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/f)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-f-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/f/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/f/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-frechet-v0.2.0">
-
-#### [@stdlib/stats/base/dists/frechet](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/frechet)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-frechet-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/frechet/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/frechet/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gamma-v0.2.0">
-
-#### [@stdlib/stats/base/dists/gamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gamma)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gamma-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/gamma/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gamma/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-v0.2.0">
-
-#### [@stdlib/stats/base/dists/geometric](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/geometric/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-v0.2.0">
-
-#### [@stdlib/stats/base/dists/gumbel](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/gumbel/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-hypergeometric-v0.2.0">
-
-#### [@stdlib/stats/base/dists/hypergeometric](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-hypergeometric-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/hypergeometric/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-invgamma-v0.2.0">
-
-#### [@stdlib/stats/base/dists/invgamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/invgamma)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-invgamma-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/invgamma/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/invgamma/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-kumaraswamy-v0.2.0">
-
-#### [@stdlib/stats/base/dists/kumaraswamy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/kumaraswamy)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-kumaraswamy-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/kumaraswamy/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/kumaraswamy/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-laplace-v0.2.0">
-
-#### [@stdlib/stats/base/dists/laplace](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-laplace-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/laplace/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-levy-v0.2.0">
-
-#### [@stdlib/stats/base/dists/levy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/levy)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-levy-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/levy/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/levy/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-logistic-v0.2.0">
-
-#### [@stdlib/stats/base/dists/logistic](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/logistic)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-logistic-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/logistic/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/logistic/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-lognormal-v0.2.0">
-
-#### [@stdlib/stats/base/dists/lognormal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-lognormal-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/lognormal/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-negative--v0.2.0">
-
-#### [@stdlib/stats/base/dists/negative-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/negative-)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-normal-v0.2.0">
-
-#### [@stdlib/stats/base/dists/normal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/normal)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-normal-cdf-v0.2.0">
-
-#### [@stdlib/stats/base/dists/normal/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/normal/cdf)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-normal-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/normal/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/normal/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-pareto-type1-v0.2.0">
-
-#### [@stdlib/stats/base/dists/pareto-type1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/pareto-type1)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-pareto-type1-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/pareto-type1/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/pareto-type1/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-poisson-v0.2.0">
-
-#### [@stdlib/stats/base/dists/poisson](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/poisson)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-poisson-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/poisson/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/poisson/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-v0.2.0">
-
-#### [@stdlib/stats/base/dists/rayleigh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-rayleigh-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/rayleigh/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/rayleigh/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-signrank-v0.2.0">
-
-#### [@stdlib/stats/base/dists/signrank](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/signrank)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-studentized-range-v0.2.0">
-
-#### [@stdlib/stats/base/dists/studentized-range](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/studentized-range)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-t-v0.2.0">
-
-#### [@stdlib/stats/base/dists/t](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-t-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/t/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-v0.2.0">
-
-#### [@stdlib/stats/base/dists/triangular](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/triangular/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-truncated-normal-v0.2.0">
-
-#### [@stdlib/stats/base/dists/truncated-normal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/truncated-normal)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-uniform-v0.2.0">
-
-#### [@stdlib/stats/base/dists/uniform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-uniform-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/uniform/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/uniform/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-weibull-v0.2.0">
-
-#### [@stdlib/stats/base/dists/weibull](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/weibull)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-weibull-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/weibull/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/weibull/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmax-v0.2.0">
-
-#### [@stdlib/stats/base/dmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmax)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmaxabs-v0.2.0">
-
-#### [@stdlib/stats/base/dmaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmaxabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmaxabssorted-v0.2.0">
-
-#### [@stdlib/stats/base/dmaxabssorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmaxabssorted)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmaxsorted-v0.2.0">
-
-#### [@stdlib/stats/base/dmaxsorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmaxsorted)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmean-v0.2.0">
-
-#### [@stdlib/stats/base/dmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmean)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmeankbn-v0.2.0">
-
-#### [@stdlib/stats/base/dmeankbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeankbn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmeankbn2-v0.2.0">
-
-#### [@stdlib/stats/base/dmeankbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeankbn2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmeanli-v0.2.0">
-
-#### [@stdlib/stats/base/dmeanli](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanli)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmeanlipw-v0.2.0">
-
-#### [@stdlib/stats/base/dmeanlipw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanlipw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmeanors-v0.2.0">
-
-#### [@stdlib/stats/base/dmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmeanpn-v0.2.0">
-
-#### [@stdlib/stats/base/dmeanpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanpn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmeanpw-v0.2.0">
-
-#### [@stdlib/stats/base/dmeanpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmeanstdev-v0.2.0">
-
-#### [@stdlib/stats/base/dmeanstdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanstdev)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmeanstdevpn-v0.2.0">
-
-#### [@stdlib/stats/base/dmeanstdevpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanstdevpn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmeanvar-v0.2.0">
-
-#### [@stdlib/stats/base/dmeanvar](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanvar)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmeanvarpn-v0.2.0">
-
-#### [@stdlib/stats/base/dmeanvarpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanvarpn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmeanwd-v0.2.0">
-
-#### [@stdlib/stats/base/dmeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanwd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmediansorted-v0.2.0">
-
-#### [@stdlib/stats/base/dmediansorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmediansorted)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmidrange-v0.2.0">
-
-#### [@stdlib/stats/base/dmidrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmidrange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmin-v0.2.0">
-
-#### [@stdlib/stats/base/dmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmin)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dminabs-v0.2.0">
-
-#### [@stdlib/stats/base/dminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dminabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dminsorted-v0.2.0">
-
-#### [@stdlib/stats/base/dminsorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dminsorted)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmskmax-v0.2.0">
-
-#### [@stdlib/stats/base/dmskmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmskmax)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmskmin-v0.2.0">
-
-#### [@stdlib/stats/base/dmskmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmskmin)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dmskrange-v0.2.0">
-
-#### [@stdlib/stats/base/dmskrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmskrange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanmax-v0.2.0">
-
-#### [@stdlib/stats/base/dnanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmax)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanmaxabs-v0.2.0">
-
-#### [@stdlib/stats/base/dnanmaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmaxabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanmean-v0.2.0">
-
-#### [@stdlib/stats/base/dnanmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmean)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanmeanors-v0.2.0">
-
-#### [@stdlib/stats/base/dnanmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmeanors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanmeanpn-v0.2.0">
-
-#### [@stdlib/stats/base/dnanmeanpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmeanpn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanmeanpw-v0.2.0">
-
-#### [@stdlib/stats/base/dnanmeanpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmeanpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanmeanwd-v0.2.0">
-
-#### [@stdlib/stats/base/dnanmeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmeanwd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanmin-v0.2.0">
-
-#### [@stdlib/stats/base/dnanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmin)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanminabs-v0.2.0">
-
-#### [@stdlib/stats/base/dnanminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanminabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanmskmax-v0.2.0">
-
-#### [@stdlib/stats/base/dnanmskmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmskmax)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanmskmin-v0.2.0">
-
-#### [@stdlib/stats/base/dnanmskmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmskmin)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanmskrange-v0.2.0">
-
-#### [@stdlib/stats/base/dnanmskrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmskrange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanrange-v0.2.0">
-
-#### [@stdlib/stats/base/dnanrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanrange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanstdev-v0.2.0">
-
-#### [@stdlib/stats/base/dnanstdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanstdev)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanstdevch-v0.2.0">
-
-#### [@stdlib/stats/base/dnanstdevch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanstdevch)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanstdevpn-v0.2.0">
-
-#### [@stdlib/stats/base/dnanstdevpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanstdevpn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanstdevtk-v0.2.0">
-
-#### [@stdlib/stats/base/dnanstdevtk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanstdevtk)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanstdevwd-v0.2.0">
-
-#### [@stdlib/stats/base/dnanstdevwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanstdevwd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanstdevyc-v0.2.0">
-
-#### [@stdlib/stats/base/dnanstdevyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanstdevyc)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanvariance-v0.2.0">
-
-#### [@stdlib/stats/base/dnanvariance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariance)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanvariancech-v0.2.0">
-
-#### [@stdlib/stats/base/dnanvariancech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariancech)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanvariancepn-v0.2.0">
-
-#### [@stdlib/stats/base/dnanvariancepn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariancepn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanvariancetk-v0.2.0">
-
-#### [@stdlib/stats/base/dnanvariancetk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariancetk)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanvariancewd-v0.2.0">
-
-#### [@stdlib/stats/base/dnanvariancewd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariancewd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dnanvarianceyc-v0.2.0">
-
-#### [@stdlib/stats/base/dnanvarianceyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvarianceyc)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-drange-v0.2.0">
-
-#### [@stdlib/stats/base/drange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/drange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsem-v0.2.0">
-
-#### [@stdlib/stats/base/dsem](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsem)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsemch-v0.2.0">
-
-#### [@stdlib/stats/base/dsemch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsemch)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsempn-v0.2.0">
-
-#### [@stdlib/stats/base/dsempn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsempn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsemtk-v0.2.0">
-
-#### [@stdlib/stats/base/dsemtk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsemtk)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsemwd-v0.2.0">
-
-#### [@stdlib/stats/base/dsemwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsemwd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsemyc-v0.2.0">
-
-#### [@stdlib/stats/base/dsemyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsemyc)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsmean-v0.2.0">
-
-#### [@stdlib/stats/base/dsmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsmean)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsmeanors-v0.2.0">
-
-#### [@stdlib/stats/base/dsmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsmeanors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsmeanpn-v0.2.0">
-
-#### [@stdlib/stats/base/dsmeanpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsmeanpn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsmeanpw-v0.2.0">
-
-#### [@stdlib/stats/base/dsmeanpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsmeanpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsmeanwd-v0.2.0">
-
-#### [@stdlib/stats/base/dsmeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsmeanwd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsnanmean-v0.2.0">
-
-#### [@stdlib/stats/base/dsnanmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsnanmean)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsnanmeanors-v0.2.0">
-
-#### [@stdlib/stats/base/dsnanmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsnanmeanors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsnanmeanpn-v0.2.0">
-
-#### [@stdlib/stats/base/dsnanmeanpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsnanmeanpn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsnanmeanwd-v0.2.0">
-
-#### [@stdlib/stats/base/dsnanmeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsnanmeanwd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dstdev-v0.2.0">
-
-#### [@stdlib/stats/base/dstdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdev)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dstdevch-v0.2.0">
-
-#### [@stdlib/stats/base/dstdevch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevch)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dstdevpn-v0.2.0">
-
-#### [@stdlib/stats/base/dstdevpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevpn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dstdevtk-v0.2.0">
-
-#### [@stdlib/stats/base/dstdevtk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevtk)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dstdevwd-v0.2.0">
-
-#### [@stdlib/stats/base/dstdevwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevwd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dstdevyc-v0.2.0">
-
-#### [@stdlib/stats/base/dstdevyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevyc)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsvariance-v0.2.0">
-
-#### [@stdlib/stats/base/dsvariance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsvariance)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dsvariancepn-v0.2.0">
-
-#### [@stdlib/stats/base/dsvariancepn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsvariancepn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dvariance-v0.2.0">
-
-#### [@stdlib/stats/base/dvariance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvariance)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dvariancech-v0.2.0">
-
-#### [@stdlib/stats/base/dvariancech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvariancech)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dvariancepn-v0.2.0">
-
-#### [@stdlib/stats/base/dvariancepn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvariancepn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dvariancetk-v0.2.0">
-
-#### [@stdlib/stats/base/dvariancetk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvariancetk)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dvariancewd-v0.2.0">
-
-#### [@stdlib/stats/base/dvariancewd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvariancewd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dvarianceyc-v0.2.0">
-
-#### [@stdlib/stats/base/dvarianceyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvarianceyc)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dvarm-v0.2.0">
-
-#### [@stdlib/stats/base/dvarm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvarm)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dvarmpn-v0.2.0">
-
-#### [@stdlib/stats/base/dvarmpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvarmpn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dvarmtk-v0.2.0">
-
-#### [@stdlib/stats/base/dvarmtk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvarmtk)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-min-v0.2.0">
-
-#### [@stdlib/stats/base/min](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/min)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-nanmin-v0.2.0">
-
-#### [@stdlib/stats/base/nanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/nanmin)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-nanminabs-v0.2.0">
-
-#### [@stdlib/stats/base/nanminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/nanminabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-range-v0.2.0">
-
-#### [@stdlib/stats/base/range](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/range)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-scumax-v0.2.0">
-
-#### [@stdlib/stats/base/scumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumax)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-scumaxabs-v0.2.0">
-
-#### [@stdlib/stats/base/scumaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumaxabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-scumin-v0.2.0">
-
-#### [@stdlib/stats/base/scumin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumin)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-scuminabs-v0.2.0">
-
-#### [@stdlib/stats/base/scuminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scuminabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-sdsmean-v0.2.0">
-
-#### [@stdlib/stats/base/sdsmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sdsmean)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-sdsmeanors-v0.2.0">
-
-#### [@stdlib/stats/base/sdsmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sdsmeanors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-sdsnanmean-v0.2.0">
-
-#### [@stdlib/stats/base/sdsnanmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sdsnanmean)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-sdsnanmeanors-v0.2.0">
-
-#### [@stdlib/stats/base/sdsnanmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sdsnanmeanors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smax-v0.2.0">
-
-#### [@stdlib/stats/base/smax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smax)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smaxabs-v0.2.0">
-
-#### [@stdlib/stats/base/smaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smaxabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smaxabssorted-v0.2.0">
-
-#### [@stdlib/stats/base/smaxabssorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smaxabssorted)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smaxsorted-v0.2.0">
-
-#### [@stdlib/stats/base/smaxsorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smaxsorted)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smean-v0.2.0">
-
-#### [@stdlib/stats/base/smean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smean)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smeankbn-v0.2.0">
-
-#### [@stdlib/stats/base/smeankbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smeankbn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smeankbn2-v0.2.0">
-
-#### [@stdlib/stats/base/smeankbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smeankbn2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smeanli-v0.2.0">
-
-#### [@stdlib/stats/base/smeanli](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smeanli)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smeanlipw-v0.2.0">
-
-#### [@stdlib/stats/base/smeanlipw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smeanlipw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smeanors-v0.2.0">
-
-#### [@stdlib/stats/base/smeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smeanors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smeanpn-v0.2.0">
-
-#### [@stdlib/stats/base/smeanpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smeanpn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smeanpw-v0.2.0">
-
-#### [@stdlib/stats/base/smeanpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smeanpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smeanwd-v0.2.0">
-
-#### [@stdlib/stats/base/smeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smeanwd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smediansorted-v0.2.0">
-
-#### [@stdlib/stats/base/smediansorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smediansorted)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smidrange-v0.2.0">
-
-#### [@stdlib/stats/base/smidrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smidrange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smin-v0.2.0">
-
-#### [@stdlib/stats/base/smin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smin)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-sminabs-v0.2.0">
-
-#### [@stdlib/stats/base/sminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sminabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-sminsorted-v0.2.0">
-
-#### [@stdlib/stats/base/sminsorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sminsorted)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smskmax-v0.2.0">
-
-#### [@stdlib/stats/base/smskmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smskmax)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smskmin-v0.2.0">
-
-#### [@stdlib/stats/base/smskmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smskmin)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-smskrange-v0.2.0">
-
-#### [@stdlib/stats/base/smskrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smskrange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanmax-v0.2.0">
-
-#### [@stdlib/stats/base/snanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmax)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanmaxabs-v0.2.0">
-
-#### [@stdlib/stats/base/snanmaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmaxabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanmean-v0.2.0">
-
-#### [@stdlib/stats/base/snanmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmean)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanmeanors-v0.2.0">
-
-#### [@stdlib/stats/base/snanmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmeanors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanmeanpn-v0.2.0">
-
-#### [@stdlib/stats/base/snanmeanpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmeanpn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanmeanwd-v0.2.0">
-
-#### [@stdlib/stats/base/snanmeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmeanwd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanmin-v0.2.0">
-
-#### [@stdlib/stats/base/snanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmin)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanminabs-v0.2.0">
-
-#### [@stdlib/stats/base/snanminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanminabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanmskmax-v0.2.0">
-
-#### [@stdlib/stats/base/snanmskmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmskmax)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanmskmin-v0.2.0">
-
-#### [@stdlib/stats/base/snanmskmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmskmin)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanmskrange-v0.2.0">
-
-#### [@stdlib/stats/base/snanmskrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmskrange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanrange-v0.2.0">
-
-#### [@stdlib/stats/base/snanrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanrange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanstdev-v0.2.0">
-
-#### [@stdlib/stats/base/snanstdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanstdev)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanstdevch-v0.2.0">
-
-#### [@stdlib/stats/base/snanstdevch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanstdevch)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanstdevpn-v0.2.0">
-
-#### [@stdlib/stats/base/snanstdevpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanstdevpn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanstdevtk-v0.2.0">
-
-#### [@stdlib/stats/base/snanstdevtk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanstdevtk)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanstdevwd-v0.2.0">
-
-#### [@stdlib/stats/base/snanstdevwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanstdevwd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanstdevyc-v0.2.0">
-
-#### [@stdlib/stats/base/snanstdevyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanstdevyc)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanvariance-v0.2.0">
-
-#### [@stdlib/stats/base/snanvariance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanvariance)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanvariancech-v0.2.0">
-
-#### [@stdlib/stats/base/snanvariancech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanvariancech)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanvariancepn-v0.2.0">
-
-#### [@stdlib/stats/base/snanvariancepn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanvariancepn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanvariancetk-v0.2.0">
-
-#### [@stdlib/stats/base/snanvariancetk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanvariancetk)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanvariancewd-v0.2.0">
-
-#### [@stdlib/stats/base/snanvariancewd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanvariancewd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-snanvarianceyc-v0.2.0">
-
-#### [@stdlib/stats/base/snanvarianceyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanvarianceyc)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-srange-v0.2.0">
-
-#### [@stdlib/stats/base/srange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/srange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-sstdev-v0.2.0">
-
-#### [@stdlib/stats/base/sstdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sstdev)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-sstdevch-v0.2.0">
-
-#### [@stdlib/stats/base/sstdevch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sstdevch)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-sstdevpn-v0.2.0">
-
-#### [@stdlib/stats/base/sstdevpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sstdevpn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-sstdevtk-v0.2.0">
-
-#### [@stdlib/stats/base/sstdevtk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sstdevtk)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-sstdevwd-v0.2.0">
-
-#### [@stdlib/stats/base/sstdevwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sstdevwd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-sstdevyc-v0.2.0">
-
-#### [@stdlib/stats/base/sstdevyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sstdevyc)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-stdevpn-v0.2.0">
-
-#### [@stdlib/stats/base/stdevpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/stdevpn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-svariance-v0.2.0">
-
-#### [@stdlib/stats/base/svariance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/svariance)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-svariancech-v0.2.0">
-
-#### [@stdlib/stats/base/svariancech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/svariancech)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-svariancepn-v0.2.0">
-
-#### [@stdlib/stats/base/svariancepn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/svariancepn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-svariancetk-v0.2.0">
-
-#### [@stdlib/stats/base/svariancetk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/svariancetk)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-svariancewd-v0.2.0">
-
-#### [@stdlib/stats/base/svariancewd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/svariancewd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-svarianceyc-v0.2.0">
-
-#### [@stdlib/stats/base/svarianceyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/svarianceyc)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-fligner--v0.2.0">
-
-#### [@stdlib/stats/fligner-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/fligner-)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-incr-v0.2.0">
-
-#### [@stdlib/stats/incr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/incr)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-incr-covmat-v0.2.0">
-
-#### [@stdlib/stats/incr/covmat](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/incr/covmat)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-incr-grubbs-v0.2.0">
-
-#### [@stdlib/stats/incr/grubbs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/incr/grubbs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-incr-mgrubbs-v0.2.0">
-
-#### [@stdlib/stats/incr/mgrubbs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/incr/mgrubbs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-incr-mmeanstdev-v0.2.0">
-
-#### [@stdlib/stats/incr/mmeanstdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/incr/mmeanstdev)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-incr-mmeanvar-v0.2.0">
-
-#### [@stdlib/stats/incr/mmeanvar](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/incr/mmeanvar)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-incr-mminmax-v0.2.0">
-
-#### [@stdlib/stats/incr/mminmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/incr/mminmax)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-incr-pcorrdistmat-v0.2.0">
-
-#### [@stdlib/stats/incr/pcorrdistmat](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/incr/pcorrdistmat)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-incr-pcorrmat-v0.2.0">
-
-#### [@stdlib/stats/incr/pcorrmat](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/incr/pcorrmat)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-v0.2.0">
-
-#### [@stdlib/stats/iter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-cugmean-v0.2.0">
-
-#### [@stdlib/stats/iter/cugmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/cugmean)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-cuhmean-v0.2.0">
-
-#### [@stdlib/stats/iter/cuhmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/cuhmean)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-cumax-v0.2.0">
-
-#### [@stdlib/stats/iter/cumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/cumax)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-cumaxabs-v0.2.0">
-
-#### [@stdlib/stats/iter/cumaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/cumaxabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-cumean-v0.2.0">
-
-#### [@stdlib/stats/iter/cumean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/cumean)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-cumeanabs-v0.2.0">
-
-#### [@stdlib/stats/iter/cumeanabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/cumeanabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-cumeanabs2-v0.2.0">
-
-#### [@stdlib/stats/iter/cumeanabs2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/cumeanabs2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-cumidrange-v0.2.0">
-
-#### [@stdlib/stats/iter/cumidrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/cumidrange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-cumin-v0.2.0">
-
-#### [@stdlib/stats/iter/cumin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/cumin)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-cuminabs-v0.2.0">
-
-#### [@stdlib/stats/iter/cuminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/cuminabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-cuprod-v0.2.0">
-
-#### [@stdlib/stats/iter/cuprod](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/cuprod)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-curange-v0.2.0">
-
-#### [@stdlib/stats/iter/curange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/curange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-cusum-v0.2.0">
-
-#### [@stdlib/stats/iter/cusum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/cusum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-cusumabs-v0.2.0">
-
-#### [@stdlib/stats/iter/cusumabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/cusumabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-cusumabs2-v0.2.0">
-
-#### [@stdlib/stats/iter/cusumabs2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/cusumabs2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-max-v0.2.0">
-
-#### [@stdlib/stats/iter/max](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/max)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-maxabs-v0.2.0">
-
-#### [@stdlib/stats/iter/maxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/maxabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-mean-v0.2.0">
-
-#### [@stdlib/stats/iter/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/mean)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-meanabs-v0.2.0">
-
-#### [@stdlib/stats/iter/meanabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/meanabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-meanabs2-v0.2.0">
-
-#### [@stdlib/stats/iter/meanabs2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/meanabs2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-midrange-v0.2.0">
-
-#### [@stdlib/stats/iter/midrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/midrange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-min-v0.2.0">
-
-#### [@stdlib/stats/iter/min](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/min)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-minabs-v0.2.0">
-
-#### [@stdlib/stats/iter/minabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/minabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-mmax-v0.2.0">
-
-#### [@stdlib/stats/iter/mmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/mmax)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-mmaxabs-v0.2.0">
-
-#### [@stdlib/stats/iter/mmaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/mmaxabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-mmean-v0.2.0">
-
-#### [@stdlib/stats/iter/mmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/mmean)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-mmeanabs-v0.2.0">
-
-#### [@stdlib/stats/iter/mmeanabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/mmeanabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-mmeanabs2-v0.2.0">
-
-#### [@stdlib/stats/iter/mmeanabs2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/mmeanabs2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-mmidrange-v0.2.0">
-
-#### [@stdlib/stats/iter/mmidrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/mmidrange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-mmin-v0.2.0">
-
-#### [@stdlib/stats/iter/mmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/mmin)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-mminabs-v0.2.0">
-
-#### [@stdlib/stats/iter/mminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/mminabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-mprod-v0.2.0">
-
-#### [@stdlib/stats/iter/mprod](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/mprod)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-mrange-v0.2.0">
-
-#### [@stdlib/stats/iter/mrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/mrange)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-msum-v0.2.0">
-
-#### [@stdlib/stats/iter/msum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/msum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-msumabs-v0.2.0">
-
-#### [@stdlib/stats/iter/msumabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/msumabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-msumabs2-v0.2.0">
-
-#### [@stdlib/stats/iter/msumabs2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/msumabs2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-prod-v0.2.0">
-
-#### [@stdlib/stats/iter/prod](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/prod)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-range-v0.2.0">
-
-#### [@stdlib/stats/iter/range](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/range)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-stdev-v0.2.0">
-
-#### [@stdlib/stats/iter/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/stdev)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-sum-v0.2.0">
-
-#### [@stdlib/stats/iter/sum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/sum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-sumabs-v0.2.0">
-
-#### [@stdlib/stats/iter/sumabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/sumabs)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-sumabs2-v0.2.0">
-
-#### [@stdlib/stats/iter/sumabs2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/sumabs2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-iter-variance-v0.2.0">
-
-#### [@stdlib/stats/iter/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/iter/variance)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-kde2d-v0.2.0">
-
-#### [@stdlib/stats/kde2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/kde2d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
 
 <section class="package" id="stats-pcorr-v0.2.0">
 
@@ -3593,18 +115,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="stats-t-v0.2.0">
-
-#### [@stdlib/stats/t](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/t)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 </section>
 
 <!-- /.packages -->
@@ -3613,10 +123,9 @@ No changes reported for this release.</details>
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   Philipp Burckhardt
 -   Philipp Burckhardt
 
 </section>
@@ -3651,27 +160,21 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.1">
+
 ## 0.1.1 (2023-11-08)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.1.0">
 
 ## 0.1.0 (2023-11-08)
 
@@ -3700,8 +203,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3735,8 +237,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3770,8 +271,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3805,8 +305,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3840,8 +339,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3875,8 +373,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3910,8 +407,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3945,8 +441,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3980,8 +475,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4015,8 +509,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4050,8 +543,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4085,8 +577,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4120,8 +611,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4155,8 +645,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4190,8 +679,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4225,8 +713,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4260,8 +747,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4295,8 +781,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4330,8 +815,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4365,8 +849,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4400,8 +883,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4435,8 +917,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4470,8 +951,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4505,8 +985,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4540,8 +1019,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4575,8 +1053,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4610,8 +1087,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4645,8 +1121,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4680,8 +1155,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4715,8 +1189,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4750,8 +1223,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4785,8 +1257,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4820,8 +1291,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4855,8 +1325,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4890,8 +1359,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4925,8 +1393,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4960,8 +1427,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4995,8 +1461,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5030,8 +1495,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5065,8 +1529,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5100,8 +1563,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5135,8 +1597,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5170,8 +1631,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5205,8 +1665,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5240,8 +1699,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5275,8 +1733,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5310,8 +1767,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5345,8 +1801,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5380,8 +1835,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5415,8 +1869,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5450,8 +1903,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5485,8 +1937,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5520,8 +1971,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5555,8 +2005,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5590,8 +2039,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5625,8 +2073,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5660,8 +2107,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5695,8 +2141,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5730,8 +2175,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5765,8 +2209,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5800,8 +2243,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5835,8 +2277,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5870,8 +2311,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5905,8 +2345,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5940,8 +2379,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5975,8 +2413,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6010,8 +2447,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6045,8 +2481,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6080,8 +2515,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6115,8 +2549,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6150,8 +2583,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6185,8 +2617,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6220,8 +2651,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6255,8 +2685,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6290,8 +2719,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6325,8 +2753,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6360,8 +2787,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6395,8 +2821,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6430,8 +2855,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6465,8 +2889,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6500,8 +2923,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6535,8 +2957,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6570,8 +2991,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6605,8 +3025,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6640,8 +3059,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6675,8 +3093,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6710,8 +3127,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6745,8 +3161,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6780,8 +3195,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6815,8 +3229,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6850,8 +3263,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6885,8 +3297,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6920,8 +3331,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6955,8 +3365,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6990,8 +3399,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7025,8 +3433,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7060,8 +3467,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7095,8 +3501,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7130,8 +3535,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7165,8 +3569,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7200,8 +3603,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7235,8 +3637,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7270,8 +3671,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7305,8 +3705,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7340,8 +3739,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7375,8 +3773,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7410,8 +3807,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7445,8 +3841,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7480,8 +3875,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7515,8 +3909,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7550,8 +3943,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7585,8 +3977,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7620,8 +4011,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7655,8 +4045,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7690,8 +4079,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7725,8 +4113,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7760,8 +4147,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7795,8 +4181,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7830,8 +4215,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7865,8 +4249,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7900,8 +4283,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7935,8 +4317,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7970,8 +4351,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8005,8 +4385,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8040,8 +4419,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8075,8 +4453,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8110,8 +4487,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8145,8 +4521,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8180,8 +4555,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8215,8 +4589,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8250,8 +4623,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8285,8 +4657,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8320,8 +4691,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8355,8 +4725,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8390,8 +4759,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8425,8 +4793,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8460,8 +4827,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8495,8 +4861,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8530,8 +4895,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8565,8 +4929,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8600,8 +4963,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8635,8 +4997,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8670,8 +5031,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8705,8 +5065,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8740,8 +5099,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8775,8 +5133,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8810,8 +5167,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8845,8 +5201,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8880,8 +5235,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8915,8 +5269,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8950,8 +5303,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8985,8 +5337,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9020,8 +5371,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9055,8 +5405,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9090,8 +5439,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9125,8 +5473,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9160,8 +5507,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9195,8 +5541,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9230,8 +5575,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9265,8 +5609,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9300,8 +5643,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9335,8 +5677,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9370,8 +5711,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9405,8 +5745,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9440,8 +5779,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9475,8 +5813,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9510,8 +5847,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9545,8 +5881,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9580,8 +5915,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9615,8 +5949,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9650,8 +5983,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9685,8 +6017,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9720,8 +6051,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9755,8 +6085,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9790,8 +6119,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9825,8 +6153,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9860,8 +6187,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9895,8 +6221,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9930,8 +6255,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9965,8 +6289,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10000,8 +6323,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10035,8 +6357,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10070,8 +6391,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10105,8 +6425,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10140,8 +6459,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10175,8 +6493,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10210,8 +6527,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10245,8 +6561,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10280,8 +6595,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10315,8 +6629,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10350,8 +6663,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10385,8 +6697,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10420,8 +6731,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10455,8 +6765,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10490,8 +6799,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10525,8 +6833,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10560,8 +6867,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10595,8 +6901,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10630,8 +6935,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10665,8 +6969,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10700,8 +7003,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10735,8 +7037,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10770,8 +7071,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10805,8 +7105,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10840,8 +7139,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10875,8 +7173,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10910,8 +7207,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10945,8 +7241,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10980,8 +7275,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11015,8 +7309,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11050,8 +7343,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11085,8 +7377,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11120,8 +7411,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11155,8 +7445,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11190,8 +7479,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11225,8 +7513,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11260,8 +7547,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11295,8 +7581,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11330,8 +7615,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11365,8 +7649,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11400,8 +7683,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11435,8 +7717,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11470,8 +7751,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11505,8 +7785,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11540,8 +7819,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11575,8 +7853,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11610,8 +7887,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11645,8 +7921,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11680,8 +7955,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11715,8 +7989,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11750,8 +8023,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11785,8 +8057,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11820,8 +8091,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11855,8 +8125,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11890,8 +8159,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11925,8 +8193,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11960,8 +8227,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -11995,8 +8261,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12030,8 +8295,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12065,8 +8329,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12100,8 +8363,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12135,8 +8397,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12170,8 +8431,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12205,8 +8465,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12240,8 +8499,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12275,8 +8533,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12310,8 +8567,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12345,8 +8601,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12380,8 +8635,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12415,8 +8669,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12450,8 +8703,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12485,8 +8737,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12520,8 +8771,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12555,8 +8805,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12590,8 +8839,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12625,8 +8873,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12660,8 +8907,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12695,8 +8941,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12730,8 +8975,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12765,8 +9009,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12800,8 +9043,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12835,8 +9077,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12870,8 +9111,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12905,8 +9145,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12940,8 +9179,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -12975,8 +9213,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13010,8 +9247,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13045,8 +9281,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13080,8 +9315,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13115,8 +9349,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13150,8 +9383,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13185,8 +9417,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13220,8 +9451,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13255,8 +9485,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13290,8 +9519,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13325,8 +9553,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13360,8 +9587,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13395,8 +9621,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13430,8 +9655,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13465,8 +9689,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13500,8 +9723,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13535,8 +9757,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13570,8 +9791,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13605,8 +9825,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13640,8 +9859,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13675,8 +9893,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13710,8 +9927,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13745,8 +9961,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13780,8 +9995,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13815,8 +10029,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13850,8 +10063,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13885,8 +10097,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13920,8 +10131,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13955,8 +10165,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -13990,8 +10199,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14025,8 +10233,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14060,8 +10267,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14095,8 +10301,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14130,8 +10335,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14165,8 +10369,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14200,8 +10403,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14235,8 +10437,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14270,8 +10471,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14305,8 +10505,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14340,8 +10539,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14375,8 +10573,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14410,8 +10607,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14445,8 +10641,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14480,8 +10675,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14515,8 +10709,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14550,8 +10743,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14585,8 +10777,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14620,8 +10811,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14655,8 +10845,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14690,8 +10879,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14725,8 +10913,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14760,8 +10947,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14795,8 +10981,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14830,8 +11015,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14865,8 +11049,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14900,8 +11083,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14935,8 +11117,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -14970,8 +11151,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15005,8 +11185,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15040,8 +11219,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15075,8 +11253,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15110,8 +11287,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15145,8 +11321,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15180,8 +11355,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15215,8 +11389,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15250,8 +11423,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15285,8 +11457,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15320,8 +11491,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15355,8 +11525,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15390,8 +11559,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15425,8 +11593,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15460,8 +11627,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15495,8 +11661,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15530,8 +11695,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15565,8 +11729,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15600,8 +11763,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15635,8 +11797,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15670,8 +11831,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15705,8 +11865,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15740,8 +11899,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15775,8 +11933,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15810,8 +11967,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15845,8 +12001,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15880,8 +12035,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15915,8 +12069,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15950,8 +12103,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -15985,8 +12137,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16020,8 +12171,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16055,8 +12205,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16090,8 +12239,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16125,8 +12273,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16160,8 +12307,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16195,8 +12341,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16230,8 +12375,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16265,8 +12409,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16300,8 +12443,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16335,8 +12477,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16370,8 +12511,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16405,8 +12545,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16440,8 +12579,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16475,8 +12613,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16510,8 +12647,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16545,8 +12681,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16580,8 +12715,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16615,8 +12749,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16650,8 +12783,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16685,8 +12817,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16720,8 +12851,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16755,8 +12885,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16790,8 +12919,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16825,8 +12953,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16860,8 +12987,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16895,8 +13021,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16930,8 +13055,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -16965,8 +13089,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17000,8 +13123,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17035,8 +13157,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17070,8 +13191,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17105,8 +13225,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17140,8 +13259,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17175,8 +13293,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17210,8 +13327,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17245,8 +13361,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17280,8 +13395,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17315,8 +13429,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17350,8 +13463,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17385,8 +13497,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17420,8 +13531,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17455,8 +13565,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17490,8 +13599,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17525,8 +13633,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17560,8 +13667,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17595,8 +13701,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17630,8 +13735,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17665,8 +13769,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17700,8 +13803,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17735,8 +13837,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17770,8 +13871,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17805,8 +13905,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17840,8 +13939,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17875,8 +13973,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17910,8 +14007,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17945,8 +14041,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -17980,8 +14075,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18015,8 +14109,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18050,8 +14143,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18085,8 +14177,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18120,8 +14211,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18155,8 +14245,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18190,8 +14279,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18225,8 +14313,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18260,8 +14347,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18295,8 +14381,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18330,8 +14415,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18365,8 +14449,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18400,8 +14483,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18435,8 +14517,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18470,8 +14551,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18505,8 +14585,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18540,8 +14619,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18575,8 +14653,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18610,8 +14687,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18645,8 +14721,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18680,8 +14755,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18715,8 +14789,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18750,8 +14823,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18785,8 +14857,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18820,8 +14891,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18855,8 +14925,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18890,8 +14959,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18925,8 +14993,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18960,8 +15027,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -18995,8 +15061,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19030,8 +15095,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19065,8 +15129,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19100,8 +15163,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19135,8 +15197,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19170,8 +15231,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19205,8 +15265,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19240,8 +15299,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19275,8 +15333,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19310,8 +15367,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19345,8 +15401,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19380,8 +15435,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19415,8 +15469,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19450,8 +15503,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19485,8 +15537,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19520,8 +15571,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19555,8 +15605,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19590,8 +15639,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19625,8 +15673,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19660,8 +15707,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19695,8 +15741,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19730,8 +15775,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19765,8 +15809,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19800,8 +15843,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19835,8 +15877,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19870,8 +15911,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19905,8 +15945,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19940,8 +15979,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -19975,8 +16013,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20010,8 +16047,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20045,8 +16081,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20080,8 +16115,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20115,8 +16149,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20150,8 +16183,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20185,8 +16217,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20220,8 +16251,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20255,8 +16285,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20290,8 +16319,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20325,8 +16353,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20360,8 +16387,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20395,8 +16421,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20430,8 +16455,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20465,8 +16489,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20500,8 +16523,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20535,8 +16557,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20570,8 +16591,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20605,8 +16625,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20640,8 +16659,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20675,8 +16693,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20710,8 +16727,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20745,8 +16761,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20780,8 +16795,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20815,8 +16829,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20850,8 +16863,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20885,8 +16897,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20920,8 +16931,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20955,8 +16965,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -20990,8 +16999,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21025,8 +17033,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21060,8 +17067,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21095,8 +17101,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21130,8 +17135,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21165,8 +17169,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21200,8 +17203,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21235,8 +17237,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21270,8 +17271,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21305,8 +17305,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21340,8 +17339,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21375,8 +17373,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21410,8 +17407,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21445,8 +17441,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21480,8 +17475,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21515,8 +17509,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21550,8 +17543,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21585,8 +17577,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21620,8 +17611,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21655,8 +17645,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21690,8 +17679,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21725,8 +17713,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21760,8 +17747,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21795,8 +17781,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21830,8 +17815,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21865,8 +17849,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21900,8 +17883,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21935,8 +17917,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -21970,8 +17951,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22005,8 +17985,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22040,8 +18019,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22075,8 +18053,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22110,8 +18087,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22145,8 +18121,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22180,8 +18155,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22215,8 +18189,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22250,8 +18223,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22285,8 +18257,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22320,8 +18291,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22355,8 +18325,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22390,8 +18359,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22425,8 +18393,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22460,8 +18427,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22495,8 +18461,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22530,8 +18495,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22565,8 +18529,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22600,8 +18563,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22635,8 +18597,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22670,8 +18631,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22705,8 +18665,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22740,8 +18699,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22775,8 +18733,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22810,8 +18767,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22845,8 +18801,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22880,8 +18835,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22915,8 +18869,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22950,8 +18903,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -22985,8 +18937,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23020,8 +18971,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23055,8 +19005,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23090,8 +19039,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23125,8 +19073,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23160,8 +19107,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23195,8 +19141,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23230,8 +19175,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23265,8 +19209,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23300,8 +19243,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23335,8 +19277,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23370,8 +19311,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23405,8 +19345,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23440,8 +19379,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23475,8 +19413,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23510,8 +19447,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23545,8 +19481,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23580,8 +19515,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23615,8 +19549,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23650,8 +19583,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23685,8 +19617,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23720,8 +19651,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23755,8 +19685,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23790,8 +19719,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23825,8 +19753,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23871,8 +19798,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23906,8 +19832,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23941,8 +19866,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -23976,8 +19900,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24011,8 +19934,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24046,8 +19968,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24081,8 +20002,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24116,8 +20036,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24151,8 +20070,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24186,8 +20104,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24221,8 +20138,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24256,8 +20172,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24302,8 +20217,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24337,8 +20251,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24372,8 +20285,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24407,8 +20319,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24442,8 +20353,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24477,8 +20387,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24512,8 +20421,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24558,8 +20466,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24593,8 +20500,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24628,8 +20534,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24663,8 +20568,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24698,8 +20602,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24733,8 +20636,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24768,8 +20670,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24814,8 +20715,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24849,8 +20749,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24884,8 +20783,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24919,8 +20817,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24954,8 +20851,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -24989,8 +20885,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25035,8 +20930,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25070,8 +20964,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25105,8 +20998,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25140,8 +21032,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25175,8 +21066,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25210,8 +21100,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25245,8 +21134,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25280,8 +21168,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25315,8 +21202,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25350,8 +21236,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25385,8 +21270,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25420,8 +21304,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25455,8 +21338,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25490,8 +21372,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25536,8 +21417,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25571,8 +21451,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25606,8 +21485,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25641,8 +21519,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25676,8 +21553,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25711,8 +21587,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25746,8 +21621,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25781,8 +21655,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25816,8 +21689,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25851,8 +21723,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25886,8 +21757,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25921,8 +21791,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25956,8 +21825,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -25991,8 +21859,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26026,8 +21893,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26061,8 +21927,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26096,8 +21961,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26131,8 +21995,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26166,8 +22029,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26201,8 +22063,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26236,8 +22097,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26271,8 +22131,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26306,8 +22165,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26341,8 +22199,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26376,8 +22233,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26411,8 +22267,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26446,8 +22301,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26481,8 +22335,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26516,8 +22369,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26551,8 +22403,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26586,8 +22437,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26621,8 +22471,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26656,8 +22505,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26691,8 +22539,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26726,8 +22573,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26761,8 +22607,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26796,8 +22641,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26831,8 +22675,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26866,8 +22709,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26901,8 +22743,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26936,8 +22777,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -26971,8 +22811,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27006,8 +22845,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27041,8 +22879,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27076,8 +22913,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27111,8 +22947,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27146,8 +22981,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27181,8 +23015,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27216,8 +23049,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27251,8 +23083,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27286,8 +23117,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27321,8 +23151,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27356,8 +23185,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27391,8 +23219,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27426,8 +23253,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27461,8 +23287,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27496,8 +23321,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27531,8 +23355,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27566,8 +23389,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27601,8 +23423,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27636,8 +23457,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27671,8 +23491,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27706,8 +23525,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27741,8 +23559,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27776,8 +23593,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27811,8 +23627,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27846,8 +23661,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27881,8 +23695,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27916,8 +23729,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27951,8 +23763,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -27986,8 +23797,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28021,8 +23831,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28056,8 +23865,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28091,8 +23899,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28126,8 +23933,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28161,8 +23967,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28196,8 +24001,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28231,8 +24035,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28266,8 +24069,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28312,13 +24114,11 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
--   [`2a21866`](https://github.com/stdlib-js/stdlib/commit/2a2186604e317e461b18afc23e41e9fa5e394c10): refactor implementation to return a class instance and improve perf
--   [`2a21866`](https://github.com/stdlib-js/stdlib/commit/2a2186604e317e461b18afc23e41e9fa5e394c10): `print` method renamed to `toString` 
+-   [`2a21866`](https://github.com/stdlib-js/stdlib/commit/2a2186604e317e461b18afc23e41e9fa5e394c10): `print` method renamed to `toString`
 
     -   To migrate, users should update their code to use `toString`.
 
@@ -28352,8 +24152,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28387,8 +24186,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28422,8 +24220,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28457,8 +24254,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28492,8 +24288,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28527,8 +24322,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28562,8 +24356,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28597,8 +24390,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28632,8 +24424,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28667,8 +24458,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28702,8 +24492,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28737,8 +24526,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28772,8 +24560,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28807,8 +24594,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28842,8 +24628,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28877,8 +24662,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28912,8 +24696,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28947,8 +24730,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -28982,8 +24764,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29017,8 +24798,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29052,8 +24832,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29087,8 +24866,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29122,8 +24900,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29157,8 +24934,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29192,8 +24968,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29227,8 +25002,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29262,8 +25036,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29297,8 +25070,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29332,8 +25104,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29367,8 +25138,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29402,8 +25172,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29437,8 +25206,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29472,8 +25240,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29507,8 +25274,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29542,8 +25308,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29577,8 +25342,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29612,8 +25376,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29647,8 +25410,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29682,8 +25444,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29717,8 +25478,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29752,8 +25512,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29787,8 +25546,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29822,8 +25580,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29857,8 +25614,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29892,8 +25648,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29927,8 +25682,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29962,8 +25716,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -29997,8 +25750,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30032,8 +25784,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30067,8 +25818,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30102,8 +25852,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30137,8 +25886,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30172,8 +25920,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30207,8 +25954,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30242,8 +25988,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30277,8 +26022,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30312,8 +26056,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30347,8 +26090,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30382,8 +26124,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30417,8 +26158,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30452,8 +26192,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30487,8 +26226,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30522,8 +26260,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30557,8 +26294,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30592,8 +26328,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30627,8 +26362,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30662,8 +26396,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30697,8 +26430,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30732,8 +26464,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30767,8 +26498,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30802,8 +26532,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30837,8 +26566,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30872,8 +26600,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30907,8 +26634,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30942,8 +26668,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -30977,8 +26702,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31012,8 +26736,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31047,8 +26770,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31082,8 +26804,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31117,8 +26838,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31152,8 +26872,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31187,8 +26906,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31222,8 +26940,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31257,8 +26974,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31292,8 +27008,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31327,8 +27042,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31362,8 +27076,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31397,8 +27110,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31432,8 +27144,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31467,8 +27178,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31502,8 +27212,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31537,8 +27246,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31572,8 +27280,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31607,8 +27314,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31642,8 +27348,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31677,8 +27382,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31712,8 +27416,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31747,8 +27450,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31782,8 +27484,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31817,8 +27518,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31852,8 +27552,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31887,8 +27586,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31922,8 +27620,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31957,8 +27654,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -31992,8 +27688,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32027,8 +27722,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32062,8 +27756,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32097,8 +27790,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32132,8 +27824,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32167,8 +27858,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32202,8 +27892,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32237,8 +27926,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32272,8 +27960,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32307,8 +27994,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32342,8 +28028,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32377,8 +28062,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32412,8 +28096,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32447,8 +28130,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32482,8 +28164,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32517,8 +28198,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32552,8 +28232,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32587,8 +28266,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32622,8 +28300,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32657,8 +28334,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32692,8 +28368,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32727,8 +28402,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32762,8 +28436,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32797,8 +28470,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32832,8 +28504,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32867,8 +28538,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32902,8 +28572,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32937,8 +28606,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -32972,8 +28640,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33007,8 +28674,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33042,8 +28708,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33077,8 +28742,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33112,8 +28776,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33147,8 +28810,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33182,8 +28844,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33217,8 +28878,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33252,8 +28912,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33287,8 +28946,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33322,8 +28980,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33357,8 +29014,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33392,8 +29048,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33427,8 +29082,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33462,8 +29116,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33497,8 +29150,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33574,8 +29226,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33609,8 +29260,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33644,8 +29294,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33679,8 +29328,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -33702,28 +29350,23 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version
--   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1 
+-   [`a6edab8`](https://github.com/stdlib-js/stdlib/commit/a6edab846285d46ea65f51eac800b458b777b8bb): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1 
+-   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version
--   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1 
+-   [`59f242d`](https://github.com/stdlib-js/stdlib/commit/59f242dca2a991585787a7ab681e31dc37ab1d71): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
--   [`2a21866`](https://github.com/stdlib-js/stdlib/commit/2a2186604e317e461b18afc23e41e9fa5e394c10): refactor implementation to return a class instance and improve perf
--   [`2a21866`](https://github.com/stdlib-js/stdlib/commit/2a2186604e317e461b18afc23e41e9fa5e394c10): `print` method renamed to `toString` 
+-   [`2a21866`](https://github.com/stdlib-js/stdlib/commit/2a2186604e317e461b18afc23e41e9fa5e394c10): `print` method renamed to `toString`
 
     -   To migrate, users should update their code to use `toString`.
 
@@ -33796,289 +29439,137 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.13">
+
 ## 0.0.13 (2021-08-23)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.12">
 
 ## 0.0.12 (2021-07-10)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.11">
 
 ## 0.0.11 (2021-07-07)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.10">
 
 ## 0.0.10 (2021-06-28)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.9">
 
 ## 0.0.9 (2021-06-16)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.8">
 
 ## 0.0.8 (2021-06-15)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.7">
 
 ## 0.0.7 (2021-06-15)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.6">
 
 ## 0.0.6 (2021-06-13)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.5">
 
 ## 0.0.5 (2021-06-12)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.4">
 
 ## 0.0.4 (2021-06-12)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.3">
 
 ## 0.0.3 (2021-06-12)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.2">
 
 ## 0.0.2 (2021-06-10)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.1">
 
 ## 0.0.1 (2021-06-10)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<!-- /.release -->
 
