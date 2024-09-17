@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-07)
+## Unreleased (2024-09-17)
 
 <section class="packages">
 
@@ -21,7 +21,7 @@
 A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
--   Tufail
+-   Tufailahmed Bargir
 
 </section>
 
@@ -33,7 +33,10 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
--   [`71af75e`](https://github.com/stdlib-js/stdlib/commit/71af75ec2c9066eb59288ad525ddbf1ad782db0c) - **docs:** improve examples `stats/base/dists/triangular` namespace _(by Tufail, Philipp Burckhardt)_
+-   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
+-   [`ed44fee`](https://github.com/stdlib-js/stdlib/commit/ed44feecb9eaa5e0849d1a533e5415624d0aa338) - **style:** use imperative in package.json description and end with period _(by Philipp Burckhardt)_
+-   [`31fd427`](https://github.com/stdlib-js/stdlib/commit/31fd42744ec5d7073041f97c6f72350b8005c0fc) - **style:** remove unwanted empty lines _(by Philipp Burckhardt)_
+-   [`71af75e`](https://github.com/stdlib-js/stdlib/commit/71af75ec2c9066eb59288ad525ddbf1ad782db0c) - **docs:** improve examples `stats/base/dists/triangular` namespace _(by Tufailahmed Bargir, Philipp Burckhardt)_
 
 </details>
 
