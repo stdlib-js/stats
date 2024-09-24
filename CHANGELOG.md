@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-22)
+## Unreleased (2024-09-24)
 
 <section class="packages">
 
@@ -18,10 +18,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
 -   Tufailahmed Bargir
+-   olenkabilonizhka
 
 </section>
 
@@ -33,6 +34,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d7bf560`](https://github.com/stdlib-js/stdlib/commit/d7bf560813d0f6cd44418dad0e8e84dd3f0a1596) - **docs:** improve examples of `stats/base/dists/gumbel` _(by olenkabilonizhka, Philipp Burckhardt)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 -   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
