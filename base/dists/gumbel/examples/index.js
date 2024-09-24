@@ -19,7 +19,7 @@
 'use strict';
 
 var Float64Array = require( '@stdlib/array/float64' );
-var filledarrayBy = require('@stdlib/array/filled-by');
+var filledarrayBy = require( '@stdlib/array/filled-by' );
 var mean = require( './../../../../base/mean' );
 var variance = require( './../../../../base/variance' );
 var stdev = require( './../../../../base/stdev' );
