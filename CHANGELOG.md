@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-28)
+## Unreleased (2024-10-08)
 
 <section class="packages">
 
@@ -18,10 +18,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
 -   Tufailahmed Bargir
+-   UtkershBasnet
 -   olenkabilonizhka
 
 </section>
@@ -34,6 +35,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`61912b7`](https://github.com/stdlib-js/stdlib/commit/61912b7eed6c5f60d074210347d31472da963b22) - **docs:** improve examples of `stats/base/dists/exponential` namespace _(by UtkershBasnet, Philipp Burckhardt)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`b89c97c`](https://github.com/stdlib-js/stdlib/commit/b89c97ce0b812ff0b2aab16b4d77969d44fe3e8c) - **docs:** resolve lint errors in TS declaration files _(by Philipp Burckhardt)_
 -   [`7fb04a9`](https://github.com/stdlib-js/stdlib/commit/7fb04a92ebae797788f7047feac1caaf6a7a1f4f) - **style:** add missing spaces around parentheses _(by Philipp Burckhardt)_
