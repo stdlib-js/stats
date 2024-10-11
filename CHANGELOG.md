@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-10)
+## Unreleased (2024-10-11)
 
 <section class="packages">
 
@@ -37,6 +37,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`caaf0d9`](https://github.com/stdlib-js/stdlib/commit/caaf0d9f3597fac939a52fb15bdf6465fa0a3125) - **docs:** improve README examples of `stats/base/dists/geometric` namespace [(#1801)](https://github.com/stdlib-js/stdlib/pull/1801) _(by Shivam, Philipp Burckhardt, shivam Ahir)_
 -   [`e399bfd`](https://github.com/stdlib-js/stdlib/commit/e399bfd09baf0b50ea9beb49f65867cd1a1e45b7) - **docs:** improve README examples of `stats/base/dists/gamma` namespace [(#1804)](https://github.com/stdlib-js/stdlib/pull/1804) _(by Shivam, Philipp Burckhardt, shivam Ahir)_
 -   [`6c3b249`](https://github.com/stdlib-js/stdlib/commit/6c3b2492906413f1d994aebe9dbc12b11245f108) - **docs:** improve README examples of `stats/base/dists/invgamma namespace` [(#1808)](https://github.com/stdlib-js/stdlib/pull/1808) _(by Shivam, Philipp Burckhardt, shivam Ahir)_
 -   [`61912b7`](https://github.com/stdlib-js/stdlib/commit/61912b7eed6c5f60d074210347d31472da963b22) - **docs:** improve examples of `stats/base/dists/exponential` namespace _(by UtkershBasnet, Philipp Burckhardt)_
