@@ -4,22 +4,59 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-12)
+## Unreleased (2024-10-13)
 
 <section class="packages">
 
 ### Packages
 
+<section class="package" id="stats-base-dists-cosine-unreleased">
+
+#### [@stdlib/stats/base/dists/cosine](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/cosine)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#1620](https://github.com/stdlib-js/stdlib/issues/1620)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#1620](https://github.com/stdlib-js/stdlib/issues/1620)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
+-   Kohantika Nath
 -   Philipp Burckhardt
 -   Shivam
 -   Tufailahmed Bargir
@@ -37,6 +74,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e5b993a`](https://github.com/stdlib-js/stdlib/commit/e5b993a1b314d478be07dabc12a7b349872e4427) - **docs:** improve README examples of `stats/base/dists/cosine` namespace [(#2669)](https://github.com/stdlib-js/stdlib/pull/2669) _(by Kohantika Nath, Kohantika Nath, Philipp Burckhardt)_
 -   [`43e7a33`](https://github.com/stdlib-js/stdlib/commit/43e7a3386606e54475e872d24ddf11fa6c122c42) - **chore:** minor clean-up after code review _(by Philipp Burckhardt)_
 -   [`f0ab00b`](https://github.com/stdlib-js/stdlib/commit/f0ab00bf081e55b928de80320c75dc42e713ad3d) - **docs:** improve README examples of `stats/base/dists/chi` namespace [(#1803)](https://github.com/stdlib-js/stdlib/pull/1803) _(by Shivam, Philipp Burckhardt)_
 -   [`caaf0d9`](https://github.com/stdlib-js/stdlib/commit/caaf0d9f3597fac939a52fb15bdf6465fa0a3125) - **docs:** improve README examples of `stats/base/dists/geometric` namespace [(#1801)](https://github.com/stdlib-js/stdlib/pull/1801) _(by Shivam, Philipp Burckhardt, shivam Ahir)_
