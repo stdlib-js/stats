@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-13)
+## Unreleased (2024-10-30)
 
 <section class="packages">
 
@@ -74,6 +74,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`fdd3963`](https://github.com/stdlib-js/stdlib/commit/fdd3963096904e999191e354dede1ca59461adc2) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`e5b993a`](https://github.com/stdlib-js/stdlib/commit/e5b993a1b314d478be07dabc12a7b349872e4427) - **docs:** improve README examples of `stats/base/dists/cosine` namespace [(#2669)](https://github.com/stdlib-js/stdlib/pull/2669) _(by Kohantika Nath, Kohantika Nath, Philipp Burckhardt)_
 -   [`43e7a33`](https://github.com/stdlib-js/stdlib/commit/43e7a3386606e54475e872d24ddf11fa6c122c42) - **chore:** minor clean-up after code review _(by Philipp Burckhardt)_
 -   [`f0ab00b`](https://github.com/stdlib-js/stdlib/commit/f0ab00bf081e55b928de80320c75dc42e713ad3d) - **docs:** improve README examples of `stats/base/dists/chi` namespace [(#1803)](https://github.com/stdlib-js/stdlib/pull/1803) _(by Shivam, Philipp Burckhardt)_
