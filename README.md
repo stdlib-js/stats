@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import statistics from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats/tags). For example,
+
+```javascript
 import statistics from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@v0.3.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { anova1, bartlettTest, base, binomialTest, chi2gof, chi2test, flignerTest, incr, iterators, kde2d, kruskalTest, kstest, leveneTest, lowess, padjust, pcorrtest, ranks, ttest, ttest2, vartest, wilcoxon, ztest, ztest2 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@v0.3.2-esm/index.mjs';
+import { anova1, bartlettTest, base, binomialTest, chi2gof, chi2test, flignerTest, incr, iterators, kde2d, kruskalTest, kstest, leveneTest, lowess, padjust, pcorrtest, ranks, ttest, ttest2, vartest, wilcoxon, ztest, ztest2 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@esm/index.mjs';
 ```
 
 #### statistics
@@ -146,7 +151,7 @@ Other statistical functions included are:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import statistics from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@v0.3.2-esm/index.mjs';
+import statistics from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@esm/index.mjs';
 
 console.log( objectKeys( statistics ) );
 
