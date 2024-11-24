@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-17)
+## Unreleased (2024-11-24)
 
 <section class="packages">
 
@@ -82,6 +82,78 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-scumax-unreleased">
+
+#### [@stdlib/stats/base/scumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumax)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 3 issues were closed in this release:
+
+[#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-snanmax-unreleased">
+
+#### [@stdlib/stats/base/snanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmax)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 3 issues were closed in this release:
+
+[#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-sstdevch-unreleased">
+
+#### [@stdlib/stats/base/sstdevch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sstdevch)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 3 issues were closed in this release:
+
+[#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -90,9 +162,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 6 issues were closed in this release:
 
-[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633)
+[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238)
 
 </section>
 
@@ -102,9 +174,11 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Kohantika Nath
+-   Neeraj Pathak
 -   Philipp Burckhardt
 -   Pratyush Kumar Chouhan
 -   Ruthwik Chikoti
@@ -119,6 +193,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f8dc5fc`](https://github.com/stdlib-js/stdlib/commit/f8dc5fce6476df26e8703b8af8028dfd1477a515) - **docs:** fix C lint errors [(#3249)](https://github.com/stdlib-js/stdlib/pull/3249) _(by Neeraj Pathak, Athan Reines)_
 -   [`28bdda3`](https://github.com/stdlib-js/stdlib/commit/28bdda3affa89470bbdf531cb3bbc233c85d3d17) - **docs:** improve examples of `stats/base/dists/chisquare` namespace [(#2678)](https://github.com/stdlib-js/stdlib/pull/2678) _(by Kohantika Nath, Philipp Burckhardt)_
 -   [`4e1c68b`](https://github.com/stdlib-js/stdlib/commit/4e1c68b10906fea989b1a785405eb17d68553461) - **docs:** improve examples of `stats/base/dists/kumaraswamy` [(#2605)](https://github.com/stdlib-js/stdlib/pull/2605) _(by Ruthwik Chikoti, Philipp Burckhardt)_
 -   [`19c8688`](https://github.com/stdlib-js/stdlib/commit/19c868816d201337c4cb77683c2ff0a306b81e95) - **docs:** improve README examples of `stats/base/dists/laplace` namespace [(#1875)](https://github.com/stdlib-js/stdlib/pull/1875) _(by Pratyush Kumar Chouhan, Philipp Burckhardt)_
