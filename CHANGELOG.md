@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-24)
+## Unreleased (2024-12-10)
 
 <section class="packages">
 
@@ -193,6 +193,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ac06419`](https://github.com/stdlib-js/stdlib/commit/ac06419c2a8358dfd80818823f571077eb58958e) - **docs:** update related packages sections [(#3387)](https://github.com/stdlib-js/stdlib/pull/3387) _(by stdlib-bot)_
 -   [`f8dc5fc`](https://github.com/stdlib-js/stdlib/commit/f8dc5fce6476df26e8703b8af8028dfd1477a515) - **docs:** fix C lint errors [(#3249)](https://github.com/stdlib-js/stdlib/pull/3249) _(by Neeraj Pathak, Athan Reines)_
 -   [`28bdda3`](https://github.com/stdlib-js/stdlib/commit/28bdda3affa89470bbdf531cb3bbc233c85d3d17) - **docs:** improve examples of `stats/base/dists/chisquare` namespace [(#2678)](https://github.com/stdlib-js/stdlib/pull/2678) _(by Kohantika Nath, Philipp Burckhardt)_
 -   [`4e1c68b`](https://github.com/stdlib-js/stdlib/commit/4e1c68b10906fea989b1a785405eb17d68553461) - **docs:** improve examples of `stats/base/dists/kumaraswamy` [(#2605)](https://github.com/stdlib-js/stdlib/pull/2605) _(by Ruthwik Chikoti, Philipp Burckhardt)_
@@ -347,14 +348,14 @@ No changes reported for this release.
 
 A total of 8 people contributed to this release. Thank you to the following contributors:
 
+-   Ahmed Atwa
 -   Athan Reines
 -   Jaimin Godhani
 -   Muhammad Haris
--   NightKnight
+-   Nishant Shinde
 -   Philipp Burckhardt
 -   Rejoan Sardar
 -   Snehil Shah
--   nishant-s7
 
 </section>
 
@@ -376,7 +377,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 -   [`9669982`](https://github.com/stdlib-js/stdlib/commit/966998214dc39efece0cbd557786bc5dde4adcb8) - **style:** resolve lint error _(by Athan Reines)_
 -   [`352993d`](https://github.com/stdlib-js/stdlib/commit/352993db5c4a41180aa78951a0bc1c9faa8aefc4) - **docs:** improve examples of `stats/base/dists/studentized-range` _(by Rejoan Sardar, Philipp Burckhardt)_
 -   [`cc5d91f`](https://github.com/stdlib-js/stdlib/commit/cc5d91fb3df5155821344d6fffbeef23f37e8153) - **style:** remove blank line [(#2339)](https://github.com/stdlib-js/stdlib/pull/2339) _(by stdlib-bot, Philipp Burckhardt)_
--   [`922122e`](https://github.com/stdlib-js/stdlib/commit/922122e319c37170f16e14ce5d074273fd7f0675) - **docs:** improve examples for `stats/base/dists/normal` namespace _(by NightKnight, Philipp Burckhardt)_
+-   [`922122e`](https://github.com/stdlib-js/stdlib/commit/922122e319c37170f16e14ce5d074273fd7f0675) - **docs:** improve examples for `stats/base/dists/normal` namespace _(by Ahmed Atwa, Philipp Burckhardt)_
 -   [`c3ebfa8`](https://github.com/stdlib-js/stdlib/commit/c3ebfa80e311db338b171ebf8eb5f46bc66e9bf6) - **docs:** update namespace table of contents and address spelling errors _(by Philipp Burckhardt)_
 -   [`ac73b91`](https://github.com/stdlib-js/stdlib/commit/ac73b9195cf4f4e087dca2df535ac49831e1aa07) - **docs:** satisfy spellchecker _(by Philipp Burckhardt)_
 -   [`867726b`](https://github.com/stdlib-js/stdlib/commit/867726bb7ef6851ca0986ecdb91bf5a5f246ee5a) - **docs:** update examples in `stats/base/dists/uniform` _(by Muhammad Haris, Philipp Burckhardt)_
@@ -388,8 +389,8 @@ A total of 8 people contributed to this release. Thank you to the following cont
 -   [`e7f1ecd`](https://github.com/stdlib-js/stdlib/commit/e7f1ecd587d5f59ca83c4a4d964d225cb616ac4e) - **docs:** improve README examples of `stats/base/dists/truncated-normal` _(by Rejoan Sardar, Philipp Burckhardt)_
 -   [`37f46fe`](https://github.com/stdlib-js/stdlib/commit/37f46fe9b23d465c21db3aff241d67345a7cd70a) - **docs:** improve README examples of `stats/base/dists/negative-binomial` _(by Rejoan Sardar, Philipp Burckhardt)_
 -   [`452d183`](https://github.com/stdlib-js/stdlib/commit/452d183cf423413fd1c6c8844a92c8e1a998315b) - **docs:** improve README examples for `stats/base/dists/rayleigh` namespace _(by Jaimin Godhani, Philipp Burckhardt)_
--   [`8b0d39d`](https://github.com/stdlib-js/stdlib/commit/8b0d39d2047d445437c597ce5e5962241f0c9056) - **docs:** improve README examples of `stats/base/dists/binomial` namespace _(by nishant-s7, Philipp Burckhardt)_
--   [`d66f5d6`](https://github.com/stdlib-js/stdlib/commit/d66f5d6f7a564b08f57fa210c63a311e5f76df10) - **docs:** improve README examples of `stats/base/dists/poisson` namespace _(by nishant-s7, Philipp Burckhardt)_
+-   [`8b0d39d`](https://github.com/stdlib-js/stdlib/commit/8b0d39d2047d445437c597ce5e5962241f0c9056) - **docs:** improve README examples of `stats/base/dists/binomial` namespace _(by Nishant Shinde, Philipp Burckhardt)_
+-   [`d66f5d6`](https://github.com/stdlib-js/stdlib/commit/d66f5d6f7a564b08f57fa210c63a311e5f76df10) - **docs:** improve README examples of `stats/base/dists/poisson` namespace _(by Nishant Shinde, Philipp Burckhardt)_
 -   [`26d6bde`](https://github.com/stdlib-js/stdlib/commit/26d6bdeb841cc8b23c1bc233a237f1b099ab7a84) - **docs:** improve README examples for `stats/base/dists/t` namespace [(#1728)](https://github.com/stdlib-js/stdlib/pull/1728) _(by Jaimin Godhani)_
 
 </details>
