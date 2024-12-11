@@ -4,11 +4,45 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-10)
+## Unreleased (2024-12-11)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="stats-base-dists-arcsine-cdf-unreleased">
+
+#### [@stdlib/stats/base/dists/arcsine/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/arcsine/cdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e7e0f46`](https://github.com/stdlib-js/stdlib/commit/e7e0f4690074d14b9e2b86a6bc3c61d75ce66ac0) - add C implementation for arcsine CDF [(#3354)](https://github.com/stdlib-js/stdlib/pull/3354)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3384](https://github.com/stdlib-js/stdlib/issues/3384)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 <section class="package" id="stats-base-dists-chisquare-unreleased">
 
@@ -162,9 +196,9 @@ A total of 3 issues were closed in this release:
 
 ### Closed Issues
 
-A total of 6 issues were closed in this release:
+A total of 7 issues were closed in this release:
 
-[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238)
+[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3384](https://github.com/stdlib-js/stdlib/issues/3384)
 
 </section>
 
@@ -193,6 +227,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e7e0f46`](https://github.com/stdlib-js/stdlib/commit/e7e0f4690074d14b9e2b86a6bc3c61d75ce66ac0) - **feat:** add C implementation for arcsine CDF [(#3354)](https://github.com/stdlib-js/stdlib/pull/3354) _(by Philipp Burckhardt, Athan Reines, stdlib-bot)_
 -   [`ac06419`](https://github.com/stdlib-js/stdlib/commit/ac06419c2a8358dfd80818823f571077eb58958e) - **docs:** update related packages sections [(#3387)](https://github.com/stdlib-js/stdlib/pull/3387) _(by stdlib-bot)_
 -   [`f8dc5fc`](https://github.com/stdlib-js/stdlib/commit/f8dc5fce6476df26e8703b8af8028dfd1477a515) - **docs:** fix C lint errors [(#3249)](https://github.com/stdlib-js/stdlib/pull/3249) _(by Neeraj Pathak, Athan Reines)_
 -   [`28bdda3`](https://github.com/stdlib-js/stdlib/commit/28bdda3affa89470bbdf531cb3bbc233c85d3d17) - **docs:** improve examples of `stats/base/dists/chisquare` namespace [(#2678)](https://github.com/stdlib-js/stdlib/pull/2678) _(by Kohantika Nath, Philipp Burckhardt)_
