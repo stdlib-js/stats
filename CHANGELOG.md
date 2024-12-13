@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-12)
+## Unreleased (2024-12-13)
 
 <section class="packages">
 
@@ -67,6 +67,40 @@ This release closes the following issue:
 This release closes the following issue:
 
 [#3401](https://github.com/stdlib-js/stdlib/issues/3401)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-betaprime-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/betaprime/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d1a200b`](https://github.com/stdlib-js/stdlib/commit/d1a200bc6ab344f9fcd8a33a70712456dbf479d0) - add C implementation for `stats/base/dists/betaprime/stdev` [(#3461)](https://github.com/stdlib-js/stdlib/pull/3461)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3446](https://github.com/stdlib-js/stdlib/issues/3446)
 
 </section>
 
@@ -230,9 +264,9 @@ A total of 3 issues were closed in this release:
 
 ### Closed Issues
 
-A total of 8 issues were closed in this release:
+A total of 9 issues were closed in this release:
 
-[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3401](https://github.com/stdlib-js/stdlib/issues/3401)
+[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3446](https://github.com/stdlib-js/stdlib/issues/3446)
 
 </section>
 
@@ -242,8 +276,9 @@ A total of 8 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Athan Reines
 -   Kohantika Nath
 -   Neeraj Pathak
@@ -262,6 +297,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d1a200b`](https://github.com/stdlib-js/stdlib/commit/d1a200bc6ab344f9fcd8a33a70712456dbf479d0) - **feat:** add C implementation for `stats/base/dists/betaprime/stdev` [(#3461)](https://github.com/stdlib-js/stdlib/pull/3461) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
 -   [`cf7d38a`](https://github.com/stdlib-js/stdlib/commit/cf7d38ae3e7bce92cf47778f7b1c3da731121d77) - **docs:** update related packages sections [(#3527)](https://github.com/stdlib-js/stdlib/pull/3527) _(by stdlib-bot)_
 -   [`1d283b5`](https://github.com/stdlib-js/stdlib/commit/1d283b5f174dc2ec7770bd7be861cdb2f146027d) - **feat:** add C implementation of `stats/base/dists/arcsine/logpdf` [(#3454)](https://github.com/stdlib-js/stdlib/pull/3454) _(by Vinit Pandit, Philipp Burckhardt)_
 -   [`e7e0f46`](https://github.com/stdlib-js/stdlib/commit/e7e0f4690074d14b9e2b86a6bc3c61d75ce66ac0) - **feat:** add C implementation for arcsine CDF [(#3354)](https://github.com/stdlib-js/stdlib/pull/3354) _(by Philipp Burckhardt, Athan Reines, stdlib-bot)_
