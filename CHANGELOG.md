@@ -44,6 +44,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-arcsine-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/arcsine/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/arcsine/entropy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`222ef72`](https://github.com/stdlib-js/stdlib/commit/222ef725730746806fa15ac1d735f0284cf4616e) - add C implementation for `stats/base/dists/arcsine/entropy` [(#3379)](https://github.com/stdlib-js/stdlib/pull/3379)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3378](https://github.com/stdlib-js/stdlib/issues/3378)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-arcsine-logpdf-unreleased">
 
 #### [@stdlib/stats/base/dists/arcsine/logpdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/arcsine/logpdf)
@@ -298,9 +332,9 @@ A total of 3 issues were closed in this release:
 
 ### Closed Issues
 
-A total of 10 issues were closed in this release:
+A total of 11 issues were closed in this release:
 
-[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3446](https://github.com/stdlib-js/stdlib/issues/3446)
+[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3378](https://github.com/stdlib-js/stdlib/issues/3378), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3446](https://github.com/stdlib-js/stdlib/issues/3446)
 
 </section>
 
@@ -332,6 +366,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`222ef72`](https://github.com/stdlib-js/stdlib/commit/222ef725730746806fa15ac1d735f0284cf4616e) - **feat:** add C implementation for `stats/base/dists/arcsine/entropy` [(#3379)](https://github.com/stdlib-js/stdlib/pull/3379) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`5019fab`](https://github.com/stdlib-js/stdlib/commit/5019fab885f33507350e6b7ec6a61e1e283d6249) - **feat:** add C implementation for `stats/base/dists/bernoulli/mean` [(#3451)](https://github.com/stdlib-js/stdlib/pull/3451) _(by Vivek maurya, Athan Reines, stdlib-bot)_
 -   [`be1e1c4`](https://github.com/stdlib-js/stdlib/commit/be1e1c4a2e5d9a1e0ebc0e2f0a4244c50d4142c5) - **bench:** fix missing namespace _(by Athan Reines)_
 -   [`d1a200b`](https://github.com/stdlib-js/stdlib/commit/d1a200bc6ab344f9fcd8a33a70712456dbf479d0) - **feat:** add C implementation for `stats/base/dists/betaprime/stdev` [(#3461)](https://github.com/stdlib-js/stdlib/pull/3461) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
