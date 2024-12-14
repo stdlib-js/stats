@@ -204,6 +204,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-invgamma-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/invgamma/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/invgamma/entropy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e9d539e`](https://github.com/stdlib-js/stdlib/commit/e9d539ed6f0185d2455a45b5e29bd50d5c556db5) - add C implementation for `stats/base/dists/invgamma/entropy` [(#3682)](https://github.com/stdlib-js/stdlib/pull/3682)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3671](https://github.com/stdlib-js/stdlib/issues/3671)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-kumaraswamy-unreleased">
 
 #### [@stdlib/stats/base/dists/kumaraswamy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/kumaraswamy)
@@ -332,9 +366,9 @@ A total of 3 issues were closed in this release:
 
 ### Closed Issues
 
-A total of 11 issues were closed in this release:
+A total of 12 issues were closed in this release:
 
-[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3378](https://github.com/stdlib-js/stdlib/issues/3378), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3446](https://github.com/stdlib-js/stdlib/issues/3446)
+[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3378](https://github.com/stdlib-js/stdlib/issues/3378), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3671](https://github.com/stdlib-js/stdlib/issues/3671)
 
 </section>
 
@@ -366,6 +400,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e9d539e`](https://github.com/stdlib-js/stdlib/commit/e9d539ed6f0185d2455a45b5e29bd50d5c556db5) - **feat:** add C implementation for `stats/base/dists/invgamma/entropy` [(#3682)](https://github.com/stdlib-js/stdlib/pull/3682) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
 -   [`222ef72`](https://github.com/stdlib-js/stdlib/commit/222ef725730746806fa15ac1d735f0284cf4616e) - **feat:** add C implementation for `stats/base/dists/arcsine/entropy` [(#3379)](https://github.com/stdlib-js/stdlib/pull/3379) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`5019fab`](https://github.com/stdlib-js/stdlib/commit/5019fab885f33507350e6b7ec6a61e1e283d6249) - **feat:** add C implementation for `stats/base/dists/bernoulli/mean` [(#3451)](https://github.com/stdlib-js/stdlib/pull/3451) _(by Vivek maurya, Athan Reines, stdlib-bot)_
 -   [`be1e1c4`](https://github.com/stdlib-js/stdlib/commit/be1e1c4a2e5d9a1e0ebc0e2f0a4244c50d4142c5) - **bench:** fix missing namespace _(by Athan Reines)_
