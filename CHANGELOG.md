@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-13)
+## Unreleased (2024-12-14)
 
 <section class="packages">
 
@@ -67,6 +67,40 @@ This release closes the following issue:
 This release closes the following issue:
 
 [#3401](https://github.com/stdlib-js/stdlib/issues/3401)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-bernoulli-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/bernoulli/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bernoulli/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5019fab`](https://github.com/stdlib-js/stdlib/commit/5019fab885f33507350e6b7ec6a61e1e283d6249) - add C implementation for `stats/base/dists/bernoulli/mean` [(#3451)](https://github.com/stdlib-js/stdlib/pull/3451)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3414](https://github.com/stdlib-js/stdlib/issues/3414)
 
 </section>
 
@@ -264,9 +298,9 @@ A total of 3 issues were closed in this release:
 
 ### Closed Issues
 
-A total of 9 issues were closed in this release:
+A total of 10 issues were closed in this release:
 
-[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3446](https://github.com/stdlib-js/stdlib/issues/3446)
+[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3446](https://github.com/stdlib-js/stdlib/issues/3446)
 
 </section>
 
@@ -276,7 +310,7 @@ A total of 9 issues were closed in this release:
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
@@ -286,6 +320,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 -   Pratyush Kumar Chouhan
 -   Ruthwik Chikoti
 -   Vinit Pandit
+-   Vivek maurya
 
 </section>
 
@@ -297,6 +332,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`5019fab`](https://github.com/stdlib-js/stdlib/commit/5019fab885f33507350e6b7ec6a61e1e283d6249) - **feat:** add C implementation for `stats/base/dists/bernoulli/mean` [(#3451)](https://github.com/stdlib-js/stdlib/pull/3451) _(by Vivek maurya, Athan Reines, stdlib-bot)_
 -   [`be1e1c4`](https://github.com/stdlib-js/stdlib/commit/be1e1c4a2e5d9a1e0ebc0e2f0a4244c50d4142c5) - **bench:** fix missing namespace _(by Athan Reines)_
 -   [`d1a200b`](https://github.com/stdlib-js/stdlib/commit/d1a200bc6ab344f9fcd8a33a70712456dbf479d0) - **feat:** add C implementation for `stats/base/dists/betaprime/stdev` [(#3461)](https://github.com/stdlib-js/stdlib/pull/3461) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
 -   [`cf7d38a`](https://github.com/stdlib-js/stdlib/commit/cf7d38ae3e7bce92cf47778f7b1c3da731121d77) - **docs:** update related packages sections [(#3527)](https://github.com/stdlib-js/stdlib/pull/3527) _(by stdlib-bot)_
