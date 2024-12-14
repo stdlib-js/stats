@@ -180,6 +180,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-beta-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/beta/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/beta/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`12a3dbf`](https://github.com/stdlib-js/stdlib/commit/12a3dbf094bb89c50ea468b9c75789124940b510) - add C implementation for `@stdlib/stats/base/dists/beta/stdev` [(#3909)](https://github.com/stdlib-js/stdlib/pull/3909)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3435](https://github.com/stdlib-js/stdlib/issues/3435)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-betaprime-kurtosis-unreleased">
 
 #### [@stdlib/stats/base/dists/betaprime/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/kurtosis)
@@ -502,9 +536,9 @@ A total of 3 issues were closed in this release:
 
 ### Closed Issues
 
-A total of 16 issues were closed in this release:
+A total of 17 issues were closed in this release:
 
-[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3378](https://github.com/stdlib-js/stdlib/issues/3378), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3385](https://github.com/stdlib-js/stdlib/issues/3385), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447), [#3671](https://github.com/stdlib-js/stdlib/issues/3671)
+[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3378](https://github.com/stdlib-js/stdlib/issues/3378), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3385](https://github.com/stdlib-js/stdlib/issues/3385), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3435](https://github.com/stdlib-js/stdlib/issues/3435), [#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447), [#3671](https://github.com/stdlib-js/stdlib/issues/3671)
 
 </section>
 
@@ -514,7 +548,7 @@ A total of 16 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
@@ -524,6 +558,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   Pratyush Kumar Chouhan
 -   Ruthwik Chikoti
 -   Vinit Pandit
+-   Vivek Maurya
 -   Vivek maurya
 
 </section>
@@ -536,6 +571,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`12a3dbf`](https://github.com/stdlib-js/stdlib/commit/12a3dbf094bb89c50ea468b9c75789124940b510) - **feat:** add C implementation for `@stdlib/stats/base/dists/beta/stdev` [(#3909)](https://github.com/stdlib-js/stdlib/pull/3909) _(by Vivek maurya, Vivek Maurya)_
 -   [`1a98e92`](https://github.com/stdlib-js/stdlib/commit/1a98e9262d48a49dde1925c2a1d501511d795f05) - **feat:** add C implementation for `stats/base/dists/betaprime/kurtosis` [(#3459)](https://github.com/stdlib-js/stdlib/pull/3459) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
 -   [`c77a433`](https://github.com/stdlib-js/stdlib/commit/c77a433d6e33ad5f4879d32211d8cfdb4e5fa2c6) - **feat:** add C implementation for `stats/base/dists/betaprime/variance` [(#3460)](https://github.com/stdlib-js/stdlib/pull/3460) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
 -   [`0fc07d1`](https://github.com/stdlib-js/stdlib/commit/0fc07d1722a3da70464b37d4de5f6a762468f85e) - **feat:** add C implementation for `stats/base/dists/betaprime/skewness` [(#3462)](https://github.com/stdlib-js/stdlib/pull/3462) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
