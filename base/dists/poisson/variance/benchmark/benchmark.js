@@ -21,7 +21,6 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var Float64Array = require( '@stdlib/array/float64' );
 var randu = require( '@stdlib/random/base/randu' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var EPS = require( '@stdlib/constants/float64/eps' );
@@ -33,19 +32,13 @@ var variance = require( './../lib' );
 
 bench( pkg, function benchmark( b ) {
 	var lambda;
-	var len;
 	var y;
 	var i;
 
-	len = 100;
-	lambda = new Float64Array( len );
-	for ( i = 0; i < len; i++ ) {
-		lambda[ i ] = ( randu() * 20.0 ) + EPS;
-	}
-
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = variance( lambda[ i % len ] );
+		lambda = ( randu()*20.0 ) + EPS;
+		y = variance( lambda );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
