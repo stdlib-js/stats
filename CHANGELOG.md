@@ -524,6 +524,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-t-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/t/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e661ffe`](https://github.com/stdlib-js/stdlib/commit/e661ffe97297b6876bbc2c8bb89cd6a3e25d3fbd) - add C implementation for `stats/base/dists/t/skewness` [(#3920)](https://github.com/stdlib-js/stdlib/pull/3920)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3879](https://github.com/stdlib-js/stdlib/issues/3879)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-scumax-unreleased">
 
 #### [@stdlib/stats/base/scumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumax)
@@ -604,9 +638,9 @@ A total of 3 issues were closed in this release:
 
 ### Closed Issues
 
-A total of 19 issues were closed in this release:
+A total of 20 issues were closed in this release:
 
-[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3378](https://github.com/stdlib-js/stdlib/issues/3378), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3385](https://github.com/stdlib-js/stdlib/issues/3385), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3417](https://github.com/stdlib-js/stdlib/issues/3417), [#3421](https://github.com/stdlib-js/stdlib/issues/3421), [#3435](https://github.com/stdlib-js/stdlib/issues/3435), [#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447), [#3671](https://github.com/stdlib-js/stdlib/issues/3671)
+[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3378](https://github.com/stdlib-js/stdlib/issues/3378), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3385](https://github.com/stdlib-js/stdlib/issues/3385), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3417](https://github.com/stdlib-js/stdlib/issues/3417), [#3421](https://github.com/stdlib-js/stdlib/issues/3421), [#3435](https://github.com/stdlib-js/stdlib/issues/3435), [#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447), [#3671](https://github.com/stdlib-js/stdlib/issues/3671), [#3879](https://github.com/stdlib-js/stdlib/issues/3879)
 
 </section>
 
@@ -639,6 +673,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e661ffe`](https://github.com/stdlib-js/stdlib/commit/e661ffe97297b6876bbc2c8bb89cd6a3e25d3fbd) - **feat:** add C implementation for `stats/base/dists/t/skewness` [(#3920)](https://github.com/stdlib-js/stdlib/pull/3920) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
 -   [`b8c41df`](https://github.com/stdlib-js/stdlib/commit/b8c41df78cd2cdc9cd3c3c6b223759d32f4f6e14) - **docs:** update related packages sections [(#3915)](https://github.com/stdlib-js/stdlib/pull/3915) _(by stdlib-bot)_
 -   [`3704e0c`](https://github.com/stdlib-js/stdlib/commit/3704e0cc1ae8e4f548ba2b1381e74ea7e8f042fd) - **feat:** add C implementation for `@stdlib/stats/base/dists/bernoulli/stdev` [(#3683)](https://github.com/stdlib-js/stdlib/pull/3683) _(by Vivek maurya, Philipp Burckhardt)_
 -   [`06258f9`](https://github.com/stdlib-js/stdlib/commit/06258f9815f711fe5154458220c3f381d9b9134c) - **feat:** add C implementation for `stats/base/dists/bernoulli/mode` [(#3450)](https://github.com/stdlib-js/stdlib/pull/3450) _(by Vivek maurya, Philipp Burckhardt, stdlib-bot)_
