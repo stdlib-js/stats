@@ -16,28 +16,23 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dists/beta/stdev.h"
-#include "stdlib/math/base/special/sqrt.h"
+#include "stdlib/stats/base/dists/beta/mode.h"
+
 
 /**
-* Returns the standard deviation of a beta distribution.
+* Returns the mode of a beta distribution.
 *
 * @param alpha    first shape parameter
 * @param beta     second shape parameter
-* @return         standard deviation
+* @return         mode
 *
 * @example
-* double y = stdlib_base_beta_stdev( 1.0, 1.0 );
-* // returns ~0.289
+* double y = stdlib_base_beta_mode( 4.0, 12.0 );
+* // returns ~0.214
 */
-double stdlib_base_dists_beta_stdev( const double alpha, const double beta ) {
-	double apb;
-	double out;
-	if ( alpha <= 0.0 || beta <= 0.0 ) {
+double stdlib_base_dists_beta_mode( const double alpha, const double beta ) {
+	if ( alpha <= 1.0 || beta <= 1.0 ) {
 		return 0.0/0.0; // NaN
 	}
-	apb = alpha + beta;
-	out = stdlib_base_sqrt( ( alpha * beta ) / ( apb + 1.0 ) );
-	out /= apb;
-	return out;
+	return ( alpha-1.0 ) / ( alpha+beta-2.0 );
 }

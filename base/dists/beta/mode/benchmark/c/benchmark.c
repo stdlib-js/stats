@@ -16,14 +16,15 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dists/arcsine/kurtosis.h"
+#include "stdlib/stats/base/dists/beta/mode.h"
+#include "stdlib/constants/float64/eps.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
 #include <time.h>
 #include <sys/time.h>
 
-#define NAME "arcsine-kurtosis"
+#define NAME "beta-mode"
 #define ITERATIONS 1000000
 #define REPEATS 3
 
@@ -93,20 +94,20 @@ static double random_uniform( const double min, const double max ) {
 */
 static double benchmark( void ) {
 	double elapsed;
-	double min[ 100 ];
-	double max[ 100 ];
+	double alpha[ 100 ];
+	double beta[ 100 ];
 	double y;
 	double t;
 	int i;
 
 	for ( i = 0; i < 100; i++ ) {
-		min[ i ] = random_uniform( 0.0, 20.0 );
-		max[ i ] = random_uniform( 0.0, 20.0 ) + min[ i ];
+		alpha[ i ] = random_uniform( 0.0, 10.0 ) + 1.0 + STDLIB_CONSTANT_FLOAT64_EPS;
+		beta[ i ] = random_uniform( 0.0, 10.0 ) + 1.0 + STDLIB_CONSTANT_FLOAT64_EPS;
 	}
 
 	t = tic();
 	for ( i = 0; i < ITERATIONS; i++ ) {
-		y = stdlib_base_dists_arcsine_kurtosis( min[ i % 100 ], max[ i % 100 ] );
+		y = stdlib_base_dists_beta_mode( alpha[ i%100 ], beta[ i%100 ] );
 		if ( y != y ) {
 			printf( "should not return NaN\n" );
 			break;

@@ -282,6 +282,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-beta-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/beta/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/beta/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b018e09`](https://github.com/stdlib-js/stdlib/commit/b018e09b9cdaf0d9cfb06a815b3c3ea0ee2c0067) - add C implementation for `stats/base/dists/beta/mode` [(#3908)](https://github.com/stdlib-js/stdlib/pull/3908)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3431](https://github.com/stdlib-js/stdlib/issues/3431)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-beta-skewness-unreleased">
 
 #### [@stdlib/stats/base/dists/beta/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/beta/skewness)
@@ -808,9 +842,9 @@ A total of 3 issues were closed in this release:
 
 ### Closed Issues
 
-A total of 25 issues were closed in this release:
+A total of 26 issues were closed in this release:
 
-[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3378](https://github.com/stdlib-js/stdlib/issues/3378), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3385](https://github.com/stdlib-js/stdlib/issues/3385), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3402](https://github.com/stdlib-js/stdlib/issues/3402), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3417](https://github.com/stdlib-js/stdlib/issues/3417), [#3421](https://github.com/stdlib-js/stdlib/issues/3421), [#3434](https://github.com/stdlib-js/stdlib/issues/3434), [#3435](https://github.com/stdlib-js/stdlib/issues/3435), [#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447), [#3671](https://github.com/stdlib-js/stdlib/issues/3671), [#3865](https://github.com/stdlib-js/stdlib/issues/3865), [#3874](https://github.com/stdlib-js/stdlib/issues/3874), [#3879](https://github.com/stdlib-js/stdlib/issues/3879), [#3880](https://github.com/stdlib-js/stdlib/issues/3880)
+[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#1632](https://github.com/stdlib-js/stdlib/issues/1632), [#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3236](https://github.com/stdlib-js/stdlib/issues/3236), [#3237](https://github.com/stdlib-js/stdlib/issues/3237), [#3238](https://github.com/stdlib-js/stdlib/issues/3238), [#3378](https://github.com/stdlib-js/stdlib/issues/3378), [#3384](https://github.com/stdlib-js/stdlib/issues/3384), [#3385](https://github.com/stdlib-js/stdlib/issues/3385), [#3401](https://github.com/stdlib-js/stdlib/issues/3401), [#3402](https://github.com/stdlib-js/stdlib/issues/3402), [#3414](https://github.com/stdlib-js/stdlib/issues/3414), [#3417](https://github.com/stdlib-js/stdlib/issues/3417), [#3421](https://github.com/stdlib-js/stdlib/issues/3421), [#3431](https://github.com/stdlib-js/stdlib/issues/3431), [#3434](https://github.com/stdlib-js/stdlib/issues/3434), [#3435](https://github.com/stdlib-js/stdlib/issues/3435), [#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447), [#3671](https://github.com/stdlib-js/stdlib/issues/3671), [#3865](https://github.com/stdlib-js/stdlib/issues/3865), [#3874](https://github.com/stdlib-js/stdlib/issues/3874), [#3879](https://github.com/stdlib-js/stdlib/issues/3879), [#3880](https://github.com/stdlib-js/stdlib/issues/3880)
 
 </section>
 
@@ -845,6 +879,16 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b018e09`](https://github.com/stdlib-js/stdlib/commit/b018e09b9cdaf0d9cfb06a815b3c3ea0ee2c0067) - **feat:** add C implementation for `stats/base/dists/beta/mode` [(#3908)](https://github.com/stdlib-js/stdlib/pull/3908) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`ed99b85`](https://github.com/stdlib-js/stdlib/commit/ed99b8564b5ea451e094ea331eab9df470df96eb) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`0e887d5`](https://github.com/stdlib-js/stdlib/commit/0e887d567344c8a31a382266389022ec26f2bcca) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
+-   [`6bbf2d6`](https://github.com/stdlib-js/stdlib/commit/6bbf2d67034e056190594bf2bceca4eb40a66b6f) - **style:** fix indentation _(by Philipp Burckhardt)_
+-   [`0756fb5`](https://github.com/stdlib-js/stdlib/commit/0756fb583ae0061031335704fdc46805f408f9c9) - **style:** remove empty lines _(by Philipp Burckhardt)_
+-   [`cfc0665`](https://github.com/stdlib-js/stdlib/commit/cfc0665435a1f99158d7fed39b8873dea6aa6209) - **docs:** add missing private tag _(by Philipp Burckhardt)_
+-   [`e450426`](https://github.com/stdlib-js/stdlib/commit/e450426813957ec4de5e31434edb969741db7c94) - **bench:** add missing native suffix _(by Philipp Burckhardt)_
+-   [`3b4998d`](https://github.com/stdlib-js/stdlib/commit/3b4998d26569c2c7ac9cd437dadcdbe06da0093d) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`3c1789f`](https://github.com/stdlib-js/stdlib/commit/3c1789fdfe3ae56635ddf84fb5dfe229237794fa) - **docs:** add missing private annotations and decimals _(by Philipp Burckhardt)_
 -   [`03494c2`](https://github.com/stdlib-js/stdlib/commit/03494c2d20c88a2ab68fdd9fbf79c396e1885440) - **feat:** add C implementation for `stats/base/dists/t/mean` [(#3922)](https://github.com/stdlib-js/stdlib/pull/3922) _(by Aadish Jain, Philipp Burckhardt)_
 -   [`a146971`](https://github.com/stdlib-js/stdlib/commit/a1469718890f5a007c6c7343757b621274dad0e0) - **feat:** add C implementation for `stats/base/dists/pareto-type1/skewness` [(#3927)](https://github.com/stdlib-js/stdlib/pull/3927) _(by Gururaj Gurram, Philipp Burckhardt)_
 -   [`9d7f4db`](https://github.com/stdlib-js/stdlib/commit/9d7f4dbd6c71a2a57b2e55a88e5b7ded091cbd67) - **feat:** add C implementation for `stats/base/dists/beta/skewness` [(#3921)](https://github.com/stdlib-js/stdlib/pull/3921) _(by Vivek maurya, Philipp Burckhardt)_

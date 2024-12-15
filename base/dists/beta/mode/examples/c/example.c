@@ -16,7 +16,8 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dists/arcsine/kurtosis.h"
+#include "stdlib/stats/base/dists/beta/mode.h"
+#include "stdlib/constants/float64/eps.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -26,15 +27,15 @@ static double random_uniform( const double min, const double max ) {
 }
 
 int main( void ) {
-	double a;
-	double b;
+	double alpha;
+	double beta;
 	double y;
 	int i;
 
 	for ( i = 0; i < 25; i++ ) {
-		a = random_uniform( 0.0, 20.0 );
-		b = random_uniform( 0.0, 20.0 ) + a;
-		y = stdlib_base_dists_arcsine_kurtosis( a, b );
-		printf( "a: %lf, b: %lf, Kurt(X;a,b): %lf\n", a, b, y );
+		alpha = random_uniform( 0.0, 10.0 ) + 1.0 + STDLIB_CONSTANT_FLOAT64_EPS;
+		beta = random_uniform( 0.0, 10.0 ) + 1.0 + STDLIB_CONSTANT_FLOAT64_EPS;
+		y = stdlib_base_dists_beta_mode( alpha, beta );
+		printf( "alpha: %lf, beta: %lf, mode(X;alpha,beta): %lf\n", alpha, beta, y );
 	}
 }

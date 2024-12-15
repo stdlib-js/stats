@@ -16,25 +16,23 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dists/arcsine/kurtosis.h"
-#include <stdlib.h>
-#include <stdio.h>
+#ifndef STDLIB_STATS_BASE_DISTS_BETA_MODE_H
+#define STDLIB_STATS_BASE_DISTS_BETA_MODE_H
 
-static double random_uniform( const double min, const double max ) {
-	double v = (double)rand() / ( (double)RAND_MAX + 1.0 );
-	return min + ( v*(max-min) );
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/**
+* Returns the mode of a beta distribution.
+*/
+double stdlib_base_dists_beta_mode( const double alpha, const double beta );
+
+#ifdef __cplusplus
 }
+#endif
 
-int main( void ) {
-	double a;
-	double b;
-	double y;
-	int i;
-
-	for ( i = 0; i < 25; i++ ) {
-		a = random_uniform( 0.0, 20.0 );
-		b = random_uniform( 0.0, 20.0 ) + a;
-		y = stdlib_base_dists_arcsine_kurtosis( a, b );
-		printf( "a: %lf, b: %lf, Kurt(X;a,b): %lf\n", a, b, y );
-	}
-}
+#endif // !STDLIB_STATS_BASE_DISTS_BETA_MODE_H

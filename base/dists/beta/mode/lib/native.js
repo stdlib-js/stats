@@ -26,46 +26,46 @@ var addon = require( './../src/addon.node' );
 // MAIN //
 
 /**
-* Returns the skewness of a Pareto (Type I) distribution.
+* Returns the mode of a beta distribution.
 *
 * @private
-* @param {PositiveNumber} alpha - shape parameter
-* @param {PositiveNumber} beta - scale parameter
-* @returns {PositiveNumber} skewness
+* @param {PositiveNumber} alpha - first shape parameter
+* @param {PositiveNumber} beta - second shape parameter
+* @returns {PositiveNumber} mode
 *
 * @example
-* var v = skewness( 3.5, 1.0 );
-* // returns ~11.784
+* var v = mode( 4.0, 12.0 );
+* // returns ~0.214
 *
 * @example
-* var v = skewness( 4.0, 12.0 );
-* // returns ~7.071
+* var v = mode( 8.0, 2.0 );
+* // returns ~0.875
 *
 * @example
-* var v = skewness( 8.0, 2.0 );
-* // returns ~3.118
-*
-* @example
-* var v = skewness( 1.0, -0.1 );
+* var v = mode( 1.0, 1.0 );
 * // returns NaN
 *
 * @example
-* var v = skewness( -0.1, 1.0 );
+* var v = mode( 2.0, 0.8 );
 * // returns NaN
 *
 * @example
-* var v = skewness( 2.0, NaN );
+* var v = mode( -0.1, 2.0 );
 * // returns NaN
 *
 * @example
-* var v = skewness( NaN, 2.0 );
+* var v = mode( 2.0, NaN );
+* // returns NaN
+*
+* @example
+* var v = mode( NaN, 2.0 );
 * // returns NaN
 */
-function skewness( alpha, beta ) {
+function mode( alpha, beta ) {
 	return addon( alpha, beta );
 }
 
 
 // EXPORTS //
 
-module.exports = skewness;
+module.exports = mode;

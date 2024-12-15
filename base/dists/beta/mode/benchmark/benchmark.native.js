@@ -23,6 +23,7 @@
 var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
 var Float64Array = require( '@stdlib/array/float64' );
+var EPS = require( '@stdlib/constants/float64/eps' );
 var randu = require( '@stdlib/random/base/randu' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var tryRequire = require( '@stdlib/utils/try-require' );
@@ -31,35 +32,32 @@ var pkg = require( './../package.json' ).name;
 
 // VARIABLES //
 
-var pdf = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var mode = tryRequire( resolve( __dirname, './../lib/native.js' ) );
 var opts = {
-	'skip': ( pdf instanceof Error )
+	'skip': ( mode instanceof Error )
 };
 
 
 // MAIN //
 
 bench( pkg+'::native', opts, function benchmark( b ) {
+	var alpha;
+	var beta;
 	var len;
-	var min;
-	var max;
-	var x;
 	var y;
 	var i;
 
 	len = 100;
-	x = new Float64Array( len );
-	min = new Float64Array( len );
-	max = new Float64Array( len );
+	alpha = new Float64Array( len );
+	beta = new Float64Array( len );
 	for ( i = 0; i < len; i++ ) {
-		x[ i ] = ( randu() * 20.0 ) - 10.0;
-		min[ i ] = ( randu() * 20.0 ) - 20.0;
-		max[ i ] = min[ i ] + ( randu() * 40.0 );
+		alpha[ i ] = ( randu()*10.0 ) + 1.0 + EPS;
+		beta[ i ] = ( randu()*10.0 ) + 1.0 + EPS;
 	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = pdf( x[ i % len ], min[ i % len ], max[ i % len ] );
+		y = mode( alpha[ i % len ], beta[ i % len ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
