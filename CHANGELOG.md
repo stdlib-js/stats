@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-14)
+## Unreleased (2024-12-15)
 
 <section class="packages">
 
@@ -639,6 +639,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b8c41df`](https://github.com/stdlib-js/stdlib/commit/b8c41df78cd2cdc9cd3c3c6b223759d32f4f6e14) - **docs:** update related packages sections [(#3915)](https://github.com/stdlib-js/stdlib/pull/3915) _(by stdlib-bot)_
 -   [`3704e0c`](https://github.com/stdlib-js/stdlib/commit/3704e0cc1ae8e4f548ba2b1381e74ea7e8f042fd) - **feat:** add C implementation for `@stdlib/stats/base/dists/bernoulli/stdev` [(#3683)](https://github.com/stdlib-js/stdlib/pull/3683) _(by Vivek maurya, Philipp Burckhardt)_
 -   [`06258f9`](https://github.com/stdlib-js/stdlib/commit/06258f9815f711fe5154458220c3f381d9b9134c) - **feat:** add C implementation for `stats/base/dists/bernoulli/mode` [(#3450)](https://github.com/stdlib-js/stdlib/pull/3450) _(by Vivek maurya, Philipp Burckhardt, stdlib-bot)_
 -   [`12a3dbf`](https://github.com/stdlib-js/stdlib/commit/12a3dbf094bb89c50ea468b9c75789124940b510) - **feat:** add C implementation for `@stdlib/stats/base/dists/beta/stdev` [(#3909)](https://github.com/stdlib-js/stdlib/pull/3909) _(by Vivek maurya, Vivek Maurya)_
