@@ -1118,6 +1118,7 @@ A total of 13 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ccbaa42`](https://github.com/stdlib-js/stdlib/commit/ccbaa42486fd36b15e2c17b0d30e0b0508f533d6) - **style:** fix formatting _(by Athan Reines)_
 -   [`6a2b590`](https://github.com/stdlib-js/stdlib/commit/6a2b590b118fef59a3e3a9e40854973d02a8b8fc) - **feat:** add C implementation for `stats/base/dists/t/kurtosis` [(#3905)](https://github.com/stdlib-js/stdlib/pull/3905) _(by Aayush Khanna, aayush0325)_
 -   [`2b67875`](https://github.com/stdlib-js/stdlib/commit/2b67875eca43c4846a5b048971eab7bf898216e9) - **feat:** add C implementation for `stats/base/dists/laplace/variance` [(#3948)](https://github.com/stdlib-js/stdlib/pull/3948) _(by Aayush Khanna, stdlib-bot)_
 -   [`930ed98`](https://github.com/stdlib-js/stdlib/commit/930ed98207b9ae67f00b23917755589dbbd03fe5) - **feat:** add C implementation for `stats/base/dists/uniform/variance` [(#3951)](https://github.com/stdlib-js/stdlib/pull/3951) _(by Aayush Khanna)_
