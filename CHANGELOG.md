@@ -1561,6 +1561,7 @@ A total of 14 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8bf8285`](https://github.com/stdlib-js/stdlib/commit/8bf8285aba0ecbd00ae145c4c5c098cd28135814) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`9685979`](https://github.com/stdlib-js/stdlib/commit/968597945b0e8d1042ce17b6e08ca0f3e64058b4) - **feat:** add C implementation for `stats/base/dists/logistic/variance` [(#3994)](https://github.com/stdlib-js/stdlib/pull/3994) _(by Aayush Khanna, stdlib-bot)_
 -   [`c0d9c76`](https://github.com/stdlib-js/stdlib/commit/c0d9c760c9657e28d6b1d3daf5013708a928ae6c) - **feat:** add C implementation `stats/base/dists/rayleigh/pdf` [(#3945)](https://github.com/stdlib-js/stdlib/pull/3945) _(by Vinit Pandit, Philipp Burckhardt)_
 -   [`3a05645`](https://github.com/stdlib-js/stdlib/commit/3a05645a2054675503b44dffb2f6817298bc9bd9) - **feat:** add C implementation of `stats/base/dists/rayleigh/logcdf` [(#3957)](https://github.com/stdlib-js/stdlib/pull/3957) _(by Vinit Pandit, Philipp Burckhardt)_
