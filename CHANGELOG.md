@@ -2360,6 +2360,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dmax-unreleased">
+
+#### [@stdlib/stats/base/dmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9ff9694`](https://github.com/stdlib-js/stdlib/commit/9ff9694ed033ca90462c7afe4c44aba1ef42d11c) - add C ndarray interface and refactor implementation
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-scumax-unreleased">
 
 #### [@stdlib/stats/base/scumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumax)
@@ -2482,6 +2504,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9ff9694`](https://github.com/stdlib-js/stdlib/commit/9ff9694ed033ca90462c7afe4c44aba1ef42d11c) - **feat:** add C ndarray interface and refactor implementation _(by Athan Reines)_
 -   [`430e40e`](https://github.com/stdlib-js/stdlib/commit/430e40eda1d5a379561b434df31fc3bc5dcc2ce3) - **refactor:** update `stats/base/dmeanpw` native addon from C++ to C [(#4101)](https://github.com/stdlib-js/stdlib/pull/4101) _(by Aayush Khanna)_
 -   [`dbb5935`](https://github.com/stdlib-js/stdlib/commit/dbb59359010b9ac0a404604914d5db63f8fadcbc) - **refactor:** update `stats/base/dmeanpn` native addon from C++ to C [(#4100)](https://github.com/stdlib-js/stdlib/pull/4100) _(by Aayush Khanna)_
 -   [`dcbceb5`](https://github.com/stdlib-js/stdlib/commit/dcbceb58fd01d6d5515059445629c61880f4ef71) - **refactor:** update `stats/base/dmeanors` native addon from C++ to C [(#4099)](https://github.com/stdlib-js/stdlib/pull/4099) _(by Aayush Khanna)_
