@@ -2912,6 +2912,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9a70521`](https://github.com/stdlib-js/stdlib/commit/9a70521fa60f2f847cdec20bad13e8ec5a33f24b) - **docs:** update namespace ToCs _(by Athan Reines)_
 -   [`f13ddb2`](https://github.com/stdlib-js/stdlib/commit/f13ddb2eb01e5520b6fa98634bbf9de76793036f) - **style:** use spaces for alignment in C comments _(by Philipp Burckhardt)_
 -   [`83aeb94`](https://github.com/stdlib-js/stdlib/commit/83aeb942ded7a90ee0b954fedc683f7b46ddd5e7) - **feat:** add C implementation for `stats/base/dists/gamma/stdev` [(#4128)](https://github.com/stdlib-js/stdlib/pull/4128) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`9d4ff4d`](https://github.com/stdlib-js/stdlib/commit/9d4ff4d2ea4c7b3244b3855124790aef5f526f41) - **feat:** add C implementation for `stats/base/dists/exponential/median` [(#4049)](https://github.com/stdlib-js/stdlib/pull/4049) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
