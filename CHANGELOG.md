@@ -2482,6 +2482,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f0f7c37`](https://github.com/stdlib-js/stdlib/commit/f0f7c37fac61c123c48e72e49c41552263aa32a0) - **refactor:** update `stats/base/dcumin` native addon from C++ to C [(#4074)](https://github.com/stdlib-js/stdlib/pull/4074) _(by Aayush Khanna)_
 -   [`fd70f66`](https://github.com/stdlib-js/stdlib/commit/fd70f66305c6bb5a01cfa5fa4e8b983703ab98d2) - **refactor:** update `stats/base/dcumaxabs` native addon from C++ to C [(#4073)](https://github.com/stdlib-js/stdlib/pull/4073) _(by Aayush Khanna)_
 -   [`267321a`](https://github.com/stdlib-js/stdlib/commit/267321a4e77cf14de5e85b36fa223a973eb605bc) - **refactor:** update `stats/base/dcumax` native addon from C++ to C [(#4072)](https://github.com/stdlib-js/stdlib/pull/4072) _(by Aayush Khanna)_
 -   [`7d33299`](https://github.com/stdlib-js/stdlib/commit/7d3329935deb3341763de86fc185c9c726684afc) - **refactor:** update `stats/base/dmax` native addon from C++ to C [(#4051)](https://github.com/stdlib-js/stdlib/pull/4051) _(by Aayush Khanna, stdlib-bot)_
