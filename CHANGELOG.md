@@ -2504,6 +2504,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5e05d49`](https://github.com/stdlib-js/stdlib/commit/5e05d493f9016307aac6f95f081a3dae65c4e3c2) - **refactor:** update `stats/base/dmaxabs` native addon from C++ to C [(#4079)](https://github.com/stdlib-js/stdlib/pull/4079) _(by Aayush Khanna)_
 -   [`9ff9694`](https://github.com/stdlib-js/stdlib/commit/9ff9694ed033ca90462c7afe4c44aba1ef42d11c) - **feat:** add C ndarray interface and refactor implementation _(by Athan Reines)_
 -   [`430e40e`](https://github.com/stdlib-js/stdlib/commit/430e40eda1d5a379561b434df31fc3bc5dcc2ce3) - **refactor:** update `stats/base/dmeanpw` native addon from C++ to C [(#4101)](https://github.com/stdlib-js/stdlib/pull/4101) _(by Aayush Khanna)_
 -   [`dbb5935`](https://github.com/stdlib-js/stdlib/commit/dbb59359010b9ac0a404604914d5db63f8fadcbc) - **refactor:** update `stats/base/dmeanpn` native addon from C++ to C [(#4100)](https://github.com/stdlib-js/stdlib/pull/4100) _(by Aayush Khanna)_
