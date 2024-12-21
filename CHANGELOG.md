@@ -2482,6 +2482,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1a7bfb6`](https://github.com/stdlib-js/stdlib/commit/1a7bfb650c61d686bde53fda82476edb5c29cafd) - **refactor:** update `stats/base/dmeanli` native addon from C++ to C [(#4097)](https://github.com/stdlib-js/stdlib/pull/4097) _(by Aayush Khanna)_
 -   [`50d8e54`](https://github.com/stdlib-js/stdlib/commit/50d8e54ed3c99385ff43453104fd52e0f63195ed) - **refactor:** update `stats/base/dmeankbn2` native addon from C++ to C [(#4096)](https://github.com/stdlib-js/stdlib/pull/4096) _(by Aayush Khanna)_
 -   [`cd88134`](https://github.com/stdlib-js/stdlib/commit/cd88134c3868e25b911a76b25ac0e066b727ada6) - **refactor:** update `stats/base/dmeankbn` native addon from C++ to C [(#4088)](https://github.com/stdlib-js/stdlib/pull/4088) _(by Aayush Khanna)_
 -   [`adcd151`](https://github.com/stdlib-js/stdlib/commit/adcd1512dd078e156f23564c3b5a88d717fb130a) - **refactor:** update `stats/base/dmean` native addon from C++ to C [(#4087)](https://github.com/stdlib-js/stdlib/pull/4087) _(by Aayush Khanna)_
