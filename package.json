@@ -41,6 +41,7 @@
     "@stdlib/blas": "github:stdlib-js/blas#main",
     "@stdlib/constants": "github:stdlib-js/constants#main",
     "@stdlib/math": "github:stdlib-js/math#main",
+    "@stdlib/napi": "github:stdlib-js/napi#main",
     "@stdlib/ndarray": "github:stdlib-js/ndarray#main",
     "@stdlib/number": "github:stdlib-js/number#main",
     "@stdlib/random": "github:stdlib-js/random#main",

@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-20)
+## Unreleased (2024-12-21)
 
 <section class="packages">
 
@@ -2482,6 +2482,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7d33299`](https://github.com/stdlib-js/stdlib/commit/7d3329935deb3341763de86fc185c9c726684afc) - **refactor:** update `stats/base/dmax` native addon from C++ to C [(#4051)](https://github.com/stdlib-js/stdlib/pull/4051) _(by Aayush Khanna, stdlib-bot)_
 -   [`9c225d9`](https://github.com/stdlib-js/stdlib/commit/9c225d9d649ffd725037384783d67f9dddee87a4) - **feat:** add C implementation for `stats/base/dists/f/skewness` [(#4041)](https://github.com/stdlib-js/stdlib/pull/4041) _(by Vivek maurya, Philipp Burckhardt)_
 -   [`0cab817`](https://github.com/stdlib-js/stdlib/commit/0cab817744fa607bd863eadf32204b36e668d31c) - **feat:** add C implementation for `stats/base/dists/f/variance` [(#4042)](https://github.com/stdlib-js/stdlib/pull/4042) _(by Vivek maurya, Philipp Burckhardt)_
 -   [`724d581`](https://github.com/stdlib-js/stdlib/commit/724d58131a5f47d333a0f062e56d489ce1605aa6) - **feat:** add C implementation for `stats/base/dists/exponential/mean` [(#4046)](https://github.com/stdlib-js/stdlib/pull/4046) _(by Prashant Kumar Yadav)_
