@@ -2482,6 +2482,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`cd88134`](https://github.com/stdlib-js/stdlib/commit/cd88134c3868e25b911a76b25ac0e066b727ada6) - **refactor:** update `stats/base/dmeankbn` native addon from C++ to C [(#4088)](https://github.com/stdlib-js/stdlib/pull/4088) _(by Aayush Khanna)_
 -   [`adcd151`](https://github.com/stdlib-js/stdlib/commit/adcd1512dd078e156f23564c3b5a88d717fb130a) - **refactor:** update `stats/base/dmean` native addon from C++ to C [(#4087)](https://github.com/stdlib-js/stdlib/pull/4087) _(by Aayush Khanna)_
 -   [`59846f8`](https://github.com/stdlib-js/stdlib/commit/59846f8bb24fb1c74fee9742c3c74bc1c84b293a) - **refactor:** update `stats/base/dmaxsorted` native addon from C++ to C [(#4084)](https://github.com/stdlib-js/stdlib/pull/4084) _(by Aayush Khanna)_
 -   [`e20fc92`](https://github.com/stdlib-js/stdlib/commit/e20fc92ffce656a95a804b2b72d822aad4e7b227) - **refactor:** update `stats/base/dmaxabssorted` native addon from C++ to C [(#4080)](https://github.com/stdlib-js/stdlib/pull/4080) _(by Aayush Khanna)_
