@@ -2912,6 +2912,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`70dde47`](https://github.com/stdlib-js/stdlib/commit/70dde4759fdc94408dc4ee058cd83e6edf6ebda7) - **refactor:** update `stats/base/dnanmeanwd` native addon from C++ to C  [(#4157)](https://github.com/stdlib-js/stdlib/pull/4157) _(by Neeraj Pathak)_
 -   [`b7867cb`](https://github.com/stdlib-js/stdlib/commit/b7867cbb3a4fc453e19203794402c36f19b264fd) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`0ba282b`](https://github.com/stdlib-js/stdlib/commit/0ba282b89c384f06bbe3ff8ecd71982f05209606) - **chore:** minor clean-up _(by Philipp Burckhardt)_
