@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-23)
+## Unreleased (2024-12-24)
 
 <section class="packages">
 
@@ -2912,6 +2912,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b7867cb`](https://github.com/stdlib-js/stdlib/commit/b7867cbb3a4fc453e19203794402c36f19b264fd) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`0ba282b`](https://github.com/stdlib-js/stdlib/commit/0ba282b89c384f06bbe3ff8ecd71982f05209606) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`9f71ae0`](https://github.com/stdlib-js/stdlib/commit/9f71ae0ab3105190b6638768b83756e69d9146ea) - **chore:** address feedback and enable tests _(by Philipp Burckhardt)_
