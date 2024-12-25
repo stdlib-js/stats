@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-24)
+## Unreleased (2024-12-25)
 
 <section class="packages">
 
@@ -2912,6 +2912,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e473425`](https://github.com/stdlib-js/stdlib/commit/e4734254b6927321a9188f0d2b1af6d48e213a54) - **refactor:** update `stats/base/dnanmeanors` native addon from C++ to C [(#4111)](https://github.com/stdlib-js/stdlib/pull/4111) _(by Neeraj Pathak)_
 -   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`2965f8f`](https://github.com/stdlib-js/stdlib/commit/2965f8f4d1469ed76c7d9c150b39a87b62d73fbd) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`ed5c4cc`](https://github.com/stdlib-js/stdlib/commit/ed5c4cccc06ad98f4de90310bf24a5a373761b43) - **chore:** minor clean-up _(by Philipp Burckhardt)_
