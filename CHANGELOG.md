@@ -2935,6 +2935,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c59d021`](https://github.com/stdlib-js/stdlib/commit/c59d0211297386f84f89f1343b8c2b53e5e0246e) - **refactor:** update `stats/base/dsem` native addon from C++ to C [(#4217)](https://github.com/stdlib-js/stdlib/pull/4217) _(by Vivek maurya)_
 -   [`81fee17`](https://github.com/stdlib-js/stdlib/commit/81fee17fd854cbb34230e10f4f72c4d5ece650d1) - **refactor:** update `stats/base/dsemch` native addon from C++ to C [(#4219)](https://github.com/stdlib-js/stdlib/pull/4219) _(by Vivek maurya)_
 -   [`56801e8`](https://github.com/stdlib-js/stdlib/commit/56801e8c64bc227a69e9b9b811d74994f2ad88a1) - **feat:** add `stats/base/dists/planck/mean` [(#3942)](https://github.com/stdlib-js/stdlib/pull/3942) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`ad690a4`](https://github.com/stdlib-js/stdlib/commit/ad690a448fa6f7dc3bb358dbd031c9d6d9bbdb90) - **refactor:** update `stats/base/drange` native addon from C++ to C [(#4216)](https://github.com/stdlib-js/stdlib/pull/4216) _(by Vivek maurya)_
