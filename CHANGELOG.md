@@ -10,6 +10,28 @@
 
 ### Packages
 
+<section class="package" id="stats-base-dcumax-unreleased">
+
+#### [@stdlib/stats/base/dcumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dcumax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6ec8074`](https://github.com/stdlib-js/stdlib/commit/6ec8074bd6e6c406a743cb8a18a7eb220efa7423) - add C ndarray interface and refactor implementation for `stats/base/dcumax` [(#4137)](https://github.com/stdlib-js/stdlib/pull/4137)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-arcsine-cdf-unreleased">
 
 #### [@stdlib/stats/base/dists/arcsine/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/arcsine/cdf)
@@ -2935,6 +2957,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6ec8074`](https://github.com/stdlib-js/stdlib/commit/6ec8074bd6e6c406a743cb8a18a7eb220efa7423) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dcumax` [(#4137)](https://github.com/stdlib-js/stdlib/pull/4137) _(by Aayush Khanna, Athan Reines)_
 -   [`c59d021`](https://github.com/stdlib-js/stdlib/commit/c59d0211297386f84f89f1343b8c2b53e5e0246e) - **refactor:** update `stats/base/dsem` native addon from C++ to C [(#4217)](https://github.com/stdlib-js/stdlib/pull/4217) _(by Vivek maurya)_
 -   [`81fee17`](https://github.com/stdlib-js/stdlib/commit/81fee17fd854cbb34230e10f4f72c4d5ece650d1) - **refactor:** update `stats/base/dsemch` native addon from C++ to C [(#4219)](https://github.com/stdlib-js/stdlib/pull/4219) _(by Vivek maurya)_
 -   [`56801e8`](https://github.com/stdlib-js/stdlib/commit/56801e8c64bc227a69e9b9b811d74994f2ad88a1) - **feat:** add `stats/base/dists/planck/mean` [(#3942)](https://github.com/stdlib-js/stdlib/pull/3942) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
