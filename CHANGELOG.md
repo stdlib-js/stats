@@ -2924,6 +2924,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanminabs-unreleased">
+
+#### [@stdlib/stats/base/dnanminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanminabs)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3d7cff6`](https://github.com/stdlib-js/stdlib/commit/3d7cff6731e0593bd1077fc7084f62a9ea807acb) - add C ndarray interface and refactor implementation for `stats/base/dnanminabs` [(#4238)](https://github.com/stdlib-js/stdlib/pull/4238)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-scumax-unreleased">
 
 #### [@stdlib/stats/base/scumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumax)
@@ -3047,6 +3069,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3d7cff6`](https://github.com/stdlib-js/stdlib/commit/3d7cff6731e0593bd1077fc7084f62a9ea807acb) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanminabs` [(#4238)](https://github.com/stdlib-js/stdlib/pull/4238) _(by Aayush Khanna)_
 -   [`c365bf2`](https://github.com/stdlib-js/stdlib/commit/c365bf25043111f961c32bcb7da046d5d162d125) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dminabs` [(#4197)](https://github.com/stdlib-js/stdlib/pull/4197) _(by Aayush Khanna, stdlib-bot)_
 -   [`1aa67dd`](https://github.com/stdlib-js/stdlib/commit/1aa67ddd1e238c681c845626c20b5377bd5e35aa) - **feat:** add C implementation for `stats/base/dists/uniform/median` [(#3970)](https://github.com/stdlib-js/stdlib/pull/3970) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`293cd1a`](https://github.com/stdlib-js/stdlib/commit/293cd1a2427ab5861d145f01c54c9c740048b438) - **feat:** add C implementation for `stats/base/dists/uniform/mean` [(#3964)](https://github.com/stdlib-js/stdlib/pull/3964) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
