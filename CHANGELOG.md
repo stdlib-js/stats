@@ -2912,6 +2912,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`53da41e`](https://github.com/stdlib-js/stdlib/commit/53da41e5306d094a5106a831174658b62fb09fd8) - **refactor:** update `stats/base/dnanmean` native addon from C++ to C [(#4112)](https://github.com/stdlib-js/stdlib/pull/4112) _(by Neeraj Pathak)_
 -   [`e473425`](https://github.com/stdlib-js/stdlib/commit/e4734254b6927321a9188f0d2b1af6d48e213a54) - **refactor:** update `stats/base/dnanmeanors` native addon from C++ to C [(#4111)](https://github.com/stdlib-js/stdlib/pull/4111) _(by Neeraj Pathak)_
 -   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`2965f8f`](https://github.com/stdlib-js/stdlib/commit/2965f8f4d1469ed76c7d9c150b39a87b62d73fbd) - **chore:** minor clean-up _(by Philipp Burckhardt)_
