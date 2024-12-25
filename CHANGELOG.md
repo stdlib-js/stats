@@ -2054,6 +2054,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-planck-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/planck/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`56801e8`](https://github.com/stdlib-js/stdlib/commit/56801e8c64bc227a69e9b9b811d74994f2ad88a1) - add `stats/base/dists/planck/mean` [(#3942)](https://github.com/stdlib-js/stdlib/pull/3942)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-poisson-mean-unreleased">
 
 #### [@stdlib/stats/base/dists/poisson/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/poisson/mean)
@@ -2882,7 +2904,7 @@ A total of 85 issues were closed in this release:
 
 ### Contributors
 
-A total of 17 people contributed to this release. Thank you to the following contributors:
+A total of 18 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -2890,6 +2912,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 -   Desh Deepak Kant
 -   Divyansh Seth
 -   Gururaj Gurram
+-   Jaysukh Makvana
 -   Kohantika Nath
 -   Manvith M
 -   Neeraj Pathak
@@ -2912,6 +2935,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`56801e8`](https://github.com/stdlib-js/stdlib/commit/56801e8c64bc227a69e9b9b811d74994f2ad88a1) - **feat:** add `stats/base/dists/planck/mean` [(#3942)](https://github.com/stdlib-js/stdlib/pull/3942) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`ad690a4`](https://github.com/stdlib-js/stdlib/commit/ad690a448fa6f7dc3bb358dbd031c9d6d9bbdb90) - **refactor:** update `stats/base/drange` native addon from C++ to C [(#4216)](https://github.com/stdlib-js/stdlib/pull/4216) _(by Vivek maurya)_
 -   [`51565a4`](https://github.com/stdlib-js/stdlib/commit/51565a4e5125fb8e7bf2a640e1bcb1f3647e50e3) - **refactor:** update `stats/base/sstdevyc` native addon from C++ to C [(#4208)](https://github.com/stdlib-js/stdlib/pull/4208) _(by Vinit Pandit, Athan Reines)_
 -   [`1223597`](https://github.com/stdlib-js/stdlib/commit/1223597e150b36a74a6a9d7deb9a0804db51387c) - **refactor:** update `stats/base/svariance` native addon from C++ to C [(#4213)](https://github.com/stdlib-js/stdlib/pull/4213) _(by Vinit Pandit, Athan Reines)_
