@@ -2912,6 +2912,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2bde98a`](https://github.com/stdlib-js/stdlib/commit/2bde98a2369cf34cd1bd167f27c7d6ca1bd1aed5) - **refactor:** update `stats/base/dnanvariancetk` native addon from C++ to C [(#4204)](https://github.com/stdlib-js/stdlib/pull/4204) _(by Neeraj Pathak)_
 -   [`ed24eef`](https://github.com/stdlib-js/stdlib/commit/ed24eef61a449aaa7e26787127ee49858e0bb08b) - **refactor:** update `stats/base/dnanvariancewd` native addon from C++ to C [(#4202)](https://github.com/stdlib-js/stdlib/pull/4202) _(by Neeraj Pathak)_
 -   [`53da41e`](https://github.com/stdlib-js/stdlib/commit/53da41e5306d094a5106a831174658b62fb09fd8) - **refactor:** update `stats/base/dnanmean` native addon from C++ to C [(#4112)](https://github.com/stdlib-js/stdlib/pull/4112) _(by Neeraj Pathak)_
 -   [`e473425`](https://github.com/stdlib-js/stdlib/commit/e4734254b6927321a9188f0d2b1af6d48e213a54) - **refactor:** update `stats/base/dnanmeanors` native addon from C++ to C [(#4111)](https://github.com/stdlib-js/stdlib/pull/4111) _(by Neeraj Pathak)_
