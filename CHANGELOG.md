@@ -3126,6 +3126,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanmax-unreleased">
+
+#### [@stdlib/stats/base/dnanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fd3a204`](https://github.com/stdlib-js/stdlib/commit/fd3a204fd933a13b07c19db7729cb6bb7e2e2175) - add C ndarray interface and refactor implementation for `stats/base/dnanmax` [(#4206)](https://github.com/stdlib-js/stdlib/pull/4206)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dnanmin-unreleased">
 
 #### [@stdlib/stats/base/dnanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmin)
@@ -3337,6 +3359,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fd3a204`](https://github.com/stdlib-js/stdlib/commit/fd3a204fd933a13b07c19db7729cb6bb7e2e2175) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmax` [(#4206)](https://github.com/stdlib-js/stdlib/pull/4206) _(by Aayush Khanna)_
 -   [`c12422c`](https://github.com/stdlib-js/stdlib/commit/c12422c2728f2bace8f06dee87ab9de18e63588b) - **feat:** add C implementation for `stats/base/dists/laplace/kurtosis` [(#4188)](https://github.com/stdlib-js/stdlib/pull/4188) _(by Vivek maurya)_
 -   [`e6e539d`](https://github.com/stdlib-js/stdlib/commit/e6e539de309f16846b3e782d377c65c3bc8ec5e6) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmin` [(#4235)](https://github.com/stdlib-js/stdlib/pull/4235) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`8a76708`](https://github.com/stdlib-js/stdlib/commit/8a767088c956f13116988ee8967e9e4f74c0f564) - **feat:** add C implementation for `stats/base/dists/triangular/kurtosis` [(#4256)](https://github.com/stdlib-js/stdlib/pull/4256) _(by Prashant Kumar Yadav)_
