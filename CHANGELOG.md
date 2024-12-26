@@ -2098,6 +2098,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-planck-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/planck/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8aff8f8`](https://github.com/stdlib-js/stdlib/commit/8aff8f8ded98f6cf3ee869208f999af9fdb25b0d) - add `stats/base/dists/planck/variance` [(#4102)](https://github.com/stdlib-js/stdlib/pull/4102)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-poisson-mean-unreleased">
 
 #### [@stdlib/stats/base/dists/poisson/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/poisson/mean)
@@ -3091,6 +3113,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8aff8f8`](https://github.com/stdlib-js/stdlib/commit/8aff8f8ded98f6cf3ee869208f999af9fdb25b0d) - **feat:** add `stats/base/dists/planck/variance` [(#4102)](https://github.com/stdlib-js/stdlib/pull/4102) _(by Jaysukh Makvana, Athan Reines)_
 -   [`867ceef`](https://github.com/stdlib-js/stdlib/commit/867ceefc1c3fbf34733794cdebf7855abea8a930) - **refactor:** update `stats/base/dsemtk` native addon from C++ to C [(#4223)](https://github.com/stdlib-js/stdlib/pull/4223) _(by Vivek maurya)_
 -   [`1aa3235`](https://github.com/stdlib-js/stdlib/commit/1aa32350750b13ce35e6cbaf61e48e43dd004548) - **refactor:** update `stats/base/dsempn` native addon from C++ to C [(#4222)](https://github.com/stdlib-js/stdlib/pull/4222) _(by Vivek maurya)_
 -   [`ce347fe`](https://github.com/stdlib-js/stdlib/commit/ce347fea5c4cb666b575cf371f6a2c9947db2611) - **refactor:** update `stats/base/dsemwd` native addon from C++ to C [(#4224)](https://github.com/stdlib-js/stdlib/pull/4224) _(by Vivek maurya)_
