@@ -3206,6 +3206,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dmin-unreleased">
+
+#### [@stdlib/stats/base/dmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`217351f`](https://github.com/stdlib-js/stdlib/commit/217351fe17ccb4479b1193ebaa3cdd36d89017b5) - add C ndarray interface and refactor implementation for `stats/base/dmin` [(#4190)](https://github.com/stdlib-js/stdlib/pull/4190)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dminabs-unreleased">
 
 #### [@stdlib/stats/base/dminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dminabs)
@@ -3483,6 +3505,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`217351f`](https://github.com/stdlib-js/stdlib/commit/217351fe17ccb4479b1193ebaa3cdd36d89017b5) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmin` [(#4190)](https://github.com/stdlib-js/stdlib/pull/4190) _(by Aayush Khanna)_
 -   [`15f2f56`](https://github.com/stdlib-js/stdlib/commit/15f2f56fad4de8fe512738eea818737426c2771c) - **feat:** add C implementation for `stats/base/dists/laplace/stdev` [(#4158)](https://github.com/stdlib-js/stdlib/pull/4158) _(by Vivek maurya, Philipp Burckhardt)_
 -   [`b275b6f`](https://github.com/stdlib-js/stdlib/commit/b275b6fed269c1f796fae358712ddbbc901bb41d) - **feat:** add C implementation for `stats/base/dists/laplace/mode` [(#4138)](https://github.com/stdlib-js/stdlib/pull/4138) _(by Vivek maurya, Philipp Burckhardt)_
 -   [`40df378`](https://github.com/stdlib-js/stdlib/commit/40df378b1ed62d15394f97d834db3eea21fea4a0) - **feat:** add C implementation for `stats/base/dists/laplace/skewness` [(#4187)](https://github.com/stdlib-js/stdlib/pull/4187) _(by Vivek maurya, Philipp Burckhardt)_
