@@ -3505,6 +3505,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5da016a`](https://github.com/stdlib-js/stdlib/commit/5da016af618bd1e9c4581ba2c7aec3c303fde04c) - **docs:** remove extra space _(by Athan Reines)_
 -   [`3a2d4a7`](https://github.com/stdlib-js/stdlib/commit/3a2d4a787de68dbfd5a5e7522b0839db6f2a2245) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`a5f9603`](https://github.com/stdlib-js/stdlib/commit/a5f9603c3646bde6c07b2d4b64f1c853bb42613d) - **docs:** fix example in `stats/base/smax` [(#4264)](https://github.com/stdlib-js/stdlib/pull/4264) _(by Aayush Khanna)_
 -   [`217351f`](https://github.com/stdlib-js/stdlib/commit/217351fe17ccb4479b1193ebaa3cdd36d89017b5) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmin` [(#4190)](https://github.com/stdlib-js/stdlib/pull/4190) _(by Aayush Khanna)_
