@@ -3092,6 +3092,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanmin-unreleased">
+
+#### [@stdlib/stats/base/dnanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e6e539d`](https://github.com/stdlib-js/stdlib/commit/e6e539de309f16846b3e782d377c65c3bc8ec5e6) - add C ndarray interface and refactor implementation for `stats/base/dnanmin` [(#4235)](https://github.com/stdlib-js/stdlib/pull/4235)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dnanminabs-unreleased">
 
 #### [@stdlib/stats/base/dnanminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanminabs)
@@ -3281,6 +3303,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e6e539d`](https://github.com/stdlib-js/stdlib/commit/e6e539de309f16846b3e782d377c65c3bc8ec5e6) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmin` [(#4235)](https://github.com/stdlib-js/stdlib/pull/4235) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`8a76708`](https://github.com/stdlib-js/stdlib/commit/8a767088c956f13116988ee8967e9e4f74c0f564) - **feat:** add C implementation for `stats/base/dists/triangular/kurtosis` [(#4256)](https://github.com/stdlib-js/stdlib/pull/4256) _(by Prashant Kumar Yadav)_
 -   [`fc9ae04`](https://github.com/stdlib-js/stdlib/commit/fc9ae04de27f1f42a60bc3c266765f2e86dfd98e) - **feat:** add C implementation for `stats/base/dists/triangular/entropy` [(#4255)](https://github.com/stdlib-js/stdlib/pull/4255) _(by Prashant Kumar Yadav)_
 -   [`013c9ac`](https://github.com/stdlib-js/stdlib/commit/013c9ac4695d3ff46ecde12644af8c35aa0be706) - **feat:** add C implementation for `stats/base/dists/triangular/stdev` [(#4258)](https://github.com/stdlib-js/stdlib/pull/4258) _(by Prashant Kumar Yadav)_
