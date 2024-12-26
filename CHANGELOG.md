@@ -3091,6 +3091,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`867ceef`](https://github.com/stdlib-js/stdlib/commit/867ceefc1c3fbf34733794cdebf7855abea8a930) - **refactor:** update `stats/base/dsemtk` native addon from C++ to C [(#4223)](https://github.com/stdlib-js/stdlib/pull/4223) _(by Vivek maurya)_
 -   [`1aa3235`](https://github.com/stdlib-js/stdlib/commit/1aa32350750b13ce35e6cbaf61e48e43dd004548) - **refactor:** update `stats/base/dsempn` native addon from C++ to C [(#4222)](https://github.com/stdlib-js/stdlib/pull/4222) _(by Vivek maurya)_
 -   [`ce347fe`](https://github.com/stdlib-js/stdlib/commit/ce347fea5c4cb666b575cf371f6a2c9947db2611) - **refactor:** update `stats/base/dsemwd` native addon from C++ to C [(#4224)](https://github.com/stdlib-js/stdlib/pull/4224) _(by Vivek maurya)_
 -   [`dabf486`](https://github.com/stdlib-js/stdlib/commit/dabf486eb5381d666381711e109930c052ba60f5) - **refactor:** update `stats/base/dsemyc` native addon from C++ to C [(#4225)](https://github.com/stdlib-js/stdlib/pull/4225) _(by Vivek maurya)_
