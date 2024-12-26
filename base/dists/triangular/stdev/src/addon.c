@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,15 +16,8 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/triangular/stdev.h"
+#include "stdlib/math/base/napi/ternary.h"
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var smax = require( './../lib' );
-
-var x = discreteUniform( 10, -50, 50, {
-	'dtype': 'float32'
-});
-console.log( x );
-
-var v = smax( x.length, x, 1 );
-console.log( v );
+// cppcheck-suppress shadowFunction
+STDLIB_MATH_BASE_NAPI_MODULE_DDD_D( stdlib_base_dists_triangular_stdev )

@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,22 +16,27 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/smax.h"
+#include "stdlib/stats/base/dists/triangular/stdev.h"
+#include <stdlib.h>
 #include <stdio.h>
 
+static double random_uniform( const double min, const double max ) {
+	double v = (double)rand() / ( (double)RAND_MAX + 1.0 );
+	return min + ( v*(max-min) );
+}
+
 int main( void ) {
-	// Create a strided array:
-	const float x[] = { 1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f, 7.0f, 8.0f };
+	double a;
+	double b;
+	double c;
+	double v;
+	int i;
 
-	// Specify the number of elements:
-	const int N = 4;
-
-	// Specify the stride length:
-	const int strideX = 2;
-
-	// Compute the maximum value:
-	float v = stdlib_strided_smax( N, x, strideX );
-
-	// Print the result:
-	printf( "max: %f\n", v );
+	for ( i = 0; i < 25; i++ ) {
+		a = random_uniform( 0.0, 10.0 );
+		b = random_uniform( a, a+10.0 );
+		c = random_uniform( a, b );
+		v = stdlib_base_dists_triangular_stdev( a, b, c );
+		printf( "a: %lf, b: %lf, c: %lf, SD(X;a,b,c): %lf\n", a, b, c, v );
+	}
 }

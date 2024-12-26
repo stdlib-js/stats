@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,15 +16,23 @@
 * limitations under the License.
 */
 
-'use strict';
+#ifndef STDLIB_STATS_BASE_DISTS_TRIANGULAR_STDEV_H
+#define STDLIB_STATS_BASE_DISTS_TRIANGULAR_STDEV_H
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var smax = require( './../lib' );
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-var x = discreteUniform( 10, -50, 50, {
-	'dtype': 'float32'
-});
-console.log( x );
+/**
+* Returns the standard deviation of a triangular distribution.
+*/
+double stdlib_base_dists_triangular_stdev( const double a, const double b, const double c );
 
-var v = smax( x.length, x, 1 );
-console.log( v );
+#ifdef __cplusplus
+}
+#endif
+
+#endif // !STDLIB_STATS_BASE_DISTS_TRIANGULAR_STDEV_H
