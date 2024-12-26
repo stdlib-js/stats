@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-25)
+## Unreleased (2024-12-26)
 
 <section class="packages">
 
@@ -3091,6 +3091,8 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`dfc908c`](https://github.com/stdlib-js/stdlib/commit/dfc908c6bc6fd95ec99c86e3b5c13b6fc7a0cf81) - **docs:** update namespace TypeScript declarations [(#4243)](https://github.com/stdlib-js/stdlib/pull/4243) _(by stdlib-bot)_
+-   [`9228eef`](https://github.com/stdlib-js/stdlib/commit/9228eef3aea9350937b07e9c8a5fd33145ee45d6) - **docs:** update namespace table of contents [(#4245)](https://github.com/stdlib-js/stdlib/pull/4245) _(by stdlib-bot)_
 -   [`836075d`](https://github.com/stdlib-js/stdlib/commit/836075d7019a49d806ca116492fa853382758f75) - **feat:** add C ndarray interface and refactor implementation for `stats/base/drange` [(#4239)](https://github.com/stdlib-js/stdlib/pull/4239) _(by Aayush Khanna)_
 -   [`3d7cff6`](https://github.com/stdlib-js/stdlib/commit/3d7cff6731e0593bd1077fc7084f62a9ea807acb) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanminabs` [(#4238)](https://github.com/stdlib-js/stdlib/pull/4238) _(by Aayush Khanna)_
 -   [`c365bf2`](https://github.com/stdlib-js/stdlib/commit/c365bf25043111f961c32bcb7da046d5d162d125) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dminabs` [(#4197)](https://github.com/stdlib-js/stdlib/pull/4197) _(by Aayush Khanna, stdlib-bot)_
