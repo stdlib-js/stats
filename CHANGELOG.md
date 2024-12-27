@@ -2212,6 +2212,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-planck-cdf-unreleased">
+
+#### [@stdlib/stats/base/dists/planck/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/cdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4cf8ad7`](https://github.com/stdlib-js/stdlib/commit/4cf8ad7f9820ff00bb61360b83d75c295da8f656) - add `stats/base/dists/planck/cdf` [(#4130)](https://github.com/stdlib-js/stdlib/pull/4130)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-planck-mean-unreleased">
 
 #### [@stdlib/stats/base/dists/planck/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/mean)
@@ -3527,6 +3549,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4cf8ad7`](https://github.com/stdlib-js/stdlib/commit/4cf8ad7f9820ff00bb61360b83d75c295da8f656) - **feat:** add `stats/base/dists/planck/cdf` [(#4130)](https://github.com/stdlib-js/stdlib/pull/4130) _(by Jaysukh Makvana, Athan Reines)_
 -   [`b87d116`](https://github.com/stdlib-js/stdlib/commit/b87d116720a896d49243d9fadb06017aace64f16) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smaxabs` [(#4260)](https://github.com/stdlib-js/stdlib/pull/4260) _(by Aayush Khanna)_
 -   [`5da016a`](https://github.com/stdlib-js/stdlib/commit/5da016af618bd1e9c4581ba2c7aec3c303fde04c) - **docs:** remove extra space _(by Athan Reines)_
 -   [`3a2d4a7`](https://github.com/stdlib-js/stdlib/commit/3a2d4a787de68dbfd5a5e7522b0839db6f2a2245) - **docs:** fix descriptions _(by Athan Reines)_
