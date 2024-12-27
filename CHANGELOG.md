@@ -3549,6 +3549,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e9c01a9`](https://github.com/stdlib-js/stdlib/commit/e9c01a991698585fbe8bc4e8778fd9a0c7ccad7d) - **docs:** update namespace table of contents [(#4268)](https://github.com/stdlib-js/stdlib/pull/4268) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`4cf8ad7`](https://github.com/stdlib-js/stdlib/commit/4cf8ad7f9820ff00bb61360b83d75c295da8f656) - **feat:** add `stats/base/dists/planck/cdf` [(#4130)](https://github.com/stdlib-js/stdlib/pull/4130) _(by Jaysukh Makvana, Athan Reines)_
 -   [`b87d116`](https://github.com/stdlib-js/stdlib/commit/b87d116720a896d49243d9fadb06017aace64f16) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smaxabs` [(#4260)](https://github.com/stdlib-js/stdlib/pull/4260) _(by Aayush Khanna)_
 -   [`5da016a`](https://github.com/stdlib-js/stdlib/commit/5da016af618bd1e9c4581ba2c7aec3c303fde04c) - **docs:** remove extra space _(by Athan Reines)_
