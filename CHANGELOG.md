@@ -3571,6 +3571,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`95a9d94`](https://github.com/stdlib-js/stdlib/commit/95a9d94ec41e1bdb3d3e4e2f5df99faff8a655e3) - **refactor:** update `stats/base/dvariancetk` native addon from C++ to C [(#4281)](https://github.com/stdlib-js/stdlib/pull/4281) _(by Vivek maurya)_
 -   [`9e3fd66`](https://github.com/stdlib-js/stdlib/commit/9e3fd661879b02f4200c28c3629fb122fa055d4b) - **refactor:** update `stats/base/dvariancepn` native addon from C++ to C [(#4279)](https://github.com/stdlib-js/stdlib/pull/4279) _(by Vivek maurya)_
 -   [`02deb59`](https://github.com/stdlib-js/stdlib/commit/02deb592d5c4257ea1b4bd56dabe5973610d5a98) - **refactor:** update `stats/base/dvariancech` native addon from C++ to C [(#4278)](https://github.com/stdlib-js/stdlib/pull/4278) _(by Vivek maurya)_
 -   [`18e7567`](https://github.com/stdlib-js/stdlib/commit/18e7567199b60955541c5a760120664db7f04545) - **refactor:** update `stats/base/dnanmskrange` native addon from C++ to C [(#4162)](https://github.com/stdlib-js/stdlib/pull/4162) _(by Vivek maurya, Athan Reines)_
