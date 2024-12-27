@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-26)
+## Unreleased (2024-12-27)
 
 <section class="packages">
 
@@ -3406,6 +3406,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-smaxabs-unreleased">
+
+#### [@stdlib/stats/base/smaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smaxabs)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b87d116`](https://github.com/stdlib-js/stdlib/commit/b87d116720a896d49243d9fadb06017aace64f16) - add C ndarray interface and refactor implementation for `stats/base/smaxabs` [(#4260)](https://github.com/stdlib-js/stdlib/pull/4260)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-snanmax-unreleased">
 
 #### [@stdlib/stats/base/snanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmax)
@@ -3505,6 +3527,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b87d116`](https://github.com/stdlib-js/stdlib/commit/b87d116720a896d49243d9fadb06017aace64f16) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smaxabs` [(#4260)](https://github.com/stdlib-js/stdlib/pull/4260) _(by Aayush Khanna)_
 -   [`5da016a`](https://github.com/stdlib-js/stdlib/commit/5da016af618bd1e9c4581ba2c7aec3c303fde04c) - **docs:** remove extra space _(by Athan Reines)_
 -   [`3a2d4a7`](https://github.com/stdlib-js/stdlib/commit/3a2d4a787de68dbfd5a5e7522b0839db6f2a2245) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`a5f9603`](https://github.com/stdlib-js/stdlib/commit/a5f9603c3646bde6c07b2d4b64f1c853bb42613d) - **docs:** fix example in `stats/base/smax` [(#4264)](https://github.com/stdlib-js/stdlib/pull/4264) _(by Aayush Khanna)_
