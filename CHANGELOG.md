@@ -3615,6 +3615,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`054139f`](https://github.com/stdlib-js/stdlib/commit/054139f55063bd8fed79c45dc0faf6c2fe67d869) - **refactor:** update benchmarks in `stats/base` to follow latest project conventions [(#4299)](https://github.com/stdlib-js/stdlib/pull/4299) _(by Aayush Khanna)_
 -   [`f9a5e0f`](https://github.com/stdlib-js/stdlib/commit/f9a5e0fe79cd8709345b3ce711e75fd74c725b1c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sminabs` [(#4285)](https://github.com/stdlib-js/stdlib/pull/4285) _(by Aayush Khanna, stdlib-bot)_
 -   [`dc8291e`](https://github.com/stdlib-js/stdlib/commit/dc8291e2628a31c2405dabecce20973b0e1ecc46) - **refactor:** update `stats/base/dnanmeanpn` native addon from C++ to C [(#4110)](https://github.com/stdlib-js/stdlib/pull/4110) _(by Neeraj Pathak)_
 -   [`3377bfa`](https://github.com/stdlib-js/stdlib/commit/3377bfa5fe3d3fb575382d46c0239b607146ab00) - **refactor:** update `stats/base/dvarianceyc` native addon from C++ to C [(#4284)](https://github.com/stdlib-js/stdlib/pull/4284) _(by Vivek maurya)_
