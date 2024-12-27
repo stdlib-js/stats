@@ -3571,6 +3571,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`77d53d4`](https://github.com/stdlib-js/stdlib/commit/77d53d49f0c17869c6dd60862587bd122510dab9) - **refactor:** update `stats/base/dstdevyc` native addon from C++ to C [(#4275)](https://github.com/stdlib-js/stdlib/pull/4275) _(by Vivek maurya)_
 -   [`e878384`](https://github.com/stdlib-js/stdlib/commit/e878384af7beb18fb6f697dcbf99e75d57e2171c) - **refactor:** update `stats/base/dstdevwd` native addon from C++ to C [(#4274)](https://github.com/stdlib-js/stdlib/pull/4274) _(by Vivek maurya)_
 -   [`f03f6b7`](https://github.com/stdlib-js/stdlib/commit/f03f6b79ceb1324b6e17099163167ea56fb9695d) - **refactor:** update `stats/base/dstdevtk` native addon from C++ to C [(#4273)](https://github.com/stdlib-js/stdlib/pull/4273) _(by Vivek maurya)_
 -   [`07b7e9b`](https://github.com/stdlib-js/stdlib/commit/07b7e9b060009865164ff658d31a3e402d7fe3fe) - **refactor:** update `stats/base/dstdevpn` native addon from C++ to C [(#4272)](https://github.com/stdlib-js/stdlib/pull/4272) _(by Vivek maurya)_
