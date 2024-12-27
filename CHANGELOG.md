@@ -3540,6 +3540,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-snanmin-unreleased">
+
+#### [@stdlib/stats/base/snanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9f86bc6`](https://github.com/stdlib-js/stdlib/commit/9f86bc619db065369ef877eced46cfd709784aba) - add C ndarray interface and refactor implementation for `stats/base/snanmin` [(#4292)](https://github.com/stdlib-js/stdlib/pull/4292)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-sstdevch-unreleased">
 
 #### [@stdlib/stats/base/sstdevch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sstdevch)
@@ -3615,6 +3637,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9f86bc6`](https://github.com/stdlib-js/stdlib/commit/9f86bc619db065369ef877eced46cfd709784aba) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmin` [(#4292)](https://github.com/stdlib-js/stdlib/pull/4292) _(by Aayush Khanna)_
 -   [`054139f`](https://github.com/stdlib-js/stdlib/commit/054139f55063bd8fed79c45dc0faf6c2fe67d869) - **refactor:** update benchmarks in `stats/base` to follow latest project conventions [(#4299)](https://github.com/stdlib-js/stdlib/pull/4299) _(by Aayush Khanna)_
 -   [`f9a5e0f`](https://github.com/stdlib-js/stdlib/commit/f9a5e0fe79cd8709345b3ce711e75fd74c725b1c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sminabs` [(#4285)](https://github.com/stdlib-js/stdlib/pull/4285) _(by Aayush Khanna, stdlib-bot)_
 -   [`dc8291e`](https://github.com/stdlib-js/stdlib/commit/dc8291e2628a31c2405dabecce20973b0e1ecc46) - **refactor:** update `stats/base/dnanmeanpn` native addon from C++ to C [(#4110)](https://github.com/stdlib-js/stdlib/pull/4110) _(by Neeraj Pathak)_
