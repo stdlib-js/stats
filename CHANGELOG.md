@@ -3571,6 +3571,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`24e0082`](https://github.com/stdlib-js/stdlib/commit/24e008292432d2094eeb72dc3b912de1e5265e57) - **refactor:** update `stats/base/dnanmskmax` native addon from C++ to C [(#4160)](https://github.com/stdlib-js/stdlib/pull/4160) _(by Vivek maurya, Athan Reines)_
 -   [`b4e42d9`](https://github.com/stdlib-js/stdlib/commit/b4e42d99681a21b2be9b80a801dd83943b919646) - **refactor:** update `stats/base/dvariance` native addon from C++ to C [(#4276)](https://github.com/stdlib-js/stdlib/pull/4276) _(by Vivek maurya)_
 -   [`b0c3a91`](https://github.com/stdlib-js/stdlib/commit/b0c3a914b2c92e47ebf1356efb1b8663d53ed3e2) - **refactor:** update `stats/base/svarianceyc` native addon from C++ to C [(#4232)](https://github.com/stdlib-js/stdlib/pull/4232) _(by Vinit Pandit, Athan Reines)_
 -   [`e8c2716`](https://github.com/stdlib-js/stdlib/commit/e8c27161f5dc2cb87b690e4abca6ae57a430f3f2) - **refactor:** update `stats/base/svariancech` native addon from C++ to C [(#4229)](https://github.com/stdlib-js/stdlib/pull/4229) _(by Vinit Pandit)_
