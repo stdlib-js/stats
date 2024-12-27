@@ -3593,6 +3593,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`dc8291e`](https://github.com/stdlib-js/stdlib/commit/dc8291e2628a31c2405dabecce20973b0e1ecc46) - **refactor:** update `stats/base/dnanmeanpn` native addon from C++ to C [(#4110)](https://github.com/stdlib-js/stdlib/pull/4110) _(by Neeraj Pathak)_
 -   [`3377bfa`](https://github.com/stdlib-js/stdlib/commit/3377bfa5fe3d3fb575382d46c0239b607146ab00) - **refactor:** update `stats/base/dvarianceyc` native addon from C++ to C [(#4284)](https://github.com/stdlib-js/stdlib/pull/4284) _(by Vivek maurya)_
 -   [`bba1675`](https://github.com/stdlib-js/stdlib/commit/bba16758e10a6e2b20cf43812faaeecd366f0b9a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smin` [(#4282)](https://github.com/stdlib-js/stdlib/pull/4282) _(by Aayush Khanna)_
 -   [`88114d8`](https://github.com/stdlib-js/stdlib/commit/88114d8f76c2aaff362a5f8d42aa9ab7d30c09d1) - **refactor:** update `stats/base/dvariancewd` native addon from C++ to C [(#4283)](https://github.com/stdlib-js/stdlib/pull/4283) _(by Vivek maurya)_
