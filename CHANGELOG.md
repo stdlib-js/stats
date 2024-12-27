@@ -3556,6 +3556,16 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`86a3364`](https://github.com/stdlib-js/stdlib/commit/86a336485eabd9a066b964bb3d2ada2174763e68) - add C ndarray interface and refactor implementation for `stats/base/snanmax` [(#4287)](https://github.com/stdlib-js/stdlib/pull/4287)
+
+</section>
+
+<!-- /.features -->
+
 <section class="issues">
 
 ##### Closed Issues
@@ -3693,6 +3703,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`86a3364`](https://github.com/stdlib-js/stdlib/commit/86a336485eabd9a066b964bb3d2ada2174763e68) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmax` [(#4287)](https://github.com/stdlib-js/stdlib/pull/4287) _(by Aayush Khanna)_
 -   [`82745a5`](https://github.com/stdlib-js/stdlib/commit/82745a55bcc54c1c2bab053cfc0c7f7dc10d52f1) - **feat:** add C implementation for `stats/base/dists/triangular/skewness` [(#4259)](https://github.com/stdlib-js/stdlib/pull/4259) _(by Prashant Kumar Yadav)_
 -   [`297cd66`](https://github.com/stdlib-js/stdlib/commit/297cd667b31e3b119dc9d87b498ca33e8ea974f8) - **feat:** add C ndarray interface and refactor implementation for `stats/base/srange` [(#4297)](https://github.com/stdlib-js/stdlib/pull/4297) _(by Aayush Khanna, Athan Reines)_
 -   [`9f86bc6`](https://github.com/stdlib-js/stdlib/commit/9f86bc619db065369ef877eced46cfd709784aba) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmin` [(#4292)](https://github.com/stdlib-js/stdlib/pull/4292) _(by Aayush Khanna)_
