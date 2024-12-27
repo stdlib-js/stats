@@ -10,6 +10,28 @@
 
 ### Packages
 
+<section class="package" id="stats-base-unreleased">
+
+#### [@stdlib/stats/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`265cca5`](https://github.com/stdlib-js/stdlib/commit/265cca5309edb232d2a96331430020fe789b600e) - update namespace TypeScript declarations [(#4266)](https://github.com/stdlib-js/stdlib/pull/4266)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dcumax-unreleased">
 
 #### [@stdlib/stats/base/dcumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dcumax)
@@ -3549,6 +3571,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`265cca5`](https://github.com/stdlib-js/stdlib/commit/265cca5309edb232d2a96331430020fe789b600e) - **feat:** update namespace TypeScript declarations [(#4266)](https://github.com/stdlib-js/stdlib/pull/4266) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`e9c01a9`](https://github.com/stdlib-js/stdlib/commit/e9c01a991698585fbe8bc4e8778fd9a0c7ccad7d) - **docs:** update namespace table of contents [(#4268)](https://github.com/stdlib-js/stdlib/pull/4268) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`4cf8ad7`](https://github.com/stdlib-js/stdlib/commit/4cf8ad7f9820ff00bb61360b83d75c295da8f656) - **feat:** add `stats/base/dists/planck/cdf` [(#4130)](https://github.com/stdlib-js/stdlib/pull/4130) _(by Jaysukh Makvana, Athan Reines)_
 -   [`b87d116`](https://github.com/stdlib-js/stdlib/commit/b87d116720a896d49243d9fadb06017aace64f16) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smaxabs` [(#4260)](https://github.com/stdlib-js/stdlib/pull/4260) _(by Aayush Khanna)_
