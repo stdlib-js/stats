@@ -3284,6 +3284,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dmaxabs-unreleased">
+
+#### [@stdlib/stats/base/dmaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmaxabs)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`826ecf0`](https://github.com/stdlib-js/stdlib/commit/826ecf0d000cd0ece23a1cc6f57ce2419c93854e) - add C ndarray interface and refactor implementation for `stats/base/dmaxabs` [(#4170)](https://github.com/stdlib-js/stdlib/pull/4170)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dmin-unreleased">
 
 #### [@stdlib/stats/base/dmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmin)
@@ -3703,6 +3725,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`826ecf0`](https://github.com/stdlib-js/stdlib/commit/826ecf0d000cd0ece23a1cc6f57ce2419c93854e) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmaxabs` [(#4170)](https://github.com/stdlib-js/stdlib/pull/4170) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`86a3364`](https://github.com/stdlib-js/stdlib/commit/86a336485eabd9a066b964bb3d2ada2174763e68) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmax` [(#4287)](https://github.com/stdlib-js/stdlib/pull/4287) _(by Aayush Khanna)_
 -   [`82745a5`](https://github.com/stdlib-js/stdlib/commit/82745a55bcc54c1c2bab053cfc0c7f7dc10d52f1) - **feat:** add C implementation for `stats/base/dists/triangular/skewness` [(#4259)](https://github.com/stdlib-js/stdlib/pull/4259) _(by Prashant Kumar Yadav)_
 -   [`297cd66`](https://github.com/stdlib-js/stdlib/commit/297cd667b31e3b119dc9d87b498ca33e8ea974f8) - **feat:** add C ndarray interface and refactor implementation for `stats/base/srange` [(#4297)](https://github.com/stdlib-js/stdlib/pull/4297) _(by Aayush Khanna, Athan Reines)_
