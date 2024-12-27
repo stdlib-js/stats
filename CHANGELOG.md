@@ -3472,6 +3472,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-smin-unreleased">
+
+#### [@stdlib/stats/base/smin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bba1675`](https://github.com/stdlib-js/stdlib/commit/bba16758e10a6e2b20cf43812faaeecd366f0b9a) - add C ndarray interface and refactor implementation for `stats/base/smin` [(#4282)](https://github.com/stdlib-js/stdlib/pull/4282)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-snanmax-unreleased">
 
 #### [@stdlib/stats/base/snanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmax)
@@ -3571,6 +3593,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`bba1675`](https://github.com/stdlib-js/stdlib/commit/bba16758e10a6e2b20cf43812faaeecd366f0b9a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smin` [(#4282)](https://github.com/stdlib-js/stdlib/pull/4282) _(by Aayush Khanna)_
 -   [`88114d8`](https://github.com/stdlib-js/stdlib/commit/88114d8f76c2aaff362a5f8d42aa9ab7d30c09d1) - **refactor:** update `stats/base/dvariancewd` native addon from C++ to C [(#4283)](https://github.com/stdlib-js/stdlib/pull/4283) _(by Vivek maurya)_
 -   [`95a9d94`](https://github.com/stdlib-js/stdlib/commit/95a9d94ec41e1bdb3d3e4e2f5df99faff8a655e3) - **refactor:** update `stats/base/dvariancetk` native addon from C++ to C [(#4281)](https://github.com/stdlib-js/stdlib/pull/4281) _(by Vivek maurya)_
 -   [`9e3fd66`](https://github.com/stdlib-js/stdlib/commit/9e3fd661879b02f4200c28c3629fb122fa055d4b) - **refactor:** update `stats/base/dvariancepn` native addon from C++ to C [(#4279)](https://github.com/stdlib-js/stdlib/pull/4279) _(by Vivek maurya)_
