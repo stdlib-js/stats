@@ -3571,6 +3571,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6a5404b`](https://github.com/stdlib-js/stdlib/commit/6a5404b69fa97b5a2d8e533a241af082ef98a527) - **refactor:** update `stats/base/svariancepn` native addon from C++ to C [(#4230)](https://github.com/stdlib-js/stdlib/pull/4230) _(by Vinit Pandit)_
 -   [`76992b6`](https://github.com/stdlib-js/stdlib/commit/76992b6f239f2738e64d2f574f300b77f2901f21) - **refactor:** update `stats/base/svariancewd` native addon from C++ to C [(#4231)](https://github.com/stdlib-js/stdlib/pull/4231) _(by Vinit Pandit)_
 -   [`77d53d4`](https://github.com/stdlib-js/stdlib/commit/77d53d49f0c17869c6dd60862587bd122510dab9) - **refactor:** update `stats/base/dstdevyc` native addon from C++ to C [(#4275)](https://github.com/stdlib-js/stdlib/pull/4275) _(by Vivek maurya)_
 -   [`e878384`](https://github.com/stdlib-js/stdlib/commit/e878384af7beb18fb6f697dcbf99e75d57e2171c) - **refactor:** update `stats/base/dstdevwd` native addon from C++ to C [(#4274)](https://github.com/stdlib-js/stdlib/pull/4274) _(by Vivek maurya)_
