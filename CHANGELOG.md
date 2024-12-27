@@ -3571,6 +3571,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`07b7e9b`](https://github.com/stdlib-js/stdlib/commit/07b7e9b060009865164ff658d31a3e402d7fe3fe) - **refactor:** update `stats/base/dstdevpn` native addon from C++ to C [(#4272)](https://github.com/stdlib-js/stdlib/pull/4272) _(by Vivek maurya)_
 -   [`d83c31f`](https://github.com/stdlib-js/stdlib/commit/d83c31f741571db4eaf4385e4a2f8884dfa56dbb) - **refactor:** update `stats/base/dstdevch` native addon from C++ to C [(#4271)](https://github.com/stdlib-js/stdlib/pull/4271) _(by Vivek maurya)_
 -   [`2c352ad`](https://github.com/stdlib-js/stdlib/commit/2c352ad8f258832ebced9d6643186ff4463e20df) - **refactor:** update `stats/base/dstdev` native addon from C++ to C [(#4270)](https://github.com/stdlib-js/stdlib/pull/4270) _(by Vivek maurya)_
 -   [`265cca5`](https://github.com/stdlib-js/stdlib/commit/265cca5309edb232d2a96331430020fe789b600e) - **feat:** update namespace TypeScript declarations [(#4266)](https://github.com/stdlib-js/stdlib/pull/4266) _(by stdlib-bot, Philipp Burckhardt)_
