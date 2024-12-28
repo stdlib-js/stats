@@ -3706,6 +3706,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-snanrange-unreleased">
+
+#### [@stdlib/stats/base/snanrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanrange)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0b09419`](https://github.com/stdlib-js/stdlib/commit/0b0941957e7e8795f80ccf50c0e668cf0242958a) - add C ndarray interface and refactor implementation for `stats/base/snanrange` [(#4319)](https://github.com/stdlib-js/stdlib/pull/4319)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-srange-unreleased">
 
 #### [@stdlib/stats/base/srange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/srange)
@@ -3803,6 +3825,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0b09419`](https://github.com/stdlib-js/stdlib/commit/0b0941957e7e8795f80ccf50c0e668cf0242958a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanrange` [(#4319)](https://github.com/stdlib-js/stdlib/pull/4319) _(by Aayush Khanna)_
 -   [`b16b1fe`](https://github.com/stdlib-js/stdlib/commit/b16b1fe5d9d39b7d297d753acdc201160bc5118f) - **chore:** add missing `@private` in benchmarks of `stats/base/*` [(#4306)](https://github.com/stdlib-js/stdlib/pull/4306) _(by Aayush Khanna)_
 -   [`ec29387`](https://github.com/stdlib-js/stdlib/commit/ec2938779234c0ae42ffd2da4038e013b0c0e62b) - **feat:** add C implementation for `stats/base/dists/geometric/pmf` [(#4220)](https://github.com/stdlib-js/stdlib/pull/4220) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`f0528a0`](https://github.com/stdlib-js/stdlib/commit/f0528a09287f07e439f6c8c12ec852c71391fcd5) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanminabs` [(#4327)](https://github.com/stdlib-js/stdlib/pull/4327) _(by Aayush Khanna, stdlib-bot)_
