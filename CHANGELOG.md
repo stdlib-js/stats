@@ -3803,6 +3803,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b16b1fe`](https://github.com/stdlib-js/stdlib/commit/b16b1fe5d9d39b7d297d753acdc201160bc5118f) - **chore:** add missing `@private` in benchmarks of `stats/base/*` [(#4306)](https://github.com/stdlib-js/stdlib/pull/4306) _(by Aayush Khanna)_
 -   [`ec29387`](https://github.com/stdlib-js/stdlib/commit/ec2938779234c0ae42ffd2da4038e013b0c0e62b) - **feat:** add C implementation for `stats/base/dists/geometric/pmf` [(#4220)](https://github.com/stdlib-js/stdlib/pull/4220) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`f0528a0`](https://github.com/stdlib-js/stdlib/commit/f0528a09287f07e439f6c8c12ec852c71391fcd5) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanminabs` [(#4327)](https://github.com/stdlib-js/stdlib/pull/4327) _(by Aayush Khanna, stdlib-bot)_
 -   [`12e1d48`](https://github.com/stdlib-js/stdlib/commit/12e1d48bb51971e6f66a6e7a0f1b9d58f117b49a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanrange` [(#4293)](https://github.com/stdlib-js/stdlib/pull/4293) _(by Aayush Khanna)_
