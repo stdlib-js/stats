@@ -3650,6 +3650,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-snanminabs-unreleased">
+
+#### [@stdlib/stats/base/snanminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanminabs)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f0528a0`](https://github.com/stdlib-js/stdlib/commit/f0528a09287f07e439f6c8c12ec852c71391fcd5) - add C ndarray interface and refactor implementation for `stats/base/snanminabs` [(#4327)](https://github.com/stdlib-js/stdlib/pull/4327)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-srange-unreleased">
 
 #### [@stdlib/stats/base/srange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/srange)
@@ -3747,6 +3769,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f0528a0`](https://github.com/stdlib-js/stdlib/commit/f0528a09287f07e439f6c8c12ec852c71391fcd5) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanminabs` [(#4327)](https://github.com/stdlib-js/stdlib/pull/4327) _(by Aayush Khanna, stdlib-bot)_
 -   [`12e1d48`](https://github.com/stdlib-js/stdlib/commit/12e1d48bb51971e6f66a6e7a0f1b9d58f117b49a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanrange` [(#4293)](https://github.com/stdlib-js/stdlib/pull/4293) _(by Aayush Khanna)_
 -   [`c43d9bb`](https://github.com/stdlib-js/stdlib/commit/c43d9bb85cad40af57789bd0319462a81356b86c) - **docs:** update namespace TypeScript declaration comments [(#4303)](https://github.com/stdlib-js/stdlib/pull/4303) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`fab0863`](https://github.com/stdlib-js/stdlib/commit/fab0863b6205dd8f05f51538628c27529626ea8a) - **docs:** update namespace table of contents [(#4305)](https://github.com/stdlib-js/stdlib/pull/4305) _(by stdlib-bot, Philipp Burckhardt)_
