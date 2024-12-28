@@ -3438,6 +3438,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanrange-unreleased">
+
+#### [@stdlib/stats/base/dnanrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanrange)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`12e1d48`](https://github.com/stdlib-js/stdlib/commit/12e1d48bb51971e6f66a6e7a0f1b9d58f117b49a) - add C ndarray interface and refactor implementation for `stats/base/dnanrange` [(#4293)](https://github.com/stdlib-js/stdlib/pull/4293)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-drange-unreleased">
 
 #### [@stdlib/stats/base/drange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/drange)
@@ -3725,6 +3747,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`12e1d48`](https://github.com/stdlib-js/stdlib/commit/12e1d48bb51971e6f66a6e7a0f1b9d58f117b49a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanrange` [(#4293)](https://github.com/stdlib-js/stdlib/pull/4293) _(by Aayush Khanna)_
 -   [`c43d9bb`](https://github.com/stdlib-js/stdlib/commit/c43d9bb85cad40af57789bd0319462a81356b86c) - **docs:** update namespace TypeScript declaration comments [(#4303)](https://github.com/stdlib-js/stdlib/pull/4303) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`fab0863`](https://github.com/stdlib-js/stdlib/commit/fab0863b6205dd8f05f51538628c27529626ea8a) - **docs:** update namespace table of contents [(#4305)](https://github.com/stdlib-js/stdlib/pull/4305) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`826ecf0`](https://github.com/stdlib-js/stdlib/commit/826ecf0d000cd0ece23a1cc6f57ce2419c93854e) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmaxabs` [(#4170)](https://github.com/stdlib-js/stdlib/pull/4170) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
