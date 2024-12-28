@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-27)
+## Unreleased (2024-12-28)
 
 <section class="packages">
 
@@ -3725,6 +3725,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fab0863`](https://github.com/stdlib-js/stdlib/commit/fab0863b6205dd8f05f51538628c27529626ea8a) - **docs:** update namespace table of contents [(#4305)](https://github.com/stdlib-js/stdlib/pull/4305) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`826ecf0`](https://github.com/stdlib-js/stdlib/commit/826ecf0d000cd0ece23a1cc6f57ce2419c93854e) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmaxabs` [(#4170)](https://github.com/stdlib-js/stdlib/pull/4170) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`86a3364`](https://github.com/stdlib-js/stdlib/commit/86a336485eabd9a066b964bb3d2ada2174763e68) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmax` [(#4287)](https://github.com/stdlib-js/stdlib/pull/4287) _(by Aayush Khanna)_
 -   [`82745a5`](https://github.com/stdlib-js/stdlib/commit/82745a55bcc54c1c2bab053cfc0c7f7dc10d52f1) - **feat:** add C implementation for `stats/base/dists/triangular/skewness` [(#4259)](https://github.com/stdlib-js/stdlib/pull/4259) _(by Prashant Kumar Yadav)_
