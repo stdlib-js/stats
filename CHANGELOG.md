@@ -3522,6 +3522,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-weibull-logpdf-unreleased">
+
+#### [@stdlib/stats/base/dists/weibull/logpdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/weibull/logpdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4e93083`](https://github.com/stdlib-js/stdlib/commit/4e930835186289973b9bf3600a9a66bfddef1ae3) - add C implementation of `stats/base/dists/weibull/logpdf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-weibull-mean-unreleased">
 
 #### [@stdlib/stats/base/dists/weibull/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/weibull/mean)
@@ -4151,6 +4173,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4e93083`](https://github.com/stdlib-js/stdlib/commit/4e930835186289973b9bf3600a9a66bfddef1ae3) - **feat:** add C implementation of `stats/base/dists/weibull/logpdf` _(by Vinit Pandit, Philipp Burckhardt)_
 -   [`1a68a1f`](https://github.com/stdlib-js/stdlib/commit/1a68a1fde228b54088fa648aedb33f81d2e27c30) - **feat:** add C implementation of `stats/base/dists/weibull/pdf` _(by Vinit Pandit, Philipp Burckhardt)_
 -   [`c4c4ed8`](https://github.com/stdlib-js/stdlib/commit/c4c4ed8abb88be48be587bcc9b9235e10de86aa4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`b05f89e`](https://github.com/stdlib-js/stdlib/commit/b05f89e216ef3c44391349a1402f51ac39855a6e) - **feat:** add C implementation of `stats/base/dists/weibull/median` _(by Vinit Pandit, Philipp Burckhardt)_
