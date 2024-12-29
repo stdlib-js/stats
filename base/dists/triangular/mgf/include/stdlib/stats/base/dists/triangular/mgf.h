@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,10 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_STATS_BASE_SMIDRANGE_H
-#define STDLIB_STATS_BASE_SMIDRANGE_H
-
-#include "stdlib/blas/base/shared.h"
+#ifndef STDLIB_STATS_BASE_DISTS_TRIANGULAR_MGF_H
+#define STDLIB_STATS_BASE_DISTS_TRIANGULAR_MGF_H
 
 /*
 * If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
@@ -29,17 +27,12 @@ extern "C" {
 #endif
 
 /**
-* Computes the mid-range of a single-precision floating-point strided array.
+* Evaluates the moment-generating function (MGF) for a triangular distribution with parameters `a` (lower limit), `b` (upper limit), and `c` (mode).
 */
-float API_SUFFIX(stdlib_strided_smidrange)( const CBLAS_INT N, const float *X, const CBLAS_INT strideX );
-
-/**
-* Computes the mid-range of a single-precision floating-point strided array and using alternative indexing semantics.
-*/
-float API_SUFFIX(stdlib_strided_smidrange_ndarray)( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
+double stdlib_base_dists_triangular_mgf( const double t, const double a, const double b, const double c );
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // !STDLIB_STATS_BASE_SMIDRANGE_H
+#endif // !STDLIB_STATS_BASE_DISTS_TRIANGULAR_MGF_H
