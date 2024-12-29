@@ -3500,6 +3500,50 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-weibull-cdf-unreleased">
+
+#### [@stdlib/stats/base/dists/weibull/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/weibull/cdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f9f468e`](https://github.com/stdlib-js/stdlib/commit/f9f468e240d7e5b5d155279e4386b8b606cd8227) - add C implementation of `stats/base/dists/weibull/cdf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-weibull-logcdf-unreleased">
+
+#### [@stdlib/stats/base/dists/weibull/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/weibull/logcdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`23b4953`](https://github.com/stdlib-js/stdlib/commit/23b49531af0772d072da699ca6aac1c3d58add84) - add C implementation of `stats/base/dists/weibull/logcdf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-weibull-mean-unreleased">
 
 #### [@stdlib/stats/base/dists/weibull/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/weibull/mean)
@@ -3527,6 +3571,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-weibull-median-unreleased">
+
+#### [@stdlib/stats/base/dists/weibull/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/weibull/median)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b05f89e`](https://github.com/stdlib-js/stdlib/commit/b05f89e216ef3c44391349a1402f51ac39855a6e) - add C implementation of `stats/base/dists/weibull/median`
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -4085,6 +4151,9 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b05f89e`](https://github.com/stdlib-js/stdlib/commit/b05f89e216ef3c44391349a1402f51ac39855a6e) - **feat:** add C implementation of `stats/base/dists/weibull/median` _(by Vinit Pandit, Philipp Burckhardt)_
+-   [`f9f468e`](https://github.com/stdlib-js/stdlib/commit/f9f468e240d7e5b5d155279e4386b8b606cd8227) - **feat:** add C implementation of `stats/base/dists/weibull/cdf` _(by Vinit Pandit, Philipp Burckhardt)_
+-   [`23b4953`](https://github.com/stdlib-js/stdlib/commit/23b49531af0772d072da699ca6aac1c3d58add84) - **feat:** add C implementation of `stats/base/dists/weibull/logcdf` _(by Vinit Pandit, Philipp Burckhardt)_
 -   [`0062b9d`](https://github.com/stdlib-js/stdlib/commit/0062b9dce35b98387329829bf0da539afdd9155b) - **docs:** update namespace TypeScript declaration comments [(#4335)](https://github.com/stdlib-js/stdlib/pull/4335) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`9c14596`](https://github.com/stdlib-js/stdlib/commit/9c1459691cefa9fa8cd185cebc1102c3c1faac26) - **docs:** update namespace table of contents [(#4337)](https://github.com/stdlib-js/stdlib/pull/4337) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`3736294`](https://github.com/stdlib-js/stdlib/commit/373629481f148dd502a1ee4502c8748a470c1946) - **feat:** add C implementation for `stats/base/dists/t/mode` [(#3913)](https://github.com/stdlib-js/stdlib/pull/3913) _(by Aadish Jain)_

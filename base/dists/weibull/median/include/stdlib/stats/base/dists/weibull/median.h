@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,21 +16,23 @@
 * limitations under the License.
 */
 
-'use strict';
+#ifndef STDLIB_STATS_BASE_DISTS_WEIBULL_MEDIAN_H
+#define STDLIB_STATS_BASE_DISTS_WEIBULL_MEDIAN_H
 
-var randu = require( '@stdlib/random/base/randu' );
-var cdf = require( './../lib' );
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-var lambda;
-var k;
-var x;
-var y;
-var i;
+/**
+* Returns the median of a Weibull distribution.
+*/
+double stdlib_base_dists_weibull_median( const double k, const double lambda );
 
-for ( i = 0; i < 10; i++ ) {
-	x = randu() * 10.0;
-	lambda = randu() * 10.0;
-	k = randu() * 10.0;
-	y = cdf( x, k, lambda );
-	console.log( 'x: %d, k: %d, λ: %d, F(x;k,λ): %d', x, k, lambda, y );
+#ifdef __cplusplus
 }
+#endif
+
+#endif // !STDLIB_STATS_BASE_DISTS_WEIBULL_MEDIAN_H
