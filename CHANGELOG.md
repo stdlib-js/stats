@@ -4173,6 +4173,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d88905f`](https://github.com/stdlib-js/stdlib/commit/d88905fbd9006bf223db7ce4959b46f02cf7d73e) - **docs:** fix parameter descriptions in Weibull distribution packages _(by Philipp Burckhardt)_
 -   [`b87254d`](https://github.com/stdlib-js/stdlib/commit/b87254d4535a3b90bf3d0068750ed6e9ca5dbc85) - **docs:** fix parameter descriptions in Weibull distribution packages _(by Philipp Burckhardt)_
 -   [`4e93083`](https://github.com/stdlib-js/stdlib/commit/4e930835186289973b9bf3600a9a66bfddef1ae3) - **feat:** add C implementation of `stats/base/dists/weibull/logpdf` _(by Vinit Pandit, Philipp Burckhardt)_
 -   [`1a68a1f`](https://github.com/stdlib-js/stdlib/commit/1a68a1fde228b54088fa648aedb33f81d2e27c30) - **feat:** add C implementation of `stats/base/dists/weibull/pdf` _(by Vinit Pandit, Philipp Burckhardt)_
