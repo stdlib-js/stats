@@ -3832,6 +3832,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-snanmaxabs-unreleased">
+
+#### [@stdlib/stats/base/snanmaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmaxabs)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ab52d49`](https://github.com/stdlib-js/stdlib/commit/ab52d49f6321b0af6d615d5ee90ee52c43feb42b) - add C ndarray interface and refactor implementation for `stats/base/snanmaxabs` [(#4328)](https://github.com/stdlib-js/stdlib/pull/4328)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-snanmin-unreleased">
 
 #### [@stdlib/stats/base/snanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmin)
@@ -3995,6 +4017,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ab52d49`](https://github.com/stdlib-js/stdlib/commit/ab52d49f6321b0af6d615d5ee90ee52c43feb42b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmaxabs` [(#4328)](https://github.com/stdlib-js/stdlib/pull/4328) _(by Aayush Khanna, stdlib-bot)_
 -   [`f468acc`](https://github.com/stdlib-js/stdlib/commit/f468acc638bd724390c759a0b39ad07ce97b3313) - **feat:** add C implementation for `stats/base/dists/beta/mean` [(#3895)](https://github.com/stdlib-js/stdlib/pull/3895) _(by Vivek maurya, Philipp Burckhardt)_
 -   [`38bb02a`](https://github.com/stdlib-js/stdlib/commit/38bb02a8b6015ae6557baf0906330529bf76f64e) - **feat:** add C implementation of `stats/base/dists/rayleigh/logpdf` [(#3966)](https://github.com/stdlib-js/stdlib/pull/3966) _(by Vinit Pandit, Philipp Burckhardt)_
 -   [`bc9651b`](https://github.com/stdlib-js/stdlib/commit/bc9651b025889ce21c96672d2ab19064333d5782) - **feat:** add C implementation for `stats/base/dists/normal/entropy` [(#3930)](https://github.com/stdlib-js/stdlib/pull/3930) _(by Manvith M, stdlib-bot)_
