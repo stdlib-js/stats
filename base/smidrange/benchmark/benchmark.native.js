@@ -22,9 +22,10 @@
 
 var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
-var uniform = require( '@stdlib/random/array/uniform' );
+var randu = require( '@stdlib/random/base/randu' );
 var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
 var pow = require( '@stdlib/math/base/special/pow' );
+var Float32Array = require( '@stdlib/array/float32' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
 
@@ -34,9 +35,6 @@ var pkg = require( './../package.json' ).name;
 var smidrange = tryRequire( resolve( __dirname, './../lib/smidrange.native.js' ) );
 var opts = {
 	'skip': ( smidrange instanceof Error )
-};
-var options = {
-	'dtype': 'float32'
 };
 
 
@@ -50,7 +48,13 @@ var options = {
 * @returns {Function} benchmark function
 */
 function createBenchmark( len ) {
-	var x = uniform( len, -10.0, 10.0, options );
+	var x;
+	var i;
+
+	x = new Float32Array( len );
+	for ( i = 0; i < x.length; i++ ) {
+		x[ i ] = ( randu()*20.0 ) - 10.0;
+	}
 	return benchmark;
 
 	function benchmark( b ) {

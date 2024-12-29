@@ -33,19 +33,21 @@ var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
 *
 * @param {PositiveInteger} N - number of indexed elements
 * @param {Float32Array} x - input array
-* @param {integer} strideX - stride length
-* @param {NonNegativeInteger} offsetX - starting index
+* @param {integer} stride - stride length
+* @param {NonNegativeInteger} offset - starting index
 * @returns {number} mid-range
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
+* var floor = require( '@stdlib/math/base/special/floor' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
+* var N = floor( x.length / 2 );
 *
-* var v = smidrange( 4, x, 2, 1 );
+* var v = smidrange( N, x, 2, 1 );
 * // returns 1.0
 */
-function smidrange( N, x, strideX, offsetX ) {
+function smidrange( N, x, stride, offset ) {
 	var max;
 	var min;
 	var ix;
@@ -55,14 +57,14 @@ function smidrange( N, x, strideX, offsetX ) {
 	if ( N <= 0 ) {
 		return NaN;
 	}
-	if ( N === 1 || strideX === 0 ) {
-		return x[ offsetX ];
+	if ( N === 1 || stride === 0 ) {
+		return x[ offset ];
 	}
-	ix = offsetX;
+	ix = offset;
 	min = x[ ix ];
 	max = min;
 	for ( i = 1; i < N; i++ ) {
-		ix += strideX;
+		ix += stride;
 		v = x[ ix ];
 		if ( isnanf( v ) ) {
 			return v;

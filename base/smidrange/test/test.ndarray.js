@@ -21,6 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
+var floor = require( '@stdlib/math/base/special/floor' );
 var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
 var isPositiveZerof = require( '@stdlib/math/base/assert/is-positive-zerof' );
 var Float32Array = require( '@stdlib/array/float32' );
@@ -100,6 +101,7 @@ tape( 'if provided an `N` parameter equal to `1`, the function returns the first
 });
 
 tape( 'the function supports a `stride` parameter', function test( t ) {
+	var N;
 	var x;
 	var v;
 
@@ -114,13 +116,15 @@ tape( 'the function supports a `stride` parameter', function test( t ) {
 		2.0
 	]);
 
-	v = smidrange( 4, x, 2, 0 );
+	N = floor( x.length / 2 );
+	v = smidrange( N, x, 2, 0 );
 
 	t.strictEqual( v, 1.0, 'returns expected value' );
 	t.end();
 });
 
 tape( 'the function supports a negative `stride` parameter', function test( t ) {
+	var N;
 	var x;
 	var v;
 
@@ -135,7 +139,8 @@ tape( 'the function supports a negative `stride` parameter', function test( t ) 
 		2.0
 	]);
 
-	v = smidrange( 4, x, -2, 6 );
+	N = floor( x.length / 2 );
+	v = smidrange( N, x, -2, 6 );
 
 	t.strictEqual( v, 1.0, 'returns expected value' );
 	t.end();
@@ -159,6 +164,7 @@ tape( 'if provided a `stride` parameter equal to `0`, the function returns the f
 });
 
 tape( 'the function supports an `offset` parameter', function test( t ) {
+	var N;
 	var x;
 	var v;
 
@@ -172,8 +178,9 @@ tape( 'the function supports an `offset` parameter', function test( t ) {
 		3.0,
 		4.0   // 3
 	]);
+	N = floor( x.length / 2 );
 
-	v = smidrange( 4, x, 2, 1 );
+	v = smidrange( N, x, 2, 1 );
 	t.strictEqual( v, 1.0, 'returns expected value' );
 
 	t.end();

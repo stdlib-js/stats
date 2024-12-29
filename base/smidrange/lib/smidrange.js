@@ -20,8 +20,10 @@
 
 // MODULES //
 
-var stride2offset = require( '@stdlib/strided/base/stride2offset' );
-var ndarray = require( './ndarray.js' );
+var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
+var isPositiveZerof = require( '@stdlib/math/base/assert/is-positive-zerof' );
+var isNegativeZerof = require( '@stdlib/math/base/assert/is-negative-zerof' );
+var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
 
 
 // MAIN //
@@ -31,7 +33,7 @@ var ndarray = require( './ndarray.js' );
 *
 * @param {PositiveInteger} N - number of indexed elements
 * @param {Float32Array} x - input array
-* @param {integer} strideX - stride length
+* @param {integer} stride - stride length
 * @returns {number} mid-range
 *
 * @example
@@ -42,8 +44,39 @@ var ndarray = require( './ndarray.js' );
 * var v = smidrange( x.length, x, 1 );
 * // returns 0.0
 */
-function smidrange( N, x, strideX ) {
-	return ndarray( N, x, strideX, stride2offset( N, strideX ) );
+function smidrange( N, x, stride ) {
+	var max;
+	var min;
+	var ix;
+	var v;
+	var i;
+
+	if ( N <= 0 ) {
+		return NaN;
+	}
+	if ( N === 1 || stride === 0 ) {
+		return x[ 0 ];
+	}
+	if ( stride < 0 ) {
+		ix = (1-N) * stride;
+	} else {
+		ix = 0;
+	}
+	min = x[ ix ];
+	max = min;
+	for ( i = 1; i < N; i++ ) {
+		ix += stride;
+		v = x[ ix ];
+		if ( isnanf( v ) ) {
+			return v;
+		}
+		if ( v < min || ( v === min && isNegativeZerof( v ) ) ) {
+			min = v;
+		} else if ( v > max || ( v === max && isPositiveZerof( v ) ) ) {
+			max = v;
+		}
+	}
+	return float64ToFloat32( float64ToFloat32( max+min ) / 2.0 );
 }
 
 

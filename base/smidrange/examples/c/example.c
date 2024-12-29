@@ -17,20 +17,21 @@
 */
 
 #include "stdlib/stats/base/smidrange.h"
+#include <stdint.h>
 #include <stdio.h>
 
 int main( void ) {
 	// Create a strided array:
-	const float x[] = { 1.0f, -2.0f, -3.0f, 4.0f, -5.0f, -6.0f, 7.0f, 8.0f };
+	float x[] = { 1.0, -2.0, -3.0, 4.0, -5.0, -6.0, 7.0, 8.0 };
 
 	// Specify the number of elements:
-	const int N = 4;
+	int64_t N = 4;
 
 	// Specify the stride length:
-	const int strideX = 2;
+	int64_t stride = 2;
 
 	// Compute the mid-range:
-	float v = stdlib_strided_smidrange( N, x, strideX );
+	float v = stdlib_strided_smidrange( N, x, stride );
 
 	// Print the result:
 	printf( "mid-range: %f\n", v );

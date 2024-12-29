@@ -3976,28 +3976,6 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
-<section class="package" id="stats-base-smidrange-unreleased">
-
-#### [@stdlib/stats/base/smidrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smidrange)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`a6aa849`](https://github.com/stdlib-js/stdlib/commit/a6aa849b2c00a0e5c063d56c879e7e076b4e2a2a) - add C ndarray interface and refactor implementation for `stats/base/smidrange` [(#4341)](https://github.com/stdlib-js/stdlib/pull/4341)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="stats-base-smin-unreleased">
 
 #### [@stdlib/stats/base/smin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smin)
@@ -4261,7 +4239,6 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
--   [`a6aa849`](https://github.com/stdlib-js/stdlib/commit/a6aa849b2c00a0e5c063d56c879e7e076b4e2a2a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smidrange` [(#4341)](https://github.com/stdlib-js/stdlib/pull/4341) _(by Aayush Khanna)_
 -   [`a2ed277`](https://github.com/stdlib-js/stdlib/commit/a2ed277054861fb48c64484446e8ff5f070a8505) - **feat:** add C implementation for `stats/base/dists/f/stdev` [(#4351)](https://github.com/stdlib-js/stdlib/pull/4351) _(by Vivek maurya, Philipp Burckhardt)_
 -   [`a5086e7`](https://github.com/stdlib-js/stdlib/commit/a5086e783cf46d8a92ee065d4f7bd8b29e832f5d) - **feat:** add C ndarray interface and refactor implementation for `stats/base/scumax` [(#4344)](https://github.com/stdlib-js/stdlib/pull/4344) _(by Aayush Khanna)_
 -   [`3fcf22f`](https://github.com/stdlib-js/stdlib/commit/3fcf22faa5d7906c4278be7ad408379c36c7396e) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmidrange` [(#4340)](https://github.com/stdlib-js/stdlib/pull/4340) _(by Aayush Khanna)_
