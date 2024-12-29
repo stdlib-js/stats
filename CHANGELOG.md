@@ -4085,6 +4085,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0062b9d`](https://github.com/stdlib-js/stdlib/commit/0062b9dce35b98387329829bf0da539afdd9155b) - **docs:** update namespace TypeScript declaration comments [(#4335)](https://github.com/stdlib-js/stdlib/pull/4335) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`9c14596`](https://github.com/stdlib-js/stdlib/commit/9c1459691cefa9fa8cd185cebc1102c3c1faac26) - **docs:** update namespace table of contents [(#4337)](https://github.com/stdlib-js/stdlib/pull/4337) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`3736294`](https://github.com/stdlib-js/stdlib/commit/373629481f148dd502a1ee4502c8748a470c1946) - **feat:** add C implementation for `stats/base/dists/t/mode` [(#3913)](https://github.com/stdlib-js/stdlib/pull/3913) _(by Aadish Jain)_
 -   [`743b72e`](https://github.com/stdlib-js/stdlib/commit/743b72eeacfb44801345377b14db54b06add5468) - **feat:** add C implementation for `stats/base/dists/exponential/logcdf` [(#4174)](https://github.com/stdlib-js/stdlib/pull/4174) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
