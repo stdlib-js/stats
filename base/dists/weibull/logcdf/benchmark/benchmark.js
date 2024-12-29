@@ -22,7 +22,6 @@
 
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
-var Float64Array = require( '@stdlib/array/float64' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var pkg = require( './../package.json' ).name;
@@ -33,25 +32,17 @@ var logcdf = require( './../lib' );
 
 bench( pkg, function benchmark( b ) {
 	var lambda;
-	var len;
 	var k;
 	var x;
 	var y;
 	var i;
 
-	len = 100;
-	x = new Float64Array( len );
-	lambda = new Float64Array( len );
-	k = new Float64Array( len );
-	for ( i = 0; i < len; i++ ) {
-		x[ i ] = ( randu()*100.0 ) + EPS;
-		lambda[ i ] = ( randu()*100.0 ) + EPS;
-		k[ i ] = ( randu()*100.0 ) + EPS;
-	}
-
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = logcdf( x[ i % len ], k[ i % len ], lambda[ i % len ] );
+		x = ( randu()*100.0 ) + EPS;
+		lambda = ( randu()*100.0 ) + EPS;
+		k = ( randu()*100.0 ) + EPS;
+		y = logcdf( x, k, lambda );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}

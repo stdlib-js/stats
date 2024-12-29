@@ -1495,7 +1495,7 @@ interface Namespace {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param strideX - stride length
+	* @param stride - stride length
 	* @returns range
 	*
 	* @example
@@ -4929,7 +4929,7 @@ interface Namespace {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param strideX - stride length
+	* @param stride - stride length
 	* @returns minimum absolute value
 	*
 	* @example
@@ -5051,7 +5051,7 @@ interface Namespace {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param strideX - stride length
+	* @param stride - stride length
 	* @returns range
 	*
 	* @example
