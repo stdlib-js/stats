@@ -4,11 +4,33 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-29)
+## Unreleased (2024-12-30)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="stats-base-unreleased">
+
+#### [@stdlib/stats/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`25d8240`](https://github.com/stdlib-js/stdlib/commit/25d8240f51b27bd0ee85ca3ef70c89fd3778b902) - update namespace TypeScript declarations [(#4363)](https://github.com/stdlib-js/stdlib/pull/4363)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 <section class="package" id="stats-base-dcumax-unreleased">
 
@@ -4295,6 +4317,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`25d8240`](https://github.com/stdlib-js/stdlib/commit/25d8240f51b27bd0ee85ca3ef70c89fd3778b902) - **feat:** update namespace TypeScript declarations [(#4363)](https://github.com/stdlib-js/stdlib/pull/4363) _(by stdlib-bot)_
 -   [`98fa29f`](https://github.com/stdlib-js/stdlib/commit/98fa29f0c3aa52aca0bbfb9bdf173250b4fd860a) - **feat:** add C implementation for `stats/base/dists/triangular/mgf` [(#4330)](https://github.com/stdlib-js/stdlib/pull/4330) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`a6aa849`](https://github.com/stdlib-js/stdlib/commit/a6aa849b2c00a0e5c063d56c879e7e076b4e2a2a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smidrange` [(#4341)](https://github.com/stdlib-js/stdlib/pull/4341) _(by Aayush Khanna)_
 -   [`a2ed277`](https://github.com/stdlib-js/stdlib/commit/a2ed277054861fb48c64484446e8ff5f070a8505) - **feat:** add C implementation for `stats/base/dists/f/stdev` [(#4351)](https://github.com/stdlib-js/stdlib/pull/4351) _(by Vivek maurya, Philipp Burckhardt)_
