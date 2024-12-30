@@ -4317,6 +4317,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`cdf5e79`](https://github.com/stdlib-js/stdlib/commit/cdf5e79d125ce5da53cfa18df6ffbe2df5fe4d9f) - **docs:** update namespace table of contents [(#4365)](https://github.com/stdlib-js/stdlib/pull/4365) _(by stdlib-bot)_
 -   [`25d8240`](https://github.com/stdlib-js/stdlib/commit/25d8240f51b27bd0ee85ca3ef70c89fd3778b902) - **feat:** update namespace TypeScript declarations [(#4363)](https://github.com/stdlib-js/stdlib/pull/4363) _(by stdlib-bot)_
 -   [`98fa29f`](https://github.com/stdlib-js/stdlib/commit/98fa29f0c3aa52aca0bbfb9bdf173250b4fd860a) - **feat:** add C implementation for `stats/base/dists/triangular/mgf` [(#4330)](https://github.com/stdlib-js/stdlib/pull/4330) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`a6aa849`](https://github.com/stdlib-js/stdlib/commit/a6aa849b2c00a0e5c063d56c879e7e076b4e2a2a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smidrange` [(#4341)](https://github.com/stdlib-js/stdlib/pull/4341) _(by Aayush Khanna)_
