@@ -4339,6 +4339,8 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7c20166`](https://github.com/stdlib-js/stdlib/commit/7c20166656959d5fb6a56f71b160462cc493b13b) - **docs:** update description _(by Athan Reines)_
+-   [`d65bd1f`](https://github.com/stdlib-js/stdlib/commit/d65bd1f89e3839b7fdca9e9fec3262bb9ac9251c) - **docs:** update descriptions _(by Athan Reines)_
 -   [`eb05b7c`](https://github.com/stdlib-js/stdlib/commit/eb05b7c066210f21a3837a858c3956cc053450a3) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmskrange` [(#4376)](https://github.com/stdlib-js/stdlib/pull/4376) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`1470a6b`](https://github.com/stdlib-js/stdlib/commit/1470a6be2bd0ff7d1daedd6b893d72c13fd2db89) - **refactor:** update `stats/base/dvarm` native addon from C++ to C [(#4400)](https://github.com/stdlib-js/stdlib/pull/4400) _(by Vivek maurya)_
 -   [`418895c`](https://github.com/stdlib-js/stdlib/commit/418895cf2b363565825b4ae8f41524fc9ec9a1fd) - **refactor:** update `stats/base/sdsmean` native addon from C++ to C [(#4402)](https://github.com/stdlib-js/stdlib/pull/4402) _(by Vivek maurya)_
