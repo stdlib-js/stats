@@ -4647,6 +4647,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`186f2e7`](https://github.com/stdlib-js/stdlib/commit/186f2e70a175b9f1fe77fd6b68a18de39fce7266) - **refactor:** update `stats/base/sdsnanmeanors` native addon from C++ to C [(#4459)](https://github.com/stdlib-js/stdlib/pull/4459) _(by Vivek maurya)_
 -   [`384a7fe`](https://github.com/stdlib-js/stdlib/commit/384a7fefadbeb4377e347a6e32ca81651546fa93) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dminsorted` [(#4201)](https://github.com/stdlib-js/stdlib/pull/4201) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`f0b0632`](https://github.com/stdlib-js/stdlib/commit/f0b063248ed3a92419db56ee3b3a1c78bb72db94) - **refactor:** update `stats/base/smean` native addon from C++ to C [(#4462)](https://github.com/stdlib-js/stdlib/pull/4462) _(by Vivek maurya)_
 -   [`db37507`](https://github.com/stdlib-js/stdlib/commit/db37507a5124e609881d51e088533cd4b3ece722) - **refactor:** update `stats/base/smeankbn` native addon from C++ to C [(#4463)](https://github.com/stdlib-js/stdlib/pull/4463) _(by Vivek maurya)_
