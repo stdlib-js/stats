@@ -4362,6 +4362,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-smaxsorted-unreleased">
+
+#### [@stdlib/stats/base/smaxsorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smaxsorted)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`152ec1e`](https://github.com/stdlib-js/stdlib/commit/152ec1e8e5b3438e7052498718cf69e5a2c2c760) - add C ndarray interface and refactor implementation for `stats/base/smaxsorted` [(#4481)](https://github.com/stdlib-js/stdlib/pull/4481)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-smidrange-unreleased">
 
 #### [@stdlib/stats/base/smidrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smidrange)
@@ -4691,6 +4713,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`152ec1e`](https://github.com/stdlib-js/stdlib/commit/152ec1e8e5b3438e7052498718cf69e5a2c2c760) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smaxsorted` [(#4481)](https://github.com/stdlib-js/stdlib/pull/4481) _(by Aayush Khanna, stdlib-bot)_
 -   [`b9c545d`](https://github.com/stdlib-js/stdlib/commit/b9c545d02e7ee5cacdba296fbd478291f7634cb6) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmediansorted` [(#4466)](https://github.com/stdlib-js/stdlib/pull/4466) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`b7c2e5d`](https://github.com/stdlib-js/stdlib/commit/b7c2e5d9cf5327ad5f7d38af54a66fc865d3b13d) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smskmin` [(#4403)](https://github.com/stdlib-js/stdlib/pull/4403) _(by Aayush Khanna, stdlib-bot)_
 -   [`15b5f8e`](https://github.com/stdlib-js/stdlib/commit/15b5f8e3edf34b1b5501765f4bbccdbe27b4f0bc) - **refactor:** update `stats/base/sdsnanmean` native addon from C++ to C [(#4458)](https://github.com/stdlib-js/stdlib/pull/4458) _(by Vivek maurya)_
