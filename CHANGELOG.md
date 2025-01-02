@@ -4020,6 +4020,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dmskmin-unreleased">
+
+#### [@stdlib/stats/base/dmskmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmskmin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5394150`](https://github.com/stdlib-js/stdlib/commit/5394150aec15c67f3dcf6332fdd3ccbde56f647f) - add C ndarray interface and refactor implementation for `stats/base/dmskmin` [(#4371)](https://github.com/stdlib-js/stdlib/pull/4371)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dmskrange-unreleased">
 
 #### [@stdlib/stats/base/dmskrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmskrange)
@@ -4581,6 +4603,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5394150`](https://github.com/stdlib-js/stdlib/commit/5394150aec15c67f3dcf6332fdd3ccbde56f647f) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmskmin` [(#4371)](https://github.com/stdlib-js/stdlib/pull/4371) _(by Aayush Khanna, stdlib-bot)_
 -   [`321e287`](https://github.com/stdlib-js/stdlib/commit/321e2873cff00af9a461badef0e511417edc819d) - **style:** align comments _(by Athan Reines)_
 -   [`9279812`](https://github.com/stdlib-js/stdlib/commit/9279812aafe69110d81e108d23a3a4e395ac3232) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smskrange` [(#4404)](https://github.com/stdlib-js/stdlib/pull/4404) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`5524db1`](https://github.com/stdlib-js/stdlib/commit/5524db160ac2122196d06d9b3d3fbbfc841409c1) - **feat:** add `stats/base/dists/planck/quantile` [(#4392)](https://github.com/stdlib-js/stdlib/pull/4392) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
