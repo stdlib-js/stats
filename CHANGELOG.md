@@ -4086,6 +4086,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dmskmax-unreleased">
+
+#### [@stdlib/stats/base/dmskmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmskmax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`60ff76c`](https://github.com/stdlib-js/stdlib/commit/60ff76cc71627e75c05ceddb343b5b3b1c6856e2) - add C ndarray interface and refactor implementation for `stats/base/dmskmax` [(#4366)](https://github.com/stdlib-js/stdlib/pull/4366)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dmskmin-unreleased">
 
 #### [@stdlib/stats/base/dmskmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmskmin)
@@ -4713,6 +4735,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`60ff76c`](https://github.com/stdlib-js/stdlib/commit/60ff76cc71627e75c05ceddb343b5b3b1c6856e2) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmskmax` [(#4366)](https://github.com/stdlib-js/stdlib/pull/4366) _(by Aayush Khanna, stdlib-bot)_
 -   [`152ec1e`](https://github.com/stdlib-js/stdlib/commit/152ec1e8e5b3438e7052498718cf69e5a2c2c760) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smaxsorted` [(#4481)](https://github.com/stdlib-js/stdlib/pull/4481) _(by Aayush Khanna, stdlib-bot)_
 -   [`b9c545d`](https://github.com/stdlib-js/stdlib/commit/b9c545d02e7ee5cacdba296fbd478291f7634cb6) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmediansorted` [(#4466)](https://github.com/stdlib-js/stdlib/pull/4466) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`b7c2e5d`](https://github.com/stdlib-js/stdlib/commit/b7c2e5d9cf5327ad5f7d38af54a66fc865d3b13d) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smskmin` [(#4403)](https://github.com/stdlib-js/stdlib/pull/4403) _(by Aayush Khanna, stdlib-bot)_
