@@ -2516,6 +2516,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-planck-logcdf-unreleased">
+
+#### [@stdlib/stats/base/dists/planck/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/logcdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`baf8692`](https://github.com/stdlib-js/stdlib/commit/baf8692a1cc1eb70acd0c17a9e45bf06c315c5d6) - add `stats/base/dists/planck/logcdf` [(#4227)](https://github.com/stdlib-js/stdlib/pull/4227)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-planck-mean-unreleased">
 
 #### [@stdlib/stats/base/dists/planck/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/mean)
@@ -4383,6 +4405,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`baf8692`](https://github.com/stdlib-js/stdlib/commit/baf8692a1cc1eb70acd0c17a9e45bf06c315c5d6) - **feat:** add `stats/base/dists/planck/logcdf` [(#4227)](https://github.com/stdlib-js/stdlib/pull/4227) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`d24f1dd`](https://github.com/stdlib-js/stdlib/commit/d24f1ddfcd985d50e11593217aff603fecfe3112) - **refactor:** update `stats/base/scumin` native addon from C++ to C [(#4433)](https://github.com/stdlib-js/stdlib/pull/4433) _(by Vivek maurya, stdlib-bot)_
 -   [`27ebff5`](https://github.com/stdlib-js/stdlib/commit/27ebff579302492ee1c3f5c7a11a79dd94e901e9) - **refactor:** update `stats/base/sdsmeanors` native addon from C++ to C [(#4434)](https://github.com/stdlib-js/stdlib/pull/4434) _(by Vivek maurya, stdlib-bot)_
 -   [`a510d78`](https://github.com/stdlib-js/stdlib/commit/a510d781f292a698c2c51afda15405795363324c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dcuminabs` [(#4156)](https://github.com/stdlib-js/stdlib/pull/4156) _(by Aayush Khanna)_
