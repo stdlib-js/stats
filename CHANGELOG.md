@@ -4560,6 +4560,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 <details>
 
 -   [`5524db1`](https://github.com/stdlib-js/stdlib/commit/5524db160ac2122196d06d9b3d3fbbfc841409c1) - **feat:** add `stats/base/dists/planck/quantile` [(#4392)](https://github.com/stdlib-js/stdlib/pull/4392) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
+-   [`cbb3066`](https://github.com/stdlib-js/stdlib/commit/cbb3066fbd79eb555a86f3e429471cc3f87ed7ff) - **style:** add missing decimals _(by Athan Reines)_
 -   [`34b3c31`](https://github.com/stdlib-js/stdlib/commit/34b3c31428dfa3911fcf3ed5ba73b6ba6ddd83de) - **feat:** add `stats/base/dists/planck/entropy` [(#4325)](https://github.com/stdlib-js/stdlib/pull/4325) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`094bea4`](https://github.com/stdlib-js/stdlib/commit/094bea4813d0bcbe184fe8d2be95b97b1ff3b045) - **feat:** add `stats/base/dists/planck/logpmf` [(#4182)](https://github.com/stdlib-js/stdlib/pull/4182) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`7d285da`](https://github.com/stdlib-js/stdlib/commit/7d285da1e7214bbccf226cc56645c6c6520072cf) - **feat:** add `stats/base/dists/planck/mode` [(#4350)](https://github.com/stdlib-js/stdlib/pull/4350) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
