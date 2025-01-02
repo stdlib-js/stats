@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-01)
+## Unreleased (2025-01-02)
 
 <section class="packages">
 
@@ -4339,6 +4339,8 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0d52a8a`](https://github.com/stdlib-js/stdlib/commit/0d52a8a0eec7221c0147185c4ce3317db0458498) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`095586c`](https://github.com/stdlib-js/stdlib/commit/095586cf396939fe7379ea9cee817bc0d77e2fea) - **style:** fix indentation _(by Philipp Burckhardt)_
 -   [`7c20166`](https://github.com/stdlib-js/stdlib/commit/7c20166656959d5fb6a56f71b160462cc493b13b) - **docs:** update description _(by Athan Reines)_
 -   [`d65bd1f`](https://github.com/stdlib-js/stdlib/commit/d65bd1f89e3839b7fdca9e9fec3262bb9ac9251c) - **docs:** update descriptions _(by Athan Reines)_
 -   [`eb05b7c`](https://github.com/stdlib-js/stdlib/commit/eb05b7c066210f21a3837a858c3956cc053450a3) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmskrange` [(#4376)](https://github.com/stdlib-js/stdlib/pull/4376) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
