@@ -2604,6 +2604,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-planck-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/planck/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c41e8a2`](https://github.com/stdlib-js/stdlib/commit/c41e8a215f55a1d01843e954f0b0de34909acf94) - add `stats/base/dists/planck/skewness` [(#4353)](https://github.com/stdlib-js/stdlib/pull/4353)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-planck-stdev-unreleased">
 
 #### [@stdlib/stats/base/dists/planck/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/stdev)
@@ -4427,6 +4449,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c41e8a2`](https://github.com/stdlib-js/stdlib/commit/c41e8a215f55a1d01843e954f0b0de34909acf94) - **feat:** add `stats/base/dists/planck/skewness` [(#4353)](https://github.com/stdlib-js/stdlib/pull/4353) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`e982d25`](https://github.com/stdlib-js/stdlib/commit/e982d2541929447a454214fa81bd3d9556f36b8d) - **feat:** add `stats/base/dists/planck/median` [(#4346)](https://github.com/stdlib-js/stdlib/pull/4346) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`054f4e5`](https://github.com/stdlib-js/stdlib/commit/054f4e520735bc1ad59e0f608bb588430463e913) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`baf8692`](https://github.com/stdlib-js/stdlib/commit/baf8692a1cc1eb70acd0c17a9e45bf06c315c5d6) - **feat:** add `stats/base/dists/planck/logcdf` [(#4227)](https://github.com/stdlib-js/stdlib/pull/4227) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
