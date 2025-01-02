@@ -4625,6 +4625,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f0b0632`](https://github.com/stdlib-js/stdlib/commit/f0b063248ed3a92419db56ee3b3a1c78bb72db94) - **refactor:** update `stats/base/smean` native addon from C++ to C [(#4462)](https://github.com/stdlib-js/stdlib/pull/4462) _(by Vivek maurya)_
 -   [`db37507`](https://github.com/stdlib-js/stdlib/commit/db37507a5124e609881d51e088533cd4b3ece722) - **refactor:** update `stats/base/smeankbn` native addon from C++ to C [(#4463)](https://github.com/stdlib-js/stdlib/pull/4463) _(by Vivek maurya)_
 -   [`ff21f9a`](https://github.com/stdlib-js/stdlib/commit/ff21f9a65c8b39819ffe2f7348559f928f6e5340) - **refactor:** update `stats/base/smeankbn2` native addon from C++ to C [(#4464)](https://github.com/stdlib-js/stdlib/pull/4464) _(by Vivek maurya)_
 -   [`5f718b7`](https://github.com/stdlib-js/stdlib/commit/5f718b70ecd483de6fa502efbfed3da4cac79ce2) - **refactor:** update `stats/base/smeanli` native addon from C++ to C [(#4465)](https://github.com/stdlib-js/stdlib/pull/4465) _(by Vivek maurya)_
