@@ -2516,6 +2516,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-planck-kurtosis-unreleased">
+
+#### [@stdlib/stats/base/dists/planck/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/kurtosis)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b8b2e44`](https://github.com/stdlib-js/stdlib/commit/b8b2e44b61f388af7257000657111d693f8d32ee) - add `stats/base/dists/planck/kurtosis` [(#4355)](https://github.com/stdlib-js/stdlib/pull/4355)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-planck-logcdf-unreleased">
 
 #### [@stdlib/stats/base/dists/planck/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/logcdf)
@@ -4449,6 +4471,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b8b2e44`](https://github.com/stdlib-js/stdlib/commit/b8b2e44b61f388af7257000657111d693f8d32ee) - **feat:** add `stats/base/dists/planck/kurtosis` [(#4355)](https://github.com/stdlib-js/stdlib/pull/4355) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`c41e8a2`](https://github.com/stdlib-js/stdlib/commit/c41e8a215f55a1d01843e954f0b0de34909acf94) - **feat:** add `stats/base/dists/planck/skewness` [(#4353)](https://github.com/stdlib-js/stdlib/pull/4353) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`e982d25`](https://github.com/stdlib-js/stdlib/commit/e982d2541929447a454214fa81bd3d9556f36b8d) - **feat:** add `stats/base/dists/planck/median` [(#4346)](https://github.com/stdlib-js/stdlib/pull/4346) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`054f4e5`](https://github.com/stdlib-js/stdlib/commit/054f4e520735bc1ad59e0f608bb588430463e913) - **docs:** fix descriptions _(by Athan Reines)_
