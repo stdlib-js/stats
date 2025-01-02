@@ -4042,6 +4042,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dminsorted-unreleased">
+
+#### [@stdlib/stats/base/dminsorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dminsorted)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`384a7fe`](https://github.com/stdlib-js/stdlib/commit/384a7fefadbeb4377e347a6e32ca81651546fa93) - add C ndarray interface and refactor implementation for `stats/base/dminsorted` [(#4201)](https://github.com/stdlib-js/stdlib/pull/4201)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dmskmin-unreleased">
 
 #### [@stdlib/stats/base/dmskmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmskmin)
@@ -4625,6 +4647,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`384a7fe`](https://github.com/stdlib-js/stdlib/commit/384a7fefadbeb4377e347a6e32ca81651546fa93) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dminsorted` [(#4201)](https://github.com/stdlib-js/stdlib/pull/4201) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`f0b0632`](https://github.com/stdlib-js/stdlib/commit/f0b063248ed3a92419db56ee3b3a1c78bb72db94) - **refactor:** update `stats/base/smean` native addon from C++ to C [(#4462)](https://github.com/stdlib-js/stdlib/pull/4462) _(by Vivek maurya)_
 -   [`db37507`](https://github.com/stdlib-js/stdlib/commit/db37507a5124e609881d51e088533cd4b3ece722) - **refactor:** update `stats/base/smeankbn` native addon from C++ to C [(#4463)](https://github.com/stdlib-js/stdlib/pull/4463) _(by Vivek maurya)_
 -   [`ff21f9a`](https://github.com/stdlib-js/stdlib/commit/ff21f9a65c8b39819ffe2f7348559f928f6e5340) - **refactor:** update `stats/base/smeankbn2` native addon from C++ to C [(#4464)](https://github.com/stdlib-js/stdlib/pull/4464) _(by Vivek maurya)_
