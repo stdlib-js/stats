@@ -4625,6 +4625,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ff21f9a`](https://github.com/stdlib-js/stdlib/commit/ff21f9a65c8b39819ffe2f7348559f928f6e5340) - **refactor:** update `stats/base/smeankbn2` native addon from C++ to C [(#4464)](https://github.com/stdlib-js/stdlib/pull/4464) _(by Vivek maurya)_
 -   [`5f718b7`](https://github.com/stdlib-js/stdlib/commit/5f718b70ecd483de6fa502efbfed3da4cac79ce2) - **refactor:** update `stats/base/smeanli` native addon from C++ to C [(#4465)](https://github.com/stdlib-js/stdlib/pull/4465) _(by Vivek maurya)_
 -   [`f0ddcaa`](https://github.com/stdlib-js/stdlib/commit/f0ddcaa9c0fef19e741dbaea78169a91fa077c89) - **style:** add missing parentheses _(by Athan Reines)_
 -   [`f36eb5d`](https://github.com/stdlib-js/stdlib/commit/f36eb5d4b86b5e50150a5760cea64ed1de2275e4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmaxsorted` [(#4456)](https://github.com/stdlib-js/stdlib/pull/4456) _(by Aayush Khanna)_
