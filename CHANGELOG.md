@@ -2560,6 +2560,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-planck-median-unreleased">
+
+#### [@stdlib/stats/base/dists/planck/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/median)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e982d25`](https://github.com/stdlib-js/stdlib/commit/e982d2541929447a454214fa81bd3d9556f36b8d) - add `stats/base/dists/planck/median` [(#4346)](https://github.com/stdlib-js/stdlib/pull/4346)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-planck-pmf-unreleased">
 
 #### [@stdlib/stats/base/dists/planck/pmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/pmf)
@@ -4405,6 +4427,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e982d25`](https://github.com/stdlib-js/stdlib/commit/e982d2541929447a454214fa81bd3d9556f36b8d) - **feat:** add `stats/base/dists/planck/median` [(#4346)](https://github.com/stdlib-js/stdlib/pull/4346) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`054f4e5`](https://github.com/stdlib-js/stdlib/commit/054f4e520735bc1ad59e0f608bb588430463e913) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`baf8692`](https://github.com/stdlib-js/stdlib/commit/baf8692a1cc1eb70acd0c17a9e45bf06c315c5d6) - **feat:** add `stats/base/dists/planck/logcdf` [(#4227)](https://github.com/stdlib-js/stdlib/pull/4227) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`d24f1dd`](https://github.com/stdlib-js/stdlib/commit/d24f1ddfcd985d50e11593217aff603fecfe3112) - **refactor:** update `stats/base/scumin` native addon from C++ to C [(#4433)](https://github.com/stdlib-js/stdlib/pull/4433) _(by Vivek maurya, stdlib-bot)_
