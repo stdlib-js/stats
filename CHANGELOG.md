@@ -4406,6 +4406,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-smaxabssorted-unreleased">
+
+#### [@stdlib/stats/base/smaxabssorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smaxabssorted)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e887764`](https://github.com/stdlib-js/stdlib/commit/e887764c763b02e4085776d6b69794b45f51783a) - add C ndarray interface and refactor implementation for `stats/base/smaxabssorted` [(#4479)](https://github.com/stdlib-js/stdlib/pull/4479)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-smaxsorted-unreleased">
 
 #### [@stdlib/stats/base/smaxsorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smaxsorted)
@@ -4780,6 +4802,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e887764`](https://github.com/stdlib-js/stdlib/commit/e887764c763b02e4085776d6b69794b45f51783a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smaxabssorted` [(#4479)](https://github.com/stdlib-js/stdlib/pull/4479) _(by Aayush Khanna, stdlib-bot)_
 -   [`6b59072`](https://github.com/stdlib-js/stdlib/commit/6b5907250180eee4ea3c90a855e1aebbefdc2d2b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmaxabssorted` [(#4181)](https://github.com/stdlib-js/stdlib/pull/4181) _(by Aayush Khanna, stdlib-bot)_
 -   [`5bea415`](https://github.com/stdlib-js/stdlib/commit/5bea415bf095c9f0445e1d7c80196121e8e1ba83) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smskmax` [(#4401)](https://github.com/stdlib-js/stdlib/pull/4401) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`f7a3247`](https://github.com/stdlib-js/stdlib/commit/f7a3247a9b386b5abfb879dfaec6943ff332c80b) - **refactor:** update `stats/base/snanvariance` native addon from C++ to C [(#4471)](https://github.com/stdlib-js/stdlib/pull/4471) _(by Dhruv/)_
