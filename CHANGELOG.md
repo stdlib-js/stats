@@ -4802,6 +4802,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1bd0b30`](https://github.com/stdlib-js/stdlib/commit/1bd0b3026eef3e5a8a2643132042030c0ff6af47) - **refactor:** update  `stats/base/snanstdevpn` native addon from C++ to C [(#4475)](https://github.com/stdlib-js/stdlib/pull/4475) _(by Dhruv/)_
 -   [`bd43478`](https://github.com/stdlib-js/stdlib/commit/bd43478472197c333b5774007b37b5aa6cc974fb) - **refactor:** update `stats/base/snanstdevtk` native addon from C++ to C [(#4474)](https://github.com/stdlib-js/stdlib/pull/4474) _(by Dhruv/)_
 -   [`78fe293`](https://github.com/stdlib-js/stdlib/commit/78fe2934378bdafef9059c8b95e2befd0f076d7b) - **refactor:** update `stats/base/sstdevtk` native addon from C++ to C [(#4484)](https://github.com/stdlib-js/stdlib/pull/4484) _(by Dhruv/)_
 -   [`e887764`](https://github.com/stdlib-js/stdlib/commit/e887764c763b02e4085776d6b69794b45f51783a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smaxabssorted` [(#4479)](https://github.com/stdlib-js/stdlib/pull/4479) _(by Aayush Khanna, stdlib-bot)_
