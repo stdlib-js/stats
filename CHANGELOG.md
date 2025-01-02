@@ -4405,6 +4405,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`054f4e5`](https://github.com/stdlib-js/stdlib/commit/054f4e520735bc1ad59e0f608bb588430463e913) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`baf8692`](https://github.com/stdlib-js/stdlib/commit/baf8692a1cc1eb70acd0c17a9e45bf06c315c5d6) - **feat:** add `stats/base/dists/planck/logcdf` [(#4227)](https://github.com/stdlib-js/stdlib/pull/4227) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`d24f1dd`](https://github.com/stdlib-js/stdlib/commit/d24f1ddfcd985d50e11593217aff603fecfe3112) - **refactor:** update `stats/base/scumin` native addon from C++ to C [(#4433)](https://github.com/stdlib-js/stdlib/pull/4433) _(by Vivek maurya, stdlib-bot)_
 -   [`27ebff5`](https://github.com/stdlib-js/stdlib/commit/27ebff579302492ee1c3f5c7a11a79dd94e901e9) - **refactor:** update `stats/base/sdsmeanors` native addon from C++ to C [(#4434)](https://github.com/stdlib-js/stdlib/pull/4434) _(by Vivek maurya, stdlib-bot)_
