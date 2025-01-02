@@ -4625,6 +4625,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f0ddcaa`](https://github.com/stdlib-js/stdlib/commit/f0ddcaa9c0fef19e741dbaea78169a91fa077c89) - **style:** add missing parentheses _(by Athan Reines)_
 -   [`f36eb5d`](https://github.com/stdlib-js/stdlib/commit/f36eb5d4b86b5e50150a5760cea64ed1de2275e4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmaxsorted` [(#4456)](https://github.com/stdlib-js/stdlib/pull/4456) _(by Aayush Khanna)_
 -   [`5394150`](https://github.com/stdlib-js/stdlib/commit/5394150aec15c67f3dcf6332fdd3ccbde56f647f) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmskmin` [(#4371)](https://github.com/stdlib-js/stdlib/pull/4371) _(by Aayush Khanna, stdlib-bot)_
 -   [`321e287`](https://github.com/stdlib-js/stdlib/commit/321e2873cff00af9a461badef0e511417edc819d) - **style:** align comments _(by Athan Reines)_
