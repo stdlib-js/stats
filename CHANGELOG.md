@@ -4339,6 +4339,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`dbb2756`](https://github.com/stdlib-js/stdlib/commit/dbb27568ed7d5f00d6edc28f189bfd2d09af09ff) - **refactor:** update `stats/base/scumaxabs` native addon from C++ to C [(#4409)](https://github.com/stdlib-js/stdlib/pull/4409) _(by Vivek maurya)_
 -   [`ece293d`](https://github.com/stdlib-js/stdlib/commit/ece293d0f45008ac7ee820dd220d60b37c5269ea) - **refactor:** update `stats/base/dvarmtk` native addon from C++ to C [(#4407)](https://github.com/stdlib-js/stdlib/pull/4407) _(by Vivek maurya)_
 -   [`eaff108`](https://github.com/stdlib-js/stdlib/commit/eaff10877ccadb63eeaa81e95c3acb7825859ee4) - **refactor:** update `stats/base/dvarmpn` native addon from C++ to C [(#4406)](https://github.com/stdlib-js/stdlib/pull/4406) _(by Vivek maurya)_
 -   [`b7f05ba`](https://github.com/stdlib-js/stdlib/commit/b7f05ba1c3e170908fc56b291d87ed33ee34d5b6) - **docs:** fix errors in examples and docs for `stats/base/dmin` [(#4367)](https://github.com/stdlib-js/stdlib/pull/4367) _(by Aayush Khanna)_
