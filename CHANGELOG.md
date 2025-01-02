@@ -4340,6 +4340,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-smskrange-unreleased">
+
+#### [@stdlib/stats/base/smskrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smskrange)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9279812`](https://github.com/stdlib-js/stdlib/commit/9279812aafe69110d81e108d23a3a4e395ac3232) - add C ndarray interface and refactor implementation for `stats/base/smskrange` [(#4404)](https://github.com/stdlib-js/stdlib/pull/4404)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-snanmax-unreleased">
 
 #### [@stdlib/stats/base/snanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmax)
@@ -4559,6 +4581,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9279812`](https://github.com/stdlib-js/stdlib/commit/9279812aafe69110d81e108d23a3a4e395ac3232) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smskrange` [(#4404)](https://github.com/stdlib-js/stdlib/pull/4404) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`5524db1`](https://github.com/stdlib-js/stdlib/commit/5524db160ac2122196d06d9b3d3fbbfc841409c1) - **feat:** add `stats/base/dists/planck/quantile` [(#4392)](https://github.com/stdlib-js/stdlib/pull/4392) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`cbb3066`](https://github.com/stdlib-js/stdlib/commit/cbb3066fbd79eb555a86f3e429471cc3f87ed7ff) - **style:** add missing decimals _(by Athan Reines)_
 -   [`34b3c31`](https://github.com/stdlib-js/stdlib/commit/34b3c31428dfa3911fcf3ed5ba73b6ba6ddd83de) - **feat:** add `stats/base/dists/planck/entropy` [(#4325)](https://github.com/stdlib-js/stdlib/pull/4325) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
