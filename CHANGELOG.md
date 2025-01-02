@@ -4383,6 +4383,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`27ebff5`](https://github.com/stdlib-js/stdlib/commit/27ebff579302492ee1c3f5c7a11a79dd94e901e9) - **refactor:** update `stats/base/sdsmeanors` native addon from C++ to C [(#4434)](https://github.com/stdlib-js/stdlib/pull/4434) _(by Vivek maurya, stdlib-bot)_
 -   [`a510d78`](https://github.com/stdlib-js/stdlib/commit/a510d781f292a698c2c51afda15405795363324c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dcuminabs` [(#4156)](https://github.com/stdlib-js/stdlib/pull/4156) _(by Aayush Khanna)_
 -   [`604d9b5`](https://github.com/stdlib-js/stdlib/commit/604d9b5a2c932d701b53cee0845c1309a0a2e1f9) - **fix:** remove unused deps and fix indentation _(by Athan Reines)_
 -   [`dbb2756`](https://github.com/stdlib-js/stdlib/commit/dbb27568ed7d5f00d6edc28f189bfd2d09af09ff) - **refactor:** update `stats/base/scumaxabs` native addon from C++ to C [(#4409)](https://github.com/stdlib-js/stdlib/pull/4409) _(by Vivek maurya)_
