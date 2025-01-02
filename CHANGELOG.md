@@ -2560,6 +2560,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-planck-logpmf-unreleased">
+
+#### [@stdlib/stats/base/dists/planck/logpmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/logpmf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`094bea4`](https://github.com/stdlib-js/stdlib/commit/094bea4813d0bcbe184fe8d2be95b97b1ff3b045) - add `stats/base/dists/planck/logpmf` [(#4182)](https://github.com/stdlib-js/stdlib/pull/4182)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-planck-mean-unreleased">
 
 #### [@stdlib/stats/base/dists/planck/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/mean)
@@ -4493,6 +4515,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`094bea4`](https://github.com/stdlib-js/stdlib/commit/094bea4813d0bcbe184fe8d2be95b97b1ff3b045) - **feat:** add `stats/base/dists/planck/logpmf` [(#4182)](https://github.com/stdlib-js/stdlib/pull/4182) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`7d285da`](https://github.com/stdlib-js/stdlib/commit/7d285da1e7214bbccf226cc56645c6c6520072cf) - **feat:** add `stats/base/dists/planck/mode` [(#4350)](https://github.com/stdlib-js/stdlib/pull/4350) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`b8b2e44`](https://github.com/stdlib-js/stdlib/commit/b8b2e44b61f388af7257000657111d693f8d32ee) - **feat:** add `stats/base/dists/planck/kurtosis` [(#4355)](https://github.com/stdlib-js/stdlib/pull/4355) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
 -   [`c41e8a2`](https://github.com/stdlib-js/stdlib/commit/c41e8a215f55a1d01843e954f0b0de34909acf94) - **feat:** add `stats/base/dists/planck/skewness` [(#4353)](https://github.com/stdlib-js/stdlib/pull/4353) _(by Jaysukh Makvana, Athan Reines, stdlib-bot)_
