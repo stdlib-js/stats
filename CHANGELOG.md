@@ -4802,6 +4802,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`78fe293`](https://github.com/stdlib-js/stdlib/commit/78fe2934378bdafef9059c8b95e2befd0f076d7b) - **refactor:** update `stats/base/sstdevtk` native addon from C++ to C [(#4484)](https://github.com/stdlib-js/stdlib/pull/4484) _(by Dhruv/)_
 -   [`e887764`](https://github.com/stdlib-js/stdlib/commit/e887764c763b02e4085776d6b69794b45f51783a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smaxabssorted` [(#4479)](https://github.com/stdlib-js/stdlib/pull/4479) _(by Aayush Khanna, stdlib-bot)_
 -   [`6b59072`](https://github.com/stdlib-js/stdlib/commit/6b5907250180eee4ea3c90a855e1aebbefdc2d2b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmaxabssorted` [(#4181)](https://github.com/stdlib-js/stdlib/pull/4181) _(by Aayush Khanna, stdlib-bot)_
 -   [`5bea415`](https://github.com/stdlib-js/stdlib/commit/5bea415bf095c9f0445e1d7c80196121e8e1ba83) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smskmax` [(#4401)](https://github.com/stdlib-js/stdlib/pull/4401) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
