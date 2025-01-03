@@ -4846,6 +4846,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fc14734`](https://github.com/stdlib-js/stdlib/commit/fc14734d1c1c3b58408d11c8d2ab40bdc3aa9d49) - **refactor:** explicitly return zero for non-integer x _(by Philipp Burckhardt)_
 -   [`205c6ed`](https://github.com/stdlib-js/stdlib/commit/205c6edb5d756c2e5892c12e18b75a525f4e943f) - **chore:** disable lint rule _(by Philipp Burckhardt)_
 -   [`ff7a8c1`](https://github.com/stdlib-js/stdlib/commit/ff7a8c145900de9b8af74ba06e763b8113dcdec1) - **docs:** add missing spaces _(by Philipp Burckhardt)_
 -   [`79dd840`](https://github.com/stdlib-js/stdlib/commit/79dd840d5ba23c6dc524071c125deb4521ee5f9f) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dcumaxabs` [(#4139)](https://github.com/stdlib-js/stdlib/pull/4139) _(by Aayush Khanna, Athan Reines)_
