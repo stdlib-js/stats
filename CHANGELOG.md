@@ -5119,6 +5119,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3cd2abf`](https://github.com/stdlib-js/stdlib/commit/3cd2abf7c694c28a32c13b4702d2e12dced5cc36) - **docs:** update namespace table of contents [(#4489)](https://github.com/stdlib-js/stdlib/pull/4489) _(by stdlib-bot)_
 -   [`6443564`](https://github.com/stdlib-js/stdlib/commit/6443564291cf967569bbc0a9f2d918b59bdfc295) - **feat:** add C implementation for `stats/base/dists/rayleigh/median` [(#4027)](https://github.com/stdlib-js/stdlib/pull/4027) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`133c539`](https://github.com/stdlib-js/stdlib/commit/133c5394889b68952968cd6f4ff192f9692deb9f) - **feat:** update namespace TypeScript declarations [(#4487)](https://github.com/stdlib-js/stdlib/pull/4487) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`f9d393e`](https://github.com/stdlib-js/stdlib/commit/f9d393e4a5cf40e85e24255c4372c5695da205f0) - **feat:** add C implementation for `stats/base/dists/logistic/kurtosis` [(#4034)](https://github.com/stdlib-js/stdlib/pull/4034) _(by Prashant Kumar Yadav, stdlib-bot)_
