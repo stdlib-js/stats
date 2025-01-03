@@ -4855,6 +4855,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-sminsorted-unreleased">
+
+#### [@stdlib/stats/base/sminsorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sminsorted)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`da4697a`](https://github.com/stdlib-js/stdlib/commit/da4697a938cbd040e23e406a04c5c7dddf4e4a52) - add C ndarray interface and refactor implementation for `stats/base/sminsorted` [(#4492)](https://github.com/stdlib-js/stdlib/pull/4492)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-smskmax-unreleased">
 
 #### [@stdlib/stats/base/smskmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smskmax)
@@ -5140,6 +5162,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`da4697a`](https://github.com/stdlib-js/stdlib/commit/da4697a938cbd040e23e406a04c5c7dddf4e4a52) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sminsorted` [(#4492)](https://github.com/stdlib-js/stdlib/pull/4492) _(by Aayush Khanna, stdlib-bot)_
 -   [`b046648`](https://github.com/stdlib-js/stdlib/commit/b046648de50ab6f4d3af98645313df1a067cd5ff) - **chore:** remove unused header in `stats/base/dnanmeanwd` [(#4497)](https://github.com/stdlib-js/stdlib/pull/4497) _(by Aayush Khanna)_
 -   [`29f0cf3`](https://github.com/stdlib-js/stdlib/commit/29f0cf37d8c59629455eead33c36630c2f323750) - **test:** fix arguments _(by Athan Reines)_
 -   [`43b8310`](https://github.com/stdlib-js/stdlib/commit/43b83109c3ead4e4fd66cf41e7608b36cbd08871) - **docs:** fix examples _(by Athan Reines)_
