@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-02)
+## Unreleased (2025-01-03)
 
 <section class="packages">
 
@@ -43,6 +43,28 @@
 ##### Features
 
 -   [`6ec8074`](https://github.com/stdlib-js/stdlib/commit/6ec8074bd6e6c406a743cb8a18a7eb220efa7423) - add C ndarray interface and refactor implementation for `stats/base/dcumax` [(#4137)](https://github.com/stdlib-js/stdlib/pull/4137)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dcumin-unreleased">
+
+#### [@stdlib/stats/base/dcumin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dcumin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`63c9e3d`](https://github.com/stdlib-js/stdlib/commit/63c9e3d5345b13f9c6713c0d412266ba11c00b0b) - add C ndarray interface and refactor implementation for `stats/base/dcumin` [(#4144)](https://github.com/stdlib-js/stdlib/pull/4144)
 
 </section>
 
@@ -4802,6 +4824,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`63c9e3d`](https://github.com/stdlib-js/stdlib/commit/63c9e3d5345b13f9c6713c0d412266ba11c00b0b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dcumin` [(#4144)](https://github.com/stdlib-js/stdlib/pull/4144) _(by Aayush Khanna, Athan Reines)_
 -   [`11eafc3`](https://github.com/stdlib-js/stdlib/commit/11eafc3ad46cbc07ce887563f4b9ad61111675b8) - **refactor:** update `stats/base/snanvariancech` native addon from C++ to C [(#4483)](https://github.com/stdlib-js/stdlib/pull/4483) _(by Dhruv/, Athan Reines)_
 -   [`cddd4f9`](https://github.com/stdlib-js/stdlib/commit/cddd4f99ee23669daf1a6001ad40ffbad72e5dac) - **refactor:** update `stats/base/snanstdevyc` native addon from C++ to C [(#4472)](https://github.com/stdlib-js/stdlib/pull/4472) _(by Dhruv/)_
 -   [`1bd0b30`](https://github.com/stdlib-js/stdlib/commit/1bd0b3026eef3e5a8a2643132042030c0ff6af47) - **refactor:** update  `stats/base/snanstdevpn` native addon from C++ to C [(#4475)](https://github.com/stdlib-js/stdlib/pull/4475) _(by Dhruv/)_
