@@ -5140,6 +5140,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f45a304`](https://github.com/stdlib-js/stdlib/commit/f45a30444f00092d9e2dc54d7859b218dc5fe37e) - **refactor:** update `stats/base/sstdevpn` native addon from C++ to C [(#4509)](https://github.com/stdlib-js/stdlib/pull/4509) _(by Dhruv Arvind Singh)_
 -   [`099a20d`](https://github.com/stdlib-js/stdlib/commit/099a20d177062b4d44568ce283f14d391227cfa6) - **refactor:** update `stats/base/sstdev` native addon from C++ to C [(#4507)](https://github.com/stdlib-js/stdlib/pull/4507) _(by Dhruv Arvind Singh)_
 -   [`cd35166`](https://github.com/stdlib-js/stdlib/commit/cd351660a65b2bcfbef7f1211960b569ccccd7a9) - **refactor:** update `stats/base/snanvariancetk` native addon from C++ to C [(#4505)](https://github.com/stdlib-js/stdlib/pull/4505) _(by Dhruv Arvind Singh)_
 -   [`09a06ae`](https://github.com/stdlib-js/stdlib/commit/09a06aed3c53cc94cee541f7a9c22ec7cf89a6b2) - **refactor:** update `stats/base/snanvariancewd` native addon from C++ to C [(#4504)](https://github.com/stdlib-js/stdlib/pull/4504) _(by Dhruv Arvind Singh)_
