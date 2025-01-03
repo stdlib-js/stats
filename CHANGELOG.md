@@ -5140,6 +5140,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`09a06ae`](https://github.com/stdlib-js/stdlib/commit/09a06aed3c53cc94cee541f7a9c22ec7cf89a6b2) - **refactor:** update `stats/base/snanvariancewd` native addon from C++ to C [(#4504)](https://github.com/stdlib-js/stdlib/pull/4504) _(by Dhruv Arvind Singh)_
 -   [`c529dc1`](https://github.com/stdlib-js/stdlib/commit/c529dc154f39665750d6f6323baa429a6694bf2c) - **refactor:** update `stats/base/snanstdevwd` native addon from C++ to C [(#4473)](https://github.com/stdlib-js/stdlib/pull/4473) _(by Dhruv Arvind Singh)_
 -   [`5a8bc2d`](https://github.com/stdlib-js/stdlib/commit/5a8bc2d65b9589423a161822ee60b4b78b96c309) - **refactor:** update `stats/base/snanstdevch` native addon from C++ to C [(#4470)](https://github.com/stdlib-js/stdlib/pull/4470) _(by Dhruv Arvind Singh)_
 -   [`2832442`](https://github.com/stdlib-js/stdlib/commit/28324425c1a630bd52cccc75d4f4a2a72bbc9e01) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dnanmeanwd` [(#4251)](https://github.com/stdlib-js/stdlib/pull/4251) _(by Neeraj Pathak, Athan Reines)_
