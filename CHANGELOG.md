@@ -54,6 +54,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dcumaxabs-unreleased">
+
+#### [@stdlib/stats/base/dcumaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dcumaxabs)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`79dd840`](https://github.com/stdlib-js/stdlib/commit/79dd840d5ba23c6dc524071c125deb4521ee5f9f) - add C ndarray interface and refactor implementation for `stats/base/dcumaxabs` [(#4139)](https://github.com/stdlib-js/stdlib/pull/4139)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dcumin-unreleased">
 
 #### [@stdlib/stats/base/dcumin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dcumin)
@@ -4824,6 +4846,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`79dd840`](https://github.com/stdlib-js/stdlib/commit/79dd840d5ba23c6dc524071c125deb4521ee5f9f) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dcumaxabs` [(#4139)](https://github.com/stdlib-js/stdlib/pull/4139) _(by Aayush Khanna, Athan Reines)_
 -   [`63c9e3d`](https://github.com/stdlib-js/stdlib/commit/63c9e3d5345b13f9c6713c0d412266ba11c00b0b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dcumin` [(#4144)](https://github.com/stdlib-js/stdlib/pull/4144) _(by Aayush Khanna, Athan Reines)_
 -   [`11eafc3`](https://github.com/stdlib-js/stdlib/commit/11eafc3ad46cbc07ce887563f4b9ad61111675b8) - **refactor:** update `stats/base/snanvariancech` native addon from C++ to C [(#4483)](https://github.com/stdlib-js/stdlib/pull/4483) _(by Dhruv/, Athan Reines)_
 -   [`cddd4f9`](https://github.com/stdlib-js/stdlib/commit/cddd4f99ee23669daf1a6001ad40ffbad72e5dac) - **refactor:** update `stats/base/snanstdevyc` native addon from C++ to C [(#4472)](https://github.com/stdlib-js/stdlib/pull/4472) _(by Dhruv/)_
