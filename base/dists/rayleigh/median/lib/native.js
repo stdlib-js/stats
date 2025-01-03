@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -26,26 +26,33 @@ var addon = require( './../src/addon.node' );
 // MAIN //
 
 /**
-* Computes the arithmetic mean of a double-precision floating-point strided array, using Welford's algorithm and ignoring `NaN` values.
+* Returns the median of a Rayleigh distribution.
 *
-* @param {PositiveInteger} N - number of indexed elements
-* @param {Float64Array} x - input array
-* @param {integer} strideX - stride length
-* @returns {number} arithmetic mean
+* @private
+* @param {NonNegativeNumber} sigma - scale parameter
+* @returns {NonNegativeNumber} median
 *
 * @example
-* var Float64Array = require( '@stdlib/array/float64' );
+* var v = median( 9.0 );
+* // returns ~10.597
 *
-* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+* @example
+* var v = median( 2.0 );
+* // returns ~2.355
 *
-* var v = dnanmeanwd( x.length, x, 1 );
-* // returns ~0.3333
+* @example
+* var v = median( -0.2 );
+* // returns NaN
+*
+* @example
+* var v = median( NaN );
+* // returns NaN
 */
-function dnanmeanwd( N, x, strideX ) {
-	return addon( N, x, strideX );
+function median( sigma ) {
+	return addon( sigma );
 }
 
 
 // EXPORTS //
 
-module.exports = dnanmeanwd;
+module.exports = median;

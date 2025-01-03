@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,22 +16,8 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanmeanwd.h"
-#include <stdio.h>
+#include "stdlib/stats/base/dists/rayleigh/median.h"
+#include "stdlib/math/base/napi/unary.h"
 
-int main( void ) {
-	// Create a strided array:
-	const double x[] = { 1.0, 2.0, 0.0/0.0, 3.0, 0.0/0.0, 4.0, 5.0, 6.0, 0.0/0.0, 7.0, 8.0, 0.0/0.0 };
-
-	// Specify the number of elements:
-	const int N = 6;
-
-	// Specify the stride length:
-	const int strideX = 2;
-
-	// Compute the arithmetic mean:
-	double v = stdlib_strided_dnanmeanwd( N, x, strideX );
-
-	// Print the result:
-	printf( "mean: %lf\n", v );
-}
+// cppcheck-suppress shadowFunction
+STDLIB_MATH_BASE_NAPI_MODULE_D_D( stdlib_base_dists_rayleigh_median )

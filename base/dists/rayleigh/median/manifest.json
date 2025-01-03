@@ -38,13 +38,10 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/blas/base/shared",
-        "@stdlib/strided/base/stride2offset",
-        "@stdlib/napi/export",
-        "@stdlib/napi/argv",
-        "@stdlib/napi/argv-int64",
-        "@stdlib/napi/argv-strided-float64array",
-        "@stdlib/napi/create-double"
+        "@stdlib/math/base/napi/unary",
+        "@stdlib/math/base/assert/is-nan",
+        "@stdlib/constants/float64/ln-two",
+        "@stdlib/math/base/special/sqrt"
       ]
     },
     {
@@ -59,8 +56,10 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/blas/base/shared",
-        "@stdlib/strided/base/stride2offset"
+        "@stdlib/math/base/assert/is-nan",
+        "@stdlib/constants/float64/ln-two",
+        "@stdlib/constants/float64/eps",
+        "@stdlib/math/base/special/sqrt"
       ]
     },
     {
@@ -75,24 +74,9 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/blas/base/shared",
-        "@stdlib/strided/base/stride2offset"
-      ]
-    },
-    {
-      "task": "",
-      "wasm": true,
-      "src": [
-        "./src/main.c"
-      ],
-      "include": [
-        "./include"
-      ],
-      "libraries": [],
-      "libpath": [],
-      "dependencies": [
-        "@stdlib/blas/base/shared",
-        "@stdlib/strided/base/stride2offset"
+        "@stdlib/math/base/assert/is-nan",
+        "@stdlib/constants/float64/ln-two",
+        "@stdlib/math/base/special/sqrt"
       ]
     }
   ]

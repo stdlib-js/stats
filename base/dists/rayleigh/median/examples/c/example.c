@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,22 +16,23 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanmeanwd.h"
+#include "stdlib/stats/base/dists/rayleigh/median.h"
+#include <stdlib.h>
 #include <stdio.h>
 
+static double random_uniform( const double min, const double max ) {
+	double v = (double)rand() / ( (double)RAND_MAX + 1.0 );
+	return min + ( v*(max-min) );
+}
+
 int main( void ) {
-	// Create a strided array:
-	const double x[] = { 1.0, 2.0, 0.0/0.0, 3.0, 0.0/0.0, 4.0, 5.0, 6.0, 0.0/0.0, 7.0, 8.0, 0.0/0.0 };
+	double sigma;
+	double y;
+	int i;
 
-	// Specify the number of elements:
-	const int N = 6;
-
-	// Specify the stride length:
-	const int strideX = 2;
-
-	// Compute the arithmetic mean:
-	double v = stdlib_strided_dnanmeanwd( N, x, strideX );
-
-	// Print the result:
-	printf( "mean: %lf\n", v );
+	for ( i = 0; i < 25; i++ ) {
+		sigma = random_uniform( 0.0, 20.0 );
+		y = stdlib_base_dists_rayleigh_median( sigma );
+		printf( "σ: %lf, Median(X;σ): %lf\n", sigma, y );
+	}
 }

@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,10 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_STATS_BASE_DNANMEANWD_H
-#define STDLIB_STATS_BASE_DNANMEANWD_H
-
-#include "stdlib/blas/base/shared.h"
+#ifndef STDLIB_STATS_BASE_DISTS_RAYLEIGH_MEDIAN_H
+#define STDLIB_STATS_BASE_DISTS_RAYLEIGH_MEDIAN_H
 
 /*
 * If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
@@ -29,17 +27,12 @@ extern "C" {
 #endif
 
 /**
-* Computes the arithmetic mean of a double-precision floating-point strided array, using Welford's algorithm and ignoring `NaN` values.
+* Returns the median of a Rayleigh distribution.
 */
-double API_SUFFIX(stdlib_strided_dnanmeanwd)( const CBLAS_INT N, const double *X, const CBLAS_INT strideX );
-
-/**
-* Computes the arithmetic mean of a double-precision floating-point strided array, ignoring `NaN` values and using Welford's algorithm and alternative indexing semantics.
-*/
-double API_SUFFIX(stdlib_strided_dnanmeanwd_ndarray)( const CBLAS_INT N, const double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
+double stdlib_base_dists_rayleigh_median( const double sigma );
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // !STDLIB_STATS_BASE_DNANMEANWD_H
+#endif // !STDLIB_STATS_BASE_DISTS_RAYLEIGH_MEDIAN_H
