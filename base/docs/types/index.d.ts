@@ -1321,7 +1321,7 @@ interface Namespace {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param strideX - stride length
+	* @param stride - stride length
 	* @returns arithmetic mean
 	*
 	* @example
@@ -4521,7 +4521,7 @@ interface Namespace {
 	*
 	* @param N - number of indexed elements
 	* @param x - sorted input array
-	* @param strideX - stride length
+	* @param stride - stride length
 	* @returns median value
 	*
 	* @example
@@ -4625,7 +4625,7 @@ interface Namespace {
 	*
 	* @param N - number of indexed elements
 	* @param x - sorted input array
-	* @param strideX - stride length
+	* @param stride - stride length
 	* @returns minimum value
 	*
 	* @example

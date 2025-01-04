@@ -20,7 +20,6 @@
 
 ##### Features
 
--   [`4b1f53d`](https://github.com/stdlib-js/stdlib/commit/4b1f53de18bc03af6439de1e3797d9e222ecdf28) - update namespace TypeScript declarations [(#4518)](https://github.com/stdlib-js/stdlib/pull/4518)
 -   [`133c539`](https://github.com/stdlib-js/stdlib/commit/133c5394889b68952968cd6f4ff192f9692deb9f) - update namespace TypeScript declarations [(#4487)](https://github.com/stdlib-js/stdlib/pull/4487)
 -   [`25d8240`](https://github.com/stdlib-js/stdlib/commit/25d8240f51b27bd0ee85ca3ef70c89fd3778b902) - update namespace TypeScript declarations [(#4363)](https://github.com/stdlib-js/stdlib/pull/4363)
 
@@ -5185,7 +5184,6 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
--   [`4b1f53d`](https://github.com/stdlib-js/stdlib/commit/4b1f53de18bc03af6439de1e3797d9e222ecdf28) - **feat:** update namespace TypeScript declarations [(#4518)](https://github.com/stdlib-js/stdlib/pull/4518) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`7362135`](https://github.com/stdlib-js/stdlib/commit/7362135077f77f3cdc2f103683a7cec6d2ad5eed) - **docs:** update namespace table of contents [(#4520)](https://github.com/stdlib-js/stdlib/pull/4520) _(by stdlib-bot)_
 -   [`63e4274`](https://github.com/stdlib-js/stdlib/commit/63e4274589df08bbcbb65b9c0d4a5d2e3f9ff594) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smediansorted` [(#4490)](https://github.com/stdlib-js/stdlib/pull/4490) _(by Aayush Khanna, Athan Reines)_
 -   [`da4697a`](https://github.com/stdlib-js/stdlib/commit/da4697a938cbd040e23e406a04c5c7dddf4e4a52) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sminsorted` [(#4492)](https://github.com/stdlib-js/stdlib/pull/4492) _(by Aayush Khanna, stdlib-bot)_
