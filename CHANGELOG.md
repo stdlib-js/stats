@@ -4814,6 +4814,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dvarmtk-unreleased">
+
+#### [@stdlib/stats/base/dvarmtk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvarmtk)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b137c53`](https://github.com/stdlib-js/stdlib/commit/b137c532efabf2080905abf6f4f6673e365bc0d3) - add C ndarray interface and refactor implementation for `stats/base/dvarmtk` [(#4541)](https://github.com/stdlib-js/stdlib/pull/4541)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-scumax-unreleased">
 
 #### [@stdlib/stats/base/scumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumax)
@@ -5419,6 +5441,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b137c53`](https://github.com/stdlib-js/stdlib/commit/b137c532efabf2080905abf6f4f6673e365bc0d3) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvarmtk` [(#4541)](https://github.com/stdlib-js/stdlib/pull/4541) _(by Aayush Khanna)_
 -   [`6ed3eab`](https://github.com/stdlib-js/stdlib/commit/6ed3eab19add755588af91b44a96a67b1a40d357) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancech` [(#4547)](https://github.com/stdlib-js/stdlib/pull/4547) _(by Aayush Khanna)_
 -   [`a33962b`](https://github.com/stdlib-js/stdlib/commit/a33962b2d83d88dd4bad45d9464b3baa8f000fa4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvariancewd` [(#4501)](https://github.com/stdlib-js/stdlib/pull/4501) _(by Aayush Khanna)_
 -   [`9b81fa1`](https://github.com/stdlib-js/stdlib/commit/9b81fa1ed74236c7abd35a32beca84e99d6d45f4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeanwd` [(#4503)](https://github.com/stdlib-js/stdlib/pull/4503) _(by Aayush Khanna)_
