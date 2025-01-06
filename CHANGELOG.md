@@ -5236,6 +5236,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-svariancetk-unreleased">
+
+#### [@stdlib/stats/base/svariancetk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/svariancetk)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d5d5a5a`](https://github.com/stdlib-js/stdlib/commit/d5d5a5ae5c030f09dd24d2e91422d68827c184b7) - add C ndarray interface and refactor implementation for `stats/base/svariancetk` [(#4570)](https://github.com/stdlib-js/stdlib/pull/4570)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -5287,6 +5309,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d5d5a5a`](https://github.com/stdlib-js/stdlib/commit/d5d5a5ae5c030f09dd24d2e91422d68827c184b7) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancetk` [(#4570)](https://github.com/stdlib-js/stdlib/pull/4570) _(by Aayush Khanna)_
 -   [`3fb1b23`](https://github.com/stdlib-js/stdlib/commit/3fb1b235780bc7d91f58e9877fdc30a1a29b00e4) - **refactor:** update `stats/base/dnanstdevpn` native addon from C++ to C [(#4537)](https://github.com/stdlib-js/stdlib/pull/4537) _(by Dhruv Arvind Singh)_
 -   [`9616777`](https://github.com/stdlib-js/stdlib/commit/9616777b99f1c7dc4ad7fbbed3980f1b9ff0edba) - **refactor:** update `stats/base/dnanvariancepn` native addon from C++ to C [(#4538)](https://github.com/stdlib-js/stdlib/pull/4538) _(by Dhruv Arvind Singh)_
 -   [`2aefb73`](https://github.com/stdlib-js/stdlib/commit/2aefb7376a3362808b39543863e4fb7a59751579) - **refactor:** update `stats/base/dnanstdevch` native addon from C++ to C [(#4539)](https://github.com/stdlib-js/stdlib/pull/4539) _(by Dhruv Arvind Singh)_
