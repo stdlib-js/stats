@@ -5287,6 +5287,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2aefb73`](https://github.com/stdlib-js/stdlib/commit/2aefb7376a3362808b39543863e4fb7a59751579) - **refactor:** update `stats/base/dnanstdevch` native addon from C++ to C [(#4539)](https://github.com/stdlib-js/stdlib/pull/4539) _(by Dhruv Arvind Singh)_
 -   [`9232789`](https://github.com/stdlib-js/stdlib/commit/92327895344d85080fd3af6c9b36d09c72225dc0) - **refactor:** update `stats/base/dnanstdevyc` native addon from C++ to C [(#4536)](https://github.com/stdlib-js/stdlib/pull/4536) _(by Dhruv Arvind Singh)_
 -   [`6f6d429`](https://github.com/stdlib-js/stdlib/commit/6f6d4291fa5a2fcad82ad6c0175ac2b7c92808d9) - **refactor:** update `stats/base/dnanvarianceyc` native addon from C++ to C [(#4535)](https://github.com/stdlib-js/stdlib/pull/4535) _(by Dhruv Arvind Singh)_
 -   [`3087276`](https://github.com/stdlib-js/stdlib/commit/30872761a18267dd805bec065b83ea96fd2d8d32) - **feat:** add C implementation for `stats/base/dists/frechet/variance` [(#4577)](https://github.com/stdlib-js/stdlib/pull/4577) _(by Manvith M, Philipp Burckhardt)_
