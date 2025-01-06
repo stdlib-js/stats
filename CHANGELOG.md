@@ -4792,6 +4792,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dvariancewd-unreleased">
+
+#### [@stdlib/stats/base/dvariancewd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvariancewd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a33962b`](https://github.com/stdlib-js/stdlib/commit/a33962b2d83d88dd4bad45d9464b3baa8f000fa4) - add C ndarray interface and refactor implementation for `stats/base/dvariancewd` [(#4501)](https://github.com/stdlib-js/stdlib/pull/4501)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-scumax-unreleased">
 
 #### [@stdlib/stats/base/scumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumax)
@@ -5375,6 +5397,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a33962b`](https://github.com/stdlib-js/stdlib/commit/a33962b2d83d88dd4bad45d9464b3baa8f000fa4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvariancewd` [(#4501)](https://github.com/stdlib-js/stdlib/pull/4501) _(by Aayush Khanna)_
 -   [`9b81fa1`](https://github.com/stdlib-js/stdlib/commit/9b81fa1ed74236c7abd35a32beca84e99d6d45f4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeanwd` [(#4503)](https://github.com/stdlib-js/stdlib/pull/4503) _(by Aayush Khanna)_
 -   [`44cf480`](https://github.com/stdlib-js/stdlib/commit/44cf480b69005e5c5e333fee9b7dd6bbc4059f24) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvariancech` [(#4524)](https://github.com/stdlib-js/stdlib/pull/4524) _(by Aayush Khanna)_
 -   [`2572caf`](https://github.com/stdlib-js/stdlib/commit/2572caf74e1c12224520ce31a8ce8f447246bc0c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvariancetk` [(#4534)](https://github.com/stdlib-js/stdlib/pull/4534) _(by Aayush Khanna, stdlib-bot)_
