@@ -5463,6 +5463,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e919ac9`](https://github.com/stdlib-js/stdlib/commit/e919ac977a84e594a03d68e4c3748cd68bc9bf4e) - **style:** fix indentation in manifest.json files [(#4599)](https://github.com/stdlib-js/stdlib/pull/4599) _(by Aayush Khanna)_
 -   [`5d255dc`](https://github.com/stdlib-js/stdlib/commit/5d255dc1a8b5b0e89d81b84ba2f1174c3d8ccd1c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvarianceyc` [(#4521)](https://github.com/stdlib-js/stdlib/pull/4521) _(by Aayush Khanna)_
 -   [`b137c53`](https://github.com/stdlib-js/stdlib/commit/b137c532efabf2080905abf6f4f6673e365bc0d3) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvarmtk` [(#4541)](https://github.com/stdlib-js/stdlib/pull/4541) _(by Aayush Khanna)_
 -   [`6ed3eab`](https://github.com/stdlib-js/stdlib/commit/6ed3eab19add755588af91b44a96a67b1a40d357) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancech` [(#4547)](https://github.com/stdlib-js/stdlib/pull/4547) _(by Aayush Khanna)_
