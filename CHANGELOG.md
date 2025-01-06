@@ -4814,6 +4814,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dvarianceyc-unreleased">
+
+#### [@stdlib/stats/base/dvarianceyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvarianceyc)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5d255dc`](https://github.com/stdlib-js/stdlib/commit/5d255dc1a8b5b0e89d81b84ba2f1174c3d8ccd1c) - add C ndarray interface and refactor implementation for `stats/base/dvarianceyc` [(#4521)](https://github.com/stdlib-js/stdlib/pull/4521)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dvarmtk-unreleased">
 
 #### [@stdlib/stats/base/dvarmtk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvarmtk)
@@ -5441,6 +5463,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5d255dc`](https://github.com/stdlib-js/stdlib/commit/5d255dc1a8b5b0e89d81b84ba2f1174c3d8ccd1c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvarianceyc` [(#4521)](https://github.com/stdlib-js/stdlib/pull/4521) _(by Aayush Khanna)_
 -   [`b137c53`](https://github.com/stdlib-js/stdlib/commit/b137c532efabf2080905abf6f4f6673e365bc0d3) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvarmtk` [(#4541)](https://github.com/stdlib-js/stdlib/pull/4541) _(by Aayush Khanna)_
 -   [`6ed3eab`](https://github.com/stdlib-js/stdlib/commit/6ed3eab19add755588af91b44a96a67b1a40d357) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancech` [(#4547)](https://github.com/stdlib-js/stdlib/pull/4547) _(by Aayush Khanna)_
 -   [`a33962b`](https://github.com/stdlib-js/stdlib/commit/a33962b2d83d88dd4bad45d9464b3baa8f000fa4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvariancewd` [(#4501)](https://github.com/stdlib-js/stdlib/pull/4501) _(by Aayush Khanna)_
