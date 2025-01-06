@@ -4748,6 +4748,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dvariancetk-unreleased">
+
+#### [@stdlib/stats/base/dvariancetk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvariancetk)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2572caf`](https://github.com/stdlib-js/stdlib/commit/2572caf74e1c12224520ce31a8ce8f447246bc0c) - add C ndarray interface and refactor implementation for `stats/base/dvariancetk` [(#4534)](https://github.com/stdlib-js/stdlib/pull/4534)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-scumax-unreleased">
 
 #### [@stdlib/stats/base/scumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumax)
@@ -5309,6 +5331,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2572caf`](https://github.com/stdlib-js/stdlib/commit/2572caf74e1c12224520ce31a8ce8f447246bc0c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvariancetk` [(#4534)](https://github.com/stdlib-js/stdlib/pull/4534) _(by Aayush Khanna, stdlib-bot)_
 -   [`d5d5a5a`](https://github.com/stdlib-js/stdlib/commit/d5d5a5ae5c030f09dd24d2e91422d68827c184b7) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancetk` [(#4570)](https://github.com/stdlib-js/stdlib/pull/4570) _(by Aayush Khanna)_
 -   [`3fb1b23`](https://github.com/stdlib-js/stdlib/commit/3fb1b235780bc7d91f58e9877fdc30a1a29b00e4) - **refactor:** update `stats/base/dnanstdevpn` native addon from C++ to C [(#4537)](https://github.com/stdlib-js/stdlib/pull/4537) _(by Dhruv Arvind Singh)_
 -   [`9616777`](https://github.com/stdlib-js/stdlib/commit/9616777b99f1c7dc4ad7fbbed3980f1b9ff0edba) - **refactor:** update `stats/base/dnanvariancepn` native addon from C++ to C [(#4538)](https://github.com/stdlib-js/stdlib/pull/4538) _(by Dhruv Arvind Singh)_
