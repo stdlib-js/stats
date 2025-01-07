@@ -5497,7 +5497,6 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
--   [`dd8cae0`](https://github.com/stdlib-js/stdlib/commit/dd8cae03bdcf1a9d28ea9c0614301011e9a1bff1) - **docs:** update namespace TypeScript declaration comments [(#4623)](https://github.com/stdlib-js/stdlib/pull/4623) _(by stdlib-bot)_
 -   [`d5eda91`](https://github.com/stdlib-js/stdlib/commit/d5eda9164e34525b36a44fc1383e80a1cce61734) - **docs:** update namespace table of contents [(#4625)](https://github.com/stdlib-js/stdlib/pull/4625) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`8447e7a`](https://github.com/stdlib-js/stdlib/commit/8447e7a2a28a2f5cdca879dea9a6ebe56783b82f) - **feat:** add C implementation for `stats/base/dists/binomial/mode` [(#3947)](https://github.com/stdlib-js/stdlib/pull/3947) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`e919ac9`](https://github.com/stdlib-js/stdlib/commit/e919ac977a84e594a03d68e4c3748cd68bc9bf4e) - **style:** fix indentation in manifest.json files [(#4599)](https://github.com/stdlib-js/stdlib/pull/4599) _(by Aayush Khanna)_
