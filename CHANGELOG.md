@@ -5497,6 +5497,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`dd8cae0`](https://github.com/stdlib-js/stdlib/commit/dd8cae03bdcf1a9d28ea9c0614301011e9a1bff1) - **docs:** update namespace TypeScript declaration comments [(#4623)](https://github.com/stdlib-js/stdlib/pull/4623) _(by stdlib-bot)_
 -   [`d5eda91`](https://github.com/stdlib-js/stdlib/commit/d5eda9164e34525b36a44fc1383e80a1cce61734) - **docs:** update namespace table of contents [(#4625)](https://github.com/stdlib-js/stdlib/pull/4625) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`8447e7a`](https://github.com/stdlib-js/stdlib/commit/8447e7a2a28a2f5cdca879dea9a6ebe56783b82f) - **feat:** add C implementation for `stats/base/dists/binomial/mode` [(#3947)](https://github.com/stdlib-js/stdlib/pull/3947) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`e919ac9`](https://github.com/stdlib-js/stdlib/commit/e919ac977a84e594a03d68e4c3748cd68bc9bf4e) - **style:** fix indentation in manifest.json files [(#4599)](https://github.com/stdlib-js/stdlib/pull/4599) _(by Aayush Khanna)_
@@ -5513,6 +5514,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 -   [`2aefb73`](https://github.com/stdlib-js/stdlib/commit/2aefb7376a3362808b39543863e4fb7a59751579) - **refactor:** update `stats/base/dnanstdevch` native addon from C++ to C [(#4539)](https://github.com/stdlib-js/stdlib/pull/4539) _(by Dhruv Arvind Singh)_
 -   [`9232789`](https://github.com/stdlib-js/stdlib/commit/92327895344d85080fd3af6c9b36d09c72225dc0) - **refactor:** update `stats/base/dnanstdevyc` native addon from C++ to C [(#4536)](https://github.com/stdlib-js/stdlib/pull/4536) _(by Dhruv Arvind Singh)_
 -   [`6f6d429`](https://github.com/stdlib-js/stdlib/commit/6f6d4291fa5a2fcad82ad6c0175ac2b7c92808d9) - **refactor:** update `stats/base/dnanvarianceyc` native addon from C++ to C [(#4535)](https://github.com/stdlib-js/stdlib/pull/4535) _(by Dhruv Arvind Singh)_
+-   [`746eae4`](https://github.com/stdlib-js/stdlib/commit/746eae4688b31749105a872b58aaa5e7fb017ae0) - **docs:** fix argument order _(by Athan Reines)_
 -   [`3087276`](https://github.com/stdlib-js/stdlib/commit/30872761a18267dd805bec065b83ea96fd2d8d32) - **feat:** add C implementation for `stats/base/dists/frechet/variance` [(#4577)](https://github.com/stdlib-js/stdlib/pull/4577) _(by Manvith M, Philipp Burckhardt)_
 -   [`19d5c61`](https://github.com/stdlib-js/stdlib/commit/19d5c612fe1e9b65f13d61adab0d11d49ba7916a) - **feat:** add C implementation for `stats/base/dists/frechet/stdev` [(#4576)](https://github.com/stdlib-js/stdlib/pull/4576) _(by Manvith M, Philipp Burckhardt)_
 -   [`3b44fd4`](https://github.com/stdlib-js/stdlib/commit/3b44fd415b1115445a74ff9a13111823b99a85a0) - **feat:** add C implementation for `stats/base/dists/frechet/skewness` [(#4573)](https://github.com/stdlib-js/stdlib/pull/4573) _(by Manvith M, Philipp Burckhardt)_
