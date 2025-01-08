@@ -5582,6 +5582,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7d83b83`](https://github.com/stdlib-js/stdlib/commit/7d83b837055b388bd26d9eeb42f709042a257a4d) - **refactor:** update `stats/base/smeanors` native addon from C++ to C [(#4606)](https://github.com/stdlib-js/stdlib/pull/4606) _(by Vivek Maurya)_
 -   [`c2bba5e`](https://github.com/stdlib-js/stdlib/commit/c2bba5eb639fddbb573c17c252f877cb4192023c) - **refactor:** update `stats/base/smeanpn` native addon from C++ to C [(#4607)](https://github.com/stdlib-js/stdlib/pull/4607) _(by Vivek Maurya)_
 -   [`6e4d0b4`](https://github.com/stdlib-js/stdlib/commit/6e4d0b4ca7e0723d8af03e25cb1b8751a3464b58) - **refactor:** update `stats/base/snanmeanpn` native addon from C++ to C [(#4611)](https://github.com/stdlib-js/stdlib/pull/4611) _(by Vivek Maurya)_
 -   [`493839b`](https://github.com/stdlib-js/stdlib/commit/493839b95a9be8fe1680237242935904c7dd9c6f) - **refactor:** update `stats/base/snanmeanors` native addon from C++ to C [(#4610)](https://github.com/stdlib-js/stdlib/pull/4610) _(by Vivek Maurya)_
