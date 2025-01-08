@@ -5582,6 +5582,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`86e5846`](https://github.com/stdlib-js/stdlib/commit/86e58462513d0ee81c45611b190a7d75fbc003c0) - **refactor:** update `stats/base/snanmean` native addon from C++ to C [(#4609)](https://github.com/stdlib-js/stdlib/pull/4609) _(by Vivek Maurya)_
 -   [`5ef836c`](https://github.com/stdlib-js/stdlib/commit/5ef836cd3679fc6a70b1c486a5f673afeb8c0c34) - **refactor:** update `stats/base/smeanpw` native addon from C++ to C [(#4608)](https://github.com/stdlib-js/stdlib/pull/4608) _(by Vivek Maurya)_
 -   [`3283517`](https://github.com/stdlib-js/stdlib/commit/32835176f21ecd14cbf81a51699d49533ff63fe6) - **feat:** add C implementation for `stats/base/dists/binomial/variance` [(#3929)](https://github.com/stdlib-js/stdlib/pull/3929) _(by Prashant Kumar Yadav, Athan Reines, Philipp Burckhardt)_
 -   [`99378ce`](https://github.com/stdlib-js/stdlib/commit/99378ce076b7c6ec7b0ff29aa1ad8feac9121113) - **fix:** wrap void function call in `API_SUFFIX` [(#4603)](https://github.com/stdlib-js/stdlib/pull/4603) _(by Aayush Khanna)_
