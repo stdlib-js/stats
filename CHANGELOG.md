@@ -4879,6 +4879,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dstdevwd-unreleased">
+
+#### [@stdlib/stats/base/dstdevwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevwd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b4af7cd`](https://github.com/stdlib-js/stdlib/commit/b4af7cd6caca695d965bedf217a6ad0b5afd5b57) - add C ndarray interface and refactor implementation for `stats/base/dstdevwd` [(#4620)](https://github.com/stdlib-js/stdlib/pull/4620)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dvariancech-unreleased">
 
 #### [@stdlib/stats/base/dvariancech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvariancech)
@@ -5604,6 +5626,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b4af7cd`](https://github.com/stdlib-js/stdlib/commit/b4af7cd6caca695d965bedf217a6ad0b5afd5b57) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdevwd` [(#4620)](https://github.com/stdlib-js/stdlib/pull/4620) _(by Aayush Khanna, Athan Reines)_
 -   [`f229b4a`](https://github.com/stdlib-js/stdlib/commit/f229b4a8d90fd206460ad508f67da1578609cdbb) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdevch` [(#4619)](https://github.com/stdlib-js/stdlib/pull/4619) _(by Aayush Khanna, Athan Reines)_
 -   [`8948253`](https://github.com/stdlib-js/stdlib/commit/89482536c64814ff08216f1e8f8ee80ff13d574f) - **refactor:** update `stats/base/smeanlipw` native addon from C++ to C [(#4605)](https://github.com/stdlib-js/stdlib/pull/4605) _(by Vivek Maurya)_
 -   [`7d83b83`](https://github.com/stdlib-js/stdlib/commit/7d83b837055b388bd26d9eeb42f709042a257a4d) - **refactor:** update `stats/base/smeanors` native addon from C++ to C [(#4606)](https://github.com/stdlib-js/stdlib/pull/4606) _(by Vivek Maurya)_
