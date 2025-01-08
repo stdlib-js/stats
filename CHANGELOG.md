@@ -4601,6 +4601,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dmeanwd-unreleased">
+
+#### [@stdlib/stats/base/dmeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanwd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4c1b774`](https://github.com/stdlib-js/stdlib/commit/4c1b774cde259bba78be12cfe897e1bec49a0430) - add C ndarray interface and refactor implementation for `stats/base/dmeanwd` [(#4493)](https://github.com/stdlib-js/stdlib/pull/4493)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dmediansorted-unreleased">
 
 #### [@stdlib/stats/base/dmediansorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmediansorted)
@@ -6143,6 +6165,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4c1b774`](https://github.com/stdlib-js/stdlib/commit/4c1b774cde259bba78be12cfe897e1bec49a0430) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanwd` [(#4493)](https://github.com/stdlib-js/stdlib/pull/4493) _(by Aayush Khanna)_
 -   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - **fix:** wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646) _(by Aayush Khanna)_
 -   [`6def8d6`](https://github.com/stdlib-js/stdlib/commit/6def8d6af0309beb3e207ae21b4266f142edfa48) - **feat:** add C implementation for `stats/base/dists/chisquare/mgf` [(#4593)](https://github.com/stdlib-js/stdlib/pull/4593) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
 -   [`4fae05a`](https://github.com/stdlib-js/stdlib/commit/4fae05a8a8d1851c1619b58d1b262fd903cec395) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdevtk` [(#4621)](https://github.com/stdlib-js/stdlib/pull/4621) _(by Aayush Khanna, Athan Reines)_
