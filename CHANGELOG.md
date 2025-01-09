@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-08)
+## Unreleased (2025-01-09)
 
 <section class="packages">
 
@@ -6187,6 +6187,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1d7a2df`](https://github.com/stdlib-js/stdlib/commit/1d7a2dfcb1cb9bae13f6ecd63aca3c4741433d29) - **docs:** update namespace TypeScript declarations [(#4656)](https://github.com/stdlib-js/stdlib/pull/4656) _(by stdlib-bot)_
 -   [`41cf529`](https://github.com/stdlib-js/stdlib/commit/41cf529795453c99f7621b5d253970498d11fd28) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdevyc` [(#4628)](https://github.com/stdlib-js/stdlib/pull/4628) _(by Aayush Khanna, Athan Reines)_
 -   [`4c1b774`](https://github.com/stdlib-js/stdlib/commit/4c1b774cde259bba78be12cfe897e1bec49a0430) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanwd` [(#4493)](https://github.com/stdlib-js/stdlib/pull/4493) _(by Aayush Khanna)_
 -   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - **fix:** wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646) _(by Aayush Khanna)_
