@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-09)
+## Unreleased (2025-01-10)
 
 <section class="packages">
 
@@ -5103,6 +5103,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dsemwd-unreleased">
+
+#### [@stdlib/stats/base/dsemwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsemwd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3901a45`](https://github.com/stdlib-js/stdlib/commit/3901a450ad8218885b513e8501f3e8cbb97a6492) - add C ndarray interface and refactor implementation for `stats/base/dsemwd` [(#4662)](https://github.com/stdlib-js/stdlib/pull/4662)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dstdevch-unreleased">
 
 #### [@stdlib/stats/base/dstdevch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevch)
@@ -6187,6 +6209,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3901a45`](https://github.com/stdlib-js/stdlib/commit/3901a450ad8218885b513e8501f3e8cbb97a6492) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsemwd` [(#4662)](https://github.com/stdlib-js/stdlib/pull/4662) _(by Aayush Khanna)_
 -   [`76642bf`](https://github.com/stdlib-js/stdlib/commit/76642bf477c7431527bdeef8b979e92e8d93e6bb) - **docs:** update namespace table of contents [(#4658)](https://github.com/stdlib-js/stdlib/pull/4658) _(by stdlib-bot)_
 -   [`1d7a2df`](https://github.com/stdlib-js/stdlib/commit/1d7a2dfcb1cb9bae13f6ecd63aca3c4741433d29) - **docs:** update namespace TypeScript declarations [(#4656)](https://github.com/stdlib-js/stdlib/pull/4656) _(by stdlib-bot)_
 -   [`41cf529`](https://github.com/stdlib-js/stdlib/commit/41cf529795453c99f7621b5d253970498d11fd28) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdevyc` [(#4628)](https://github.com/stdlib-js/stdlib/pull/4628) _(by Aayush Khanna, Athan Reines)_
