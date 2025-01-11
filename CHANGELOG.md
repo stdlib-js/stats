@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-10)
+## Unreleased (2025-01-11)
 
 <section class="packages">
 
@@ -5501,6 +5501,16 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`0619690`](https://github.com/stdlib-js/stdlib/commit/0619690c1a69a402ba6315631506302f010d6404) - add C ndarray interface and refactor implementation for `stats/base/scumaxabs` [(#4684)](https://github.com/stdlib-js/stdlib/pull/4684)
+
+</section>
+
+<!-- /.features -->
+
 <section class="bug-fixes">
 
 ##### Bug Fixes
@@ -6277,6 +6287,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0619690`](https://github.com/stdlib-js/stdlib/commit/0619690c1a69a402ba6315631506302f010d6404) - **feat:** add C ndarray interface and refactor implementation for `stats/base/scumaxabs` [(#4684)](https://github.com/stdlib-js/stdlib/pull/4684) _(by Aayush Khanna)_
 -   [`77c3c12`](https://github.com/stdlib-js/stdlib/commit/77c3c12285e6c44e28a31345e2f2737b087b1f0a) - **feat:** add C implementation for `stats/base/dists/degenerate/mode` [(#4580)](https://github.com/stdlib-js/stdlib/pull/4580) _(by Karan Anand, Philipp Burckhardt)_
 -   [`1040b76`](https://github.com/stdlib-js/stdlib/commit/1040b76eca609dd8557525b79be6903dcf8c607d) - **feat:** add C implementation for `stats/base/dists/triangular/variance` [(#4000)](https://github.com/stdlib-js/stdlib/pull/4000) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`3901a45`](https://github.com/stdlib-js/stdlib/commit/3901a450ad8218885b513e8501f3e8cbb97a6492) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsemwd` [(#4662)](https://github.com/stdlib-js/stdlib/pull/4662) _(by Aayush Khanna)_
