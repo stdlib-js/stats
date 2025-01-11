@@ -5833,6 +5833,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-scumin-unreleased">
+
+#### [@stdlib/stats/base/scumin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`085aeea`](https://github.com/stdlib-js/stdlib/commit/085aeeaf4e416c35022ae730072c8f3be2c4c0ba) - add C ndarray interface and refactor implementation for `stats/base/scumin` [(#4694)](https://github.com/stdlib-js/stdlib/pull/4694)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-smax-unreleased">
 
 #### [@stdlib/stats/base/smax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smax)
@@ -6593,6 +6615,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`085aeea`](https://github.com/stdlib-js/stdlib/commit/085aeeaf4e416c35022ae730072c8f3be2c4c0ba) - **feat:** add C ndarray interface and refactor implementation for `stats/base/scumin` [(#4694)](https://github.com/stdlib-js/stdlib/pull/4694) _(by Aayush Khanna)_
 -   [`95bdc42`](https://github.com/stdlib-js/stdlib/commit/95bdc42196643ed99f417ec1be130ca7acc6b121) - **refactor:** update `stats/base/dmeanstdev` native addon from C++ to C [(#4612)](https://github.com/stdlib-js/stdlib/pull/4612) _(by Dhruv Arvind Singh)_
 -   [`49878d2`](https://github.com/stdlib-js/stdlib/commit/49878d2f175bf20a1afa08e9f0a9e3fd541c5a33) - **refactor:** update `stats/base/dmeanstdevpn` native addon from C++ to C [(#4647)](https://github.com/stdlib-js/stdlib/pull/4647) _(by Dhruv Arvind Singh)_
 -   [`099eb56`](https://github.com/stdlib-js/stdlib/commit/099eb5668345edf1c4d3ff9bbd5a1f2d68502606) - **refactor:** update `stats/base/dmeanvarpn` native addon from C++ to C [(#4651)](https://github.com/stdlib-js/stdlib/pull/4651) _(by Dhruv Arvind Singh)_
