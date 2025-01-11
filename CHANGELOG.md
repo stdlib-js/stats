@@ -6715,6 +6715,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`aa5eadc`](https://github.com/stdlib-js/stdlib/commit/aa5eadcaa2fa6e03f504918953a247f68ac26a47) - **refactor:** use stdlib dependencies instead of math.h in `stats/base/dcuminabs` [(#4699)](https://github.com/stdlib-js/stdlib/pull/4699) _(by Aayush Khanna)_
 -   [`82d6dde`](https://github.com/stdlib-js/stdlib/commit/82d6dde1b4b7a6aacc421b99e904ed3931218ce6) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sstdevch` [(#4682)](https://github.com/stdlib-js/stdlib/pull/4682) _(by Aayush Khanna)_
 -   [`f1efc7b`](https://github.com/stdlib-js/stdlib/commit/f1efc7bf70197dff5abf0e25d021ae2f33239b35) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sstdevtk` [(#4683)](https://github.com/stdlib-js/stdlib/pull/4683) _(by Aayush Khanna)_
 -   [`3dab4d1`](https://github.com/stdlib-js/stdlib/commit/3dab4d1d097046b7665f0626af6901fa6822adeb) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/cdf` [(#4643)](https://github.com/stdlib-js/stdlib/pull/4643) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
