@@ -6615,6 +6615,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`859e486`](https://github.com/stdlib-js/stdlib/commit/859e4866f3eb237fbbfe4f156d52e429ae8ebe9d) - **docs:** update examples in `stats/base/scumaxabs` [(#4695)](https://github.com/stdlib-js/stdlib/pull/4695) _(by Aayush Khanna)_
 -   [`085aeea`](https://github.com/stdlib-js/stdlib/commit/085aeeaf4e416c35022ae730072c8f3be2c4c0ba) - **feat:** add C ndarray interface and refactor implementation for `stats/base/scumin` [(#4694)](https://github.com/stdlib-js/stdlib/pull/4694) _(by Aayush Khanna)_
 -   [`95bdc42`](https://github.com/stdlib-js/stdlib/commit/95bdc42196643ed99f417ec1be130ca7acc6b121) - **refactor:** update `stats/base/dmeanstdev` native addon from C++ to C [(#4612)](https://github.com/stdlib-js/stdlib/pull/4612) _(by Dhruv Arvind Singh)_
 -   [`49878d2`](https://github.com/stdlib-js/stdlib/commit/49878d2f175bf20a1afa08e9f0a9e3fd541c5a33) - **refactor:** update `stats/base/dmeanstdevpn` native addon from C++ to C [(#4647)](https://github.com/stdlib-js/stdlib/pull/4647) _(by Dhruv Arvind Singh)_
