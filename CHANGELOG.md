@@ -6593,6 +6593,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`099eb56`](https://github.com/stdlib-js/stdlib/commit/099eb5668345edf1c4d3ff9bbd5a1f2d68502606) - **refactor:** update `stats/base/dmeanvarpn` native addon from C++ to C [(#4651)](https://github.com/stdlib-js/stdlib/pull/4651) _(by Dhruv Arvind Singh)_
 -   [`5cc2bcd`](https://github.com/stdlib-js/stdlib/commit/5cc2bcd36d944adfa4f4badea6fce5de223be3dd) - **refactor:** update `stats/base/dmeanvar` native addon from C++ to C [(#4648)](https://github.com/stdlib-js/stdlib/pull/4648) _(by Dhruv Arvind Singh)_
 -   [`7f819f5`](https://github.com/stdlib-js/stdlib/commit/7f819f5c08ff51210dc1e5188c12c32481e6acd4) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/variance` [(#4567)](https://github.com/stdlib-js/stdlib/pull/4567) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`69cca7b`](https://github.com/stdlib-js/stdlib/commit/69cca7b95a35f68079fb3da3c5d65c033210d347) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/skewness` [(#4566)](https://github.com/stdlib-js/stdlib/pull/4566) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
