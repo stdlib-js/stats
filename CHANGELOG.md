@@ -6593,6 +6593,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`95bdc42`](https://github.com/stdlib-js/stdlib/commit/95bdc42196643ed99f417ec1be130ca7acc6b121) - **refactor:** update `stats/base/dmeanstdev` native addon from C++ to C [(#4612)](https://github.com/stdlib-js/stdlib/pull/4612) _(by Dhruv Arvind Singh)_
 -   [`49878d2`](https://github.com/stdlib-js/stdlib/commit/49878d2f175bf20a1afa08e9f0a9e3fd541c5a33) - **refactor:** update `stats/base/dmeanstdevpn` native addon from C++ to C [(#4647)](https://github.com/stdlib-js/stdlib/pull/4647) _(by Dhruv Arvind Singh)_
 -   [`099eb56`](https://github.com/stdlib-js/stdlib/commit/099eb5668345edf1c4d3ff9bbd5a1f2d68502606) - **refactor:** update `stats/base/dmeanvarpn` native addon from C++ to C [(#4651)](https://github.com/stdlib-js/stdlib/pull/4651) _(by Dhruv Arvind Singh)_
 -   [`5cc2bcd`](https://github.com/stdlib-js/stdlib/commit/5cc2bcd36d944adfa4f4badea6fce5de223be3dd) - **refactor:** update `stats/base/dmeanvar` native addon from C++ to C [(#4648)](https://github.com/stdlib-js/stdlib/pull/4648) _(by Dhruv Arvind Singh)_
