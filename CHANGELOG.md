@@ -6135,6 +6135,7 @@ A total of 3 issues were closed in this release:
 
 ##### Bug Fixes
 
+-   [`5ae1285`](https://github.com/stdlib-js/stdlib/commit/5ae1285fcb414a7d926c303353c9f80b27e675e6) - address precision regression and fix benchmark dtypes
 -   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
 
 </section>
@@ -6715,6 +6716,8 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5ae1285`](https://github.com/stdlib-js/stdlib/commit/5ae1285fcb414a7d926c303353c9f80b27e675e6) - **fix:** address precision regression and fix benchmark dtypes _(by Athan Reines)_
+-   [`0b2e23d`](https://github.com/stdlib-js/stdlib/commit/0b2e23d1110ea3f9cb13e4918767566a94901a54) - **docs:** fix description _(by Athan Reines)_
 -   [`aa5eadc`](https://github.com/stdlib-js/stdlib/commit/aa5eadcaa2fa6e03f504918953a247f68ac26a47) - **refactor:** use stdlib dependencies instead of math.h in `stats/base/dcuminabs` [(#4699)](https://github.com/stdlib-js/stdlib/pull/4699) _(by Aayush Khanna)_
 -   [`82d6dde`](https://github.com/stdlib-js/stdlib/commit/82d6dde1b4b7a6aacc421b99e904ed3931218ce6) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sstdevch` [(#4682)](https://github.com/stdlib-js/stdlib/pull/4682) _(by Aayush Khanna)_
 -   [`f1efc7b`](https://github.com/stdlib-js/stdlib/commit/f1efc7bf70197dff5abf0e25d021ae2f33239b35) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sstdevtk` [(#4683)](https://github.com/stdlib-js/stdlib/pull/4683) _(by Aayush Khanna)_
