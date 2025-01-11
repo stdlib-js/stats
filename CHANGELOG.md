@@ -6549,6 +6549,16 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`82d6dde`](https://github.com/stdlib-js/stdlib/commit/82d6dde1b4b7a6aacc421b99e904ed3931218ce6) - add C ndarray interface and refactor implementation for `stats/base/sstdevch` [(#4682)](https://github.com/stdlib-js/stdlib/pull/4682)
+
+</section>
+
+<!-- /.features -->
+
 <section class="issues">
 
 ##### Closed Issues
@@ -6705,6 +6715,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`82d6dde`](https://github.com/stdlib-js/stdlib/commit/82d6dde1b4b7a6aacc421b99e904ed3931218ce6) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sstdevch` [(#4682)](https://github.com/stdlib-js/stdlib/pull/4682) _(by Aayush Khanna)_
 -   [`f1efc7b`](https://github.com/stdlib-js/stdlib/commit/f1efc7bf70197dff5abf0e25d021ae2f33239b35) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sstdevtk` [(#4683)](https://github.com/stdlib-js/stdlib/pull/4683) _(by Aayush Khanna)_
 -   [`3dab4d1`](https://github.com/stdlib-js/stdlib/commit/3dab4d1d097046b7665f0626af6901fa6822adeb) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/cdf` [(#4643)](https://github.com/stdlib-js/stdlib/pull/4643) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`946e2c3`](https://github.com/stdlib-js/stdlib/commit/946e2c3b7603a12215404642580a545e641acb02) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/mgf` [(#4667)](https://github.com/stdlib-js/stdlib/pull/4667) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
