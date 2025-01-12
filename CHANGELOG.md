@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-11)
+## Unreleased (2025-01-12)
 
 <section class="packages">
 
@@ -6716,6 +6716,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c88e9f5`](https://github.com/stdlib-js/stdlib/commit/c88e9f51302adbe0d828fd298d9dbc138f6b3e7b) - **chore:** clean-up, fix tests, and add FIXMEs _(by Athan Reines)_
 -   [`5ae1285`](https://github.com/stdlib-js/stdlib/commit/5ae1285fcb414a7d926c303353c9f80b27e675e6) - **fix:** address precision regression and fix benchmark dtypes _(by Athan Reines)_
 -   [`0b2e23d`](https://github.com/stdlib-js/stdlib/commit/0b2e23d1110ea3f9cb13e4918767566a94901a54) - **docs:** fix description _(by Athan Reines)_
 -   [`aa5eadc`](https://github.com/stdlib-js/stdlib/commit/aa5eadcaa2fa6e03f504918953a247f68ac26a47) - **refactor:** use stdlib dependencies instead of math.h in `stats/base/dcuminabs` [(#4699)](https://github.com/stdlib-js/stdlib/pull/4699) _(by Aayush Khanna)_
