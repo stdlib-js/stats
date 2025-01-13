@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-12)
+## Unreleased (2025-01-13)
 
 <section class="packages">
 
@@ -6717,6 +6717,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f257760`](https://github.com/stdlib-js/stdlib/commit/f257760db466ba38810e4fbb9fde4826e21f64ee) - **docs:** update examples of `stats/base/dmin` [(#4713)](https://github.com/stdlib-js/stdlib/pull/4713) _(by Aayush Khanna)_
 -   [`998c1be`](https://github.com/stdlib-js/stdlib/commit/998c1be8630c1efcf19beefda88181db820d1dcb) - **chore:** remove EPS addition and directly draw from desired distribution _(by Philipp Burckhardt)_
 -   [`c18ebf8`](https://github.com/stdlib-js/stdlib/commit/c18ebf8efafdbc962c2fcedfa41d9a1b3f8797a7) - **chore:** remove EPS addition and directly draw from desired distribution _(by Philipp Burckhardt)_
 -   [`f3df15f`](https://github.com/stdlib-js/stdlib/commit/f3df15f118d563573f27d2d2b96e35b842f05a18) - **chore:** directly draw from the desired distribution instead of adding constants _(by Philipp Burckhardt)_
