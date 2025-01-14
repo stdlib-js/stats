@@ -6773,6 +6773,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b00d9f1`](https://github.com/stdlib-js/stdlib/commit/b00d9f1064701187f48a05b9753e74ae835b0726) - **docs:** fix typing error in `repl.txt` of `stats/base/*` [(#4750)](https://github.com/stdlib-js/stdlib/pull/4750) _(by Aayush Khanna)_
 -   [`57d226a`](https://github.com/stdlib-js/stdlib/commit/57d226a2f5be49279cbdc9d3cc9030f369c4d74f) - **docs:** update examples of `stats/base/smeanwd` [(#4751)](https://github.com/stdlib-js/stdlib/pull/4751) _(by Aayush Khanna)_
 -   [`727d50a`](https://github.com/stdlib-js/stdlib/commit/727d50a761a91df5259078eed98b8a4f9b2e4c52) - **bench:** refactor random number generation in `stats/base/dists/arcsine` [(#4744)](https://github.com/stdlib-js/stdlib/pull/4744) _(by Karan Anand)_
 -   [`99aa1e0`](https://github.com/stdlib-js/stdlib/commit/99aa1e038c8fe1f144f85c981107ed0372ca4f05) - **docs:** update namespace TypeScript declarations [(#4740)](https://github.com/stdlib-js/stdlib/pull/4740) _(by stdlib-bot)_
