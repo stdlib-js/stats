@@ -6773,6 +6773,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`99aa1e0`](https://github.com/stdlib-js/stdlib/commit/99aa1e038c8fe1f144f85c981107ed0372ca4f05) - **docs:** update namespace TypeScript declarations [(#4740)](https://github.com/stdlib-js/stdlib/pull/4740) _(by stdlib-bot)_
 -   [`2645cba`](https://github.com/stdlib-js/stdlib/commit/2645cba281f786e02ebb0d5e4d197a16bae7bb2b) - **docs:** update namespace table of contents [(#4742)](https://github.com/stdlib-js/stdlib/pull/4742) _(by stdlib-bot)_
 -   [`88134a7`](https://github.com/stdlib-js/stdlib/commit/88134a7c68ac563d731521c5e5a5578ef46fa6b2) - **feat:** add C implementation for `stats/base/dists/geometric/skewness` [(#4093)](https://github.com/stdlib-js/stdlib/pull/4093) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`8a5caba`](https://github.com/stdlib-js/stdlib/commit/8a5caba090beccf502d1d66e31e5c7986dc52e3a) - **docs:** update related packages sections [(#4739)](https://github.com/stdlib-js/stdlib/pull/4739) _(by stdlib-bot)_
