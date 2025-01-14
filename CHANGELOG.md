@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-13)
+## Unreleased (2025-01-14)
 
 <section class="packages">
 
@@ -5044,6 +5044,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dmeankbn2-unreleased">
+
+#### [@stdlib/stats/base/dmeankbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeankbn2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8fc41f6`](https://github.com/stdlib-js/stdlib/commit/8fc41f62eddc144b7e72cd14912d8f626ee87828) - add C ndarray interface and refactor implementation for `stats/base/dmeankbn2` [(#4715)](https://github.com/stdlib-js/stdlib/pull/4715)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dmeanwd-unreleased">
 
 #### [@stdlib/stats/base/dmeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanwd)
@@ -6717,6 +6739,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8fc41f6`](https://github.com/stdlib-js/stdlib/commit/8fc41f62eddc144b7e72cd14912d8f626ee87828) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeankbn2` [(#4715)](https://github.com/stdlib-js/stdlib/pull/4715) _(by Aayush Khanna)_
 -   [`f257760`](https://github.com/stdlib-js/stdlib/commit/f257760db466ba38810e4fbb9fde4826e21f64ee) - **docs:** update examples of `stats/base/dmin` [(#4713)](https://github.com/stdlib-js/stdlib/pull/4713) _(by Aayush Khanna)_
 -   [`998c1be`](https://github.com/stdlib-js/stdlib/commit/998c1be8630c1efcf19beefda88181db820d1dcb) - **chore:** remove EPS addition and directly draw from desired distribution _(by Philipp Burckhardt)_
 -   [`c18ebf8`](https://github.com/stdlib-js/stdlib/commit/c18ebf8efafdbc962c2fcedfa41d9a1b3f8797a7) - **chore:** remove EPS addition and directly draw from desired distribution _(by Philipp Burckhardt)_
