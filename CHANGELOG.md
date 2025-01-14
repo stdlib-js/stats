@@ -6739,6 +6739,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8a5caba`](https://github.com/stdlib-js/stdlib/commit/8a5caba090beccf502d1d66e31e5c7986dc52e3a) - **docs:** update related packages sections [(#4739)](https://github.com/stdlib-js/stdlib/pull/4739) _(by stdlib-bot)_
 -   [`8fc41f6`](https://github.com/stdlib-js/stdlib/commit/8fc41f62eddc144b7e72cd14912d8f626ee87828) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeankbn2` [(#4715)](https://github.com/stdlib-js/stdlib/pull/4715) _(by Aayush Khanna)_
 -   [`f257760`](https://github.com/stdlib-js/stdlib/commit/f257760db466ba38810e4fbb9fde4826e21f64ee) - **docs:** update examples of `stats/base/dmin` [(#4713)](https://github.com/stdlib-js/stdlib/pull/4713) _(by Aayush Khanna)_
 -   [`998c1be`](https://github.com/stdlib-js/stdlib/commit/998c1be8630c1efcf19beefda88181db820d1dcb) - **chore:** remove EPS addition and directly draw from desired distribution _(by Philipp Burckhardt)_
