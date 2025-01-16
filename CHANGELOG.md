@@ -6943,6 +6943,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ad4a4ce`](https://github.com/stdlib-js/stdlib/commit/ad4a4ce3abd038def188a7a617d9d58036333c10) - **docs:** refactor examples of `stats/base/dnanmax` [(#4781)](https://github.com/stdlib-js/stdlib/pull/4781) _(by Aayush Khanna, Athan Reines)_
 -   [`4d14525`](https://github.com/stdlib-js/stdlib/commit/4d14525247db6d9450796b24fd5da28d7404011b) - **feat:** add C implementation for `stats/base/dists/degenerate/quantile` [(#4587)](https://github.com/stdlib-js/stdlib/pull/4587) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
 -   [`84a04bb`](https://github.com/stdlib-js/stdlib/commit/84a04bb594e2d47d518198cfb4778472dd046e1c) - **feat:** add C implementation of `stats/base/dists/degenerate/logpdf` [(#4450)](https://github.com/stdlib-js/stdlib/pull/4450) _(by Vinit Pandit, stdlib-bot)_
 -   [`ba3d6e8`](https://github.com/stdlib-js/stdlib/commit/ba3d6e8c6cba467455f4f8f6b32edb6c0ddc5dc5) - **feat:** add C Implementation for `stats/base/dists/arcsine/stdev` [(#4241)](https://github.com/stdlib-js/stdlib/pull/4241) _(by Karan Anand, stdlib-bot, Philipp Burckhardt)_
