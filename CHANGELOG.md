@@ -5816,6 +5816,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dsemch-unreleased">
+
+#### [@stdlib/stats/base/dsemch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsemch)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0091053`](https://github.com/stdlib-js/stdlib/commit/009105308118f21e4430e906806c1305a5827bc1) - add C ndarray interface and refactor implementation for `stats/base/dsemch` [(#4653)](https://github.com/stdlib-js/stdlib/pull/4653)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dsemtk-unreleased">
 
 #### [@stdlib/stats/base/dsemtk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsemtk)
@@ -7031,6 +7053,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0091053`](https://github.com/stdlib-js/stdlib/commit/009105308118f21e4430e906806c1305a5827bc1) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsemch` [(#4653)](https://github.com/stdlib-js/stdlib/pull/4653) _(by Aayush Khanna)_
 -   [`afda1d6`](https://github.com/stdlib-js/stdlib/commit/afda1d6fa68d5214910cb772c2c0d61f3f641aeb) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsemtk` [(#4661)](https://github.com/stdlib-js/stdlib/pull/4661) _(by Aayush Khanna)_
 -   [`3d4ea13`](https://github.com/stdlib-js/stdlib/commit/3d4ea1383e91d898b1f4e52c989c0bec0c62e81a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsemyc` [(#4665)](https://github.com/stdlib-js/stdlib/pull/4665) _(by Aayush Khanna)_
 -   [`8f5f68e`](https://github.com/stdlib-js/stdlib/commit/8f5f68e6fb667dd404ed23d4f564d01b059087ac) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeankbn` [(#4712)](https://github.com/stdlib-js/stdlib/pull/4712) _(by Aayush Khanna)_
