@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-16)
+## Unreleased (2025-01-17)
 
 <section class="packages">
 
@@ -6943,8 +6943,10 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7bab2c6`](https://github.com/stdlib-js/stdlib/commit/7bab2c62de11b478cd09f0e2c3b585be45895fbd) - **docs:** increase success probability in examples _(by Athan Reines)_
 -   [`ad4a4ce`](https://github.com/stdlib-js/stdlib/commit/ad4a4ce3abd038def188a7a617d9d58036333c10) - **docs:** refactor examples of `stats/base/dnanmax` [(#4781)](https://github.com/stdlib-js/stdlib/pull/4781) _(by Aayush Khanna, Athan Reines)_
 -   [`4d14525`](https://github.com/stdlib-js/stdlib/commit/4d14525247db6d9450796b24fd5da28d7404011b) - **feat:** add C implementation for `stats/base/dists/degenerate/quantile` [(#4587)](https://github.com/stdlib-js/stdlib/pull/4587) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
+-   [`a0d5981`](https://github.com/stdlib-js/stdlib/commit/a0d59812ee0aa7f18f7b7b4c2d93d45c80394bf4) - **style:** add missing space _(by Athan Reines)_
 -   [`84a04bb`](https://github.com/stdlib-js/stdlib/commit/84a04bb594e2d47d518198cfb4778472dd046e1c) - **feat:** add C implementation of `stats/base/dists/degenerate/logpdf` [(#4450)](https://github.com/stdlib-js/stdlib/pull/4450) _(by Vinit Pandit, stdlib-bot)_
 -   [`ba3d6e8`](https://github.com/stdlib-js/stdlib/commit/ba3d6e8c6cba467455f4f8f6b32edb6c0ddc5dc5) - **feat:** add C Implementation for `stats/base/dists/arcsine/stdev` [(#4241)](https://github.com/stdlib-js/stdlib/pull/4241) _(by Karan Anand, stdlib-bot, Philipp Burckhardt)_
 -   [`3afe09e`](https://github.com/stdlib-js/stdlib/commit/3afe09e623a0bfd0beb8f7e5aa3de7303b52ed48) - **feat:** add C implementation for `stats/base/dists/arcsine/mode` [(#4236)](https://github.com/stdlib-js/stdlib/pull/4236) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
