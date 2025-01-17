@@ -5248,6 +5248,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dmeankbn-unreleased">
+
+#### [@stdlib/stats/base/dmeankbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeankbn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8f5f68e`](https://github.com/stdlib-js/stdlib/commit/8f5f68e6fb667dd404ed23d4f564d01b059087ac) - add C ndarray interface and refactor implementation for `stats/base/dmeankbn` [(#4712)](https://github.com/stdlib-js/stdlib/pull/4712)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dmeankbn2-unreleased">
 
 #### [@stdlib/stats/base/dmeankbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeankbn2)
@@ -6965,6 +6987,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8f5f68e`](https://github.com/stdlib-js/stdlib/commit/8f5f68e6fb667dd404ed23d4f564d01b059087ac) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeankbn` [(#4712)](https://github.com/stdlib-js/stdlib/pull/4712) _(by Aayush Khanna)_
 -   [`3a319c1`](https://github.com/stdlib-js/stdlib/commit/3a319c1f08fd698c5f2d8492029c558fb2727847) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanli` [(#4731)](https://github.com/stdlib-js/stdlib/pull/4731) _(by Aayush Khanna, stdlib-bot)_
 -   [`fd335df`](https://github.com/stdlib-js/stdlib/commit/fd335dfa566f1b68f4561474aedd775270fb9fad) - **docs:** fix grammar typo in `stats/base/*` [(#4780)](https://github.com/stdlib-js/stdlib/pull/4780) _(by Aayush Khanna, stdlib-bot)_
 -   [`7bab2c6`](https://github.com/stdlib-js/stdlib/commit/7bab2c62de11b478cd09f0e2c3b585be45895fbd) - **docs:** increase success probability in examples _(by Athan Reines)_
