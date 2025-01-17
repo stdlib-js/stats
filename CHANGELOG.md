@@ -6943,6 +6943,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fd335df`](https://github.com/stdlib-js/stdlib/commit/fd335dfa566f1b68f4561474aedd775270fb9fad) - **docs:** fix grammar typo in `stats/base/*` [(#4780)](https://github.com/stdlib-js/stdlib/pull/4780) _(by Aayush Khanna, stdlib-bot)_
 -   [`7bab2c6`](https://github.com/stdlib-js/stdlib/commit/7bab2c62de11b478cd09f0e2c3b585be45895fbd) - **docs:** increase success probability in examples _(by Athan Reines)_
 -   [`ad4a4ce`](https://github.com/stdlib-js/stdlib/commit/ad4a4ce3abd038def188a7a617d9d58036333c10) - **docs:** refactor examples of `stats/base/dnanmax` [(#4781)](https://github.com/stdlib-js/stdlib/pull/4781) _(by Aayush Khanna, Athan Reines)_
 -   [`4d14525`](https://github.com/stdlib-js/stdlib/commit/4d14525247db6d9450796b24fd5da28d7404011b) - **feat:** add C implementation for `stats/base/dists/degenerate/quantile` [(#4587)](https://github.com/stdlib-js/stdlib/pull/4587) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
