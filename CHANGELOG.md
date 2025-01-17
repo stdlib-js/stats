@@ -6260,6 +6260,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-scuminabs-unreleased">
+
+#### [@stdlib/stats/base/scuminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scuminabs)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e02cd5b`](https://github.com/stdlib-js/stdlib/commit/e02cd5b702b95f4323bef320a64c4d6ed2583b1c) - add C ndarray interface and refactor implementation for `stats/base/scuminabs` [(#4698)](https://github.com/stdlib-js/stdlib/pull/4698)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-smax-unreleased">
 
 #### [@stdlib/stats/base/smax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smax)
@@ -7053,6 +7075,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e02cd5b`](https://github.com/stdlib-js/stdlib/commit/e02cd5b702b95f4323bef320a64c4d6ed2583b1c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/scuminabs` [(#4698)](https://github.com/stdlib-js/stdlib/pull/4698) _(by Aayush Khanna, Athan Reines)_
 -   [`0091053`](https://github.com/stdlib-js/stdlib/commit/009105308118f21e4430e906806c1305a5827bc1) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsemch` [(#4653)](https://github.com/stdlib-js/stdlib/pull/4653) _(by Aayush Khanna)_
 -   [`afda1d6`](https://github.com/stdlib-js/stdlib/commit/afda1d6fa68d5214910cb772c2c0d61f3f641aeb) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsemtk` [(#4661)](https://github.com/stdlib-js/stdlib/pull/4661) _(by Aayush Khanna)_
 -   [`3d4ea13`](https://github.com/stdlib-js/stdlib/commit/3d4ea1383e91d898b1f4e52c989c0bec0c62e81a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsemyc` [(#4665)](https://github.com/stdlib-js/stdlib/pull/4665) _(by Aayush Khanna)_
