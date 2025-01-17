@@ -5270,6 +5270,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dmeanli-unreleased">
+
+#### [@stdlib/stats/base/dmeanli](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanli)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3a319c1`](https://github.com/stdlib-js/stdlib/commit/3a319c1f08fd698c5f2d8492029c558fb2727847) - add C ndarray interface and refactor implementation for `stats/base/dmeanli` [(#4731)](https://github.com/stdlib-js/stdlib/pull/4731)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dmeanwd-unreleased">
 
 #### [@stdlib/stats/base/dmeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanwd)
@@ -6943,6 +6965,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3a319c1`](https://github.com/stdlib-js/stdlib/commit/3a319c1f08fd698c5f2d8492029c558fb2727847) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanli` [(#4731)](https://github.com/stdlib-js/stdlib/pull/4731) _(by Aayush Khanna, stdlib-bot)_
 -   [`fd335df`](https://github.com/stdlib-js/stdlib/commit/fd335dfa566f1b68f4561474aedd775270fb9fad) - **docs:** fix grammar typo in `stats/base/*` [(#4780)](https://github.com/stdlib-js/stdlib/pull/4780) _(by Aayush Khanna, stdlib-bot)_
 -   [`7bab2c6`](https://github.com/stdlib-js/stdlib/commit/7bab2c62de11b478cd09f0e2c3b585be45895fbd) - **docs:** increase success probability in examples _(by Athan Reines)_
 -   [`ad4a4ce`](https://github.com/stdlib-js/stdlib/commit/ad4a4ce3abd038def188a7a617d9d58036333c10) - **docs:** refactor examples of `stats/base/dnanmax` [(#4781)](https://github.com/stdlib-js/stdlib/pull/4781) _(by Aayush Khanna, Athan Reines)_
