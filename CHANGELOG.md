@@ -7519,6 +7519,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`15c26dd`](https://github.com/stdlib-js/stdlib/commit/15c26dd8e62bcc6ef839f1c604e3fe537c4d3ca5) - **refactor:** update `stats/base/dsmeanpn` native addon from C++ to C [(#4723)](https://github.com/stdlib-js/stdlib/pull/4723) _(by Prashant Kumar Yadav)_
 -   [`48fc90f`](https://github.com/stdlib-js/stdlib/commit/48fc90f3dde814bba46442bb61fd154d23a8887b) - **refactor:** update `stats/base/dsmeanors` native addon from C++ to C [(#4722)](https://github.com/stdlib-js/stdlib/pull/4722) _(by Prashant Kumar Yadav)_
 -   [`ca5cd8e`](https://github.com/stdlib-js/stdlib/commit/ca5cd8eda51ba2c274b9aeb0161f6c1cdf6a3e09) - **refactor:** update `stats/base/dnanvariancech` native addon from C++ to C [(#4719)](https://github.com/stdlib-js/stdlib/pull/4719) _(by Prashant Kumar Yadav)_
 -   [`ac1c7e9`](https://github.com/stdlib-js/stdlib/commit/ac1c7e90fce8af40e97a4b3718a9d1b7318d58b0) - **refactor:** update `stats/base/dsmean` native addon from C++ to C [(#4721)](https://github.com/stdlib-js/stdlib/pull/4721) _(by Prashant Kumar Yadav)_
