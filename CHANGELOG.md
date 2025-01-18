@@ -1378,6 +1378,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-degenerate-median-unreleased">
+
+#### [@stdlib/stats/base/dists/degenerate/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/degenerate/median)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`225b73b`](https://github.com/stdlib-js/stdlib/commit/225b73b28eeaf1d6ca02a79d4c72b26b936317cd) - add C implementation for `stats/base/dists/degenerate/median` [(#4579)](https://github.com/stdlib-js/stdlib/pull/4579)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-degenerate-mode-unreleased">
 
 #### [@stdlib/stats/base/dists/degenerate/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/degenerate/mode)
@@ -7163,6 +7185,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`225b73b`](https://github.com/stdlib-js/stdlib/commit/225b73b28eeaf1d6ca02a79d4c72b26b936317cd) - **feat:** add C implementation for `stats/base/dists/degenerate/median` [(#4579)](https://github.com/stdlib-js/stdlib/pull/4579) _(by Karan Anand)_
 -   [`c0fe7f1`](https://github.com/stdlib-js/stdlib/commit/c0fe7f14b92272a5851a358dfbce83bbcb4cfada) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanors` [(#4735)](https://github.com/stdlib-js/stdlib/pull/4735) _(by Aayush Khanna)_
 -   [`f83f272`](https://github.com/stdlib-js/stdlib/commit/f83f2724ffa647667918189d4f3c63cba82e10e6) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sdsmeanors` [(#4745)](https://github.com/stdlib-js/stdlib/pull/4745) _(by Aayush Khanna)_
 -   [`70f187e`](https://github.com/stdlib-js/stdlib/commit/70f187e31fed72289590585dbc5da0254df82c9b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanpw` [(#4743)](https://github.com/stdlib-js/stdlib/pull/4743) _(by Aayush Khanna)_
