@@ -21,8 +21,6 @@
 ##### Features
 
 -   [`e661213`](https://github.com/stdlib-js/stdlib/commit/e66121352ef767cdb87d19e938b1eccf7970fa3a) - update namespace TypeScript declarations [(#4706)](https://github.com/stdlib-js/stdlib/pull/4706)
--   [`4b1f53d`](https://github.com/stdlib-js/stdlib/commit/4b1f53de18bc03af6439de1e3797d9e222ecdf28) - update namespace TypeScript declarations [(#4518)](https://github.com/stdlib-js/stdlib/pull/4518)
--   [`133c539`](https://github.com/stdlib-js/stdlib/commit/133c5394889b68952968cd6f4ff192f9692deb9f) - update namespace TypeScript declarations [(#4487)](https://github.com/stdlib-js/stdlib/pull/4487)
 -   [`25d8240`](https://github.com/stdlib-js/stdlib/commit/25d8240f51b27bd0ee85ca3ef70c89fd3778b902) - update namespace TypeScript declarations [(#4363)](https://github.com/stdlib-js/stdlib/pull/4363)
 
 </section>
@@ -6296,6 +6294,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dsmeanwd-unreleased">
+
+#### [@stdlib/stats/base/dsmeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsmeanwd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`79e28d9`](https://github.com/stdlib-js/stdlib/commit/79e28d92c6c2d7a6d4d2347d894bc03af2c470cb) - add C `ndarray` interface and refactor implementation for `stats/base/dsmeanwd` [(#4339)](https://github.com/stdlib-js/stdlib/pull/4339)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dstdevch-unreleased">
 
 #### [@stdlib/stats/base/dstdevch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevch)
@@ -7622,6 +7642,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`79e28d9`](https://github.com/stdlib-js/stdlib/commit/79e28d92c6c2d7a6d4d2347d894bc03af2c470cb) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsmeanwd` [(#4339)](https://github.com/stdlib-js/stdlib/pull/4339) _(by Neeraj Pathak)_
 -   [`cbfa623`](https://github.com/stdlib-js/stdlib/commit/cbfa62315d4927116df3d56287dcd5881f4afda0) - **feat:** add C implementation for `stats/base/dists/kumaraswamy/logcdf` [(#4528)](https://github.com/stdlib-js/stdlib/pull/4528) _(by Dev Goel, Philipp Burckhardt, stdlib-bot)_
 -   [`529a62b`](https://github.com/stdlib-js/stdlib/commit/529a62b86d008b95bf0c832f71040addf404ac7e) - **feat:** add C implementation for `stats/base/dists/kumaraswamy/skewness` [(#4542)](https://github.com/stdlib-js/stdlib/pull/4542) _(by Dev Goel, Philipp Burckhardt, stdlib-bot)_
 -   [`49dd266`](https://github.com/stdlib-js/stdlib/commit/49dd266c48f72a05a6d3267367835e1d797cd8c7) - **feat:** add C implementation for `stats/base/dists/kumaraswamy/logpdf` [(#4532)](https://github.com/stdlib-js/stdlib/pull/4532) _(by Dev Goel, Philipp Burckhardt, stdlib-bot)_
@@ -7750,7 +7771,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 -   [`19d5c61`](https://github.com/stdlib-js/stdlib/commit/19d5c612fe1e9b65f13d61adab0d11d49ba7916a) - **feat:** add C implementation for `stats/base/dists/frechet/stdev` [(#4576)](https://github.com/stdlib-js/stdlib/pull/4576) _(by Manvith M, Philipp Burckhardt)_
 -   [`3b44fd4`](https://github.com/stdlib-js/stdlib/commit/3b44fd415b1115445a74ff9a13111823b99a85a0) - **feat:** add C implementation for `stats/base/dists/frechet/skewness` [(#4573)](https://github.com/stdlib-js/stdlib/pull/4573) _(by Manvith M, Philipp Burckhardt)_
 -   [`321e49e`](https://github.com/stdlib-js/stdlib/commit/321e49e9965648f1b5eb6a840fe454959af0ec49) - **docs:** add missing periods to list items _(by Philipp Burckhardt)_
--   [`4b1f53d`](https://github.com/stdlib-js/stdlib/commit/4b1f53de18bc03af6439de1e3797d9e222ecdf28) - **feat:** update namespace TypeScript declarations [(#4518)](https://github.com/stdlib-js/stdlib/pull/4518) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`4b1f53d`](https://github.com/stdlib-js/stdlib/commit/4b1f53de18bc03af6439de1e3797d9e222ecdf28) - **docs:** update namespace TypeScript declaration comments [(#4518)](https://github.com/stdlib-js/stdlib/pull/4518) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`7362135`](https://github.com/stdlib-js/stdlib/commit/7362135077f77f3cdc2f103683a7cec6d2ad5eed) - **docs:** update namespace table of contents [(#4520)](https://github.com/stdlib-js/stdlib/pull/4520) _(by stdlib-bot)_
 -   [`63e4274`](https://github.com/stdlib-js/stdlib/commit/63e4274589df08bbcbb65b9c0d4a5d2e3f9ff594) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smediansorted` [(#4490)](https://github.com/stdlib-js/stdlib/pull/4490) _(by Aayush Khanna, Athan Reines)_
 -   [`da4697a`](https://github.com/stdlib-js/stdlib/commit/da4697a938cbd040e23e406a04c5c7dddf4e4a52) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sminsorted` [(#4492)](https://github.com/stdlib-js/stdlib/pull/4492) _(by Aayush Khanna, stdlib-bot)_
@@ -7768,7 +7789,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 -   [`2832442`](https://github.com/stdlib-js/stdlib/commit/28324425c1a630bd52cccc75d4f4a2a72bbc9e01) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dnanmeanwd` [(#4251)](https://github.com/stdlib-js/stdlib/pull/4251) _(by Neeraj Pathak, Athan Reines)_
 -   [`3cd2abf`](https://github.com/stdlib-js/stdlib/commit/3cd2abf7c694c28a32c13b4702d2e12dced5cc36) - **docs:** update namespace table of contents [(#4489)](https://github.com/stdlib-js/stdlib/pull/4489) _(by stdlib-bot)_
 -   [`6443564`](https://github.com/stdlib-js/stdlib/commit/6443564291cf967569bbc0a9f2d918b59bdfc295) - **feat:** add C implementation for `stats/base/dists/rayleigh/median` [(#4027)](https://github.com/stdlib-js/stdlib/pull/4027) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
--   [`133c539`](https://github.com/stdlib-js/stdlib/commit/133c5394889b68952968cd6f4ff192f9692deb9f) - **feat:** update namespace TypeScript declarations [(#4487)](https://github.com/stdlib-js/stdlib/pull/4487) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`133c539`](https://github.com/stdlib-js/stdlib/commit/133c5394889b68952968cd6f4ff192f9692deb9f) - **docs:** update namespace TypeScript declaration comments [(#4487)](https://github.com/stdlib-js/stdlib/pull/4487) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`f9d393e`](https://github.com/stdlib-js/stdlib/commit/f9d393e4a5cf40e85e24255c4372c5695da205f0) - **feat:** add C implementation for `stats/base/dists/logistic/kurtosis` [(#4034)](https://github.com/stdlib-js/stdlib/pull/4034) _(by Prashant Kumar Yadav, stdlib-bot)_
 -   [`9bacbef`](https://github.com/stdlib-js/stdlib/commit/9bacbef38dff0ce594d9abd4f7073b0135cb56b1) - **feat:** add C implementation for `stats/base/dists/geometric/entropy` [(#4180)](https://github.com/stdlib-js/stdlib/pull/4180) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`12d1a13`](https://github.com/stdlib-js/stdlib/commit/12d1a136f24395a9b223bf2ff0b9aa8ee3d0a61f) - **feat:** add C implementation for `stats/base/dists/triangular/pdf` [(#4322)](https://github.com/stdlib-js/stdlib/pull/4322) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
