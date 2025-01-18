@@ -21,9 +21,8 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var Float64Array = require( '@stdlib/array/float64' );
 var ceil = require( '@stdlib/math/base/special/ceil' );
-var uniform = require( '@stdlib/random/base/uniform' );
+var randu = require( '@stdlib/random/base/randu' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var pkg = require( './../package.json' ).name;
 var logpmf = require( './../lib' );
@@ -32,23 +31,16 @@ var logpmf = require( './../lib' );
 // MAIN //
 
 bench( pkg, function benchmark( b ) {
-	var len;
 	var mu;
 	var x;
 	var y;
 	var i;
 
-	len = 100;
-	x = new Float64Array( len );
-	mu = new Float64Array( len );
-	for ( i = 0; i < len; i++ ) {
-		x[ i ] = ceil( uniform( -100.0, 0.0 ) );
-		mu[ i ] = uniform( -50.0, 50.0 );
-	}
-
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = logpmf( x[ i % len ], mu[ i % len ] );
+		x = ceil( ( randu()*100.0 ) - 100.0 );
+		mu = ( randu()*100.0 ) - 50.0;
+		y = logpmf( x, mu );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
@@ -63,7 +55,6 @@ bench( pkg, function benchmark( b ) {
 
 bench( pkg+':factory', function benchmark( b ) {
 	var mypmf;
-	var len;
 	var mu;
 	var x;
 	var y;
@@ -71,15 +62,11 @@ bench( pkg+':factory', function benchmark( b ) {
 
 	mu = 40.0;
 	mypmf = logpmf.factory( mu );
-	len = 100;
-	x = new Float64Array( len );
-	for ( i = 0; i < len; i++ ) {
-		x[ i ] = ceil( uniform( -100.0, 0.0 ) );
-	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = mypmf( x[ i % len ] );
+		x = ceil( randu()*100.0 );
+		y = mypmf( x );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
