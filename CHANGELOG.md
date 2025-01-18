@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-17)
+## Unreleased (2025-01-18)
 
 <section class="packages">
 
@@ -6304,6 +6304,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-sdsmeanors-unreleased">
+
+#### [@stdlib/stats/base/sdsmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sdsmeanors)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f83f272`](https://github.com/stdlib-js/stdlib/commit/f83f2724ffa647667918189d4f3c63cba82e10e6) - add C ndarray interface and refactor implementation for `stats/base/sdsmeanors` [(#4745)](https://github.com/stdlib-js/stdlib/pull/4745)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-smax-unreleased">
 
 #### [@stdlib/stats/base/smax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smax)
@@ -7119,6 +7141,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f83f272`](https://github.com/stdlib-js/stdlib/commit/f83f2724ffa647667918189d4f3c63cba82e10e6) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sdsmeanors` [(#4745)](https://github.com/stdlib-js/stdlib/pull/4745) _(by Aayush Khanna)_
 -   [`70f187e`](https://github.com/stdlib-js/stdlib/commit/70f187e31fed72289590585dbc5da0254df82c9b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanpw` [(#4743)](https://github.com/stdlib-js/stdlib/pull/4743) _(by Aayush Khanna)_
 -   [`a302f72`](https://github.com/stdlib-js/stdlib/commit/a302f72db99601ec7c82039bbc7038e0bf669b2a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svarianceyc` [(#4372)](https://github.com/stdlib-js/stdlib/pull/4372) _(by Vinit Pandit, Athan Reines, Aayush Khanna)_
 -   [`e02cd5b`](https://github.com/stdlib-js/stdlib/commit/e02cd5b702b95f4323bef320a64c4d6ed2583b1c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/scuminabs` [(#4698)](https://github.com/stdlib-js/stdlib/pull/4698) _(by Aayush Khanna, Athan Reines)_
