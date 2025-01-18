@@ -7253,7 +7253,6 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
--   [`fb901fb`](https://github.com/stdlib-js/stdlib/commit/fb901fb3b51f47c79c0fae95afe75be9cb198b2a) - **docs:** update namespace table of contents [(#4796)](https://github.com/stdlib-js/stdlib/pull/4796) _(by stdlib-bot)_
 -   [`22a3dcf`](https://github.com/stdlib-js/stdlib/commit/22a3dcfe916b7f5c979d6ee93045d37add5d685d) - **docs:** update namespace TypeScript declaration comments [(#4794)](https://github.com/stdlib-js/stdlib/pull/4794) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`ce23df1`](https://github.com/stdlib-js/stdlib/commit/ce23df1c97ca2955cfeaea2c539f63d64d655612) - **feat:** add C implementation for `stats/base/dists/degenerate/pdf` [(#4585)](https://github.com/stdlib-js/stdlib/pull/4585) _(by Karan Anand, stdlib-bot)_
 -   [`0f54105`](https://github.com/stdlib-js/stdlib/commit/0f54105c71aac4e8f188bda700ef98dc094c78d9) - **feat:** add C implementation for `stats/base/dists/degenerate/pmf` [(#4586)](https://github.com/stdlib-js/stdlib/pull/4586) _(by Karan Anand, stdlib-bot)_
