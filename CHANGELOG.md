@@ -7519,6 +7519,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ac1c7e9`](https://github.com/stdlib-js/stdlib/commit/ac1c7e90fce8af40e97a4b3718a9d1b7318d58b0) - **refactor:** update `stats/base/dsmean` native addon from C++ to C [(#4721)](https://github.com/stdlib-js/stdlib/pull/4721) _(by Prashant Kumar Yadav)_
 -   [`138a9af`](https://github.com/stdlib-js/stdlib/commit/138a9af75d26e528f08891501141d830f0e40a87) - **refactor:** update `stats/base/dnanstdevtk` native addon from C++ to C [(#4718)](https://github.com/stdlib-js/stdlib/pull/4718) _(by Prashant Kumar Yadav)_
 -   [`fdd6251`](https://github.com/stdlib-js/stdlib/commit/fdd6251ca208c5aceff5d6a2929788ed2cfbc2d6) - **bench:** refactor random number generation in `stats/base/dists/arcsine` [(#4798)](https://github.com/stdlib-js/stdlib/pull/4798) _(by Karan Anand)_
 -   [`802775e`](https://github.com/stdlib-js/stdlib/commit/802775ea028fb2a42041611187b6373b49f5f397) - **bench:** refactor random number generation in `stats/base/dists/bernoulli` [(#4775)](https://github.com/stdlib-js/stdlib/pull/4775) _(by Karan Anand, Athan Reines)_
