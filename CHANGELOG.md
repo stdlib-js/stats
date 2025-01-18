@@ -7519,6 +7519,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fdd6251`](https://github.com/stdlib-js/stdlib/commit/fdd6251ca208c5aceff5d6a2929788ed2cfbc2d6) - **bench:** refactor random number generation in `stats/base/dists/arcsine` [(#4798)](https://github.com/stdlib-js/stdlib/pull/4798) _(by Karan Anand)_
 -   [`802775e`](https://github.com/stdlib-js/stdlib/commit/802775ea028fb2a42041611187b6373b49f5f397) - **bench:** refactor random number generation in `stats/base/dists/bernoulli` [(#4775)](https://github.com/stdlib-js/stdlib/pull/4775) _(by Karan Anand, Athan Reines)_
 -   [`f698e2c`](https://github.com/stdlib-js/stdlib/commit/f698e2c25ebf247b2701cfac9864689049417c57) - **remove:** remove `stats/base/dmax` _(by Athan Reines)_
 -   [`e0799e5`](https://github.com/stdlib-js/stdlib/commit/e0799e5da799e74ff3369f652f4380aeb8dfe7fc) - **refactor:** update paths _(by Athan Reines)_
