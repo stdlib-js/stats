@@ -7519,6 +7519,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`802775e`](https://github.com/stdlib-js/stdlib/commit/802775ea028fb2a42041611187b6373b49f5f397) - **bench:** refactor random number generation in `stats/base/dists/bernoulli` [(#4775)](https://github.com/stdlib-js/stdlib/pull/4775) _(by Karan Anand, Athan Reines)_
 -   [`f698e2c`](https://github.com/stdlib-js/stdlib/commit/f698e2c25ebf247b2701cfac9864689049417c57) - **remove:** remove `stats/base/dmax` _(by Athan Reines)_
 -   [`e0799e5`](https://github.com/stdlib-js/stdlib/commit/e0799e5da799e74ff3369f652f4380aeb8dfe7fc) - **refactor:** update paths _(by Athan Reines)_
 -   [`3371722`](https://github.com/stdlib-js/stdlib/commit/33717221632faf5e66660142beb361d293109c02) - **feat:** add `stats/strided/dmax` _(by Athan Reines)_
