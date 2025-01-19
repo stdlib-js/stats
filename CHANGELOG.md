@@ -6727,6 +6727,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanmeanpw-unreleased">
+
+#### [@stdlib/stats/base/dnanmeanpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmeanpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`be4a2ee`](https://github.com/stdlib-js/stdlib/commit/be4a2ee6c7b47dc85b09f6b8678c98b46b48aa33) - add C ndarray interface and refactor implementation for `stats/base/dnanmeanpw` [(#4763)](https://github.com/stdlib-js/stdlib/pull/4763)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dnanmeanwd-unreleased">
 
 #### [@stdlib/stats/base/dnanmeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmeanwd)
@@ -8382,7 +8404,7 @@ A total of 165 issues were closed in this release:
 
 ### Contributors
 
-A total of 20 people contributed to this release. Thank you to the following contributors:
+A total of 21 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -8396,6 +8418,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 -   Karan Anand
 -   Kohantika Nath
 -   Manvith M
+-   Muhammad Haris
 -   Neeraj Pathak
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
@@ -8415,6 +8438,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`be4a2ee`](https://github.com/stdlib-js/stdlib/commit/be4a2ee6c7b47dc85b09f6b8678c98b46b48aa33) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmeanpw` [(#4763)](https://github.com/stdlib-js/stdlib/pull/4763) _(by Aayush Khanna, Athan Reines, Muhammad Haris)_
 -   [`cbb399f`](https://github.com/stdlib-js/stdlib/commit/cbb399f69098247acb31497af6e1370b51fe285d) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeanli` [(#4785)](https://github.com/stdlib-js/stdlib/pull/4785) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`03954e1`](https://github.com/stdlib-js/stdlib/commit/03954e125b6cc761a5456e51c909ab09b18d15ee) - **feat:** add C implementation for `stats/base/dists/logistic/stdev`   [(#4189)](https://github.com/stdlib-js/stdlib/pull/4189) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
 -   [`02c1a61`](https://github.com/stdlib-js/stdlib/commit/02c1a6107cd10392a3893ae76b6d8e81414e3067) - **feat:** add C implementation for `stats/base/dists/gumbel/kurtosis`   [(#4155)](https://github.com/stdlib-js/stdlib/pull/4155) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
