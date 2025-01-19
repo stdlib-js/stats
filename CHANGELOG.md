@@ -7591,6 +7591,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-smeanli-unreleased">
+
+#### [@stdlib/stats/base/smeanli](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smeanli)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`cbb399f`](https://github.com/stdlib-js/stdlib/commit/cbb399f69098247acb31497af6e1370b51fe285d) - add C ndarray interface and refactor implementation for `stats/base/smeanli` [(#4785)](https://github.com/stdlib-js/stdlib/pull/4785)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-smeanwd-unreleased">
 
 #### [@stdlib/stats/base/smeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smeanwd)
@@ -8393,6 +8415,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`cbb399f`](https://github.com/stdlib-js/stdlib/commit/cbb399f69098247acb31497af6e1370b51fe285d) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeanli` [(#4785)](https://github.com/stdlib-js/stdlib/pull/4785) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`03954e1`](https://github.com/stdlib-js/stdlib/commit/03954e125b6cc761a5456e51c909ab09b18d15ee) - **feat:** add C implementation for `stats/base/dists/logistic/stdev`   [(#4189)](https://github.com/stdlib-js/stdlib/pull/4189) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
 -   [`02c1a61`](https://github.com/stdlib-js/stdlib/commit/02c1a6107cd10392a3893ae76b6d8e81414e3067) - **feat:** add C implementation for `stats/base/dists/gumbel/kurtosis`   [(#4155)](https://github.com/stdlib-js/stdlib/pull/4155) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
 -   [`afec7c7`](https://github.com/stdlib-js/stdlib/commit/afec7c739bd80f59afce304f637346a7d60bdb59) - **feat:** add C implementation for `stats/base/dists/gumbel/mode`   [(#4151)](https://github.com/stdlib-js/stdlib/pull/4151) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
