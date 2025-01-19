@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-18)
+## Unreleased (2025-01-19)
 
 <section class="packages">
 
@@ -4014,6 +4014,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-planck-mgf-unreleased">
+
+#### [@stdlib/stats/base/dists/planck/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/mgf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5444ad4`](https://github.com/stdlib-js/stdlib/commit/5444ad47eef627b88d14c4e260e14051ffe301fe) - add `stats/base/dists/planck/mgf` [(#4478)](https://github.com/stdlib-js/stdlib/pull/4478)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-planck-mode-unreleased">
 
 #### [@stdlib/stats/base/dists/planck/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/planck/mode)
@@ -7686,6 +7708,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5444ad4`](https://github.com/stdlib-js/stdlib/commit/5444ad47eef627b88d14c4e260e14051ffe301fe) - **feat:** add `stats/base/dists/planck/mgf` [(#4478)](https://github.com/stdlib-js/stdlib/pull/4478) _(by Jaysukh Makvana, Athan Reines)_
 -   [`5cfc390`](https://github.com/stdlib-js/stdlib/commit/5cfc390ccb133747ade74ea8b0c29d4e08fce639) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsmeanpn` [(#4331)](https://github.com/stdlib-js/stdlib/pull/4331) _(by Neeraj Pathak, Athan Reines)_
 -   [`a04ba78`](https://github.com/stdlib-js/stdlib/commit/a04ba78f390b90c1621ea8c8f1b9a76e876db7c4) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsmeanors` [(#4317)](https://github.com/stdlib-js/stdlib/pull/4317) _(by Neeraj Pathak, Athan Reines, stdlib-bot)_
 -   [`79e28d9`](https://github.com/stdlib-js/stdlib/commit/79e28d92c6c2d7a6d4d2347d894bc03af2c470cb) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsmeanwd` [(#4339)](https://github.com/stdlib-js/stdlib/pull/4339) _(by Neeraj Pathak)_
