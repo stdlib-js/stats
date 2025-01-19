@@ -29,7 +29,6 @@ import dcumaxabs = require( './../../../base/dcumaxabs' );
 import dcumin = require( './../../../base/dcumin' );
 import dcuminabs = require( './../../../base/dcuminabs' );
 import dists = require( './../../../base/dists' );
-import dmax = require( './../../../strided/dmax' );
 import dmaxabs = require( './../../../base/dmaxabs' );
 import dmaxabssorted = require( './../../../base/dmaxabssorted' );
 import dmaxsorted = require( './../../../base/dmaxsorted' );
@@ -471,32 +470,6 @@ interface Namespace {
 	* Base (i.e., lower-level) probability distributions.
 	*/
 	dists: typeof dists;
-
-	/**
-	* Computes the maximum value of a double-precision floating-point strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns maximum value
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmax( x.length, x, 1 );
-	* // returns 2.0
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmax.ndarray( x.length, x, 1, 0 );
-	* // returns 2.0
-	*/
-	dmax: typeof dmax;
 
 	/**
 	* Computes the maximum absolute value of a double-precision floating-point strided array.
@@ -2059,7 +2032,7 @@ interface Namespace {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param stride - stride length
+	* @param strideX - stride length
 	* @returns arithmetic mean
 	*
 	* @example
@@ -2085,7 +2058,7 @@ interface Namespace {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param stride - stride length
+	* @param strideX - stride length
 	* @returns arithmetic mean
 	*
 	* @example
@@ -2137,7 +2110,7 @@ interface Namespace {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param stride - stride length
+	* @param strideX - stride length
 	* @returns arithmetic mean
 	*
 	* @example

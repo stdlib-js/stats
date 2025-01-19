@@ -20,12 +20,25 @@
 
 ##### Features
 
+-   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8) - update namespace TypeScript declarations [(#4809)](https://github.com/stdlib-js/stdlib/pull/4809)
 -   [`e661213`](https://github.com/stdlib-js/stdlib/commit/e66121352ef767cdb87d19e938b1eccf7970fa3a) - update namespace TypeScript declarations [(#4706)](https://github.com/stdlib-js/stdlib/pull/4706)
 -   [`25d8240`](https://github.com/stdlib-js/stdlib/commit/25d8240f51b27bd0ee85ca3ef70c89fd3778b902) - update namespace TypeScript declarations [(#4363)](https://github.com/stdlib-js/stdlib/pull/4363)
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8): remove `dmax`
+
+    -   To migrate, users should access `dmax` via the `stats/strided` namespace.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -7665,6 +7678,10 @@ A total of 3 issues were closed in this release:
 
 ### BREAKING CHANGES
 
+-   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8): remove `dmax`
+
+    -   To migrate, users should access `dmax` via the `stats/strided` namespace.
+
 -   [`f698e2c`](https://github.com/stdlib-js/stdlib/commit/f698e2c25ebf247b2701cfac9864689049417c57): remove `stats/base/dmax`
 
     -   To migrate, users should update their require/import paths to use
@@ -7798,6 +7815,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8) - **feat:** update namespace TypeScript declarations [(#4809)](https://github.com/stdlib-js/stdlib/pull/4809) _(by stdlib-bot)_
 -   [`deabf53`](https://github.com/stdlib-js/stdlib/commit/deabf5358fdce4a99aa6f060e3d296a69538ed24) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsmeanpw` [(#4338)](https://github.com/stdlib-js/stdlib/pull/4338) _(by Neeraj Pathak, stdlib-bot)_
 -   [`3f740e8`](https://github.com/stdlib-js/stdlib/commit/3f740e88f3d1e0a42e50e351603a0d4eb0e9cf2e) - **feat:** add C implementation for `stats/base/dists/chisquare/stdev` [(#3996)](https://github.com/stdlib-js/stdlib/pull/3996) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
 -   [`2b91a43`](https://github.com/stdlib-js/stdlib/commit/2b91a43344d32f63fd50185d17fadf13e9c977a7) - **feat:** add C implementation for `stats/base/dists/chisquare/mean` [(#3989)](https://github.com/stdlib-js/stdlib/pull/3989) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
