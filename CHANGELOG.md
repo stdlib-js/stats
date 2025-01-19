@@ -7708,6 +7708,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`21c2f38`](https://github.com/stdlib-js/stdlib/commit/21c2f3822dd61cce49ec0e38ea0add2b91006162) - **docs:** update namespace table of contents [(#4811)](https://github.com/stdlib-js/stdlib/pull/4811) _(by stdlib-bot)_
 -   [`5444ad4`](https://github.com/stdlib-js/stdlib/commit/5444ad47eef627b88d14c4e260e14051ffe301fe) - **feat:** add `stats/base/dists/planck/mgf` [(#4478)](https://github.com/stdlib-js/stdlib/pull/4478) _(by Jaysukh Makvana, Athan Reines)_
 -   [`5cfc390`](https://github.com/stdlib-js/stdlib/commit/5cfc390ccb133747ade74ea8b0c29d4e08fce639) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsmeanpn` [(#4331)](https://github.com/stdlib-js/stdlib/pull/4331) _(by Neeraj Pathak, Athan Reines)_
 -   [`a04ba78`](https://github.com/stdlib-js/stdlib/commit/a04ba78f390b90c1621ea8c8f1b9a76e876db7c4) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsmeanors` [(#4317)](https://github.com/stdlib-js/stdlib/pull/4317) _(by Neeraj Pathak, Athan Reines, stdlib-bot)_
