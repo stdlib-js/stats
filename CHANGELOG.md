@@ -8438,6 +8438,7 @@ A total of 21 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4486641`](https://github.com/stdlib-js/stdlib/commit/44866418235df4d9f1e5ec38b918f53f1703b908) - **docs:** update related packages sections [(#4816)](https://github.com/stdlib-js/stdlib/pull/4816) _(by stdlib-bot)_
 -   [`895313e`](https://github.com/stdlib-js/stdlib/commit/895313e08f1006053fd6d995494bdf546002694e) - **docs:** update descriptions _(by Athan Reines)_
 -   [`be4a2ee`](https://github.com/stdlib-js/stdlib/commit/be4a2ee6c7b47dc85b09f6b8678c98b46b48aa33) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmeanpw` [(#4763)](https://github.com/stdlib-js/stdlib/pull/4763) _(by Aayush Khanna, Athan Reines, Muhammad Haris)_
 -   [`cbb399f`](https://github.com/stdlib-js/stdlib/commit/cbb399f69098247acb31497af6e1370b51fe285d) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeanli` [(#4785)](https://github.com/stdlib-js/stdlib/pull/4785) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
