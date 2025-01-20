@@ -8570,6 +8570,11 @@ A total of 21 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c4bdf1c`](https://github.com/stdlib-js/stdlib/commit/c4bdf1c73fcd8c5534b13873a4a9d632ba1444c8) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`ff97e29`](https://github.com/stdlib-js/stdlib/commit/ff97e29be19b90e74565d410af768774bf96bf2e) - **chore:** update wording from non-negative to nonnegative _(by Philipp Burckhardt)_
+-   [`1a0d851`](https://github.com/stdlib-js/stdlib/commit/1a0d85130cde680109ebf3307a4fb5c39c5ee8ae) - **refactor:** precompute constant _(by Philipp Burckhardt)_
+-   [`e7eae81`](https://github.com/stdlib-js/stdlib/commit/e7eae81492e2004895ec3f45fe76b7fda4fcd69d) - **refactor:** precompute constant and adjust tolerance _(by Philipp Burckhardt)_
+-   [`c4ef550`](https://github.com/stdlib-js/stdlib/commit/c4ef5500174a0d77a90b1a72be560938ac56d58d) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`a99f045`](https://github.com/stdlib-js/stdlib/commit/a99f0459d3f658f0944d9a7adf21c0a0b30f3d9f) - **remove:** remove `stats/base/dcumax` _(by aayush0325)_
 -   [`7fdd232`](https://github.com/stdlib-js/stdlib/commit/7fdd232cf5861d0f25fad1a23d05143211e84d92) - **refactor:** update paths _(by aayush0325)_
 -   [`1eee6f5`](https://github.com/stdlib-js/stdlib/commit/1eee6f540e9ba8cdf174093c6732ecd0b893fad5) - **feat:** add `stats/strided/dcumax` _(by aayush0325)_
