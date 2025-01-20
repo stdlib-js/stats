@@ -8438,6 +8438,7 @@ A total of 21 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`20b9402`](https://github.com/stdlib-js/stdlib/commit/20b940262ef8f8f01a640a481636808f5213e039) - **docs:** update namespace TypeScript declaration comments [(#4817)](https://github.com/stdlib-js/stdlib/pull/4817) _(by stdlib-bot)_
 -   [`4486641`](https://github.com/stdlib-js/stdlib/commit/44866418235df4d9f1e5ec38b918f53f1703b908) - **docs:** update related packages sections [(#4816)](https://github.com/stdlib-js/stdlib/pull/4816) _(by stdlib-bot)_
 -   [`895313e`](https://github.com/stdlib-js/stdlib/commit/895313e08f1006053fd6d995494bdf546002694e) - **docs:** update descriptions _(by Athan Reines)_
 -   [`be4a2ee`](https://github.com/stdlib-js/stdlib/commit/be4a2ee6c7b47dc85b09f6b8678c98b46b48aa33) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmeanpw` [(#4763)](https://github.com/stdlib-js/stdlib/pull/4763) _(by Aayush Khanna, Athan Reines, Muhammad Haris)_
