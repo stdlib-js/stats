@@ -8570,6 +8570,10 @@ A total of 21 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5a6efed`](https://github.com/stdlib-js/stdlib/commit/5a6efed4b52bece2bbcef65d8b19dcfaa168ff78) - **refactor:** precompute constant _(by Philipp Burckhardt)_
+-   [`441ea68`](https://github.com/stdlib-js/stdlib/commit/441ea68883183d31363403a11d4142cabf4c0ef0) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`b7c97a5`](https://github.com/stdlib-js/stdlib/commit/b7c97a5e905c8bf73de1da4d55b9f3571f987927) - **refactor:** precompute constant _(by Philipp Burckhardt)_
+-   [`b0790e4`](https://github.com/stdlib-js/stdlib/commit/b0790e41abbacf8f6b7a778dc2e8e552870fdc22) - **refactor:** precompute constant _(by Philipp Burckhardt)_
 -   [`c4bdf1c`](https://github.com/stdlib-js/stdlib/commit/c4bdf1c73fcd8c5534b13873a4a9d632ba1444c8) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`ff97e29`](https://github.com/stdlib-js/stdlib/commit/ff97e29be19b90e74565d410af768774bf96bf2e) - **chore:** update wording from non-negative to nonnegative _(by Philipp Burckhardt)_
 -   [`1a0d851`](https://github.com/stdlib-js/stdlib/commit/1a0d85130cde680109ebf3307a4fb5c39c5ee8ae) - **refactor:** precompute constant _(by Philipp Burckhardt)_
