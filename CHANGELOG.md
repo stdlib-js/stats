@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-19)
+## Unreleased (2025-01-20)
 
 <section class="packages">
 
@@ -8438,6 +8438,7 @@ A total of 21 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`895313e`](https://github.com/stdlib-js/stdlib/commit/895313e08f1006053fd6d995494bdf546002694e) - **docs:** update descriptions _(by Athan Reines)_
 -   [`be4a2ee`](https://github.com/stdlib-js/stdlib/commit/be4a2ee6c7b47dc85b09f6b8678c98b46b48aa33) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmeanpw` [(#4763)](https://github.com/stdlib-js/stdlib/pull/4763) _(by Aayush Khanna, Athan Reines, Muhammad Haris)_
 -   [`cbb399f`](https://github.com/stdlib-js/stdlib/commit/cbb399f69098247acb31497af6e1370b51fe285d) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeanli` [(#4785)](https://github.com/stdlib-js/stdlib/pull/4785) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`03954e1`](https://github.com/stdlib-js/stdlib/commit/03954e125b6cc761a5456e51c909ab09b18d15ee) - **feat:** add C implementation for `stats/base/dists/logistic/stdev`   [(#4189)](https://github.com/stdlib-js/stdlib/pull/4189) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
