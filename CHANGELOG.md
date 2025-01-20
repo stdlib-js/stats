@@ -8570,6 +8570,10 @@ A total of 21 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a93ccc0`](https://github.com/stdlib-js/stdlib/commit/a93ccc040bd1f43af8d022d72ce1a7dcae957acd) - **refactor:** precompute constant _(by Philipp Burckhardt)_
+-   [`177f0a0`](https://github.com/stdlib-js/stdlib/commit/177f0a00909c097be05d47107a3e6ab05b865409) - **chore:** consistently use differential entropy for continuous distributions _(by Philipp Burckhardt)_
+-   [`f75a0ce`](https://github.com/stdlib-js/stdlib/commit/f75a0cef6a3112b166dba04c13bada9763cec350) - **chore:** use excess kurtosis consistently _(by Philipp Burckhardt)_
+-   [`bd984ea`](https://github.com/stdlib-js/stdlib/commit/bd984eabd47aaa22688e282da0b6f4ed9429869f) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`1fe6f65`](https://github.com/stdlib-js/stdlib/commit/1fe6f651831f7c0090ec6fc6b99707be0f7e6bce) - **test:** fix name of checked variable _(by Philipp Burckhardt)_
 -   [`5a6efed`](https://github.com/stdlib-js/stdlib/commit/5a6efed4b52bece2bbcef65d8b19dcfaa168ff78) - **refactor:** precompute constant _(by Philipp Burckhardt)_
 -   [`441ea68`](https://github.com/stdlib-js/stdlib/commit/441ea68883183d31363403a11d4142cabf4c0ef0) - **chore:** minor clean-up _(by Philipp Burckhardt)_
