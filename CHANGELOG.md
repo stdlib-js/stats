@@ -8570,6 +8570,7 @@ A total of 21 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1fe6f65`](https://github.com/stdlib-js/stdlib/commit/1fe6f651831f7c0090ec6fc6b99707be0f7e6bce) - **test:** fix name of checked variable _(by Philipp Burckhardt)_
 -   [`5a6efed`](https://github.com/stdlib-js/stdlib/commit/5a6efed4b52bece2bbcef65d8b19dcfaa168ff78) - **refactor:** precompute constant _(by Philipp Burckhardt)_
 -   [`441ea68`](https://github.com/stdlib-js/stdlib/commit/441ea68883183d31363403a11d4142cabf4c0ef0) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`b7c97a5`](https://github.com/stdlib-js/stdlib/commit/b7c97a5e905c8bf73de1da4d55b9f3571f987927) - **refactor:** precompute constant _(by Philipp Burckhardt)_
