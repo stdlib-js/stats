@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`a0220fb`](https://github.com/stdlib-js/stdlib/commit/a0220fba00f930e2558a83c6845a117791ebda26) - update namespace TypeScript declarations [(#4828)](https://github.com/stdlib-js/stdlib/pull/4828)
 -   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8) - update namespace TypeScript declarations [(#4809)](https://github.com/stdlib-js/stdlib/pull/4809)
 -   [`e661213`](https://github.com/stdlib-js/stdlib/commit/e66121352ef767cdb87d19e938b1eccf7970fa3a) - update namespace TypeScript declarations [(#4706)](https://github.com/stdlib-js/stdlib/pull/4706)
 -   [`25d8240`](https://github.com/stdlib-js/stdlib/commit/25d8240f51b27bd0ee85ca3ef70c89fd3778b902) - update namespace TypeScript declarations [(#4363)](https://github.com/stdlib-js/stdlib/pull/4363)
@@ -31,6 +32,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`a0220fb`](https://github.com/stdlib-js/stdlib/commit/a0220fba00f930e2558a83c6845a117791ebda26): remove `dcumax`
+
+    -   To migrate, users should update their code paths to access `dcumax` via `stats/strided`.
 
 -   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8): remove `dmax`
 
@@ -8381,6 +8386,10 @@ A total of 3 issues were closed in this release:
 
 ### BREAKING CHANGES
 
+-   [`a0220fb`](https://github.com/stdlib-js/stdlib/commit/a0220fba00f930e2558a83c6845a117791ebda26): remove `dcumax`
+
+    -   To migrate, users should update their code paths to access `dcumax` via `stats/strided`.
+
 -   [`a99f045`](https://github.com/stdlib-js/stdlib/commit/a99f0459d3f658f0944d9a7adf21c0a0b30f3d9f): remove `stats/base/dcumax`
 
     -   To migrate, users should update their require/import paths to use
@@ -8570,6 +8579,7 @@ A total of 21 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a0220fb`](https://github.com/stdlib-js/stdlib/commit/a0220fba00f930e2558a83c6845a117791ebda26) - **feat:** update namespace TypeScript declarations [(#4828)](https://github.com/stdlib-js/stdlib/pull/4828) _(by stdlib-bot)_
 -   [`93636cb`](https://github.com/stdlib-js/stdlib/commit/93636cb4114205b439ff8ba24dbaa90f1f824847) - **docs:** update Markdown stdlib package URLs [(#4827)](https://github.com/stdlib-js/stdlib/pull/4827) _(by stdlib-bot)_
 -   [`902977d`](https://github.com/stdlib-js/stdlib/commit/902977d7e637a7dfb1704fc4caa8fc3913d3246d) - **docs:** update related packages sections [(#4825)](https://github.com/stdlib-js/stdlib/pull/4825) _(by stdlib-bot)_
 -   [`cac36dd`](https://github.com/stdlib-js/stdlib/commit/cac36ddc0f1b70fa1375259a09e80e3e25af2d60) - **test:** fix variable name _(by Athan Reines)_
