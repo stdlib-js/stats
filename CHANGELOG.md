@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-20)
+## Unreleased (2025-01-21)
 
 <section class="packages">
 
@@ -8570,6 +8570,7 @@ A total of 21 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`cac36dd`](https://github.com/stdlib-js/stdlib/commit/cac36ddc0f1b70fa1375259a09e80e3e25af2d60) - **test:** fix variable name _(by Athan Reines)_
 -   [`a93ccc0`](https://github.com/stdlib-js/stdlib/commit/a93ccc040bd1f43af8d022d72ce1a7dcae957acd) - **refactor:** precompute constant _(by Philipp Burckhardt)_
 -   [`177f0a0`](https://github.com/stdlib-js/stdlib/commit/177f0a00909c097be05d47107a3e6ab05b865409) - **chore:** consistently use differential entropy for continuous distributions _(by Philipp Burckhardt)_
 -   [`f75a0ce`](https://github.com/stdlib-js/stdlib/commit/f75a0cef6a3112b166dba04c13bada9763cec350) - **chore:** use excess kurtosis consistently _(by Philipp Burckhardt)_
