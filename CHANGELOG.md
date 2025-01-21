@@ -8710,6 +8710,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9394549`](https://github.com/stdlib-js/stdlib/commit/939454926b745326a5b14bcd0924a0526baa93da) - **bench:** refactor random number generation in `stats/base/dists/beta` [(#4837)](https://github.com/stdlib-js/stdlib/pull/4837) _(by Karan Anand)_
 -   [`bb45118`](https://github.com/stdlib-js/stdlib/commit/bb45118e4e70b095a561d3e9ff63cc9002a52764) - **docs:** update namespace table of contents [(#4830)](https://github.com/stdlib-js/stdlib/pull/4830) _(by stdlib-bot, Athan Reines)_
 -   [`3bb92d5`](https://github.com/stdlib-js/stdlib/commit/3bb92d53b8e3008858733e64dca33c7b55d36a58) - **remove:** remove `stats/base/dcumaxabs` _(by Aayush Khanna)_
 -   [`2360eb3`](https://github.com/stdlib-js/stdlib/commit/2360eb3f0a25330f16ae302f9ed4a13c9fe96af1) - **refactor:** update paths _(by Aayush Khanna)_
