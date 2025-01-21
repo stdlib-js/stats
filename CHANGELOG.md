@@ -8710,6 +8710,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`af55f0d`](https://github.com/stdlib-js/stdlib/commit/af55f0d6d6b4d06c36f46357740ea89a4639ab5b) - **bench:** refactor random number generation in `stats/base/dists/binomial` [(#4841)](https://github.com/stdlib-js/stdlib/pull/4841) _(by Karan Anand)_
 -   [`9394549`](https://github.com/stdlib-js/stdlib/commit/939454926b745326a5b14bcd0924a0526baa93da) - **bench:** refactor random number generation in `stats/base/dists/beta` [(#4837)](https://github.com/stdlib-js/stdlib/pull/4837) _(by Karan Anand)_
 -   [`bb45118`](https://github.com/stdlib-js/stdlib/commit/bb45118e4e70b095a561d3e9ff63cc9002a52764) - **docs:** update namespace table of contents [(#4830)](https://github.com/stdlib-js/stdlib/pull/4830) _(by stdlib-bot, Athan Reines)_
 -   [`3bb92d5`](https://github.com/stdlib-js/stdlib/commit/3bb92d53b8e3008858733e64dca33c7b55d36a58) - **remove:** remove `stats/base/dcumaxabs` _(by Aayush Khanna)_
