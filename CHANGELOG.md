@@ -8579,6 +8579,7 @@ A total of 21 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`bb45118`](https://github.com/stdlib-js/stdlib/commit/bb45118e4e70b095a561d3e9ff63cc9002a52764) - **docs:** update namespace table of contents [(#4830)](https://github.com/stdlib-js/stdlib/pull/4830) _(by stdlib-bot, Athan Reines)_
 -   [`a0220fb`](https://github.com/stdlib-js/stdlib/commit/a0220fba00f930e2558a83c6845a117791ebda26) - **feat:** update namespace TypeScript declarations [(#4828)](https://github.com/stdlib-js/stdlib/pull/4828) _(by stdlib-bot)_
 -   [`93636cb`](https://github.com/stdlib-js/stdlib/commit/93636cb4114205b439ff8ba24dbaa90f1f824847) - **docs:** update Markdown stdlib package URLs [(#4827)](https://github.com/stdlib-js/stdlib/pull/4827) _(by stdlib-bot)_
 -   [`902977d`](https://github.com/stdlib-js/stdlib/commit/902977d7e637a7dfb1704fc4caa8fc3913d3246d) - **docs:** update related packages sections [(#4825)](https://github.com/stdlib-js/stdlib/pull/4825) _(by stdlib-bot)_
