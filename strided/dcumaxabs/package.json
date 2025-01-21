@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dcumaxabs",
+  "name": "@stdlib/stats/strided/dcumaxabs",
   "version": "0.0.0",
   "description": "Calculate the cumulative maximum absolute value of double-precision floating-point strided array elements.",
   "license": "Apache-2.0",

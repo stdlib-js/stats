@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dcumaxabs.h"
+#include "stdlib/stats/strided/dcumaxabs.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_STATS_BASE_DCUMAXABS_H
-#define STDLIB_STATS_BASE_DCUMAXABS_H
+#ifndef STDLIB_STATS_STRIDED_DCUMAXABS_H
+#define STDLIB_STATS_STRIDED_DCUMAXABS_H
 
 #include "stdlib/blas/base/shared.h"
 
@@ -42,4 +42,4 @@ void API_SUFFIX(stdlib_strided_dcumaxabs_ndarray)( const CBLAS_INT N, const doub
 }
 #endif
 
-#endif // !STDLIB_STATS_BASE_DCUMAXABS_H
+#endif // !STDLIB_STATS_STRIDED_DCUMAXABS_H

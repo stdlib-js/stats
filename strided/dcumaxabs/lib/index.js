@@ -21,11 +21,11 @@
 /**
 * Compute the cumulative maximum absolute value of double-precision floating-point strided array elements.
 *
-* @module @stdlib/stats/base/dcumaxabs
+* @module @stdlib/stats/strided/dcumaxabs
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dcumaxabs = require( '@stdlib/stats/base/dcumaxabs' );
+* var dcumaxabs = require( '@stdlib/stats/strided/dcumaxabs' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 * var y = new Float64Array( x.length );
@@ -35,7 +35,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dcumaxabs = require( '@stdlib/stats/base/dcumaxabs' );
+* var dcumaxabs = require( '@stdlib/stats/strided/dcumaxabs' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 * var y = new Float64Array( x.length );

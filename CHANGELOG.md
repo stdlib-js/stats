@@ -168,6 +168,65 @@
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`3bb92d5`](https://github.com/stdlib-js/stdlib/commit/3bb92d53b8e3008858733e64dca33c7b55d36a58): remove `stats/base/dcumaxabs`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dcumaxabs` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -8356,6 +8415,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-dcumaxabs-unreleased">
+
+#### [@stdlib/stats/strided/dcumaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dcumaxabs)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9247bb6`](https://github.com/stdlib-js/stdlib/commit/9247bb638d6c49b7f37bf1337f4011db0a873177) - add `stats/strided/dcumaxabs`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-strided-dmax-unreleased">
 
 #### [@stdlib/stats/strided/dmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dmax)
@@ -8385,6 +8466,57 @@ A total of 3 issues were closed in this release:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`3bb92d5`](https://github.com/stdlib-js/stdlib/commit/3bb92d53b8e3008858733e64dca33c7b55d36a58): remove `stats/base/dcumaxabs`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dcumaxabs` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`a0220fb`](https://github.com/stdlib-js/stdlib/commit/a0220fba00f930e2558a83c6845a117791ebda26): remove `dcumax`
 
@@ -8545,7 +8677,7 @@ A total of 165 issues were closed in this release:
 
 ### Contributors
 
-A total of 21 people contributed to this release. Thank you to the following contributors:
+A total of 20 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -8567,7 +8699,6 @@ A total of 21 people contributed to this release. Thank you to the following con
 -   Ruthwik Chikoti
 -   Vinit Pandit
 -   Vivek Maurya
--   aayush0325
 
 </section>
 
@@ -8580,6 +8711,9 @@ A total of 21 people contributed to this release. Thank you to the following con
 <details>
 
 -   [`bb45118`](https://github.com/stdlib-js/stdlib/commit/bb45118e4e70b095a561d3e9ff63cc9002a52764) - **docs:** update namespace table of contents [(#4830)](https://github.com/stdlib-js/stdlib/pull/4830) _(by stdlib-bot, Athan Reines)_
+-   [`3bb92d5`](https://github.com/stdlib-js/stdlib/commit/3bb92d53b8e3008858733e64dca33c7b55d36a58) - **remove:** remove `stats/base/dcumaxabs` _(by Aayush Khanna)_
+-   [`2360eb3`](https://github.com/stdlib-js/stdlib/commit/2360eb3f0a25330f16ae302f9ed4a13c9fe96af1) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`9247bb6`](https://github.com/stdlib-js/stdlib/commit/9247bb638d6c49b7f37bf1337f4011db0a873177) - **feat:** add `stats/strided/dcumaxabs` _(by Aayush Khanna)_
 -   [`a0220fb`](https://github.com/stdlib-js/stdlib/commit/a0220fba00f930e2558a83c6845a117791ebda26) - **feat:** update namespace TypeScript declarations [(#4828)](https://github.com/stdlib-js/stdlib/pull/4828) _(by stdlib-bot)_
 -   [`93636cb`](https://github.com/stdlib-js/stdlib/commit/93636cb4114205b439ff8ba24dbaa90f1f824847) - **docs:** update Markdown stdlib package URLs [(#4827)](https://github.com/stdlib-js/stdlib/pull/4827) _(by stdlib-bot)_
 -   [`902977d`](https://github.com/stdlib-js/stdlib/commit/902977d7e637a7dfb1704fc4caa8fc3913d3246d) - **docs:** update related packages sections [(#4825)](https://github.com/stdlib-js/stdlib/pull/4825) _(by stdlib-bot)_
@@ -8598,9 +8732,9 @@ A total of 21 people contributed to this release. Thank you to the following con
 -   [`1a0d851`](https://github.com/stdlib-js/stdlib/commit/1a0d85130cde680109ebf3307a4fb5c39c5ee8ae) - **refactor:** precompute constant _(by Philipp Burckhardt)_
 -   [`e7eae81`](https://github.com/stdlib-js/stdlib/commit/e7eae81492e2004895ec3f45fe76b7fda4fcd69d) - **refactor:** precompute constant and adjust tolerance _(by Philipp Burckhardt)_
 -   [`c4ef550`](https://github.com/stdlib-js/stdlib/commit/c4ef5500174a0d77a90b1a72be560938ac56d58d) - **chore:** minor clean-up _(by Philipp Burckhardt)_
--   [`a99f045`](https://github.com/stdlib-js/stdlib/commit/a99f0459d3f658f0944d9a7adf21c0a0b30f3d9f) - **remove:** remove `stats/base/dcumax` _(by aayush0325)_
--   [`7fdd232`](https://github.com/stdlib-js/stdlib/commit/7fdd232cf5861d0f25fad1a23d05143211e84d92) - **refactor:** update paths _(by aayush0325)_
--   [`1eee6f5`](https://github.com/stdlib-js/stdlib/commit/1eee6f540e9ba8cdf174093c6732ecd0b893fad5) - **feat:** add `stats/strided/dcumax` _(by aayush0325)_
+-   [`a99f045`](https://github.com/stdlib-js/stdlib/commit/a99f0459d3f658f0944d9a7adf21c0a0b30f3d9f) - **remove:** remove `stats/base/dcumax` _(by Aayush Khanna)_
+-   [`7fdd232`](https://github.com/stdlib-js/stdlib/commit/7fdd232cf5861d0f25fad1a23d05143211e84d92) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`1eee6f5`](https://github.com/stdlib-js/stdlib/commit/1eee6f540e9ba8cdf174093c6732ecd0b893fad5) - **feat:** add `stats/strided/dcumax` _(by Aayush Khanna)_
 -   [`05b5326`](https://github.com/stdlib-js/stdlib/commit/05b5326d097c6f4ebf4af11c6e92d5da1410caca) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`d199580`](https://github.com/stdlib-js/stdlib/commit/d19958025c3494ec94440c4d4d66e580d145e71e) - **test:** correcly pass options for native tests _(by Philipp Burckhardt)_
 -   [`a203308`](https://github.com/stdlib-js/stdlib/commit/a2033080838f7056796d2bd6f0096e11c25c7da4) - **chore:** add missing empty lines _(by Philipp Burckhardt)_
