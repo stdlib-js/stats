@@ -8570,6 +8570,7 @@ A total of 21 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`902977d`](https://github.com/stdlib-js/stdlib/commit/902977d7e637a7dfb1704fc4caa8fc3913d3246d) - **docs:** update related packages sections [(#4825)](https://github.com/stdlib-js/stdlib/pull/4825) _(by stdlib-bot)_
 -   [`cac36dd`](https://github.com/stdlib-js/stdlib/commit/cac36ddc0f1b70fa1375259a09e80e3e25af2d60) - **test:** fix variable name _(by Athan Reines)_
 -   [`a93ccc0`](https://github.com/stdlib-js/stdlib/commit/a93ccc040bd1f43af8d022d72ce1a7dcae957acd) - **refactor:** precompute constant _(by Philipp Burckhardt)_
 -   [`177f0a0`](https://github.com/stdlib-js/stdlib/commit/177f0a00909c097be05d47107a3e6ab05b865409) - **chore:** consistently use differential entropy for continuous distributions _(by Philipp Burckhardt)_
