@@ -8128,6 +8128,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-snanmeanors-unreleased">
+
+#### [@stdlib/stats/base/snanmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmeanors)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d0b776a`](https://github.com/stdlib-js/stdlib/commit/d0b776aace0d50f6b385f5babd7655aa2c0578a3) - add C ndarray interface and refactor implementation for `stats/base/snanmeanors` [(#4786)](https://github.com/stdlib-js/stdlib/pull/4786)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-snanmin-unreleased">
 
 #### [@stdlib/stats/base/snanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmin)
@@ -8719,6 +8741,8 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f2d2150`](https://github.com/stdlib-js/stdlib/commit/f2d21507493d82265ec30daa3aa00a0829e902c9) - **bench:** refactor random number generation in `stats/base/dists/cauchy` [(#4850)](https://github.com/stdlib-js/stdlib/pull/4850) _(by Karan Anand)_
+-   [`d0b776a`](https://github.com/stdlib-js/stdlib/commit/d0b776aace0d50f6b385f5babd7655aa2c0578a3) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmeanors` [(#4786)](https://github.com/stdlib-js/stdlib/pull/4786) _(by Aayush Khanna)_
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f) - **feat:** update namespace TypeScript declarations [(#4843)](https://github.com/stdlib-js/stdlib/pull/4843) _(by stdlib-bot)_
 -   [`063163f`](https://github.com/stdlib-js/stdlib/commit/063163f04276c85b781b5e58e0e8853ac3b36f0c) - **docs:** update namespace table of contents [(#4845)](https://github.com/stdlib-js/stdlib/pull/4845) _(by stdlib-bot)_
 -   [`68894a1`](https://github.com/stdlib-js/stdlib/commit/68894a16cc999587091fdc3b014d21b64d3dde79) - **bench:** refactor random number generation in `stats/base/dists/betaprime` [(#4840)](https://github.com/stdlib-js/stdlib/pull/4840) _(by Karan Anand)_
