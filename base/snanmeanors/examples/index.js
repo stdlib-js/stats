@@ -18,19 +18,22 @@
 
 'use strict';
 
-var uniform = require( '@stdlib/random/base/uniform' );
-var filledarrayBy = require( '@stdlib/array/filled-by' );
-var bernoulli = require( '@stdlib/random/base/bernoulli' );
+var randu = require( '@stdlib/random/base/randu' );
+var round = require( '@stdlib/math/base/special/round' );
+var Float32Array = require( '@stdlib/array/float32' );
 var snanmeanors = require( './../lib' );
 
-function rand() {
-	if ( bernoulli( 0.8 ) < 1 ) {
-		return NaN;
-	}
-	return uniform( -50.0, 50.0 );
-}
+var x;
+var i;
 
-var x = filledarrayBy( 10, 'float32', rand );
+x = new Float32Array( 10 );
+for ( i = 0; i < x.length; i++ ) {
+	if ( randu() < 0.2 ) {
+		x[ i ] = NaN;
+	} else {
+		x[ i ] = round( (randu()*100.0) - 50.0 );
+	}
+}
 console.log( x );
 
 var v = snanmeanors( x.length, x, 1 );

@@ -20,7 +20,8 @@
 
 // MODULES //
 
-var addon = require( './../src/addon.node' );
+var Float32Array = require( '@stdlib/array/float32' );
+var addon = require( './snanmeanors.native.js' );
 
 
 // MAIN //
@@ -30,20 +31,27 @@ var addon = require( './../src/addon.node' );
 *
 * @param {PositiveInteger} N - number of indexed elements
 * @param {Float32Array} x - input array
-* @param {integer} strideX - stride length
-* @param {NonNegativeInteger} offsetX - starting index
+* @param {integer} stride - stride length
+* @param {NonNegativeInteger} offset - starting index
 * @returns {number} arithmetic mean
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
+* var floor = require( '@stdlib/math/base/special/floor' );
 *
-* var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
+* var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN ] );
+* var N = floor( x.length / 2 );
 *
-* var v = snanmeanors( 5, x, 2, 1 );
+* var v = snanmeanors( N, x, 2, 1 );
 * // returns 1.25
 */
-function snanmeanors( N, x, strideX, offsetX ) {
-	return addon.ndarray( N, x, strideX, offsetX );
+function snanmeanors( N, x, stride, offset ) {
+	var view;
+	if ( stride < 0 ) {
+		offset += (N-1) * stride;
+	}
+	view = new Float32Array( x.buffer, x.byteOffset+(x.BYTES_PER_ELEMENT*offset), x.length-offset ); // eslint-disable-line max-len
+	return addon( N, view, stride );
 }
 
 

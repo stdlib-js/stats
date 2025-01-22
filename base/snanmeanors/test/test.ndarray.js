@@ -21,6 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
+var floor = require( '@stdlib/math/base/special/floor' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var Float32Array = require( '@stdlib/array/float32' );
 var snanmeanors = require( './../lib/ndarray.js' );
@@ -89,6 +90,7 @@ tape( 'if provided an `N` parameter equal to `1`, the function returns the first
 });
 
 tape( 'the function supports a `stride` parameter', function test( t ) {
+	var N;
 	var x;
 	var v;
 
@@ -104,13 +106,15 @@ tape( 'the function supports a `stride` parameter', function test( t ) {
 		NaN   // 4
 	]);
 
-	v = snanmeanors( 5, x, 2, 0 );
+	N = floor( x.length / 2 );
+	v = snanmeanors( N, x, 2, 0 );
 
 	t.strictEqual( v, 1.25, 'returns expected value' );
 	t.end();
 });
 
 tape( 'the function supports a negative `stride` parameter', function test( t ) {
+	var N;
 	var x;
 	var v;
 
@@ -126,7 +130,8 @@ tape( 'the function supports a negative `stride` parameter', function test( t ) 
 		NaN   // 0
 	]);
 
-	v = snanmeanors( 5, x, -2, 8 );
+	N = floor( x.length / 2 );
+	v = snanmeanors( N, x, -2, 6 );
 
 	t.strictEqual( v, 1.25, 'returns expected value' );
 	t.end();
@@ -145,6 +150,7 @@ tape( 'if provided a `stride` parameter equal to `0`, the function returns the f
 });
 
 tape( 'the function supports an `offset` parameter', function test( t ) {
+	var N;
 	var x;
 	var v;
 
@@ -160,8 +166,9 @@ tape( 'the function supports an `offset` parameter', function test( t ) {
 		NaN,
 		NaN   // 4
 	]);
+	N = floor( x.length / 2 );
 
-	v = snanmeanors( 5, x, 2, 1 );
+	v = snanmeanors( N, x, 2, 1 );
 	t.strictEqual( v, 1.25, 'returns expected value' );
 
 	t.end();

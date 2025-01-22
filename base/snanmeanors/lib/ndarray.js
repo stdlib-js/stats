@@ -30,19 +30,21 @@ var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
 *
 * @param {PositiveInteger} N - number of indexed elements
 * @param {Float32Array} x - input array
-* @param {integer} strideX - stride length
-* @param {NonNegativeInteger} offsetX - starting index
+* @param {integer} stride - stride length
+* @param {NonNegativeInteger} offset - starting index
 * @returns {number} arithmetic mean
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
+* var floor = require( '@stdlib/math/base/special/floor' );
 *
-* var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
+* var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN ] );
+* var N = floor( x.length / 2 );
 *
-* var v = snanmeanors( 5, x, 2, 1 );
+* var v = snanmeanors( N, x, 2, 1 );
 * // returns 1.25
 */
-function snanmeanors( N, x, strideX, offsetX ) {
+function snanmeanors( N, x, stride, offset ) {
 	var sum;
 	var ix;
 	var v;
@@ -52,10 +54,10 @@ function snanmeanors( N, x, strideX, offsetX ) {
 	if ( N <= 0 ) {
 		return NaN;
 	}
-	if ( N === 1 || strideX === 0 ) {
-		return x[ offsetX ];
+	if ( N === 1 || stride === 0 ) {
+		return x[ offset ];
 	}
-	ix = offsetX;
+	ix = offset;
 	sum = 0.0;
 	n = 0;
 	for ( i = 0; i < N; i++ ) {
@@ -64,7 +66,7 @@ function snanmeanors( N, x, strideX, offsetX ) {
 			sum = float64ToFloat32( sum + v );
 			n += 1;
 		}
-		ix += strideX;
+		ix += stride;
 	}
 	if ( n === 0 ) {
 		return NaN;

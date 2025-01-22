@@ -16,67 +16,47 @@
 * limitations under the License.
 */
 
-'use strict';
-
-// MODULES //
-
-var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
-
-
-// MAIN //
+#include "stdlib/stats/base/snanmeanors.h"
+#include <stdint.h>
 
 /**
 * Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using ordinary recursive summation.
 *
-* @param {PositiveInteger} N - number of indexed elements
-* @param {Float32Array} x - input array
-* @param {integer} stride - stride length
-* @returns {number} arithmetic mean
-*
-* @example
-* var Float32Array = require( '@stdlib/array/float32' );
-*
-* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-* var N = x.length;
-*
-* var v = snanmeanors( N, x, 1 );
-* // returns ~0.3333
+* @param N       number of indexed elements
+* @param X       input array
+* @param stride  stride length
+* @return        output value
 */
-function snanmeanors( N, x, stride ) {
-	var sum;
-	var ix;
-	var v;
-	var n;
-	var i;
+float stdlib_strided_snanmeanors( const int64_t N, const float *X, const int64_t stride ) {
+	int64_t ix;
+	int64_t i;
+	int64_t n;
+	float sum;
+	float v;
 
 	if ( N <= 0 ) {
-		return NaN;
+		return 0.0f / 0.0f; // NaN
 	}
-	if ( N === 1 || stride === 0 ) {
-		return x[ 0 ];
+	if ( N == 1 || stride == 0 ) {
+		return X[ 0 ];
 	}
 	if ( stride < 0 ) {
 		ix = (1-N) * stride;
 	} else {
 		ix = 0;
 	}
-	sum = 0.0;
+	sum = 0.0f;
 	n = 0;
 	for ( i = 0; i < N; i++ ) {
-		v = x[ ix ];
-		if ( v === v ) {
-			sum = float64ToFloat32( sum + v );
+		v = X[ ix ];
+		if ( v == v ) {
+			sum += v;
 			n += 1;
 		}
 		ix += stride;
 	}
-	if ( n === 0 ) {
-		return NaN;
+	if ( n == 0 ) {
+		return 0.0f / 0.0f; // NaN
 	}
-	return float64ToFloat32( sum / n );
+	return (double)sum / (double)n;
 }
-
-
-// EXPORTS //
-
-module.exports = snanmeanors;
