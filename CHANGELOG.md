@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-22)
+## Unreleased (2025-01-23)
 
 <section class="packages">
 
@@ -8741,6 +8741,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b3540a8`](https://github.com/stdlib-js/stdlib/commit/b3540a8ffa4c9cd3122e660a68dcbe286330b5e6) - **bench:** refactor random number generation in `stats/base/dists/chi` [(#4853)](https://github.com/stdlib-js/stdlib/pull/4853) _(by Karan Anand)_
 -   [`f2d2150`](https://github.com/stdlib-js/stdlib/commit/f2d21507493d82265ec30daa3aa00a0829e902c9) - **bench:** refactor random number generation in `stats/base/dists/cauchy` [(#4850)](https://github.com/stdlib-js/stdlib/pull/4850) _(by Karan Anand)_
 -   [`d0b776a`](https://github.com/stdlib-js/stdlib/commit/d0b776aace0d50f6b385f5babd7655aa2c0578a3) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmeanors` [(#4786)](https://github.com/stdlib-js/stdlib/pull/4786) _(by Aayush Khanna)_
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f) - **feat:** update namespace TypeScript declarations [(#4843)](https://github.com/stdlib-js/stdlib/pull/4843) _(by stdlib-bot)_
