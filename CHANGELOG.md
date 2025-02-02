@@ -7546,6 +7546,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-max-unreleased">
+
+#### [@stdlib/stats/base/max](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/max)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7793d43`](https://github.com/stdlib-js/stdlib/commit/7793d4347d1e97f221b05522e724dd26ebb96ca7) - add support for accessor arrays and refactor `stats/base/max` [(#5008)](https://github.com/stdlib-js/stdlib/pull/5008)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-scumax-unreleased">
 
 #### [@stdlib/stats/base/scumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumax)
@@ -8915,6 +8937,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7793d43`](https://github.com/stdlib-js/stdlib/commit/7793d4347d1e97f221b05522e724dd26ebb96ca7) - **feat:** add support for accessor arrays and refactor `stats/base/max` [(#5008)](https://github.com/stdlib-js/stdlib/pull/5008) _(by Aayush Khanna)_
 -   [`8e0153b`](https://github.com/stdlib-js/stdlib/commit/8e0153bb7bf74e172c9bbfd42b05164682e0d1c4) - **docs:** update docs of `stats/base/*` [(#5031)](https://github.com/stdlib-js/stdlib/pull/5031) _(by Aayush Khanna)_
 -   [`74c5fe1`](https://github.com/stdlib-js/stdlib/commit/74c5fe174a5fb4cd5fdd54abf6697d5e94c1ff87) - **docs:** update examples of `stats/base/dnanmeanwd` to show proper handling of `NaN` elements [(#4994)](https://github.com/stdlib-js/stdlib/pull/4994) _(by Aayush Khanna)_
 -   [`1db3cc5`](https://github.com/stdlib-js/stdlib/commit/1db3cc5291f4d08855501db089953299de98b8a4) - **bench:** refactor random number generation in `stats/base/dists/invgamma` [(#4974)](https://github.com/stdlib-js/stdlib/pull/4974) _(by Karan Anand)_
