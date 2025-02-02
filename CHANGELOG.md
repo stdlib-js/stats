@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-23)
+## Unreleased (2025-02-02)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - update namespace TypeScript declarations
 -   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856)
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f) - update namespace TypeScript declarations [(#4843)](https://github.com/stdlib-js/stdlib/pull/4843)
 -   [`a0220fb`](https://github.com/stdlib-js/stdlib/commit/a0220fba00f930e2558a83c6845a117791ebda26) - update namespace TypeScript declarations [(#4828)](https://github.com/stdlib-js/stdlib/pull/4828)
@@ -34,6 +35,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b): remove `dcuminabs`
+
+    -   To migrate, users should access `dcuminabs` in the `stats/strided/*` namespace.
 
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f): remove `stats/base/dcumaxabs`
 
@@ -296,6 +301,65 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`10354ec`](https://github.com/stdlib-js/stdlib/commit/10354ec7ed8e3a7ff967404be528375dff626c6d): remove `stats/base/dcuminabs`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dcuminabs` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -591,6 +655,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`07b0a30`](https://github.com/stdlib-js/stdlib/commit/07b0a30dc4f2361158e9cc923a70d8b9298e7a91) - add missing semicolon
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -8335,6 +8409,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-sstdevyc-unreleased">
+
+#### [@stdlib/stats/base/sstdevyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sstdevyc)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`194c6f9`](https://github.com/stdlib-js/stdlib/commit/194c6f9fa1bd55059e79d5cae7b9a8c8f3162ee4) - add C ndarray interface and refactor implementation for `stats/base/sstdevyc` [(#4874)](https://github.com/stdlib-js/stdlib/pull/4874)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-svariancech-unreleased">
 
 #### [@stdlib/stats/base/svariancech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/svariancech)
@@ -8465,6 +8561,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-dcuminabs-unreleased">
+
+#### [@stdlib/stats/strided/dcuminabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dcuminabs)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`df5420a`](https://github.com/stdlib-js/stdlib/commit/df5420ae3264c96403a3e74911e28712f5704b10) - add `stats/strided/dcuminabs`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-strided-dmax-unreleased">
 
 #### [@stdlib/stats/strided/dmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dmax)
@@ -8494,6 +8612,61 @@ A total of 3 issues were closed in this release:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b): remove `dcuminabs`
+
+    -   To migrate, users should access `dcuminabs` in the `stats/strided/*` namespace.
+
+-   [`10354ec`](https://github.com/stdlib-js/stdlib/commit/10354ec7ed8e3a7ff967404be528375dff626c6d): remove `stats/base/dcuminabs`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dcuminabs` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f): remove `stats/base/dcumaxabs`
 
@@ -8742,6 +8915,31 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8e0153b`](https://github.com/stdlib-js/stdlib/commit/8e0153bb7bf74e172c9bbfd42b05164682e0d1c4) - **docs:** update docs of `stats/base/*` [(#5031)](https://github.com/stdlib-js/stdlib/pull/5031) _(by Aayush Khanna)_
+-   [`74c5fe1`](https://github.com/stdlib-js/stdlib/commit/74c5fe174a5fb4cd5fdd54abf6697d5e94c1ff87) - **docs:** update examples of `stats/base/dnanmeanwd` to show proper handling of `NaN` elements [(#4994)](https://github.com/stdlib-js/stdlib/pull/4994) _(by Aayush Khanna)_
+-   [`1db3cc5`](https://github.com/stdlib-js/stdlib/commit/1db3cc5291f4d08855501db089953299de98b8a4) - **bench:** refactor random number generation in `stats/base/dists/invgamma` [(#4974)](https://github.com/stdlib-js/stdlib/pull/4974) _(by Karan Anand)_
+-   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - **feat:** update namespace TypeScript declarations _(by stdlib-bot)_
+-   [`db41c3d`](https://github.com/stdlib-js/stdlib/commit/db41c3de2df08f29821cb766c141f33f5d165e4f) - **docs:** update namespace table of contents [(#4965)](https://github.com/stdlib-js/stdlib/pull/4965) _(by stdlib-bot)_
+-   [`b9bddfe`](https://github.com/stdlib-js/stdlib/commit/b9bddfefbcc4f301f5a63c9de30b2c11b13a989f) - **bench:** refactor random number generation in `stats/base/dists/hypergeometric` [(#4955)](https://github.com/stdlib-js/stdlib/pull/4955) _(by Karan Anand)_
+-   [`10354ec`](https://github.com/stdlib-js/stdlib/commit/10354ec7ed8e3a7ff967404be528375dff626c6d) - **remove:** remove `stats/base/dcuminabs` _(by Aayush Khanna)_
+-   [`44f6d3a`](https://github.com/stdlib-js/stdlib/commit/44f6d3a8bc68bbdd46bef336268151a883ff5476) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`df5420a`](https://github.com/stdlib-js/stdlib/commit/df5420ae3264c96403a3e74911e28712f5704b10) - **feat:** add `stats/strided/dcuminabs` _(by Aayush Khanna)_
+-   [`611fed3`](https://github.com/stdlib-js/stdlib/commit/611fed3fdb1d06516f0ad5fc9724356307810d1c) - **bench:** refactor random number generation in `stats/base/dists/erlang` [(#4916)](https://github.com/stdlib-js/stdlib/pull/4916) _(by Karan Anand)_
+-   [`3250d4f`](https://github.com/stdlib-js/stdlib/commit/3250d4fb004a417dfd58fdc5a58d7efabc0f2b6e) - **bench:** refactor random number generation in `stats/base/dists/exponential` [(#4917)](https://github.com/stdlib-js/stdlib/pull/4917) _(by Karan Anand)_
+-   [`eeb8c95`](https://github.com/stdlib-js/stdlib/commit/eeb8c957f0888c7e9d54eebd1d417c74cde335d4) - **docs:** fix use of weight parameter in example [(#4915)](https://github.com/stdlib-js/stdlib/pull/4915) _(by Karan Anand)_
+-   [`02b9077`](https://github.com/stdlib-js/stdlib/commit/02b907765ad6a6ebcc884f16f2128475ab866814) - **bench:** refactor random number generation in `stats/base/dists/chisquare` [(#4860)](https://github.com/stdlib-js/stdlib/pull/4860) _(by Karan Anand)_
+-   [`247af42`](https://github.com/stdlib-js/stdlib/commit/247af42a6ec69194b9d251be4785c120155d7fd8) - **bench:** refactor random number generation in `stats/base/dists/cosine` [(#4861)](https://github.com/stdlib-js/stdlib/pull/4861) _(by Karan Anand)_
+-   [`6d3a881`](https://github.com/stdlib-js/stdlib/commit/6d3a881e8df45f6c90f52af25666142603f59ca5) - **refactor:** update `stats/base/dsvariance` native addon from C++ to C [(#4868)](https://github.com/stdlib-js/stdlib/pull/4868) _(by Prashant Kumar Yadav)_
+-   [`1fc3918`](https://github.com/stdlib-js/stdlib/commit/1fc3918810a556d2593f4ec8a0764dce88a519fc) - **bench:** refactor random number generation in `stats/base/dists/degenerate` [(#4862)](https://github.com/stdlib-js/stdlib/pull/4862) _(by Karan Anand)_
+-   [`ec68467`](https://github.com/stdlib-js/stdlib/commit/ec68467571cd9c4529b7365f5ba25a878f734e3f) - **refactor:** update `stats/base/dsnanmean` native addon from C++ to C [(#4863)](https://github.com/stdlib-js/stdlib/pull/4863) _(by Prashant Kumar Yadav)_
+-   [`ab0e174`](https://github.com/stdlib-js/stdlib/commit/ab0e1746d6647e725fb2126e6fe78d1892970b6d) - **refactor:** update `stats/base/dsnanmeanors` native addon from C++ to C [(#4865)](https://github.com/stdlib-js/stdlib/pull/4865) _(by Prashant Kumar Yadav)_
+-   [`fb70c55`](https://github.com/stdlib-js/stdlib/commit/fb70c5590dd5464afa41038d7392bab533203c0f) - **refactor:** update `stats/base/dsnanmeanpn` native addon from C++ to C [(#4866)](https://github.com/stdlib-js/stdlib/pull/4866) _(by Prashant Kumar Yadav)_
+-   [`8f6b716`](https://github.com/stdlib-js/stdlib/commit/8f6b716d1bfba98b9ee89c91e2fa325a899020af) - **refactor:** update `stats/base/dsnanmeanwd` native addon from C++ to C [(#4867)](https://github.com/stdlib-js/stdlib/pull/4867) _(by Prashant Kumar Yadav)_
+-   [`13c0b92`](https://github.com/stdlib-js/stdlib/commit/13c0b92efadf3a6d4c83322c32ebc4071950b403) - **bench:** refactor random number generation in `stats/base/dists/discrete-uniform` [(#4887)](https://github.com/stdlib-js/stdlib/pull/4887) _(by Karan Anand)_
+-   [`cce9542`](https://github.com/stdlib-js/stdlib/commit/cce9542a48a0fdc61d13219aadc8e2916d078a12) - **refactor:** update `stats/base/dsvariancepn` native addon from C++ to C [(#4886)](https://github.com/stdlib-js/stdlib/pull/4886) _(by Prashant Kumar Yadav)_
+-   [`194c6f9`](https://github.com/stdlib-js/stdlib/commit/194c6f9fa1bd55059e79d5cae7b9a8c8f3162ee4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sstdevyc` [(#4874)](https://github.com/stdlib-js/stdlib/pull/4874) _(by Aayush Khanna)_
+-   [`07b0a30`](https://github.com/stdlib-js/stdlib/commit/07b0a30dc4f2361158e9cc923a70d8b9298e7a91) - **fix:** add missing semicolon _(by Philipp Burckhardt)_
+-   [`3446619`](https://github.com/stdlib-js/stdlib/commit/344661922e465e67e62f35dde8e5ac3010dc80a4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - **feat:** update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856) _(by stdlib-bot)_
 -   [`15204d7`](https://github.com/stdlib-js/stdlib/commit/15204d79d9a8dfeb4c520e6948813f29972e0aa2) - **docs:** update namespace table of contents [(#4858)](https://github.com/stdlib-js/stdlib/pull/4858) _(by stdlib-bot)_
 -   [`b3540a8`](https://github.com/stdlib-js/stdlib/commit/b3540a8ffa4c9cd3122e660a68dcbe286330b5e6) - **bench:** refactor random number generation in `stats/base/dists/chi` [(#4853)](https://github.com/stdlib-js/stdlib/pull/4853) _(by Karan Anand)_
