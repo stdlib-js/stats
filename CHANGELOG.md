@@ -7418,6 +7418,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dvariancepn-unreleased">
+
+#### [@stdlib/stats/base/dvariancepn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvariancepn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7feea68`](https://github.com/stdlib-js/stdlib/commit/7feea68e633b9044a8bb6c8b3741f5708395dd97) - add C ndarray interface and refactor implementation for `stats/base/dvariancepn` [(#4688)](https://github.com/stdlib-js/stdlib/pull/4688)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dvariancetk-unreleased">
 
 #### [@stdlib/stats/base/dvariancetk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvariancetk)
@@ -8937,6 +8959,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7feea68`](https://github.com/stdlib-js/stdlib/commit/7feea68e633b9044a8bb6c8b3741f5708395dd97) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvariancepn` [(#4688)](https://github.com/stdlib-js/stdlib/pull/4688) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`66a14d0`](https://github.com/stdlib-js/stdlib/commit/66a14d098c441ecec3909ef07737cf5d698d0456) - **docs:** minor changes in docs of `stats/base/max` [(#5043)](https://github.com/stdlib-js/stdlib/pull/5043) _(by Aayush Khanna)_
 -   [`7793d43`](https://github.com/stdlib-js/stdlib/commit/7793d4347d1e97f221b05522e724dd26ebb96ca7) - **feat:** add support for accessor arrays and refactor `stats/base/max` [(#5008)](https://github.com/stdlib-js/stdlib/pull/5008) _(by Aayush Khanna)_
 -   [`8e0153b`](https://github.com/stdlib-js/stdlib/commit/8e0153bb7bf74e172c9bbfd42b05164682e0d1c4) - **docs:** update docs of `stats/base/*` [(#5031)](https://github.com/stdlib-js/stdlib/pull/5031) _(by Aayush Khanna)_
