@@ -8959,6 +8959,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f8b2615`](https://github.com/stdlib-js/stdlib/commit/f8b26150dbefe969a6de0e228f8651d830b9d9f4) - **docs:** update related packages sections [(#5038)](https://github.com/stdlib-js/stdlib/pull/5038) _(by stdlib-bot)_
 -   [`7feea68`](https://github.com/stdlib-js/stdlib/commit/7feea68e633b9044a8bb6c8b3741f5708395dd97) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvariancepn` [(#4688)](https://github.com/stdlib-js/stdlib/pull/4688) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`66a14d0`](https://github.com/stdlib-js/stdlib/commit/66a14d098c441ecec3909ef07737cf5d698d0456) - **docs:** minor changes in docs of `stats/base/max` [(#5043)](https://github.com/stdlib-js/stdlib/pull/5043) _(by Aayush Khanna)_
 -   [`7793d43`](https://github.com/stdlib-js/stdlib/commit/7793d4347d1e97f221b05522e724dd26ebb96ca7) - **feat:** add support for accessor arrays and refactor `stats/base/max` [(#5008)](https://github.com/stdlib-js/stdlib/pull/5008) _(by Aayush Khanna)_
