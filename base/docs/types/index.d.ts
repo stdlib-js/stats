@@ -2609,7 +2609,7 @@ interface Namespace {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param strideX - stride length
+	* @param stride - stride length
 	* @returns maximum value
 	*
 	* @example
