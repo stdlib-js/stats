@@ -8937,6 +8937,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`66a14d0`](https://github.com/stdlib-js/stdlib/commit/66a14d098c441ecec3909ef07737cf5d698d0456) - **docs:** minor changes in docs of `stats/base/max` [(#5043)](https://github.com/stdlib-js/stdlib/pull/5043) _(by Aayush Khanna)_
 -   [`7793d43`](https://github.com/stdlib-js/stdlib/commit/7793d4347d1e97f221b05522e724dd26ebb96ca7) - **feat:** add support for accessor arrays and refactor `stats/base/max` [(#5008)](https://github.com/stdlib-js/stdlib/pull/5008) _(by Aayush Khanna)_
 -   [`8e0153b`](https://github.com/stdlib-js/stdlib/commit/8e0153bb7bf74e172c9bbfd42b05164682e0d1c4) - **docs:** update docs of `stats/base/*` [(#5031)](https://github.com/stdlib-js/stdlib/pull/5031) _(by Aayush Khanna)_
 -   [`74c5fe1`](https://github.com/stdlib-js/stdlib/commit/74c5fe174a5fb4cd5fdd54abf6697d5e94c1ff87) - **docs:** update examples of `stats/base/dnanmeanwd` to show proper handling of `NaN` elements [(#4994)](https://github.com/stdlib-js/stdlib/pull/4994) _(by Aayush Khanna)_
