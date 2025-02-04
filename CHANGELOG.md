@@ -8959,6 +8959,8 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1a78138`](https://github.com/stdlib-js/stdlib/commit/1a781382d093620088613db16d6873033f251d2e) - **docs:** update namespace TypeScript declarations [(#5049)](https://github.com/stdlib-js/stdlib/pull/5049) _(by stdlib-bot)_
+-   [`ef11834`](https://github.com/stdlib-js/stdlib/commit/ef1183420e6bba80849c12f838aa7eb23c6d7635) - **docs:** update related packages sections [(#5048)](https://github.com/stdlib-js/stdlib/pull/5048) _(by stdlib-bot)_
 -   [`fc72bf5`](https://github.com/stdlib-js/stdlib/commit/fc72bf5eb2e64a360048e746e5e7ba614fea3222) - **docs:** update namespace table of contents [(#5051)](https://github.com/stdlib-js/stdlib/pull/5051) _(by stdlib-bot)_
 -   [`367ec2c`](https://github.com/stdlib-js/stdlib/commit/367ec2c5fe4a11f2e9a450ab4b21ea66db002cc2) - **docs:** update namespace TypeScript declarations [(#5039)](https://github.com/stdlib-js/stdlib/pull/5039) _(by stdlib-bot)_
 -   [`1d6c6cf`](https://github.com/stdlib-js/stdlib/commit/1d6c6cfd0bd793a8cae042416cc8dc10850f992b) - **docs:** update namespace table of contents [(#5041)](https://github.com/stdlib-js/stdlib/pull/5041) _(by stdlib-bot)_
