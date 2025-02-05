@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-04)
+## Unreleased (2025-02-05)
 
 <section class="packages">
 
@@ -7590,6 +7590,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-min-unreleased">
+
+#### [@stdlib/stats/base/min](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/min)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fbb31fb`](https://github.com/stdlib-js/stdlib/commit/fbb31fbaafbbbf233740a41a88a57f4db1cb427b) - add support for accessor arrays and refactor `stats/base/min` [(#5042)](https://github.com/stdlib-js/stdlib/pull/5042)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-scumax-unreleased">
 
 #### [@stdlib/stats/base/scumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumax)
@@ -8959,6 +8981,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fbb31fb`](https://github.com/stdlib-js/stdlib/commit/fbb31fbaafbbbf233740a41a88a57f4db1cb427b) - **feat:** add support for accessor arrays and refactor `stats/base/min` [(#5042)](https://github.com/stdlib-js/stdlib/pull/5042) _(by Aayush Khanna, Athan Reines)_
 -   [`1a78138`](https://github.com/stdlib-js/stdlib/commit/1a781382d093620088613db16d6873033f251d2e) - **docs:** update namespace TypeScript declarations [(#5049)](https://github.com/stdlib-js/stdlib/pull/5049) _(by stdlib-bot)_
 -   [`ef11834`](https://github.com/stdlib-js/stdlib/commit/ef1183420e6bba80849c12f838aa7eb23c6d7635) - **docs:** update related packages sections [(#5048)](https://github.com/stdlib-js/stdlib/pull/5048) _(by stdlib-bot)_
 -   [`fc72bf5`](https://github.com/stdlib-js/stdlib/commit/fc72bf5eb2e64a360048e746e5e7ba614fea3222) - **docs:** update namespace table of contents [(#5051)](https://github.com/stdlib-js/stdlib/pull/5051) _(by stdlib-bot)_
