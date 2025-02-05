@@ -7200,6 +7200,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dsmean-unreleased">
+
+#### [@stdlib/stats/base/dsmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsmean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`aa4e85d`](https://github.com/stdlib-js/stdlib/commit/aa4e85d80af3b9f6e61e4d8962945ad57f8fe156) - add C `ndarray` interface and refactor implementation for `stats/base/dsmean` [(#4300)](https://github.com/stdlib-js/stdlib/pull/4300)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dsmeanors-unreleased">
 
 #### [@stdlib/stats/base/dsmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsmeanors)
@@ -8981,6 +9003,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`aa4e85d`](https://github.com/stdlib-js/stdlib/commit/aa4e85d80af3b9f6e61e4d8962945ad57f8fe156) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsmean` [(#4300)](https://github.com/stdlib-js/stdlib/pull/4300) _(by Neeraj Pathak, Athan Reines, stdlib-bot)_
 -   [`93c884d`](https://github.com/stdlib-js/stdlib/commit/93c884d677c3c79c24a451a0f1badf45d8b6ee16) - **bench:** update `NaN` generation in `stats/base/*` [(#5044)](https://github.com/stdlib-js/stdlib/pull/5044) _(by Aayush Khanna)_
 -   [`fbb31fb`](https://github.com/stdlib-js/stdlib/commit/fbb31fbaafbbbf233740a41a88a57f4db1cb427b) - **feat:** add support for accessor arrays and refactor `stats/base/min` [(#5042)](https://github.com/stdlib-js/stdlib/pull/5042) _(by Aayush Khanna, Athan Reines)_
 -   [`1a78138`](https://github.com/stdlib-js/stdlib/commit/1a781382d093620088613db16d6873033f251d2e) - **docs:** update namespace TypeScript declarations [(#5049)](https://github.com/stdlib-js/stdlib/pull/5049) _(by stdlib-bot)_
