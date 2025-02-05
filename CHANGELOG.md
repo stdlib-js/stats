@@ -9105,6 +9105,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d77378e`](https://github.com/stdlib-js/stdlib/commit/d77378e620ed84e270e9f1b4b416f42a32965342) - **test:** add tests to achieve 100% code coverage in `stats/base/max` [(#5067)](https://github.com/stdlib-js/stdlib/pull/5067) _(by Aayush Khanna)_
 -   [`ae4d64e`](https://github.com/stdlib-js/stdlib/commit/ae4d64e5c3704709480e9daf7bc560163df24794) - **feat:** add C implementation for `stats/base/dists/bernoulli/skewness` [(#3458)](https://github.com/stdlib-js/stdlib/pull/3458) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
 -   [`6958670`](https://github.com/stdlib-js/stdlib/commit/695867014377f940a6ba5713ceaab4519d367bb3) - **feat:** add C implementation for `stats/base/dists/betaprime/mean` [(#4064)](https://github.com/stdlib-js/stdlib/pull/4064) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
 -   [`7a1ab74`](https://github.com/stdlib-js/stdlib/commit/7a1ab74ab292080a1479851e0986a781c7a88c1a) - **feat:** add C implementation for `stats/base/dists/betaprime/mode` [(#4065)](https://github.com/stdlib-js/stdlib/pull/4065) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
