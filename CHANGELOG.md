@@ -8981,6 +8981,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`93c884d`](https://github.com/stdlib-js/stdlib/commit/93c884d677c3c79c24a451a0f1badf45d8b6ee16) - **bench:** update `NaN` generation in `stats/base/*` [(#5044)](https://github.com/stdlib-js/stdlib/pull/5044) _(by Aayush Khanna)_
 -   [`fbb31fb`](https://github.com/stdlib-js/stdlib/commit/fbb31fbaafbbbf233740a41a88a57f4db1cb427b) - **feat:** add support for accessor arrays and refactor `stats/base/min` [(#5042)](https://github.com/stdlib-js/stdlib/pull/5042) _(by Aayush Khanna, Athan Reines)_
 -   [`1a78138`](https://github.com/stdlib-js/stdlib/commit/1a781382d093620088613db16d6873033f251d2e) - **docs:** update namespace TypeScript declarations [(#5049)](https://github.com/stdlib-js/stdlib/pull/5049) _(by stdlib-bot)_
 -   [`ef11834`](https://github.com/stdlib-js/stdlib/commit/ef1183420e6bba80849c12f838aa7eb23c6d7635) - **docs:** update related packages sections [(#5048)](https://github.com/stdlib-js/stdlib/pull/5048) _(by stdlib-bot)_
