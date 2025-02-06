@@ -9105,6 +9105,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`863aff4`](https://github.com/stdlib-js/stdlib/commit/863aff4395873326435f4226f5574d87f0ec3ea3) - **docs:** update namespace TypeScript declarations [(#5075)](https://github.com/stdlib-js/stdlib/pull/5075) _(by stdlib-bot)_
 -   [`b84f4b8`](https://github.com/stdlib-js/stdlib/commit/b84f4b8df0fe84c952dea206df64a78eaa68f295) - **docs:** update namespace table of contents [(#5077)](https://github.com/stdlib-js/stdlib/pull/5077) _(by stdlib-bot)_
 -   [`d77378e`](https://github.com/stdlib-js/stdlib/commit/d77378e620ed84e270e9f1b4b416f42a32965342) - **test:** add tests to achieve 100% code coverage in `stats/base/max` [(#5067)](https://github.com/stdlib-js/stdlib/pull/5067) _(by Aayush Khanna)_
 -   [`ae4d64e`](https://github.com/stdlib-js/stdlib/commit/ae4d64e5c3704709480e9daf7bc560163df24794) - **feat:** add C implementation for `stats/base/dists/bernoulli/skewness` [(#3458)](https://github.com/stdlib-js/stdlib/pull/3458) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
