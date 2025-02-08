@@ -9790,6 +9790,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6335415`](https://github.com/stdlib-js/stdlib/commit/633541558ed3c1707e9aaa7874ab76043ff329af) - **bench:** refactor random number generation in `stats/base/dists/f` [(#4921)](https://github.com/stdlib-js/stdlib/pull/4921) _(by Karan Anand, stdlib-bot)_
 -   [`1c89f82`](https://github.com/stdlib-js/stdlib/commit/1c89f82f023e323d550674fbb4d6de49a494a8ce) - **feat:** add support for accessor arrays and refactor `stats/base/maxabs` [(#5084)](https://github.com/stdlib-js/stdlib/pull/5084) _(by Aayush Khanna)_
 -   [`aacf454`](https://github.com/stdlib-js/stdlib/commit/aacf454758f5ca9f5f7a88fff79ddeb006bdf1e6) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsnanmeanwd` [(#4496)](https://github.com/stdlib-js/stdlib/pull/4496) _(by Neeraj Pathak, stdlib-bot)_
 -   [`fb1293d`](https://github.com/stdlib-js/stdlib/commit/fb1293db0abcb163753f094df7e8576d3e8051d8) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sdsmean` [(#4890)](https://github.com/stdlib-js/stdlib/pull/4890) _(by Prashant Kumar Yadav)_
