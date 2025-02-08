@@ -8472,6 +8472,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-sdsmean-unreleased">
+
+#### [@stdlib/stats/base/sdsmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sdsmean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fb1293d`](https://github.com/stdlib-js/stdlib/commit/fb1293db0abcb163753f094df7e8576d3e8051d8) - add C ndarray interface and refactor implementation for `stats/base/sdsmean` [(#4890)](https://github.com/stdlib-js/stdlib/pull/4890)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-sdsmeanors-unreleased">
 
 #### [@stdlib/stats/base/sdsmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/sdsmeanors)
@@ -9724,6 +9746,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fb1293d`](https://github.com/stdlib-js/stdlib/commit/fb1293db0abcb163753f094df7e8576d3e8051d8) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sdsmean` [(#4890)](https://github.com/stdlib-js/stdlib/pull/4890) _(by Prashant Kumar Yadav)_
 -   [`ddf7d46`](https://github.com/stdlib-js/stdlib/commit/ddf7d466d98d325a74f5182cdd6bceea602c78be) - **feat:** add support for accessor arrays and refactor `stats/base/minabs` [(#5085)](https://github.com/stdlib-js/stdlib/pull/5085) _(by Aayush Khanna)_
 -   [`0258691`](https://github.com/stdlib-js/stdlib/commit/0258691625414f4a12a7a9c867adae7c9b2b0525) - **chore:** address commit comments for `betaprime/mode` [(#5080)](https://github.com/stdlib-js/stdlib/pull/5080) _(by Saurabh Singh)_
 -   [`f9789d4`](https://github.com/stdlib-js/stdlib/commit/f9789d46cf8f045048c416e7c420f96b1bb45141) - **feat:** add C implementation for `stats/base/dists/degenerate/logcdf` [(#4387)](https://github.com/stdlib-js/stdlib/pull/4387) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
