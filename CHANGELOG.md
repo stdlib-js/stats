@@ -9790,6 +9790,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`bce4dac`](https://github.com/stdlib-js/stdlib/commit/bce4dac63618cd50985d7875d89933c116cd185d) - **bench:** refactor random number generation in `stats/base/dists/geometric` [(#4931)](https://github.com/stdlib-js/stdlib/pull/4931) _(by Karan Anand, stdlib-bot)_
 -   [`105b812`](https://github.com/stdlib-js/stdlib/commit/105b8121cd65f5bb520351b48c945996e1dfb6aa) - **bench:** refactor random number generation in `stats/base/dists/gumbel` [(#4933)](https://github.com/stdlib-js/stdlib/pull/4933) _(by Karan Anand, stdlib-bot)_
 -   [`fa15161`](https://github.com/stdlib-js/stdlib/commit/fa15161761664bbdd2123292d3f1d7cf2d0f0a6d) - **bench:** refactor random number generation in `stats/base/dists/frechet` [(#4922)](https://github.com/stdlib-js/stdlib/pull/4922) _(by Karan Anand, stdlib-bot)_
 -   [`6335415`](https://github.com/stdlib-js/stdlib/commit/633541558ed3c1707e9aaa7874ab76043ff329af) - **bench:** refactor random number generation in `stats/base/dists/f` [(#4921)](https://github.com/stdlib-js/stdlib/pull/4921) _(by Karan Anand, stdlib-bot)_
