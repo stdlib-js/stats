@@ -8006,6 +8006,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dsnanmeanwd-unreleased">
+
+#### [@stdlib/stats/base/dsnanmeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsnanmeanwd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`aacf454`](https://github.com/stdlib-js/stdlib/commit/aacf454758f5ca9f5f7a88fff79ddeb006bdf1e6) - add C `ndarray` interface and refactor implementation for `stats/base/dsnanmeanwd` [(#4496)](https://github.com/stdlib-js/stdlib/pull/4496)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dstdevch-unreleased">
 
 #### [@stdlib/stats/base/dstdevch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevch)
@@ -9746,6 +9768,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`aacf454`](https://github.com/stdlib-js/stdlib/commit/aacf454758f5ca9f5f7a88fff79ddeb006bdf1e6) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsnanmeanwd` [(#4496)](https://github.com/stdlib-js/stdlib/pull/4496) _(by Neeraj Pathak, stdlib-bot)_
 -   [`fb1293d`](https://github.com/stdlib-js/stdlib/commit/fb1293db0abcb163753f094df7e8576d3e8051d8) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sdsmean` [(#4890)](https://github.com/stdlib-js/stdlib/pull/4890) _(by Prashant Kumar Yadav)_
 -   [`ddf7d46`](https://github.com/stdlib-js/stdlib/commit/ddf7d466d98d325a74f5182cdd6bceea602c78be) - **feat:** add support for accessor arrays and refactor `stats/base/minabs` [(#5085)](https://github.com/stdlib-js/stdlib/pull/5085) _(by Aayush Khanna)_
 -   [`0258691`](https://github.com/stdlib-js/stdlib/commit/0258691625414f4a12a7a9c867adae7c9b2b0525) - **chore:** address commit comments for `betaprime/mode` [(#5080)](https://github.com/stdlib-js/stdlib/pull/5080) _(by Saurabh Singh)_
