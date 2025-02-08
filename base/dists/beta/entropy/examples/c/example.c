@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dists/beta/pdf.h"
+#include "stdlib/stats/base/dists/beta/entropy.h"
 #include "stdlib/constants/float64/eps.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -29,15 +29,13 @@ static double random_uniform( const double min, const double max ) {
 int main( void ) {
 	double alpha;
 	double beta;
-	double x;
 	double y;
 	int i;
 
 	for ( i = 0; i < 10; i++ ) {
-		x = random_uniform( 0.0, 1.0 );
-		alpha = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 5.0 );
-		beta = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 5.0 );
-		y = stdlib_base_dists_beta_pdf( x, alpha, beta );
-		printf( "x: %lf, α: %lf, β: %lf, f(x;α,β): %lf\n", x, alpha, beta, y );
+		alpha = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 10.0 );
+		beta = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 10.0 );
+		y = stdlib_base_dists_beta_entropy( alpha, beta );
+		printf( "α: %1f. β: %1f. h(X;α,β): %lf\n", alpha, beta, y );
 	}
 }

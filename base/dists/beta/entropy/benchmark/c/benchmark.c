@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dists/beta/pdf.h"
+#include "stdlib/stats/base/dists/beta/entropy.h"
 #include "stdlib/constants/float64/eps.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -24,7 +24,7 @@
 #include <time.h>
 #include <sys/time.h>
 
-#define NAME "beta-pdf"
+#define NAME "beta-entropy"
 #define ITERATIONS 1000000
 #define REPEATS 3
 
@@ -96,20 +96,18 @@ static double benchmark( void ) {
 	double elapsed;
 	double alpha[ 100 ];
 	double beta[ 100 ];
-	double x[ 100 ];
 	double y;
 	double t;
 	int i;
 
 	for ( i = 0; i < 100; i++ ) {
-		alpha[ i ] = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 100.0 );
-		beta[ i ] = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 100.0 );
-		x[ i ] = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 2.0 );
+		alpha[ i ] = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 10.0 );
+		beta[ i ] = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 10.0 );
 	}
 
 	t = tic();
 	for ( i = 0; i < ITERATIONS; i++ ) {
-		y = stdlib_base_dists_beta_pdf( x[ i % 100 ], alpha[ i % 100 ], beta[ i % 100 ] );
+		y = stdlib_base_dists_beta_entropy( alpha[ i % 100 ], beta[ i % 100 ] );
 		if ( y != y ) {
 			printf( "should not return NaN\n" );
 			break;
