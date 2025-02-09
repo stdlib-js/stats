@@ -9940,6 +9940,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9ae04b5`](https://github.com/stdlib-js/stdlib/commit/9ae04b5c7607e49078a9ad3cdbb27e3addfaebd2) - **docs:** update namespace table of contents [(#5132)](https://github.com/stdlib-js/stdlib/pull/5132) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`8cfbf33`](https://github.com/stdlib-js/stdlib/commit/8cfbf331fbdfee66dfeec11c7e0f3e9829ed79cc) - **feat:** add C implementation for `stats/base/dists/exponential/cdf` [(#4173)](https://github.com/stdlib-js/stdlib/pull/4173) _(by Prashant Kumar Yadav, stdlib-bot, Philipp Burckhardt)_
 -   [`a94091c`](https://github.com/stdlib-js/stdlib/commit/a94091cc3207e821b19129832ffce6bee8bb5fed) - **feat:** add C implementation for `stats/base/dists/exponential/logpdf` [(#4176)](https://github.com/stdlib-js/stdlib/pull/4176) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`0806d8d`](https://github.com/stdlib-js/stdlib/commit/0806d8dd46ea52f7e95c12b1add6b3e01745711b) - **feat:** add C implementation for `stats/base/dists/uniform/kurtosis` [(#4132)](https://github.com/stdlib-js/stdlib/pull/4132) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
