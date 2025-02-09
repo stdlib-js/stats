@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - update namespace TypeScript declarations
 -   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856)
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f) - update namespace TypeScript declarations [(#4843)](https://github.com/stdlib-js/stdlib/pull/4843)
@@ -35,6 +36,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
+
+    -   To migrate, users should access those symbols in the `number/float64/base` namespace.
 
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b): remove `dcuminabs`
 
@@ -9737,6 +9742,10 @@ A total of 3 issues were closed in this release:
 
 ### BREAKING CHANGES
 
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
+
+    -   To migrate, users should access those symbols in the `number/float64/base` namespace.
+
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b): remove `dcuminabs`
 
     -   To migrate, users should access `dcuminabs` in the `stats/strided/*` namespace.
@@ -10042,6 +10051,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - **feat:** update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130) _(by stdlib-bot)_
 -   [`267ba17`](https://github.com/stdlib-js/stdlib/commit/267ba17121461b7cb1e8ddbc963b107319d38ebe) - **feat:** add C implementation for `stats/base/dists/chisquare/kurtosis` [(#4592)](https://github.com/stdlib-js/stdlib/pull/4592) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
 -   [`26f2135`](https://github.com/stdlib-js/stdlib/commit/26f2135d154546c9ba01536c23cedd736cf607fc) - **feat:** add C implementation for `stats/base/dists/chi/entropy` [(#4589)](https://github.com/stdlib-js/stdlib/pull/4589) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
 -   [`d3cf065`](https://github.com/stdlib-js/stdlib/commit/d3cf0651525333600890e7c57d6f5df6466c0eee) - **feat:** add C implementation for `stats/base/dists/arcsine/mean` [(#4369)](https://github.com/stdlib-js/stdlib/pull/4369) _(by Karan Anand, stdlib-bot)_
