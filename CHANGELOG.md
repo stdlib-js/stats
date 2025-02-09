@@ -10095,6 +10095,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b78e8ba`](https://github.com/stdlib-js/stdlib/commit/b78e8ba6bdd1b97192878d9b780260a67a46be4d) - **docs:** update function description in JS benchmarks in `stats/base/*` [(#5135)](https://github.com/stdlib-js/stdlib/pull/5135) _(by Aayush Khanna)_
 -   [`f51730c`](https://github.com/stdlib-js/stdlib/commit/f51730c2f7cf8edf63bfa093efd20fa465fe00cd) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsnanmeanpn` [(#4405)](https://github.com/stdlib-js/stdlib/pull/4405) _(by Neeraj Pathak, Athan Reines)_
 -   [`ea4fd1d`](https://github.com/stdlib-js/stdlib/commit/ea4fd1da2a4d9e17e0e756a38ce56910eaadebb4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmeanors` [(#4248)](https://github.com/stdlib-js/stdlib/pull/4248) _(by Neeraj Pathak, Athan Reines, stdlib-bot)_
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - **feat:** update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130) _(by stdlib-bot)_
