@@ -10095,6 +10095,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d53a818`](https://github.com/stdlib-js/stdlib/commit/d53a8184c029c3df7c45a7a1a2da9ff90b4f883e) - **docs:** fix errors in the structure of READMEs in `stats/base/*` [(#5138)](https://github.com/stdlib-js/stdlib/pull/5138) _(by Aayush Khanna)_
 -   [`b78e8ba`](https://github.com/stdlib-js/stdlib/commit/b78e8ba6bdd1b97192878d9b780260a67a46be4d) - **docs:** update function description in JS benchmarks in `stats/base/*` [(#5135)](https://github.com/stdlib-js/stdlib/pull/5135) _(by Aayush Khanna)_
 -   [`f51730c`](https://github.com/stdlib-js/stdlib/commit/f51730c2f7cf8edf63bfa093efd20fa465fe00cd) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsnanmeanpn` [(#4405)](https://github.com/stdlib-js/stdlib/pull/4405) _(by Neeraj Pathak, Athan Reines)_
 -   [`ea4fd1d`](https://github.com/stdlib-js/stdlib/commit/ea4fd1da2a4d9e17e0e756a38ce56910eaadebb4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmeanors` [(#4248)](https://github.com/stdlib-js/stdlib/pull/4248) _(by Neeraj Pathak, Athan Reines, stdlib-bot)_
