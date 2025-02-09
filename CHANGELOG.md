@@ -10095,6 +10095,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c7860af`](https://github.com/stdlib-js/stdlib/commit/c7860af1896d84360294b65f3e37982ca631c435) - **bench:** refactor random number generation in `stats/base/dists/gamma` [(#4929)](https://github.com/stdlib-js/stdlib/pull/4929) _(by Karan Anand)_
 -   [`bd61ef0`](https://github.com/stdlib-js/stdlib/commit/bd61ef01645b4128484f9a87532724fdba990c03) - **bench:** address commit comments [(#5137)](https://github.com/stdlib-js/stdlib/pull/5137) _(by pranav-1720)_
 -   [`d53a818`](https://github.com/stdlib-js/stdlib/commit/d53a8184c029c3df7c45a7a1a2da9ff90b4f883e) - **docs:** fix errors in the structure of READMEs in `stats/base/*` [(#5138)](https://github.com/stdlib-js/stdlib/pull/5138) _(by Aayush Khanna)_
 -   [`b78e8ba`](https://github.com/stdlib-js/stdlib/commit/b78e8ba6bdd1b97192878d9b780260a67a46be4d) - **docs:** update function description in JS benchmarks in `stats/base/*` [(#5135)](https://github.com/stdlib-js/stdlib/pull/5135) _(by Aayush Khanna)_
