@@ -31,6 +31,7 @@ var mean = require( './../lib' );
 // MAIN //
 
 bench( pkg, function benchmark( b ) {
+	var len;
 	var min;
 	var max;
 	var len;
