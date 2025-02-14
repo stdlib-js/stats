@@ -7723,6 +7723,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dmeanlipw-unreleased">
+
+#### [@stdlib/stats/base/dmeanlipw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanlipw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`954e7c1`](https://github.com/stdlib-js/stdlib/commit/954e7c1e1716bfdd15903b4be7039741396927eb) - add C ndarray interface and refactor implementation for `stats/base/dmeanlipw` [(#4733)](https://github.com/stdlib-js/stdlib/pull/4733)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dmeanors-unreleased">
 
 #### [@stdlib/stats/base/dmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmeanors)
@@ -10414,6 +10436,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`954e7c1`](https://github.com/stdlib-js/stdlib/commit/954e7c1e1716bfdd15903b4be7039741396927eb) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanlipw` [(#4733)](https://github.com/stdlib-js/stdlib/pull/4733) _(by Prashant Kumar Yadav)_
 -   [`6ea60b4`](https://github.com/stdlib-js/stdlib/commit/6ea60b46ac39f35f18255ea92c95b053d03c1819) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dnanmeanpn` [(#4250)](https://github.com/stdlib-js/stdlib/pull/4250) _(by Neeraj Pathak, Aayush Khanna)_
 -   [`f70e622`](https://github.com/stdlib-js/stdlib/commit/f70e6223dfc766d41092bc0039379c94f3b34681) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsnanmeanors` [(#4397)](https://github.com/stdlib-js/stdlib/pull/4397) _(by Neeraj Pathak, Aayush Khanna)_
 -   [`25a369b`](https://github.com/stdlib-js/stdlib/commit/25a369b09bd828db38dc962afdb23b3c88fb8188) - **bench:** refactor number generation [(#5212)](https://github.com/stdlib-js/stdlib/pull/5212) _(by Harsh, Philipp Burckhardt)_
