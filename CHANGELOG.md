@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-14)
+## Unreleased (2025-02-15)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`5dde14b`](https://github.com/stdlib-js/stdlib/commit/5dde14b31ea6a661b88b7ba637e0e7a2fce272a4) - update namespace TypeScript declarations [(#5182)](https://github.com/stdlib-js/stdlib/pull/5182)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - update namespace TypeScript declarations
 -   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856)
@@ -10436,6 +10437,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5dde14b`](https://github.com/stdlib-js/stdlib/commit/5dde14b31ea6a661b88b7ba637e0e7a2fce272a4) - **feat:** update namespace TypeScript declarations [(#5182)](https://github.com/stdlib-js/stdlib/pull/5182) _(by stdlib-bot)_
 -   [`954e7c1`](https://github.com/stdlib-js/stdlib/commit/954e7c1e1716bfdd15903b4be7039741396927eb) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanlipw` [(#4733)](https://github.com/stdlib-js/stdlib/pull/4733) _(by Prashant Kumar Yadav)_
 -   [`6ea60b4`](https://github.com/stdlib-js/stdlib/commit/6ea60b46ac39f35f18255ea92c95b053d03c1819) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dnanmeanpn` [(#4250)](https://github.com/stdlib-js/stdlib/pull/4250) _(by Neeraj Pathak, Aayush Khanna)_
 -   [`f70e622`](https://github.com/stdlib-js/stdlib/commit/f70e6223dfc766d41092bc0039379c94f3b34681) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsnanmeanors` [(#4397)](https://github.com/stdlib-js/stdlib/pull/4397) _(by Neeraj Pathak, Aayush Khanna)_
