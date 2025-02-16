@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var dmaxabs = require( '@stdlib/stats/base/dmaxabs' );
+var dmaxabs = require( '@stdlib/stats/strided/dmaxabs' );
 ```
 
 #### dmaxabs( N, x, strideX )
@@ -130,7 +130,7 @@ var v = dmaxabs.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dmaxabs = require( '@stdlib/stats/base/dmaxabs' );
+var dmaxabs = require( '@stdlib/stats/strided/dmaxabs' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
@@ -168,7 +168,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dmaxabs.h"
+#include "stdlib/stats/strided/dmaxabs.h"
 ```
 
 #### stdlib_strided_dmaxabs( N, \*X, strideX )
@@ -233,7 +233,7 @@ double stdlib_strided_dmaxabs_ndarray( const CBLAS_INT N, const double *X, const
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dmaxabs.h"
+#include "stdlib/stats/strided/dmaxabs.h"
 #include <stdio.h>
 
 int main( void ) {

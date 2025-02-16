@@ -91,15 +91,6 @@ setReadOnly( ns, 'dcumin', require( './../../base/dcumin' ) );
 setReadOnly( ns, 'dists', require( './../../base/dists' ) );
 
 /**
-* @name dmaxabs
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dmaxabs}
-*/
-setReadOnly( ns, 'dmaxabs', require( './../../base/dmaxabs' ) );
-
-/**
 * @name dmaxabssorted
 * @memberof ns
 * @readonly
