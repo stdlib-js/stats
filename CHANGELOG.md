@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-15)
+## Unreleased (2025-02-16)
 
 <section class="packages">
 
@@ -10596,6 +10596,7 @@ A total of 27 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a9d99f1`](https://github.com/stdlib-js/stdlib/commit/a9d99f13aea6a606023bb7d6838920e0e930d073) - **docs:** update related packages sections [(#5207)](https://github.com/stdlib-js/stdlib/pull/5207) _(by stdlib-bot)_
 -   [`44c266e`](https://github.com/stdlib-js/stdlib/commit/44c266e652cd19adda9b92db83843d5dcb3aa3e8) - **feat:** add C implementation for `stats/base/dists/exponential/entropy` [(#4177)](https://github.com/stdlib-js/stdlib/pull/4177) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`fb90f93`](https://github.com/stdlib-js/stdlib/commit/fb90f93faa07ef30d622a721192453e9acdc1087) - **feat:** add C implementation for `stats/base/dists/planck/median` [(#4938)](https://github.com/stdlib-js/stdlib/pull/4938) _(by yuvi-mittal, Philipp Burckhardt, stdlib-bot)_
 -   [`120e678`](https://github.com/stdlib-js/stdlib/commit/120e678549e87a742a33ef2d3574c88ab0f95b26) - **feat:** add C implementation for `stats/base/dists/planck/stdev` [(#4913)](https://github.com/stdlib-js/stdlib/pull/4913) _(by yuvi-mittal, Philipp Burckhardt)_
