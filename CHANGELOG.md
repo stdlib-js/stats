@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-16)
+## Unreleased (2025-02-17)
 
 <section class="packages">
 
@@ -10917,6 +10917,7 @@ A total of 27 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8df3643`](https://github.com/stdlib-js/stdlib/commit/8df36439153e0c5f399c01b755213be55b2a696c) - **docs:** update namespace table of contents [(#5256)](https://github.com/stdlib-js/stdlib/pull/5256) _(by stdlib-bot)_
 -   [`ebe88f3`](https://github.com/stdlib-js/stdlib/commit/ebe88f3d87f2e3f0dc9e070bd59e7b9068e483dd) - **chore:** fix C lint errors [(#5206)](https://github.com/stdlib-js/stdlib/pull/5206) _(by GK Bishnoi)_
 -   [`d465523`](https://github.com/stdlib-js/stdlib/commit/d465523f1465201c42ca8491ecf14c6bde261031) - **feat:** add C implementation for `stats/base/dists/binomial/kurtosis` [(#4411)](https://github.com/stdlib-js/stdlib/pull/4411) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`39f6970`](https://github.com/stdlib-js/stdlib/commit/39f69705826500421b402f732d6a16e204f54dca) - **bench:** refactor random number generation in `stats/base/dists/negative-binomial` [(#5193)](https://github.com/stdlib-js/stdlib/pull/5193) _(by GK Bishnoi)_
