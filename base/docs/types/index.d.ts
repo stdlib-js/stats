@@ -26,7 +26,6 @@ import cumin = require( './../../../base/cumin' );
 import cuminabs = require( './../../../base/cuminabs' );
 import dcumin = require( './../../../base/dcumin' );
 import dists = require( './../../../base/dists' );
-import dmaxabs = require( './../../../strided/dmaxabs' );
 import dmaxabssorted = require( './../../../base/dmaxabssorted' );
 import dmaxsorted = require( './../../../base/dmaxsorted' );
 import dmean = require( './../../../base/dmean' );
@@ -377,32 +376,6 @@ interface Namespace {
 	* Base (i.e., lower-level) probability distributions.
 	*/
 	dists: typeof dists;
-
-	/**
-	* Computes the maximum absolute value of a double-precision floating-point strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns maximum absolute value
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmaxabs( x.length, x, 1 );
-	* // returns 2.0
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmaxabs.ndarray( x.length, x, 1, 0 );
-	* // returns 2.0
-	*/
-	dmaxabs: typeof dmaxabs;
 
 	/**
 	* Computes the maximum absolute value of a sorted double-precision floating-point strided array.

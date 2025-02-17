@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254)
 -   [`5dde14b`](https://github.com/stdlib-js/stdlib/commit/5dde14b31ea6a661b88b7ba637e0e7a2fce272a4) - update namespace TypeScript declarations [(#5182)](https://github.com/stdlib-js/stdlib/pull/5182)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - update namespace TypeScript declarations
@@ -37,6 +38,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410): remove `dmaxabs`
+
+    -   To migrate, users should access `dmaxabs` via the `stats/strided` namespace.
 
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
 
@@ -10495,6 +10500,10 @@ A total of 3 issues were closed in this release:
 
 ### BREAKING CHANGES
 
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410): remove `dmaxabs`
+
+    -   To migrate, users should access `dmaxabs` via the `stats/strided` namespace.
+
 -   [`ef0c134`](https://github.com/stdlib-js/stdlib/commit/ef0c134d557fa7364dd80c9eaa40d2df9189f4b1): remove `stats/base/dmaxabs`
 
     -   To migrate, users should update their require/import paths to use
@@ -10917,6 +10926,7 @@ A total of 27 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - **feat:** update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254) _(by stdlib-bot)_
 -   [`8df3643`](https://github.com/stdlib-js/stdlib/commit/8df36439153e0c5f399c01b755213be55b2a696c) - **docs:** update namespace table of contents [(#5256)](https://github.com/stdlib-js/stdlib/pull/5256) _(by stdlib-bot)_
 -   [`ebe88f3`](https://github.com/stdlib-js/stdlib/commit/ebe88f3d87f2e3f0dc9e070bd59e7b9068e483dd) - **chore:** fix C lint errors [(#5206)](https://github.com/stdlib-js/stdlib/pull/5206) _(by GK Bishnoi)_
 -   [`d465523`](https://github.com/stdlib-js/stdlib/commit/d465523f1465201c42ca8491ecf14c6bde261031) - **feat:** add C implementation for `stats/base/dists/binomial/kurtosis` [(#4411)](https://github.com/stdlib-js/stdlib/pull/4411) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
