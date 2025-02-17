@@ -63,7 +63,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`cuminabs( N, x, strideX, y, strideY )`][@stdlib/stats/base/cuminabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum absolute value of a strided array.</span>
 -   <span class="signature">[`dcumin( N, x, strideX, y, strideY )`][@stdlib/stats/base/dcumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of double-precision floating-point strided array elements.</span>
 -   <span class="signature">[`dmaxabssorted( N, x, strideX )`][@stdlib/stats/strided/dmaxabssorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a sorted double-precision floating-point strided array.</span>
--   <span class="signature">[`dmaxsorted( N, x, strideX )`][@stdlib/stats/base/dmaxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted double-precision floating-point strided array.</span>
+-   <span class="signature">[`dmaxsorted( N, x, strideX )`][@stdlib/stats/strided/dmaxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted double-precision floating-point strided array.</span>
 -   <span class="signature">[`dmean( N, x, stride )`][@stdlib/stats/base/dmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dmeankbn( N, x, strideX )`][@stdlib/stats/base/dmeankbn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using an improved Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`dmeankbn2( N, x, strideX )`][@stdlib/stats/base/dmeankbn2]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a second-order iterative Kahan–Babuška algorithm.</span>
@@ -331,7 +331,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/dmaxabssorted]: https://github.com/stdlib-js/stats/tree/main/strided/dmaxabssorted
 
-[@stdlib/stats/base/dmaxsorted]: https://github.com/stdlib-js/stats/tree/main/base/dmaxsorted
+[@stdlib/stats/strided/dmaxsorted]: https://github.com/stdlib-js/stats/tree/main/strided/dmaxsorted
 
 [@stdlib/stats/base/dmean]: https://github.com/stdlib-js/stats/tree/main/base/dmean
 

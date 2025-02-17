@@ -21,11 +21,11 @@
 /**
 * Compute the maximum value of a sorted double-precision floating-point strided array.
 *
-* @module @stdlib/stats/base/dmaxsorted
+* @module @stdlib/stats/strided/dmaxsorted
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmaxsorted = require( '@stdlib/stats/base/dmaxsorted' );
+* var dmaxsorted = require( '@stdlib/stats/strided/dmaxsorted' );
 *
 * var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmaxsorted = require( '@stdlib/stats/base/dmaxsorted' );
+* var dmaxsorted = require( '@stdlib/stats/strided/dmaxsorted' );
 *
 * var x = new Float64Array( [ 2.0, -3.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

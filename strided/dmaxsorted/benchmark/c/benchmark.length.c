@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dmaxsorted.h"
+#include "stdlib/stats/strided/dmaxsorted.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

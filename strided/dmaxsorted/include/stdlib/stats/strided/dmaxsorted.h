@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_STATS_BASE_DMAXSORTED_H
-#define STDLIB_STATS_BASE_DMAXSORTED_H
+#ifndef STDLIB_STATS_STRIDED_DMAXSORTED_H
+#define STDLIB_STATS_STRIDED_DMAXSORTED_H
 
 #include "stdlib/blas/base/shared.h"
 
@@ -42,4 +42,4 @@ double API_SUFFIX(stdlib_strided_dmaxsorted_ndarray)( const CBLAS_INT N, const d
 }
 #endif
 
-#endif // !STDLIB_STATS_BASE_DMAXSORTED_H
+#endif // !STDLIB_STATS_STRIDED_DMAXSORTED_H
