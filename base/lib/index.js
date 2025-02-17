@@ -100,15 +100,6 @@ setReadOnly( ns, 'dists', require( './../../base/dists' ) );
 setReadOnly( ns, 'dmean', require( './../../base/dmean' ) );
 
 /**
-* @name dmeankbn
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dmeankbn}
-*/
-setReadOnly( ns, 'dmeankbn', require( './../../base/dmeankbn' ) );
-
-/**
 * @name dmeankbn2
 * @memberof ns
 * @readonly

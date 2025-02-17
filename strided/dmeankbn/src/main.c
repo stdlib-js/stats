@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dmeankbn.h"
+#include "stdlib/stats/strided/dmeankbn.h"
 #include "stdlib/blas/ext/base/dsumkbn.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/strided/base/stride2offset.h"

@@ -21,11 +21,11 @@
 /**
 * Compute the arithmetic mean of a double-precision floating-point strided array using an improved Kahan–Babuška algorithm.
 *
-* @module @stdlib/stats/base/dmeankbn
+* @module @stdlib/stats/strided/dmeankbn
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmeankbn = require( '@stdlib/stats/base/dmeankbn' );
+* var dmeankbn = require( '@stdlib/stats/strided/dmeankbn' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmeankbn = require( '@stdlib/stats/base/dmeankbn' );
+* var dmeankbn = require( '@stdlib/stats/strided/dmeankbn' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *
