@@ -100,15 +100,6 @@ setReadOnly( ns, 'dists', require( './../../base/dists' ) );
 setReadOnly( ns, 'dmean', require( './../../base/dmean' ) );
 
 /**
-* @name dmeankbn2
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dmeankbn2}
-*/
-setReadOnly( ns, 'dmeankbn2', require( './../../base/dmeankbn2' ) );
-
-/**
 * @name dmeanli
 * @memberof ns
 * @readonly
@@ -1925,6 +1916,15 @@ setReadOnly( ns, 'variancewd', require( './../../base/variancewd' ) );
 * @see {@link module:@stdlib/stats/base/varianceyc}
 */
 setReadOnly( ns, 'varianceyc', require( './../../base/varianceyc' ) );
+
+/**
+* @name dmeankbn2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dmeankbn2}
+*/
+setReadOnly( ns, 'dmeankbn2', require( './../../strided/dmeankbn2' ) );
 
 
 // EXPORTS //
