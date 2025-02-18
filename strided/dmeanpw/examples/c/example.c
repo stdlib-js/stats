@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dmeanpw.h"
+#include "stdlib/stats/strided/dmeanpw.h"
 #include <stdio.h>
 
 int main( void ) {

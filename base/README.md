@@ -68,7 +68,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dmeanlipw( N, x, strideX )`][@stdlib/stats/strided/dmeanlipw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a one-pass trial mean algorithm with pairwise summation.</span>
 -   <span class="signature">[`dmeanors( N, x, strideX )`][@stdlib/stats/strided/dmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using ordinary recursive summation.</span>
 -   <span class="signature">[`dmeanpn( N, x, stride )`][@stdlib/stats/base/dmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a two-pass error correction algorithm.</span>
--   <span class="signature">[`dmeanpw( N, x, strideX )`][@stdlib/stats/base/dmeanpw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using pairwise summation.</span>
+-   <span class="signature">[`dmeanpw( N, x, strideX )`][@stdlib/stats/strided/dmeanpw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using pairwise summation.</span>
 -   <span class="signature">[`dmeanstdev( N, correction, x, strideX, out, strideOut )`][@stdlib/stats/base/dmeanstdev]</span><span class="delimiter">: </span><span class="description">calculate the mean and standard deviation of a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dmeanstdevpn( N, correction, x, strideX, out, strideOut )`][@stdlib/stats/base/dmeanstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the mean and standard deviation of a double-precision floating-point strided array using a two-pass algorithm.</span>
 -   <span class="signature">[`dmeanvar( N, correction, x, strideX, out, strideOut )`][@stdlib/stats/base/dmeanvar]</span><span class="delimiter">: </span><span class="description">calculate the mean and variance of a double-precision floating-point strided array.</span>
@@ -338,7 +338,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/dmeanpn]: https://github.com/stdlib-js/stats/tree/main/base/dmeanpn
 
-[@stdlib/stats/base/dmeanpw]: https://github.com/stdlib-js/stats/tree/main/base/dmeanpw
+[@stdlib/stats/strided/dmeanpw]: https://github.com/stdlib-js/stats/tree/main/strided/dmeanpw
 
 [@stdlib/stats/base/dmeanstdev]: https://github.com/stdlib-js/stats/tree/main/base/dmeanstdev
 

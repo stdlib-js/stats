@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dmeanpw",
+  "name": "@stdlib/stats/strided/dmeanpw",
   "version": "0.0.0",
   "description": "Calculate the arithmetic mean of a double-precision floating-point strided array using pairwise summation.",
   "license": "Apache-2.0",

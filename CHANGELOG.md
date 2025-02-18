@@ -9584,6 +9584,94 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`353ca8c`](https://github.com/stdlib-js/stdlib/commit/353ca8cbb275ec0d0d6181a2d1b7448e9b5a6391): remove `stats/base/dmeanpw`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dmeanpw` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: passed
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: passed
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -12141,6 +12229,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-dmeanpw-unreleased">
+
+#### [@stdlib/stats/strided/dmeanpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dmeanpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`29542d9`](https://github.com/stdlib-js/stdlib/commit/29542d951e981c9c8480700323cf858a9fe11f6c) - add `stats/strided/dmeanpw`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -12148,6 +12258,86 @@ A total of 3 issues were closed in this release:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`353ca8c`](https://github.com/stdlib-js/stdlib/commit/353ca8cbb275ec0d0d6181a2d1b7448e9b5a6391): remove `stats/base/dmeanpw`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dmeanpw` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: passed
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: passed
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
 
 -   [`e41e5bc`](https://github.com/stdlib-js/stdlib/commit/e41e5bce47f9afbd88b1bbdd59d9e6687fb8441b): remove `stats/base/dmeanors`
 
@@ -13140,6 +13330,9 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`353ca8c`](https://github.com/stdlib-js/stdlib/commit/353ca8cbb275ec0d0d6181a2d1b7448e9b5a6391) - **remove:** remove `stats/base/dmeanpw` _(by Aayush Khanna)_
+-   [`5a7aa5f`](https://github.com/stdlib-js/stdlib/commit/5a7aa5f8ce1bc39cb8bf450454e4faddeae5a245) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`29542d9`](https://github.com/stdlib-js/stdlib/commit/29542d951e981c9c8480700323cf858a9fe11f6c) - **feat:** add `stats/strided/dmeanpw` _(by Aayush Khanna)_
 -   [`e41e5bc`](https://github.com/stdlib-js/stdlib/commit/e41e5bce47f9afbd88b1bbdd59d9e6687fb8441b) - **remove:** remove `stats/base/dmeanors` _(by Aayush Khanna)_
 -   [`50435ee`](https://github.com/stdlib-js/stdlib/commit/50435ee02e6c25a2b7d65702056e9d4e83a37337) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`6020811`](https://github.com/stdlib-js/stdlib/commit/6020811ee75d8cf5ffde49ce4781bb6012cecad0) - **feat:** add `stats/strided/dmeanors` _(by Aayush Khanna)_
