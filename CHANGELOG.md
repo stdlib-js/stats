@@ -78,6 +78,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-cumax-unreleased">
+
+#### [@stdlib/stats/base/cumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/cumax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`11f1341`](https://github.com/stdlib-js/stdlib/commit/11f1341134c5d6c7c0ecd82c99dff766e08e731a) - add support for accessor arrays and refactor `stats/base/cumax`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dcumax-unreleased">
 
 #### [@stdlib/stats/base/dcumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dcumax)
@@ -12358,6 +12380,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`11f1341`](https://github.com/stdlib-js/stdlib/commit/11f1341134c5d6c7c0ecd82c99dff766e08e731a) - **feat:** add support for accessor arrays and refactor `stats/base/cumax` _(by Vivek Maurya, stdlib-bot)_
 -   [`cfada54`](https://github.com/stdlib-js/stdlib/commit/cfada54a59fd74da628a2c918325a59debd25d3d) - **feat:** update namespace TypeScript declarations [(#5277)](https://github.com/stdlib-js/stdlib/pull/5277) _(by stdlib-bot)_
 -   [`a437539`](https://github.com/stdlib-js/stdlib/commit/a437539905254dcb01dff5011322c432f44f02bd) - **docs:** update namespace table of contents [(#5279)](https://github.com/stdlib-js/stdlib/pull/5279) _(by stdlib-bot)_
 -   [`0d255bc`](https://github.com/stdlib-js/stdlib/commit/0d255bc39e0a122554fbc972be6c0973abb2c48a) - **bench:** refactor random number generation in JS benchmarks for `stats/base/dists/logistic` [(#5139)](https://github.com/stdlib-js/stdlib/pull/5139) _(by GK Bishnoi, Gopi Kishan)_
