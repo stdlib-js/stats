@@ -21,11 +21,11 @@
 /**
 * Compute the arithmetic mean of a double-precision floating-point strided array using ordinary recursive summation.
 *
-* @module @stdlib/stats/base/dmeanors
+* @module @stdlib/stats/strided/dmeanors
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmeanors = require( '@stdlib/stats/base/dmeanors' );
+* var dmeanors = require( '@stdlib/stats/strided/dmeanors' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmeanors = require( '@stdlib/stats/base/dmeanors' );
+* var dmeanors = require( '@stdlib/stats/strided/dmeanors' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

@@ -33,7 +33,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:arithmetic_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@31813f0075e020c41f607780a0a8646db7d050fc/lib/node_modules/@stdlib/stats/base/dmeanors/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@31813f0075e020c41f607780a0a8646db7d050fc/lib/node_modules/@stdlib/stats/strided/dmeanors/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-var dmeanors = require( '@stdlib/stats/base/dmeanors' );
+var dmeanors = require( '@stdlib/stats/strided/dmeanors' );
 ```
 
 #### dmeanors( N, x, strideX )
@@ -146,7 +146,7 @@ var v = dmeanors.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dmeanors = require( '@stdlib/stats/base/dmeanors' );
+var dmeanors = require( '@stdlib/stats/strided/dmeanors' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
@@ -184,7 +184,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dmeanors.h"
+#include "stdlib/stats/strided/dmeanors.h"
 ```
 
 #### stdlib_strided_dmeanors( N, \*X, strideX )
@@ -249,7 +249,7 @@ double stdlib_strided_dmeanors_ndarray( const CBLAS_INT N, const double *X, cons
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dmeanors.h"
+#include "stdlib/stats/strided/dmeanors.h"
 #include <stdio.h>
 
 int main( void ) {

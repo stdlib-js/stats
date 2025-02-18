@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dmeanors.h"
+#include "stdlib/stats/strided/dmeanors.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
