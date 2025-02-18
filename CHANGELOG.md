@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`cfada54`](https://github.com/stdlib-js/stdlib/commit/cfada54a59fd74da628a2c918325a59debd25d3d) - update namespace TypeScript declarations [(#5277)](https://github.com/stdlib-js/stdlib/pull/5277)
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254)
 -   [`5dde14b`](https://github.com/stdlib-js/stdlib/commit/5dde14b31ea6a661b88b7ba637e0e7a2fce272a4) - update namespace TypeScript declarations [(#5182)](https://github.com/stdlib-js/stdlib/pull/5182)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
@@ -38,6 +39,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`cfada54`](https://github.com/stdlib-js/stdlib/commit/cfada54a59fd74da628a2c918325a59debd25d3d): remove `dmaxsorted`, `dmaxabssorted`, and `dmeankbn`
+
+    -   To migrate, users should access the removed symbols via the `stats/strided` namespace.
 
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410): remove `dmaxabs`
 
@@ -11682,6 +11687,10 @@ A total of 3 issues were closed in this release:
 
 ### BREAKING CHANGES
 
+-   [`cfada54`](https://github.com/stdlib-js/stdlib/commit/cfada54a59fd74da628a2c918325a59debd25d3d): remove `dmaxsorted`, `dmaxabssorted`, and `dmeankbn`
+
+    -   To migrate, users should access the removed symbols via the `stats/strided` namespace.
+
 -   [`cb07fb5`](https://github.com/stdlib-js/stdlib/commit/cb07fb51b4cd8267c9219d098bc9e9a7a35525aa): remove `stats/base/dmeankbn`
 
     -   To migrate, users should update their require/import paths to use
@@ -12349,6 +12358,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`cfada54`](https://github.com/stdlib-js/stdlib/commit/cfada54a59fd74da628a2c918325a59debd25d3d) - **feat:** update namespace TypeScript declarations [(#5277)](https://github.com/stdlib-js/stdlib/pull/5277) _(by stdlib-bot)_
 -   [`a437539`](https://github.com/stdlib-js/stdlib/commit/a437539905254dcb01dff5011322c432f44f02bd) - **docs:** update namespace table of contents [(#5279)](https://github.com/stdlib-js/stdlib/pull/5279) _(by stdlib-bot)_
 -   [`0d255bc`](https://github.com/stdlib-js/stdlib/commit/0d255bc39e0a122554fbc972be6c0973abb2c48a) - **bench:** refactor random number generation in JS benchmarks for `stats/base/dists/logistic` [(#5139)](https://github.com/stdlib-js/stdlib/pull/5139) _(by GK Bishnoi, Gopi Kishan)_
 -   [`9b455b1`](https://github.com/stdlib-js/stdlib/commit/9b455b15cb301af9ecc7eff8960e223a3a7d1b24) - **feat:** add C implementation for `stats/base/dists/binomial/median` [(#3950)](https://github.com/stdlib-js/stdlib/pull/3950) _(by Prashant Kumar Yadav, Philipp Burckhardt)_

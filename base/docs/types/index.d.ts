@@ -26,10 +26,7 @@ import cumin = require( './../../../base/cumin' );
 import cuminabs = require( './../../../base/cuminabs' );
 import dcumin = require( './../../../base/dcumin' );
 import dists = require( './../../../base/dists' );
-import dmaxabssorted = require( './../../../strided/dmaxabssorted' );
-import dmaxsorted = require( './../../../strided/dmaxsorted' );
 import dmean = require( './../../../base/dmean' );
-import dmeankbn = require( './../../../strided/dmeankbn' );
 import dmeankbn2 = require( './../../../base/dmeankbn2' );
 import dmeanli = require( './../../../base/dmeanli' );
 import dmeanlipw = require( './../../../base/dmeanlipw' );
@@ -378,58 +375,6 @@ interface Namespace {
 	dists: typeof dists;
 
 	/**
-	* Computes the maximum absolute value of a sorted double-precision floating-point strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - sorted input array
-	* @param strideX - stride length
-	* @returns maximum absolute value
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ -1.0, -2.0, -3.0 ] );
-	*
-	* var v = ns.dmaxabssorted( x.length, x, 1 );
-	* // returns 3.0
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ -1.0, -2.0, -3.0 ] );
-	*
-	* var v = ns.dmaxabssorted.ndarray( x.length, x, 1, 0 );
-	* // returns 3.0
-	*/
-	dmaxabssorted: typeof dmaxabssorted;
-
-	/**
-	* Computes the maximum value of a sorted double-precision floating-point strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - sorted input array
-	* @param strideX - stride length
-	* @returns maximum value
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
-	*
-	* var v = ns.dmaxsorted( x.length, x, 1 );
-	* // returns 3.0
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
-	*
-	* var v = ns.dmaxsorted.ndarray( x.length, x, 1, 0 );
-	* // returns 3.0
-	*/
-	dmaxsorted: typeof dmaxsorted;
-
-	/**
 	* Computes the arithmetic mean of a double-precision floating-point strided array.
 	*
 	* @param N - number of indexed elements
@@ -454,32 +399,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	dmean: typeof dmean;
-
-	/**
-	* Computes the arithmetic mean of a double-precision floating-point strided array using an improved Kahan–Babuška algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmeankbn( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmeankbn.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	dmeankbn: typeof dmeankbn;
 
 	/**
 	* Computes the arithmetic mean of a double-precision floating-point strided array using a second-order iterative Kahan–Babuška algorithm.
