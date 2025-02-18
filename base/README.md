@@ -64,7 +64,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dcumin( N, x, strideX, y, strideY )`][@stdlib/stats/base/dcumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of double-precision floating-point strided array elements.</span>
 -   <span class="signature">[`dmean( N, x, stride )`][@stdlib/stats/base/dmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dmeankbn2( N, x, strideX )`][@stdlib/stats/strided/dmeankbn2]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a second-order iterative Kahan–Babuška algorithm.</span>
--   <span class="signature">[`dmeanli( N, x, strideX )`][@stdlib/stats/base/dmeanli]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
+-   <span class="signature">[`dmeanli( N, x, strideX )`][@stdlib/stats/strided/dmeanli]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
 -   <span class="signature">[`dmeanlipw( N, x, strideX )`][@stdlib/stats/base/dmeanlipw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a one-pass trial mean algorithm with pairwise summation.</span>
 -   <span class="signature">[`dmeanors( N, x, strideX )`][@stdlib/stats/base/dmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using ordinary recursive summation.</span>
 -   <span class="signature">[`dmeanpn( N, x, stride )`][@stdlib/stats/base/dmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a two-pass error correction algorithm.</span>
@@ -330,7 +330,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/dmeankbn2]: https://github.com/stdlib-js/stats/tree/main/strided/dmeankbn2
 
-[@stdlib/stats/base/dmeanli]: https://github.com/stdlib-js/stats/tree/main/base/dmeanli
+[@stdlib/stats/strided/dmeanli]: https://github.com/stdlib-js/stats/tree/main/strided/dmeanli
 
 [@stdlib/stats/base/dmeanlipw]: https://github.com/stdlib-js/stats/tree/main/base/dmeanlipw
 

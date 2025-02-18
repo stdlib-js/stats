@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dmeanli.h"
+#include "stdlib/stats/strided/dmeanli.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/napi/export.h"
 #include "stdlib/napi/argv.h"
