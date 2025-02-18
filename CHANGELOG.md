@@ -12349,6 +12349,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a437539`](https://github.com/stdlib-js/stdlib/commit/a437539905254dcb01dff5011322c432f44f02bd) - **docs:** update namespace table of contents [(#5279)](https://github.com/stdlib-js/stdlib/pull/5279) _(by stdlib-bot)_
 -   [`0d255bc`](https://github.com/stdlib-js/stdlib/commit/0d255bc39e0a122554fbc972be6c0973abb2c48a) - **bench:** refactor random number generation in JS benchmarks for `stats/base/dists/logistic` [(#5139)](https://github.com/stdlib-js/stdlib/pull/5139) _(by GK Bishnoi, Gopi Kishan)_
 -   [`9b455b1`](https://github.com/stdlib-js/stdlib/commit/9b455b15cb301af9ecc7eff8960e223a3a7d1b24) - **feat:** add C implementation for `stats/base/dists/binomial/median` [(#3950)](https://github.com/stdlib-js/stdlib/pull/3950) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`d9c5d0c`](https://github.com/stdlib-js/stdlib/commit/d9c5d0c3343a0d0354d90d57f39638183bf3f51d) - **feat:** add C implementation for `stats/base/dists/uniform/stdev` [(#4133)](https://github.com/stdlib-js/stdlib/pull/4133) _(by Prashant Kumar Yadav, stdlib-bot)_
