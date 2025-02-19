@@ -27,12 +27,7 @@ import cuminabs = require( './../../../base/cuminabs' );
 import dcumin = require( './../../../base/dcumin' );
 import dists = require( './../../../base/dists' );
 import dmean = require( './../../../base/dmean' );
-import dmeankbn2 = require( './../../../strided/dmeankbn2' );
-import dmeanli = require( './../../../strided/dmeanli' );
-import dmeanlipw = require( './../../../strided/dmeanlipw' );
-import dmeanors = require( './../../../strided/dmeanors' );
 import dmeanpn = require( './../../../base/dmeanpn' );
-import dmeanpw = require( './../../../strided/dmeanpw' );
 import dmeanstdev = require( './../../../base/dmeanstdev' );
 import dmeanstdevpn = require( './../../../base/dmeanstdevpn' );
 import dmeanvar = require( './../../../base/dmeanvar' );
@@ -230,6 +225,11 @@ import variancepn = require( './../../../base/variancepn' );
 import variancetk = require( './../../../base/variancetk' );
 import variancewd = require( './../../../base/variancewd' );
 import varianceyc = require( './../../../base/varianceyc' );
+import dmeankbn2 = require( './../../../strided/dmeankbn2' );
+import dmeanli = require( './../../../strided/dmeanli' );
+import dmeanlipw = require( './../../../strided/dmeanlipw' );
+import dmeanors = require( './../../../strided/dmeanors' );
+import dmeanpw = require( './../../../strided/dmeanpw' );
 
 /**
 * Interface describing the `base` namespace.
@@ -240,9 +240,9 @@ interface Namespace {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param strideX - `x` stride length
+	* @param strideX - stride length for `x`
 	* @param y - output array
-	* @param strideY - `y` stride length
+	* @param strideY - stride length for `y`
 	* @returns output array
 	*
 	* @example
@@ -401,110 +401,6 @@ interface Namespace {
 	dmean: typeof dmean;
 
 	/**
-	* Computes the arithmetic mean of a double-precision floating-point strided array using a second-order iterative Kahan–Babuška algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmeankbn2( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmeankbn2.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	dmeankbn2: typeof dmeankbn2;
-
-	/**
-	* Computes the arithmetic mean of a double-precision floating-point strided array using a one-pass trial mean algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmeanli( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmeanli.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	dmeanli: typeof dmeanli;
-
-	/**
-	* Computes the arithmetic mean of a double-precision floating-point strided array using a one-pass trial mean algorithm with pairwise summation.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmeanlipw( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmeanlipw.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	dmeanlipw: typeof dmeanlipw;
-
-	/**
-	* Computes the arithmetic mean of a double-precision floating-point strided array using ordinary recursive summation.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmeanors( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmeanors.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	dmeanors: typeof dmeanors;
-
-	/**
 	* Computes the arithmetic mean of a double-precision floating-point strided array using a two-pass error correction algorithm.
 	*
 	* @param N - number of indexed elements
@@ -529,32 +425,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	dmeanpn: typeof dmeanpn;
-
-	/**
-	* Computes the arithmetic mean of a double-precision floating-point strided array using pairwise summation.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmeanpw( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmeanpw.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	dmeanpw: typeof dmeanpw;
 
 	/**
 	* Computes the mean and standard deviation of a double-precision floating-point strided array.
@@ -5793,6 +5663,136 @@ interface Namespace {
 	* // returns ~4.3333
 	*/
 	varianceyc: typeof varianceyc;
+
+	/**
+	* Computes the arithmetic mean of a double-precision floating-point strided array using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dmeankbn2( x.length, x, 1 );
+	* // returns ~0.3333
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dmeankbn2.ndarray( x.length, x, 1, 0 );
+	* // returns ~0.3333
+	*/
+	dmeankbn2: typeof dmeankbn2;
+
+	/**
+	* Computes the arithmetic mean of a double-precision floating-point strided array using a one-pass trial mean algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dmeanli( x.length, x, 1 );
+	* // returns ~0.3333
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dmeanli.ndarray( x.length, x, 1, 0 );
+	* // returns ~0.3333
+	*/
+	dmeanli: typeof dmeanli;
+
+	/**
+	* Computes the arithmetic mean of a double-precision floating-point strided array using a one-pass trial mean algorithm with pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dmeanlipw( x.length, x, 1 );
+	* // returns ~0.3333
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dmeanlipw.ndarray( x.length, x, 1, 0 );
+	* // returns ~0.3333
+	*/
+	dmeanlipw: typeof dmeanlipw;
+
+	/**
+	* Computes the arithmetic mean of a double-precision floating-point strided array using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dmeanors( x.length, x, 1 );
+	* // returns ~0.3333
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dmeanors.ndarray( x.length, x, 1, 0 );
+	* // returns ~0.3333
+	*/
+	dmeanors: typeof dmeanors;
+
+	/**
+	* Computes the arithmetic mean of a double-precision floating-point strided array using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dmeanpw( x.length, x, 1 );
+	* // returns ~0.3333
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dmeanpw.ndarray( x.length, x, 1, 0 );
+	* // returns ~0.3333
+	*/
+	dmeanpw: typeof dmeanpw;
 }
 
 /**

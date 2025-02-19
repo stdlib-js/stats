@@ -13330,6 +13330,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c813d0a`](https://github.com/stdlib-js/stdlib/commit/c813d0aa99426f802689af745dd16ccb3929a3d9) - **docs:** update namespace TypeScript declarations [(#5308)](https://github.com/stdlib-js/stdlib/pull/5308) _(by stdlib-bot)_
 -   [`3037993`](https://github.com/stdlib-js/stdlib/commit/3037993cc6603fedea48ca6612edc7462dce2a91) - **docs:** update namespace table of contents [(#5310)](https://github.com/stdlib-js/stdlib/pull/5310) _(by stdlib-bot)_
 -   [`353ca8c`](https://github.com/stdlib-js/stdlib/commit/353ca8cbb275ec0d0d6181a2d1b7448e9b5a6391) - **remove:** remove `stats/base/dmeanpw` _(by Aayush Khanna)_
 -   [`5a7aa5f`](https://github.com/stdlib-js/stdlib/commit/5a7aa5f8ce1bc39cb8bf450454e4faddeae5a245) - **refactor:** update paths _(by Aayush Khanna)_
