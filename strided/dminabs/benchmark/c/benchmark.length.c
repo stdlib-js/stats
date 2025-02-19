@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dminabs.h"
+#include "stdlib/stats/strided/dminabs.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
