@@ -13363,6 +13363,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`cf81564`](https://github.com/stdlib-js/stdlib/commit/cf81564ecc53216262182b3cde382247e079377a) - **refactor:** update `stats/base/snanstdev` native addon from C++ to C [(#5285)](https://github.com/stdlib-js/stdlib/pull/5285) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`1511a4d`](https://github.com/stdlib-js/stdlib/commit/1511a4d9ca7e2552a8e6e50055cb37fe0f5d99de) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanvariancetk` [(#4847)](https://github.com/stdlib-js/stdlib/pull/4847) _(by Prashant Kumar Yadav)_
 -   [`eebd899`](https://github.com/stdlib-js/stdlib/commit/eebd899ffc0b1517c40f105e1a21252a8e31c48b) - **style:** add missing space [(#5287)](https://github.com/stdlib-js/stdlib/pull/5287) _(by Rishav Tarway)_
 -   [`eecbeee`](https://github.com/stdlib-js/stdlib/commit/eecbeeec6f265ce248fd131a29e89362eacc727d) - **chore:** address commit comments [(#5283)](https://github.com/stdlib-js/stdlib/pull/5283) _(by Rishav Tarway)_
