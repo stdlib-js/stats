@@ -21,11 +21,11 @@
 /**
 * Compute the mid-range of a double-precision floating-point strided array.
 *
-* @module @stdlib/stats/base/dmidrange
+* @module @stdlib/stats/strided/dmidrange
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmidrange = require( '@stdlib/stats/base/dmidrange' );
+* var dmidrange = require( '@stdlib/stats/strided/dmidrange' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -35,7 +35,7 @@
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
 * var floor = require( '@stdlib/math/base/special/floor' );
-* var dmidrange = require( '@stdlib/stats/base/dmidrange' );
+* var dmidrange = require( '@stdlib/stats/strided/dmidrange' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

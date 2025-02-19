@@ -35,7 +35,7 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of th
 ## Usage
 
 ```javascript
-var dmidrange = require( '@stdlib/stats/base/dmidrange' );
+var dmidrange = require( '@stdlib/stats/strided/dmidrange' );
 ```
 
 #### dmidrange( N, x, strideX )
@@ -132,7 +132,7 @@ var v = dmidrange.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dmidrange = require( '@stdlib/stats/base/dmidrange' );
+var dmidrange = require( '@stdlib/stats/strided/dmidrange' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
@@ -170,7 +170,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dmidrange.h"
+#include "stdlib/stats/strided/dmidrange.h"
 ```
 
 #### stdlib_strided_dmidrange( N, \*X, strideX )
@@ -235,7 +235,7 @@ double stdlib_strided_dmidrange_ndarray( const CBLAS_INT N, const double *X, con
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dmidrange.h"
+#include "stdlib/stats/strided/dmidrange.h"
 #include <stdio.h>
 
 int main( void ) {

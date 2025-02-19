@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dmidrange.h"
+#include "stdlib/stats/strided/dmidrange.h"
 #include "stdlib/math/base/assert/is_nan.h"
 #include "stdlib/math/base/assert/is_positive_zero.h"
 #include "stdlib/math/base/assert/is_negative_zero.h"
