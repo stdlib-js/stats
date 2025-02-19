@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dmediansorted.h"
+#include "stdlib/stats/strided/dmediansorted.h"
 #include <stdio.h>
 
 int main( void ) {

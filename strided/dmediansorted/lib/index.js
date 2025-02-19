@@ -21,11 +21,11 @@
 /**
 * Compute the median value of a sorted double-precision floating-point strided array.
 *
-* @module @stdlib/stats/base/dmediansorted
+* @module @stdlib/stats/strided/dmediansorted
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmediansorted = require( '@stdlib/stats/base/dmediansorted' );
+* var dmediansorted = require( '@stdlib/stats/strided/dmediansorted' );
 *
 * var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmediansorted = require( '@stdlib/stats/base/dmediansorted' );
+* var dmediansorted = require( '@stdlib/stats/strided/dmediansorted' );
 *
 * var x = new Float64Array( [ 2.0, -3.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

@@ -69,7 +69,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dmeanvar( N, correction, x, strideX, out, strideOut )`][@stdlib/stats/base/dmeanvar]</span><span class="delimiter">: </span><span class="description">calculate the mean and variance of a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dmeanvarpn( N, correction, x, strideX, out, strideOut )`][@stdlib/stats/base/dmeanvarpn]</span><span class="delimiter">: </span><span class="description">calculate the mean and variance of a double-precision floating-point strided array using a two-pass algorithm.</span>
 -   <span class="signature">[`dmeanwd( N, x, strideX )`][@stdlib/stats/strided/dmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using Welford's algorithm.</span>
--   <span class="signature">[`dmediansorted( N, x, strideX )`][@stdlib/stats/base/dmediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted double-precision floating-point strided array.</span>
+-   <span class="signature">[`dmediansorted( N, x, strideX )`][@stdlib/stats/strided/dmediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted double-precision floating-point strided array.</span>
 -   <span class="signature">[`dmidrange( N, x, strideX )`][@stdlib/stats/base/dmidrange]</span><span class="delimiter">: </span><span class="description">calculate the mid-range of a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dmin( N, x, strideX )`][@stdlib/stats/base/dmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dminabs( N, x, strideX )`][@stdlib/stats/base/dminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a double-precision floating-point strided array.</span>
@@ -335,7 +335,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/dmeanwd]: https://github.com/stdlib-js/stats/tree/main/strided/dmeanwd
 
-[@stdlib/stats/base/dmediansorted]: https://github.com/stdlib-js/stats/tree/main/base/dmediansorted
+[@stdlib/stats/strided/dmediansorted]: https://github.com/stdlib-js/stats/tree/main/strided/dmediansorted
 
 [@stdlib/stats/base/dmidrange]: https://github.com/stdlib-js/stats/tree/main/base/dmidrange
 

@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var dmediansorted = require( '@stdlib/stats/base/dmediansorted' );
+var dmediansorted = require( '@stdlib/stats/strided/dmediansorted' );
 ```
 
 #### dmediansorted( N, x, strideX )
@@ -134,7 +134,7 @@ var v = dmediansorted.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var linspace = require( '@stdlib/array/linspace' );
-var dmediansorted = require( '@stdlib/stats/base/dmediansorted' );
+var dmediansorted = require( '@stdlib/stats/strided/dmediansorted' );
 
 var options = {
     'dtype': 'float64'
@@ -173,7 +173,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dmediansorted.h"
+#include "stdlib/stats/strided/dmediansorted.h"
 ```
 
 #### stdlib_strided_dmediansorted( N, \*X, strideX )
@@ -238,7 +238,7 @@ double stdlib_strided_dmediansorted_ndarray( const CBLAS_INT N, const double *X,
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dmediansorted.h"
+#include "stdlib/stats/strided/dmediansorted.h"
 #include <stdio.h>
 
 int main( void ) {
