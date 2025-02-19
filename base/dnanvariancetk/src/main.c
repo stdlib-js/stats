@@ -17,7 +17,8 @@
 */
 
 #include "stdlib/stats/base/dnanvariancetk.h"
-#include <stdint.h>
+#include "stdlib/blas/base/shared.h"
+#include "stdlib/strided/base/stride2offset.h"
 
 /**
 * Computes the variance of a double-precision floating-point strided array ignoring `NaN` values and using a one-pass textbook algorithm.
@@ -25,13 +26,28 @@
 * @param N           number of indexed elements
 * @param correction  degrees of freedom adjustment
 * @param X           input array
-* @param stride      stride length
+* @param strideX     stride length
 * @return            output value
 */
-double stdlib_strided_dnanvariancetk( const int64_t N, const double correction, const double *X, const int64_t stride ) {
-	int64_t ix;
-	int64_t n;
-	int64_t i;
+double API_SUFFIX(stdlib_strided_dnanvariancetk)( const CBLAS_INT N, const double correction, const double *X, const CBLAS_INT strideX ) {
+	const CBLAS_INT ox = stdlib_strided_stride2offset( N, strideX );
+	return API_SUFFIX(stdlib_strided_dnanvariancetk_ndarray)( N, correction, X, strideX, ox );
+}
+
+/**
+* Computes the variance of a double-precision floating-point strided array ignoring `NaN` values and using a one-pass textbook algorithm and alternative indexing semantics.
+*
+* @param N            number of indexed elements
+* @param correction   degrees of freedom adjustment
+* @param X            input array
+* @param strideX      stride length
+* @param offsetX      starting index for X
+* @return             output value
+*/
+double API_SUFFIX(stdlib_strided_dnanvariancetk_ndarray)( const CBLAS_INT N, const double correction, const double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX ) {
+	CBLAS_INT ix;
+	CBLAS_INT n;
+	CBLAS_INT i;
 	double S2;
 	double nc;
 	double dn;
@@ -41,18 +57,14 @@ double stdlib_strided_dnanvariancetk( const int64_t N, const double correction, 
 	if ( N <= 0 ) {
 		return 0.0 / 0.0; // NaN
 	}
-	if ( N == 1 || stride == 0 ) {
+	if ( N == 1 || strideX == 0 ) {
 		v = X[ 0 ];
 		if ( v == v && (double)N-correction > 0.0 ) {
 			return 0.0;
 		}
 		return 0.0 / 0.0; // NaN
 	}
-	if ( stride < 0 ) {
-		ix = (1-N) * stride;
-	} else {
-		ix = 0;
-	}
+	ix = offsetX;
 	S2 = 0.0;
 	S = 0.0;
 	n = 0;
@@ -63,7 +75,7 @@ double stdlib_strided_dnanvariancetk( const int64_t N, const double correction, 
 			S += v;
 			n += 1;
 		}
-		ix += stride;
+		ix += strideX;
 	}
 	dn = (double)n;
 	nc = dn - correction;
