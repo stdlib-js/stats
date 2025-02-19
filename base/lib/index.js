@@ -145,15 +145,6 @@ setReadOnly( ns, 'dmeanvar', require( './../../base/dmeanvar' ) );
 setReadOnly( ns, 'dmeanvarpn', require( './../../base/dmeanvarpn' ) );
 
 /**
-* @name dmeanwd
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dmeanwd}
-*/
-setReadOnly( ns, 'dmeanwd', require( './../../base/dmeanwd' ) );
-
-/**
 * @name dmediansorted
 * @memberof ns
 * @readonly
@@ -1925,6 +1916,15 @@ setReadOnly( ns, 'dmeanors', require( './../../strided/dmeanors' ) );
 * @see {@link module:@stdlib/stats/strided/dmeanpw}
 */
 setReadOnly( ns, 'dmeanpw', require( './../../strided/dmeanpw' ) );
+
+/**
+* @name dmeanwd
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dmeanwd}
+*/
+setReadOnly( ns, 'dmeanwd', require( './../../strided/dmeanwd' ) );
 
 
 // EXPORTS //
