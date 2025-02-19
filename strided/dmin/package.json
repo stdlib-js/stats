@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dmin",
+  "name": "@stdlib/stats/strided/dmin",
   "version": "0.0.0",
   "description": "Calculate the minimum value of a double-precision floating-point strided array.",
   "license": "Apache-2.0",

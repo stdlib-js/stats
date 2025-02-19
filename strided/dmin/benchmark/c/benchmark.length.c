@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dmin.h"
+#include "stdlib/stats/strided/dmin.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

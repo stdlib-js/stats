@@ -270,7 +270,7 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/base/dmin`][@stdlib/stats/base/dmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dmin`][@stdlib/stats/strided/dmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dmaxabs`][@stdlib/stats/strided/dmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/dnanminabs`][@stdlib/stats/base/dnanminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/minabs`][@stdlib/stats/base/minabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array.</span>
@@ -290,7 +290,7 @@ int main( void ) {
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats/tree/main/base/dmin
+[@stdlib/stats/strided/dmin]: https://github.com/stdlib-js/stats/tree/main/strided/dmin
 
 [@stdlib/stats/strided/dmaxabs]: https://github.com/stdlib-js/stats/tree/main/strided/dmaxabs
 

@@ -21,11 +21,11 @@
 /**
 * Compute the minimum value of a double-precision floating-point strided array.
 *
-* @module @stdlib/stats/base/dmin
+* @module @stdlib/stats/strided/dmin
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmin = require( '@stdlib/stats/base/dmin' );
+* var dmin = require( '@stdlib/stats/strided/dmin' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmin = require( '@stdlib/stats/base/dmin' );
+* var dmin = require( '@stdlib/stats/strided/dmin' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

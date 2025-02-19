@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var dmin = require( '@stdlib/stats/base/dmin' );
+var dmin = require( '@stdlib/stats/strided/dmin' );
 ```
 
 #### dmin( N, x, strideX )
@@ -130,7 +130,7 @@ var v = dmin.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dmin = require( '@stdlib/stats/base/dmin' );
+var dmin = require( '@stdlib/stats/strided/dmin' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
@@ -168,7 +168,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dmin.h"
+#include "stdlib/stats/strided/dmin.h"
 ```
 
 #### stdlib_strided_dmin( N, \*X, strideX )
@@ -233,7 +233,7 @@ double stdlib_strided_dmin_ndarray( const CBLAS_INT N, const double *X, const CB
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dmin.h"
+#include "stdlib/stats/strided/dmin.h"
 #include <stdio.h>
 
 int main( void ) {
