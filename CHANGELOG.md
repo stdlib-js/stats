@@ -10482,6 +10482,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanmean-unreleased">
+
+#### [@stdlib/stats/base/dnanmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6111a13`](https://github.com/stdlib-js/stdlib/commit/6111a138fa2d849e9836c473abca8eb1fe32adf7) - add C ndarray interface and refactor implementation for `stats/base/dnanmean` [(#4237)](https://github.com/stdlib-js/stdlib/pull/4237)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dnanmeanors-unreleased">
 
 #### [@stdlib/stats/base/dnanmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanmeanors)
@@ -14313,6 +14335,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6111a13`](https://github.com/stdlib-js/stdlib/commit/6111a138fa2d849e9836c473abca8eb1fe32adf7) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmean` [(#4237)](https://github.com/stdlib-js/stdlib/pull/4237) _(by Neeraj Pathak, stdlib-bot)_
 -   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
 -   [`a51a6b7`](https://github.com/stdlib-js/stdlib/commit/a51a6b7ae837114b7d9fa0854d31d03afe1e1111) - **chore:** explicitly cast and change tolerance _(by Philipp Burckhardt)_
 -   [`8514fc9`](https://github.com/stdlib-js/stdlib/commit/8514fc990e8358e7e7b32f704ad8b8edc376ae98) - **remove:** remove `stats/base/dminabs` _(by Aayush Khanna)_
