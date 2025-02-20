@@ -10316,6 +10316,94 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`29ba714`](https://github.com/stdlib-js/stdlib/commit/29ba714fd2884948aed64281c3f66e803dcfdb30): remove `stats/base/dminsorted`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dminsorted` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: passed
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: passed
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -12855,6 +12943,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-dminsorted-unreleased">
+
+#### [@stdlib/stats/strided/dminsorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dminsorted)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`cea29e5`](https://github.com/stdlib-js/stdlib/commit/cea29e586835cedaa0a09922e9c4f919b0fe0f5e) - add `stats/strided/dminsorted`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -12862,6 +12972,86 @@ A total of 3 issues were closed in this release:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`29ba714`](https://github.com/stdlib-js/stdlib/commit/29ba714fd2884948aed64281c3f66e803dcfdb30): remove `stats/base/dminsorted`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dminsorted` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: passed
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: passed
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
 
 -   [`8514fc9`](https://github.com/stdlib-js/stdlib/commit/8514fc990e8358e7e7b32f704ad8b8edc376ae98): remove `stats/base/dminabs`
 
@@ -14335,6 +14525,9 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`29ba714`](https://github.com/stdlib-js/stdlib/commit/29ba714fd2884948aed64281c3f66e803dcfdb30) - **remove:** remove `stats/base/dminsorted` _(by Aayush Khanna)_
+-   [`a951a6d`](https://github.com/stdlib-js/stdlib/commit/a951a6d2ed9891399cba81b0834fe73b851247b7) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`cea29e5`](https://github.com/stdlib-js/stdlib/commit/cea29e586835cedaa0a09922e9c4f919b0fe0f5e) - **feat:** add `stats/strided/dminsorted` _(by Aayush Khanna)_
 -   [`13fc14e`](https://github.com/stdlib-js/stdlib/commit/13fc14e776090d0c8917b7a7a4757dd8b9051d71) - **docs:** update namespace table of contents [(#5332)](https://github.com/stdlib-js/stdlib/pull/5332) _(by stdlib-bot)_
 -   [`5bd3138`](https://github.com/stdlib-js/stdlib/commit/5bd3138acf5f8f1354306bd813da484505f1f7f9) - **refactor:** update `stats/base/snanvariancepn` native addon from C++ to C [(#5286)](https://github.com/stdlib-js/stdlib/pull/5286) _(by Prashant Kumar Yadav)_
 -   [`6111a13`](https://github.com/stdlib-js/stdlib/commit/6111a138fa2d849e9836c473abca8eb1fe32adf7) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmean` [(#4237)](https://github.com/stdlib-js/stdlib/pull/4237) _(by Neeraj Pathak, stdlib-bot)_
