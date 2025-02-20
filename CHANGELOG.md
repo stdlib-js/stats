@@ -14335,6 +14335,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`13fc14e`](https://github.com/stdlib-js/stdlib/commit/13fc14e776090d0c8917b7a7a4757dd8b9051d71) - **docs:** update namespace table of contents [(#5332)](https://github.com/stdlib-js/stdlib/pull/5332) _(by stdlib-bot)_
 -   [`5bd3138`](https://github.com/stdlib-js/stdlib/commit/5bd3138acf5f8f1354306bd813da484505f1f7f9) - **refactor:** update `stats/base/snanvariancepn` native addon from C++ to C [(#5286)](https://github.com/stdlib-js/stdlib/pull/5286) _(by Prashant Kumar Yadav)_
 -   [`6111a13`](https://github.com/stdlib-js/stdlib/commit/6111a138fa2d849e9836c473abca8eb1fe32adf7) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmean` [(#4237)](https://github.com/stdlib-js/stdlib/pull/4237) _(by Neeraj Pathak, stdlib-bot)_
 -   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
