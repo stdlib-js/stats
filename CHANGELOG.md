@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-19)
+## Unreleased (2025-02-20)
 
 <section class="packages">
 
@@ -14313,6 +14313,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
 -   [`a51a6b7`](https://github.com/stdlib-js/stdlib/commit/a51a6b7ae837114b7d9fa0854d31d03afe1e1111) - **chore:** explicitly cast and change tolerance _(by Philipp Burckhardt)_
 -   [`8514fc9`](https://github.com/stdlib-js/stdlib/commit/8514fc990e8358e7e7b32f704ad8b8edc376ae98) - **remove:** remove `stats/base/dminabs` _(by Aayush Khanna)_
 -   [`b620840`](https://github.com/stdlib-js/stdlib/commit/b620840cb203f071838abc1ad3d41700f7547d9f) - **refactor:** update paths _(by Aayush Khanna)_
