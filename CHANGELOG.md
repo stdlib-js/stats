@@ -14591,6 +14591,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7fc07a2`](https://github.com/stdlib-js/stdlib/commit/7fc07a2122bb9e862ae7e2237dd48096051199dd) - **docs:** fix missing section tags in various READMEs [(#5322)](https://github.com/stdlib-js/stdlib/pull/5322) _(by Saurabh Singh)_
 -   [`528efd8`](https://github.com/stdlib-js/stdlib/commit/528efd8000eb7b910f64e63796a8a7c2fdfa03cd) - **feat:** add support for accessor arrays and refactor `stats/base/cumin` [(#5335)](https://github.com/stdlib-js/stdlib/pull/5335) _(by Vivek Maurya, Athan Reines)_
 -   [`21f8e14`](https://github.com/stdlib-js/stdlib/commit/21f8e1488e983bf951e590558a96ffee0bc956cc) - **feat:** add `stats/base/dists/bradford/mode` [(#5315)](https://github.com/stdlib-js/stdlib/pull/5315) _(by Karan Anand)_
 -   [`996c248`](https://github.com/stdlib-js/stdlib/commit/996c2482be0f57c7f11f7ff03fdf3b859c45c58b) - **feat:** add `stats/base/dists/bradford/median` [(#5275)](https://github.com/stdlib-js/stdlib/pull/5275) _(by Karan Anand, Philipp Burckhardt)_
