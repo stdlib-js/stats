@@ -11706,6 +11706,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-maxsorted-unreleased">
+
+#### [@stdlib/stats/base/maxsorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/maxsorted)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`47119e4`](https://github.com/stdlib-js/stdlib/commit/47119e46a96b4e7d591f9882fff51833bc8d44bd) - add support for accessor arrays and refactor `stats/base/maxsorted` [(#5343)](https://github.com/stdlib-js/stdlib/pull/5343)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-mediansorted-unreleased">
 
 #### [@stdlib/stats/base/mediansorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/mediansorted)
@@ -14993,6 +15015,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`47119e4`](https://github.com/stdlib-js/stdlib/commit/47119e46a96b4e7d591f9882fff51833bc8d44bd) - **feat:** add support for accessor arrays and refactor `stats/base/maxsorted` [(#5343)](https://github.com/stdlib-js/stdlib/pull/5343) _(by Vivek Maurya, Athan Reines)_
 -   [`065f865`](https://github.com/stdlib-js/stdlib/commit/065f86535e3f1915160f91820f1fa0af79633b72) - **feat:** add support for accessor arrays and refactor `stats/base/mediansorted` [(#5344)](https://github.com/stdlib-js/stdlib/pull/5344) _(by Vivek Maurya, Athan Reines)_
 -   [`54ed22a`](https://github.com/stdlib-js/stdlib/commit/54ed22a2eb989926f99680f33bd8bf700d5759b0) - **docs:** update namespace TypeScript declarations [(#5330)](https://github.com/stdlib-js/stdlib/pull/5330) _(by stdlib-bot)_
 -   [`bf18c77`](https://github.com/stdlib-js/stdlib/commit/bf18c7705ea5e96e733a13f20844bf975a4dac18) - **docs:** update namespace table of contents [(#5351)](https://github.com/stdlib-js/stdlib/pull/5351) _(by stdlib-bot)_
