@@ -10718,6 +10718,94 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`87172d0`](https://github.com/stdlib-js/stdlib/commit/87172d04e51a36c86533f8d8efa96ef778b2d9ec): remove `stats/base/dnanmaxabs`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dnanmaxabs` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: passed
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: passed
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -13141,6 +13229,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-dnanmaxabs-unreleased">
+
+#### [@stdlib/stats/strided/dnanmaxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dnanmaxabs)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`967036f`](https://github.com/stdlib-js/stdlib/commit/967036f0dc9d2a0dfe4e04e7c4e188f7bf901797) - add `stats/strided/dnanmaxabs`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -13148,6 +13258,86 @@ A total of 3 issues were closed in this release:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`87172d0`](https://github.com/stdlib-js/stdlib/commit/87172d04e51a36c86533f8d8efa96ef778b2d9ec): remove `stats/base/dnanmaxabs`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dnanmaxabs` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: passed
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: passed
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
 
 -   [`0f7184d`](https://github.com/stdlib-js/stdlib/commit/0f7184d6a265711ee717b9cc80da681111083b87): remove `stats/base/dnanmax`
 
@@ -14781,6 +14971,9 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`87172d0`](https://github.com/stdlib-js/stdlib/commit/87172d04e51a36c86533f8d8efa96ef778b2d9ec) - **remove:** remove `stats/base/dnanmaxabs` _(by Aayush Khanna)_
+-   [`472883d`](https://github.com/stdlib-js/stdlib/commit/472883d6f2df01f1ed09c4fab80fd7068b8af214) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`967036f`](https://github.com/stdlib-js/stdlib/commit/967036f0dc9d2a0dfe4e04e7c4e188f7bf901797) - **feat:** add `stats/strided/dnanmaxabs` _(by Aayush Khanna)_
 -   [`0f7184d`](https://github.com/stdlib-js/stdlib/commit/0f7184d6a265711ee717b9cc80da681111083b87) - **remove:** remove `stats/base/dnanmax` _(by Aayush Khanna)_
 -   [`b644709`](https://github.com/stdlib-js/stdlib/commit/b64470944253e6c2be920aa4e066146bd9ab11f2) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`dea222d`](https://github.com/stdlib-js/stdlib/commit/dea222dcbed60261c4748cf6cdaff1dd29332b64) - **feat:** add `stats/strided/dnanmax` _(by Aayush Khanna)_

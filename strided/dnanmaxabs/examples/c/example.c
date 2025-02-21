@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanmaxabs.h"
+#include "stdlib/stats/strided/dnanmaxabs.h"
 #include <stdio.h>
 
 int main( void ) {

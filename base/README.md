@@ -73,7 +73,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dmskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/dmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`dmskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/dmskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`dnanmax( N, x, strideX )`][@stdlib/stats/strided/dnanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array, ignoring `NaN` values.</span>
--   <span class="signature">[`dnanmaxabs( N, x, strideX )`][@stdlib/stats/base/dnanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a double-precision floating-point strided array, ignoring `NaN` values.</span>
+-   <span class="signature">[`dnanmaxabs( N, x, strideX )`][@stdlib/stats/strided/dnanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a double-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`dnanmean( N, x, strideX )`][@stdlib/stats/base/dnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`dnanmeanors( N, x, strideX )`][@stdlib/stats/base/dnanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring `NaN` values and using ordinary recursive summation.</span>
 -   <span class="signature">[`dnanmeanpn( N, x, strideX )`][@stdlib/stats/base/dnanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring `NaN` values and using a two-pass error correction algorithm.</span>
@@ -338,7 +338,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/dnanmax]: https://github.com/stdlib-js/stats/tree/main/strided/dnanmax
 
-[@stdlib/stats/base/dnanmaxabs]: https://github.com/stdlib-js/stats/tree/main/base/dnanmaxabs
+[@stdlib/stats/strided/dnanmaxabs]: https://github.com/stdlib-js/stats/tree/main/strided/dnanmaxabs
 
 [@stdlib/stats/base/dnanmean]: https://github.com/stdlib-js/stats/tree/main/base/dnanmean
 
