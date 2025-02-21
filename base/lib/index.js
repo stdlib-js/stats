@@ -172,15 +172,6 @@ setReadOnly( ns, 'dmskmin', require( './../../base/dmskmin' ) );
 setReadOnly( ns, 'dmskrange', require( './../../base/dmskrange' ) );
 
 /**
-* @name dnanmax
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dnanmax}
-*/
-setReadOnly( ns, 'dnanmax', require( './../../base/dnanmax' ) );
-
-/**
 * @name dnanmaxabs
 * @memberof ns
 * @readonly
@@ -1925,6 +1916,15 @@ setReadOnly( ns, 'dminabs', require( './../../strided/dminabs' ) );
 * @see {@link module:@stdlib/stats/strided/dminsorted}
 */
 setReadOnly( ns, 'dminsorted', require( './../../strided/dminsorted' ) );
+
+/**
+* @name dnanmax
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dnanmax}
+*/
+setReadOnly( ns, 'dnanmax', require( './../../strided/dnanmax' ) );
 
 
 // EXPORTS //

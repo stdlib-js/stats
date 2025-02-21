@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var dnanmax = require( '@stdlib/stats/base/dnanmax' );
+var dnanmax = require( '@stdlib/stats/strided/dnanmax' );
 ```
 
 #### dnanmax( N, x, strideX )
@@ -132,7 +132,7 @@ var v = dnanmax.ndarray( 4, x, 2, 1 );
 var uniform = require( '@stdlib/random/base/uniform' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
 var bernoulli = require( '@stdlib/random/base/bernoulli' );
-var dnanmax = require( '@stdlib/stats/base/dnanmax' );
+var dnanmax = require( '@stdlib/stats/strided/dnanmax' );
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
@@ -175,7 +175,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dnanmax.h"
+#include "stdlib/stats/strided/dnanmax.h"
 ```
 
 #### stdlib_strided_dnanmax( N, \*X, strideX )
@@ -240,7 +240,7 @@ double stdlib_strided_dnanmax_ndarray( const CBLAS_INT N, const double *X, const
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dnanmax.h"
+#include "stdlib/stats/strided/dnanmax.h"
 #include <stdint.h>
 #include <stdio.h>
 
