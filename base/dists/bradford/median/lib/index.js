@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,16 +18,26 @@
 
 'use strict';
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var Float64Array = require( '@stdlib/array/float64' );
-var cumin = require( './../lib' );
+/**
+* Bradford distribution median.
+*
+* @module @stdlib/stats/base/dists/bradford/median
+*
+* @example
+* var median = require( '@stdlib/stats/base/dists/bradford/median' );
+*
+* var v = median( 0.1 );
+* // returns ~0.488
+*
+* v = median( 0.5 );
+* // returns ~0.449
+*/
 
-var x = discreteUniform( 10, 0, 100, {
-	'dtype': 'float64'
-});
-var y = new Float64Array( x.length );
-console.log( x );
-console.log( y );
+// MODULES //
 
-cumin( x.length, x, 1, y, -1 );
-console.log( y );
+var median = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = median;

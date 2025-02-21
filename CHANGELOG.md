@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-20)
+## Unreleased (2025-02-21)
 
 <section class="packages">
 
@@ -111,6 +111,28 @@
 ##### Features
 
 -   [`c17d1c9`](https://github.com/stdlib-js/stdlib/commit/c17d1c95b7537c91a8d4da9ba24b555895067e66) - add support for accessor arrays and refactor `stats/base/cumaxabs` [(#5289)](https://github.com/stdlib-js/stdlib/pull/5289)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-cumin-unreleased">
+
+#### [@stdlib/stats/base/cumin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/cumin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`528efd8`](https://github.com/stdlib-js/stdlib/commit/528efd8000eb7b910f64e63796a8a7c2fdfa03cd) - add support for accessor arrays and refactor `stats/base/cumin` [(#5335)](https://github.com/stdlib-js/stdlib/pull/5335)
 
 </section>
 
@@ -1490,6 +1512,50 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-bradford-median-unreleased">
+
+#### [@stdlib/stats/base/dists/bradford/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bradford/median)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`996c248`](https://github.com/stdlib-js/stdlib/commit/996c2482be0f57c7f11f7ff03fdf3b859c45c58b) - add `stats/base/dists/bradford/median` [(#5275)](https://github.com/stdlib-js/stdlib/pull/5275)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-bradford-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/bradford/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bradford/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`21f8e14`](https://github.com/stdlib-js/stdlib/commit/21f8e1488e983bf951e590558a96ffee0bc956cc) - add `stats/base/dists/bradford/mode` [(#5315)](https://github.com/stdlib-js/stdlib/pull/5315)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -14525,6 +14591,9 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`528efd8`](https://github.com/stdlib-js/stdlib/commit/528efd8000eb7b910f64e63796a8a7c2fdfa03cd) - **feat:** add support for accessor arrays and refactor `stats/base/cumin` [(#5335)](https://github.com/stdlib-js/stdlib/pull/5335) _(by Vivek Maurya, Athan Reines)_
+-   [`21f8e14`](https://github.com/stdlib-js/stdlib/commit/21f8e1488e983bf951e590558a96ffee0bc956cc) - **feat:** add `stats/base/dists/bradford/mode` [(#5315)](https://github.com/stdlib-js/stdlib/pull/5315) _(by Karan Anand)_
+-   [`996c248`](https://github.com/stdlib-js/stdlib/commit/996c2482be0f57c7f11f7ff03fdf3b859c45c58b) - **feat:** add `stats/base/dists/bradford/median` [(#5275)](https://github.com/stdlib-js/stdlib/pull/5275) _(by Karan Anand, Philipp Burckhardt)_
 -   [`29ba714`](https://github.com/stdlib-js/stdlib/commit/29ba714fd2884948aed64281c3f66e803dcfdb30) - **remove:** remove `stats/base/dminsorted` _(by Aayush Khanna)_
 -   [`a951a6d`](https://github.com/stdlib-js/stdlib/commit/a951a6d2ed9891399cba81b0834fe73b851247b7) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`cea29e5`](https://github.com/stdlib-js/stdlib/commit/cea29e586835cedaa0a09922e9c4f919b0fe0f5e) - **feat:** add `stats/strided/dminsorted` _(by Aayush Khanna)_

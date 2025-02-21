@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,16 +18,14 @@
 
 'use strict';
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var Float64Array = require( '@stdlib/array/float64' );
-var cumin = require( './../lib' );
+var uniform = require( '@stdlib/random/array/uniform' );
+var mode = require( './../lib' );
 
-var x = discreteUniform( 10, 0, 100, {
-	'dtype': 'float64'
-});
-var y = new Float64Array( x.length );
-console.log( x );
-console.log( y );
+var c = uniform( 10, 0.1, 10.0 );
 
-cumin( x.length, x, 1, y, -1 );
-console.log( y );
+var v;
+var i;
+for ( i = 0; i < c.length; i++ ) {
+	v = mode( c[ i ] );
+	console.log( 'c: %d, mode(X;c): %d', c[ i ].toFixed( 4 ), v.toFixed( 4 ) );
+}
