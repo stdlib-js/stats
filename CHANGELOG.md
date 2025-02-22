@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-21)
+## Unreleased (2025-02-22)
 
 <section class="packages">
 
@@ -11794,6 +11794,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-minsorted-unreleased">
+
+#### [@stdlib/stats/base/minsorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/minsorted)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7327ed0`](https://github.com/stdlib-js/stdlib/commit/7327ed001d3c1c64808a4658c76faa9eb3209900) - add support for accessor arrays and refactor `stats/base/minsorted` [(#5353)](https://github.com/stdlib-js/stdlib/pull/5353)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-mskmax-unreleased">
 
 #### [@stdlib/stats/base/mskmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/mskmax)
@@ -15037,6 +15059,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7327ed0`](https://github.com/stdlib-js/stdlib/commit/7327ed001d3c1c64808a4658c76faa9eb3209900) - **feat:** add support for accessor arrays and refactor `stats/base/minsorted` [(#5353)](https://github.com/stdlib-js/stdlib/pull/5353) _(by Vivek Maurya, Athan Reines)_
 -   [`417e653`](https://github.com/stdlib-js/stdlib/commit/417e65361234ec46382f58cc303a544f5bbcbf9e) - **feat:** add support for accessor arrays and refactor `stats/base/mskmax` [(#5356)](https://github.com/stdlib-js/stdlib/pull/5356) _(by Vivek Maurya, Athan Reines)_
 -   [`47119e4`](https://github.com/stdlib-js/stdlib/commit/47119e46a96b4e7d591f9882fff51833bc8d44bd) - **feat:** add support for accessor arrays and refactor `stats/base/maxsorted` [(#5343)](https://github.com/stdlib-js/stdlib/pull/5343) _(by Vivek Maurya, Athan Reines)_
 -   [`065f865`](https://github.com/stdlib-js/stdlib/commit/065f86535e3f1915160f91820f1fa0af79633b72) - **feat:** add support for accessor arrays and refactor `stats/base/mediansorted` [(#5344)](https://github.com/stdlib-js/stdlib/pull/5344) _(by Vivek Maurya, Athan Reines)_
