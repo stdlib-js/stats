@@ -11173,6 +11173,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanvariancewd-unreleased">
+
+#### [@stdlib/stats/base/dnanvariancewd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariancewd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0f30934`](https://github.com/stdlib-js/stdlib/commit/0f30934d486c023154b676c08392e5d0134d130f) - add C ndarray interface and refactor implementation for `stats/base/dnanvariancewd` [(#5316)](https://github.com/stdlib-js/stdlib/pull/5316)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-drange-unreleased">
 
 #### [@stdlib/stats/base/drange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/drange)
@@ -15195,6 +15217,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0f30934`](https://github.com/stdlib-js/stdlib/commit/0f30934d486c023154b676c08392e5d0134d130f) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanvariancewd` [(#5316)](https://github.com/stdlib-js/stdlib/pull/5316) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`46a71fb`](https://github.com/stdlib-js/stdlib/commit/46a71fb2501d0192e9b1e915791d246ef2d088af) - **style:** remove trailing whitespace [(#5372)](https://github.com/stdlib-js/stdlib/pull/5372) _(by Abhishek Jain)_
 -   [`e8330ca`](https://github.com/stdlib-js/stdlib/commit/e8330cabf96e29b8dbd5736604077809eede9f15) - **feat:** add `stats/base/dists/bradford/entropy` [(#5324)](https://github.com/stdlib-js/stdlib/pull/5324) _(by Karan Anand)_
 -   [`eb61ba4`](https://github.com/stdlib-js/stdlib/commit/eb61ba42a289f290c5500d0e0eacfca960c44700) - **feat:** add `stats/base/dists/bradford/cdf` [(#5282)](https://github.com/stdlib-js/stdlib/pull/5282) _(by Karan Anand, Philipp Burckhardt)_
