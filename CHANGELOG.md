@@ -11333,6 +11333,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanvarianceyc-unreleased">
+
+#### [@stdlib/stats/base/dnanvarianceyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvarianceyc)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ecfa20e`](https://github.com/stdlib-js/stdlib/commit/ecfa20ee5474b4908861770b6ea4ddb04dacbdf9) - add C ndarray interface and refactor implementation for `stats/base/dnanvarianceyc` [(#4852)](https://github.com/stdlib-js/stdlib/pull/4852)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-drange-unreleased">
 
 #### [@stdlib/stats/base/drange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/drange)
@@ -15507,6 +15529,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ecfa20e`](https://github.com/stdlib-js/stdlib/commit/ecfa20ee5474b4908861770b6ea4ddb04dacbdf9) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanvarianceyc` [(#4852)](https://github.com/stdlib-js/stdlib/pull/4852) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`899f870`](https://github.com/stdlib-js/stdlib/commit/899f87037e24691f54fb4a6467cd501ea9212388) - **style:** add missing space [(#5312)](https://github.com/stdlib-js/stdlib/pull/5312) _(by Rishav Tarway)_
 -   [`6670680`](https://github.com/stdlib-js/stdlib/commit/6670680a8981818c8e3774da4bf2a8c7dedb4715) - **chore:** address commit comments and use discrete uniform PRNG [(#5313)](https://github.com/stdlib-js/stdlib/pull/5313) _(by Rishav Tarway)_
 -   [`a721643`](https://github.com/stdlib-js/stdlib/commit/a72164377f20d181961797a328798e33891fa617) - **remove:** remove `stats/base/dnanmean` _(by Aayush Khanna)_

@@ -17,7 +17,8 @@
 */
 
 #include "stdlib/stats/base/dnanvarianceyc.h"
-#include <stdint.h>
+#include "stdlib/blas/base/shared.h"
+#include "stdlib/strided/base/stride2offset.h"
 
 /**
 * Computes the variance of a double-precision floating-point strided array ignoring `NaN` values and using a one-pass algorithm proposed by Youngs and Cramer.
@@ -33,46 +34,58 @@
 * @param N           number of indexed elements
 * @param correction  degrees of freedom adjustment
 * @param X           input array
-* @param stride      stride length
+* @param strideX     stride length
 * @return            output value
 */
-double stdlib_strided_dnanvarianceyc( const int64_t N, const double correction, const double *X, const int64_t stride ) {
+double API_SUFFIX(stdlib_strided_dnanvarianceyc)( const CBLAS_INT N, const double correction, const double *X, const CBLAS_INT strideX ) {
+	const CBLAS_INT ox = stdlib_strided_stride2offset( N, strideX );
+	return API_SUFFIX(stdlib_strided_dnanvarianceyc_ndarray)( N, correction, X, strideX, ox );
+}
+
+/**
+* Computes the variance of a double-precision floating-point strided array ignoring `NaN` values and using a one-pass algorithm proposed by Youngs and Cramer and alternative indexing semantics.
+*
+* @param N            number of indexed elements
+* @param correction   degrees of freedom adjustment
+* @param X            input array
+* @param strideX      stride length
+* @param offsetX      starting index for X
+* @return             variance
+*/
+double API_SUFFIX(stdlib_strided_dnanvarianceyc_ndarray)( const CBLAS_INT N, const double correction, const double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX ) {
+	CBLAS_INT ix;
+	CBLAS_INT i;
 	double sum;
-	int64_t ix;
 	double nc;
 	double n;
-	double S;
 	double v;
+	double S;
 	double d;
-	double i;
 
 	if ( N <= 0 ) {
 		return 0.0 / 0.0; // NaN
 	}
-	if ( N == 1 || stride == 0 ) {
-		v = X[ 0 ];
+	if ( N == 1 || strideX == 0 ) {
+		v = X[ offsetX ];
 		if ( v == v && (double)N-correction > 0.0 ) {
 			return 0.0;
 		}
 		return 0.0 / 0.0; // NaN
 	}
-	if ( stride < 0 ) {
-		ix = (1-N) * stride;
-	} else {
-		ix = 0;
-	}
+	ix = offsetX;
+
 	// Find the first non-NaN element...
 	for ( i = 0; i < N; i++ ) {
 		v = X[ ix ];
 		if ( v == v ) {
 			break;
 		}
-		ix += stride;
+		ix += strideX;
 	}
 	if ( i == N ) {
 		return 0.0 / 0.0; // NaN
 	}
-	ix += stride;
+	ix += strideX;
 	sum = v;
 	S = 0.0;
 	n = 1.0;
@@ -85,7 +98,7 @@ double stdlib_strided_dnanvarianceyc( const int64_t N, const double correction, 
 			d = (n*v) - sum;
 			S += (1.0/(n*(n-1.0))) * d * d;
 		}
-		ix += stride;
+		ix += strideX;
 	}
 	nc = n - correction;
 	if ( nc <= 0.0 ) {
