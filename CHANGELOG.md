@@ -41,6 +41,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`2dbe5b3`](https://github.com/stdlib-js/stdlib/commit/2dbe5b3eadbbfd4699d91ab83be4d32ae9f9f835): remove `dnanmean`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/stats/strided` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`cfada54`](https://github.com/stdlib-js/stdlib/commit/cfada54a59fd74da628a2c918325a59debd25d3d): remove `dmaxsorted`, `dmaxabssorted`, and `dmeankbn`
 
     -   To migrate, users should access the removed symbols via the `stats/strided` namespace.
@@ -10939,6 +10989,94 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`a721643`](https://github.com/stdlib-js/stdlib/commit/a72164377f20d181961797a328798e33891fa617): remove `stats/base/dnanmean`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dnanmean` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: passed
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: passed
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -13496,6 +13634,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-dnanmean-unreleased">
+
+#### [@stdlib/stats/strided/dnanmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dnanmean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`36f7a1a`](https://github.com/stdlib-js/stdlib/commit/36f7a1a5bb026acd71f54cf523976ad008c4369d) - add `stats/strided/dnanmean`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -13503,6 +13663,136 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`a721643`](https://github.com/stdlib-js/stdlib/commit/a72164377f20d181961797a328798e33891fa617): remove `stats/base/dnanmean`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dnanmean` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: passed
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: passed
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
+
+-   [`2dbe5b3`](https://github.com/stdlib-js/stdlib/commit/2dbe5b3eadbbfd4699d91ab83be4d32ae9f9f835): remove `dnanmean`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/stats/strided` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`87172d0`](https://github.com/stdlib-js/stdlib/commit/87172d04e51a36c86533f8d8efa96ef778b2d9ec): remove `stats/base/dnanmaxabs`
 
@@ -15217,6 +15507,10 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a721643`](https://github.com/stdlib-js/stdlib/commit/a72164377f20d181961797a328798e33891fa617) - **remove:** remove `stats/base/dnanmean` _(by Aayush Khanna)_
+-   [`fc4a92a`](https://github.com/stdlib-js/stdlib/commit/fc4a92a4a2356e4de3026fcfcfbd6433121851a0) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`2dbe5b3`](https://github.com/stdlib-js/stdlib/commit/2dbe5b3eadbbfd4699d91ab83be4d32ae9f9f835) - **remove:** remove `dnanmean` from namespace _(by Aayush Khanna)_
+-   [`36f7a1a`](https://github.com/stdlib-js/stdlib/commit/36f7a1a5bb026acd71f54cf523976ad008c4369d) - **feat:** add `stats/strided/dnanmean` _(by Aayush Khanna)_
 -   [`0f30934`](https://github.com/stdlib-js/stdlib/commit/0f30934d486c023154b676c08392e5d0134d130f) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanvariancewd` [(#5316)](https://github.com/stdlib-js/stdlib/pull/5316) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`46a71fb`](https://github.com/stdlib-js/stdlib/commit/46a71fb2501d0192e9b1e915791d246ef2d088af) - **style:** remove trailing whitespace [(#5372)](https://github.com/stdlib-js/stdlib/pull/5372) _(by Abhishek Jain)_
 -   [`e8330ca`](https://github.com/stdlib-js/stdlib/commit/e8330cabf96e29b8dbd5736604077809eede9f15) - **feat:** add `stats/base/dists/bradford/entropy` [(#5324)](https://github.com/stdlib-js/stdlib/pull/5324) _(by Karan Anand)_

@@ -172,15 +172,6 @@ setReadOnly( ns, 'dmskmin', require( './../../base/dmskmin' ) );
 setReadOnly( ns, 'dmskrange', require( './../../base/dmskrange' ) );
 
 /**
-* @name dnanmean
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dnanmean}
-*/
-setReadOnly( ns, 'dnanmean', require( './../../base/dnanmean' ) );
-
-/**
 * @name dnanmeanors
 * @memberof ns
 * @readonly
