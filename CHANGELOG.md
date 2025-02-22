@@ -11277,6 +11277,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanvariancepn-unreleased">
+
+#### [@stdlib/stats/base/dnanvariancepn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariancepn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bf2f650`](https://github.com/stdlib-js/stdlib/commit/bf2f65007fb311b77e8a56d8d53b67b4e8b7b670) - add C ndarray interface and refactor implementation for `stats/base/dnanvariancepn` [(#4838)](https://github.com/stdlib-js/stdlib/pull/4838)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dnanvariancetk-unreleased">
 
 #### [@stdlib/stats/base/dnanvariancetk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariancetk)
@@ -15529,6 +15551,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`bf2f650`](https://github.com/stdlib-js/stdlib/commit/bf2f65007fb311b77e8a56d8d53b67b4e8b7b670) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanvariancepn` [(#4838)](https://github.com/stdlib-js/stdlib/pull/4838) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`ecfa20e`](https://github.com/stdlib-js/stdlib/commit/ecfa20ee5474b4908861770b6ea4ddb04dacbdf9) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanvarianceyc` [(#4852)](https://github.com/stdlib-js/stdlib/pull/4852) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`899f870`](https://github.com/stdlib-js/stdlib/commit/899f87037e24691f54fb4a6467cd501ea9212388) - **style:** add missing space [(#5312)](https://github.com/stdlib-js/stdlib/pull/5312) _(by Rishav Tarway)_
 -   [`6670680`](https://github.com/stdlib-js/stdlib/commit/6670680a8981818c8e3774da4bf2a8c7dedb4715) - **chore:** address commit comments and use discrete uniform PRNG [(#5313)](https://github.com/stdlib-js/stdlib/pull/5313) _(by Rishav Tarway)_
