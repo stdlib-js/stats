@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,22 +16,8 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/cauchy/logpdf.h"
+#include "stdlib/math/base/napi/ternary.h"
 
-var randu = require( '@stdlib/random/base/randu' );
-var EPS = require( '@stdlib/constants/float64/eps' );
-var logpdf = require( './../lib' );
-
-var gamma;
-var x0;
-var x;
-var y;
-var i;
-
-for ( i = 0; i < 10; i++ ) {
-	x = randu() * 10.0;
-	x0 = ( randu()*10.0 ) - 5.0;
-	gamma = ( randu()*20.0 ) + EPS;
-	y = logpdf( x, x0, gamma );
-	console.log( 'x: %d, x0: %d, γ: %d, ln(f(x;x0,γ)): %d', x.toFixed(4), x0.toFixed(4), gamma.toFixed(4), y.toFixed(4) );
-}
+// cppcheck-suppress shadowFunction
+STDLIB_MATH_BASE_NAPI_MODULE_DDD_D( stdlib_base_dists_cauchy_logpdf )
