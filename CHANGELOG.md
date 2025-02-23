@@ -11311,6 +11311,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanvariancech-unreleased">
+
+#### [@stdlib/stats/base/dnanvariancech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariancech)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`00b23b3`](https://github.com/stdlib-js/stdlib/commit/00b23b3cb5b4e72bf977a9ac170062f8e8614ef1) - add C ndarray interface and refactor implementation for `stats/base/dnanvariancech` [(#4803)](https://github.com/stdlib-js/stdlib/pull/4803)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dnanvariancepn-unreleased">
 
 #### [@stdlib/stats/base/dnanvariancepn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariancepn)
@@ -15586,6 +15608,7 @@ A total of 31 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`00b23b3`](https://github.com/stdlib-js/stdlib/commit/00b23b3cb5b4e72bf977a9ac170062f8e8614ef1) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanvariancech` [(#4803)](https://github.com/stdlib-js/stdlib/pull/4803) _(by Prashant Kumar Yadav)_
 -   [`8fa3827`](https://github.com/stdlib-js/stdlib/commit/8fa382766ef9fac1355c9ad98cf3e81f47387016) - **feat:** add C implementation of `stats/base/dists/cauchy/cdf` [(#4389)](https://github.com/stdlib-js/stdlib/pull/4389) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
 -   [`0622cf1`](https://github.com/stdlib-js/stdlib/commit/0622cf1018078943f26ea1cdadefc448f0038649) - **docs:** fix line wrapping [(#5389)](https://github.com/stdlib-js/stdlib/pull/5389) _(by fadiothman22)_
 -   [`e1c0bd2`](https://github.com/stdlib-js/stdlib/commit/e1c0bd2a55ba108c5e77c99ab17117b9f6693508) - **chore:** address commit comment [(#5321)](https://github.com/stdlib-js/stdlib/pull/5321) _(by Harsh, Philipp Burckhardt)_

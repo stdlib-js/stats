@@ -17,7 +17,8 @@
 */
 
 #include "stdlib/stats/base/dnanvariancech.h"
-#include <stdint.h>
+#include "stdlib/blas/base/shared.h"
+#include "stdlib/strided/base/stride2offset.h"
 
 /**
 * Computes the variance of a double-precision floating-point strided array ignoring `NaN` values and using a one-pass trial mean algorithm.
@@ -36,13 +37,28 @@
 * @param N           number of indexed elements
 * @param correction  degrees of freedom adjustment
 * @param X           input array
-* @param stride      stride length
+* @param strideX     stride length
 * @return            output value
 */
-double stdlib_strided_dnanvariancech( const int64_t N, const double correction, const double *X, const int64_t stride ) {
-	int64_t ix;
-	int64_t n;
-	int64_t i;
+double API_SUFFIX(stdlib_strided_dnanvariancech)( const CBLAS_INT N, const double correction, const double *X, const CBLAS_INT strideX ) {
+	const CBLAS_INT ox = stdlib_strided_stride2offset( N, strideX );
+	return API_SUFFIX(stdlib_strided_dnanvariancech_ndarray)( N, correction, X, strideX, ox );
+}
+
+/**
+* Computes the variance of a double-precision floating-point strided array ignoring `NaN` values and using a one-pass trial mean algorithm and alternative indexing semantics.
+*
+* @param N            number of indexed elements
+* @param correction   degrees of freedom adjustment
+* @param X            input array
+* @param strideX      stride length
+* @param offsetX      starting index for X
+* @return             output value
+*/
+double API_SUFFIX(stdlib_strided_dnanvariancech_ndarray)( const CBLAS_INT N, const double correction, const double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX ) {
+	CBLAS_INT ix;
+	CBLAS_INT n;
+	CBLAS_INT i;
 	double M2;
 	double mu;
 	double nc;
@@ -54,18 +70,14 @@ double stdlib_strided_dnanvariancech( const int64_t N, const double correction, 
 	if ( N <= 0 ) {
 		return 0.0 / 0.0; // NaN
 	}
-	if ( N == 1 || stride == 0 ) {
+	if ( N == 1 || strideX == 0 ) {
 		v = X[ 0 ];
 		if ( v == v && (double)N-correction > 0.0 ) {
 			return 0.0;
 		}
 		return 0.0 / 0.0; // NaN
 	}
-	if ( stride < 0 ) {
-		ix = (1-N) * stride;
-	} else {
-		ix = 0;
-	}
+	ix = offsetX;
 	// Find an estimate for the mean...
 	for ( i = 0; i < N; i++ ) {
 		v = X[ ix ];
@@ -73,12 +85,12 @@ double stdlib_strided_dnanvariancech( const int64_t N, const double correction, 
 			mu = v;
 			break;
 		}
-		ix += stride;
+		ix += strideX;
 	}
 	if ( i == N ) {
 		return 0.0 / 0.0; // NaN
 	}
-	ix += stride;
+	ix += strideX;
 	i += 1;
 
 	// Compute the variance...
@@ -93,7 +105,7 @@ double stdlib_strided_dnanvariancech( const int64_t N, const double correction, 
 			M += d;
 			n += 1;
 		}
-		ix += stride;
+		ix += strideX;
 	}
 	dn = (double)n;
 	nc = dn - correction;
