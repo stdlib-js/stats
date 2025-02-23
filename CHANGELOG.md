@@ -1736,6 +1736,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-cauchy-cdf-unreleased">
+
+#### [@stdlib/stats/base/dists/cauchy/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/cauchy/cdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8fa3827`](https://github.com/stdlib-js/stdlib/commit/8fa382766ef9fac1355c9ad98cf3e81f47387016) - add C implementation of `stats/base/dists/cauchy/cdf` [(#4389)](https://github.com/stdlib-js/stdlib/pull/4389)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-cauchy-entropy-unreleased">
 
 #### [@stdlib/stats/base/dists/cauchy/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/cauchy/entropy)
@@ -15564,6 +15586,7 @@ A total of 31 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8fa3827`](https://github.com/stdlib-js/stdlib/commit/8fa382766ef9fac1355c9ad98cf3e81f47387016) - **feat:** add C implementation of `stats/base/dists/cauchy/cdf` [(#4389)](https://github.com/stdlib-js/stdlib/pull/4389) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
 -   [`0622cf1`](https://github.com/stdlib-js/stdlib/commit/0622cf1018078943f26ea1cdadefc448f0038649) - **docs:** fix line wrapping [(#5389)](https://github.com/stdlib-js/stdlib/pull/5389) _(by fadiothman22)_
 -   [`e1c0bd2`](https://github.com/stdlib-js/stdlib/commit/e1c0bd2a55ba108c5e77c99ab17117b9f6693508) - **chore:** address commit comment [(#5321)](https://github.com/stdlib-js/stdlib/pull/5321) _(by Harsh, Philipp Burckhardt)_
 -   [`afbe56b`](https://github.com/stdlib-js/stdlib/commit/afbe56bcdf992a969b20a912828b42d0cdbe717a) - **docs:** update namespace table of contents [(#5387)](https://github.com/stdlib-js/stdlib/pull/5387) _(by stdlib-bot)_
