@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385)
 -   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364)
 -   [`cfada54`](https://github.com/stdlib-js/stdlib/commit/cfada54a59fd74da628a2c918325a59debd25d3d) - update namespace TypeScript declarations [(#5277)](https://github.com/stdlib-js/stdlib/pull/5277)
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254)
@@ -40,6 +41,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce): remove `dnanmean` from `stats/base`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
 
 -   [`2dbe5b3`](https://github.com/stdlib-js/stdlib/commit/2dbe5b3eadbbfd4699d91ab83be4d32ae9f9f835): remove `dnanmean`
 
@@ -13900,6 +13905,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce): remove `dnanmean` from `stats/base`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+
 -   [`a721643`](https://github.com/stdlib-js/stdlib/commit/a72164377f20d181961797a328798e33891fa617): remove `stats/base/dnanmean`
 
     -   To migrate, users should update their require/import paths to use
@@ -15744,6 +15753,7 @@ A total of 31 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - **feat:** update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385) _(by stdlib-bot)_
 -   [`61f4a86`](https://github.com/stdlib-js/stdlib/commit/61f4a86ab134e94cf081eb600789180b1bfcfd2e) - **docs:** update namespace table of contents [(#5403)](https://github.com/stdlib-js/stdlib/pull/5403) _(by stdlib-bot)_
 -   [`f175cf9`](https://github.com/stdlib-js/stdlib/commit/f175cf9948ecaf9928a34777bd35967dc4bf788d) - **feat:** add C implementation of `stats/base/dists/cauchy/logcdf` [(#4390)](https://github.com/stdlib-js/stdlib/pull/4390) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
 -   [`dd65185`](https://github.com/stdlib-js/stdlib/commit/dd651854fb03fab5e38823675d5a66d5a439628c) - **feat:** add C implementation of `stats/base/dists/cauchy/logpdf` [(#4416)](https://github.com/stdlib-js/stdlib/pull/4416) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
