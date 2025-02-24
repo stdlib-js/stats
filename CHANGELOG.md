@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-23)
+## Unreleased (2025-02-24)
 
 <section class="packages">
 
@@ -15744,6 +15744,7 @@ A total of 31 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`61f4a86`](https://github.com/stdlib-js/stdlib/commit/61f4a86ab134e94cf081eb600789180b1bfcfd2e) - **docs:** update namespace table of contents [(#5403)](https://github.com/stdlib-js/stdlib/pull/5403) _(by stdlib-bot)_
 -   [`f175cf9`](https://github.com/stdlib-js/stdlib/commit/f175cf9948ecaf9928a34777bd35967dc4bf788d) - **feat:** add C implementation of `stats/base/dists/cauchy/logcdf` [(#4390)](https://github.com/stdlib-js/stdlib/pull/4390) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
 -   [`dd65185`](https://github.com/stdlib-js/stdlib/commit/dd651854fb03fab5e38823675d5a66d5a439628c) - **feat:** add C implementation of `stats/base/dists/cauchy/logpdf` [(#4416)](https://github.com/stdlib-js/stdlib/pull/4416) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
 -   [`9f2c153`](https://github.com/stdlib-js/stdlib/commit/9f2c153fdf42e0d123212d4dfaec574db34680a4) - **feat:** add C implementation of `stats/base/dists/gumbel/mean` [(#4086)](https://github.com/stdlib-js/stdlib/pull/4086) _(by Vinit Pandit, Philipp Burckhardt, stdlib-bot)_
