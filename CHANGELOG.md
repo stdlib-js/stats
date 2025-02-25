@@ -15933,6 +15933,7 @@ A total of 31 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7e8f02d`](https://github.com/stdlib-js/stdlib/commit/7e8f02ddf2771907ff71fc79b56e165c62c69bd6) - **docs:** update related packages sections [(#5434)](https://github.com/stdlib-js/stdlib/pull/5434) _(by stdlib-bot)_
 -   [`3033968`](https://github.com/stdlib-js/stdlib/commit/30339687c8fc8a07a4bc593ee539135e54a25e04) - **feat:** add support for accessor arrays and refactor `stats/base/mskmin` [(#5420)](https://github.com/stdlib-js/stdlib/pull/5420) _(by Vivek Maurya, Athan Reines)_
 -   [`763d5a4`](https://github.com/stdlib-js/stdlib/commit/763d5a4a35f93bdc457a0626712794fa710cd40e) - **feat:** add support for accessor arrays and refactor `stats/base/mskrange` [(#5421)](https://github.com/stdlib-js/stdlib/pull/5421) _(by Vivek Maurya, Athan Reines)_
 -   [`c5feaab`](https://github.com/stdlib-js/stdlib/commit/c5feaab7de3240a8c2b248f9977448af8adfe43b) - **feat:** add C implementation of `stats/base/dists/gumbel/entropy` [(#4167)](https://github.com/stdlib-js/stdlib/pull/4167) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
