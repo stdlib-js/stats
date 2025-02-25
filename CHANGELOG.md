@@ -12486,6 +12486,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-mskmin-unreleased">
+
+#### [@stdlib/stats/base/mskmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/mskmin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3033968`](https://github.com/stdlib-js/stdlib/commit/30339687c8fc8a07a4bc593ee539135e54a25e04) - add support for accessor arrays and refactor `stats/base/mskmin` [(#5420)](https://github.com/stdlib-js/stdlib/pull/5420)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-mskrange-unreleased">
 
 #### [@stdlib/stats/base/mskrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/mskrange)
@@ -15911,6 +15933,7 @@ A total of 31 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3033968`](https://github.com/stdlib-js/stdlib/commit/30339687c8fc8a07a4bc593ee539135e54a25e04) - **feat:** add support for accessor arrays and refactor `stats/base/mskmin` [(#5420)](https://github.com/stdlib-js/stdlib/pull/5420) _(by Vivek Maurya, Athan Reines)_
 -   [`763d5a4`](https://github.com/stdlib-js/stdlib/commit/763d5a4a35f93bdc457a0626712794fa710cd40e) - **feat:** add support for accessor arrays and refactor `stats/base/mskrange` [(#5421)](https://github.com/stdlib-js/stdlib/pull/5421) _(by Vivek Maurya, Athan Reines)_
 -   [`c5feaab`](https://github.com/stdlib-js/stdlib/commit/c5feaab7de3240a8c2b248f9977448af8adfe43b) - **feat:** add C implementation of `stats/base/dists/gumbel/entropy` [(#4167)](https://github.com/stdlib-js/stdlib/pull/4167) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
 -   [`09562f8`](https://github.com/stdlib-js/stdlib/commit/09562f8034d60426d4e92c8bbb1160fc528099f8) - **feat:** add C implementation of the `stats/base/dists/gumbel/pdf` [(#4082)](https://github.com/stdlib-js/stdlib/pull/4082) _(by Vinit Pandit, Philipp Burckhardt, stdlib-bot)_
