@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
+## Unreleased (2025-02-25)
 
 <section class="packages">
 
@@ -12486,6 +12486,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-mskrange-unreleased">
+
+#### [@stdlib/stats/base/mskrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/mskrange)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`763d5a4`](https://github.com/stdlib-js/stdlib/commit/763d5a4a35f93bdc457a0626712794fa710cd40e) - add support for accessor arrays and refactor `stats/base/mskrange` [(#5421)](https://github.com/stdlib-js/stdlib/pull/5421)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-nanmax-unreleased">
 
 #### [@stdlib/stats/base/nanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/nanmax)
@@ -15889,6 +15911,7 @@ A total of 31 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`763d5a4`](https://github.com/stdlib-js/stdlib/commit/763d5a4a35f93bdc457a0626712794fa710cd40e) - **feat:** add support for accessor arrays and refactor `stats/base/mskrange` [(#5421)](https://github.com/stdlib-js/stdlib/pull/5421) _(by Vivek Maurya, Athan Reines)_
 -   [`c5feaab`](https://github.com/stdlib-js/stdlib/commit/c5feaab7de3240a8c2b248f9977448af8adfe43b) - **feat:** add C implementation of `stats/base/dists/gumbel/entropy` [(#4167)](https://github.com/stdlib-js/stdlib/pull/4167) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
 -   [`09562f8`](https://github.com/stdlib-js/stdlib/commit/09562f8034d60426d4e92c8bbb1160fc528099f8) - **feat:** add C implementation of the `stats/base/dists/gumbel/pdf` [(#4082)](https://github.com/stdlib-js/stdlib/pull/4082) _(by Vinit Pandit, Philipp Burckhardt, stdlib-bot)_
 -   [`8d999ed`](https://github.com/stdlib-js/stdlib/commit/8d999ed6db40ce945ec99fc21e42d22ae872e10b) - **feat:** add C implementation of `stats/base/dists/gumbel/cdf` [(#4083)](https://github.com/stdlib-js/stdlib/pull/4083) _(by Vinit Pandit, Philipp Burckhardt, stdlib-bot)_
