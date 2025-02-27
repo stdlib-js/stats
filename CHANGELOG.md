@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-26)
+## Unreleased (2025-02-27)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436)
 -   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385)
 -   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364)
 -   [`cfada54`](https://github.com/stdlib-js/stdlib/commit/cfada54a59fd74da628a2c918325a59debd25d3d) - update namespace TypeScript declarations [(#5277)](https://github.com/stdlib-js/stdlib/pull/5277)
@@ -41,6 +42,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1): remove `mulf` symbol
+
+    -   To migrate, users should access the same symbol via the `number/float32/base` namespace.
 
 -   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce): remove `dnanmean` from `stats/base`
 
@@ -14153,6 +14158,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1): remove `mulf` symbol
+
+    -   To migrate, users should access the same symbol via the `number/float32/base` namespace.
+
 -   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce): remove `dnanmean` from `stats/base`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
@@ -16001,6 +16010,7 @@ A total of 31 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - **feat:** update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436) _(by stdlib-bot)_
 -   [`0025233`](https://github.com/stdlib-js/stdlib/commit/0025233fc631a66f86f0139edd2ee9a37885193f) - **feat:** add C implementation for `stats/base/dists/geometric/variance` [(#4012)](https://github.com/stdlib-js/stdlib/pull/4012) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
 -   [`2511aed`](https://github.com/stdlib-js/stdlib/commit/2511aedc60940f53078c69f487bcf44ed3c6e82b) - **feat:** add C implementation for `stats/base/dists/geometric/mode` [(#4090)](https://github.com/stdlib-js/stdlib/pull/4090) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`7e8f02d`](https://github.com/stdlib-js/stdlib/commit/7e8f02ddf2771907ff71fc79b56e165c62c69bd6) - **docs:** update related packages sections [(#5434)](https://github.com/stdlib-js/stdlib/pull/5434) _(by stdlib-bot)_
