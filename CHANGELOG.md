@@ -16226,6 +16226,7 @@ A total of 33 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0999aba`](https://github.com/stdlib-js/stdlib/commit/0999abacb95d123fcd101644ad35083d58a09f08) - **docs:** update namespace table of contents [(#5533)](https://github.com/stdlib-js/stdlib/pull/5533) _(by stdlib-bot)_
 -   [`1f5d85a`](https://github.com/stdlib-js/stdlib/commit/1f5d85abbf922cef11f580c053417b61b69c554d) - **feat:** add C implementation for `stats/base/dists/normal/quantile` [(#4383)](https://github.com/stdlib-js/stdlib/pull/4383) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`eaccd6c`](https://github.com/stdlib-js/stdlib/commit/eaccd6c6b695a1b7bb2807a4ad12a54f9577339f) - **fix:** update C implementation for `stats/base/dists/kumaraswamy/median` [(#5452)](https://github.com/stdlib-js/stdlib/pull/5452) _(by Gautam sharma, Karan Anand, stdlib-bot, Philipp Burckhardt)_
 -   [`d8cd158`](https://github.com/stdlib-js/stdlib/commit/d8cd158e02fea1c4dbaf2f75a7000ac32c52479c) - **feat:** add C implementation for `stats/base/dists/normal/pdf` [(#4377)](https://github.com/stdlib-js/stdlib/pull/4377) _(by Prashant Kumar Yadav, Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
