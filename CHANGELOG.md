@@ -16295,6 +16295,7 @@ A total of 33 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6a802bc`](https://github.com/stdlib-js/stdlib/commit/6a802bc9ee090d54bc05b665bb10e4365ba7d917) - **test:** add tests to achieve 100% code coverage [(#5693)](https://github.com/stdlib-js/stdlib/pull/5693) _(by Karan Anand)_
 -   [`8abdc55`](https://github.com/stdlib-js/stdlib/commit/8abdc5534462ea8e26a02042ff5d26c2ec8bb2f6) - **test:** add tests to achieve 100% code coverage [(#5636)](https://github.com/stdlib-js/stdlib/pull/5636) _(by Karan Anand)_
 -   [`276f077`](https://github.com/stdlib-js/stdlib/commit/276f077fe99f7647d5f31256dc0220a45eedbf3e) - **test:** add tests to achieve 100% code coverage [(#5638)](https://github.com/stdlib-js/stdlib/pull/5638) _(by Karan Anand)_
 -   [`5470254`](https://github.com/stdlib-js/stdlib/commit/54702546fc9b57bfb6aa7a5bd1404e45e1d8ed5f) - **feat:** add C implementation for `stats/base/dists/planck/entropy` [(#4898)](https://github.com/stdlib-js/stdlib/pull/4898) _(by Yuvi Mittal, Philipp Burckhardt)_
