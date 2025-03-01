@@ -16295,6 +16295,7 @@ A total of 33 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`276f077`](https://github.com/stdlib-js/stdlib/commit/276f077fe99f7647d5f31256dc0220a45eedbf3e) - **test:** add tests to achieve 100% code coverage [(#5638)](https://github.com/stdlib-js/stdlib/pull/5638) _(by Karan Anand)_
 -   [`5470254`](https://github.com/stdlib-js/stdlib/commit/54702546fc9b57bfb6aa7a5bd1404e45e1d8ed5f) - **feat:** add C implementation for `stats/base/dists/planck/entropy` [(#4898)](https://github.com/stdlib-js/stdlib/pull/4898) _(by Yuvi Mittal, Philipp Burckhardt)_
 -   [`d847b9d`](https://github.com/stdlib-js/stdlib/commit/d847b9d41ade7bb54db00ef8d3a1a5938e4b5ffb) - **feat(stats):** add C implementation for `stats/base/dists/hypergeometric/stdev` [(#4559)](https://github.com/stdlib-js/stdlib/pull/4559) _(by Karan Anand, stdlib-bot)_
 -   [`61bb593`](https://github.com/stdlib-js/stdlib/commit/61bb59320efa31c8f9c942ca3bbade7828ce6165) - **feat(stats):** add C implementation for `stats/base/dists/hypergeometric/skewness` [(#4560)](https://github.com/stdlib-js/stdlib/pull/4560) _(by Karan Anand, stdlib-bot)_
