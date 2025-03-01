@@ -5124,6 +5124,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-hypergeometric-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/hypergeometric/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/hypergeometric/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`61bb593`](https://github.com/stdlib-js/stdlib/commit/61bb59320efa31c8f9c942ca3bbade7828ce6165) - **stats:** add C implementation for `stats/base/dists/hypergeometric/skewness` [(#4560)](https://github.com/stdlib-js/stdlib/pull/4560)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-invgamma-entropy-unreleased">
 
 #### [@stdlib/stats/base/dists/invgamma/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/invgamma/entropy)
@@ -16226,6 +16248,7 @@ A total of 33 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`61bb593`](https://github.com/stdlib-js/stdlib/commit/61bb59320efa31c8f9c942ca3bbade7828ce6165) - **feat(stats):** add C implementation for `stats/base/dists/hypergeometric/skewness` [(#4560)](https://github.com/stdlib-js/stdlib/pull/4560) _(by Karan Anand, stdlib-bot)_
 -   [`08f4ebd`](https://github.com/stdlib-js/stdlib/commit/08f4ebdb62d0e8f312498d24c0f7e29961682f89) - **docs:** update namespace TypeScript declarations [(#5531)](https://github.com/stdlib-js/stdlib/pull/5531) _(by stdlib-bot)_
 -   [`0999aba`](https://github.com/stdlib-js/stdlib/commit/0999abacb95d123fcd101644ad35083d58a09f08) - **docs:** update namespace table of contents [(#5533)](https://github.com/stdlib-js/stdlib/pull/5533) _(by stdlib-bot)_
 -   [`1f5d85a`](https://github.com/stdlib-js/stdlib/commit/1f5d85abbf922cef11f580c053417b61b69c554d) - **feat:** add C implementation for `stats/base/dists/normal/quantile` [(#4383)](https://github.com/stdlib-js/stdlib/pull/4383) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
