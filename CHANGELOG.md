@@ -12213,6 +12213,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dvariance-unreleased">
+
+#### [@stdlib/stats/base/dvariance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvariance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`00fa462`](https://github.com/stdlib-js/stdlib/commit/00fa4624da3569f508a061390f96eea92bb84ee3) - add C ndarray interface and refactor implementation for `stats/base/dvariance` [(#5522)](https://github.com/stdlib-js/stdlib/pull/5522)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dvariancech-unreleased">
 
 #### [@stdlib/stats/base/dvariancech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvariancech)
@@ -16023,6 +16045,7 @@ A total of 32 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`00fa462`](https://github.com/stdlib-js/stdlib/commit/00fa4624da3569f508a061390f96eea92bb84ee3) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvariance` [(#5522)](https://github.com/stdlib-js/stdlib/pull/5522) _(by Prashant Kumar Yadav, Aayush Khanna)_
 -   [`a1c366a`](https://github.com/stdlib-js/stdlib/commit/a1c366a395fd46fde193bad73bac162daf90389b) - **chore:** address commit comments [(#5492)](https://github.com/stdlib-js/stdlib/pull/5492) _(by Harsh, Neeraj Pathak)_
 -   [`483ccab`](https://github.com/stdlib-js/stdlib/commit/483ccab72251ca824d678a1a5b241faf8c694005) - **chore:** address commit comments (docs update & bench refactor) [(#5518)](https://github.com/stdlib-js/stdlib/pull/5518) _(by rahulrangers, Neeraj Pathak)_
 -   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - **feat:** update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436) _(by stdlib-bot)_
