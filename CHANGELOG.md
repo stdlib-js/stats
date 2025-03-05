@@ -16712,6 +16712,7 @@ A total of 38 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`afa0a17`](https://github.com/stdlib-js/stdlib/commit/afa0a17b6d628f825151674c1c3848be2a16f5dc) - **test:** pass in missing `opts` argument [(#5794)](https://github.com/stdlib-js/stdlib/pull/5794) _(by Karan Anand)_
 -   [`a74d773`](https://github.com/stdlib-js/stdlib/commit/a74d773fe8fc148cc4bc7619e868624c2e499bc7) - **feat:** add C implementation for `@stdlib/stats/base/dists/frechet/logcdf` [(#5517)](https://github.com/stdlib-js/stdlib/pull/5517) _(by Nishchay Rajput, Philipp Burckhardt)_
 -   [`e5238bb`](https://github.com/stdlib-js/stdlib/commit/e5238bb96b7138d346ea0db8b535aec64c8a856c) - **bench:** refactor random number generation in `stats/base/dists/laplace` [(#5270)](https://github.com/stdlib-js/stdlib/pull/5270) _(by GK Bishnoi)_
 -   [`2bb57c6`](https://github.com/stdlib-js/stdlib/commit/2bb57c69cdf5668f7a1490f85edd538a3f7517e4) - **feat:** add C implementation for `stats/base/dists/levy/quantile` [(#4756)](https://github.com/stdlib-js/stdlib/pull/4756) _(by Saurabh Singh, Philipp Burckhardt, stdlib-bot)_
