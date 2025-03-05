@@ -1736,6 +1736,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-bradford-quantile-unreleased">
+
+#### [@stdlib/stats/base/dists/bradford/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bradford/quantile)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b2b2c84`](https://github.com/stdlib-js/stdlib/commit/b2b2c8452743fd7096114ec524524b8d0b817ab4) - add `stats/base/dists/bradford/quantile` [(#5295)](https://github.com/stdlib-js/stdlib/pull/5295)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-bradford-stdev-unreleased">
 
 #### [@stdlib/stats/base/dists/bradford/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bradford/stdev)
@@ -17032,6 +17054,7 @@ A total of 38 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b2b2c84`](https://github.com/stdlib-js/stdlib/commit/b2b2c8452743fd7096114ec524524b8d0b817ab4) - **feat:** add `stats/base/dists/bradford/quantile` [(#5295)](https://github.com/stdlib-js/stdlib/pull/5295) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
 -   [`1ebcfd6`](https://github.com/stdlib-js/stdlib/commit/1ebcfd618beaf055a7097c89f3794d507fd14947) - **bench:** refactor random number generation in `stats/base/dists/weibull` [(#5342)](https://github.com/stdlib-js/stdlib/pull/5342) _(by Gaurav)_
 -   [`766b77d`](https://github.com/stdlib-js/stdlib/commit/766b77dbec2e3aee7e59d5759382baae1db229ac) - **feat:** add C implementation for `stats/base/dists/bernoulli/quantile` [(#4869)](https://github.com/stdlib-js/stdlib/pull/4869) _(by Nishchay Rajput, Philipp Burckhardt, stdlib-bot)_
 -   [`bc90eba`](https://github.com/stdlib-js/stdlib/commit/bc90ebaf8e8318423f84cf652e1003836e898ab4) - **feat:** add C implementation for `stats/base/dists/uniform/mgf` [(#4142)](https://github.com/stdlib-js/stdlib/pull/4142) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
