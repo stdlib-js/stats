@@ -288,7 +288,7 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/base/dnanmeanors`][@stdlib/stats/base/dnanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dnanmeanors`][@stdlib/stats/strided/dnanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanmeanors`][@stdlib/stats/base/nanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring NaN values and using ordinary recursive summation.</span>
 -   <span class="package-name">[`@stdlib/stats/base/smeanors`][@stdlib/stats/base/smeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using ordinary recursive summation.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanmean`][@stdlib/stats/base/snanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values.</span>
@@ -309,7 +309,7 @@ int main( void ) {
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/dnanmeanors
+[@stdlib/stats/strided/dnanmeanors]: https://github.com/stdlib-js/stats/tree/main/strided/dnanmeanors
 
 [@stdlib/stats/base/nanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/nanmeanors
 
