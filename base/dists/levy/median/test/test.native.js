@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,13 +20,14 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var abs = require( '@stdlib/math/base/special/abs' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
-var median = require( './../lib' );
 
 
 // FIXTURES //
@@ -34,50 +35,58 @@ var median = require( './../lib' );
 var data = require( './fixtures/julia/data.json' );
 
 
+// VARIABLES //
+
+var median = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( median instanceof Error )
+};
+
+
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof median, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'if provided `NaN` for any parameter, the function returns `NaN`', function test( t ) {
+tape( 'if provided `NaN` for any parameter, the function returns `NaN`', opts, function test( t ) {
 	var y = median( NaN, 1.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 	y = median( 1.0, NaN );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 	t.end();
 });
 
-tape( 'if provided a nonpositive `c`, the function returns `NaN`', function test( t ) {
+tape( 'if provided a nonpositive `c`, the function returns `NaN`', opts, function test( t ) {
 	var y;
 
 	y = median( 2.0, 0.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	y = median( 2.0, -1.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	y = median( 2.0, -1.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	y = median( 1.0, NINF );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	y = median( PINF, NINF );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	y = median( NINF, NINF );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	y = median( NaN, NINF );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	t.end();
 });
 
-tape( 'the function returns the median of a Lévy distribution', function test( t ) {
+tape( 'the function returns the median of a Lévy distribution', opts, function test( t ) {
 	var expected;
 	var delta;
 	var tol;
@@ -91,7 +100,7 @@ tape( 'the function returns the median of a Lévy distribution', function test( 
 	c = data.c;
 	for ( i = 0; i < mu.length; i++ ) {
 		y = median( mu[i], c[i] );
-		if ( expected[i] !== null ) {
+		if ( expected[i] !== null) {
 			if ( y === expected[i] ) {
 				t.equal( y, expected[i], 'mu:'+mu[i]+', c: '+c[i]+', y: '+y+', expected: '+expected[i] );
 			} else {
