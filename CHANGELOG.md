@@ -17389,6 +17389,7 @@ A total of 39 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`528116b`](https://github.com/stdlib-js/stdlib/commit/528116b919ebbbecdaf3ad202436d642d8668254) - **docs:** update namespace table of contents [(#5818)](https://github.com/stdlib-js/stdlib/pull/5818) _(by stdlib-bot)_
 -   [`ad7a023`](https://github.com/stdlib-js/stdlib/commit/ad7a02395bbac49b3049917fdc82c1c1c9dae08b) - **feat:** add C implementation for `stats/base/dists/levy/variance` [(#3963)](https://github.com/stdlib-js/stdlib/pull/3963) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
 -   [`b790b70`](https://github.com/stdlib-js/stdlib/commit/b790b70f71820f266db46156d3dfef2443d33920) - **feat:** add C implementation for `stats/base/dists/levy/median` [(#4076)](https://github.com/stdlib-js/stdlib/pull/4076) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
 -   [`dd3acfd`](https://github.com/stdlib-js/stdlib/commit/dd3acfdb0eb89f51b9d42e9b078b4c646b1a49cf) - **refactor:** update `stats/base/dists/triangular/mgf` implementation and test tolerances [(#4768)](https://github.com/stdlib-js/stdlib/pull/4768) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
