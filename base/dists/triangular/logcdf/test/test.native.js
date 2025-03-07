@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,13 +20,14 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var abs = require( '@stdlib/math/base/special/abs' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
-var logcdf = require( './../lib' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 
 
 // FIXTURES //
@@ -36,15 +37,23 @@ var mediumRange = require( './fixtures/julia/medium_range.json' );
 var largeRange = require( './fixtures/julia/large_range.json' );
 
 
+// VARIABLES //
+
+var logcdf = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( logcdf instanceof Error )
+};
+
+
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof logcdf, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'if provided `NaN` for any parameter, the function returns `NaN`', function test( t ) {
+tape( 'if provided `NaN` for any parameter, the function returns `NaN`', opts, function test( t ) {
 	var y = logcdf( NaN, 0.0, 1.0, 0.5 );
 	t.equal( isnan( y ), true, 'returns NaN' );
 
@@ -60,19 +69,19 @@ tape( 'if provided `NaN` for any parameter, the function returns `NaN`', functio
 	t.end();
 });
 
-tape( 'if provided `+infinity` for `x` and a valid `a`, `b` and `c`, the function returns `0`', function test( t ) {
+tape( 'if provided `+infinity` for `x` and a valid `a`, `b` and `c`, the function returns `0`', opts, function test( t ) {
 	var y = logcdf( PINF, 0.0, 1.0, 0.5 );
 	t.equal( y, 0.0, 'returns 0' );
 	t.end();
 });
 
-tape( 'if provided `-infinity` for `x` and a valid `a`, `b` and `c`, the function returns `-infinity`', function test( t ) {
+tape( 'if provided `-infinity` for `x` and a valid `a`, `b` and `c`, the function returns `-infinity`', opts, function test( t ) {
 	var y = logcdf( NINF, 0.0, 1.0, 0.5 );
 	t.equal( y, NINF, 'returns -infinity' );
 	t.end();
 });
 
-tape( 'if provided parameters not satisfying `a <= c <= b`, the function returns `NaN`', function test( t ) {
+tape( 'if provided parameters not satisfying `a <= c <= b`, the function returns `NaN`', opts, function test( t ) {
 	var y;
 
 	y = logcdf( 2.0, -1.0, -1.1, -1.0 );
@@ -90,7 +99,7 @@ tape( 'if provided parameters not satisfying `a <= c <= b`, the function returns
 	t.end();
 });
 
-tape( 'the function evaluates the logcdf for `x` given a small range `b - a`', function test( t ) {
+tape( 'the function evaluates the logcdf for `x` given a small range `b - a`', opts, function test( t ) {
 	var expected;
 	var delta;
 	var tol;
@@ -119,7 +128,7 @@ tape( 'the function evaluates the logcdf for `x` given a small range `b - a`', f
 	t.end();
 });
 
-tape( 'the function evaluates the logcdf for `x` given a medium range `b - a`', function test( t ) {
+tape( 'the function evaluates the logcdf for `x` given a medium range `b - a`', opts, function test( t ) {
 	var expected;
 	var delta;
 	var tol;
@@ -148,7 +157,7 @@ tape( 'the function evaluates the logcdf for `x` given a medium range `b - a`', 
 	t.end();
 });
 
-tape( 'the function evaluates the logcdf for `x` given a large range `b - a`', function test( t ) {
+tape( 'the function evaluates the logcdf for `x` given a large range `b - a`', opts, function test( t ) {
 	var expected;
 	var delta;
 	var tol;
