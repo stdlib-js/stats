@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,23 +16,8 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/triangular/quantile.h"
+#include "stdlib/math/base/napi/quaternary.h"
 
-var uniform = require( '@stdlib/random/base/uniform' );
-var quantile = require( './../lib' );
-
-var a;
-var b;
-var c;
-var p;
-var y;
-var i;
-
-for ( i = 0; i < 25; i++ ) {
-	p = uniform( 0.0, 1.0 );
-	a = uniform( 0.0, 10.0 );
-	b = uniform( a, a + 40.0 );
-	c = uniform( a, b );
-	y = quantile( p, a, b, c );
-	console.log( 'p: %d, a: %d, b: %d, c: %d, Q(p;a,b,c): %d', p.toFixed( 4 ), a.toFixed( 4 ), b.toFixed( 4 ), c.toFixed( 4 ), y.toFixed( 4 ) );
-}
+// cppcheck-suppress shadowFunction
+STDLIB_MATH_BASE_NAPI_MODULE_DDDD_D( stdlib_base_dists_triangular_quantile )
