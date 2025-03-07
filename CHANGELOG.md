@@ -17560,6 +17560,7 @@ A total of 40 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`077d03c`](https://github.com/stdlib-js/stdlib/commit/077d03c9b5f1685bc933fd143ee7cb8db25957b0) - **chore:** remove duplicate keywords [(#5845)](https://github.com/stdlib-js/stdlib/pull/5845) _(by Karan Anand)_
 -   [`aec0e88`](https://github.com/stdlib-js/stdlib/commit/aec0e8848ed94f8df559aec221a457ff3e27f8f2) - **feat:** add C implementation for `stats/base/dists/normal/mgf` [(#4373)](https://github.com/stdlib-js/stdlib/pull/4373) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`eac21cf`](https://github.com/stdlib-js/stdlib/commit/eac21cf605e4afe7ab072b71003384002e0f7254) - **feat:** add C implementation for `stats/base/dists/geometric/quantile` [(#4094)](https://github.com/stdlib-js/stdlib/pull/4094) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`3ee60b4`](https://github.com/stdlib-js/stdlib/commit/3ee60b4370969d787a3446b90b276f74bc2f9cb3) - **feat:** add C implementation for `stats/base/dists/triangular/quantile` [(#4307)](https://github.com/stdlib-js/stdlib/pull/4307) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
