@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-06)
+## Unreleased (2025-03-07)
 
 <section class="packages">
 
@@ -17390,6 +17390,7 @@ A total of 40 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d74f923`](https://github.com/stdlib-js/stdlib/commit/d74f923f42af3dd384a9565d56d0f4eec217ed14) - **chore:** remove extra empty lines [(#5839)](https://github.com/stdlib-js/stdlib/pull/5839) _(by stdlib-bot)_
 -   [`c15b20d`](https://github.com/stdlib-js/stdlib/commit/c15b20d261d1422de5278b068ef3a941d49b059e) - **chore:** address commit comment  [(#5827)](https://github.com/stdlib-js/stdlib/pull/5827) _(by Hemant M Mehta)_
 -   [`528116b`](https://github.com/stdlib-js/stdlib/commit/528116b919ebbbecdaf3ad202436d642d8668254) - **docs:** update namespace table of contents [(#5818)](https://github.com/stdlib-js/stdlib/pull/5818) _(by stdlib-bot)_
 -   [`ad7a023`](https://github.com/stdlib-js/stdlib/commit/ad7a02395bbac49b3049917fdc82c1c1c9dae08b) - **feat:** add C implementation for `stats/base/dists/levy/variance` [(#3963)](https://github.com/stdlib-js/stdlib/pull/3963) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
