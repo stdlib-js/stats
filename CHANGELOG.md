@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-07)
+## Unreleased (2025-03-08)
 
 <section class="packages">
 
@@ -1775,6 +1775,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`21f8e14`](https://github.com/stdlib-js/stdlib/commit/21f8e1488e983bf951e590558a96ffee0bc956cc) - add `stats/base/dists/bradford/mode` [(#5315)](https://github.com/stdlib-js/stdlib/pull/5315)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-bradford-pdf-unreleased">
+
+#### [@stdlib/stats/base/dists/bradford/pdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/bradford/pdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1949944`](https://github.com/stdlib-js/stdlib/commit/19499442b3eeaa0ad9efc5b91a76538dcc45a18d) - add `stats/base/dists/bradford/pdf` [(#5280)](https://github.com/stdlib-js/stdlib/pull/5280)
 
 </section>
 
@@ -17560,6 +17582,7 @@ A total of 40 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1949944`](https://github.com/stdlib-js/stdlib/commit/19499442b3eeaa0ad9efc5b91a76538dcc45a18d) - **feat:** add `stats/base/dists/bradford/pdf` [(#5280)](https://github.com/stdlib-js/stdlib/pull/5280) _(by Karan Anand)_
 -   [`9cff95d`](https://github.com/stdlib-js/stdlib/commit/9cff95ddb6969672c0ca55117caa70a34fd9c640) - **chore:** update random number generation function in `triangular/logpdf` [(#5266)](https://github.com/stdlib-js/stdlib/pull/5266) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`ba14f27`](https://github.com/stdlib-js/stdlib/commit/ba14f27dc87766c75bc71eb63a858b4db6614740) - **docs:** fix example values in `stats/base/dists/bradford/quantile` [(#5846)](https://github.com/stdlib-js/stdlib/pull/5846) _(by Karan Anand)_
 -   [`077d03c`](https://github.com/stdlib-js/stdlib/commit/077d03c9b5f1685bc933fd143ee7cb8db25957b0) - **chore:** remove duplicate keywords [(#5845)](https://github.com/stdlib-js/stdlib/pull/5845) _(by Karan Anand)_
