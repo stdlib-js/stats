@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-08)
+## Unreleased (2025-03-09)
 
 <section class="packages">
 
@@ -17582,6 +17582,7 @@ A total of 40 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2a46bc7`](https://github.com/stdlib-js/stdlib/commit/2a46bc7f9419e7b629197f54377d1181e2a236b4) - **refactor:** avoid unnecessary computation _(by Athan Reines)_
 -   [`1949944`](https://github.com/stdlib-js/stdlib/commit/19499442b3eeaa0ad9efc5b91a76538dcc45a18d) - **feat:** add `stats/base/dists/bradford/pdf` [(#5280)](https://github.com/stdlib-js/stdlib/pull/5280) _(by Karan Anand)_
 -   [`9cff95d`](https://github.com/stdlib-js/stdlib/commit/9cff95ddb6969672c0ca55117caa70a34fd9c640) - **chore:** update random number generation function in `triangular/logpdf` [(#5266)](https://github.com/stdlib-js/stdlib/pull/5266) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`ba14f27`](https://github.com/stdlib-js/stdlib/commit/ba14f27dc87766c75bc71eb63a858b4db6614740) - **docs:** fix example values in `stats/base/dists/bradford/quantile` [(#5846)](https://github.com/stdlib-js/stdlib/pull/5846) _(by Karan Anand)_
