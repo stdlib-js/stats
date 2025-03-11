@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-10)
+## Unreleased (2025-03-11)
 
 <section class="packages">
 
@@ -13019,6 +13019,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanstdevtk-unreleased">
+
+#### [@stdlib/stats/base/dnanstdevtk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanstdevtk)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fe9731c`](https://github.com/stdlib-js/stdlib/commit/fe9731c4a5ea31fb0553ad5b9b217017749ef157) - add C ndarray interface and refactor implementation for `stats/base/dnanstdevtk` [(#5413)](https://github.com/stdlib-js/stdlib/pull/5413)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dnanvariancech-unreleased">
 
 #### [@stdlib/stats/base/dnanvariancech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariancech)
@@ -17596,6 +17618,7 @@ A total of 42 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fe9731c`](https://github.com/stdlib-js/stdlib/commit/fe9731c4a5ea31fb0553ad5b9b217017749ef157) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevtk` [(#5413)](https://github.com/stdlib-js/stdlib/pull/5413) _(by Prashant Kumar Yadav)_
 -   [`2ce745b`](https://github.com/stdlib-js/stdlib/commit/2ce745bfa32318ef066ee82bd886d14f7432605f) - **chore:** address commit comments [(#5927)](https://github.com/stdlib-js/stdlib/pull/5927) _(by AmanBhadkariya, Philipp Burckhardt)_
 -   [`2bd92b9`](https://github.com/stdlib-js/stdlib/commit/2bd92b9ec557e1e5504abbdfe5d08f03966514b2) - **docs(bradford):** update readme to fix typo [(#5929)](https://github.com/stdlib-js/stdlib/pull/5929) _(by Haroon Rasheed)_
 -   [`2a46bc7`](https://github.com/stdlib-js/stdlib/commit/2a46bc7f9419e7b629197f54377d1181e2a236b4) - **refactor:** avoid unnecessary computation _(by Athan Reines)_
