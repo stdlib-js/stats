@@ -13041,6 +13041,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanstdevwd-unreleased">
+
+#### [@stdlib/stats/base/dnanstdevwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanstdevwd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d8322de`](https://github.com/stdlib-js/stdlib/commit/d8322de9306b0972be795fa9f4a5ec0173d9c568) - add C ndarray interface and refactor implementation for `stats/base/dnanstdevwd` [(#5406)](https://github.com/stdlib-js/stdlib/pull/5406)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dnanvariancech-unreleased">
 
 #### [@stdlib/stats/base/dnanvariancech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariancech)
@@ -17619,6 +17641,7 @@ A total of 43 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d8322de`](https://github.com/stdlib-js/stdlib/commit/d8322de9306b0972be795fa9f4a5ec0173d9c568) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevwd` [(#5406)](https://github.com/stdlib-js/stdlib/pull/5406) _(by Prashant Kumar Yadav, Aayush Khanna)_
 -   [`4748a5a`](https://github.com/stdlib-js/stdlib/commit/4748a5a2ba84c637c10515c018a9f5162f42c8ee) - **chore(sincosd):** address commit comments [(#5955)](https://github.com/stdlib-js/stdlib/pull/5955) _(by Jaison D Souza)_
 -   [`fe9731c`](https://github.com/stdlib-js/stdlib/commit/fe9731c4a5ea31fb0553ad5b9b217017749ef157) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevtk` [(#5413)](https://github.com/stdlib-js/stdlib/pull/5413) _(by Prashant Kumar Yadav)_
 -   [`2ce745b`](https://github.com/stdlib-js/stdlib/commit/2ce745bfa32318ef066ee82bd886d14f7432605f) - **chore:** address commit comments [(#5927)](https://github.com/stdlib-js/stdlib/pull/5927) _(by AmanBhadkariya, Philipp Burckhardt)_
