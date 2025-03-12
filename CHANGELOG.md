@@ -13433,6 +13433,16 @@ This release closes the following issue:
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`9e91f81`](https://github.com/stdlib-js/stdlib/commit/9e91f81aa0353538cb410b8ea72862c08e20c27b) - add C `ndarray` interface and refactor implementation for `stats/base/dsnanmean` [(#4395)](https://github.com/stdlib-js/stdlib/pull/4395)
+
+</section>
+
+<!-- /.features -->
+
 <section class="issues">
 
 ##### Closed Issues
@@ -17676,6 +17686,7 @@ A total of 44 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9e91f81`](https://github.com/stdlib-js/stdlib/commit/9e91f81aa0353538cb410b8ea72862c08e20c27b) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsnanmean` [(#4395)](https://github.com/stdlib-js/stdlib/pull/4395) _(by Neeraj Pathak, Athan Reines, Aayush Khanna)_
 -   [`d8fc3a6`](https://github.com/stdlib-js/stdlib/commit/d8fc3a674fe903b4a9ba6d2d0fd7732fdad9b336) - **feat:** add `stats/incr/nanmean` [(#5976)](https://github.com/stdlib-js/stdlib/pull/5976) _(by Anshu Kumar, Athan Reines)_
 -   [`0b66ee5`](https://github.com/stdlib-js/stdlib/commit/0b66ee5df6d2855fd846c57d2fca7682651aa031) - **docs:** update namespace table of contents [(#5965)](https://github.com/stdlib-js/stdlib/pull/5965) _(by stdlib-bot)_
 -   [`589af2d`](https://github.com/stdlib-js/stdlib/commit/589af2d01ba500ec61bd5b1f6b4840e597a00df1) - **docs:** update namespace TypeScript declarations [(#5963)](https://github.com/stdlib-js/stdlib/pull/5963) _(by stdlib-bot)_
