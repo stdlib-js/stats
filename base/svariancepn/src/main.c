@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,7 +18,8 @@
 
 #include "stdlib/stats/base/svariancepn.h"
 #include "stdlib/blas/ext/base/ssumpw.h"
-#include <stdint.h>
+#include "stdlib/blas/base/shared.h"
+#include "stdlib/strided/base/stride2offset.h"
 
 /**
 * Computes the variance of a single-precision floating-point strided array using a two-pass algorithm.
@@ -35,12 +36,27 @@
 * @param N           number of indexed elements
 * @param correction  degrees of freedom adjustment
 * @param X           input array
-* @param stride      stride length
+* @param strideX     stride length
 * @return            output value
 */
-float stdlib_strided_svariancepn( const int64_t N, const float correction, const float *X, const int64_t stride ) {
-	int64_t ix;
-	int64_t i;
+float API_SUFFIX(stdlib_strided_svariancepn)( const CBLAS_INT N, const float correction, const float *X, const CBLAS_INT strideX ) {
+	const CBLAS_INT ox = stdlib_strided_stride2offset( N, strideX );
+	return API_SUFFIX(stdlib_strided_svariancepn_ndarray)( N, correction, X, strideX, ox );
+}
+
+/**
+* Computes the variance of a single-precision floating-point strided array using a two-pass algorithm and alternative indexing semantics.
+*
+* @param N            number of indexed elements
+* @param correction   degrees of freedom adjustment
+* @param X            input array
+* @param strideX      stride length
+* @param offsetX      starting index for X
+* @return             output value
+*/
+float API_SUFFIX(stdlib_strided_svariancepn_ndarray)( const CBLAS_INT N, const float correction, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX ) {
+	CBLAS_INT ix;
+	CBLAS_INT i;
 	double dN;
 	double n;
 	float mu;
@@ -53,17 +69,14 @@ float stdlib_strided_svariancepn( const int64_t N, const float correction, const
 	if ( N <= 0 || n <= 0.0f ) {
 		return 0.0f / 0.0f; // NaN
 	}
-	if ( N == 1 || stride == 0 ) {
+	if ( N == 1 || strideX == 0 ) {
 		return 0.0f;
 	}
 	// Compute an estimate for the mean:
-	mu = (double)stdlib_strided_ssumpw( N, X, stride ) / dN;
+	mu = (double)API_SUFFIX(stdlib_strided_ssumpw_ndarray)( N, X, strideX, offsetX ) / dN;
 
-	if ( stride < 0 ) {
-		ix = (1-N) * stride;
-	} else {
-		ix = 0;
-	}
+	ix = offsetX;
+
 	// Compute the variance...
 	M2 = 0.0f;
 	M = 0.0f;
@@ -71,7 +84,7 @@ float stdlib_strided_svariancepn( const int64_t N, const float correction, const
 		d = X[ ix ] - mu;
 		M2 += d * d;
 		M += d;
-		ix += stride;
+		ix += strideX;
 	}
 	return (float)((double)M2/n) - ( (float)((double)M/dN) * (float)((double)M/n) );
 }
