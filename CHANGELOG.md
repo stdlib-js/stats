@@ -17641,7 +17641,6 @@ A total of 43 people contributed to this release. Thank you to the following con
 
 <details>
 
--   [`0b66ee5`](https://github.com/stdlib-js/stdlib/commit/0b66ee5df6d2855fd846c57d2fca7682651aa031) - **docs:** update namespace table of contents [(#5965)](https://github.com/stdlib-js/stdlib/pull/5965) _(by stdlib-bot)_
 -   [`589af2d`](https://github.com/stdlib-js/stdlib/commit/589af2d01ba500ec61bd5b1f6b4840e597a00df1) - **docs:** update namespace TypeScript declarations [(#5963)](https://github.com/stdlib-js/stdlib/pull/5963) _(by stdlib-bot)_
 -   [`7036b32`](https://github.com/stdlib-js/stdlib/commit/7036b3205e9c2afc5123cec375559f8a7da0c0b3) - **chore:** address commit comment [(#5972)](https://github.com/stdlib-js/stdlib/pull/5972) _(by Harsh)_
 -   [`d8322de`](https://github.com/stdlib-js/stdlib/commit/d8322de9306b0972be795fa9f4a5ec0173d9c568) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevwd` [(#5406)](https://github.com/stdlib-js/stdlib/pull/5406) _(by Prashant Kumar Yadav, Aayush Khanna)_
