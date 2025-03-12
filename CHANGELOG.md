@@ -13559,6 +13559,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dstdevpn-unreleased">
+
+#### [@stdlib/stats/base/dstdevpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevpn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5219674`](https://github.com/stdlib-js/stdlib/commit/5219674d43d8c4cdff5b80169f206e6b4864b374) - add C ndarray interface and refactor implementation for `stats/base/dstdevpn` [(#4687)](https://github.com/stdlib-js/stdlib/pull/4687)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dstdevtk-unreleased">
 
 #### [@stdlib/stats/base/dstdevtk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dstdevtk)
@@ -17708,6 +17730,7 @@ A total of 44 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5219674`](https://github.com/stdlib-js/stdlib/commit/5219674d43d8c4cdff5b80169f206e6b4864b374) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdevpn` [(#4687)](https://github.com/stdlib-js/stdlib/pull/4687) _(by Prashant Kumar Yadav, stdlib-bot)_
 -   [`ece5e44`](https://github.com/stdlib-js/stdlib/commit/ece5e447db05e52c5eb951075c8dfc5cb25d082e) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancepn` [(#4766)](https://github.com/stdlib-js/stdlib/pull/4766) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`9e91f81`](https://github.com/stdlib-js/stdlib/commit/9e91f81aa0353538cb410b8ea72862c08e20c27b) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsnanmean` [(#4395)](https://github.com/stdlib-js/stdlib/pull/4395) _(by Neeraj Pathak, Athan Reines, Aayush Khanna)_
 -   [`d8fc3a6`](https://github.com/stdlib-js/stdlib/commit/d8fc3a674fe903b4a9ba6d2d0fd7732fdad9b336) - **feat:** add `stats/incr/nanmean` [(#5976)](https://github.com/stdlib-js/stdlib/pull/5976) _(by Anshu Kumar, Athan Reines)_
