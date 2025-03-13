@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`87abb74`](https://github.com/stdlib-js/stdlib/commit/87abb743fe577742c81ce1be6b5b8477da33b5f2) - update namespace TypeScript declarations [(#6008)](https://github.com/stdlib-js/stdlib/pull/6008)
 -   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436)
 -   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385)
 -   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364)
@@ -17752,6 +17753,7 @@ A total of 44 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`87abb74`](https://github.com/stdlib-js/stdlib/commit/87abb743fe577742c81ce1be6b5b8477da33b5f2) - **feat:** update namespace TypeScript declarations [(#6008)](https://github.com/stdlib-js/stdlib/pull/6008) _(by stdlib-bot)_
 -   [`26490b7`](https://github.com/stdlib-js/stdlib/commit/26490b70b5ed23d5e2dd7b3d1884e6d389aae524) - **chore:** address commit comment [(#5953)](https://github.com/stdlib-js/stdlib/pull/5953) _(by Harsh)_
 -   [`e1b7184`](https://github.com/stdlib-js/stdlib/commit/e1b7184cd08ad496335c6acb76170e027fcc86ce) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevyc` [(#5394)](https://github.com/stdlib-js/stdlib/pull/5394) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`5219674`](https://github.com/stdlib-js/stdlib/commit/5219674d43d8c4cdff5b80169f206e6b4864b374) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdevpn` [(#4687)](https://github.com/stdlib-js/stdlib/pull/4687) _(by Prashant Kumar Yadav, stdlib-bot)_
