@@ -13020,6 +13020,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanstdevch-unreleased">
+
+#### [@stdlib/stats/base/dnanstdevch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanstdevch)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5883c68`](https://github.com/stdlib-js/stdlib/commit/5883c680f228c9b8781e495979e60166e6e91e79) - add C ndarray interface and refactor implementation for `stats/base/dnanstdevch` [(#5422)](https://github.com/stdlib-js/stdlib/pull/5422)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dnanstdevpn-unreleased">
 
 #### [@stdlib/stats/base/dnanstdevpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanstdevpn)
@@ -17800,6 +17822,7 @@ A total of 45 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5883c68`](https://github.com/stdlib-js/stdlib/commit/5883c680f228c9b8781e495979e60166e6e91e79) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevch` [(#5422)](https://github.com/stdlib-js/stdlib/pull/5422) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`caa35d1`](https://github.com/stdlib-js/stdlib/commit/caa35d1abb3fc347fd43e0910ff412e93b511754) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevpn` [(#5494)](https://github.com/stdlib-js/stdlib/pull/5494) _(by Prashant Kumar Yadav, Aayush Khanna, Athan Reines)_
 -   [`216ed03`](https://github.com/stdlib-js/stdlib/commit/216ed034f920b72bd4ffc82724285333d28e33cc) - **docs:** update namespace table of contents [(#6010)](https://github.com/stdlib-js/stdlib/pull/6010) _(by stdlib-bot, Athan Reines)_
 -   [`dc9f39f`](https://github.com/stdlib-js/stdlib/commit/dc9f39f6f289ac4a78bdfb99571db2fbbdd6e7a2) - **chore:** address commit comments [(#6011)](https://github.com/stdlib-js/stdlib/pull/6011) _(by Deep Trivedi)_
