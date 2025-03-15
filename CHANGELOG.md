@@ -20,7 +20,6 @@
 
 ##### Features
 
--   [`3da41b7`](https://github.com/stdlib-js/stdlib/commit/3da41b7ccb754f5ffa7f4f9fc61799d570871a19) - update namespace TypeScript declarations [(#6058)](https://github.com/stdlib-js/stdlib/pull/6058)
 -   [`87abb74`](https://github.com/stdlib-js/stdlib/commit/87abb743fe577742c81ce1be6b5b8477da33b5f2) - update namespace TypeScript declarations [(#6008)](https://github.com/stdlib-js/stdlib/pull/6008)
 -   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436)
 -   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385)
@@ -17911,7 +17910,6 @@ A total of 45 people contributed to this release. Thank you to the following con
 
 <details>
 
--   [`3da41b7`](https://github.com/stdlib-js/stdlib/commit/3da41b7ccb754f5ffa7f4f9fc61799d570871a19) - **feat:** update namespace TypeScript declarations [(#6058)](https://github.com/stdlib-js/stdlib/pull/6058) _(by stdlib-bot)_
 -   [`5cc0967`](https://github.com/stdlib-js/stdlib/commit/5cc0967af847836f11be2f3ce41f56c2d5345530) - **docs:** update namespace table of contents [(#6060)](https://github.com/stdlib-js/stdlib/pull/6060) _(by stdlib-bot)_
 -   [`94f7922`](https://github.com/stdlib-js/stdlib/commit/94f7922c7cd9dd157de963eb399e1c1dc3b4cfbd) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmeanwd` [(#4802)](https://github.com/stdlib-js/stdlib/pull/4802) _(by Prashant Kumar Yadav, Athan Reines, Aayush Khanna)_
 -   [`2b334ad`](https://github.com/stdlib-js/stdlib/commit/2b334ad1a9801e0ad49444efb5d692992acb272a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmeanpn` [(#4777)](https://github.com/stdlib-js/stdlib/pull/4777) _(by Prashant Kumar Yadav, Athan Reines)_
