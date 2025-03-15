@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-14)
+## Unreleased (2025-03-15)
 
 <section class="packages">
 
@@ -13738,6 +13738,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dsvariancepn-unreleased">
+
+#### [@stdlib/stats/base/dsvariancepn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dsvariancepn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2cb9d07`](https://github.com/stdlib-js/stdlib/commit/2cb9d076ac8129702b76a672350a6c25068d5b26) - add C ndarray interface and refactor implementation for `stats/base/dsvariancepn` [(#5547)](https://github.com/stdlib-js/stdlib/pull/5547)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dvariance-unreleased">
 
 #### [@stdlib/stats/base/dvariance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dvariance)
@@ -17822,6 +17844,7 @@ A total of 45 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2cb9d07`](https://github.com/stdlib-js/stdlib/commit/2cb9d076ac8129702b76a672350a6c25068d5b26) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsvariancepn` [(#5547)](https://github.com/stdlib-js/stdlib/pull/5547) _(by Prashant Kumar Yadav, Athan Reines, Aayush Khanna)_
 -   [`5883c68`](https://github.com/stdlib-js/stdlib/commit/5883c680f228c9b8781e495979e60166e6e91e79) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevch` [(#5422)](https://github.com/stdlib-js/stdlib/pull/5422) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`caa35d1`](https://github.com/stdlib-js/stdlib/commit/caa35d1abb3fc347fd43e0910ff412e93b511754) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevpn` [(#5494)](https://github.com/stdlib-js/stdlib/pull/5494) _(by Prashant Kumar Yadav, Aayush Khanna, Athan Reines)_
 -   [`216ed03`](https://github.com/stdlib-js/stdlib/commit/216ed034f920b72bd4ffc82724285333d28e33cc) - **docs:** update namespace table of contents [(#6010)](https://github.com/stdlib-js/stdlib/pull/6010) _(by stdlib-bot, Athan Reines)_
