@@ -13154,6 +13154,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dnanvariance-unreleased">
+
+#### [@stdlib/stats/base/dnanvariance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`42252d8`](https://github.com/stdlib-js/stdlib/commit/42252d8953a420e826e3b80377a582ff52dce85b) - add C ndarray interface and refactor implementation for `stats/base/dnanvariance` [(#5396)](https://github.com/stdlib-js/stdlib/pull/5396)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dnanvariancech-unreleased">
 
 #### [@stdlib/stats/base/dnanvariancech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dnanvariancech)
@@ -17844,6 +17866,7 @@ A total of 45 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`42252d8`](https://github.com/stdlib-js/stdlib/commit/42252d8953a420e826e3b80377a582ff52dce85b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanvariance` [(#5396)](https://github.com/stdlib-js/stdlib/pull/5396) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`2cb9d07`](https://github.com/stdlib-js/stdlib/commit/2cb9d076ac8129702b76a672350a6c25068d5b26) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsvariancepn` [(#5547)](https://github.com/stdlib-js/stdlib/pull/5547) _(by Prashant Kumar Yadav, Athan Reines, Aayush Khanna)_
 -   [`5883c68`](https://github.com/stdlib-js/stdlib/commit/5883c680f228c9b8781e495979e60166e6e91e79) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevch` [(#5422)](https://github.com/stdlib-js/stdlib/pull/5422) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`caa35d1`](https://github.com/stdlib-js/stdlib/commit/caa35d1abb3fc347fd43e0910ff412e93b511754) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevpn` [(#5494)](https://github.com/stdlib-js/stdlib/pull/5494) _(by Prashant Kumar Yadav, Aayush Khanna, Athan Reines)_
