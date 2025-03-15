@@ -17,7 +17,8 @@
 */
 
 #include "stdlib/stats/base/snanmeanwd.h"
-#include <stdint.h>
+#include "stdlib/blas/base/shared.h"
+#include "stdlib/strided/base/stride2offset.h"
 
 /**
 * Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using Welford's algorithm.
@@ -42,12 +43,26 @@
 *
 * @param N       number of indexed elements
 * @param X       input array
-* @param stride  stride length
+* @param strideX stride length
 * @return        output value
 */
-float stdlib_strided_snanmeanwd( const int64_t N, const float *X, const int64_t stride ) {
-	int64_t ix;
-	int64_t i;
+float API_SUFFIX(stdlib_strided_snanmeanwd)( const CBLAS_INT N, const float *X, const CBLAS_INT strideX ) {
+	const CBLAS_INT ox = stdlib_strided_stride2offset( N, strideX );
+	return API_SUFFIX(stdlib_strided_snanmeanwd_ndarray)( N, X, strideX, ox );
+}
+
+/**
+* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using Welford's algorithm and alternative indexing semantics.
+*
+* @param N        number of indexed elements
+* @param X        input array
+* @param strideX  stride length
+* @param offsetX  starting index for X
+* @return         output value
+*/
+float API_SUFFIX(stdlib_strided_snanmeanwd_ndarray)( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX ) {
+	CBLAS_INT ix;
+	CBLAS_INT i;
 	double n;
 	float mu;
 	float v;
@@ -55,14 +70,10 @@ float stdlib_strided_snanmeanwd( const int64_t N, const float *X, const int64_t 
 	if ( N <= 0 ) {
 		return 0.0f / 0.0f; // NaN
 	}
-	if ( N == 1 || stride == 0 ) {
+	if ( N == 1 || strideX == 0 ) {
 		return X[ 0 ];
 	}
-	if ( stride < 0 ) {
-		ix = (1-N) * stride;
-	} else {
-		ix = 0;
-	}
+	ix = offsetX;
 	mu = 0.0f;
 	n = 0.0;
 	for ( i = 0; i < N; i++ ) {
@@ -71,7 +82,7 @@ float stdlib_strided_snanmeanwd( const int64_t N, const float *X, const int64_t 
 			n += 1.0;
 			mu += (float)((double)( v-mu ) / n);
 		}
-		ix += stride;
+		ix += strideX;
 	}
 	if ( n == 0.0 ) {
 		return 0.0f / 0.0f; // NaN

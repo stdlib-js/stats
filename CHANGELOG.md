@@ -15011,6 +15011,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-snanmeanwd-unreleased">
+
+#### [@stdlib/stats/base/snanmeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmeanwd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`94f7922`](https://github.com/stdlib-js/stdlib/commit/94f7922c7cd9dd157de963eb399e1c1dc3b4cfbd) - add C ndarray interface and refactor implementation for `stats/base/snanmeanwd` [(#4802)](https://github.com/stdlib-js/stdlib/pull/4802)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-snanmin-unreleased">
 
 #### [@stdlib/stats/base/snanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmin)
@@ -17888,6 +17910,7 @@ A total of 45 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`94f7922`](https://github.com/stdlib-js/stdlib/commit/94f7922c7cd9dd157de963eb399e1c1dc3b4cfbd) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmeanwd` [(#4802)](https://github.com/stdlib-js/stdlib/pull/4802) _(by Prashant Kumar Yadav, Athan Reines, Aayush Khanna)_
 -   [`2b334ad`](https://github.com/stdlib-js/stdlib/commit/2b334ad1a9801e0ad49444efb5d692992acb272a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmeanpn` [(#4777)](https://github.com/stdlib-js/stdlib/pull/4777) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`42252d8`](https://github.com/stdlib-js/stdlib/commit/42252d8953a420e826e3b80377a582ff52dce85b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanvariance` [(#5396)](https://github.com/stdlib-js/stdlib/pull/5396) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`2cb9d07`](https://github.com/stdlib-js/stdlib/commit/2cb9d076ac8129702b76a672350a6c25068d5b26) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsvariancepn` [(#5547)](https://github.com/stdlib-js/stdlib/pull/5547) _(by Prashant Kumar Yadav, Athan Reines, Aayush Khanna)_
