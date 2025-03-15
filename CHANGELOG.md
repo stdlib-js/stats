@@ -14603,6 +14603,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-smeanpw-unreleased">
+
+#### [@stdlib/stats/base/smeanpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smeanpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ff9453b`](https://github.com/stdlib-js/stdlib/commit/ff9453baf2cd7476d9549ba63a52e182f496c4ab) - add C ndarray interface and refactor implementation for `stats/base/smeanpw` [(#4753)](https://github.com/stdlib-js/stdlib/pull/4753)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-smeanwd-unreleased">
 
 #### [@stdlib/stats/base/smeanwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/smeanwd)
@@ -17933,6 +17955,7 @@ A total of 45 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ff9453b`](https://github.com/stdlib-js/stdlib/commit/ff9453baf2cd7476d9549ba63a52e182f496c4ab) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeanpw` [(#4753)](https://github.com/stdlib-js/stdlib/pull/4753) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`efe05db`](https://github.com/stdlib-js/stdlib/commit/efe05db7ed658c2b2fbc8bdc462361b876ea47c7) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sstdevpn` [(#5355)](https://github.com/stdlib-js/stdlib/pull/5355) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`3da41b7`](https://github.com/stdlib-js/stdlib/commit/3da41b7ccb754f5ffa7f4f9fc61799d570871a19) - **feat:** update namespace TypeScript declarations [(#6058)](https://github.com/stdlib-js/stdlib/pull/6058) _(by stdlib-bot)_
 -   [`5cc0967`](https://github.com/stdlib-js/stdlib/commit/5cc0967af847836f11be2f3ce41f56c2d5345530) - **docs:** update namespace table of contents [(#6060)](https://github.com/stdlib-js/stdlib/pull/6060) _(by stdlib-bot)_
