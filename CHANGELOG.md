@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-15)
+## Unreleased (2025-03-16)
 
 <section class="packages">
 
@@ -17955,6 +17955,7 @@ A total of 45 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`eef6269`](https://github.com/stdlib-js/stdlib/commit/eef62690d1be19bffce6342c2426ea0191f8ada1) - **docs:** update namespace table of contents [(#6089)](https://github.com/stdlib-js/stdlib/pull/6089) _(by stdlib-bot)_
 -   [`ff9453b`](https://github.com/stdlib-js/stdlib/commit/ff9453baf2cd7476d9549ba63a52e182f496c4ab) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeanpw` [(#4753)](https://github.com/stdlib-js/stdlib/pull/4753) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`efe05db`](https://github.com/stdlib-js/stdlib/commit/efe05db7ed658c2b2fbc8bdc462361b876ea47c7) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sstdevpn` [(#5355)](https://github.com/stdlib-js/stdlib/pull/5355) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`3da41b7`](https://github.com/stdlib-js/stdlib/commit/3da41b7ccb754f5ffa7f4f9fc61799d570871a19) - **feat:** update namespace TypeScript declarations [(#6058)](https://github.com/stdlib-js/stdlib/pull/6058) _(by stdlib-bot)_
