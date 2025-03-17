@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-16)
+## Unreleased (2025-03-17)
 
 <section class="packages">
 
@@ -17977,6 +17977,7 @@ A total of 45 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a76b231`](https://github.com/stdlib-js/stdlib/commit/a76b231a2784a852b88d5693960836f59d746418) - **docs:** update examples to avoid explicit `for` loops _(by Athan Reines)_
 -   [`c155eb0`](https://github.com/stdlib-js/stdlib/commit/c155eb0820f1938b7ff56a719b72a442ccc202a1) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsvariance`  [(#5641)](https://github.com/stdlib-js/stdlib/pull/5641) _(by Prashant Kumar Yadav, stdlib-bot)_
 -   [`22f9262`](https://github.com/stdlib-js/stdlib/commit/22f92627b252e99b219d59f8f7425ab2c1f2fbc9) - **docs:** update namespace TypeScript declarations [(#6087)](https://github.com/stdlib-js/stdlib/pull/6087) _(by stdlib-bot)_
 -   [`eef6269`](https://github.com/stdlib-js/stdlib/commit/eef62690d1be19bffce6342c2426ea0191f8ada1) - **docs:** update namespace table of contents [(#6089)](https://github.com/stdlib-js/stdlib/pull/6089) _(by stdlib-bot)_
