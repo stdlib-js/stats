@@ -1810,7 +1810,7 @@ interface Namespace {
 	* @param N - number of indexed elements
 	* @param correction - degrees of freedom adjustment
 	* @param x - input array
-	* @param strideX - stride length
+	* @param stride - stride length
 	* @returns variance
 	*
 	* @example
