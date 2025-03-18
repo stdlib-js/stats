@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,12 +18,6 @@
 
 'use strict';
 
-// MODULES //
-
-var arraylike2object = require( '@stdlib/array/base/arraylike2object' );
-var accessors = require( './accessors.js' );
-
-
 // MAIN //
 
 /**
@@ -39,37 +33,42 @@ var accessors = require( './accessors.js' );
 *
 * @param {PositiveInteger} N - number of indexed elements
 * @param {number} correction - degrees of freedom adjustment
-* @param {NumericArray} x - input array
+* @param {Object} x - input array object
+* @param {Collection} x.data - input array data
+* @param {Array<Function>} x.accessors - array element accessors
 * @param {integer} strideX - stride length
 * @param {NonNegativeInteger} offsetX - starting index
 * @returns {number} variance
 *
 * @example
-* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
+* var arraylike2object = require( '@stdlib/array/base/arraylike2object' );
+* var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
 *
-* var v = nanvarianceyc( 5, 1, x, 2, 1 );
+* var x = toAccessorArray( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
+*
+* var v = nanvarianceyc( 5, 1, arraylike2object( x ), 2, 1 );
 * // returns 6.25
 */
 function nanvarianceyc( N, correction, x, strideX, offsetX ) {
+	var xbuf;
+	var xget;
 	var sum;
 	var ix;
 	var nc;
 	var S;
-	var o;
 	var v;
 	var d;
 	var n;
 	var i;
 
-	if ( N <= 0 ) {
-		return NaN;
-	}
-	o = arraylike2object( x );
-	if ( o.accessorProtocol ) {
-		return accessors( N, correction, o, strideX, offsetX );
-	}
+	// Cache references to array data:
+	xbuf = x.data;
+
+	// Cache references to element accessors:
+	xget = x.accessors[ 0 ];
+
 	if ( N === 1 || strideX === 0 ) {
-		v = x[ offsetX ];
+		v = xget( xbuf, offsetX );
 		if ( v === v && N-correction > 0.0 ) {
 			return 0.0;
 		}
@@ -79,7 +78,7 @@ function nanvarianceyc( N, correction, x, strideX, offsetX ) {
 
 	// Find the first non-NaN element...
 	for ( i = 0; i < N; i++ ) {
-		v = x[ ix ];
+		v = xget( xbuf, ix );
 		if ( v === v ) {
 			break;
 		}
@@ -94,7 +93,7 @@ function nanvarianceyc( N, correction, x, strideX, offsetX ) {
 	i += 1;
 	n = 1;
 	for ( i; i < N; i++ ) {
-		v = x[ ix ];
+		v = xget( xbuf, ix );
 		if ( v === v ) {
 			n += 1;
 			sum += v;
