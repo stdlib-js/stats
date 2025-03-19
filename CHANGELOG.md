@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-18)
+## Unreleased (2025-03-19)
 
 <section class="packages">
 
@@ -18082,6 +18082,7 @@ A total of 48 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`508685d`](https://github.com/stdlib-js/stdlib/commit/508685d02da61d9501eddf2b91f43ba8ce49af11) - **docs:** update namespace table of contents [(#6175)](https://github.com/stdlib-js/stdlib/pull/6175) _(by stdlib-bot)_
 -   [`6373477`](https://github.com/stdlib-js/stdlib/commit/63734778216d7ccd30441d14d81bbe464474432e) - **feat:** add accessor protocol support and refactor `stats/base/nanvarianceyc` [(#6143)](https://github.com/stdlib-js/stdlib/pull/6143) _(by Rahul Kumar, Athan Reines)_
 -   [`eb8b850`](https://github.com/stdlib-js/stdlib/commit/eb8b850291828253a75b9a5a2f1f4867ff957ab1) - **feat:** add `stats/incr/nanmeanabs` [(#6068)](https://github.com/stdlib-js/stdlib/pull/6068) _(by Anshu Kumar, Athan Reines)_
 -   [`fe0ad15`](https://github.com/stdlib-js/stdlib/commit/fe0ad15e0f3be4a610e9e4e3ba6c909e8c307ef1) - **feat:** add `stats/incr/nanskewness` [(#6046)](https://github.com/stdlib-js/stdlib/pull/6046) _(by Abdul Kaium, Athan Reines, stdlib-bot)_
