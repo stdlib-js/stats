@@ -18082,6 +18082,8 @@ A total of 48 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a1096f0`](https://github.com/stdlib-js/stdlib/commit/a1096f0b98bf316479c0b4462d3e1a9b10de7646) - **docs:** update related packages sections [(#6172)](https://github.com/stdlib-js/stdlib/pull/6172) _(by stdlib-bot, Athan Reines)_
+-   [`d1ab920`](https://github.com/stdlib-js/stdlib/commit/d1ab920a2c15be31540dab8633678d66c70e0000) - **docs:** update namespace TypeScript declarations [(#6173)](https://github.com/stdlib-js/stdlib/pull/6173) _(by stdlib-bot)_
 -   [`508685d`](https://github.com/stdlib-js/stdlib/commit/508685d02da61d9501eddf2b91f43ba8ce49af11) - **docs:** update namespace table of contents [(#6175)](https://github.com/stdlib-js/stdlib/pull/6175) _(by stdlib-bot)_
 -   [`6373477`](https://github.com/stdlib-js/stdlib/commit/63734778216d7ccd30441d14d81bbe464474432e) - **feat:** add accessor protocol support and refactor `stats/base/nanvarianceyc` [(#6143)](https://github.com/stdlib-js/stdlib/pull/6143) _(by Rahul Kumar, Athan Reines)_
 -   [`eb8b850`](https://github.com/stdlib-js/stdlib/commit/eb8b850291828253a75b9a5a2f1f4867ff957ab1) - **feat:** add `stats/incr/nanmeanabs` [(#6068)](https://github.com/stdlib-js/stdlib/pull/6068) _(by Anshu Kumar, Athan Reines)_
