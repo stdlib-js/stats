@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-20)
+## Unreleased (2025-03-21)
 
 <section class="packages">
 
@@ -18095,6 +18095,7 @@ A total of 49 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6ff59dd`](https://github.com/stdlib-js/stdlib/commit/6ff59dd9c1a20e141232e8081ca8606c87c73989) - **docs:** replace manual `for` loop in examples [(#6249)](https://github.com/stdlib-js/stdlib/pull/6249) _(by Karan Anand)_
 -   [`30f9a5f`](https://github.com/stdlib-js/stdlib/commit/30f9a5fbdad8cb9baa5aa8ceca731afaf6866ef2) - **chore:** address commit comments [(#6192)](https://github.com/stdlib-js/stdlib/pull/6192) _(by MANI)_
 -   [`a1096f0`](https://github.com/stdlib-js/stdlib/commit/a1096f0b98bf316479c0b4462d3e1a9b10de7646) - **docs:** update related packages sections [(#6172)](https://github.com/stdlib-js/stdlib/pull/6172) _(by stdlib-bot, Athan Reines)_
 -   [`d1ab920`](https://github.com/stdlib-js/stdlib/commit/d1ab920a2c15be31540dab8633678d66c70e0000) - **docs:** update namespace TypeScript declarations [(#6173)](https://github.com/stdlib-js/stdlib/pull/6173) _(by stdlib-bot)_
