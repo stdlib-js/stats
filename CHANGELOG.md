@@ -18095,6 +18095,7 @@ A total of 49 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`551a3e9`](https://github.com/stdlib-js/stdlib/commit/551a3e98ea77425d799c59a9f1b61b6f78a1d1ee) - **docs:** update related packages sections [(#6274)](https://github.com/stdlib-js/stdlib/pull/6274) _(by stdlib-bot)_
 -   [`975de6a`](https://github.com/stdlib-js/stdlib/commit/975de6ac8cf9349a047a39921ddf3f29a9b0d77e) - **docs:** replace manual `for` loop in examples [(#6280)](https://github.com/stdlib-js/stdlib/pull/6280) _(by Karan Anand)_
 -   [`e3edfba`](https://github.com/stdlib-js/stdlib/commit/e3edfbadf42a40979d3ed9e35a2e736b62af241d) - **docs:** fix interpolation of decimal values [(#6259)](https://github.com/stdlib-js/stdlib/pull/6259) _(by Karan Anand)_
 -   [`6ff59dd`](https://github.com/stdlib-js/stdlib/commit/6ff59dd9c1a20e141232e8081ca8606c87c73989) - **docs:** replace manual `for` loop in examples [(#6249)](https://github.com/stdlib-js/stdlib/pull/6249) _(by Karan Anand)_
