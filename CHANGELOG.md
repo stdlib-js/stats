@@ -20,7 +20,6 @@
 
 ##### Features
 
--   [`da8a676`](https://github.com/stdlib-js/stdlib/commit/da8a676ef0097af7ad60e7379b52930e03d65c95) - update namespace TypeScript declarations [(#6315)](https://github.com/stdlib-js/stdlib/pull/6315)
 -   [`3da41b7`](https://github.com/stdlib-js/stdlib/commit/3da41b7ccb754f5ffa7f4f9fc61799d570871a19) - update namespace TypeScript declarations [(#6058)](https://github.com/stdlib-js/stdlib/pull/6058)
 -   [`87abb74`](https://github.com/stdlib-js/stdlib/commit/87abb743fe577742c81ce1be6b5b8477da33b5f2) - update namespace TypeScript declarations [(#6008)](https://github.com/stdlib-js/stdlib/pull/6008)
 -   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436)
@@ -18309,7 +18308,6 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
--   [`da8a676`](https://github.com/stdlib-js/stdlib/commit/da8a676ef0097af7ad60e7379b52930e03d65c95) - **feat:** update namespace TypeScript declarations [(#6315)](https://github.com/stdlib-js/stdlib/pull/6315) _(by stdlib-bot)_
 -   [`bb5117c`](https://github.com/stdlib-js/stdlib/commit/bb5117c314dcc31b3c7100eacb1a693198962e3b) - **docs:** update namespace table of contents [(#6317)](https://github.com/stdlib-js/stdlib/pull/6317) _(by stdlib-bot)_
 -   [`73050cb`](https://github.com/stdlib-js/stdlib/commit/73050cb11de45fd04b8e59c5df8ef30f891dba07) - **bench:** refactor random number generation in `stats/base/dists/levy` [(#6044)](https://github.com/stdlib-js/stdlib/pull/6044) _(by Hemant M Mehta, Athan Reines)_
 -   [`e7593e3`](https://github.com/stdlib-js/stdlib/commit/e7593e312a5ded82205527d8f39a6c78af47c1e7) - **feat:** refactor and add protocol support to `stats/base/meanwd` [(#6266)](https://github.com/stdlib-js/stdlib/pull/6266) _(by Prajjwal Bajpai, Athan Reines)_

@@ -2350,7 +2350,7 @@ interface Namespace {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param strideX - stride length
+	* @param stride - stride length
 	* @returns arithmetic mean
 	*
 	* @example
@@ -2903,9 +2903,9 @@ interface Namespace {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param strideX - stride length for `x`
+	* @param strideX - `x` stride length
 	* @param mask - mask array
-	* @param strideMask - stride length for `x`
+	* @param strideMask - `mask` stride length
 	* @returns range
 	*
 	* @example
