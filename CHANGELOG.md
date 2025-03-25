@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-24)
+## Unreleased (2025-03-25)
 
 <section class="packages">
 
@@ -18343,6 +18343,8 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ad12a89`](https://github.com/stdlib-js/stdlib/commit/ad12a891aec0914fa09b6bf63433b8a2e7f3bb3c) - **docs:** update namespace table of contents [(#6359)](https://github.com/stdlib-js/stdlib/pull/6359) _(by stdlib-bot)_
+-   [`70bee88`](https://github.com/stdlib-js/stdlib/commit/70bee887bd024ca10b1676742e0f3b3051fa7b00) - **docs:** update namespace TypeScript declarations [(#6357)](https://github.com/stdlib-js/stdlib/pull/6357) _(by stdlib-bot)_
 -   [`d9faaa4`](https://github.com/stdlib-js/stdlib/commit/d9faaa4844569d684a9e9b01922c57c5f445aa13) - **feat:** refactor and add accessor protocol support to `stats/base/nanrange` [(#6248)](https://github.com/stdlib-js/stdlib/pull/6248) _(by Prajjwal Bajpai, Athan Reines, Aayush Khanna)_
 -   [`da8a676`](https://github.com/stdlib-js/stdlib/commit/da8a676ef0097af7ad60e7379b52930e03d65c95) - **feat:** update namespace TypeScript declarations [(#6315)](https://github.com/stdlib-js/stdlib/pull/6315) _(by stdlib-bot)_
 -   [`bb5117c`](https://github.com/stdlib-js/stdlib/commit/bb5117c314dcc31b3c7100eacb1a693198962e3b) - **docs:** update namespace table of contents [(#6317)](https://github.com/stdlib-js/stdlib/pull/6317) _(by stdlib-bot)_
