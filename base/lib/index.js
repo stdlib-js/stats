@@ -199,15 +199,6 @@ setReadOnly( ns, 'dnanmeanpw', require( './../../base/dnanmeanpw' ) );
 setReadOnly( ns, 'dnanmeanwd', require( './../../base/dnanmeanwd' ) );
 
 /**
-* @name dnanmin
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dnanmin}
-*/
-setReadOnly( ns, 'dnanmin', require( './../../base/dnanmin' ) );
-
-/**
 * @name dnanminabs
 * @memberof ns
 * @readonly

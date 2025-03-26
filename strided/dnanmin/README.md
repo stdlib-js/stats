@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var dnanmin = require( '@stdlib/stats/base/dnanmin' );
+var dnanmin = require( '@stdlib/stats/strided/dnanmin' );
 ```
 
 #### dnanmin( N, x, strideX )
@@ -132,7 +132,7 @@ var v = dnanmin.ndarray( 4, x, 2, 1 );
 var randu = require( '@stdlib/random/base/randu' );
 var round = require( '@stdlib/math/base/special/round' );
 var Float64Array = require( '@stdlib/array/float64' );
-var dnanmin = require( '@stdlib/stats/base/dnanmin' );
+var dnanmin = require( '@stdlib/stats/strided/dnanmin' );
 
 var x;
 var i;
@@ -178,7 +178,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dnanmin.h"
+#include "stdlib/stats/strided/dnanmin.h"
 ```
 
 #### stdlib_strided_dnanmin( N, \*X, strideX )
@@ -243,7 +243,7 @@ double stdlib_strided_dnanmin_ndarray( const CBLAS_INT N, const double *X, const
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dnanmin.h"
+#include "stdlib/stats/strided/dnanmin.h"
 #include <stdint.h>
 #include <stdio.h>
 
