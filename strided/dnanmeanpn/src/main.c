@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanmeanpn.h"
+#include "stdlib/stats/strided/dnanmeanpn.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/strided/base/stride2offset.h"
 
@@ -55,7 +55,6 @@ double API_SUFFIX(stdlib_strided_dnanmeanpn_ndarray)( const CBLAS_INT N, const d
 	CBLAS_INT ix;
 	CBLAS_INT i;
 	CBLAS_INT n;
-	CBLAS_INT o;
 	double dn;
 	double s;
 	double t;
