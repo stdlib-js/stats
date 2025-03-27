@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-26)
+## Unreleased (2025-03-27)
 
 <section class="packages">
 
@@ -18805,6 +18805,7 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3c97d04`](https://github.com/stdlib-js/stdlib/commit/3c97d04c39e32bbf1c3819180e45d108ef03ea11) - **docs:** update namespace table of contents [(#6408)](https://github.com/stdlib-js/stdlib/pull/6408) _(by stdlib-bot)_
 -   [`14a166d`](https://github.com/stdlib-js/stdlib/commit/14a166db9d76fe6663adcdd695769cacc438dadc) - **remove:** remove `stats/base/dnanmeanpn` _(by Aayush Khanna)_
 -   [`eca796b`](https://github.com/stdlib-js/stdlib/commit/eca796be22370f8e6ffce1157bd077e14428c236) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`bb60f0e`](https://github.com/stdlib-js/stdlib/commit/bb60f0ee8f6bdeb74a444c7bca2b82534302fc63) - **remove:** remove `stats/base/dnanmeanpn` from namespace _(by Aayush Khanna)_
