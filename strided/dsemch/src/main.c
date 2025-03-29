@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dsemch.h"
+#include "stdlib/stats/strided/dsemch.h"
 #include "stdlib/stats/base/dvariancech.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/strided/base/stride2offset.h"

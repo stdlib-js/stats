@@ -21,11 +21,11 @@
 /**
 * Compute the standard error of the mean for a double-precision floating-point strided array using a one-pass trial mean algorithm.
 *
-* @module @stdlib/stats/base/dsemch
+* @module @stdlib/stats/strided/dsemch
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dsemch = require( '@stdlib/stats/base/dsemch' );
+* var dsemch = require( '@stdlib/stats/strided/dsemch' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dsemch = require( '@stdlib/stats/base/dsemch' );
+* var dsemch = require( '@stdlib/stats/strided/dsemch' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

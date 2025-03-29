@@ -40,7 +40,6 @@ import dnanmskmin = require( './../../../base/dnanmskmin' );
 import dnanmskrange = require( './../../../base/dnanmskrange' );
 import dnanstdev = require( './../../../base/dnanstdev' );
 import dsem = require( './../../../base/dsem' );
-import dsemch = require( './../../../base/dsemch' );
 import dsempn = require( './../../../base/dsempn' );
 import dsemtk = require( './../../../base/dsemtk' );
 import dsemwd = require( './../../../base/dsemwd' );
@@ -775,33 +774,6 @@ interface Namespace {
 	* // returns ~1.20185
 	*/
 	dsem: typeof dsem;
-
-	/**
-	* Computes the standard error of the mean for a double-precision floating-point strided array using a one-pass trial mean algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns standard error of the mean
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dsemch( x.length, 1, x, 1 );
-	* // returns ~1.20185
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dsemch.ndarray( x.length, 1, x, 1, 0 );
-	* // returns ~1.20185
-	*/
-	dsemch: typeof dsemch;
 
 	/**
 	* Computes the standard error of the mean for a double-precision floating-point strided array using a two-pass algorithm.

@@ -92,7 +92,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dnanvarianceyc( N, correction, x, strideX )`][@stdlib/stats/strided/dnanvarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array ignoring `NaN` values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
 -   <span class="signature">[`drange( N, x, strideX )`][@stdlib/stats/strided/drange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dsem( N, correction, x, stride )`][@stdlib/stats/base/dsem]</span><span class="delimiter">: </span><span class="description">calculate the standard error of the mean of a double-precision floating-point strided array.</span>
--   <span class="signature">[`dsemch( N, correction, x, strideX )`][@stdlib/stats/base/dsemch]</span><span class="delimiter">: </span><span class="description">calculate the standard error of the mean of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
+-   <span class="signature">[`dsemch( N, correction, x, strideX )`][@stdlib/stats/strided/dsemch]</span><span class="delimiter">: </span><span class="description">calculate the standard error of the mean of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
 -   <span class="signature">[`dsempn( N, correction, x, stride )`][@stdlib/stats/base/dsempn]</span><span class="delimiter">: </span><span class="description">calculate the standard error of the mean of a double-precision floating-point strided array using a two-pass algorithm.</span>
 -   <span class="signature">[`dsemtk( N, correction, x, strideX )`][@stdlib/stats/base/dsemtk]</span><span class="delimiter">: </span><span class="description">calculate the standard error of the mean of a double-precision floating-point strided array using a one-pass textbook algorithm.</span>
 -   <span class="signature">[`dsemwd( N, correction, x, strideX )`][@stdlib/stats/base/dsemwd]</span><span class="delimiter">: </span><span class="description">calculate the standard error of the mean of a double-precision floating-point strided array using Welford's algorithm.</span>
@@ -369,7 +369,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/dsem]: https://github.com/stdlib-js/stats/tree/main/base/dsem
 
-[@stdlib/stats/base/dsemch]: https://github.com/stdlib-js/stats/tree/main/base/dsemch
+[@stdlib/stats/strided/dsemch]: https://github.com/stdlib-js/stats/tree/main/strided/dsemch
 
 [@stdlib/stats/base/dsempn]: https://github.com/stdlib-js/stats/tree/main/base/dsempn
 
