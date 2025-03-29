@@ -35,7 +35,6 @@ import dmeanvarpn = require( './../../../base/dmeanvarpn' );
 import dmskmax = require( './../../../base/dmskmax' );
 import dmskmin = require( './../../../base/dmskmin' );
 import dmskrange = require( './../../../base/dmskrange' );
-import dnanminabs = require( './../../../base/dnanminabs' );
 import dnanmskmax = require( './../../../base/dnanmskmax' );
 import dnanmskmin = require( './../../../base/dnanmskmin' );
 import dnanmskrange = require( './../../../base/dnanmskrange' );
@@ -638,32 +637,6 @@ interface Namespace {
 	* // returns 4.0
 	*/
 	dmskrange: typeof dmskrange;
-
-	/**
-	* Computes the minimum absolute value of a double-precision floating-point strided array, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns minimum absolute value
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.dnanminabs( x.length, x, 1 );
-	* // returns 1.0
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.dnanminabs.ndarray( x.length, x, 1, 0 );
-	* // returns 1.0
-	*/
-	dnanminabs: typeof dnanminabs;
 
 	/**
 	* Computes the maximum value of a double-precision floating-point strided array according to a mask, ignoring `NaN` values.

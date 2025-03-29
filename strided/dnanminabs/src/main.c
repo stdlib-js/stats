@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanminabs.h"
+#include "stdlib/stats/strided/dnanminabs.h"
 #include "stdlib/math/base/assert/is_nan.h"
 #include "stdlib/math/base/special/abs.h"
 #include "stdlib/blas/base/shared.h"

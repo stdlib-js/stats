@@ -21,11 +21,11 @@
 /**
 * Compute the minimum absolute value of a double-precision floating-point strided array, ignoring `NaN` values.
 *
-* @module @stdlib/stats/base/dnanminabs
+* @module @stdlib/stats/strided/dnanminabs
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dnanminabs = require( '@stdlib/stats/base/dnanminabs' );
+* var dnanminabs = require( '@stdlib/stats/strided/dnanminabs' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dnanminabs = require( '@stdlib/stats/base/dnanminabs' );
+* var dnanminabs = require( '@stdlib/stats/strided/dnanminabs' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
 *

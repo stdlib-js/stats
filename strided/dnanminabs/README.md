@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var dnanminabs = require( '@stdlib/stats/base/dnanminabs' );
+var dnanminabs = require( '@stdlib/stats/strided/dnanminabs' );
 ```
 
 #### dnanminabs( N, x, strideX )
@@ -132,7 +132,7 @@ var v = dnanminabs.ndarray( 4, x, 2, 1 );
 var randu = require( '@stdlib/random/base/randu' );
 var round = require( '@stdlib/math/base/special/round' );
 var Float64Array = require( '@stdlib/array/float64' );
-var dnanminabs = require( '@stdlib/stats/base/dnanminabs' );
+var dnanminabs = require( '@stdlib/stats/strided/dnanminabs' );
 
 var x;
 var i;
@@ -178,7 +178,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dnanminabs.h"
+#include "stdlib/stats/strided/dnanminabs.h"
 ```
 
 #### stdlib_strided_dnanminabs( N, \*X, strideX )
@@ -243,7 +243,7 @@ double stdlib_strided_dnanminabs_ndarray( const CBLAS_INT N, const double *X, co
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dnanminabs.h"
+#include "stdlib/stats/strided/dnanminabs.h"
 #include <stdio.h>
 
 int main( void ) {
