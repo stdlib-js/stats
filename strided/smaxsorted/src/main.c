@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/smaxsorted.h"
+#include "stdlib/stats/strided/smaxsorted.h"
 #include "stdlib/math/base/assert/is_nanf.h"
 #include "stdlib/math/base/assert/is_positive_zerof.h"
 #include "stdlib/blas/base/shared.h"

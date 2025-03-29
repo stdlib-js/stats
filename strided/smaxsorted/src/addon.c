@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/smaxsorted.h"
+#include "stdlib/stats/strided/smaxsorted.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/napi/export.h"
 #include "stdlib/napi/argv.h"

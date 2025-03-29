@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var smaxsorted = require( '@stdlib/stats/base/smaxsorted' );
+var smaxsorted = require( '@stdlib/stats/strided/smaxsorted' );
 ```
 
 #### smaxsorted( N, x, stride )
@@ -136,7 +136,7 @@ var v = smaxsorted.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var linspace = require( '@stdlib/array/linspace' );
-var smaxsorted = require( '@stdlib/stats/base/smaxsorted' );
+var smaxsorted = require( '@stdlib/stats/strided/smaxsorted' );
 
 var options = {
     'dtype': 'float32'
@@ -175,7 +175,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/smaxsorted.h"
+#include "stdlib/stats/strided/smaxsorted.h"
 ```
 
 #### stdlib_strided_smaxsorted( N, \*X, strideX )
@@ -240,7 +240,7 @@ float stdlib_strided_smaxsorted_ndarray( const CBLAS_INT N, const float *X, cons
 ### Examples
 
 ```c
-#include "stdlib/stats/base/smaxsorted.h"
+#include "stdlib/stats/strided/smaxsorted.h"
 #include <stdio.h>
 
 int main( void ) {
