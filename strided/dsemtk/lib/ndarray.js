@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dvariancetk = require( './../../../strided/dvariancetk' ).ndarray;
+var dvariancetk = require( './../../../base/dvariancetk' ).ndarray;
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 
 

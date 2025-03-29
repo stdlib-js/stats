@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/dvariancetk.h"
+#include "stdlib/stats/base/dvariancetk.h"
 #include <stdio.h>
 
 int main( void ) {

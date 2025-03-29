@@ -21,11 +21,11 @@
 /**
 * Compute the variance of a double-precision floating-point strided array using a one-pass textbook algorithm.
 *
-* @module @stdlib/stats/strided/dvariancetk
+* @module @stdlib/stats/base/dvariancetk
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dvariancetk = require( '@stdlib/stats/strided/dvariancetk' );
+* var dvariancetk = require( '@stdlib/stats/base/dvariancetk' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dvariancetk = require( '@stdlib/stats/strided/dvariancetk' );
+* var dvariancetk = require( '@stdlib/stats/base/dvariancetk' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *
