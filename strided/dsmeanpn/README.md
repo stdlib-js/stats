@@ -301,7 +301,7 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/stats/base/dmeanpn`][@stdlib/stats/base/dmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a two-pass error correction algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dsmean`][@stdlib/stats/strided/dsmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using extended accumulation and returning an extended precision result.</span>
--   <span class="package-name">[`@stdlib/stats/base/dsnanmeanpn`][@stdlib/stats/base/dsnanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values, using a two-pass error correction algorithm with extended accumulation, and returning an extended precision result.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dsnanmeanpn`][@stdlib/stats/strided/dsnanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values, using a two-pass error correction algorithm with extended accumulation, and returning an extended precision result.</span>
 -   <span class="package-name">[`@stdlib/stats/base/meanpn`][@stdlib/stats/base/meanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using a two-pass error correction algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/smeanpn`][@stdlib/stats/base/smeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using a two-pass error correction algorithm.</span>
 
@@ -329,7 +329,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/dsmean]: https://github.com/stdlib-js/stats/tree/main/strided/dsmean
 
-[@stdlib/stats/base/dsnanmeanpn]: https://github.com/stdlib-js/stats/tree/main/base/dsnanmeanpn
+[@stdlib/stats/strided/dsnanmeanpn]: https://github.com/stdlib-js/stats/tree/main/strided/dsnanmeanpn
 
 [@stdlib/stats/base/meanpn]: https://github.com/stdlib-js/stats/tree/main/base/meanpn
 
