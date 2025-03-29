@@ -17,7 +17,7 @@
 */
 
 #include "stdlib/stats/strided/dnanstdevwd.h"
-#include "stdlib/stats/base/dnanvariancewd.h"
+#include "stdlib/stats/strided/dnanvariancewd.h"
 #include "stdlib/math/base/special/sqrt.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/strided/base/stride2offset.h"
