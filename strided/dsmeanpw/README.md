@@ -33,7 +33,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:arithmetic_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@bef48a7ab1318364d0bf178f0e69d081a61688c3/lib/node_modules/@stdlib/stats/base/dsmeanpw/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@bef48a7ab1318364d0bf178f0e69d081a61688c3/lib/node_modules/@stdlib/stats/strided/dsmeanpw/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-var dsmeanpw = require( '@stdlib/stats/base/dsmeanpw' );
+var dsmeanpw = require( '@stdlib/stats/strided/dsmeanpw' );
 ```
 
 #### dsmeanpw( N, x, strideX )
@@ -147,7 +147,7 @@ var v = dsmeanpw.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dsmeanpw = require( '@stdlib/stats/base/dsmeanpw' );
+var dsmeanpw = require( '@stdlib/stats/strided/dsmeanpw' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
@@ -185,7 +185,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dsmeanpw.h"
+#include "stdlib/stats/strided/dsmeanpw.h"
 ```
 
 #### stdlib_strided_dsmeanpw( N, \*X, strideX )
@@ -250,7 +250,7 @@ double stdlib_strided_dsmeanpw_ndarray( const CBLAS_INT N, const float *X, const
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dsmeanpw.h"
+#include "stdlib/stats/strided/dsmeanpw.h"
 #include <stdio.h>
 
 int main( void ) {
