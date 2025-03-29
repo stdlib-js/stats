@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dstdevwd.h"
+#include "stdlib/stats/strided/dstdevwd.h"
 #include "stdlib/stats/base/dvariancewd.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/math/base/special/sqrt.h"

@@ -21,11 +21,11 @@
 /**
 * Compute the standard deviation of a double-precision floating-point strided array using Welford's algorithm.
 *
-* @module @stdlib/stats/base/dstdevwd
+* @module @stdlib/stats/strided/dstdevwd
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dstdevwd = require( '@stdlib/stats/base/dstdevwd' );
+* var dstdevwd = require( '@stdlib/stats/strided/dstdevwd' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dstdevwd = require( '@stdlib/stats/base/dstdevwd' );
+* var dstdevwd = require( '@stdlib/stats/strided/dstdevwd' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

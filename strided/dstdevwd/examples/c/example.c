@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dstdevwd.h"
+#include "stdlib/stats/strided/dstdevwd.h"
 #include <stdio.h>
 
 int main( void ) {

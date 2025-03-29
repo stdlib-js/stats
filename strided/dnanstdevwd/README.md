@@ -362,7 +362,7 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/stats/base/dnanstdev`][@stdlib/stats/base/dnanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dnanvariancewd`][@stdlib/stats/strided/dnanvariancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array ignoring NaN values and using Welford's algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/dstdevwd`][@stdlib/stats/base/dstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using Welford's algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dstdevwd`][@stdlib/stats/strided/dstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using Welford's algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanstdevwd`][@stdlib/stats/base/nanstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values and using Welford's algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanstdevwd`][@stdlib/stats/base/snanstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using Welford's algorithm.</span>
 
@@ -390,7 +390,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/dnanvariancewd]: https://github.com/stdlib-js/stats/tree/main/strided/dnanvariancewd
 
-[@stdlib/stats/base/dstdevwd]: https://github.com/stdlib-js/stats/tree/main/base/dstdevwd
+[@stdlib/stats/strided/dstdevwd]: https://github.com/stdlib-js/stats/tree/main/strided/dstdevwd
 
 [@stdlib/stats/base/nanstdevwd]: https://github.com/stdlib-js/stats/tree/main/base/nanstdevwd
 

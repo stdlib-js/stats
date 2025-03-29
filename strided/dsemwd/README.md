@@ -322,7 +322,7 @@ int main( void ) {
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats/base/dsem`][@stdlib/stats/base/dsem]</span><span class="delimiter">: </span><span class="description">calculate the standard error of the mean for a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/dstdevwd`][@stdlib/stats/base/dstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using Welford's algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dstdevwd`][@stdlib/stats/strided/dstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using Welford's algorithm.</span>
 
 </section>
 
@@ -348,7 +348,7 @@ int main( void ) {
 
 [@stdlib/stats/base/dsem]: https://github.com/stdlib-js/stats/tree/main/base/dsem
 
-[@stdlib/stats/base/dstdevwd]: https://github.com/stdlib-js/stats/tree/main/base/dstdevwd
+[@stdlib/stats/strided/dstdevwd]: https://github.com/stdlib-js/stats/tree/main/strided/dstdevwd
 
 <!-- </related-links> -->
 
