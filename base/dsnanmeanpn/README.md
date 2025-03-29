@@ -316,7 +316,7 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/stats/strided/dnanmeanpn`][@stdlib/stats/strided/dnanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values and using a two-pass error correction algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dsmeanpn`][@stdlib/stats/strided/dsmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using a two-pass error correction algorithm with extended accumulation and returning an extended precision result.</span>
--   <span class="package-name">[`@stdlib/stats/base/dsnanmean`][@stdlib/stats/base/dsnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values, using extended accumulation, and returning an extended precision result.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dsnanmean`][@stdlib/stats/strided/dsnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values, using extended accumulation, and returning an extended precision result.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanmeanpn`][@stdlib/stats/base/nanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring NaN values and using a two-pass error correction algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/sdsnanmean`][@stdlib/stats/base/sdsnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using extended accumulation.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanmeanpn`][@stdlib/stats/base/snanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using a two-pass error correction algorithm.</span>
@@ -345,7 +345,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/dsmeanpn]: https://github.com/stdlib-js/stats/tree/main/strided/dsmeanpn
 
-[@stdlib/stats/base/dsnanmean]: https://github.com/stdlib-js/stats/tree/main/base/dsnanmean
+[@stdlib/stats/strided/dsnanmean]: https://github.com/stdlib-js/stats/tree/main/strided/dsnanmean
 
 [@stdlib/stats/base/nanmeanpn]: https://github.com/stdlib-js/stats/tree/main/base/nanmeanpn
 

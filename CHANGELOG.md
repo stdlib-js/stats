@@ -46,6 +46,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`23fcdee`](https://github.com/stdlib-js/stdlib/commit/23fcdeea41c6a262071446bf409c39c7a6d96bf9): remove `stats/base/dsnanmean`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dsnanmean` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`af6e793`](https://github.com/stdlib-js/stdlib/commit/af6e793cf03e5afce9adc87d41a5072164b2bb84): remove `stats/base/dsmeanwd`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dsmeanwd` namespace.
@@ -16581,6 +16631,65 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`3931d78`](https://github.com/stdlib-js/stdlib/commit/3931d78c80bc5295b3508041765e352baa0dec04): remove `stats/base/dsnanmean`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dsnanmean`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="issues">
 
 ##### Closed Issues
@@ -19802,6 +19911,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-dsnanmean-unreleased">
+
+#### [@stdlib/stats/strided/dsnanmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dsnanmean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4bdd748`](https://github.com/stdlib-js/stdlib/commit/4bdd748802dbdcda2855e09bed70ff5b0aa64a89) - add `stats/strided/dsnanmean`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -19809,6 +19940,107 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`3931d78`](https://github.com/stdlib-js/stdlib/commit/3931d78c80bc5295b3508041765e352baa0dec04): remove `stats/base/dsnanmean`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dsnanmean`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`23fcdee`](https://github.com/stdlib-js/stdlib/commit/23fcdeea41c6a262071446bf409c39c7a6d96bf9): remove `stats/base/dsnanmean`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dsnanmean` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`8bb26db`](https://github.com/stdlib-js/stdlib/commit/8bb26db037ff14d2f6d7a3b8296cab7912dee479): remove `stats/base/dsmeanwd`
 
@@ -24407,6 +24639,10 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3931d78`](https://github.com/stdlib-js/stdlib/commit/3931d78c80bc5295b3508041765e352baa0dec04) - **remove:** remove `stats/base/dsnanmean` _(by Aayush Khanna)_
+-   [`cb0d914`](https://github.com/stdlib-js/stdlib/commit/cb0d914e7d8ec63ea70f13120f26f5c444e3e420) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`23fcdee`](https://github.com/stdlib-js/stdlib/commit/23fcdeea41c6a262071446bf409c39c7a6d96bf9) - **remove:** remove `stats/base/dsnanmean` from namespace _(by Aayush Khanna)_
+-   [`4bdd748`](https://github.com/stdlib-js/stdlib/commit/4bdd748802dbdcda2855e09bed70ff5b0aa64a89) - **feat:** add `stats/strided/dsnanmean` _(by Aayush Khanna)_
 -   [`8bb26db`](https://github.com/stdlib-js/stdlib/commit/8bb26db037ff14d2f6d7a3b8296cab7912dee479) - **remove:** remove `stats/base/dsmeanwd` _(by Aayush Khanna)_
 -   [`7ccd9af`](https://github.com/stdlib-js/stdlib/commit/7ccd9afe3cdf6e17b75f9f4f02f145f4d65891de) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`af6e793`](https://github.com/stdlib-js/stdlib/commit/af6e793cf03e5afce9adc87d41a5072164b2bb84) - **remove:** remove `stats/base/dsmeanwd` from namespace _(by Aayush Khanna)_

@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dsnanmean.h"
+#include "stdlib/stats/strided/dsnanmean.h"
 #include "stdlib/stats/base/dsnanmeanpn.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/strided/base/stride2offset.h"

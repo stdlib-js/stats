@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dsnanmean.h"
+#include "stdlib/stats/strided/dsnanmean.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

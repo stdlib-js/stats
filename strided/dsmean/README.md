@@ -287,7 +287,7 @@ int main( void ) {
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats/base/dmean`][@stdlib/stats/base/dmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/dsnanmean`][@stdlib/stats/base/dsnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values, using extended accumulation, and returning an extended precision result.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dsnanmean`][@stdlib/stats/strided/dsnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values, using extended accumulation, and returning an extended precision result.</span>
 -   <span class="package-name">[`@stdlib/stats/base/mean`][@stdlib/stats/base/mean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/sdsmean`][@stdlib/stats/base/sdsmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using extended accumulation.</span>
 -   <span class="package-name">[`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array.</span>
@@ -310,7 +310,7 @@ int main( void ) {
 
 [@stdlib/stats/base/dmean]: https://github.com/stdlib-js/stats/tree/main/base/dmean
 
-[@stdlib/stats/base/dsnanmean]: https://github.com/stdlib-js/stats/tree/main/base/dsnanmean
+[@stdlib/stats/strided/dsnanmean]: https://github.com/stdlib-js/stats/tree/main/strided/dsnanmean
 
 [@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats/tree/main/base/mean
 

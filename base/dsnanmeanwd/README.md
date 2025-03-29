@@ -316,7 +316,7 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/stats/strided/dnanmeanwd`][@stdlib/stats/strided/dnanmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, using Welford's algorithm and ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dsmeanwd`][@stdlib/stats/strided/dsmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using Welford's algorithm with extended accumulation and returning an extended precision result.</span>
--   <span class="package-name">[`@stdlib/stats/base/dsnanmean`][@stdlib/stats/base/dsnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values, using extended accumulation, and returning an extended precision result.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dsnanmean`][@stdlib/stats/strided/dsnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values, using extended accumulation, and returning an extended precision result.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanmeanwd`][@stdlib/stats/base/nanmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring NaN values and using Welford's algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/sdsnanmean`][@stdlib/stats/base/sdsnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using extended accumulation.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanmeanwd`][@stdlib/stats/base/snanmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using Welford's algorithm.</span>
@@ -345,7 +345,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/dsmeanwd]: https://github.com/stdlib-js/stats/tree/main/strided/dsmeanwd
 
-[@stdlib/stats/base/dsnanmean]: https://github.com/stdlib-js/stats/tree/main/base/dsnanmean
+[@stdlib/stats/strided/dsnanmean]: https://github.com/stdlib-js/stats/tree/main/strided/dsnanmean
 
 [@stdlib/stats/base/nanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/nanmeanwd
 
