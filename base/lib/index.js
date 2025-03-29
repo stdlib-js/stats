@@ -244,15 +244,6 @@ setReadOnly( ns, 'dnanstdevyc', require( './../../base/dnanstdevyc' ) );
 setReadOnly( ns, 'dnanvariance', require( './../../base/dnanvariance' ) );
 
 /**
-* @name dnanvariancech
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dnanvariancech}
-*/
-setReadOnly( ns, 'dnanvariancech', require( './../../base/dnanvariancech' ) );
-
-/**
 * @name dnanvariancepn
 * @memberof ns
 * @readonly

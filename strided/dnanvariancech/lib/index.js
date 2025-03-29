@@ -21,11 +21,11 @@
 /**
 * Compute the variance of a double-precision floating-point strided array ignoring `NaN` values and using a one-pass trial mean algorithm.
 *
-* @module @stdlib/stats/base/dnanvariancech
+* @module @stdlib/stats/strided/dnanvariancech
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dnanvariancech = require( '@stdlib/stats/base/dnanvariancech' );
+* var dnanvariancech = require( '@stdlib/stats/strided/dnanvariancech' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dnanvariancech = require( '@stdlib/stats/base/dnanvariancech' );
+* var dnanvariancech = require( '@stdlib/stats/strided/dnanvariancech' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
 *
