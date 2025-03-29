@@ -103,7 +103,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dsmeanpw( N, x, strideX )`][@stdlib/stats/strided/dsmeanpw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using pairwise summation with extended accumulation and returning an extended precision result.</span>
 -   <span class="signature">[`dsmeanwd( N, x, strideX )`][@stdlib/stats/strided/dsmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using Welford's algorithm with extended accumulation and returning an extended precision result.</span>
 -   <span class="signature">[`dsnanmean( N, x, strideX )`][@stdlib/stats/strided/dsnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values, using extended accumulation, and returning an extended precision result.</span>
--   <span class="signature">[`dsnanmeanors( N, x, strideX )`][@stdlib/stats/base/dsnanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values, using ordinary recursive summation with extended accumulation, and returning an extended precision result.</span>
+-   <span class="signature">[`dsnanmeanors( N, x, strideX )`][@stdlib/stats/strided/dsnanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values, using ordinary recursive summation with extended accumulation, and returning an extended precision result.</span>
 -   <span class="signature">[`dsnanmeanpn( N, x, strideX )`][@stdlib/stats/base/dsnanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values, using a two-pass error correction algorithm with extended accumulation, and returning an extended precision result.</span>
 -   <span class="signature">[`dsnanmeanwd( N, x, strideX )`][@stdlib/stats/base/dsnanmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values, using Welford's algorithm with extended accumulation, and returning an extended precision result.</span>
 -   <span class="signature">[`dstdev( N, correction, x, stride )`][@stdlib/stats/base/dstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array.</span>
@@ -391,7 +391,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/dsnanmean]: https://github.com/stdlib-js/stats/tree/main/strided/dsnanmean
 
-[@stdlib/stats/base/dsnanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/dsnanmeanors
+[@stdlib/stats/strided/dsnanmeanors]: https://github.com/stdlib-js/stats/tree/main/strided/dsnanmeanors
 
 [@stdlib/stats/base/dsnanmeanpn]: https://github.com/stdlib-js/stats/tree/main/base/dsnanmeanpn
 
