@@ -17,7 +17,7 @@
 */
 
 #include "stdlib/stats/strided/dnanvariance.h"
-#include "stdlib/stats/base/dnanvariancepn.h"
+#include "stdlib/stats/strided/dnanvariancepn.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/strided/base/stride2offset.h"
 

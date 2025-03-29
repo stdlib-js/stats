@@ -361,7 +361,7 @@ int main( void ) {
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats/base/dnanstdev`][@stdlib/stats/base/dnanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/dnanvariancepn`][@stdlib/stats/base/dnanvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array ignoring NaN values and using a two-pass algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dnanvariancepn`][@stdlib/stats/strided/dnanvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array ignoring NaN values and using a two-pass algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/dstdevpn`][@stdlib/stats/base/dstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a two-pass algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanstdevpn`][@stdlib/stats/base/nanstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values and using a two-pass algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanstdevpn`][@stdlib/stats/base/snanstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a two-pass algorithm.</span>
@@ -388,7 +388,7 @@ int main( void ) {
 
 [@stdlib/stats/base/dnanstdev]: https://github.com/stdlib-js/stats/tree/main/base/dnanstdev
 
-[@stdlib/stats/base/dnanvariancepn]: https://github.com/stdlib-js/stats/tree/main/base/dnanvariancepn
+[@stdlib/stats/strided/dnanvariancepn]: https://github.com/stdlib-js/stats/tree/main/strided/dnanvariancepn
 
 [@stdlib/stats/base/dstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/dstdevpn
 

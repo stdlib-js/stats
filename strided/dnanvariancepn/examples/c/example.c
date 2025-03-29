@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanvariancepn.h"
+#include "stdlib/stats/strided/dnanvariancepn.h"
 #include <stdio.h>
 
 int main( void ) {

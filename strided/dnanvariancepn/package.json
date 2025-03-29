@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dnanvariancepn",
+  "name": "@stdlib/stats/strided/dnanvariancepn",
   "version": "0.0.0",
   "description": "Calculate the variance of a double-precision floating-point strided array ignoring NaN values and using a two-pass algorithm.",
   "license": "Apache-2.0",
