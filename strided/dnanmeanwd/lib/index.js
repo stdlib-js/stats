@@ -21,11 +21,11 @@
 /**
 * Compute the arithmetic mean of a double-precision floating-point strided array, using Welford's algorithm and ignoring `NaN` values.
 *
-* @module @stdlib/stats/base/dnanmeanwd
+* @module @stdlib/stats/strided/dnanmeanwd
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dnanmeanwd = require( '@stdlib/stats/base/dnanmeanwd' );
+* var dnanmeanwd = require( '@stdlib/stats/strided/dnanmeanwd' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dnanmeanwd = require( '@stdlib/stats/base/dnanmeanwd' );
+* var dnanmeanwd = require( '@stdlib/stats/strided/dnanmeanwd' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
 *

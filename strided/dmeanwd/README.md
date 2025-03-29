@@ -300,7 +300,7 @@ int main( void ) {
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats/base/dmean`][@stdlib/stats/base/dmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/dnanmeanwd`][@stdlib/stats/base/dnanmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, using Welford's algorithm and ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dnanmeanwd`][@stdlib/stats/strided/dnanmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, using Welford's algorithm and ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/meanwd`][@stdlib/stats/base/meanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using Welford's algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/smeanwd`][@stdlib/stats/base/smeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using Welford's algorithm.</span>
 
@@ -326,7 +326,7 @@ int main( void ) {
 
 [@stdlib/stats/base/dmean]: https://github.com/stdlib-js/stats/tree/main/base/dmean
 
-[@stdlib/stats/base/dnanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/dnanmeanwd
+[@stdlib/stats/strided/dnanmeanwd]: https://github.com/stdlib-js/stats/tree/main/strided/dnanmeanwd
 
 [@stdlib/stats/base/meanwd]: https://github.com/stdlib-js/stats/tree/main/base/meanwd
 

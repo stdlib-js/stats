@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanmeanwd.h"
+#include "stdlib/stats/strided/dnanmeanwd.h"
 #include <stdio.h>
 
 int main( void ) {
