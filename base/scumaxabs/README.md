@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# scuminabs
+# scumaxabs
 
-> Calculate the cumulative minimum absolute value of single-precision floating-point strided array elements.
+> Calculate the cumulative maximum absolute value of single-precision floating-point strided array elements.
 
 <section class="intro">
 
@@ -33,12 +33,12 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var scuminabs = require( '@stdlib/stats/base/scuminabs' );
+var scumaxabs = require( '@stdlib/stats/base/scumaxabs' );
 ```
 
-#### scuminabs( N, x, strideX, y, strideY )
+#### scumaxabs( N, x, strideX, y, strideY )
 
-Computes the cumulative minimum absolute value of single-precision floating-point strided array elements.
+Computes the cumulative maximum absolute value of single-precision floating-point strided array elements.
 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
@@ -46,8 +46,8 @@ var Float32Array = require( '@stdlib/array/float32' );
 var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 var y = new Float32Array( x.length );
 
-scuminabs( x.length, x, 1, y, 1 );
-// y => <Float32Array>[ 1.0, 1.0, 1.0 ]
+scumaxabs( x.length, x, 1, y, 1 );
+// y => <Float32Array>[ 1.0, 2.0, 2.0 ]
 ```
 
 The function has the following parameters:
@@ -58,7 +58,7 @@ The function has the following parameters:
 -   **y**: output [`Float32Array`][@stdlib/array/float32].
 -   **strideY**: stride length for `y`.
 
-The `N` and stride parameters determine which elements in the strided arrays are accessed at runtime. For example, to compute the cumulative minimum absolute value of every other element in `x`,
+The `N` and stride parameters determine which elements in the strided arrays are accessed at runtime. For example, to compute the cumulative maximum absolute value of every other element in `x`,
 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
@@ -66,8 +66,8 @@ var Float32Array = require( '@stdlib/array/float32' );
 var x = new Float32Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ] );
 var y = new Float32Array( x.length );
 
-var v = scuminabs( 4, x, 2, y, 1 );
-// y => <Float32Array>[ 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0 ]
+var v = scumaxabs( 4, x, 2, y, 1 );
+// y => <Float32Array>[ 1.0, 2.0, 2.0, 4.0, 0.0, 0.0, 0.0, 0.0 ]
 ```
 
 Note that indexing is relative to the first index. To introduce an offset, use [`typed array`][mdn-typed-array] views.
@@ -85,13 +85,13 @@ var y0 = new Float32Array( x0.length );
 var x1 = new Float32Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 var y1 = new Float32Array( y0.buffer, y0.BYTES_PER_ELEMENT*3 ); // start at 4th element
 
-scuminabs( 4, x1, -2, y1, 1 );
-// y0 => <Float32Array>[ 0.0, 0.0, 0.0, 4.0, 2.0, 2.0, 1.0, 0.0 ]
+scumaxabs( 4, x1, -2, y1, 1 );
+// y0 => <Float32Array>[ 0.0, 0.0, 0.0, 4.0, 4.0, 4.0, 4.0, 0.0 ]
 ```
 
-#### scuminabs.ndarray( N, x, strideX, offsetX, y, strideY, offsetY )
+#### scumaxabs.ndarray( N, x, strideX, offsetX, y, strideY, offsetY )
 
-Computes the cumulative minimum absolute value of single-precision floating-point strided array elements using alternative indexing semantics.
+Computes the cumulative maximum absolute value of single-precision floating-point strided array elements using alternative indexing semantics.
 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
@@ -99,8 +99,8 @@ var Float32Array = require( '@stdlib/array/float32' );
 var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 var y = new Float32Array( x.length );
 
-scuminabs.ndarray( x.length, x, 1, 0, y, 1, 0 );
-// y => <Float32Array>[ 1.0, 1.0, 1.0 ]
+scumaxabs.ndarray( x.length, x, 1, 0, y, 1, 0 );
+// y => <Float32Array>[ 1.0, 2.0, 2.0 ]
 ```
 
 The function has the following additional parameters:
@@ -108,7 +108,7 @@ The function has the following additional parameters:
 -   **offsetX**: starting index for `x`.
 -   **offsetY**: starting index for `y`.
 
-While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, offset parameters support indexing semantics based on starting indices. For example, to calculate the cumulative minimum absolute value of every other element in `x` starting from the second element and to store in the last `N` elements of `y` starting from the last element
+While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, offset parameters support indexing semantics based on starting indices. For example, to calculate the cumulative maximum absolute value of every other element in `x` starting from the second element and to store in the last `N` elements of `y` starting from the last element
 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
@@ -116,8 +116,8 @@ var Float32Array = require( '@stdlib/array/float32' );
 var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 var y = new Float32Array( x.length );
 
-scuminabs.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
-// y => <Float32Array>[ 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0 ]
+scumaxabs.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
+// y => <Float32Array>[ 0.0, 0.0, 0.0, 0.0, 4.0, 2.0, 2.0, 1.0 ]
 ```
 
 </section>
@@ -143,7 +143,7 @@ scuminabs.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var Float32Array = require( '@stdlib/array/float32' );
-var scuminabs = require( '@stdlib/stats/base/scuminabs' );
+var scumaxabs = require( '@stdlib/stats/base/scumaxabs' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
@@ -152,7 +152,7 @@ var y = new Float32Array( x.length );
 console.log( x );
 console.log( y );
 
-scuminabs( x.length, x, 1, y, -1 );
+scumaxabs( x.length, x, 1, y, -1 );
 console.log( y );
 ```
 
@@ -183,18 +183,18 @@ console.log( y );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/scuminabs.h"
+#include "stdlib/stats/base/scumaxabs.h"
 ```
 
-#### stdlib_strided_scuminabs( N, \*X, strideX, \*Y, strideY )
+#### stdlib_strided_scumaxabs( N, \*X, strideX, \*Y, strideY )
 
-Computes the cumulative minumum absolute value of single-precision floating-point strided array elements.
+Computes the cumulative maximum absolute value of single-precision floating-point strided array elements.
 
 ```c
 const float x[] = { 1.0f, 2.0f, -3.0f, 4.0f, -5.0f, 6.0f, 7.0f, 8.0f };
 float y[] = { 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f };
 
-stdlib_strided_scuminabs( 4, x, 2, y, -2 );
+stdlib_strided_scumaxabs( 4, x, 2, y, -2 );
 ```
 
 The function accepts the following arguments:
@@ -206,18 +206,18 @@ The function accepts the following arguments:
 -   **strideY**: `[in] CBLAS_INT` stride length for `Y`.
 
 ```c
-void stdlib_strided_scuminabs( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, float *Y, const CBLAS_INT strideY );
+void stdlib_strided_scumaxabs( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, float *Y, const CBLAS_INT strideY );
 ```
 
-#### stdlib_strided_scuminabs_ndarray(N, \*X, strideX, offsetX, \*Y, strideY, offsetY)
+#### stdlib_strided_scumaxabs_ndarray(N, \*X, strideX, offsetX, \*Y, strideY, offsetY )
 
-Computes the cumulative minumum absolute value of single-precision floating-point strided array elements using alternative indexing semantics.
+Computes the cumulative maximum absolute value of single-precision floating-point strided array elements using alternative indexing semantics.
 
 ```c
 const float x[] = { 1.0f, 2.0f, -3.0f, 4.0f, -5.0f, 6.0f, 7.0f, 8.0f };
 float y[] = { 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f };
 
-stdlib_strided_scuminabs_ndarray( 4, x, 2, 0, y, -2, 0 );
+stdlib_strided_scumaxabs_ndarray( 4, x, 2, 0, y, -2, 0 );
 ```
 
 The function accepts the following arguments:
@@ -231,7 +231,7 @@ The function accepts the following arguments:
 -   **offsetY**: `[in] CBLAS_INT` starting index for `Y`.
 
 ```c
-void stdlib_strided_scuminabs_ndarray( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX, float *Y, const CBLAS_INT strideY, const CBLAS_INT offsetY );
+void stdlib_strided_scumaxabs_ndarray( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX, float *Y, const CBLAS_INT strideY, const CBLAS_INT offsetY );
 ```
 
 </section>
@@ -253,14 +253,13 @@ void stdlib_strided_scuminabs_ndarray( const CBLAS_INT N, const float *X, const 
 ### Examples
 
 ```c
-#include "stdlib/stats/base/scuminabs.h"
+#include "stdlib/stats/base/scumaxabs.h"
 #include <stdio.h>
 
 int main( void ) {
     // Create strided arrays:
     const float x[] = { 1.0f, 2.0f, -3.0f, 4.0f, -5.0f, 6.0f, 7.0f, 8.0f };
     float y[] = { 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f };
-
 
     // Specify the number of elements:
     const int N = 4;
@@ -269,8 +268,8 @@ int main( void ) {
     const int strideX = 2;
     const int strideY = -2;
 
-    // Compute the cumulative minumum absolute value:
-    stdlib_strided_scuminabs( N, x, strideX, y, strideY );
+    // Compute the cumulative maximum absolute value:
+    stdlib_strided_scumaxabs( N, x, strideX, y, strideY );
 
     // Print the result:
     for ( int i = 0; i < 8; i++ ) {
@@ -301,10 +300,10 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/base/cuminabs`][@stdlib/stats/base/cuminabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum absolute value of a strided array.</span>
--   <span class="package-name">[`@stdlib/stats/strided/dcuminabs`][@stdlib/stats/strided/dcuminabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum absolute value of double-precision floating-point strided array elements.</span>
--   <span class="package-name">[`@stdlib/stats/base/scumaxabs`][@stdlib/stats/base/scumaxabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum absolute value of single-precision floating-point strided array elements.</span>
--   <span class="package-name">[`@stdlib/stats/base/scumin`][@stdlib/stats/base/scumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of single-precision floating-point strided array elements.</span>
+-   <span class="package-name">[`@stdlib/stats/base/cumaxabs`][@stdlib/stats/base/cumaxabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum absolute value of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dcumaxabs`][@stdlib/stats/strided/dcumaxabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum absolute value of double-precision floating-point strided array elements.</span>
+-   <span class="package-name">[`@stdlib/stats/base/scumax`][@stdlib/stats/base/scumax]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum of single-precision floating-point strided array elements.</span>
+-   <span class="package-name">[`@stdlib/stats/base/scuminabs`][@stdlib/stats/base/scuminabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum absolute value of single-precision floating-point strided array elements.</span>
 
 </section>
 
@@ -320,13 +319,13 @@ int main( void ) {
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/cuminabs]: https://github.com/stdlib-js/stats/tree/main/base/cuminabs
+[@stdlib/stats/base/cumaxabs]: https://github.com/stdlib-js/stats/tree/main/base/cumaxabs
 
-[@stdlib/stats/strided/dcuminabs]: https://github.com/stdlib-js/stats/tree/main/strided/dcuminabs
+[@stdlib/stats/strided/dcumaxabs]: https://github.com/stdlib-js/stats/tree/main/strided/dcumaxabs
 
-[@stdlib/stats/base/scumaxabs]: https://github.com/stdlib-js/stats/tree/main/base/scumaxabs
+[@stdlib/stats/base/scumax]: https://github.com/stdlib-js/stats/tree/main/base/scumax
 
-[@stdlib/stats/base/scumin]: https://github.com/stdlib-js/stats/tree/main/base/scumin
+[@stdlib/stats/base/scuminabs]: https://github.com/stdlib-js/stats/tree/main/base/scuminabs
 
 <!-- </related-links> -->
 

@@ -694,6 +694,24 @@ setReadOnly( ns, 'range', require( './../../base/range' ) );
 setReadOnly( ns, 'rangeBy', require( './../../base/range-by' ) );
 
 /**
+* @name scumax
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/scumax}
+*/
+setReadOnly( ns, 'scumax', require( './../../base/scumax' ) );
+
+/**
+* @name scumaxabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/scumaxabs}
+*/
+setReadOnly( ns, 'scumaxabs', require( './../../base/scumaxabs' ) );
+
+/**
 * @name scumin
 * @memberof ns
 * @readonly
