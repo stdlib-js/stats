@@ -365,7 +365,7 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/stats/base/dnanstdev`][@stdlib/stats/base/dnanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dnanvariancech`][@stdlib/stats/strided/dnanvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/dstdevch`][@stdlib/stats/base/dstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dstdevch`][@stdlib/stats/strided/dstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanstdevch`][@stdlib/stats/base/nanstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanstdevch`][@stdlib/stats/base/snanstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
 
@@ -397,7 +397,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/dnanvariancech]: https://github.com/stdlib-js/stats/tree/main/strided/dnanvariancech
 
-[@stdlib/stats/base/dstdevch]: https://github.com/stdlib-js/stats/tree/main/base/dstdevch
+[@stdlib/stats/strided/dstdevch]: https://github.com/stdlib-js/stats/tree/main/strided/dstdevch
 
 [@stdlib/stats/base/nanstdevch]: https://github.com/stdlib-js/stats/tree/main/base/nanstdevch
 

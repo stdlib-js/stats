@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dstdevch.h"
+#include "stdlib/stats/strided/dstdevch.h"
 #include <stdio.h>
 
 int main( void ) {

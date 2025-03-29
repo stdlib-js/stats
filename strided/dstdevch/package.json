@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dstdevch",
+  "name": "@stdlib/stats/strided/dstdevch",
   "version": "0.0.0",
   "description": "Calculate the standard deviation of a double-precision floating-point strided array using a one-pass trial mean algorithm.",
   "license": "Apache-2.0",

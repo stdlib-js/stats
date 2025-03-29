@@ -107,7 +107,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dsnanmeanpn( N, x, strideX )`][@stdlib/stats/strided/dsnanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values, using a two-pass error correction algorithm with extended accumulation, and returning an extended precision result.</span>
 -   <span class="signature">[`dsnanmeanwd( N, x, strideX )`][@stdlib/stats/strided/dsnanmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values, using Welford's algorithm with extended accumulation, and returning an extended precision result.</span>
 -   <span class="signature">[`dstdev( N, correction, x, stride )`][@stdlib/stats/base/dstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array.</span>
--   <span class="signature">[`dstdevch( N, correction, x, strideX )`][@stdlib/stats/base/dstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
+-   <span class="signature">[`dstdevch( N, correction, x, strideX )`][@stdlib/stats/strided/dstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
 -   <span class="signature">[`dstdevpn( N, correction, x, strideX )`][@stdlib/stats/base/dstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a two-pass algorithm.</span>
 -   <span class="signature">[`dstdevtk( N, correction, x, strideX )`][@stdlib/stats/base/dstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a one-pass textbook algorithm.</span>
 -   <span class="signature">[`dstdevwd( N, correction, x, strideX )`][@stdlib/stats/base/dstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using Welford's algorithm.</span>
@@ -399,7 +399,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/dstdev]: https://github.com/stdlib-js/stats/tree/main/base/dstdev
 
-[@stdlib/stats/base/dstdevch]: https://github.com/stdlib-js/stats/tree/main/base/dstdevch
+[@stdlib/stats/strided/dstdevch]: https://github.com/stdlib-js/stats/tree/main/strided/dstdevch
 
 [@stdlib/stats/base/dstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/dstdevpn
 
