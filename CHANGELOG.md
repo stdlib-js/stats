@@ -46,56 +46,6 @@
 
 ##### BREAKING CHANGES
 
--   [`e2d3976`](https://github.com/stdlib-js/stdlib/commit/e2d3976fb55f654522d28085ca1bc7a241962d1d): remove `stats/base/dnanvarianceyc`
-
-    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dnanvarianceyc` namespace.
-        Ref: https://github.com/stdlib-js/stdlib/issues/4797
-        ---
-        type: pre_commit_static_analysis_report
-        description: Results of running static analysis checks when committing changes.
-        report:
-          - task: lint_filenames
-            status: passed
-          - task: lint_editorconfig
-            status: passed
-          - task: lint_markdown
-            status: na
-          - task: lint_package_json
-            status: na
-          - task: lint_repl_help
-            status: na
-          - task: lint_javascript_src
-            status: passed
-          - task: lint_javascript_cli
-            status: na
-          - task: lint_javascript_examples
-            status: na
-          - task: lint_javascript_tests
-            status: na
-          - task: lint_javascript_benchmarks
-            status: na
-          - task: lint_python
-            status: na
-          - task: lint_r
-            status: na
-          - task: lint_c_src
-            status: na
-          - task: lint_c_examples
-            status: na
-          - task: lint_c_benchmarks
-            status: na
-          - task: lint_c_tests_fixtures
-            status: na
-          - task: lint_shell
-            status: na
-          - task: lint_typescript_declarations
-            status: passed
-          - task: lint_typescript_tests
-            status: na
-          - task: lint_license_headers
-            status: passed
-        ---
-
 -   [`b7a0835`](https://github.com/stdlib-js/stdlib/commit/b7a08350033032fc33b34efc8be5dc4d60ccbbb1): remove `stats/base/dnanvariancewd`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dnanvariancewd` namespace.
@@ -15289,65 +15239,6 @@ This release closes the following issue:
 
 <!-- /.features -->
 
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`1c89a51`](https://github.com/stdlib-js/stdlib/commit/1c89a51b9cf06aa6b29c89ae46c631c28fd9c38b): remove `stats/base/dnanvarianceyc`
-
-    -   To migrate, users should update their require/import paths to use
-        `@stdlib/stats/strided/dnanvarianceyc`, which provides the same API and implementation.
-        Ref: https://github.com/stdlib-js/stdlib/issues/4797
-        ---
-        type: pre_commit_static_analysis_report
-        description: Results of running static analysis checks when committing changes.
-        report:
-          - task: lint_filenames
-            status: passed
-          - task: lint_editorconfig
-            status: passed
-          - task: lint_markdown
-            status: na
-          - task: lint_package_json
-            status: na
-          - task: lint_repl_help
-            status: na
-          - task: lint_javascript_src
-            status: na
-          - task: lint_javascript_cli
-            status: na
-          - task: lint_javascript_examples
-            status: na
-          - task: lint_javascript_tests
-            status: na
-          - task: lint_javascript_benchmarks
-            status: na
-          - task: lint_python
-            status: na
-          - task: lint_r
-            status: na
-          - task: lint_c_src
-            status: na
-          - task: lint_c_examples
-            status: na
-          - task: lint_c_benchmarks
-            status: na
-          - task: lint_c_tests_fixtures
-            status: na
-          - task: lint_shell
-            status: na
-          - task: lint_typescript_declarations
-            status: na
-          - task: lint_typescript_tests
-            status: na
-          - task: lint_license_headers
-            status: passed
-        ---
-
-</section>
-
-<!-- /.breaking-changes -->
-
 </details>
 
 </section>
@@ -18601,28 +18492,6 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="stats-strided-dnanvarianceyc-unreleased">
-
-#### [@stdlib/stats/strided/dnanvarianceyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dnanvarianceyc)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`2aeee4c`](https://github.com/stdlib-js/stdlib/commit/2aeee4c7d5925050fa84107f62819dd833e8796d) - add `stats/strided/dnanvarianceyc`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
 </section>
 
 <!-- /.packages -->
@@ -18630,107 +18499,6 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
-
--   [`1c89a51`](https://github.com/stdlib-js/stdlib/commit/1c89a51b9cf06aa6b29c89ae46c631c28fd9c38b): remove `stats/base/dnanvarianceyc`
-
-    -   To migrate, users should update their require/import paths to use
-        `@stdlib/stats/strided/dnanvarianceyc`, which provides the same API and implementation.
-        Ref: https://github.com/stdlib-js/stdlib/issues/4797
-        ---
-        type: pre_commit_static_analysis_report
-        description: Results of running static analysis checks when committing changes.
-        report:
-          - task: lint_filenames
-            status: passed
-          - task: lint_editorconfig
-            status: passed
-          - task: lint_markdown
-            status: na
-          - task: lint_package_json
-            status: na
-          - task: lint_repl_help
-            status: na
-          - task: lint_javascript_src
-            status: na
-          - task: lint_javascript_cli
-            status: na
-          - task: lint_javascript_examples
-            status: na
-          - task: lint_javascript_tests
-            status: na
-          - task: lint_javascript_benchmarks
-            status: na
-          - task: lint_python
-            status: na
-          - task: lint_r
-            status: na
-          - task: lint_c_src
-            status: na
-          - task: lint_c_examples
-            status: na
-          - task: lint_c_benchmarks
-            status: na
-          - task: lint_c_tests_fixtures
-            status: na
-          - task: lint_shell
-            status: na
-          - task: lint_typescript_declarations
-            status: na
-          - task: lint_typescript_tests
-            status: na
-          - task: lint_license_headers
-            status: passed
-        ---
-
--   [`e2d3976`](https://github.com/stdlib-js/stdlib/commit/e2d3976fb55f654522d28085ca1bc7a241962d1d): remove `stats/base/dnanvarianceyc`
-
-    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dnanvarianceyc` namespace.
-        Ref: https://github.com/stdlib-js/stdlib/issues/4797
-        ---
-        type: pre_commit_static_analysis_report
-        description: Results of running static analysis checks when committing changes.
-        report:
-          - task: lint_filenames
-            status: passed
-          - task: lint_editorconfig
-            status: passed
-          - task: lint_markdown
-            status: na
-          - task: lint_package_json
-            status: na
-          - task: lint_repl_help
-            status: na
-          - task: lint_javascript_src
-            status: passed
-          - task: lint_javascript_cli
-            status: na
-          - task: lint_javascript_examples
-            status: na
-          - task: lint_javascript_tests
-            status: na
-          - task: lint_javascript_benchmarks
-            status: na
-          - task: lint_python
-            status: na
-          - task: lint_r
-            status: na
-          - task: lint_c_src
-            status: na
-          - task: lint_c_examples
-            status: na
-          - task: lint_c_benchmarks
-            status: na
-          - task: lint_c_tests_fixtures
-            status: na
-          - task: lint_shell
-            status: na
-          - task: lint_typescript_declarations
-            status: passed
-          - task: lint_typescript_tests
-            status: na
-          - task: lint_license_headers
-            status: passed
-        ---
 
 -   [`2b2ef00`](https://github.com/stdlib-js/stdlib/commit/2b2ef00146108f5450e7f327e101610d8c14f56c): remove `stats/base/dnanvariancewd`
 
@@ -22319,10 +22087,6 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
--   [`1c89a51`](https://github.com/stdlib-js/stdlib/commit/1c89a51b9cf06aa6b29c89ae46c631c28fd9c38b) - **remove:** remove `stats/base/dnanvarianceyc` _(by Aayush Khanna)_
--   [`d283052`](https://github.com/stdlib-js/stdlib/commit/d283052899cf3766b304436a7b4b5960966a4d7d) - **refactor:** update paths _(by Aayush Khanna)_
--   [`e2d3976`](https://github.com/stdlib-js/stdlib/commit/e2d3976fb55f654522d28085ca1bc7a241962d1d) - **remove:** remove `stats/base/dnanvarianceyc` from namespace _(by Aayush Khanna)_
--   [`2aeee4c`](https://github.com/stdlib-js/stdlib/commit/2aeee4c7d5925050fa84107f62819dd833e8796d) - **feat:** add `stats/strided/dnanvarianceyc` _(by Aayush Khanna)_
 -   [`2b2ef00`](https://github.com/stdlib-js/stdlib/commit/2b2ef00146108f5450e7f327e101610d8c14f56c) - **remove:** remove `stats/base/dnanvariancewd` _(by Aayush Khanna)_
 -   [`4de7fc4`](https://github.com/stdlib-js/stdlib/commit/4de7fc4b59fa279a67b642213e90760eaf5f7b88) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`b7a0835`](https://github.com/stdlib-js/stdlib/commit/b7a08350033032fc33b34efc8be5dc4d60ccbbb1) - **remove:** remove `stats/base/dnanvariancewd` from namespace _(by Aayush Khanna)_

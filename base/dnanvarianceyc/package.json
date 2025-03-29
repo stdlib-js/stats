@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/strided/dnanvarianceyc",
+  "name": "@stdlib/stats/base/dnanvarianceyc",
   "version": "0.0.0",
   "description": "Calculate the variance of a double-precision floating-point strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.",
   "license": "Apache-2.0",

@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/dnanvarianceyc.h"
+#include "stdlib/stats/base/dnanvarianceyc.h"
 #include <stdio.h>
 
 int main( void ) {
