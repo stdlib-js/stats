@@ -101,7 +101,6 @@ import smeankbn2 = require( './../../../base/smeankbn2' );
 import smeanlipw = require( './../../../base/smeanlipw' );
 import smeanors = require( './../../../base/smeanors' );
 import smeanpn = require( './../../../base/smeanpn' );
-import smeanpw = require( './../../../base/smeanpw' );
 import smeanwd = require( './../../../base/smeanwd' );
 import smediansorted = require( './../../../base/smediansorted' );
 import smidrange = require( './../../../base/smidrange' );
@@ -2312,32 +2311,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	smeanpn: typeof smeanpn;
-
-	/**
-	* Computes the arithmetic mean of a single-precision floating-point strided array using pairwise summation.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.smeanpw( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.smeanpw.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	smeanpw: typeof smeanpw;
 
 	/**
 	* Computes the arithmetic mean of a single-precision floating-point strided array using Welford's algorithm.

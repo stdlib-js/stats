@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/smeanpw.h"
+#include "stdlib/stats/strided/smeanpw.h"
 #include "stdlib/blas/ext/base/ssumpw.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/strided/base/stride2offset.h"

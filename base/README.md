@@ -190,7 +190,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`smeanlipw( N, x, stride )`][@stdlib/stats/base/smeanlipw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using a one-pass trial mean algorithm with pairwise summation.</span>
 -   <span class="signature">[`smeanors( N, x, stride )`][@stdlib/stats/base/smeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using ordinary recursive summation.</span>
 -   <span class="signature">[`smeanpn( N, x, stride )`][@stdlib/stats/base/smeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using a two-pass error correction algorithm.</span>
--   <span class="signature">[`smeanpw( N, x, strideX )`][@stdlib/stats/base/smeanpw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using pairwise summation.</span>
+-   <span class="signature">[`smeanpw( N, x, strideX )`][@stdlib/stats/strided/smeanpw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using pairwise summation.</span>
 -   <span class="signature">[`smeanwd( N, x, strideX )`][@stdlib/stats/base/smeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using Welford's algorithm.</span>
 -   <span class="signature">[`smediansorted( N, x, strideX )`][@stdlib/stats/base/smediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted single-precision floating-point strided array.</span>
 -   <span class="signature">[`smidrange( N, x, strideX )`][@stdlib/stats/base/smidrange]</span><span class="delimiter">: </span><span class="description">calculate the mid-range of a single-precision floating-point strided array.</span>
@@ -565,7 +565,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/smeanpn]: https://github.com/stdlib-js/stats/tree/main/base/smeanpn
 
-[@stdlib/stats/base/smeanpw]: https://github.com/stdlib-js/stats/tree/main/base/smeanpw
+[@stdlib/stats/strided/smeanpw]: https://github.com/stdlib-js/stats/tree/main/strided/smeanpw
 
 [@stdlib/stats/base/smeanwd]: https://github.com/stdlib-js/stats/tree/main/base/smeanwd
 
