@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var smskmax = require( '@stdlib/stats/strided/smskmax' );
+var smskmax = require( '@stdlib/stats/base/smskmax' );
 ```
 
 #### smskmax( N, x, strideX, mask, strideMask )
@@ -146,7 +146,7 @@ var v = smskmax.ndarray( 4, x, 2, 1, mask, 2, 1 );
 ```javascript
 var uniform = require( '@stdlib/random/array/uniform' );
 var bernoulli = require( '@stdlib/random/array/bernoulli' );
-var smskmax = require( '@stdlib/stats/strided/smskmax' );
+var smskmax = require( '@stdlib/stats/base/smskmax' );
 
 var uniformOptions = {
     'dtype': 'float32'
@@ -191,7 +191,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/smskmax.h"
+#include "stdlib/stats/base/smskmax.h"
 ```
 
 #### stdlib_strided_smskmax( N, \*X, strideX, \*Mask, strideMask )
@@ -269,7 +269,7 @@ float stdlib_strided_smskmax_ndarray( const CBLAS_INT N, const float *X, const C
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/smskmax.h"
+#include "stdlib/stats/base/smskmax.h"
 #include <stdint.h>
 #include <stdio.h>
 

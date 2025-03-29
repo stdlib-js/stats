@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/smskmax.h"
+#include "stdlib/stats/base/smskmax.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

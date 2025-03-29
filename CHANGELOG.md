@@ -46,56 +46,6 @@
 
 ##### BREAKING CHANGES
 
--   [`b6f05e6`](https://github.com/stdlib-js/stdlib/commit/b6f05e6310ab18dfdb6a1ee65dfbf8aa6a03c407): remove `stats/base/smskmax`
-
-    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/smskmax` namespace.
-        Ref: https://github.com/stdlib-js/stdlib/issues/4797
-        ---
-        type: pre_commit_static_analysis_report
-        description: Results of running static analysis checks when committing changes.
-        report:
-          - task: lint_filenames
-            status: passed
-          - task: lint_editorconfig
-            status: passed
-          - task: lint_markdown
-            status: na
-          - task: lint_package_json
-            status: na
-          - task: lint_repl_help
-            status: na
-          - task: lint_javascript_src
-            status: passed
-          - task: lint_javascript_cli
-            status: na
-          - task: lint_javascript_examples
-            status: na
-          - task: lint_javascript_tests
-            status: na
-          - task: lint_javascript_benchmarks
-            status: na
-          - task: lint_python
-            status: na
-          - task: lint_r
-            status: na
-          - task: lint_c_src
-            status: na
-          - task: lint_c_examples
-            status: na
-          - task: lint_c_benchmarks
-            status: na
-          - task: lint_c_tests_fixtures
-            status: na
-          - task: lint_shell
-            status: na
-          - task: lint_typescript_declarations
-            status: passed
-          - task: lint_typescript_tests
-            status: na
-          - task: lint_license_headers
-            status: passed
-        ---
-
 -   [`0bf42c6`](https://github.com/stdlib-js/stdlib/commit/0bf42c6a699a00b89df3ca80a1a0b2ad01c326bc): remove `stats/base/sminsorted`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/sminsorted` namespace.
@@ -21891,65 +21841,6 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`d24d37f`](https://github.com/stdlib-js/stdlib/commit/d24d37f7e42214573ca4d7876040364086145225): remove `stats/base/smskmax`
-
-    -   To migrate, users should update their require/import paths to use
-        `@stdlib/stats/strided/smskmax`, which provides the same API and implementation.
-        Ref: https://github.com/stdlib-js/stdlib/issues/4797
-        ---
-        type: pre_commit_static_analysis_report
-        description: Results of running static analysis checks when committing changes.
-        report:
-          - task: lint_filenames
-            status: passed
-          - task: lint_editorconfig
-            status: passed
-          - task: lint_markdown
-            status: na
-          - task: lint_package_json
-            status: na
-          - task: lint_repl_help
-            status: na
-          - task: lint_javascript_src
-            status: na
-          - task: lint_javascript_cli
-            status: na
-          - task: lint_javascript_examples
-            status: na
-          - task: lint_javascript_tests
-            status: na
-          - task: lint_javascript_benchmarks
-            status: na
-          - task: lint_python
-            status: na
-          - task: lint_r
-            status: na
-          - task: lint_c_src
-            status: na
-          - task: lint_c_examples
-            status: na
-          - task: lint_c_benchmarks
-            status: na
-          - task: lint_c_tests_fixtures
-            status: na
-          - task: lint_shell
-            status: na
-          - task: lint_typescript_declarations
-            status: na
-          - task: lint_typescript_tests
-            status: na
-          - task: lint_license_headers
-            status: passed
-        ---
-
-</section>
-
-<!-- /.breaking-changes -->
-
 </details>
 
 </section>
@@ -24496,28 +24387,6 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="stats-strided-smskmax-unreleased">
-
-#### [@stdlib/stats/strided/smskmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/smskmax)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`1e92dd9`](https://github.com/stdlib-js/stdlib/commit/1e92dd9647f2f20f70f2135571020ddf8dfccbee) - add `stats/strided/smskmax`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
 </section>
 
 <!-- /.packages -->
@@ -24525,107 +24394,6 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
-
--   [`d24d37f`](https://github.com/stdlib-js/stdlib/commit/d24d37f7e42214573ca4d7876040364086145225): remove `stats/base/smskmax`
-
-    -   To migrate, users should update their require/import paths to use
-        `@stdlib/stats/strided/smskmax`, which provides the same API and implementation.
-        Ref: https://github.com/stdlib-js/stdlib/issues/4797
-        ---
-        type: pre_commit_static_analysis_report
-        description: Results of running static analysis checks when committing changes.
-        report:
-          - task: lint_filenames
-            status: passed
-          - task: lint_editorconfig
-            status: passed
-          - task: lint_markdown
-            status: na
-          - task: lint_package_json
-            status: na
-          - task: lint_repl_help
-            status: na
-          - task: lint_javascript_src
-            status: na
-          - task: lint_javascript_cli
-            status: na
-          - task: lint_javascript_examples
-            status: na
-          - task: lint_javascript_tests
-            status: na
-          - task: lint_javascript_benchmarks
-            status: na
-          - task: lint_python
-            status: na
-          - task: lint_r
-            status: na
-          - task: lint_c_src
-            status: na
-          - task: lint_c_examples
-            status: na
-          - task: lint_c_benchmarks
-            status: na
-          - task: lint_c_tests_fixtures
-            status: na
-          - task: lint_shell
-            status: na
-          - task: lint_typescript_declarations
-            status: na
-          - task: lint_typescript_tests
-            status: na
-          - task: lint_license_headers
-            status: passed
-        ---
-
--   [`b6f05e6`](https://github.com/stdlib-js/stdlib/commit/b6f05e6310ab18dfdb6a1ee65dfbf8aa6a03c407): remove `stats/base/smskmax`
-
-    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/smskmax` namespace.
-        Ref: https://github.com/stdlib-js/stdlib/issues/4797
-        ---
-        type: pre_commit_static_analysis_report
-        description: Results of running static analysis checks when committing changes.
-        report:
-          - task: lint_filenames
-            status: passed
-          - task: lint_editorconfig
-            status: passed
-          - task: lint_markdown
-            status: na
-          - task: lint_package_json
-            status: na
-          - task: lint_repl_help
-            status: na
-          - task: lint_javascript_src
-            status: passed
-          - task: lint_javascript_cli
-            status: na
-          - task: lint_javascript_examples
-            status: na
-          - task: lint_javascript_tests
-            status: na
-          - task: lint_javascript_benchmarks
-            status: na
-          - task: lint_python
-            status: na
-          - task: lint_r
-            status: na
-          - task: lint_c_src
-            status: na
-          - task: lint_c_examples
-            status: na
-          - task: lint_c_benchmarks
-            status: na
-          - task: lint_c_tests_fixtures
-            status: na
-          - task: lint_shell
-            status: na
-          - task: lint_typescript_declarations
-            status: passed
-          - task: lint_typescript_tests
-            status: na
-          - task: lint_license_headers
-            status: passed
-        ---
 
 -   [`539b8cc`](https://github.com/stdlib-js/stdlib/commit/539b8ccc79ede34f0b578ebe8e6946b2af7100c8): remove `stats/base/sminsorted`
 
@@ -32759,10 +32527,6 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
--   [`d24d37f`](https://github.com/stdlib-js/stdlib/commit/d24d37f7e42214573ca4d7876040364086145225) - **remove:** remove `stats/base/smskmax` _(by Aayush Khanna)_
--   [`ba34630`](https://github.com/stdlib-js/stdlib/commit/ba346304a852e3aeb7525ed0da088139f7a33904) - **refactor:** update paths _(by Aayush Khanna)_
--   [`b6f05e6`](https://github.com/stdlib-js/stdlib/commit/b6f05e6310ab18dfdb6a1ee65dfbf8aa6a03c407) - **remove:** remove `stats/base/smskmax` from namespace _(by Aayush Khanna)_
--   [`1e92dd9`](https://github.com/stdlib-js/stdlib/commit/1e92dd9647f2f20f70f2135571020ddf8dfccbee) - **feat:** add `stats/strided/smskmax` _(by Aayush Khanna)_
 -   [`539b8cc`](https://github.com/stdlib-js/stdlib/commit/539b8ccc79ede34f0b578ebe8e6946b2af7100c8) - **remove:** remove `stats/base/sminsorted` _(by Aayush Khanna)_
 -   [`1e9e65d`](https://github.com/stdlib-js/stdlib/commit/1e9e65dbba33062853608b997a3076f00fa37234) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`0bf42c6`](https://github.com/stdlib-js/stdlib/commit/0bf42c6a699a00b89df3ca80a1a0b2ad01c326bc) - **remove:** remove `stats/base/sminsorted` from namespace _(by Aayush Khanna)_

@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_STATS_STRIDED_SMSKMAX_H
-#define STDLIB_STATS_STRIDED_SMSKMAX_H
+#ifndef STDLIB_STATS_BASE_SMSKMAX_H
+#define STDLIB_STATS_BASE_SMSKMAX_H
 
 #include "stdlib/blas/base/shared.h"
 #include <stdint.h>
@@ -43,4 +43,4 @@ float API_SUFFIX(stdlib_strided_smskmax_ndarray)( const CBLAS_INT N, const float
 }
 #endif
 
-#endif // !STDLIB_STATS_STRIDED_SMSKMAX_H
+#endif // !STDLIB_STATS_BASE_SMSKMAX_H
