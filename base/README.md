@@ -176,10 +176,10 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`scumin( N, x, strideX, y, strideY )`][@stdlib/stats/strided/scumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of single-precision floating-point strided array elements.</span>
 -   <span class="signature">[`scuminabs( N, x, strideX, y, strideY )`][@stdlib/stats/strided/scuminabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum absolute value of single-precision floating-point strided array elements.</span>
 -   <span class="signature">[`sdsmean( N, x, strideX )`][@stdlib/stats/strided/sdsmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using extended accumulation.</span>
--   <span class="signature">[`sdsmeanors( N, x, strideX )`][@stdlib/stats/strided/sdsmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using ordinary recursive summation with extended accumulation.</span>
+-   <span class="signature">[`sdsmeanors( N, x, strideX )`][@stdlib/stats/base/sdsmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using ordinary recursive summation with extended accumulation.</span>
 -   <span class="signature">[`sdsnanmean( N, x, stride )`][@stdlib/stats/base/sdsnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using extended accumulation.</span>
 -   <span class="signature">[`sdsnanmeanors( N, x, stride )`][@stdlib/stats/base/sdsnanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using ordinary recursive summation with extended accumulation.</span>
--   <span class="signature">[`smax( N, x, strideX )`][@stdlib/stats/strided/smax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array.</span>
+-   <span class="signature">[`smax( N, x, strideX )`][@stdlib/stats/base/smax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array.</span>
 -   <span class="signature">[`smaxabs( N, x, strideX )`][@stdlib/stats/base/smaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a single-precision floating-point strided array.</span>
 -   <span class="signature">[`smaxabssorted( N, x, strideX )`][@stdlib/stats/base/smaxabssorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a sorted single-precision floating-point strided array.</span>
 -   <span class="signature">[`smaxsorted( N, x, stride )`][@stdlib/stats/base/smaxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted single-precision floating-point strided array.</span>
@@ -537,13 +537,13 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/sdsmean]: https://github.com/stdlib-js/stats/tree/main/strided/sdsmean
 
-[@stdlib/stats/strided/sdsmeanors]: https://github.com/stdlib-js/stats/tree/main/strided/sdsmeanors
+[@stdlib/stats/base/sdsmeanors]: https://github.com/stdlib-js/stats/tree/main/base/sdsmeanors
 
 [@stdlib/stats/base/sdsnanmean]: https://github.com/stdlib-js/stats/tree/main/base/sdsnanmean
 
 [@stdlib/stats/base/sdsnanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/sdsnanmeanors
 
-[@stdlib/stats/strided/smax]: https://github.com/stdlib-js/stats/tree/main/strided/smax
+[@stdlib/stats/base/smax]: https://github.com/stdlib-js/stats/tree/main/base/smax
 
 [@stdlib/stats/base/smaxabs]: https://github.com/stdlib-js/stats/tree/main/base/smaxabs
 

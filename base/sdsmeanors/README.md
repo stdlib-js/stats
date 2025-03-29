@@ -18,11 +18,26 @@ limitations under the License.
 
 -->
 
-# smin
+# sdsmeanors
 
-> Calculate the minimum value of a single-precision floating-point strided array.
+> Calculate the [arithmetic mean][arithmetic-mean] of a single-precision floating-point strided array using ordinary recursive summation with extended accumulation.
 
 <section class="intro">
+
+The [arithmetic mean][arithmetic-mean] is defined as
+
+<!-- <equation class="equation" label="eq:arithmetic_mean" align="center" raw="\mu = \frac{1}{n} \sum_{i=0}^{n-1} x_i" alt="Equation for the arithmetic mean."> -->
+
+```math
+\mu = \frac{1}{n} \sum_{i=0}^{n-1} x_i
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:arithmetic_mean">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@9574215d8f1ec3317909171013cf282fd8db9b91/lib/node_modules/@stdlib/stats/base/sdsmeanors/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
+    <br>
+</div> -->
+
+<!-- </equation> -->
 
 </section>
 
@@ -33,20 +48,20 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var smin = require( '@stdlib/stats/base/smin' );
+var sdsmeanors = require( '@stdlib/stats/base/sdsmeanors' );
 ```
 
-#### smin( N, x, strideX )
+#### sdsmeanors( N, x, strideX )
 
-Computes the minimum value of a single-precision floating-point strided array `x`.
+Computes the [arithmetic mean][arithmetic-mean] of a single-precision floating-point strided array `x` using ordinary recursive summation with extended accumulation.
 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
 
 var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 
-var v = smin( x.length, x, 1 );
-// returns -2.0
+var v = sdsmeanors( x.length, x, 1 );
+// returns ~0.3333
 ```
 
 The function has the following parameters:
@@ -55,15 +70,15 @@ The function has the following parameters:
 -   **x**: input [`Float32Array`][@stdlib/array/float32].
 -   **strideX**: stride length for `x`.
 
-The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to compute the minimum value of every other element in `x`,
+The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to compute the [arithmetic mean][arithmetic-mean] of every other element in `x`,
 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
 
 var x = new Float32Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ] );
 
-var v = smin( 4, x, 2 );
-// returns -2.0
+var v = sdsmeanors( 4, x, 2 );
+// returns 1.25
 ```
 
 Note that indexing is relative to the first index. To introduce an offset, use [`typed array`][mdn-typed-array] views.
@@ -76,36 +91,36 @@ var Float32Array = require( '@stdlib/array/float32' );
 var x0 = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 var x1 = new Float32Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var v = smin( 4, x1, 2 );
-// returns -2.0
+var v = sdsmeanors( 4, x1, 2 );
+// returns 1.25
 ```
 
-#### smin.ndarray( N, x, strideX, offsetX )
+#### sdsmeanors.ndarray( N, x, strideX, offsetX )
 
-Computes the minimum value of a single-precision floating-point strided array using alternative indexing semantics.
+Computes the [arithmetic mean][arithmetic-mean] of a single-precision floating-point strided array using ordinary recursive summation with extended accumulation and alternative indexing semantics.
 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
 
 var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 
-var v = smin.ndarray( x.length, x, 1, 0 );
-// returns -2.0
+var v = sdsmeanors.ndarray( x.length, x, 1, 0 );
+// returns ~0.33333
 ```
 
 The function has the following additional parameters:
 
 -   **offsetX**: starting index for `x`.
 
-While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameter supports indexing semantics based on a starting index. For example, to calculate the minimum value for every other element in `x` starting from the second element
+While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameter supports indexing semantics based on a starting index. For example, to calculate the [arithmetic mean][arithmetic-mean] for every other element in `x` starting from the second element
 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
 
 var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 
-var v = smin.ndarray( 4, x, 2, 1 );
-// returns -2.0
+var v = sdsmeanors.ndarray( 4, x, 2, 1 );
+// returns 1.25
 ```
 
 </section>
@@ -117,6 +132,7 @@ var v = smin.ndarray( 4, x, 2, 1 );
 ## Notes
 
 -   If `N <= 0`, both functions return `NaN`.
+-   Accumulated intermediate values are stored as double-precision floating-point numbers.
 
 </section>
 
@@ -130,14 +146,14 @@ var v = smin.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var smin = require( '@stdlib/stats/base/smin' );
+var sdsmeanors = require( '@stdlib/stats/base/sdsmeanors' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
 });
 console.log( x );
 
-var v = smin( x.length, x, 1 );
+var v = sdsmeanors( x.length, x, 1 );
 console.log( v );
 ```
 
@@ -168,18 +184,18 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/smin.h"
+#include "stdlib/stats/base/sdsmeanors.h"
 ```
 
-#### stdlib_strided_smin( N, \*X, strideX )
+#### stdlib_strided_sdsmeanors( N, \*X, strideX )
 
-Computes the minimum value of a single-precision floating-point strided array.
+Computes the [arithmetic mean][arithmetic-mean] of a single-precision floating-point strided array using ordinary recursive summation with extended accumulation.
 
 ```c
-const float x[] = { 1.0f, -2.0f, 3.0f, -4.0f };
+const float x[] = { 1.0f, 2.0f, 3.0f };
 
-float v = stdlib_strided_smin( 4, x, 1 );
-// returns 1.0f
+float v = stdlib_strided_sdsmeanors( 3, x, 1 );
+// returns 2.0f
 ```
 
 The function accepts the following arguments:
@@ -189,18 +205,18 @@ The function accepts the following arguments:
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 
 ```c
-float stdlib_strided_smin( const CBLAS_INT N, const float *X, const CBLAS_INT strideX );
+float stdlib_strided_sdsmeanors( const CBLAS_INT N, const float *X, const CBLAS_INT strideX );
 ```
 
-#### stdlib_strided_smin_ndarray( N, \*X, strideX, offsetX )
+#### stdlib_strided_sdsmeanors_ndarray( N, \*X, strideX, offsetX )
 
-Computes the minimum value of a single-precision floating-point strided array using alternative indexing semantics.
+Computes the [arithmetic mean][arithmetic-mean] of a single-precision floating-point strided array using ordinary recursive summation with extended accumulation and alternative indexing semantics.
 
 ```c
-const float x[] = { 1.0f, -2.0f, 3.0f, -4.0f };
+const float x[] = { 1.0f, 2.0f, 3.0f };
 
-float v = stdlib_strided_smin_ndarray( 4, x, 1, 0 );
-// returns 1.0f
+float v = stdlib_strided_sdsmeanors_ndarray( 3, x, 1, 0 );
+// returns 2.0f
 ```
 
 The function accepts the following arguments:
@@ -211,7 +227,7 @@ The function accepts the following arguments:
 -   **offsetX**: `[in] CBLAS_INT` starting index for `X`.
 
 ```c
-float stdlib_strided_smin_ndarray( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
+float stdlib_strided_sdsmeanors_ndarray( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
 ```
 
 </section>
@@ -233,7 +249,7 @@ float stdlib_strided_smin_ndarray( const CBLAS_INT N, const float *X, const CBLA
 ### Examples
 
 ```c
-#include "stdlib/stats/base/smin.h"
+#include "stdlib/stats/base/sdsmeanors.h"
 #include <stdio.h>
 
 int main( void ) {
@@ -246,11 +262,11 @@ int main( void ) {
     // Specify the stride length:
     const int strideX = 2;
 
-    // Compute the minimum value:
-    float v = stdlib_strided_smin( N, x, strideX );
+    // Compute the arithmetic mean:
+    float v = stdlib_strided_sdsmeanors( N, x, strideX );
 
     // Print the result:
-    printf( "min: %f\n", v );
+    printf( "mean: %f\n", v );
 }
 ```
 
@@ -270,10 +286,8 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/strided/dmin`][@stdlib/stats/strided/dmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/min`][@stdlib/stats/base/min]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/smax`][@stdlib/stats/base/smax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/snanmin`][@stdlib/stats/base/snanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/sdsmean`][@stdlib/stats/strided/sdsmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using extended accumulation.</span>
+-   <span class="package-name">[`@stdlib/stats/base/sdsnanmeanors`][@stdlib/stats/base/sdsnanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation with extended accumulation.</span>
 
 </section>
 
@@ -283,19 +297,17 @@ int main( void ) {
 
 <section class="links">
 
+[arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
+
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/strided/dmin]: https://github.com/stdlib-js/stats/tree/main/strided/dmin
+[@stdlib/stats/strided/sdsmean]: https://github.com/stdlib-js/stats/tree/main/strided/sdsmean
 
-[@stdlib/stats/base/min]: https://github.com/stdlib-js/stats/tree/main/base/min
-
-[@stdlib/stats/base/smax]: https://github.com/stdlib-js/stats/tree/main/base/smax
-
-[@stdlib/stats/base/snanmin]: https://github.com/stdlib-js/stats/tree/main/base/snanmin
+[@stdlib/stats/base/sdsnanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/sdsnanmeanors
 
 <!-- </related-links> -->
 

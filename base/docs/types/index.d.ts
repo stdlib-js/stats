@@ -93,8 +93,10 @@ import nanvariancewd = require( './../../../base/nanvariancewd' );
 import nanvarianceyc = require( './../../../base/nanvarianceyc' );
 import range = require( './../../../base/range' );
 import rangeBy = require( './../../../base/range-by' );
+import sdsmeanors = require( './../../../base/sdsmeanors' );
 import sdsnanmean = require( './../../../base/sdsnanmean' );
 import sdsnanmeanors = require( './../../../base/sdsnanmeanors' );
+import smax = require( './../../../base/smax' );
 import smaxabs = require( './../../../base/smaxabs' );
 import smaxabssorted = require( './../../../base/smaxabssorted' );
 import smaxsorted = require( './../../../base/smaxsorted' );
@@ -2110,6 +2112,32 @@ interface Namespace {
 	rangeBy: typeof rangeBy;
 
 	/**
+	* Computes the arithmetic mean of a single-precision floating-point strided array using ordinary recursive summation with extended accumulation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sdsmeanors( x.length, x, 1 );
+	* // returns ~0.3333
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sdsmeanors.ndarray( x.length, x, 1, 0 );
+	* // returns ~0.3333
+	*/
+	sdsmeanors: typeof sdsmeanors;
+
+	/**
 	* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using extended accumulation.
 	*
 	* @param N - number of indexed elements
@@ -2160,6 +2188,32 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	sdsnanmeanors: typeof sdsnanmeanors;
+
+	/**
+	* Computes the maximum value of a single-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns maximum value
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.smax( x.length, x, 1 );
+	* // returns 2.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.smax.ndarray( x.length, x, 1, 0 );
+	* // returns 2.0
+	*/
+	smax: typeof smax;
 
 	/**
 	* Computes the maximum absolute value of a single-precision floating-point strided array.

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var sdsmeanors = require( './../../../strided/sdsmeanors' ).ndarray;
+var sdsmeanors = require( './../../../base/sdsmeanors' ).ndarray;
 
 
 // MAIN //
