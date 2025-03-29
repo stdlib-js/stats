@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanstdevpn.h"
+#include "stdlib/stats/strided/dnanstdevpn.h"
 #include "stdlib/stats/base/dnanvariancepn.h"
 #include "stdlib/math/base/special/sqrt.h"
 #include "stdlib/blas/base/shared.h"

@@ -349,7 +349,7 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/base/dnanstdevpn`][@stdlib/stats/base/dnanstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values and using a two-pass algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dnanstdevpn`][@stdlib/stats/strided/dnanstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values and using a two-pass algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/dstdev`][@stdlib/stats/base/dstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/dvariancepn`][@stdlib/stats/base/dvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a two-pass algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/sstdevpn`][@stdlib/stats/base/sstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a two-pass algorithm.</span>
@@ -375,7 +375,7 @@ int main( void ) {
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/dnanstdevpn
+[@stdlib/stats/strided/dnanstdevpn]: https://github.com/stdlib-js/stats/tree/main/strided/dnanstdevpn
 
 [@stdlib/stats/base/dstdev]: https://github.com/stdlib-js/stats/tree/main/base/dstdev
 

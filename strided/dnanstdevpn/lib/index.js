@@ -21,11 +21,11 @@
 /**
 * Compute the standard deviation of a double-precision floating-point strided array ignoring `NaN` values and using a two-pass algorithm.
 *
-* @module @stdlib/stats/base/dnanstdevpn
+* @module @stdlib/stats/strided/dnanstdevpn
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dnanstdevpn = require( '@stdlib/stats/base/dnanstdevpn' );
+* var dnanstdevpn = require( '@stdlib/stats/strided/dnanstdevpn' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dnanstdevpn = require( '@stdlib/stats/base/dnanstdevpn' );
+* var dnanstdevpn = require( '@stdlib/stats/strided/dnanstdevpn' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
 *

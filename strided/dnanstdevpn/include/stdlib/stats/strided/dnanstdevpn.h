@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_STATS_BASE_DNANSTDEVPN_H
-#define STDLIB_STATS_BASE_DNANSTDEVPN_H
+#ifndef STDLIB_STATS_STRIDED_DNANSTDEVPN_H
+#define STDLIB_STATS_STRIDED_DNANSTDEVPN_H
 
 #include "stdlib/blas/base/shared.h"
 
@@ -42,4 +42,4 @@ double API_SUFFIX(stdlib_strided_dnanstdevpn_ndarray)( const CBLAS_INT N, const 
 }
 #endif
 
-#endif // !STDLIB_STATS_BASE_DNANSTDEVPN_H
+#endif // !STDLIB_STATS_STRIDED_DNANSTDEVPN_H

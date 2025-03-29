@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanstdevpn.h"
+#include "stdlib/stats/strided/dnanstdevpn.h"
 #include <stdio.h>
 
 int main( void ) {
