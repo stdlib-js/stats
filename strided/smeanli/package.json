@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/smeanli",
+  "name": "@stdlib/stats/strided/smeanli",
   "version": "0.0.0",
   "description": "Calculate the arithmetic mean of a single-precision floating-point strided array using a one-pass trial mean algorithm.",
   "license": "Apache-2.0",

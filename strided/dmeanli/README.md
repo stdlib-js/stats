@@ -302,7 +302,7 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/stats/base/dmean`][@stdlib/stats/base/dmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dmeanlipw`][@stdlib/stats/strided/dmeanlipw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a one-pass trial mean algorithm with pairwise summation.</span>
--   <span class="package-name">[`@stdlib/stats/base/smeanli`][@stdlib/stats/base/smeanli]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using a one-pass trial mean algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/smeanli`][@stdlib/stats/strided/smeanli]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using a one-pass trial mean algorithm.</span>
 
 </section>
 
@@ -330,7 +330,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/dmeanlipw]: https://github.com/stdlib-js/stats/tree/main/strided/dmeanlipw
 
-[@stdlib/stats/base/smeanli]: https://github.com/stdlib-js/stats/tree/main/base/smeanli
+[@stdlib/stats/strided/smeanli]: https://github.com/stdlib-js/stats/tree/main/strided/smeanli
 
 <!-- </related-links> -->
 

@@ -186,7 +186,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`smean( N, x, stride )`][@stdlib/stats/base/smean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array.</span>
 -   <span class="signature">[`smeankbn( N, x, stride )`][@stdlib/stats/base/smeankbn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using an improved Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`smeankbn2( N, x, stride )`][@stdlib/stats/base/smeankbn2]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using a second-order iterative Kahan–Babuška algorithm.</span>
--   <span class="signature">[`smeanli( N, x, strideX )`][@stdlib/stats/base/smeanli]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using a one-pass trial mean algorithm.</span>
+-   <span class="signature">[`smeanli( N, x, strideX )`][@stdlib/stats/strided/smeanli]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using a one-pass trial mean algorithm.</span>
 -   <span class="signature">[`smeanlipw( N, x, stride )`][@stdlib/stats/base/smeanlipw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using a one-pass trial mean algorithm with pairwise summation.</span>
 -   <span class="signature">[`smeanors( N, x, stride )`][@stdlib/stats/base/smeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using ordinary recursive summation.</span>
 -   <span class="signature">[`smeanpn( N, x, stride )`][@stdlib/stats/base/smeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using a two-pass error correction algorithm.</span>
@@ -557,7 +557,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/smeankbn2]: https://github.com/stdlib-js/stats/tree/main/base/smeankbn2
 
-[@stdlib/stats/base/smeanli]: https://github.com/stdlib-js/stats/tree/main/base/smeanli
+[@stdlib/stats/strided/smeanli]: https://github.com/stdlib-js/stats/tree/main/strided/smeanli
 
 [@stdlib/stats/base/smeanlipw]: https://github.com/stdlib-js/stats/tree/main/base/smeanlipw
 

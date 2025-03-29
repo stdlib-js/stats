@@ -739,15 +739,6 @@ setReadOnly( ns, 'smeankbn', require( './../../base/smeankbn' ) );
 setReadOnly( ns, 'smeankbn2', require( './../../base/smeankbn2' ) );
 
 /**
-* @name smeanli
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/smeanli}
-*/
-setReadOnly( ns, 'smeanli', require( './../../base/smeanli' ) );
-
-/**
 * @name smeanlipw
 * @memberof ns
 * @readonly

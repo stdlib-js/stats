@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/smeanli.h"
+#include "stdlib/stats/strided/smeanli.h"
 #include <stdio.h>
 
 int main( void ) {
