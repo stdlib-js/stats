@@ -362,7 +362,7 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/stats/base/dnanstdev`][@stdlib/stats/base/dnanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dnanvariancetk`][@stdlib/stats/strided/dnanvariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array ignoring NaN values and using a one-pass textbook algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/dstdevtk`][@stdlib/stats/base/dstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dstdevtk`][@stdlib/stats/strided/dstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a one-pass textbook algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanstdevtk`][@stdlib/stats/base/nanstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values and using a one-pass textbook algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanstdevtk`][@stdlib/stats/base/snanstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a one-pass textbook algorithm.</span>
 
@@ -388,7 +388,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/dnanvariancetk]: https://github.com/stdlib-js/stats/tree/main/strided/dnanvariancetk
 
-[@stdlib/stats/base/dstdevtk]: https://github.com/stdlib-js/stats/tree/main/base/dstdevtk
+[@stdlib/stats/strided/dstdevtk]: https://github.com/stdlib-js/stats/tree/main/strided/dstdevtk
 
 [@stdlib/stats/base/nanstdevtk]: https://github.com/stdlib-js/stats/tree/main/base/nanstdevtk
 

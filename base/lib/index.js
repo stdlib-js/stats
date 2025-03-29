@@ -244,15 +244,6 @@ setReadOnly( ns, 'dsmeanors', require( './../../base/dsmeanors' ) );
 setReadOnly( ns, 'dstdev', require( './../../base/dstdev' ) );
 
 /**
-* @name dstdevtk
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dstdevtk}
-*/
-setReadOnly( ns, 'dstdevtk', require( './../../base/dstdevtk' ) );
-
-/**
 * @name dstdevwd
 * @memberof ns
 * @readonly

@@ -21,11 +21,11 @@
 /**
 * Compute the standard deviation of a double-precision floating-point strided array using a one-pass textbook algorithm.
 *
-* @module @stdlib/stats/base/dstdevtk
+* @module @stdlib/stats/strided/dstdevtk
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dstdevtk = require( '@stdlib/stats/base/dstdevtk' );
+* var dstdevtk = require( '@stdlib/stats/strided/dstdevtk' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dstdevtk = require( '@stdlib/stats/base/dstdevtk' );
+* var dstdevtk = require( '@stdlib/stats/strided/dstdevtk' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

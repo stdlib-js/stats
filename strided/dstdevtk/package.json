@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dstdevtk",
+  "name": "@stdlib/stats/strided/dstdevtk",
   "version": "0.0.0",
   "description": "Calculate the standard deviation of a double-precision floating-point strided array using a one-pass textbook algorithm.",
   "license": "Apache-2.0",
