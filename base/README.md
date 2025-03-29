@@ -194,7 +194,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`smeanwd( N, x, strideX )`][@stdlib/stats/strided/smeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using Welford's algorithm.</span>
 -   <span class="signature">[`smediansorted( N, x, strideX )`][@stdlib/stats/strided/smediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted single-precision floating-point strided array.</span>
 -   <span class="signature">[`smidrange( N, x, strideX )`][@stdlib/stats/base/smidrange]</span><span class="delimiter">: </span><span class="description">calculate the mid-range of a single-precision floating-point strided array.</span>
--   <span class="signature">[`smin( N, x, strideX )`][@stdlib/stats/base/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
+-   <span class="signature">[`smin( N, x, strideX )`][@stdlib/stats/strided/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
 -   <span class="signature">[`sminabs( N, x, strideX )`][@stdlib/stats/base/sminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a single-precision floating-point strided array.</span>
 -   <span class="signature">[`sminsorted( N, x, strideX )`][@stdlib/stats/base/sminsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted single-precision floating-point strided array.</span>
 -   <span class="signature">[`smskmax( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/smskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array according to a mask.</span>
@@ -573,7 +573,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/smidrange]: https://github.com/stdlib-js/stats/tree/main/base/smidrange
 
-[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin
+[@stdlib/stats/strided/smin]: https://github.com/stdlib-js/stats/tree/main/strided/smin
 
 [@stdlib/stats/base/sminabs]: https://github.com/stdlib-js/stats/tree/main/base/sminabs
 

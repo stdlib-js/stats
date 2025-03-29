@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/smin",
+  "name": "@stdlib/stats/strided/smin",
   "version": "0.0.0",
   "description": "Calculate the minimum value of a single-precision floating-point strided array.",
   "license": "Apache-2.0",

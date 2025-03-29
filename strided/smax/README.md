@@ -272,7 +272,7 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/stats/strided/dmax`][@stdlib/stats/strided/dmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/max`][@stdlib/stats/base/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/smin`][@stdlib/stats/strided/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanmax`][@stdlib/stats/base/snanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array, ignoring NaN values.</span>
 
 </section>
@@ -293,7 +293,7 @@ int main( void ) {
 
 [@stdlib/stats/base/max]: https://github.com/stdlib-js/stats/tree/main/base/max
 
-[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin
+[@stdlib/stats/strided/smin]: https://github.com/stdlib-js/stats/tree/main/strided/smin
 
 [@stdlib/stats/base/snanmax]: https://github.com/stdlib-js/stats/tree/main/base/snanmax
 

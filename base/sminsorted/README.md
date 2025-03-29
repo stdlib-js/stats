@@ -280,7 +280,7 @@ int main( void ) {
 -   <span class="package-name">[`@stdlib/stats/strided/dminsorted`][@stdlib/stats/strided/dminsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/minsorted`][@stdlib/stats/base/minsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/smaxsorted`][@stdlib/stats/strided/smaxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted single-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/smin`][@stdlib/stats/strided/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
 
 </section>
 
@@ -302,7 +302,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/smaxsorted]: https://github.com/stdlib-js/stats/tree/main/strided/smaxsorted
 
-[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin
+[@stdlib/stats/strided/smin]: https://github.com/stdlib-js/stats/tree/main/strided/smin
 
 <!-- </related-links> -->
 

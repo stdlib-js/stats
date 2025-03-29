@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/smin.h"
+#include "stdlib/stats/strided/smin.h"
 #include <stdio.h>
 
 int main( void ) {
