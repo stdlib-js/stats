@@ -173,7 +173,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`range( N, x, stride )`][@stdlib/stats/base/range]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array.</span>
 -   <span class="signature">[`scumax( N, x, strideX, y, strideY )`][@stdlib/stats/strided/scumax]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum of single-precision floating-point strided array elements.</span>
 -   <span class="signature">[`scumaxabs( N, x, strideX, y, strideY )`][@stdlib/stats/strided/scumaxabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum absolute value of single-precision floating-point strided array elements.</span>
--   <span class="signature">[`scumin( N, x, strideX, y, strideY )`][@stdlib/stats/strided/scumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of single-precision floating-point strided array elements.</span>
+-   <span class="signature">[`scumin( N, x, strideX, y, strideY )`][@stdlib/stats/base/scumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of single-precision floating-point strided array elements.</span>
 -   <span class="signature">[`scuminabs( N, x, strideX, y, strideY )`][@stdlib/stats/base/scuminabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum absolute value of single-precision floating-point strided array elements.</span>
 -   <span class="signature">[`sdsmean( N, x, strideX )`][@stdlib/stats/base/sdsmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using extended accumulation.</span>
 -   <span class="signature">[`sdsmeanors( N, x, strideX )`][@stdlib/stats/base/sdsmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using ordinary recursive summation with extended accumulation.</span>
@@ -531,7 +531,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/scumaxabs]: https://github.com/stdlib-js/stats/tree/main/strided/scumaxabs
 
-[@stdlib/stats/strided/scumin]: https://github.com/stdlib-js/stats/tree/main/strided/scumin
+[@stdlib/stats/base/scumin]: https://github.com/stdlib-js/stats/tree/main/base/scumin
 
 [@stdlib/stats/base/scuminabs]: https://github.com/stdlib-js/stats/tree/main/base/scuminabs
 

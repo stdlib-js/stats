@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/scumin.h"
+#include "stdlib/stats/base/scumin.h"
 #include "stdlib/math/base/assert/is_nanf.h"
 #include "stdlib/math/base/assert/is_negative_zerof.h"
 #include "stdlib/blas/base/shared.h"

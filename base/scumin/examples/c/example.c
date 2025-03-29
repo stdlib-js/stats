@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/scumin.h"
+#include "stdlib/stats/base/scumin.h"
 #include <stdio.h>
 
 int main( void ) {

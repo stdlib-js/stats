@@ -694,6 +694,15 @@ setReadOnly( ns, 'range', require( './../../base/range' ) );
 setReadOnly( ns, 'rangeBy', require( './../../base/range-by' ) );
 
 /**
+* @name scumin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/scumin}
+*/
+setReadOnly( ns, 'scumin', require( './../../base/scumin' ) );
+
+/**
 * @name scuminabs
 * @memberof ns
 * @readonly

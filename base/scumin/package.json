@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/strided/scumin",
+  "name": "@stdlib/stats/base/scumin",
   "version": "0.0.0",
   "description": "Calculate the cumulative minimum of single-precision floating-point strided array elements.",
   "license": "Apache-2.0",

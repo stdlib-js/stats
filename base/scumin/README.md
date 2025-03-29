@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var scumin = require( '@stdlib/stats/strided/scumin' );
+var scumin = require( '@stdlib/stats/base/scumin' );
 ```
 
 #### scumin( N, x, strideX, y, strideY )
@@ -143,7 +143,7 @@ scumin.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var Float32Array = require( '@stdlib/array/float32' );
-var scumin = require( '@stdlib/stats/strided/scumin' );
+var scumin = require( '@stdlib/stats/base/scumin' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
@@ -183,7 +183,7 @@ console.log( y );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/scumin.h"
+#include "stdlib/stats/base/scumin.h"
 ```
 
 #### stdlib_strided_scumin( N, \*X, strideX, \*Y, strideY )
@@ -253,7 +253,7 @@ void stdlib_strided_scumin_ndarray( const CBLAS_INT N, const float *X, const CBL
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/scumin.h"
+#include "stdlib/stats/base/scumin.h"
 #include <stdio.h>
 
 int main( void ) {

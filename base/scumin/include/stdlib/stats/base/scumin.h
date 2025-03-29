@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_STATS_STRIDED_SCUMIN_H
-#define STDLIB_STATS_STRIDED_SCUMIN_H
+#ifndef STDLIB_STATS_BASE_SCUMIN_H
+#define STDLIB_STATS_BASE_SCUMIN_H
 
 #include "stdlib/blas/base/shared.h"
 
@@ -42,4 +42,4 @@ void API_SUFFIX(stdlib_strided_scumin_ndarray)( const CBLAS_INT N, const float *
 }
 #endif
 
-#endif // !STDLIB_STATS_STRIDED_SCUMIN_H
+#endif // !STDLIB_STATS_BASE_SCUMIN_H
