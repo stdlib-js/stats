@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanvariance.h"
+#include "stdlib/stats/strided/dnanvariance.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

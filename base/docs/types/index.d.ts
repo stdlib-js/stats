@@ -39,7 +39,6 @@ import dnanmskmax = require( './../../../base/dnanmskmax' );
 import dnanmskmin = require( './../../../base/dnanmskmin' );
 import dnanmskrange = require( './../../../base/dnanmskrange' );
 import dnanstdev = require( './../../../base/dnanstdev' );
-import dnanvariance = require( './../../../base/dnanvariance' );
 import dnanvariancepn = require( './../../../base/dnanvariancepn' );
 import dnanvariancetk = require( './../../../base/dnanvariancetk' );
 import dnanvariancewd = require( './../../../base/dnanvariancewd' );
@@ -754,33 +753,6 @@ interface Namespace {
 	* // returns ~2.0817
 	*/
 	dnanstdev: typeof dnanstdev;
-
-	/**
-	* Computes the variance of a double-precision floating-point strided array ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns variance
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.dnanvariance( x.length, 1, x, 1 );
-	* // returns ~4.3333
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.dnanvariance.ndarray( x.length, 1, x, 1, 0 );
-	* // returns ~4.3333
-	*/
-	dnanvariance: typeof dnanvariance;
 
 	/**
 	* Computes the variance of a double-precision floating-point strided array ignoring `NaN` values and using a two-pass algorithm.
