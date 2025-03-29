@@ -21,11 +21,11 @@
 /**
 * Compute the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values, using Welford's algorithm with extended accumulation, and returning an extended precision result.
 *
-* @module @stdlib/stats/base/dsnanmeanwd
+* @module @stdlib/stats/strided/dsnanmeanwd
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var dsnanmeanwd = require( '@stdlib/stats/base/dsnanmeanwd' );
+* var dsnanmeanwd = require( '@stdlib/stats/strided/dsnanmeanwd' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var dsnanmeanwd = require( '@stdlib/stats/base/dsnanmeanwd' );
+* var dsnanmeanwd = require( '@stdlib/stats/strided/dsnanmeanwd' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
 *

@@ -33,7 +33,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:arithmetic_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@0d925ed05a6925fe1e213f07851ac761bf6aba96/lib/node_modules/@stdlib/stats/base/dsnanmeanwd/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@0d925ed05a6925fe1e213f07851ac761bf6aba96/lib/node_modules/@stdlib/stats/strided/dsnanmeanwd/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-var dsnanmeanwd = require( '@stdlib/stats/base/dsnanmeanwd' );
+var dsnanmeanwd = require( '@stdlib/stats/strided/dsnanmeanwd' );
 ```
 
 #### dsnanmeanwd( N, x, strideX )
@@ -153,7 +153,7 @@ var v = dsnanmeanwd.ndarray( 5, x, 2, 1 );
 var randu = require( '@stdlib/random/base/randu' );
 var round = require( '@stdlib/math/base/special/round' );
 var Float32Array = require( '@stdlib/array/float32' );
-var dsnanmeanwd = require( '@stdlib/stats/base/dsnanmeanwd' );
+var dsnanmeanwd = require( '@stdlib/stats/strided/dsnanmeanwd' );
 
 var x;
 var i;
@@ -199,7 +199,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dsnanmeanwd.h"
+#include "stdlib/stats/strided/dsnanmeanwd.h"
 ```
 
 #### stdlib_strided_dsnanmeanwd( N, \*X, strideX )
@@ -264,7 +264,7 @@ double stdlib_strided_dsnanmeanwd_ndarray( const CBLAS_INT N, const float *X, co
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dsnanmeanwd.h"
+#include "stdlib/stats/strided/dsnanmeanwd.h"
 #include <stdio.h>
 
 int main( void ) {
