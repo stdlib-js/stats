@@ -43,10 +43,8 @@ import dsem = require( './../../../base/dsem' );
 import dsempn = require( './../../../base/dsempn' );
 import dsmeanors = require( './../../../base/dsmeanors' );
 import dstdev = require( './../../../base/dstdev' );
-import dvarianceyc = require( './../../../base/dvarianceyc' );
 import dvarm = require( './../../../base/dvarm' );
 import dvarmpn = require( './../../../base/dvarmpn' );
-import dvarmtk = require( './../../../base/dvarmtk' );
 import max = require( './../../../base/max' );
 import maxBy = require( './../../../base/max-by' );
 import maxabs = require( './../../../base/maxabs' );
@@ -95,10 +93,6 @@ import nanvariancewd = require( './../../../base/nanvariancewd' );
 import nanvarianceyc = require( './../../../base/nanvarianceyc' );
 import range = require( './../../../base/range' );
 import rangeBy = require( './../../../base/range-by' );
-import scumax = require( './../../../base/scumax' );
-import scumaxabs = require( './../../../base/scumaxabs' );
-import scumin = require( './../../../base/scumin' );
-import scuminabs = require( './../../../base/scuminabs' );
 import sdsmean = require( './../../../base/sdsmean' );
 import sdsmeanors = require( './../../../base/sdsmeanors' );
 import sdsnanmean = require( './../../../base/sdsnanmean' );
@@ -833,33 +827,6 @@ interface Namespace {
 	dstdev: typeof dstdev;
 
 	/**
-	* Computes the variance of a double-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns variance
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dvarianceyc( x.length, 1, x, 1 );
-	* // returns ~4.3333
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dvarianceyc.ndarray( x.length, 1, x, 1, 0 );
-	* // returns ~4.3333
-	*/
-	dvarianceyc: typeof dvarianceyc;
-
-	/**
 	* Computes the variance of a double-precision floating-point strided array provided a known mean.
 	*
 	* @param N - number of indexed elements
@@ -914,34 +881,6 @@ interface Namespace {
 	* // returns ~4.3333
 	*/
 	dvarmpn: typeof dvarmpn;
-
-	/**
-	* Computes the variance of a double-precision floating-point strided array provided a known mean and using a one-pass textbook algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param mean - mean
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns variance
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dvarmtk( x.length, 1.0/3.0, 1, x, 1 );
-	* // returns ~4.3333
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dvarmtk.ndarray( x.length, 1.0/3.0, 1, x, 1, 0 );
-	* // returns ~4.3333
-	*/
-	dvarmtk: typeof dvarmtk;
 
 	/**
 	* Computes the maximum value of a strided array.
@@ -2172,126 +2111,6 @@ interface Namespace {
 	* // returns 18.0
 	*/
 	rangeBy: typeof rangeBy;
-
-	/**
-	* Computes the cumulative maximum of single-precision floating-point strided array elements.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param y - output array
-	* @param strideY - `y` stride length
-	* @returns output array
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	* var y = new Float32Array( x.length );
-	*
-	* ns.scumax( x.length, x, 1, y, 1 );
-	* // y => <Float32Array>[ 1.0, 1.0, 2.0 ]
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	* var y = new Float32Array( x.length );
-	*
-	* ns.scumax.ndarray( x.length, x, 1, 0, y, 1, 0 );
-	* // y => <Float32Array>[ 1.0, 1.0, 2.0 ]
-	*/
-	scumax: typeof scumax;
-
-	/**
-	* Computes the cumulative maximum absolute value of single-precision floating-point strided array elements.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param y - output array
-	* @param strideY - `y` stride length
-	* @returns output array
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	* var y = new Float32Array( x.length );
-	*
-	* ns.scumaxabs( x.length, x, 1, y, 1 );
-	* // y => <Float32Array>[ 1.0, 2.0, 2.0 ]
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	* var y = new Float32Array( x.length );
-	*
-	* ns.scumaxabs.ndarray( x.length, x, 1, 0, y, 1, 0 );
-	* // y => <Float32Array>[ 1.0, 2.0, 2.0 ]
-	*/
-	scumaxabs: typeof scumaxabs;
-
-	/**
-	* Computes the cumulative minimum of single-precision floating-point strided array elements.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param y - output array
-	* @param strideY - `y` stride length
-	* @returns output array
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	* var y = new Float32Array( x.length );
-	*
-	* ns.scumin( x.length, x, 1, y, 1 );
-	* // y => <Float32Array>[ 1.0, -2.0, -2.0 ]
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	* var y = new Float32Array( x.length );
-	*
-	* ns.scumin.ndarray( x.length, x, 1, 0, y, 1, 0 );
-	* // y => <Float32Array>[ 1.0, -2.0, -2.0 ]
-	*/
-	scumin: typeof scumin;
-
-	/**
-	* Computes the cumulative minimum absolute value of single-precision floating-point strided array elements.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param y - output array
-	* @param strideY - `y` stride length
-	* @returns output array
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	* var y = new Float32Array( x.length );
-	*
-	* ns.scuminabs( x.length, x, 1, y, 1 );
-	* // y => <Float32Array>[ 1.0, 1.0, 1.0 ]
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	* var y = new Float32Array( x.length );
-	*
-	* ns.scuminabs.ndarray( x.length, x, 1, 0, y, 1, 0 );
-	* // y => <Float32Array>[ 1.0, 1.0, 1.0 ]
-	*/
-	scuminabs: typeof scuminabs;
 
 	/**
 	* Computes the arithmetic mean of a single-precision floating-point strided array using extended accumulation.

@@ -244,15 +244,6 @@ setReadOnly( ns, 'dsmeanors', require( './../../base/dsmeanors' ) );
 setReadOnly( ns, 'dstdev', require( './../../base/dstdev' ) );
 
 /**
-* @name dvarianceyc
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dvarianceyc}
-*/
-setReadOnly( ns, 'dvarianceyc', require( './../../base/dvarianceyc' ) );
-
-/**
 * @name dvarm
 * @memberof ns
 * @readonly
@@ -269,15 +260,6 @@ setReadOnly( ns, 'dvarm', require( './../../base/dvarm' ) );
 * @see {@link module:@stdlib/stats/base/dvarmpn}
 */
 setReadOnly( ns, 'dvarmpn', require( './../../base/dvarmpn' ) );
-
-/**
-* @name dvarmtk
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dvarmtk}
-*/
-setReadOnly( ns, 'dvarmtk', require( './../../base/dvarmtk' ) );
 
 /**
 * @name max
@@ -710,42 +692,6 @@ setReadOnly( ns, 'range', require( './../../base/range' ) );
 * @see {@link module:@stdlib/stats/base/range-by}
 */
 setReadOnly( ns, 'rangeBy', require( './../../base/range-by' ) );
-
-/**
-* @name scumax
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/scumax}
-*/
-setReadOnly( ns, 'scumax', require( './../../base/scumax' ) );
-
-/**
-* @name scumaxabs
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/scumaxabs}
-*/
-setReadOnly( ns, 'scumaxabs', require( './../../base/scumaxabs' ) );
-
-/**
-* @name scumin
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/scumin}
-*/
-setReadOnly( ns, 'scumin', require( './../../base/scumin' ) );
-
-/**
-* @name scuminabs
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/scuminabs}
-*/
-setReadOnly( ns, 'scuminabs', require( './../../base/scuminabs' ) );
 
 /**
 * @name sdsmean
