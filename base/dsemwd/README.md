@@ -33,7 +33,7 @@ The [standard error of the mean][standard-error] of a finite size sample of size
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}" data-equation="eq:standard_error_of_the_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@480295a815ede8e73acc470b7d4228fa0db9ab94/lib/node_modules/@stdlib/stats/strided/dsemwd/docs/img/equation_standard_error_of_the_mean.svg" alt="Equation for the standard error of the mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@480295a815ede8e73acc470b7d4228fa0db9ab94/lib/node_modules/@stdlib/stats/base/dsemwd/docs/img/equation_standard_error_of_the_mean.svg" alt="Equation for the standard error of the mean.">
     <br>
 </div> -->
 
@@ -50,7 +50,7 @@ Often in the analysis of data, the true population [standard deviation][standard
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma_{\bar{x}} \approx \frac{s}{\sqrt{n}}" data-equation="eq:standard_error_of_the_mean_estimate">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@480295a815ede8e73acc470b7d4228fa0db9ab94/lib/node_modules/@stdlib/stats/strided/dsemwd/docs/img/equation_standard_error_of_the_mean_estimate.svg" alt="Equation for estimating the standard error of the mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@480295a815ede8e73acc470b7d4228fa0db9ab94/lib/node_modules/@stdlib/stats/base/dsemwd/docs/img/equation_standard_error_of_the_mean_estimate.svg" alt="Equation for estimating the standard error of the mean.">
     <br>
 </div> -->
 
@@ -67,7 +67,7 @@ where `s` is the sample [standard deviation][standard-deviation].
 ## Usage
 
 ```javascript
-var dsemwd = require( '@stdlib/stats/strided/dsemwd' );
+var dsemwd = require( '@stdlib/stats/base/dsemwd' );
 ```
 
 #### dsemwd( N, correction, x, strideX )
@@ -166,7 +166,7 @@ var v = dsemwd.ndarray( 4, 1, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dsemwd = require( '@stdlib/stats/strided/dsemwd' );
+var dsemwd = require( '@stdlib/stats/base/dsemwd' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
@@ -204,7 +204,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/dsemwd.h"
+#include "stdlib/stats/base/dsemwd.h"
 ```
 
 #### stdlib_strided_dsemwd( N, correction, \*X, strideX )
@@ -271,7 +271,7 @@ double stdlib_strided_dsemwd_ndarray( const CBLAS_INT N, const double correction
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/dsemwd.h"
+#include "stdlib/stats/base/dsemwd.h"
 #include <stdio.h>
 
 int main( void ) {

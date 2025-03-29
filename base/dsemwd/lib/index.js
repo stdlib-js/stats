@@ -21,11 +21,11 @@
 /**
 * Compute the standard error of the mean for a double-precision floating-point strided array using Welford's algorithm.
 *
-* @module @stdlib/stats/strided/dsemwd
+* @module @stdlib/stats/base/dsemwd
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dsemwd = require( '@stdlib/stats/strided/dsemwd' );
+* var dsemwd = require( '@stdlib/stats/base/dsemwd' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dsemwd = require( '@stdlib/stats/strided/dsemwd' );
+* var dsemwd = require( '@stdlib/stats/base/dsemwd' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *
