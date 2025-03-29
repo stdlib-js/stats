@@ -305,7 +305,7 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/stats/base/cumin`][@stdlib/stats/base/cumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dcumax`][@stdlib/stats/strided/dcumax]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum of double-precision floating-point strided array elements.</span>
--   <span class="package-name">[`@stdlib/stats/base/scumin`][@stdlib/stats/base/scumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of single-precision floating-point strided array elements.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/scumin`][@stdlib/stats/strided/scumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of single-precision floating-point strided array elements.</span>
 
 </section>
 
@@ -325,7 +325,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/dcumax]: https://github.com/stdlib-js/stats/tree/main/strided/dcumax
 
-[@stdlib/stats/base/scumin]: https://github.com/stdlib-js/stats/tree/main/base/scumin
+[@stdlib/stats/strided/scumin]: https://github.com/stdlib-js/stats/tree/main/strided/scumin
 
 <!-- </related-links> -->
 

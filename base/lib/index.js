@@ -694,51 +694,6 @@ setReadOnly( ns, 'range', require( './../../base/range' ) );
 setReadOnly( ns, 'rangeBy', require( './../../base/range-by' ) );
 
 /**
-* @name scumaxabs
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/scumaxabs}
-*/
-setReadOnly( ns, 'scumaxabs', require( './../../base/scumaxabs' ) );
-
-/**
-* @name scumin
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/scumin}
-*/
-setReadOnly( ns, 'scumin', require( './../../base/scumin' ) );
-
-/**
-* @name scuminabs
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/scuminabs}
-*/
-setReadOnly( ns, 'scuminabs', require( './../../base/scuminabs' ) );
-
-/**
-* @name sdsmean
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/sdsmean}
-*/
-setReadOnly( ns, 'sdsmean', require( './../../base/sdsmean' ) );
-
-/**
-* @name sdsmeanors
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/sdsmeanors}
-*/
-setReadOnly( ns, 'sdsmeanors', require( './../../base/sdsmeanors' ) );
-
-/**
 * @name sdsnanmean
 * @memberof ns
 * @readonly
