@@ -21,11 +21,11 @@
 /**
 * Compute the standard deviation of a double-precision floating-point strided array using a two-pass algorithm.
 *
-* @module @stdlib/stats/base/dstdevpn
+* @module @stdlib/stats/strided/dstdevpn
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dstdevpn = require( '@stdlib/stats/base/dstdevpn' );
+* var dstdevpn = require( '@stdlib/stats/strided/dstdevpn' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dstdevpn = require( '@stdlib/stats/base/dstdevpn' );
+* var dstdevpn = require( '@stdlib/stats/strided/dstdevpn' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

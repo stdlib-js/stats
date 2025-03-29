@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dstdevpn.h"
+#include "stdlib/stats/strided/dstdevpn.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
