@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dsmean",
+  "name": "@stdlib/stats/strided/dsmean",
   "version": "0.0.0",
   "description": "Calculate the arithmetic mean of a single-precision floating-point strided array using extended accumulation and returning an extended precision result.",
   "license": "Apache-2.0",

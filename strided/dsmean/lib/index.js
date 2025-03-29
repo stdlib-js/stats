@@ -21,11 +21,11 @@
 /**
 * Compute the arithmetic mean of a single-precision floating-point strided array using extended accumulation and returning an extended precision result.
 *
-* @module @stdlib/stats/base/dsmean
+* @module @stdlib/stats/strided/dsmean
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var dsmean = require( '@stdlib/stats/base/dsmean' );
+* var dsmean = require( '@stdlib/stats/strided/dsmean' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -35,7 +35,7 @@
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
 * var floor = require( '@stdlib/math/base/special/floor' );
-* var dsmean = require( '@stdlib/stats/base/dsmean' );
+* var dsmean = require( '@stdlib/stats/strided/dsmean' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

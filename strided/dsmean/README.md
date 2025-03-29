@@ -33,7 +33,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:arithmetic_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@2a9fcbe031910c73ff13145983cc0669201ed252/lib/node_modules/@stdlib/stats/base/dsmean/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@2a9fcbe031910c73ff13145983cc0669201ed252/lib/node_modules/@stdlib/stats/strided/dsmean/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-var dsmean = require( '@stdlib/stats/base/dsmean' );
+var dsmean = require( '@stdlib/stats/strided/dsmean' );
 ```
 
 #### dsmean( N, x, strideX )
@@ -146,7 +146,7 @@ var v = dsmean.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dsmean = require( '@stdlib/stats/base/dsmean' );
+var dsmean = require( '@stdlib/stats/strided/dsmean' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
@@ -184,7 +184,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dsmean.h"
+#include "stdlib/stats/strided/dsmean.h"
 ```
 
 #### stdlib_strided_dsmean( N, \*X, strideX )
@@ -249,7 +249,7 @@ double stdlib_strided_dsmean_ndarray( const CBLAS_INT N, const float *X, const C
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dsmean.h"
+#include "stdlib/stats/strided/dsmean.h"
 #include <stdio.h>
 
 int main( void ) {
