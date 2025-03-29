@@ -116,8 +116,8 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dsvariancepn( N, correction, x, strideX )`][@stdlib/stats/strided/dsvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a two-pass algorithm with extended accumulation and returning an extended precision result.</span>
 -   <span class="signature">[`dvariance( N, correction, x, strideX )`][@stdlib/stats/strided/dvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dvariancech( N, correction, x, strideX )`][@stdlib/stats/strided/dvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
--   <span class="signature">[`dvariancepn( N, correction, x, strideX )`][@stdlib/stats/base/dvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a two-pass algorithm.</span>
--   <span class="signature">[`dvariancetk( N, correction, x, strideX )`][@stdlib/stats/base/dvariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a one-pass textbook algorithm.</span>
+-   <span class="signature">[`dvariancepn( N, correction, x, strideX )`][@stdlib/stats/strided/dvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a two-pass algorithm.</span>
+-   <span class="signature">[`dvariancetk( N, correction, x, strideX )`][@stdlib/stats/strided/dvariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a one-pass textbook algorithm.</span>
 -   <span class="signature">[`dvariancewd( N, correction, x, strideX )`][@stdlib/stats/base/dvariancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using Welford's algorithm.</span>
 -   <span class="signature">[`dvarianceyc( N, correction, x, strideX )`][@stdlib/stats/base/dvarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
 -   <span class="signature">[`dvarm( N, mean, correction, x, stride )`][@stdlib/stats/base/dvarm]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array provided a known mean.</span>
@@ -417,9 +417,9 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/dvariancech]: https://github.com/stdlib-js/stats/tree/main/strided/dvariancech
 
-[@stdlib/stats/base/dvariancepn]: https://github.com/stdlib-js/stats/tree/main/base/dvariancepn
+[@stdlib/stats/strided/dvariancepn]: https://github.com/stdlib-js/stats/tree/main/strided/dvariancepn
 
-[@stdlib/stats/base/dvariancetk]: https://github.com/stdlib-js/stats/tree/main/base/dvariancetk
+[@stdlib/stats/strided/dvariancetk]: https://github.com/stdlib-js/stats/tree/main/strided/dvariancetk
 
 [@stdlib/stats/base/dvariancewd]: https://github.com/stdlib-js/stats/tree/main/base/dvariancewd
 

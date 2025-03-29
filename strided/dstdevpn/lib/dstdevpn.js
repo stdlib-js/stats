@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dvariancepn = require( './../../../base/dvariancepn' );
+var dvariancepn = require( './../../../strided/dvariancepn' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 
 

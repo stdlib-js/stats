@@ -244,24 +244,6 @@ setReadOnly( ns, 'dsmeanors', require( './../../base/dsmeanors' ) );
 setReadOnly( ns, 'dstdev', require( './../../base/dstdev' ) );
 
 /**
-* @name dvariancepn
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dvariancepn}
-*/
-setReadOnly( ns, 'dvariancepn', require( './../../base/dvariancepn' ) );
-
-/**
-* @name dvariancetk
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dvariancetk}
-*/
-setReadOnly( ns, 'dvariancetk', require( './../../base/dvariancetk' ) );
-
-/**
 * @name dvariancewd
 * @memberof ns
 * @readonly
