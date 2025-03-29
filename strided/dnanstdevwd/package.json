@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dnanstdevwd",
+  "name": "@stdlib/stats/strided/dnanstdevwd",
   "version": "0.0.0",
   "description": "Calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values and using Welford's algorithm.",
   "license": "Apache-2.0",

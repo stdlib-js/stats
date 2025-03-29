@@ -46,6 +46,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`0862f56`](https://github.com/stdlib-js/stdlib/commit/0862f563512c3ee6af5859dd6d4bbf1c49df33bb): remove `stats/base/dnanstdevwd`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dnanstdevwd` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`db3b8eb`](https://github.com/stdlib-js/stdlib/commit/db3b8ebc7910fb2470a3e908b7f55c0e1adf1144): remove `stats/base/dnanstdevtk`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dnanstdevtk` namespace.
@@ -14348,6 +14398,65 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`057f950`](https://github.com/stdlib-js/stdlib/commit/057f950c5bef4b6eb37438c0e3b1c6bfc45f5966): remove `stats/base/dnanstdevwd`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dnanstdevwd`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -17684,6 +17793,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-dnanstdevwd-unreleased">
+
+#### [@stdlib/stats/strided/dnanstdevwd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dnanstdevwd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e3fc9fb`](https://github.com/stdlib-js/stdlib/commit/e3fc9fbc9b3c5bb08990d1d9efbd609a8f69fc4e) - add `stats/strided/dnanstdevwd`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-strided-dnanvariancech-unreleased">
 
 #### [@stdlib/stats/strided/dnanvariancech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dnanvariancech)
@@ -17713,6 +17844,107 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`057f950`](https://github.com/stdlib-js/stdlib/commit/057f950c5bef4b6eb37438c0e3b1c6bfc45f5966): remove `stats/base/dnanstdevwd`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dnanstdevwd`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`0862f56`](https://github.com/stdlib-js/stdlib/commit/0862f563512c3ee6af5859dd6d4bbf1c49df33bb): remove `stats/base/dnanstdevwd`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dnanstdevwd` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`ffeb877`](https://github.com/stdlib-js/stdlib/commit/ffeb8773ffa9dcb8e8c8ebe9ec9e234ce752e0c1): remove `stats/base/dnanstdevtk`
 
@@ -20695,6 +20927,10 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`057f950`](https://github.com/stdlib-js/stdlib/commit/057f950c5bef4b6eb37438c0e3b1c6bfc45f5966) - **remove:** remove `stats/base/dnanstdevwd` _(by Aayush Khanna)_
+-   [`e6caafc`](https://github.com/stdlib-js/stdlib/commit/e6caafc261076eba2325f589f094c8264ba6d8b2) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`0862f56`](https://github.com/stdlib-js/stdlib/commit/0862f563512c3ee6af5859dd6d4bbf1c49df33bb) - **remove:** remove `stats/base/dnanstdevwd` from namespace _(by Aayush Khanna)_
+-   [`e3fc9fb`](https://github.com/stdlib-js/stdlib/commit/e3fc9fbc9b3c5bb08990d1d9efbd609a8f69fc4e) - **feat:** add `stats/strided/dnanstdevwd` _(by Aayush Khanna)_
 -   [`32bcc18`](https://github.com/stdlib-js/stdlib/commit/32bcc18c0da52986b47f0a6894e6566205e2fb91) - **feat:** add C implementation for `stats/base/dists/betaprime/logpdf` [(#4059)](https://github.com/stdlib-js/stdlib/pull/4059) _(by Neeraj Pathak, stdlib-bot)_
 -   [`ffeb877`](https://github.com/stdlib-js/stdlib/commit/ffeb8773ffa9dcb8e8c8ebe9ec9e234ce752e0c1) - **remove:** remove `stats/base/dnanstdevtk` _(by Aayush Khanna)_
 -   [`cfd273d`](https://github.com/stdlib-js/stdlib/commit/cfd273df8e26730ad7a331e87430272cbf91c10a) - **refactor:** update paths _(by Aayush Khanna)_
