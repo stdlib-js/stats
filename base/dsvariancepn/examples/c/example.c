@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/dsvariancepn.h"
+#include "stdlib/stats/base/dsvariancepn.h"
 #include <stdio.h>
 
 int main( void ) {

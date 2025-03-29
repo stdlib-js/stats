@@ -43,6 +43,7 @@ import dsem = require( './../../../base/dsem' );
 import dsempn = require( './../../../base/dsempn' );
 import dsmeanors = require( './../../../base/dsmeanors' );
 import dstdev = require( './../../../base/dstdev' );
+import dsvariancepn = require( './../../../base/dsvariancepn' );
 import dvariance = require( './../../../base/dvariance' );
 import dvariancech = require( './../../../base/dvariancech' );
 import dvariancepn = require( './../../../base/dvariancepn' );
@@ -836,6 +837,33 @@ interface Namespace {
 	* // returns ~2.0817
 	*/
 	dstdev: typeof dstdev;
+
+	/**
+	* Computes the variance of a single-precision floating-point strided array using a two-pass algorithm with extended accumulation and returning an extended precision result.
+	*
+	* @param N - number of indexed elements
+	* @param correction - degrees of freedom adjustment
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns variance
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsvariancepn( x.length, 1, x, 1 );
+	* // returns ~4.3333
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsvariancepn.ndarray( x.length, 1, x, 1, 0 );
+	* // returns ~4.3333
+	*/
+	dsvariancepn: typeof dsvariancepn;
 
 	/**
 	* Computes the variance of a double-precision floating-point strided array.

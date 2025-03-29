@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/strided/dsvariancepn",
+  "name": "@stdlib/stats/base/dsvariancepn",
   "version": "0.0.0",
   "description": "Calculate the variance of a single-precision floating-point strided array using a two-pass algorithm with extended accumulation and returning an extended precision result.",
   "license": "Apache-2.0",

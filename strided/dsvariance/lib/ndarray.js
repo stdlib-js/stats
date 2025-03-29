@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dsvariancepn = require( './../../../strided/dsvariancepn' ).ndarray;
+var dsvariancepn = require( './../../../base/dsvariancepn' ).ndarray;
 
 
 // MAIN //

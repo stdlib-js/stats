@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/dsvariancepn.h"
+#include "stdlib/stats/base/dsvariancepn.h"
 #include "stdlib/blas/ext/base/dssum.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/strided/base/stride2offset.h"
