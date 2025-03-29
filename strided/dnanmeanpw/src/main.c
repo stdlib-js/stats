@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanmeanpw.h"
+#include "stdlib/stats/strided/dnanmeanpw.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/blas/ext/base/dnannsumpw.h"
 #include "stdlib/strided/base/stride2offset.h"

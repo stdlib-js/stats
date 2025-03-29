@@ -35,7 +35,6 @@ import dmeanvarpn = require( './../../../base/dmeanvarpn' );
 import dmskmax = require( './../../../base/dmskmax' );
 import dmskmin = require( './../../../base/dmskmin' );
 import dmskrange = require( './../../../base/dmskrange' );
-import dnanmeanpw = require( './../../../base/dnanmeanpw' );
 import dnanmeanwd = require( './../../../base/dnanmeanwd' );
 import dnanminabs = require( './../../../base/dnanminabs' );
 import dnanmskmax = require( './../../../base/dnanmskmax' );
@@ -640,32 +639,6 @@ interface Namespace {
 	* // returns 4.0
 	*/
 	dmskrange: typeof dmskrange;
-
-	/**
-	* Computes the arithmetic mean of a double-precision floating-point strided array, ignoring `NaN` values and using pairwise summation.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.dnanmeanpw( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.dnanmeanpw.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	dnanmeanpw: typeof dnanmeanpw;
 
 	/**
 	* Computes the arithmetic mean of a double-precision floating-point strided array, using Welford's algorithm and ignoring `NaN` values.

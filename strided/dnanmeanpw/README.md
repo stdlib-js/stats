@@ -33,7 +33,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:arithmetic_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6905c1fbb86fb9d9c958da1e70ae7132a1245ba0/lib/node_modules/@stdlib/stats/base/dnanmeanpw/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6905c1fbb86fb9d9c958da1e70ae7132a1245ba0/lib/node_modules/@stdlib/stats/strided/dnanmeanpw/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-var dnanmeanpw = require( '@stdlib/stats/base/dnanmeanpw' );
+var dnanmeanpw = require( '@stdlib/stats/strided/dnanmeanpw' );
 ```
 
 #### dnanmeanpw( N, x, strideX )
@@ -151,7 +151,7 @@ var v = dnanmeanpw.ndarray( 5, x, 2, 1 );
 var uniform = require( '@stdlib/random/base/uniform' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
 var bernoulli = require( '@stdlib/random/base/bernoulli' );
-var dnanmeanpw = require( '@stdlib/stats/base/dnanmeanpw' );
+var dnanmeanpw = require( '@stdlib/stats/strided/dnanmeanpw' );
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
@@ -194,7 +194,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dnanmeanpw.h"
+#include "stdlib/stats/strided/dnanmeanpw.h"
 ```
 
 #### stdlib_strided_dnanmeanpw( N, \*X, strideX )
@@ -259,7 +259,7 @@ double stdlib_strided_dnanmeanpw_ndarray( const CBLAS_INT N, const double *X, co
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dnanmeanpw.h"
+#include "stdlib/stats/strided/dnanmeanpw.h"
 #include <stdio.h>
 
 int main( void ) {

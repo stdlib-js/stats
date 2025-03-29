@@ -71,7 +71,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dmskmax( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/dmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`dmskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/dmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`dmskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/dmskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array according to a mask.</span>
--   <span class="signature">[`dnanmeanpw( N, x, strideX )`][@stdlib/stats/base/dnanmeanpw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring `NaN` values and using pairwise summation.</span>
+-   <span class="signature">[`dnanmeanpw( N, x, strideX )`][@stdlib/stats/strided/dnanmeanpw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring `NaN` values and using pairwise summation.</span>
 -   <span class="signature">[`dnanmeanwd( N, x, strideX )`][@stdlib/stats/base/dnanmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, using Welford's algorithm and ignoring `NaN` values.</span>
 -   <span class="signature">[`dnanminabs( N, x, strideX )`][@stdlib/stats/base/dnanminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a double-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`dnanmskmax( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/dnanmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask, ignoring `NaN` values.</span>
@@ -327,7 +327,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/dmskrange]: https://github.com/stdlib-js/stats/tree/main/base/dmskrange
 
-[@stdlib/stats/base/dnanmeanpw]: https://github.com/stdlib-js/stats/tree/main/base/dnanmeanpw
+[@stdlib/stats/strided/dnanmeanpw]: https://github.com/stdlib-js/stats/tree/main/strided/dnanmeanpw
 
 [@stdlib/stats/base/dnanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/dnanmeanwd
 
