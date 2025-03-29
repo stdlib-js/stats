@@ -187,6 +187,8 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
+
 <!-- <related-links> -->
 
 [@stdlib/stats/base/dnanmskrange]: https://github.com/stdlib-js/stats/tree/main/base/dnanmskrange
@@ -200,8 +202,6 @@ console.log( v );
 [@stdlib/stats/base/nanmskmin]: https://github.com/stdlib-js/stats/tree/main/base/nanmskmin
 
 [@stdlib/stats/base/snanmskrange]: https://github.com/stdlib-js/stats/tree/main/base/snanmskrange
-
-[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
 <!-- </related-links> -->
 
