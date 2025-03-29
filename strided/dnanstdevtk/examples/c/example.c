@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanstdevtk.h"
+#include "stdlib/stats/strided/dnanstdevtk.h"
 #include <stdio.h>
 
 int main( void ) {
