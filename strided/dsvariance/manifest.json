@@ -38,7 +38,7 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/stats/base/dsvariancepn",
+        "@stdlib/stats/strided/dsvariancepn",
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset",
         "@stdlib/napi/export",
@@ -61,7 +61,7 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/stats/base/dsvariancepn",
+        "@stdlib/stats/strided/dsvariancepn",
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset"
       ]
@@ -78,7 +78,7 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/stats/base/dsvariancepn",
+        "@stdlib/stats/strided/dsvariancepn",
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset"
       ]
@@ -95,7 +95,7 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/stats/base/dsvariancepn",
+        "@stdlib/stats/strided/dsvariancepn",
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset"
       ]

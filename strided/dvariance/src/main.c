@@ -16,13 +16,13 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/dsvariance.h"
-#include "stdlib/stats/strided/dsvariancepn.h"
+#include "stdlib/stats/strided/dvariance.h"
+#include "stdlib/stats/base/dvariancepn.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/strided/base/stride2offset.h"
 
 /**
-* Computes the variance of a single-precision floating-point strided array using extended accumulation and returning an extended precision result.
+* Computes the variance of a double-precision floating-point strided array.
 *
 * @param N           number of indexed elements
 * @param correction  degrees of freedom adjustment
@@ -30,13 +30,13 @@
 * @param strideX     stride length
 * @return            output value
 */
-double API_SUFFIX(stdlib_strided_dsvariance)( const CBLAS_INT N, const float correction, const float *X, const CBLAS_INT strideX ) {
+double API_SUFFIX(stdlib_strided_dvariance)( const CBLAS_INT N, const double correction, const double *X, const CBLAS_INT strideX ) {
 	const CBLAS_INT ox = stdlib_strided_stride2offset( N, strideX );
-	return API_SUFFIX(stdlib_strided_dsvariance_ndarray)( N, correction, X, strideX, ox );
+	return API_SUFFIX(stdlib_strided_dvariance_ndarray)( N, correction, X, strideX, ox );
 }
 
 /**
-* Computes the variance of a single-precision floating-point strided array using extended accumulation and alternative indexing semantics and returning an extended precision result.
+* Computes the variance of a double-precision floating-point strided array using alternative indexing semantics.
 *
 * @param N            number of indexed elements
 * @param correction   degrees of freedom adjustment
@@ -45,6 +45,6 @@ double API_SUFFIX(stdlib_strided_dsvariance)( const CBLAS_INT N, const float cor
 * @param offsetX      starting index for X
 * @return             output value
 */
-double API_SUFFIX(stdlib_strided_dsvariance_ndarray)( const CBLAS_INT N, const float correction, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX ) {
-	return API_SUFFIX(stdlib_strided_dsvariancepn_ndarray)( N, correction, X, strideX, offsetX );
+double API_SUFFIX(stdlib_strided_dvariance_ndarray)( const CBLAS_INT N, const double correction, const double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX ) {
+	return API_SUFFIX(stdlib_strided_dvariancepn_ndarray)( N, correction, X, strideX, offsetX );
 }

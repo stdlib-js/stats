@@ -351,7 +351,7 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/stats/strided/dnanvariancewd`][@stdlib/stats/strided/dnanvariancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array ignoring NaN values and using Welford's algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dstdevwd`][@stdlib/stats/strided/dstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using Welford's algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/dvariance`][@stdlib/stats/base/dvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dvariance`][@stdlib/stats/strided/dvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/svariancewd`][@stdlib/stats/base/svariancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using Welford's algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/variancewd`][@stdlib/stats/base/variancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using Welford's algorithm.</span>
 
@@ -379,7 +379,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/dstdevwd]: https://github.com/stdlib-js/stats/tree/main/strided/dstdevwd
 
-[@stdlib/stats/base/dvariance]: https://github.com/stdlib-js/stats/tree/main/base/dvariance
+[@stdlib/stats/strided/dvariance]: https://github.com/stdlib-js/stats/tree/main/strided/dvariance
 
 [@stdlib/stats/base/svariancewd]: https://github.com/stdlib-js/stats/tree/main/base/svariancewd
 
