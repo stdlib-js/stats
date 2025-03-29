@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanstdevch.h"
+#include "stdlib/stats/strided/dnanstdevch.h"
 #include "stdlib/stats/base/dnanvariancech.h"
 #include "stdlib/math/base/special/sqrt.h"
 #include "stdlib/blas/base/shared.h"

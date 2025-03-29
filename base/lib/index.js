@@ -208,15 +208,6 @@ setReadOnly( ns, 'dnanmskrange', require( './../../base/dnanmskrange' ) );
 setReadOnly( ns, 'dnanstdev', require( './../../base/dnanstdev' ) );
 
 /**
-* @name dnanstdevch
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dnanstdevch}
-*/
-setReadOnly( ns, 'dnanstdevch', require( './../../base/dnanstdevch' ) );
-
-/**
 * @name dnanstdevpn
 * @memberof ns
 * @readonly
