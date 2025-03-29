@@ -235,15 +235,6 @@ setReadOnly( ns, 'dsempn', require( './../../base/dsempn' ) );
 setReadOnly( ns, 'dsmeanors', require( './../../base/dsmeanors' ) );
 
 /**
-* @name dsmeanwd
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dsmeanwd}
-*/
-setReadOnly( ns, 'dsmeanwd', require( './../../base/dsmeanwd' ) );
-
-/**
 * @name dsnanmean
 * @memberof ns
 * @readonly
