@@ -21,11 +21,11 @@
 /**
 * Compute the cumulative maximum of single-precision floating-point strided array elements.
 *
-* @module @stdlib/stats/base/scumax
+* @module @stdlib/stats/strided/scumax
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var scumax = require( '@stdlib/stats/base/scumax' );
+* var scumax = require( '@stdlib/stats/strided/scumax' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 * var y = new Float32Array( x.length );
@@ -35,7 +35,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var scumax = require( '@stdlib/stats/base/scumax' );
+* var scumax = require( '@stdlib/stats/strided/scumax' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 * var y = new Float32Array( x.length );

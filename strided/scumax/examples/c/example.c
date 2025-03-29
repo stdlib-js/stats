@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/scumax.h"
+#include "stdlib/stats/strided/scumax.h"
 #include <stdio.h>
 
 int main( void ) {

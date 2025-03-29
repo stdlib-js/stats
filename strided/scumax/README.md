@@ -35,7 +35,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var scumax = require( '@stdlib/stats/base/scumax' );
+var scumax = require( '@stdlib/stats/strided/scumax' );
 ```
 
 #### scumax( N, x, strideX, y, strideY )
@@ -145,7 +145,7 @@ scumax.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var Float32Array = require( '@stdlib/array/float32' );
-var scumax = require( '@stdlib/stats/base/scumax' );
+var scumax = require( '@stdlib/stats/strided/scumax' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
@@ -186,7 +186,7 @@ console.log( y );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/scumax.h"
+#include "stdlib/stats/strided/scumax.h"
 ```
 
 #### stdlib_strided_scumax( N, \*X, strideX, \*Y, strideY )
@@ -256,7 +256,7 @@ void stdlib_strided_scumax_ndarray( const CBLAS_INT N, const float *X, const CBL
 ### Examples
 
 ```c
-#include "stdlib/stats/base/scumax.h"
+#include "stdlib/stats/strided/scumax.h"
 #include <stdio.h>
 
 int main( void ) {

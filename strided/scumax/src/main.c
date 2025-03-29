@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/scumax.h"
+#include "stdlib/stats/strided/scumax.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/math/base/assert/is_nanf.h"
 #include "stdlib/math/base/assert/is_positive_zerof.h"

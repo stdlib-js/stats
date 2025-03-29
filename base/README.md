@@ -171,7 +171,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`nanvarianceyc( N, correction, x, strideX )`][@stdlib/stats/base/nanvarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring `NaN` values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
 -   <span class="signature">[`rangeBy( N, x, stride, clbk[, thisArg] )`][@stdlib/stats/base/range-by]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array via a callback function.</span>
 -   <span class="signature">[`range( N, x, stride )`][@stdlib/stats/base/range]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array.</span>
--   <span class="signature">[`scumax( N, x, strideX, y, strideY )`][@stdlib/stats/base/scumax]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum of single-precision floating-point strided array elements.</span>
+-   <span class="signature">[`scumax( N, x, strideX, y, strideY )`][@stdlib/stats/strided/scumax]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum of single-precision floating-point strided array elements.</span>
 -   <span class="signature">[`scumaxabs( N, x, strideX, y, strideY )`][@stdlib/stats/base/scumaxabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum absolute value of single-precision floating-point strided array elements.</span>
 -   <span class="signature">[`scumin( N, x, strideX, y, strideY )`][@stdlib/stats/base/scumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of single-precision floating-point strided array elements.</span>
 -   <span class="signature">[`scuminabs( N, x, strideX, y, strideY )`][@stdlib/stats/base/scuminabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum absolute value of single-precision floating-point strided array elements.</span>
@@ -527,7 +527,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/range]: https://github.com/stdlib-js/stats/tree/main/base/range
 
-[@stdlib/stats/base/scumax]: https://github.com/stdlib-js/stats/tree/main/base/scumax
+[@stdlib/stats/strided/scumax]: https://github.com/stdlib-js/stats/tree/main/strided/scumax
 
 [@stdlib/stats/base/scumaxabs]: https://github.com/stdlib-js/stats/tree/main/base/scumaxabs
 
