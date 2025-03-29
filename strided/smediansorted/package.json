@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/smediansorted",
+  "name": "@stdlib/stats/strided/smediansorted",
   "version": "0.0.0",
   "description": "Calculate the median value of a sorted single-precision floating-point strided array.",
   "license": "Apache-2.0",

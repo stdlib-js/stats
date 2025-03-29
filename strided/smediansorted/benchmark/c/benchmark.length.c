@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/smediansorted.h"
+#include "stdlib/stats/strided/smediansorted.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

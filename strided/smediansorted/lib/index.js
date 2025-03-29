@@ -21,11 +21,11 @@
 /**
 * Compute the median value of a sorted single-precision floating-point strided array.
 *
-* @module @stdlib/stats/base/smediansorted
+* @module @stdlib/stats/strided/smediansorted
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var smediansorted = require( '@stdlib/stats/base/smediansorted' );
+* var smediansorted = require( '@stdlib/stats/strided/smediansorted' );
 *
 * var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var smediansorted = require( '@stdlib/stats/base/smediansorted' );
+* var smediansorted = require( '@stdlib/stats/strided/smediansorted' );
 *
 * var x = new Float32Array( [ 2.0, -3.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

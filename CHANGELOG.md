@@ -46,6 +46,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`80fae16`](https://github.com/stdlib-js/stdlib/commit/80fae1632054248349b65e9f427d388a27870104): remove `stats/base/smediansorted`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/smediansorted` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`b3c7191`](https://github.com/stdlib-js/stdlib/commit/b3c7191c2a557c4545d5e44d99b2ff1f859bd55c): remove `stats/base/smeanwd`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/smeanwd` namespace.
@@ -21244,6 +21294,65 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`eab670a`](https://github.com/stdlib-js/stdlib/commit/eab670a6ca1d079f2e413e9b1b1f17e8055c990d): remove `stats/base/smediansorted`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/smediansorted`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -23863,6 +23972,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-smediansorted-unreleased">
+
+#### [@stdlib/stats/strided/smediansorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/smediansorted)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`59a367b`](https://github.com/stdlib-js/stdlib/commit/59a367be2129c01cd6f5f84e621b95d2fd7aecc4) - add `stats/strided/smediansorted`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -23870,6 +24001,107 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`eab670a`](https://github.com/stdlib-js/stdlib/commit/eab670a6ca1d079f2e413e9b1b1f17e8055c990d): remove `stats/base/smediansorted`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/smediansorted`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`80fae16`](https://github.com/stdlib-js/stdlib/commit/80fae1632054248349b65e9f427d388a27870104): remove `stats/base/smediansorted`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/smediansorted` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`04b4549`](https://github.com/stdlib-js/stdlib/commit/04b454906487aa1257298779a937d9cd82d12230): remove `stats/base/smeanwd`
 
@@ -31599,6 +31831,10 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`eab670a`](https://github.com/stdlib-js/stdlib/commit/eab670a6ca1d079f2e413e9b1b1f17e8055c990d) - **remove:** remove `stats/base/smediansorted` _(by Aayush Khanna)_
+-   [`1cc91ee`](https://github.com/stdlib-js/stdlib/commit/1cc91eefedb2bbd7fbfa3555de135b889638d6a7) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`80fae16`](https://github.com/stdlib-js/stdlib/commit/80fae1632054248349b65e9f427d388a27870104) - **remove:** remove `stats/base/smediansorted` from namespace _(by Aayush Khanna)_
+-   [`59a367b`](https://github.com/stdlib-js/stdlib/commit/59a367be2129c01cd6f5f84e621b95d2fd7aecc4) - **feat:** add `stats/strided/smediansorted` _(by Aayush Khanna)_
 -   [`04b4549`](https://github.com/stdlib-js/stdlib/commit/04b454906487aa1257298779a937d9cd82d12230) - **remove:** remove `stats/base/smeanwd` _(by Aayush Khanna)_
 -   [`3e8a453`](https://github.com/stdlib-js/stdlib/commit/3e8a4533ddede9bc1916fa5b2f339380c091c0a4) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`b3c7191`](https://github.com/stdlib-js/stdlib/commit/b3c7191c2a557c4545d5e44d99b2ff1f859bd55c) - **remove:** remove `stats/base/smeanwd` from namespace _(by Aayush Khanna)_

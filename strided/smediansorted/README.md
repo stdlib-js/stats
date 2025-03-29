@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var smediansorted = require( '@stdlib/stats/base/smediansorted' );
+var smediansorted = require( '@stdlib/stats/strided/smediansorted' );
 ```
 
 #### smediansorted( N, x, strideX )
@@ -134,7 +134,7 @@ var v = smediansorted.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var linspace = require( '@stdlib/array/linspace' );
-var smediansorted = require( '@stdlib/stats/base/smediansorted' );
+var smediansorted = require( '@stdlib/stats/strided/smediansorted' );
 
 var options = {
     'dtype': 'float32'
@@ -173,7 +173,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/smediansorted.h"
+#include "stdlib/stats/strided/smediansorted.h"
 ```
 
 #### stdlib_strided_smediansorted( N, \*X, strideX )
@@ -238,7 +238,7 @@ float stdlib_strided_smediansorted_ndarray( const CBLAS_INT N, const float *X, c
 ### Examples
 
 ```c
-#include "stdlib/stats/base/smediansorted.h"
+#include "stdlib/stats/strided/smediansorted.h"
 #include <stdio.h>
 
 int main( void ) {
