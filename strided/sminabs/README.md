@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var sminabs = require( '@stdlib/stats/base/sminabs' );
+var sminabs = require( '@stdlib/stats/strided/sminabs' );
 ```
 
 #### sminabs( N, x, strideX )
@@ -130,7 +130,7 @@ var v = sminabs.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var sminabs = require( '@stdlib/stats/base/sminabs' );
+var sminabs = require( '@stdlib/stats/strided/sminabs' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
@@ -168,7 +168,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/sminabs.h"
+#include "stdlib/stats/strided/sminabs.h"
 ```
 
 #### stdlib_strided_sminabs( N, \*X, strideX )
@@ -233,7 +233,7 @@ float stdlib_strided_sminabs_ndarray( const CBLAS_INT N, const float *X, const C
 ### Examples
 
 ```c
-#include "stdlib/stats/base/sminabs.h"
+#include "stdlib/stats/strided/sminabs.h"
 #include <stdio.h>
 
 int main( void ) {

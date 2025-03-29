@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/sminabs.h"
+#include "stdlib/stats/strided/sminabs.h"
 #include <stdio.h>
 
 int main( void ) {

@@ -21,11 +21,11 @@
 /**
 * Compute the minimum absolute value of a single-precision floating-point strided array.
 *
-* @module @stdlib/stats/base/sminabs
+* @module @stdlib/stats/strided/sminabs
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var sminabs = require( '@stdlib/stats/base/sminabs' );
+* var sminabs = require( '@stdlib/stats/strided/sminabs' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var sminabs = require( '@stdlib/stats/base/sminabs' );
+* var sminabs = require( '@stdlib/stats/strided/sminabs' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

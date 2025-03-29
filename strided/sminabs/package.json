@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/sminabs",
+  "name": "@stdlib/stats/strided/sminabs",
   "version": "0.0.0",
   "description": "Calculate the minimum absolute value of a single-precision floating-point strided array.",
   "license": "Apache-2.0",
