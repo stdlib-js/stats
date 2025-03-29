@@ -272,7 +272,7 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/base/drange`][@stdlib/stats/base/drange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/drange`][@stdlib/stats/strided/drange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/smax`][@stdlib/stats/base/smax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanrange`][@stdlib/stats/base/snanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array, ignoring NaN values.</span>
@@ -294,7 +294,7 @@ int main( void ) {
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/drange]: https://github.com/stdlib-js/stats/tree/main/base/drange
+[@stdlib/stats/strided/drange]: https://github.com/stdlib-js/stats/tree/main/strided/drange
 
 [@stdlib/stats/base/smax]: https://github.com/stdlib-js/stats/tree/main/base/smax
 

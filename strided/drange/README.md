@@ -18,13 +18,13 @@ limitations under the License.
 
 -->
 
-# dmidrange
+# drange
 
-> Calculate the [mid-range][mid-range] of a double-precision floating-point strided array.
+> Calculate the [range][range] of a double-precision floating-point strided array.
 
 <section class="intro">
 
-The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of the maximum and minimum values in a data set. The measure is the midpoint of the range and a measure of central tendency.
+The [**range**][range] is defined as the difference between the maximum and minimum values.
 
 </section>
 
@@ -35,37 +35,38 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of th
 ## Usage
 
 ```javascript
-var dmidrange = require( '@stdlib/stats/strided/dmidrange' );
+var drange = require( '@stdlib/stats/strided/drange' );
 ```
 
-#### dmidrange( N, x, strideX )
+#### drange( N, x, strideX )
 
-Computes the [mid-range][mid-range] of a double-precision floating-point strided array `x`.
+Computes the [range][range] of a double-precision floating-point strided array `x`.
 
 ```javascript
 var Float64Array = require( '@stdlib/array/float64' );
 
 var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 
-var v = dmidrange( x.length, x, 1 );
-// returns 0.0
+var v = drange( x.length, x, 1 );
+// returns 4.0
 ```
 
 The function has the following parameters:
 
 -   **N**: number of indexed elements.
 -   **x**: input [`Float64Array`][@stdlib/array/float64].
--   **strideX**: stride length for `x`.
+-   **strideX**: index increment for `x`.
 
-The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to compute the [mid-range][mid-range] of every other element in `x`,
+The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to compute the [range][range] of every other element in `x`,
 
 ```javascript
 var Float64Array = require( '@stdlib/array/float64' );
+var floor = require( '@stdlib/math/base/special/floor' );
 
 var x = new Float64Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ] );
 
-var v = dmidrange( 4, x, 2 );
-// returns 1.0
+var v = drange( 4, x, 2 );
+// returns 6.0
 ```
 
 Note that indexing is relative to the first index. To introduce an offset, use [`typed array`][mdn-typed-array] views.
@@ -78,36 +79,36 @@ var Float64Array = require( '@stdlib/array/float64' );
 var x0 = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var v = dmidrange( 4, x1, 2 );
-// returns 1.0
+var v = drange( 4, x1, 2 );
+// returns 6.0
 ```
 
-#### dmidrange.ndarray( N, x, strideX, offsetX )
+#### drange.ndarray( N, x, strideX, offsetX )
 
-Computes the [mid-range][mid-range] of a double-precision floating-point strided array using alternative indexing semantics.
+Computes the [range][range] of a double-precision floating-point strided array using alternative indexing semantics.
 
 ```javascript
 var Float64Array = require( '@stdlib/array/float64' );
 
 var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 
-var v = dmidrange.ndarray( x.length, x, 1, 0 );
-// returns 0.0
+var v = drange.ndarray( x.length, x, 1, 0 );
+// returns 4.0
 ```
 
 The function has the following additional parameters:
 
 -   **offsetX**: starting index for `x`.
 
-While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameter supports indexing semantics based on a starting index. For example, to calculate the [mid-range][mid-range] for every other element in `x` starting from the second element
+While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameter supports indexing semantics based on a starting index. For example, to calculate the [range][range] for every other element in `x` starting from the second element
 
 ```javascript
 var Float64Array = require( '@stdlib/array/float64' );
 
 var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 
-var v = dmidrange.ndarray( 4, x, 2, 1 );
-// returns 1.0
+var v = drange.ndarray( 4, x, 2, 1 );
+// returns 6.0
 ```
 
 </section>
@@ -132,14 +133,14 @@ var v = dmidrange.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dmidrange = require( '@stdlib/stats/strided/dmidrange' );
+var drange = require( '@stdlib/stats/strided/drange' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
 });
 console.log( x );
 
-var v = dmidrange( x.length, x, 1 );
+var v = drange( x.length, x, 1 );
 console.log( v );
 ```
 
@@ -170,18 +171,18 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/dmidrange.h"
+#include "stdlib/stats/strided/drange.h"
 ```
 
-#### stdlib_strided_dmidrange( N, \*X, strideX )
+#### stdlib_strided_drange( N, \*X, strideX )
 
-Computes the [mid-range][mid-range] of a double-precision floating-point strided array `x`.
+Computes the [range][range] of a double-precision floating-point strided array `x`.
 
 ```c
-const double x[] = { 1.0, 2.0, 3.0, 4.0 };
+const double x[] = { 1.0, -2.0, 3.0, -4.0 };
 
-double v = stdlib_strided_dmidrange( 4, x, 1 );
-// returns 2.5
+double v = stdlib_strided_drange( 4, x, 1 );
+// returns 4.0
 ```
 
 The function accepts the following arguments:
@@ -191,18 +192,18 @@ The function accepts the following arguments:
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 
 ```c
-double stdlib_strided_dmidrange( const CBLAS_INT N, const double *X, const CBLAS_INT strideX );
+double stdlib_strided_drange( const CBLAS_INT N, const double *X, const CBLAS_INT strideX );
 ```
 
-#### stdlib_strided_dmidrange_ndarray( N, \*X, strideX, offsetX )
+#### stdlib_strided_drange_ndarray( N, \*X, strideX, offsetX )
 
-Computes the [mid-range][mid-range] of a double-precision floating-point strided array using alternative indexing semantics.
+Computes the [range][range] of a double-precision floating-point strided array using alternative indexing semantics.
 
 ```c
-const double x[] = { 1.0, 2.0, 3.0, 4.0 };
+const double x[] = { 1.0, -2.0, 3.0, -4.0 };
 
-double v = stdlib_strided_dmidrange_ndarray( 4, x, 1, 0 );
-// returns 2.5
+double v = stdlib_strided_drange_ndarray( 4, x, 1, 0 );
+// returns 7.0
 ```
 
 The function accepts the following arguments:
@@ -213,7 +214,7 @@ The function accepts the following arguments:
 -   **offsetX**: `[in] CBLAS_INT` starting index for `X`.
 
 ```c
-double stdlib_strided_dmidrange_ndarray( const CBLAS_INT N, const double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
+double stdlib_strided_drange_ndarray( const CBLAS_INT N, const double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
 ```
 
 </section>
@@ -235,7 +236,7 @@ double stdlib_strided_dmidrange_ndarray( const CBLAS_INT N, const double *X, con
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/dmidrange.h"
+#include "stdlib/stats/strided/drange.h"
 #include <stdio.h>
 
 int main( void ) {
@@ -248,11 +249,11 @@ int main( void ) {
     // Specify the stride length:
     const int strideX = 2;
 
-    // Compute the mid-range:
-    double v = stdlib_strided_dmidrange( N, x, strideX );
+    // Compute the range:
+    double v = stdlib_strided_drange( N, x, strideX );
 
     // Print the result:
-    printf( "mid-range: %lf\n", v );
+    printf( "range: %lf\n", v );
 }
 ```
 
@@ -273,10 +274,10 @@ int main( void ) {
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats/strided/dmax`][@stdlib/stats/strided/dmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/dmean`][@stdlib/stats/base/dmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dmin`][@stdlib/stats/strided/dmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/strided/drange`][@stdlib/stats/strided/drange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/smidrange`][@stdlib/stats/base/smidrange]</span><span class="delimiter">: </span><span class="description">calculate the mid-range of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dnanrange`][@stdlib/stats/strided/dnanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/range`][@stdlib/stats/base/range]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/base/srange`][@stdlib/stats/base/srange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array.</span>
 
 </section>
 
@@ -286,7 +287,7 @@ int main( void ) {
 
 <section class="links">
 
-[mid-range]: https://en.wikipedia.org/wiki/Mid-range
+[range]: https://en.wikipedia.org/wiki/Range_%28statistics%29
 
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
@@ -296,13 +297,13 @@ int main( void ) {
 
 [@stdlib/stats/strided/dmax]: https://github.com/stdlib-js/stats/tree/main/strided/dmax
 
-[@stdlib/stats/base/dmean]: https://github.com/stdlib-js/stats/tree/main/base/dmean
-
 [@stdlib/stats/strided/dmin]: https://github.com/stdlib-js/stats/tree/main/strided/dmin
 
-[@stdlib/stats/strided/drange]: https://github.com/stdlib-js/stats/tree/main/strided/drange
+[@stdlib/stats/strided/dnanrange]: https://github.com/stdlib-js/stats/tree/main/strided/dnanrange
 
-[@stdlib/stats/base/smidrange]: https://github.com/stdlib-js/stats/tree/main/base/smidrange
+[@stdlib/stats/base/range]: https://github.com/stdlib-js/stats/tree/main/base/range
+
+[@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats/tree/main/base/srange
 
 <!-- </related-links> -->
 
