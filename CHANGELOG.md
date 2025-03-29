@@ -46,6 +46,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`5284d99`](https://github.com/stdlib-js/stdlib/commit/5284d99d0f630acf4594d3e4d07078730cb8bd13): remove `stats/base/smaxabssorted`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/smaxabssorted` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`1fa4f21`](https://github.com/stdlib-js/stdlib/commit/1fa4f21f85e9ab884125cf835fd50a3607f6e88f): remove `stats/base/smaxabs`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/smaxabs` namespace.
@@ -20535,6 +20585,65 @@ A total of 3 issues were closed in this release:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`8b023a1`](https://github.com/stdlib-js/stdlib/commit/8b023a1dac960fe04633861da5407a5ebcfbe1b9): remove `stats/base/smaxabssorted`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/smaxabssorted`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -23208,6 +23317,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-smaxabssorted-unreleased">
+
+#### [@stdlib/stats/strided/smaxabssorted](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/smaxabssorted)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c86e814`](https://github.com/stdlib-js/stdlib/commit/c86e814ca55f0a67e4cc7ce1268013f4b54ea156) - add `stats/strided/smaxabssorted`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -23215,6 +23346,107 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`8b023a1`](https://github.com/stdlib-js/stdlib/commit/8b023a1dac960fe04633861da5407a5ebcfbe1b9): remove `stats/base/smaxabssorted`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/smaxabssorted`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`5284d99`](https://github.com/stdlib-js/stdlib/commit/5284d99d0f630acf4594d3e4d07078730cb8bd13): remove `stats/base/smaxabssorted`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/smaxabssorted` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`2c34d76`](https://github.com/stdlib-js/stdlib/commit/2c34d76fd55e34e024a8cd80f2ab8b29b1486e7a): remove `stats/base/smaxabs`
 
@@ -30439,6 +30671,10 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8b023a1`](https://github.com/stdlib-js/stdlib/commit/8b023a1dac960fe04633861da5407a5ebcfbe1b9) - **remove:** remove `stats/base/smaxabssorted` _(by Aayush Khanna)_
+-   [`981d54d`](https://github.com/stdlib-js/stdlib/commit/981d54db218ea04e9876270be2228401021f0ad5) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`5284d99`](https://github.com/stdlib-js/stdlib/commit/5284d99d0f630acf4594d3e4d07078730cb8bd13) - **remove:** remove `stats/base/smaxabssorted` from namespace _(by Aayush Khanna)_
+-   [`c86e814`](https://github.com/stdlib-js/stdlib/commit/c86e814ca55f0a67e4cc7ce1268013f4b54ea156) - **feat:** add `stats/strided/smaxabssorted` _(by Aayush Khanna)_
 -   [`2c34d76`](https://github.com/stdlib-js/stdlib/commit/2c34d76fd55e34e024a8cd80f2ab8b29b1486e7a) - **remove:** remove `stats/base/smaxabs` _(by Aayush Khanna)_
 -   [`fa7deea`](https://github.com/stdlib-js/stdlib/commit/fa7deea883ff92a604e0d89b92f36e1d6bff088a) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`1fa4f21`](https://github.com/stdlib-js/stdlib/commit/1fa4f21f85e9ab884125cf835fd50a3607f6e88f) - **remove:** remove `stats/base/smaxabs` from namespace _(by Aayush Khanna)_

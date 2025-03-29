@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var smaxabssorted = require( '@stdlib/stats/base/smaxabssorted' );
+var smaxabssorted = require( '@stdlib/stats/strided/smaxabssorted' );
 ```
 
 #### smaxabssorted( N, x, strideX )
@@ -133,7 +133,7 @@ var v = smaxabssorted.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var linspace = require( '@stdlib/array/linspace' );
-var smaxabssorted = require( '@stdlib/stats/base/smaxabssorted' );
+var smaxabssorted = require( '@stdlib/stats/strided/smaxabssorted' );
 
 var options = {
     'dtype': 'float32'
@@ -172,7 +172,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/smaxabssorted.h"
+#include "stdlib/stats/strided/smaxabssorted.h"
 ```
 
 #### stdlib_strided_smaxabssorted( N, \*X, strideX )
@@ -237,7 +237,7 @@ float stdlib_strided_smaxabssorted_ndarray( const CBLAS_INT N, const float *X, c
 ### Examples
 
 ```c
-#include "stdlib/stats/base/smaxabssorted.h"
+#include "stdlib/stats/strided/smaxabssorted.h"
 #include <stdio.h>
 
 int main( void ) {

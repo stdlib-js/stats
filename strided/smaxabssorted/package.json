@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/smaxabssorted",
+  "name": "@stdlib/stats/strided/smaxabssorted",
   "version": "0.0.0",
   "description": "Calculate the maximum absolute value of a sorted single-precision floating-point strided array.",
   "license": "Apache-2.0",

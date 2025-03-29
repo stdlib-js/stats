@@ -21,11 +21,11 @@
 /**
 * Compute the maximum absolute value of a sorted single-precision floating-point strided array.
 *
-* @module @stdlib/stats/base/smaxabssorted
+* @module @stdlib/stats/strided/smaxabssorted
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var smaxabssorted = require( '@stdlib/stats/base/smaxabssorted' );
+* var smaxabssorted = require( '@stdlib/stats/strided/smaxabssorted' );
 *
 * var x = new Float32Array( [ -1.0, -2.0, -3.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var smaxabssorted = require( '@stdlib/stats/base/smaxabssorted' );
+* var smaxabssorted = require( '@stdlib/stats/strided/smaxabssorted' );
 *
 * var x = new Float32Array( [ 2.0, -3.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

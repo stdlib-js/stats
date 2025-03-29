@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/smaxabssorted.h"
+#include "stdlib/stats/strided/smaxabssorted.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
