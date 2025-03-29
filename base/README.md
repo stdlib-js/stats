@@ -196,8 +196,8 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`smidrange( N, x, strideX )`][@stdlib/stats/base/smidrange]</span><span class="delimiter">: </span><span class="description">calculate the mid-range of a single-precision floating-point strided array.</span>
 -   <span class="signature">[`smin( N, x, strideX )`][@stdlib/stats/strided/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
 -   <span class="signature">[`sminabs( N, x, strideX )`][@stdlib/stats/strided/sminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a single-precision floating-point strided array.</span>
--   <span class="signature">[`sminsorted( N, x, strideX )`][@stdlib/stats/base/sminsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted single-precision floating-point strided array.</span>
--   <span class="signature">[`smskmax( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/smskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array according to a mask.</span>
+-   <span class="signature">[`sminsorted( N, x, strideX )`][@stdlib/stats/strided/sminsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted single-precision floating-point strided array.</span>
+-   <span class="signature">[`smskmax( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/smskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`smskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/smskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`smskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/smskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`snanmax( N, x, strideX )`][@stdlib/stats/base/snanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array, ignoring `NaN` values.</span>
@@ -577,9 +577,9 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/sminabs]: https://github.com/stdlib-js/stats/tree/main/strided/sminabs
 
-[@stdlib/stats/base/sminsorted]: https://github.com/stdlib-js/stats/tree/main/base/sminsorted
+[@stdlib/stats/strided/sminsorted]: https://github.com/stdlib-js/stats/tree/main/strided/sminsorted
 
-[@stdlib/stats/base/smskmax]: https://github.com/stdlib-js/stats/tree/main/base/smskmax
+[@stdlib/stats/strided/smskmax]: https://github.com/stdlib-js/stats/tree/main/strided/smskmax
 
 [@stdlib/stats/base/smskmin]: https://github.com/stdlib-js/stats/tree/main/base/smskmin
 

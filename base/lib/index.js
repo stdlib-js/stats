@@ -775,24 +775,6 @@ setReadOnly( ns, 'smeanpn', require( './../../base/smeanpn' ) );
 setReadOnly( ns, 'smidrange', require( './../../base/smidrange' ) );
 
 /**
-* @name sminsorted
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/sminsorted}
-*/
-setReadOnly( ns, 'sminsorted', require( './../../base/sminsorted' ) );
-
-/**
-* @name smskmax
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/smskmax}
-*/
-setReadOnly( ns, 'smskmax', require( './../../base/smskmax' ) );
-
-/**
 * @name smskmin
 * @memberof ns
 * @readonly

@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# dminsorted
+# sminsorted
 
-> Calculate the minimum value of a sorted double-precision floating-point strided array.
+> Calculate the minimum value of a sorted single-precision floating-point strided array.
 
 <section class="intro">
 
@@ -33,41 +33,41 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var dminsorted = require( '@stdlib/stats/strided/dminsorted' );
+var sminsorted = require( '@stdlib/stats/strided/sminsorted' );
 ```
 
-#### dminsorted( N, x, strideX )
+#### sminsorted( N, x, strideX )
 
-Computes the minimum value of a sorted double-precision floating-point strided array `x`.
+Computes the minimum value of a sorted single-precision floating-point strided array `x`.
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
 
-var v = dminsorted( x.length, x, 1 );
+var v = sminsorted( x.length, x, 1 );
 // returns 1.0
 
-x = new Float64Array( [ 3.0, 2.0, 1.0 ] );
+x = new Float32Array( [ 3.0, 2.0, 1.0 ] );
 
-v = dminsorted( x.length, x, 1 );
+v = sminsorted( x.length, x, 1 );
 // returns 1.0
 ```
 
 The function has the following parameters:
 
 -   **N**: number of indexed elements.
--   **x**: sorted input [`Float64Array`][@stdlib/array/float64].
--   **strideX**: stride length for `x`.
+-   **x**: sorted input [`Float32Array`][@stdlib/array/float32].
+-   **strideX**: index increment for `x`.
 
 The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to compute the minimum value of every other element in `x`,
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, 2.0, 2.0, -7.0, 3.0, 3.0, 4.0, 2.0 ] );
+var x = new Float32Array( [ 1.0, 2.0, 2.0, -7.0, 3.0, 3.0, 4.0, 2.0 ] );
 
-var v = dminsorted( 4, x, 2 );
+var v = sminsorted( 4, x, 2 );
 // returns 1.0
 ```
 
@@ -76,25 +76,25 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 <!-- eslint-disable stdlib/capitalized-comments -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x0 = new Float64Array( [ 2.0, 1.0, 2.0, 2.0, -2.0, 2.0, 3.0, 4.0 ] );
-var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+var x0 = new Float32Array( [ 2.0, 1.0, 2.0, 2.0, -2.0, 2.0, 3.0, 4.0 ] );
+var x1 = new Float32Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var v = dminsorted( 4, x1, 2 );
+var v = sminsorted( 4, x1, 2 );
 // returns 1.0
 ```
 
-#### dminsorted.ndarray( N, x, strideX, offsetX )
+#### sminsorted.ndarray( N, x, strideX, offsetX )
 
-Computes the minimum value of a sorted double-precision floating-point strided array using alternative indexing semantics.
+Computes the minimum value of a sorted single-precision floating-point strided array using alternative indexing semantics.
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
 
-var v = dminsorted.ndarray( x.length, x, 1, 0 );
+var v = sminsorted.ndarray( x.length, x, 1, 0 );
 // returns 1.0
 ```
 
@@ -105,11 +105,11 @@ The function has the following additional parameters:
 While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameter supports indexing semantics based on a starting index. For example, to calculate the minimum value for every other element in `x` starting from the second element
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 2.0, 1.0, 2.0, 2.0, -2.0, 2.0, 3.0, 4.0 ] );
+var x = new Float32Array( [ 2.0, 1.0, 2.0, 2.0, -2.0, 2.0, 3.0, 4.0 ] );
 
-var v = dminsorted.ndarray( 4, x, 2, 1 );
+var v = sminsorted.ndarray( 4, x, 2, 1 );
 // returns 1.0
 ```
 
@@ -136,15 +136,15 @@ var v = dminsorted.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var linspace = require( '@stdlib/array/linspace' );
-var dminsorted = require( '@stdlib/stats/strided/dminsorted' );
+var sminsorted = require( '@stdlib/stats/strided/sminsorted' );
 
 var options = {
-    'dtype': 'float64'
+    'dtype': 'float32'
 };
 var x = linspace( -5.0, 5.0, 10, options );
 console.log( x );
 
-var v = dminsorted( x.length, x, 1 );
+var v = sminsorted( x.length, x, 1 );
 console.log( v );
 ```
 
@@ -175,50 +175,50 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/dminsorted.h"
+#include "stdlib/stats/strided/sminsorted.h"
 ```
 
-#### stdlib_strided_dminsorted( N, \*X, strideX )
+#### stdlib_strided_sminsorted( N, \*X, strideX )
 
-Computes the minimum value of a sorted double-precision floating-point strided array.
+Computes the minimum value of a sorted single-precision floating-point strided array.
 
 ```c
-const double x[] = { 1.0, 2.0, 3.0 };
+const float x[] = { 1.0f, 2.0f, 3.0f };
 
-double v = stdlib_strided_dminsorted( 3, x, 1 );
-// returns 1.0
+float v = stdlib_strided_sminsorted( 3, x, 1 );
+// returns 1.0f
 ```
 
 The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
--   **X**: `[in] double*` input array.
+-   **X**: `[in] float*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 
 ```c
-double stdlib_strided_dminsorted( const CBLAS_INT N, const double *X, const CBLAS_INT strideX );
+float stdlib_strided_sminsorted( const CBLAS_INT N, const float *X, const CBLAS_INT strideX );
 ```
 
-#### stdlib_strided_dminsorted_ndarray( N, \*X, strideX, offsetX )
+#### stdlib_strided_sminsorted_ndarray( N, \*X, strideX, offsetX )
 
-Computes the minimum value of a sorted double-precision floating-point strided array using alternative indexing semantics.
+Computes the minimum value of a sorted single-precision floating-point strided array using alternative indexing semantics.
 
 ```c
-const double x[] = { 1.0, 2.0, 3.0 };
+const float x[] = { 1.0f, 2.0f, 3.0f };
 
-double v = stdlib_strided_dminsorted_ndarray( 3, x, 1, 0 );
-// returns 1.0
+float v = stdlib_strided_sminsorted_ndarray( 3, x, 1, 0 );
+// returns 1.0f
 ```
 
 The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
--   **X**: `[in] double*` input array.
+-   **X**: `[in] float*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 -   **offsetX**: `[in] CBLAS_INT` starting index for `X`.
 
 ```c
-double stdlib_strided_dminsorted_ndarray( const CBLAS_INT N, const double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
+float stdlib_strided_sminsorted_ndarray( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
 ```
 
 </section>
@@ -240,12 +240,12 @@ double stdlib_strided_dminsorted_ndarray( const CBLAS_INT N, const double *X, co
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/dminsorted.h"
+#include "stdlib/stats/strided/sminsorted.h"
 #include <stdio.h>
 
 int main( void ) {
     // Create a strided array:
-    const double x[] = { 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 };
+    const float x[] = { 1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f, 7.0f, 8.0f };
 
     // Specify the number of elements:
     const int N = 4;
@@ -254,10 +254,10 @@ int main( void ) {
     const int strideX = 2;
 
     // Compute the minimum value:
-    double v = stdlib_strided_dminsorted( N, x, strideX );
+    float v = stdlib_strided_sminsorted( N, x, strideX );
 
     // Print the result:
-    printf( "min: %lf\n", v );
+    printf( "min: %f\n", v );
 }
 ```
 
@@ -277,10 +277,10 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/strided/dmin`][@stdlib/stats/strided/dmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/strided/dmaxsorted`][@stdlib/stats/strided/dmaxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dminsorted`][@stdlib/stats/strided/dminsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/minsorted`][@stdlib/stats/base/minsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted strided array.</span>
--   <span class="package-name">[`@stdlib/stats/strided/sminsorted`][@stdlib/stats/strided/sminsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/smaxsorted`][@stdlib/stats/strided/smaxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/smin`][@stdlib/stats/strided/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
 
 </section>
 
@@ -290,19 +290,19 @@ int main( void ) {
 
 <section class="links">
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/strided/dmin]: https://github.com/stdlib-js/stats/tree/main/strided/dmin
-
-[@stdlib/stats/strided/dmaxsorted]: https://github.com/stdlib-js/stats/tree/main/strided/dmaxsorted
+[@stdlib/stats/strided/dminsorted]: https://github.com/stdlib-js/stats/tree/main/strided/dminsorted
 
 [@stdlib/stats/base/minsorted]: https://github.com/stdlib-js/stats/tree/main/base/minsorted
 
-[@stdlib/stats/strided/sminsorted]: https://github.com/stdlib-js/stats/tree/main/strided/sminsorted
+[@stdlib/stats/strided/smaxsorted]: https://github.com/stdlib-js/stats/tree/main/strided/smaxsorted
+
+[@stdlib/stats/strided/smin]: https://github.com/stdlib-js/stats/tree/main/strided/smin
 
 <!-- </related-links> -->
 
