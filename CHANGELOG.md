@@ -32295,7 +32295,6 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
--   [`4d17559`](https://github.com/stdlib-js/stdlib/commit/4d1755914f7ba64648c1ef6711f297c26c120e12) - **test:** fix missing argument _(by Athan Reines)_
 -   [`bee5b1b`](https://github.com/stdlib-js/stdlib/commit/bee5b1bca41e64d75b4c4d9d069330bfe9b46fe8) - **remove:** remove `stats/base/sminabs` _(by Aayush Khanna)_
 -   [`816adc5`](https://github.com/stdlib-js/stdlib/commit/816adc5f64961310698b850e2b8bb4d472fa9127) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`d8fd846`](https://github.com/stdlib-js/stdlib/commit/d8fd846966f002dca771a10a8cbf1002c45bc4b8) - **remove:** remove `stats/base/sminabs` from namespace _(by Aayush Khanna)_
