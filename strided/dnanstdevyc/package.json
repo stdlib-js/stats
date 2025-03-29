@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dnanstdevyc",
+  "name": "@stdlib/stats/strided/dnanstdevyc",
   "version": "0.0.0",
   "description": "Calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.",
   "license": "Apache-2.0",

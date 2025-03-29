@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanstdevyc.h"
+#include "stdlib/stats/strided/dnanstdevyc.h"
 #include <stdio.h>
 
 int main( void ) {
