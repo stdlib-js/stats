@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dstdevyc.h"
+#include "stdlib/stats/strided/dstdevyc.h"
 #include "stdlib/stats/base/dvarianceyc.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/math/base/special/sqrt.h"

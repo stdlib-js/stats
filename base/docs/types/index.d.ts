@@ -43,7 +43,6 @@ import dsem = require( './../../../base/dsem' );
 import dsempn = require( './../../../base/dsempn' );
 import dsmeanors = require( './../../../base/dsmeanors' );
 import dstdev = require( './../../../base/dstdev' );
-import dstdevyc = require( './../../../base/dstdevyc' );
 import dsvariance = require( './../../../base/dsvariance' );
 import dsvariancepn = require( './../../../base/dsvariancepn' );
 import dvariance = require( './../../../base/dvariance' );
@@ -839,33 +838,6 @@ interface Namespace {
 	* // returns ~2.0817
 	*/
 	dstdev: typeof dstdev;
-
-	/**
-	* Computes the standard deviation of a double-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns standard deviation
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dstdevyc( x.length, 1.0, x, 1 );
-	* // returns ~2.0817
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dstdevyc.ndarray( x.length, 1.0, x, 1, 0 );
-	* // returns ~2.0817
-	*/
-	dstdevyc: typeof dstdevyc;
 
 	/**
 	* Computes the variance of a single-precision floating-point strided array using extended accumulation and returning an extended precision result.
