@@ -226,24 +226,6 @@ setReadOnly( ns, 'dsem', require( './../../base/dsem' ) );
 setReadOnly( ns, 'dsempn', require( './../../base/dsempn' ) );
 
 /**
-* @name dsemtk
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dsemtk}
-*/
-setReadOnly( ns, 'dsemtk', require( './../../base/dsemtk' ) );
-
-/**
-* @name dsemwd
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dsemwd}
-*/
-setReadOnly( ns, 'dsemwd', require( './../../base/dsemwd' ) );
-
-/**
 * @name dsemyc
 * @memberof ns
 * @readonly
