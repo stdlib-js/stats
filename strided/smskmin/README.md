@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# dmskmax
+# smskmin
 
-> Calculate the maximum value of a double-precision floating-point strided array according to a mask.
+> Calculate the minimum value of a single-precision floating-point strided array according to a mask.
 
 <section class="intro">
 
@@ -33,43 +33,43 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var dmskmax = require( '@stdlib/stats/base/dmskmax' );
+var smskmin = require( '@stdlib/stats/strided/smskmin' );
 ```
 
-#### dmskmax( N, x, strideX, mask, strideMask )
+#### smskmin( N, x, strideX, mask, strideMask )
 
-Computes the maximum value of a double-precision floating-point strided array according to a mask.
+Computes the minimum value of a single-precision floating-point strided array according to a mask.
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 var Uint8Array = require( '@stdlib/array/uint8' );
 
-var x = new Float64Array( [ 1.0, -2.0, 4.0, 2.0 ] );
+var x = new Float32Array( [ 1.0, -2.0, -4.0, 2.0 ] );
 var mask = new Uint8Array( [ 0, 0, 1, 0 ] );
 
-var v = dmskmax( x.length, x, 1, mask, 1 );
-// returns 2.0
+var v = smskmin( x.length, x, 1, mask, 1 );
+// returns -2.0
 ```
 
 The function has the following parameters:
 
 -   **N**: number of indexed elements.
--   **x**: input [`Float64Array`][@stdlib/array/float64].
+-   **x**: input [`Float32Array`][@stdlib/array/float32].
 -   **strideX**: stride length for `x`.
 -   **mask**: mask [`Uint8Array`][@stdlib/array/uint8]. If a `mask` array element is `0`, the corresponding element in `x` is considered valid and **included** in computation. If a `mask` array element is `1`, the corresponding element in `x` is considered invalid/missing and **excluded** from computation.
 -   **strideMask**: stride length for `mask`.
 
-The `N` and stride parameters determine which elements in the strided arrays are accessed at runtime. For example, to compute the maximum value of every other element in `x`,
+The `N` and stride parameters determine which elements in the strided arrays are accessed at runtime. For example, to compute the minimum value of every other element in `x`,
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 var Uint8Array = require( '@stdlib/array/uint8' );
 
-var x = new Float64Array( [ 1.0, 2.0, -7.0, -2.0, 4.0, 3.0, 5.0, 6.0 ] );
+var x = new Float32Array( [ 1.0, 2.0, 7.0, -2.0, -4.0, 3.0, -5.0, -6.0 ] );
 var mask = new Uint8Array( [ 0, 0, 0, 0, 0, 0, 1, 1 ] );
 
-var v = dmskmax( 4, x, 2, mask, 2 );
-// returns 4.0
+var v = smskmin( 4, x, 2, mask, 2 );
+// returns -4.0
 ```
 
 Note that indexing is relative to the first index. To introduce offsets, use [`typed array`][mdn-typed-array] views.
@@ -77,32 +77,32 @@ Note that indexing is relative to the first index. To introduce offsets, use [`t
 <!-- eslint-disable stdlib/capitalized-comments -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 var Uint8Array = require( '@stdlib/array/uint8' );
 
-var x0 = new Float64Array( [ 2.0, 1.0, -2.0, -2.0, 3.0, 4.0, 5.0, 6.0 ] );
-var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+var x0 = new Float32Array( [ 2.0, 1.0, -2.0, -2.0, 3.0, 4.0, -5.0, -6.0 ] );
+var x1 = new Float32Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
 var mask0 = new Uint8Array( [ 0, 0, 0, 0, 0, 0, 1, 1 ] );
 var mask1 = new Uint8Array( mask0.buffer, mask0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var v = dmskmax( 4, x1, 2, mask1, 2 );
-// returns 4.0
+var v = smskmin( 4, x1, 2, mask1, 2 );
+// returns -2.0
 ```
 
-#### dmskmax.ndarray( N, x, strideX, offsetX, mask, strideMask, offsetMask )
+#### smskmin.ndarray( N, x, strideX, offsetX, mask, strideMask, offsetMask )
 
-Computes the maximum value of a double-precision floating-point strided array according to a mask and using alternative indexing semantics.
+Computes the minimum value of a single-precision floating-point strided array according to a mask and using alternative indexing semantics.
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 var Uint8Array = require( '@stdlib/array/uint8' );
 
-var x = new Float64Array( [ 1.0, -2.0, 4.0, 2.0 ] );
+var x = new Float32Array( [ 1.0, -2.0, -4.0, 2.0 ] );
 var mask = new Uint8Array( [ 0, 0, 1, 0 ] );
 
-var v = dmskmax.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-// returns 2.0
+var v = smskmin.ndarray( x.length, x, 1, 0, mask, 1, 0 );
+// returns -2.0
 ```
 
 The function has the following additional parameters:
@@ -110,17 +110,17 @@ The function has the following additional parameters:
 -   **offsetX**: starting index for `x`.
 -   **offsetMask**: starting index for `mask`.
 
-While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameters support indexing semantics based on a starting indices. For example, to calculate the maximum value for every other element in `x` starting from the second element
+While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameters support indexing semantics based on starting indices. For example, to calculate the minimum value for every other element in `x` starting from the second element
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 var Uint8Array = require( '@stdlib/array/uint8' );
 
-var x = new Float64Array( [ 2.0, 1.0, -2.0, -2.0, 3.0, 4.0, 5.0, 6.0 ] );
+var x = new Float32Array( [ 2.0, 1.0, -2.0, -2.0, 3.0, 4.0, -5.0, -6.0 ] );
 var mask = new Uint8Array( [ 0, 0, 0, 0, 0, 0, 1, 1 ] );
 
-var v = dmskmax.ndarray( 4, x, 2, 1, mask, 2, 1 );
-// returns 4.0
+var v = smskmin.ndarray( 4, x, 2, 1, mask, 2, 1 );
+// returns -2.0
 ```
 
 </section>
@@ -146,10 +146,10 @@ var v = dmskmax.ndarray( 4, x, 2, 1, mask, 2, 1 );
 ```javascript
 var uniform = require( '@stdlib/random/array/uniform' );
 var bernoulli = require( '@stdlib/random/array/bernoulli' );
-var dmskmax = require( '@stdlib/stats/base/dmskmax' );
+var smskmin = require( '@stdlib/stats/strided/smskmin' );
 
 var uniformOptions = {
-    'dtype': 'float64'
+    'dtype': 'float32'
 };
 var bernoulliOptions = {
     'dtype': 'uint8'
@@ -160,7 +160,7 @@ var mask = bernoulli( x.length, 0.2, bernoulliOptions );
 console.log( x );
 console.log( mask );
 
-var v = dmskmax( x.length, x, 1, mask, 1 );
+var v = smskmin( x.length, x, 1, mask, 1 );
 console.log( v );
 ```
 
@@ -191,55 +191,55 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dmskmax.h"
+#include "stdlib/stats/strided/smskmin.h"
 ```
 
-#### stdlib_strided_dmskmax( N, \*X, strideX, \*Mask, strideMask )
+#### stdlib_strided_smskmin( N, \*X, strideX, \*Mask, strideMask )
 
-Computes the maximum value of a double-precision floating-point strided array according to a mask.
+Computes the minimum value of a single-precision floating-point strided array according to a mask.
 
 ```c
 #include <stdint.h>
 
-const double x[] = { 1.0, -2.0, 2.0 };
+const float x[] = { 1.0f, -2.0f, 2.0f };
 const uint8_t mask[] = { 0, 1, 0 };
 
-double v = stdlib_strided_dmskmax( 3, x, 1, mask, 1 );
-// returns 2.0
+float v = stdlib_strided_smskmin( 3, x, 1, mask, 1 );
+// returns 1.0f
 ```
 
 The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
--   **X**: `[in] double*` input array.
+-   **X**: `[in] float*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 -   **Mask**: `[in] uint8_t*` mask array. If a `Mask` array element is `0`, the corresponding element in `X` is considered valid and included in computation. If a `Mask` array element is `1`, the corresponding element in `X` is considered invalid/missing and excluded from computation.
 -   **strideMask**: `[in] CBLAS_INT` stride length for `Mask`.
 
 ```c
-double stdlib_strided_dmskmax( const CBLAS_INT N, const double *X, const CBLAS_INT strideX, const uint8_t *Mask, const CBLAS_INT strideMask );
+float stdlib_strided_smskmin( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const uint8_t *Mask, const CBLAS_INT strideMask );
 ```
 
 <!-- lint disable maximum-heading-length -->
 
-#### stdlib_strided_dmskmax_ndarray( N, \*X, strideX, offsetX, \*Mask, strideMask, offsetMask )
+#### stdlib_strided_smskmin_ndarray( N, \*X, strideX, offsetX, \*Mask, strideMask, offsetMask )
 
-Computes the maximum value of a double-precision floating-point strided array according to a mask and using alternative indexing semantics.
+Computes the minimum value of a single-precision floating-point strided array according to a mask and using alternative indexing semantics.
 
 ```c
 #include <stdint.h>
 
-const double x[] = { 1.0, -2.0, 2.0 };
+const float x[] = { 1.0f, -2.0f, 2.0f };
 const uint8_t mask[] = { 0, 1, 0 };
 
-double v = stdlib_strided_dmskmax_ndarray( 3, x, 1, 0, mask, 1, 0 );
-// returns 2.0
+float v = stdlib_strided_smskmin( 3, x, 1, 0, mask, 1, 0 );
+// returns 1.0f
 ```
 
 The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
--   **X**: `[in] double*` input array.
+-   **X**: `[in] float*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 -   **offsetX**: `[in] CBLAS_INT` starting index for `X`.
 -   **Mask**: `[in] uint8_t*` mask array. If a `Mask` array element is `0`, the corresponding element in `X` is considered valid and included in computation. If a `Mask` array element is `1`, the corresponding element in `X` is considered invalid/missing and excluded from computation.
@@ -247,7 +247,7 @@ The function accepts the following arguments:
 -   **offsetMask**: `[in] CBLAS_INT` starting index for `Mask`.
 
 ```c
-double stdlib_strided_dmskmax_ndarray( const CBLAS_INT N, const double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX, const uint8_t *Mask, const CBLAS_INT strideMask, const CBLAS_INT offsetMask );
+float stdlib_strided_smskmin_ndarray( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX, const uint8_t *Mask, const CBLAS_INT strideMask, const CBLAS_INT offsetMask );
 ```
 
 </section>
@@ -269,13 +269,13 @@ double stdlib_strided_dmskmax_ndarray( const CBLAS_INT N, const double *X, const
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dmskmax.h"
+#include "stdlib/stats/strided/smskmin.h"
 #include <stdint.h>
 #include <stdio.h>
 
 int main( void ) {
     // Create a strided array:
-    const double x[] = { 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0 };
+    const float x[] = { 1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f, 7.0f, 8.0f, 9.0f, 10.0f };
 
     // Create a mask array:
     const uint8_t mask[] = { 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 };
@@ -287,11 +287,11 @@ int main( void ) {
     const int strideX = 2;
     const int strideMask = 2;
 
-    // Compute the maximum value:
-    double v = stdlib_strided_dmskmax( N, x, strideX, mask, strideMask );
+    // Compute the minimum value:
+    float v = stdlib_strided_smskmin( N, x, strideX, mask, strideMask );
 
     // Print the result:
-    printf( "max: %lf\n", v );
+    printf( "min: %f\n", v );
 }
 ```
 
@@ -311,12 +311,12 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/strided/dmax`][@stdlib/stats/strided/dmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/dmskmin`][@stdlib/stats/base/dmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask.</span>
--   <span class="package-name">[`@stdlib/stats/strided/dnanmax`][@stdlib/stats/strided/dnanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/dnanmskmax`][@stdlib/stats/base/dnanmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/mskmax`][@stdlib/stats/base/mskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/base/mskmin`][@stdlib/stats/base/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/smin`][@stdlib/stats/strided/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/smskmax`][@stdlib/stats/strided/smskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanmin`][@stdlib/stats/base/snanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanmskmin`][@stdlib/stats/base/snanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask, ignoring NaN values.</span>
 
 </section>
 
@@ -326,7 +326,7 @@ int main( void ) {
 
 <section class="links">
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
 
@@ -334,17 +334,17 @@ int main( void ) {
 
 <!-- <related-links> -->
 
-[@stdlib/stats/strided/dmax]: https://github.com/stdlib-js/stats/tree/main/strided/dmax
-
 [@stdlib/stats/base/dmskmin]: https://github.com/stdlib-js/stats/tree/main/base/dmskmin
 
-[@stdlib/stats/strided/dnanmax]: https://github.com/stdlib-js/stats/tree/main/strided/dnanmax
+[@stdlib/stats/base/mskmin]: https://github.com/stdlib-js/stats/tree/main/base/mskmin
 
-[@stdlib/stats/base/dnanmskmax]: https://github.com/stdlib-js/stats/tree/main/base/dnanmskmax
-
-[@stdlib/stats/base/mskmax]: https://github.com/stdlib-js/stats/tree/main/base/mskmax
+[@stdlib/stats/strided/smin]: https://github.com/stdlib-js/stats/tree/main/strided/smin
 
 [@stdlib/stats/strided/smskmax]: https://github.com/stdlib-js/stats/tree/main/strided/smskmax
+
+[@stdlib/stats/base/snanmin]: https://github.com/stdlib-js/stats/tree/main/base/snanmin
+
+[@stdlib/stats/base/snanmskmin]: https://github.com/stdlib-js/stats/tree/main/base/snanmskmin
 
 <!-- </related-links> -->
 
