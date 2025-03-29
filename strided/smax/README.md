@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var smax = require( '@stdlib/stats/base/smax' );
+var smax = require( '@stdlib/stats/strided/smax' );
 ```
 
 #### smax( N, x, strideX )
@@ -130,7 +130,7 @@ var v = smax.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var smax = require( '@stdlib/stats/base/smax' );
+var smax = require( '@stdlib/stats/strided/smax' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
@@ -168,7 +168,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/smax.h"
+#include "stdlib/stats/strided/smax.h"
 ```
 
 #### stdlib_strided_smax( N, \*X, strideX )
@@ -233,7 +233,7 @@ float stdlib_strided_smax_ndarray( const CBLAS_INT N, const float *X, const CBLA
 ### Examples
 
 ```c
-#include "stdlib/stats/base/smax.h"
+#include "stdlib/stats/strided/smax.h"
 #include <stdio.h>
 
 int main( void ) {

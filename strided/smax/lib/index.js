@@ -21,11 +21,11 @@
 /**
 * Compute the maximum value of a single-precision floating-point strided array.
 *
-* @module @stdlib/stats/base/smax
+* @module @stdlib/stats/strided/smax
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var smax = require( '@stdlib/stats/base/smax' );
+* var smax = require( '@stdlib/stats/strided/smax' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var smax = require( '@stdlib/stats/base/smax' );
+* var smax = require( '@stdlib/stats/strided/smax' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/smax.h"
+#include "stdlib/stats/strided/smax.h"
 #include <stdio.h>
 
 int main( void ) {
