@@ -36,7 +36,7 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/stats/base/sdsmeanors",
+        "@stdlib/stats/strided/sdsmeanors",
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset",
         "@stdlib/napi/export",
@@ -57,7 +57,7 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/stats/base/sdsmeanors",
+        "@stdlib/stats/strided/sdsmeanors",
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset"
       ]
@@ -73,7 +73,7 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/stats/base/sdsmeanors",
+        "@stdlib/stats/strided/sdsmeanors",
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset"
       ]
@@ -89,7 +89,7 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/stats/base/sdsmeanors",
+        "@stdlib/stats/strided/sdsmeanors",
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset"
       ]

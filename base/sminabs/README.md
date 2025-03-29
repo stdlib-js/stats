@@ -272,7 +272,7 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/stats/strided/dminabs`][@stdlib/stats/strided/dminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/minabs`][@stdlib/stats/base/minabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/smaxabs`][@stdlib/stats/base/smaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/smaxabs`][@stdlib/stats/strided/smaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a single-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/smin`][@stdlib/stats/base/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanminabs`][@stdlib/stats/base/snanminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a single-precision floating-point strided array, ignoring NaN values.</span>
 
@@ -294,7 +294,7 @@ int main( void ) {
 
 [@stdlib/stats/base/minabs]: https://github.com/stdlib-js/stats/tree/main/base/minabs
 
-[@stdlib/stats/base/smaxabs]: https://github.com/stdlib-js/stats/tree/main/base/smaxabs
+[@stdlib/stats/strided/smaxabs]: https://github.com/stdlib-js/stats/tree/main/strided/smaxabs
 
 [@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats/tree/main/base/smin
 

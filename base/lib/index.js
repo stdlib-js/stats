@@ -694,15 +694,6 @@ setReadOnly( ns, 'range', require( './../../base/range' ) );
 setReadOnly( ns, 'rangeBy', require( './../../base/range-by' ) );
 
 /**
-* @name sdsmeanors
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/sdsmeanors}
-*/
-setReadOnly( ns, 'sdsmeanors', require( './../../base/sdsmeanors' ) );
-
-/**
 * @name sdsnanmean
 * @memberof ns
 * @readonly
@@ -719,24 +710,6 @@ setReadOnly( ns, 'sdsnanmean', require( './../../base/sdsnanmean' ) );
 * @see {@link module:@stdlib/stats/base/sdsnanmeanors}
 */
 setReadOnly( ns, 'sdsnanmeanors', require( './../../base/sdsnanmeanors' ) );
-
-/**
-* @name smax
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/smax}
-*/
-setReadOnly( ns, 'smax', require( './../../base/smax' ) );
-
-/**
-* @name smaxabs
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/smaxabs}
-*/
-setReadOnly( ns, 'smaxabs', require( './../../base/smaxabs' ) );
 
 /**
 * @name smaxabssorted

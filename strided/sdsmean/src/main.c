@@ -17,7 +17,7 @@
 */
 
 #include "stdlib/stats/strided/sdsmean.h"
-#include "stdlib/stats/base/sdsmeanors.h"
+#include "stdlib/stats/strided/sdsmeanors.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/strided/base/stride2offset.h"
 
