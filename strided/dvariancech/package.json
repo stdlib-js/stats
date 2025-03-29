@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dvariancech",
+  "name": "@stdlib/stats/strided/dvariancech",
   "version": "0.0.0",
   "description": "Calculate the variance of a double-precision floating-point strided array using a one-pass trial mean algorithm.",
   "license": "Apache-2.0",

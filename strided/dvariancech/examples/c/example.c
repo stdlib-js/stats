@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dvariancech.h"
+#include "stdlib/stats/strided/dvariancech.h"
 #include <stdio.h>
 
 int main( void ) {

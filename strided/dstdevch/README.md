@@ -354,7 +354,7 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/stats/strided/dnanstdevch`][@stdlib/stats/strided/dnanstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/dstdev`][@stdlib/stats/base/dstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/dvariancech`][@stdlib/stats/base/dvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dvariancech`][@stdlib/stats/strided/dvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/sstdevch`][@stdlib/stats/base/sstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a one-pass trial mean algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/stdevch`][@stdlib/stats/base/stdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass trial mean algorithm.</span>
 
@@ -386,7 +386,7 @@ int main( void ) {
 
 [@stdlib/stats/base/dstdev]: https://github.com/stdlib-js/stats/tree/main/base/dstdev
 
-[@stdlib/stats/base/dvariancech]: https://github.com/stdlib-js/stats/tree/main/base/dvariancech
+[@stdlib/stats/strided/dvariancech]: https://github.com/stdlib-js/stats/tree/main/strided/dvariancech
 
 [@stdlib/stats/base/sstdevch]: https://github.com/stdlib-js/stats/tree/main/base/sstdevch
 
