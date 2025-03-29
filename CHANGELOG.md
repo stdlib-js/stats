@@ -46,6 +46,106 @@
 
 ##### BREAKING CHANGES
 
+-   [`5500da4`](https://github.com/stdlib-js/stdlib/commit/5500da4e85d00e5b2ffb0937b493a96fcfd570bf): remove `stats/base/dsvariancepn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dsvariancepn` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`0c88a8b`](https://github.com/stdlib-js/stdlib/commit/0c88a8b62667e3137dd42fe561845799101c8150): remove `stats/base/dsvariance`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dsvariance` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`017c0d1`](https://github.com/stdlib-js/stdlib/commit/017c0d1b1b7c0f9a72b305f23a7b185310ada7f5): remove `stats/base/dstdevyc`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dstdevyc` namespace.
@@ -17782,6 +17882,65 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`a99b320`](https://github.com/stdlib-js/stdlib/commit/a99b320a11dcad45c8da17086c9288b694eda1ae): remove `stats/base/dsvariance`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dsvariance`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -17803,6 +17962,65 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`6d4166a`](https://github.com/stdlib-js/stdlib/commit/6d4166aced1b8cc78df624919014857823fe4544): remove `stats/base/dsvariancepn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dsvariancepn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -20981,6 +21199,50 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-dsvariance-unreleased">
+
+#### [@stdlib/stats/strided/dsvariance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dsvariance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`eb96b7e`](https://github.com/stdlib-js/stdlib/commit/eb96b7e3c84c18f3fb9de9e687b06e5156dccf5a) - add `stats/strided/dsvariance`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-strided-dsvariancepn-unreleased">
+
+#### [@stdlib/stats/strided/dsvariancepn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dsvariancepn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f825859`](https://github.com/stdlib-js/stdlib/commit/f825859611f83a363e0c0403b4c3d5a9f19f86b2) - add `stats/strided/dsvariancepn`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -20988,6 +21250,208 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`6d4166a`](https://github.com/stdlib-js/stdlib/commit/6d4166aced1b8cc78df624919014857823fe4544): remove `stats/base/dsvariancepn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dsvariancepn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`5500da4`](https://github.com/stdlib-js/stdlib/commit/5500da4e85d00e5b2ffb0937b493a96fcfd570bf): remove `stats/base/dsvariancepn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dsvariancepn` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`a99b320`](https://github.com/stdlib-js/stdlib/commit/a99b320a11dcad45c8da17086c9288b694eda1ae): remove `stats/base/dsvariance`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dsvariance`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`0c88a8b`](https://github.com/stdlib-js/stdlib/commit/0c88a8b62667e3137dd42fe561845799101c8150): remove `stats/base/dsvariance`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dsvariance` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`13e31f7`](https://github.com/stdlib-js/stdlib/commit/13e31f76e2c63d8ac090d808bb033c46a64912ce): remove `stats/base/dstdevyc`
 
@@ -26495,6 +26959,14 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6d4166a`](https://github.com/stdlib-js/stdlib/commit/6d4166aced1b8cc78df624919014857823fe4544) - **remove:** remove `stats/base/dsvariancepn` _(by Aayush Khanna)_
+-   [`7e49207`](https://github.com/stdlib-js/stdlib/commit/7e49207f180f3e5c3c6171a8e57be65f25236aec) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`5500da4`](https://github.com/stdlib-js/stdlib/commit/5500da4e85d00e5b2ffb0937b493a96fcfd570bf) - **remove:** remove `stats/base/dsvariancepn` from namespace _(by Aayush Khanna)_
+-   [`f825859`](https://github.com/stdlib-js/stdlib/commit/f825859611f83a363e0c0403b4c3d5a9f19f86b2) - **feat:** add `stats/strided/dsvariancepn` _(by Aayush Khanna)_
+-   [`a99b320`](https://github.com/stdlib-js/stdlib/commit/a99b320a11dcad45c8da17086c9288b694eda1ae) - **remove:** remove `stats/base/dsvariance` _(by Aayush Khanna)_
+-   [`7bbf0ec`](https://github.com/stdlib-js/stdlib/commit/7bbf0ec16534e0c43126e16df414b73683824eb3) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`0c88a8b`](https://github.com/stdlib-js/stdlib/commit/0c88a8b62667e3137dd42fe561845799101c8150) - **remove:** remove `stats/base/dsvariance` from namespace _(by Aayush Khanna)_
+-   [`eb96b7e`](https://github.com/stdlib-js/stdlib/commit/eb96b7e3c84c18f3fb9de9e687b06e5156dccf5a) - **feat:** add `stats/strided/dsvariance` _(by Aayush Khanna)_
 -   [`13e31f7`](https://github.com/stdlib-js/stdlib/commit/13e31f76e2c63d8ac090d808bb033c46a64912ce) - **remove:** remove `stats/base/dstdevyc` _(by Aayush Khanna)_
 -   [`438e57b`](https://github.com/stdlib-js/stdlib/commit/438e57b5e91d062a5c28897e408d8aa81b3de137) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`017c0d1`](https://github.com/stdlib-js/stdlib/commit/017c0d1b1b7c0f9a72b305f23a7b185310ada7f5) - **remove:** remove `stats/base/dstdevyc` from namespace _(by Aayush Khanna)_
