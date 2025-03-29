@@ -21,11 +21,11 @@
 /**
 * Compute the cumulative minimum absolute value of single-precision floating-point strided array elements.
 *
-* @module @stdlib/stats/strided/scuminabs
+* @module @stdlib/stats/base/scuminabs
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var scuminabs = require( '@stdlib/stats/strided/scuminabs' );
+* var scuminabs = require( '@stdlib/stats/base/scuminabs' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 * var y = new Float32Array( x.length );
@@ -35,7 +35,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var scuminabs = require( '@stdlib/stats/strided/scuminabs' );
+* var scuminabs = require( '@stdlib/stats/base/scuminabs' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 * var y = new Float32Array( x.length );
