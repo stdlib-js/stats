@@ -43,6 +43,7 @@ import dsem = require( './../../../base/dsem' );
 import dsempn = require( './../../../base/dsempn' );
 import dsmeanors = require( './../../../base/dsmeanors' );
 import dstdev = require( './../../../base/dstdev' );
+import dvarianceyc = require( './../../../base/dvarianceyc' );
 import dvarm = require( './../../../base/dvarm' );
 import dvarmpn = require( './../../../base/dvarmpn' );
 import dvarmtk = require( './../../../base/dvarmtk' );
@@ -830,6 +831,33 @@ interface Namespace {
 	* // returns ~2.0817
 	*/
 	dstdev: typeof dstdev;
+
+	/**
+	* Computes the variance of a double-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.
+	*
+	* @param N - number of indexed elements
+	* @param correction - degrees of freedom adjustment
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns variance
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dvarianceyc( x.length, 1, x, 1 );
+	* // returns ~4.3333
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dvarianceyc.ndarray( x.length, 1, x, 1, 0 );
+	* // returns ~4.3333
+	*/
+	dvarianceyc: typeof dvarianceyc;
 
 	/**
 	* Computes the variance of a double-precision floating-point strided array provided a known mean.

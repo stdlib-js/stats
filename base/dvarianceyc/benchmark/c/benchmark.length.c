@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/dvarianceyc.h"
+#include "stdlib/stats/base/dvarianceyc.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
