@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dnanrange",
+  "name": "@stdlib/stats/strided/dnanrange",
   "version": "0.0.0",
   "description": "Calculate the range of a double-precision floating-point strided array, ignoring NaN values.",
   "license": "Apache-2.0",

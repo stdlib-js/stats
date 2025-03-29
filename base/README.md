@@ -77,7 +77,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dnanmskmax( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/dnanmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask, ignoring `NaN` values.</span>
 -   <span class="signature">[`dnanmskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/dnanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask, ignoring `NaN` values.</span>
 -   <span class="signature">[`dnanmskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/dnanmskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array according to a mask, ignoring `NaN` values.</span>
--   <span class="signature">[`dnanrange( N, x, strideX )`][@stdlib/stats/base/dnanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array, ignoring `NaN` values.</span>
+-   <span class="signature">[`dnanrange( N, x, strideX )`][@stdlib/stats/strided/dnanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`dnanstdev( N, correction, x, stride )`][@stdlib/stats/base/dnanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring `NaN` values.</span>
 -   <span class="signature">[`dnanstdevch( N, correction, x, strideX )`][@stdlib/stats/base/dnanstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring `NaN` values and using a one-pass trial mean algorithm.</span>
 -   <span class="signature">[`dnanstdevpn( N, correction, x, strideX )`][@stdlib/stats/base/dnanstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array, ignoring `NaN` values and using a two-pass algorithm.</span>
@@ -339,7 +339,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/dnanmskrange]: https://github.com/stdlib-js/stats/tree/main/base/dnanmskrange
 
-[@stdlib/stats/base/dnanrange]: https://github.com/stdlib-js/stats/tree/main/base/dnanrange
+[@stdlib/stats/strided/dnanrange]: https://github.com/stdlib-js/stats/tree/main/strided/dnanrange
 
 [@stdlib/stats/base/dnanstdev]: https://github.com/stdlib-js/stats/tree/main/base/dnanstdev
 

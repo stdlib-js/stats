@@ -197,7 +197,7 @@ console.log( v );
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats/base/dmskrange`][@stdlib/stats/base/dmskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array according to a mask.</span>
--   <span class="package-name">[`@stdlib/stats/base/dnanrange`][@stdlib/stats/base/dnanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dnanrange`][@stdlib/stats/strided/dnanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/dnanmskmax`][@stdlib/stats/base/dnanmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/dnanmskmin`][@stdlib/stats/base/dnanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanmskrange`][@stdlib/stats/base/nanmskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array according to a mask, ignoring NaN values.</span>
@@ -223,7 +223,7 @@ console.log( v );
 
 [@stdlib/stats/base/dmskrange]: https://github.com/stdlib-js/stats/tree/main/base/dmskrange
 
-[@stdlib/stats/base/dnanrange]: https://github.com/stdlib-js/stats/tree/main/base/dnanrange
+[@stdlib/stats/strided/dnanrange]: https://github.com/stdlib-js/stats/tree/main/strided/dnanrange
 
 [@stdlib/stats/base/dnanmskmax]: https://github.com/stdlib-js/stats/tree/main/base/dnanmskmax
 

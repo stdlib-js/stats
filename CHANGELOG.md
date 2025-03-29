@@ -46,6 +46,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`bc64610`](https://github.com/stdlib-js/stdlib/commit/bc64610e7e194722eb4def700470ddce7e71554a): remove `stats/base/dnanrange`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dnanrange` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`bb60f0e`](https://github.com/stdlib-js/stdlib/commit/bb60f0ee8f6bdeb74a444c7bca2b82534302fc63): remove `stats/base/dnanmeanpn`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dnanmeanpn` namespace.
@@ -13401,6 +13451,65 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`14b92c4`](https://github.com/stdlib-js/stdlib/commit/14b92c4a942dbf654a297588e6b5c0a1f2f2a1d0): remove `stats/base/dnanrange`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dnanrange`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -16624,6 +16733,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-dnanrange-unreleased">
+
+#### [@stdlib/stats/strided/dnanrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dnanrange)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b60c8a8`](https://github.com/stdlib-js/stdlib/commit/b60c8a8baaa68aab1e655b655120d7dc9b9a0c21) - add `stats/strided/dnanrange`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -16631,6 +16762,107 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`14b92c4`](https://github.com/stdlib-js/stdlib/commit/14b92c4a942dbf654a297588e6b5c0a1f2f2a1d0): remove `stats/base/dnanrange`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dnanrange`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`bc64610`](https://github.com/stdlib-js/stdlib/commit/bc64610e7e194722eb4def700470ddce7e71554a): remove `stats/base/dnanrange`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dnanrange` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`14a166d`](https://github.com/stdlib-js/stdlib/commit/14a166db9d76fe6663adcdd695769cacc438dadc): remove `stats/base/dnanmeanpn`
 
@@ -18805,6 +19037,10 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`14b92c4`](https://github.com/stdlib-js/stdlib/commit/14b92c4a942dbf654a297588e6b5c0a1f2f2a1d0) - **remove:** remove `stats/base/dnanrange` _(by Aayush Khanna)_
+-   [`25c5335`](https://github.com/stdlib-js/stdlib/commit/25c5335e1b70fca6b2797c03e9ee446c588bff1e) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`bc64610`](https://github.com/stdlib-js/stdlib/commit/bc64610e7e194722eb4def700470ddce7e71554a) - **remove:** remove `stats/base/dnanrange` from namespace _(by Aayush Khanna)_
+-   [`b60c8a8`](https://github.com/stdlib-js/stdlib/commit/b60c8a8baaa68aab1e655b655120d7dc9b9a0c21) - **feat:** add `stats/strided/dnanrange` _(by Aayush Khanna)_
 -   [`ac88117`](https://github.com/stdlib-js/stdlib/commit/ac88117e8045b917e287f3c3f8a5e5f313ae5ee6) - **docs:** update related packages sections [(#6436)](https://github.com/stdlib-js/stdlib/pull/6436) _(by stdlib-bot, Athan Reines)_
 -   [`2d4f664`](https://github.com/stdlib-js/stdlib/commit/2d4f664eab1052e4ad6c4fd3414533f490f82e34) - **style:** resolve lint errors [(#5990)](https://github.com/stdlib-js/stdlib/pull/5990) _(by Deep Trivedi)_
 -   [`3c97d04`](https://github.com/stdlib-js/stdlib/commit/3c97d04c39e32bbf1c3819180e45d108ef03ea11) - **docs:** update namespace table of contents [(#6408)](https://github.com/stdlib-js/stdlib/pull/6408) _(by stdlib-bot)_

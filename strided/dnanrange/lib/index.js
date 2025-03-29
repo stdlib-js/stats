@@ -21,11 +21,11 @@
 /**
 * Compute the range of a double-precision floating-point strided array, ignoring `NaN` values.
 *
-* @module @stdlib/stats/base/dnanrange
+* @module @stdlib/stats/strided/dnanrange
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dnanrange = require( '@stdlib/stats/base/dnanrange' );
+* var dnanrange = require( '@stdlib/stats/strided/dnanrange' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dnanrange = require( '@stdlib/stats/base/dnanrange' );
+* var dnanrange = require( '@stdlib/stats/strided/dnanrange' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
 *
