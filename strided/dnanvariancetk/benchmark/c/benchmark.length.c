@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanvariancetk.h"
+#include "stdlib/stats/strided/dnanvariancetk.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

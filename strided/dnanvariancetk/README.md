@@ -33,7 +33,7 @@ The population [variance][variance] of a finite size population of size `N` is g
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma^2 = \frac{1}{N} \sum_{i=0}^{N-1} (x_i - \mu)^2" data-equation="eq:population_variance">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@c2beef65569407f53362ce3e2aa0d74d73764034/lib/node_modules/@stdlib/stats/base/dnanvariancetk/docs/img/equation_population_variance.svg" alt="Equation for the population variance.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@c2beef65569407f53362ce3e2aa0d74d73764034/lib/node_modules/@stdlib/stats/strided/dnanvariancetk/docs/img/equation_population_variance.svg" alt="Equation for the population variance.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ where the population mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{N} \sum_{i=0}^{N-1} x_i" data-equation="eq:population_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@c2beef65569407f53362ce3e2aa0d74d73764034/lib/node_modules/@stdlib/stats/base/dnanvariancetk/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@c2beef65569407f53362ce3e2aa0d74d73764034/lib/node_modules/@stdlib/stats/strided/dnanvariancetk/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
     <br>
 </div> -->
 
@@ -63,7 +63,7 @@ s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2" data-equation="eq:unbiased_sample_variance">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@c2beef65569407f53362ce3e2aa0d74d73764034/lib/node_modules/@stdlib/stats/base/dnanvariancetk/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for computing an unbiased sample variance.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@c2beef65569407f53362ce3e2aa0d74d73764034/lib/node_modules/@stdlib/stats/strided/dnanvariancetk/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for computing an unbiased sample variance.">
     <br>
 </div> -->
 
@@ -78,7 +78,7 @@ where the sample mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:sample_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@c2beef65569407f53362ce3e2aa0d74d73764034/lib/node_modules/@stdlib/stats/base/dnanvariancetk/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@c2beef65569407f53362ce3e2aa0d74d73764034/lib/node_modules/@stdlib/stats/strided/dnanvariancetk/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
     <br>
 </div> -->
 
@@ -95,7 +95,7 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
-var dnanvariancetk = require( '@stdlib/stats/base/dnanvariancetk' );
+var dnanvariancetk = require( '@stdlib/stats/strided/dnanvariancetk' );
 ```
 
 #### dnanvariancetk( N, correction, x, strideX )
@@ -201,7 +201,7 @@ var v = dnanvariancetk.ndarray( 5, 1, x, 2, 1 );
 var uniform = require( '@stdlib/random/base/uniform' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
 var bernoulli = require( '@stdlib/random/base/bernoulli' );
-var dnanvariancetk = require( '@stdlib/stats/base/dnanvariancetk' );
+var dnanvariancetk = require( '@stdlib/stats/strided/dnanvariancetk' );
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
@@ -244,7 +244,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dnanvariancetk.h"
+#include "stdlib/stats/strided/dnanvariancetk.h"
 ```
 
 #### stdlib_strided_dnanvariancetk( N, correction, \*X, strideX )
@@ -311,7 +311,7 @@ double stdlib_strided_dnanvariancetk_ndarray( const CBLAS_INT N, const double co
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dnanvariancetk.h"
+#include "stdlib/stats/strided/dnanvariancetk.h"
 #include <stdio.h>
 
 int main( void ) {
