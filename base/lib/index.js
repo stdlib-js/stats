@@ -1000,15 +1000,6 @@ setReadOnly( ns, 'stdevyc', require( './../../base/stdevyc' ) );
 setReadOnly( ns, 'svariance', require( './../../base/svariance' ) );
 
 /**
-* @name svariancech
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/svariancech}
-*/
-setReadOnly( ns, 'svariancech', require( './../../base/svariancech' ) );
-
-/**
 * @name svariancepn
 * @memberof ns
 * @readonly

@@ -46,6 +46,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`a150c84`](https://github.com/stdlib-js/stdlib/commit/a150c84d41ed88ddbb44d53a2e759f56ae2f65ca): remove `stats/base/svariancech`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/svariancech` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`ad3beb3`](https://github.com/stdlib-js/stdlib/commit/ad3beb3d3abf1126b892cc723af299a5758b8cbb): remove `stats/base/sstdevyc`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/sstdevyc` namespace.
@@ -24075,6 +24125,65 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`46e4ec7`](https://github.com/stdlib-js/stdlib/commit/46e4ec7fca79bec3fcce2f0b30802cd26f12665b): remove `stats/base/svariancech`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/svariancech`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -26483,6 +26592,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-svariancech-unreleased">
+
+#### [@stdlib/stats/strided/svariancech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/svariancech)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6052ead`](https://github.com/stdlib-js/stdlib/commit/6052ead540473a5215bd3d71e20977c3f1230130) - add `stats/strided/svariancech`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -26490,6 +26621,107 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`46e4ec7`](https://github.com/stdlib-js/stdlib/commit/46e4ec7fca79bec3fcce2f0b30802cd26f12665b): remove `stats/base/svariancech`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/svariancech`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`a150c84`](https://github.com/stdlib-js/stdlib/commit/a150c84d41ed88ddbb44d53a2e759f56ae2f65ca): remove `stats/base/svariancech`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/svariancech` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`de59deb`](https://github.com/stdlib-js/stdlib/commit/de59deb21d3fc37e16df72e5f7187b5898a7ce40): remove `stats/base/sstdevyc`
 
@@ -36239,6 +36471,10 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`46e4ec7`](https://github.com/stdlib-js/stdlib/commit/46e4ec7fca79bec3fcce2f0b30802cd26f12665b) - **remove:** remove `stats/base/svariancech` _(by Aayush Khanna)_
+-   [`adfa457`](https://github.com/stdlib-js/stdlib/commit/adfa4575e7715273bb374e76860236608ca4a165) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`a150c84`](https://github.com/stdlib-js/stdlib/commit/a150c84d41ed88ddbb44d53a2e759f56ae2f65ca) - **remove:** remove `stats/base/svariancech` from namespace _(by Aayush Khanna)_
+-   [`6052ead`](https://github.com/stdlib-js/stdlib/commit/6052ead540473a5215bd3d71e20977c3f1230130) - **feat:** add `stats/strided/svariancech` _(by Aayush Khanna)_
 -   [`de59deb`](https://github.com/stdlib-js/stdlib/commit/de59deb21d3fc37e16df72e5f7187b5898a7ce40) - **remove:** remove `stats/base/sstdevyc` _(by Aayush Khanna)_
 -   [`5269da4`](https://github.com/stdlib-js/stdlib/commit/5269da48b9b1cbc6b3bfab79edf9682f76a73d3a) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`ad3beb3`](https://github.com/stdlib-js/stdlib/commit/ad3beb3d3abf1126b892cc723af299a5758b8cbb) - **remove:** remove `stats/base/sstdevyc` from namespace _(by Aayush Khanna)_

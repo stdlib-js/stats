@@ -356,7 +356,7 @@ int main( void ) {
 -   <span class="package-name">[`@stdlib/stats/base/snanstdevch`][@stdlib/stats/base/snanstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/sstdev`][@stdlib/stats/base/sstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/stdevch`][@stdlib/stats/base/stdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass trial mean algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/svariancech`][@stdlib/stats/base/svariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a one-pass trial mean algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/svariancech`][@stdlib/stats/strided/svariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a one-pass trial mean algorithm.</span>
 
 </section>
 
@@ -390,7 +390,7 @@ int main( void ) {
 
 [@stdlib/stats/base/stdevch]: https://github.com/stdlib-js/stats/tree/main/base/stdevch
 
-[@stdlib/stats/base/svariancech]: https://github.com/stdlib-js/stats/tree/main/base/svariancech
+[@stdlib/stats/strided/svariancech]: https://github.com/stdlib-js/stats/tree/main/strided/svariancech
 
 <!-- </related-links> -->
 
