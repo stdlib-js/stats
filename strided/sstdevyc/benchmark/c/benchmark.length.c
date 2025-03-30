@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/sstdevyc.h"
+#include "stdlib/stats/strided/sstdevyc.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

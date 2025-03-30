@@ -21,11 +21,11 @@
 /**
 * Compute the standard deviation of a single-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.
 *
-* @module @stdlib/stats/base/sstdevyc
+* @module @stdlib/stats/strided/sstdevyc
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var sstdevyc = require( '@stdlib/stats/base/sstdevyc' );
+* var sstdevyc = require( '@stdlib/stats/strided/sstdevyc' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var sstdevyc = require( '@stdlib/stats/base/sstdevyc' );
+* var sstdevyc = require( '@stdlib/stats/strided/sstdevyc' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

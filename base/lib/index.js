@@ -937,15 +937,6 @@ setReadOnly( ns, 'sstdev', require( './../../base/sstdev' ) );
 setReadOnly( ns, 'sstdevwd', require( './../../base/sstdevwd' ) );
 
 /**
-* @name sstdevyc
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/sstdevyc}
-*/
-setReadOnly( ns, 'sstdevyc', require( './../../base/sstdevyc' ) );
-
-/**
 * @name stdev
 * @memberof ns
 * @readonly

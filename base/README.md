@@ -230,7 +230,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`sstdevpn( N, correction, x, strideX )`][@stdlib/stats/strided/sstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a two-pass algorithm.</span>
 -   <span class="signature">[`sstdevtk( N, correction, x, strideX )`][@stdlib/stats/strided/sstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a one-pass textbook algorithm.</span>
 -   <span class="signature">[`sstdevwd( N, correction, x, stride )`][@stdlib/stats/base/sstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using Welford's algorithm.</span>
--   <span class="signature">[`sstdevyc( N, correction, x, strideX )`][@stdlib/stats/base/sstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
+-   <span class="signature">[`sstdevyc( N, correction, x, strideX )`][@stdlib/stats/strided/sstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
 -   <span class="signature">[`stdev( N, correction, x, stride )`][@stdlib/stats/base/stdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array.</span>
 -   <span class="signature">[`stdevch( N, correction, x, stride )`][@stdlib/stats/base/stdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass trial mean algorithm.</span>
 -   <span class="signature">[`stdevpn( N, correction, x, stride )`][@stdlib/stats/base/stdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a two-pass algorithm.</span>
@@ -645,7 +645,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/sstdevwd]: https://github.com/stdlib-js/stats/tree/main/base/sstdevwd
 
-[@stdlib/stats/base/sstdevyc]: https://github.com/stdlib-js/stats/tree/main/base/sstdevyc
+[@stdlib/stats/strided/sstdevyc]: https://github.com/stdlib-js/stats/tree/main/strided/sstdevyc
 
 [@stdlib/stats/base/stdev]: https://github.com/stdlib-js/stats/tree/main/base/stdev
 
