@@ -38559,6 +38559,10 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6dc5ea7`](https://github.com/stdlib-js/stdlib/commit/6dc5ea77dbef23e522255c7c60e5db1ccfa85568) - **refactor:** use base array assertion utility _(by Athan Reines)_
+-   [`87d73e7`](https://github.com/stdlib-js/stdlib/commit/87d73e766f9238784e96d9a7a78cec726b9b718b) - **refactor:** use base array assertion utility _(by Athan Reines)_
+-   [`22e382b`](https://github.com/stdlib-js/stdlib/commit/22e382b0c5829205f4319aa82140efb39e3b1ad8) - **style:** resolve lint errors _(by Athan Reines)_
+-   [`ebb7d9d`](https://github.com/stdlib-js/stdlib/commit/ebb7d9dadfb327239bb796b6177f91b8cc60b7d8) - **style:** resolve lint error _(by Athan Reines)_
 -   [`2366870`](https://github.com/stdlib-js/stdlib/commit/23668709f2da0d4a3e3f5eb401eebaf03eb328cd) - **refactor:** use const double for parameter in `stats/base/dists/betaprime/logpdf` [(#6452)](https://github.com/stdlib-js/stdlib/pull/6452) _(by Neeraj Pathak)_
 -   [`3aca840`](https://github.com/stdlib-js/stdlib/commit/3aca840adab39372b0b641f9bf99e0b192e6150a) - **remove:** remove `stats/base/smidrange` _(by Aayush Khanna)_
 -   [`c1d3885`](https://github.com/stdlib-js/stdlib/commit/c1d3885204c3351bc3298b2f7c18b4003ae060df) - **refactor:** update paths _(by Aayush Khanna)_
