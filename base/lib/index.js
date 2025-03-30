@@ -928,15 +928,6 @@ setReadOnly( ns, 'snanvarianceyc', require( './../../base/snanvarianceyc' ) );
 setReadOnly( ns, 'sstdev', require( './../../base/sstdev' ) );
 
 /**
-* @name sstdevtk
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/sstdevtk}
-*/
-setReadOnly( ns, 'sstdevtk', require( './../../base/sstdevtk' ) );
-
-/**
 * @name sstdevwd
 * @memberof ns
 * @readonly

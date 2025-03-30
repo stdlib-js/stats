@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/sstdevtk.h"
+#include "stdlib/stats/strided/sstdevtk.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

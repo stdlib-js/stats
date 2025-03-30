@@ -46,6 +46,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`f795dd3`](https://github.com/stdlib-js/stdlib/commit/f795dd334412424d095a63ce29fb03c2d7f6793f): remove `stats/base/sstdevtk`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/sstdevtk` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`204c93f`](https://github.com/stdlib-js/stdlib/commit/204c93f3e0d4ed23abe5bf913305ef9b1758b27f): remove `stats/base/sstdevpn`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/sstdevpn` namespace.
@@ -23779,6 +23829,65 @@ A total of 3 issues were closed in this release:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`53cf41c`](https://github.com/stdlib-js/stdlib/commit/53cf41c09c7465d1ce7bbcae2a41c968ee1784b6): remove `stats/base/sstdevtk`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/sstdevtk`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -26221,6 +26330,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-sstdevtk-unreleased">
+
+#### [@stdlib/stats/strided/sstdevtk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/sstdevtk)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`74c8c56`](https://github.com/stdlib-js/stdlib/commit/74c8c563c0298fa849ffba36cb8183a1140d0557) - add `stats/strided/sstdevtk`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -26228,6 +26359,107 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`53cf41c`](https://github.com/stdlib-js/stdlib/commit/53cf41c09c7465d1ce7bbcae2a41c968ee1784b6): remove `stats/base/sstdevtk`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/sstdevtk`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`f795dd3`](https://github.com/stdlib-js/stdlib/commit/f795dd334412424d095a63ce29fb03c2d7f6793f): remove `stats/base/sstdevtk`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/sstdevtk` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`389033c`](https://github.com/stdlib-js/stdlib/commit/389033cae0e62de031d46957d81bcbd83cdf1fdd): remove `stats/base/sstdevpn`
 
@@ -35775,6 +36007,10 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`53cf41c`](https://github.com/stdlib-js/stdlib/commit/53cf41c09c7465d1ce7bbcae2a41c968ee1784b6) - **remove:** remove `stats/base/sstdevtk` _(by Aayush Khanna)_
+-   [`c1fafe5`](https://github.com/stdlib-js/stdlib/commit/c1fafe52737f51ca58d6d86ec43fda081bf755e4) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`f795dd3`](https://github.com/stdlib-js/stdlib/commit/f795dd334412424d095a63ce29fb03c2d7f6793f) - **remove:** remove `stats/base/sstdevtk` from namespace _(by Aayush Khanna)_
+-   [`74c8c56`](https://github.com/stdlib-js/stdlib/commit/74c8c563c0298fa849ffba36cb8183a1140d0557) - **feat:** add `stats/strided/sstdevtk` _(by Aayush Khanna)_
 -   [`389033c`](https://github.com/stdlib-js/stdlib/commit/389033cae0e62de031d46957d81bcbd83cdf1fdd) - **remove:** remove `stats/base/sstdevpn` _(by Aayush Khanna)_
 -   [`8e9e556`](https://github.com/stdlib-js/stdlib/commit/8e9e556cbd76873f3418d4b999f1c2f125282a0d) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`204c93f`](https://github.com/stdlib-js/stdlib/commit/204c93f3e0d4ed23abe5bf913305ef9b1758b27f) - **remove:** remove `stats/base/sstdevpn` from namespace _(by Aayush Khanna)_

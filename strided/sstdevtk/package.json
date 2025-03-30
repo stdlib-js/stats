@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/sstdevtk",
+  "name": "@stdlib/stats/strided/sstdevtk",
   "version": "0.0.0",
   "description": "Calculate the standard deviation of a single-precision floating-point strided array using a one-pass textbook algorithm.",
   "license": "Apache-2.0",
