@@ -17,7 +17,7 @@
 */
 
 #include "stdlib/stats/strided/sstdevyc.h"
-#include "stdlib/stats/base/svarianceyc.h"
+#include "stdlib/stats/strided/svarianceyc.h"
 #include "stdlib/math/base/special/sqrtf.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/strided/base/stride2offset.h"

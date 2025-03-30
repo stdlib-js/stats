@@ -352,7 +352,7 @@ int main( void ) {
 -   <span class="package-name">[`@stdlib/stats/base/snanstdevyc`][@stdlib/stats/base/snanstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
 -   <span class="package-name">[`@stdlib/stats/base/sstdev`][@stdlib/stats/base/sstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/stdevyc`][@stdlib/stats/base/stdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
--   <span class="package-name">[`@stdlib/stats/base/svarianceyc`][@stdlib/stats/base/svarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/svarianceyc`][@stdlib/stats/strided/svarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
 
 </section>
 
@@ -380,7 +380,7 @@ int main( void ) {
 
 [@stdlib/stats/base/stdevyc]: https://github.com/stdlib-js/stats/tree/main/base/stdevyc
 
-[@stdlib/stats/base/svarianceyc]: https://github.com/stdlib-js/stats/tree/main/base/svarianceyc
+[@stdlib/stats/strided/svarianceyc]: https://github.com/stdlib-js/stats/tree/main/strided/svarianceyc
 
 <!-- </related-links> -->
 

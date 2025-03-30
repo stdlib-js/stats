@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var svarianceyc = require( './../../../base/svarianceyc' ).ndarray;
+var svarianceyc = require( './../../../strided/svarianceyc' ).ndarray;
 var sqrtf = require( '@stdlib/math/base/special/sqrtf' );
 
 

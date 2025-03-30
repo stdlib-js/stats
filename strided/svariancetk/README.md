@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# dvariancetk
+# svariancetk
 
-> Calculate the [variance][variance] of a double-precision floating-point strided array using a one-pass textbook algorithm.
+> Calculate the [variance][variance] of a single-precision floating-point strided array using a one-pass textbook algorithm.
 
 <section class="intro">
 
@@ -33,7 +33,7 @@ The population [variance][variance] of a finite size population of size `N` is g
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma^2 = \frac{1}{N} \sum_{i=0}^{N-1} (x_i - \mu)^2" data-equation="eq:population_variance">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@14f73db6358fc1febe42f8220332bf3af188416c/lib/node_modules/@stdlib/stats/strided/dvariancetk/docs/img/equation_population_variance.svg" alt="Equation for the population variance.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/strided/svariancetk/docs/img/equation_population_variance.svg" alt="Equation for the population variance.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ where the population mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{N} \sum_{i=0}^{N-1} x_i" data-equation="eq:population_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@14f73db6358fc1febe42f8220332bf3af188416c/lib/node_modules/@stdlib/stats/strided/dvariancetk/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/strided/svariancetk/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
     <br>
 </div> -->
 
@@ -63,7 +63,7 @@ After rearranging terms, the population [variance][variance] can be equivalently
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma^2 = \frac{1}{N}\biggl(\ \sum_{i=0}^{N-1} x_i^2 - \frac{1}{N}\biggl(\ \sum_{i=0}^{N-1} x_i \ \biggr)^2\ \biggr)" data-equation="eq:population_variance_textbook">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@225f0ea70463a8ba0111dd791d7274ad81ad6c3c/lib/node_modules/@stdlib/stats/strided/dvariancetk/docs/img/equation_population_variance_textbook.svg" alt="Equation for the population variance (one-pass textbook formula).">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/strided/svariancetk/docs/img/equation_population_variance_textbook.svg" alt="Equation for the population variance (one-pass textbook formula).">
     <br>
 </div> -->
 
@@ -78,7 +78,7 @@ s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2" data-equation="eq:unbiased_sample_variance">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@14f73db6358fc1febe42f8220332bf3af188416c/lib/node_modules/@stdlib/stats/strided/dvariancetk/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for computing an unbiased sample variance.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/strided/svariancetk/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for computing an unbiased sample variance.">
     <br>
 </div> -->
 
@@ -93,7 +93,7 @@ where the sample mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:sample_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@14f73db6358fc1febe42f8220332bf3af188416c/lib/node_modules/@stdlib/stats/strided/dvariancetk/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/strided/svariancetk/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
     <br>
 </div> -->
 
@@ -108,7 +108,7 @@ s^2 = \frac{1}{n-1}\biggl(\ \sum_{i=0}^{n-1} x_i^2 - \frac{1}{n}\biggl(\ \sum_{i
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="s^2 = \frac{1}{n-1}\biggl(\ \sum_{i=0}^{n-1} x_i^2 - \frac{1}{n}\biggl(\ \sum_{i=0}^{n-1} x_i \ \biggr)^2\ \biggr)" data-equation="eq:unbiased_sample_variance_textbook">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@225f0ea70463a8ba0111dd791d7274ad81ad6c3c/lib/node_modules/@stdlib/stats/strided/dvariancetk/docs/img/equation_unbiased_sample_variance_textbook.svg" alt="Equation for the unbiased sample variance (one-pass textbook formula).">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/strided/svariancetk/docs/img/equation_unbiased_sample_variance_textbook.svg" alt="Equation for the unbiased sample variance (one-pass textbook formula).">
     <br>
 </div> -->
 
@@ -125,19 +125,19 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
-var dvariancetk = require( '@stdlib/stats/strided/dvariancetk' );
+var svariancetk = require( '@stdlib/stats/strided/svariancetk' );
 ```
 
-#### dvariancetk( N, correction, x, strideX )
+#### svariancetk( N, correction, x, strideX )
 
-Computes the [variance][variance] of a double-precision floating-point strided array `x` using a one-pass textbook algorithm.
+Computes the [variance][variance] of a single-precision floating-point strided array `x` using a one-pass textbook algorithm.
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 
-var v = dvariancetk( x.length, 1, x, 1 );
+var v = svariancetk( x.length, 1, x, 1 );
 // returns ~4.3333
 ```
 
@@ -145,17 +145,17 @@ The function has the following parameters:
 
 -   **N**: number of indexed elements.
 -   **correction**: degrees of freedom adjustment. Setting this parameter to a value other than `0` has the effect of adjusting the divisor during the calculation of the [variance][variance] according to `N-c` where `c` corresponds to the provided degrees of freedom adjustment. When computing the [variance][variance] of a population, setting this parameter to `0` is the standard choice (i.e., the provided array contains data constituting an entire population). When computing the unbiased sample [variance][variance], setting this parameter to `1` is the standard choice (i.e., the provided array contains data sampled from a larger population; this is commonly referred to as Bessel's correction).
--   **x**: input [`Float64Array`][@stdlib/array/float64].
+-   **x**: input [`Float32Array`][@stdlib/array/float32].
 -   **strideX**: stride length for `x`.
 
 The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to compute the [variance][variance] of every other element in `x`,
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ] );
+var x = new Float32Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ] );
 
-var v = dvariancetk( 4, 1, x, 2 );
+var v = svariancetk( 4, 1, x, 2 );
 // returns 6.25
 ```
 
@@ -164,25 +164,25 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 <!-- eslint-disable stdlib/capitalized-comments -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x0 = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
-var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+var x0 = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
+var x1 = new Float32Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var v = dvariancetk( 4, 1, x1, 2 );
+var v = svariancetk( 4, 1, x1, 2 );
 // returns 6.25
 ```
 
-#### dvariancetk.ndarray( N, correction, x, strideX, offsetX )
+#### svariancetk.ndarray( N, correction, x, strideX, offsetX )
 
-Computes the [variance][variance] of a double-precision floating-point strided array using a one-pass textbook algorithm and alternative indexing semantics.
+Computes the [variance][variance] of a single-precision floating-point strided array using a one-pass textbook algorithm and alternative indexing semantics.
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 
-var v = dvariancetk.ndarray( x.length, 1, x, 1, 0 );
+var v = svariancetk.ndarray( x.length, 1, x, 1, 0 );
 // returns ~4.33333
 ```
 
@@ -190,14 +190,14 @@ The function has the following additional parameters:
 
 -   **offsetX**: starting index for `x`.
 
-While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameter supports indexing semantics based on a starting index. For example, to calculate the [variance][variance] for every other value in the strided array starting from the second value
+While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameter supports indexing semantics based on a starting index. For example, to calculate the [variance][variance] for every other element in `x` starting from the second element
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
+var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 
-var v = dvariancetk.ndarray( 4, 1, x, 2, 1 );
+var v = svariancetk.ndarray( 4, 1, x, 2, 1 );
 // returns 6.25
 ```
 
@@ -225,14 +225,14 @@ var v = dvariancetk.ndarray( 4, 1, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dvariancetk = require( '@stdlib/stats/strided/dvariancetk' );
+var svariancetk = require( '@stdlib/stats/strided/svariancetk' );
 
 var x = discreteUniform( 10, -50, 50, {
-    'dtype': 'float64'
+    'dtype': 'float32'
 });
 console.log( x );
 
-var v = dvariancetk( x.length, 1, x, 1 );
+var v = svariancetk( x.length, 1, x, 1 );
 console.log( v );
 ```
 
@@ -263,52 +263,52 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/dvariancetk.h"
+#include "stdlib/stats/strided/svariancetk.h"
 ```
 
-#### stdlib_strided_dvariancetk( N, correction, \*X, strideX )
+#### stdlib_strided_svariancetk( N, correction, \*X, strideX )
 
-Computes the [variance][variance] of a double-precision floating-point strided array using a one-pass textbook algorithm.
+Computes the [variance][variance] of a single-precision floating-point strided array using a one-pass textbook algorithm.
 
 ```c
-const double x[] = { 1.0, -2.0, 2.0 };
+const float x[] = { 1.0f, -2.0f, 2.0f };
 
-double v = stdlib_strided_dvariancetk( 3, 1.0, x, 1 );
-// returns ~4.3333
+float v = stdlib_strided_svariancetk( 3, 1.0f, x, 1 );
+// returns ~4.3333f
 ```
 
 The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
--   **correction**: `[in] double` degrees of freedom adjustment. Setting this parameter to a value other than `0` has the effect of adjusting the divisor during the calculation of the [variance][variance] according to `N-c` where `c` corresponds to the provided degrees of freedom adjustment. When computing the [variance][variance] of a population, setting this parameter to `0` is the standard choice (i.e., the provided array contains data constituting an entire population). When computing the unbiased sample [variance][variance], setting this parameter to `1` is the standard choice (i.e., the provided array contains data sampled from a larger population; this is commonly referred to as Bessel's correction).
--   **X**: `[in] double*` input array.
+-   **correction**: `[in] float` degrees of freedom adjustment. Setting this parameter to a value other than `0` has the effect of adjusting the divisor during the calculation of the [variance][variance] according to `N-c` where `c` corresponds to the provided degrees of freedom adjustment. When computing the [variance][variance] of a population, setting this parameter to `0` is the standard choice (i.e., the provided array contains data constituting an entire population). When computing the unbiased sample [variance][variance], setting this parameter to `1` is the standard choice (i.e., the provided array contains data sampled from a larger population; this is commonly referred to as Bessel's correction).
+-   **X**: `[in] float*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 
 ```c
-double stdlib_strided_dvariancetk( const CBLAS_INT N, const double correction, const double *X, const CBLAS_INT strideX );
+float stdlib_strided_svariancetk( const CBLAS_INT N, const float correction, const float *X, const CBLAS_INT strideX );
 ```
 
-#### stdlib_strided_dvariancetk_ndarray( N, correction, \*X, strideX, offsetX )
+#### stdlib_strided_svariancetk_ndarray( N, correction, \*X, strideX, offsetX )
 
-Computes the [variance][variance] of a double-precision floating-point strided array using a one-pass textbook algorithm and alternative indexing semantics.
+Computes the [variance][variance] of a single-precision floating-point strided array using a one-pass textbook algorithm and alternative indexing semantics.
 
 ```c
-const double x[] = { 1.0, -2.0, 2.0 };
+const float x[] = { 1.0f, -2.0f, 2.0f };
 
-double v = stdlib_strided_dvariancetk_ndarray( 3, 1.0, x, 1, 0 );
-// returns ~4.3333
+float v = stdlib_strided_svariancetk_ndarray( 3, 1.0f, x, 1, 0 );
+// returns ~4.3333f
 ```
 
 The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
--   **correction**: `[in] double` degrees of freedom adjustment. Setting this parameter to a value other than `0` has the effect of adjusting the divisor during the calculation of the [variance][variance] according to `N-c` where `c` corresponds to the provided degrees of freedom adjustment. When computing the [variance][variance] of a population, setting this parameter to `0` is the standard choice (i.e., the provided array contains data constituting an entire population). When computing the unbiased sample [variance][variance], setting this parameter to `1` is the standard choice (i.e., the provided array contains data sampled from a larger population; this is commonly referred to as Bessel's correction).
--   **X**: `[in] double*` input array.
+-   **correction**: `[in] float` degrees of freedom adjustment. Setting this parameter to a value other than `0` has the effect of adjusting the divisor during the calculation of the [variance][variance] according to `N-c` where `c` corresponds to the provided degrees of freedom adjustment. When computing the [variance][variance] of a population, setting this parameter to `0` is the standard choice (i.e., the provided array contains data constituting an entire population). When computing the unbiased sample [variance][variance], setting this parameter to `1` is the standard choice (i.e., the provided array contains data sampled from a larger population; this is commonly referred to as Bessel's correction).
+-   **X**: `[in] float*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 -   **offsetX**: `[in] CBLAS_INT` starting index for `X`.
 
 ```c
-double stdlib_strided_dvariancetk_ndarray( const CBLAS_INT N, const double correction, const double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
+float stdlib_strided_svariancetk_ndarray( const CBLAS_INT N, const float correction, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
 ```
 
 </section>
@@ -330,12 +330,12 @@ double stdlib_strided_dvariancetk_ndarray( const CBLAS_INT N, const double corre
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/dvariancetk.h"
+#include "stdlib/stats/strided/svariancetk.h"
 #include <stdio.h>
 
 int main( void ) {
     // Create a strided array:
-    const double x[] = { 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 };
+    const float x[] = { 1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f, 7.0f, 8.0f };
 
     // Specify the number of elements:
     const int N = 4;
@@ -344,10 +344,10 @@ int main( void ) {
     const int strideX = 2;
 
     // Compute the variance:
-    double v = stdlib_strided_dvariancetk( N, 1, x, strideX );
+    float v = stdlib_strided_svariancetk( N, 1.0f, x, strideX );
 
     // Print the result:
-    printf( "sample variance: %lf\n", v );
+    printf( "sample variance: %f\n", v );
 }
 ```
 
@@ -379,10 +379,10 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/strided/dnanvariancetk`][@stdlib/stats/strided/dnanvariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array ignoring NaN values and using a one-pass textbook algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/strided/dstdevtk`][@stdlib/stats/strided/dstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a one-pass textbook algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/strided/dvariance`][@stdlib/stats/strided/dvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/strided/svariancetk`][@stdlib/stats/strided/svariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dvariancetk`][@stdlib/stats/strided/dvariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanvariancetk`][@stdlib/stats/base/snanvariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array ignoring NaN values and using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/sstdevtk`][@stdlib/stats/strided/sstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/svariance`][@stdlib/stats/base/svariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/variancetk`][@stdlib/stats/base/variancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a one-pass textbook algorithm.</span>
 
 </section>
@@ -395,7 +395,7 @@ int main( void ) {
 
 [variance]: https://en.wikipedia.org/wiki/Variance
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
@@ -403,13 +403,13 @@ int main( void ) {
 
 <!-- <related-links> -->
 
-[@stdlib/stats/strided/dnanvariancetk]: https://github.com/stdlib-js/stats/tree/main/strided/dnanvariancetk
+[@stdlib/stats/strided/dvariancetk]: https://github.com/stdlib-js/stats/tree/main/strided/dvariancetk
 
-[@stdlib/stats/strided/dstdevtk]: https://github.com/stdlib-js/stats/tree/main/strided/dstdevtk
+[@stdlib/stats/base/snanvariancetk]: https://github.com/stdlib-js/stats/tree/main/base/snanvariancetk
 
-[@stdlib/stats/strided/dvariance]: https://github.com/stdlib-js/stats/tree/main/strided/dvariance
+[@stdlib/stats/strided/sstdevtk]: https://github.com/stdlib-js/stats/tree/main/strided/sstdevtk
 
-[@stdlib/stats/strided/svariancetk]: https://github.com/stdlib-js/stats/tree/main/strided/svariancetk
+[@stdlib/stats/base/svariance]: https://github.com/stdlib-js/stats/tree/main/base/svariance
 
 [@stdlib/stats/base/variancetk]: https://github.com/stdlib-js/stats/tree/main/base/variancetk
 

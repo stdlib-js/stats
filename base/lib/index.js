@@ -1000,15 +1000,6 @@ setReadOnly( ns, 'stdevyc', require( './../../base/stdevyc' ) );
 setReadOnly( ns, 'svariance', require( './../../base/svariance' ) );
 
 /**
-* @name svariancetk
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/svariancetk}
-*/
-setReadOnly( ns, 'svariancetk', require( './../../base/svariancetk' ) );
-
-/**
 * @name svariancewd
 * @memberof ns
 * @readonly
@@ -1016,15 +1007,6 @@ setReadOnly( ns, 'svariancetk', require( './../../base/svariancetk' ) );
 * @see {@link module:@stdlib/stats/base/svariancewd}
 */
 setReadOnly( ns, 'svariancewd', require( './../../base/svariancewd' ) );
-
-/**
-* @name svarianceyc
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/svarianceyc}
-*/
-setReadOnly( ns, 'svarianceyc', require( './../../base/svarianceyc' ) );
 
 /**
 * @name variance
