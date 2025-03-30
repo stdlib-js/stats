@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-29)
+## Unreleased (2025-03-30)
 
 <section class="packages">
 
@@ -45,6 +45,56 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`9e8b63b`](https://github.com/stdlib-js/stdlib/commit/9e8b63b633279aed16e2a35ed658f9931b1c69b2): remove `stats/base/smskrange`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/smskrange` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`dc9ad96`](https://github.com/stdlib-js/stdlib/commit/dc9ad9658fc61bb9defdbdecbd9ffafb90b45eb7): remove `stats/base/smskmin`
 
@@ -22123,6 +22173,65 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`7347f29`](https://github.com/stdlib-js/stdlib/commit/7347f296e755ccc30e0787aae5947e0cff75a500): remove `stats/base/smskrange`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/smskrange`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -24649,6 +24758,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-smskrange-unreleased">
+
+#### [@stdlib/stats/strided/smskrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/smskrange)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e10795d`](https://github.com/stdlib-js/stdlib/commit/e10795d6cfcadb1553222f4d35892e8baadad517) - add `stats/strided/smskrange`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -24656,6 +24787,107 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`7347f29`](https://github.com/stdlib-js/stdlib/commit/7347f296e755ccc30e0787aae5947e0cff75a500): remove `stats/base/smskrange`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/smskrange`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`9e8b63b`](https://github.com/stdlib-js/stdlib/commit/9e8b63b633279aed16e2a35ed658f9931b1c69b2): remove `stats/base/smskrange`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/smskrange` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`13cf25b`](https://github.com/stdlib-js/stdlib/commit/13cf25bea02f5bc2e9cf5c43c5dcd69cb4c1633a): remove `stats/base/smskmin`
 
@@ -32991,6 +33223,10 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7347f29`](https://github.com/stdlib-js/stdlib/commit/7347f296e755ccc30e0787aae5947e0cff75a500) - **remove:** remove `stats/base/smskrange` _(by Aayush Khanna)_
+-   [`44946bd`](https://github.com/stdlib-js/stdlib/commit/44946bdd7847e0302e2c625d14e6fe61844481c9) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`9e8b63b`](https://github.com/stdlib-js/stdlib/commit/9e8b63b633279aed16e2a35ed658f9931b1c69b2) - **remove:** remove `stats/base/smskrange` from namespace _(by Aayush Khanna)_
+-   [`e10795d`](https://github.com/stdlib-js/stdlib/commit/e10795d6cfcadb1553222f4d35892e8baadad517) - **feat:** add `stats/strided/smskrange` _(by Aayush Khanna)_
 -   [`13cf25b`](https://github.com/stdlib-js/stdlib/commit/13cf25bea02f5bc2e9cf5c43c5dcd69cb4c1633a) - **remove:** remove `stats/base/smskmin` _(by Aayush Khanna)_
 -   [`d366753`](https://github.com/stdlib-js/stdlib/commit/d3667537bc5a0f181f01b32f8245ecfc05d46d84) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`dc9ad96`](https://github.com/stdlib-js/stdlib/commit/dc9ad9658fc61bb9defdbdecbd9ffafb90b45eb7) - **remove:** remove `stats/base/smskmin` from namespace _(by Aayush Khanna)_

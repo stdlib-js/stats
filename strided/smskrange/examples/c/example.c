@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/smskrange.h"
+#include "stdlib/stats/strided/smskrange.h"
 #include <stdint.h>
 #include <stdio.h>
 

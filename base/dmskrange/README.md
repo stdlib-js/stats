@@ -317,7 +317,7 @@ int main( void ) {
 -   <span class="package-name">[`@stdlib/stats/strided/dnanrange`][@stdlib/stats/strided/dnanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/drange`][@stdlib/stats/strided/drange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/mskrange`][@stdlib/stats/base/mskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array according to a mask.</span>
--   <span class="package-name">[`@stdlib/stats/base/smskrange`][@stdlib/stats/base/smskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/smskrange`][@stdlib/stats/strided/smskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array according to a mask.</span>
 
 </section>
 
@@ -347,7 +347,7 @@ int main( void ) {
 
 [@stdlib/stats/base/mskrange]: https://github.com/stdlib-js/stats/tree/main/base/mskrange
 
-[@stdlib/stats/base/smskrange]: https://github.com/stdlib-js/stats/tree/main/base/smskrange
+[@stdlib/stats/strided/smskrange]: https://github.com/stdlib-js/stats/tree/main/strided/smskrange
 
 <!-- </related-links> -->
 

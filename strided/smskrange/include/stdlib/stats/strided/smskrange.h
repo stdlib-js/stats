@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_STATS_BASE_SMSKRANGE_H
-#define STDLIB_STATS_BASE_SMSKRANGE_H
+#ifndef STDLIB_STATS_STRIDED_SMSKRANGE_H
+#define STDLIB_STATS_STRIDED_SMSKRANGE_H
 
 #include "stdlib/blas/base/shared.h"
 #include <stdint.h>
@@ -43,4 +43,4 @@ float API_SUFFIX(stdlib_strided_smskrange_ndarray)( const CBLAS_INT N, const flo
 }
 #endif
 
-#endif // !STDLIB_STATS_BASE_SMSKRANGE_H
+#endif // !STDLIB_STATS_STRIDED_SMSKRANGE_H

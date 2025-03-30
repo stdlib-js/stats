@@ -35,7 +35,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-var smskrange = require( '@stdlib/stats/base/smskrange' );
+var smskrange = require( '@stdlib/stats/strided/smskrange' );
 ```
 
 #### smskrange( N, x, strideX, mask, strideMask )
@@ -148,7 +148,7 @@ var v = smskrange.ndarray( 4, x, 2, 1, mask, 2, 1 );
 ```javascript
 var uniform = require( '@stdlib/random/array/uniform' );
 var bernoulli = require( '@stdlib/random/array/bernoulli' );
-var smskrange = require( '@stdlib/stats/base/smskrange' );
+var smskrange = require( '@stdlib/stats/strided/smskrange' );
 
 var uniformOptions = {
     'dtype': 'float32'
@@ -193,7 +193,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/smskrange.h"
+#include "stdlib/stats/strided/smskrange.h"
 ```
 
 #### stdlib_strided_smskrange( N, \*X, strideX, \*Mask, strideMask )
@@ -271,7 +271,7 @@ float stdlib_strided_smskrange_ndarray( const CBLAS_INT N, const float *X, const
 ### Examples
 
 ```c
-#include "stdlib/stats/base/smskrange.h"
+#include "stdlib/stats/strided/smskrange.h"
 #include <stdint.h>
 #include <stdio.h>
 

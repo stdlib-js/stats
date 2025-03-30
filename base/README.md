@@ -199,7 +199,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`sminsorted( N, x, strideX )`][@stdlib/stats/strided/sminsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted single-precision floating-point strided array.</span>
 -   <span class="signature">[`smskmax( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/smskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`smskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/smskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask.</span>
--   <span class="signature">[`smskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/smskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array according to a mask.</span>
+-   <span class="signature">[`smskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/smskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`snanmax( N, x, strideX )`][@stdlib/stats/base/snanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`snanmaxabs( N, x, strideX )`][@stdlib/stats/base/snanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a single-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`snanmean( N, x, stride )`][@stdlib/stats/base/snanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values.</span>
@@ -583,7 +583,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/smskmin]: https://github.com/stdlib-js/stats/tree/main/strided/smskmin
 
-[@stdlib/stats/base/smskrange]: https://github.com/stdlib-js/stats/tree/main/base/smskrange
+[@stdlib/stats/strided/smskrange]: https://github.com/stdlib-js/stats/tree/main/strided/smskrange
 
 [@stdlib/stats/base/snanmax]: https://github.com/stdlib-js/stats/tree/main/base/snanmax
 
