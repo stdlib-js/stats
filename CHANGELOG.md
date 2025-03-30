@@ -36471,6 +36471,7 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fb2046c`](https://github.com/stdlib-js/stdlib/commit/fb2046c940281d6d0fed98d979d17caee0bd3107) - **test:** fix missing argument _(by Athan Reines)_
 -   [`46e4ec7`](https://github.com/stdlib-js/stdlib/commit/46e4ec7fca79bec3fcce2f0b30802cd26f12665b) - **remove:** remove `stats/base/svariancech` _(by Aayush Khanna)_
 -   [`adfa457`](https://github.com/stdlib-js/stdlib/commit/adfa4575e7715273bb374e76860236608ca4a165) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`a150c84`](https://github.com/stdlib-js/stdlib/commit/a150c84d41ed88ddbb44d53a2e759f56ae2f65ca) - **remove:** remove `stats/base/svariancech` from namespace _(by Aayush Khanna)_
