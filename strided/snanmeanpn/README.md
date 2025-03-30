@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# dnanmeanpn
+# snanmeanpn
 
-> Calculate the [arithmetic mean][arithmetic-mean] of a double-precision floating-point strided array, ignoring `NaN` values and using a two-pass error correction algorithm.
+> Calculate the [arithmetic mean][arithmetic-mean] of a single-precision floating-point strided array, ignoring `NaN` values and using a two-pass error correction algorithm.
 
 <section class="intro">
 
@@ -33,7 +33,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:arithmetic_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@939b3065109682bbaf70403aba5b13b054107b3e/lib/node_modules/@stdlib/stats/strided/dnanmeanpn/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@c2e2726ac8dee5aa32ff0b440c343d46749c4011/lib/node_modules/@stdlib/stats/strided/snanmeanpn/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
     <br>
 </div> -->
 
@@ -48,26 +48,26 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-var dnanmeanpn = require( '@stdlib/stats/strided/dnanmeanpn' );
+var snanmeanpn = require( '@stdlib/stats/strided/snanmeanpn' );
 ```
 
-#### dnanmeanpn( N, x, strideX )
+#### snanmeanpn( N, x, strideX )
 
-Computes the [arithmetic mean][arithmetic-mean] of a double-precision floating-point strided array `x`, ignoring `NaN` values and using a two-pass error correction algorithm.
+Computes the [arithmetic mean][arithmetic-mean] of a single-precision floating-point strided array, ignoring `NaN` values and using a two-pass error correction algorithm.
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
 
-var v = dnanmeanpn( x.length, x, 1 );
+var v = snanmeanpn( x.length, x, 1 );
 // returns ~0.3333
 ```
 
 The function has the following parameters:
 
 -   **N**: number of indexed elements.
--   **x**: input [`Float64Array`][@stdlib/array/float64].
+-   **x**: input [`Float32Array`][@stdlib/array/float32].
 -   **strideX**: stride length for `x`.
 
 The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to compute the [arithmetic mean][arithmetic-mean] of every other element in `x`,
@@ -75,11 +75,11 @@ The `N` and stride parameters determine which elements in the strided array are 
 <!-- eslint-disable max-len -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0, NaN, NaN ] );
+var x = new Float32Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0, NaN, NaN ] );
 
-var v = dnanmeanpn( 5, x, 2 );
+var v = snanmeanpn( 5, x, 2 );
 // returns 1.25
 ```
 
@@ -88,25 +88,25 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 <!-- eslint-disable stdlib/capitalized-comments, max-len -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x0 = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
-var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+var x0 = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
+var x1 = new Float32Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var v = dnanmeanpn( 5, x1, 2 );
+var v = snanmeanpn( 5, x1, 2 );
 // returns 1.25
 ```
 
-#### dnanmeanpn.ndarray( N, x, strideX, offsetX )
+#### snanmeanpn.ndarray( N, x, strideX, offsetX )
 
-Computes the [arithmetic mean][arithmetic-mean] of a double-precision floating-point strided array, ignoring `NaN` values and using a two-pass error correction algorithm and alternative indexing semantics.
+Computes the [arithmetic mean][arithmetic-mean] of a single-precision floating-point strided array, ignoring `NaN` values and using a two-pass error correction algorithm and alternative indexing semantics.
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
 
-var v = dnanmeanpn.ndarray( x.length, x, 1, 0 );
+var v = snanmeanpn.ndarray( x.length, x, 1, 0 );
 // returns ~0.33333
 ```
 
@@ -119,11 +119,11 @@ While [`typed array`][mdn-typed-array] views mandate a view offset based on the 
 <!-- eslint-disable max-len -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
+var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
 
-var v = dnanmeanpn.ndarray( 5, x, 2, 1 );
+var v = snanmeanpn.ndarray( 5, x, 2, 1 );
 // returns 1.25
 ```
 
@@ -149,25 +149,22 @@ var v = dnanmeanpn.ndarray( 5, x, 2, 1 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var randu = require( '@stdlib/random/base/randu' );
-var round = require( '@stdlib/math/base/special/round' );
-var Float64Array = require( '@stdlib/array/float64' );
-var dnanmeanpn = require( '@stdlib/stats/strided/dnanmeanpn' );
+var uniform = require( '@stdlib/random/base/uniform' );
+var filledarrayBy = require( '@stdlib/array/filled-by' );
+var bernoulli = require( '@stdlib/random/base/bernoulli' );
+var snanmeanpn = require( '@stdlib/stats/strided/snanmeanpn' );
 
-var x;
-var i;
-
-x = new Float64Array( 10 );
-for ( i = 0; i < x.length; i++ ) {
-    if ( randu() < 0.2 ) {
-        x[ i ] = NaN;
-    } else {
-        x[ i ] = round( randu() * 10.0 );
+function rand() {
+    if ( bernoulli( 0.8 ) < 1 ) {
+        return NaN;
     }
+    return uniform( -50.0, 50.0 );
 }
+
+var x = filledarrayBy( 10, 'float32', rand );
 console.log( x );
 
-var v = dnanmeanpn( x.length, x, 1 );
+var v = snanmeanpn( x.length, x, 1 );
 console.log( v );
 ```
 
@@ -198,50 +195,50 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/dnanmeanpn.h"
+#include "stdlib/stats/strided/snanmeanpn.h"
 ```
 
-#### stdlib_strided_dnanmeanpn( N, \*X, strideX )
+#### stdlib_strided_snanmeanpn( N, \*X, strideX )
 
-Computes arithmetic mean of a double-precision floating-point strided array, ignoring `NaN` values and using a two-pass error correction algorithm.
+Computes the [arithmetic mean][arithmetic-mean] of a single-precision floating-point strided array, ignoring `NaN` values and using a two-pass error correction algorithm.
 
 ```c
-const double x[] = { 1.0, 2.0, 0.0/0.0, 3.0, 0.0/0.0, 4.0, 5.0, 6.0, 0.0/0.0, 7.0, 8.0, 0.0/0.0 };
+const double x[] = { 1.0f, -2.0f, 0.0f/0.0f, 2.0f };
 
-double v = stdlib_strided_dnanmeanpn( 6, x, 2 );
-// returns ~4.6667
+double v = stdlib_strided_snanmeanpn( 4, x, 1 );
+// returns ~0.33333
 ```
 
 The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
--   **X**: `[in] double*` input array.
+-   **X**: `[in] float*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 
 ```c
-double stdlib_strided_dnanmeanpn( const CBLAS_INT N, const double *X, const CBLAS_INT strideX );
+float stdlib_strided_snanmeanpn( const CBLAS_INT N, const float *X, const CBLAS_INT strideX );
 ```
 
-#### stdlib_strided_dnanmeanpn_ndarray( N, \*X, strideX, offsetX )
+#### stdlib_strided_snanmeanpn_ndarray( N, \*X, strideX, offsetX )
 
-Computes the aithmetic mean of a double-precision floating-point strided array, ignoring `NaN` values and using a two-pass error correction algorithm and alternative indexing semantics.
+Computes the [arithmetic mean][arithmetic-mean] of a single-precision floating-point strided array, ignoring `NaN` values and using a two-pass error correction algorithm and alternative indexing semantics.
 
 ```c
-const double x[] = { 1.0, 2.0, 0.0/0.0, 3.0, 0.0/0.0, 4.0, 5.0, 6.0, 0.0/0.0, 7.0, 8.0, 0.0/0.0 };
+const double x[] = { 1.0f, -2.0f, 0.0f/0.0f, 2.0f };
 
-double v = stdlib_strided_dnanmeanpn( 6, x, 2, 0 );
-// returns ~4.6667
+double v = stdlib_strided_snanmeanpn_ndarray( 4, x, 1, 0 );
+// returns ~0.33333
 ```
 
 The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
--   **X**: `[in] double*` input array.
+-   **X**: `[in] float*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 -   **offsetX**: `[in] CBLAS_INT` starting index for `X`.
 
 ```c
-double stdlib_strided_dnanmeanpn_ndarray( const CBLAS_INT N, const double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
+float stdlib_strided_snanmeanpn_ndarray( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
 ```
 
 </section>
@@ -263,12 +260,12 @@ double stdlib_strided_dnanmeanpn_ndarray( const CBLAS_INT N, const double *X, co
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/dnanmeanpn.h"
+#include "stdlib/stats/strided/snanmeanpn.h"
 #include <stdio.h>
 
 int main( void ) {
     // Create a strided array:
-    const double x[] = { 1.0, 2.0, 0.0/0.0, 3.0, 0.0/0.0, 4.0, 5.0, 6.0, 0.0/0.0, 7.0, 8.0, 0.0/0.0 };
+    const float x[] = { 1.0f, 2.0f, 0.0f/0.0f, 3.0f, 0.0f/0.0f, 4.0f, 5.0f, 6.0f, 0.0f/0.0f, 7.0f, 8.0f, 0.0f/0.0f };
 
     // Specify the number of elements:
     const int N = 6;
@@ -277,10 +274,10 @@ int main( void ) {
     const int strideX = 2;
 
     // Compute the arithmetic mean:
-    double v = stdlib_strided_dnanmeanpn( N, x, strideX );
+    float v = stdlib_strided_snanmeanpn( N, x, strideX );
 
     // Print the result:
-    printf( "mean: %lf\n", v );
+    printf( "mean: %f\n", v );
 }
 ```
 
@@ -291,6 +288,8 @@ int main( void ) {
 </section>
 
 <!-- /.c -->
+
+* * *
 
 <section class="references">
 
@@ -311,10 +310,10 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/base/dmeanpn`][@stdlib/stats/base/dmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a two-pass error correction algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/strided/dnanmean`][@stdlib/stats/strided/dnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dnanmeanpn`][@stdlib/stats/strided/dnanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values and using a two-pass error correction algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanmeanpn`][@stdlib/stats/base/nanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring NaN values and using a two-pass error correction algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/strided/snanmeanpn`][@stdlib/stats/strided/snanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using a two-pass error correction algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smeanpn`][@stdlib/stats/base/smeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using a two-pass error correction algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanmean`][@stdlib/stats/base/snanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values.</span>
 
 </section>
 
@@ -326,7 +325,7 @@ int main( void ) {
 
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
@@ -336,13 +335,13 @@ int main( void ) {
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmeanpn]: https://github.com/stdlib-js/stats/tree/main/base/dmeanpn
-
-[@stdlib/stats/strided/dnanmean]: https://github.com/stdlib-js/stats/tree/main/strided/dnanmean
+[@stdlib/stats/strided/dnanmeanpn]: https://github.com/stdlib-js/stats/tree/main/strided/dnanmeanpn
 
 [@stdlib/stats/base/nanmeanpn]: https://github.com/stdlib-js/stats/tree/main/base/nanmeanpn
 
-[@stdlib/stats/strided/snanmeanpn]: https://github.com/stdlib-js/stats/tree/main/strided/snanmeanpn
+[@stdlib/stats/base/smeanpn]: https://github.com/stdlib-js/stats/tree/main/base/smeanpn
+
+[@stdlib/stats/base/snanmean]: https://github.com/stdlib-js/stats/tree/main/base/snanmean
 
 <!-- </related-links> -->
 

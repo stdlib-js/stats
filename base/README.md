@@ -203,8 +203,8 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`snanmax( N, x, strideX )`][@stdlib/stats/strided/snanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`snanmaxabs( N, x, strideX )`][@stdlib/stats/strided/snanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a single-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`snanmean( N, x, stride )`][@stdlib/stats/base/snanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values.</span>
--   <span class="signature">[`snanmeanors( N, x, strideX )`][@stdlib/stats/base/snanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using ordinary recursive summation.</span>
--   <span class="signature">[`snanmeanpn( N, x, strideX )`][@stdlib/stats/base/snanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using a two-pass error correction algorithm.</span>
+-   <span class="signature">[`snanmeanors( N, x, strideX )`][@stdlib/stats/strided/snanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using ordinary recursive summation.</span>
+-   <span class="signature">[`snanmeanpn( N, x, strideX )`][@stdlib/stats/strided/snanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using a two-pass error correction algorithm.</span>
 -   <span class="signature">[`snanmeanwd( N, x, strideX )`][@stdlib/stats/base/snanmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using Welford's algorithm.</span>
 -   <span class="signature">[`snanmin( N, x, strideX )`][@stdlib/stats/base/snanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`snanminabs( N, x, strideX )`][@stdlib/stats/base/snanminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a single-precision floating-point strided array, ignoring `NaN` values.</span>
@@ -591,9 +591,9 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/snanmean]: https://github.com/stdlib-js/stats/tree/main/base/snanmean
 
-[@stdlib/stats/base/snanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/snanmeanors
+[@stdlib/stats/strided/snanmeanors]: https://github.com/stdlib-js/stats/tree/main/strided/snanmeanors
 
-[@stdlib/stats/base/snanmeanpn]: https://github.com/stdlib-js/stats/tree/main/base/snanmeanpn
+[@stdlib/stats/strided/snanmeanpn]: https://github.com/stdlib-js/stats/tree/main/strided/snanmeanpn
 
 [@stdlib/stats/base/snanmeanwd]: https://github.com/stdlib-js/stats/tree/main/base/snanmeanwd
 

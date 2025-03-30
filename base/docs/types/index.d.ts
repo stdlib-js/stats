@@ -103,8 +103,6 @@ import smeanors = require( './../../../base/smeanors' );
 import smeanpn = require( './../../../base/smeanpn' );
 import smidrange = require( './../../../base/smidrange' );
 import snanmean = require( './../../../base/snanmean' );
-import snanmeanors = require( './../../../base/snanmeanors' );
-import snanmeanpn = require( './../../../base/snanmeanpn' );
 import snanmeanwd = require( './../../../base/snanmeanwd' );
 import snanmin = require( './../../../base/snanmin' );
 import snanminabs = require( './../../../base/snanminabs' );
@@ -2353,58 +2351,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	snanmean: typeof snanmean;
-
-	/**
-	* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using ordinary recursive summation.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.snanmeanors( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.snanmeanors.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	snanmeanors: typeof snanmeanors;
-
-	/**
-	* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using a two-pass error correction algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.snanmeanpn( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.snanmeanpn.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	snanmeanpn: typeof snanmeanpn;
 
 	/**
 	* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using Welford's algorithm.

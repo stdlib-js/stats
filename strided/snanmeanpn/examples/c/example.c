@@ -16,18 +16,22 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/snanmean.h"
 #include "stdlib/stats/strided/snanmeanpn.h"
-#include <stdint.h>
+#include <stdio.h>
 
-/**
-* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values.
-*
-* @param N       number of indexed elements
-* @param X       input array
-* @param stride  stride length
-* @return        output value
-*/
-float stdlib_strided_snanmean( const int64_t N, const float *X, const int64_t stride ) {
-	return stdlib_strided_snanmeanpn( N, X, stride );
+int main( void ) {
+	// Create a strided array:
+	const float x[] = { 1.0f, 2.0f, 0.0f/0.0f, 3.0f, 0.0f/0.0f, 4.0f, 5.0f, 6.0f, 0.0f/0.0f, 7.0f, 8.0f, 0.0f/0.0f };
+
+	// Specify the number of elements:
+	const int N = 6;
+
+	// Specify the stride length:
+	const int strideX = 2;
+
+	// Compute the arithmetic mean:
+	float v = stdlib_strided_snanmeanpn( N, x, strideX );
+
+	// Print the result:
+	printf( "mean: %f\n", v );
 }
