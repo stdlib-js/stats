@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/dmskmin.h"
+#include "stdlib/stats/base/dmskmin.h"
 #include "stdlib/math/base/assert/is_nan.h"
 #include "stdlib/math/base/assert/is_negative_zero.h"
 #include "stdlib/blas/base/shared.h"

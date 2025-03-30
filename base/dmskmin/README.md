@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var dmskmin = require( '@stdlib/stats/strided/dmskmin' );
+var dmskmin = require( '@stdlib/stats/base/dmskmin' );
 ```
 
 #### dmskmin( N, x, strideX, mask, strideMask )
@@ -146,7 +146,7 @@ var v = dmskmin.ndarray( 4, x, 2, 1, mask, 2, 1 );
 ```javascript
 var uniform = require( '@stdlib/random/array/uniform' );
 var bernoulli = require( '@stdlib/random/array/bernoulli' );
-var dmskmin = require( '@stdlib/stats/strided/dmskmin' );
+var dmskmin = require( '@stdlib/stats/base/dmskmin' );
 
 var uniformOptions = {
     'dtype': 'float64'
@@ -191,7 +191,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/dmskmin.h"
+#include "stdlib/stats/base/dmskmin.h"
 ```
 
 #### stdlib_strided_dmskmin( N, \*X, strideX, \*Mask, strideMask )
@@ -269,7 +269,7 @@ double stdlib_strided_dmskmin_ndarray( const CBLAS_INT N, const double *X, const
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/dmskmin.h"
+#include "stdlib/stats/base/dmskmin.h"
 #include <stdint.h>
 #include <stdio.h>
 

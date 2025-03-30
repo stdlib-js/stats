@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/strided/dmskmin",
+  "name": "@stdlib/stats/base/dmskmin",
   "version": "0.0.0",
   "description": "Calculate the minimum value of a double-precision floating-point strided array according to a mask.",
   "license": "Apache-2.0",

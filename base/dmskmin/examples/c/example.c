@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/dmskmin.h"
+#include "stdlib/stats/base/dmskmin.h"
 #include <stdint.h>
 #include <stdio.h>
 
