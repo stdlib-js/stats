@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dsmeanors",
+  "name": "@stdlib/stats/strided/dsmeanors",
   "version": "0.0.0",
   "description": "Calculate the arithmetic mean of a single-precision floating-point strided array using ordinary recursive summation with extended accumulation and returning an extended precision result.",
   "license": "Apache-2.0",

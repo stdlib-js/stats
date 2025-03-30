@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dsmeanors.h"
+#include "stdlib/stats/strided/dsmeanors.h"
 #include "stdlib/blas/ext/base/dssumors.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/strided/base/stride2offset.h"

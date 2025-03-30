@@ -46,6 +46,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`c83bd2e`](https://github.com/stdlib-js/stdlib/commit/c83bd2e5530e3d13c152ba065eddd205ca433dbe): remove `stats/base/dsmeanors`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dsmeanors` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`b59b5a8`](https://github.com/stdlib-js/stdlib/commit/b59b5a81d01fec00fb13b56c440064b9e160084f): remove `stats/base/dmskrange`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dmskrange` namespace.
@@ -19502,6 +19552,65 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`ebe023b`](https://github.com/stdlib-js/stdlib/commit/ebe023b662fbdd4a2d9b24851bab074cfa677ab9): remove `stats/base/dsmeanors`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dsmeanors`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -26255,6 +26364,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-dsmeanors-unreleased">
+
+#### [@stdlib/stats/strided/dsmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dsmeanors)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`417438a`](https://github.com/stdlib-js/stdlib/commit/417438a01f71e766fa0ddde893aad29a159b6cdb) - add `stats/strided/dsmeanors`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-strided-dsmeanpn-unreleased">
 
 #### [@stdlib/stats/strided/dsmeanpn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dsmeanpn)
@@ -27538,6 +27669,107 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`ebe023b`](https://github.com/stdlib-js/stdlib/commit/ebe023b662fbdd4a2d9b24851bab074cfa677ab9): remove `stats/base/dsmeanors`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dsmeanors`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`c83bd2e`](https://github.com/stdlib-js/stdlib/commit/c83bd2e5530e3d13c152ba065eddd205ca433dbe): remove `stats/base/dsmeanors`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dsmeanors` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`a201ce6`](https://github.com/stdlib-js/stdlib/commit/a201ce6e87a82e0800126e85dffcc553b7f2adc1): remove `stats/base/dmskrange`
 
@@ -38095,6 +38327,10 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ebe023b`](https://github.com/stdlib-js/stdlib/commit/ebe023b662fbdd4a2d9b24851bab074cfa677ab9) - **remove:** remove `stats/base/dsmeanors` _(by Aayush Khanna)_
+-   [`ac97159`](https://github.com/stdlib-js/stdlib/commit/ac97159d577a2aa1550daf19dfb7c146dfd7bcef) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`c83bd2e`](https://github.com/stdlib-js/stdlib/commit/c83bd2e5530e3d13c152ba065eddd205ca433dbe) - **remove:** remove `stats/base/dsmeanors` from namespace _(by Aayush Khanna)_
+-   [`417438a`](https://github.com/stdlib-js/stdlib/commit/417438a01f71e766fa0ddde893aad29a159b6cdb) - **feat:** add `stats/strided/dsmeanors` _(by Aayush Khanna)_
 -   [`a201ce6`](https://github.com/stdlib-js/stdlib/commit/a201ce6e87a82e0800126e85dffcc553b7f2adc1) - **remove:** remove `stats/base/dmskrange` _(by Aayush Khanna)_
 -   [`3c365a3`](https://github.com/stdlib-js/stdlib/commit/3c365a32a445435156730a7c7dd0c1d3b879f810) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`b59b5a8`](https://github.com/stdlib-js/stdlib/commit/b59b5a81d01fec00fb13b56c440064b9e160084f) - **remove:** remove `stats/base/dmskrange` from namespace _(by Aayush Khanna)_
