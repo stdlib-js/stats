@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/sstdevch.h"
+#include "stdlib/stats/base/sstdevch.h"
 #include "stdlib/stats/base/svariancech.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/math/base/special/sqrtf.h"

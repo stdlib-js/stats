@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/sstdevch.h"
+#include "stdlib/stats/base/sstdevch.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

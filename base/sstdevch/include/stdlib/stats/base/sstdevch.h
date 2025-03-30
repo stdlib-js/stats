@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_STATS_STRIDED_SSTDEVCH_H
-#define STDLIB_STATS_STRIDED_SSTDEVCH_H
+#ifndef STDLIB_STATS_BASE_SSTDEVCH_H
+#define STDLIB_STATS_BASE_SSTDEVCH_H
 
 #include "stdlib/blas/base/shared.h"
 
@@ -42,4 +42,4 @@ float API_SUFFIX(stdlib_strided_sstdevch_ndarray)( const CBLAS_INT N, const floa
 }
 #endif
 
-#endif // !STDLIB_STATS_STRIDED_SSTDEVCH_H
+#endif // !STDLIB_STATS_BASE_SSTDEVCH_H
