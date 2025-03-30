@@ -103,8 +103,6 @@ import smeanors = require( './../../../base/smeanors' );
 import smeanpn = require( './../../../base/smeanpn' );
 import smidrange = require( './../../../base/smidrange' );
 import snanmean = require( './../../../base/snanmean' );
-import snanmin = require( './../../../base/snanmin' );
-import snanminabs = require( './../../../base/snanminabs' );
 import snanmskmax = require( './../../../base/snanmskmax' );
 import snanmskmin = require( './../../../base/snanmskmin' );
 import snanmskrange = require( './../../../base/snanmskrange' );
@@ -2350,58 +2348,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	snanmean: typeof snanmean;
-
-	/**
-	* Computes the minimum value of a single-precision floating-point strided array, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns minimum value
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.snanmin( x.length, x, 1 );
-	* // returns -2.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.snanmin.ndarray( x.length, x, 1, 0 );
-	* // returns -2.0
-	*/
-	snanmin: typeof snanmin;
-
-	/**
-	* Computes the minimum absolute value of a single-precision floating-point strided array, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns minimum absolute value
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.snanminabs( x.length, x, 1 );
-	* // returns 1.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.snanminabs.ndarray( x.length, x, 1, 0 );
-	* // returns 1.0
-	*/
-	snanminabs: typeof snanminabs;
 
 	/**
 	* Computes the maximum value of a single-precision floating-point strided array according to a mask, ignoring `NaN` values.

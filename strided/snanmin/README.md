@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# smin
+# snanmin
 
-> Calculate the minimum value of a single-precision floating-point strided array.
+> Calculate the minimum value of a single-precision floating-point strided array, ignoring `NaN` values.
 
 <section class="intro">
 
@@ -33,19 +33,19 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var smin = require( '@stdlib/stats/strided/smin' );
+var snanmin = require( '@stdlib/stats/strided/snanmin' );
 ```
 
-#### smin( N, x, strideX )
+#### snanmin( N, x, strideX )
 
-Computes the minimum value of a single-precision floating-point strided array `x`.
+Computes the minimum value of a single-precision floating-point strided array `x`, ignoring `NaN` values.
 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
 
-var v = smin( x.length, x, 1 );
+var v = snanmin( x.length, x, 1 );
 // returns -2.0
 ```
 
@@ -60,10 +60,10 @@ The `N` and stride parameters determine which elements in the strided array are 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float32Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ] );
+var x = new Float32Array( [ 1.0, 2.0, -7.0, -2.0, 4.0, 3.0, NaN, NaN ] );
 
-var v = smin( 4, x, 2 );
-// returns -2.0
+var v = snanmin( 4, x, 2 );
+// returns -7.0
 ```
 
 Note that indexing is relative to the first index. To introduce an offset, use [`typed array`][mdn-typed-array] views.
@@ -73,23 +73,23 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
 
-var x0 = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
+var x0 = new Float32Array( [ 2.0, 1.0, -2.0, -2.0, 3.0, 4.0, NaN, NaN ] );
 var x1 = new Float32Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var v = smin( 4, x1, 2 );
+var v = snanmin( 4, x1, 2 );
 // returns -2.0
 ```
 
-#### smin.ndarray( N, x, strideX, offsetX )
+#### snanmin.ndarray( N, x, strideX, offsetX )
 
-Computes the minimum value of a single-precision floating-point strided array using alternative indexing semantics.
+Computes the minimum value of a single-precision floating-point strided array, ignoring `NaN` values and using alternative indexing semantics.
 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
 
-var v = smin.ndarray( x.length, x, 1, 0 );
+var v = snanmin.ndarray( x.length, x, 1, 0 );
 // returns -2.0
 ```
 
@@ -102,9 +102,9 @@ While [`typed array`][mdn-typed-array] views mandate a view offset based on the 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
+var x = new Float32Array( [ 2.0, 1.0, -2.0, -2.0, 3.0, 4.0, NaN, NaN ] );
 
-var v = smin.ndarray( 4, x, 2, 1 );
+var v = snanmin.ndarray( 4, x, 2, 1 );
 // returns -2.0
 ```
 
@@ -130,14 +130,14 @@ var v = smin.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var smin = require( '@stdlib/stats/strided/smin' );
+var snanmin = require( '@stdlib/stats/strided/snanmin' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
 });
 console.log( x );
 
-var v = smin( x.length, x, 1 );
+var v = snanmin( x.length, x, 1 );
 console.log( v );
 ```
 
@@ -168,18 +168,18 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/smin.h"
+#include "stdlib/stats/strided/snanmin.h"
 ```
 
-#### stdlib_strided_smin( N, \*X, strideX )
+#### stdlib_strided_snanmin( N, \*X, strideX )
 
-Computes the minimum value of a single-precision floating-point strided array.
+Computes the minimum value of a single-precision floating-point strided array `x`, ignoring `NaN` values.
 
 ```c
-const float x[] = { 1.0f, -2.0f, 3.0f, -4.0f };
+const float x[] = { 1.0f, -2.0f, 0.0f/0.0f, -4.0f };
 
-float v = stdlib_strided_smin( 4, x, 1 );
-// returns 1.0f
+float v = stdlib_strided_snanmin( 4, x, 1 );
+// returns -4.0f
 ```
 
 The function accepts the following arguments:
@@ -189,18 +189,18 @@ The function accepts the following arguments:
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 
 ```c
-float stdlib_strided_smin( const CBLAS_INT N, const float *X, const CBLAS_INT strideX );
+float stdlib_strided_snanmin( const CBLAS_INT N, const float *X, const CBLAS_INT strideX );
 ```
 
-#### stdlib_strided_smin_ndarray( N, \*X, strideX, offsetX )
+#### stdlib_strided_snanmin_ndarray( N, \*X, strideX, offsetX )
 
-Computes the minimum value of a single-precision floating-point strided array using alternative indexing semantics.
+Computes the minimum value of a single-precision floating-point strided array, ignoring `NaN` values and using alternative indexing semantics.
 
 ```c
-const float x[] = { 1.0f, -2.0f, 3.0f, -4.0f };
+const float x[] = { 1.0f, -2.0f, 0.0f/0.0f, -4.0f };
 
-float v = stdlib_strided_smin_ndarray( 4, x, 1, 0 );
-// returns 1.0f
+float v = stdlib_strided_snanmin_ndarray( 4, x, 1, 0 );
+// returns -4.0f
 ```
 
 The function accepts the following arguments:
@@ -211,7 +211,7 @@ The function accepts the following arguments:
 -   **offsetX**: `[in] CBLAS_INT` starting index for `X`.
 
 ```c
-float stdlib_strided_smin_ndarray( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
+float stdlib_strided_snanmin_ndarray( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
 ```
 
 </section>
@@ -233,21 +233,21 @@ float stdlib_strided_smin_ndarray( const CBLAS_INT N, const float *X, const CBLA
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/smin.h"
+#include "stdlib/stats/strided/snanmin.h"
 #include <stdio.h>
 
 int main( void ) {
     // Create a strided array:
-    const float x[] = { 1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f, 7.0f, 8.0f };
+    const float x[] = { 1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f, 7.0f, 8.0f, 0.0f/0.0f, 0.0f/0.0f };
 
     // Specify the number of elements:
-    const int N = 4;
+    const int N = 5;
 
     // Specify the stride length:
     const int strideX = 2;
 
     // Compute the minimum value:
-    float v = stdlib_strided_smin( N, x, strideX );
+    float v = stdlib_strided_snanmin( N, x, strideX );
 
     // Print the result:
     printf( "min: %f\n", v );
@@ -270,10 +270,10 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/strided/dmin`][@stdlib/stats/strided/dmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/min`][@stdlib/stats/base/min]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array.</span>
--   <span class="package-name">[`@stdlib/stats/strided/smax`][@stdlib/stats/strided/smax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/strided/snanmin`][@stdlib/stats/strided/snanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dnanmin`][@stdlib/stats/strided/dnanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/nanmin`][@stdlib/stats/base/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/smin`][@stdlib/stats/strided/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/snanmax`][@stdlib/stats/strided/snanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array, ignoring NaN values.</span>
 
 </section>
 
@@ -289,13 +289,13 @@ int main( void ) {
 
 <!-- <related-links> -->
 
-[@stdlib/stats/strided/dmin]: https://github.com/stdlib-js/stats/tree/main/strided/dmin
+[@stdlib/stats/strided/dnanmin]: https://github.com/stdlib-js/stats/tree/main/strided/dnanmin
 
-[@stdlib/stats/base/min]: https://github.com/stdlib-js/stats/tree/main/base/min
+[@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats/tree/main/base/nanmin
 
-[@stdlib/stats/strided/smax]: https://github.com/stdlib-js/stats/tree/main/strided/smax
+[@stdlib/stats/strided/smin]: https://github.com/stdlib-js/stats/tree/main/strided/smin
 
-[@stdlib/stats/strided/snanmin]: https://github.com/stdlib-js/stats/tree/main/strided/snanmin
+[@stdlib/stats/strided/snanmax]: https://github.com/stdlib-js/stats/tree/main/strided/snanmax
 
 <!-- </related-links> -->
 
