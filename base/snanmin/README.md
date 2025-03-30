@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var snanmin = require( '@stdlib/stats/strided/snanmin' );
+var snanmin = require( '@stdlib/stats/base/snanmin' );
 ```
 
 #### snanmin( N, x, strideX )
@@ -130,7 +130,7 @@ var v = snanmin.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var snanmin = require( '@stdlib/stats/strided/snanmin' );
+var snanmin = require( '@stdlib/stats/base/snanmin' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
@@ -168,7 +168,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/snanmin.h"
+#include "stdlib/stats/base/snanmin.h"
 ```
 
 #### stdlib_strided_snanmin( N, \*X, strideX )
@@ -233,7 +233,7 @@ float stdlib_strided_snanmin_ndarray( const CBLAS_INT N, const float *X, const C
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/snanmin.h"
+#include "stdlib/stats/base/snanmin.h"
 #include <stdio.h>
 
 int main( void ) {

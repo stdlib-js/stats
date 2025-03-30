@@ -21,11 +21,11 @@
 /**
 * Compute the minimum value of a single-precision floating-point strided array, ignoring `NaN` values.
 *
-* @module @stdlib/stats/strided/snanmin
+* @module @stdlib/stats/base/snanmin
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var snanmin = require( '@stdlib/stats/strided/snanmin' );
+* var snanmin = require( '@stdlib/stats/base/snanmin' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var snanmin = require( '@stdlib/stats/strided/snanmin' );
+* var snanmin = require( '@stdlib/stats/base/snanmin' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
 *
