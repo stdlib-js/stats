@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/smidrange.h"
+#include "stdlib/stats/strided/smidrange.h"
 #include "stdlib/math/base/assert/is_nanf.h"
 #include "stdlib/math/base/assert/is_positive_zerof.h"
 #include "stdlib/math/base/assert/is_negative_zerof.h"

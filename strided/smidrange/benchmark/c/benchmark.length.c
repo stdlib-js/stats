@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/smidrange.h"
+#include "stdlib/stats/strided/smidrange.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
