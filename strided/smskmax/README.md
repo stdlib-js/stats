@@ -311,7 +311,7 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/base/dmskmax`][@stdlib/stats/base/dmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dmskmax`][@stdlib/stats/strided/dmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask.</span>
 -   <span class="package-name">[`@stdlib/stats/base/mskmax`][@stdlib/stats/base/mskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/smax`][@stdlib/stats/strided/smax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/smskmin`][@stdlib/stats/strided/smskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask.</span>
@@ -334,7 +334,7 @@ int main( void ) {
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmskmax]: https://github.com/stdlib-js/stats/tree/main/base/dmskmax
+[@stdlib/stats/strided/dmskmax]: https://github.com/stdlib-js/stats/tree/main/strided/dmskmax
 
 [@stdlib/stats/base/mskmax]: https://github.com/stdlib-js/stats/tree/main/base/mskmax
 

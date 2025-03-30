@@ -136,24 +136,6 @@ setReadOnly( ns, 'dmeanvar', require( './../../base/dmeanvar' ) );
 setReadOnly( ns, 'dmeanvarpn', require( './../../base/dmeanvarpn' ) );
 
 /**
-* @name dmskmax
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dmskmax}
-*/
-setReadOnly( ns, 'dmskmax', require( './../../base/dmskmax' ) );
-
-/**
-* @name dmskmin
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dmskmin}
-*/
-setReadOnly( ns, 'dmskmin', require( './../../base/dmskmin' ) );
-
-/**
 * @name dmskrange
 * @memberof ns
 * @readonly
