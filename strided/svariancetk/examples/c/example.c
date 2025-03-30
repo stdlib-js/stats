@@ -16,19 +16,22 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/svariance.h"
-#include "stdlib/stats/strided/svariancepn.h"
-#include <stdint.h>
+#include "stdlib/stats/strided/svariancetk.h"
+#include <stdio.h>
 
-/**
-* Computes the variance of a single-precision floating-point strided array.
-*
-* @param N           number of indexed elements
-* @param correction  degrees of freedom adjustment
-* @param X           input array
-* @param stride      stride length
-* @return            output value
-*/
-float stdlib_strided_svariance( const int64_t N, const float correction, const float *X, const int64_t stride ) {
-	return stdlib_strided_svariancepn( N, correction, X, stride );
+int main( void ) {
+	// Create a strided array:
+	const float x[] = { 1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f, 7.0f, 8.0f };
+
+	// Specify the number of elements:
+	const int N = 4;
+
+	// Specify the stride length:
+	const int strideX = 2;
+
+	// Compute the variance:
+	float v = stdlib_strided_svariancetk( N, 1, x, strideX );
+
+	// Print the result:
+	printf( "sample variance: %f\n", v );
 }

@@ -16,14 +16,12 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/sstdevpn.h"
-#include "stdlib/stats/strided/svariancepn.h"
+#include "stdlib/stats/strided/svariancetk.h"
 #include "stdlib/blas/base/shared.h"
-#include "stdlib/math/base/special/sqrtf.h"
 #include "stdlib/strided/base/stride2offset.h"
 
 /**
-* Computes the standard deviation of a single-precision floating-point strided array using a two-pass algorithm.
+* Computes the variance of a single-precision floating-point strided array using a one-pass textbook algorithm.
 *
 * @param N            number of indexed elements
 * @param correction   degrees of freedom adjustment
@@ -31,13 +29,13 @@
 * @param strideX      stride length
 * @return             output value
 */
-float API_SUFFIX(stdlib_strided_sstdevpn)( const CBLAS_INT N, const float correction, const float *X, const CBLAS_INT strideX ) {
+float API_SUFFIX(stdlib_strided_svariancetk)( const CBLAS_INT N, const float correction, const float *X, const CBLAS_INT strideX ) {
 	const CBLAS_INT ox = stdlib_strided_stride2offset( N, strideX );
-	return API_SUFFIX(stdlib_strided_sstdevpn_ndarray)( N, correction, X, strideX, ox );
+	return API_SUFFIX(stdlib_strided_svariancetk_ndarray)( N, correction, X, strideX, ox );
 }
 
 /**
-* Computes the standard deviation of a single-precision floating-point strided array using a two-pass algorithm and alternative indexing semantics.
+* Computes the variance of a single-precision floating-point strided array using a one-pass textbook algorithm and alternative indexing semantics.
 *
 * @param N            number of indexed elements
 * @param correction   degrees of freedom adjustment
@@ -46,6 +44,31 @@ float API_SUFFIX(stdlib_strided_sstdevpn)( const CBLAS_INT N, const float correc
 * @param offsetX      starting index for X
 * @return             output value
 */
-float API_SUFFIX(stdlib_strided_sstdevpn_ndarray)( const CBLAS_INT N, const float correction, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX ) {
-	return stdlib_base_sqrtf( API_SUFFIX(stdlib_strided_svariancepn_ndarray)( N, correction, X, strideX, offsetX ) );
+float API_SUFFIX(stdlib_strided_svariancetk_ndarray)( const CBLAS_INT N, const float correction, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX ) {
+	CBLAS_INT ix;
+	CBLAS_INT i;
+	double dN;
+	double n;
+	float S2;
+	float S;
+	float v;
+
+	dN = (double)N;
+	n = dN - (double)correction;
+	if ( N <= 0 || n <= 0.0f ) {
+		return 0.0f / 0.0f; // NaN
+	}
+	if ( N == 1 || strideX == 0 ) {
+		return 0.0f;
+	}
+	ix = offsetX;
+	S2 = 0.0f;
+	S = 0.0f;
+	for ( i = 0; i < N; i++ ) {
+		v = X[ ix ];
+		S2 += v * v;
+		S += v;
+		ix += strideX;
+	}
+	return (double)(S2 - ( (float)((double)S/dN) * S ) ) / n;
 }

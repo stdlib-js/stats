@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var svariancepn = require( './../../../base/svariancepn' );
+var svariancepn = require( './../../../strided/svariancepn' );
 
 
 // MAIN //

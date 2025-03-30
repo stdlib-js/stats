@@ -127,8 +127,6 @@ import stdevtk = require( './../../../base/stdevtk' );
 import stdevwd = require( './../../../base/stdevwd' );
 import stdevyc = require( './../../../base/stdevyc' );
 import svariance = require( './../../../base/svariance' );
-import svariancepn = require( './../../../base/svariancepn' );
-import svariancetk = require( './../../../base/svariancetk' );
 import svariancewd = require( './../../../base/svariancewd' );
 import svarianceyc = require( './../../../base/svarianceyc' );
 import variance = require( './../../../base/variance' );
@@ -2980,60 +2978,6 @@ interface Namespace {
 	* // returns ~4.3333
 	*/
 	svariance: typeof svariance;
-
-	/**
-	* Computes the variance of a single-precision floating-point strided array using a two-pass algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns variance
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.svariancepn( x.length, 1, x, 1 );
-	* // returns ~4.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.svariancepn.ndarray( x.length, 1, x, 1, 0 );
-	* // returns ~4.3333
-	*/
-	svariancepn: typeof svariancepn;
-
-	/**
-	* Computes the variance of a single-precision floating-point strided array using a one-pass textbook algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns variance
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.svariancetk( x.length, 1, x, 1 );
-	* // returns ~4.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.svariancetk.ndarray( x.length, 1, x, 1, 0 );
-	* // returns ~4.3333
-	*/
-	svariancetk: typeof svariancetk;
 
 	/**
 	* Computes the variance of a single-precision floating-point strided array using Welford's algorithm.
