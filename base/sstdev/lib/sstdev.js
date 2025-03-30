@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var sstdevpn = require( './../../../base/sstdevpn' );
+var sstdevpn = require( './../../../strided/sstdevpn' );
 
 
 // MAIN //

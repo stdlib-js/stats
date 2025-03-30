@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var sstdevpn = require( './../../../base/sstdevpn' ).ndarray;
+var sstdevpn = require( './../../../strided/sstdevpn' ).ndarray;
 
 
 // MAIN //

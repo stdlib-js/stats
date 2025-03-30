@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# dstdevpn
+# sstdevpn
 
-> Calculate the [standard deviation][standard-deviation] of a double-precision floating-point strided array using a two-pass algorithm.
+> Calculate the [standard deviation][standard-deviation] of a single-precision floating-point strided array using a two-pass algorithm.
 
 <section class="intro">
 
@@ -33,7 +33,7 @@ The population [standard deviation][standard-deviation] of a finite size populat
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma = \sqrt{\frac{1}{N} \sum_{i=0}^{N-1} (x_i - \mu)^2}" data-equation="eq:population_standard_deviation">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fd5c95fa313aa54712bf5c0996c7a3a5684eb9ca/lib/node_modules/@stdlib/stats/strided/dstdevpn/docs/img/equation_population_standard_deviation.svg" alt="Equation for the population standard deviation.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@c3b591460d7680b7a5301cbae59ddc99f21dc257/lib/node_modules/@stdlib/stats/strided/sstdevpn/docs/img/equation_population_standard_deviation.svg" alt="Equation for the population standard deviation.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ where the population mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{N} \sum_{i=0}^{N-1} x_i" data-equation="eq:population_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fd5c95fa313aa54712bf5c0996c7a3a5684eb9ca/lib/node_modules/@stdlib/stats/strided/dstdevpn/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@c3b591460d7680b7a5301cbae59ddc99f21dc257/lib/node_modules/@stdlib/stats/strided/sstdevpn/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
     <br>
 </div> -->
 
@@ -63,7 +63,7 @@ s = \sqrt{\frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2}
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="s = \sqrt{\frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2}" data-equation="eq:corrected_sample_standard_deviation">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fd5c95fa313aa54712bf5c0996c7a3a5684eb9ca/lib/node_modules/@stdlib/stats/strided/dstdevpn/docs/img/equation_corrected_sample_standard_deviation.svg" alt="Equation for computing a corrected sample standard deviation.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@c3b591460d7680b7a5301cbae59ddc99f21dc257/lib/node_modules/@stdlib/stats/strided/sstdevpn/docs/img/equation_corrected_sample_standard_deviation.svg" alt="Equation for computing a corrected sample standard deviation.">
     <br>
 </div> -->
 
@@ -78,7 +78,7 @@ where the sample mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:sample_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fd5c95fa313aa54712bf5c0996c7a3a5684eb9ca/lib/node_modules/@stdlib/stats/strided/dstdevpn/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@c3b591460d7680b7a5301cbae59ddc99f21dc257/lib/node_modules/@stdlib/stats/strided/sstdevpn/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
     <br>
 </div> -->
 
@@ -95,19 +95,19 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
-var dstdevpn = require( '@stdlib/stats/strided/dstdevpn' );
+var sstdevpn = require( '@stdlib/stats/strided/sstdevpn' );
 ```
 
-#### dstdevpn( N, correction, x, strideX )
+#### sstdevpn( N, correction, x, strideX )
 
-Computes the [standard deviation][standard-deviation] of a double-precision floating-point strided array `x` using a two-pass algorithm.
+Computes the [standard deviation][standard-deviation] of a single-precision floating-point strided array using a two-pass algorithm.
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 
-var v = dstdevpn( x.length, 1, x, 1 );
+var v = sstdevpn( x.length, 1, x, 1 );
 // returns ~2.0817
 ```
 
@@ -115,17 +115,17 @@ The function has the following parameters:
 
 -   **N**: number of indexed elements.
 -   **correction**: degrees of freedom adjustment. Setting this parameter to a value other than `0` has the effect of adjusting the divisor during the calculation of the [standard deviation][standard-deviation] according to `N-c` where `c` corresponds to the provided degrees of freedom adjustment. When computing the [standard deviation][standard-deviation] of a population, setting this parameter to `0` is the standard choice (i.e., the provided array contains data constituting an entire population). When computing the corrected sample [standard deviation][standard-deviation], setting this parameter to `1` is the standard choice (i.e., the provided array contains data sampled from a larger population; this is commonly referred to as Bessel's correction).
--   **x**: input [`Float64Array`][@stdlib/array/float64].
+-   **x**: input [`Float32Array`][@stdlib/array/float32].
 -   **strideX**: stride length for `x`.
 
 The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to compute the [standard deviation][standard-deviation] of every other element in `x`,
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ] );
+var x = new Float32Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ] );
 
-var v = dstdevpn( 4, 1, x, 2 );
+var v = sstdevpn( 4, 1, x, 2 );
 // returns 2.5
 ```
 
@@ -134,25 +134,25 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 <!-- eslint-disable stdlib/capitalized-comments -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x0 = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
-var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+var x0 = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
+var x1 = new Float32Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var v = dstdevpn( 4, 1, x1, 2 );
+var v = sstdevpn( 4, 1, x1, 2 );
 // returns 2.5
 ```
 
-#### dstdevpn.ndarray( N, correction, x, strideX, offsetX )
+#### sstdevpn.ndarray( N, correction, x, strideX, offsetX )
 
-Computes the [standard deviation][standard-deviation] of a double-precision floating-point strided array using a two-pass algorithm and alternative indexing semantics.
+Computes the [standard deviation][standard-deviation] of a single-precision floating-point strided array using a two-pass algorithm and alternative indexing semantics.
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 
-var v = dstdevpn.ndarray( x.length, 1, x, 1, 0 );
+var v = sstdevpn.ndarray( x.length, 1, x, 1, 0 );
 // returns ~2.0817
 ```
 
@@ -163,11 +163,11 @@ The function has the following additional parameters:
 While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameter supports indexing semantics based on a starting index. For example, to calculate the [standard deviation][standard-deviation] for every other element in `x` starting from the second element
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
+var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 
-var v = dstdevpn.ndarray( 4, 1, x, 2, 1 );
+var v = sstdevpn.ndarray( 4, 1, x, 2, 1 );
 // returns 2.5
 ```
 
@@ -194,14 +194,14 @@ var v = dstdevpn.ndarray( 4, 1, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dstdevpn = require( '@stdlib/stats/strided/dstdevpn' );
+var sstdevpn = require( '@stdlib/stats/strided/sstdevpn' );
 
 var x = discreteUniform( 10, -50, 50, {
-    'dtype': 'float64'
+    'dtype': 'float32'
 });
 console.log( x );
 
-var v = dstdevpn( x.length, 1, x, 1 );
+var v = sstdevpn( x.length, 1, x, 1 );
 console.log( v );
 ```
 
@@ -232,52 +232,52 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/dstdevpn.h"
+#include "stdlib/stats/strided/sstdevpn.h"
 ```
 
-#### stdlib_strided_dstdevpn( N, correction, \*X, strideX )
+#### stdlib_strided_sstdevpn( N, correction, \*X, strideX )
 
-Computes the [standard deviation][standard-deviation] of a double-precision floating-point strided array using a two-pass algorithm.
+Computes the [standard deviation][standard-deviation] of a single-precision floating-point strided array using a two-pass trial mean algorithm.
 
 ```c
-const double x[] = { 1.0, -2.0, 2.0 };
+const float x[] = { 1.0f, -2.0f, 2.0f };
 
-double v = stdlib_strided_dstdevpn( 3, 1.0, x, 1 );
-// returns ~2.0817
+float v = stdlib_strided_sstdevpn( 3, 1.0f, x, 1 );
+// returns ~2.0817f
 ```
 
 The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
--   **correction**: `[in] double` degrees of freedom adjustment. Setting this parameter to a value other than `0` has the effect of adjusting the divisor during the calculation of the [standard deviation][standard-deviation] according to `N-c` where `c` corresponds to the provided degrees of freedom adjustment. When computing the [standard deviation][standard-deviation] of a population, setting this parameter to `0` is the standard choice (i.e., the provided array contains data constituting an entire population). When computing the corrected sample [standard deviation][standard-deviation], setting this parameter to `1` is the standard choice (i.e., the provided array contains data sampled from a larger population; this is commonly referred to as Bessel's correction).
--   **X**: `[in] double*` input array.
+-   **correction**: `[in] float` degrees of freedom adjustment. Setting this parameter to a value other than `0` has the effect of adjusting the divisor during the calculation of the [standard deviation][standard-deviation] according to `N-c` where `c` corresponds to the provided degrees of freedom adjustment. When computing the [standard deviation][standard-deviation] of a population, setting this parameter to `0` is the standard choice (i.e., the provided array contains data constituting an entire population). When computing the corrected sample [standard deviation][standard-deviation], setting this parameter to `1` is the standard choice (i.e., the provided array contains data sampled from a larger population; this is commonly referred to as Bessel's correction).
+-   **X**: `[in] float*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 
 ```c
-double stdlib_strided_dstdevpn( const CBLAS_INT N, const double correction, const double *X, const CBLAS_INT strideX );
+float stdlib_strided_sstdevpn( const CBLAS_INT N, const float correction, const float *X, const CBLAS_INT strideX );
 ```
 
-#### stdlib_strided_dstdevpn_ndarray( N, correction, \*X, strideX, offsetX )
+#### stdlib_strided_sstdevpn_ndarray( N, correction, \*X, strideX, offsetX )
 
-Computes the [standard deviation][standard-deviation] of a double-precision floating-point strided array using a two-pass algorithm and alternative indexing semantics.
+Computes the [standard deviation][standard-deviation] of a single-precision floating-point strided array using a two-pass trial mean algorithm and alternative indexing semantics.
 
 ```c
-const double x[] = { 1.0, -2.0, 2.0 };
+const float x[] = { 1.0f, -2.0f, 2.0f };
 
-double v = stdlib_strided_dstdevpn_ndarray( 3, 1.0, x, 1, 0 );
-// returns ~2.0817
+float v = stdlib_strided_sstdevpn_ndarray( 3, 1.0f, x, 1, 0 );
+// returns ~2.0817f
 ```
 
 The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
--   **correction**: `[in] double` degrees of freedom adjustment. Setting this parameter to a value other than `0` has the effect of adjusting the divisor during the calculation of the [standard deviation][standard-deviation] according to `N-c` where `c` corresponds to the provided degrees of freedom adjustment. When computing the [standard deviation][standard-deviation] of a population, setting this parameter to `0` is the standard choice (i.e., the provided array contains data constituting an entire population). When computing the corrected sample [standard deviation][standard-deviation], setting this parameter to `1` is the standard choice (i.e., the provided array contains data sampled from a larger population; this is commonly referred to as Bessel's correction).
--   **X**: `[in] double*` input array.
+-   **correction**: `[in] float` degrees of freedom adjustment. Setting this parameter to a value other than `0` has the effect of adjusting the divisor during the calculation of the [standard deviation][standard-deviation] according to `N-c` where `c` corresponds to the provided degrees of freedom adjustment. When computing the [standard deviation][standard-deviation] of a population, setting this parameter to `0` is the standard choice (i.e., the provided array contains data constituting an entire population). When computing the corrected sample [standard deviation][standard-deviation], setting this parameter to `1` is the standard choice (i.e., the provided array contains data sampled from a larger population; this is commonly referred to as Bessel's correction).
+-   **X**: `[in] float*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 -   **offsetX**: `[in] CBLAS_INT` starting index for `X`.
 
 ```c
-double stdlib_strided_dstdevpn_ndarray( const CBLAS_INT N, const double correction, const double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
+float stdlib_strided_sstdevpn_ndarray( const CBLAS_INT N, const float correction, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
 ```
 
 </section>
@@ -299,12 +299,12 @@ double stdlib_strided_dstdevpn_ndarray( const CBLAS_INT N, const double correcti
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/dstdevpn.h"
+#include "stdlib/stats/strided/sstdevpn.h"
 #include <stdio.h>
 
 int main( void ) {
     // Create a strided array:
-    const double x[] = { 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 };
+    const float x[] = { 1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f, 7.0f, 8.0f };
 
     // Specify the number of elements:
     const int N = 4;
@@ -313,10 +313,10 @@ int main( void ) {
     const int strideX = 2;
 
     // Compute the variance:
-    double v = stdlib_strided_dstdevpn( N, 1.0, x, strideX );
+    float v = stdlib_strided_sstdevpn( N, 1.0f, x, strideX );
 
     // Print the result:
-    printf( "sample standard deviation: %lf\n", v );
+    printf( "sample standard deviation: %f\n", v );
 }
 ```
 
@@ -349,11 +349,11 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/strided/dnanstdevpn`][@stdlib/stats/strided/dnanstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values and using a two-pass algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/dstdev`][@stdlib/stats/base/dstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/strided/dvariancepn`][@stdlib/stats/strided/dvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a two-pass algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/strided/sstdevpn`][@stdlib/stats/strided/sstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using a two-pass algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dstdevpn`][@stdlib/stats/strided/dstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a two-pass algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanstdevpn`][@stdlib/stats/base/snanstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a two-pass algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/sstdev`][@stdlib/stats/base/sstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/stdevpn`][@stdlib/stats/base/stdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a two-pass algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/svariancepn`][@stdlib/stats/base/svariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a two-pass algorithm.</span>
 
 </section>
 
@@ -365,7 +365,7 @@ int main( void ) {
 
 [standard-deviation]: https://en.wikipedia.org/wiki/Standard_deviation
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
@@ -375,15 +375,15 @@ int main( void ) {
 
 <!-- <related-links> -->
 
-[@stdlib/stats/strided/dnanstdevpn]: https://github.com/stdlib-js/stats/tree/main/strided/dnanstdevpn
+[@stdlib/stats/strided/dstdevpn]: https://github.com/stdlib-js/stats/tree/main/strided/dstdevpn
 
-[@stdlib/stats/base/dstdev]: https://github.com/stdlib-js/stats/tree/main/base/dstdev
+[@stdlib/stats/base/snanstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevpn
 
-[@stdlib/stats/strided/dvariancepn]: https://github.com/stdlib-js/stats/tree/main/strided/dvariancepn
-
-[@stdlib/stats/strided/sstdevpn]: https://github.com/stdlib-js/stats/tree/main/strided/sstdevpn
+[@stdlib/stats/base/sstdev]: https://github.com/stdlib-js/stats/tree/main/base/sstdev
 
 [@stdlib/stats/base/stdevpn]: https://github.com/stdlib-js/stats/tree/main/base/stdevpn
+
+[@stdlib/stats/base/svariancepn]: https://github.com/stdlib-js/stats/tree/main/base/svariancepn
 
 <!-- </related-links> -->
 
