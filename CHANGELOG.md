@@ -46,6 +46,106 @@
 
 ##### BREAKING CHANGES
 
+-   [`ea924d3`](https://github.com/stdlib-js/stdlib/commit/ea924d374e9d453dde39d0a73d2bb17fa8ebba7a): remove `stats/base/sstdevch`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/sstdevch` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`d82392d`](https://github.com/stdlib-js/stdlib/commit/d82392d512bde189e69f21090fb333e4959bd647): remove `stats/base/srange`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/srange` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`8cdf9ca`](https://github.com/stdlib-js/stdlib/commit/8cdf9ca277d948d572bc80df48433320f0fa190b): remove `stats/base/snanrange`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/snanrange` namespace.
@@ -23374,6 +23474,65 @@ A total of 3 issues were closed in this release:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`55fc363`](https://github.com/stdlib-js/stdlib/commit/55fc3638bbb3b2e09c51b9cd181015cb46d228d3): remove `stats/base/srange`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/srange`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -23395,6 +23554,65 @@ A total of 3 issues were closed in this release:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`3826275`](https://github.com/stdlib-js/stdlib/commit/38262751a52179ad0200e0e1f4e8648837cc1eb8): remove `stats/base/sstdevch`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/sstdevch`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="issues">
 
@@ -25828,6 +26046,50 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-srange-unreleased">
+
+#### [@stdlib/stats/strided/srange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/srange)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e867728`](https://github.com/stdlib-js/stdlib/commit/e867728fac63b0e3918d604c2aa08a2e4fa12c28) - add `stats/strided/srange`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-strided-sstdevch-unreleased">
+
+#### [@stdlib/stats/strided/sstdevch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/sstdevch)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`00569aa`](https://github.com/stdlib-js/stdlib/commit/00569aa051fd963e26a0cf55778fd55e46439b27) - add `stats/strided/sstdevch`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -25835,6 +26097,208 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`3826275`](https://github.com/stdlib-js/stdlib/commit/38262751a52179ad0200e0e1f4e8648837cc1eb8): remove `stats/base/sstdevch`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/sstdevch`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`ea924d3`](https://github.com/stdlib-js/stdlib/commit/ea924d374e9d453dde39d0a73d2bb17fa8ebba7a): remove `stats/base/sstdevch`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/sstdevch` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`55fc363`](https://github.com/stdlib-js/stdlib/commit/55fc3638bbb3b2e09c51b9cd181015cb46d228d3): remove `stats/base/srange`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/srange`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`d82392d`](https://github.com/stdlib-js/stdlib/commit/d82392d512bde189e69f21090fb333e4959bd647): remove `stats/base/srange`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/srange` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`0827318`](https://github.com/stdlib-js/stdlib/commit/08273189caeddafdccb5bd9431290bbf385627d9): remove `stats/base/snanrange`
 
@@ -35079,6 +35543,14 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3826275`](https://github.com/stdlib-js/stdlib/commit/38262751a52179ad0200e0e1f4e8648837cc1eb8) - **remove:** remove `stats/base/sstdevch` _(by Aayush Khanna)_
+-   [`4894ba9`](https://github.com/stdlib-js/stdlib/commit/4894ba93c712a1b42242c1c597afa9cdc811ad8c) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`ea924d3`](https://github.com/stdlib-js/stdlib/commit/ea924d374e9d453dde39d0a73d2bb17fa8ebba7a) - **remove:** remove `stats/base/sstdevch` from namespace _(by Aayush Khanna)_
+-   [`00569aa`](https://github.com/stdlib-js/stdlib/commit/00569aa051fd963e26a0cf55778fd55e46439b27) - **feat:** add `stats/strided/sstdevch` _(by Aayush Khanna)_
+-   [`55fc363`](https://github.com/stdlib-js/stdlib/commit/55fc3638bbb3b2e09c51b9cd181015cb46d228d3) - **remove:** remove `stats/base/srange` _(by Aayush Khanna)_
+-   [`63eeda1`](https://github.com/stdlib-js/stdlib/commit/63eeda110c5f6ff1bea1d99281b147ba92ec5377) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`d82392d`](https://github.com/stdlib-js/stdlib/commit/d82392d512bde189e69f21090fb333e4959bd647) - **remove:** remove `stats/base/srange` from namespace _(by Aayush Khanna)_
+-   [`e867728`](https://github.com/stdlib-js/stdlib/commit/e867728fac63b0e3918d604c2aa08a2e4fa12c28) - **feat:** add `stats/strided/srange` _(by Aayush Khanna)_
 -   [`0827318`](https://github.com/stdlib-js/stdlib/commit/08273189caeddafdccb5bd9431290bbf385627d9) - **remove:** remove `stats/base/snanrange` _(by Aayush Khanna)_
 -   [`36e1bc3`](https://github.com/stdlib-js/stdlib/commit/36e1bc38710d07b84bf38c11cedaec4748b7faeb) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`8cdf9ca`](https://github.com/stdlib-js/stdlib/commit/8cdf9ca277d948d572bc80df48433320f0fa190b) - **remove:** remove `stats/base/snanrange` from namespace _(by Aayush Khanna)_

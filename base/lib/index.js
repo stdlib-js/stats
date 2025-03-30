@@ -919,15 +919,6 @@ setReadOnly( ns, 'snanvariancewd', require( './../../base/snanvariancewd' ) );
 setReadOnly( ns, 'snanvarianceyc', require( './../../base/snanvarianceyc' ) );
 
 /**
-* @name srange
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/srange}
-*/
-setReadOnly( ns, 'srange', require( './../../base/srange' ) );
-
-/**
 * @name sstdev
 * @memberof ns
 * @readonly
@@ -935,15 +926,6 @@ setReadOnly( ns, 'srange', require( './../../base/srange' ) );
 * @see {@link module:@stdlib/stats/base/sstdev}
 */
 setReadOnly( ns, 'sstdev', require( './../../base/sstdev' ) );
-
-/**
-* @name sstdevch
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/sstdevch}
-*/
-setReadOnly( ns, 'sstdevch', require( './../../base/sstdevch' ) );
 
 /**
 * @name sstdevpn

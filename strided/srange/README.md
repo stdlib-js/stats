@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# snanrange
+# srange
 
-> Calculate the [range][range] of a single-precision floating-point strided array, ignoring `NaN` values.
+> Calculate the [range][range] of a single-precision floating-point strided array.
 
 <section class="intro">
 
@@ -35,19 +35,19 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-var snanrange = require( '@stdlib/stats/strided/snanrange' );
+var srange = require( '@stdlib/stats/strided/srange' );
 ```
 
-#### snanrange( N, x, strideX )
+#### srange( N, x, strideX )
 
-Computes the [range][range] of a single-precision floating-point strided array `x`, ignoring `NaN` values.
+Computes the [range][range] of a single-precision floating-point strided array `x`.
 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 
-var v = snanrange( x.length, x, 1 );
+var v = srange( x.length, x, 1 );
 // returns 4.0
 ```
 
@@ -62,10 +62,10 @@ The `N` and stride parameters determine which elements in the strided array are 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float32Array( [ 1.0, 2.0, -7.0, -2.0, 4.0, 3.0, NaN, NaN ] );
+var x = new Float32Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ] );
 
-var v = snanrange( 4, x, 2 );
-// returns 11.0
+var v = srange( 4, x, 2 );
+// returns 6.0
 ```
 
 Note that indexing is relative to the first index. To introduce an offset, use [`typed array`][mdn-typed-array] views.
@@ -75,23 +75,23 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
 
-var x0 = new Float32Array( [ 2.0, 1.0, -2.0, -2.0, 3.0, 4.0, NaN, NaN ] );
+var x0 = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 var x1 = new Float32Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var v = snanrange( 4, x1, 2 );
+var v = srange( 4, x1, 2 );
 // returns 6.0
 ```
 
-#### snanrange.ndarray( N, x, strideX, offsetX )
+#### srange.ndarray( N, x, strideX, offsetX )
 
-Computes the [range][range] of a single-precision floating-point strided array, ignoring `NaN` values and using alternative indexing semantics.
+Computes the [range][range] of a single-precision floating-point strided array using alternative indexing semantics.
 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 
-var v = snanrange.ndarray( x.length, x, 1, 0 );
+var v = srange.ndarray( x.length, x, 1, 0 );
 // returns 4.0
 ```
 
@@ -104,9 +104,9 @@ While [`typed array`][mdn-typed-array] views mandate a view offset based on the 
 ```javascript
 var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float32Array( [ 2.0, 1.0, -2.0, -2.0, 3.0, 4.0, NaN, NaN ] );
+var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 
-var v = snanrange.ndarray( 4, x, 2, 1 );
+var v = srange.ndarray( 4, x, 2, 1 );
 // returns 6.0
 ```
 
@@ -131,25 +131,15 @@ var v = snanrange.ndarray( 4, x, 2, 1 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var randu = require( '@stdlib/random/base/randu' );
-var round = require( '@stdlib/math/base/special/round' );
-var Float32Array = require( '@stdlib/array/float32' );
-var snanrange = require( '@stdlib/stats/strided/snanrange' );
+var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
+var srange = require( '@stdlib/stats/strided/srange' );
 
-var x;
-var i;
-
-x = new Float32Array( 10 );
-for ( i = 0; i < x.length; i++ ) {
-    if ( randu() < 0.2 ) {
-        x[ i ] = NaN;
-    } else {
-        x[ i ] = round( (randu()*100.0) - 50.0 );
-    }
-}
+var x = discreteUniform( 10, -50, 50, {
+    'dtype': 'float32'
+});
 console.log( x );
 
-var v = snanrange( x.length, x, 1 );
+var v = srange( x.length, x, 1 );
 console.log( v );
 ```
 
@@ -180,18 +170,18 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/snanrange.h"
+#include "stdlib/stats/strided/srange.h"
 ```
 
-#### stdlib_strided_snanrange( N, \*X, strideX )
+#### stdlib_strided_srange( N, \*X, strideX )
 
-Computes the [range][range] of a single-precision floating-point strided array `x`, ignoring `NaN` values.
+Computes the [range][range] of a single-precision floating-point strided array `x`.
 
 ```c
-const float x[] = { 1.0f, -2.0f, 0.0f/0.0f, -4.0f };
+const float x[] = { 1.0f, -2.0f, 3.0f, -4.0f };
 
-float v = stdlib_strided_snanrange( 4, x, 1 );
-// returns 5.0f
+float v = stdlib_strided_srange( 4, x, 1 );
+// returns 7.0f
 ```
 
 The function accepts the following arguments:
@@ -201,18 +191,18 @@ The function accepts the following arguments:
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 
 ```c
-float stdlib_strided_snanrange( const CBLAS_INT N, const float *X, const CBLAS_INT strideX );
+float stdlib_strided_srange( const CBLAS_INT N, const float *X, const CBLAS_INT strideX );
 ```
 
-#### stdlib_strided_snanrange_ndarray( N, \*X, strideX, offsetX )
+#### stdlib_strided_srange_ndarray( N, \*X, strideX, offsetX )
 
-Computes the [range][range] of a single-precision floating-point strided array, ignoring `NaN` values and using alternative indexing semantics.
+Computes the [range][range] of a single-precision floating-point strided array using alternative indexing semantics.
 
 ```c
-const float x[] = { 1.0f, -2.0f, 0.0f/0.0f, -4.0f };
+const float x[] = { 1.0f, -2.0f, 3.0f, -4.0f };
 
-float v = stdlib_strided_snanrange_ndarray( 4, x, 1, 0 );
-// returns 5.0f
+float v = stdlib_strided_srange_ndarray( 4, x, 1, 0 );
+// returns 7.0f
 ```
 
 The function accepts the following arguments:
@@ -223,7 +213,7 @@ The function accepts the following arguments:
 -   **offsetX**: `[in] CBLAS_INT` starting index for `X`.
 
 ```c
-float stdlib_strided_snanrange_ndarray( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
+float stdlib_strided_srange_ndarray( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
 ```
 
 </section>
@@ -245,21 +235,21 @@ float stdlib_strided_snanrange_ndarray( const CBLAS_INT N, const float *X, const
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/snanrange.h"
+#include "stdlib/stats/strided/srange.h"
 #include <stdio.h>
 
 int main( void ) {
     // Create a strided array:
-    const float x[] = { 1.0f, -2.0f, -3.0f, 4.0f, -5.0f, -6.0f, 7.0f, 8.0f, 0.0f/0.0f, 0.0f/0.0f };
+    const float x[] = { 1.0f, -2.0f, -3.0f, 4.0f, -5.0f, -6.0f, 7.0f, 8.0f };
 
     // Specify the number of elements:
-    const int N = 5;
+    const int N = 4;
 
     // Specify the stride length:
     const int strideX = 2;
 
     // Compute the range:
-    float v = stdlib_strided_snanrange( N, x, strideX );
+    float v = stdlib_strided_srange( N, x, strideX );
 
     // Print the result:
     printf( "range: %f\n", v );
@@ -282,11 +272,11 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/strided/dnanrange`][@stdlib/stats/strided/dnanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanrange`][@stdlib/stats/base/nanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/strided/snanmax`][@stdlib/stats/strided/snanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/strided/snanmin`][@stdlib/stats/strided/snanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/strided/srange`][@stdlib/stats/strided/srange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/drange`][@stdlib/stats/strided/drange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/smax`][@stdlib/stats/strided/smax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/smin`][@stdlib/stats/strided/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/snanrange`][@stdlib/stats/strided/snanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/range`][@stdlib/stats/base/range]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array.</span>
 
 </section>
 
@@ -304,15 +294,15 @@ int main( void ) {
 
 <!-- <related-links> -->
 
-[@stdlib/stats/strided/dnanrange]: https://github.com/stdlib-js/stats/tree/main/strided/dnanrange
+[@stdlib/stats/strided/drange]: https://github.com/stdlib-js/stats/tree/main/strided/drange
 
-[@stdlib/stats/base/nanrange]: https://github.com/stdlib-js/stats/tree/main/base/nanrange
+[@stdlib/stats/strided/smax]: https://github.com/stdlib-js/stats/tree/main/strided/smax
 
-[@stdlib/stats/strided/snanmax]: https://github.com/stdlib-js/stats/tree/main/strided/snanmax
+[@stdlib/stats/strided/smin]: https://github.com/stdlib-js/stats/tree/main/strided/smin
 
-[@stdlib/stats/strided/snanmin]: https://github.com/stdlib-js/stats/tree/main/strided/snanmin
+[@stdlib/stats/strided/snanrange]: https://github.com/stdlib-js/stats/tree/main/strided/snanrange
 
-[@stdlib/stats/strided/srange]: https://github.com/stdlib-js/stats/tree/main/strided/srange
+[@stdlib/stats/base/range]: https://github.com/stdlib-js/stats/tree/main/base/range
 
 <!-- </related-links> -->
 
