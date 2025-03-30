@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/snanmaxabs.h"
+#include "stdlib/stats/strided/snanmaxabs.h"
 #include "stdlib/math/base/assert/is_nanf.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/math/base/special/absf.h"

@@ -120,7 +120,7 @@ var v = nanmaxabs.ndarray( N, x, 2, 1 );
 ## Notes
 
 -   If `N <= 0`, both functions return `NaN`.
--   Depending on the environment, the typed versions ([`dnanmaxabs`][@stdlib/stats/strided/dnanmaxabs], [`snanmaxabs`][@stdlib/stats/base/snanmaxabs], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dnanmaxabs`][@stdlib/stats/strided/dnanmaxabs], [`snanmaxabs`][@stdlib/stats/strided/snanmaxabs], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -171,7 +171,7 @@ console.log( v );
 -   <span class="package-name">[`@stdlib/stats/base/maxabs`][@stdlib/stats/base/maxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanmax`][@stdlib/stats/base/nanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanminabs`][@stdlib/stats/base/nanminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/snanmaxabs`][@stdlib/stats/base/snanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a single-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/snanmaxabs`][@stdlib/stats/strided/snanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a single-precision floating-point strided array, ignoring NaN values.</span>
 
 </section>
 
@@ -195,7 +195,7 @@ console.log( v );
 
 [@stdlib/stats/base/nanminabs]: https://github.com/stdlib-js/stats/tree/main/base/nanminabs
 
-[@stdlib/stats/base/snanmaxabs]: https://github.com/stdlib-js/stats/tree/main/base/snanmaxabs
+[@stdlib/stats/strided/snanmaxabs]: https://github.com/stdlib-js/stats/tree/main/strided/snanmaxabs
 
 <!-- </related-links> -->
 

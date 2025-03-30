@@ -21,11 +21,11 @@
 /**
 * Compute the maximum absolute value of a single-precision floating-point strided array, ignoring `NaN` values.
 *
-* @module @stdlib/stats/base/snanmaxabs
+* @module @stdlib/stats/strided/snanmaxabs
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var snanmaxabs = require( '@stdlib/stats/base/snanmaxabs' );
+* var snanmaxabs = require( '@stdlib/stats/strided/snanmaxabs' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var snanmaxabs = require( '@stdlib/stats/base/snanmaxabs' );
+* var snanmaxabs = require( '@stdlib/stats/strided/snanmaxabs' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
 *

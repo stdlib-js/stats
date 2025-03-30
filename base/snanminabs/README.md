@@ -283,7 +283,7 @@ int main( void ) {
 -   <span class="package-name">[`@stdlib/stats/strided/dnanminabs`][@stdlib/stats/strided/dnanminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanminabs`][@stdlib/stats/base/nanminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/sminabs`][@stdlib/stats/strided/sminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a single-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/snanmaxabs`][@stdlib/stats/base/snanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a single-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/snanmaxabs`][@stdlib/stats/strided/snanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a single-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanmin`][@stdlib/stats/base/snanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array, ignoring NaN values.</span>
 
 </section>
@@ -306,7 +306,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/sminabs]: https://github.com/stdlib-js/stats/tree/main/strided/sminabs
 
-[@stdlib/stats/base/snanmaxabs]: https://github.com/stdlib-js/stats/tree/main/base/snanmaxabs
+[@stdlib/stats/strided/snanmaxabs]: https://github.com/stdlib-js/stats/tree/main/strided/snanmaxabs
 
 [@stdlib/stats/base/snanmin]: https://github.com/stdlib-js/stats/tree/main/base/snanmin
 
