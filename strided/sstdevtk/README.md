@@ -353,7 +353,7 @@ int main( void ) {
 -   <span class="package-name">[`@stdlib/stats/base/snanstdevtk`][@stdlib/stats/base/snanstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a one-pass textbook algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/sstdev`][@stdlib/stats/base/sstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/stdevtk`][@stdlib/stats/base/stdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass textbook algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/strided/svariancetk`][@stdlib/stats/strided/svariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a one-pass textbook algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/svariancetk`][@stdlib/stats/base/svariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using a one-pass textbook algorithm.</span>
 
 </section>
 
@@ -381,7 +381,7 @@ int main( void ) {
 
 [@stdlib/stats/base/stdevtk]: https://github.com/stdlib-js/stats/tree/main/base/stdevtk
 
-[@stdlib/stats/strided/svariancetk]: https://github.com/stdlib-js/stats/tree/main/strided/svariancetk
+[@stdlib/stats/base/svariancetk]: https://github.com/stdlib-js/stats/tree/main/base/svariancetk
 
 <!-- </related-links> -->
 

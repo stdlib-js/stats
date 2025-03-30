@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/svariancetk.h"
+#include "stdlib/stats/base/svariancetk.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

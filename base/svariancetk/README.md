@@ -33,7 +33,7 @@ The population [variance][variance] of a finite size population of size `N` is g
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma^2 = \frac{1}{N} \sum_{i=0}^{N-1} (x_i - \mu)^2" data-equation="eq:population_variance">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/strided/svariancetk/docs/img/equation_population_variance.svg" alt="Equation for the population variance.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/base/svariancetk/docs/img/equation_population_variance.svg" alt="Equation for the population variance.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ where the population mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{N} \sum_{i=0}^{N-1} x_i" data-equation="eq:population_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/strided/svariancetk/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/base/svariancetk/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
     <br>
 </div> -->
 
@@ -63,7 +63,7 @@ After rearranging terms, the population [variance][variance] can be equivalently
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma^2 = \frac{1}{N}\biggl(\ \sum_{i=0}^{N-1} x_i^2 - \frac{1}{N}\biggl(\ \sum_{i=0}^{N-1} x_i \ \biggr)^2\ \biggr)" data-equation="eq:population_variance_textbook">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/strided/svariancetk/docs/img/equation_population_variance_textbook.svg" alt="Equation for the population variance (one-pass textbook formula).">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/base/svariancetk/docs/img/equation_population_variance_textbook.svg" alt="Equation for the population variance (one-pass textbook formula).">
     <br>
 </div> -->
 
@@ -78,7 +78,7 @@ s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2" data-equation="eq:unbiased_sample_variance">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/strided/svariancetk/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for computing an unbiased sample variance.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/base/svariancetk/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for computing an unbiased sample variance.">
     <br>
 </div> -->
 
@@ -93,7 +93,7 @@ where the sample mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:sample_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/strided/svariancetk/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/base/svariancetk/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
     <br>
 </div> -->
 
@@ -108,7 +108,7 @@ s^2 = \frac{1}{n-1}\biggl(\ \sum_{i=0}^{n-1} x_i^2 - \frac{1}{n}\biggl(\ \sum_{i
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="s^2 = \frac{1}{n-1}\biggl(\ \sum_{i=0}^{n-1} x_i^2 - \frac{1}{n}\biggl(\ \sum_{i=0}^{n-1} x_i \ \biggr)^2\ \biggr)" data-equation="eq:unbiased_sample_variance_textbook">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/strided/svariancetk/docs/img/equation_unbiased_sample_variance_textbook.svg" alt="Equation for the unbiased sample variance (one-pass textbook formula).">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@6da3e7388e483798f23a9ce30fcb35f454e7e3b4/lib/node_modules/@stdlib/stats/base/svariancetk/docs/img/equation_unbiased_sample_variance_textbook.svg" alt="Equation for the unbiased sample variance (one-pass textbook formula).">
     <br>
 </div> -->
 
@@ -125,7 +125,7 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
-var svariancetk = require( '@stdlib/stats/strided/svariancetk' );
+var svariancetk = require( '@stdlib/stats/base/svariancetk' );
 ```
 
 #### svariancetk( N, correction, x, strideX )
@@ -225,7 +225,7 @@ var v = svariancetk.ndarray( 4, 1, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var svariancetk = require( '@stdlib/stats/strided/svariancetk' );
+var svariancetk = require( '@stdlib/stats/base/svariancetk' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
@@ -263,7 +263,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/svariancetk.h"
+#include "stdlib/stats/base/svariancetk.h"
 ```
 
 #### stdlib_strided_svariancetk( N, correction, \*X, strideX )
@@ -330,7 +330,7 @@ float stdlib_strided_svariancetk_ndarray( const CBLAS_INT N, const float correct
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/svariancetk.h"
+#include "stdlib/stats/base/svariancetk.h"
 #include <stdio.h>
 
 int main( void ) {
