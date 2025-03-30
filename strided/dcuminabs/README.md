@@ -305,7 +305,7 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/stats/base/cuminabs`][@stdlib/stats/base/cuminabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum absolute value of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dcumaxabs`][@stdlib/stats/strided/dcumaxabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum absolute value of double-precision floating-point strided array elements.</span>
--   <span class="package-name">[`@stdlib/stats/base/dcumin`][@stdlib/stats/base/dcumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of double-precision floating-point strided array elements.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dcumin`][@stdlib/stats/strided/dcumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of double-precision floating-point strided array elements.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/scuminabs`][@stdlib/stats/strided/scuminabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum absolute value of single-precision floating-point strided array elements.</span>
 
 </section>
@@ -326,7 +326,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/dcumaxabs]: https://github.com/stdlib-js/stats/tree/main/strided/dcumaxabs
 
-[@stdlib/stats/base/dcumin]: https://github.com/stdlib-js/stats/tree/main/base/dcumin
+[@stdlib/stats/strided/dcumin]: https://github.com/stdlib-js/stats/tree/main/strided/dcumin
 
 [@stdlib/stats/strided/scuminabs]: https://github.com/stdlib-js/stats/tree/main/strided/scuminabs
 

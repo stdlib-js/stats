@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dcumin.h"
+#include "stdlib/stats/strided/dcumin.h"
 #include "stdlib/math/base/assert/is_nan.h"
 #include "stdlib/math/base/assert/is_negative_zero.h"
 #include "stdlib/blas/base/shared.h"

@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dcumin",
+  "name": "@stdlib/stats/strided/dcumin",
   "version": "0.0.0",
   "description": "Calculate the cumulative minimum of double-precision floating-point strided array elements.",
   "license": "Apache-2.0",

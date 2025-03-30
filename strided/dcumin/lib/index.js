@@ -21,11 +21,11 @@
 /**
 * Compute the cumulative minimum of double-precision floating-point strided array elements.
 *
-* @module @stdlib/stats/base/dcumin
+* @module @stdlib/stats/strided/dcumin
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dcumin = require( '@stdlib/stats/base/dcumin' );
+* var dcumin = require( '@stdlib/stats/strided/dcumin' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 * var y = new Float64Array( x.length );
@@ -35,7 +35,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dcumin = require( '@stdlib/stats/base/dcumin' );
+* var dcumin = require( '@stdlib/stats/strided/dcumin' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 * var y = new Float64Array( x.length );

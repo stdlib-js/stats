@@ -73,15 +73,6 @@ setReadOnly( ns, 'cumin', require( './../../base/cumin' ) );
 setReadOnly( ns, 'cuminabs', require( './../../base/cuminabs' ) );
 
 /**
-* @name dcumin
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dcumin}
-*/
-setReadOnly( ns, 'dcumin', require( './../../base/dcumin' ) );
-
-/**
 * @name dists
 * @memberof ns
 * @readonly

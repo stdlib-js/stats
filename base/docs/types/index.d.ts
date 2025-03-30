@@ -24,7 +24,6 @@ import cumax = require( './../../../base/cumax' );
 import cumaxabs = require( './../../../base/cumaxabs' );
 import cumin = require( './../../../base/cumin' );
 import cuminabs = require( './../../../base/cuminabs' );
-import dcumin = require( './../../../base/dcumin' );
 import dists = require( './../../../base/dists' );
 import dmean = require( './../../../base/dmean' );
 import dmeanpn = require( './../../../base/dmeanpn' );
@@ -255,36 +254,6 @@ interface Namespace {
 	* // y => [ 1.0, 1.0, 1.0 ]
 	*/
 	cuminabs: typeof cuminabs;
-
-	/**
-	* Computes the cumulative minimum of double-precision floating-point strided array elements.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param y - output array
-	* @param strideY - `y` stride length
-	* @returns output array
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	* var y = new Float64Array( x.length );
-	*
-	* ns.dcumin( x.length, x, 1, y, 1 );
-	* // y => <Float64Array>[ 1.0, -2.0, -2.0 ]
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	* var y = new Float64Array( x.length );
-	*
-	* ns.dcumin.ndarray( x.length, x, 1, 0, y, 1, 0 );
-	* // y => <Float64Array>[ 1.0, -2.0, -2.0 ]
-	*/
-	dcumin: typeof dcumin;
 
 	/**
 	* Base (i.e., lower-level) probability distributions.
