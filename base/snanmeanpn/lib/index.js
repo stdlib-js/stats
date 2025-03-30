@@ -21,11 +21,11 @@
 /**
 * Compute the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using a two-pass error correction algorithm.
 *
-* @module @stdlib/stats/strided/snanmeanpn
+* @module @stdlib/stats/base/snanmeanpn
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var snanmeanpn = require( '@stdlib/stats/strided/snanmeanpn' );
+* var snanmeanpn = require( '@stdlib/stats/base/snanmeanpn' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var snanmeanpn = require( '@stdlib/stats/strided/snanmeanpn' );
+* var snanmeanpn = require( '@stdlib/stats/base/snanmeanpn' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
 *

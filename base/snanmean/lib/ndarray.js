@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var snanmeanpn = require( './../../../strided/snanmeanpn' ).ndarray;
+var snanmeanpn = require( './../../../base/snanmeanpn' ).ndarray;
 
 
 // MAIN //
