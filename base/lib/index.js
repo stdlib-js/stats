@@ -775,15 +775,6 @@ setReadOnly( ns, 'smeanpn', require( './../../base/smeanpn' ) );
 setReadOnly( ns, 'smidrange', require( './../../base/smidrange' ) );
 
 /**
-* @name snanmax
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/snanmax}
-*/
-setReadOnly( ns, 'snanmax', require( './../../base/snanmax' ) );
-
-/**
 * @name snanmaxabs
 * @memberof ns
 * @readonly

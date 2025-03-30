@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/snanmax.h"
+#include "stdlib/stats/strided/snanmax.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

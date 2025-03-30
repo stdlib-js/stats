@@ -46,6 +46,56 @@
 
 ##### BREAKING CHANGES
 
+-   [`d5b153f`](https://github.com/stdlib-js/stdlib/commit/d5b153f5ccd89bd9cc98eceac9518c2b13678eb5): remove `stats/base/snanmax`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/snanmax` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`9e8b63b`](https://github.com/stdlib-js/stdlib/commit/9e8b63b633279aed16e2a35ed658f9931b1c69b2): remove `stats/base/smskrange`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/smskrange` namespace.
@@ -22264,6 +22314,65 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`8ea79f0`](https://github.com/stdlib-js/stdlib/commit/8ea79f033abcfcbba255d246da795397375870a7): remove `stats/base/snanmax`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/snanmax`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="issues">
 
 ##### Closed Issues
@@ -24780,6 +24889,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-snanmax-unreleased">
+
+#### [@stdlib/stats/strided/snanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/snanmax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b788a77`](https://github.com/stdlib-js/stdlib/commit/b788a773ae59f606b854842375dc125f8135a3ed) - add `stats/strided/snanmax`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -24787,6 +24918,107 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`8ea79f0`](https://github.com/stdlib-js/stdlib/commit/8ea79f033abcfcbba255d246da795397375870a7): remove `stats/base/snanmax`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/snanmax`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`d5b153f`](https://github.com/stdlib-js/stdlib/commit/d5b153f5ccd89bd9cc98eceac9518c2b13678eb5): remove `stats/base/snanmax`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/snanmax` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`7347f29`](https://github.com/stdlib-js/stdlib/commit/7347f296e755ccc30e0787aae5947e0cff75a500): remove `stats/base/smskrange`
 
@@ -33223,6 +33455,10 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8ea79f0`](https://github.com/stdlib-js/stdlib/commit/8ea79f033abcfcbba255d246da795397375870a7) - **remove:** remove `stats/base/snanmax` _(by Aayush Khanna)_
+-   [`9e0a066`](https://github.com/stdlib-js/stdlib/commit/9e0a0664d313b17adcad1731477a218a77151d47) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`d5b153f`](https://github.com/stdlib-js/stdlib/commit/d5b153f5ccd89bd9cc98eceac9518c2b13678eb5) - **remove:** remove `stats/base/snanmax` from namespace _(by Aayush Khanna)_
+-   [`b788a77`](https://github.com/stdlib-js/stdlib/commit/b788a773ae59f606b854842375dc125f8135a3ed) - **feat:** add `stats/strided/snanmax` _(by Aayush Khanna)_
 -   [`7347f29`](https://github.com/stdlib-js/stdlib/commit/7347f296e755ccc30e0787aae5947e0cff75a500) - **remove:** remove `stats/base/smskrange` _(by Aayush Khanna)_
 -   [`44946bd`](https://github.com/stdlib-js/stdlib/commit/44946bdd7847e0302e2c625d14e6fe61844481c9) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`9e8b63b`](https://github.com/stdlib-js/stdlib/commit/9e8b63b633279aed16e2a35ed658f9931b1c69b2) - **remove:** remove `stats/base/smskrange` from namespace _(by Aayush Khanna)_

@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var snanmax = require( '@stdlib/stats/base/snanmax' );
+var snanmax = require( '@stdlib/stats/strided/snanmax' );
 ```
 
 #### snanmax( N, x, strideX )
@@ -130,7 +130,7 @@ var v = snanmax.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var snanmax = require( '@stdlib/stats/base/snanmax' );
+var snanmax = require( '@stdlib/stats/strided/snanmax' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
@@ -168,7 +168,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/snanmax.h"
+#include "stdlib/stats/strided/snanmax.h"
 ```
 
 #### stdlib_strided_snanmax( N, \*X, strideX )
@@ -233,7 +233,7 @@ float stdlib_strided_snanmax_ndarray( const CBLAS_INT N, const float *X, const C
 ### Examples
 
 ```c
-#include "stdlib/stats/base/snanmax.h"
+#include "stdlib/stats/strided/snanmax.h"
 #include <stdio.h>
 
 int main( void ) {
