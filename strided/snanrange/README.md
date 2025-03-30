@@ -35,7 +35,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-var snanrange = require( '@stdlib/stats/base/snanrange' );
+var snanrange = require( '@stdlib/stats/strided/snanrange' );
 ```
 
 #### snanrange( N, x, strideX )
@@ -134,7 +134,7 @@ var v = snanrange.ndarray( 4, x, 2, 1 );
 var randu = require( '@stdlib/random/base/randu' );
 var round = require( '@stdlib/math/base/special/round' );
 var Float32Array = require( '@stdlib/array/float32' );
-var snanrange = require( '@stdlib/stats/base/snanrange' );
+var snanrange = require( '@stdlib/stats/strided/snanrange' );
 
 var x;
 var i;
@@ -180,7 +180,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/snanrange.h"
+#include "stdlib/stats/strided/snanrange.h"
 ```
 
 #### stdlib_strided_snanrange( N, \*X, strideX )
@@ -245,7 +245,7 @@ float stdlib_strided_snanrange_ndarray( const CBLAS_INT N, const float *X, const
 ### Examples
 
 ```c
-#include "stdlib/stats/base/snanrange.h"
+#include "stdlib/stats/strided/snanrange.h"
 #include <stdio.h>
 
 int main( void ) {

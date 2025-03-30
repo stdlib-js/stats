@@ -21,11 +21,11 @@
 /**
 * Compute the range of a single-precision floating-point strided array, ignoring `NaN` values.
 *
-* @module @stdlib/stats/base/snanrange
+* @module @stdlib/stats/strided/snanrange
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var snanrange = require( '@stdlib/stats/base/snanrange' );
+* var snanrange = require( '@stdlib/stats/strided/snanrange' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var snanrange = require( '@stdlib/stats/base/snanrange' );
+* var snanrange = require( '@stdlib/stats/strided/snanrange' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
 *

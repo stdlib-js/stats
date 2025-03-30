@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/snanrange.h"
+#include "stdlib/stats/strided/snanrange.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_STATS_BASE_SNANRANGE_H
-#define STDLIB_STATS_BASE_SNANRANGE_H
+#ifndef STDLIB_STATS_STRIDED_SNANRANGE_H
+#define STDLIB_STATS_STRIDED_SNANRANGE_H
 
 #include "stdlib/blas/base/shared.h"
 
@@ -42,4 +42,4 @@ float API_SUFFIX(stdlib_strided_snanrange_ndarray)( const CBLAS_INT N, const flo
 }
 #endif
 
-#endif // !STDLIB_STATS_BASE_SNANRANGE_H
+#endif // !STDLIB_STATS_STRIDED_SNANRANGE_H

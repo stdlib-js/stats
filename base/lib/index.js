@@ -811,15 +811,6 @@ setReadOnly( ns, 'snanmskmin', require( './../../base/snanmskmin' ) );
 setReadOnly( ns, 'snanmskrange', require( './../../base/snanmskrange' ) );
 
 /**
-* @name snanrange
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/snanrange}
-*/
-setReadOnly( ns, 'snanrange', require( './../../base/snanrange' ) );
-
-/**
 * @name snanstdev
 * @memberof ns
 * @readonly

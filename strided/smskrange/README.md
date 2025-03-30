@@ -317,7 +317,7 @@ int main( void ) {
 -   <span class="package-name">[`@stdlib/stats/base/mskrange`][@stdlib/stats/base/mskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array according to a mask.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/smskmax`][@stdlib/stats/strided/smskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array according to a mask.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/smskmin`][@stdlib/stats/strided/smskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask.</span>
--   <span class="package-name">[`@stdlib/stats/base/snanrange`][@stdlib/stats/base/snanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/snanrange`][@stdlib/stats/strided/snanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/srange`][@stdlib/stats/base/srange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array.</span>
 
 </section>
@@ -346,7 +346,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/smskmin]: https://github.com/stdlib-js/stats/tree/main/strided/smskmin
 
-[@stdlib/stats/base/snanrange]: https://github.com/stdlib-js/stats/tree/main/base/snanrange
+[@stdlib/stats/strided/snanrange]: https://github.com/stdlib-js/stats/tree/main/strided/snanrange
 
 [@stdlib/stats/base/srange]: https://github.com/stdlib-js/stats/tree/main/base/srange
 
