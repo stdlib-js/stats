@@ -122,7 +122,7 @@ var v = mskrange.ndarray( 4, x, 2, 1, mask, 2, 1 );
 ## Notes
 
 -   If `N <= 0`, both functions return `NaN`.
--   Depending on the environment, the typed versions ([`dmskrange`][@stdlib/stats/base/dmskrange], [`smskrange`][@stdlib/stats/strided/smskrange], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dmskrange`][@stdlib/stats/strided/dmskrange], [`smskrange`][@stdlib/stats/strided/smskrange], etc.) are likely to be significantly more performant.
 -   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array/base/accessor`][@stdlib/array/base/accessor]).
 
 </section>
@@ -166,7 +166,7 @@ console.log( v );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/base/dmskrange`][@stdlib/stats/base/dmskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dmskrange`][@stdlib/stats/strided/dmskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array according to a mask.</span>
 -   <span class="package-name">[`@stdlib/stats/base/range`][@stdlib/stats/base/range]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/mskmax`][@stdlib/stats/base/mskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask.</span>
 -   <span class="package-name">[`@stdlib/stats/base/mskmin`][@stdlib/stats/base/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask.</span>
@@ -191,7 +191,7 @@ console.log( v );
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmskrange]: https://github.com/stdlib-js/stats/tree/main/base/dmskrange
+[@stdlib/stats/strided/dmskrange]: https://github.com/stdlib-js/stats/tree/main/strided/dmskrange
 
 [@stdlib/stats/base/range]: https://github.com/stdlib-js/stats/tree/main/base/range
 

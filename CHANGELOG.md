@@ -46,6 +46,106 @@
 
 ##### BREAKING CHANGES
 
+-   [`b59b5a8`](https://github.com/stdlib-js/stdlib/commit/b59b5a81d01fec00fb13b56c440064b9e160084f): remove `stats/base/dmskrange`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dmskrange` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`3aaed94`](https://github.com/stdlib-js/stdlib/commit/3aaed94dfa1c35437e998625a1e00958929f56c0): remove `stats/base/dmskmin`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dmskmin` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`f3e0f06`](https://github.com/stdlib-js/stdlib/commit/f3e0f0615c0fde78bc96a51255edfde228dd2255): remove `stats/base/dmskmax`
 
     -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dmskmax` namespace.
@@ -16850,6 +16950,65 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`9b62a75`](https://github.com/stdlib-js/stdlib/commit/9b62a75132019fe8f825b0010fc47a50455b5817): remove `stats/base/dmskmin`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dmskmin`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -16881,6 +17040,65 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`a201ce6`](https://github.com/stdlib-js/stdlib/commit/a201ce6e87a82e0800126e85dffcc553b7f2adc1): remove `stats/base/dmskrange`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dmskrange`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -25399,6 +25617,50 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-strided-dmskmin-unreleased">
+
+#### [@stdlib/stats/strided/dmskmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dmskmin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`234bfac`](https://github.com/stdlib-js/stdlib/commit/234bfac90332c89568eb8a84a5525e8afa1f5cdd) - add `stats/strided/dmskmin`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-strided-dmskrange-unreleased">
+
+#### [@stdlib/stats/strided/dmskrange](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dmskrange)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bf87433`](https://github.com/stdlib-js/stdlib/commit/bf874335dfb7d8dab6655ea67e0feda1037d1548) - add `stats/strided/dmskrange`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-strided-dnanmax-unreleased">
 
 #### [@stdlib/stats/strided/dnanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dnanmax)
@@ -27276,6 +27538,208 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`a201ce6`](https://github.com/stdlib-js/stdlib/commit/a201ce6e87a82e0800126e85dffcc553b7f2adc1): remove `stats/base/dmskrange`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dmskrange`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`b59b5a8`](https://github.com/stdlib-js/stdlib/commit/b59b5a81d01fec00fb13b56c440064b9e160084f): remove `stats/base/dmskrange`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dmskrange` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`9b62a75`](https://github.com/stdlib-js/stdlib/commit/9b62a75132019fe8f825b0010fc47a50455b5817): remove `stats/base/dmskmin`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dmskmin`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`3aaed94`](https://github.com/stdlib-js/stdlib/commit/3aaed94dfa1c35437e998625a1e00958929f56c0): remove `stats/base/dmskmin`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dmskmin` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`4525270`](https://github.com/stdlib-js/stdlib/commit/452527023265b2897b2af15e0452dc4e88e842c4): remove `stats/base/dmskmax`
 
@@ -37631,6 +38095,14 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a201ce6`](https://github.com/stdlib-js/stdlib/commit/a201ce6e87a82e0800126e85dffcc553b7f2adc1) - **remove:** remove `stats/base/dmskrange` _(by Aayush Khanna)_
+-   [`3c365a3`](https://github.com/stdlib-js/stdlib/commit/3c365a32a445435156730a7c7dd0c1d3b879f810) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`b59b5a8`](https://github.com/stdlib-js/stdlib/commit/b59b5a81d01fec00fb13b56c440064b9e160084f) - **remove:** remove `stats/base/dmskrange` from namespace _(by Aayush Khanna)_
+-   [`bf87433`](https://github.com/stdlib-js/stdlib/commit/bf874335dfb7d8dab6655ea67e0feda1037d1548) - **feat:** add `stats/strided/dmskrange` _(by Aayush Khanna)_
+-   [`9b62a75`](https://github.com/stdlib-js/stdlib/commit/9b62a75132019fe8f825b0010fc47a50455b5817) - **remove:** remove `stats/base/dmskmin` _(by Aayush Khanna)_
+-   [`7018b9f`](https://github.com/stdlib-js/stdlib/commit/7018b9f18a5bd95edf2deb1db33ca68c9075d421) - **refactor:** update paths _(by Aayush Khanna)_
+-   [`3aaed94`](https://github.com/stdlib-js/stdlib/commit/3aaed94dfa1c35437e998625a1e00958929f56c0) - **remove:** remove `stats/base/dmskmin` from namespace _(by Aayush Khanna)_
+-   [`234bfac`](https://github.com/stdlib-js/stdlib/commit/234bfac90332c89568eb8a84a5525e8afa1f5cdd) - **feat:** add `stats/strided/dmskmin` _(by Aayush Khanna)_
 -   [`4525270`](https://github.com/stdlib-js/stdlib/commit/452527023265b2897b2af15e0452dc4e88e842c4) - **remove:** remove `stats/base/dmskmax` _(by Aayush Khanna)_
 -   [`87d0fae`](https://github.com/stdlib-js/stdlib/commit/87d0faeb87ce6a1190289605dbed97d168d3d46e) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`f3e0f06`](https://github.com/stdlib-js/stdlib/commit/f3e0f0615c0fde78bc96a51255edfde228dd2255) - **remove:** remove `stats/base/dmskmax` from namespace _(by Aayush Khanna)_
