@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-30)
+## Unreleased (2025-03-31)
 
 <section class="packages">
 
@@ -38559,6 +38559,7 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9998d76`](https://github.com/stdlib-js/stdlib/commit/9998d768131de91b59e2808ddf4ee552407d4175) - **docs:** update namespace table of contents [(#6461)](https://github.com/stdlib-js/stdlib/pull/6461) _(by stdlib-bot)_
 -   [`6dc5ea7`](https://github.com/stdlib-js/stdlib/commit/6dc5ea77dbef23e522255c7c60e5db1ccfa85568) - **refactor:** use base array assertion utility _(by Athan Reines)_
 -   [`87d73e7`](https://github.com/stdlib-js/stdlib/commit/87d73e766f9238784e96d9a7a78cec726b9b718b) - **refactor:** use base array assertion utility _(by Athan Reines)_
 -   [`22e382b`](https://github.com/stdlib-js/stdlib/commit/22e382b0c5829205f4319aa82140efb39e3b1ad8) - **style:** resolve lint errors _(by Athan Reines)_
