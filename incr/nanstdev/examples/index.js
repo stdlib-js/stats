@@ -28,9 +28,11 @@ var accumulator = incrnanstdev();
 // For each simulated datum, update the corrected sample standard deviation...
 console.log( '\nValue\tSigma\n' );
 var v;
+var s;
 var i;
 for ( i = 0; i < 100; i++ ) {
 	v = ( bernoulli( 0.8 ) < 1 ) ? NaN : uniform( 0.0, 100.0 );
-	console.log( '%d\t%d', v.toFixed( 4 ), accumulator( v ).toFixed( 4 ) );
+	s = accumulator( v );
+	console.log( '%d\t%d', v.toFixed( 4 ), ( s === null ) ? NaN : s.toFixed( 4 ) );
 }
 console.log( '\nFinal standard deviation: %d\n', accumulator() );

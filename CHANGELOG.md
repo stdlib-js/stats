@@ -38662,6 +38662,7 @@ A total of 51 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a567912`](https://github.com/stdlib-js/stdlib/commit/a567912175989cd5cef181056c8d41c8678c0087) - **docs:** fix example _(by Athan Reines)_
 -   [`2c98a80`](https://github.com/stdlib-js/stdlib/commit/2c98a808f9b2896852452a74a21ddb5da775ffd6) - **feat:** add `stats/incr/nanstdev` [(#5798)](https://github.com/stdlib-js/stdlib/pull/5798) _(by NirvedMishra, Athan Reines, stdlib-bot)_
 -   [`89c41ab`](https://github.com/stdlib-js/stdlib/commit/89c41ab21cf911bed3a67fbccebe6b129ddfc70a) - **test:** clean-up test messages and resolve lint errors _(by Athan Reines)_
 -   [`f0df313`](https://github.com/stdlib-js/stdlib/commit/f0df313876ca0590d2a919d98c4411e4e51d50f0) - **feat:** added accessor protocol support to `stats/base/meanpn` [(#5908)](https://github.com/stdlib-js/stdlib/pull/5908) _(by Dhruvil Mehta, Athan Reines)_
