@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-31)
+## Unreleased (2025-04-01)
 
 <section class="packages">
 
@@ -38593,6 +38593,7 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ef5a939`](https://github.com/stdlib-js/stdlib/commit/ef5a9397fb3e87e56d216b24dd316682e613caaf) - **test:** fix missing `opts` argument _(by Athan Reines)_
 -   [`88e00d0`](https://github.com/stdlib-js/stdlib/commit/88e00d0a5088bc65bcf54b303fa774f9d382629b) - **feat:** add C implementation for `stats/base/dists/betaprime/pdf` [(#4057)](https://github.com/stdlib-js/stdlib/pull/4057) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
 -   [`1b06282`](https://github.com/stdlib-js/stdlib/commit/1b062822bb11e83789fd3ff3c2ee3f0e8d663652) - **chore:** fix style and return values [(#5871)](https://github.com/stdlib-js/stdlib/pull/5871) _(by Anshu Kumar)_
 -   [`9998d76`](https://github.com/stdlib-js/stdlib/commit/9998d768131de91b59e2808ddf4ee552407d4175) - **docs:** update namespace table of contents [(#6461)](https://github.com/stdlib-js/stdlib/pull/6461) _(by stdlib-bot)_
