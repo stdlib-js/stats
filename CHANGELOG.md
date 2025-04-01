@@ -38627,6 +38627,7 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`89c41ab`](https://github.com/stdlib-js/stdlib/commit/89c41ab21cf911bed3a67fbccebe6b129ddfc70a) - **test:** clean-up test messages and resolve lint errors _(by Athan Reines)_
 -   [`f0df313`](https://github.com/stdlib-js/stdlib/commit/f0df313876ca0590d2a919d98c4411e4e51d50f0) - **feat:** added accessor protocol support to `stats/base/meanpn` [(#5908)](https://github.com/stdlib-js/stdlib/pull/5908) _(by Dhruvil Mehta, Athan Reines)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`ef5a939`](https://github.com/stdlib-js/stdlib/commit/ef5a9397fb3e87e56d216b24dd316682e613caaf) - **test:** fix missing `opts` argument _(by Athan Reines)_
