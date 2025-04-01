@@ -38593,6 +38593,7 @@ A total of 50 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`ef5a939`](https://github.com/stdlib-js/stdlib/commit/ef5a9397fb3e87e56d216b24dd316682e613caaf) - **test:** fix missing `opts` argument _(by Athan Reines)_
 -   [`88e00d0`](https://github.com/stdlib-js/stdlib/commit/88e00d0a5088bc65bcf54b303fa774f9d382629b) - **feat:** add C implementation for `stats/base/dists/betaprime/pdf` [(#4057)](https://github.com/stdlib-js/stdlib/pull/4057) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
 -   [`1b06282`](https://github.com/stdlib-js/stdlib/commit/1b062822bb11e83789fd3ff3c2ee3f0e8d663652) - **chore:** fix style and return values [(#5871)](https://github.com/stdlib-js/stdlib/pull/5871) _(by Anshu Kumar)_
