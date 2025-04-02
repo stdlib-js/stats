@@ -24,10 +24,8 @@ var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var abs = require( '@stdlib/math/base/special/abs' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
-var EPS = require( '@stdlib/constants/float64/eps' );
 
 
 // FIXTURES //
@@ -38,17 +36,20 @@ var data = require( './fixtures/julia/data.json' );
 // VARIABLES //
 
 var mode = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( mode instanceof Error )
+};
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof mode, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'if provided `NaN` for any parameter, the function returns `NaN`', function test( t ) {
+tape( 'if provided `NaN` for any parameter, the function returns `NaN`', opts, function test( t ) {
 	var y = mode( NaN, 1.0 );
 	t.equal( isnan( y ), true, 'returns NaN' );
 	y = mode( 1.0, NaN );
@@ -56,7 +57,7 @@ tape( 'if provided `NaN` for any parameter, the function returns `NaN`', functio
 	t.end();
 });
 
-tape( 'if provided a nonpositive `sigma`, the function returns `NaN`', function test( t ) {
+tape( 'if provided a nonpositive `sigma`, the function returns `NaN`', opts, function test( t ) {
 	var y;
 
 	y = mode( 2.0, 0.0 );
@@ -83,11 +84,9 @@ tape( 'if provided a nonpositive `sigma`, the function returns `NaN`', function 
 	t.end();
 });
 
-tape( 'the function returns the mode of a normal distribution', function test( t ) {
+tape( 'the function returns the mode of a normal distribution', opts, function test( t ) {
 	var expected;
-	var delta;
 	var sigma;
-	var tol;
 	var mu;
 	var y;
 	var i;
@@ -97,15 +96,7 @@ tape( 'the function returns the mode of a normal distribution', function test( t
 	sigma = data.sigma;
 	for ( i = 0; i < mu.length; i++ ) {
 		y = mode( mu[i], sigma[i] );
-		if ( expected[i] !== null) {
-			if ( y === expected[i] ) {
-				t.equal( y, expected[i], 'mu:'+mu[i]+', sigma: '+sigma[i]+', y: '+y+', expected: '+expected[i] );
-			} else {
-				delta = abs( y - expected[ i ] );
-				tol = 1.0 * EPS * abs( expected[ i ] );
-				t.ok( delta <= tol, 'within tolerance. mu: '+mu[i]+'. sigma: '+sigma[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
-			}
-		}
+		t.equal( y, expected[i], 'mu:'+mu[i]+', sigma: '+sigma[i]+', y: '+y+', expected: '+expected[i] );
 	}
 	t.end();
 });

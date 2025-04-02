@@ -93,21 +93,21 @@ static double random_uniform( const double min, const double max ) {
 * @return elapsed time in seconds
 */
 static double benchmark( void ) {
+	double lambda[ 100 ];
 	double elapsed;
 	double t[ 100 ];
-	double lambda[ 100 ];
 	double y;
 	double tc;
 	int i;
 
 	for ( i = 0; i < 100; i++ ) {
 		t[ i ] = random_uniform( -1.0 + STDLIB_CONSTANT_FLOAT64_EPS, 1.0 );
-		lambda[ i ] = random_uniform( 0.1 + STDLIB_CONSTANT_FLOAT64_EPS, 10.0 );
+		lambda[ i ] = random_uniform( 1.0 + STDLIB_CONSTANT_FLOAT64_EPS, 10.0 );
 	}
 
 	tc = tic();
 	for ( i = 0; i < ITERATIONS; i++ ) {
-		y = stdlib_base_dists_exponential_mgf( t[ i % 100 ], lambda[ i % 100 ]);
+		y = stdlib_base_dists_exponential_mgf( t[ i % 100 ], lambda[ i % 100 ] );
 		if ( y != y ) {
 			printf( "should not return NaN\n" );
 			break;

@@ -17,7 +17,6 @@
 */
 
 #include "stdlib/stats/base/dists/exponential/mgf.h"
-#include "stdlib/constants/float64/eps.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -34,7 +33,7 @@ int main( void ) {
 
 	for ( i = 0; i < 25; i++ ) {
 		t = random_uniform( -1.0, 1.0 );
-		lambda = random_uniform( 0.1, 10.0 );
+		lambda = random_uniform( 1.1, 10.0 );
 		y = stdlib_base_dists_exponential_mgf( t, lambda );
 		printf( "t: %lf, λ: %lf, M_X(t;λ): %lf\n", t, lambda, y );
 	}

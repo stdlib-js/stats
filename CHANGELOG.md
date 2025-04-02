@@ -38876,6 +38876,10 @@ A total of 51 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4d4ff63`](https://github.com/stdlib-js/stdlib/commit/4d4ff6319d8ba6b8b3de51a7e6b1d371efb67a95) - **chore:** clean-up _(by Athan Reines)_
+-   [`20475c3`](https://github.com/stdlib-js/stdlib/commit/20475c38174bae305bff48d6b4033874a1df7a4c) - **chore:** clean-up _(by Athan Reines)_
+-   [`ca4cd66`](https://github.com/stdlib-js/stdlib/commit/ca4cd66bb05463facc0dc936c3312d45ae5cb258) - **chore:** clean-up _(by Athan Reines)_
+-   [`3d10cb9`](https://github.com/stdlib-js/stdlib/commit/3d10cb99b5ad1a338511dcae8ced40bcc418c503) - **chore:** clean-up _(by Athan Reines)_
 -   [`e1cc668`](https://github.com/stdlib-js/stdlib/commit/e1cc668e2474674d20324fd8556db9d735be3453) - **feat:** add C implementation for `stats/base/dists/normal/mode` [(#3998)](https://github.com/stdlib-js/stdlib/pull/3998) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`1775485`](https://github.com/stdlib-js/stdlib/commit/1775485d32eaa084832a9f93b127a61a0e71def9) - **feat:** add C implementation for `stats/base/dists/normal/skewness` [(#4001)](https://github.com/stdlib-js/stdlib/pull/4001) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`a3d171d`](https://github.com/stdlib-js/stdlib/commit/a3d171d68ec3d749dffc1b30e9b0a6faed5ce501) - **feat:** add C implementation for `stats/base/dists/exponential/mgf` [(#4171)](https://github.com/stdlib-js/stdlib/pull/4171) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_

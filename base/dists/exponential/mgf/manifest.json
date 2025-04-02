@@ -73,7 +73,6 @@
       "libpath": [],
       "dependencies": [
         "@stdlib/math/base/assert/is-nan",
-        "@stdlib/constants/float64/eps",
         "@stdlib/constants/float64/pinf"
       ]
     }

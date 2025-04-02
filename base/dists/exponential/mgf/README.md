@@ -204,7 +204,6 @@ double stdlib_base_dists_exponential_mgf( const double t, const double lambda );
 
 ```c
 #include "stdlib/stats/base/dists/exponential/mgf.h"
-#include "stdlib/constants/float64/eps.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -220,8 +219,8 @@ int main( void ) {
     int i;
 
     for ( i = 0; i < 25; i++ ) {
-        lambda = random_uniform( 0.0, 100.0 ) + STDLIB_CONSTANT_FLOAT64_EPS;
-        t = random_uniform( -1.0, 1.0 ) + lambda;
+        t = random_uniform( -1.0, 1.0 );
+        lambda = random_uniform( 1.1, 10.0 );
         y = stdlib_base_dists_exponential_mgf( t, lambda );
         printf( "t: %lf, λ: %lf, M_X(t;λ): %lf\n", t, lambda, y );
     }
@@ -239,6 +238,8 @@ int main( void ) {
 <!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="references">
+
+</section>
 
 <!-- /.references -->
 
