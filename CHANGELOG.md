@@ -38740,6 +38740,7 @@ A total of 51 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`dceca5a`](https://github.com/stdlib-js/stdlib/commit/dceca5a59de54aa48e73075bc9acbc4c7656e7aa) - **test:** fix addon tests _(by Athan Reines)_
 -   [`41d0632`](https://github.com/stdlib-js/stdlib/commit/41d0632145a36b71711b27c0ee7add3c0434c7f5) - **feat:** refactor and add protocol support to `stats/base/nanvariancewd` [(#6023)](https://github.com/stdlib-js/stdlib/pull/6023) _(by Prajjwal Bajpai, Athan Reines, Aayush Khanna)_
 -   [`cc8314e`](https://github.com/stdlib-js/stdlib/commit/cc8314e54ecc4017857d851ea10f2b70f8d379c0) - **docs:** update namespace table of contents [(#6506)](https://github.com/stdlib-js/stdlib/pull/6506) _(by stdlib-bot)_
 -   [`4e53b42`](https://github.com/stdlib-js/stdlib/commit/4e53b4284ec07bae3e7825ab6e78c1ffca1ed903) - **style:** remove whitespace _(by Athan Reines)_
