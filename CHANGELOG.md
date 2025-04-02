@@ -38706,6 +38706,7 @@ A total of 51 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`cc8314e`](https://github.com/stdlib-js/stdlib/commit/cc8314e54ecc4017857d851ea10f2b70f8d379c0) - **docs:** update namespace table of contents [(#6506)](https://github.com/stdlib-js/stdlib/pull/6506) _(by stdlib-bot)_
 -   [`4e53b42`](https://github.com/stdlib-js/stdlib/commit/4e53b4284ec07bae3e7825ab6e78c1ffca1ed903) - **style:** remove whitespace _(by Athan Reines)_
 -   [`09aac30`](https://github.com/stdlib-js/stdlib/commit/09aac30680a3c2c81b0741cb025175a8b1e54ec4) - **chore:** address commit comment [(#5450)](https://github.com/stdlib-js/stdlib/pull/5450) _(by Harsh)_
 -   [`78dc663`](https://github.com/stdlib-js/stdlib/commit/78dc663f35d9de92c555c21ae65a4e9883270431) - **chore:** address commit comment [(#5451)](https://github.com/stdlib-js/stdlib/pull/5451) _(by Harsh)_
