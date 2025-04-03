@@ -5181,6 +5181,28 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-arcsine-median-unreleased">
+
+#### [@stdlib/stats/base/dists/arcsine/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/arcsine/median)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c487a89`](https://github.com/stdlib-js/stdlib/commit/c487a8949885d2867681ba09837077d40423cbda) - add C implementation for `stats/base/dists/arcsine/median` [(#4066)](https://github.com/stdlib-js/stdlib/pull/4066)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-dists-arcsine-mode-unreleased">
 
 #### [@stdlib/stats/base/dists/arcsine/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/arcsine/mode)
@@ -39049,6 +39071,7 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c487a89`](https://github.com/stdlib-js/stdlib/commit/c487a8949885d2867681ba09837077d40423cbda) - **feat:** add C implementation for `stats/base/dists/arcsine/median` [(#4066)](https://github.com/stdlib-js/stdlib/pull/4066) _(by pranav-1720, Philipp Burckhardt, stdlib-bot)_
 -   [`3e69370`](https://github.com/stdlib-js/stdlib/commit/3e6937027bd58102438539024cc70ab0783b1641) - **feat:** add C implementation for `stats/base/dists/erlang/kurtosis` [(#4289)](https://github.com/stdlib-js/stdlib/pull/4289) _(by Neeraj Pathak, stdlib-bot)_
 -   [`8b5f811`](https://github.com/stdlib-js/stdlib/commit/8b5f811082ea3dd98f68b9863531fc2c80835020) - **chore:** address commit comments [(#6528)](https://github.com/stdlib-js/stdlib/pull/6528) _(by Muhmmad Saad)_
 -   [`da17eab`](https://github.com/stdlib-js/stdlib/commit/da17eabd5db7f7aa32a2d39d00f8b53c9cc11495) - **chore:** clean-up _(by Athan Reines)_
