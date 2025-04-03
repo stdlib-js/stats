@@ -39014,6 +39014,7 @@ A total of 53 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`da47c6e`](https://github.com/stdlib-js/stdlib/commit/da47c6e32c09d08ec756611358c057bd41cd71ff) - **docs:** update namespace table of contents [(#6526)](https://github.com/stdlib-js/stdlib/pull/6526) _(by stdlib-bot)_
 -   [`912e9e1`](https://github.com/stdlib-js/stdlib/commit/912e9e12ee52689d4680230cca7da8d1464a08e0) - **feat:** add `stats/base/dists/kumaraswamy/kurtosis` [(#4525)](https://github.com/stdlib-js/stdlib/pull/4525) _(by Shabareesh Shetty, Philipp Burckhardt, stdlib-bot)_
 -   [`8523abf`](https://github.com/stdlib-js/stdlib/commit/8523abfa3aa131b1acce67658c71505b226473c2) - **feat:** add C implementation for `stats/base/dists/t/pdf` [(#3940)](https://github.com/stdlib-js/stdlib/pull/3940) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
 -   [`2529fff`](https://github.com/stdlib-js/stdlib/commit/2529fff8d35f0e63fb8bb7ae7f1cfc94aa697e32) - **feat:** add C implementation for `stats/base/dists/cosine/variance` [(#3983)](https://github.com/stdlib-js/stdlib/pull/3983) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
