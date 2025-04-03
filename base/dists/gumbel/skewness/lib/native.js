@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,12 +20,7 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-
-
-// VARIABLES //
-
-var SKEWNESS = 1.1395470994046488;
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
@@ -33,6 +28,7 @@ var SKEWNESS = 1.1395470994046488;
 /**
 * Returns the skewness for a Gumbel distribution with location `mu` and scale `beta`.
 *
+* @private
 * @param {number} mu - location parameter
 * @param {PositiveNumber} beta - scale parameter
 * @returns {number} skewness
@@ -58,14 +54,7 @@ var SKEWNESS = 1.1395470994046488;
 * // returns NaN
 */
 function skewness( mu, beta ) {
-	if (
-		isnan( mu ) ||
-		isnan( beta ) ||
-		beta <= 0.0
-	) {
-		return NaN;
-	}
-	return SKEWNESS;
+	return addon( mu, beta );
 }
 
 

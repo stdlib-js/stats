@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,59 +16,29 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/gumbel/skewness.h"
+#include "stdlib/math/base/assert/is_nan.h"
 
-// MODULES //
-
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-
-
-// VARIABLES //
-
-var SKEWNESS = 1.1395470994046488;
-
-
-// MAIN //
+static const double SKEWNESS = 1.1395470994046488;
 
 /**
 * Returns the skewness for a Gumbel distribution with location `mu` and scale `beta`.
 *
-* @param {number} mu - location parameter
-* @param {PositiveNumber} beta - scale parameter
-* @returns {number} skewness
+* @param mu     location parameter
+* @param beta   scale parameter
+* @return       skewness
 *
 * @example
-* var y = skewness( 0.0, 1.0 );
+* double y = stdlib_base_dists_gumbel_skewness( 0.0, 1.0 );
 * // returns ~1.14
-*
-* @example
-* var y = skewness( 5.0, 2.0 );
-* // returns ~1.14
-*
-* @example
-* var y = skewness( NaN, 1.0 );
-* // returns NaN
-*
-* @example
-* var y = skewness( 0.0, NaN );
-* // returns NaN
-*
-* @example
-* var y = skewness( 0.0, 0.0 );
-* // returns NaN
 */
-function skewness( mu, beta ) {
+double stdlib_base_dists_gumbel_skewness( const double mu, const double beta ) {
 	if (
-		isnan( mu ) ||
-		isnan( beta ) ||
+		stdlib_base_is_nan( mu ) ||
+		stdlib_base_is_nan( beta ) ||
 		beta <= 0.0
 	) {
-		return NaN;
+		return 0.0/0.0; // NaN
 	}
 	return SKEWNESS;
 }
-
-
-// EXPORTS //
-
-module.exports = skewness;
