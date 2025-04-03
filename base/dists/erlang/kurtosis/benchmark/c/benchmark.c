@@ -95,15 +95,15 @@ static double random_uniform( const double min, const double max ) {
 * @return elapsed time in seconds
 */
 static double benchmark( void ) {
-	double elapsed;
-	int32_t k[ 100 ];
 	double lambda[ 100 ];
+	int32_t k[ 100 ];
+	double elapsed;
 	double y;
 	double t;
 	int i;
 
 	for ( i = 0; i < 100; i++ ) {
-		k[ i ] = stdlib_base_ceil( random_uniform( 0.0, 10.0 ) );
+		k[ i ] = stdlib_base_ceil( random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 10.0 ) );
 		lambda[ i ] = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 10.0 );
 	}
 

@@ -18,5 +18,4 @@
 
 #include "stdlib/stats/base/dists/arcsine/median.h"
 
-// cppcheck-suppress shadowFunction
 STDLIB_MATH_BASE_NAPI_MODULE_DDD_D( stdlib_base_dists_arcsine_median );

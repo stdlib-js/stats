@@ -21,11 +21,9 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var abs = require( '@stdlib/math/base/special/abs' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
-var EPS = require( '@stdlib/constants/float64/eps' );
 var kurtosis = require( './../lib' );
 
 
@@ -106,8 +104,6 @@ tape( 'if provided `lambda <= 0`, the function returns `NaN`', function test( t 
 tape( 'the function returns the excess kurtosis of an Erlang distribution', function test( t ) {
 	var expected;
 	var lambda;
-	var delta;
-	var tol;
 	var k;
 	var i;
 	var y;
@@ -117,13 +113,7 @@ tape( 'the function returns the excess kurtosis of an Erlang distribution', func
 	lambda = data.lambda;
 	for ( i = 0; i < expected.length; i++ ) {
 		y = kurtosis( k[i], lambda[i] );
-		if ( y === expected[i] ) {
-			t.equal( y, expected[i], 'k: '+k[i]+', lambda: '+lambda[i]+', y: '+y+', expected: '+expected[i] );
-		} else {
-			delta = abs( y - expected[ i ] );
-			tol = 1.0 * EPS * abs( expected[ i ] );
-			t.ok( delta <= tol, 'within tolerance. k: '+k[i]+'. lambda: '+lambda[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
-		}
+		t.equal( y, expected[i], 'k: '+k[i]+', lambda: '+lambda[i]+', y: '+y+', expected: '+expected[i] );
 	}
 	t.end();
 });
