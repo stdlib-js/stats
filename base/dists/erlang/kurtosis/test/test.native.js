@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,13 +20,14 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var abs = require( '@stdlib/math/base/special/abs' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
-var kurtosis = require( './../lib' );
 
 
 // FIXTURES //
@@ -34,15 +35,23 @@ var kurtosis = require( './../lib' );
 var data = require( './fixtures/julia/data.json' );
 
 
+// VARIABLES //
+
+var kurtosis = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( kurtosis instanceof Error )
+};
+
+
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof kurtosis, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'if provided `NaN` for any parameter, the function returns `NaN`', function test( t ) {
+tape( 'if provided `NaN` for any parameter, the function returns `NaN`', opts, function test( t ) {
 	var v = kurtosis( NaN, 0.5 );
 	t.equal( isnan( v ), true, 'returns NaN' );
 
@@ -52,14 +61,8 @@ tape( 'if provided `NaN` for any parameter, the function returns `NaN`', functio
 	t.end();
 });
 
-tape( 'if provided a `k` that is not a positive integer, the function returns `NaN`', function test( t ) {
+tape( 'if provided a `k` that is not a positive integer, the function returns `NaN`', opts, function test( t ) {
 	var y;
-
-	y = kurtosis( 1.7, 2.0 );
-	t.equal( isnan( y ), true, 'returns NaN' );
-
-	y = kurtosis( 3.7, 2.0 );
-	t.equal( isnan( y ), true, 'returns NaN' );
 
 	y = kurtosis( 0.0, 2.0 );
 	t.equal( isnan( y ), true, 'returns NaN' );
@@ -82,7 +85,7 @@ tape( 'if provided a `k` that is not a positive integer, the function returns `N
 	t.end();
 });
 
-tape( 'if provided `lambda <= 0`, the function returns `NaN`', function test( t ) {
+tape( 'if provided `lambda <= 0`, the function returns `NaN`', opts, function test( t ) {
 	var y;
 
 	y = kurtosis( 2, -1.0 );
@@ -103,7 +106,7 @@ tape( 'if provided `lambda <= 0`, the function returns `NaN`', function test( t 
 	t.end();
 });
 
-tape( 'the function returns the excess kurtosis of an Erlang distribution', function test( t ) {
+tape( 'the function returns the excess kurtosis of an Erlang distribution', opts, function test( t ) {
 	var expected;
 	var lambda;
 	var delta;
