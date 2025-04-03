@@ -40,9 +40,9 @@ var opts = {
 // MAIN //
 
 bench( pkg+'::native', opts, function benchmark( b ) {
-	var len;
 	var shape1;
 	var shape2;
+	var len;
 	var y;
 	var i;
 
