@@ -107,7 +107,7 @@ static double benchmark( void ) {
 
 	t = tic();
 	for ( i = 0; i < ITERATIONS; i++ ) {
-		y = stdlib_base_dists_kumaraswamy_skewness( a[ i % 100 ], b[ i % 100 ] );
+		y = stdlib_base_dists_kumaraswamy_variance( a[ i % 100 ], b[ i % 100 ] );
 		if ( y != y ) {
 			printf( "should not return NaN\n" );
 			break;

@@ -21,20 +21,20 @@
 #include <stdio.h>
 
 static double random_uniform( const double min, const double max ) {
-    double v = (double)rand() / ( (double)RAND_MAX + 1.0 );
-    return min + ( v*(max-min) );
+	double v = (double)rand() / ( (double)RAND_MAX + 1.0 );
+	return min + ( v*(max-min) );
 }
 
 int main( void ) {
-    double a;
-    double b;
-    double y;
-    int i;
+	double a;
+	double b;
+	double y;
+	int i;
 
-    for ( i = 0; i < 25; i++ ) {
-        a = random_uniform( -5.0, 5.0 );
-        b = random_uniform( 0.0, 20.0 );
-        y = stdlib_base_dists_kumaraswamy_variance( a, b );
-        printf( "a: %lf, b: %lf, Var(X;a,b): %lf\n", a, b, y );
-    }
+	for ( i = 0; i < 25; i++ ) {
+		a = random_uniform( -5.0, 5.0 );
+		b = random_uniform( 0.0, 20.0 );
+		y = stdlib_base_dists_kumaraswamy_variance( a, b );
+		printf( "a: %lf, b: %lf, Var(X;a,b): %lf\n", a, b, y );
+	}
 }
