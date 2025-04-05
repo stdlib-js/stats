@@ -39172,6 +39172,7 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2197129`](https://github.com/stdlib-js/stdlib/commit/2197129dcd1c034d99215bad69975d72fc7b3e72) - **chore:** clean-up _(by Athan Reines)_
 -   [`5271c7a`](https://github.com/stdlib-js/stdlib/commit/5271c7a1ad270bb7c4031bcdf270b9caee547be6) - **style:** use tabs instead of spaces _(by Philipp Burckhardt)_
 -   [`7e02d8e`](https://github.com/stdlib-js/stdlib/commit/7e02d8e80050edcbeaf849942ef9664a36c0ead5) - **bench:** fix function name _(by Philipp Burckhardt)_
 -   [`6f4bd30`](https://github.com/stdlib-js/stdlib/commit/6f4bd30c7d69a33501b97b25936a8101555f7837) - **feat:** add C implementation for `stats/base/dists/levy/cdf` [(#4288)](https://github.com/stdlib-js/stdlib/pull/4288) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
