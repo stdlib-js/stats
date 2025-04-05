@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,10 +20,11 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
-var pmf = require( './../lib' );
 
 
 // FIXTURES //
@@ -32,15 +33,23 @@ var smallP = require( './fixtures/julia/small_p.json' );
 var largeP = require( './fixtures/julia/large_p.json' );
 
 
+// VARIABLES //
+
+var pmf = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( pmf instanceof Error )
+};
+
+
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof pmf, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'if provided `NaN` for any parameter, the function returns `NaN`', function test( t ) {
+tape( 'if provided `NaN` for any parameter, the function returns `NaN`', opts, function test( t ) {
 	var y = pmf( NaN, 1.0 );
 	t.equal( isnan( y ), true, 'returns NaN' );
 	y = pmf( 0.0, NaN );
@@ -48,13 +57,13 @@ tape( 'if provided `NaN` for any parameter, the function returns `NaN`', functio
 	t.end();
 });
 
-tape( 'if provided `+infinity` for `x` and a valid `p`, the function returns `0`', function test( t ) {
+tape( 'if provided `+infinity` for `x` and a valid `p`, the function returns `0`', opts, function test( t ) {
 	var y = pmf( PINF, 0.01 );
 	t.equal( y, 0.0, 'returns 0' );
 	t.end();
 });
 
-tape( 'if provided a negative integer for `x` and a valid `p`, the function returns `0`', function test( t ) {
+tape( 'if provided a negative integer for `x` and a valid `p`, the function returns `0`', opts, function test( t ) {
 	var y = pmf( -20.0, 0.5 );
 	t.equal( y, 0.0, 'returns 0' );
 
@@ -67,7 +76,7 @@ tape( 'if provided a negative integer for `x` and a valid `p`, the function retu
 	t.end();
 });
 
-tape( 'if provided a non-integer for `x` and a valid `p`, the function returns `0`', function test( t ) {
+tape( 'if provided a non-integer for `x` and a valid `p`, the function returns `0`', opts, function test( t ) {
 	var y = pmf( -1.3, 0.5 );
 	t.equal( y, 0.0, 'returns 0' );
 
@@ -80,7 +89,7 @@ tape( 'if provided a non-integer for `x` and a valid `p`, the function returns `
 	t.end();
 });
 
-tape( 'if provided a success probability `p` outside of `[0,1]`, the function always returns `NaN`', function test( t ) {
+tape( 'if provided a success probability `p` outside of `[0,1]`, the function always returns `NaN`', opts, function test( t ) {
 	var y;
 
 	y = pmf( 2.0, -1.0 );
@@ -92,7 +101,7 @@ tape( 'if provided a success probability `p` outside of `[0,1]`, the function al
 	t.end();
 });
 
-tape( 'the function evaluates the pmf for `x` given small parameter `p`', function test( t ) {
+tape( 'the function evaluates the pmf for `x` given small parameter `p`', opts, function test( t ) {
 	var expected;
 	var x;
 	var p;
@@ -109,7 +118,7 @@ tape( 'the function evaluates the pmf for `x` given small parameter `p`', functi
 	t.end();
 });
 
-tape( 'the function evaluates the pmf for `x` given large parameter `p`', function test( t ) {
+tape( 'the function evaluates the pmf for `x` given large parameter `p`', opts, function test( t ) {
 	var expected;
 	var x;
 	var p;
