@@ -27,7 +27,7 @@
 * @return      expected value
 *
 * @example
-* double y = mean( 0.0, 1.0 );
+* double y = stdlib_base_dists_laplace_mean( 0.0, 1.0 );
 * // returns 0.0
 */
 double stdlib_base_dists_laplace_mean( const double mu, const double b ) {

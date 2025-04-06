@@ -28,7 +28,7 @@
 * @return    evaluated CDF
 *
 * @example
-* double y = cdf( 9.0, 0.0, 10.0 );
+* double y = stdlib_base_dists_uniform_cdf( 9.0, 0.0, 10.0 );
 * // returns 0.9
 */
 double stdlib_base_dists_uniform_cdf( const double x, const double a, const double b ) {
