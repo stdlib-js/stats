@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -23,7 +23,8 @@
 var tape = require( 'tape' );
 var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var varianceyc = require( './../lib/ndarray.js' );
+var Float64Array = require( '@stdlib/array/float64' );
+var varianceyc = require( './../lib' );
 
 
 // TESTS //
@@ -34,8 +35,8 @@ tape( 'main export is a function', function test( t ) {
 	t.end();
 });
 
-tape( 'the function has an arity of 5', function test( t ) {
-	t.strictEqual( varianceyc.length, 5, 'has expected arity' );
+tape( 'the function has an arity of 4', function test( t ) {
+	t.strictEqual( varianceyc.length, 4, 'has expected arity' );
 	t.end();
 });
 
@@ -44,15 +45,15 @@ tape( 'the function calculates the population variance of a strided array', func
 	var v;
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 0.0, 3.0 ];
-	v = varianceyc( x.length, 0.0, x, 1, 0 );
+	v = varianceyc( x.length, 0.0, x, 1 );
 	t.strictEqual( v, 53.5/x.length, 'returns expected value' );
 
 	x = [ -4.0, -4.0 ];
-	v = varianceyc( x.length, 0.0, x, 1, 0 );
+	v = varianceyc( x.length, 0.0, x, 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = [ NaN, 4.0 ];
-	v = varianceyc( x.length, 0.0, x, 1, 0 );
+	v = varianceyc( x.length, 0.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -63,15 +64,15 @@ tape( 'the function calculates the population variance of a strided array (acces
 	var v;
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 0.0, 3.0 ];
-	v = varianceyc( x.length, 0.0, toAccessorArray( x ), 1, 0 );
+	v = varianceyc( x.length, 0.0, toAccessorArray( x ), 1 );
 	t.strictEqual( v, 53.5/x.length, 'returns expected value' );
 
 	x = [ -4.0, -4.0 ];
-	v = varianceyc( x.length, 0.0, toAccessorArray( x ), 1, 0 );
+	v = varianceyc( x.length, 0.0, toAccessorArray( x ), 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = [ NaN, 4.0 ];
-	v = varianceyc( x.length, 0.0, toAccessorArray( x ), 1, 0 );
+	v = varianceyc( x.length, 0.0, toAccessorArray( x ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -82,15 +83,15 @@ tape( 'the function calculates the sample variance of a strided array', function
 	var v;
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 0.0, 3.0 ];
-	v = varianceyc( x.length, 1.0, x, 1, 0 );
+	v = varianceyc( x.length, 1.0, x, 1 );
 	t.strictEqual( v, 53.5/(x.length-1), 'returns expected value' );
 
 	x = [ -4.0, -4.0 ];
-	v = varianceyc( x.length, 1.0, x, 1, 0 );
+	v = varianceyc( x.length, 1.0, x, 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = [ NaN, 4.0 ];
-	v = varianceyc( x.length, 1.0, x, 1, 0 );
+	v = varianceyc( x.length, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -101,15 +102,15 @@ tape( 'the function calculates the sample variance of a strided array (accessor)
 	var v;
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 0.0, 3.0 ];
-	v = varianceyc( x.length, 1.0, toAccessorArray( x ), 1, 0 );
+	v = varianceyc( x.length, 1.0, toAccessorArray( x ), 1 );
 	t.strictEqual( v, 53.5/(x.length-1), 'returns expected value' );
 
 	x = [ -4.0, -4.0 ];
-	v = varianceyc( x.length, 1.0, toAccessorArray( x ), 1, 0 );
+	v = varianceyc( x.length, 1.0, toAccessorArray( x ), 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = [ NaN, 4.0 ];
-	v = varianceyc( x.length, 1.0, toAccessorArray( x ), 1, 0 );
+	v = varianceyc( x.length, 1.0, toAccessorArray( x ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -121,29 +122,29 @@ tape( 'if provided an `N` parameter less than or equal to `0`, the function retu
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
 
-	v = varianceyc( 0, 1.0, x, 1, 0 );
+	v = varianceyc( 0, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
-	v = varianceyc( -1, 1.0, x, 1, 0 );
+	v = varianceyc( -1, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'if provided an `N` parameter less than or equal to `0`, the function returns `NaN` (accessor)', function test( t ) {
+tape( 'if provided an `N` parameter less than or equal to `0`, the function returns `NaN (accessor)`', function test( t ) {
 	var x;
 	var v;
 
 	x = toAccessorArray( [ 1.0, -2.0, -4.0, 5.0, 3.0 ] );
 
-	v = varianceyc( 0, 1.0, x, 1, 0 );
+	v = varianceyc( 0, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
-	v = varianceyc( -1, 1.0, x, 1, 0 );
+	v = varianceyc( -1, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = toAccessorArray( [ 10.0 ] );
-	v = varianceyc( 0, 0.0, x, 1, 0 );
+	v = varianceyc( 0, 0.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -155,7 +156,7 @@ tape( 'if provided an `N` parameter equal to `1`, the function returns a populat
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
 
-	v = varianceyc( 1, 0.0, x, 1, 0 );
+	v = varianceyc( 1, 0.0, x, 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	t.end();
@@ -167,11 +168,11 @@ tape( 'if provided an `N` parameter equal to `1`, the function returns a populat
 
 	x = toAccessorArray( [ 1.0, -2.0, -4.0, 5.0, 3.0 ] );
 
-	v = varianceyc( 1, 0.0, x, 1, 0 );
+	v = varianceyc( 1, 0.0, x, 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = toAccessorArray( [ 5.0 ] );
-	v = varianceyc( 1, 0.0, x, 1, 0 );
+	v = varianceyc( 1, 0.0, x, 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	t.end();
@@ -183,29 +184,29 @@ tape( 'if provided a `correction` parameter yielding `N-correction` less than or
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
 
-	v = varianceyc( x.length, x.length, x, 1, 0 );
+	v = varianceyc( x.length, x.length, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
-	v = varianceyc( x.length, x.length+1, x, 1, 0 );
+	v = varianceyc( x.length, x.length+1, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'if provided a `correction` parameter yielding `N-correction` less than or equal to `0`, the function returns `NaN (accessor)`', function test( t ) {
+tape( 'if provided a `correction` parameter yielding `N-correction` less than or equal to `0`, the function returns `NaN` (accessor)', function test( t ) {
 	var x;
 	var v;
 
 	x = toAccessorArray( [ 1.0, -2.0, -4.0, 5.0, 3.0 ] );
 
-	v = varianceyc( x.length, x.length, x, 1, 0 );
-	t.strictEqual( isnan( v ), true, 'returns expected value' );
+	v = varianceyc( x.length, x.length, x, 1 );
+	t.strictEqual( isnan( v ), true, 'returns expected' );
 
-	v = varianceyc( x.length, x.length+1, x, 1, 0 );
-	t.strictEqual( isnan( v ), true, 'returns expected value' );
+	v = varianceyc( x.length, x.length+1, x, 1 );
+	t.strictEqual( isnan( v ), true, 'returns expected' );
 
 	x = toAccessorArray( [ 7.0, 8.0, 9.0 ] );
-	v = varianceyc( x.length, x.length, x, 1, 0 );
+	v = varianceyc( x.length, x.length, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -226,7 +227,7 @@ tape( 'the function supports a `stride` parameter', function test( t ) {
 		2.0
 	];
 
-	v = varianceyc( 4, 1.0, x, 2, 0 );
+	v = varianceyc( 4, 1.0, x, 2 );
 
 	t.strictEqual( v, 6.25, 'returns expected value' );
 	t.end();
@@ -247,7 +248,7 @@ tape( 'the function supports a `stride` parameter (accessor)', function test( t 
 		2.0
 	];
 
-	v = varianceyc( 4, 1.0, toAccessorArray( x ), 2, 0 );
+	v = varianceyc( 4, 1.0, toAccessorArray( x ), 2 );
 
 	t.strictEqual( v, 6.25, 'returns expected value' );
 	t.end();
@@ -268,7 +269,7 @@ tape( 'the function supports a negative `stride` parameter', function test( t ) 
 		2.0
 	];
 
-	v = varianceyc( 4, 1.0, x, -2, 6 );
+	v = varianceyc( 4, 1.0, x, -2 );
 
 	t.strictEqual( v, 6.25, 'returns expected value' );
 	t.end();
@@ -289,7 +290,7 @@ tape( 'the function supports a negative `stride` parameter (accessor)', function
 		2.0
 	];
 
-	v = varianceyc( 4, 1.0, toAccessorArray( x ), -2, 6 );
+	v = varianceyc( 4, 1.0, toAccessorArray( x ), -2 );
 
 	t.strictEqual( v, 6.25, 'returns expected value' );
 	t.end();
@@ -301,7 +302,7 @@ tape( 'if provided a `stride` parameter equal to `0`, the function returns `0`',
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
 
-	v = varianceyc( x.length, 1.0, x, 0, 0 );
+	v = varianceyc( x.length, 1.0, x, 0 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	t.end();
@@ -313,17 +314,18 @@ tape( 'if provided a `stride` parameter equal to `0`, the function returns `0` (
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
 
-	v = varianceyc( x.length, 1.0, toAccessorArray( x ), 0, 0 );
+	v = varianceyc( x.length, 1.0, toAccessorArray( x ), 0 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function supports an `offset` parameter', function test( t ) {
-	var x;
+tape( 'the function supports view offsets', function test( t ) {
+	var x0;
+	var x1;
 	var v;
 
-	x = [
+	x0 = new Float64Array([
 		2.0,
 		1.0,  // 0
 		2.0,
@@ -331,19 +333,24 @@ tape( 'the function supports an `offset` parameter', function test( t ) {
 		-2.0,
 		2.0,  // 2
 		3.0,
-		4.0   // 3
-	];
+		4.0,  // 3
+		6.0
+	]);
 
-	v = varianceyc( 4, 1.0, x, 2, 1 );
+	x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+
+	v = varianceyc( 4, 1.0, x1, 2 );
 	t.strictEqual( v, 6.25, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function supports an `offset` parameter (accessor)', function test( t ) {
-	var x;
+tape( 'the function supports view offsets (accessor)', function test( t ) {
+	var x0;
+	var x1;
 	var v;
-	x = [
+
+	x0 = new Float64Array([
 		2.0,
 		1.0,  // 0
 		2.0,
@@ -351,9 +358,14 @@ tape( 'the function supports an `offset` parameter (accessor)', function test( t
 		-2.0,
 		2.0,  // 2
 		3.0,
-		4.0   // 3
-	];
-	v = varianceyc( 4, 1.0, toAccessorArray( x ), 2, 1 );
+		4.0,  // 3
+		6.0
+	]);
+
+	x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+
+	v = varianceyc( 4, 1.0, toAccessorArray( x1 ), 2 );
 	t.strictEqual( v, 6.25, 'returns expected value' );
+
 	t.end();
 });

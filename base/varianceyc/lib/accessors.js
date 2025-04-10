@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -31,19 +31,28 @@
 *
 * -   Youngs, Edward A., and Elliot M. Cramer. 1971. "Some Results Relevant to Choice of Sum and Sum-of-Product Algorithms." _Technometrics_ 13 (3): 657–65. doi:[10.1080/00401706.1971.10488826](https://doi.org/10.1080/00401706.1971.10488826).
 *
+* @private
 * @param {PositiveInteger} N - number of indexed elements
 * @param {number} correction - degrees of freedom adjustment
-* @param {NumericArray} x - input array
-* @param {integer} stride - stride length
+* @param {Object} x - input array object
+* @param {Collection} x.data - input array data
+* @param {Array<Function>} x.accessors - array element accessors
+* @param {integer} strideX - stride length
+* @param {NonNegativeInteger} offsetX - starting index
 * @returns {number} variance
 *
 * @example
-* var x = [ 1.0, -2.0, 2.0 ];
+* var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
+* var arraylike2object = require( '@stdlib/array/base/arraylike2object' );
 *
-* var v = varianceyc( x.length, 1, x, 1 );
-* // returns ~4.3333
+* var x = toAccessorArray( [ 1.0, -2.0, -4.0, 5.0, 0.0, 3.0 ] );
+*
+* var v = varianceyc( x.length, 1.0, arraylike2object( x ), 1, 0 );
+* // returns 10.7
 */
-function varianceyc( N, correction, x, stride ) {
+function varianceyc( N, correction, x, strideX, offsetX ) {
+	var xbuf;
+	var xget;
 	var sum;
 	var ix;
 	var S;
@@ -53,26 +62,22 @@ function varianceyc( N, correction, x, stride ) {
 	var i;
 
 	n = N - correction;
-	if ( N <= 0 || n <= 0.0 ) {
-		return NaN;
-	}
-	if ( N === 1 || stride === 0 ) {
-		return 0.0;
-	}
-	if ( stride < 0 ) {
-		ix = (1-N) * stride;
-	} else {
-		ix = 0;
-	}
-	sum = x[ ix ];
-	ix += stride;
+
+	// Cache a reference to array data:
+	xbuf = x.data;
+
+	// Cache a reference to an element accessor:
+	xget = x.accessors[ 0 ];
+
+	sum = xget( xbuf, offsetX );
+	ix = offsetX + strideX;
 	S = 0.0;
 	for ( i = 2; i <= N; i++ ) {
-		v = x[ ix ];
+		v = xget( xbuf, ix );
 		sum += v;
 		d = (i*v) - sum;
 		S += (1.0/(i*(i-1))) * d * d;
-		ix += stride;
+		ix += strideX;
 	}
 	return S / n;
 }
