@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-09)
+## Unreleased (2025-04-10)
 
 <section class="packages">
 
@@ -39578,6 +39578,7 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7cd25c6`](https://github.com/stdlib-js/stdlib/commit/7cd25c6c430ae994ae9acf52e5c78c15038d7254) - **chore:** clean-up _(by Athan Reines)_
 -   [`c2d2e46`](https://github.com/stdlib-js/stdlib/commit/c2d2e4616d35d4f1b9ab8743edf543ca8eaa0e2b) - **chore:** fix filename _(by Athan Reines)_
 -   [`ff8f93c`](https://github.com/stdlib-js/stdlib/commit/ff8f93c88b3dcdd9eff26eda0a785950dc50f15d) - **test:** fix missing argument _(by Athan Reines)_
 -   [`e403884`](https://github.com/stdlib-js/stdlib/commit/e403884f1b3ac0a4bc7d0b3bc954e69273bba891) - **bench:** ensure NaN is not possible _(by Athan Reines)_

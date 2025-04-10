@@ -24,7 +24,7 @@ var tape = require( 'tape' );
 var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var Float64Array = require( '@stdlib/array/float64' );
-var nanvarianceyc = require( './../lib/nanvarianceyc.js' );
+var nanvarianceyc = require( './../lib/main.js' );
 
 
 // TESTS //
@@ -47,48 +47,48 @@ tape( 'the function calculates the population variance of a strided array (ignor
 
 	x = [ 1.0, -2.0, -4.0, 5.0, NaN, 0.0, 3.0 ];
 
-	v = nanvarianceyc( x.length, 0, x, 1 );
+	v = nanvarianceyc( x.length, 0.0, x, 1 );
 	t.strictEqual( v, 53.5/(x.length-1), 'returns expected value' );
 
 	x = [ 1.0, NaN, NaN, -2.0, NaN, -4.0, NaN, 5.0, NaN, 0.0, 3.0, NaN ];
 
-	v = nanvarianceyc( x.length, 0, x, 1 );
+	v = nanvarianceyc( x.length, 0.0, x, 1 );
 	t.strictEqual( v, 53.5/(x.length-6), 'returns expected value' );
 
 	x = [ -4.0, NaN ];
 
-	v = nanvarianceyc( x.length, 0, x, 1 );
+	v = nanvarianceyc( x.length, 0.0, x, 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 
-	v = nanvarianceyc( x.length, 0, x, 1 );
+	v = nanvarianceyc( x.length, 0.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN ];
-	v = nanvarianceyc( x.length, 0, x, 1 );
+	v = nanvarianceyc( x.length, 0.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ 4.0 ];
-	v = nanvarianceyc( x.length, 0, x, 1 );
+	v = nanvarianceyc( x.length, 0.0, x, 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = [];
 	for ( i = 0; i < 1e3; i++ ) {
 		x.push( 100.0 );
 	}
-	v = nanvarianceyc( x.length, 0, x, 1 );
+	v = nanvarianceyc( x.length, 0.0, x, 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ];
-	v = nanvarianceyc( x.length, 0, x, 1 );
+	v = nanvarianceyc( x.length, 0.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [];
 	for ( i = 0; i < 1e3; i++ ) {
 		x.push( NaN );
 	}
-	v = nanvarianceyc( x.length, 0, x, 1 );
+	v = nanvarianceyc( x.length, 0.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -101,48 +101,48 @@ tape( 'the function calculates the sample variance of a strided array (ignoring 
 
 	x = [ 1.0, -2.0, -4.0, 5.0, NaN, 0.0, 3.0 ];
 
-	v = nanvarianceyc( x.length, 1, x, 1 );
+	v = nanvarianceyc( x.length, 1.0, x, 1 );
 	t.strictEqual( v, 53.5/(x.length-2), 'returns expected value' );
 
 	x = [ 1.0, NaN, NaN, -2.0, NaN, -4.0, NaN, 5.0, NaN, 0.0, 3.0, NaN ];
 
-	v = nanvarianceyc( x.length, 1, x, 1 );
+	v = nanvarianceyc( x.length, 1.0, x, 1 );
 	t.strictEqual( v, 53.5/(x.length-7), 'returns expected value' );
 
 	x = [ -4.0, NaN ];
 
-	v = nanvarianceyc( x.length, 1, x, 1 );
+	v = nanvarianceyc( x.length, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 
-	v = nanvarianceyc( x.length, 1, x, 1 );
+	v = nanvarianceyc( x.length, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN ];
-	v = nanvarianceyc( x.length, 1, x, 1 );
+	v = nanvarianceyc( x.length, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ 4.0 ];
-	v = nanvarianceyc( x.length, 1, x, 1 );
+	v = nanvarianceyc( x.length, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [];
 	for ( i = 0; i < 1e3; i++ ) {
 		x.push( 100.0 );
 	}
-	v = nanvarianceyc( x.length, 1, x, 1 );
+	v = nanvarianceyc( x.length, 1.0, x, 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ];
-	v = nanvarianceyc( x.length, 1, x, 1 );
+	v = nanvarianceyc( x.length, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [];
 	for ( i = 0; i < 1e3; i++ ) {
 		x.push( NaN );
 	}
-	v = nanvarianceyc( x.length, 1, x, 1 );
+	v = nanvarianceyc( x.length, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -155,48 +155,48 @@ tape( 'the function calculates the population variance of a strided array (ignor
 
 	x = [ 1.0, -2.0, -4.0, 5.0, NaN, 0.0, 3.0 ];
 
-	v = nanvarianceyc( x.length, 0, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 0.0, toAccessorArray( x ), 1 );
 	t.strictEqual( v, 53.5/(x.length-1), 'returns expected value' );
 
 	x = [ 1.0, NaN, NaN, -2.0, NaN, -4.0, NaN, 5.0, NaN, 0.0, 3.0, NaN ];
 
-	v = nanvarianceyc( x.length, 0, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 0.0, toAccessorArray( x ), 1 );
 	t.strictEqual( v, 53.5/(x.length-6), 'returns expected value' );
 
 	x = [ -4.0, NaN ];
 
-	v = nanvarianceyc( x.length, 0, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 0.0, toAccessorArray( x ), 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 
-	v = nanvarianceyc( x.length, 0, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 0.0, toAccessorArray( x ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN ];
-	v = nanvarianceyc( x.length, 0, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 0.0, toAccessorArray( x ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ 4.0 ];
-	v = nanvarianceyc( x.length, 0, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 0.0, toAccessorArray( x ), 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = [];
 	for ( i = 0; i < 1e3; i++ ) {
 		x.push( 100.0 );
 	}
-	v = nanvarianceyc( x.length, 0, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 0.0, toAccessorArray( x ), 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ];
-	v = nanvarianceyc( x.length, 0, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 0.0, toAccessorArray( x ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [];
 	for ( i = 0; i < 1e3; i++ ) {
 		x.push( NaN );
 	}
-	v = nanvarianceyc( x.length, 0, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 0.0, toAccessorArray( x ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -209,48 +209,48 @@ tape( 'the function calculates the sample variance of a strided array (ignoring 
 
 	x = [ 1.0, -2.0, -4.0, 5.0, NaN, 0.0, 3.0 ];
 
-	v = nanvarianceyc( x.length, 1, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 1.0, toAccessorArray( x ), 1 );
 	t.strictEqual( v, 53.5/(x.length-2), 'returns expected value' );
 
 	x = [ 1.0, NaN, NaN, -2.0, NaN, -4.0, NaN, 5.0, NaN, 0.0, 3.0, NaN ];
 
-	v = nanvarianceyc( x.length, 1, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 1.0, toAccessorArray( x ), 1 );
 	t.strictEqual( v, 53.5/(x.length-7), 'returns expected value' );
 
 	x = [ -4.0, NaN ];
 
-	v = nanvarianceyc( x.length, 1, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 1.0, toAccessorArray( x ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 
-	v = nanvarianceyc( x.length, 1, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 1.0, toAccessorArray( x ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN ];
-	v = nanvarianceyc( x.length, 1, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 1.0, toAccessorArray( x ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ 4.0 ];
-	v = nanvarianceyc( x.length, 1, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 1.0, toAccessorArray( x ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [];
 	for ( i = 0; i < 1e3; i++ ) {
 		x.push( 100.0 );
 	}
-	v = nanvarianceyc( x.length, 1, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 1.0, toAccessorArray( x ), 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = [ NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ];
-	v = nanvarianceyc( x.length, 1, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 1.0, toAccessorArray( x ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [];
 	for ( i = 0; i < 1e3; i++ ) {
 		x.push( NaN );
 	}
-	v = nanvarianceyc( x.length, 1, toAccessorArray( x ), 1 );
+	v = nanvarianceyc( x.length, 1.0, toAccessorArray( x ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -262,10 +262,10 @@ tape( 'if provided an `N` parameter less than or equal to `0`, the function retu
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
 
-	v = nanvarianceyc( 0, 1, x, 1 );
+	v = nanvarianceyc( 0, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
-	v = nanvarianceyc( -1, 1, x, 1 );
+	v = nanvarianceyc( -1, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -277,12 +277,12 @@ tape( 'if provided an `N` parameter equal to `1`, the function returns a populat
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
 
-	v = nanvarianceyc( 1, 0, x, 1 );
+	v = nanvarianceyc( 1, 0.0, x, 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = [ NaN, 1.0, -2.0, -4.0, 5.0, 3.0 ];
 
-	v = nanvarianceyc( 1, 0, x, 1 );
+	v = nanvarianceyc( 1, 0.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -294,12 +294,12 @@ tape( 'if provided an `N` parameter equal to `1`, the function returns a sample 
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
 
-	v = nanvarianceyc( 1, 1, x, 1 );
+	v = nanvarianceyc( 1, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, 1.0, -2.0, -4.0, 5.0, 3.0 ];
 
-	v = nanvarianceyc( 1, 1, x, 1 );
+	v = nanvarianceyc( 1, 1.0, x, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -337,7 +337,7 @@ tape( 'the function supports a `stride` parameter', function test( t ) {
 		NaN
 	];
 
-	v = nanvarianceyc( 5, 1, x, 2 );
+	v = nanvarianceyc( 5, 1.0, x, 2 );
 
 	t.strictEqual( v, 6.25, 'returns expected value' );
 	t.end();
@@ -384,14 +384,14 @@ tape( 'the function supports a negative `stride` parameter', function test( t ) 
 		2.0
 	];
 
-	v = nanvarianceyc( 5, 1, x, -2 );
+	v = nanvarianceyc( 5, 1.0, x, -2 );
 	t.strictEqual( v, 6.25, 'returns expected value' );
 
 	x = [];
 	for ( i = 0; i < 1e3; i++ ) {
 		x.push( 100.0 );
 	}
-	v = nanvarianceyc( x.length, 1, x, -1 );
+	v = nanvarianceyc( x.length, 1.0, x, -1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	t.end();
@@ -415,14 +415,14 @@ tape( 'the function supports a negative `stride` parameter (accessors)', functio
 		2.0
 	];
 
-	v = nanvarianceyc( 5, 1, toAccessorArray( x ), -2 );
+	v = nanvarianceyc( 5, 1.0, toAccessorArray( x ), -2 );
 	t.strictEqual( v, 6.25, 'returns expected value' );
 
 	x = [];
 	for ( i = 0; i < 1e3; i++ ) {
 		x.push( 100.0 );
 	}
-	v = nanvarianceyc( x.length, 1, toAccessorArray( x ), -1 );
+	v = nanvarianceyc( x.length, 1.0, toAccessorArray( x ), -1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	t.end();
@@ -434,12 +434,12 @@ tape( 'if provided a `stride` parameter equal to `0`, the function returns `0` p
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
 
-	v = nanvarianceyc( x.length, 1, x, 0 );
+	v = nanvarianceyc( x.length, 1.0, x, 0 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	x = [ NaN, 1.0, -2.0, -4.0, 5.0, 3.0 ];
 
-	v = nanvarianceyc( x.length, 1, x, 0 );
+	v = nanvarianceyc( x.length, 1.0, x, 0 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
@@ -471,7 +471,7 @@ tape( 'the function supports view offsets', function test( t ) {
 
 	x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-	v = nanvarianceyc( 5, 1, x1, 2 );
+	v = nanvarianceyc( 5, 1.0, x1, 2 );
 	t.strictEqual( v, 6.25, 'returns expected value' );
 
 	t.end();
@@ -498,7 +498,7 @@ tape( 'the function supports view offsets (accessors)', function test( t ) {
 
 	x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-	v = nanvarianceyc( 5, 1, toAccessorArray( x1 ), 2 );
+	v = nanvarianceyc( 5, 1.0, toAccessorArray( x1 ), 2 );
 	t.strictEqual( v, 6.25, 'returns expected value' );
 
 	t.end();
