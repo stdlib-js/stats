@@ -10,6 +10,28 @@
 
 ### Packages
 
+<section class="package" id="stats-array-max-unreleased">
+
+#### [@stdlib/stats/array/max](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/array/max)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1e49c99`](https://github.com/stdlib-js/stdlib/commit/1e49c9933665cf4c16ff96b81f3b4058f02be99c) - add `stats/array/max`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-unreleased">
 
 #### [@stdlib/stats/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base)
@@ -39614,6 +39636,7 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 -   [`fab8c0e`](https://github.com/stdlib-js/stdlib/commit/fab8c0e11830344ff842ebac4f601e9710353a2a) - **feat:** add accessor protocol support to `stats/base/varianceyc` [(#5891)](https://github.com/stdlib-js/stdlib/pull/5891) _(by Pulkit Gupta, Athan Reines, stdlib-bot)_
 -   [`7cd25c6`](https://github.com/stdlib-js/stdlib/commit/7cd25c6c430ae994ae9acf52e5c78c15038d7254) - **chore:** clean-up _(by Athan Reines)_
+-   [`1e49c99`](https://github.com/stdlib-js/stdlib/commit/1e49c9933665cf4c16ff96b81f3b4058f02be99c) - **feat:** add `stats/array/max` _(by Athan Reines)_
 -   [`c2d2e46`](https://github.com/stdlib-js/stdlib/commit/c2d2e4616d35d4f1b9ab8743edf543ca8eaa0e2b) - **chore:** fix filename _(by Athan Reines)_
 -   [`ff8f93c`](https://github.com/stdlib-js/stdlib/commit/ff8f93c88b3dcdd9eff26eda0a785950dc50f15d) - **test:** fix missing argument _(by Athan Reines)_
 -   [`e403884`](https://github.com/stdlib-js/stdlib/commit/e403884f1b3ac0a4bc7d0b3bc954e69273bba891) - **bench:** ensure NaN is not possible _(by Athan Reines)_
