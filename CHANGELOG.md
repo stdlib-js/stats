@@ -32,6 +32,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="stats-array-mskmax-unreleased">
+
+#### [@stdlib/stats/array/mskmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/array/mskmax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e60e690`](https://github.com/stdlib-js/stdlib/commit/e60e6902d0e0d0294c60420b8aca1d37fbc46017) - add `stats/array/mskmax`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-array-nanmax-unreleased">
 
 #### [@stdlib/stats/array/nanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/array/nanmax)
@@ -39678,6 +39700,9 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e60e690`](https://github.com/stdlib-js/stdlib/commit/e60e6902d0e0d0294c60420b8aca1d37fbc46017) - **feat:** add `stats/array/mskmax` _(by Athan Reines)_
+-   [`b00201a`](https://github.com/stdlib-js/stdlib/commit/b00201a04d19fe4de3064906472f07b79a201ef7) - **chore:** clean-up _(by Athan Reines)_
+-   [`bba5f34`](https://github.com/stdlib-js/stdlib/commit/bba5f34762bd42ead771ac53349ec7c333cbf38a) - **chore:** clean-up _(by Athan Reines)_
 -   [`e532836`](https://github.com/stdlib-js/stdlib/commit/e53283646a28ad1e1e176a61944f9e9b1361c581) - **feat:** add `stats/array/nanmax` _(by Athan Reines)_
 -   [`d598da2`](https://github.com/stdlib-js/stdlib/commit/d598da22bd1517f6a1ae8228695bc03bf1d77d37) - **chore:** clean-up _(by Athan Reines)_
 -   [`11c00ff`](https://github.com/stdlib-js/stdlib/commit/11c00ffd0eeae29f3137fdc5ddbfb02c45223bf9) - **feat:** add `stats/array/varianceyc` _(by Athan Reines)_

@@ -164,7 +164,7 @@ tape( 'if provided an `N` parameter less than or equal to `0`, the function retu
 	var v;
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
-	mask = [ 0.0, 0.0 ];
+	mask = [ 0, 0 ];
 
 	v = mskmax( 0, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
@@ -181,7 +181,7 @@ tape( 'if provided an `N` parameter equal to `1`, the function returns the first
 	var v;
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
-	mask = [ 0.0, 0.0 ];
+	mask = [ 0, 0 ];
 
 	v = mskmax( 1, x, 1, mask, 1 );
 	t.strictEqual( v, 1.0, 'returns expected value' );
