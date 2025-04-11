@@ -39656,6 +39656,7 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d598da2`](https://github.com/stdlib-js/stdlib/commit/d598da22bd1517f6a1ae8228695bc03bf1d77d37) - **chore:** clean-up _(by Athan Reines)_
 -   [`11c00ff`](https://github.com/stdlib-js/stdlib/commit/11c00ffd0eeae29f3137fdc5ddbfb02c45223bf9) - **feat:** add `stats/array/varianceyc` _(by Athan Reines)_
 -   [`fab8c0e`](https://github.com/stdlib-js/stdlib/commit/fab8c0e11830344ff842ebac4f601e9710353a2a) - **feat:** add accessor protocol support to `stats/base/varianceyc` [(#5891)](https://github.com/stdlib-js/stdlib/pull/5891) _(by Pulkit Gupta, Athan Reines, stdlib-bot)_
 -   [`7cd25c6`](https://github.com/stdlib-js/stdlib/commit/7cd25c6c430ae994ae9acf52e5c78c15038d7254) - **chore:** clean-up _(by Athan Reines)_
