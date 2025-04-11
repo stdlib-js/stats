@@ -25,7 +25,7 @@ var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
 var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
 var Float64Array = require( '@stdlib/array/float64' );
-var cumax = require( './../lib/cumax.js' );
+var cumax = require( './../lib' );
 
 
 // TESTS //
