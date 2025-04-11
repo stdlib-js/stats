@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-10)
+## Unreleased (2025-04-11)
 
 <section class="packages">
 
@@ -21,6 +21,28 @@
 ##### Features
 
 -   [`1e49c99`](https://github.com/stdlib-js/stdlib/commit/1e49c9933665cf4c16ff96b81f3b4058f02be99c) - add `stats/array/max`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-array-varianceyc-unreleased">
+
+#### [@stdlib/stats/array/varianceyc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/array/varianceyc)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`11c00ff`](https://github.com/stdlib-js/stdlib/commit/11c00ffd0eeae29f3137fdc5ddbfb02c45223bf9) - add `stats/array/varianceyc`
 
 </section>
 
@@ -39634,6 +39656,7 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`11c00ff`](https://github.com/stdlib-js/stdlib/commit/11c00ffd0eeae29f3137fdc5ddbfb02c45223bf9) - **feat:** add `stats/array/varianceyc` _(by Athan Reines)_
 -   [`fab8c0e`](https://github.com/stdlib-js/stdlib/commit/fab8c0e11830344ff842ebac4f601e9710353a2a) - **feat:** add accessor protocol support to `stats/base/varianceyc` [(#5891)](https://github.com/stdlib-js/stdlib/pull/5891) _(by Pulkit Gupta, Athan Reines, stdlib-bot)_
 -   [`7cd25c6`](https://github.com/stdlib-js/stdlib/commit/7cd25c6c430ae994ae9acf52e5c78c15038d7254) - **chore:** clean-up _(by Athan Reines)_
 -   [`1e49c99`](https://github.com/stdlib-js/stdlib/commit/1e49c9933665cf4c16ff96b81f3b4058f02be99c) - **feat:** add `stats/array/max` _(by Athan Reines)_
