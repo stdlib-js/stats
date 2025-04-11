@@ -39701,7 +39701,6 @@ A total of 54 people contributed to this release. Thank you to the following con
 <details>
 
 -   [`aceff02`](https://github.com/stdlib-js/stdlib/commit/aceff02882c33d9682e9a749164faea576f38f04) - **docs:** update namespace table of contents [(#6648)](https://github.com/stdlib-js/stdlib/pull/6648) _(by stdlib-bot)_
--   [`799acef`](https://github.com/stdlib-js/stdlib/commit/799acef18a6b083622f677d136a424b1db112336) - **chore:** clean-up _(by Athan Reines)_
 -   [`e60e690`](https://github.com/stdlib-js/stdlib/commit/e60e6902d0e0d0294c60420b8aca1d37fbc46017) - **feat:** add `stats/array/mskmax` _(by Athan Reines)_
 -   [`b00201a`](https://github.com/stdlib-js/stdlib/commit/b00201a04d19fe4de3064906472f07b79a201ef7) - **chore:** clean-up _(by Athan Reines)_
 -   [`bba5f34`](https://github.com/stdlib-js/stdlib/commit/bba5f34762bd42ead771ac53349ec7c333cbf38a) - **chore:** clean-up _(by Athan Reines)_

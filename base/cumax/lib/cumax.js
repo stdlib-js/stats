@@ -18,40 +18,39 @@
 
 'use strict';
 
+// MODULES //
+
+var stride2offset = require( '@stdlib/strided/base/stride2offset' );
+var ndarray = require( './ndarray.js' );
+
+
+// MAIN //
+
 /**
-* Compute the cumulative maximum of a strided array.
+* Computes the cumulative maximum of a strided array.
 *
-* @module @stdlib/stats/base/cumax
+* @param {PositiveInteger} N - number of indexed elements
+* @param {NumericArray} x - input array
+* @param {integer} strideX - stride length for `x`
+* @param {NumericArray} y - output array
+* @param {integer} strideY - stride length for `y`
+* @returns {NumericArray} output array
 *
 * @example
-* var cumax = require( '@stdlib/stats/base/cumax' );
-*
 * var x = [ 1.0, -2.0, 2.0 ];
 * var y = [ 0.0, 0.0, 0.0 ];
 * var N = x.length;
 *
-* cumax( N, x, 1, y, 1 );
-* // y => [ 1.0, 1.0, 2.0 ]
-*
-* @example
-* var floor = require( '@stdlib/math/base/special/floor' );
-* var cumax = require( '@stdlib/stats/base/cumax' );
-*
-* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
-* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
-* var N = floor( x.length / 2 );
-*
-* cumax.ndarray( N, x, 2, 1, y, 1, 0 );
-* // y => [ 1.0, 1.0, 2.0, 4.0, 0.0, 0.0, 0.0, 0.0 ]
+* var v = cumax( N, x, 1, y, 1 );
+* // returns [ 1.0, 1.0, 2.0 ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+function cumax( N, x, strideX, y, strideY ) {
+	var ix = stride2offset( N, strideX );
+	var iy = stride2offset( N, strideY );
+	return ndarray( N, x, strideX, ix, y, strideY, iy );
+}
 
 
 // EXPORTS //
 
-module.exports = main;
-
-// exports: { "ndarray": "main.ndarray" }
+module.exports = cumax;

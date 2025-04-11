@@ -20,34 +20,14 @@
 
 // MODULES //
 
-var stride2offset = require( '@stdlib/strided/base/stride2offset' );
+var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
+var cumax = require( './cumax.js' );
 var ndarray = require( './ndarray.js' );
 
 
 // MAIN //
 
-/**
-* Computes the cumulative maximum of a strided array.
-*
-* @param {PositiveInteger} N - number of indexed elements
-* @param {NumericArray} x - input array
-* @param {integer} strideX - stride length for `x`
-* @param {NumericArray} y - output array
-* @param {integer} strideY - stride length for `y`
-* @returns {NumericArray} output array
-*
-* @example
-* var x = [ 1.0, -2.0, 2.0 ];
-* var y = [ 0.0, 0.0, 0.0 ];
-*
-* var v = cumax( 3, x, 1, y, 1 );
-* // returns [ 1.0, 1.0, 2.0 ]
-*/
-function cumax( N, x, strideX, y, strideY ) {
-	var ix = stride2offset( N, strideX );
-	var iy = stride2offset( N, strideY );
-	return ndarray( N, x, strideX, ix, y, strideY, iy );
-}
+setReadOnly( cumax, 'ndarray', ndarray );
 
 
 // EXPORTS //

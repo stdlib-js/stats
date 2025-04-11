@@ -25,9 +25,8 @@ var cumax = require( './../lib' );
 var x = discreteUniform( 10, 0, 100, {
 	'dtype': 'float64'
 });
-console.log( x );
-
 var y = new Float64Array( x.length );
+console.log( x );
 console.log( y );
 
 cumax( x.length, x, 1, y, -1 );
