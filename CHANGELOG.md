@@ -39722,6 +39722,12 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`40461dd`](https://github.com/stdlib-js/stdlib/commit/40461dd76cbee9a76b650f13c5c064be38b2096d) - **chore:** clean-up _(by Athan Reines)_
+-   [`0f61a64`](https://github.com/stdlib-js/stdlib/commit/0f61a6495d50e9e33e4783502a78f93e5bc4144e) - **chore:** clean-up _(by Athan Reines)_
+-   [`a9c5bd5`](https://github.com/stdlib-js/stdlib/commit/a9c5bd530e3080d8fd55586b8b05c4c3a31c60b7) - **chore:** clean-up _(by Athan Reines)_
+-   [`85ef894`](https://github.com/stdlib-js/stdlib/commit/85ef894a07c41e917c1c729cd3a08a5d2bd96acb) - **chore:** clean-up _(by Athan Reines)_
+-   [`c7d443f`](https://github.com/stdlib-js/stdlib/commit/c7d443f50e2ec4b003d03654287470674ab22758) - **chore:** clean-up _(by Athan Reines)_
+-   [`7be4b47`](https://github.com/stdlib-js/stdlib/commit/7be4b4780d973679eac36b2b4cf970af3513f022) - **chore:** clean-up _(by Athan Reines)_
 -   [`6c04cd1`](https://github.com/stdlib-js/stdlib/commit/6c04cd1f675361f9c1ef7c7b2ec31793cff179f1) - **docs:** update namespace table of contents [(#6657)](https://github.com/stdlib-js/stdlib/pull/6657) _(by stdlib-bot)_
 -   [`b6ad3e2`](https://github.com/stdlib-js/stdlib/commit/b6ad3e2323bb7952819c34578467f382a7cace3e) - **chore:** clean-up _(by Athan Reines)_
 -   [`367e8f9`](https://github.com/stdlib-js/stdlib/commit/367e8f90bec98d87e4bf044f0cf8baf12602c3dd) - **chore:** clean-up _(by Athan Reines)_
