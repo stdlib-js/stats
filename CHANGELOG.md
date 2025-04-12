@@ -39722,6 +39722,7 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e32cf03`](https://github.com/stdlib-js/stdlib/commit/e32cf037aa6abea59465466f642d022997865b7a) - **refactor:** compute reciprocal before multiplication to match JavaScript implementation _(by Athan Reines)_
 -   [`537c0b7`](https://github.com/stdlib-js/stdlib/commit/537c0b725bd2b88896325aea1e23239e686e8ad5) - **chore:** clean-up _(by Athan Reines)_
 -   [`55636e4`](https://github.com/stdlib-js/stdlib/commit/55636e401a4c7c504a41ecb511dc6d55206fdc4a) - **docs:** fix closing comment tags _(by Athan Reines)_
 -   [`8f7ce32`](https://github.com/stdlib-js/stdlib/commit/8f7ce3212535ee00b668ec69fdf8f94276104855) - **chore:** clean-up _(by Athan Reines)_
