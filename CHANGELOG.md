@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-11)
+## Unreleased (2025-04-12)
 
 <section class="packages">
 
@@ -39722,6 +39722,9 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b6ad3e2`](https://github.com/stdlib-js/stdlib/commit/b6ad3e2323bb7952819c34578467f382a7cace3e) - **chore:** clean-up _(by Athan Reines)_
+-   [`367e8f9`](https://github.com/stdlib-js/stdlib/commit/367e8f90bec98d87e4bf044f0cf8baf12602c3dd) - **chore:** clean-up _(by Athan Reines)_
+-   [`f3c9340`](https://github.com/stdlib-js/stdlib/commit/f3c9340d77cca871bb1b43860a29c5c3a19ca639) - **chore:** clean-up _(by Athan Reines)_
 -   [`ce86a5d`](https://github.com/stdlib-js/stdlib/commit/ce86a5d7a15f0bc79349d46ecbc661f270c7025b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanpn` [(#6510)](https://github.com/stdlib-js/stdlib/pull/6510) _(by Gururaj Gurram, Athan Reines)_
 -   [`aceff02`](https://github.com/stdlib-js/stdlib/commit/aceff02882c33d9682e9a749164faea576f38f04) - **docs:** update namespace table of contents [(#6648)](https://github.com/stdlib-js/stdlib/pull/6648) _(by stdlib-bot)_
 -   [`799acef`](https://github.com/stdlib-js/stdlib/commit/799acef18a6b083622f677d136a424b1db112336) - **chore:** clean-up _(by Athan Reines)_
