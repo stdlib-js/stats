@@ -39722,6 +39722,9 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`55636e4`](https://github.com/stdlib-js/stdlib/commit/55636e401a4c7c504a41ecb511dc6d55206fdc4a) - **docs:** fix closing comment tags _(by Athan Reines)_
+-   [`8f7ce32`](https://github.com/stdlib-js/stdlib/commit/8f7ce3212535ee00b668ec69fdf8f94276104855) - **chore:** clean-up _(by Athan Reines)_
+-   [`8db8a75`](https://github.com/stdlib-js/stdlib/commit/8db8a75120b87f97994f429ddfe3aef7d8396eae) - **chore:** clean-up _(by Athan Reines)_
 -   [`40461dd`](https://github.com/stdlib-js/stdlib/commit/40461dd76cbee9a76b650f13c5c064be38b2096d) - **chore:** clean-up _(by Athan Reines)_
 -   [`0f61a64`](https://github.com/stdlib-js/stdlib/commit/0f61a6495d50e9e33e4783502a78f93e5bc4144e) - **chore:** clean-up _(by Athan Reines)_
 -   [`a9c5bd5`](https://github.com/stdlib-js/stdlib/commit/a9c5bd530e3080d8fd55586b8b05c4c3a31c60b7) - **chore:** clean-up _(by Athan Reines)_
