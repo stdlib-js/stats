@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,20 +20,29 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
-var uniform = require( '@stdlib/random/base/uniform' );
 var discreteUniform = require( '@stdlib/random/base/discrete-uniform' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var uniform = require( '@stdlib/random/base/uniform' );
 var Float64Array = require( '@stdlib/array/float64' );
 var Int32Array = require( '@stdlib/array/int32' );
 var EPS = require( '@stdlib/constants/float64/eps' );
+var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
-var mean = require( './../lib' );
+
+
+// VARIABLES //
+
+var mean = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( mean instanceof Error )
+};
 
 
 // MAIN //
 
-bench( pkg, function benchmark( b ) {
+bench( pkg+'::native', opts, function benchmark( b ) {
 	var lambda;
 	var len;
 	var k;
@@ -41,8 +50,8 @@ bench( pkg, function benchmark( b ) {
 	var i;
 
 	len = 100;
-	lambda = new Float64Array( len );
 	k = new Int32Array( len );
+	lambda = new Float64Array( len );
 	for ( i = 0; i < len; i++ ) {
 		k[ i ] = discreteUniform( 1, 10 );
 		lambda[ i ] = uniform( EPS, 10.0 );
