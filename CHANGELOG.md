@@ -40034,6 +40034,13 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fd4c11b`](https://github.com/stdlib-js/stdlib/commit/fd4c11ba57638e1bceb9999db36359ca5a8108a3) - **style:** use consistent markup _(by Athan Reines)_
+-   [`c5c965f`](https://github.com/stdlib-js/stdlib/commit/c5c965f8231f96c40d8bb7527fc5ecc6d830df17) - **style:** use consistent markup _(by Athan Reines)_
+-   [`74e258d`](https://github.com/stdlib-js/stdlib/commit/74e258d30fcf441681f766870718974685e2495d) - **style:** use consistent markup _(by Athan Reines)_
+-   [`500f342`](https://github.com/stdlib-js/stdlib/commit/500f342f03ea25f7c461d2d94fcdf9dbae8cb800) - **docs:** update copy _(by Athan Reines)_
+-   [`38be90c`](https://github.com/stdlib-js/stdlib/commit/38be90c44c5a07bd0ce9673065f29a1b84ad6ec8) - **docs:** update copy _(by Athan Reines)_
+-   [`a130c9b`](https://github.com/stdlib-js/stdlib/commit/a130c9ba44e6d92845acb45cad234a3db9878aeb) - **docs:** update copy _(by Athan Reines)_
+-   [`2b72de1`](https://github.com/stdlib-js/stdlib/commit/2b72de1620d65697b061c0c991d0a57fbde03d65) - **docs:** update markup _(by Athan Reines)_
 -   [`a2e6fe3`](https://github.com/stdlib-js/stdlib/commit/a2e6fe3e246fb5453c8c7c2a813f3b416a452c5e) - **feat:** add `ndarray` to namespace _(by Athan Reines)_
 -   [`582c0b6`](https://github.com/stdlib-js/stdlib/commit/582c0b69b125ec70de48eb1c7c2a815d332f6842) - **feat:** add `stats/base/ndarray` namespace _(by Athan Reines)_
 -   [`2879dfe`](https://github.com/stdlib-js/stdlib/commit/2879dfef1732d49e9c4f42bd332c04b11368d662) - **feat:** add `stats/base/ndarray/max` _(by Athan Reines)_
