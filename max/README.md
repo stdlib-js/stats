@@ -92,7 +92,7 @@ v = y.get();
 // returns 4.0
 ```
 
-By default, the function excludes reduced dimensions from the output [ndarray][@stdlib/ndarray/ctor]. To include the reduced dimensions as singleton dimensions—which can be useful when broadcasting the output [ndarray][@stdlib/ndarray/ctor] against ndarrays having the same shape as the input [ndarray][@stdlib/ndarray/ctor]—set the `keepdims` option to `true`.
+By default, the function excludes reduced dimensions from the output [ndarray][@stdlib/ndarray/ctor]. To include the reduced dimensions as singleton dimensions, set the `keepdims` option to `true`.
 
 ```javascript
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
@@ -188,6 +188,7 @@ The function accepts the following `options`:
 
 ## Notes
 
+-   Setting the `keepdims` option to `true` can be useful when wanting to ensure that the output [ndarray][@stdlib/ndarray/ctor] is [broadcast-compatible][@stdlib/ndarray/base/broadcast-shapes] with ndarrays having the same shape as the input [ndarray][@stdlib/ndarray/ctor].
 -   The output data type [policy][@stdlib/ndarray/output-dtype-policies] only applies to the main function and specifies that, by default, the function must return an [ndarray][@stdlib/ndarray/ctor] having the same [data type][@stdlib/ndarray/dtypes] as the input [ndarray][@stdlib/ndarray/ctor]. For the `assign` method, the output [ndarray][@stdlib/ndarray/ctor] is allowed to have any [data type][@stdlib/ndarray/dtypes].
 
 </section>
@@ -250,6 +251,8 @@ console.log( ndarray2array( y ) );
 [@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
 
 [@stdlib/ndarray/output-dtype-policies]: https://github.com/stdlib-js/ndarray-output-dtype-policies
+
+[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/ndarray-base-broadcast-shapes
 
 </section>
 
