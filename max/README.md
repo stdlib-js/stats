@@ -92,7 +92,7 @@ v = y.get();
 // returns 4.0
 ```
 
-By default, the function excludes reduced dimensions from the output [ndarray][@stdlib/ndarray/ctor]. To include the reduced dimensions as singleton dimensions, which can be useful when broadcasting the output [ndarray][@stdlib/ndarray/ctor] against ndarrays having the same shape as the input [ndarray][@stdlib/ndarray/ctor], set the `keepdims` option to `true`.
+By default, the function excludes reduced dimensions from the output [ndarray][@stdlib/ndarray/ctor]. To include the reduced dimensions as singleton dimensions—which can be useful when broadcasting the output [ndarray][@stdlib/ndarray/ctor] against ndarrays having the same shape as the input [ndarray][@stdlib/ndarray/ctor]—set the `keepdims` option to `true`.
 
 ```javascript
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
@@ -129,7 +129,7 @@ v = ndarray2array( y );
 // returns [ [ 4.0 ] ]
 ```
 
-By default, the function returns an [ndarray][@stdlib/ndarray/ctor] having a [data type][@stdlib/ndarray/dtypes] determined by the function's output data type [policy][@stdlib/ndarray/output-dtype-policies], in which the function returns an [ndarray][@stdlib/ndarray/ctor] having the same [data type][@stdlib/ndarray/dtypes] as the input [ndarray][@stdlib/ndarray/ctor]. To override the default behavior, set the `dtype` option.
+By default, the function returns an [ndarray][@stdlib/ndarray/ctor] having a [data type][@stdlib/ndarray/dtypes] determined by the function's output data type [policy][@stdlib/ndarray/output-dtype-policies]. To override the default behavior, set the `dtype` option.
 
 ```javascript
 var dtype = require( '@stdlib/ndarray/dtype' );
@@ -188,7 +188,7 @@ The function accepts the following `options`:
 
 ## Notes
 
--   The output data type [policy][@stdlib/ndarray/output-dtype-policies] only applies to the main function. For the `assign` method, the output [ndarray][@stdlib/ndarray/ctor] is allowed to have any [data type][@stdlib/ndarray/dtypes].
+-   The output data type [policy][@stdlib/ndarray/output-dtype-policies] only applies to the main function and specifies that, by default, the function must return an [ndarray][@stdlib/ndarray/ctor] having the same [data type][@stdlib/ndarray/dtypes] as the input [ndarray][@stdlib/ndarray/ctor]. For the `assign` method, the output [ndarray][@stdlib/ndarray/ctor] is allowed to have any [data type][@stdlib/ndarray/dtypes].
 
 </section>
 
