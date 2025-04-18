@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-17)
+## Unreleased (2025-04-18)
 
 <section class="packages">
 
@@ -108,6 +108,7 @@
 
 ##### Features
 
+-   [`a2e6fe3`](https://github.com/stdlib-js/stdlib/commit/a2e6fe3e246fb5453c8c7c2a813f3b416a452c5e) - add `ndarray` to namespace
 -   [`da8a676`](https://github.com/stdlib-js/stdlib/commit/da8a676ef0097af7ad60e7379b52930e03d65c95) - update namespace TypeScript declarations [(#6315)](https://github.com/stdlib-js/stdlib/pull/6315)
 -   [`3da41b7`](https://github.com/stdlib-js/stdlib/commit/3da41b7ccb754f5ffa7f4f9fc61799d570871a19) - update namespace TypeScript declarations [(#6058)](https://github.com/stdlib-js/stdlib/pull/6058)
 -   [`87abb74`](https://github.com/stdlib-js/stdlib/commit/87abb743fe577742c81ce1be6b5b8477da33b5f2) - update namespace TypeScript declarations [(#6008)](https://github.com/stdlib-js/stdlib/pull/6008)
@@ -23091,6 +23092,94 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-ndarray-unreleased">
+
+#### [@stdlib/stats/base/ndarray](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`582c0b6`](https://github.com/stdlib-js/stdlib/commit/582c0b69b125ec70de48eb1c7c2a815d332f6842) - add `stats/base/ndarray` namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-ndarray-dmax-unreleased">
+
+#### [@stdlib/stats/base/ndarray/dmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray/dmax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`cccbea9`](https://github.com/stdlib-js/stdlib/commit/cccbea9ab78ee8990c7545e7aa9cd7036822a1a2) - add `stats/base/ndarray/dmax`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-ndarray-max-unreleased">
+
+#### [@stdlib/stats/base/ndarray/max](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray/max)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2879dfe`](https://github.com/stdlib-js/stdlib/commit/2879dfef1732d49e9c4f42bd332c04b11368d662) - add `stats/base/ndarray/max`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-ndarray-smax-unreleased">
+
+#### [@stdlib/stats/base/ndarray/smax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray/smax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`876adb0`](https://github.com/stdlib-js/stdlib/commit/876adb06cf3397bc3da540cbbcc794f51bca5fef) - add `stats/base/ndarray/smax`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-scumax-unreleased">
 
 #### [@stdlib/stats/base/scumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/scumax)
@@ -26678,6 +26767,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-max-unreleased">
+
+#### [@stdlib/stats/max](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/max)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8d357b1`](https://github.com/stdlib-js/stdlib/commit/8d357b161a52fc08d985c5cebc788b5bb0847f73) - add `stats/max`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-strided-dcumax-unreleased">
 
 #### [@stdlib/stats/strided/dcumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dcumax)
@@ -29087,6 +29198,61 @@ This release closes the following issue:
 ##### Features
 
 -   [`85ac23f`](https://github.com/stdlib-js/stdlib/commit/85ac23f4fbd4dc9f87032cc0f0cdee75a098b596) - add `stats/strided/svarianceyc`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-tools-reduce-unary-strided-dispatch-unreleased">
+
+#### [@stdlib/stats/tools/reduce/unary-strided-dispatch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/tools/reduce/unary-strided-dispatch)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`52f96a4`](https://github.com/stdlib-js/stdlib/commit/52f96a4ea67e89302cb13ec5f85e0da97ee57b45) - add `stats/tools/reduce/unary-strided-dispatch`
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`d8842cc`](https://github.com/stdlib-js/stdlib/commit/d8842cc4a4d6d9638b73b4eaa342b784b490563f) - guard against falsy options arguments
+-   [`dda72cb`](https://github.com/stdlib-js/stdlib/commit/dda72cbd368266837d44629f9fb77d17c61f4081) - check for duplicate indices
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-tools-reduce-unary-strided-dispatch-factory-unreleased">
+
+#### [@stdlib/stats/tools/reduce/unary-strided-dispatch-factory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/tools/reduce/unary-strided-dispatch-factory)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5deea67`](https://github.com/stdlib-js/stdlib/commit/5deea67a9c923caf668e287ec09ccd9a6b5897be) - add `stats/tools/reduce/unary-strided-dispatch-factory`
 
 </section>
 
@@ -39868,8 +40034,25 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2b72de1`](https://github.com/stdlib-js/stdlib/commit/2b72de1620d65697b061c0c991d0a57fbde03d65) - **docs:** update markup _(by Athan Reines)_
+-   [`a2e6fe3`](https://github.com/stdlib-js/stdlib/commit/a2e6fe3e246fb5453c8c7c2a813f3b416a452c5e) - **feat:** add `ndarray` to namespace _(by Athan Reines)_
+-   [`582c0b6`](https://github.com/stdlib-js/stdlib/commit/582c0b69b125ec70de48eb1c7c2a815d332f6842) - **feat:** add `stats/base/ndarray` namespace _(by Athan Reines)_
+-   [`2879dfe`](https://github.com/stdlib-js/stdlib/commit/2879dfef1732d49e9c4f42bd332c04b11368d662) - **feat:** add `stats/base/ndarray/max` _(by Athan Reines)_
+-   [`876adb0`](https://github.com/stdlib-js/stdlib/commit/876adb06cf3397bc3da540cbbcc794f51bca5fef) - **feat:** add `stats/base/ndarray/smax` _(by Athan Reines)_
+-   [`cccbea9`](https://github.com/stdlib-js/stdlib/commit/cccbea9ab78ee8990c7545e7aa9cd7036822a1a2) - **feat:** add `stats/base/ndarray/dmax` _(by Athan Reines)_
+-   [`8d357b1`](https://github.com/stdlib-js/stdlib/commit/8d357b161a52fc08d985c5cebc788b5bb0847f73) - **feat:** add `stats/max` _(by Athan Reines)_
+-   [`f042430`](https://github.com/stdlib-js/stdlib/commit/f042430647e7446eb96aba3c4533cef5f0425db8) - **refactor:** remove unreachable code path _(by Athan Reines)_
+-   [`ae9e34a`](https://github.com/stdlib-js/stdlib/commit/ae9e34a444b2c4f6e21dd7fd5dcbf61e43ace190) - **docs:** fix comment _(by Athan Reines)_
+-   [`d8842cc`](https://github.com/stdlib-js/stdlib/commit/d8842cc4a4d6d9638b73b4eaa342b784b490563f) - **fix:** guard against falsy options arguments _(by Athan Reines)_
+-   [`dda72cb`](https://github.com/stdlib-js/stdlib/commit/dda72cbd368266837d44629f9fb77d17c61f4081) - **fix:** check for duplicate indices _(by Athan Reines)_
+-   [`c09a971`](https://github.com/stdlib-js/stdlib/commit/c09a9716c7fbca5c9d64ce29d036b6a08db9453f) - **test:** add tests _(by Athan Reines)_
+-   [`e0dfa90`](https://github.com/stdlib-js/stdlib/commit/e0dfa90b39ea52b31a44c72be5429ffa4eb27fbf) - **test:** add tests _(by Athan Reines)_
+-   [`06f85ee`](https://github.com/stdlib-js/stdlib/commit/06f85ee866a086afbe3cb4762967cfea9008ae13) - **docs:** fix signature _(by Athan Reines)_
+-   [`4bb509c`](https://github.com/stdlib-js/stdlib/commit/4bb509cf4cf1fa8152d16cca34df77edf1b838ec) - **docs:** fix signature _(by Athan Reines)_
 -   [`fbcd2cf`](https://github.com/stdlib-js/stdlib/commit/fbcd2cf2f0f35407aff9dac2e9369da05093f082) - **feat:** add C implementation for `stats/base/dists/erlang/mode`   [(#4247)](https://github.com/stdlib-js/stdlib/pull/4247) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
 -   [`2366eb1`](https://github.com/stdlib-js/stdlib/commit/2366eb1c8cb8c012bf0c0a03b12d12ae51b6e518) - **feat:** add C implementation for `stats/base/dists/erlang/mean`   [(#4246)](https://github.com/stdlib-js/stdlib/pull/4246) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
+-   [`5deea67`](https://github.com/stdlib-js/stdlib/commit/5deea67a9c923caf668e287ec09ccd9a6b5897be) - **feat:** add `stats/tools/reduce/unary-strided-dispatch-factory` _(by Athan Reines)_
+-   [`52f96a4`](https://github.com/stdlib-js/stdlib/commit/52f96a4ea67e89302cb13ec5f85e0da97ee57b45) - **feat:** add `stats/tools/reduce/unary-strided-dispatch` _(by Athan Reines)_
 -   [`1871022`](https://github.com/stdlib-js/stdlib/commit/18710227bb4adc73c7712fe97930adf933ad4d57) - **feat:** add C implementation for `stats/base/dists/lognormal/kurtosis`   [(#4548)](https://github.com/stdlib-js/stdlib/pull/4548) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
 -   [`f531035`](https://github.com/stdlib-js/stdlib/commit/f5310359b25d271f6185c8101986d1e881cedbf0) - **feat:** add C implementation for `stats/base/dists/frechet/mean`   [(#4368)](https://github.com/stdlib-js/stdlib/pull/4368) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
 -   [`b46d768`](https://github.com/stdlib-js/stdlib/commit/b46d768f6c855d86450602737872db434346d02c) - **feat:** add C implementation for `stats/base/dists/bernoulli/variance` [(#3893)](https://github.com/stdlib-js/stdlib/pull/3893) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_

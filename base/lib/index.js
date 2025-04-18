@@ -631,6 +631,15 @@ setReadOnly( ns, 'nanvariancewd', require( './../../base/nanvariancewd' ) );
 setReadOnly( ns, 'nanvarianceyc', require( './../../base/nanvarianceyc' ) );
 
 /**
+* @name ndarray
+* @memberof ns
+* @readonly
+* @type {Namespace}
+* @see {@link module:@stdlib/stats/base/ndarray}
+*/
+setReadOnly( ns, 'ndarray', require( './../../base/ndarray' ) );
+
+/**
 * @name range
 * @memberof ns
 * @readonly
