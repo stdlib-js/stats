@@ -32,6 +32,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="stats-array-min-unreleased">
+
+#### [@stdlib/stats/array/min](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/array/min)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f5e0d67`](https://github.com/stdlib-js/stdlib/commit/f5e0d670e1b8d9279b270518b4e85e70cdf8f317) - add `stats/array/min` [(#6701)](https://github.com/stdlib-js/stdlib/pull/6701)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-array-mskmax-unreleased">
 
 #### [@stdlib/stats/array/mskmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/array/mskmax)
@@ -40034,6 +40056,7 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f5e0d67`](https://github.com/stdlib-js/stdlib/commit/f5e0d670e1b8d9279b270518b4e85e70cdf8f317) - **feat:** add `stats/array/min` [(#6701)](https://github.com/stdlib-js/stdlib/pull/6701) _(by Gururaj Gurram)_
 -   [`f877ae6`](https://github.com/stdlib-js/stdlib/commit/f877ae68f8f4defc5565a204531ad03c46469549) - **chore:** clean-up _(by Athan Reines)_
 -   [`dd9c251`](https://github.com/stdlib-js/stdlib/commit/dd9c2519a5d2a20bc74a61fab3e1735cfd2d26c7) - **chore:** clean-up _(by Athan Reines)_
 -   [`3d4246c`](https://github.com/stdlib-js/stdlib/commit/3d4246c325475ea950b3ec5b91936280b8634453) - **chore:** re-enable lint rule _(by Athan Reines)_
