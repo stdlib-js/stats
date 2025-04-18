@@ -40034,6 +40034,11 @@ A total of 54 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f877ae6`](https://github.com/stdlib-js/stdlib/commit/f877ae68f8f4defc5565a204531ad03c46469549) - **chore:** clean-up _(by Athan Reines)_
+-   [`dd9c251`](https://github.com/stdlib-js/stdlib/commit/dd9c2519a5d2a20bc74a61fab3e1735cfd2d26c7) - **chore:** clean-up _(by Athan Reines)_
+-   [`3d4246c`](https://github.com/stdlib-js/stdlib/commit/3d4246c325475ea950b3ec5b91936280b8634453) - **chore:** re-enable lint rule _(by Athan Reines)_
+-   [`75a9153`](https://github.com/stdlib-js/stdlib/commit/75a91539fb7b08511c4101dce8fcdecce3ac64ae) - **chore:** re-enable lint rule _(by Athan Reines)_
+-   [`7c7c52a`](https://github.com/stdlib-js/stdlib/commit/7c7c52aee744dd5e0d46f15940f5e52dd7bc8556) - **chore:** re-enable lint rule _(by Athan Reines)_
 -   [`fd4c11b`](https://github.com/stdlib-js/stdlib/commit/fd4c11ba57638e1bceb9999db36359ca5a8108a3) - **style:** use consistent markup _(by Athan Reines)_
 -   [`c5c965f`](https://github.com/stdlib-js/stdlib/commit/c5c965f8231f96c40d8bb7527fc5ecc6d830df17) - **style:** use consistent markup _(by Athan Reines)_
 -   [`74e258d`](https://github.com/stdlib-js/stdlib/commit/74e258d30fcf441681f766870718974685e2495d) - **style:** use consistent markup _(by Athan Reines)_
