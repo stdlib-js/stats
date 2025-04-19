@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-18)
+## Unreleased (2025-04-19)
 
 <section class="packages">
 
@@ -16726,6 +16726,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dmean-unreleased">
+
+#### [@stdlib/stats/base/dmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dmean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`29cd80a`](https://github.com/stdlib-js/stdlib/commit/29cd80a236848b63820563ec9781a6aa39af66e1) - add C ndarray interface and refactor implementation for `stats/base/dmean` [(#6602)](https://github.com/stdlib-js/stdlib/pull/6602)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -40081,6 +40103,7 @@ A total of 55 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`29cd80a`](https://github.com/stdlib-js/stdlib/commit/29cd80a236848b63820563ec9781a6aa39af66e1) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmean` [(#6602)](https://github.com/stdlib-js/stdlib/pull/6602) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`a85c8fe`](https://github.com/stdlib-js/stdlib/commit/a85c8fef5223f0271a9b9ff5c41868972e803a2b) - **chore:** disable lint rule [(#6693)](https://github.com/stdlib-js/stdlib/pull/6693) _(by Dipjyoti Das)_
 -   [`f5e0d67`](https://github.com/stdlib-js/stdlib/commit/f5e0d670e1b8d9279b270518b4e85e70cdf8f317) - **feat:** add `stats/array/min` [(#6701)](https://github.com/stdlib-js/stdlib/pull/6701) _(by Gururaj Gurram)_
 -   [`f877ae6`](https://github.com/stdlib-js/stdlib/commit/f877ae68f8f4defc5565a204531ad03c46469549) - **chore:** clean-up _(by Athan Reines)_
