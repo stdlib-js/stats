@@ -24217,6 +24217,16 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`9221ecf`](https://github.com/stdlib-js/stdlib/commit/9221ecf992b4b462e27afc2d87b88ced263c8f0a) - add C ndarray interface and refactor implementation for `stats/base/smeanpn` [(#6661)](https://github.com/stdlib-js/stdlib/pull/6661)
+
+</section>
+
+<!-- /.features -->
+
 <section class="issues">
 
 ##### Closed Issues
@@ -40103,6 +40113,7 @@ A total of 55 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9221ecf`](https://github.com/stdlib-js/stdlib/commit/9221ecf992b4b462e27afc2d87b88ced263c8f0a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeanpn` [(#6661)](https://github.com/stdlib-js/stdlib/pull/6661) _(by Gururaj Gurram, Athan Reines)_
 -   [`29cd80a`](https://github.com/stdlib-js/stdlib/commit/29cd80a236848b63820563ec9781a6aa39af66e1) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmean` [(#6602)](https://github.com/stdlib-js/stdlib/pull/6602) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`a85c8fe`](https://github.com/stdlib-js/stdlib/commit/a85c8fef5223f0271a9b9ff5c41868972e803a2b) - **chore:** disable lint rule [(#6693)](https://github.com/stdlib-js/stdlib/pull/6693) _(by Dipjyoti Das)_
 -   [`f5e0d67`](https://github.com/stdlib-js/stdlib/commit/f5e0d670e1b8d9279b270518b4e85e70cdf8f317) - **feat:** add `stats/array/min` [(#6701)](https://github.com/stdlib-js/stdlib/pull/6701) _(by Gururaj Gurram)_
