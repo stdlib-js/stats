@@ -217,8 +217,8 @@ static double random_uniform( const double min, const double max ) {
 }
 
 int main( void ) {
-    double k;
     double lambda;
+    double k;
     double y;
     int i;
 

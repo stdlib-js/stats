@@ -40324,6 +40324,9 @@ A total of 56 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e03ed79`](https://github.com/stdlib-js/stdlib/commit/e03ed792ae8455e5b75b1a5cf4fa39206e1e04f1) - **chore:** clean-up _(by Athan Reines)_
+-   [`a7e25d0`](https://github.com/stdlib-js/stdlib/commit/a7e25d09f492c669abb1665c73d9e906c8c22f85) - **chore:** clean-up and fix test tolerances _(by Athan Reines)_
+-   [`8f6a179`](https://github.com/stdlib-js/stdlib/commit/8f6a17907838144542105b5d3958d7deda2b2998) - **chore:** clean-up and fix test tolerances _(by Athan Reines)_
 -   [`11d0e94`](https://github.com/stdlib-js/stdlib/commit/11d0e9428736a83a2e12f6e85620070bcdc28222) - **chore:** clean-up _(by Athan Reines)_
 -   [`1a50928`](https://github.com/stdlib-js/stdlib/commit/1a50928bcd6fc817278f120fa42686669bbf894f) - **chore:** clean-up _(by Athan Reines)_
 -   [`0f3d5f4`](https://github.com/stdlib-js/stdlib/commit/0f3d5f4d29ea7e98d99514a65955c27977aeff36) - **chore:** clean-up _(by Athan Reines)_
