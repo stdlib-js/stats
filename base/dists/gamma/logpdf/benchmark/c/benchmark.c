@@ -96,13 +96,13 @@ static double benchmark( void ) {
 	double elapsed;
 	double x[ 100 ];
 	double alpha[ 100 ];
-    double beta[ 100 ];
+	double beta[ 100 ];
 	double y;
 	double t;
 	int i;
 
 	for ( i = 0; i < 100; i++ ) {
-		x[ i ] = random_uniform( 0STDLIB_CONSTANT_FLOAT64_EPS, 100.0 );
+		x[ i ] = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 100.0 );
 		alpha[ i ] = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 100.0 );
 		beta[ i ] = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 100.0 );
 	}
