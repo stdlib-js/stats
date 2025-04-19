@@ -40324,6 +40324,11 @@ A total of 56 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`11d0e94`](https://github.com/stdlib-js/stdlib/commit/11d0e9428736a83a2e12f6e85620070bcdc28222) - **chore:** clean-up _(by Athan Reines)_
+-   [`1a50928`](https://github.com/stdlib-js/stdlib/commit/1a50928bcd6fc817278f120fa42686669bbf894f) - **chore:** clean-up _(by Athan Reines)_
+-   [`0f3d5f4`](https://github.com/stdlib-js/stdlib/commit/0f3d5f4d29ea7e98d99514a65955c27977aeff36) - **chore:** clean-up _(by Athan Reines)_
+-   [`c79716f`](https://github.com/stdlib-js/stdlib/commit/c79716fbdd4f07fcf070e3000255717201d2b571) - **chore:** clean-up _(by Athan Reines)_
+-   [`51e3867`](https://github.com/stdlib-js/stdlib/commit/51e3867e1ab01fd1496c7dbf897e6ca8f3af47d0) - **chore:** clean-up _(by Athan Reines)_
 -   [`843d1d0`](https://github.com/stdlib-js/stdlib/commit/843d1d0685fa8c550bb9c209c8bd87ca0f7ddb2c) - **feat:** add C implementation for `stats/base/dists/frechet/logpdf` [(#5249)](https://github.com/stdlib-js/stdlib/pull/5249) _(by iraandrushko, Philipp Burckhardt)_
 -   [`8f66d56`](https://github.com/stdlib-js/stdlib/commit/8f66d56a08779f053154777f958a7e18bd02187b) - **bench:** fix indentation and remove stray 0 _(by Philipp Burckhardt)_
 -   [`5c47b95`](https://github.com/stdlib-js/stdlib/commit/5c47b95b984cb0e088f642974e05ae9d7d6bffa0) - **feat:** add C implementation `stats/base/dists/gamma/logpdf` [(#4800)](https://github.com/stdlib-js/stdlib/pull/4800) _(by Shabareesh Shetty, Philipp Burckhardt, stdlib-bot)_

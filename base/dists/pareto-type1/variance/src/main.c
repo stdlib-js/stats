@@ -44,5 +44,5 @@ double stdlib_base_dists_pareto_type1_variance( const double alpha, const double
 	if ( alpha < 2.0 ) {
 		return STDLIB_CONSTANT_FLOAT64_PINF;
 	}
-	return ( beta*beta * alpha ) / ( stdlib_base_pow( alpha-1.0, 2.0 ) * ( alpha-2.0 ) );
+	return ( beta * beta * alpha ) / ( stdlib_base_pow( alpha-1.0, 2.0 ) * ( alpha-2.0 ) );
 }

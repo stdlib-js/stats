@@ -117,6 +117,8 @@ logEachMap( 'p: %0.4f, Kurt(X;p): %0.4f', p, kurtosis );
 
 </section>
 
+<!-- /.examples -->
+
 <!-- C interface documentation. -->
 
 * * *

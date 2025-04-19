@@ -16,13 +16,13 @@
 * limitations under the License.
 */
 
+#include "stdlib/stats/base/dists/frechet/logpdf.h"
+#include "stdlib/constants/float64/eps.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
 #include <time.h>
 #include <sys/time.h>
-#include "stdlib/stats/base/dists/frechet/logpdf.h"
-#include "stdlib/constants/float64/eps.h"
 
 #define NAME "frechet-logpdf"
 #define ITERATIONS 1000000
