@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-19)
+## Unreleased (2025-04-20)
 
 <section class="packages">
 
@@ -29517,6 +29517,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
+-   [`a273094`](https://github.com/stdlib-js/stdlib/commit/a2730940159da23d2fd8eed7fd832925d937bfed) - update error message
 -   [`d8842cc`](https://github.com/stdlib-js/stdlib/commit/d8842cc4a4d6d9638b73b4eaa342b784b490563f) - guard against falsy options arguments
 -   [`dda72cb`](https://github.com/stdlib-js/stdlib/commit/dda72cbd368266837d44629f9fb77d17c61f4081) - check for duplicate indices
 
@@ -40324,6 +40325,7 @@ A total of 56 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a273094`](https://github.com/stdlib-js/stdlib/commit/a2730940159da23d2fd8eed7fd832925d937bfed) - **fix:** update error message _(by Athan Reines)_
 -   [`d4d57c3`](https://github.com/stdlib-js/stdlib/commit/d4d57c376c6abdcaf1993d7893129b75af4f2056) - **docs:** update namespace table of contents [(#6719)](https://github.com/stdlib-js/stdlib/pull/6719) _(by stdlib-bot)_
 -   [`e03ed79`](https://github.com/stdlib-js/stdlib/commit/e03ed792ae8455e5b75b1a5cf4fa39206e1e04f1) - **chore:** clean-up _(by Athan Reines)_
 -   [`a7e25d0`](https://github.com/stdlib-js/stdlib/commit/a7e25d09f492c669abb1665c73d9e906c8c22f85) - **chore:** clean-up and fix test tolerances _(by Athan Reines)_
