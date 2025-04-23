@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-22)
+## Unreleased (2025-04-23)
 
 <section class="packages">
 
@@ -15543,6 +15543,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-ndarray-dcumax-unreleased">
+
+#### [@stdlib/stats/base/ndarray/dcumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray/dcumax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`06a5afb`](https://github.com/stdlib-js/stdlib/commit/06a5afb144a1a368b8deb2281eefd9e9d92fcdcb) - add `stats/base/ndarray/dcumax`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-ndarray-dmax-unreleased">
 
 #### [@stdlib/stats/base/ndarray/dmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray/dmax)
@@ -21256,6 +21278,7 @@ A total of 57 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`06a5afb`](https://github.com/stdlib-js/stdlib/commit/06a5afb144a1a368b8deb2281eefd9e9d92fcdcb) - **feat:** add `stats/base/ndarray/dcumax` _(by Athan Reines)_
 -   [`8948bbc`](https://github.com/stdlib-js/stdlib/commit/8948bbcc14500981b8e617ed5c2bfe4d0384a93c) - **chore:** address commit comments for commit `f6829da` [(#6769)](https://github.com/stdlib-js/stdlib/pull/6769) _(by devshree-bhati, Philipp Burckhardt)_
 -   [`a273094`](https://github.com/stdlib-js/stdlib/commit/a2730940159da23d2fd8eed7fd832925d937bfed) - **fix:** update error message _(by Athan Reines)_
 -   [`d4d57c3`](https://github.com/stdlib-js/stdlib/commit/d4d57c376c6abdcaf1993d7893129b75af4f2056) - **docs:** update namespace table of contents [(#6719)](https://github.com/stdlib-js/stdlib/pull/6719) _(by stdlib-bot)_
