@@ -16783,6 +16783,28 @@ A total of 3 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-snanmean-unreleased">
+
+#### [@stdlib/stats/base/snanmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmean)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`b4767e5`](https://github.com/stdlib-js/stdlib/commit/b4767e55d6280ebd6248e3f4565e1789df5dcf00) - set default task
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-base-snanmeanors-unreleased">
 
 #### [@stdlib/stats/base/snanmeanors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/snanmeanors)
@@ -21492,6 +21514,7 @@ A total of 57 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b4767e5`](https://github.com/stdlib-js/stdlib/commit/b4767e55d6280ebd6248e3f4565e1789df5dcf00) - **fix:** set default task _(by Athan Reines)_
 -   [`8f0bda9`](https://github.com/stdlib-js/stdlib/commit/8f0bda9d6148ac8e6990beae23689eeaf032228b) - **docs:** add note _(by Athan Reines)_
 -   [`6c629cf`](https://github.com/stdlib-js/stdlib/commit/6c629cfc6440598911b5321d71e8e4650bd1d98e) - **feat:** add `cumax` to namespace _(by Athan Reines)_
 -   [`7139779`](https://github.com/stdlib-js/stdlib/commit/7139779495289b4c66f587d8a31b7fc7cc127bc9) - **feat:** add `stats/cumax` _(by Athan Reines)_
