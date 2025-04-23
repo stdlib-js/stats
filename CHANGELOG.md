@@ -21514,6 +21514,7 @@ A total of 57 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`70429b3`](https://github.com/stdlib-js/stdlib/commit/70429b300e75b81b55f1192e0dfc6ab7f5ae9dc1) - **docs:** replace manual `for` loop in examples [(#6792)](https://github.com/stdlib-js/stdlib/pull/6792) _(by Harsh)_
 -   [`b7ca1bd`](https://github.com/stdlib-js/stdlib/commit/b7ca1bd43ab7777ea30f52b4f1392a78f3ad7b1b) - **docs:** replace manual `for` loop in examples [(#6793)](https://github.com/stdlib-js/stdlib/pull/6793) _(by Harsh)_
 -   [`b4767e5`](https://github.com/stdlib-js/stdlib/commit/b4767e55d6280ebd6248e3f4565e1789df5dcf00) - **fix:** set default task _(by Athan Reines)_
 -   [`8f0bda9`](https://github.com/stdlib-js/stdlib/commit/8f0bda9d6148ac8e6990beae23689eeaf032228b) - **docs:** add note _(by Athan Reines)_
