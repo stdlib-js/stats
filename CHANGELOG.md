@@ -15531,7 +15531,32 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`dc856e3`](https://github.com/stdlib-js/stdlib/commit/dc856e3f710fa36019b00ab56d81bdca73209f8a) - add `cumax` to namespace
+-   [`b582752`](https://github.com/stdlib-js/stdlib/commit/b58275298e72aeb7e681b3c4c4ec9196a3692a97) - add `scumax` to namespace
+-   [`04e92c3`](https://github.com/stdlib-js/stdlib/commit/04e92c36eabfd9e2a03f58664485a1ec70ac0f69) - add `dcumax` to namespace
 -   [`582c0b6`](https://github.com/stdlib-js/stdlib/commit/582c0b69b125ec70de48eb1c7c2a815d332f6842) - add `stats/base/ndarray` namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-ndarray-cumax-unreleased">
+
+#### [@stdlib/stats/base/ndarray/cumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray/cumax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d76b344`](https://github.com/stdlib-js/stdlib/commit/d76b344f9b4d052157299659dd262a5b61f443f7) - add `stats/base/ndarray/cumax`
 
 </section>
 
@@ -15598,6 +15623,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`2879dfe`](https://github.com/stdlib-js/stdlib/commit/2879dfef1732d49e9c4f42bd332c04b11368d662) - add `stats/base/ndarray/max`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-ndarray-scumax-unreleased">
+
+#### [@stdlib/stats/base/ndarray/scumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/ndarray/scumax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`300f6b2`](https://github.com/stdlib-js/stdlib/commit/300f6b27b2a03c256c038cecdc42332062292802) - add `stats/base/ndarray/scumax`
 
 </section>
 
@@ -21278,6 +21325,14 @@ A total of 57 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`dc856e3`](https://github.com/stdlib-js/stdlib/commit/dc856e3f710fa36019b00ab56d81bdca73209f8a) - **feat:** add `cumax` to namespace _(by Athan Reines)_
+-   [`d76b344`](https://github.com/stdlib-js/stdlib/commit/d76b344f9b4d052157299659dd262a5b61f443f7) - **feat:** add `stats/base/ndarray/cumax` _(by Athan Reines)_
+-   [`b582752`](https://github.com/stdlib-js/stdlib/commit/b58275298e72aeb7e681b3c4c4ec9196a3692a97) - **feat:** add `scumax` to namespace _(by Athan Reines)_
+-   [`300f6b2`](https://github.com/stdlib-js/stdlib/commit/300f6b27b2a03c256c038cecdc42332062292802) - **feat:** add `stats/base/ndarray/scumax` _(by Athan Reines)_
+-   [`6c00603`](https://github.com/stdlib-js/stdlib/commit/6c0060372d533af22ce0cda690400923088d9138) - **test:** fix test case _(by Athan Reines)_
+-   [`9911f30`](https://github.com/stdlib-js/stdlib/commit/9911f30a5b84c02396de8bab5df59c322f48c63b) - **test:** fix test case _(by Athan Reines)_
+-   [`7d6d89e`](https://github.com/stdlib-js/stdlib/commit/7d6d89eea2ee9dcf1fb3d9b1c9cb12d22d4f9752) - **test:** fix test case _(by Athan Reines)_
+-   [`04e92c3`](https://github.com/stdlib-js/stdlib/commit/04e92c36eabfd9e2a03f58664485a1ec70ac0f69) - **feat:** add `dcumax` to namespace _(by Athan Reines)_
 -   [`68cf553`](https://github.com/stdlib-js/stdlib/commit/68cf553c1f2888f317e0683691b933f9c0785a5e) - **docs:** update related packages sections [(#6788)](https://github.com/stdlib-js/stdlib/pull/6788) _(by stdlib-bot)_
 -   [`06a5afb`](https://github.com/stdlib-js/stdlib/commit/06a5afb144a1a368b8deb2281eefd9e9d92fcdcb) - **feat:** add `stats/base/ndarray/dcumax` _(by Athan Reines)_
 -   [`8948bbc`](https://github.com/stdlib-js/stdlib/commit/8948bbcc14500981b8e617ed5c2bfe4d0384a93c) - **chore:** address commit comments for commit `f6829da` [(#6769)](https://github.com/stdlib-js/stdlib/pull/6769) _(by devshree-bhati, Philipp Burckhardt)_

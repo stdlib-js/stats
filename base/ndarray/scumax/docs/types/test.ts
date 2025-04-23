@@ -19,39 +19,45 @@
 /* eslint-disable space-in-parens */
 
 import zeros = require( '@stdlib/ndarray/zeros' );
-import dmax = require( './index' );
+import scumax = require( './index' );
 
 
 // TESTS //
 
-// The function returns a number...
+// The function returns an ndarray...
 {
 	const x = zeros( [ 10 ], {
-		'dtype': 'float64'
+		'dtype': 'float32'
+	});
+	const y = zeros( [ 10 ], {
+		'dtype': 'float32'
 	});
 
-	dmax( [ x ] ); // $ExpectType number
+	scumax( [ x, y ] ); // $ExpectType float32ndarray
 }
 
 // The compiler throws an error if the function is provided a first argument which is not an array of ndarrays...
 {
-	dmax( '10' ); // $ExpectError
-	dmax( 10 ); // $ExpectError
-	dmax( true ); // $ExpectError
-	dmax( false ); // $ExpectError
-	dmax( null ); // $ExpectError
-	dmax( undefined ); // $ExpectError
-	dmax( [] ); // $ExpectError
-	dmax( {} ); // $ExpectError
-	dmax( ( x: number ): number => x ); // $ExpectError
+	scumax( '10' ); // $ExpectError
+	scumax( 10 ); // $ExpectError
+	scumax( true ); // $ExpectError
+	scumax( false ); // $ExpectError
+	scumax( null ); // $ExpectError
+	scumax( undefined ); // $ExpectError
+	scumax( [] ); // $ExpectError
+	scumax( {} ); // $ExpectError
+	scumax( ( x: number ): number => x ); // $ExpectError
 }
 
 // The compiler throws an error if the function is provided an unsupported number of arguments...
 {
 	const x = zeros( [ 10 ], {
-		'dtype': 'float64'
+		'dtype': 'float32'
+	});
+	const y = zeros( [ 10 ], {
+		'dtype': 'float32'
 	});
 
-	dmax(); // $ExpectError
-	dmax( [ x ], {} ); // $ExpectError
+	scumax(); // $ExpectError
+	scumax( [ x, y ], {} ); // $ExpectError
 }
