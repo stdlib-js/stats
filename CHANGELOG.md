@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`6c629cf`](https://github.com/stdlib-js/stdlib/commit/6c629cfc6440598911b5321d71e8e4650bd1d98e) - add `cumax` to namespace
 -   [`665a342`](https://github.com/stdlib-js/stdlib/commit/665a3428d269acc023c742d0f8fa579b0dd8b409) - add `max` to namespace
 -   [`88bf383`](https://github.com/stdlib-js/stdlib/commit/88bf383d5c1e8beda0992d4b0e49b6923292a2ec) - add `tools` to namespace
 
@@ -17452,6 +17453,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-cumax-unreleased">
+
+#### [@stdlib/stats/cumax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/cumax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7139779`](https://github.com/stdlib-js/stdlib/commit/7139779495289b4c66f587d8a31b7fc7cc127bc9) - add `stats/cumax`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-fligner--unreleased">
 
 #### [@stdlib/stats/fligner-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/fligner-)
@@ -21469,6 +21492,9 @@ A total of 57 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8f0bda9`](https://github.com/stdlib-js/stdlib/commit/8f0bda9d6148ac8e6990beae23689eeaf032228b) - **docs:** add note _(by Athan Reines)_
+-   [`6c629cf`](https://github.com/stdlib-js/stdlib/commit/6c629cfc6440598911b5321d71e8e4650bd1d98e) - **feat:** add `cumax` to namespace _(by Athan Reines)_
+-   [`7139779`](https://github.com/stdlib-js/stdlib/commit/7139779495289b4c66f587d8a31b7fc7cc127bc9) - **feat:** add `stats/cumax` _(by Athan Reines)_
 -   [`ddff7d1`](https://github.com/stdlib-js/stdlib/commit/ddff7d1f4fdfd7a655519ad02979416c79e5cdd0) - **docs:** fix example _(by Athan Reines)_
 -   [`665a342`](https://github.com/stdlib-js/stdlib/commit/665a3428d269acc023c742d0f8fa579b0dd8b409) - **feat:** add `max` to namespace _(by Athan Reines)_
 -   [`88bf383`](https://github.com/stdlib-js/stdlib/commit/88bf383d5c1e8beda0992d4b0e49b6923292a2ec) - **feat:** add `tools` to namespace _(by Athan Reines)_
