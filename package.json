@@ -44,7 +44,6 @@
     "@stdlib/napi": "github:stdlib-js/napi#main",
     "@stdlib/ndarray": "github:stdlib-js/ndarray#main",
     "@stdlib/number": "github:stdlib-js/number#main",
-    "@stdlib/object": "github:stdlib-js/object#main",
     "@stdlib/random": "github:stdlib-js/random#main",
     "@stdlib/strided": "github:stdlib-js/strided#main",
     "@stdlib/string": "github:stdlib-js/string#main",

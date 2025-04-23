@@ -24,7 +24,7 @@ var dtypes = require( '@stdlib/ndarray/dtypes' );
 var gcumax = require( './../../base/ndarray/cumax' );
 var dcumax = require( './../../base/ndarray/dcumax' );
 var scumax = require( './../../base/ndarray/scumax' );
-var factory = require( './../../tools/cumulative/unary-strided-dispatch-factory' );
+var factory = require( '@stdlib/ndarray/base/unary-strided1d-dispatch-factory' );
 
 
 // VARIABLES //

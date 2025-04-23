@@ -28,6 +28,19 @@
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`a93824b`](https://github.com/stdlib-js/stdlib/commit/a93824b2e0d24fd082b5ea74ba0f6df5a73d4085): remove `tools`
+
+    -   To migrate, users should resolve the individual tools via the
+        `@stdlib/ndarray/base` namespace.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -20115,6 +20128,29 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0088e72`](https://github.com/stdlib-js/stdlib/commit/0088e72dda77d4ba2ab4f8fcb134550cab14ddc9): remove `stats/tools`
+
+    -   To migrate, users should perform the following migrations:
+        - `@stdlib/tools/reduce/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch`
+        - `@stdlib/tools/reduce/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch-factory`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch-factory`
+        For the `stats/tools`, `stats/tools/reduce`, and `stats/tools/cumulative`,
+        the migration path is to depend on the previously exported symbols
+        directly by importing the exact package needed.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -20136,6 +20172,29 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0088e72`](https://github.com/stdlib-js/stdlib/commit/0088e72dda77d4ba2ab4f8fcb134550cab14ddc9): remove `stats/tools`
+
+    -   To migrate, users should perform the following migrations:
+        - `@stdlib/tools/reduce/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch`
+        - `@stdlib/tools/reduce/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch-factory`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch-factory`
+        For the `stats/tools`, `stats/tools/reduce`, and `stats/tools/cumulative`,
+        the migration path is to depend on the previously exported symbols
+        directly by importing the exact package needed.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -20169,6 +20228,29 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0088e72`](https://github.com/stdlib-js/stdlib/commit/0088e72dda77d4ba2ab4f8fcb134550cab14ddc9): remove `stats/tools`
+
+    -   To migrate, users should perform the following migrations:
+        - `@stdlib/tools/reduce/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch`
+        - `@stdlib/tools/reduce/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch-factory`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch-factory`
+        For the `stats/tools`, `stats/tools/reduce`, and `stats/tools/cumulative`,
+        the migration path is to depend on the previously exported symbols
+        directly by importing the exact package needed.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -20191,6 +20273,29 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0088e72`](https://github.com/stdlib-js/stdlib/commit/0088e72dda77d4ba2ab4f8fcb134550cab14ddc9): remove `stats/tools`
+
+    -   To migrate, users should perform the following migrations:
+        - `@stdlib/tools/reduce/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch`
+        - `@stdlib/tools/reduce/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch-factory`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch-factory`
+        For the `stats/tools`, `stats/tools/reduce`, and `stats/tools/cumulative`,
+        the migration path is to depend on the previously exported symbols
+        directly by importing the exact package needed.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -20212,6 +20317,29 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0088e72`](https://github.com/stdlib-js/stdlib/commit/0088e72dda77d4ba2ab4f8fcb134550cab14ddc9): remove `stats/tools`
+
+    -   To migrate, users should perform the following migrations:
+        - `@stdlib/tools/reduce/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch`
+        - `@stdlib/tools/reduce/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch-factory`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch-factory`
+        For the `stats/tools`, `stats/tools/reduce`, and `stats/tools/cumulative`,
+        the migration path is to depend on the previously exported symbols
+        directly by importing the exact package needed.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -20248,6 +20376,29 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0088e72`](https://github.com/stdlib-js/stdlib/commit/0088e72dda77d4ba2ab4f8fcb134550cab14ddc9): remove `stats/tools`
+
+    -   To migrate, users should perform the following migrations:
+        - `@stdlib/tools/reduce/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch`
+        - `@stdlib/tools/reduce/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch-factory`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch-factory`
+        For the `stats/tools`, `stats/tools/reduce`, and `stats/tools/cumulative`,
+        the migration path is to depend on the previously exported symbols
+        directly by importing the exact package needed.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -20270,6 +20421,29 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0088e72`](https://github.com/stdlib-js/stdlib/commit/0088e72dda77d4ba2ab4f8fcb134550cab14ddc9): remove `stats/tools`
+
+    -   To migrate, users should perform the following migrations:
+        - `@stdlib/tools/reduce/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch`
+        - `@stdlib/tools/reduce/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch-factory`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch-factory`
+        For the `stats/tools`, `stats/tools/reduce`, and `stats/tools/cumulative`,
+        the migration path is to depend on the previously exported symbols
+        directly by importing the exact package needed.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -20283,6 +20457,26 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`0088e72`](https://github.com/stdlib-js/stdlib/commit/0088e72dda77d4ba2ab4f8fcb134550cab14ddc9): remove `stats/tools`
+
+    -   To migrate, users should perform the following migrations:
+        - `@stdlib/tools/reduce/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch`
+        - `@stdlib/tools/reduce/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-reduce-strided1d-dispatch-factory`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch`
+        - `@stdlib/tools/cumulative/unary-strided-dispatch-factory` should become
+          `@stdlib/ndarray/base/unary-strided1d-dispatch-factory`
+        For the `stats/tools`, `stats/tools/reduce`, and `stats/tools/cumulative`,
+        the migration path is to depend on the previously exported symbols
+        directly by importing the exact package needed.
+
+-   [`a93824b`](https://github.com/stdlib-js/stdlib/commit/a93824b2e0d24fd082b5ea74ba0f6df5a73d4085): remove `tools`
+
+    -   To migrate, users should resolve the individual tools via the
+        `@stdlib/ndarray/base` namespace.
 
 -   [`3aca840`](https://github.com/stdlib-js/stdlib/commit/3aca840adab39372b0b641f9bf99e0b192e6150a): remove `stats/base/smidrange`
 
@@ -21514,6 +21708,10 @@ A total of 57 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0088e72`](https://github.com/stdlib-js/stdlib/commit/0088e72dda77d4ba2ab4f8fcb134550cab14ddc9) - **remove:** remove `stats/tools` _(by Athan Reines)_
+-   [`a93824b`](https://github.com/stdlib-js/stdlib/commit/a93824b2e0d24fd082b5ea74ba0f6df5a73d4085) - **remove:** remove `tools` from namespace _(by Athan Reines)_
+-   [`93f94bb`](https://github.com/stdlib-js/stdlib/commit/93f94bb85103f971545d6176ab37505c2f282b32) - **refactor:** update import path _(by Athan Reines)_
+-   [`b1fd89f`](https://github.com/stdlib-js/stdlib/commit/b1fd89faa0db6a1eb7b5f55b753130454ba0b7a3) - **refactor:** update import path _(by Athan Reines)_
 -   [`70429b3`](https://github.com/stdlib-js/stdlib/commit/70429b300e75b81b55f1192e0dfc6ab7f5ae9dc1) - **docs:** replace manual `for` loop in examples [(#6792)](https://github.com/stdlib-js/stdlib/pull/6792) _(by Harsh)_
 -   [`b7ca1bd`](https://github.com/stdlib-js/stdlib/commit/b7ca1bd43ab7777ea30f52b4f1392a78f3ad7b1b) - **docs:** replace manual `for` loop in examples [(#6793)](https://github.com/stdlib-js/stdlib/pull/6793) _(by Harsh)_
 -   [`b4767e5`](https://github.com/stdlib-js/stdlib/commit/b4767e55d6280ebd6248e3f4565e1789df5dcf00) - **fix:** set default task _(by Athan Reines)_
