@@ -21278,6 +21278,7 @@ A total of 57 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`68cf553`](https://github.com/stdlib-js/stdlib/commit/68cf553c1f2888f317e0683691b933f9c0785a5e) - **docs:** update related packages sections [(#6788)](https://github.com/stdlib-js/stdlib/pull/6788) _(by stdlib-bot)_
 -   [`06a5afb`](https://github.com/stdlib-js/stdlib/commit/06a5afb144a1a368b8deb2281eefd9e9d92fcdcb) - **feat:** add `stats/base/ndarray/dcumax` _(by Athan Reines)_
 -   [`8948bbc`](https://github.com/stdlib-js/stdlib/commit/8948bbcc14500981b8e617ed5c2bfe4d0384a93c) - **chore:** address commit comments for commit `f6829da` [(#6769)](https://github.com/stdlib-js/stdlib/pull/6769) _(by devshree-bhati, Philipp Burckhardt)_
 -   [`a273094`](https://github.com/stdlib-js/stdlib/commit/a2730940159da23d2fd8eed7fd832925d937bfed) - **fix:** update error message _(by Athan Reines)_
