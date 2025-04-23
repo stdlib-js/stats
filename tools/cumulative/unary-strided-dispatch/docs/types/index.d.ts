@@ -38,7 +38,7 @@ type OutputArray<U> = typedndarray<U>;
 */
 interface BaseOptions {
 	/**
-	* List of dimensions over which to perform a reduction.
+	* List of dimensions over which to perform an operation.
 	*/
 	dims?: ArrayLike<number>;
 }
@@ -51,37 +51,32 @@ interface Options extends BaseOptions {
 	* Output array data type.
 	*/
 	dtype?: DataType;
-
-	/**
-	* Boolean indicating whether the reduced dimensions should be included in the returned array as singleton dimensions. Default: `false`.
-	*/
-	keepdims?: boolean;
 }
 
 /**
-* Strided reduction function.
+* Strided function.
 *
 * @param arrays - input ndarrays
 * @param options - function options
 * @returns result
 */
-type Unary<T, U> = ( arrays: [ typedndarray<T> ], options?: unknown ) => U;
+type Unary<T, U> = ( arrays: [ typedndarray<T>, typedndarray<U> ], options?: unknown ) => typedndarray<U>;
 
 /**
-* Strided reduction function.
+* Strided function.
 *
 * @param arrays - input ndarrays
 * @param options - function options
 * @returns result
 */
-type UnaryWithAdditionalArrays<T, U> = ( arrays: [ typedndarray<T>, ...Array<typedndarray<T>> ], options?: unknown ) => U;
+type UnaryWithAdditionalArrays<T, U> = ( arrays: [ typedndarray<T>, typedndarray<U>, ...Array<typedndarray<T>> ], options?: unknown ) => typedndarray<U>;
 
 /**
 * Based dispatch table.
 */
 interface BaseDispatchTable<T, U> {
 	/**
-	* Default strided reduction function.
+	* Default strided function.
 	*/
 	default: Unary<T, U> | UnaryWithAdditionalArrays<T, U>;
 }
@@ -91,22 +86,22 @@ interface BaseDispatchTable<T, U> {
 */
 type DispatchTable<T, U> = {
 	/**
-	* Default strided reduction function.
+	* Default strided function.
 	*/
 	default: Unary<T, U> | UnaryWithAdditionalArrays<T, U>;
 } & {
 	/**
-	* Strided reduction functions specific to particular data types.
+	* Strided functions specific to particular data types.
 	*/
 	[ K in DataType ]?: Unary<T, U> | UnaryWithAdditionalArrays<T, U>;
 };
 
 /**
-* Class for performing a reduction on an input ndarray.
+* Class for applying a strided function to an input ndarray.
 */
 declare class UnaryStridedDispatch<T, U> {
 	/**
-	* Constructor for performing a reduction on an input ndarray.
+	* Constructor for applying a strided function to an input ndarray.
 	*
 	* @param table - dispatch table
 	* @param idtypes - list containing lists of supported input data types for each ndarray argument
@@ -115,8 +110,9 @@ declare class UnaryStridedDispatch<T, U> {
 	* @returns instance
 	*
 	* @example
-	* var base = require( './../../../../../base/ndarray/max' );
+	* var base = require( './../../../../../base/ndarray/cumax' );
 	* var dtypes = require( '@stdlib/ndarray/dtypes' );
+	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
 	*
 	* var idt = dtypes( 'real_and_generic' );
@@ -126,29 +122,30 @@ declare class UnaryStridedDispatch<T, U> {
 	* var table = {
 	*     'default': base
 	* };
-	* var max = new UnaryStridedDispatch( table, [ idt ], odt, policy );
+	* var cumax = new UnaryStridedDispatch( table, [ idt ], odt, policy );
 	*
 	* var xbuf = [ -1.0, 2.0, -3.0 ];
 	* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
 	*
-	* var y = max.apply( x );
+	* var y = cumax.apply( x );
 	* // returns <ndarray>
 	*
-	* var v = y.get();
-	* // returns 2.0
+	* var arr = ndarray2array( y );
+	* // returns [ -1.0, 2.0, 2.0 ]
 	*/
 	constructor( table: DispatchTable<T, U>, idtypes: ArrayLike<ArrayLike<DataType>>, odtypes: ArrayLike<DataType>, policy: OutputPolicy );
 
 	/**
-	* Performs a reduction on a provided input ndarray.
+	* Applies a strided function to a provided input ndarray.
 	*
 	* @param x - input ndarray
 	* @param args - function options and additional ndarray arguments
 	* @returns output ndarray
 	*
 	* @example
-	* var base = require( './../../../../../base/ndarray/max' );
+	* var base = require( './../../../../../base/ndarray/cumax' );
 	* var dtypes = require( '@stdlib/ndarray/dtypes' );
+	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
 	*
 	* var idt = dtypes( 'real_and_generic' );
@@ -158,21 +155,21 @@ declare class UnaryStridedDispatch<T, U> {
 	* var table = {
 	*     'default': base
 	* };
-	* var max = new UnaryStridedDispatch( table, [ idt ], odt, policy );
+	* var cumax = new UnaryStridedDispatch( table, [ idt ], odt, policy );
 	*
 	* var xbuf = [ -1.0, 2.0, -3.0 ];
 	* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
 	*
-	* var y = max.apply( x );
+	* var y = cumax.apply( x );
 	* // returns <ndarray>
 	*
-	* var v = y.get();
-	* // returns 2.0
+	* var arr = ndarray2array( y );
+	* // returns [ -1.0, 2.0, 2.0 ]
 	*/
 	apply( x: InputArray<T>, ...args: Array<InputArray<T> | Options> ): OutputArray<U>; // NOTE: we lose type specificity here, but retaining specificity would likely be difficult and/or tedious to completely enumerate, as the output ndarray data type is dependent on how `x` interacts with output data type policy and whether that policy has been overridden by `options.dtype`. In principle, as well, based on the policy, it is possible to know more exactly which `InputArray` types are actually allowed.
 
 	/**
-	* Performs a reduction on a provided input ndarray and assigns results to a provided output ndarray.
+	* Applies a strided function to a provided input ndarray and assigns results to a provided output ndarray.
 	*
 	* @param x - input ndarray
 	* @param out - output ndarray
@@ -180,8 +177,9 @@ declare class UnaryStridedDispatch<T, U> {
 	* @returns output ndarray
 	*
 	* @example
-	* var base = require( './../../../../../base/ndarray/max' );
+	* var base = require( './../../../../../base/ndarray/cumax' );
 	* var dtypes = require( '@stdlib/ndarray/dtypes' );
+	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
 	*
 	* var idt = dtypes( 'real_and_generic' );
@@ -191,19 +189,19 @@ declare class UnaryStridedDispatch<T, U> {
 	* var table = {
 	*     'default': base
 	* };
-	* var max = new UnaryStridedDispatch( table, [ idt ], odt, policy );
+	* var cumax = new UnaryStridedDispatch( table, [ idt ], odt, policy );
 	*
 	* var xbuf = [ -1.0, 2.0, -3.0 ];
 	* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
 	*
-	* var ybuf = [ 0.0 ];
-	* var y = new ndarray( 'generic', ybuf, [], [ 0 ], 0, 'row-major' );
+	* var ybuf = [ 0.0, 0.0, 0.0 ];
+	* var y = new ndarray( 'generic', ybuf, [ ybuf.length ], [ 1 ], 0, 'row-major' );
 	*
-	* var out = max.assign( x, y );
+	* var out = cumax.assign( x, y );
 	* // returns <ndarray>
 	*
-	* var v = out.get();
-	* // returns 2.0
+	* var arr = ndarray2array( y );
+	* // returns [ -1.0, 2.0, 2.0 ]
 	*
 	* var bool = ( out === y );
 	* // returns true
@@ -211,7 +209,7 @@ declare class UnaryStridedDispatch<T, U> {
 	assign<V extends OutputArray<U> = OutputArray<U>>( x: InputArray<T>, out: V, options?: BaseOptions ): V;
 
 	/**
-	* Performs a reduction on a provided input ndarray and assigns results to a provided output ndarray.
+	* Applies a strided function to a provided input ndarray and assigns results to a provided output ndarray.
 	*
 	* @param x - input ndarray
 	* @param y - additional ndarray argument
@@ -219,8 +217,9 @@ declare class UnaryStridedDispatch<T, U> {
 	* @returns output ndarray
 	*
 	* @example
-	* var base = require( './../../../../../base/ndarray/max' );
+	* var base = require( './../../../../../base/ndarray/cumax' );
 	* var dtypes = require( '@stdlib/ndarray/dtypes' );
+	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
 	*
 	* var idt = dtypes( 'real_and_generic' );
@@ -230,19 +229,19 @@ declare class UnaryStridedDispatch<T, U> {
 	* var table = {
 	*     'default': base
 	* };
-	* var max = new UnaryStridedDispatch( table, [ idt ], odt, policy );
+	* var cumax = new UnaryStridedDispatch( table, [ idt ], odt, policy );
 	*
 	* var xbuf = [ -1.0, 2.0, -3.0 ];
 	* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
 	*
-	* var ybuf = [ 0.0 ];
-	* var y = new ndarray( 'generic', ybuf, [], [ 0 ], 0, 'row-major' );
+	* var ybuf = [ 0.0, 0.0, 0.0 ];
+	* var y = new ndarray( 'generic', ybuf, [ ybuf.length ], [ 1 ], 0, 'row-major' );
 	*
-	* var out = max.assign( x, y );
+	* var out = cumax.assign( x, y );
 	* // returns <ndarray>
 	*
-	* var v = out.get();
-	* // returns 2.0
+	* var arr = ndarray2array( y );
+	* // returns [ -1.0, 2.0, 2.0 ]
 	*
 	* var bool = ( out === y );
 	* // returns true
@@ -255,7 +254,7 @@ declare class UnaryStridedDispatch<T, U> {
 */
 interface UnaryStridedDispatchConstructor {
 	/**
-	* Constructor for performing a reduction on an input ndarray.
+	* Constructor for applying a strided function to an input ndarray.
 	*
 	* @param table - dispatch table
 	* @param idtypes - list containing lists of supported input data types for each ndarray argument
@@ -264,8 +263,9 @@ interface UnaryStridedDispatchConstructor {
 	* @returns instance
 	*
 	* @example
-	* var base = require( './../../../../../base/ndarray/max' );
+	* var base = require( './../../../../../base/ndarray/cumax' );
 	* var dtypes = require( '@stdlib/ndarray/dtypes' );
+	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
 	*
 	* var idt = dtypes( 'real_and_generic' );
@@ -275,21 +275,21 @@ interface UnaryStridedDispatchConstructor {
 	* var table = {
 	*     'default': base
 	* };
-	* var max = new UnaryStridedDispatch( table, [ idt ], odt, policy );
+	* var cumax = new UnaryStridedDispatch( table, [ idt ], odt, policy );
 	*
 	* var xbuf = [ -1.0, 2.0, -3.0 ];
 	* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
 	*
-	* var y = max.apply( x );
+	* var y = cumax.apply( x );
 	* // returns <ndarray>
 	*
-	* var v = y.get();
-	* // returns 2.0
+	* var arr = ndarray2array( y );
+	* // returns [ -1.0, 2.0, 2.0 ]
 	*/
 	new<T = unknown, U = unknown>( table: DispatchTable<T, U>, idtypes: ArrayLike<ArrayLike<DataType>>, odtypes: ArrayLike<DataType>, policy: OutputPolicy ): UnaryStridedDispatch<T, U>;
 
 	/**
-	* Constructor for performing a reduction on an input ndarray.
+	* Constructor for applying a strided function to an input ndarray.
 	*
 	* @param table - dispatch table
 	* @param idtypes - list containing lists of supported input data types for each ndarray argument
@@ -298,8 +298,9 @@ interface UnaryStridedDispatchConstructor {
 	* @returns instance
 	*
 	* @example
-	* var base = require( './../../../../../base/ndarray/max' );
+	* var base = require( './../../../../../base/ndarray/cumax' );
 	* var dtypes = require( '@stdlib/ndarray/dtypes' );
+	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
 	*
 	* var idt = dtypes( 'real_and_generic' );
@@ -309,22 +310,22 @@ interface UnaryStridedDispatchConstructor {
 	* var table = {
 	*     'default': base
 	* };
-	* var max = new UnaryStridedDispatch( table, [ idt ], odt, policy );
+	* var cumax = new UnaryStridedDispatch( table, [ idt ], odt, policy );
 	*
 	* var xbuf = [ -1.0, 2.0, -3.0 ];
 	* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
 	*
-	* var y = max.apply( x );
+	* var y = cumax.apply( x );
 	* // returns <ndarray>
 	*
-	* var v = y.get();
-	* // returns 2.0
+	* var arr = ndarray2array( y );
+	* // returns [ -1.0, 2.0, 2.0 ]
 	*/
 	<T = unknown, U = unknown>( table: DispatchTable<T, U>, idtypes: ArrayLike<ArrayLike<DataType>>, odtypes: ArrayLike<DataType>, policy: OutputPolicy ): UnaryStridedDispatch<T, U>;
 }
 
 /**
-* Constructor for performing a reduction on an input ndarray.
+* Constructor for applying a strided function to an input ndarray.
 *
 * @param table - dispatch table
 * @param idtypes - list containing lists of supported input data types for each ndarray argument
@@ -333,8 +334,9 @@ interface UnaryStridedDispatchConstructor {
 * @returns instance
 *
 * @example
-* var base = require( '@stdlib/stats/base/ndarray/max' );
+* var base = require( '@stdlib/stats/base/ndarray/cumax' );
 * var dtypes = require( '@stdlib/ndarray/dtypes' );
+* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 * var ndarray = require( '@stdlib/ndarray/base/ctor' );
 *
 * var idt = dtypes( 'real_and_generic' );
@@ -344,16 +346,16 @@ interface UnaryStridedDispatchConstructor {
 * var table = {
 *     'default': base
 * };
-* var max = new UnaryStridedDispatch( table, [ idt ], odt, policy );
+* var cumax = new UnaryStridedDispatch( table, [ idt ], odt, policy );
 *
 * var xbuf = [ -1.0, 2.0, -3.0 ];
 * var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
 *
-* var y = max.apply( x );
+* var y = cumax.apply( x );
 * // returns <ndarray>
 *
-* var v = y.get();
-* // returns 2.0
+* var arr = ndarray2array( y );
+* // returns [ -1.0, 2.0, 2.0 ]
 */
 declare var ctor: UnaryStridedDispatchConstructor;
 

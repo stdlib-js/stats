@@ -20,7 +20,7 @@ limitations under the License.
 
 # unaryStridedDispatchFactory
 
-> Create a function for performing a reduction on an input ndarray.
+> Create a function for applying a strided function an input ndarray.
 
 <section class="usage">
 
@@ -29,17 +29,17 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-var unaryStridedDispatchFactory = require( '@stdlib/stats/tools/reduce/unary-strided-dispatch-factory' );
+var unaryStridedDispatchFactory = require( '@stdlib/stats/tools/cumulative/unary-strided-dispatch-factory' );
 ```
 
 #### unaryStridedDispatchFactory( table, idtypes, odtypes, policy )
 
-Returns a function for performing a reduction on an input ndarray.
+Returns a function for applying a strided function an input ndarray.
 
 <!-- eslint-disable id-length -->
 
 ```javascript
-var base = require( '@stdlib/stats/base/ndarray/max' );
+var base = require( '@stdlib/stats/base/ndarray/cumax' );
 
 var table = {
     'default': base
@@ -51,20 +51,21 @@ var policy = 'same';
 var unary = unaryStridedDispatchFactory( table, [ dtypes ], dtypes, policy );
 ```
 
--   **table**: strided reduction function dispatch table. Must have a `'default'` property and a corresponding strided reduction function. May have additional properties corresponding to specific data types and associated specialized strided reduction functions.
+-   **table**: strided function dispatch table. Must have a `'default'` property and a corresponding strided function. May have additional properties corresponding to specific data types and associated specialized strided functions.
 -   **idtypes**: list containing lists of supported input data types for each input ndarray argument.
 -   **odtypes**: list of supported input data types.
 -   **policy**: output data type policy.
 
 #### unary( x\[, ...args]\[, options] )
 
-Performs a reduction on a provided input ndarray.
+Applies a strided function to a provided input ndarray.
 
 <!-- eslint-disable id-length -->
 
 ```javascript
+var ndarray2array = require( '@stdlib/ndarray/to-array' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
-var base = require( '@stdlib/stats/base/ndarray/max' );
+var base = require( '@stdlib/stats/base/ndarray/cumax' );
 
 var table = {
     'default': base
@@ -81,8 +82,8 @@ var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
 var y = unary( x );
 // returns <ndarray>
 
-var v = y.get();
-// returns 2.0
+var arr = ndarray2array( y );
+// returns [ -1.0, 2.0, 2.0 ]
 ```
 
 The function has the following parameters:
@@ -93,17 +94,17 @@ The function has the following parameters:
 
 The function accepts the following options:
 
--   **dims**: list of dimensions over which to perform a reduction.
+-   **dims**: list of dimensions over which to perform operation.
 -   **dtype**: output ndarray data type. Setting this option, overrides the output data type policy.
--   **keepdims**: boolean indicating whether the reduced dimensions should be included in the returned ndarray as singleton dimensions. Default: `false`.
 
 By default, the function returns an ndarray having a data type determined by the output data type policy. To override the default behavior, set the `dtype` option.
 
 <!-- eslint-disable id-length -->
 
 ```javascript
+var ndarray2array = require( '@stdlib/ndarray/to-array' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
-var base = require( '@stdlib/stats/base/ndarray/max' );
+var base = require( '@stdlib/stats/base/ndarray/cumax' );
 var getDType = require( '@stdlib/ndarray/dtype' );
 
 var table = {
@@ -129,13 +130,14 @@ var dt = getDType( y );
 
 #### unary.assign( x\[, ...args], out\[, options] )
 
-Performs a reduction on a provided input ndarray and assigns results to a provided output ndarray.
+Applies a strided function to a provided input ndarray and assigns results to a provided output ndarray.
 
 <!-- eslint-disable id-length -->
 
 ```javascript
-var base = require( '@stdlib/stats/base/ndarray/max' );
+var base = require( '@stdlib/stats/base/ndarray/cumax' );
 var dtypes = require( '@stdlib/ndarray/dtypes' );
+var ndarray2array = require( '@stdlib/ndarray/to-array' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
 
 var idt = dtypes( 'real_and_generic' );
@@ -150,14 +152,14 @@ var unary = unaryStridedDispatchFactory( table, [ idt ], odt, policy );
 var xbuf = [ -1.0, 2.0, -3.0 ];
 var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
 
-var ybuf = [ 0.0 ];
-var y = new ndarray( 'generic', ybuf, [], [ 0 ], 0, 'row-major' );
+var ybuf = [ 0.0, 0.0, 0.0 ];
+var y = new ndarray( 'generic', ybuf, [ ybuf.length ], [ 1 ], 0, 'row-major' );
 
 var out = unary.assign( x, y );
 // returns <ndarray>
 
-var v = out.get();
-// returns 2.0
+var arr = ndarray2array( out );
+// returns [ -1.0, 2.0, 2.0 ]
 
 var bool = ( out === y );
 // returns true
@@ -172,7 +174,7 @@ The method has the following parameters:
 
 The function accepts the following options:
 
--   **dims**: list of dimensions over which to perform a reduction.
+-   **dims**: list of dimensions over which to perform operation.
 
 </section>
 
@@ -197,13 +199,13 @@ The function accepts the following options:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var base = require( '@stdlib/stats/base/ndarray/max' );
-var uniform = require( '@stdlib/random/array/uniform' );
+var base = require( '@stdlib/stats/base/ndarray/cumax' );
+var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var dtypes = require( '@stdlib/ndarray/dtypes' );
 var dtype = require( '@stdlib/ndarray/dtype' );
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
 var ndarray = require( '@stdlib/ndarray/ctor' );
-var unaryStridedDispatchFactory = require( '@stdlib/stats/tools/reduce/unary-strided-dispatch-factory' );
+var unaryStridedDispatchFactory = require( '@stdlib/stats/tools/cumulative/unary-strided-dispatch-factory' );
 
 // Define the supported input and output data types:
 var idt = dtypes( 'real_and_generic' );
@@ -217,19 +219,20 @@ var table = {
     'default': base
 };
 
-// Create an interface for performing a reduction:
-var max = unaryStridedDispatchFactory( table, [ idt ], odt, policy );
+// Create an interface for performing an operation:
+var cumax = unaryStridedDispatchFactory( table, [ idt ], odt, policy );
 
 // Generate an array of random numbers:
-var xbuf = uniform( 100, -1.0, 1.0, {
+var xbuf = discreteUniform( 25, -10, 10, {
     'dtype': 'generic'
 });
 
 // Wrap in an ndarray:
-var x = new ndarray( 'generic', xbuf, [ 10, 10 ], [ 10, 1 ], 0, 'row-major' );
+var x = new ndarray( 'generic', xbuf, [ 5, 5 ], [ 5, 1 ], 0, 'row-major' );
+console.log( ndarray2array( x ) );
 
-// Perform a reduction:
-var y = max( x, {
+// Perform operation:
+var y = cumax( x, {
     'dims': [ 0 ]
 });
 

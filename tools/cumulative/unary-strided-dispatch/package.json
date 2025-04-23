@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/stats/tools/reduce/unary-strided-dispatch",
+  "name": "@stdlib/stats/tools/cumulative/unary-strided-dispatch",
   "version": "0.0.0",
-  "description": "Constructor for performing a reduction on an input ndarray.",
+  "description": "Constructor for applying a strided function to an input ndarray.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -57,8 +57,9 @@
     "ndarray",
     "array",
     "vector",
-    "reduction",
-    "reduce",
+    "cumulative",
+    "aggregate",
+    "aggregation",
     "apply",
     "call"
   ]

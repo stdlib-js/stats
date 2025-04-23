@@ -10,6 +10,29 @@
 
 ### Packages
 
+<section class="package" id="stats-unreleased">
+
+#### [@stdlib/stats](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`665a342`](https://github.com/stdlib-js/stdlib/commit/665a3428d269acc023c742d0f8fa579b0dd8b409) - add `max` to namespace
+-   [`88bf383`](https://github.com/stdlib-js/stdlib/commit/88bf383d5c1e8beda0992d4b0e49b6923292a2ec) - add `tools` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-array-max-unreleased">
 
 #### [@stdlib/stats/array/max](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/array/max)
@@ -20031,6 +20054,126 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-tools-unreleased">
+
+#### [@stdlib/stats/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/tools)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7b4349f`](https://github.com/stdlib-js/stdlib/commit/7b4349f0f1729ae9c42b74ec0bac9795bedad427) - add `stats/tools` namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-tools-cumulative-unreleased">
+
+#### [@stdlib/stats/tools/cumulative](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/tools/cumulative)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8e201c7`](https://github.com/stdlib-js/stdlib/commit/8e201c715d88a69037a6ef58ea807a00c5479d77) - add `stats/tools/cumulative` namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-tools-cumulative-unary-strided-dispatch-unreleased">
+
+#### [@stdlib/stats/tools/cumulative/unary-strided-dispatch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/tools/cumulative/unary-strided-dispatch)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3972416`](https://github.com/stdlib-js/stdlib/commit/3972416d77f8b54ef3c8e33a2d803f3b5cf61047) - add `stats/tools/cumulative/unary-strided-dispatch`
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`c44d5cf`](https://github.com/stdlib-js/stdlib/commit/c44d5cf5707b02e71a0ad0671730786a76d34920) - update package name
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-tools-cumulative-unary-strided-dispatch-factory-unreleased">
+
+#### [@stdlib/stats/tools/cumulative/unary-strided-dispatch-factory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/tools/cumulative/unary-strided-dispatch-factory)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ec850b1`](https://github.com/stdlib-js/stdlib/commit/ec850b1b4b2db752364f40721b6c694e3cbc1f49) - add `stats/tools/cumulative/unary-strided-dispatch-factory`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-tools-reduce-unreleased">
+
+#### [@stdlib/stats/tools/reduce](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/tools/reduce)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e59a85d`](https://github.com/stdlib-js/stdlib/commit/e59a85d8926d58135bb87bbcc20869780b4f2824) - add `stats/tools/reduce` namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="stats-tools-reduce-unary-strided-dispatch-unreleased">
 
 #### [@stdlib/stats/tools/reduce/unary-strided-dispatch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/tools/reduce/unary-strided-dispatch)
@@ -20051,6 +20194,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
+-   [`26b1232`](https://github.com/stdlib-js/stdlib/commit/26b123211012ebd9f9e9f6b390dd5b51156ae620) - update package name
 -   [`a273094`](https://github.com/stdlib-js/stdlib/commit/a2730940159da23d2fd8eed7fd832925d937bfed) - update error message
 -   [`d8842cc`](https://github.com/stdlib-js/stdlib/commit/d8842cc4a4d6d9638b73b4eaa342b784b490563f) - guard against falsy options arguments
 -   [`dda72cb`](https://github.com/stdlib-js/stdlib/commit/dda72cbd368266837d44629f9fb77d17c61f4081) - check for duplicate indices
@@ -21325,6 +21469,19 @@ A total of 57 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ddff7d1`](https://github.com/stdlib-js/stdlib/commit/ddff7d1f4fdfd7a655519ad02979416c79e5cdd0) - **docs:** fix example _(by Athan Reines)_
+-   [`665a342`](https://github.com/stdlib-js/stdlib/commit/665a3428d269acc023c742d0f8fa579b0dd8b409) - **feat:** add `max` to namespace _(by Athan Reines)_
+-   [`88bf383`](https://github.com/stdlib-js/stdlib/commit/88bf383d5c1e8beda0992d4b0e49b6923292a2ec) - **feat:** add `tools` to namespace _(by Athan Reines)_
+-   [`7b4349f`](https://github.com/stdlib-js/stdlib/commit/7b4349f0f1729ae9c42b74ec0bac9795bedad427) - **feat:** add `stats/tools` namespace _(by Athan Reines)_
+-   [`8e201c7`](https://github.com/stdlib-js/stdlib/commit/8e201c715d88a69037a6ef58ea807a00c5479d77) - **feat:** add `stats/tools/cumulative` namespace _(by Athan Reines)_
+-   [`ec850b1`](https://github.com/stdlib-js/stdlib/commit/ec850b1b4b2db752364f40721b6c694e3cbc1f49) - **feat:** add `stats/tools/cumulative/unary-strided-dispatch-factory` _(by Athan Reines)_
+-   [`26b1232`](https://github.com/stdlib-js/stdlib/commit/26b123211012ebd9f9e9f6b390dd5b51156ae620) - **fix:** update package name _(by Athan Reines)_
+-   [`c44d5cf`](https://github.com/stdlib-js/stdlib/commit/c44d5cf5707b02e71a0ad0671730786a76d34920) - **fix:** update package name _(by Athan Reines)_
+-   [`11375ec`](https://github.com/stdlib-js/stdlib/commit/11375ecd6b2da2a6842303a5e64fd7c2a20f0c60) - **docs:** update examples _(by Athan Reines)_
+-   [`3972416`](https://github.com/stdlib-js/stdlib/commit/3972416d77f8b54ef3c8e33a2d803f3b5cf61047) - **feat:** add `stats/tools/cumulative/unary-strided-dispatch` _(by Athan Reines)_
+-   [`4302fcb`](https://github.com/stdlib-js/stdlib/commit/4302fcb136747479ccf726d6e2d33fe3d3e6f9d4) - **docs:** fix description _(by Athan Reines)_
+-   [`18c253f`](https://github.com/stdlib-js/stdlib/commit/18c253feb4c29f4066d4bc3f69dee23c5964ac03) - **docs:** rename variable _(by Athan Reines)_
+-   [`e59a85d`](https://github.com/stdlib-js/stdlib/commit/e59a85d8926d58135bb87bbcc20869780b4f2824) - **feat:** add `stats/tools/reduce` namespace _(by Athan Reines)_
 -   [`7147d82`](https://github.com/stdlib-js/stdlib/commit/7147d825e46a3fdca10871ebe82f64263d9e5954) - **refactor:** rename file _(by Athan Reines)_
 -   [`240d406`](https://github.com/stdlib-js/stdlib/commit/240d406868e9f3699e1d234b32e32e05f81657db) - **refactor:** rename file _(by Athan Reines)_
 -   [`d25df8a`](https://github.com/stdlib-js/stdlib/commit/d25df8a08092d7e85b7e3b4da57ae5570df03938) - **refactor:** rename file _(by Athan Reines)_

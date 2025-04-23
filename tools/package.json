@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/stats/tools/reduce/unary-strided-dispatch",
+  "name": "@stdlib/stats/tools",
   "version": "0.0.0",
-  "description": "Constructor for performing a reduction on an input ndarray.",
+  "description": "Statistical function tools.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -13,9 +13,8 @@
       "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
     }
   ],
-  "main": "./lib",
+  "main": "lib/index.js",
   "directories": {
-    "benchmark": "./benchmark",
     "doc": "./docs",
     "example": "./examples",
     "lib": "./lib",
@@ -50,16 +49,11 @@
   ],
   "keywords": [
     "stdlib",
-    "stdstats",
     "statistics",
     "stats",
     "tools",
-    "ndarray",
-    "array",
-    "vector",
-    "reduction",
-    "reduce",
-    "apply",
-    "call"
+    "utilities",
+    "utils",
+    "namespace"
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/stats/tools/reduce/unary-strided-dispatch",
+  "name": "@stdlib/stats/tools/cumulative/unary-strided-dispatch-factory",
   "version": "0.0.0",
-  "description": "Constructor for performing a reduction on an input ndarray.",
+  "description": "Create a function for applying a strided function to a provided ndarray.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -53,13 +53,17 @@
     "stdstats",
     "statistics",
     "stats",
-    "tools",
+    "factory",
+    "function",
+    "func",
+    "fcn",
     "ndarray",
-    "array",
     "vector",
-    "reduction",
-    "reduce",
+    "array",
     "apply",
-    "call"
+    "cumulative",
+    "aggregation",
+    "aggregate",
+    "accumulate"
   ]
 }
