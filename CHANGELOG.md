@@ -21325,6 +21325,9 @@ A total of 57 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7147d82`](https://github.com/stdlib-js/stdlib/commit/7147d825e46a3fdca10871ebe82f64263d9e5954) - **refactor:** rename file _(by Athan Reines)_
+-   [`240d406`](https://github.com/stdlib-js/stdlib/commit/240d406868e9f3699e1d234b32e32e05f81657db) - **refactor:** rename file _(by Athan Reines)_
+-   [`d25df8a`](https://github.com/stdlib-js/stdlib/commit/d25df8a08092d7e85b7e3b4da57ae5570df03938) - **refactor:** rename file _(by Athan Reines)_
 -   [`dc856e3`](https://github.com/stdlib-js/stdlib/commit/dc856e3f710fa36019b00ab56d81bdca73209f8a) - **feat:** add `cumax` to namespace _(by Athan Reines)_
 -   [`d76b344`](https://github.com/stdlib-js/stdlib/commit/d76b344f9b4d052157299659dd262a5b61f443f7) - **feat:** add `stats/base/ndarray/cumax` _(by Athan Reines)_
 -   [`b582752`](https://github.com/stdlib-js/stdlib/commit/b58275298e72aeb7e681b3c4c4ec9196a3692a97) - **feat:** add `scumax` to namespace _(by Athan Reines)_
