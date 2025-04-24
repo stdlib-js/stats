@@ -21830,6 +21830,8 @@ A total of 57 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`22e441e`](https://github.com/stdlib-js/stdlib/commit/22e441e3ba728abb2a8b9853187dcec3169c1f7d) - **docs:** use consistent terms _(by Athan Reines)_
+-   [`75f4595`](https://github.com/stdlib-js/stdlib/commit/75f4595586d2dd4ff1fd13b17f5b88464d04e403) - **docs:** use consistent terms _(by Athan Reines)_
 -   [`241d973`](https://github.com/stdlib-js/stdlib/commit/241d9733f1c33c635badfb7f801125988c12b1e8) - **fix:** update dispatch table _(by Athan Reines)_
 -   [`48c6587`](https://github.com/stdlib-js/stdlib/commit/48c65874d247c4e19712d69281d219878bc746be) - **fix:** update dispatch table _(by Athan Reines)_
 -   [`5d6ed6a`](https://github.com/stdlib-js/stdlib/commit/5d6ed6a4d163bf887469537abce70ed69025c408) - **feat:** add C implementation for `stats/base/dists/bernoulli/cdf` [(#3962)](https://github.com/stdlib-js/stdlib/pull/3962) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
