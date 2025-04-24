@@ -16,6 +16,8 @@
 * limitations under the License.
 */
 
+/* eslint-disable array-element-newline */
+
 'use strict';
 
 // MODULES //
@@ -33,8 +35,14 @@ var idtypes = dtypes( 'real_and_generic' );
 var odtypes = dtypes( 'real_and_generic' );
 var policy = 'same';
 var table = {
-	'float64': dcumax,
-	'float32': scumax,
+	'types': [
+		'float64', 'float64', // input, output
+		'float32', 'float32'  // input, output
+	],
+	'fcns': [
+		dcumax,
+		scumax
+	],
 	'default': gcumax
 };
 

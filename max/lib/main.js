@@ -33,8 +33,14 @@ var idtypes = dtypes( 'real_and_generic' );
 var odtypes = dtypes( 'real_and_generic' );
 var policy = 'same';
 var table = {
-	'float64': dmax,
-	'float32': smax,
+	'types': [
+		'float64', // input
+		'float32'  // input
+	],
+	'fcns': [
+		dmax,
+		smax
+	],
 	'default': gmax
 };
 
