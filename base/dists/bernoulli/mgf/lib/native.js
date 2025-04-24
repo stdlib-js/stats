@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,9 +20,7 @@
 
 // MODULES //
 
-var isProbability = require( '@stdlib/math/base/assert/is-probability' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var exp = require( '@stdlib/math/base/special/exp' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
@@ -30,9 +28,10 @@ var exp = require( '@stdlib/math/base/special/exp' );
 /**
 * Evaluates the moment-generating function (MGF) for a Bernoulli distribution with success probability `p`.
 *
+* @private
 * @param {number} t - input value
 * @param {Probability} p - success probability
-* @returns {number} evaluated MGF
+* @returns {Probability} evaluated MGF
 *
 * @example
 * var y = mgf( 0.2, 0.5 );
@@ -52,17 +51,14 @@ var exp = require( '@stdlib/math/base/special/exp' );
 *
 * @example
 * var y = mgf( -2.0, -1.0 );
-* // returns NaN
+* // returns 1.8646647167633872
 *
 * @example
 * var y = mgf( 0.2, 2.0 );
-* // returns NaN
+* // returns 1.4428055163203397
 */
 function mgf( t, p ) {
-	if ( isnan( t ) || !isProbability( p ) ) {
-		return NaN;
-	}
-	return ( 1.0-p ) + ( p * exp( t ) );
+	return addon( t, p );
 }
 
 
