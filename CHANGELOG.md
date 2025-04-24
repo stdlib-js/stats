@@ -21830,6 +21830,7 @@ A total of 57 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a7eb96f`](https://github.com/stdlib-js/stdlib/commit/a7eb96ff3260ae692875271ebf92116b25b9c99b) - **docs:** update namespace table of contents [(#6803)](https://github.com/stdlib-js/stdlib/pull/6803) _(by stdlib-bot)_
 -   [`22e441e`](https://github.com/stdlib-js/stdlib/commit/22e441e3ba728abb2a8b9853187dcec3169c1f7d) - **docs:** use consistent terms _(by Athan Reines)_
 -   [`75f4595`](https://github.com/stdlib-js/stdlib/commit/75f4595586d2dd4ff1fd13b17f5b88464d04e403) - **docs:** use consistent terms _(by Athan Reines)_
 -   [`241d973`](https://github.com/stdlib-js/stdlib/commit/241d9733f1c33c635badfb7f801125988c12b1e8) - **fix:** update dispatch table _(by Athan Reines)_
