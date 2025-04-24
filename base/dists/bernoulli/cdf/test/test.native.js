@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,11 +20,12 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
-var cdf = require( './../lib' );
 
 
 // FIXTURES //
@@ -33,15 +34,23 @@ var smallP = require( './fixtures/julia/small_p.json' );
 var largeP = require( './fixtures/julia/large_p.json' );
 
 
+// VARIABLES //
+
+var cdf = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( cdf instanceof Error )
+};
+
+
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof cdf, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'if provided `NaN` for any parameter, the function returns `NaN`', function test( t ) {
+tape( 'if provided `NaN` for any parameter, the function returns `NaN`', opts, function test( t ) {
 	var y = cdf( NaN, 0.5 );
 	t.equal( isnan( y ), true, 'returns NaN' );
 	y = cdf( 4.0, NaN );
@@ -49,13 +58,13 @@ tape( 'if provided `NaN` for any parameter, the function returns `NaN`', functio
 	t.end();
 });
 
-tape( 'if provided `+infinity` for `x` and a valid `p`, the function returns `1`', function test( t ) {
+tape( 'if provided `+infinity` for `x` and a valid `p`, the function returns `1`', opts, function test( t ) {
 	var y = cdf( PINF, 0.5 );
 	t.equal( y, 1.0, 'returns 1' );
 	t.end();
 });
 
-tape( 'if provided a negative number for `x` and a valid `p`, the function returns `0`', function test( t ) {
+tape( 'if provided a negative number for `x` and a valid `p`, the function returns `0`', opts, function test( t ) {
 	var y = cdf( NINF, 0.5 );
 	t.equal( y, 0.0, 'returns 0' );
 
@@ -68,7 +77,7 @@ tape( 'if provided a negative number for `x` and a valid `p`, the function retur
 	t.end();
 });
 
-tape( 'if provided a value outside `[0,1]` for success probability `p`, the function returns `NaN`', function test( t ) {
+tape( 'if provided a value outside `[0,1]` for success probability `p`, the function returns `NaN`', opts, function test( t ) {
 	var y;
 
 	y = cdf( 3.0, PINF );
@@ -86,7 +95,7 @@ tape( 'if provided a value outside `[0,1]` for success probability `p`, the func
 	t.end();
 });
 
-tape( 'the function evaluates the cdf for `x` given small parameter `p`', function test( t ) {
+tape( 'the function evaluates the cdf for `x` given small parameter `p`', opts, function test( t ) {
 	var expected;
 	var x;
 	var p;
@@ -103,7 +112,7 @@ tape( 'the function evaluates the cdf for `x` given small parameter `p`', functi
 	t.end();
 });
 
-tape( 'the function evaluates the cdf for `x` given large parameter `p`', function test( t ) {
+tape( 'the function evaluates the cdf for `x` given large parameter `p`', opts, function test( t ) {
 	var expected;
 	var x;
 	var p;
