@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5d94f92`](https://github.com/stdlib-js/stdlib/commit/5d94f9213500163957b30ea3ad36df4c141a5d41) - add C ndarray interface and refactor implementation for  `stats/base/dsempn` [(#6785)](https://github.com/stdlib-js/stdlib/pull/6785)
 -   [`5d6ed6a`](https://github.com/stdlib-js/stdlib/commit/5d6ed6a4d163bf887469537abce70ed69025c408) - add C implementation for `stats/base/dists/bernoulli/cdf` [(#3962)](https://github.com/stdlib-js/stdlib/pull/3962)
 -   [`0a6c344`](https://github.com/stdlib-js/stdlib/commit/0a6c344b6922ed9d12900074f01c88aaf58855f1) - add C implementation for `stats/base/dists/bernoulli/mgf` [(#3981)](https://github.com/stdlib-js/stdlib/pull/3981)
 -   [`a92a6e3`](https://github.com/stdlib-js/stdlib/commit/a92a6e3876e93b826ab2a6c6cd550e952c24d788) - add C implementation of `stats/dists/gumbel/logpdf` [(#4085)](https://github.com/stdlib-js/stdlib/pull/4085)
@@ -1827,6 +1828,7 @@ A total of 376 issues were closed in this release:
 
 <details>
 
+-   [`5d94f92`](https://github.com/stdlib-js/stdlib/commit/5d94f9213500163957b30ea3ad36df4c141a5d41) - **feat:** add C ndarray interface and refactor implementation for  `stats/base/dsempn` [(#6785)](https://github.com/stdlib-js/stdlib/pull/6785) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`4d16c32`](https://github.com/stdlib-js/stdlib/commit/4d16c32fb0ceb4b18fb2548aa596251d9e8c99f4) - **bench:** update random value generation [(#6794)](https://github.com/stdlib-js/stdlib/pull/6794) _(by Harsh, Athan Reines)_
 -   [`bbfcd3e`](https://github.com/stdlib-js/stdlib/commit/bbfcd3ee9072499e16d6baa0e13e9d2b21c4b4d0) - **docs:** update namespace table of contents [(#6809)](https://github.com/stdlib-js/stdlib/pull/6809) _(by stdlib-bot)_
 -   [`0def122`](https://github.com/stdlib-js/stdlib/commit/0def122ace01882b5b7344ac90754ea5f4375ac7) - **docs:** minor clean-up _(by Philipp Burckhardt)_
