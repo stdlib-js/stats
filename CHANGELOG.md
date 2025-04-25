@@ -1827,6 +1827,7 @@ A total of 376 issues were closed in this release:
 
 <details>
 
+-   [`bbfcd3e`](https://github.com/stdlib-js/stdlib/commit/bbfcd3ee9072499e16d6baa0e13e9d2b21c4b4d0) - **docs:** update namespace table of contents [(#6809)](https://github.com/stdlib-js/stdlib/pull/6809) _(by stdlib-bot)_
 -   [`0def122`](https://github.com/stdlib-js/stdlib/commit/0def122ace01882b5b7344ac90754ea5f4375ac7) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`23c60da`](https://github.com/stdlib-js/stdlib/commit/23c60daf037b609ab1315f45448e0ba52a89c247) - **docs:** remove spaces before periods _(by Philipp Burckhardt)_
 -   [`8e82f4c`](https://github.com/stdlib-js/stdlib/commit/8e82f4c6e47278d7d5dd0d69342a626ac7e3beb8) - **bench:** use single-precision assertion utility _(by Athan Reines)_
