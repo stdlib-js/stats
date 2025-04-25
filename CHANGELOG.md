@@ -1829,6 +1829,8 @@ A total of 376 issues were closed in this release:
 
 -   [`0def122`](https://github.com/stdlib-js/stdlib/commit/0def122ace01882b5b7344ac90754ea5f4375ac7) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`23c60da`](https://github.com/stdlib-js/stdlib/commit/23c60daf037b609ab1315f45448e0ba52a89c247) - **docs:** remove spaces before periods _(by Philipp Burckhardt)_
+-   [`8e82f4c`](https://github.com/stdlib-js/stdlib/commit/8e82f4c6e47278d7d5dd0d69342a626ac7e3beb8) - **bench:** use single-precision assertion utility _(by Athan Reines)_
+-   [`b455b55`](https://github.com/stdlib-js/stdlib/commit/b455b550546bb22da11b94d0213bc54a74a08bed) - **bench:** use single-precision assertion utility _(by Athan Reines)_
 -   [`5f73301`](https://github.com/stdlib-js/stdlib/commit/5f73301a8509cc423a06b02140c4e316fd02ff49) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`f193925`](https://github.com/stdlib-js/stdlib/commit/f193925ef8a4ceaf75fe5748fe62759a8514f4a7) - **chore:** disable lint rule [(#6797)](https://github.com/stdlib-js/stdlib/pull/6797) _(by Dipjyoti Das)_
 -   [`a7eb96f`](https://github.com/stdlib-js/stdlib/commit/a7eb96ff3260ae692875271ebf92116b25b9c99b) - **docs:** update namespace table of contents [(#6803)](https://github.com/stdlib-js/stdlib/pull/6803) _(by stdlib-bot)_
