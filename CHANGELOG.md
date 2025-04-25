@@ -1827,6 +1827,7 @@ A total of 376 issues were closed in this release:
 
 <details>
 
+-   [`4d16c32`](https://github.com/stdlib-js/stdlib/commit/4d16c32fb0ceb4b18fb2548aa596251d9e8c99f4) - **bench:** update random value generation [(#6794)](https://github.com/stdlib-js/stdlib/pull/6794) _(by Harsh, Athan Reines)_
 -   [`bbfcd3e`](https://github.com/stdlib-js/stdlib/commit/bbfcd3ee9072499e16d6baa0e13e9d2b21c4b4d0) - **docs:** update namespace table of contents [(#6809)](https://github.com/stdlib-js/stdlib/pull/6809) _(by stdlib-bot)_
 -   [`0def122`](https://github.com/stdlib-js/stdlib/commit/0def122ace01882b5b7344ac90754ea5f4375ac7) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`23c60da`](https://github.com/stdlib-js/stdlib/commit/23c60daf037b609ab1315f45448e0ba52a89c247) - **docs:** remove spaces before periods _(by Philipp Burckhardt)_
