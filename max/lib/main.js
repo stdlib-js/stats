@@ -31,7 +31,10 @@ var factory = require( '@stdlib/ndarray/base/unary-reduce-strided1d-dispatch-fac
 
 var idtypes = dtypes( 'real_and_generic' );
 var odtypes = dtypes( 'real_and_generic' );
-var policy = 'same';
+var policies = {
+	'output': 'same',
+	'casting': 'none'
+};
 var table = {
 	'types': [
 		'float64', // input
@@ -90,7 +93,7 @@ var table = {
 * var v = out.get();
 * // returns 11.0
 */
-var max = factory( table, [ idtypes ], odtypes, policy );
+var max = factory( table, [ idtypes ], odtypes, policies );
 
 
 // EXPORTS //
