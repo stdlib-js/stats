@@ -56,23 +56,23 @@ tape( 'if provided `NaN` for any parameter, the created function returns `NaN`',
 
 	pdf = factory( 1.0, 1.0 );
 	y = pdf( NaN );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	pdf = factory( NaN, 1.0 );
 	y = pdf( 0.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	pdf = factory( 1.0, NaN );
 	y = pdf( 0.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	pdf = factory( NaN, NaN );
 	y = pdf( 0.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	pdf = factory( NaN, NaN );
 	y = pdf( NaN );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	t.end();
 });
@@ -83,22 +83,22 @@ tape( 'if provided a valid `alpha` and `beta`, the function returns a function w
 
 	pdf = factory( 0.5, 1.0 );
 	y = pdf( NINF );
-	t.equal( y, 0.0, 'returns expected value' );
+	t.equal( y, 0.0, 'returns 0' );
 
 	y = pdf( PINF );
-	t.equal( y, 0.0, 'returns expected value' );
+	t.equal( y, 0.0, 'returns 0' );
 
 	y = pdf( -100.0 );
-	t.equal( y, 0.0, 'returns expected value' );
+	t.equal( y, 0.0, 'returns 0' );
 
 	y = pdf( 100.0 );
-	t.equal( y, 0.0, 'returns expected value' );
+	t.equal( y, 0.0, 'returns 0' );
 
 	y = pdf( -0.5 );
-	t.equal( y, 0.0, 'returns expected value' );
+	t.equal( y, 0.0, 'returns 0' );
 
 	y = pdf( 1.5 );
-	t.equal( y, 0.0, 'returns expected value' );
+	t.equal( y, 0.0, 'returns 0' );
 
 	t.end();
 });
@@ -110,26 +110,26 @@ tape( 'if provided `beta <= 0`, the created function always returns `NaN`', func
 	pdf = factory( 0.0, -1.0 );
 
 	y = pdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	y = pdf( 0.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	pdf = factory( 0.0, NINF );
 	y = pdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	pdf = factory( PINF, NINF );
 	y = pdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	pdf = factory( NINF, NINF );
 	y = pdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	pdf = factory( NaN, NINF );
 	y = pdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	t.end();
 });
@@ -141,26 +141,26 @@ tape( 'if provided `alpha <= 0`, the created function always returns `NaN`', fun
 	pdf = factory( -1.0, 0.5 );
 
 	y = pdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	y = pdf( 0.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	pdf = factory( NINF, 1.0 );
 	y = pdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	pdf = factory( NINF, PINF );
 	y = pdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	pdf = factory( NINF, NINF );
 	y = pdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	pdf = factory( NINF, NaN );
 	y = pdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	t.end();
 });
@@ -168,42 +168,42 @@ tape( 'if provided `alpha <= 0`, the created function always returns `NaN`', fun
 tape( 'if provided `alpha = 1`, the created function returns `beta` for `x` equal to zero', function test( t ) {
 	var pdf = factory( 1.0, 2.0 );
 	var y = pdf( 0.0 );
-	t.equal( y, 2.0, 'returns expected value' );
+	t.equal( y, 2.0, 'returns 2' );
 	t.end();
 });
 
 tape( 'if provided `alpha > 1`, the created function returns `0` for `x` equal to zero', function test( t ) {
 	var pdf = factory( 1.5, 2.0 );
 	var y = pdf( 0.0 );
-	t.equal( y, 0.0, 'returns expected value' );
+	t.equal( y, 0.0, 'returns 0' );
 	t.end();
 });
 
 tape( 'if provided `alpha < 1`, the created function returns `+Infinity` for `x` equal to zero', function test( t ) {
 	var pdf = factory( 0.5, 2.0 );
 	var y = pdf( 0.0 );
-	t.equal( y, PINF, 'returns expected value' );
+	t.equal( y, PINF, 'returns +Infinity' );
 	t.end();
 });
 
 tape( 'if provided `beta = 1`, the created function returns `alpha` for `x` equal to one', function test( t ) {
 	var pdf = factory( 3.0, 1.0 );
 	var y = pdf( 1.0 );
-	t.equal( y, 3.0, 'returns expected value' );
+	t.equal( y, 3.0, 'returns 3' );
 	t.end();
 });
 
 tape( 'if provided `beta > 1`, the created function returns `0` for `x` equal to one', function test( t ) {
 	var pdf = factory( 1.5, 2.0 );
 	var y = pdf( 1.0 );
-	t.equal( y, 0.0, 'returns expected value' );
+	t.equal( y, 0.0, 'returns 0' );
 	t.end();
 });
 
 tape( 'if provided `beta < 1`, the created function returns `+Infinity` for `x` equal to one', function test( t ) {
 	var pdf = factory( 1.5, 0.5 );
 	var y = pdf( 1.0 );
-	t.equal( y, PINF, 'returns expected value' );
+	t.equal( y, PINF, 'returns +Infinity' );
 	t.end();
 });
 
