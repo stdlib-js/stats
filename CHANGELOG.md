@@ -623,6 +623,7 @@
 
 ### Bug Fixes
 
+-   [`60aea0a`](https://github.com/stdlib-js/stdlib/commit/60aea0a031600792ed138a8dafdee69ea3fdf1bf) - replace policy string with policy object
 -   [`cb86a56`](https://github.com/stdlib-js/stdlib/commit/cb86a569e143dbd29f18fe14414f4c3a06ee6320) - replace policy string with policy object
 -   [`241d973`](https://github.com/stdlib-js/stdlib/commit/241d9733f1c33c635badfb7f801125988c12b1e8) - update dispatch table
 -   [`48c6587`](https://github.com/stdlib-js/stdlib/commit/48c65874d247c4e19712d69281d219878bc746be) - update dispatch table
@@ -1829,6 +1830,7 @@ A total of 376 issues were closed in this release:
 
 <details>
 
+-   [`60aea0a`](https://github.com/stdlib-js/stdlib/commit/60aea0a031600792ed138a8dafdee69ea3fdf1bf) - **fix:** replace policy string with policy object _(by Athan Reines)_
 -   [`cb86a56`](https://github.com/stdlib-js/stdlib/commit/cb86a569e143dbd29f18fe14414f4c3a06ee6320) - **fix:** replace policy string with policy object _(by Athan Reines)_
 -   [`d87dd71`](https://github.com/stdlib-js/stdlib/commit/d87dd71ce7fcfbc3af99acd57d13604b877fbb7b) - **bench:** update random value generation [(#6812)](https://github.com/stdlib-js/stdlib/pull/6812) _(by Harsh)_
 -   [`b9d5fc2`](https://github.com/stdlib-js/stdlib/commit/b9d5fc27dcdc1d57f94f63be1d05276c63025c14) - **docs:** update namespace table of contents [(#6819)](https://github.com/stdlib-js/stdlib/pull/6819) _(by stdlib-bot, Philipp Burckhardt)_

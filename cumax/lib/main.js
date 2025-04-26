@@ -33,7 +33,10 @@ var factory = require( '@stdlib/ndarray/base/unary-strided1d-dispatch-factory' )
 
 var idtypes = dtypes( 'real_and_generic' );
 var odtypes = dtypes( 'real_and_generic' );
-var policy = 'same';
+var policies = {
+	'output': 'same',
+	'casting': 'none'
+};
 var table = {
 	'types': [
 		'float64', 'float64', // input, output
@@ -92,7 +95,7 @@ var table = {
 * var arr = ndarray2array( out );
 * // returns [ [ [ 1.0, 2.0 ] ], [ [ 2.0, 4.0 ] ], [ [ 4.0, 6.0 ] ] ]
 */
-var cumax = factory( table, [ idtypes ], odtypes, policy );
+var cumax = factory( table, [ idtypes ], odtypes, policies );
 
 
 // EXPORTS //
