@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-26)
+## Unreleased (2025-04-28)
 
 <section class="features">
 
@@ -1830,6 +1830,7 @@ A total of 376 issues were closed in this release:
 
 <details>
 
+-   [`14b1d83`](https://github.com/stdlib-js/stdlib/commit/14b1d83da670984e339ce1a2ebfc6f0f37c3ccd2) - **test:** update descriptions _(by Athan Reines)_
 -   [`60aea0a`](https://github.com/stdlib-js/stdlib/commit/60aea0a031600792ed138a8dafdee69ea3fdf1bf) - **fix:** replace policy string with policy object _(by Athan Reines)_
 -   [`cb86a56`](https://github.com/stdlib-js/stdlib/commit/cb86a569e143dbd29f18fe14414f4c3a06ee6320) - **fix:** replace policy string with policy object _(by Athan Reines)_
 -   [`d87dd71`](https://github.com/stdlib-js/stdlib/commit/d87dd71ce7fcfbc3af99acd57d13604b877fbb7b) - **bench:** update random value generation [(#6812)](https://github.com/stdlib-js/stdlib/pull/6812) _(by Harsh)_
