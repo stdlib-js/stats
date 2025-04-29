@@ -21,7 +21,8 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var uniform = require( '@stdlib/random/array/uniform' );
+var uniform = require( '@stdlib/random/base/uniform' );
+var Float64Array = require( '@stdlib/array/float64' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var pkg = require( './../package.json' ).name;
@@ -33,19 +34,21 @@ var mean = require( './../lib' );
 bench( pkg, function benchmark( b ) {
 	var alpha;
 	var beta;
-	var opts;
+	var len;
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
-	alpha = uniform( 100, EPS, 10.0, opts );
-	beta = uniform( 100, 1.0 + EPS, 11.0, opts );
+	len = 100;
+	alpha = new Float64Array( len );
+	beta = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		alpha[ i ] = uniform( EPS, 10.0 );
+		beta[ i ] = uniform( 1.0 + EPS, 11.0 );
+	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = mean( alpha[ i % alpha.length ], beta[ i % beta.length ] );
+		y = mean( alpha[ i % len ], beta[ i % len ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}

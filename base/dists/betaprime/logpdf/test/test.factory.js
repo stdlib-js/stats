@@ -56,23 +56,23 @@ tape( 'if provided `NaN` for any parameter, the created function returns `NaN`',
 
 	logpdf = factory( 1.0, 1.0 );
 	y = logpdf( NaN );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	logpdf = factory( NaN, 1.0 );
 	y = logpdf( 0.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	logpdf = factory( 1.0, NaN );
 	y = logpdf( 0.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	logpdf = factory( NaN, NaN );
 	y = logpdf( 0.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	logpdf = factory( NaN, NaN );
 	y = logpdf( NaN );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	t.end();
 });
@@ -83,13 +83,13 @@ tape( 'if provided a valid `alpha` and `beta`, the function returns a function w
 
 	logpdf = factory( 0.5, 1.0 );
 	y = logpdf( NINF );
-	t.equal( y, NINF, 'returns expected value' );
+	t.equal( y, NINF, 'returns -Infinity' );
 
 	y = logpdf( -100.0 );
-	t.equal( y, NINF, 'returns expected value' );
+	t.equal( y, NINF, 'returns -Infinity' );
 
 	y = logpdf( -0.5 );
-	t.equal( y, NINF, 'returns expected value' );
+	t.equal( y, NINF, 'returns -Infinity' );
 
 	t.end();
 });
@@ -101,26 +101,26 @@ tape( 'if provided `beta <= 0`, the created function always returns `NaN`', func
 	logpdf = factory( 0.0, -1.0 );
 
 	y = logpdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	y = logpdf( 0.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	logpdf = factory( 0.0, NINF );
 	y = logpdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	logpdf = factory( PINF, NINF );
 	y = logpdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	logpdf = factory( NINF, NINF );
 	y = logpdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	logpdf = factory( NaN, NINF );
 	y = logpdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	t.end();
 });
@@ -132,26 +132,26 @@ tape( 'if provided `alpha <= 0`, the created function always returns `NaN`', fun
 	logpdf = factory( -1.0, 0.5 );
 
 	y = logpdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	y = logpdf( 0.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	logpdf = factory( NINF, 1.0 );
 	y = logpdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	logpdf = factory( NINF, PINF );
 	y = logpdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	logpdf = factory( NINF, NINF );
 	y = logpdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	logpdf = factory( NINF, NaN );
 	y = logpdf( 2.0 );
-	t.equal( isnan( y ), true, 'returns expected value' );
+	t.equal( isnan( y ), true, 'returns NaN' );
 
 	t.end();
 });
