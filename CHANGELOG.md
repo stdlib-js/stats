@@ -1830,6 +1830,7 @@ A total of 376 issues were closed in this release:
 
 <details>
 
+-   [`7279e43`](https://github.com/stdlib-js/stdlib/commit/7279e433dc1936056560624b5892eea8d9350ef1) - **bench:** update random value generation [(#6853)](https://github.com/stdlib-js/stdlib/pull/6853) _(by Harsh)_
 -   [`c1acd4b`](https://github.com/stdlib-js/stdlib/commit/c1acd4bf3ed08b40d6d4e93ee245f03c9eef8472) - **bench:** update random value generation [(#6858)](https://github.com/stdlib-js/stdlib/pull/6858) _(by Harsh, Athan Reines)_
 -   [`e658ffd`](https://github.com/stdlib-js/stdlib/commit/e658ffd3c46b5cb1ba33c0be61e55bf6995237ca) - **bench:** update random value generation [(#6856)](https://github.com/stdlib-js/stdlib/pull/6856) _(by Harsh)_
 -   [`22c4c3e`](https://github.com/stdlib-js/stdlib/commit/22c4c3e5ffc0356aabf7b740b8e201e9ee427901) - **bench:** update random value generation [(#6857)](https://github.com/stdlib-js/stdlib/pull/6857) _(by Harsh)_
