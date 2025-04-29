@@ -1830,6 +1830,8 @@ A total of 376 issues were closed in this release:
 
 <details>
 
+-   [`22c4c3e`](https://github.com/stdlib-js/stdlib/commit/22c4c3e5ffc0356aabf7b740b8e201e9ee427901) - **bench:** update random value generation [(#6857)](https://github.com/stdlib-js/stdlib/pull/6857) _(by Harsh)_
+-   [`5301df6`](https://github.com/stdlib-js/stdlib/commit/5301df6699ae3b3229da3a8ab0ecd281f02f460e) - **bench:** update random value generation [(#6841)](https://github.com/stdlib-js/stdlib/pull/6841) _(by Harsh)_
 -   [`e8dea99`](https://github.com/stdlib-js/stdlib/commit/e8dea9975e4b6fa5b11e6bfbf90f92af904b6786) - **bench:** update random value generation [(#6842)](https://github.com/stdlib-js/stdlib/pull/6842) _(by Harsh)_
 -   [`b59ce6f`](https://github.com/stdlib-js/stdlib/commit/b59ce6ffab63e0027ac910b7c91a9082edea925e) - **docs:** replace manual `for` loop in examples [(#6831)](https://github.com/stdlib-js/stdlib/pull/6831) _(by Harsh)_
 -   [`b2aa3f7`](https://github.com/stdlib-js/stdlib/commit/b2aa3f7fc67e416f476455522f9189d586915d2e) - **docs:** replace manual `for` loop in examples [(#6830)](https://github.com/stdlib-js/stdlib/pull/6830) _(by Harsh)_
