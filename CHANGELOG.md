@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`27b7e04`](https://github.com/stdlib-js/stdlib/commit/27b7e04a7296f606209f964c9d09731791f7eba0) - add C ndarray interface and refactor implementation for `stats/base/dsem` [(#6839)](https://github.com/stdlib-js/stdlib/pull/6839)
 -   [`76f65a5`](https://github.com/stdlib-js/stdlib/commit/76f65a5a792b6fa1ee9549e88ec07e2f978b682e) - add `stats/incr/nanmaxabs` [(#6116)](https://github.com/stdlib-js/stdlib/pull/6116)
 -   [`f6baee4`](https://github.com/stdlib-js/stdlib/commit/f6baee41647e238275de3bda5cbba1943a1ebd8a) - add C ndarray interface and refactor implementation for `stats/base/dstdev` [(#6850)](https://github.com/stdlib-js/stdlib/pull/6850)
 -   [`9421794`](https://github.com/stdlib-js/stdlib/commit/942179479d7e9d6dae38cf4a187690856d43c022) - add C ndarray interface and refactor implementation for `stats/base/smean` [(#6814)](https://github.com/stdlib-js/stdlib/pull/6814)
@@ -1833,6 +1834,7 @@ A total of 377 issues were closed in this release:
 
 <details>
 
+-   [`27b7e04`](https://github.com/stdlib-js/stdlib/commit/27b7e04a7296f606209f964c9d09731791f7eba0) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsem` [(#6839)](https://github.com/stdlib-js/stdlib/pull/6839) _(by Gururaj Gurram, stdlib-bot)_
 -   [`76f65a5`](https://github.com/stdlib-js/stdlib/commit/76f65a5a792b6fa1ee9549e88ec07e2f978b682e) - **feat:** add `stats/incr/nanmaxabs` [(#6116)](https://github.com/stdlib-js/stdlib/pull/6116) _(by Girish Garg, Athan Reines, stdlib-bot)_
 -   [`c1df69c`](https://github.com/stdlib-js/stdlib/commit/c1df69ccf92f1ce80f08883226dd4252644f0324) - **docs:** replace manual `for` loop in examples [(#6848)](https://github.com/stdlib-js/stdlib/pull/6848) _(by Harsh, Athan Reines)_
 -   [`f6baee4`](https://github.com/stdlib-js/stdlib/commit/f6baee41647e238275de3bda5cbba1943a1ebd8a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdev` [(#6850)](https://github.com/stdlib-js/stdlib/pull/6850) _(by Gururaj Gurram, Athan Reines)_
