@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f6baee4`](https://github.com/stdlib-js/stdlib/commit/f6baee41647e238275de3bda5cbba1943a1ebd8a) - add C ndarray interface and refactor implementation for `stats/base/dstdev` [(#6850)](https://github.com/stdlib-js/stdlib/pull/6850)
 -   [`9421794`](https://github.com/stdlib-js/stdlib/commit/942179479d7e9d6dae38cf4a187690856d43c022) - add C ndarray interface and refactor implementation for `stats/base/smean` [(#6814)](https://github.com/stdlib-js/stdlib/pull/6814)
 -   [`5d94f92`](https://github.com/stdlib-js/stdlib/commit/5d94f9213500163957b30ea3ad36df4c141a5d41) - add C ndarray interface and refactor implementation for  `stats/base/dsempn` [(#6785)](https://github.com/stdlib-js/stdlib/pull/6785)
 -   [`5d6ed6a`](https://github.com/stdlib-js/stdlib/commit/5d6ed6a4d163bf887469537abce70ed69025c408) - add C implementation for `stats/base/dists/bernoulli/cdf` [(#3962)](https://github.com/stdlib-js/stdlib/pull/3962)
@@ -1831,6 +1832,7 @@ A total of 376 issues were closed in this release:
 
 <details>
 
+-   [`f6baee4`](https://github.com/stdlib-js/stdlib/commit/f6baee41647e238275de3bda5cbba1943a1ebd8a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdev` [(#6850)](https://github.com/stdlib-js/stdlib/pull/6850) _(by Gururaj Gurram, Athan Reines)_
 -   [`9421794`](https://github.com/stdlib-js/stdlib/commit/942179479d7e9d6dae38cf4a187690856d43c022) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smean` [(#6814)](https://github.com/stdlib-js/stdlib/pull/6814) _(by Gururaj Gurram, stdlib-bot, Aayush Khanna)_
 -   [`a5e0667`](https://github.com/stdlib-js/stdlib/commit/a5e0667c308881e101549d77c6d8573e3b632c67) - **docs:** replace manual `for` loop in examples [(#6849)](https://github.com/stdlib-js/stdlib/pull/6849) _(by Harsh, Athan Reines)_
 -   [`3353337`](https://github.com/stdlib-js/stdlib/commit/3353337506226163bbe65241b088b899f0a4b60c) - **bench:** update random value generation [(#6840)](https://github.com/stdlib-js/stdlib/pull/6840) _(by Harsh)_
