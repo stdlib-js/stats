@@ -1838,6 +1838,7 @@ A total of 380 issues were closed in this release:
 
 <details>
 
+-   [`afe5811`](https://github.com/stdlib-js/stdlib/commit/afe581112f8ae3e6a8b3f9c304cf1ee994b7b997) - **build:** update configuration _(by Athan Reines)_
 -   [`b650a37`](https://github.com/stdlib-js/stdlib/commit/b650a37fa93c2837f1cd61d5c269e0ce88e3a4b3) - **docs:** update namespace table of contents [(#6876)](https://github.com/stdlib-js/stdlib/pull/6876) _(by stdlib-bot)_
 -   [`09ffc2c`](https://github.com/stdlib-js/stdlib/commit/09ffc2c08be90669defcaaa19a50b53a6d7473f8) - **feat:** add `stats/strided/wasm/dmeanors` [(#5832)](https://github.com/stdlib-js/stdlib/pull/5832) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`9e43626`](https://github.com/stdlib-js/stdlib/commit/9e436263a3b0cf8c54da48f9c73cc94826baa57e) - **feat:** add C implementation for `stats/base/dists/chi/mean` [(#4514)](https://github.com/stdlib-js/stdlib/pull/4514) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
