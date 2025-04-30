@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/stats/base/dists/chi/mean",
+  "name": "@stdlib/stats/strided/wasm/dmeanors",
   "version": "0.0.0",
-  "description": "Chi distribution expected value.",
+  "description": "Calculate the arithmetic mean of a double-precision floating-point strided array using ordinary recursive summation.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -14,13 +14,15 @@
     }
   ],
   "main": "./lib",
-  "gypfile": true,
+  "browser": {
+    "./lib/binary.js": "./lib/binary.browser.js"
+  },
   "directories": {
     "benchmark": "./benchmark",
     "doc": "./docs",
     "example": "./examples",
-    "include": "./include",
     "lib": "./lib",
+    "scripts": "./scripts",
     "src": "./src",
     "test": "./test"
   },
@@ -56,14 +58,25 @@
     "stdmath",
     "statistics",
     "stats",
-    "distribution",
-    "dist",
-    "mean",
+    "mathematics",
+    "math",
     "average",
     "avg",
-    "expected",
-    "chi",
-    "univariate",
-    "continuous"
-  ]
+    "mean",
+    "arithmetic mean",
+    "central tendency",
+    "ors",
+    "strided",
+    "strided array",
+    "typed",
+    "array",
+    "float64",
+    "double",
+    "float64array",
+    "webassembly",
+    "wasm"
+  ],
+  "__stdlib__": {
+    "wasm": true
+  }
 }
