@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-30)
+## Unreleased (2025-05-01)
 
 <section class="features">
 
 ### Features
 
+-   [`acbc377`](https://github.com/stdlib-js/stdlib/commit/acbc377067de86f0b986b8fdf5bebb664bc824ec) - add `stats/array/maxabs` [(#6883)](https://github.com/stdlib-js/stdlib/pull/6883)
 -   [`09ffc2c`](https://github.com/stdlib-js/stdlib/commit/09ffc2c08be90669defcaaa19a50b53a6d7473f8) - add `stats/strided/wasm/dmeanors` [(#5832)](https://github.com/stdlib-js/stdlib/pull/5832)
 -   [`9e43626`](https://github.com/stdlib-js/stdlib/commit/9e436263a3b0cf8c54da48f9c73cc94826baa57e) - add C implementation for `stats/base/dists/chi/mean` [(#4514)](https://github.com/stdlib-js/stdlib/pull/4514)
 -   [`b9213a5`](https://github.com/stdlib-js/stdlib/commit/b9213a5ab818bb8099943d79b91e0637a260f50c) - **stats:** add C implementation for `stats/base/dists/negative-binomial/mgf` [(#4771)](https://github.com/stdlib-js/stdlib/pull/4771)
@@ -1838,6 +1839,7 @@ A total of 380 issues were closed in this release:
 
 <details>
 
+-   [`acbc377`](https://github.com/stdlib-js/stdlib/commit/acbc377067de86f0b986b8fdf5bebb664bc824ec) - **feat:** add `stats/array/maxabs` [(#6883)](https://github.com/stdlib-js/stdlib/pull/6883) _(by Gururaj Gurram)_
 -   [`afe5811`](https://github.com/stdlib-js/stdlib/commit/afe581112f8ae3e6a8b3f9c304cf1ee994b7b997) - **build:** update configuration _(by Athan Reines)_
 -   [`b650a37`](https://github.com/stdlib-js/stdlib/commit/b650a37fa93c2837f1cd61d5c269e0ce88e3a4b3) - **docs:** update namespace table of contents [(#6876)](https://github.com/stdlib-js/stdlib/pull/6876) _(by stdlib-bot)_
 -   [`09ffc2c`](https://github.com/stdlib-js/stdlib/commit/09ffc2c08be90669defcaaa19a50b53a6d7473f8) - **feat:** add `stats/strided/wasm/dmeanors` [(#5832)](https://github.com/stdlib-js/stdlib/pull/5832) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
