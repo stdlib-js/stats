@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3d9063e`](https://github.com/stdlib-js/stdlib/commit/3d9063e1c739d5740cfaf15727669cba3c7c31b3) - add `stats/array/maxsorted` [(#6884)](https://github.com/stdlib-js/stdlib/pull/6884)
 -   [`acbc377`](https://github.com/stdlib-js/stdlib/commit/acbc377067de86f0b986b8fdf5bebb664bc824ec) - add `stats/array/maxabs` [(#6883)](https://github.com/stdlib-js/stdlib/pull/6883)
 -   [`09ffc2c`](https://github.com/stdlib-js/stdlib/commit/09ffc2c08be90669defcaaa19a50b53a6d7473f8) - add `stats/strided/wasm/dmeanors` [(#5832)](https://github.com/stdlib-js/stdlib/pull/5832)
 -   [`9e43626`](https://github.com/stdlib-js/stdlib/commit/9e436263a3b0cf8c54da48f9c73cc94826baa57e) - add C implementation for `stats/base/dists/chi/mean` [(#4514)](https://github.com/stdlib-js/stdlib/pull/4514)
@@ -1839,6 +1840,7 @@ A total of 381 issues were closed in this release:
 
 <details>
 
+-   [`3d9063e`](https://github.com/stdlib-js/stdlib/commit/3d9063e1c739d5740cfaf15727669cba3c7c31b3) - **feat:** add `stats/array/maxsorted` [(#6884)](https://github.com/stdlib-js/stdlib/pull/6884) _(by Gururaj Gurram, Athan Reines)_
 -   [`83bf18f`](https://github.com/stdlib-js/stdlib/commit/83bf18f82480ccae71efca244780e28f4d3a9af7) - **chore:** fix C lint errors [(#6895)](https://github.com/stdlib-js/stdlib/pull/6895) _(by zhanggy)_
 -   [`acbc377`](https://github.com/stdlib-js/stdlib/commit/acbc377067de86f0b986b8fdf5bebb664bc824ec) - **feat:** add `stats/array/maxabs` [(#6883)](https://github.com/stdlib-js/stdlib/pull/6883) _(by Gururaj Gurram)_
 -   [`afe5811`](https://github.com/stdlib-js/stdlib/commit/afe581112f8ae3e6a8b3f9c304cf1ee994b7b997) - **build:** update configuration _(by Athan Reines)_
