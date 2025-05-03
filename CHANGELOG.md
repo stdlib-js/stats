@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-02)
+## Unreleased (2025-05-03)
 
 <section class="features">
 
@@ -633,6 +633,8 @@
 
 ### Bug Fixes
 
+-   [`3d75aa0`](https://github.com/stdlib-js/stdlib/commit/3d75aa008decb8d22141b80d1b528aa5167015b3) - restrict set of allowed data types
+-   [`806644c`](https://github.com/stdlib-js/stdlib/commit/806644ce38213eafe7b7eb6e092c318e061df438) - restrict set of allowed data types
 -   [`60aea0a`](https://github.com/stdlib-js/stdlib/commit/60aea0a031600792ed138a8dafdee69ea3fdf1bf) - replace policy string with policy object
 -   [`cb86a56`](https://github.com/stdlib-js/stdlib/commit/cb86a569e143dbd29f18fe14414f4c3a06ee6320) - replace policy string with policy object
 -   [`241d973`](https://github.com/stdlib-js/stdlib/commit/241d9733f1c33c635badfb7f801125988c12b1e8) - update dispatch table
@@ -1840,6 +1842,10 @@ A total of 381 issues were closed in this release:
 
 <details>
 
+-   [`fe103d4`](https://github.com/stdlib-js/stdlib/commit/fe103d4bf958ba47417830ad7e6c5af347710baf) - **docs:** update note _(by Athan Reines)_
+-   [`229bafe`](https://github.com/stdlib-js/stdlib/commit/229bafecd7df43a89475b66c3e89e3c4a1f1871c) - **docs:** update note _(by Athan Reines)_
+-   [`3d75aa0`](https://github.com/stdlib-js/stdlib/commit/3d75aa008decb8d22141b80d1b528aa5167015b3) - **fix:** restrict set of allowed data types _(by Athan Reines)_
+-   [`806644c`](https://github.com/stdlib-js/stdlib/commit/806644ce38213eafe7b7eb6e092c318e061df438) - **fix:** restrict set of allowed data types _(by Athan Reines)_
 -   [`3d9063e`](https://github.com/stdlib-js/stdlib/commit/3d9063e1c739d5740cfaf15727669cba3c7c31b3) - **feat:** add `stats/array/maxsorted` [(#6884)](https://github.com/stdlib-js/stdlib/pull/6884) _(by Gururaj Gurram, Athan Reines)_
 -   [`83bf18f`](https://github.com/stdlib-js/stdlib/commit/83bf18f82480ccae71efca244780e28f4d3a9af7) - **chore:** fix C lint errors [(#6895)](https://github.com/stdlib-js/stdlib/pull/6895) _(by zhanggy)_
 -   [`acbc377`](https://github.com/stdlib-js/stdlib/commit/acbc377067de86f0b986b8fdf5bebb664bc824ec) - **feat:** add `stats/array/maxabs` [(#6883)](https://github.com/stdlib-js/stdlib/pull/6883) _(by Gururaj Gurram)_

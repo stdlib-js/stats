@@ -21,7 +21,7 @@
 /// <reference types="@stdlib/types"/>
 
 import { ArrayLike } from '@stdlib/types/array';
-import { DataType, typedndarray } from '@stdlib/types/ndarray';
+import { RealAndGenericDataType as DataType, typedndarray } from '@stdlib/types/ndarray';
 
 /**
 * Input array.
@@ -77,7 +77,7 @@ interface Unary {
 	* var arr = ndarray2array( y );
 	* // returns [ -1.0, 2.0, 2.0 ]
 	*/
-	<T = unknown, U = unknown>( x: InputArray<T>, options?: Options ): OutputArray<U>; // NOTE: we lose type specificity here, but retaining specificity would likely be difficult and/or tedious to completely enumerate, as the output ndarray data type is dependent on how `x` interacts with output data type policy and whether that policy has been overridden by `options.dtype`. In principle, as well, based on the policy, it is possible to know more exactly which `InputArray` types are actually allowed.
+	<T = unknown, U = unknown>( x: InputArray<T>, options?: Options ): OutputArray<U>; // NOTE: we lose type specificity here, but retaining specificity would likely be difficult and/or tedious to completely enumerate, as the output ndarray data type is dependent on how `x` interacts with output data type policy and whether that policy has been overridden by `options.dtype`.
 
 	/**
 	* Computes the cumulative maximum value along one or more ndarray dimensions and assigns results to a provided output ndarray.
