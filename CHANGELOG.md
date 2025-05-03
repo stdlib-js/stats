@@ -1845,6 +1845,7 @@ A total of 384 issues were closed in this release:
 
 <details>
 
+-   [`379390a`](https://github.com/stdlib-js/stdlib/commit/379390a688ef3f94fb7a2dfdfbfbd940bd1cb28a) - **docs:** replace manual `for` loop in examples [(#6907)](https://github.com/stdlib-js/stdlib/pull/6907) _(by Harsh)_
 -   [`9bec44a`](https://github.com/stdlib-js/stdlib/commit/9bec44a3ee202771b579b7220d4b73b8cd0791e2) - **feat:** add `stats/incr/nanmstdev` [(#6297)](https://github.com/stdlib-js/stdlib/pull/6297) _(by Hemang Choudhary, Philipp Burckhardt, stdlib-bot)_
 -   [`053722e`](https://github.com/stdlib-js/stdlib/commit/053722e28d6b086a08fc017948ae364976d9601c) - **feat(stats):** add C implementation for `stats/base/dists/chi/stdev` [(#4590)](https://github.com/stdlib-js/stdlib/pull/4590) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
 -   [`8b7ddc2`](https://github.com/stdlib-js/stdlib/commit/8b7ddc2cdc3dd40b27d7ef9f2a2a5729a4f5c3aa) - **feat(stats):** add C implementation for `stats/base/dists/chi/variance` [(#4591)](https://github.com/stdlib-js/stdlib/pull/4591) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
