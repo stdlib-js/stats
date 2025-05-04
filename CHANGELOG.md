@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-03)
+## Unreleased (2025-05-04)
 
 <section class="features">
 
@@ -1845,6 +1845,8 @@ A total of 384 issues were closed in this release:
 
 <details>
 
+-   [`8ee277b`](https://github.com/stdlib-js/stdlib/commit/8ee277b29842671eff2fc121882459da260d924a) - **docs:** update note _(by Athan Reines)_
+-   [`aa39e18`](https://github.com/stdlib-js/stdlib/commit/aa39e18609c3db192370a71a386fd27a2cf90072) - **docs:** update note _(by Athan Reines)_
 -   [`fe60f20`](https://github.com/stdlib-js/stdlib/commit/fe60f203dd58e075e075d8cc8751216b66314fc9) - **chore:** adds `opts` [(#6908)](https://github.com/stdlib-js/stdlib/pull/6908) _(by Harsh)_
 -   [`a594d58`](https://github.com/stdlib-js/stdlib/commit/a594d58d530900e5f90dab88494520c09f01ee35) - **chore:** adds `opts` [(#6909)](https://github.com/stdlib-js/stdlib/pull/6909) _(by Harsh)_
 -   [`e991da9`](https://github.com/stdlib-js/stdlib/commit/e991da93b36805cf0705e9a9625f06b9c2e44173) - **docs:** replace manual `for` loop in examples [(#6906)](https://github.com/stdlib-js/stdlib/pull/6906) _(by Harsh)_
