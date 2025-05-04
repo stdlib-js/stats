@@ -1845,6 +1845,8 @@ A total of 384 issues were closed in this release:
 
 <details>
 
+-   [`4b02cea`](https://github.com/stdlib-js/stdlib/commit/4b02cea59989ba8e55f8afdf33bcd10352de344a) - **docs:** update examples _(by Athan Reines)_
+-   [`38a86ef`](https://github.com/stdlib-js/stdlib/commit/38a86ef2b647f7c71259657ce2459a6fbac62da5) - **docs:** update examples _(by Athan Reines)_
 -   [`8ee277b`](https://github.com/stdlib-js/stdlib/commit/8ee277b29842671eff2fc121882459da260d924a) - **docs:** update note _(by Athan Reines)_
 -   [`aa39e18`](https://github.com/stdlib-js/stdlib/commit/aa39e18609c3db192370a71a386fd27a2cf90072) - **docs:** update note _(by Athan Reines)_
 -   [`fe60f20`](https://github.com/stdlib-js/stdlib/commit/fe60f203dd58e075e075d8cc8751216b66314fc9) - **chore:** adds `opts` [(#6908)](https://github.com/stdlib-js/stdlib/pull/6908) _(by Harsh)_

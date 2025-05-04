@@ -70,10 +70,9 @@ interface Unary {
 	* @returns output ndarray
 	*
 	* @example
-	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var array = require( '@stdlib/ndarray/array' );
 	*
-	* var xbuf = [ -1.0, 2.0, -3.0 ];
-	* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
+	* var x = array( [ -1.0, 2.0, -3.0 ] );
 	*
 	* var y = max( x );
 	* // returns <ndarray>
@@ -92,13 +91,11 @@ interface Unary {
 	* @returns output ndarray
 	*
 	* @example
-	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var array = require( '@stdlib/ndarray/array' );
+	* var zeros = require( '@stdlib/ndarray/zeros' );
 	*
-	* var xbuf = [ -1.0, 2.0, -3.0 ];
-	* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
-	*
-	* var ybuf = [ 0.0 ];
-	* var y = new ndarray( 'generic', ybuf, [], [ 0 ], 0, 'row-major' );
+	* var x = array( [ -1.0, 2.0, -3.0 ] );
+	* var y = zeros( [] );
 	*
 	* var out = max.assign( x, y );
 	* // returns <ndarray>
@@ -120,10 +117,9 @@ interface Unary {
 * @returns output ndarray
 *
 * @example
-* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+* var array = require( '@stdlib/ndarray/array' );
 *
-* var xbuf = [ -1.0, 2.0, -3.0 ];
-* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
+* var x = array( [ -1.0, 2.0, -3.0 ] )
 *
 * var y = max( x );
 * // returns <ndarray>
@@ -132,13 +128,11 @@ interface Unary {
 * // returns 2.0
 *
 * @example
-* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+* var array = require( '@stdlib/ndarray/array' );
+* var zeros = require( '@stdlib/ndarray/zeros' );
 *
-* var xbuf = [ -1.0, 2.0, -3.0 ];
-* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
-*
-* var ybuf = [ 0.0 ];
-* var y = new ndarray( 'generic', ybuf, [], [ 0 ], 0, 'row-major' );
+* var x = array( [ -1.0, 2.0, -3.0 ] )
+* var y = zeros( [] );
 *
 * var out = max.assign( x, y );
 * // returns <ndarray>
