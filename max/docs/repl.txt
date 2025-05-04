@@ -29,7 +29,7 @@
 
     Examples
     --------
-    > var x = new {{alias:@stdlib/ndarray/array}}( [ -1.0, 2.0, -3.0, -4.0 ] );
+    > var x = {{alias:@stdlib/ndarray/array}}( [ -1.0, 2.0, -3.0, -4.0 ] );
     > var y = {{alias}}( x );
     > var v = y.get()
     2.0
@@ -62,7 +62,7 @@
 
     Examples
     --------
-    > var x = new {{alias:@stdlib/ndarray/array}}( [ -1.0, 2.0, -3.0, -4.0 ] );
+    > var x = {{alias:@stdlib/ndarray/array}}( [ -1.0, 2.0, -3.0, -4.0 ] );
     > var out = {{alias:@stdlib/ndarray/zeros}}( [] );
     > var y = {{alias}}.assign( x, out )
     <ndarray>

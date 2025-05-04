@@ -210,7 +210,7 @@ The method accepts the following options:
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dtype = require( '@stdlib/ndarray/dtype' );
+var getDType = require( '@stdlib/ndarray/dtype' );
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
 var ndarray = require( '@stdlib/ndarray/ctor' );
 var max = require( '@stdlib/stats/max' );
@@ -230,7 +230,7 @@ var y = max( x, {
 });
 
 // Resolve the output array data type:
-var dt = dtype( y );
+var dt = getDType( y );
 console.log( dt );
 
 // Print the results:
