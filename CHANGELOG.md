@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`39a5bf0`](https://github.com/stdlib-js/stdlib/commit/39a5bf0e63a29726ffecfa8b4a621d90b95733b7) - add `stats/array/minabs` [(#6910)](https://github.com/stdlib-js/stdlib/pull/6910)
 -   [`3aca89e`](https://github.com/stdlib-js/stdlib/commit/3aca89ef723e8ee7ebf35c4fd086d2afab87f216) - add C implementation for `stats/base/dists/lognormal/stdev` [(#4175)](https://github.com/stdlib-js/stdlib/pull/4175)
 -   [`906dd22`](https://github.com/stdlib-js/stdlib/commit/906dd228b00d5ed2ecde624a16f62b8e8aed7878) - add C implementation for `stats/base/dists/frechet/median` [(#4569)](https://github.com/stdlib-js/stdlib/pull/4569)
 -   [`1920374`](https://github.com/stdlib-js/stdlib/commit/192037470033f100dfa9ac717733d32ad67f8ead) - add C implementation for `stats/base/dists/frechet/mode` [(#4571)](https://github.com/stdlib-js/stdlib/pull/4571)
@@ -1849,6 +1850,7 @@ A total of 389 issues were closed in this release:
 
 <details>
 
+-   [`39a5bf0`](https://github.com/stdlib-js/stdlib/commit/39a5bf0e63a29726ffecfa8b4a621d90b95733b7) - **feat:** add `stats/array/minabs` [(#6910)](https://github.com/stdlib-js/stdlib/pull/6910) _(by Gururaj Gurram)_
 -   [`3aca89e`](https://github.com/stdlib-js/stdlib/commit/3aca89ef723e8ee7ebf35c4fd086d2afab87f216) - **feat:** add C implementation for `stats/base/dists/lognormal/stdev` [(#4175)](https://github.com/stdlib-js/stdlib/pull/4175) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`906dd22`](https://github.com/stdlib-js/stdlib/commit/906dd228b00d5ed2ecde624a16f62b8e8aed7878) - **feat:** add C implementation for `stats/base/dists/frechet/median` [(#4569)](https://github.com/stdlib-js/stdlib/pull/4569) _(by Manvith M, Philipp Burckhardt)_
 -   [`1920374`](https://github.com/stdlib-js/stdlib/commit/192037470033f100dfa9ac717733d32ad67f8ead) - **feat:** add C implementation for `stats/base/dists/frechet/mode` [(#4571)](https://github.com/stdlib-js/stdlib/pull/4571) _(by Manvith M, Philipp Burckhardt)_
