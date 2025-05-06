@@ -178,7 +178,7 @@ for ( i = 0; i < 10; i++ ) {
 Returns the mode for a Fréchet distribution with shape `alpha`, scale `s`, and location `m`.
 
 ```c
-double y = stdlib_base_frechet_mode( 5.0, 2.0, 0.0 );
+double y = stdlib_base_dists_frechet_mode( 5.0, 2.0, 0.0 );
 // returns ~1.928
 ```
 

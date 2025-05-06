@@ -173,12 +173,12 @@ for ( i = 0; i < 10; i++ ) {
 #include "stdlib/stats/base/dists/frechet/median.h"
 ```
 
-#### sstdlib_base_dists_frechet_median( alpha, s, m )
+#### stdlib_base_dists_frechet_median( alpha, s, m )
 
 Returns the median for a Fréchet distribution with shape `alpha`, scale `s`, and location `m`.
 
 ```c
-double y = stdlib_base_frechet_median( 5.0, 2.0, 0.0 );
+double y = stdlib_base_dists_frechet_median( 5.0, 2.0, 0.0 );
 // returns ~2.152
 ```
 

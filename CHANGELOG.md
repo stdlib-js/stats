@@ -1857,6 +1857,7 @@ A total of 397 issues were closed in this release:
 
 <details>
 
+-   [`f9ec3b6`](https://github.com/stdlib-js/stdlib/commit/f9ec3b6e86ad6c9feeb95cb6ed1a356af7f452b9) - **docs:** fix function names _(by Philipp Burckhardt)_
 -   [`8c463ff`](https://github.com/stdlib-js/stdlib/commit/8c463ff85300e86d6a782511d1defea793994da5) - **style:** fix indentation in C files _(by Philipp Burckhardt)_
 -   [`61209d2`](https://github.com/stdlib-js/stdlib/commit/61209d2c59f42dbb393631d682442b7034f8b8af) - **feat:** add C implementation for `stats/base/dists/lognormal/mode` [(#4148)](https://github.com/stdlib-js/stdlib/pull/4148) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`67246dd`](https://github.com/stdlib-js/stdlib/commit/67246dde7d3974070403ce5e685143614534795a) - **feat:** add C implementation for `stats/base/dists/lognormal/mean` [(#4146)](https://github.com/stdlib-js/stdlib/pull/4146) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
