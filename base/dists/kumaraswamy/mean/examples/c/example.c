@@ -29,12 +29,12 @@ int main( void ) {
 	double mean;
 	double a;
 	double b;
-    int i;
+	int i;
 
 	for ( i = 0; i < 10; i++ ) {
 		a = random_uniform( 0.0, 10.0 );
-        b = random_uniform( 0.0, 10.0 );
-        mean = stdlib_base_dists_kumaraswamy_mean( a, b );
+		b = random_uniform( 0.0, 10.0 );
+		mean = stdlib_base_dists_kumaraswamy_mean( a, b );
 		printf( "a: %.4f, b: %.4f, E(X;a,b): %.4f\n", a, b, mean );
 	}
 }

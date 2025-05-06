@@ -23,8 +23,8 @@
 /**
 * Returns the expected value of a Kumaraswamy's double bounded distribution.
 *
-* @param a  first shape parameter 
-* @param b  second shape parameter 
+* @param a  first shape parameter
+* @param b  second shape parameter
 * @return   expected value
 *
 * @example
@@ -36,7 +36,7 @@ double stdlib_base_dists_kumaraswamy_mean( const double a, const double b ) {
 		stdlib_base_is_nan( a ) ||
 		stdlib_base_is_nan( b ) ||
 		a <= 0.0 ||
-        b <= 0.0
+		b <= 0.0
 	) {
 		return 0.0/0.0; // NaN
 	}
