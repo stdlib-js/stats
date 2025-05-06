@@ -1860,6 +1860,7 @@ A total of 400 issues were closed in this release:
 
 <details>
 
+-   [`d345bbe`](https://github.com/stdlib-js/stdlib/commit/d345bbe1bd7fed4c12c0b64bef1e70f94ebad746) - **chore:** minor clean-up and add missing license headers _(by Philipp Burckhardt)_
 -   [`47d4dfa`](https://github.com/stdlib-js/stdlib/commit/47d4dfa8f8fbbb256aaeca77dfe522cae618ea47) - **feat:** add C implementation for `stats/base/dists/lognormal/entropy` [(#4178)](https://github.com/stdlib-js/stdlib/pull/4178) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`736fe31`](https://github.com/stdlib-js/stdlib/commit/736fe3118504faef9a2b6ac064debe426c8f9a24) - **feat:** add C implementation for `stats/base/dists/lognormal/skewness` [(#4166)](https://github.com/stdlib-js/stdlib/pull/4166) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`6ee07a4`](https://github.com/stdlib-js/stdlib/commit/6ee07a45b9f2a482a005bb8f2fdb8c72c6864ea2) - **feat:** add C implementation for `stats/base/dists/lognormal/median` [(#4147)](https://github.com/stdlib-js/stdlib/pull/4147) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
