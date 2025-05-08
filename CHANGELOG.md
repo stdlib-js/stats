@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3c04537`](https://github.com/stdlib-js/stdlib/commit/3c045376b0079bd51c2a60ff690ab25f5c178d1a) - add add C ndarray interface and refactor implementation for `stats/base/sstdev` [(#6930)](https://github.com/stdlib-js/stdlib/pull/6930)
 -   [`e9b6d47`](https://github.com/stdlib-js/stdlib/commit/e9b6d47ac953663cc012367851e342677ab2d375) - add `stats/array/minsorted` [(#6940)](https://github.com/stdlib-js/stdlib/pull/6940)
 -   [`47d4dfa`](https://github.com/stdlib-js/stdlib/commit/47d4dfa8f8fbbb256aaeca77dfe522cae618ea47) - add C implementation for `stats/base/dists/lognormal/entropy` [(#4178)](https://github.com/stdlib-js/stdlib/pull/4178)
 -   [`736fe31`](https://github.com/stdlib-js/stdlib/commit/736fe3118504faef9a2b6ac064debe426c8f9a24) - add C implementation for `stats/base/dists/lognormal/skewness` [(#4166)](https://github.com/stdlib-js/stdlib/pull/4166)
@@ -1861,6 +1862,7 @@ A total of 401 issues were closed in this release:
 
 <details>
 
+-   [`3c04537`](https://github.com/stdlib-js/stdlib/commit/3c045376b0079bd51c2a60ff690ab25f5c178d1a) - **feat:** add add C ndarray interface and refactor implementation for `stats/base/sstdev` [(#6930)](https://github.com/stdlib-js/stdlib/pull/6930) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`e9b6d47`](https://github.com/stdlib-js/stdlib/commit/e9b6d47ac953663cc012367851e342677ab2d375) - **feat:** add `stats/array/minsorted` [(#6940)](https://github.com/stdlib-js/stdlib/pull/6940) _(by Gururaj Gurram)_
 -   [`c207ec0`](https://github.com/stdlib-js/stdlib/commit/c207ec04c36c99e70363baef8ecef6baba10a198) - **chore:** fix C lint errors [(#6938)](https://github.com/stdlib-js/stdlib/pull/6938) _(by zhanggy)_
 -   [`6af184d`](https://github.com/stdlib-js/stdlib/commit/6af184d8a8ed89c7be0fe08dd5d87125b60c5e01) - **bench:** update random value generation [(#6953)](https://github.com/stdlib-js/stdlib/pull/6953) _(by Harsh)_
