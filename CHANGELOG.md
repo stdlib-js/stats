@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e9b6d47`](https://github.com/stdlib-js/stdlib/commit/e9b6d47ac953663cc012367851e342677ab2d375) - add `stats/array/minsorted` [(#6940)](https://github.com/stdlib-js/stdlib/pull/6940)
 -   [`47d4dfa`](https://github.com/stdlib-js/stdlib/commit/47d4dfa8f8fbbb256aaeca77dfe522cae618ea47) - add C implementation for `stats/base/dists/lognormal/entropy` [(#4178)](https://github.com/stdlib-js/stdlib/pull/4178)
 -   [`736fe31`](https://github.com/stdlib-js/stdlib/commit/736fe3118504faef9a2b6ac064debe426c8f9a24) - add C implementation for `stats/base/dists/lognormal/skewness` [(#4166)](https://github.com/stdlib-js/stdlib/pull/4166)
 -   [`6ee07a4`](https://github.com/stdlib-js/stdlib/commit/6ee07a45b9f2a482a005bb8f2fdb8c72c6864ea2) - add C implementation for `stats/base/dists/lognormal/median` [(#4147)](https://github.com/stdlib-js/stdlib/pull/4147)
@@ -1860,6 +1861,7 @@ A total of 401 issues were closed in this release:
 
 <details>
 
+-   [`e9b6d47`](https://github.com/stdlib-js/stdlib/commit/e9b6d47ac953663cc012367851e342677ab2d375) - **feat:** add `stats/array/minsorted` [(#6940)](https://github.com/stdlib-js/stdlib/pull/6940) _(by Gururaj Gurram)_
 -   [`c207ec0`](https://github.com/stdlib-js/stdlib/commit/c207ec04c36c99e70363baef8ecef6baba10a198) - **chore:** fix C lint errors [(#6938)](https://github.com/stdlib-js/stdlib/pull/6938) _(by zhanggy)_
 -   [`6af184d`](https://github.com/stdlib-js/stdlib/commit/6af184d8a8ed89c7be0fe08dd5d87125b60c5e01) - **bench:** update random value generation [(#6953)](https://github.com/stdlib-js/stdlib/pull/6953) _(by Harsh)_
 -   [`f025bc3`](https://github.com/stdlib-js/stdlib/commit/f025bc39e4761a1c7dee8bf781581b75868b3a89) - **bench:** update random value generation [(#6954)](https://github.com/stdlib-js/stdlib/pull/6954) _(by Harsh)_
