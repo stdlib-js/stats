@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-06)
+## Unreleased (2025-05-08)
 
 <section class="features">
 
@@ -1860,6 +1860,7 @@ A total of 400 issues were closed in this release:
 
 <details>
 
+-   [`f025bc3`](https://github.com/stdlib-js/stdlib/commit/f025bc39e4761a1c7dee8bf781581b75868b3a89) - **bench:** update random value generation [(#6954)](https://github.com/stdlib-js/stdlib/pull/6954) _(by Harsh)_
 -   [`d345bbe`](https://github.com/stdlib-js/stdlib/commit/d345bbe1bd7fed4c12c0b64bef1e70f94ebad746) - **chore:** minor clean-up and add missing license headers _(by Philipp Burckhardt)_
 -   [`47d4dfa`](https://github.com/stdlib-js/stdlib/commit/47d4dfa8f8fbbb256aaeca77dfe522cae618ea47) - **feat:** add C implementation for `stats/base/dists/lognormal/entropy` [(#4178)](https://github.com/stdlib-js/stdlib/pull/4178) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`736fe31`](https://github.com/stdlib-js/stdlib/commit/736fe3118504faef9a2b6ac064debe426c8f9a24) - **feat:** add C implementation for `stats/base/dists/lognormal/skewness` [(#4166)](https://github.com/stdlib-js/stdlib/pull/4166) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
