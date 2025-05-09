@@ -1863,6 +1863,7 @@ A total of 402 issues were closed in this release:
 
 <details>
 
+-   [`d58a13d`](https://github.com/stdlib-js/stdlib/commit/d58a13d0dfec2e78d984eace1a1171d4bfec00ce) - **docs:** update namespace table of contents [(#6961)](https://github.com/stdlib-js/stdlib/pull/6961) _(by stdlib-bot)_
 -   [`9231d48`](https://github.com/stdlib-js/stdlib/commit/9231d48ada17d2ee3208b8de3e13d94b39794ffd) - **feat:** add C implementation for `stats/base/dists/negative-binomial/mode` [(#4104)](https://github.com/stdlib-js/stdlib/pull/4104) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`3c04537`](https://github.com/stdlib-js/stdlib/commit/3c045376b0079bd51c2a60ff690ab25f5c178d1a) - **feat:** add add C ndarray interface and refactor implementation for `stats/base/sstdev` [(#6930)](https://github.com/stdlib-js/stdlib/pull/6930) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`e9b6d47`](https://github.com/stdlib-js/stdlib/commit/e9b6d47ac953663cc012367851e342677ab2d375) - **feat:** add `stats/array/minsorted` [(#6940)](https://github.com/stdlib-js/stdlib/pull/6940) _(by Gururaj Gurram)_
