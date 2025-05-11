@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`be17e93`](https://github.com/stdlib-js/stdlib/commit/be17e93e426e1700d0cd3ad16a939fb4e7257a73) - add `stats/array/mean` [(#6982)](https://github.com/stdlib-js/stdlib/pull/6982)
 -   [`abf915b`](https://github.com/stdlib-js/stdlib/commit/abf915b04d2dfeb22216adbc64a043f7d35721c5) - add support for accessor arrays and refactor `stats/base/nanmin` [(#6973)](https://github.com/stdlib-js/stdlib/pull/6973)
 -   [`cee6330`](https://github.com/stdlib-js/stdlib/commit/cee6330690f51588e8fc2796f1f928d33d14d9b9) - add C implementation for `stats/base/dists/poisson/skewness` [(#4023)](https://github.com/stdlib-js/stdlib/pull/4023)
 -   [`36a00f3`](https://github.com/stdlib-js/stdlib/commit/36a00f394a0692b67b9556122978f26b8103452a) - add C implementation for `stats/base/dists/poisson/mode` [(#4019)](https://github.com/stdlib-js/stdlib/pull/4019)
@@ -1872,6 +1873,7 @@ A total of 409 issues were closed in this release:
 
 <details>
 
+-   [`be17e93`](https://github.com/stdlib-js/stdlib/commit/be17e93e426e1700d0cd3ad16a939fb4e7257a73) - **feat:** add `stats/array/mean` [(#6982)](https://github.com/stdlib-js/stdlib/pull/6982) _(by Gururaj Gurram, Athan Reines)_
 -   [`abf915b`](https://github.com/stdlib-js/stdlib/commit/abf915b04d2dfeb22216adbc64a043f7d35721c5) - **feat:** add support for accessor arrays and refactor `stats/base/nanmin` [(#6973)](https://github.com/stdlib-js/stdlib/pull/6973) _(by Gururaj Gurram, Athan Reines)_
 -   [`4a3bf82`](https://github.com/stdlib-js/stdlib/commit/4a3bf8265853f28773195386bbcb16026015d2fd) - **docs:** remove empty line [(#6979)](https://github.com/stdlib-js/stdlib/pull/6979) _(by stdlib-bot)_
 -   [`cee6330`](https://github.com/stdlib-js/stdlib/commit/cee6330690f51588e8fc2796f1f928d33d14d9b9) - **feat:** add C implementation for `stats/base/dists/poisson/skewness` [(#4023)](https://github.com/stdlib-js/stdlib/pull/4023) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
