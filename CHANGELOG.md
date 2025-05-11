@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-10)
+## Unreleased (2025-05-11)
 
 <section class="features">
 
@@ -1871,6 +1871,7 @@ A total of 409 issues were closed in this release:
 
 <details>
 
+-   [`4a3bf82`](https://github.com/stdlib-js/stdlib/commit/4a3bf8265853f28773195386bbcb16026015d2fd) - **docs:** remove empty line [(#6979)](https://github.com/stdlib-js/stdlib/pull/6979) _(by stdlib-bot)_
 -   [`cee6330`](https://github.com/stdlib-js/stdlib/commit/cee6330690f51588e8fc2796f1f928d33d14d9b9) - **feat:** add C implementation for `stats/base/dists/poisson/skewness` [(#4023)](https://github.com/stdlib-js/stdlib/pull/4023) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`36a00f3`](https://github.com/stdlib-js/stdlib/commit/36a00f394a0692b67b9556122978f26b8103452a) - **feat:** add C implementation for `stats/base/dists/poisson/mode` [(#4019)](https://github.com/stdlib-js/stdlib/pull/4019) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`148690b`](https://github.com/stdlib-js/stdlib/commit/148690b302254093c019af521bd2d4011512d9ca) - **feat:** add C implementation for `stats/base/dists/normal/median` [(#3995)](https://github.com/stdlib-js/stdlib/pull/3995) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
