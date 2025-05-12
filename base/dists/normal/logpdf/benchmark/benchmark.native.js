@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,17 +20,27 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
-var uniform = require( '@stdlib/random/array/uniform' );
+var Float64Array = require( '@stdlib/array/float64' );
+var uniform = require( '@stdlib/random/base/uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var pkg = require( './../package.json' ).name;
-var logpdf = require( './../lib' );
+
+
+// VARIABLES //
+
+var logpdf = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( logpdf instanceof Error )
+};
 
 
 // MAIN //
 
-bench( pkg, function benchmark( b ) {
+bench( pkg, opts, function benchmark( b ) {
 	var sigma;
 	var len;
 	var mu;
@@ -39,41 +49,18 @@ bench( pkg, function benchmark( b ) {
 	var i;
 
 	len = 100;
-	x = uniform( len, -100.0, 100.0 );
-	mu = uniform( len, -50.0, 50.0 );
-	sigma = uniform( len, EPS, 20.0 );
+	x = new Float64Array( len );
+	mu = new Float64Array( len );
+	sigma = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		x[ i ] = uniform( -100.0, 100.0 );
+		mu[ i ] = uniform( -50.0, 50.0 );
+		sigma[ i ] = uniform( EPS, 20.0 );
+	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = logpdf( x[ i % len ], mu[ i % len ], sigma[ i % len ] );
-		if ( isnan( y ) ) {
-			b.fail( 'should not return NaN' );
-		}
-	}
-	b.toc();
-	if ( isnan( y ) ) {
-		b.fail( 'should not return NaN' );
-	}
-	b.pass( 'benchmark finished' );
-	b.end();
-});
-
-bench( pkg+':factory', function benchmark( b ) {
-	var mylogpdf;
-	var sigma;
-	var mu;
-	var x;
-	var y;
-	var i;
-
-	mu = 0.0;
-	sigma = 1.5;
-	mylogpdf = logpdf.factory( mu, sigma );
-	x = uniform( 100, -3.0, 3.0 );
-
-	b.tic();
-	for ( i = 0; i < b.iterations; i++ ) {
-		y = mylogpdf( x[ i % x.length ] );
+		y = logpdf( x[ i % len ], mu[ i % len ], sigma[ i % len ]);
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
