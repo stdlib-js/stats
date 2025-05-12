@@ -1877,6 +1877,7 @@ A total of 412 issues were closed in this release:
 
 <details>
 
+-   [`09c158e`](https://github.com/stdlib-js/stdlib/commit/09c158e65824e081b5abef0454122e6c63a05586) - **docs:** update namespace table of contents [(#6987)](https://github.com/stdlib-js/stdlib/pull/6987) _(by stdlib-bot)_
 -   [`8557c81`](https://github.com/stdlib-js/stdlib/commit/8557c813e952be8e7e6c4b4360b39373a3ac0dd7) - **feat:** add C implementation for `stats/base/dists/normal/logpdf` [(#3991)](https://github.com/stdlib-js/stdlib/pull/3991) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`b43bc56`](https://github.com/stdlib-js/stdlib/commit/b43bc562848506686a543faf3952c93dc8dfb6a4) - **feat:** add C implementation for `stats/base/dists/negative-binomial/stdev` [(#4106)](https://github.com/stdlib-js/stdlib/pull/4106) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`5e44099`](https://github.com/stdlib-js/stdlib/commit/5e44099fdb881915f888ee279bfc87f3b8bd1c49) - **feat:** add C implementation for `stats/base/dists/frechet/entropy` [(#4597)](https://github.com/stdlib-js/stdlib/pull/4597) _(by Manvith M, Philipp Burckhardt)_
