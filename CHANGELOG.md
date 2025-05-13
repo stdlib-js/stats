@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`cb3fa68`](https://github.com/stdlib-js/stdlib/commit/cb3fa68c5fad6c21471d7da1f78825f35f8ce41e) - add `stats/array/nanmin` [(#6971)](https://github.com/stdlib-js/stdlib/pull/6971)
 -   [`18f3021`](https://github.com/stdlib-js/stdlib/commit/18f30213289be76f6b493139aa4634a990fd5fb5) - add `stats/array/mskrange` [(#6990)](https://github.com/stdlib-js/stdlib/pull/6990)
 -   [`8557c81`](https://github.com/stdlib-js/stdlib/commit/8557c813e952be8e7e6c4b4360b39373a3ac0dd7) - add C implementation for `stats/base/dists/normal/logpdf` [(#3991)](https://github.com/stdlib-js/stdlib/pull/3991)
 -   [`b43bc56`](https://github.com/stdlib-js/stdlib/commit/b43bc562848506686a543faf3952c93dc8dfb6a4) - add C implementation for `stats/base/dists/negative-binomial/stdev` [(#4106)](https://github.com/stdlib-js/stdlib/pull/4106)
@@ -1878,6 +1879,7 @@ A total of 412 issues were closed in this release:
 
 <details>
 
+-   [`cb3fa68`](https://github.com/stdlib-js/stdlib/commit/cb3fa68c5fad6c21471d7da1f78825f35f8ce41e) - **feat:** add `stats/array/nanmin` [(#6971)](https://github.com/stdlib-js/stdlib/pull/6971) _(by Gururaj Gurram, stdlib-bot)_
 -   [`18f3021`](https://github.com/stdlib-js/stdlib/commit/18f30213289be76f6b493139aa4634a990fd5fb5) - **feat:** add `stats/array/mskrange` [(#6990)](https://github.com/stdlib-js/stdlib/pull/6990) _(by Gururaj Gurram)_
 -   [`09c158e`](https://github.com/stdlib-js/stdlib/commit/09c158e65824e081b5abef0454122e6c63a05586) - **docs:** update namespace table of contents [(#6987)](https://github.com/stdlib-js/stdlib/pull/6987) _(by stdlib-bot)_
 -   [`8557c81`](https://github.com/stdlib-js/stdlib/commit/8557c813e952be8e7e6c4b4360b39373a3ac0dd7) - **feat:** add C implementation for `stats/base/dists/normal/logpdf` [(#3991)](https://github.com/stdlib-js/stdlib/pull/3991) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
