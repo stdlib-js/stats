@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-12)
+## Unreleased (2025-05-13)
 
 <section class="features">
 
 ### Features
 
+-   [`18f3021`](https://github.com/stdlib-js/stdlib/commit/18f30213289be76f6b493139aa4634a990fd5fb5) - add `stats/array/mskrange` [(#6990)](https://github.com/stdlib-js/stdlib/pull/6990)
 -   [`8557c81`](https://github.com/stdlib-js/stdlib/commit/8557c813e952be8e7e6c4b4360b39373a3ac0dd7) - add C implementation for `stats/base/dists/normal/logpdf` [(#3991)](https://github.com/stdlib-js/stdlib/pull/3991)
 -   [`b43bc56`](https://github.com/stdlib-js/stdlib/commit/b43bc562848506686a543faf3952c93dc8dfb6a4) - add C implementation for `stats/base/dists/negative-binomial/stdev` [(#4106)](https://github.com/stdlib-js/stdlib/pull/4106)
 -   [`5e44099`](https://github.com/stdlib-js/stdlib/commit/5e44099fdb881915f888ee279bfc87f3b8bd1c49) - add C implementation for `stats/base/dists/frechet/entropy` [(#4597)](https://github.com/stdlib-js/stdlib/pull/4597)
@@ -1877,6 +1878,7 @@ A total of 412 issues were closed in this release:
 
 <details>
 
+-   [`18f3021`](https://github.com/stdlib-js/stdlib/commit/18f30213289be76f6b493139aa4634a990fd5fb5) - **feat:** add `stats/array/mskrange` [(#6990)](https://github.com/stdlib-js/stdlib/pull/6990) _(by Gururaj Gurram)_
 -   [`09c158e`](https://github.com/stdlib-js/stdlib/commit/09c158e65824e081b5abef0454122e6c63a05586) - **docs:** update namespace table of contents [(#6987)](https://github.com/stdlib-js/stdlib/pull/6987) _(by stdlib-bot)_
 -   [`8557c81`](https://github.com/stdlib-js/stdlib/commit/8557c813e952be8e7e6c4b4360b39373a3ac0dd7) - **feat:** add C implementation for `stats/base/dists/normal/logpdf` [(#3991)](https://github.com/stdlib-js/stdlib/pull/3991) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`b43bc56`](https://github.com/stdlib-js/stdlib/commit/b43bc562848506686a543faf3952c93dc8dfb6a4) - **feat:** add C implementation for `stats/base/dists/negative-binomial/stdev` [(#4106)](https://github.com/stdlib-js/stdlib/pull/4106) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
