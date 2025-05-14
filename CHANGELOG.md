@@ -1881,6 +1881,7 @@ A total of 413 issues were closed in this release:
 
 <details>
 
+-   [`fd578c4`](https://github.com/stdlib-js/stdlib/commit/fd578c493f1860b3b65c250139a465f1cdd00528) - **test:** fix missing `opts` argument _(by Athan Reines)_
 -   [`bdf9a93`](https://github.com/stdlib-js/stdlib/commit/bdf9a9377e6412ba4e2d24f7619d88e344d62b54) - **fix:** add missing dep, update description, and revert test changes _(by Athan Reines)_
 -   [`c38ee71`](https://github.com/stdlib-js/stdlib/commit/c38ee71d49e745de331e6bce1a78493676f962b4) - **feat:** add C implementation of `stats/base/dists/poisson/logpmf` [(#5194)](https://github.com/stdlib-js/stdlib/pull/5194) _(by Saurabh Singh, Philipp Burckhardt)_
 -   [`cb3fa68`](https://github.com/stdlib-js/stdlib/commit/cb3fa68c5fad6c21471d7da1f78825f35f8ce41e) - **feat:** add `stats/array/nanmin` [(#6971)](https://github.com/stdlib-js/stdlib/pull/6971) _(by Gururaj Gurram, stdlib-bot)_
