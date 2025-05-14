@@ -1881,6 +1881,9 @@ A total of 413 issues were closed in this release:
 
 <details>
 
+-   [`bde1562`](https://github.com/stdlib-js/stdlib/commit/bde156258f0e182fa6cf50f9bdd907ba8593dbf0) - **chore:** clean-up _(by Athan Reines)_
+-   [`eb555e4`](https://github.com/stdlib-js/stdlib/commit/eb555e4097f20ab99054945e55b44a9f795f0cf7) - **chore:** clean-up _(by Athan Reines)_
+-   [`c4ed64c`](https://github.com/stdlib-js/stdlib/commit/c4ed64c4024bd667104234ce5775d1e2ce7faecd) - **chore:** clean-up _(by Athan Reines)_
 -   [`fd578c4`](https://github.com/stdlib-js/stdlib/commit/fd578c493f1860b3b65c250139a465f1cdd00528) - **test:** fix missing `opts` argument _(by Athan Reines)_
 -   [`bdf9a93`](https://github.com/stdlib-js/stdlib/commit/bdf9a9377e6412ba4e2d24f7619d88e344d62b54) - **fix:** add missing dep, update description, and revert test changes _(by Athan Reines)_
 -   [`c38ee71`](https://github.com/stdlib-js/stdlib/commit/c38ee71d49e745de331e6bce1a78493676f962b4) - **feat:** add C implementation of `stats/base/dists/poisson/logpmf` [(#5194)](https://github.com/stdlib-js/stdlib/pull/5194) _(by Saurabh Singh, Philipp Burckhardt)_
