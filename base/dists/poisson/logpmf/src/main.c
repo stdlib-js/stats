@@ -25,7 +25,7 @@
 #include "stdlib/constants/float64/pinf.h"
 
 /**
-* Evaluates the quantile function for a Poisson distribution with mean parameter `lambda` at a probability `p`.
+* Evaluates the natural logarithm of the probability mass function (PMF) for a Poisson distribution with mean parameter `lambda` at a value `x`.
 *
 * @param x        input value
 * @param lambda   mean parameter

@@ -671,6 +671,7 @@
 
 ### Bug Fixes
 
+-   [`bdf9a93`](https://github.com/stdlib-js/stdlib/commit/bdf9a9377e6412ba4e2d24f7619d88e344d62b54) - add missing dep, update description, and revert test changes
 -   [`3d75aa0`](https://github.com/stdlib-js/stdlib/commit/3d75aa008decb8d22141b80d1b528aa5167015b3) - restrict set of allowed data types
 -   [`806644c`](https://github.com/stdlib-js/stdlib/commit/806644ce38213eafe7b7eb6e092c318e061df438) - restrict set of allowed data types
 -   [`60aea0a`](https://github.com/stdlib-js/stdlib/commit/60aea0a031600792ed138a8dafdee69ea3fdf1bf) - replace policy string with policy object
@@ -1880,6 +1881,7 @@ A total of 413 issues were closed in this release:
 
 <details>
 
+-   [`bdf9a93`](https://github.com/stdlib-js/stdlib/commit/bdf9a9377e6412ba4e2d24f7619d88e344d62b54) - **fix:** add missing dep, update description, and revert test changes _(by Athan Reines)_
 -   [`c38ee71`](https://github.com/stdlib-js/stdlib/commit/c38ee71d49e745de331e6bce1a78493676f962b4) - **feat:** add C implementation of `stats/base/dists/poisson/logpmf` [(#5194)](https://github.com/stdlib-js/stdlib/pull/5194) _(by Saurabh Singh, Philipp Burckhardt)_
 -   [`cb3fa68`](https://github.com/stdlib-js/stdlib/commit/cb3fa68c5fad6c21471d7da1f78825f35f8ce41e) - **feat:** add `stats/array/nanmin` [(#6971)](https://github.com/stdlib-js/stdlib/pull/6971) _(by Gururaj Gurram, stdlib-bot)_
 -   [`18f3021`](https://github.com/stdlib-js/stdlib/commit/18f30213289be76f6b493139aa4634a990fd5fb5) - **feat:** add `stats/array/mskrange` [(#6990)](https://github.com/stdlib-js/stdlib/pull/6990) _(by Gururaj Gurram)_

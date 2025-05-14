@@ -137,9 +137,13 @@ tape( 'the function evaluates the logpmf for `x` given a small parameter `lambda
 	lambda = smallMean.lambda;
 	for ( i = 0; i < x.length; i++ ) {
 		y = logpmf( x[i], lambda[i] );
-		delta = abs( y - expected[ i ] );
-		tol = 20.0 * EPS * abs( expected[ i ] );
-		t.ok( delta <= tol, 'within tolerance. x: '+x[ i ]+'. lambda: '+lambda[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
+		if ( y === expected[i] ) {
+			t.equal( y, expected[i], 'x: '+x[i]+'. lambda: '+lambda[i]+', y: '+y+', expected: '+expected[i] );
+		} else {
+			delta = abs( y - expected[ i ] );
+			tol = 20.0 * EPS * abs( expected[ i ] );
+			t.ok( delta <= tol, 'within tolerance. x: '+x[ i ]+'. lambda: '+lambda[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
+		}
 	}
 	t.end();
 });
@@ -158,9 +162,13 @@ tape( 'the function evaluates the logpmf for `x` given a medium parameter `lambd
 	lambda = mediumMean.lambda;
 	for ( i = 0; i < x.length; i++ ) {
 		y = logpmf( x[i], lambda[i] );
-		delta = abs( y - expected[ i ] );
-		tol = 30.0 * EPS * abs( expected[ i ] );
-		t.ok( delta <= tol, 'within tolerance. x: '+x[ i ]+'. lambda: '+lambda[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
+		if ( y === expected[i] ) {
+			t.equal( y, expected[i], 'x: '+x[i]+'. lambda: '+lambda[i]+', y: '+y+', expected: '+expected[i] );
+		} else {
+			delta = abs( y - expected[ i ] );
+			tol = 30.0 * EPS * abs( expected[ i ] );
+			t.ok( delta <= tol, 'within tolerance. x: '+x[ i ]+'. lambda: '+lambda[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
+		}
 	}
 	t.end();
 });
@@ -179,9 +187,13 @@ tape( 'the function evaluates the logpmf for `x` given a large parameter `lambda
 	lambda = largeMean.lambda;
 	for ( i = 0; i < x.length; i++ ) {
 		y = logpmf( x[i], lambda[i] );
-		delta = abs( y - expected[ i ] );
-		tol = 80.0 * EPS * abs( expected[ i ] );
-		t.ok( delta <= tol, 'within tolerance. x: '+x[ i ]+'. lambda: '+lambda[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
+		if ( y === expected[i] ) {
+			t.equal( y, expected[i], 'x: '+x[i]+'. lambda: '+lambda[i]+', y: '+y+', expected: '+expected[i] );
+		} else {
+			delta = abs( y - expected[ i ] );
+			tol = 80.0 * EPS * abs( expected[ i ] );
+			t.ok( delta <= tol, 'within tolerance. x: '+x[ i ]+'. lambda: '+lambda[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
+		}
 	}
 	t.end();
 });
