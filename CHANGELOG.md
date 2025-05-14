@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`fcda856`](https://github.com/stdlib-js/stdlib/commit/fcda85627edc4bc8dbf0bf01b192906449e43e77) - add C ndarray interface and refactor implementation for `stats/base/dmeanvarpn`  [(#5030)](https://github.com/stdlib-js/stdlib/pull/5030)
 -   [`c38ee71`](https://github.com/stdlib-js/stdlib/commit/c38ee71d49e745de331e6bce1a78493676f962b4) - add C implementation of `stats/base/dists/poisson/logpmf` [(#5194)](https://github.com/stdlib-js/stdlib/pull/5194)
 -   [`cb3fa68`](https://github.com/stdlib-js/stdlib/commit/cb3fa68c5fad6c21471d7da1f78825f35f8ce41e) - add `stats/array/nanmin` [(#6971)](https://github.com/stdlib-js/stdlib/pull/6971)
 -   [`18f3021`](https://github.com/stdlib-js/stdlib/commit/18f30213289be76f6b493139aa4634a990fd5fb5) - add `stats/array/mskrange` [(#6990)](https://github.com/stdlib-js/stdlib/pull/6990)
@@ -1881,6 +1882,7 @@ A total of 413 issues were closed in this release:
 
 <details>
 
+-   [`fcda856`](https://github.com/stdlib-js/stdlib/commit/fcda85627edc4bc8dbf0bf01b192906449e43e77) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanvarpn`  [(#5030)](https://github.com/stdlib-js/stdlib/pull/5030) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`bde1562`](https://github.com/stdlib-js/stdlib/commit/bde156258f0e182fa6cf50f9bdd907ba8593dbf0) - **chore:** clean-up _(by Athan Reines)_
 -   [`eb555e4`](https://github.com/stdlib-js/stdlib/commit/eb555e4097f20ab99054945e55b44a9f795f0cf7) - **chore:** clean-up _(by Athan Reines)_
 -   [`c4ed64c`](https://github.com/stdlib-js/stdlib/commit/c4ed64c4024bd667104234ce5775d1e2ce7faecd) - **chore:** clean-up _(by Athan Reines)_
