@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-16)
+## Unreleased (2025-05-18)
 
 <section class="features">
 
@@ -1882,6 +1882,7 @@ A total of 413 issues were closed in this release:
 
 <details>
 
+-   [`4a896f3`](https://github.com/stdlib-js/stdlib/commit/4a896f34e9a1bd41102d45f4de71992ce85fab5f) - **bench:** update random value generation [(#7027)](https://github.com/stdlib-js/stdlib/pull/7027) _(by Harsh)_
 -   [`876d319`](https://github.com/stdlib-js/stdlib/commit/876d319235fa6b11ff7df92a34f3ebba821d6630) - **bench:** update random value generation [(#7009)](https://github.com/stdlib-js/stdlib/pull/7009) _(by Harsh)_
 -   [`fcda856`](https://github.com/stdlib-js/stdlib/commit/fcda85627edc4bc8dbf0bf01b192906449e43e77) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanvarpn`  [(#5030)](https://github.com/stdlib-js/stdlib/pull/5030) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`bde1562`](https://github.com/stdlib-js/stdlib/commit/bde156258f0e182fa6cf50f9bdd907ba8593dbf0) - **chore:** clean-up _(by Athan Reines)_
