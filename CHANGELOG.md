@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-21)
+## Unreleased (2025-05-23)
 
 <section class="features">
 
@@ -1882,6 +1882,7 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`5bed283`](https://github.com/stdlib-js/stdlib/commit/5bed2837d020e3ea6f8452e85b0f7008d4d76b68) - **docs:** replace manual `for` loop in examples [(#7075)](https://github.com/stdlib-js/stdlib/pull/7075) _(by Harsh)_
 -   [`295552a`](https://github.com/stdlib-js/stdlib/commit/295552a680556056d92f9920f69c402bd779d533) - **chore:** fix C lint errors [(#7052)](https://github.com/stdlib-js/stdlib/pull/7052) _(by zhanggy)_
 -   [`79bdf8d`](https://github.com/stdlib-js/stdlib/commit/79bdf8de999eb7f782005ef13e3d7ad471da2325) - **chore:** fix C lint errors [(#7053)](https://github.com/stdlib-js/stdlib/pull/7053) _(by zhanggy)_
 -   [`2e9da74`](https://github.com/stdlib-js/stdlib/commit/2e9da74a9f19a2090b8405b54553baa7fb715c27) - **docs:** replace manual `for` loop in examples [(#7056)](https://github.com/stdlib-js/stdlib/pull/7056) _(by Harsh)_
