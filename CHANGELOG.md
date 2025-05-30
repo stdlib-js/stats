@@ -1883,6 +1883,7 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`776c7e4`](https://github.com/stdlib-js/stdlib/commit/776c7e4b2fb38b08d91da3b7a9a99e2cd83a372d) - **docs:** replace manual `for` loop in examples [(#7122)](https://github.com/stdlib-js/stdlib/pull/7122) _(by Harsh, Philipp Burckhardt)_
 -   [`c24ea87`](https://github.com/stdlib-js/stdlib/commit/c24ea877723f2ac751abb70e8d3f38362f846a43) - **test:** add missing skips for native add-on tests _(by Philipp Burckhardt)_
 -   [`33ba5a0`](https://github.com/stdlib-js/stdlib/commit/33ba5a0d301d47b4d950ca6ed548dcc4a5bcc1a1) - **test:** add missing skips for native add-on tests _(by Philipp Burckhardt)_
 -   [`20dd4e8`](https://github.com/stdlib-js/stdlib/commit/20dd4e891d7fac27581eecb54240ae194d6076ab) - **test:** add missing skips for native add-on tests _(by Philipp Burckhardt)_
