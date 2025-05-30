@@ -1883,6 +1883,7 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`a3a900c`](https://github.com/stdlib-js/stdlib/commit/a3a900cc12d70440163c9a46a07cea796913e89e) - **docs:** replace manual `for` loop in examples [(#7123)](https://github.com/stdlib-js/stdlib/pull/7123) _(by Harsh)_
 -   [`2385da4`](https://github.com/stdlib-js/stdlib/commit/2385da4d81efbff565e8ce9ba9bcaaa61b31fb73) - **feat:** add `stats/array/mediansorted` [(#7106)](https://github.com/stdlib-js/stdlib/pull/7106) _(by Gururaj Gurram)_
 -   [`7453d19`](https://github.com/stdlib-js/stdlib/commit/7453d1986c3190121cec0a80bea425d814a51e62) - **bench:** fix value generation in `stats/array/*` [(#7117)](https://github.com/stdlib-js/stdlib/pull/7117) _(by Gururaj Gurram)_
 -   [`bab1647`](https://github.com/stdlib-js/stdlib/commit/bab1647c1309043335a7ec9badb8f3e629bf9136) - **style:** add missing space _(by Athan Reines)_
