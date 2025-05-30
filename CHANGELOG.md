@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2385da4`](https://github.com/stdlib-js/stdlib/commit/2385da4d81efbff565e8ce9ba9bcaaa61b31fb73) - add `stats/array/mediansorted` [(#7106)](https://github.com/stdlib-js/stdlib/pull/7106)
 -   [`fcda856`](https://github.com/stdlib-js/stdlib/commit/fcda85627edc4bc8dbf0bf01b192906449e43e77) - add C ndarray interface and refactor implementation for `stats/base/dmeanvarpn`  [(#5030)](https://github.com/stdlib-js/stdlib/pull/5030)
 -   [`c38ee71`](https://github.com/stdlib-js/stdlib/commit/c38ee71d49e745de331e6bce1a78493676f962b4) - add C implementation of `stats/base/dists/poisson/logpmf` [(#5194)](https://github.com/stdlib-js/stdlib/pull/5194)
 -   [`cb3fa68`](https://github.com/stdlib-js/stdlib/commit/cb3fa68c5fad6c21471d7da1f78825f35f8ce41e) - add `stats/array/nanmin` [(#6971)](https://github.com/stdlib-js/stdlib/pull/6971)
@@ -1882,6 +1883,7 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`2385da4`](https://github.com/stdlib-js/stdlib/commit/2385da4d81efbff565e8ce9ba9bcaaa61b31fb73) - **feat:** add `stats/array/mediansorted` [(#7106)](https://github.com/stdlib-js/stdlib/pull/7106) _(by Gururaj Gurram)_
 -   [`7453d19`](https://github.com/stdlib-js/stdlib/commit/7453d1986c3190121cec0a80bea425d814a51e62) - **bench:** fix value generation in `stats/array/*` [(#7117)](https://github.com/stdlib-js/stdlib/pull/7117) _(by Gururaj Gurram)_
 -   [`bab1647`](https://github.com/stdlib-js/stdlib/commit/bab1647c1309043335a7ec9badb8f3e629bf9136) - **style:** add missing space _(by Athan Reines)_
 -   [`2f1bc9e`](https://github.com/stdlib-js/stdlib/commit/2f1bc9eb0ca087fb141fd68d1fe7704317be49a1) - **bench:** update random value generation [(#7093)](https://github.com/stdlib-js/stdlib/pull/7093) _(by Harsh)_
