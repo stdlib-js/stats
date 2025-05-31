@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-30)
+## Unreleased (2025-05-31)
 
 <section class="features">
 
 ### Features
 
+-   [`7d64bcb`](https://github.com/stdlib-js/stdlib/commit/7d64bcba9a16806015fb6d22a431c7543f196c2f) - add support for accessor arrays and refactor `stats/base/max-by` [(#7129)](https://github.com/stdlib-js/stdlib/pull/7129)
 -   [`2385da4`](https://github.com/stdlib-js/stdlib/commit/2385da4d81efbff565e8ce9ba9bcaaa61b31fb73) - add `stats/array/mediansorted` [(#7106)](https://github.com/stdlib-js/stdlib/pull/7106)
 -   [`fcda856`](https://github.com/stdlib-js/stdlib/commit/fcda85627edc4bc8dbf0bf01b192906449e43e77) - add C ndarray interface and refactor implementation for `stats/base/dmeanvarpn`  [(#5030)](https://github.com/stdlib-js/stdlib/pull/5030)
 -   [`c38ee71`](https://github.com/stdlib-js/stdlib/commit/c38ee71d49e745de331e6bce1a78493676f962b4) - add C implementation of `stats/base/dists/poisson/logpmf` [(#5194)](https://github.com/stdlib-js/stdlib/pull/5194)
@@ -1883,6 +1884,7 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`7d64bcb`](https://github.com/stdlib-js/stdlib/commit/7d64bcba9a16806015fb6d22a431c7543f196c2f) - **feat:** add support for accessor arrays and refactor `stats/base/max-by` [(#7129)](https://github.com/stdlib-js/stdlib/pull/7129) _(by Gururaj Gurram, Athan Reines)_
 -   [`776c7e4`](https://github.com/stdlib-js/stdlib/commit/776c7e4b2fb38b08d91da3b7a9a99e2cd83a372d) - **docs:** replace manual `for` loop in examples [(#7122)](https://github.com/stdlib-js/stdlib/pull/7122) _(by Harsh, Philipp Burckhardt)_
 -   [`c24ea87`](https://github.com/stdlib-js/stdlib/commit/c24ea877723f2ac751abb70e8d3f38362f846a43) - **test:** add missing skips for native add-on tests _(by Philipp Burckhardt)_
 -   [`33ba5a0`](https://github.com/stdlib-js/stdlib/commit/33ba5a0d301d47b4d950ca6ed548dcc4a5bcc1a1) - **test:** add missing skips for native add-on tests _(by Philipp Burckhardt)_
