@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8908678`](https://github.com/stdlib-js/stdlib/commit/8908678437284667ba0c50725224998ed9c58f9c) - add `stats/array/max-by` [(#7130)](https://github.com/stdlib-js/stdlib/pull/7130)
 -   [`cdd2f1a`](https://github.com/stdlib-js/stdlib/commit/cdd2f1a7003c811f1379e3fc05fafbb3236dd74f) - add support for accessor arrays and refactor `stats/base/min-by`  [(#7146)](https://github.com/stdlib-js/stdlib/pull/7146)
 -   [`7d64bcb`](https://github.com/stdlib-js/stdlib/commit/7d64bcba9a16806015fb6d22a431c7543f196c2f) - add support for accessor arrays and refactor `stats/base/max-by` [(#7129)](https://github.com/stdlib-js/stdlib/pull/7129)
 -   [`2385da4`](https://github.com/stdlib-js/stdlib/commit/2385da4d81efbff565e8ce9ba9bcaaa61b31fb73) - add `stats/array/mediansorted` [(#7106)](https://github.com/stdlib-js/stdlib/pull/7106)
@@ -1887,6 +1888,7 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`8908678`](https://github.com/stdlib-js/stdlib/commit/8908678437284667ba0c50725224998ed9c58f9c) - **feat:** add `stats/array/max-by` [(#7130)](https://github.com/stdlib-js/stdlib/pull/7130) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`72d1412`](https://github.com/stdlib-js/stdlib/commit/72d1412ee12e86641d68fc537f64a24350861611) - **fix:** pass input array _(by Athan Reines)_
 -   [`7d340f2`](https://github.com/stdlib-js/stdlib/commit/7d340f209f8105fde0091e9a9641f626a63a7706) - **fix:** pass input array _(by Athan Reines)_
 -   [`f50db5b`](https://github.com/stdlib-js/stdlib/commit/f50db5b43e51607e188f38bd6fab7d0ad5098110) - **docs:** update namespace table of contents [(#7152)](https://github.com/stdlib-js/stdlib/pull/7152) _(by stdlib-bot)_
