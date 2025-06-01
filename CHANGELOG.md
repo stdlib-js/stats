@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`8799094`](https://github.com/stdlib-js/stdlib/commit/8799094d1f96d3f6a826bb48ea34edf800a08eb7) - add `array` to namespace
+-   [`e9e996f`](https://github.com/stdlib-js/stdlib/commit/e9e996f3b7b37ebea1332bd7e55af23856b61e6b) - add aliases to namespace
+-   [`3a14e6d`](https://github.com/stdlib-js/stdlib/commit/3a14e6d7972bfa6bae72f1f7f96968e369e9b90c) - add `stats/array` namespace
 -   [`8908678`](https://github.com/stdlib-js/stdlib/commit/8908678437284667ba0c50725224998ed9c58f9c) - add `stats/array/max-by` [(#7130)](https://github.com/stdlib-js/stdlib/pull/7130)
 -   [`cdd2f1a`](https://github.com/stdlib-js/stdlib/commit/cdd2f1a7003c811f1379e3fc05fafbb3236dd74f) - add support for accessor arrays and refactor `stats/base/min-by`  [(#7146)](https://github.com/stdlib-js/stdlib/pull/7146)
 -   [`7d64bcb`](https://github.com/stdlib-js/stdlib/commit/7d64bcba9a16806015fb6d22a431c7543f196c2f) - add support for accessor arrays and refactor `stats/base/max-by` [(#7129)](https://github.com/stdlib-js/stdlib/pull/7129)
@@ -1888,6 +1891,9 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`8799094`](https://github.com/stdlib-js/stdlib/commit/8799094d1f96d3f6a826bb48ea34edf800a08eb7) - **feat:** add `array` to namespace _(by Athan Reines)_
+-   [`e9e996f`](https://github.com/stdlib-js/stdlib/commit/e9e996f3b7b37ebea1332bd7e55af23856b61e6b) - **feat:** add aliases to namespace _(by Athan Reines)_
+-   [`3a14e6d`](https://github.com/stdlib-js/stdlib/commit/3a14e6d7972bfa6bae72f1f7f96968e369e9b90c) - **feat:** add `stats/array` namespace _(by Athan Reines)_
 -   [`8908678`](https://github.com/stdlib-js/stdlib/commit/8908678437284667ba0c50725224998ed9c58f9c) - **feat:** add `stats/array/max-by` [(#7130)](https://github.com/stdlib-js/stdlib/pull/7130) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`72d1412`](https://github.com/stdlib-js/stdlib/commit/72d1412ee12e86641d68fc537f64a24350861611) - **fix:** pass input array _(by Athan Reines)_
 -   [`7d340f2`](https://github.com/stdlib-js/stdlib/commit/7d340f209f8105fde0091e9a9641f626a63a7706) - **fix:** pass input array _(by Athan Reines)_
