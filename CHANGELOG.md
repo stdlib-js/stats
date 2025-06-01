@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4905a27`](https://github.com/stdlib-js/stdlib/commit/4905a27a366974bb37b57d26eb238c2713797132) - add `minBy` to namespace
 -   [`5501d03`](https://github.com/stdlib-js/stdlib/commit/5501d03eff68bf9916ae5daff0ce8d8aa1b561b8) - add `stats/array/min-by` [(#7155)](https://github.com/stdlib-js/stdlib/pull/7155)
 -   [`e98070f`](https://github.com/stdlib-js/stdlib/commit/e98070fb066f6be2036b1eebdd6240a4846d1a95) - add `strided` to namespace
 -   [`e02df11`](https://github.com/stdlib-js/stdlib/commit/e02df119cad3ae8bb2f50ef99e69925c0a490f79) - add `stats/strided` namespace
@@ -1894,6 +1895,7 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`4905a27`](https://github.com/stdlib-js/stdlib/commit/4905a27a366974bb37b57d26eb238c2713797132) - **feat:** add `minBy` to namespace _(by Athan Reines)_
 -   [`5501d03`](https://github.com/stdlib-js/stdlib/commit/5501d03eff68bf9916ae5daff0ce8d8aa1b561b8) - **feat:** add `stats/array/min-by` [(#7155)](https://github.com/stdlib-js/stdlib/pull/7155) _(by Gururaj Gurram, stdlib-bot)_
 -   [`4af8519`](https://github.com/stdlib-js/stdlib/commit/4af8519abfe707706b3d11cfea4e3e3efea40618) - **docs:** update copy _(by Athan Reines)_
 -   [`e98070f`](https://github.com/stdlib-js/stdlib/commit/e98070fb066f6be2036b1eebdd6240a4846d1a95) - **feat:** add `strided` to namespace _(by Athan Reines)_
