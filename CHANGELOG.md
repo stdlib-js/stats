@@ -675,6 +675,8 @@
 
 ### Bug Fixes
 
+-   [`72d1412`](https://github.com/stdlib-js/stdlib/commit/72d1412ee12e86641d68fc537f64a24350861611) - pass input array
+-   [`7d340f2`](https://github.com/stdlib-js/stdlib/commit/7d340f209f8105fde0091e9a9641f626a63a7706) - pass input array
 -   [`bdf9a93`](https://github.com/stdlib-js/stdlib/commit/bdf9a9377e6412ba4e2d24f7619d88e344d62b54) - add missing dep, update description, and revert test changes
 -   [`3d75aa0`](https://github.com/stdlib-js/stdlib/commit/3d75aa008decb8d22141b80d1b528aa5167015b3) - restrict set of allowed data types
 -   [`806644c`](https://github.com/stdlib-js/stdlib/commit/806644ce38213eafe7b7eb6e092c318e061df438) - restrict set of allowed data types
@@ -1885,6 +1887,8 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`72d1412`](https://github.com/stdlib-js/stdlib/commit/72d1412ee12e86641d68fc537f64a24350861611) - **fix:** pass input array _(by Athan Reines)_
+-   [`7d340f2`](https://github.com/stdlib-js/stdlib/commit/7d340f209f8105fde0091e9a9641f626a63a7706) - **fix:** pass input array _(by Athan Reines)_
 -   [`f50db5b`](https://github.com/stdlib-js/stdlib/commit/f50db5b43e51607e188f38bd6fab7d0ad5098110) - **docs:** update namespace table of contents [(#7152)](https://github.com/stdlib-js/stdlib/pull/7152) _(by stdlib-bot)_
 -   [`cdd2f1a`](https://github.com/stdlib-js/stdlib/commit/cdd2f1a7003c811f1379e3fc05fafbb3236dd74f) - **feat:** add support for accessor arrays and refactor `stats/base/min-by`  [(#7146)](https://github.com/stdlib-js/stdlib/pull/7146) _(by Gururaj Gurram)_
 -   [`7d64bcb`](https://github.com/stdlib-js/stdlib/commit/7d64bcba9a16806015fb6d22a431c7543f196c2f) - **feat:** add support for accessor arrays and refactor `stats/base/max-by` [(#7129)](https://github.com/stdlib-js/stdlib/pull/7129) _(by Gururaj Gurram, Athan Reines)_
