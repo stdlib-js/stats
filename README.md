@@ -116,6 +116,13 @@ The namespace further contains functions for computing statistics on arrays as p
 
 <!-- <toc pattern="+(array|strided)"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`array`][@stdlib/stats/array]</span><span class="delimiter">: </span><span class="description">statistical functions for arrays.</span>
+-   <span class="signature">[`strided`][@stdlib/stats/strided]</span><span class="delimiter">: </span><span class="description">statistical operations for strided arrays.</span>
+
+</div>
+
 <!-- </toc> -->
 
 The `base` sub-namespace contains lower-level statistical functions, including a `dists` namespace containing functions related to a wide assortment of probability distributions.
@@ -265,6 +272,10 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/stats/ranks]: https://github.com/stdlib-js/stats/tree/main/ranks
 
 [@stdlib/stats/base]: https://github.com/stdlib-js/stats/tree/main/base
+
+[@stdlib/stats/array]: https://github.com/stdlib-js/stats/tree/main/array
+
+[@stdlib/stats/strided]: https://github.com/stdlib-js/stats/tree/main/strided
 
 [@stdlib/stats/incr]: https://github.com/stdlib-js/stats/tree/main/incr
 
