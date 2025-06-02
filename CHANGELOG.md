@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ec8118b`](https://github.com/stdlib-js/stdlib/commit/ec8118b138efccc2c6440716635b422843f9a184) - add `stats/array/nanrange` [(#7178)](https://github.com/stdlib-js/stdlib/pull/7178)
 -   [`4905a27`](https://github.com/stdlib-js/stdlib/commit/4905a27a366974bb37b57d26eb238c2713797132) - add `minBy` to namespace
 -   [`5501d03`](https://github.com/stdlib-js/stdlib/commit/5501d03eff68bf9916ae5daff0ce8d8aa1b561b8) - add `stats/array/min-by` [(#7155)](https://github.com/stdlib-js/stdlib/pull/7155)
 -   [`e98070f`](https://github.com/stdlib-js/stdlib/commit/e98070fb066f6be2036b1eebdd6240a4846d1a95) - add `strided` to namespace
@@ -1895,6 +1896,7 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`ec8118b`](https://github.com/stdlib-js/stdlib/commit/ec8118b138efccc2c6440716635b422843f9a184) - **feat:** add `stats/array/nanrange` [(#7178)](https://github.com/stdlib-js/stdlib/pull/7178) _(by Gururaj Gurram)_
 -   [`391830c`](https://github.com/stdlib-js/stdlib/commit/391830ccb553b0d53a43029d4aea3a07070b25df) - **docs:** replace manual `for` loop in examples [(#7170)](https://github.com/stdlib-js/stdlib/pull/7170) _(by Harsh)_
 -   [`4514170`](https://github.com/stdlib-js/stdlib/commit/4514170ad8cf99fd55fc30804fd1f1d17e11ed7f) - **docs:** update namespace table of contents [(#7162)](https://github.com/stdlib-js/stdlib/pull/7162) _(by stdlib-bot)_
 -   [`4905a27`](https://github.com/stdlib-js/stdlib/commit/4905a27a366974bb37b57d26eb238c2713797132) - **feat:** add `minBy` to namespace _(by Athan Reines)_
