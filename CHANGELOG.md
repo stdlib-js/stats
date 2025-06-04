@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-02)
+## Unreleased (2025-06-04)
 
 <section class="features">
 
 ### Features
 
+-   [`d7db461`](https://github.com/stdlib-js/stdlib/commit/d7db461a6245ffed9b9bd81b5b6fa7fd2670071b) - add `stats/base/ndarray/max-by` [(#7194)](https://github.com/stdlib-js/stdlib/pull/7194)
 -   [`ec8118b`](https://github.com/stdlib-js/stdlib/commit/ec8118b138efccc2c6440716635b422843f9a184) - add `stats/array/nanrange` [(#7178)](https://github.com/stdlib-js/stdlib/pull/7178)
 -   [`4905a27`](https://github.com/stdlib-js/stdlib/commit/4905a27a366974bb37b57d26eb238c2713797132) - add `minBy` to namespace
 -   [`5501d03`](https://github.com/stdlib-js/stdlib/commit/5501d03eff68bf9916ae5daff0ce8d8aa1b561b8) - add `stats/array/min-by` [(#7155)](https://github.com/stdlib-js/stdlib/pull/7155)
@@ -1896,6 +1897,7 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`d7db461`](https://github.com/stdlib-js/stdlib/commit/d7db461a6245ffed9b9bd81b5b6fa7fd2670071b) - **feat:** add `stats/base/ndarray/max-by` [(#7194)](https://github.com/stdlib-js/stdlib/pull/7194) _(by Muhammad Haris, Athan Reines)_
 -   [`ec8118b`](https://github.com/stdlib-js/stdlib/commit/ec8118b138efccc2c6440716635b422843f9a184) - **feat:** add `stats/array/nanrange` [(#7178)](https://github.com/stdlib-js/stdlib/pull/7178) _(by Gururaj Gurram)_
 -   [`391830c`](https://github.com/stdlib-js/stdlib/commit/391830ccb553b0d53a43029d4aea3a07070b25df) - **docs:** replace manual `for` loop in examples [(#7170)](https://github.com/stdlib-js/stdlib/pull/7170) _(by Harsh)_
 -   [`4514170`](https://github.com/stdlib-js/stdlib/commit/4514170ad8cf99fd55fc30804fd1f1d17e11ed7f) - **docs:** update namespace table of contents [(#7162)](https://github.com/stdlib-js/stdlib/pull/7162) _(by stdlib-bot)_
