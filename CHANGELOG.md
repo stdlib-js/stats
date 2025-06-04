@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`adf9888`](https://github.com/stdlib-js/stdlib/commit/adf9888732761d02993f2d88c6bac323769ec729) - add `maxBy` to namespace
 -   [`d7db461`](https://github.com/stdlib-js/stdlib/commit/d7db461a6245ffed9b9bd81b5b6fa7fd2670071b) - add `stats/base/ndarray/max-by` [(#7194)](https://github.com/stdlib-js/stdlib/pull/7194)
 -   [`ec8118b`](https://github.com/stdlib-js/stdlib/commit/ec8118b138efccc2c6440716635b422843f9a184) - add `stats/array/nanrange` [(#7178)](https://github.com/stdlib-js/stdlib/pull/7178)
 -   [`4905a27`](https://github.com/stdlib-js/stdlib/commit/4905a27a366974bb37b57d26eb238c2713797132) - add `minBy` to namespace
@@ -1897,6 +1898,7 @@ A total of 416 issues were closed in this release:
 
 <details>
 
+-   [`adf9888`](https://github.com/stdlib-js/stdlib/commit/adf9888732761d02993f2d88c6bac323769ec729) - **feat:** add `maxBy` to namespace _(by Athan Reines)_
 -   [`d7db461`](https://github.com/stdlib-js/stdlib/commit/d7db461a6245ffed9b9bd81b5b6fa7fd2670071b) - **feat:** add `stats/base/ndarray/max-by` [(#7194)](https://github.com/stdlib-js/stdlib/pull/7194) _(by Muhammad Haris, Athan Reines)_
 -   [`ec8118b`](https://github.com/stdlib-js/stdlib/commit/ec8118b138efccc2c6440716635b422843f9a184) - **feat:** add `stats/array/nanrange` [(#7178)](https://github.com/stdlib-js/stdlib/pull/7178) _(by Gururaj Gurram)_
 -   [`391830c`](https://github.com/stdlib-js/stdlib/commit/391830ccb553b0d53a43029d4aea3a07070b25df) - **docs:** replace manual `for` loop in examples [(#7170)](https://github.com/stdlib-js/stdlib/pull/7170) _(by Harsh)_
