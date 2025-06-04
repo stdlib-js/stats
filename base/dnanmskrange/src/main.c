@@ -20,6 +20,7 @@
 #include "stdlib/math/base/assert/is_nan.h"
 #include "stdlib/strided/base/stride2offset.h"
 #include "stdlib/blas/base/shared.h"
+#include <stdint.h>
 
 /**
 * Computes the range of a double-precision floating-point strided array according to a mask, ignoring `NaN` values.
