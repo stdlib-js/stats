@@ -20,12 +20,7 @@
 
 /// <reference types="@stdlib/types"/>
 
-import { NumericArray, Collection, AccessorArrayLike } from '@stdlib/types/array';
-
-/**
-* Input array.
-*/
-type InputArray = NumericArray | Collection<number> | AccessorArrayLike<number>;
+import { Collection } from '@stdlib/types/array';
 
 /**
 * Returns an accessed value.
@@ -88,7 +83,7 @@ type Callback<T, U> = Nullary<U> | Unary<T, U> | Binary<T, U> | Ternary<T, U> | 
 */
 interface Routine {
 	/**
-	* Computes the maximum value of a strided array via a callback function, ignoring `NaN` values.
+	* Calculates the maximum value of a strided array via a callback function, ignoring `NaN` values.
 	*
 	* ## Notes
 	*
@@ -107,7 +102,7 @@ interface Routine {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param strideX - stride length
+	* @param stride - stride length
 	* @param clbk - callback
 	* @param thisArg - execution context
 	* @returns maximum value
@@ -122,10 +117,10 @@ interface Routine {
 	* var v = nanmaxBy( x.length, x, 1, accessor );
 	* // returns 8.0
 	*/
-	<T = unknown, U = unknown>( N: number, x: InputArray, strideX: number, clbk: Callback<T, U>, thisArg?: ThisParameterType<Callback<T, U>> ): number;
+	<T = unknown, U = unknown>( N: number, x: Collection<T>, stride: number, clbk: Callback<T, U>, thisArg?: ThisParameterType<Callback<T, U>> ): number;
 
 	/**
-	* Computes the maximum value of a strided array via a callback function, ignoring `NaN` values and using alternative indexing semantics.
+	* Calculates the maximum value of a strided array via a callback function, ignoring `NaN` values and using alternative indexing semantics.
 	*
 	* ## Notes
 	*
@@ -144,8 +139,8 @@ interface Routine {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param strideX - stride length
-	* @param offsetX - starting index
+	* @param stride - stride length
+	* @param offset - starting index
 	* @param clbk - callback
 	* @param thisArg - execution context
 	* @returns maximum value
@@ -160,11 +155,11 @@ interface Routine {
 	* var v = nanmaxBy.ndarray( x.length, x, 1, 0, accessor );
 	* // returns 8.0
 	*/
-	ndarray<T = unknown, U = unknown>( N: number, x: InputArray, strideX: number, offsetX: number, clbk: Callback<T, U>, thisArg?: ThisParameterType<Callback<T, U>> ): number;
+	ndarray<T = unknown, U = unknown>( N: number, x: Collection<T>, stride: number, offset: number, clbk: Callback<T, U>, thisArg?: ThisParameterType<Callback<T, U>> ): number;
 }
 
 /**
-* Computes the maximum value of a strided array via a callback function, ignoring `NaN` values.
+* Calculates the maximum value of a strided array via a callback function, ignoring `NaN` values.
 *
 * ## Notes
 *
@@ -183,7 +178,7 @@ interface Routine {
 *
 * @param N - number of indexed elements
 * @param x - input array
-* @param strideX - stride length
+* @param stride - stride length
 * @param clbk - callback
 * @param thisArg - execution context
 * @returns maximum value

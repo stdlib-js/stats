@@ -22,19 +22,17 @@
 
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var isPositiveZero = require( '@stdlib/math/base/assert/is-positive-zero' );
-var arraylike2object = require( '@stdlib/array/base/arraylike2object' );
-var accessors = require( './accessors.js' );
 
 
 // MAIN //
 
 /**
-* Computes the maximum value of a strided array via a callback function, ignoring `NaN` values.
+* Calculates the maximum value of a strided array via a callback function, ignoring `NaN` values.
 *
 * @param {PositiveInteger} N - number of indexed elements
 * @param {Collection} x - input array/collection
-* @param {integer} strideX - index increment
-* @param {NonNegativeInteger} offsetX - starting index
+* @param {integer} stride - index increment
+* @param {NonNegativeInteger} offset - starting index
 * @param {Callback} clbk - callback
 * @param {*} [thisArg] - execution context
 * @returns {number} maximum value
@@ -49,41 +47,36 @@ var accessors = require( './accessors.js' );
 * var v = nanmaxBy( x.length, x, 1, 0, accessor );
 * // returns 8.0
 */
-function nanmaxBy( N, x, strideX, offsetX, clbk, thisArg ) {
+function nanmaxBy( N, x, stride, offset, clbk, thisArg ) {
 	var max;
 	var ix;
-	var o;
 	var v;
 	var i;
 
 	if ( N <= 0 ) {
 		return NaN;
 	}
-	o = arraylike2object( x );
-	if ( o.accessorProtocol ) {
-		return accessors( N, o, strideX, offsetX, clbk, thisArg );
-	}
-	if ( N === 1 || strideX === 0 ) {
-		v = clbk.call( thisArg, x[ offsetX ], 0, offsetX, x );
+	if ( N === 1 || stride === 0 ) {
+		v = clbk.call( thisArg, x[ 0 ], 0, 0, x );
 		if ( v === void 0 ) {
 			return NaN;
 		}
 		return v;
 	}
-	ix = offsetX;
+	ix = offset;
 	for ( i = 0; i < N; i++ ) {
 		max = clbk.call( thisArg, x[ ix ], i, ix, x );
 		if ( max === max && max !== void 0 ) {
 			break;
 		}
-		ix += strideX;
+		ix += stride;
 	}
 	if ( i === N ) {
 		return NaN;
 	}
 	i += 1;
 	for ( i; i < N; i++ ) {
-		ix += strideX;
+		ix += stride;
 		v = clbk.call( thisArg, x[ ix ], i, ix, x );
 		if ( v === void 0 || isnan( v ) ) {
 			continue;

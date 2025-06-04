@@ -20,35 +20,14 @@
 
 // MODULES //
 
-var stride2offset = require( '@stdlib/strided/base/stride2offset' );
+var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
+var nanmaxBy = require( './nanmax_by.js' );
 var ndarray = require( './ndarray.js' );
 
 
 // MAIN //
 
-/**
-* Computes the maximum value of a strided array via a callback function, ignoring `NaN` values.
-*
-* @param {PositiveInteger} N - number of indexed elements
-* @param {Collection} x - input array/collection
-* @param {integer} strideX - index increment
-* @param {Callback} clbk - callback
-* @param {*} [thisArg] - execution context
-* @returns {number} maximum value
-*
-* @example
-* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
-*
-* function accessor( v ) {
-*     return v * 2.0;
-* }
-*
-* var v = nanmaxBy( x.length, x, 1, accessor );
-* // returns 8.0
-*/
-function nanmaxBy( N, x, strideX, clbk, thisArg ) {
-	return ndarray( N, x, strideX, stride2offset( N, strideX ), clbk, thisArg );
-}
+setReadOnly( nanmaxBy, 'ndarray', ndarray );
 
 
 // EXPORTS //
