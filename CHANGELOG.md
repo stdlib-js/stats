@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a889189`](https://github.com/stdlib-js/stdlib/commit/a889189e1a7d22e0f435bb0da3371eee73fb665d) - add `stats/strided/wasm/dmeanwd` [(#7188)](https://github.com/stdlib-js/stdlib/pull/7188)
 -   [`d13caae`](https://github.com/stdlib-js/stdlib/commit/d13caae55b9ac197dad519efe76192b6a21fb04d) - refactor and add protocol support to `stats/base/nanmax-by` [(#6469)](https://github.com/stdlib-js/stdlib/pull/6469)
 -   [`58ab526`](https://github.com/stdlib-js/stdlib/commit/58ab526f16ad76ec0ef3eaf609ddba153e7b5e03) - add C ndarray interface and refactor implementation for `stats/base/dnanmskmax` [(#7197)](https://github.com/stdlib-js/stdlib/pull/7197)
 -   [`c816e83`](https://github.com/stdlib-js/stdlib/commit/c816e837143121c7f5eed1cb6631a4b3c49db58c) - add C ndarray interface and refactor implementation for `stats/base/dnanmskrange` [(#7171)](https://github.com/stdlib-js/stdlib/pull/7171)
@@ -1904,6 +1905,7 @@ A total of 418 issues were closed in this release:
 
 <details>
 
+-   [`a889189`](https://github.com/stdlib-js/stdlib/commit/a889189e1a7d22e0f435bb0da3371eee73fb665d) - **feat:** add `stats/strided/wasm/dmeanwd` [(#7188)](https://github.com/stdlib-js/stdlib/pull/7188) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`2b194d1`](https://github.com/stdlib-js/stdlib/commit/2b194d117855b1f756a5f9617873231cf2a7fbd8) - **docs:** fix duplication declaration _(by Athan Reines)_
 -   [`aabd484`](https://github.com/stdlib-js/stdlib/commit/aabd4840b72d764e03009f45ebf1039174fcb4dc) - **docs:** update comments _(by Athan Reines)_
 -   [`d13caae`](https://github.com/stdlib-js/stdlib/commit/d13caae55b9ac197dad519efe76192b6a21fb04d) - **feat:** refactor and add protocol support to `stats/base/nanmax-by` [(#6469)](https://github.com/stdlib-js/stdlib/pull/6469) _(by Gautam Kaushik, Athan Reines, stdlib-bot, Gururaj Gurram)_
