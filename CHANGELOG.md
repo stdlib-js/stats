@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a09e2c4`](https://github.com/stdlib-js/stdlib/commit/a09e2c4e03d9288cccd24c6f42342dcdd9721eb6) - add support for accessor arrays and refactor `stats/base/nanmaxabs` [(#7175)](https://github.com/stdlib-js/stdlib/pull/7175)
 -   [`1bbed39`](https://github.com/stdlib-js/stdlib/commit/1bbed393dae610baf331226bed727561839a33a9) - add protocol support to `stats/base/range` [(#5779)](https://github.com/stdlib-js/stdlib/pull/5779)
 -   [`adf9888`](https://github.com/stdlib-js/stdlib/commit/adf9888732761d02993f2d88c6bac323769ec729) - add `maxBy` to namespace
 -   [`d7db461`](https://github.com/stdlib-js/stdlib/commit/d7db461a6245ffed9b9bd81b5b6fa7fd2670071b) - add `stats/base/ndarray/max-by` [(#7194)](https://github.com/stdlib-js/stdlib/pull/7194)
@@ -1899,6 +1900,7 @@ A total of 417 issues were closed in this release:
 
 <details>
 
+-   [`a09e2c4`](https://github.com/stdlib-js/stdlib/commit/a09e2c4e03d9288cccd24c6f42342dcdd9721eb6) - **feat:** add support for accessor arrays and refactor `stats/base/nanmaxabs` [(#7175)](https://github.com/stdlib-js/stdlib/pull/7175) _(by Gururaj Gurram, Athan Reines)_
 -   [`1bbed39`](https://github.com/stdlib-js/stdlib/commit/1bbed393dae610baf331226bed727561839a33a9) - **feat:** add protocol support to `stats/base/range` [(#5779)](https://github.com/stdlib-js/stdlib/pull/5779) _(by Jalaj Kumar, Athan Reines, stdlib-bot, Gururaj Gurram)_
 -   [`adf9888`](https://github.com/stdlib-js/stdlib/commit/adf9888732761d02993f2d88c6bac323769ec729) - **feat:** add `maxBy` to namespace _(by Athan Reines)_
 -   [`d7db461`](https://github.com/stdlib-js/stdlib/commit/d7db461a6245ffed9b9bd81b5b6fa7fd2670071b) - **feat:** add `stats/base/ndarray/max-by` [(#7194)](https://github.com/stdlib-js/stdlib/pull/7194) _(by Muhammad Haris, Athan Reines)_
