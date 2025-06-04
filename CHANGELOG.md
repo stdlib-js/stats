@@ -1901,6 +1901,7 @@ A total of 417 issues were closed in this release:
 
 <details>
 
+-   [`b46a7f1`](https://github.com/stdlib-js/stdlib/commit/b46a7f1b201e5add52241701ba1d95025cf7d465) - **docs:** update copy _(by Athan Reines)_
 -   [`c816e83`](https://github.com/stdlib-js/stdlib/commit/c816e837143121c7f5eed1cb6631a4b3c49db58c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmskrange` [(#7171)](https://github.com/stdlib-js/stdlib/pull/7171) _(by Gururaj Gurram, Athan Reines)_
 -   [`a09e2c4`](https://github.com/stdlib-js/stdlib/commit/a09e2c4e03d9288cccd24c6f42342dcdd9721eb6) - **feat:** add support for accessor arrays and refactor `stats/base/nanmaxabs` [(#7175)](https://github.com/stdlib-js/stdlib/pull/7175) _(by Gururaj Gurram, Athan Reines)_
 -   [`1bbed39`](https://github.com/stdlib-js/stdlib/commit/1bbed393dae610baf331226bed727561839a33a9) - **feat:** add protocol support to `stats/base/range` [(#5779)](https://github.com/stdlib-js/stdlib/pull/5779) _(by Jalaj Kumar, Athan Reines, stdlib-bot, Gururaj Gurram)_
