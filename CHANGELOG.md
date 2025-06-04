@@ -1906,6 +1906,7 @@ A total of 419 issues were closed in this release:
 
 <details>
 
+-   [`eb4ee39`](https://github.com/stdlib-js/stdlib/commit/eb4ee397ee785010d2f85edc22de34775869f036) - **chore:** update comments [(#7203)](https://github.com/stdlib-js/stdlib/pull/7203) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`9323351`](https://github.com/stdlib-js/stdlib/commit/93233519a69eb2c74d0ab04cc0814def6a9300b2) - **feat:** add support for accessor arrays and refactor `stats/base/nanmeanpn` [(#7098)](https://github.com/stdlib-js/stdlib/pull/7098) _(by Gururaj Gurram, Athan Reines)_
 -   [`a889189`](https://github.com/stdlib-js/stdlib/commit/a889189e1a7d22e0f435bb0da3371eee73fb665d) - **feat:** add `stats/strided/wasm/dmeanwd` [(#7188)](https://github.com/stdlib-js/stdlib/pull/7188) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`2b194d1`](https://github.com/stdlib-js/stdlib/commit/2b194d117855b1f756a5f9617873231cf2a7fbd8) - **docs:** fix duplication declaration _(by Athan Reines)_
