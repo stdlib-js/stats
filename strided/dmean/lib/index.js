@@ -21,11 +21,11 @@
 /**
 * Compute the arithmetic mean of a double-precision floating-point strided array.
 *
-* @module @stdlib/stats/base/dmean
+* @module @stdlib/stats/strided/dmean
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmean = require( '@stdlib/stats/base/dmean' );
+* var dmean = require( '@stdlib/stats/strided/dmean' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmean = require( '@stdlib/stats/base/dmean' );
+* var dmean = require( '@stdlib/stats/strided/dmean' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

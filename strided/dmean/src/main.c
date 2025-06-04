@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dmean.h"
+#include "stdlib/stats/strided/dmean.h"
 #include "stdlib/stats/base/dmeanpn.h"
 #include "stdlib/blas/base/shared.h"
 

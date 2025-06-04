@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2f6f498`](https://github.com/stdlib-js/stdlib/commit/2f6f498a409e309dc93844f8b9e2dbc2a2acb594) - add `stats/strided/dmean`
 -   [`9323351`](https://github.com/stdlib-js/stdlib/commit/93233519a69eb2c74d0ab04cc0814def6a9300b2) - add support for accessor arrays and refactor `stats/base/nanmeanpn` [(#7098)](https://github.com/stdlib-js/stdlib/pull/7098)
 -   [`a889189`](https://github.com/stdlib-js/stdlib/commit/a889189e1a7d22e0f435bb0da3371eee73fb665d) - add `stats/strided/wasm/dmeanwd` [(#7188)](https://github.com/stdlib-js/stdlib/pull/7188)
 -   [`d13caae`](https://github.com/stdlib-js/stdlib/commit/d13caae55b9ac197dad519efe76192b6a21fb04d) - refactor and add protocol support to `stats/base/nanmax-by` [(#6469)](https://github.com/stdlib-js/stdlib/pull/6469)
@@ -723,6 +724,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`b82a3b0`](https://github.com/stdlib-js/stdlib/commit/b82a3b04be3cdb301d6521b2b466172fc5a9b986): remove `stats/base/dmean`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dmean` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`3a971ae`](https://github.com/stdlib-js/stdlib/commit/3a971ae60992b3c6ea6b5cc1654084ab08ca44bd): remove `dmean`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/stats/strided` namespace.
 
 -   [`0088e72`](https://github.com/stdlib-js/stdlib/commit/0088e72dda77d4ba2ab4f8fcb134550cab14ddc9): remove `stats/tools`
 
@@ -1906,6 +1918,10 @@ A total of 419 issues were closed in this release:
 
 <details>
 
+-   [`b82a3b0`](https://github.com/stdlib-js/stdlib/commit/b82a3b04be3cdb301d6521b2b466172fc5a9b986) - **remove:** remove `stats/base/dmean` _(by Gururaj Gurram)_
+-   [`744337a`](https://github.com/stdlib-js/stdlib/commit/744337aaebfd4a9631f17765bce57a38c5374173) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`3a971ae`](https://github.com/stdlib-js/stdlib/commit/3a971ae60992b3c6ea6b5cc1654084ab08ca44bd) - **remove:** remove `dmean` from namespace _(by Gururaj Gurram)_
+-   [`2f6f498`](https://github.com/stdlib-js/stdlib/commit/2f6f498a409e309dc93844f8b9e2dbc2a2acb594) - **feat:** add `stats/strided/dmean` _(by Gururaj Gurram)_
 -   [`eb4ee39`](https://github.com/stdlib-js/stdlib/commit/eb4ee397ee785010d2f85edc22de34775869f036) - **chore:** update comments [(#7203)](https://github.com/stdlib-js/stdlib/pull/7203) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`9323351`](https://github.com/stdlib-js/stdlib/commit/93233519a69eb2c74d0ab04cc0814def6a9300b2) - **feat:** add support for accessor arrays and refactor `stats/base/nanmeanpn` [(#7098)](https://github.com/stdlib-js/stdlib/pull/7098) _(by Gururaj Gurram, Athan Reines)_
 -   [`a889189`](https://github.com/stdlib-js/stdlib/commit/a889189e1a7d22e0f435bb0da3371eee73fb665d) - **feat:** add `stats/strided/wasm/dmeanwd` [(#7188)](https://github.com/stdlib-js/stdlib/pull/7188) _(by Prashant Kumar Yadav, Athan Reines)_
