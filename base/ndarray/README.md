@@ -48,6 +48,7 @@ The namespace exposes the following APIs:
 -   <span class="signature">[`cumax( arrays )`][@stdlib/stats/base/ndarray/cumax]</span><span class="delimiter">: </span><span class="description">compute the cumulative maximum value of a one-dimensional ndarray.</span>
 -   <span class="signature">[`dcumax( arrays )`][@stdlib/stats/base/ndarray/dcumax]</span><span class="delimiter">: </span><span class="description">compute the cumulative maximum value of a one-dimensional double-precision floating-point ndarray.</span>
 -   <span class="signature">[`dmax( arrays )`][@stdlib/stats/base/ndarray/dmax]</span><span class="delimiter">: </span><span class="description">compute the maximum value of a one-dimensional double-precision floating-point ndarray.</span>
+-   <span class="signature">[`maxBy( arrays, clbk[, thisArg ] )`][@stdlib/stats/base/ndarray/max-by]</span><span class="delimiter">: </span><span class="description">compute the maximum value of a one-dimensional ndarray via a callback function.</span>
 -   <span class="signature">[`max( arrays )`][@stdlib/stats/base/ndarray/max]</span><span class="delimiter">: </span><span class="description">compute the maximum value of a one-dimensional ndarray.</span>
 -   <span class="signature">[`scumax( arrays )`][@stdlib/stats/base/ndarray/scumax]</span><span class="delimiter">: </span><span class="description">compute the cumulative maximum value of a one-dimensional single-precision floating-point ndarray.</span>
 -   <span class="signature">[`smax( arrays )`][@stdlib/stats/base/ndarray/smax]</span><span class="delimiter">: </span><span class="description">compute the maximum value of a one-dimensional single-precision floating-point ndarray.</span>
@@ -98,6 +99,8 @@ console.log( objectKeys( ns ) );
 [@stdlib/stats/base/ndarray/dcumax]: https://github.com/stdlib-js/stats/tree/main/base/ndarray/dcumax
 
 [@stdlib/stats/base/ndarray/dmax]: https://github.com/stdlib-js/stats/tree/main/base/ndarray/dmax
+
+[@stdlib/stats/base/ndarray/max-by]: https://github.com/stdlib-js/stats/tree/main/base/ndarray/max-by
 
 [@stdlib/stats/base/ndarray/max]: https://github.com/stdlib-js/stats/tree/main/base/ndarray/max
 
