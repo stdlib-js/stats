@@ -1904,6 +1904,7 @@ A total of 418 issues were closed in this release:
 
 <details>
 
+-   [`2b194d1`](https://github.com/stdlib-js/stdlib/commit/2b194d117855b1f756a5f9617873231cf2a7fbd8) - **docs:** fix duplication declaration _(by Athan Reines)_
 -   [`aabd484`](https://github.com/stdlib-js/stdlib/commit/aabd4840b72d764e03009f45ebf1039174fcb4dc) - **docs:** update comments _(by Athan Reines)_
 -   [`d13caae`](https://github.com/stdlib-js/stdlib/commit/d13caae55b9ac197dad519efe76192b6a21fb04d) - **feat:** refactor and add protocol support to `stats/base/nanmax-by` [(#6469)](https://github.com/stdlib-js/stdlib/pull/6469) _(by Gautam Kaushik, Athan Reines, stdlib-bot, Gururaj Gurram)_
 -   [`631ef8c`](https://github.com/stdlib-js/stdlib/commit/631ef8c4795b1241acfb7380bd77253663ce04b9) - **docs:** update namespace table of contents [(#7202)](https://github.com/stdlib-js/stdlib/pull/7202) _(by stdlib-bot)_
