@@ -1919,6 +1919,10 @@ A total of 421 issues were closed in this release:
 
 <details>
 
+-   [`9da485e`](https://github.com/stdlib-js/stdlib/commit/9da485ef4f27ad097efa6a99cc23fd338563fb24) - **refactor:** allow arrays of any dtype _(by Athan Reines)_
+-   [`61b019f`](https://github.com/stdlib-js/stdlib/commit/61b019f6e730e0261c5cf1b070895451ba4abffd) - **docs:** fix input type _(by Athan Reines)_
+-   [`ee3f5ae`](https://github.com/stdlib-js/stdlib/commit/ee3f5ae5b8c3a4c6522dc9c03972507204814f3f) - **test:** use function declaration _(by Athan Reines)_
+-   [`1a721d0`](https://github.com/stdlib-js/stdlib/commit/1a721d05d7e63de943935a09f024d6cf52208e38) - **refactor:** allow arrays of any dtype _(by Athan Reines)_
 -   [`f66ef4f`](https://github.com/stdlib-js/stdlib/commit/f66ef4f470b76550b1634371cbaa1a4ab6c54b3b) - **feat:** add `stats/array/nanmaxabs` [(#7172)](https://github.com/stdlib-js/stdlib/pull/7172) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`d4effdb`](https://github.com/stdlib-js/stdlib/commit/d4effdbd021088e1260f4e3beb0636261972744d) - **chore:** fix C lint errors [(#7217)](https://github.com/stdlib-js/stdlib/pull/7217) _(by zhanggy)_
 -   [`c1876a1`](https://github.com/stdlib-js/stdlib/commit/c1876a14d75a46b662b0cde90a62f9c934156318) - **docs:** update namespace table of contents [(#7222)](https://github.com/stdlib-js/stdlib/pull/7222) _(by stdlib-bot)_
