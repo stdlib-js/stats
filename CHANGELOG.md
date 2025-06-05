@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`937d30e`](https://github.com/stdlib-js/stdlib/commit/937d30e922d22d2d1630adb696a423c5f29fffe4) - add `stats/array/nanmax-by` [(#7204)](https://github.com/stdlib-js/stdlib/pull/7204)
 -   [`f66ef4f`](https://github.com/stdlib-js/stdlib/commit/f66ef4f470b76550b1634371cbaa1a4ab6c54b3b) - add `stats/array/nanmaxabs` [(#7172)](https://github.com/stdlib-js/stdlib/pull/7172)
 -   [`2f6f498`](https://github.com/stdlib-js/stdlib/commit/2f6f498a409e309dc93844f8b9e2dbc2a2acb594) - add `stats/strided/dmean`
 -   [`9323351`](https://github.com/stdlib-js/stdlib/commit/93233519a69eb2c74d0ab04cc0814def6a9300b2) - add support for accessor arrays and refactor `stats/base/nanmeanpn` [(#7098)](https://github.com/stdlib-js/stdlib/pull/7098)
@@ -1919,6 +1920,7 @@ A total of 421 issues were closed in this release:
 
 <details>
 
+-   [`937d30e`](https://github.com/stdlib-js/stdlib/commit/937d30e922d22d2d1630adb696a423c5f29fffe4) - **feat:** add `stats/array/nanmax-by` [(#7204)](https://github.com/stdlib-js/stdlib/pull/7204) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`eb4a2bd`](https://github.com/stdlib-js/stdlib/commit/eb4a2bd46a96c9d4315bf542d419996716b4ce8e) - **docs:** fix parameter type _(by Athan Reines)_
 -   [`e8d54b0`](https://github.com/stdlib-js/stdlib/commit/e8d54b0a5e8188e9583842f606191176c847b5a7) - **docs:** fix parameter type _(by Athan Reines)_
 -   [`61acb8f`](https://github.com/stdlib-js/stdlib/commit/61acb8f57954317098c7279713b480217dfeabff) - **docs:** fix parameter type _(by Athan Reines)_
