@@ -61,7 +61,7 @@ function maxBy( x, clbk, thisArg ) {
 	* Invokes a provided callback.
 	*
 	* @private
-	* @param {number} value - current element
+	* @param {*} value - current element
 	* @param {NonNegativeInteger} aidx - current array index
 	* @param {NonNegativeInteger} sidx - current strided index
 	* @param {NumericArray} arr - input array
