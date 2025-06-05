@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`6a582d2`](https://github.com/stdlib-js/stdlib/commit/6a582d2d70bb992927c3ff8790dbb06376921f71) - add `nanmaxabs` and `nanrange` to namespace
+-   [`9c7fa03`](https://github.com/stdlib-js/stdlib/commit/9c7fa0344102be742e9a7f100a7d9490d700da41) - add `nanmaxBy` to namespace
 -   [`937d30e`](https://github.com/stdlib-js/stdlib/commit/937d30e922d22d2d1630adb696a423c5f29fffe4) - add `stats/array/nanmax-by` [(#7204)](https://github.com/stdlib-js/stdlib/pull/7204)
 -   [`f66ef4f`](https://github.com/stdlib-js/stdlib/commit/f66ef4f470b76550b1634371cbaa1a4ab6c54b3b) - add `stats/array/nanmaxabs` [(#7172)](https://github.com/stdlib-js/stdlib/pull/7172)
 -   [`2f6f498`](https://github.com/stdlib-js/stdlib/commit/2f6f498a409e309dc93844f8b9e2dbc2a2acb594) - add `stats/strided/dmean`
@@ -1920,6 +1922,8 @@ A total of 421 issues were closed in this release:
 
 <details>
 
+-   [`6a582d2`](https://github.com/stdlib-js/stdlib/commit/6a582d2d70bb992927c3ff8790dbb06376921f71) - **feat:** add `nanmaxabs` and `nanrange` to namespace _(by Athan Reines)_
+-   [`9c7fa03`](https://github.com/stdlib-js/stdlib/commit/9c7fa0344102be742e9a7f100a7d9490d700da41) - **feat:** add `nanmaxBy` to namespace _(by Athan Reines)_
 -   [`937d30e`](https://github.com/stdlib-js/stdlib/commit/937d30e922d22d2d1630adb696a423c5f29fffe4) - **feat:** add `stats/array/nanmax-by` [(#7204)](https://github.com/stdlib-js/stdlib/pull/7204) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`eb4a2bd`](https://github.com/stdlib-js/stdlib/commit/eb4a2bd46a96c9d4315bf542d419996716b4ce8e) - **docs:** fix parameter type _(by Athan Reines)_
 -   [`e8d54b0`](https://github.com/stdlib-js/stdlib/commit/e8d54b0a5e8188e9583842f606191176c847b5a7) - **docs:** fix parameter type _(by Athan Reines)_
