@@ -1923,6 +1923,7 @@ A total of 422 issues were closed in this release:
 
 <details>
 
+-   [`844a77f`](https://github.com/stdlib-js/stdlib/commit/844a77f27c0cd6fe5b58b2444ced6f6d4e3fc367) - **docs:** fix missing include _(by Athan Reines)_
 -   [`c33ab55`](https://github.com/stdlib-js/stdlib/commit/c33ab55a3516b9037f377b62aa76c50a80b2ea2e) - **docs:** fix missing include _(by Athan Reines)_
 -   [`5f8c1b8`](https://github.com/stdlib-js/stdlib/commit/5f8c1b882f640400190ef4f83bec0721f98e66a3) - **feat:** refactor and add protocol support to `stats/base/nanminabs` [(#6345)](https://github.com/stdlib-js/stdlib/pull/6345) _(by Gautam Kaushik, Athan Reines, Gururaj Gurram)_
 -   [`6a582d2`](https://github.com/stdlib-js/stdlib/commit/6a582d2d70bb992927c3ff8790dbb06376921f71) - **feat:** add `nanmaxabs` and `nanrange` to namespace _(by Athan Reines)_
