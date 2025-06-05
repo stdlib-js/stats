@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dmeanpn.h"
+#include "stdlib/stats/strided/dmeanpn.h"
 #include <stdio.h>
 
 int main( void ) {

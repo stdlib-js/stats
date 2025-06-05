@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dmeanpn",
+  "name": "@stdlib/stats/strided/dmeanpn",
   "version": "0.0.0",
   "description": "Calculate the arithmetic mean of a double-precision floating-point strided array using a two-pass error correction algorithm.",
   "license": "Apache-2.0",

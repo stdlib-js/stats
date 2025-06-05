@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`eac5f26`](https://github.com/stdlib-js/stdlib/commit/eac5f2675ff54a28b8563e28f3b0d4210cbf43d5) - add `stats/strided/dmeanpn`
 -   [`223ace2`](https://github.com/stdlib-js/stdlib/commit/223ace2eeeabb389a306d0f7fdc06b08332c1457) - add `stats/array/nanminabs` [(#7225)](https://github.com/stdlib-js/stdlib/pull/7225)
 -   [`6943393`](https://github.com/stdlib-js/stdlib/commit/6943393d702a1a4cc2dad7b6e22b813e98d99971) - add C ndarray interface and refactor implementation for `stats/base/dnanmskmin` [(#7198)](https://github.com/stdlib-js/stdlib/pull/7198)
 -   [`5f8c1b8`](https://github.com/stdlib-js/stdlib/commit/5f8c1b882f640400190ef4f83bec0721f98e66a3) - refactor and add protocol support to `stats/base/nanminabs` [(#6345)](https://github.com/stdlib-js/stdlib/pull/6345)
@@ -731,6 +732,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`f3d9c6a`](https://github.com/stdlib-js/stdlib/commit/f3d9c6a01151df8282cc83884b6c12719bffee17): remove `stats/base/dmeanpn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dmeanpn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`bfdc57c`](https://github.com/stdlib-js/stdlib/commit/bfdc57c8949852ad9a7077f4514cd3fbc9b7f289): remove `stats/base/dmeanpn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided/dmeanpn` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`b82a3b0`](https://github.com/stdlib-js/stdlib/commit/b82a3b04be3cdb301d6521b2b466172fc5a9b986): remove `stats/base/dmean`
 
@@ -1925,6 +1937,10 @@ A total of 422 issues were closed in this release:
 
 <details>
 
+-   [`f3d9c6a`](https://github.com/stdlib-js/stdlib/commit/f3d9c6a01151df8282cc83884b6c12719bffee17) - **remove:** remove `stats/base/dmeanpn` _(by Gururaj Gurram)_
+-   [`021eb13`](https://github.com/stdlib-js/stdlib/commit/021eb13dce7e7c359ec262d0d37cce210deef3a7) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`bfdc57c`](https://github.com/stdlib-js/stdlib/commit/bfdc57c8949852ad9a7077f4514cd3fbc9b7f289) - **remove:** remove `stats/base/dmeanpn` from namespace _(by Gururaj Gurram)_
+-   [`eac5f26`](https://github.com/stdlib-js/stdlib/commit/eac5f2675ff54a28b8563e28f3b0d4210cbf43d5) - **feat:** add `stats/strided/dmeanpn` _(by Gururaj Gurram)_
 -   [`223ace2`](https://github.com/stdlib-js/stdlib/commit/223ace2eeeabb389a306d0f7fdc06b08332c1457) - **feat:** add `stats/array/nanminabs` [(#7225)](https://github.com/stdlib-js/stdlib/pull/7225) _(by Gururaj Gurram)_
 -   [`6943393`](https://github.com/stdlib-js/stdlib/commit/6943393d702a1a4cc2dad7b6e22b813e98d99971) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmskmin` [(#7198)](https://github.com/stdlib-js/stdlib/pull/7198) _(by Gururaj Gurram, Athan Reines)_
 -   [`844a77f`](https://github.com/stdlib-js/stdlib/commit/844a77f27c0cd6fe5b58b2444ced6f6d4e3fc367) - **docs:** fix missing include _(by Athan Reines)_

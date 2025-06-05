@@ -25,7 +25,6 @@ import cumaxabs = require( './../../../base/cumaxabs' );
 import cumin = require( './../../../base/cumin' );
 import cuminabs = require( './../../../base/cuminabs' );
 import dists = require( './../../../base/dists' );
-import dmeanpn = require( './../../../base/dmeanpn' );
 import dmeanstdev = require( './../../../base/dmeanstdev' );
 import dmeanstdevpn = require( './../../../base/dmeanstdevpn' );
 import dmeanvar = require( './../../../base/dmeanvar' );
@@ -253,32 +252,6 @@ interface Namespace {
 	* Base (i.e., lower-level) probability distributions.
 	*/
 	dists: typeof dists;
-
-	/**
-	* Computes the arithmetic mean of a double-precision floating-point strided array using a two-pass error correction algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmeanpn( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dmeanpn.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	dmeanpn: typeof dmeanpn;
 
 	/**
 	* Computes the mean and standard deviation of a double-precision floating-point strided array.

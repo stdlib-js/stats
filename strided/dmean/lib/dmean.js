@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dmeanpn = require( './../../../base/dmeanpn' );
+var dmeanpn = require( './../../../strided/dmeanpn' );
 
 
 // MAIN //

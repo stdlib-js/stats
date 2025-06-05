@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dmeanpn.h"
+#include "stdlib/stats/strided/dmeanpn.h"
 #include "stdlib/blas/ext/base/dsumpw.h"
 #include "stdlib/blas/ext/base/dapxsumpw.h"
 #include "stdlib/blas/base/shared.h"

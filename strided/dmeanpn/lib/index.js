@@ -21,11 +21,11 @@
 /**
 * Compute the arithmetic mean of a double-precision floating-point strided array using a two-pass error correction algorithm.
 *
-* @module @stdlib/stats/base/dmeanpn
+* @module @stdlib/stats/strided/dmeanpn
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmeanpn = require( '@stdlib/stats/base/dmeanpn' );
+* var dmeanpn = require( '@stdlib/stats/strided/dmeanpn' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmeanpn = require( '@stdlib/stats/base/dmeanpn' );
+* var dmeanpn = require( '@stdlib/stats/strided/dmeanpn' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *
