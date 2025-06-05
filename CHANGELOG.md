@@ -1919,6 +1919,8 @@ A total of 421 issues were closed in this release:
 
 <details>
 
+-   [`eb4a2bd`](https://github.com/stdlib-js/stdlib/commit/eb4a2bd46a96c9d4315bf542d419996716b4ce8e) - **docs:** fix parameter type _(by Athan Reines)_
+-   [`e8d54b0`](https://github.com/stdlib-js/stdlib/commit/e8d54b0a5e8188e9583842f606191176c847b5a7) - **docs:** fix parameter type _(by Athan Reines)_
 -   [`61acb8f`](https://github.com/stdlib-js/stdlib/commit/61acb8f57954317098c7279713b480217dfeabff) - **docs:** fix parameter type _(by Athan Reines)_
 -   [`b3ac7b2`](https://github.com/stdlib-js/stdlib/commit/b3ac7b2586d57556fe367ffb6a51aae824e6b0a3) - **docs:** parameter type _(by Athan Reines)_
 -   [`9da485e`](https://github.com/stdlib-js/stdlib/commit/9da485ef4f27ad097efa6a99cc23fd338563fb24) - **refactor:** allow arrays of any dtype _(by Athan Reines)_

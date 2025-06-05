@@ -64,7 +64,7 @@ function maxBy( x, clbk, thisArg ) {
 	* @param {*} value - current element
 	* @param {NonNegativeInteger} aidx - current array index
 	* @param {NonNegativeInteger} sidx - current strided index
-	* @param {NumericArray} arr - input array
+	* @param {Collection} arr - input array
 	* @returns {number} callback return value
 	*/
 	function wrapper( value, aidx, sidx, arr ) {
