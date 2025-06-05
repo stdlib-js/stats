@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`6943393`](https://github.com/stdlib-js/stdlib/commit/6943393d702a1a4cc2dad7b6e22b813e98d99971) - add C ndarray interface and refactor implementation for `stats/base/dnanmskmin` [(#7198)](https://github.com/stdlib-js/stdlib/pull/7198)
 -   [`5f8c1b8`](https://github.com/stdlib-js/stdlib/commit/5f8c1b882f640400190ef4f83bec0721f98e66a3) - refactor and add protocol support to `stats/base/nanminabs` [(#6345)](https://github.com/stdlib-js/stdlib/pull/6345)
 -   [`6a582d2`](https://github.com/stdlib-js/stdlib/commit/6a582d2d70bb992927c3ff8790dbb06376921f71) - add `nanmaxabs` and `nanrange` to namespace
 -   [`9c7fa03`](https://github.com/stdlib-js/stdlib/commit/9c7fa0344102be742e9a7f100a7d9490d700da41) - add `nanmaxBy` to namespace
@@ -1923,6 +1924,7 @@ A total of 422 issues were closed in this release:
 
 <details>
 
+-   [`6943393`](https://github.com/stdlib-js/stdlib/commit/6943393d702a1a4cc2dad7b6e22b813e98d99971) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmskmin` [(#7198)](https://github.com/stdlib-js/stdlib/pull/7198) _(by Gururaj Gurram, Athan Reines)_
 -   [`844a77f`](https://github.com/stdlib-js/stdlib/commit/844a77f27c0cd6fe5b58b2444ced6f6d4e3fc367) - **docs:** fix missing include _(by Athan Reines)_
 -   [`c33ab55`](https://github.com/stdlib-js/stdlib/commit/c33ab55a3516b9037f377b62aa76c50a80b2ea2e) - **docs:** fix missing include _(by Athan Reines)_
 -   [`5f8c1b8`](https://github.com/stdlib-js/stdlib/commit/5f8c1b882f640400190ef4f83bec0721f98e66a3) - **feat:** refactor and add protocol support to `stats/base/nanminabs` [(#6345)](https://github.com/stdlib-js/stdlib/pull/6345) _(by Gautam Kaushik, Athan Reines, Gururaj Gurram)_
