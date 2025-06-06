@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_STATS_BASE_DNANMSKRANGE_H
-#define STDLIB_STATS_BASE_DNANMSKRANGE_H
+#ifndef STDLIB_STATS_STRIDED_DNANMSKRANGE_H
+#define STDLIB_STATS_STRIDED_DNANMSKRANGE_H
 
 #include "stdlib/blas/base/shared.h"
 #include <stdint.h>
@@ -43,4 +43,4 @@ double API_SUFFIX(stdlib_strided_dnanmskrange_ndarray)( const CBLAS_INT N, const
 }
 #endif
 
-#endif // !STDLIB_STATS_BASE_DNANMSKRANGE_H
+#endif // !STDLIB_STATS_STRIDED_DNANMSKRANGE_H

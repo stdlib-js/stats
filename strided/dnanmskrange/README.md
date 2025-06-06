@@ -37,7 +37,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-var dnanmskrange = require( '@stdlib/stats/base/dnanmskrange' );
+var dnanmskrange = require( '@stdlib/stats/strided/dnanmskrange' );
 ```
 
 #### dnanmskrange( N, x, strideX, mask, strideMask )
@@ -151,7 +151,7 @@ var v = dnanmskrange.ndarray( 4, x, 2, 1, mask, 2, 1 );
 var uniform = require( '@stdlib/random/base/uniform' );
 var bernoulli = require( '@stdlib/random/base/bernoulli' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
-var dnanmskrange = require( '@stdlib/stats/base/dnanmskrange' );
+var dnanmskrange = require( '@stdlib/stats/strided/dnanmskrange' );
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
@@ -197,7 +197,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dnanmskrange.h"
+#include "stdlib/stats/strided/dnanmskrange.h"
 ```
 
 #### stdlib_strided_dnanmskrange( N, \*X, strideX, \*Mask, strideMask )
@@ -273,7 +273,7 @@ double stdlib_strided_dnanmskrange_ndarray( const CBLAS_INT N, const double *X, 
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dnanmskrange.h"
+#include "stdlib/stats/strided/dnanmskrange.h"
 #include <stdint.h>
 #include <stdio.h>
 

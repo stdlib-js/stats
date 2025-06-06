@@ -29,7 +29,6 @@ import dmeanstdev = require( './../../../base/dmeanstdev' );
 import dmeanstdevpn = require( './../../../base/dmeanstdevpn' );
 import dmeanvar = require( './../../../base/dmeanvar' );
 import dmeanvarpn = require( './../../../base/dmeanvarpn' );
-import dnanmskrange = require( './../../../base/dnanmskrange' );
 import dnanstdev = require( './../../../base/dnanstdev' );
 import dsem = require( './../../../base/dsem' );
 import dsempn = require( './../../../base/dsempn' );
@@ -374,38 +373,6 @@ interface Namespace {
 	* // returns <Float64Array>[ ~0.3333, ~4.3333 ]
 	*/
 	dmeanvarpn: typeof dmeanvarpn;
-
-	/**
-	* Computes the range of a double-precision floating-point strided array according to a mask, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param mask - mask array
-	* @param strideMask - `mask` stride length
-	* @returns range
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 4.0, 2.0, NaN ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0, 0 ] );
-	*
-	* var v = ns.dnanmskrange( x.length, x, 1, mask, 1 );
-	* // returns 4.0
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 4.0, 2.0, NaN ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0, 0 ] );
-	*
-	* var v = ns.dnanmskrange.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 4.0
-	*/
-	dnanmskrange: typeof dnanmskrange;
 
 	/**
 	* Computes the standard deviation of a double-precision floating-point strided array ignoring `NaN` values.

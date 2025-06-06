@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanmskrange.h"
+#include "stdlib/stats/strided/dnanmskrange.h"
 #include <stdint.h>
 #include <stdio.h>
 
