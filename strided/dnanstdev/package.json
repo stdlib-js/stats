@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dnanstdev",
+  "name": "@stdlib/stats/strided/dnanstdev",
   "version": "0.0.0",
   "description": "Calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values.",
   "license": "Apache-2.0",
