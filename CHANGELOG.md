@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`d63bffd`](https://github.com/stdlib-js/stdlib/commit/d63bffdeafbf40b3226d9d1709cdb807e0cb6dec) - add `maxBy` to namespace
+-   [`db08f1c`](https://github.com/stdlib-js/stdlib/commit/db08f1c859652be86315e51df0f90a8d87154942) - add `stats/max-by`
 -   [`b9294ff`](https://github.com/stdlib-js/stdlib/commit/b9294fff47a11757d6f9d1480ec89df532389e58) - add `stats/strided/dnanstdev`
 -   [`1b587c2`](https://github.com/stdlib-js/stdlib/commit/1b587c25b15ba638fa790e363e8a07c48653774d) - add `stats/strided/dnanmskrange`
 -   [`03bc163`](https://github.com/stdlib-js/stdlib/commit/03bc163de8c0eb93ab4b0504b93f994e096fa351) - add `stats/strided/dnanmskmin`
@@ -1985,6 +1987,8 @@ A total of 422 issues were closed in this release:
 
 <details>
 
+-   [`d63bffd`](https://github.com/stdlib-js/stdlib/commit/d63bffdeafbf40b3226d9d1709cdb807e0cb6dec) - **feat:** add `maxBy` to namespace _(by Athan Reines)_
+-   [`db08f1c`](https://github.com/stdlib-js/stdlib/commit/db08f1c859652be86315e51df0f90a8d87154942) - **feat:** add `stats/max-by` _(by Athan Reines)_
 -   [`a88c74b`](https://github.com/stdlib-js/stdlib/commit/a88c74b020fd021724a0ccfe42ce55f178243ee8) - **remove:** remove `stats/base/dnanstdev` _(by Gururaj Gurram)_
 -   [`9c993f8`](https://github.com/stdlib-js/stdlib/commit/9c993f89e63574c8b17ec62d4ca1b5d88e47bf3e) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`ee59f0c`](https://github.com/stdlib-js/stdlib/commit/ee59f0c8bd8528bdcc8b351e16b2af8dcdd677c2) - **remove:** remove `dnanstdev` from namespace _(by Gururaj Gurram)_
