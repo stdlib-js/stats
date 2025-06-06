@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7013fd5`](https://github.com/stdlib-js/stdlib/commit/7013fd5dcd1c3ec9b39f545c32b31e52b94b3b85) - add `stats/strided/dnanmskmax`
 -   [`eac5f26`](https://github.com/stdlib-js/stdlib/commit/eac5f2675ff54a28b8563e28f3b0d4210cbf43d5) - add `stats/strided/dmeanpn`
 -   [`223ace2`](https://github.com/stdlib-js/stdlib/commit/223ace2eeeabb389a306d0f7fdc06b08332c1457) - add `stats/array/nanminabs` [(#7225)](https://github.com/stdlib-js/stdlib/pull/7225)
 -   [`6943393`](https://github.com/stdlib-js/stdlib/commit/6943393d702a1a4cc2dad7b6e22b813e98d99971) - add C ndarray interface and refactor implementation for `stats/base/dnanmskmin` [(#7198)](https://github.com/stdlib-js/stdlib/pull/7198)
@@ -732,6 +733,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`a2d6cbe`](https://github.com/stdlib-js/stdlib/commit/a2d6cbefb9d9d408f0fb89b7cec6b70cd6315427): remove `stats/base/dnanmskmax`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dnanmskmax`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`d59e563`](https://github.com/stdlib-js/stdlib/commit/d59e563c9a551a8b058ba603f7e40afddd3f5788): remove `dnanmskmax`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`f3d9c6a`](https://github.com/stdlib-js/stdlib/commit/f3d9c6a01151df8282cc83884b6c12719bffee17): remove `stats/base/dmeanpn`
 
@@ -1937,6 +1949,10 @@ A total of 422 issues were closed in this release:
 
 <details>
 
+-   [`a2d6cbe`](https://github.com/stdlib-js/stdlib/commit/a2d6cbefb9d9d408f0fb89b7cec6b70cd6315427) - **remove:** remove `stats/base/dnanmskmax` _(by Gururaj Gurram)_
+-   [`fe52935`](https://github.com/stdlib-js/stdlib/commit/fe52935c933cce3e5550436a283495fb1dec0898) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`d59e563`](https://github.com/stdlib-js/stdlib/commit/d59e563c9a551a8b058ba603f7e40afddd3f5788) - **remove:** remove `dnanmskmax` from namespace _(by Gururaj Gurram)_
+-   [`7013fd5`](https://github.com/stdlib-js/stdlib/commit/7013fd5dcd1c3ec9b39f545c32b31e52b94b3b85) - **feat:** add `stats/strided/dnanmskmax` _(by Gururaj Gurram)_
 -   [`03e5c54`](https://github.com/stdlib-js/stdlib/commit/03e5c54b90e538bee276484281d2e4553d7ec83e) - **docs:** update namespace table of contents [(#7233)](https://github.com/stdlib-js/stdlib/pull/7233) _(by stdlib-bot)_
 -   [`b4858b7`](https://github.com/stdlib-js/stdlib/commit/b4858b789abad2c26b3e2522e74f23c604743ff4) - **docs:** update related packages sections [(#7230)](https://github.com/stdlib-js/stdlib/pull/7230) _(by stdlib-bot)_
 -   [`f3d9c6a`](https://github.com/stdlib-js/stdlib/commit/f3d9c6a01151df8282cc83884b6c12719bffee17) - **remove:** remove `stats/base/dmeanpn` _(by Gururaj Gurram)_

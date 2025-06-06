@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dnanmskmax.h"
+#include "stdlib/stats/strided/dnanmskmax.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
