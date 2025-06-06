@@ -1937,6 +1937,7 @@ A total of 422 issues were closed in this release:
 
 <details>
 
+-   [`03e5c54`](https://github.com/stdlib-js/stdlib/commit/03e5c54b90e538bee276484281d2e4553d7ec83e) - **docs:** update namespace table of contents [(#7233)](https://github.com/stdlib-js/stdlib/pull/7233) _(by stdlib-bot)_
 -   [`b4858b7`](https://github.com/stdlib-js/stdlib/commit/b4858b789abad2c26b3e2522e74f23c604743ff4) - **docs:** update related packages sections [(#7230)](https://github.com/stdlib-js/stdlib/pull/7230) _(by stdlib-bot)_
 -   [`f3d9c6a`](https://github.com/stdlib-js/stdlib/commit/f3d9c6a01151df8282cc83884b6c12719bffee17) - **remove:** remove `stats/base/dmeanpn` _(by Gururaj Gurram)_
 -   [`021eb13`](https://github.com/stdlib-js/stdlib/commit/021eb13dce7e7c359ec262d0d37cce210deef3a7) - **refactor:** update paths _(by Gururaj Gurram)_
