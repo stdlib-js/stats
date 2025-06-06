@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-05)
+## Unreleased (2025-06-06)
 
 <section class="features">
 
@@ -1937,6 +1937,7 @@ A total of 422 issues were closed in this release:
 
 <details>
 
+-   [`b4858b7`](https://github.com/stdlib-js/stdlib/commit/b4858b789abad2c26b3e2522e74f23c604743ff4) - **docs:** update related packages sections [(#7230)](https://github.com/stdlib-js/stdlib/pull/7230) _(by stdlib-bot)_
 -   [`f3d9c6a`](https://github.com/stdlib-js/stdlib/commit/f3d9c6a01151df8282cc83884b6c12719bffee17) - **remove:** remove `stats/base/dmeanpn` _(by Gururaj Gurram)_
 -   [`021eb13`](https://github.com/stdlib-js/stdlib/commit/021eb13dce7e7c359ec262d0d37cce210deef3a7) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`bfdc57c`](https://github.com/stdlib-js/stdlib/commit/bfdc57c8949852ad9a7077f4514cd3fbc9b7f289) - **remove:** remove `stats/base/dmeanpn` from namespace _(by Gururaj Gurram)_

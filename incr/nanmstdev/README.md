@@ -166,16 +166,6 @@ console.log( accumulator() );
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/mstdev]: https://github.com/stdlib-js/stats/tree/main/incr/mstdev
-
-[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats/tree/main/incr/mmean
-
-[@stdlib/stats/incr/msummary]: https://github.com/stdlib-js/stats/tree/main/incr/msummary
-
-[@stdlib/stats/incr/mvariance]: https://github.com/stdlib-js/stats/tree/main/incr/mvariance
-
-[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats/tree/main/incr/stdev
-
 <!-- </related-links> -->
 
 </section>
