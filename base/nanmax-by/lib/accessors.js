@@ -66,9 +66,6 @@ function nanmaxBy( N, x, strideX, offsetX, clbk, thisArg ) {
 	// Cache a reference to the element accessor:
 	get = x.accessors[0];
 
-	if ( N <= 0 ) {
-		return NaN;
-	}
 	if ( N === 1 || strideX === 0 ) {
 		v = clbk.call( thisArg, get( xbuf, offsetX ), 0, offsetX, xbuf );
 		if ( v === void 0 || isnan( v ) ) {

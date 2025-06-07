@@ -2027,6 +2027,7 @@ A total of 423 issues were closed in this release:
 
 <details>
 
+-   [`e0b7f74`](https://github.com/stdlib-js/stdlib/commit/e0b7f74093ddcbf5184374319fcad09f32d0013a) - **refactor:** remove unreachable code path _(by Athan Reines)_
 -   [`bc2c29e`](https://github.com/stdlib-js/stdlib/commit/bc2c29ea63c0e990892b96b791867c1b33487b98) - **remove:** remove `stats/base/snanmskrange` _(by Gururaj Gurram)_
 -   [`45d9704`](https://github.com/stdlib-js/stdlib/commit/45d97048bc76095265cac4f5a84121ee7ebdb891) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`e13d977`](https://github.com/stdlib-js/stdlib/commit/e13d977232202844501d1a9fb83d8c908417e32d) - **remove:** remove `snanmskrange` from namespace _(by Gururaj Gurram)_
