@@ -146,6 +146,7 @@ Other statistical functions included are:
 -   <span class="signature">[`cumax( x[, options] )`][@stdlib/stats/cumax]</span><span class="delimiter">: </span><span class="description">compute the cumulative maximum value along one or more ndarray dimensions.</span>
 -   <span class="signature">[`kde2d()`][@stdlib/stats/kde2d]</span><span class="delimiter">: </span><span class="description">two-dimensional kernel density estimation.</span>
 -   <span class="signature">[`lowess( x, y[, opts] )`][@stdlib/stats/lowess]</span><span class="delimiter">: </span><span class="description">locally-weighted polynomial regression via the LOWESS algorithm.</span>
+-   <span class="signature">[`maxBy( x[, options], clbk[, thisArg] )`][@stdlib/stats/max-by]</span><span class="delimiter">: </span><span class="description">compute the maximum value along one or more ndarray dimensions according to a callback function.</span>
 -   <span class="signature">[`max( x[, options] )`][@stdlib/stats/max]</span><span class="delimiter">: </span><span class="description">compute the maximum value along one or more ndarray dimensions.</span>
 -   <span class="signature">[`padjust( pvals, method[, comparisons] )`][@stdlib/stats/padjust]</span><span class="delimiter">: </span><span class="description">adjust supplied p-values for multiple comparisons.</span>
 -   <span class="signature">[`ranks( arr[, opts] )`][@stdlib/stats/ranks]</span><span class="delimiter">: </span><span class="description">compute ranks for values of an array-like object.</span>
@@ -264,6 +265,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/stats/kde2d]: https://github.com/stdlib-js/stats/tree/main/kde2d
 
 [@stdlib/stats/lowess]: https://github.com/stdlib-js/stats/tree/main/lowess
+
+[@stdlib/stats/max-by]: https://github.com/stdlib-js/stats/tree/main/max-by
 
 [@stdlib/stats/max]: https://github.com/stdlib-js/stats/tree/main/max
 
