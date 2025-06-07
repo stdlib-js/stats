@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e471303`](https://github.com/stdlib-js/stdlib/commit/e4713031573224770645312bb3fa1002dfaafb2a) - add `stats/strided/dsem`
 -   [`ea229fb`](https://github.com/stdlib-js/stdlib/commit/ea229fbe565e1de31d2abb8b2c85a0383d19eae7) - add `stats/strided/dstdev`
 -   [`5752f78`](https://github.com/stdlib-js/stdlib/commit/5752f783b2feede77e738302eb716177d64ca9fa) - add various aliases to namespace
 -   [`f1ddfad`](https://github.com/stdlib-js/stdlib/commit/f1ddfad5af35dca5e71c568c0ffb624835a16ab4) - add `snanmskmin` to namespace
@@ -748,6 +749,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`d6806fb`](https://github.com/stdlib-js/stdlib/commit/d6806fb329b278fd8f0bb6a800a3d984c03ef12c): remove `stats/base/dsem`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dsem`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`d2c3b4d`](https://github.com/stdlib-js/stdlib/commit/d2c3b4d02444221cbdcca8704931a3467448d257): remove `dsem`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`0cdc9aa`](https://github.com/stdlib-js/stdlib/commit/0cdc9aad7941b696f934c61ddbf99fd22767119f): remove `stats/base/dstdev`
 
@@ -2041,6 +2053,10 @@ A total of 423 issues were closed in this release:
 
 <details>
 
+-   [`d6806fb`](https://github.com/stdlib-js/stdlib/commit/d6806fb329b278fd8f0bb6a800a3d984c03ef12c) - **remove:** remove `stats/base/dsem` _(by Gururaj Gurram)_
+-   [`5e11dc3`](https://github.com/stdlib-js/stdlib/commit/5e11dc3efa9f3666ac5a3da7a24b9e864bc05acc) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`d2c3b4d`](https://github.com/stdlib-js/stdlib/commit/d2c3b4d02444221cbdcca8704931a3467448d257) - **remove:** remove `dsem` from namespace _(by Gururaj Gurram)_
+-   [`e471303`](https://github.com/stdlib-js/stdlib/commit/e4713031573224770645312bb3fa1002dfaafb2a) - **feat:** add `stats/strided/dsem` _(by Gururaj Gurram)_
 -   [`0cdc9aa`](https://github.com/stdlib-js/stdlib/commit/0cdc9aad7941b696f934c61ddbf99fd22767119f) - **remove:** remove `stats/base/dstdev` _(by Gururaj Gurram)_
 -   [`76100b0`](https://github.com/stdlib-js/stdlib/commit/76100b038910770cca2f13dd6e715802e3da756c) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`e6aa8cc`](https://github.com/stdlib-js/stdlib/commit/e6aa8cce22374977f6854c17b7fa9efbca67d5e9) - **remove:** remove `dstdev` from namespace _(by Gururaj Gurram)_

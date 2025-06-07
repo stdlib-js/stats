@@ -33,7 +33,7 @@ The [standard error of the mean][standard-error] of a finite size sample of size
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}" data-equation="eq:standard_error_of_the_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@227a94a6f2e49efe65e814f2da7bc9b9c2bec9b9/lib/node_modules/@stdlib/stats/base/dsem/docs/img/equation_standard_error_of_the_mean.svg" alt="Equation for the standard error of the mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@227a94a6f2e49efe65e814f2da7bc9b9c2bec9b9/lib/node_modules/@stdlib/stats/strided/dsem/docs/img/equation_standard_error_of_the_mean.svg" alt="Equation for the standard error of the mean.">
     <br>
 </div> -->
 
@@ -50,7 +50,7 @@ Often in the analysis of data, the true population [standard deviation][standard
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma_{\bar{x}} \approx \frac{s}{\sqrt{n}}" data-equation="eq:standard_error_of_the_mean_estimate">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@227a94a6f2e49efe65e814f2da7bc9b9c2bec9b9/lib/node_modules/@stdlib/stats/base/dsem/docs/img/equation_standard_error_of_the_mean_estimate.svg" alt="Equation for estimating the standard error of the mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@227a94a6f2e49efe65e814f2da7bc9b9c2bec9b9/lib/node_modules/@stdlib/stats/strided/dsem/docs/img/equation_standard_error_of_the_mean_estimate.svg" alt="Equation for estimating the standard error of the mean.">
     <br>
 </div> -->
 
@@ -67,7 +67,7 @@ where `s` is the sample [standard deviation][standard-deviation].
 ## Usage
 
 ```javascript
-var dsem = require( '@stdlib/stats/base/dsem' );
+var dsem = require( '@stdlib/stats/strided/dsem' );
 ```
 
 #### dsem( N, correction, x, strideX )
@@ -166,7 +166,7 @@ var v = dsem.ndarray( 4, 1, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dsem = require( '@stdlib/stats/base/dsem' );
+var dsem = require( '@stdlib/stats/strided/dsem' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
@@ -204,7 +204,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dsem.h"
+#include "stdlib/stats/strided/dsem.h"
 ```
 
 #### stdlib_strided_dsem( N, correction, \*X, strideX )
@@ -271,7 +271,7 @@ double stdlib_strided_dsem_ndarray( const CBLAS_INT N, const double correction, 
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dsem.h"
+#include "stdlib/stats/strided/dsem.h"
 #include <stdio.h>
 
 int main( void ) {

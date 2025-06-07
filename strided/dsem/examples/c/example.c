@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dsem.h"
+#include "stdlib/stats/strided/dsem.h"
 #include <stdio.h>
 
 int main( void ) {
