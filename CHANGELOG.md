@@ -2067,6 +2067,9 @@ A total of 423 issues were closed in this release:
 
 <details>
 
+-   [`309db06`](https://github.com/stdlib-js/stdlib/commit/309db06f06f20a57c91de51e224b33369d09fa09) - **docs:** fix note _(by Athan Reines)_
+-   [`7f81e57`](https://github.com/stdlib-js/stdlib/commit/7f81e57c7cafa09504b48624868badc9e8e5f20b) - **docs:** fix note _(by Athan Reines)_
+-   [`bc5a3af`](https://github.com/stdlib-js/stdlib/commit/bc5a3af4b75d1666d0dc52a6f84ab25fb981047d) - **docs:** fix note _(by Athan Reines)_
 -   [`64699f8`](https://github.com/stdlib-js/stdlib/commit/64699f8a9e131d510c0904e6d1216d787af5236b) - **feat:** add `stats/array/range` [(#6706)](https://github.com/stdlib-js/stdlib/pull/6706) _(by Gururaj Gurram, stdlib-bot)_
 -   [`b1a2926`](https://github.com/stdlib-js/stdlib/commit/b1a2926177757eaf4646b0f70f6dacf135f4e532) - **feat:** add `dsem`, `dsempn`, and `dstdev` to namespace _(by Athan Reines)_
 -   [`62eb56a`](https://github.com/stdlib-js/stdlib/commit/62eb56a526c332a843262a32e4cd87a419805d63) - **remove:** remove `stats/base/dsempn` _(by Gururaj Gurram)_
