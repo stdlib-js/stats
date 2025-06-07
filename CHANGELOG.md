@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`64699f8`](https://github.com/stdlib-js/stdlib/commit/64699f8a9e131d510c0904e6d1216d787af5236b) - add `stats/array/range` [(#6706)](https://github.com/stdlib-js/stdlib/pull/6706)
 -   [`b1a2926`](https://github.com/stdlib-js/stdlib/commit/b1a2926177757eaf4646b0f70f6dacf135f4e532) - add `dsem`, `dsempn`, and `dstdev` to namespace
 -   [`3971d95`](https://github.com/stdlib-js/stdlib/commit/3971d95479de1f3b55f56ea22068194cb5752b7a) - add `stats/strided/dsempn`
 -   [`e471303`](https://github.com/stdlib-js/stdlib/commit/e4713031573224770645312bb3fa1002dfaafb2a) - add `stats/strided/dsem`
@@ -2066,6 +2067,7 @@ A total of 423 issues were closed in this release:
 
 <details>
 
+-   [`64699f8`](https://github.com/stdlib-js/stdlib/commit/64699f8a9e131d510c0904e6d1216d787af5236b) - **feat:** add `stats/array/range` [(#6706)](https://github.com/stdlib-js/stdlib/pull/6706) _(by Gururaj Gurram, stdlib-bot)_
 -   [`b1a2926`](https://github.com/stdlib-js/stdlib/commit/b1a2926177757eaf4646b0f70f6dacf135f4e532) - **feat:** add `dsem`, `dsempn`, and `dstdev` to namespace _(by Athan Reines)_
 -   [`62eb56a`](https://github.com/stdlib-js/stdlib/commit/62eb56a526c332a843262a32e4cd87a419805d63) - **remove:** remove `stats/base/dsempn` _(by Gururaj Gurram)_
 -   [`06e5df7`](https://github.com/stdlib-js/stdlib/commit/06e5df79c7d8f12946d1dac18d7f632ee50fe780) - **refactor:** update paths _(by Gururaj Gurram)_
