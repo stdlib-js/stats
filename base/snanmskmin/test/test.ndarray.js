@@ -111,7 +111,7 @@ tape( 'if provided an `N` parameter less than or equal to `0`, the function retu
 	v = snanmskmin( 0, x, 1, 0, mask, 1, 0 );
 	t.strictEqual( isnanf( v ), true, 'returns expected value' );
 
-	v = snanmskmin( -1, x, 1, 0, mask, 1 );
+	v = snanmskmin( -1, x, 1, 0, mask, 1, 0 );
 	t.strictEqual( isnanf( v ), true, 'returns expected value' );
 
 	t.end();

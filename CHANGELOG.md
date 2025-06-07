@@ -1990,7 +1990,9 @@ A total of 422 issues were closed in this release:
 <details>
 
 -   [`3e1f4b3`](https://github.com/stdlib-js/stdlib/commit/3e1f4b3c07937a861b7272f01362b23825a20a6d) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmskrange` [(#7238)](https://github.com/stdlib-js/stdlib/pull/7238) _(by Gururaj Gurram, Athan Reines)_
+-   [`ff270d8`](https://github.com/stdlib-js/stdlib/commit/ff270d8654df4dfd397c638ed2d16b2925f979f1) - **test:** fix missing function argument _(by Athan Reines)_
 -   [`40c7647`](https://github.com/stdlib-js/stdlib/commit/40c7647191dbd98e2b3f4d34794da31af90eb20f) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmskmax` [(#7236)](https://github.com/stdlib-js/stdlib/pull/7236) _(by Gururaj Gurram, Athan Reines)_
+-   [`bdb69bc`](https://github.com/stdlib-js/stdlib/commit/bdb69bc8265ae8d652cfac41840569e1a20726f3) - **test:** fix missing function argument _(by Athan Reines)_
 -   [`4833ce6`](https://github.com/stdlib-js/stdlib/commit/4833ce619a3e26e217f6ae5db96fb3c6b3e4a604) - **docs:** update namespace table of contents [(#7243)](https://github.com/stdlib-js/stdlib/pull/7243) _(by stdlib-bot)_
 -   [`d63bffd`](https://github.com/stdlib-js/stdlib/commit/d63bffdeafbf40b3226d9d1709cdb807e0cb6dec) - **feat:** add `maxBy` to namespace _(by Athan Reines)_
 -   [`db08f1c`](https://github.com/stdlib-js/stdlib/commit/db08f1c859652be86315e51df0f90a8d87154942) - **feat:** add `stats/max-by` _(by Athan Reines)_
