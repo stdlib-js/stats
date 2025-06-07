@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2fc7683`](https://github.com/stdlib-js/stdlib/commit/2fc76833a9ad6acf81b2b331583e96a38644550e) - add `stats/strided/snanmskmin`
 -   [`86cb2b3`](https://github.com/stdlib-js/stdlib/commit/86cb2b3a54cdf70e2457ab93412ac13c27970c02) - add `stats/strided/snanmskmax`
 -   [`b16cee9`](https://github.com/stdlib-js/stdlib/commit/b16cee91c7c43e34716a7516a6400c316e55bc32) - add support for accessor arrays and refactor `stats/base/mean` [(#5730)](https://github.com/stdlib-js/stdlib/pull/5730)
 -   [`3edb15d`](https://github.com/stdlib-js/stdlib/commit/3edb15d0b68ffd2a74de4897752fd8e24d80a5af) - add C ndarray interface and refactor implementation for `stats/base/snanmskmin` [(#7237)](https://github.com/stdlib-js/stdlib/pull/7237)
@@ -743,6 +744,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`1e761ce`](https://github.com/stdlib-js/stdlib/commit/1e761ce564fa4ffaa933766068327dcd55fcba31): remove `stats/base/snanmskmin`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/snanmskmin`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`b028130`](https://github.com/stdlib-js/stdlib/commit/b0281309f91197c9c539ee4b7894957b7cf4d831): remove `snanmskmin`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`7b9a2a4`](https://github.com/stdlib-js/stdlib/commit/7b9a2a4bb8dc28cc3f8318b487c84d256de60a5f): remove `stats/base/snanmskmax`
 
@@ -2003,6 +2015,10 @@ A total of 423 issues were closed in this release:
 
 <details>
 
+-   [`1e761ce`](https://github.com/stdlib-js/stdlib/commit/1e761ce564fa4ffaa933766068327dcd55fcba31) - **remove:** remove `stats/base/snanmskmin` _(by Gururaj Gurram)_
+-   [`81d17b1`](https://github.com/stdlib-js/stdlib/commit/81d17b1bba3c9f51cf9d6c9fc0103a6480dd1e5b) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`b028130`](https://github.com/stdlib-js/stdlib/commit/b0281309f91197c9c539ee4b7894957b7cf4d831) - **remove:** remove `snanmskmin` from namespace _(by Gururaj Gurram)_
+-   [`2fc7683`](https://github.com/stdlib-js/stdlib/commit/2fc76833a9ad6acf81b2b331583e96a38644550e) - **feat:** add `stats/strided/snanmskmin` _(by Gururaj Gurram)_
 -   [`7b9a2a4`](https://github.com/stdlib-js/stdlib/commit/7b9a2a4bb8dc28cc3f8318b487c84d256de60a5f) - **remove:** remove `stats/base/snanmskmax` _(by Gururaj Gurram)_
 -   [`c10df04`](https://github.com/stdlib-js/stdlib/commit/c10df047e12919f5abf97e075ba31a2f9b98cf84) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`c6a88df`](https://github.com/stdlib-js/stdlib/commit/c6a88df7b0c3f7d10dc9d58769c1f7e8164c2e03) - **remove:** remove `snanmskmax` from namespace _(by Gururaj Gurram)_

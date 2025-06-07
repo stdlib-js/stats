@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/snanmskmin.h"
+#include "stdlib/stats/strided/snanmskmin.h"
 #include <stdint.h>
 #include <stdio.h>
 

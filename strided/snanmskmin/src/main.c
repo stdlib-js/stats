@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/snanmskmin.h"
+#include "stdlib/stats/strided/snanmskmin.h"
 #include "stdlib/math/base/assert/is_nanf.h"
 #include "stdlib/math/base/assert/is_negative_zerof.h"
 #include "stdlib/strided/base/stride2offset.h"

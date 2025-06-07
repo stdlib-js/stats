@@ -21,12 +21,12 @@
 /**
 * Compute the minimum value of a single-precision floating-point strided array according to a mask, ignoring `NaN` values.
 *
-* @module @stdlib/stats/base/snanmskmin
+* @module @stdlib/stats/strided/snanmskmin
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
 * var Uint8Array = require( '@stdlib/array/uint8' );
-* var snanmskmin = require( '@stdlib/stats/base/snanmskmin' );
+* var snanmskmin = require( '@stdlib/stats/strided/snanmskmin' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, -4.0, 2.0, NaN ] );
 * var mask = new Uint8Array( [ 0, 0, 1, 0, 0 ] );
@@ -37,7 +37,7 @@
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
 * var Uint8Array = require( '@stdlib/array/uint8' );
-* var snanmskmin = require( '@stdlib/stats/base/snanmskmin' );
+* var snanmskmin = require( '@stdlib/stats/strided/snanmskmin' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, -5.0, -6.0 ] );
 * var mask = new Uint8Array( [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ] );
