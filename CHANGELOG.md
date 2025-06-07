@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3e1f4b3`](https://github.com/stdlib-js/stdlib/commit/3e1f4b3c07937a861b7272f01362b23825a20a6d) - add C ndarray interface and refactor implementation for `stats/base/snanmskrange` [(#7238)](https://github.com/stdlib-js/stdlib/pull/7238)
 -   [`40c7647`](https://github.com/stdlib-js/stdlib/commit/40c7647191dbd98e2b3f4d34794da31af90eb20f) - add C ndarray interface and refactor implementation for `stats/base/snanmskmax` [(#7236)](https://github.com/stdlib-js/stdlib/pull/7236)
 -   [`d63bffd`](https://github.com/stdlib-js/stdlib/commit/d63bffdeafbf40b3226d9d1709cdb807e0cb6dec) - add `maxBy` to namespace
 -   [`db08f1c`](https://github.com/stdlib-js/stdlib/commit/db08f1c859652be86315e51df0f90a8d87154942) - add `stats/max-by`
@@ -1988,6 +1989,7 @@ A total of 422 issues were closed in this release:
 
 <details>
 
+-   [`3e1f4b3`](https://github.com/stdlib-js/stdlib/commit/3e1f4b3c07937a861b7272f01362b23825a20a6d) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmskrange` [(#7238)](https://github.com/stdlib-js/stdlib/pull/7238) _(by Gururaj Gurram, Athan Reines)_
 -   [`40c7647`](https://github.com/stdlib-js/stdlib/commit/40c7647191dbd98e2b3f4d34794da31af90eb20f) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmskmax` [(#7236)](https://github.com/stdlib-js/stdlib/pull/7236) _(by Gururaj Gurram, Athan Reines)_
 -   [`4833ce6`](https://github.com/stdlib-js/stdlib/commit/4833ce619a3e26e217f6ae5db96fb3c6b3e4a604) - **docs:** update namespace table of contents [(#7243)](https://github.com/stdlib-js/stdlib/pull/7243) _(by stdlib-bot)_
 -   [`d63bffd`](https://github.com/stdlib-js/stdlib/commit/d63bffdeafbf40b3226d9d1709cdb807e0cb6dec) - **feat:** add `maxBy` to namespace _(by Athan Reines)_
