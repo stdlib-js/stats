@@ -190,6 +190,24 @@ setReadOnly( ns, 'nanmaxabs', require( './../../array/nanmaxabs' ) );
 setReadOnly( ns, 'nanmin', require( './../../array/nanmin' ) );
 
 /**
+* @name nanminBy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/nanmin-by}
+*/
+setReadOnly( ns, 'nanminBy', require( './../../array/nanmin-by' ) );
+
+/**
+* @name nanminabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/nanminabs}
+*/
+setReadOnly( ns, 'nanminabs', require( './../../array/nanminabs' ) );
+
+/**
 * @name nanrange
 * @memberof ns
 * @readonly
@@ -197,6 +215,15 @@ setReadOnly( ns, 'nanmin', require( './../../array/nanmin' ) );
 * @see {@link module:@stdlib/stats/array/nanrange}
 */
 setReadOnly( ns, 'nanrange', require( './../../array/nanrange' ) );
+
+/**
+* @name range
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/range}
+*/
+setReadOnly( ns, 'range', require( './../../array/range' ) );
 
 /**
 * @name varianceyc

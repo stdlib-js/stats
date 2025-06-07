@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`594c25e`](https://github.com/stdlib-js/stdlib/commit/594c25e8249490ec5ec4260dd905182bf0f4d678) - add `nanminabs` to namespace
+-   [`136ca52`](https://github.com/stdlib-js/stdlib/commit/136ca52ec582b34c3db18aa4518b30913342d200) - add `range` to namespace
+-   [`f79d4cd`](https://github.com/stdlib-js/stdlib/commit/f79d4cdaf435ae70d3ac76ec97ea63c811fa4bee) - add `nanminBy` to namespace
+-   [`3afa57d`](https://github.com/stdlib-js/stdlib/commit/3afa57d69c9ae440a70b6771c9b28b42e657b159) - add `stats/array/nanmin-by` [(#7255)](https://github.com/stdlib-js/stdlib/pull/7255)
 -   [`ae34f8c`](https://github.com/stdlib-js/stdlib/commit/ae34f8c98aabdf4af97b5d3eae5bd9fc93fd294d) - refactor and add protocol support to `stats/base/nanmin-by` [(#6464)](https://github.com/stdlib-js/stdlib/pull/6464)
 -   [`64699f8`](https://github.com/stdlib-js/stdlib/commit/64699f8a9e131d510c0904e6d1216d787af5236b) - add `stats/array/range` [(#6706)](https://github.com/stdlib-js/stdlib/pull/6706)
 -   [`b1a2926`](https://github.com/stdlib-js/stdlib/commit/b1a2926177757eaf4646b0f70f6dacf135f4e532) - add `dsem`, `dsempn`, and `dstdev` to namespace
@@ -2068,6 +2072,10 @@ A total of 424 issues were closed in this release:
 
 <details>
 
+-   [`594c25e`](https://github.com/stdlib-js/stdlib/commit/594c25e8249490ec5ec4260dd905182bf0f4d678) - **feat:** add `nanminabs` to namespace _(by Athan Reines)_
+-   [`136ca52`](https://github.com/stdlib-js/stdlib/commit/136ca52ec582b34c3db18aa4518b30913342d200) - **feat:** add `range` to namespace _(by Athan Reines)_
+-   [`f79d4cd`](https://github.com/stdlib-js/stdlib/commit/f79d4cdaf435ae70d3ac76ec97ea63c811fa4bee) - **feat:** add `nanminBy` to namespace _(by Athan Reines)_
+-   [`3afa57d`](https://github.com/stdlib-js/stdlib/commit/3afa57d69c9ae440a70b6771c9b28b42e657b159) - **feat:** add `stats/array/nanmin-by` [(#7255)](https://github.com/stdlib-js/stdlib/pull/7255) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`6d69679`](https://github.com/stdlib-js/stdlib/commit/6d69679337fc0868346d95612b93c5a0b67f7cea) - **docs:** fix comment _(by Athan Reines)_
 -   [`fc0bef7`](https://github.com/stdlib-js/stdlib/commit/fc0bef710be9ff120e59b7ad06969db52b22f248) - **docs:** fix comment _(by Athan Reines)_
 -   [`18295bb`](https://github.com/stdlib-js/stdlib/commit/18295bbb486337220e55b4ba94f3f63c7a29e743) - **docs:** fix comment _(by Athan Reines)_
