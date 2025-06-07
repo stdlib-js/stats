@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`5752f78`](https://github.com/stdlib-js/stdlib/commit/5752f783b2feede77e738302eb716177d64ca9fa) - add various aliases to namespace
+-   [`f1ddfad`](https://github.com/stdlib-js/stdlib/commit/f1ddfad5af35dca5e71c568c0ffb624835a16ab4) - add `snanmskmin` to namespace
 -   [`c10a09a`](https://github.com/stdlib-js/stdlib/commit/c10a09a4d96ae5c3b8ee126dca3efe86257f5951) - add `stats/strided/snanmskrange`
 -   [`2fc7683`](https://github.com/stdlib-js/stdlib/commit/2fc76833a9ad6acf81b2b331583e96a38644550e) - add `stats/strided/snanmskmin`
 -   [`86cb2b3`](https://github.com/stdlib-js/stdlib/commit/86cb2b3a54cdf70e2457ab93412ac13c27970c02) - add `stats/strided/snanmskmax`
@@ -2027,6 +2029,8 @@ A total of 423 issues were closed in this release:
 
 <details>
 
+-   [`5752f78`](https://github.com/stdlib-js/stdlib/commit/5752f783b2feede77e738302eb716177d64ca9fa) - **feat:** add various aliases to namespace _(by Athan Reines)_
+-   [`f1ddfad`](https://github.com/stdlib-js/stdlib/commit/f1ddfad5af35dca5e71c568c0ffb624835a16ab4) - **feat:** add `snanmskmin` to namespace _(by Athan Reines)_
 -   [`e0b7f74`](https://github.com/stdlib-js/stdlib/commit/e0b7f74093ddcbf5184374319fcad09f32d0013a) - **refactor:** remove unreachable code path _(by Athan Reines)_
 -   [`bc2c29e`](https://github.com/stdlib-js/stdlib/commit/bc2c29ea63c0e990892b96b791867c1b33487b98) - **remove:** remove `stats/base/snanmskrange` _(by Gururaj Gurram)_
 -   [`45d9704`](https://github.com/stdlib-js/stdlib/commit/45d97048bc76095265cac4f5a84121ee7ebdb891) - **refactor:** update paths _(by Gururaj Gurram)_
