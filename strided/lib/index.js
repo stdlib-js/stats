@@ -496,6 +496,15 @@ setReadOnly( ns, 'dnanvarianceyc', require( './../../strided/dnanvarianceyc' ) )
 setReadOnly( ns, 'drange', require( './../../strided/drange' ) );
 
 /**
+* @name dsem
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dsem}
+*/
+setReadOnly( ns, 'dsem', require( './../../strided/dsem' ) );
+
+/**
 * @name dsemch
 * @memberof ns
 * @readonly
@@ -503,6 +512,15 @@ setReadOnly( ns, 'drange', require( './../../strided/drange' ) );
 * @see {@link module:@stdlib/stats/strided/dsemch}
 */
 setReadOnly( ns, 'dsemch', require( './../../strided/dsemch' ) );
+
+/**
+* @name dsempn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dsempn}
+*/
+setReadOnly( ns, 'dsempn', require( './../../strided/dsempn' ) );
 
 /**
 * @name dsemtk
@@ -611,6 +629,15 @@ setReadOnly( ns, 'dsnanmeanpn', require( './../../strided/dsnanmeanpn' ) );
 * @see {@link module:@stdlib/stats/strided/dsnanmeanwd}
 */
 setReadOnly( ns, 'dsnanmeanwd', require( './../../strided/dsnanmeanwd' ) );
+
+/**
+* @name dstdev
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dstdev}
+*/
+setReadOnly( ns, 'dstdev', require( './../../strided/dstdev' ) );
 
 /**
 * @name dstdevch
