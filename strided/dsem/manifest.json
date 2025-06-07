@@ -40,7 +40,7 @@
       "dependencies": [
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset",
-        "@stdlib/stats/base/dsempn",
+        "@stdlib/stats/strided/dsempn",
         "@stdlib/napi/export",
         "@stdlib/napi/argv",
         "@stdlib/napi/argv-int64",
@@ -63,7 +63,7 @@
       "dependencies": [
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset",
-        "@stdlib/stats/base/dsempn"
+        "@stdlib/stats/strided/dsempn"
       ]
     },
     {
@@ -80,7 +80,7 @@
       "dependencies": [
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset",
-        "@stdlib/stats/base/dsempn"
+        "@stdlib/stats/strided/dsempn"
       ]
     },
     {
@@ -97,7 +97,7 @@
       "dependencies": [
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset",
-        "@stdlib/stats/base/dsempn"
+        "@stdlib/stats/strided/dsempn"
       ]
     }
   ]

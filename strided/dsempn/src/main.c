@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dsempn.h"
+#include "stdlib/stats/strided/dsempn.h"
 #include "stdlib/stats/strided/dvariancepn.h"
 #include "stdlib/math/base/special/sqrt.h"
 #include "stdlib/blas/base/shared.h"

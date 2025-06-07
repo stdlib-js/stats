@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dsempn = require( './../../../base/dsempn' ).ndarray;
+var dsempn = require( './../../../strided/dsempn' ).ndarray;
 
 
 // MAIN //

@@ -29,7 +29,6 @@ import dmeanstdev = require( './../../../base/dmeanstdev' );
 import dmeanstdevpn = require( './../../../base/dmeanstdevpn' );
 import dmeanvar = require( './../../../base/dmeanvar' );
 import dmeanvarpn = require( './../../../base/dmeanvarpn' );
-import dsempn = require( './../../../base/dsempn' );
 import dvarm = require( './../../../base/dvarm' );
 import dvarmpn = require( './../../../base/dvarmpn' );
 import max = require( './../../../base/max' );
@@ -367,33 +366,6 @@ interface Namespace {
 	* // returns <Float64Array>[ ~0.3333, ~4.3333 ]
 	*/
 	dmeanvarpn: typeof dmeanvarpn;
-
-	/**
-	* Computes the standard error of the mean for a double-precision floating-point strided array using a two-pass algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param stride - stride length
-	* @returns standard error of the mean
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dsempn( x.length, 1, x, 1 );
-	* // returns ~1.20185
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dsempn.ndarray( x.length, 1, x, 1, 0 );
-	* // returns ~1.20185
-	*/
-	dsempn: typeof dsempn;
 
 	/**
 	* Computes the variance of a double-precision floating-point strided array provided a known mean.

@@ -21,11 +21,11 @@
 /**
 * Compute the standard error of the mean for a double-precision floating-point strided array using a two-pass algorithm.
 *
-* @module @stdlib/stats/base/dsempn
+* @module @stdlib/stats/strided/dsempn
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dsempn = require( '@stdlib/stats/base/dsempn' );
+* var dsempn = require( '@stdlib/stats/strided/dsempn' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dsempn = require( '@stdlib/stats/base/dsempn' );
+* var dsempn = require( '@stdlib/stats/strided/dsempn' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

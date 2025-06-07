@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dsempn.h"
+#include "stdlib/stats/strided/dsempn.h"
 #include <stdio.h>
 
 int main( void ) {
