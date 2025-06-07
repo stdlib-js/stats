@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/snanmskrange.h"
+#include "stdlib/stats/strided/snanmskrange.h"
 #include "stdlib/math/base/assert/is_nanf.h"
 #include "stdlib/strided/base/stride2offset.h"
 #include "stdlib/blas/base/shared.h"

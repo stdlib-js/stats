@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/snanmskrange.h"
+#include "stdlib/stats/strided/snanmskrange.h"
 #include "stdlib/napi/export.h"
 #include "stdlib/napi/argv.h"
 #include "stdlib/napi/argv_int64.h"

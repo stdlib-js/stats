@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/snanmskrange",
+  "name": "@stdlib/stats/strided/snanmskrange",
   "version": "0.0.0",
   "description": "Calculate the range of a single-precision floating-point strided array according to a mask, ignoring NaN values.",
   "license": "Apache-2.0",

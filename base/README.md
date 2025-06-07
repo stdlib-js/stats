@@ -130,7 +130,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`snanmean( N, x, stride )`][@stdlib/stats/base/snanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`snanmskmax( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/snanmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array according to a mask, ignoring `NaN` values.</span>
 -   <span class="signature">[`snanmskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/snanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask, ignoring `NaN` values.</span>
--   <span class="signature">[`snanmskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/snanmskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array according to a mask, ignoring `NaN` values.</span>
+-   <span class="signature">[`snanmskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/snanmskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array according to a mask, ignoring `NaN` values.</span>
 -   <span class="signature">[`snanstdev( N, correction, x, stride )`][@stdlib/stats/base/snanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring `NaN` values.</span>
 -   <span class="signature">[`snanstdevch( N, correction, x, stride )`][@stdlib/stats/base/snanstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring `NaN` values and using a one-pass trial mean algorithm.</span>
 -   <span class="signature">[`snanstdevpn( N, correction, x, stride )`][@stdlib/stats/base/snanstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring `NaN` values and using a two-pass algorithm.</span>
@@ -355,7 +355,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/snanmskmin]: https://github.com/stdlib-js/stats/tree/main/strided/snanmskmin
 
-[@stdlib/stats/base/snanmskrange]: https://github.com/stdlib-js/stats/tree/main/base/snanmskrange
+[@stdlib/stats/strided/snanmskrange]: https://github.com/stdlib-js/stats/tree/main/strided/snanmskrange
 
 [@stdlib/stats/base/snanstdev]: https://github.com/stdlib-js/stats/tree/main/base/snanstdev
 
