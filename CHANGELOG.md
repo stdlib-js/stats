@@ -2068,6 +2068,7 @@ A total of 424 issues were closed in this release:
 
 <details>
 
+-   [`03f6481`](https://github.com/stdlib-js/stdlib/commit/03f6481a6a63000e179e552d90de286b167e7402) - **docs:** add missing private annotations _(by Athan Reines)_
 -   [`ae34f8c`](https://github.com/stdlib-js/stdlib/commit/ae34f8c98aabdf4af97b5d3eae5bd9fc93fd294d) - **feat:** refactor and add protocol support to `stats/base/nanmin-by` [(#6464)](https://github.com/stdlib-js/stdlib/pull/6464) _(by Gautam Kaushik, Athan Reines, stdlib-bot, Gururaj Gurram)_
 -   [`309db06`](https://github.com/stdlib-js/stdlib/commit/309db06f06f20a57c91de51e224b33369d09fa09) - **docs:** fix note _(by Athan Reines)_
 -   [`7f81e57`](https://github.com/stdlib-js/stdlib/commit/7f81e57c7cafa09504b48624868badc9e8e5f20b) - **docs:** fix note _(by Athan Reines)_

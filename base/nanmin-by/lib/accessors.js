@@ -29,6 +29,7 @@ var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
 /**
 * Computes the minimum value of a strided array via a callback function, ignoring `NaN` values.
 *
+* @private
 * @param {PositiveInteger} N - number of indexed elements
 * @param {Object} x - input array object
 * @param {Collection} x.data - input array data
