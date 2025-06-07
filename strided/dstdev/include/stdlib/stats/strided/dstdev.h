@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_STATS_BASE_DSTDEV_H
-#define STDLIB_STATS_BASE_DSTDEV_H
+#ifndef STDLIB_STATS_STRIDED_DSTDEV_H
+#define STDLIB_STATS_STRIDED_DSTDEV_H
 
 #include "stdlib/blas/base/shared.h"
 
@@ -42,4 +42,4 @@ double API_SUFFIX(stdlib_strided_dstdev_ndarray)( const CBLAS_INT N, const doubl
 }
 #endif
 
-#endif // !STDLIB_STATS_BASE_DSTDEV_H
+#endif // !STDLIB_STATS_STRIDED_DSTDEV_H

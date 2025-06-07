@@ -136,15 +136,6 @@ setReadOnly( ns, 'dsem', require( './../../base/dsem' ) );
 setReadOnly( ns, 'dsempn', require( './../../base/dsempn' ) );
 
 /**
-* @name dstdev
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dstdev}
-*/
-setReadOnly( ns, 'dstdev', require( './../../base/dstdev' ) );
-
-/**
 * @name dvarm
 * @memberof ns
 * @readonly

@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ea229fb`](https://github.com/stdlib-js/stdlib/commit/ea229fbe565e1de31d2abb8b2c85a0383d19eae7) - add `stats/strided/dstdev`
 -   [`5752f78`](https://github.com/stdlib-js/stdlib/commit/5752f783b2feede77e738302eb716177d64ca9fa) - add various aliases to namespace
 -   [`f1ddfad`](https://github.com/stdlib-js/stdlib/commit/f1ddfad5af35dca5e71c568c0ffb624835a16ab4) - add `snanmskmin` to namespace
 -   [`c10a09a`](https://github.com/stdlib-js/stdlib/commit/c10a09a4d96ae5c3b8ee126dca3efe86257f5951) - add `stats/strided/snanmskrange`
@@ -747,6 +748,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`0cdc9aa`](https://github.com/stdlib-js/stdlib/commit/0cdc9aad7941b696f934c61ddbf99fd22767119f): remove `stats/base/dstdev`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dstdev`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`e6aa8cc`](https://github.com/stdlib-js/stdlib/commit/e6aa8cce22374977f6854c17b7fa9efbca67d5e9): remove `dstdev`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`bc2c29e`](https://github.com/stdlib-js/stdlib/commit/bc2c29ea63c0e990892b96b791867c1b33487b98): remove `stats/base/snanmskrange`
 
@@ -2029,6 +2041,10 @@ A total of 423 issues were closed in this release:
 
 <details>
 
+-   [`0cdc9aa`](https://github.com/stdlib-js/stdlib/commit/0cdc9aad7941b696f934c61ddbf99fd22767119f) - **remove:** remove `stats/base/dstdev` _(by Gururaj Gurram)_
+-   [`76100b0`](https://github.com/stdlib-js/stdlib/commit/76100b038910770cca2f13dd6e715802e3da756c) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`e6aa8cc`](https://github.com/stdlib-js/stdlib/commit/e6aa8cce22374977f6854c17b7fa9efbca67d5e9) - **remove:** remove `dstdev` from namespace _(by Gururaj Gurram)_
+-   [`ea229fb`](https://github.com/stdlib-js/stdlib/commit/ea229fbe565e1de31d2abb8b2c85a0383d19eae7) - **feat:** add `stats/strided/dstdev` _(by Gururaj Gurram)_
 -   [`5752f78`](https://github.com/stdlib-js/stdlib/commit/5752f783b2feede77e738302eb716177d64ca9fa) - **feat:** add various aliases to namespace _(by Athan Reines)_
 -   [`f1ddfad`](https://github.com/stdlib-js/stdlib/commit/f1ddfad5af35dca5e71c568c0ffb624835a16ab4) - **feat:** add `snanmskmin` to namespace _(by Athan Reines)_
 -   [`e0b7f74`](https://github.com/stdlib-js/stdlib/commit/e0b7f74093ddcbf5184374319fcad09f32d0013a) - **refactor:** remove unreachable code path _(by Athan Reines)_
