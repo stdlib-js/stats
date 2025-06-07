@@ -91,7 +91,6 @@ import smeanlipw = require( './../../../base/smeanlipw' );
 import smeanors = require( './../../../base/smeanors' );
 import smeanpn = require( './../../../base/smeanpn' );
 import snanmean = require( './../../../base/snanmean' );
-import snanmskmax = require( './../../../base/snanmskmax' );
 import snanmskmin = require( './../../../base/snanmskmin' );
 import snanmskrange = require( './../../../base/snanmskrange' );
 import snanstdev = require( './../../../base/snanstdev' );
@@ -1973,38 +1972,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	snanmean: typeof snanmean;
-
-	/**
-	* Computes the maximum value of a single-precision floating-point strided array according to a mask, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param mask - mask array
-	* @param strideMask - `mask` stride length
-	* @returns maximum value
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 4.0, 2.0, NaN ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0, 0 ] );
-	*
-	* var v = ns.snanmskmax( x.length, x, 1, mask, 1 );
-	* // returns 2.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 4.0, 2.0, NaN ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0, 0 ] );
-	*
-	* var v = ns.snanmskmax.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 2.0
-	*/
-	snanmskmax: typeof snanmskmax;
 
 	/**
 	* Computes the minimum value of a single-precision floating-point strided array according to a mask, ignoring `NaN` values.

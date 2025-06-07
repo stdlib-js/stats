@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`86cb2b3`](https://github.com/stdlib-js/stdlib/commit/86cb2b3a54cdf70e2457ab93412ac13c27970c02) - add `stats/strided/snanmskmax`
 -   [`b16cee9`](https://github.com/stdlib-js/stdlib/commit/b16cee91c7c43e34716a7516a6400c316e55bc32) - add support for accessor arrays and refactor `stats/base/mean` [(#5730)](https://github.com/stdlib-js/stdlib/pull/5730)
 -   [`3edb15d`](https://github.com/stdlib-js/stdlib/commit/3edb15d0b68ffd2a74de4897752fd8e24d80a5af) - add C ndarray interface and refactor implementation for `stats/base/snanmskmin` [(#7237)](https://github.com/stdlib-js/stdlib/pull/7237)
 -   [`3e1f4b3`](https://github.com/stdlib-js/stdlib/commit/3e1f4b3c07937a861b7272f01362b23825a20a6d) - add C ndarray interface and refactor implementation for `stats/base/snanmskrange` [(#7238)](https://github.com/stdlib-js/stdlib/pull/7238)
@@ -742,6 +743,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`7b9a2a4`](https://github.com/stdlib-js/stdlib/commit/7b9a2a4bb8dc28cc3f8318b487c84d256de60a5f): remove `stats/base/snanmskmax`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/snanmskmax`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`c6a88df`](https://github.com/stdlib-js/stdlib/commit/c6a88df7b0c3f7d10dc9d58769c1f7e8164c2e03): remove `snanmskmax`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`a88c74b`](https://github.com/stdlib-js/stdlib/commit/a88c74b020fd021724a0ccfe42ce55f178243ee8): remove `stats/base/dnanstdev`
 
@@ -1991,6 +2003,10 @@ A total of 423 issues were closed in this release:
 
 <details>
 
+-   [`7b9a2a4`](https://github.com/stdlib-js/stdlib/commit/7b9a2a4bb8dc28cc3f8318b487c84d256de60a5f) - **remove:** remove `stats/base/snanmskmax` _(by Gururaj Gurram)_
+-   [`c10df04`](https://github.com/stdlib-js/stdlib/commit/c10df047e12919f5abf97e075ba31a2f9b98cf84) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`c6a88df`](https://github.com/stdlib-js/stdlib/commit/c6a88df7b0c3f7d10dc9d58769c1f7e8164c2e03) - **remove:** remove `snanmskmax` from namespace _(by Gururaj Gurram)_
+-   [`86cb2b3`](https://github.com/stdlib-js/stdlib/commit/86cb2b3a54cdf70e2457ab93412ac13c27970c02) - **feat:** add `stats/strided/snanmskmax` _(by Gururaj Gurram)_
 -   [`b16cee9`](https://github.com/stdlib-js/stdlib/commit/b16cee91c7c43e34716a7516a6400c316e55bc32) - **feat:** add support for accessor arrays and refactor `stats/base/mean` [(#5730)](https://github.com/stdlib-js/stdlib/pull/5730) _(by Annamalai Prabu, Athan Reines, Gururaj Gurram)_
 -   [`3edb15d`](https://github.com/stdlib-js/stdlib/commit/3edb15d0b68ffd2a74de4897752fd8e24d80a5af) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmskmin` [(#7237)](https://github.com/stdlib-js/stdlib/pull/7237) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`3e1f4b3`](https://github.com/stdlib-js/stdlib/commit/3e1f4b3c07937a861b7272f01362b23825a20a6d) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmskrange` [(#7238)](https://github.com/stdlib-js/stdlib/pull/7238) _(by Gururaj Gurram, Athan Reines)_

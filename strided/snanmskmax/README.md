@@ -35,7 +35,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var snanmskmax = require( '@stdlib/stats/base/snanmskmax' );
+var snanmskmax = require( '@stdlib/stats/strided/snanmskmax' );
 ```
 
 #### snanmskmax( N, x, strideX, mask, strideMask )
@@ -149,7 +149,7 @@ var v = snanmskmax.ndarray( 4, x, 2, 1, mask, 2, 1 );
 var uniform = require( '@stdlib/random/base/uniform' );
 var bernoulli = require( '@stdlib/random/base/bernoulli' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
-var snanmskmax = require( '@stdlib/stats/base/snanmskmax' );
+var snanmskmax = require( '@stdlib/stats/strided/snanmskmax' );
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
@@ -195,7 +195,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/snanmskmax.h"
+#include "stdlib/stats/strided/snanmskmax.h"
 ```
 
 #### stdlib_strided_snanmskmax( N, \*X, strideX, \*Mask, strideMask )
@@ -271,7 +271,7 @@ float stdlib_strided_snanmskmax_ndarray( const CBLAS_INT N, const float *X, cons
 ### Examples
 
 ```c
-#include "stdlib/stats/base/snanmskmax.h"
+#include "stdlib/stats/strided/snanmskmax.h"
 #include <stdint.h>
 #include <stdio.h>
 
