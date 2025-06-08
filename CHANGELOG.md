@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-07)
+## Unreleased (2025-06-08)
 
 <section class="features">
 
@@ -2072,6 +2072,7 @@ A total of 424 issues were closed in this release:
 
 <details>
 
+-   [`8e82087`](https://github.com/stdlib-js/stdlib/commit/8e820870a43e8b649135a6f664174efc81569de6) - **docs:** update namespace table of contents [(#7261)](https://github.com/stdlib-js/stdlib/pull/7261) _(by stdlib-bot)_
 -   [`594c25e`](https://github.com/stdlib-js/stdlib/commit/594c25e8249490ec5ec4260dd905182bf0f4d678) - **feat:** add `nanminabs` to namespace _(by Athan Reines)_
 -   [`136ca52`](https://github.com/stdlib-js/stdlib/commit/136ca52ec582b34c3db18aa4518b30913342d200) - **feat:** add `range` to namespace _(by Athan Reines)_
 -   [`f79d4cd`](https://github.com/stdlib-js/stdlib/commit/f79d4cdaf435ae70d3ac76ec97ea63c811fa4bee) - **feat:** add `nanminBy` to namespace _(by Athan Reines)_
