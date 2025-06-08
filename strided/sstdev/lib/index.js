@@ -21,11 +21,11 @@
 /**
 * Compute the standard deviation of a single-precision floating-point strided array.
 *
-* @module @stdlib/stats/base/sstdev
+* @module @stdlib/stats/strided/sstdev
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var sstdev = require( '@stdlib/stats/base/sstdev' );
+* var sstdev = require( '@stdlib/stats/strided/sstdev' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var sstdev = require( '@stdlib/stats/base/sstdev' );
+* var sstdev = require( '@stdlib/stats/strided/sstdev' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

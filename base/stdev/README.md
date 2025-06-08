@@ -182,7 +182,7 @@ var v = stdev.ndarray( N, 1, x, 2, 1 );
 
 -   If `N <= 0`, both functions return `NaN`.
 -   If `N - c` is less than or equal to `0` (where `c` corresponds to the provided degrees of freedom adjustment), both functions return `NaN`.
--   Depending on the environment, the typed versions ([`dstdev`][@stdlib/stats/strided/dstdev], [`sstdev`][@stdlib/stats/base/sstdev], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dstdev`][@stdlib/stats/strided/dstdev], [`sstdev`][@stdlib/stats/strided/sstdev], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -233,7 +233,7 @@ console.log( v );
 
 -   <span class="package-name">[`@stdlib/stats/strided/dstdev`][@stdlib/stats/strided/dstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanstdev`][@stdlib/stats/base/nanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/sstdev`][@stdlib/stats/base/sstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/sstdev`][@stdlib/stats/strided/sstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/variance`][@stdlib/stats/base/variance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array.</span>
 
 </section>
@@ -256,7 +256,7 @@ console.log( v );
 
 [@stdlib/stats/base/nanstdev]: https://github.com/stdlib-js/stats/tree/main/base/nanstdev
 
-[@stdlib/stats/base/sstdev]: https://github.com/stdlib-js/stats/tree/main/base/sstdev
+[@stdlib/stats/strided/sstdev]: https://github.com/stdlib-js/stats/tree/main/strided/sstdev
 
 [@stdlib/stats/base/variance]: https://github.com/stdlib-js/stats/tree/main/base/variance
 

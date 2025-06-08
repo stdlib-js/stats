@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`721dd55`](https://github.com/stdlib-js/stdlib/commit/721dd55e3a4ebd63bbb7e27d1b4ae756837ec819) - add `stats/strided/sstdev`
 -   [`746772d`](https://github.com/stdlib-js/stdlib/commit/746772db655a012ae88ea5d784b5e34498f6d3c5) - add `stats/strided/smean`
 -   [`dc140cf`](https://github.com/stdlib-js/stdlib/commit/dc140cf262be73e7d3f8cf1b8bd722d3564b31ff) - add `stats/strided/smeanpn`
 -   [`594c25e`](https://github.com/stdlib-js/stdlib/commit/594c25e8249490ec5ec4260dd905182bf0f4d678) - add `nanminabs` to namespace
@@ -759,6 +760,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`73c0e28`](https://github.com/stdlib-js/stdlib/commit/73c0e280f30d7132f5bceadf6efd45e4897e017d): remove `stats/base/sstdev`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/sstdev`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`7a8e93d`](https://github.com/stdlib-js/stdlib/commit/7a8e93d9d1e213efcc3d239634cb5de935644afc): remove `sstdev`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`c73699a`](https://github.com/stdlib-js/stdlib/commit/c73699afb5838b95439e14bbbd9d5c1d378db575): remove `stats/base/smean`
 
@@ -2096,6 +2108,10 @@ A total of 425 issues were closed in this release:
 
 <details>
 
+-   [`73c0e28`](https://github.com/stdlib-js/stdlib/commit/73c0e280f30d7132f5bceadf6efd45e4897e017d) - **remove:** remove `stats/base/sstdev` _(by Gururaj Gurram)_
+-   [`ea622d9`](https://github.com/stdlib-js/stdlib/commit/ea622d981caec008ecc84f33c2253e39c0267576) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`7a8e93d`](https://github.com/stdlib-js/stdlib/commit/7a8e93d9d1e213efcc3d239634cb5de935644afc) - **remove:** remove `sstdev` from namespace _(by Gururaj Gurram)_
+-   [`721dd55`](https://github.com/stdlib-js/stdlib/commit/721dd55e3a4ebd63bbb7e27d1b4ae756837ec819) - **feat:** add `stats/strided/sstdev` _(by Gururaj Gurram)_
 -   [`c73699a`](https://github.com/stdlib-js/stdlib/commit/c73699afb5838b95439e14bbbd9d5c1d378db575) - **remove:** remove `stats/base/smean` _(by Gururaj Gurram)_
 -   [`bcd0411`](https://github.com/stdlib-js/stdlib/commit/bcd04112308e7d7b42de2bc04599d490e429ebc8) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`69774be`](https://github.com/stdlib-js/stdlib/commit/69774bee8c709582e8deb45948b809fe3e31b306) - **remove:** remove `smean` from namespace _(by Gururaj Gurram)_
