@@ -33,7 +33,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:arithmetic_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@ee38ede2c8727409811efbaa225f0e3e222cbb32/lib/node_modules/@stdlib/stats/base/smeanpn/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@ee38ede2c8727409811efbaa225f0e3e222cbb32/lib/node_modules/@stdlib/stats/strided/smeanpn/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-var smeanpn = require( '@stdlib/stats/base/smeanpn' );
+var smeanpn = require( '@stdlib/stats/strided/smeanpn' );
 ```
 
 #### smeanpn( N, x, strideX )
@@ -145,7 +145,7 @@ var v = smeanpn.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var smeanpn = require( '@stdlib/stats/base/smeanpn' );
+var smeanpn = require( '@stdlib/stats/strided/smeanpn' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
@@ -183,7 +183,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/smeanpn.h"
+#include "stdlib/stats/strided/smeanpn.h"
 ```
 
 #### stdlib_strided_smeanpn( N, \*X, strideX )
@@ -248,7 +248,7 @@ float stdlib_strided_smeanpn_ndarray( const CBLAS_INT N, const float *X, const C
 ### Examples
 
 ```c
-#include "stdlib/stats/base/smeanpn.h"
+#include "stdlib/stats/strided/smeanpn.h"
 #include <stdio.h>
 
 int main( void ) {

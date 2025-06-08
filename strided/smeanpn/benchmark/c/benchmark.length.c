@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/smeanpn.h"
+#include "stdlib/stats/strided/smeanpn.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

@@ -21,11 +21,11 @@
 /**
 * Compute the arithmetic mean of a single-precision floating-point strided array using a two-pass error correction algorithm.
 *
-* @module @stdlib/stats/base/smeanpn
+* @module @stdlib/stats/strided/smeanpn
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var smeanpn = require( '@stdlib/stats/base/smeanpn' );
+* var smeanpn = require( '@stdlib/stats/strided/smeanpn' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var smeanpn = require( '@stdlib/stats/base/smeanpn' );
+* var smeanpn = require( '@stdlib/stats/strided/smeanpn' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

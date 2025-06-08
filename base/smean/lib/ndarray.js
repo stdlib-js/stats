@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var smeanpn = require( './../../../base/smeanpn' ).ndarray;
+var smeanpn = require( './../../../strided/smeanpn' ).ndarray;
 
 
 // MAIN //

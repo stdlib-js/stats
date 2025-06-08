@@ -17,7 +17,7 @@
 */
 
 #include "stdlib/stats/base/smean.h"
-#include "stdlib/stats/base/smeanpn.h"
+#include "stdlib/stats/strided/smeanpn.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/strided/base/stride2offset.h"
 

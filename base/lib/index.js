@@ -640,15 +640,6 @@ setReadOnly( ns, 'smeanlipw', require( './../../base/smeanlipw' ) );
 setReadOnly( ns, 'smeanors', require( './../../base/smeanors' ) );
 
 /**
-* @name smeanpn
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/smeanpn}
-*/
-setReadOnly( ns, 'smeanpn', require( './../../base/smeanpn' ) );
-
-/**
 * @name snanmean
 * @memberof ns
 * @readonly

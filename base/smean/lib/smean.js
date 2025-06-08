@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var smeanpn = require( './../../../base/smeanpn' );
+var smeanpn = require( './../../../strided/smeanpn' );
 
 
 // MAIN //

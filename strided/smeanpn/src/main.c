@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/smeanpn.h"
+#include "stdlib/stats/strided/smeanpn.h"
 #include "stdlib/blas/ext/base/ssumpw.h"
 #include "stdlib/blas/ext/base/sapxsumpw.h"
 #include "stdlib/blas/base/shared.h"
