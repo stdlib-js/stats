@@ -17,7 +17,8 @@
 */
 
 #include "stdlib/stats/base/svariancewd.h"
-#include <stdint.h>
+#include "stdlib/blas/base/shared.h"
+#include "stdlib/strided/base/stride2offset.h"
 
 /**
 * Computes the variance of a single-precision floating-point strided array using Welford's algorithm.
@@ -64,10 +65,25 @@
 * @param N           number of indexed elements
 * @param correction  degrees of freedom adjustment
 * @param X           input array
-* @param stride      stride length
+* @param strideX     stride length
 * @return            output value
 */
-float stdlib_strided_svariancewd( const int64_t N, const float correction, const float *X, const int64_t stride ) {
+float API_SUFFIX(stdlib_strided_svariancewd)( const CBLAS_INT N, const float correction, const float *X, const CBLAS_INT strideX ) {
+	const CBLAS_INT ox = stdlib_strided_stride2offset( N, strideX );
+	return API_SUFFIX(stdlib_strided_svariancewd_ndarray)( N, correction, X, strideX, ox );
+}
+
+/**
+* Computes the variance of a single-precision floating-point strided array using Welford's algorithm and alternative indexing semantics.
+*
+* @param N           number of indexed elements
+* @param correction  degrees of freedom adjustment
+* @param X           input array
+* @param strideX     stride length
+* @param offsetX     starting index of X
+* @return            output value
+*/
+float API_SUFFIX(stdlib_strided_svariancewd_ndarray)( const CBLAS_INT N, const float correction, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX ) {
 	float delta;
 	int64_t ix;
 	int64_t i;
@@ -80,14 +96,10 @@ float stdlib_strided_svariancewd( const int64_t N, const float correction, const
 	if ( N <= 0 || n <= 0.0f ) {
 		return 0.0f / 0.0f; // NaN
 	}
-	if ( N == 1 || stride == 0 ) {
+	if ( N == 1 || strideX == 0 ) {
 		return 0.0f;
 	}
-	if ( stride < 0 ) {
-		ix = (1-N) * stride;
-	} else {
-		ix = 0;
-	}
+	ix = offsetX;
 	M2 = 0.0f;
 	mu = 0.0f;
 	for ( i = 0; i < N; i++ ) {
@@ -95,7 +107,7 @@ float stdlib_strided_svariancewd( const int64_t N, const float correction, const
 		delta = v - mu;
 		mu += (float)((double)delta / (double)(i+1));
 		M2 += delta * ( v - mu );
-		ix += stride;
+		ix += strideX;
 	}
 	return (double)M2 / n;
 }

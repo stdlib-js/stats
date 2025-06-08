@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f642f04`](https://github.com/stdlib-js/stdlib/commit/f642f049a14d0438e50f8cdab98835019809fbc9) - add C ndarray interface and refactor implementation for `stats/base/svariancewd` [(#4370#pullrequestreview-2908287034)](https://github.com/stdlib-js/stdlib/pull/4370#pullrequestreview-2908287034)
 -   [`721dd55`](https://github.com/stdlib-js/stdlib/commit/721dd55e3a4ebd63bbb7e27d1b4ae756837ec819) - add `stats/strided/sstdev`
 -   [`746772d`](https://github.com/stdlib-js/stdlib/commit/746772db655a012ae88ea5d784b5e34498f6d3c5) - add `stats/strided/smean`
 -   [`dc140cf`](https://github.com/stdlib-js/stdlib/commit/dc140cf262be73e7d3f8cf1b8bd722d3564b31ff) - add `stats/strided/smeanpn`
@@ -2108,6 +2109,7 @@ A total of 425 issues were closed in this release:
 
 <details>
 
+-   [`f642f04`](https://github.com/stdlib-js/stdlib/commit/f642f049a14d0438e50f8cdab98835019809fbc9) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancewd` [(#4370#pullrequestreview-2908287034)](https://github.com/stdlib-js/stdlib/pull/4370#pullrequestreview-2908287034) _(by Vinit Pandit, Athan Reines, Aayush Khanna, stdlib-bot)_
 -   [`73c0e28`](https://github.com/stdlib-js/stdlib/commit/73c0e280f30d7132f5bceadf6efd45e4897e017d) - **remove:** remove `stats/base/sstdev` _(by Gururaj Gurram)_
 -   [`ea622d9`](https://github.com/stdlib-js/stdlib/commit/ea622d981caec008ecc84f33c2253e39c0267576) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`7a8e93d`](https://github.com/stdlib-js/stdlib/commit/7a8e93d9d1e213efcc3d239634cb5de935644afc) - **remove:** remove `sstdev` from namespace _(by Gururaj Gurram)_
