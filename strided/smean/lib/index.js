@@ -21,11 +21,11 @@
 /**
 * Compute the arithmetic mean of a single-precision floating-point strided array.
 *
-* @module @stdlib/stats/base/smean
+* @module @stdlib/stats/strided/smean
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var smean = require( '@stdlib/stats/base/smean' );
+* var smean = require( '@stdlib/stats/strided/smean' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var smean = require( '@stdlib/stats/base/smean' );
+* var smean = require( '@stdlib/stats/strided/smean' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

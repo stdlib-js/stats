@@ -125,7 +125,7 @@ var v = mean.ndarray( 4, x, 2, 1 );
 
 -   If `N <= 0`, both functions return `NaN`.
 -   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array/base/accessor`][@stdlib/array/base/accessor]).
--   Depending on the environment, the typed versions ([`dmean`][@stdlib/stats/strided/dmean], [`smean`][@stdlib/stats/base/smean], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dmean`][@stdlib/stats/strided/dmean], [`smean`][@stdlib/stats/strided/smean], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -164,7 +164,7 @@ console.log( v );
 
 -   <span class="package-name">[`@stdlib/stats/strided/dmean`][@stdlib/stats/strided/dmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanmean`][@stdlib/stats/base/nanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/smean`][@stdlib/stats/strided/smean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array.</span>
 
 </section>
 
@@ -188,7 +188,7 @@ console.log( v );
 
 [@stdlib/stats/base/nanmean]: https://github.com/stdlib-js/stats/tree/main/base/nanmean
 
-[@stdlib/stats/base/smean]: https://github.com/stdlib-js/stats/tree/main/base/smean
+[@stdlib/stats/strided/smean]: https://github.com/stdlib-js/stats/tree/main/strided/smean
 
 <!-- </related-links> -->
 
