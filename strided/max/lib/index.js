@@ -21,10 +21,10 @@
 /**
 * Compute the maximum value of a strided array.
 *
-* @module @stdlib/stats/base/max
+* @module @stdlib/stats/strided/max
 *
 * @example
-* var max = require( '@stdlib/stats/base/max' );
+* var max = require( '@stdlib/stats/strided/max' );
 *
 * var x = [ 1.0, -2.0, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns 2.0
 *
 * @example
-* var max = require( '@stdlib/stats/base/max' );
+* var max = require( '@stdlib/stats/strided/max' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
 *

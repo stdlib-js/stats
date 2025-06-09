@@ -148,7 +148,7 @@ console.log( v );
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats/strided/dmin`][@stdlib/stats/strided/dmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/max`][@stdlib/stats/base/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/max`][@stdlib/stats/strided/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanmin`][@stdlib/stats/base/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/smin`][@stdlib/stats/strided/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
 
@@ -172,7 +172,7 @@ console.log( v );
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/max]: https://github.com/stdlib-js/stats/tree/main/base/max
+[@stdlib/stats/strided/max]: https://github.com/stdlib-js/stats/tree/main/strided/max
 
 [@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats/tree/main/base/nanmin
 

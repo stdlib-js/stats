@@ -68,7 +68,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dvarm( N, mean, correction, x, stride )`][@stdlib/stats/base/dvarm]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array provided a known mean.</span>
 -   <span class="signature">[`dvarmpn( N, mean, correction, x, stride )`][@stdlib/stats/base/dvarmpn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array provided a known mean and using Neely's correction algorithm.</span>
 -   <span class="signature">[`maxBy( N, x, strideX, clbk[, thisArg] )`][@stdlib/stats/strided/max-by]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array via a callback function.</span>
--   <span class="signature">[`max( N, x, strideX )`][@stdlib/stats/base/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array.</span>
+-   <span class="signature">[`max( N, x, strideX )`][@stdlib/stats/strided/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array.</span>
 -   <span class="signature">[`maxabs( N, x, strideX )`][@stdlib/stats/strided/maxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a strided array.</span>
 -   <span class="signature">[`maxsorted( N, x, strideX )`][@stdlib/stats/strided/maxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted strided array.</span>
 -   <span class="signature">[`mean( N, x, strideX )`][@stdlib/stats/base/mean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array.</span>
@@ -222,7 +222,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/max-by]: https://github.com/stdlib-js/stats/tree/main/strided/max-by
 
-[@stdlib/stats/base/max]: https://github.com/stdlib-js/stats/tree/main/base/max
+[@stdlib/stats/strided/max]: https://github.com/stdlib-js/stats/tree/main/strided/max
 
 [@stdlib/stats/strided/maxabs]: https://github.com/stdlib-js/stats/tree/main/strided/maxabs
 

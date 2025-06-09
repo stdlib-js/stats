@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var max = require( '@stdlib/stats/base/max' );
+var max = require( '@stdlib/stats/strided/max' );
 ```
 
 #### max( N, x, strideX )
@@ -124,7 +124,7 @@ var v = max.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var max = require( '@stdlib/stats/base/max' );
+var max = require( '@stdlib/stats/strided/max' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'

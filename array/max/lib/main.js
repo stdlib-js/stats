@@ -25,7 +25,7 @@ var dtypes = require( '@stdlib/array/dtypes' );
 var dtype = require( '@stdlib/array/dtype' );
 var contains = require( '@stdlib/array/base/assert/contains' );
 var join = require( '@stdlib/array/base/join' );
-var strided = require( './../../../base/max' ).ndarray;
+var strided = require( './../../../strided/max' ).ndarray;
 var format = require( '@stdlib/string/format' );
 
 

@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/max",
+  "name": "@stdlib/stats/strided/max",
   "version": "0.0.0",
   "description": "Calculate the maximum value of a strided array.",
   "license": "Apache-2.0",

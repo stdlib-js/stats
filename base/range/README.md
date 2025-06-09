@@ -150,7 +150,7 @@ console.log( v );
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats/strided/drange`][@stdlib/stats/strided/drange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/max`][@stdlib/stats/base/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/max`][@stdlib/stats/strided/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/min`][@stdlib/stats/base/min]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanrange`][@stdlib/stats/base/nanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/srange`][@stdlib/stats/strided/srange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array.</span>
@@ -175,7 +175,7 @@ console.log( v );
 
 [@stdlib/stats/strided/drange]: https://github.com/stdlib-js/stats/tree/main/strided/drange
 
-[@stdlib/stats/base/max]: https://github.com/stdlib-js/stats/tree/main/base/max
+[@stdlib/stats/strided/max]: https://github.com/stdlib-js/stats/tree/main/strided/max
 
 [@stdlib/stats/base/min]: https://github.com/stdlib-js/stats/tree/main/base/min
 
