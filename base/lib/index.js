@@ -145,15 +145,6 @@ setReadOnly( ns, 'dvarmpn', require( './../../base/dvarmpn' ) );
 setReadOnly( ns, 'max', require( './../../base/max' ) );
 
 /**
-* @name maxBy
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/max-by}
-*/
-setReadOnly( ns, 'maxBy', require( './../../base/max-by' ) );
-
-/**
 * @name maxabs
 * @memberof ns
 * @readonly

@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`609ca76`](https://github.com/stdlib-js/stdlib/commit/609ca76859f68d7dc3261618c69eec72963e90dd) - add `stats/strided/max-by`
 -   [`f642f04`](https://github.com/stdlib-js/stdlib/commit/f642f049a14d0438e50f8cdab98835019809fbc9) - add C ndarray interface and refactor implementation for `stats/base/svariancewd` [(#4370#pullrequestreview-2908287034)](https://github.com/stdlib-js/stdlib/pull/4370#pullrequestreview-2908287034)
 -   [`721dd55`](https://github.com/stdlib-js/stdlib/commit/721dd55e3a4ebd63bbb7e27d1b4ae756837ec819) - add `stats/strided/sstdev`
 -   [`746772d`](https://github.com/stdlib-js/stdlib/commit/746772db655a012ae88ea5d784b5e34498f6d3c5) - add `stats/strided/smean`
@@ -761,6 +762,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`7aff772`](https://github.com/stdlib-js/stdlib/commit/7aff77268ae4afcddefac12236dae10c7cf3b8ec): remove `stats/base/max-by`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/max-by`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`e0767ad`](https://github.com/stdlib-js/stdlib/commit/e0767ad9f2f73ebdbe725d7ea90cb734b3b77037): remove `max-by`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`73c0e28`](https://github.com/stdlib-js/stdlib/commit/73c0e280f30d7132f5bceadf6efd45e4897e017d): remove `stats/base/sstdev`
 
@@ -2109,6 +2121,10 @@ A total of 426 issues were closed in this release:
 
 <details>
 
+-   [`7aff772`](https://github.com/stdlib-js/stdlib/commit/7aff77268ae4afcddefac12236dae10c7cf3b8ec) - **remove:** remove `stats/base/max-by` _(by Gururaj Gurram)_
+-   [`1782090`](https://github.com/stdlib-js/stdlib/commit/17820909290d01df1ee44cc370d18e74d76291d9) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`e0767ad`](https://github.com/stdlib-js/stdlib/commit/e0767ad9f2f73ebdbe725d7ea90cb734b3b77037) - **remove:** remove `max-by` from namespace _(by Gururaj Gurram)_
+-   [`609ca76`](https://github.com/stdlib-js/stdlib/commit/609ca76859f68d7dc3261618c69eec72963e90dd) - **feat:** add `stats/strided/max-by` _(by Gururaj Gurram)_
 -   [`c584077`](https://github.com/stdlib-js/stdlib/commit/c5840770ca22e8717a880d1f1ced8496f7f5a62e) - **docs:** update namespace table of contents [(#7283)](https://github.com/stdlib-js/stdlib/pull/7283) _(by stdlib-bot)_
 -   [`25c2e85`](https://github.com/stdlib-js/stdlib/commit/25c2e855e0c63a1e778ceac3cdb10c7b2eda37b7) - **chore:** fix C lint errors [(#7278)](https://github.com/stdlib-js/stdlib/pull/7278) _(by zhanggy)_
 -   [`f642f04`](https://github.com/stdlib-js/stdlib/commit/f642f049a14d0438e50f8cdab98835019809fbc9) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancewd` [(#4370#pullrequestreview-2908287034)](https://github.com/stdlib-js/stdlib/pull/4370#pullrequestreview-2908287034) _(by Vinit Pandit, Athan Reines, Aayush Khanna, stdlib-bot)_

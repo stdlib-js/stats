@@ -27,7 +27,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var maxBy = require( '@stdlib/stats/base/max-by' );
+var maxBy = require( '@stdlib/stats/strided/max-by' );
 ```
 
 #### maxBy( N, x, strideX, clbk\[, thisArg] )
@@ -172,7 +172,7 @@ var v = maxBy.ndarray( 3, x, 1, x.length-3, accessor );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var maxBy = require( '@stdlib/stats/base/max-by' );
+var maxBy = require( '@stdlib/stats/strided/max-by' );
 
 function accessor( v ) {
     return v * 2.0;

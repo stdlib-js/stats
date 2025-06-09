@@ -21,10 +21,10 @@
 /**
 * Compute the maximum value of a strided array via a callback function.
 *
-* @module @stdlib/stats/base/max-by
+* @module @stdlib/stats/strided/max-by
 *
 * @example
-* var maxBy = require( '@stdlib/stats/base/max-by' );
+* var maxBy = require( '@stdlib/stats/strided/max-by' );
 *
 * function accessor( v ) {
 *     return v * 2.0;
@@ -36,7 +36,7 @@
 * // returns 8.0
 *
 * @example
-* var maxBy = require( '@stdlib/stats/base/max-by' );
+* var maxBy = require( '@stdlib/stats/strided/max-by' );
 *
 * function accessor( v ) {
 *     return v * 2.0;
