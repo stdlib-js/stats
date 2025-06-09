@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4d75c13`](https://github.com/stdlib-js/stdlib/commit/4d75c130903a7bdd1f30022928e88ed1e2e24fb0) - add `stats/strided/maxsorted`
 -   [`84ddcae`](https://github.com/stdlib-js/stdlib/commit/84ddcae19a58147c520779c2e9f4c3f311202c9d) - add `stats/strided/maxabs`
 -   [`609ca76`](https://github.com/stdlib-js/stdlib/commit/609ca76859f68d7dc3261618c69eec72963e90dd) - add `stats/strided/max-by`
 -   [`f642f04`](https://github.com/stdlib-js/stdlib/commit/f642f049a14d0438e50f8cdab98835019809fbc9) - add C ndarray interface and refactor implementation for `stats/base/svariancewd` [(#4370#pullrequestreview-2908287034)](https://github.com/stdlib-js/stdlib/pull/4370#pullrequestreview-2908287034)
@@ -763,6 +764,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`87a0891`](https://github.com/stdlib-js/stdlib/commit/87a0891516d77d1d3bf03810456a4fb523d29e29): remove `stats/base/maxsorted`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/maxsorted`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`3d180a1`](https://github.com/stdlib-js/stdlib/commit/3d180a13e474d0dacc369851992cf944a4b1304a): remove `maxsorted`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`3e14f52`](https://github.com/stdlib-js/stdlib/commit/3e14f528f70478b441e3ec6c6d198df2b7985f4a): remove `stats/base/maxabs`
 
@@ -2133,6 +2145,10 @@ A total of 426 issues were closed in this release:
 
 <details>
 
+-   [`87a0891`](https://github.com/stdlib-js/stdlib/commit/87a0891516d77d1d3bf03810456a4fb523d29e29) - **remove:** remove `stats/base/maxsorted` _(by Gururaj Gurram)_
+-   [`2a2c43a`](https://github.com/stdlib-js/stdlib/commit/2a2c43a2ac52709b425d4d53488e186fcb744a50) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`3d180a1`](https://github.com/stdlib-js/stdlib/commit/3d180a13e474d0dacc369851992cf944a4b1304a) - **remove:** remove `maxsorted` from namespace _(by Gururaj Gurram)_
+-   [`4d75c13`](https://github.com/stdlib-js/stdlib/commit/4d75c130903a7bdd1f30022928e88ed1e2e24fb0) - **feat:** add `stats/strided/maxsorted` _(by Gururaj Gurram)_
 -   [`3e14f52`](https://github.com/stdlib-js/stdlib/commit/3e14f528f70478b441e3ec6c6d198df2b7985f4a) - **remove:** remove `stats/base/maxabs` _(by Gururaj Gurram)_
 -   [`fe07c96`](https://github.com/stdlib-js/stdlib/commit/fe07c963d8c689e0102898f8055b1adb08803cbd) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`55ca21a`](https://github.com/stdlib-js/stdlib/commit/55ca21ac1aa59913b67060ae98fce3e9b463cb9d) - **remove:** remove `maxabs` from namespace _(by Gururaj Gurram)_

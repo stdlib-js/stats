@@ -70,7 +70,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`maxBy( N, x, strideX, clbk[, thisArg] )`][@stdlib/stats/strided/max-by]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array via a callback function.</span>
 -   <span class="signature">[`max( N, x, strideX )`][@stdlib/stats/base/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array.</span>
 -   <span class="signature">[`maxabs( N, x, strideX )`][@stdlib/stats/strided/maxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a strided array.</span>
--   <span class="signature">[`maxsorted( N, x, strideX )`][@stdlib/stats/base/maxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted strided array.</span>
+-   <span class="signature">[`maxsorted( N, x, strideX )`][@stdlib/stats/strided/maxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted strided array.</span>
 -   <span class="signature">[`mean( N, x, strideX )`][@stdlib/stats/base/mean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array.</span>
 -   <span class="signature">[`meankbn( N, x, stride )`][@stdlib/stats/base/meankbn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using an improved Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`meankbn2( N, x, stride )`][@stdlib/stats/base/meankbn2]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using a second-order iterative Kahan–Babuška algorithm.</span>
@@ -226,7 +226,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/maxabs]: https://github.com/stdlib-js/stats/tree/main/strided/maxabs
 
-[@stdlib/stats/base/maxsorted]: https://github.com/stdlib-js/stats/tree/main/base/maxsorted
+[@stdlib/stats/strided/maxsorted]: https://github.com/stdlib-js/stats/tree/main/strided/maxsorted
 
 [@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats/tree/main/base/mean
 

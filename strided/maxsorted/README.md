@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var maxsorted = require( '@stdlib/stats/base/maxsorted' );
+var maxsorted = require( '@stdlib/stats/strided/maxsorted' );
 ```
 
 #### maxsorted( N, x, strideX )
@@ -131,7 +131,7 @@ var v = maxsorted.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var linspace = require( '@stdlib/array/base/linspace' );
-var maxsorted = require( '@stdlib/stats/base/maxsorted' );
+var maxsorted = require( '@stdlib/stats/strided/maxsorted' );
 
 var x = linspace( -50.0, 50.0, 10 );
 console.log( x );
