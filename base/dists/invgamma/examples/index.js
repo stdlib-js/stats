@@ -23,7 +23,7 @@ var filledarrayBy = require( '@stdlib/array/filled-by' );
 var variance = require( './../../../../base/variance' );
 var linspace = require( '@stdlib/array/base/linspace' );
 var gamma = require( './../../../../base/dists/gamma' );
-var mean = require( './../../../../base/mean' );
+var mean = require( './../../../../strided/mean' );
 var abs = require( '@stdlib/math/base/special/abs' );
 var invgamma = require( './../lib' );
 

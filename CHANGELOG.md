@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d8ffccd`](https://github.com/stdlib-js/stdlib/commit/d8ffccde0e12f66a3f161ccb01efd870f4e7efcd) - add `stats/strided/mean`
 -   [`ddad44c`](https://github.com/stdlib-js/stdlib/commit/ddad44c958b2f37b825c2e5a15b6a1d8c09bc798) - add `stats/strided/mediansorted`
 -   [`bb1bf68`](https://github.com/stdlib-js/stdlib/commit/bb1bf6835165e69497949254e7abbc27ddde4af0) - add `stats/strided/min`
 -   [`3c51710`](https://github.com/stdlib-js/stdlib/commit/3c517105f203609254ce175b08d1aa1d0e096443) - add `stats/strided/minsorted`
@@ -770,6 +771,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`118bf00`](https://github.com/stdlib-js/stdlib/commit/118bf0075ed18b42a40e60470668e71161139c3b): remove `stats/base/mean`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/mean`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`e0e12eb`](https://github.com/stdlib-js/stdlib/commit/e0e12ebbdd181db10731451a87755af4c7407648): remove `mean`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`5024104`](https://github.com/stdlib-js/stdlib/commit/50241045481e8a6fc7c3421179594ef91b0906fe): remove `stats/base/mediansorted`
 
@@ -2217,6 +2229,10 @@ A total of 426 issues were closed in this release:
 
 <details>
 
+-   [`118bf00`](https://github.com/stdlib-js/stdlib/commit/118bf0075ed18b42a40e60470668e71161139c3b) - **remove:** remove `stats/base/mean` _(by Gururaj Gurram)_
+-   [`3565318`](https://github.com/stdlib-js/stdlib/commit/3565318e3639b3e44890ed15ccd73560d3cac14c) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`e0e12eb`](https://github.com/stdlib-js/stdlib/commit/e0e12ebbdd181db10731451a87755af4c7407648) - **remove:** remove `mean` from namespace _(by Gururaj Gurram)_
+-   [`d8ffccd`](https://github.com/stdlib-js/stdlib/commit/d8ffccde0e12f66a3f161ccb01efd870f4e7efcd) - **feat:** add `stats/strided/mean` _(by Gururaj Gurram)_
 -   [`5024104`](https://github.com/stdlib-js/stdlib/commit/50241045481e8a6fc7c3421179594ef91b0906fe) - **remove:** remove `stats/base/mediansorted` _(by Gururaj Gurram)_
 -   [`8290e90`](https://github.com/stdlib-js/stdlib/commit/8290e903375a2740e5bd11274078d21183d5f1c8) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`5b45116`](https://github.com/stdlib-js/stdlib/commit/5b4511657a05ca7ebb6c21cb292352959b2ee2aa) - **remove:** remove `mediansorted` from namespace _(by Gururaj Gurram)_

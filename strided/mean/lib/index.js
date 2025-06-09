@@ -21,10 +21,10 @@
 /**
 * Compute the arithmetic mean of a strided array.
 *
-* @module @stdlib/stats/base/mean
+* @module @stdlib/stats/strided/mean
 *
 * @example
-* var mean = require( '@stdlib/stats/base/mean' );
+* var mean = require( '@stdlib/stats/strided/mean' );
 *
 * var x = [ 1.0, -2.0, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns ~0.3333
 *
 * @example
-* var mean = require( '@stdlib/stats/base/mean' );
+* var mean = require( '@stdlib/stats/strided/mean' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
 *

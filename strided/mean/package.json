@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/mean",
+  "name": "@stdlib/stats/strided/mean",
   "version": "0.0.0",
   "description": "Calculate the arithmetic mean of a strided array.",
   "license": "Apache-2.0",

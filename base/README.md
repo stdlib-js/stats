@@ -71,7 +71,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`max( N, x, strideX )`][@stdlib/stats/strided/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array.</span>
 -   <span class="signature">[`maxabs( N, x, strideX )`][@stdlib/stats/strided/maxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a strided array.</span>
 -   <span class="signature">[`maxsorted( N, x, strideX )`][@stdlib/stats/strided/maxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted strided array.</span>
--   <span class="signature">[`mean( N, x, strideX )`][@stdlib/stats/base/mean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array.</span>
+-   <span class="signature">[`mean( N, x, strideX )`][@stdlib/stats/strided/mean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array.</span>
 -   <span class="signature">[`meankbn( N, x, stride )`][@stdlib/stats/base/meankbn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using an improved Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`meankbn2( N, x, stride )`][@stdlib/stats/base/meankbn2]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using a second-order iterative Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`meanors( N, x, stride )`][@stdlib/stats/base/meanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using ordinary recursive summation.</span>
@@ -228,7 +228,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/maxsorted]: https://github.com/stdlib-js/stats/tree/main/strided/maxsorted
 
-[@stdlib/stats/base/mean]: https://github.com/stdlib-js/stats/tree/main/base/mean
+[@stdlib/stats/strided/mean]: https://github.com/stdlib-js/stats/tree/main/strided/mean
 
 [@stdlib/stats/base/meankbn]: https://github.com/stdlib-js/stats/tree/main/base/meankbn
 
