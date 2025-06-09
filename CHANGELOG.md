@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`84ddcae`](https://github.com/stdlib-js/stdlib/commit/84ddcae19a58147c520779c2e9f4c3f311202c9d) - add `stats/strided/maxabs`
 -   [`609ca76`](https://github.com/stdlib-js/stdlib/commit/609ca76859f68d7dc3261618c69eec72963e90dd) - add `stats/strided/max-by`
 -   [`f642f04`](https://github.com/stdlib-js/stdlib/commit/f642f049a14d0438e50f8cdab98835019809fbc9) - add C ndarray interface and refactor implementation for `stats/base/svariancewd` [(#4370#pullrequestreview-2908287034)](https://github.com/stdlib-js/stdlib/pull/4370#pullrequestreview-2908287034)
 -   [`721dd55`](https://github.com/stdlib-js/stdlib/commit/721dd55e3a4ebd63bbb7e27d1b4ae756837ec819) - add `stats/strided/sstdev`
@@ -762,6 +763,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`3e14f52`](https://github.com/stdlib-js/stdlib/commit/3e14f528f70478b441e3ec6c6d198df2b7985f4a): remove `stats/base/maxabs`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/maxabs`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`55ca21a`](https://github.com/stdlib-js/stdlib/commit/55ca21ac1aa59913b67060ae98fce3e9b463cb9d): remove `maxabs`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`7aff772`](https://github.com/stdlib-js/stdlib/commit/7aff77268ae4afcddefac12236dae10c7cf3b8ec): remove `stats/base/max-by`
 
@@ -2121,6 +2133,10 @@ A total of 426 issues were closed in this release:
 
 <details>
 
+-   [`3e14f52`](https://github.com/stdlib-js/stdlib/commit/3e14f528f70478b441e3ec6c6d198df2b7985f4a) - **remove:** remove `stats/base/maxabs` _(by Gururaj Gurram)_
+-   [`fe07c96`](https://github.com/stdlib-js/stdlib/commit/fe07c963d8c689e0102898f8055b1adb08803cbd) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`55ca21a`](https://github.com/stdlib-js/stdlib/commit/55ca21ac1aa59913b67060ae98fce3e9b463cb9d) - **remove:** remove `maxabs` from namespace _(by Gururaj Gurram)_
+-   [`84ddcae`](https://github.com/stdlib-js/stdlib/commit/84ddcae19a58147c520779c2e9f4c3f311202c9d) - **feat:** add `stats/strided/maxabs` _(by Gururaj Gurram)_
 -   [`7aff772`](https://github.com/stdlib-js/stdlib/commit/7aff77268ae4afcddefac12236dae10c7cf3b8ec) - **remove:** remove `stats/base/max-by` _(by Gururaj Gurram)_
 -   [`1782090`](https://github.com/stdlib-js/stdlib/commit/17820909290d01df1ee44cc370d18e74d76291d9) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`e0767ad`](https://github.com/stdlib-js/stdlib/commit/e0767ad9f2f73ebdbe725d7ea90cb734b3b77037) - **remove:** remove `max-by` from namespace _(by Gururaj Gurram)_

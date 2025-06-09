@@ -21,10 +21,10 @@
 /**
 * Compute the maximum absolute value of a strided array.
 *
-* @module @stdlib/stats/base/maxabs
+* @module @stdlib/stats/strided/maxabs
 *
 * @example
-* var maxabs = require( '@stdlib/stats/base/maxabs' );
+* var maxabs = require( '@stdlib/stats/strided/maxabs' );
 *
 * var x = [ 1.0, -2.0, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns 2.0
 *
 * @example
-* var maxabs = require( '@stdlib/stats/base/maxabs' );
+* var maxabs = require( '@stdlib/stats/strided/maxabs' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
 *

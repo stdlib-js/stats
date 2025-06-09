@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var maxabs = require( '@stdlib/stats/base/maxabs' );
+var maxabs = require( '@stdlib/stats/strided/maxabs' );
 ```
 
 #### maxabs( N, x, strideX )
@@ -124,7 +124,7 @@ var v = maxabs.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var maxabs = require( '@stdlib/stats/base/maxabs' );
+var maxabs = require( '@stdlib/stats/strided/maxabs' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'

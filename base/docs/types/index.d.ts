@@ -32,7 +32,6 @@ import dmeanvarpn = require( './../../../base/dmeanvarpn' );
 import dvarm = require( './../../../base/dvarm' );
 import dvarmpn = require( './../../../base/dvarmpn' );
 import max = require( './../../../base/max' );
-import maxabs = require( './../../../base/maxabs' );
 import maxsorted = require( './../../../base/maxsorted' );
 import mean = require( './../../../base/mean' );
 import meankbn = require( './../../../base/meankbn' );
@@ -440,28 +439,6 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	max: typeof max;
-
-	/**
-	* Computes the maximum absolute value of a strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns maximum absolute value
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.maxabs( x.length, x, 1 );
-	* // returns 2.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.maxabs.ndarray( x.length, x, 1, 0 );
-	* // returns 2.0
-	*/
-	maxabs: typeof maxabs;
 
 	/**
 	* Computes the maximum value of a sorted strided array.

@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/maxabs",
+  "name": "@stdlib/stats/strided/maxabs",
   "version": "0.0.0",
   "description": "Calculate the maximum absolute value of a strided array.",
   "license": "Apache-2.0",
