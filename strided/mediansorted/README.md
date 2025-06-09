@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var mediansorted = require( '@stdlib/stats/base/mediansorted' );
+var mediansorted = require( '@stdlib/stats/strided/mediansorted' );
 ```
 
 #### mediansorted( N, x, strideX )
@@ -127,7 +127,7 @@ var v = mediansorted.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var linspace = require( '@stdlib/array/base/linspace' );
-var mediansorted = require( '@stdlib/stats/base/mediansorted' );
+var mediansorted = require( '@stdlib/stats/strided/mediansorted' );
 
 var x = linspace( -5.0, 5.0, 10 );
 console.log( x );

@@ -21,10 +21,10 @@
 /**
 * Compute the median value of a sorted strided array.
 *
-* @module @stdlib/stats/base/mediansorted
+* @module @stdlib/stats/strided/mediansorted
 *
 * @example
-* var mediansorted = require( '@stdlib/stats/base/mediansorted' );
+* var mediansorted = require( '@stdlib/stats/strided/mediansorted' );
 *
 * var x = [ 1.0, 2.0, 3.0 ];
 *
@@ -33,7 +33,7 @@
 *
 * @example
 * var floor = require( '@stdlib/math/base/special/floor' );
-* var mediansorted = require( '@stdlib/stats/base/mediansorted' );
+* var mediansorted = require( '@stdlib/stats/strided/mediansorted' );
 *
 * var x = [ 2.0, -3.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
 * var N = floor( x.length / 2 );

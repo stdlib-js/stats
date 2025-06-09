@@ -78,7 +78,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`meanpn( N, x, strideX )`][@stdlib/stats/base/meanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using a two-pass error correction algorithm.</span>
 -   <span class="signature">[`meanpw( N, x, stride )`][@stdlib/stats/base/meanpw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using pairwise summation.</span>
 -   <span class="signature">[`meanwd( N, x, strideX )`][@stdlib/stats/base/meanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using Welford's algorithm.</span>
--   <span class="signature">[`mediansorted( N, x, strideX )`][@stdlib/stats/base/mediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted strided array.</span>
+-   <span class="signature">[`mediansorted( N, x, strideX )`][@stdlib/stats/strided/mediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted strided array.</span>
 -   <span class="signature">[`minBy( N, x, strideX, clbk[, thisArg] )`][@stdlib/stats/strided/min-by]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array via a callback function.</span>
 -   <span class="signature">[`min( N, x, strideX )`][@stdlib/stats/strided/min]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array.</span>
 -   <span class="signature">[`minabs( N, x, strideX )`][@stdlib/stats/strided/minabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array.</span>
@@ -242,7 +242,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/meanwd]: https://github.com/stdlib-js/stats/tree/main/base/meanwd
 
-[@stdlib/stats/base/mediansorted]: https://github.com/stdlib-js/stats/tree/main/base/mediansorted
+[@stdlib/stats/strided/mediansorted]: https://github.com/stdlib-js/stats/tree/main/strided/mediansorted
 
 [@stdlib/stats/strided/min-by]: https://github.com/stdlib-js/stats/tree/main/strided/min-by
 

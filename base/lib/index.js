@@ -199,15 +199,6 @@ setReadOnly( ns, 'meanpw', require( './../../base/meanpw' ) );
 setReadOnly( ns, 'meanwd', require( './../../base/meanwd' ) );
 
 /**
-* @name mediansorted
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/mediansorted}
-*/
-setReadOnly( ns, 'mediansorted', require( './../../base/mediansorted' ) );
-
-/**
 * @name mskmax
 * @memberof ns
 * @readonly
