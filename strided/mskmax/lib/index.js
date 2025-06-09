@@ -21,10 +21,10 @@
 /**
 * Compute the maximum value of a strided array according to a mask.
 *
-* @module @stdlib/stats/base/mskmax
+* @module @stdlib/stats/strided/mskmax
 *
 * @example
-* var mskmax = require( '@stdlib/stats/base/mskmax' );
+* var mskmax = require( '@stdlib/stats/strided/mskmax' );
 *
 * var x = [ 1.0, -2.0, 4.0, 2.0 ];
 * var mask = [ 0, 0, 1, 0 ];
@@ -33,7 +33,7 @@
 * // returns 2.0
 *
 * @example
-* var mskmax = require( '@stdlib/stats/base/mskmax' );
+* var mskmax = require( '@stdlib/stats/strided/mskmax' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, 5.0, 6.0 ];
 * var mask = [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ];

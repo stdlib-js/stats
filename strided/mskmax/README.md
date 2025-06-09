@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var mskmax = require( '@stdlib/stats/base/mskmax' );
+var mskmax = require( '@stdlib/stats/strided/mskmax' );
 ```
 
 #### mskmax( N, x, strideX, mask, strideMask )
@@ -136,7 +136,7 @@ var v = mskmax.ndarray( 4, x, 2, 1, mask, 2, 1 );
 ```javascript
 var uniform = require( '@stdlib/random/array/uniform' );
 var bernoulli = require( '@stdlib/random/array/bernoulli' );
-var mskmax = require( '@stdlib/stats/base/mskmax' );
+var mskmax = require( '@stdlib/stats/strided/mskmax' );
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'
