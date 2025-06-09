@@ -190,15 +190,6 @@ setReadOnly( ns, 'meanpw', require( './../../base/meanpw' ) );
 setReadOnly( ns, 'meanwd', require( './../../base/meanwd' ) );
 
 /**
-* @name mskmin
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/mskmin}
-*/
-setReadOnly( ns, 'mskmin', require( './../../base/mskmin' ) );
-
-/**
 * @name mskrange
 * @memberof ns
 * @readonly

@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var mskmin = require( '@stdlib/stats/base/mskmin' );
+var mskmin = require( '@stdlib/stats/strided/mskmin' );
 ```
 
 #### mskmin( N, x, strideX, mask, strideMask )
@@ -136,7 +136,7 @@ var v = mskmin.ndarray( 4, x, 2, 1, mask, 2, 1 );
 ```javascript
 var uniform = require( '@stdlib/random/array/uniform' );
 var bernoulli = require( '@stdlib/random/array/bernoulli' );
-var mskmin = require( '@stdlib/stats/base/mskmin' );
+var mskmin = require( '@stdlib/stats/strided/mskmin' );
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'

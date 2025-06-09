@@ -84,7 +84,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`minabs( N, x, strideX )`][@stdlib/stats/strided/minabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array.</span>
 -   <span class="signature">[`minsorted( N, x, strideX )`][@stdlib/stats/strided/minsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted strided array.</span>
 -   <span class="signature">[`mskmax( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/mskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask.</span>
--   <span class="signature">[`mskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask.</span>
+-   <span class="signature">[`mskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask.</span>
 -   <span class="signature">[`mskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/mskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array according to a mask.</span>
 -   <span class="signature">[`nanmaxBy( N, x, strideX, clbk[, thisArg] )`][@stdlib/stats/base/nanmax-by]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array via a callback function, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanmax( N, x, strideX )`][@stdlib/stats/base/nanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array, ignoring `NaN` values.</span>
@@ -254,7 +254,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/mskmax]: https://github.com/stdlib-js/stats/tree/main/strided/mskmax
 
-[@stdlib/stats/base/mskmin]: https://github.com/stdlib-js/stats/tree/main/base/mskmin
+[@stdlib/stats/strided/mskmin]: https://github.com/stdlib-js/stats/tree/main/strided/mskmin
 
 [@stdlib/stats/base/mskrange]: https://github.com/stdlib-js/stats/tree/main/base/mskrange
 

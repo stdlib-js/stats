@@ -37,7 +37,6 @@ import meanors = require( './../../../base/meanors' );
 import meanpn = require( './../../../base/meanpn' );
 import meanpw = require( './../../../base/meanpw' );
 import meanwd = require( './../../../base/meanwd' );
-import mskmin = require( './../../../base/mskmin' );
 import mskrange = require( './../../../base/mskrange' );
 import nanmax = require( './../../../base/nanmax' );
 import nanmaxBy = require( './../../../base/nanmax-by' );
@@ -540,32 +539,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	meanwd: typeof meanwd;
-
-	/**
-	* Computes the minimum value of a strided array according to a mask.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length for `x`
-	* @param mask - mask array
-	* @param strideMask - stride length for `mask`
-	* @returns minimum value
-	*
-	* @example
-	* var x = [ 1.0, -2.0, -4.0, 2.0 ];
-	* var mask = [ 0, 0, 1, 0 ];
-	*
-	* var v = ns.mskmin( x.length, x, 1, mask, 1 );
-	* // returns -2.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, -4.0, 2.0 ];
-	* var mask = [ 0, 0, 1, 0 ];
-	*
-	* var v = ns.mskmin.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns -2.0
-	*/
-	mskmin: typeof mskmin;
 
 	/**
 	* Computes the range of a strided array according to a mask.

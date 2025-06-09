@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`47a304a`](https://github.com/stdlib-js/stdlib/commit/47a304aa9875d926b85862680a88f6e001674eef) - add `stats/strided/mskmin`
 -   [`8e98fe7`](https://github.com/stdlib-js/stdlib/commit/8e98fe7240d7b5ad942d90bab0eb259d9c1718af) - add `stats/strided/mskmax`
 -   [`d8ffccd`](https://github.com/stdlib-js/stdlib/commit/d8ffccde0e12f66a3f161ccb01efd870f4e7efcd) - add `stats/strided/mean`
 -   [`ddad44c`](https://github.com/stdlib-js/stdlib/commit/ddad44c958b2f37b825c2e5a15b6a1d8c09bc798) - add `stats/strided/mediansorted`
@@ -772,6 +773,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`b78ba85`](https://github.com/stdlib-js/stdlib/commit/b78ba85558445f0855fcafc5055689fb26df0146): remove `stats/base/mskmin`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/mskmin`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`e02f65e`](https://github.com/stdlib-js/stdlib/commit/e02f65ea2da695dc58891a760b88b04ed5a98498): remove `mskmin`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`f77221f`](https://github.com/stdlib-js/stdlib/commit/f77221fccf22acf2f963a0db088d89c3817e4aa9): remove `stats/base/mskmax`
 
@@ -2241,6 +2253,10 @@ A total of 426 issues were closed in this release:
 
 <details>
 
+-   [`b78ba85`](https://github.com/stdlib-js/stdlib/commit/b78ba85558445f0855fcafc5055689fb26df0146) - **remove:** remove `stats/base/mskmin` _(by Gururaj Gurram)_
+-   [`8718b15`](https://github.com/stdlib-js/stdlib/commit/8718b159e8d9083f3ae5d3c254d1e864af65b15c) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`e02f65e`](https://github.com/stdlib-js/stdlib/commit/e02f65ea2da695dc58891a760b88b04ed5a98498) - **remove:** remove `mskmin` from namespace _(by Gururaj Gurram)_
+-   [`47a304a`](https://github.com/stdlib-js/stdlib/commit/47a304aa9875d926b85862680a88f6e001674eef) - **feat:** add `stats/strided/mskmin` _(by Gururaj Gurram)_
 -   [`f77221f`](https://github.com/stdlib-js/stdlib/commit/f77221fccf22acf2f963a0db088d89c3817e4aa9) - **remove:** remove `stats/base/mskmax` _(by Gururaj Gurram)_
 -   [`3dad15a`](https://github.com/stdlib-js/stdlib/commit/3dad15a335e8f20c1747ceacbefd6cecefce8c8d) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`03e7d49`](https://github.com/stdlib-js/stdlib/commit/03e7d49548b0b185b9d831809888d3204bf5717f) - **remove:** remove `mskmax` from namespace _(by Gururaj Gurram)_

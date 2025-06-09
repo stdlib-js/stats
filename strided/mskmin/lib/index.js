@@ -21,10 +21,10 @@
 /**
 * Compute the minimum value of a strided array according to a mask.
 *
-* @module @stdlib/stats/base/mskmin
+* @module @stdlib/stats/strided/mskmin
 *
 * @example
-* var mskmin = require( '@stdlib/stats/base/mskmin' );
+* var mskmin = require( '@stdlib/stats/strided/mskmin' );
 *
 * var x = [ 1.0, -2.0, -4.0, 2.0 ];
 * var mask = [ 0, 0, 1, 0 ];
@@ -34,7 +34,7 @@
 *
 * @example
 * var floor = require( '@stdlib/math/base/special/floor' );
-* var mskmin = require( '@stdlib/stats/base/mskmin' );
+* var mskmin = require( '@stdlib/stats/strided/mskmin' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, -5.0, -6.0 ];
 * var mask = [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ];
