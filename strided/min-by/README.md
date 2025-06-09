@@ -27,7 +27,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var minBy = require( '@stdlib/stats/base/min-by' );
+var minBy = require( '@stdlib/stats/strided/min-by' );
 ```
 
 #### minBy( N, x, strideX, clbk\[, thisArg] )
@@ -172,7 +172,7 @@ var v = minBy.ndarray( 3, x, 1, x.length-3, accessor );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var minBy = require( '@stdlib/stats/base/min-by' );
+var minBy = require( '@stdlib/stats/strided/min-by' );
 
 function accessor( v ) {
     return v * 2.0;

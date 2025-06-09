@@ -21,10 +21,10 @@
 /**
 * Compute the minimum value of a strided array via a callback function.
 *
-* @module @stdlib/stats/base/min-by
+* @module @stdlib/stats/strided/min-by
 *
 * @example
-* var minBy = require( '@stdlib/stats/base/min-by' );
+* var minBy = require( '@stdlib/stats/strided/min-by' );
 *
 * function accessor( v ) {
 *     return v * 2.0;
@@ -36,7 +36,7 @@
 * // returns -10.0
 *
 * @example
-* var minBy = require( '@stdlib/stats/base/min-by' );
+* var minBy = require( '@stdlib/stats/strided/min-by' );
 *
 * function accessor( v ) {
 *     return v * 2.0;

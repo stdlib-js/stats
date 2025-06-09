@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/min-by",
+  "name": "@stdlib/stats/strided/min-by",
   "version": "0.0.0",
   "description": "Calculate the minimum value of a strided array via a callback function.",
   "license": "Apache-2.0",

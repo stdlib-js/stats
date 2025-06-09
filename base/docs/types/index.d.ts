@@ -40,7 +40,6 @@ import meanpw = require( './../../../base/meanpw' );
 import meanwd = require( './../../../base/meanwd' );
 import mediansorted = require( './../../../base/mediansorted' );
 import min = require( './../../../base/min' );
-import minBy = require( './../../../base/min-by' );
 import minabs = require( './../../../base/minabs' );
 import minsorted = require( './../../../base/minsorted' );
 import mskmax = require( './../../../base/mskmax' );
@@ -613,49 +612,6 @@ interface Namespace {
 	* // returns -2.0
 	*/
 	min: typeof min;
-
-	/**
-	* Calculates the minimum value of a strided array via a callback function.
-	*
-	* ## Notes
-	*
-	* -   The callback function is provided four arguments:
-	*
-	*     -   `value`: array element
-	*     -   `aidx`: array index
-	*     -   `sidx`: strided index (offset + aidx*stride)
-	*     -   `array`: input array
-	*
-	* -   The callback function should return a numeric value. If the callback function does not return any value (or equivalently, explicitly returns `undefined`), the value is ignored.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @param clbk - callback
-	* @param thisArg - execution context
-	* @returns minimum value
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
-	*
-	* function accessor( v ) {
-	*     return v * 2.0;
-	* }
-	*
-	* var v = ns.minBy( x.length, x, 1, accessor );
-	* // returns -10.0
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
-	*
-	* function accessor( v ) {
-	*     return v * 2.0;
-	* }
-	*
-	* var v = ns.minBy.ndarray( x.length, x, 1, 0, accessor );
-	* // returns -10.0
-	*/
-	minBy: typeof minBy;
 
 	/**
 	* Computes the minimum absolute value of a strided array.

@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f24f28f`](https://github.com/stdlib-js/stdlib/commit/f24f28f4edc3219aefd4f04f0920993650ad6d28) - add `stats/strided/min-by`
 -   [`397c385`](https://github.com/stdlib-js/stdlib/commit/397c3851d5cd1ee11dd01de2eb98efb236b1ce2e) - add `stats/strided/max`
 -   [`4d75c13`](https://github.com/stdlib-js/stdlib/commit/4d75c130903a7bdd1f30022928e88ed1e2e24fb0) - add `stats/strided/maxsorted`
 -   [`84ddcae`](https://github.com/stdlib-js/stdlib/commit/84ddcae19a58147c520779c2e9f4c3f311202c9d) - add `stats/strided/maxabs`
@@ -765,6 +766,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`f5e72da`](https://github.com/stdlib-js/stdlib/commit/f5e72dab44354dfc7218f7578eada19843f1353e): remove `stats/base/min-by`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/min-by`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`f6448fd`](https://github.com/stdlib-js/stdlib/commit/f6448fda2bc6d060a5ef318a932b3ab1d8b1a487): remove `min-by`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`d8819ca`](https://github.com/stdlib-js/stdlib/commit/d8819cacbbe6df6f9b2804be065f69377dc049c6): remove `stats/base/max`
 
@@ -2157,6 +2169,10 @@ A total of 426 issues were closed in this release:
 
 <details>
 
+-   [`f5e72da`](https://github.com/stdlib-js/stdlib/commit/f5e72dab44354dfc7218f7578eada19843f1353e) - **remove:** remove `stats/base/min-by` _(by Gururaj Gurram)_
+-   [`43d18b4`](https://github.com/stdlib-js/stdlib/commit/43d18b4e771a2fcb6bc6c634641f267587d514e0) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`f6448fd`](https://github.com/stdlib-js/stdlib/commit/f6448fda2bc6d060a5ef318a932b3ab1d8b1a487) - **remove:** remove `min-by` from namespace _(by Gururaj Gurram)_
+-   [`f24f28f`](https://github.com/stdlib-js/stdlib/commit/f24f28f4edc3219aefd4f04f0920993650ad6d28) - **feat:** add `stats/strided/min-by` _(by Gururaj Gurram)_
 -   [`d8819ca`](https://github.com/stdlib-js/stdlib/commit/d8819cacbbe6df6f9b2804be065f69377dc049c6) - **remove:** remove `stats/base/max` _(by Gururaj Gurram)_
 -   [`8853274`](https://github.com/stdlib-js/stdlib/commit/885327441daddf70c02a0ca51925c960993fc4ce) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`c104d4c`](https://github.com/stdlib-js/stdlib/commit/c104d4cc6846b3710ec79729d36247fcef7a2a7e) - **remove:** remove `max` from namespace _(by Gururaj Gurram)_
