@@ -21,10 +21,10 @@
 /**
 * Compute the minimum absolute value of a strided array.
 *
-* @module @stdlib/stats/base/minabs
+* @module @stdlib/stats/strided/minabs
 *
 * @example
-* var minabs = require( '@stdlib/stats/base/minabs' );
+* var minabs = require( '@stdlib/stats/strided/minabs' );
 *
 * var x = [ 1.0, -2.0, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns 1.0
 *
 * @example
-* var minabs = require( '@stdlib/stats/base/minabs' );
+* var minabs = require( '@stdlib/stats/strided/minabs' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
 *

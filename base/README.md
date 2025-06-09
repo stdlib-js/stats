@@ -81,7 +81,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`mediansorted( N, x, strideX )`][@stdlib/stats/base/mediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted strided array.</span>
 -   <span class="signature">[`minBy( N, x, strideX, clbk[, thisArg] )`][@stdlib/stats/strided/min-by]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array via a callback function.</span>
 -   <span class="signature">[`min( N, x, strideX )`][@stdlib/stats/base/min]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array.</span>
--   <span class="signature">[`minabs( N, x, strideX )`][@stdlib/stats/base/minabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array.</span>
+-   <span class="signature">[`minabs( N, x, strideX )`][@stdlib/stats/strided/minabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array.</span>
 -   <span class="signature">[`minsorted( N, x, strideX )`][@stdlib/stats/base/minsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted strided array.</span>
 -   <span class="signature">[`mskmax( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/mskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask.</span>
 -   <span class="signature">[`mskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask.</span>
@@ -248,7 +248,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/min]: https://github.com/stdlib-js/stats/tree/main/base/min
 
-[@stdlib/stats/base/minabs]: https://github.com/stdlib-js/stats/tree/main/base/minabs
+[@stdlib/stats/strided/minabs]: https://github.com/stdlib-js/stats/tree/main/strided/minabs
 
 [@stdlib/stats/base/minsorted]: https://github.com/stdlib-js/stats/tree/main/base/minsorted
 

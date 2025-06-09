@@ -217,15 +217,6 @@ setReadOnly( ns, 'mediansorted', require( './../../base/mediansorted' ) );
 setReadOnly( ns, 'min', require( './../../base/min' ) );
 
 /**
-* @name minabs
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/minabs}
-*/
-setReadOnly( ns, 'minabs', require( './../../base/minabs' ) );
-
-/**
 * @name minsorted
 * @memberof ns
 * @readonly

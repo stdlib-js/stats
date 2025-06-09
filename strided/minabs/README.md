@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var minabs = require( '@stdlib/stats/base/minabs' );
+var minabs = require( '@stdlib/stats/strided/minabs' );
 ```
 
 #### minabs( N, x, strideX )
@@ -124,7 +124,7 @@ var v = minabs.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var minabs = require( '@stdlib/stats/base/minabs' );
+var minabs = require( '@stdlib/stats/strided/minabs' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'

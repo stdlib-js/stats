@@ -40,7 +40,6 @@ import meanpw = require( './../../../base/meanpw' );
 import meanwd = require( './../../../base/meanwd' );
 import mediansorted = require( './../../../base/mediansorted' );
 import min = require( './../../../base/min' );
-import minabs = require( './../../../base/minabs' );
 import minsorted = require( './../../../base/minsorted' );
 import mskmax = require( './../../../base/mskmax' );
 import mskmin = require( './../../../base/mskmin' );
@@ -612,28 +611,6 @@ interface Namespace {
 	* // returns -2.0
 	*/
 	min: typeof min;
-
-	/**
-	* Computes the minimum absolute value of a strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns minimum absolute value
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.minabs( x.length, x, 1 );
-	* // returns 1.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.minabs.ndarray( x.length, x, 1, 0 );
-	* // returns 1.0
-	*/
-	minabs: typeof minabs;
 
 	/**
 	* Computes the minimum value of a sorted strided array.

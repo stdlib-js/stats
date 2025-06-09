@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/minabs",
+  "name": "@stdlib/stats/strided/minabs",
   "version": "0.0.0",
   "description": "Calculate the minimum absolute value of a strided array.",
   "license": "Apache-2.0",

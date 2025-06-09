@@ -149,7 +149,7 @@ console.log( v );
 
 -   <span class="package-name">[`@stdlib/stats/strided/dmaxabs`][@stdlib/stats/strided/dmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/max`][@stdlib/stats/strided/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/minabs`][@stdlib/stats/base/minabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/minabs`][@stdlib/stats/strided/minabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanmaxabs`][@stdlib/stats/base/nanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/smaxabs`][@stdlib/stats/strided/smaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a single-precision floating-point strided array.</span>
 
@@ -173,7 +173,7 @@ console.log( v );
 
 [@stdlib/stats/strided/max]: https://github.com/stdlib-js/stats/tree/main/strided/max
 
-[@stdlib/stats/base/minabs]: https://github.com/stdlib-js/stats/tree/main/base/minabs
+[@stdlib/stats/strided/minabs]: https://github.com/stdlib-js/stats/tree/main/strided/minabs
 
 [@stdlib/stats/base/nanmaxabs]: https://github.com/stdlib-js/stats/tree/main/base/nanmaxabs
 
