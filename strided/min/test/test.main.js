@@ -230,7 +230,6 @@ tape( 'if provided a `stride` parameter equal to `0`, the function returns the f
 	t.end();
 });
 
-
 tape( 'the function supports view offsets', function test( t ) {
 	var x0;
 	var x1;

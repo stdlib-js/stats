@@ -208,15 +208,6 @@ setReadOnly( ns, 'meanwd', require( './../../base/meanwd' ) );
 setReadOnly( ns, 'mediansorted', require( './../../base/mediansorted' ) );
 
 /**
-* @name min
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/min}
-*/
-setReadOnly( ns, 'min', require( './../../base/min' ) );
-
-/**
 * @name mskmax
 * @memberof ns
 * @readonly

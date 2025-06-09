@@ -21,10 +21,10 @@
 /**
 * Compute the minimum value of a strided array.
 *
-* @module @stdlib/stats/base/min
+* @module @stdlib/stats/strided/min
 *
 * @example
-* var min = require( '@stdlib/stats/base/min' );
+* var min = require( '@stdlib/stats/strided/min' );
 *
 * var x = [ 1.0, -2.0, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns -2.0
 *
 * @example
-* var min = require( '@stdlib/stats/base/min' );
+* var min = require( '@stdlib/stats/strided/min' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
 *

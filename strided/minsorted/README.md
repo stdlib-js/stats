@@ -154,7 +154,7 @@ console.log( v );
 
 -   <span class="package-name">[`@stdlib/stats/strided/dminsorted`][@stdlib/stats/strided/dminsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/maxsorted`][@stdlib/stats/strided/maxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/min`][@stdlib/stats/base/min]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/min`][@stdlib/stats/strided/min]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/sminsorted`][@stdlib/stats/strided/sminsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted single-precision floating-point strided array.</span>
 
 </section>
@@ -177,7 +177,7 @@ console.log( v );
 
 [@stdlib/stats/strided/maxsorted]: https://github.com/stdlib-js/stats/tree/main/strided/maxsorted
 
-[@stdlib/stats/base/min]: https://github.com/stdlib-js/stats/tree/main/base/min
+[@stdlib/stats/strided/min]: https://github.com/stdlib-js/stats/tree/main/strided/min
 
 [@stdlib/stats/strided/sminsorted]: https://github.com/stdlib-js/stats/tree/main/strided/sminsorted
 

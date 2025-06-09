@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var min = require( '@stdlib/stats/base/min' );
+var min = require( '@stdlib/stats/strided/min' );
 ```
 
 #### min( N, x, strideX )
@@ -124,7 +124,7 @@ var v = min.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var min = require( '@stdlib/stats/base/min' );
+var min = require( '@stdlib/stats/strided/min' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'

@@ -39,7 +39,6 @@ import meanpn = require( './../../../base/meanpn' );
 import meanpw = require( './../../../base/meanpw' );
 import meanwd = require( './../../../base/meanwd' );
 import mediansorted = require( './../../../base/mediansorted' );
-import min = require( './../../../base/min' );
 import mskmax = require( './../../../base/mskmax' );
 import mskmin = require( './../../../base/mskmin' );
 import mskrange = require( './../../../base/mskrange' );
@@ -588,28 +587,6 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	mediansorted: typeof mediansorted;
-
-	/**
-	* Computes the minimum value of a strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns minimum value
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.min( x.length, x, 1 );
-	* // returns -2.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.min.ndarray( x.length, x, 1, 0 );
-	* // returns -2.0
-	*/
-	min: typeof min;
 
 	/**
 	* Computes the maximum value of a strided array according to a mask.
