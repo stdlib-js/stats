@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var minsorted = require( '@stdlib/stats/base/minsorted' );
+var minsorted = require( '@stdlib/stats/strided/minsorted' );
 ```
 
 #### minsorted( N, x, strideX )
@@ -131,7 +131,7 @@ var v = minsorted.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var linspace = require( '@stdlib/array/base/linspace' );
-var minsorted = require( '@stdlib/stats/base/minsorted' );
+var minsorted = require( '@stdlib/stats/strided/minsorted' );
 
 var x = linspace( -5.0, 5.0, 10 );
 console.log( x );

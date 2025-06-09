@@ -21,10 +21,10 @@
 /**
 * Compute the minimum value of a sorted strided array.
 *
-* @module @stdlib/stats/base/minsorted
+* @module @stdlib/stats/strided/minsorted
 *
 * @example
-* var minsorted = require( '@stdlib/stats/base/minsorted' );
+* var minsorted = require( '@stdlib/stats/strided/minsorted' );
 *
 * var x = [ 1.0, 2.0, 3.0 ];
 * var N = x.length;
@@ -34,7 +34,7 @@
 *
 * @example
 * var floor = require( '@stdlib/math/base/special/floor' );
-* var minsorted = require( '@stdlib/stats/base/minsorted' );
+* var minsorted = require( '@stdlib/stats/strided/minsorted' );
 *
 * var x = [ 2.0, -3.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
 * var N = floor( x.length / 2 );
