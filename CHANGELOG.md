@@ -2109,6 +2109,7 @@ A total of 426 issues were closed in this release:
 
 <details>
 
+-   [`c584077`](https://github.com/stdlib-js/stdlib/commit/c5840770ca22e8717a880d1f1ced8496f7f5a62e) - **docs:** update namespace table of contents [(#7283)](https://github.com/stdlib-js/stdlib/pull/7283) _(by stdlib-bot)_
 -   [`25c2e85`](https://github.com/stdlib-js/stdlib/commit/25c2e855e0c63a1e778ceac3cdb10c7b2eda37b7) - **chore:** fix C lint errors [(#7278)](https://github.com/stdlib-js/stdlib/pull/7278) _(by zhanggy)_
 -   [`f642f04`](https://github.com/stdlib-js/stdlib/commit/f642f049a14d0438e50f8cdab98835019809fbc9) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancewd` [(#4370#pullrequestreview-2908287034)](https://github.com/stdlib-js/stdlib/pull/4370#pullrequestreview-2908287034) _(by Vinit Pandit, Athan Reines, Aayush Khanna, stdlib-bot)_
 -   [`73c0e28`](https://github.com/stdlib-js/stdlib/commit/73c0e280f30d7132f5bceadf6efd45e4897e017d) - **remove:** remove `stats/base/sstdev` _(by Gururaj Gurram)_
