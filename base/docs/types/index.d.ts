@@ -37,7 +37,6 @@ import meanors = require( './../../../base/meanors' );
 import meanpn = require( './../../../base/meanpn' );
 import meanpw = require( './../../../base/meanpw' );
 import meanwd = require( './../../../base/meanwd' );
-import mskrange = require( './../../../base/mskrange' );
 import nanmax = require( './../../../base/nanmax' );
 import nanmaxBy = require( './../../../base/nanmax-by' );
 import nanmaxabs = require( './../../../base/nanmaxabs' );
@@ -539,32 +538,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	meanwd: typeof meanwd;
-
-	/**
-	* Computes the range of a strided array according to a mask.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length for `x`
-	* @param mask - mask array
-	* @param strideMask - stride length for `mask`
-	* @returns range
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 4.0, 2.0 ];
-	* var mask = [ 0, 0, 1, 0 ];
-	*
-	* var v = ns.mskrange( x.length, x, 1, mask, 1 );
-	* // returns 4.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 4.0, 2.0 ];
-	* var mask = [ 0, 0, 1, 0 ];
-	*
-	* var v = ns.mskrange.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 4.0
-	*/
-	mskrange: typeof mskrange;
 
 	/**
 	* Computes the maximum value of a strided array, ignoring `NaN` values.

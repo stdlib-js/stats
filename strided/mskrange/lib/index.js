@@ -21,10 +21,10 @@
 /**
 * Compute the range of a strided array according to a mask.
 *
-* @module @stdlib/stats/base/mskrange
+* @module @stdlib/stats/strided/mskrange
 *
 * @example
-* var mskrange = require( '@stdlib/stats/base/mskrange' );
+* var mskrange = require( '@stdlib/stats/strided/mskrange' );
 *
 * var x = [ 1.0, -2.0, 4.0, 2.0 ];
 * var mask = [ 0, 0, 1, 0 ];
@@ -34,7 +34,7 @@
 *
 * @example
 * var floor = require( '@stdlib/math/base/special/floor' );
-* var mskrange = require( '@stdlib/stats/base/mskrange' );
+* var mskrange = require( '@stdlib/stats/strided/mskrange' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, 5.0, 6.0 ];
 * var mask = [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ];

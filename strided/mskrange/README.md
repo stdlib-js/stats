@@ -35,7 +35,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-var mskrange = require( '@stdlib/stats/base/mskrange' );
+var mskrange = require( '@stdlib/stats/strided/mskrange' );
 ```
 
 #### mskrange( N, x, strideX, mask, strideMask )
@@ -138,7 +138,7 @@ var v = mskrange.ndarray( 4, x, 2, 1, mask, 2, 1 );
 ```javascript
 var uniform = require( '@stdlib/random/array/uniform' );
 var bernoulli = require( '@stdlib/random/array/bernoulli' );
-var mskrange = require( '@stdlib/stats/base/mskrange' );
+var mskrange = require( '@stdlib/stats/strided/mskrange' );
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'

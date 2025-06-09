@@ -316,7 +316,7 @@ int main( void ) {
 -   <span class="package-name">[`@stdlib/stats/strided/dmskmin`][@stdlib/stats/strided/dmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dnanrange`][@stdlib/stats/strided/dnanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/drange`][@stdlib/stats/strided/drange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/mskrange`][@stdlib/stats/base/mskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/mskrange`][@stdlib/stats/strided/mskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array according to a mask.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/smskrange`][@stdlib/stats/strided/smskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array according to a mask.</span>
 
 </section>
@@ -345,7 +345,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/drange]: https://github.com/stdlib-js/stats/tree/main/strided/drange
 
-[@stdlib/stats/base/mskrange]: https://github.com/stdlib-js/stats/tree/main/base/mskrange
+[@stdlib/stats/strided/mskrange]: https://github.com/stdlib-js/stats/tree/main/strided/mskrange
 
 [@stdlib/stats/strided/smskrange]: https://github.com/stdlib-js/stats/tree/main/strided/smskrange
 
