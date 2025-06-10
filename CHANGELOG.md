@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-09)
+## Unreleased (2025-06-10)
 
 <section class="features">
 
@@ -2265,6 +2265,7 @@ A total of 426 issues were closed in this release:
 
 <details>
 
+-   [`3063aad`](https://github.com/stdlib-js/stdlib/commit/3063aad211333ea8ac87094f7eacd516483795d6) - **docs:** update namespace table of contents [(#7300)](https://github.com/stdlib-js/stdlib/pull/7300) _(by stdlib-bot)_
 -   [`a0a44c6`](https://github.com/stdlib-js/stdlib/commit/a0a44c6ccf89c9a7c0372169f4f455ebfcf3a35b) - **remove:** remove `stats/base/mskrange` _(by Gururaj Gurram)_
 -   [`249e681`](https://github.com/stdlib-js/stdlib/commit/249e6814b2cb7f199a766af1ecb4c7f9bcac2542) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`0564116`](https://github.com/stdlib-js/stdlib/commit/05641167f4ac88dbca60704aa8fbe6c436d22437) - **remove:** remove `mskrange` from namespace _(by Gururaj Gurram)_
