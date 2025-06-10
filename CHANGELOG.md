@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c6b225c`](https://github.com/stdlib-js/stdlib/commit/c6b225c93857863d0283871c5e85060e103849e2) - add `stats/strided/nanmaxabs`
 -   [`c7c48ec`](https://github.com/stdlib-js/stdlib/commit/c7c48ecf7aac15d65f1f13901b068abec081eeb3) - add `stats/strided/mskrange`
 -   [`47a304a`](https://github.com/stdlib-js/stdlib/commit/47a304aa9875d926b85862680a88f6e001674eef) - add `stats/strided/mskmin`
 -   [`8e98fe7`](https://github.com/stdlib-js/stdlib/commit/8e98fe7240d7b5ad942d90bab0eb259d9c1718af) - add `stats/strided/mskmax`
@@ -774,6 +775,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`fcdb2b4`](https://github.com/stdlib-js/stdlib/commit/fcdb2b48f55e2bd394c63e9cb0def6d108e5eef0): remove `stats/base/nanmaxabs`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanmaxabs`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`9a33ea1`](https://github.com/stdlib-js/stdlib/commit/9a33ea1974421e4cff3c3b5f9f431bb4d0d66b40): remove `nanmaxabs`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`a0a44c6`](https://github.com/stdlib-js/stdlib/commit/a0a44c6ccf89c9a7c0372169f4f455ebfcf3a35b): remove `stats/base/mskrange`
 
@@ -2265,6 +2277,10 @@ A total of 426 issues were closed in this release:
 
 <details>
 
+-   [`fcdb2b4`](https://github.com/stdlib-js/stdlib/commit/fcdb2b48f55e2bd394c63e9cb0def6d108e5eef0) - **remove:** remove `stats/base/nanmaxabs` _(by Gururaj Gurram)_
+-   [`f1f0640`](https://github.com/stdlib-js/stdlib/commit/f1f06404e9a92c29c4ef8461e27f5b63e6a547dc) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`9a33ea1`](https://github.com/stdlib-js/stdlib/commit/9a33ea1974421e4cff3c3b5f9f431bb4d0d66b40) - **remove:** remove `nanmaxabs` from namespace _(by Gururaj Gurram)_
+-   [`c6b225c`](https://github.com/stdlib-js/stdlib/commit/c6b225c93857863d0283871c5e85060e103849e2) - **feat:** add `stats/strided/nanmaxabs` _(by Gururaj Gurram)_
 -   [`3063aad`](https://github.com/stdlib-js/stdlib/commit/3063aad211333ea8ac87094f7eacd516483795d6) - **docs:** update namespace table of contents [(#7300)](https://github.com/stdlib-js/stdlib/pull/7300) _(by stdlib-bot)_
 -   [`a0a44c6`](https://github.com/stdlib-js/stdlib/commit/a0a44c6ccf89c9a7c0372169f4f455ebfcf3a35b) - **remove:** remove `stats/base/mskrange` _(by Gururaj Gurram)_
 -   [`249e681`](https://github.com/stdlib-js/stdlib/commit/249e6814b2cb7f199a766af1ecb4c7f9bcac2542) - **refactor:** update paths _(by Gururaj Gurram)_

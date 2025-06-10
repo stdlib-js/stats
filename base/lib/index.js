@@ -208,15 +208,6 @@ setReadOnly( ns, 'nanmax', require( './../../base/nanmax' ) );
 setReadOnly( ns, 'nanmaxBy', require( './../../base/nanmax-by' ) );
 
 /**
-* @name nanmaxabs
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanmaxabs}
-*/
-setReadOnly( ns, 'nanmaxabs', require( './../../base/nanmaxabs' ) );
-
-/**
 * @name nanmean
 * @memberof ns
 * @readonly

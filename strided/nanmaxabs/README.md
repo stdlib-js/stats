@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var nanmaxabs = require( '@stdlib/stats/base/nanmaxabs' );
+var nanmaxabs = require( '@stdlib/stats/strided/nanmaxabs' );
 ```
 
 #### nanmaxabs( N, x, strideX )
@@ -126,7 +126,7 @@ var v = nanmaxabs.ndarray( 5, x, 2, 1 );
 var uniform = require( '@stdlib/random/base/uniform' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
 var bernoulli = require( '@stdlib/random/base/bernoulli' );
-var nanmaxabs = require( '@stdlib/stats/base/nanmaxabs' );
+var nanmaxabs = require( '@stdlib/stats/strided/nanmaxabs' );
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {

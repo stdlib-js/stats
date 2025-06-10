@@ -21,10 +21,10 @@
 /**
 * Compute the maximum absolute value of a strided array, ignoring `NaN` values.
 *
-* @module @stdlib/stats/base/nanmaxabs
+* @module @stdlib/stats/strided/nanmaxabs
 *
 * @example
-* var nanmaxabs = require( '@stdlib/stats/base/nanmaxabs' );
+* var nanmaxabs = require( '@stdlib/stats/strided/nanmaxabs' );
 *
 * var x = [ 1.0, -2.0, NaN, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns 2.0
 *
 * @example
-* var nanmaxabs = require( '@stdlib/stats/base/nanmaxabs' );
+* var nanmaxabs = require( '@stdlib/stats/strided/nanmaxabs' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
 *
