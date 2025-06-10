@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var nanmin = require( '@stdlib/stats/base/nanmin' );
+var nanmin = require( '@stdlib/stats/strided/nanmin' );
 ```
 
 #### nanmin( N, x, strideX )
@@ -126,7 +126,7 @@ var v = nanmin.ndarray( 5, x, 2, 1 );
 var uniform = require( '@stdlib/random/base/uniform' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
 var bernoulli = require( '@stdlib/random/base/bernoulli' );
-var nanmin = require( '@stdlib/stats/base/nanmin' );
+var nanmin = require( '@stdlib/stats/strided/nanmin' );
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {

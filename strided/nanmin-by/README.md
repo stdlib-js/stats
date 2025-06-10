@@ -159,7 +159,7 @@ var v = nanminBy.ndarray( 3, x, 1, x.length-3, accessor );
 -   If a provided callback function returns `NaN`, the value is ignored.
 -   If a provided callback function does not return any value (or equivalently, explicitly returns `undefined`), the value is ignored.
 -   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array/base/accessor`][@stdlib/array/base/accessor]).
--   When possible, prefer using [`dnanmin`][@stdlib/stats/strided/dnanmin], [`snanmin`][@stdlib/stats/strided/snanmin], and/or [`nanmin`][@stdlib/stats/base/nanmin], as, depending on the environment, these interfaces are likely to be significantly more performant.
+-   When possible, prefer using [`dnanmin`][@stdlib/stats/strided/dnanmin], [`snanmin`][@stdlib/stats/strided/snanmin], and/or [`nanmin`][@stdlib/stats/strided/nanmin], as, depending on the environment, these interfaces are likely to be significantly more performant.
 
 </section>
 
@@ -210,7 +210,7 @@ console.log( v );
 -   <span class="package-name">[`@stdlib/stats/strided/dnanmin`][@stdlib/stats/strided/dnanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/min-by`][@stdlib/stats/strided/min-by]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array via a callback function.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/nanmax-by`][@stdlib/stats/strided/nanmax-by]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array via a callback function, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanmin`][@stdlib/stats/base/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanmin`][@stdlib/stats/strided/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/snanmin`][@stdlib/stats/strided/snanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array, ignoring NaN values.</span>
 
 </section>
@@ -235,7 +235,7 @@ console.log( v );
 
 [@stdlib/stats/strided/nanmax-by]: https://github.com/stdlib-js/stats/tree/main/strided/nanmax-by
 
-[@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats/tree/main/base/nanmin
+[@stdlib/stats/strided/nanmin]: https://github.com/stdlib-js/stats/tree/main/strided/nanmin
 
 [@stdlib/stats/strided/snanmin]: https://github.com/stdlib-js/stats/tree/main/strided/snanmin
 

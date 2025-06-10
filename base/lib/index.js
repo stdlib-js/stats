@@ -226,15 +226,6 @@ setReadOnly( ns, 'nanmeanpn', require( './../../base/nanmeanpn' ) );
 setReadOnly( ns, 'nanmeanwd', require( './../../base/nanmeanwd' ) );
 
 /**
-* @name nanmin
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanmin}
-*/
-setReadOnly( ns, 'nanmin', require( './../../base/nanmin' ) );
-
-/**
 * @name nanmskmax
 * @memberof ns
 * @readonly
