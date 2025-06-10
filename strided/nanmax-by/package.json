@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/nanmax-by",
+  "name": "@stdlib/stats/strided/nanmax-by",
   "version": "0.0.0",
   "description": "Calculate the maximum value of a strided array via a callback function, ignoring NaN values.",
   "license": "Apache-2.0",

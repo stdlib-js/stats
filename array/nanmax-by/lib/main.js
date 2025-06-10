@@ -22,7 +22,7 @@
 
 var isCollection = require( '@stdlib/assert/is-collection' );
 var isFunction = require( '@stdlib/assert/is-function' );
-var strided = require( './../../../base/nanmax-by' ).ndarray;
+var strided = require( './../../../strided/nanmax-by' ).ndarray;
 var format = require( '@stdlib/string/format' );
 
 

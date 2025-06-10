@@ -27,7 +27,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var nanmaxBy = require( '@stdlib/stats/base/nanmax-by' );
+var nanmaxBy = require( '@stdlib/stats/strided/nanmax-by' );
 ```
 
 #### nanmaxBy( N, x, strideX, clbk\[, thisArg] )
@@ -175,7 +175,7 @@ var v = nanmaxBy.ndarray( 3, x, 1, x.length-3, accessor );
 var uniform = require( '@stdlib/random/base/uniform' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
 var bernoulli = require( '@stdlib/random/base/bernoulli' );
-var nanmaxBy = require( '@stdlib/stats/base/nanmax-by' );
+var nanmaxBy = require( '@stdlib/stats/strided/nanmax-by' );
 
 function rand() {
     if ( bernoulli( 0.8 )< 0.2 ) {

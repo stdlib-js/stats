@@ -21,10 +21,10 @@
 /**
 * Compute the maximum value of a strided array via a callback function and ignoring `NaN` values.
 *
-* @module @stdlib/stats/base/nanmax-by
+* @module @stdlib/stats/strided/nanmax-by
 *
 * @example
-* var nanmaxBy = require( '@stdlib/stats/base/nanmax-by' );
+* var nanmaxBy = require( '@stdlib/stats/strided/nanmax-by' );
 *
 * function accessor( v ) {
 *     return v * 2.0;
@@ -36,7 +36,7 @@
 * // returns 8.0
 *
 * @example
-* var nanmaxBy = require( '@stdlib/stats/base/nanmax-by' );
+* var nanmaxBy = require( '@stdlib/stats/strided/nanmax-by' );
 *
 * function accessor( v ) {
 *     return v * 2.0;
