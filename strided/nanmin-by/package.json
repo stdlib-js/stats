@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/nanmin-by",
+  "name": "@stdlib/stats/strided/nanmin-by",
   "version": "0.0.0",
   "description": "Calculate the minimum value of a strided array via a callback function, ignoring NaN values.",
   "license": "Apache-2.0",

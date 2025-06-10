@@ -21,10 +21,10 @@
 /**
 * Compute the minimum value of a strided array via a callback function and ignoring `NaN` values.
 *
-* @module @stdlib/stats/base/nanmin-by
+* @module @stdlib/stats/strided/nanmin-by
 *
 * @example
-* var nanminBy = require( '@stdlib/stats/base/nanmin-by' );
+* var nanminBy = require( '@stdlib/stats/strided/nanmin-by' );
 *
 * function accessor( v ) {
 *     return v * 2.0;
@@ -36,7 +36,7 @@
 * // returns -10.0
 *
 * @example
-* var nanminBy = require( '@stdlib/stats/base/nanmin-by' );
+* var nanminBy = require( '@stdlib/stats/strided/nanmin-by' );
 *
 * function accessor( v ) {
 *     return v * 2.0;
