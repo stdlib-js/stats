@@ -190,15 +190,6 @@ setReadOnly( ns, 'meanpw', require( './../../base/meanpw' ) );
 setReadOnly( ns, 'meanwd', require( './../../base/meanwd' ) );
 
 /**
-* @name nanmax
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanmax}
-*/
-setReadOnly( ns, 'nanmax', require( './../../base/nanmax' ) );
-
-/**
 * @name nanmean
 * @memberof ns
 * @readonly

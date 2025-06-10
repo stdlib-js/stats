@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5160526`](https://github.com/stdlib-js/stdlib/commit/5160526b816cd78e1b0bb8e076b6e3d1a62cf690) - add `stats/strided/nanmax`
 -   [`e82e734`](https://github.com/stdlib-js/stdlib/commit/e82e734372ef1e7e3a0f39ea9fe18ef440b1fa94) - add `stats/strided/nanmax-by`
 -   [`c6b225c`](https://github.com/stdlib-js/stdlib/commit/c6b225c93857863d0283871c5e85060e103849e2) - add `stats/strided/nanmaxabs`
 -   [`c7c48ec`](https://github.com/stdlib-js/stdlib/commit/c7c48ecf7aac15d65f1f13901b068abec081eeb3) - add `stats/strided/mskrange`
@@ -776,6 +777,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`dcc45ac`](https://github.com/stdlib-js/stdlib/commit/dcc45acac3c15c6cbce0a2a73131d3c6f7abb6b6): remove `stats/base/nanmax`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanmax`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`d64ce7d`](https://github.com/stdlib-js/stdlib/commit/d64ce7d9a669ff40ae014e20cf1ed35f6d7dd735): remove `nanmax`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`d790ece`](https://github.com/stdlib-js/stdlib/commit/d790ece586095766bac199def699b2e0e2061eeb): remove `stats/base/nanmax-by`
 
@@ -2289,6 +2301,10 @@ A total of 426 issues were closed in this release:
 
 <details>
 
+-   [`dcc45ac`](https://github.com/stdlib-js/stdlib/commit/dcc45acac3c15c6cbce0a2a73131d3c6f7abb6b6) - **remove:** remove `stats/base/nanmax` _(by Gururaj Gurram)_
+-   [`c313ded`](https://github.com/stdlib-js/stdlib/commit/c313ded7f981c1b180883cfafe1538cb48c10fe1) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`d64ce7d`](https://github.com/stdlib-js/stdlib/commit/d64ce7d9a669ff40ae014e20cf1ed35f6d7dd735) - **remove:** remove `nanmax` from namespace _(by Gururaj Gurram)_
+-   [`5160526`](https://github.com/stdlib-js/stdlib/commit/5160526b816cd78e1b0bb8e076b6e3d1a62cf690) - **feat:** add `stats/strided/nanmax` _(by Gururaj Gurram)_
 -   [`d790ece`](https://github.com/stdlib-js/stdlib/commit/d790ece586095766bac199def699b2e0e2061eeb) - **remove:** remove `stats/base/nanmax-by` _(by Gururaj Gurram)_
 -   [`e92388f`](https://github.com/stdlib-js/stdlib/commit/e92388f2e99794eed4be8908a2160e0ad9274321) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`fcfbee1`](https://github.com/stdlib-js/stdlib/commit/fcfbee12e33eb06ad3c3e3f753892d0b70105c11) - **remove:** remove `nanmax-by` from namespace _(by Gururaj Gurram)_

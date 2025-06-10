@@ -158,7 +158,7 @@ var v = nanmaxBy.ndarray( 3, x, 1, x.length-3, accessor );
 -   A provided callback function should return a numeric value.
 -   If a provided callback function returns `NaN`, the value is ignored.
 -   If a provided callback function does not return any value (or equivalently, explicitly returns `undefined`), the value is ignored.
--   When possible, prefer using [`dnanmax`][@stdlib/stats/strided/dnanmax], [`snanmax`][@stdlib/stats/strided/snanmax], and/or [`nanmax`][@stdlib/stats/base/nanmax], as, depending on the environment, these interfaces are likely to be significantly more performant.
+-   When possible, prefer using [`dnanmax`][@stdlib/stats/strided/dnanmax], [`snanmax`][@stdlib/stats/strided/snanmax], and/or [`nanmax`][@stdlib/stats/strided/nanmax], as, depending on the environment, these interfaces are likely to be significantly more performant.
 -   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array/base/accessor`][@stdlib/array/base/accessor]).
 
 </section>
@@ -209,7 +209,7 @@ console.log( v );
 
 -   <span class="package-name">[`@stdlib/stats/strided/dnanmax`][@stdlib/stats/strided/dnanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/max-by`][@stdlib/stats/strided/max-by]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array via a callback function.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanmax`][@stdlib/stats/base/nanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanmax`][@stdlib/stats/strided/nanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanmin-by`][@stdlib/stats/base/nanmin-by]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array via a callback function, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/snanmax`][@stdlib/stats/strided/snanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array, ignoring NaN values.</span>
 
@@ -233,7 +233,7 @@ console.log( v );
 
 [@stdlib/stats/strided/max-by]: https://github.com/stdlib-js/stats/tree/main/strided/max-by
 
-[@stdlib/stats/base/nanmax]: https://github.com/stdlib-js/stats/tree/main/base/nanmax
+[@stdlib/stats/strided/nanmax]: https://github.com/stdlib-js/stats/tree/main/strided/nanmax
 
 [@stdlib/stats/base/nanmin-by]: https://github.com/stdlib-js/stats/tree/main/base/nanmin-by
 

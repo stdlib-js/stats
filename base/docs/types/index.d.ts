@@ -37,7 +37,6 @@ import meanors = require( './../../../base/meanors' );
 import meanpn = require( './../../../base/meanpn' );
 import meanpw = require( './../../../base/meanpw' );
 import meanwd = require( './../../../base/meanwd' );
-import nanmax = require( './../../../base/nanmax' );
 import nanmean = require( './../../../base/nanmean' );
 import nanmeanors = require( './../../../base/nanmeanors' );
 import nanmeanpn = require( './../../../base/nanmeanpn' );
@@ -536,28 +535,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	meanwd: typeof meanwd;
-
-	/**
-	* Computes the maximum value of a strided array, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns maximum value
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanmax( x.length, x, 1 );
-	* // returns 2.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanmax.ndarray( x.length, x, 1, 0 );
-	* // returns 2.0
-	*/
-	nanmax: typeof nanmax;
 
 	/**
 	* Computes the arithmetic mean of a strided array, ignoring `NaN` values.
