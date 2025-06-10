@@ -21,10 +21,10 @@
 /**
 * Compute the minimum absolute value of a strided array, ignoring `NaN` values.
 *
-* @module @stdlib/stats/base/nanminabs
+* @module @stdlib/stats/strided/nanminabs
 *
 * @example
-* var nanminabs = require( '@stdlib/stats/base/nanminabs' );
+* var nanminabs = require( '@stdlib/stats/strided/nanminabs' );
 *
 * var x = [ 1.0, -2.0, NaN, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns 1.0
 *
 * @example
-* var nanminabs = require( '@stdlib/stats/base/nanminabs' );
+* var nanminabs = require( '@stdlib/stats/strided/nanminabs' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
 *

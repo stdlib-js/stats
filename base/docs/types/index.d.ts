@@ -43,7 +43,6 @@ import nanmeanpn = require( './../../../base/nanmeanpn' );
 import nanmeanwd = require( './../../../base/nanmeanwd' );
 import nanmin = require( './../../../base/nanmin' );
 import nanminBy = require( './../../../base/nanmin-by' );
-import nanminabs = require( './../../../base/nanminabs' );
 import nanmskmax = require( './../../../base/nanmskmax' );
 import nanmskmin = require( './../../../base/nanmskmin' );
 import nanmskrange = require( './../../../base/nanmskrange' );
@@ -692,28 +691,6 @@ interface Namespace {
 	* // returns -10.0
 	*/
 	nanminBy: typeof nanminBy;
-
-	/**
-	* Computes the minimum absolute value of a strided array, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns minimum absolute value
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanminabs( x.length, x, 1 );
-	* // returns 1.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanminabs.ndarray( x.length, x, 1, 0 );
-	* // returns 1.0
-	*/
-	nanminabs: typeof nanminabs;
 
 	/**
 	* Computes the maximum value of a strided array according to a mask, ignoring `NaN` values.

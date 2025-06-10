@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`cfd1ccb`](https://github.com/stdlib-js/stdlib/commit/cfd1ccb2c693b220850fe3f5d0513e8767918a12) - add `stats/strided/nanminabs`
 -   [`5160526`](https://github.com/stdlib-js/stdlib/commit/5160526b816cd78e1b0bb8e076b6e3d1a62cf690) - add `stats/strided/nanmax`
 -   [`e82e734`](https://github.com/stdlib-js/stdlib/commit/e82e734372ef1e7e3a0f39ea9fe18ef440b1fa94) - add `stats/strided/nanmax-by`
 -   [`c6b225c`](https://github.com/stdlib-js/stdlib/commit/c6b225c93857863d0283871c5e85060e103849e2) - add `stats/strided/nanmaxabs`
@@ -777,6 +778,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`41e9b04`](https://github.com/stdlib-js/stdlib/commit/41e9b04b6cd7f4dd2c110f1e99f9b6ef7b3e5221): remove `stats/base/nanminabs`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanminabs`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`b825208`](https://github.com/stdlib-js/stdlib/commit/b8252088141cd38cc307916b3bdfe8976439e342): remove `nanminabs`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`dcc45ac`](https://github.com/stdlib-js/stdlib/commit/dcc45acac3c15c6cbce0a2a73131d3c6f7abb6b6): remove `stats/base/nanmax`
 
@@ -2301,6 +2313,10 @@ A total of 426 issues were closed in this release:
 
 <details>
 
+-   [`41e9b04`](https://github.com/stdlib-js/stdlib/commit/41e9b04b6cd7f4dd2c110f1e99f9b6ef7b3e5221) - **remove:** remove `stats/base/nanminabs` _(by Gururaj Gurram)_
+-   [`c214aad`](https://github.com/stdlib-js/stdlib/commit/c214aad811da884f01942b3cee4b52c04a541adf) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`b825208`](https://github.com/stdlib-js/stdlib/commit/b8252088141cd38cc307916b3bdfe8976439e342) - **remove:** remove `nanminabs` from namespace _(by Gururaj Gurram)_
+-   [`cfd1ccb`](https://github.com/stdlib-js/stdlib/commit/cfd1ccb2c693b220850fe3f5d0513e8767918a12) - **feat:** add `stats/strided/nanminabs` _(by Gururaj Gurram)_
 -   [`dcc45ac`](https://github.com/stdlib-js/stdlib/commit/dcc45acac3c15c6cbce0a2a73131d3c6f7abb6b6) - **remove:** remove `stats/base/nanmax` _(by Gururaj Gurram)_
 -   [`c313ded`](https://github.com/stdlib-js/stdlib/commit/c313ded7f981c1b180883cfafe1538cb48c10fe1) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`d64ce7d`](https://github.com/stdlib-js/stdlib/commit/d64ce7d9a669ff40ae014e20cf1ed35f6d7dd735) - **remove:** remove `nanmax` from namespace _(by Gururaj Gurram)_
