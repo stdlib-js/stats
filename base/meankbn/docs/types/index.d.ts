@@ -20,12 +20,7 @@
 
 /// <reference types="@stdlib/types"/>
 
-import { NumericArray, Collection, AccessorArrayLike } from '@stdlib/types/array';
-
-/**
-* Input array.
-*/
-type InputArray = NumericArray | Collection<number> | AccessorArrayLike<number>;
+import { NumericArray } from '@stdlib/types/array';
 
 /**
 * Interface describing `meankbn`.
@@ -36,7 +31,7 @@ interface Routine {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param strideX - stride length
+	* @param stride - stride length
 	* @returns arithmetic mean
 	*
 	* @example
@@ -45,15 +40,15 @@ interface Routine {
 	* var v = meankbn( x.length, x, 1 );
 	* // returns ~0.3333
 	*/
-	( N: number, x: InputArray, strideX: number ): number;
+	( N: number, x: NumericArray, stride: number ): number;
 
 	/**
 	* Computes the arithmetic mean of a strided array using an improved Kahan–Babuška algorithm and alternative indexing semantics.
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param strideX - stride length
-	* @param offsetX - starting index
+	* @param stride - stride length
+	* @param offset - starting index
 	* @returns arithmetic mean
 	*
 	* @example
@@ -62,7 +57,7 @@ interface Routine {
 	* var v = meankbn.ndarray( x.length, x, 1, 0 );
 	* // returns ~0.3333
 	*/
-	ndarray( N: number, x: InputArray, strideX: number, offsetX: number ): number;
+	ndarray( N: number, x: NumericArray, stride: number, offset: number ): number;
 }
 
 /**
@@ -70,7 +65,7 @@ interface Routine {
 *
 * @param N - number of indexed elements
 * @param x - input array
-* @param strideX - stride length
+* @param stride - stride length
 * @returns arithmetic mean
 *
 * @example

@@ -51,14 +51,15 @@ The [arithmetic mean][arithmetic-mean] is defined as
 var meankbn = require( '@stdlib/stats/base/meankbn' );
 ```
 
-#### meankbn( N, x, strideX )
+#### meankbn( N, x, stride )
 
-Computes the [arithmetic mean][arithmetic-mean] of a strided array using an improved Kahan–Babuška algorithm.
+Computes the [arithmetic mean][arithmetic-mean] of a strided array `x` using an improved Kahan–Babuška algorithm.
 
 ```javascript
 var x = [ 1.0, -2.0, 2.0 ];
+var N = x.length;
 
-var v = meankbn( x.length, x, 1 );
+var v = meankbn( N, x, 1 );
 // returns ~0.3333
 ```
 
@@ -66,14 +67,17 @@ The function has the following parameters:
 
 -   **N**: number of indexed elements.
 -   **x**: input [`Array`][mdn-array] or [`typed array`][mdn-typed-array].
--   **strideX**: stride length for `x`.
+-   **stride**: index increment for `x`.
 
-The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to compute the [arithmetic mean][arithmetic-mean] of every other element in `x`,
+The `N` and `stride` parameters determine which elements in `x` are accessed at runtime. For example, to compute the [arithmetic mean][arithmetic-mean] of every other element in `x`,
 
 ```javascript
-var x = [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ];
+var floor = require( '@stdlib/math/base/special/floor' );
 
-var v = meankbn( 4, x, 2 );
+var x = [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ];
+var N = floor( x.length / 2 );
+
+var v = meankbn( N, x, 2 );
 // returns 1.25
 ```
 
@@ -83,35 +87,42 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 
 ```javascript
 var Float64Array = require( '@stdlib/array/float64' );
+var floor = require( '@stdlib/math/base/special/floor' );
 
 var x0 = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var v = meankbn( 4, x1, 2 );
+var N = floor( x0.length / 2 );
+
+var v = meankbn( N, x1, 2 );
 // returns 1.25
 ```
 
-#### meankbn.ndarray( N, x, strideX, offsetX )
+#### meankbn.ndarray( N, x, stride, offset )
 
 Computes the [arithmetic mean][arithmetic-mean] of a strided array using an improved Kahan–Babuška algorithm and alternative indexing semantics.
 
 ```javascript
 var x = [ 1.0, -2.0, 2.0 ];
+var N = x.length;
 
-var v = meankbn.ndarray( x.length, x, 1, 0 );
+var v = meankbn.ndarray( N, x, 1, 0 );
 // returns ~0.33333
 ```
 
 The function has the following additional parameters:
 
--   **offsetX**: starting index for `x`.
+-   **offset**: starting index for `x`.
 
-While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameter supports indexing semantics based on a starting index. For example, to calculate the [arithmetic mean][arithmetic-mean] for every other element in `x` starting from the second element
+While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying `buffer`, the `offset` parameter supports indexing semantics based on a starting index. For example, to calculate the [arithmetic mean][arithmetic-mean] for every other value in `x` starting from the second value
 
 ```javascript
-var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
+var floor = require( '@stdlib/math/base/special/floor' );
 
-var v = meankbn.ndarray( 4, x, 2, 1 );
+var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
+var N = floor( x.length / 2 );
+
+var v = meankbn.ndarray( N, x, 2, 1 );
 // returns 1.25
 ```
 
@@ -124,7 +135,6 @@ var v = meankbn.ndarray( 4, x, 2, 1 );
 ## Notes
 
 -   If `N <= 0`, both functions return `NaN`.
--   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array/base/accessor`][@stdlib/array/base/accessor]).
 -   Depending on the environment, the typed versions ([`dmeankbn`][@stdlib/stats/strided/dmeankbn], [`smeankbn`][@stdlib/stats/base/smeankbn], etc.) are likely to be significantly more performant.
 
 </section>
@@ -138,12 +148,18 @@ var v = meankbn.ndarray( 4, x, 2, 1 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
+var randu = require( '@stdlib/random/base/randu' );
+var round = require( '@stdlib/math/base/special/round' );
+var Float64Array = require( '@stdlib/array/float64' );
 var meankbn = require( '@stdlib/stats/base/meankbn' );
 
-var x = discreteUniform( 10, -50, 50, {
-    'dtype': 'float64'
-});
+var x;
+var i;
+
+x = new Float64Array( 10 );
+for ( i = 0; i < x.length; i++ ) {
+    x[ i ] = round( (randu()*100.0) - 50.0 );
+}
 console.log( x );
 
 var v = meankbn( x.length, x, 1 );
@@ -193,8 +209,6 @@ console.log( v );
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [@neumaier:1974a]: https://doi.org/10.1002/zamm.19740540106
-
-[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
 <!-- <related-links> -->
 

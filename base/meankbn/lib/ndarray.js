@@ -38,21 +38,27 @@ var gsumkbn = require( '@stdlib/blas/ext/base/gsumkbn' ).ndarray;
 *
 * @param {PositiveInteger} N - number of indexed elements
 * @param {NumericArray} x - input array
-* @param {integer} strideX - stride length
-* @param {NonNegativeInteger} offsetX - starting index
+* @param {integer} stride - stride length
+* @param {NonNegativeInteger} offset - starting index
 * @returns {number} arithmetic mean
 *
 * @example
-* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
+* var floor = require( '@stdlib/math/base/special/floor' );
 *
-* var v = meankbn( 4, x, 2, 1 );
+* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
+* var N = floor( x.length / 2 );
+*
+* var v = meankbn( N, x, 2, 1 );
 * // returns 1.25
 */
-function meankbn( N, x, strideX, offsetX ) {
+function meankbn( N, x, stride, offset ) {
 	if ( N <= 0 ) {
 		return NaN;
 	}
-	return gsumkbn( N, x, strideX, offsetX ) / N;
+	if ( N === 1 || stride === 0 ) {
+		return x[ offset ];
+	}
+	return gsumkbn( N, x, stride, offset ) / N;
 }
 
 

@@ -20,8 +20,7 @@
 
 // MODULES //
 
-var stride2offset = require( '@stdlib/strided/base/stride2offset' );
-var ndarray = require( './ndarray.js' );
+var gsumkbn = require( '@stdlib/blas/ext/base/gsumkbn' );
 
 
 // MAIN //
@@ -39,17 +38,24 @@ var ndarray = require( './ndarray.js' );
 *
 * @param {PositiveInteger} N - number of indexed elements
 * @param {NumericArray} x - input array
-* @param {integer} strideX - stride length
+* @param {integer} stride - stride length
 * @returns {number} arithmetic mean
 *
 * @example
 * var x = [ 1.0, -2.0, 2.0 ];
+* var N = x.length;
 *
-* var v = meankbn( x.length, x, 1 );
+* var v = meankbn( N, x, 1 );
 * // returns ~0.3333
 */
-function meankbn( N, x, strideX ) {
-	return ndarray( N, x, strideX, stride2offset( N, strideX ) );
+function meankbn( N, x, stride ) {
+	if ( N <= 0 ) {
+		return NaN;
+	}
+	if ( N === 1 || stride === 0 ) {
+		return x[ 0 ];
+	}
+	return gsumkbn( N, x, stride ) / N;
 }
 
 
