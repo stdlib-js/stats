@@ -2339,6 +2339,7 @@ A total of 428 issues were closed in this release:
 
 <details>
 
+-   [`9b3fd57`](https://github.com/stdlib-js/stdlib/commit/9b3fd578c7de322fd4eddb77bd4adbaa391c2da6) - **docs:** update related packages sections [(#7313)](https://github.com/stdlib-js/stdlib/pull/7313) _(by stdlib-bot, Athan Reines)_
 -   [`2aa7a2e`](https://github.com/stdlib-js/stdlib/commit/2aa7a2eb4dff0c1c39533dfd76b01704634da094) - **feat:** add support for accessor arrays and refactor `stats/base/meankbn2` [(#7309)](https://github.com/stdlib-js/stdlib/pull/7309) _(by Gururaj Gurram)_
 -   [`8c50e82`](https://github.com/stdlib-js/stdlib/commit/8c50e8225f6a5053595759f102ab97281a2afae4) - **feat:** add support for accessor arrays and refactor `stats/base/meankbn` [(#7306)](https://github.com/stdlib-js/stdlib/pull/7306) _(by Gururaj Gurram)_
 -   [`dafed6e`](https://github.com/stdlib-js/stdlib/commit/dafed6eea57d93f7f7d13229937c8b8b2e89ee00) - **docs:** update namespace table of contents [(#7315)](https://github.com/stdlib-js/stdlib/pull/7315) _(by stdlib-bot)_
