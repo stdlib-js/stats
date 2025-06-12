@@ -70,7 +70,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`meanors( N, x, stride )`][@stdlib/stats/strided/meanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using ordinary recursive summation.</span>
 -   <span class="signature">[`meanpn( N, x, strideX )`][@stdlib/stats/strided/meanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using a two-pass error correction algorithm.</span>
 -   <span class="signature">[`meanpw( N, x, stride )`][@stdlib/stats/strided/meanpw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using pairwise summation.</span>
--   <span class="signature">[`meanwd( N, x, strideX )`][@stdlib/stats/base/meanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using Welford's algorithm.</span>
+-   <span class="signature">[`meanwd( N, x, strideX )`][@stdlib/stats/strided/meanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using Welford's algorithm.</span>
 -   <span class="signature">[`nanmean( N, x, stride )`][@stdlib/stats/base/nanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanmeanors( N, x, stride )`][@stdlib/stats/base/nanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring `NaN` values and using ordinary recursive summation.</span>
 -   <span class="signature">[`nanmeanpn( N, x, strideX )`][@stdlib/stats/base/nanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring `NaN` values and using a two-pass error correction algorithm.</span>
@@ -205,7 +205,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/meanpw]: https://github.com/stdlib-js/stats/tree/main/strided/meanpw
 
-[@stdlib/stats/base/meanwd]: https://github.com/stdlib-js/stats/tree/main/base/meanwd
+[@stdlib/stats/strided/meanwd]: https://github.com/stdlib-js/stats/tree/main/strided/meanwd
 
 [@stdlib/stats/base/nanmean]: https://github.com/stdlib-js/stats/tree/main/base/nanmean
 

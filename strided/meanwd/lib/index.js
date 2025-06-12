@@ -21,10 +21,10 @@
 /**
 * Compute the arithmetic mean of a strided array using Welford's algorithm.
 *
-* @module @stdlib/stats/base/meanwd
+* @module @stdlib/stats/strided/meanwd
 *
 * @example
-* var meanwd = require( '@stdlib/stats/base/meanwd' );
+* var meanwd = require( '@stdlib/stats/strided/meanwd' );
 *
 * var x = [ 1.0, -2.0, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns ~0.3333
 *
 * @example
-* var meanwd = require( '@stdlib/stats/base/meanwd' );
+* var meanwd = require( '@stdlib/stats/strided/meanwd' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
 *

@@ -31,7 +31,6 @@ import dmeanvar = require( './../../../base/dmeanvar' );
 import dmeanvarpn = require( './../../../base/dmeanvarpn' );
 import dvarm = require( './../../../base/dvarm' );
 import dvarmpn = require( './../../../base/dvarmpn' );
-import meanwd = require( './../../../base/meanwd' );
 import nanmean = require( './../../../base/nanmean' );
 import nanmeanors = require( './../../../base/nanmeanors' );
 import nanmeanpn = require( './../../../base/nanmeanpn' );
@@ -395,28 +394,6 @@ interface Namespace {
 	* // returns ~4.3333
 	*/
 	dvarmpn: typeof dvarmpn;
-
-	/**
-	* Computes the arithmetic mean of a strided array using Welford's algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.meanwd( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.meanwd.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	meanwd: typeof meanwd;
 
 	/**
 	* Computes the arithmetic mean of a strided array, ignoring `NaN` values.
