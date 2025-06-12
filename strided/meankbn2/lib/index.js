@@ -21,10 +21,10 @@
 /**
 * Compute the arithmetic mean of a strided array using a second-order iterative Kahan–Babuška algorithm.
 *
-* @module @stdlib/stats/base/meankbn2
+* @module @stdlib/stats/strided/meankbn2
 *
 * @example
-* var meankbn2 = require( '@stdlib/stats/base/meankbn2' );
+* var meankbn2 = require( '@stdlib/stats/strided/meankbn2' );
 *
 * var x = [ 1.0, -2.0, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns ~0.3333
 *
 * @example
-* var meankbn2 = require( '@stdlib/stats/base/meankbn2' );
+* var meankbn2 = require( '@stdlib/stats/strided/meankbn2' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
 *

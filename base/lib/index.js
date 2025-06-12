@@ -136,24 +136,6 @@ setReadOnly( ns, 'dvarm', require( './../../base/dvarm' ) );
 setReadOnly( ns, 'dvarmpn', require( './../../base/dvarmpn' ) );
 
 /**
-* @name meankbn
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/meankbn}
-*/
-setReadOnly( ns, 'meankbn', require( './../../base/meankbn' ) );
-
-/**
-* @name meankbn2
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/meankbn2}
-*/
-setReadOnly( ns, 'meankbn2', require( './../../base/meankbn2' ) );
-
-/**
 * @name meanors
 * @memberof ns
 * @readonly

@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -19,34 +19,24 @@
 'use strict';
 
 /**
-* Compute the arithmetic mean of a strided array using an improved Kahan–Babuška algorithm.
+* Compute the arithmetic mean of an array using an improved Kahan–Babuška algorithm.
 *
-* @module @stdlib/stats/base/meankbn
+* @module @stdlib/stats/array/meankbn
 *
 * @example
-* var meankbn = require( '@stdlib/stats/base/meankbn' );
+* var meankbn = require( '@stdlib/stats/array/meankbn' );
 *
 * var x = [ 1.0, -2.0, 2.0 ];
 *
-* var v = meankbn( x.length, x, 1 );
+* var v = meankbn( x );
 * // returns ~0.3333
-*
-* @example
-* var meankbn = require( '@stdlib/stats/base/meankbn' );
-*
-* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
-*
-* var v = meankbn.ndarray( 4, x, 2, 1 );
-* // returns 1.25
 */
 
 // MODULES //
 
-var meankbn = require( './main.js' );
+var main = require( './main.js' );
 
 
 // EXPORTS //
 
-module.exports = meankbn;
-
-// exports: { "ndarray": "meankbn.ndarray" }
+module.exports = main;

@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-11)
+## Unreleased (2025-06-12)
 
 <section class="features">
 
 ### Features
 
+-   [`cb781ba`](https://github.com/stdlib-js/stdlib/commit/cb781bad47c3ee9264d165bd1ca0c3acaaae298d) - add `stats/strided/meankbn`
+-   [`929ba08`](https://github.com/stdlib-js/stdlib/commit/929ba0894583414f939ab1c13282819006a9326b) - add `stats/strided/meankbn2`
+-   [`38c6617`](https://github.com/stdlib-js/stdlib/commit/38c6617ae2a0d4daaedb5930780ef2e573d78c0e) - add `stats/array/meankbn2` [(#7311)](https://github.com/stdlib-js/stdlib/pull/7311)
+-   [`65a4e0a`](https://github.com/stdlib-js/stdlib/commit/65a4e0a36cb9d4da394524253859a14b6a338b6c) - add `stats/array/meankbn` [(#7307)](https://github.com/stdlib-js/stdlib/pull/7307)
 -   [`2aa7a2e`](https://github.com/stdlib-js/stdlib/commit/2aa7a2eb4dff0c1c39533dfd76b01704634da094) - add support for accessor arrays and refactor `stats/base/meankbn2` [(#7309)](https://github.com/stdlib-js/stdlib/pull/7309)
 -   [`8c50e82`](https://github.com/stdlib-js/stdlib/commit/8c50e8225f6a5053595759f102ab97281a2afae4) - add support for accessor arrays and refactor `stats/base/meankbn` [(#7306)](https://github.com/stdlib-js/stdlib/pull/7306)
 -   [`676c853`](https://github.com/stdlib-js/stdlib/commit/676c853147d255af09e4ede03a201fd82601038e) - add `stats/strided/nanmin`
@@ -782,6 +786,28 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`e246348`](https://github.com/stdlib-js/stdlib/commit/e246348e5d9256322c7ee97be81b07b21f210731): remove `stats/base/meankbn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/meankbn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`c474057`](https://github.com/stdlib-js/stdlib/commit/c47405757c8c4252baf32696a1e7367b464f3b8f): remove `meankbn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`4c06e6e`](https://github.com/stdlib-js/stdlib/commit/4c06e6e0a2358ce74d2d04f1e553d326b7368f47): remove `stats/base/meankbn2`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/meankbn2`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`234efc6`](https://github.com/stdlib-js/stdlib/commit/234efc6446d305110d9d94984fb0a6b1869c2d0a): remove `meankbn2`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`1955f0d`](https://github.com/stdlib-js/stdlib/commit/1955f0d429aa30e12da3ddcd4d427f2d0c1559cc): remove `stats/base/nanmin`
 
@@ -2339,6 +2365,17 @@ A total of 428 issues were closed in this release:
 
 <details>
 
+-   [`80d02be`](https://github.com/stdlib-js/stdlib/commit/80d02bee123ee33e87ff85a02a064c6f62b28ec8) - **docs:** update namespace table of contents [(#7330)](https://github.com/stdlib-js/stdlib/pull/7330) _(by stdlib-bot)_
+-   [`e246348`](https://github.com/stdlib-js/stdlib/commit/e246348e5d9256322c7ee97be81b07b21f210731) - **remove:** remove `stats/base/meankbn` _(by Gururaj Gurram)_
+-   [`06df3ac`](https://github.com/stdlib-js/stdlib/commit/06df3ac73aa59460f29237f4d0930e0a99679047) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`c474057`](https://github.com/stdlib-js/stdlib/commit/c47405757c8c4252baf32696a1e7367b464f3b8f) - **remove:** remove `meankbn` from namespace _(by Gururaj Gurram)_
+-   [`cb781ba`](https://github.com/stdlib-js/stdlib/commit/cb781bad47c3ee9264d165bd1ca0c3acaaae298d) - **feat:** add `stats/strided/meankbn` _(by Gururaj Gurram)_
+-   [`4c06e6e`](https://github.com/stdlib-js/stdlib/commit/4c06e6e0a2358ce74d2d04f1e553d326b7368f47) - **remove:** remove `stats/base/meankbn2` _(by Gururaj Gurram)_
+-   [`f4f0180`](https://github.com/stdlib-js/stdlib/commit/f4f0180796dd425529a5c04a9023358cba8fac01) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`234efc6`](https://github.com/stdlib-js/stdlib/commit/234efc6446d305110d9d94984fb0a6b1869c2d0a) - **remove:** remove `meankbn2` from namespace _(by Gururaj Gurram)_
+-   [`929ba08`](https://github.com/stdlib-js/stdlib/commit/929ba0894583414f939ab1c13282819006a9326b) - **feat:** add `stats/strided/meankbn2` _(by Gururaj Gurram)_
+-   [`38c6617`](https://github.com/stdlib-js/stdlib/commit/38c6617ae2a0d4daaedb5930780ef2e573d78c0e) - **feat:** add `stats/array/meankbn2` [(#7311)](https://github.com/stdlib-js/stdlib/pull/7311) _(by Gururaj Gurram, stdlib-bot)_
+-   [`65a4e0a`](https://github.com/stdlib-js/stdlib/commit/65a4e0a36cb9d4da394524253859a14b6a338b6c) - **feat:** add `stats/array/meankbn` [(#7307)](https://github.com/stdlib-js/stdlib/pull/7307) _(by Gururaj Gurram, stdlib-bot)_
 -   [`9b3fd57`](https://github.com/stdlib-js/stdlib/commit/9b3fd578c7de322fd4eddb77bd4adbaa391c2da6) - **docs:** update related packages sections [(#7313)](https://github.com/stdlib-js/stdlib/pull/7313) _(by stdlib-bot, Athan Reines)_
 -   [`2aa7a2e`](https://github.com/stdlib-js/stdlib/commit/2aa7a2eb4dff0c1c39533dfd76b01704634da094) - **feat:** add support for accessor arrays and refactor `stats/base/meankbn2` [(#7309)](https://github.com/stdlib-js/stdlib/pull/7309) _(by Gururaj Gurram)_
 -   [`8c50e82`](https://github.com/stdlib-js/stdlib/commit/8c50e8225f6a5053595759f102ab97281a2afae4) - **feat:** add support for accessor arrays and refactor `stats/base/meankbn` [(#7306)](https://github.com/stdlib-js/stdlib/pull/7306) _(by Gururaj Gurram)_

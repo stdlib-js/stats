@@ -31,8 +31,6 @@ import dmeanvar = require( './../../../base/dmeanvar' );
 import dmeanvarpn = require( './../../../base/dmeanvarpn' );
 import dvarm = require( './../../../base/dvarm' );
 import dvarmpn = require( './../../../base/dvarmpn' );
-import meankbn = require( './../../../base/meankbn' );
-import meankbn2 = require( './../../../base/meankbn2' );
 import meanors = require( './../../../base/meanors' );
 import meanpn = require( './../../../base/meanpn' );
 import meanpw = require( './../../../base/meanpw' );
@@ -400,50 +398,6 @@ interface Namespace {
 	* // returns ~4.3333
 	*/
 	dvarmpn: typeof dvarmpn;
-
-	/**
-	* Computes the arithmetic mean of a strided array using an improved Kahan–Babuška algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.meankbn( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.meankbn.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	meankbn: typeof meankbn;
-
-	/**
-	* Computes the arithmetic mean of a strided array using a second-order iterative Kahan–Babuška algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.meankbn2( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.meankbn2.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	meankbn2: typeof meankbn2;
 
 	/**
 	* Computes the arithmetic mean of a strided array using ordinary recursive summation.
