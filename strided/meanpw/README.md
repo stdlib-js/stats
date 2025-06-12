@@ -33,7 +33,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:arithmetic_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e4a1cd44f903f1758776279afedd500ce2dc6ddd/lib/node_modules/@stdlib/stats/base/meanpw/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e4a1cd44f903f1758776279afedd500ce2dc6ddd/lib/node_modules/@stdlib/stats/strided/meanpw/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-var meanpw = require( '@stdlib/stats/base/meanpw' );
+var meanpw = require( '@stdlib/stats/strided/meanpw' );
 ```
 
 #### meanpw( N, x, strideX )
@@ -140,7 +140,7 @@ var v = meanpw.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var meanpw = require( '@stdlib/stats/base/meanpw' );
+var meanpw = require( '@stdlib/stats/strided/meanpw' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'

@@ -21,10 +21,10 @@
 /**
 * Compute the arithmetic mean of a strided array using pairwise summation.
 *
-* @module @stdlib/stats/base/meanpw
+* @module @stdlib/stats/strided/meanpw
 *
 * @example
-* var meanpw = require( '@stdlib/stats/base/meanpw' );
+* var meanpw = require( '@stdlib/stats/strided/meanpw' );
 *
 * var x = [ 1.0, -2.0, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns ~0.3333
 *
 * @example
-* var meanpw = require( '@stdlib/stats/base/meanpw' );
+* var meanpw = require( '@stdlib/stats/strided/meanpw' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
 *

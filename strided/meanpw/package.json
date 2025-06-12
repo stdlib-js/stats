@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/meanpw",
+  "name": "@stdlib/stats/strided/meanpw",
   "version": "0.0.0",
   "description": "Calculate the arithmetic mean of a strided array using pairwise summation.",
   "license": "Apache-2.0",
