@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0efb31b`](https://github.com/stdlib-js/stdlib/commit/0efb31b3c0a60f774b7d036bb5371ca2ca501ea8) - add `stats/array/meanors` [(#7322)](https://github.com/stdlib-js/stdlib/pull/7322)
 -   [`673daed`](https://github.com/stdlib-js/stdlib/commit/673daeda69327c54cfbbd1fd64caf62e677c4135) - add `stats/array/meanwd` [(#7325)](https://github.com/stdlib-js/stdlib/pull/7325)
 -   [`dff9fff`](https://github.com/stdlib-js/stdlib/commit/dff9fffb24fef9ea34dac1ca6dd81566ff8d4d04) - add `stats/array/meanpn` [(#7323)](https://github.com/stdlib-js/stdlib/pull/7323)
 -   [`18ea314`](https://github.com/stdlib-js/stdlib/commit/18ea3142a5ba212d370aeb21bed542cb467df8af) - add support for accessor arrays and refactor `stats/base/meanors` [(#7320)](https://github.com/stdlib-js/stdlib/pull/7320)
@@ -2369,6 +2370,7 @@ A total of 430 issues were closed in this release:
 
 <details>
 
+-   [`0efb31b`](https://github.com/stdlib-js/stdlib/commit/0efb31b3c0a60f774b7d036bb5371ca2ca501ea8) - **feat:** add `stats/array/meanors` [(#7322)](https://github.com/stdlib-js/stdlib/pull/7322) _(by Gururaj Gurram, stdlib-bot)_
 -   [`673daed`](https://github.com/stdlib-js/stdlib/commit/673daeda69327c54cfbbd1fd64caf62e677c4135) - **feat:** add `stats/array/meanwd` [(#7325)](https://github.com/stdlib-js/stdlib/pull/7325) _(by Gururaj Gurram)_
 -   [`dff9fff`](https://github.com/stdlib-js/stdlib/commit/dff9fffb24fef9ea34dac1ca6dd81566ff8d4d04) - **feat:** add `stats/array/meanpn` [(#7323)](https://github.com/stdlib-js/stdlib/pull/7323) _(by Gururaj Gurram, Athan Reines)_
 -   [`18ea314`](https://github.com/stdlib-js/stdlib/commit/18ea3142a5ba212d370aeb21bed542cb467df8af) - **feat:** add support for accessor arrays and refactor `stats/base/meanors` [(#7320)](https://github.com/stdlib-js/stdlib/pull/7320) _(by Gururaj Gurram)_
