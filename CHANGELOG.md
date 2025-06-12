@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f8607d6`](https://github.com/stdlib-js/stdlib/commit/f8607d6c6d2c2f16c49cac335a21e2448e4ed4c5) - add `stats/strided/meanpn`
 -   [`3dc9e90`](https://github.com/stdlib-js/stdlib/commit/3dc9e90a1053b5853fb47db97099593d02087ff4) - add `stats/strided/meanors`
 -   [`a34b8a7`](https://github.com/stdlib-js/stdlib/commit/a34b8a7bfefd3f73301d2899a317002468e586c7) - add support for accessor arrays and refactor `stats/base/nanmean` [(#7326)](https://github.com/stdlib-js/stdlib/pull/7326)
 -   [`ac0fabd`](https://github.com/stdlib-js/stdlib/commit/ac0fabd8ad3e04cb2122fd6a09ff06cfb96fc69b) - add `stats/array/meanpw` [(#7324)](https://github.com/stdlib-js/stdlib/pull/7324)
@@ -794,6 +795,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`9a64928`](https://github.com/stdlib-js/stdlib/commit/9a649282a347c0335cfdd62d6e762b82ad55174b): remove `stats/base/meanpn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/meanpn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`0277276`](https://github.com/stdlib-js/stdlib/commit/0277276f867a069c71c03f4666a440bbbf23425c): remove `meanpn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`e49b355`](https://github.com/stdlib-js/stdlib/commit/e49b3551210e8f6d8487559880e66292d335ebf4): remove `stats/base/meanors`
 
@@ -2384,6 +2396,10 @@ A total of 431 issues were closed in this release:
 
 <details>
 
+-   [`9a64928`](https://github.com/stdlib-js/stdlib/commit/9a649282a347c0335cfdd62d6e762b82ad55174b) - **remove:** remove `stats/base/meanpn` _(by Gururaj Gurram)_
+-   [`80034f7`](https://github.com/stdlib-js/stdlib/commit/80034f76a22401c4b5fbd348c0493499d042d6d6) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`0277276`](https://github.com/stdlib-js/stdlib/commit/0277276f867a069c71c03f4666a440bbbf23425c) - **remove:** remove `meanpn` from namespace _(by Gururaj Gurram)_
+-   [`f8607d6`](https://github.com/stdlib-js/stdlib/commit/f8607d6c6d2c2f16c49cac335a21e2448e4ed4c5) - **feat:** add `stats/strided/meanpn` _(by Gururaj Gurram)_
 -   [`e49b355`](https://github.com/stdlib-js/stdlib/commit/e49b3551210e8f6d8487559880e66292d335ebf4) - **remove:** remove `stats/base/meanors` _(by Gururaj Gurram)_
 -   [`95ea592`](https://github.com/stdlib-js/stdlib/commit/95ea592caa0b9a1119bf963061638823011cd323) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`ac0a6bc`](https://github.com/stdlib-js/stdlib/commit/ac0a6bcab901e2a2a0503f0f205dc876433ea536) - **remove:** remove `meanors` from namespace _(by Gururaj Gurram)_

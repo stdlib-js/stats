@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/meanpn",
+  "name": "@stdlib/stats/strided/meanpn",
   "version": "0.0.0",
   "description": "Calculate the arithmetic mean of a strided array using a two-pass error correction algorithm.",
   "license": "Apache-2.0",

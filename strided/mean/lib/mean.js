@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var meanpn = require( './../../../base/meanpn' );
+var meanpn = require( './../../../strided/meanpn' );
 
 
 // MAIN //

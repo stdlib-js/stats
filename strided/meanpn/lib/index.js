@@ -21,10 +21,10 @@
 /**
 * Compute the arithmetic mean of a strided array using a two-pass error correction algorithm.
 *
-* @module @stdlib/stats/base/meanpn
+* @module @stdlib/stats/strided/meanpn
 *
 * @example
-* var meanpn = require( '@stdlib/stats/base/meanpn' );
+* var meanpn = require( '@stdlib/stats/strided/meanpn' );
 *
 * var x = [ 1.0, -2.0, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns ~0.3333
 *
 * @example
-* var meanpn = require( '@stdlib/stats/base/meanpn' );
+* var meanpn = require( '@stdlib/stats/strided/meanpn' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
 *

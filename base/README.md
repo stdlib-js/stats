@@ -68,7 +68,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dvarm( N, mean, correction, x, stride )`][@stdlib/stats/base/dvarm]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array provided a known mean.</span>
 -   <span class="signature">[`dvarmpn( N, mean, correction, x, stride )`][@stdlib/stats/base/dvarmpn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array provided a known mean and using Neely's correction algorithm.</span>
 -   <span class="signature">[`meanors( N, x, stride )`][@stdlib/stats/strided/meanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using ordinary recursive summation.</span>
--   <span class="signature">[`meanpn( N, x, strideX )`][@stdlib/stats/base/meanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using a two-pass error correction algorithm.</span>
+-   <span class="signature">[`meanpn( N, x, strideX )`][@stdlib/stats/strided/meanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using a two-pass error correction algorithm.</span>
 -   <span class="signature">[`meanpw( N, x, stride )`][@stdlib/stats/base/meanpw]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using pairwise summation.</span>
 -   <span class="signature">[`meanwd( N, x, strideX )`][@stdlib/stats/base/meanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using Welford's algorithm.</span>
 -   <span class="signature">[`nanmean( N, x, stride )`][@stdlib/stats/base/nanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring `NaN` values.</span>
@@ -201,7 +201,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/meanors]: https://github.com/stdlib-js/stats/tree/main/strided/meanors
 
-[@stdlib/stats/base/meanpn]: https://github.com/stdlib-js/stats/tree/main/base/meanpn
+[@stdlib/stats/strided/meanpn]: https://github.com/stdlib-js/stats/tree/main/strided/meanpn
 
 [@stdlib/stats/base/meanpw]: https://github.com/stdlib-js/stats/tree/main/base/meanpw
 
