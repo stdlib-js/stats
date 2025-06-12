@@ -136,15 +136,6 @@ setReadOnly( ns, 'dvarm', require( './../../base/dvarm' ) );
 setReadOnly( ns, 'dvarmpn', require( './../../base/dvarmpn' ) );
 
 /**
-* @name meanors
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/meanors}
-*/
-setReadOnly( ns, 'meanors', require( './../../base/meanors' ) );
-
-/**
 * @name meanpn
 * @memberof ns
 * @readonly

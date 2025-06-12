@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3dc9e90`](https://github.com/stdlib-js/stdlib/commit/3dc9e90a1053b5853fb47db97099593d02087ff4) - add `stats/strided/meanors`
 -   [`a34b8a7`](https://github.com/stdlib-js/stdlib/commit/a34b8a7bfefd3f73301d2899a317002468e586c7) - add support for accessor arrays and refactor `stats/base/nanmean` [(#7326)](https://github.com/stdlib-js/stdlib/pull/7326)
 -   [`ac0fabd`](https://github.com/stdlib-js/stdlib/commit/ac0fabd8ad3e04cb2122fd6a09ff06cfb96fc69b) - add `stats/array/meanpw` [(#7324)](https://github.com/stdlib-js/stdlib/pull/7324)
 -   [`0efb31b`](https://github.com/stdlib-js/stdlib/commit/0efb31b3c0a60f774b7d036bb5371ca2ca501ea8) - add `stats/array/meanors` [(#7322)](https://github.com/stdlib-js/stdlib/pull/7322)
@@ -793,6 +794,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`e49b355`](https://github.com/stdlib-js/stdlib/commit/e49b3551210e8f6d8487559880e66292d335ebf4): remove `stats/base/meanors`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/meanors`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`ac0a6bc`](https://github.com/stdlib-js/stdlib/commit/ac0a6bcab901e2a2a0503f0f205dc876433ea536): remove `meanors`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`e246348`](https://github.com/stdlib-js/stdlib/commit/e246348e5d9256322c7ee97be81b07b21f210731): remove `stats/base/meankbn`
 
@@ -2372,6 +2384,10 @@ A total of 431 issues were closed in this release:
 
 <details>
 
+-   [`e49b355`](https://github.com/stdlib-js/stdlib/commit/e49b3551210e8f6d8487559880e66292d335ebf4) - **remove:** remove `stats/base/meanors` _(by Gururaj Gurram)_
+-   [`95ea592`](https://github.com/stdlib-js/stdlib/commit/95ea592caa0b9a1119bf963061638823011cd323) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`ac0a6bc`](https://github.com/stdlib-js/stdlib/commit/ac0a6bcab901e2a2a0503f0f205dc876433ea536) - **remove:** remove `meanors` from namespace _(by Gururaj Gurram)_
+-   [`3dc9e90`](https://github.com/stdlib-js/stdlib/commit/3dc9e90a1053b5853fb47db97099593d02087ff4) - **feat:** add `stats/strided/meanors` _(by Gururaj Gurram)_
 -   [`a34b8a7`](https://github.com/stdlib-js/stdlib/commit/a34b8a7bfefd3f73301d2899a317002468e586c7) - **feat:** add support for accessor arrays and refactor `stats/base/nanmean` [(#7326)](https://github.com/stdlib-js/stdlib/pull/7326) _(by Gururaj Gurram, Athan Reines)_
 -   [`ac0fabd`](https://github.com/stdlib-js/stdlib/commit/ac0fabd8ad3e04cb2122fd6a09ff06cfb96fc69b) - **feat:** add `stats/array/meanpw` [(#7324)](https://github.com/stdlib-js/stdlib/pull/7324) _(by Gururaj Gurram, stdlib-bot)_
 -   [`0efb31b`](https://github.com/stdlib-js/stdlib/commit/0efb31b3c0a60f774b7d036bb5371ca2ca501ea8) - **feat:** add `stats/array/meanors` [(#7322)](https://github.com/stdlib-js/stdlib/pull/7322) _(by Gururaj Gurram, stdlib-bot)_

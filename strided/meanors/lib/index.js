@@ -21,10 +21,10 @@
 /**
 * Compute the arithmetic mean of a strided array using ordinary recursive summation.
 *
-* @module @stdlib/stats/base/meanors
+* @module @stdlib/stats/strided/meanors
 *
 * @example
-* var meanors = require( '@stdlib/stats/base/meanors' );
+* var meanors = require( '@stdlib/stats/strided/meanors' );
 *
 * var x = [ 1.0, -2.0, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns ~0.3333
 *
 * @example
-* var meanors = require( '@stdlib/stats/base/meanors' );
+* var meanors = require( '@stdlib/stats/strided/meanors' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
 *

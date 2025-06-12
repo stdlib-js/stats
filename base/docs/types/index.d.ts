@@ -31,7 +31,6 @@ import dmeanvar = require( './../../../base/dmeanvar' );
 import dmeanvarpn = require( './../../../base/dmeanvarpn' );
 import dvarm = require( './../../../base/dvarm' );
 import dvarmpn = require( './../../../base/dvarmpn' );
-import meanors = require( './../../../base/meanors' );
 import meanpn = require( './../../../base/meanpn' );
 import meanpw = require( './../../../base/meanpw' );
 import meanwd = require( './../../../base/meanwd' );
@@ -398,28 +397,6 @@ interface Namespace {
 	* // returns ~4.3333
 	*/
 	dvarmpn: typeof dvarmpn;
-
-	/**
-	* Computes the arithmetic mean of a strided array using ordinary recursive summation.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.meanors( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.meanors.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	meanors: typeof meanors;
 
 	/**
 	* Computes the arithmetic mean of a strided array using a two-pass error correction algorithm.
