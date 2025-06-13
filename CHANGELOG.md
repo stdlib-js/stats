@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0e2b7a0`](https://github.com/stdlib-js/stdlib/commit/0e2b7a0526801881a812ce4fdbd409d52f92035c) - add C ndarray interface and refactor implementation for `stats/base/dvarmpn` [(#7268)](https://github.com/stdlib-js/stdlib/pull/7268)
 -   [`c5dc723`](https://github.com/stdlib-js/stdlib/commit/c5dc72370b440e60e715bdaabc09bebd25639999) - add support for accessor arrays and refactor `stats/base/stdev` [(#7333)](https://github.com/stdlib-js/stdlib/pull/7333)
 -   [`33266af`](https://github.com/stdlib-js/stdlib/commit/33266af98fc620c8fdcc2fa9a9624b776b5f8f9b) - refactor and add protocol support to `stats/base/stdevpn` [(#6225)](https://github.com/stdlib-js/stdlib/pull/6225)
 -   [`4acf1ca`](https://github.com/stdlib-js/stdlib/commit/4acf1ca51aee9b6b142d5f7218e893d06dca0f96) - add accessor protocol support and refactor `stats/base/nanvariancech` [(#6167)](https://github.com/stdlib-js/stdlib/pull/6167)
@@ -2424,6 +2425,7 @@ A total of 435 issues were closed in this release:
 
 <details>
 
+-   [`0e2b7a0`](https://github.com/stdlib-js/stdlib/commit/0e2b7a0526801881a812ce4fdbd409d52f92035c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvarmpn` [(#7268)](https://github.com/stdlib-js/stdlib/pull/7268) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`c5dc723`](https://github.com/stdlib-js/stdlib/commit/c5dc72370b440e60e715bdaabc09bebd25639999) - **feat:** add support for accessor arrays and refactor `stats/base/stdev` [(#7333)](https://github.com/stdlib-js/stdlib/pull/7333) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`33266af`](https://github.com/stdlib-js/stdlib/commit/33266af98fc620c8fdcc2fa9a9624b776b5f8f9b) - **feat:** refactor and add protocol support to `stats/base/stdevpn` [(#6225)](https://github.com/stdlib-js/stdlib/pull/6225) _(by Amisha Chhajed, Athan Reines, Gururaj Gurram, stdlib-bot)_
 -   [`4acf1ca`](https://github.com/stdlib-js/stdlib/commit/4acf1ca51aee9b6b142d5f7218e893d06dca0f96) - **feat:** add accessor protocol support and refactor `stats/base/nanvariancech` [(#6167)](https://github.com/stdlib-js/stdlib/pull/6167) _(by Rahul Kumar, Athan Reines, stdlib-bot, Gururaj Gurram)_
