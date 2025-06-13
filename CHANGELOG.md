@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-12)
+## Unreleased (2025-06-13)
 
 <section class="features">
 
@@ -2420,6 +2420,7 @@ A total of 431 issues were closed in this release:
 
 <details>
 
+-   [`888a7d9`](https://github.com/stdlib-js/stdlib/commit/888a7d9478aaf75aa959ac477585ae01e8eb398e) - **docs:** update namespace table of contents [(#7340)](https://github.com/stdlib-js/stdlib/pull/7340) _(by stdlib-bot)_
 -   [`816c8e7`](https://github.com/stdlib-js/stdlib/commit/816c8e76c3743590be34c10bd3e86f2d87780d9e) - **remove:** remove `stats/base/meanwd` _(by Gururaj Gurram)_
 -   [`4132ebf`](https://github.com/stdlib-js/stdlib/commit/4132ebfa530c08ce5c00e0545333c1f8042f5d2d) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`1b71e10`](https://github.com/stdlib-js/stdlib/commit/1b71e108756ecc58a9b127cad91cd6b800f8344e) - **remove:** remove `meanwd` from namespace _(by Gururaj Gurram)_
