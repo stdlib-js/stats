@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -17,12 +17,6 @@
 */
 
 'use strict';
-
-// MODULES //
-
-var arraylike2object = require( '@stdlib/array/base/arraylike2object' );
-var accessors = require( './accessors.js' );
-
 
 // MAIN //
 
@@ -40,51 +34,54 @@ var accessors = require( './accessors.js' );
 * -   Chan, Tony F., Gene H. Golub, and Randall J. LeVeque. 1983. "Algorithms for Computing the Sample Variance: Analysis and Recommendations." _The American Statistician_ 37 (3). American Statistical Association, Taylor & Francis, Ltd.: 242–47. doi:[10.1080/00031305.1983.10483115](https://doi.org/10.1080/00031305.1983.10483115).
 * -   Schubert, Erich, and Michael Gertz. 2018. "Numerically Stable Parallel Computation of (Co-)Variance." In _Proceedings of the 30th International Conference on Scientific and Statistical Database Management_. New York, NY, USA: Association for Computing Machinery. doi:[10.1145/3221269.3223036](https://doi.org/10.1145/3221269.3223036).
 *
+* @private
 * @param {PositiveInteger} N - number of indexed elements
 * @param {number} correction - degrees of freedom adjustment
-* @param {NumericArray} x - input array
+* @param {Object} x - input array object
+* @param {Collection} x.data - input array data
+* @param {Array<Function>} x.accessors - array element accessors
 * @param {integer} strideX - stride length
 * @param {NonNegativeInteger} offsetX - starting index
 * @returns {number} variance
 *
 * @example
-* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
+* var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
+* var arraylike2object = require( '@stdlib/array/base/arraylike2object' );
 *
-* var v = variancech( 4, 1, x, 2, 1 );
+* var x = toAccessorArray( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
+*
+* var v = variancech( 4, 1, arraylike2object( x ), 2, 1 );
 * // returns 6.25
 */
 function variancech( N, correction, x, strideX, offsetX ) {
+	var xbuf;
+	var get;
 	var mu;
 	var ix;
 	var M2;
 	var M;
 	var d;
 	var n;
-	var o;
 	var i;
 
+	// Cache reference to array data:
+	xbuf = x.data;
+
+	// Cache a reference to the element accessor:
+	get = x.accessors[ 0 ];
+
 	n = N - correction;
-	if ( N <= 0 || n <= 0.0 ) {
-		return NaN;
-	}
-	if ( N === 1 || strideX === 0 ) {
-		return 0.0;
-	}
-	o = arraylike2object( x );
-	if ( o.accessorProtocol ) {
-		return accessors( N, correction, o, strideX, offsetX );
-	}
 	ix = offsetX;
 
 	// Use an estimate for the mean:
-	mu = x[ ix ];
+	mu = get( xbuf, ix );
 	ix += strideX;
 
 	// Compute the variance...
 	M2 = 0.0;
 	M = 0.0;
 	for ( i = 1; i < N; i++ ) {
-		d = x[ ix ] - mu;
+		d = get( xbuf, ix ) - mu;
 		M2 += d * d;
 		M += d;
 		ix += strideX;
