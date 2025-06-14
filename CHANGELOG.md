@@ -2429,6 +2429,7 @@ A total of 437 issues were closed in this release:
 
 <details>
 
+-   [`9cab7a5`](https://github.com/stdlib-js/stdlib/commit/9cab7a508014f0a0245dae4e6e3abbe328627d00) - **docs:** update namespace table of contents [(#7354)](https://github.com/stdlib-js/stdlib/pull/7354) _(by stdlib-bot)_
 -   [`92ef3fd`](https://github.com/stdlib-js/stdlib/commit/92ef3fd22836e7f55affb0e86a4e36df285a6e37) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvarm` [(#7269)](https://github.com/stdlib-js/stdlib/pull/7269) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`99c73a5`](https://github.com/stdlib-js/stdlib/commit/99c73a545c63afee7c010f8b4da4607c40af8b20) - **feat:** add support for accessor arrays and refactor `stats/base/stdevch` [(#7344)](https://github.com/stdlib-js/stdlib/pull/7344) _(by Gururaj Gurram, stdlib-bot)_
 -   [`b711c6c`](https://github.com/stdlib-js/stdlib/commit/b711c6cfd9e1c9735e0c9aa193ec28a3771eb233) - **feat:** add support for accessor arrays and refactor `stats/base/variancech` [(#5998)](https://github.com/stdlib-js/stdlib/pull/5998) _(by Deep Trivedi, Athan Reines, stdlib-bot, Gururaj Gurram)_
