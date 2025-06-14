@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dvarmpn = require( './../../../base/dvarmpn' ).ndarray;
+var dvarmpn = require( './../../../strided/dvarmpn' ).ndarray;
 
 
 // MAIN //

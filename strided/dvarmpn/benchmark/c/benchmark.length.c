@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dvarmpn.h"
+#include "stdlib/stats/strided/dvarmpn.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

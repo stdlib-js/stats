@@ -30,7 +30,6 @@ import dmeanstdevpn = require( './../../../base/dmeanstdevpn' );
 import dmeanvar = require( './../../../base/dmeanvar' );
 import dmeanvarpn = require( './../../../base/dmeanvarpn' );
 import dvarm = require( './../../../base/dvarm' );
-import dvarmpn = require( './../../../base/dvarmpn' );
 import nanmean = require( './../../../base/nanmean' );
 import nanmeanors = require( './../../../base/nanmeanors' );
 import nanmeanpn = require( './../../../base/nanmeanpn' );
@@ -366,34 +365,6 @@ interface Namespace {
 	* // returns ~4.3333
 	*/
 	dvarm: typeof dvarm;
-
-	/**
-	* Computes the variance of a double-precision floating-point strided array provided a known mean and using Neely's correction algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param mean - mean
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param stride - stride length
-	* @returns variance
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dvarmpn( x.length, 1.0/3.0, 1, x, 1 );
-	* // returns ~4.3333
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.dvarmpn.ndarray( x.length, 1.0/3.0, 1, x, 1, 0 );
-	* // returns ~4.3333
-	*/
-	dvarmpn: typeof dvarmpn;
 
 	/**
 	* Computes the arithmetic mean of a strided array, ignoring `NaN` values.

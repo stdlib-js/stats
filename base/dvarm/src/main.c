@@ -17,7 +17,7 @@
 */
 
 #include "stdlib/stats/base/dvarm.h"
-#include "stdlib/stats/base/dvarmpn.h"
+#include "stdlib/stats/strided/dvarmpn.h"
 #include "stdlib/blas/base/shared.h"
 
 /**

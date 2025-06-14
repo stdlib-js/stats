@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dvarmpn = require( './../../../base/dvarmpn' );
+var dvarmpn = require( './../../../strided/dvarmpn' );
 
 
 // MAIN //
