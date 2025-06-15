@@ -781,6 +781,7 @@
 
 ### Bug Fixes
 
+-   [`8070167`](https://github.com/stdlib-js/stdlib/commit/80701670fb83e7ef33abec5b14565bef540964a5) - use static qualifier for constant
 -   [`8f8663e`](https://github.com/stdlib-js/stdlib/commit/8f8663eb779a27d73ca11867b29263cbf43472d3) - add missing includes
 -   [`72d1412`](https://github.com/stdlib-js/stdlib/commit/72d1412ee12e86641d68fc537f64a24350861611) - pass input array
 -   [`7d340f2`](https://github.com/stdlib-js/stdlib/commit/7d340f209f8105fde0091e9a9641f626a63a7706) - pass input array
@@ -2445,6 +2446,7 @@ A total of 441 issues were closed in this release:
 
 <details>
 
+-   [`8070167`](https://github.com/stdlib-js/stdlib/commit/80701670fb83e7ef33abec5b14565bef540964a5) - **fix:** use static qualifier for constant _(by Philipp Burckhardt)_
 -   [`65c90fb`](https://github.com/stdlib-js/stdlib/commit/65c90fb88af1b8af95cfdc4be713c786f9180d4e) - **feat:** add C implementation for `@stdlib/stats/base/dists/logistic/mgf` [(#4360)](https://github.com/stdlib-js/stdlib/pull/4360) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`84d2f1d`](https://github.com/stdlib-js/stdlib/commit/84d2f1df9be56b3186328c39457894b84712e844) - **feat:** add C implementation for `stats/base/dists/rayleigh/skewness` [(#4290)](https://github.com/stdlib-js/stdlib/pull/4290) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`0449885`](https://github.com/stdlib-js/stdlib/commit/044988596dc1f7bc9084033663a426ef366e564c) - **docs:** replace manual `for` loop in examples [(#7367)](https://github.com/stdlib-js/stdlib/pull/7367) _(by Harsh)_
