@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,15 +16,7 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/invgamma/logpdf.h"
+#include "stdlib/math/base/napi/ternary.h"
 
-var uniform = require( '@stdlib/random/array/uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
-var variance = require( './../lib' );
-
-var opts = {
-	'dtype': 'float64'
-};
-var lambda = uniform( 10, 0.0, 20.0, opts );
-
-logEachMap( 'λ: %0.4f, Var(X;λ): %0.4f', lambda, variance );
+STDLIB_MATH_BASE_NAPI_MODULE_DDD_D( stdlib_base_dists_invgamma_logpdf )
