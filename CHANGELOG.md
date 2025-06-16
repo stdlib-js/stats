@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5cee2da`](https://github.com/stdlib-js/stdlib/commit/5cee2da95c8513cc438a5f87d2bc413c96ff7ca1) - add `stats/strided/dvarm`
 -   [`927131e`](https://github.com/stdlib-js/stdlib/commit/927131e46570839ed908c96af4da0e5d230300c5) - add C implementation for `@stdlib/stats/base/dists/rayleigh/kurtosis` [(#4301)](https://github.com/stdlib-js/stdlib/pull/4301)
 -   [`7042a3e`](https://github.com/stdlib-js/stdlib/commit/7042a3e7b52b18fbdf77404ca63945cc0a710710) - add C implementation for `stats/base/dists/rayleigh/stdev` [(#4314)](https://github.com/stdlib-js/stdlib/pull/4314)
 -   [`af087e6`](https://github.com/stdlib-js/stdlib/commit/af087e6eed27b05f2ab9c9459e6aff77cb586275) - add C implementation for `@stdlib/stats/base/dists/logistic/entropy` [(#4385)](https://github.com/stdlib-js/stdlib/pull/4385)
@@ -815,6 +816,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`c14d555`](https://github.com/stdlib-js/stdlib/commit/c14d555a6a46c6717e41f985b2a4078397b95f40): remove `stats/base/dvarm`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dvarm`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`1fa8ec4`](https://github.com/stdlib-js/stdlib/commit/1fa8ec4a3c136b83f84eb0ea7752de8d87cbf6a0): remove `dvarm`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`2835574`](https://github.com/stdlib-js/stdlib/commit/28355742a0c784a4c2901060779bd3a507d94005): remove `stats/base/dvarmpn`
 
@@ -2449,6 +2461,10 @@ A total of 444 issues were closed in this release:
 
 <details>
 
+-   [`c14d555`](https://github.com/stdlib-js/stdlib/commit/c14d555a6a46c6717e41f985b2a4078397b95f40) - **remove:** remove `stats/base/dvarm` _(by Gururaj Gurram)_
+-   [`ab75e22`](https://github.com/stdlib-js/stdlib/commit/ab75e229c58f150da20f42d7f2448e63d1939401) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`1fa8ec4`](https://github.com/stdlib-js/stdlib/commit/1fa8ec4a3c136b83f84eb0ea7752de8d87cbf6a0) - **remove:** remove `dvarm` from namespace _(by Gururaj Gurram)_
+-   [`5cee2da`](https://github.com/stdlib-js/stdlib/commit/5cee2da95c8513cc438a5f87d2bc413c96ff7ca1) - **feat:** add `stats/strided/dvarm` _(by Gururaj Gurram)_
 -   [`3d16892`](https://github.com/stdlib-js/stdlib/commit/3d168921b5a5a81732a2cd9087a41dbfe25754cb) - **docs:** update related packages sections [(#7369)](https://github.com/stdlib-js/stdlib/pull/7369) _(by stdlib-bot)_
 -   [`927131e`](https://github.com/stdlib-js/stdlib/commit/927131e46570839ed908c96af4da0e5d230300c5) - **feat:** add C implementation for `@stdlib/stats/base/dists/rayleigh/kurtosis` [(#4301)](https://github.com/stdlib-js/stdlib/pull/4301) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`7042a3e`](https://github.com/stdlib-js/stdlib/commit/7042a3e7b52b18fbdf77404ca63945cc0a710710) - **feat:** add C implementation for `stats/base/dists/rayleigh/stdev` [(#4314)](https://github.com/stdlib-js/stdlib/pull/4314) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_

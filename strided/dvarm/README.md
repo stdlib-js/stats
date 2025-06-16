@@ -33,7 +33,7 @@ The population [variance][variance] of a finite size population of size `N` is g
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma^2 = \frac{1}{N} \sum_{i=0}^{N-1} (x_i - \mu)^2" data-equation="eq:population_variance">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@79744a33483f9d23b00195aaf2d4b66614b97fac/lib/node_modules/@stdlib/stats/base/dvarm/docs/img/equation_population_variance.svg" alt="Equation for the population variance.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@79744a33483f9d23b00195aaf2d4b66614b97fac/lib/node_modules/@stdlib/stats/strided/dvarm/docs/img/equation_population_variance.svg" alt="Equation for the population variance.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ where the population mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{N} \sum_{i=0}^{N-1} x_i" data-equation="eq:population_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@79744a33483f9d23b00195aaf2d4b66614b97fac/lib/node_modules/@stdlib/stats/base/dvarm/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@79744a33483f9d23b00195aaf2d4b66614b97fac/lib/node_modules/@stdlib/stats/strided/dvarm/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
     <br>
 </div> -->
 
@@ -63,7 +63,7 @@ s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2" data-equation="eq:unbiased_sample_variance">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@79744a33483f9d23b00195aaf2d4b66614b97fac/lib/node_modules/@stdlib/stats/base/dvarm/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for computing an unbiased sample variance.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@79744a33483f9d23b00195aaf2d4b66614b97fac/lib/node_modules/@stdlib/stats/strided/dvarm/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for computing an unbiased sample variance.">
     <br>
 </div> -->
 
@@ -78,7 +78,7 @@ where the sample mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:sample_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@79744a33483f9d23b00195aaf2d4b66614b97fac/lib/node_modules/@stdlib/stats/base/dvarm/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@79744a33483f9d23b00195aaf2d4b66614b97fac/lib/node_modules/@stdlib/stats/strided/dvarm/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
     <br>
 </div> -->
 
@@ -95,7 +95,7 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
-var dvarm = require( '@stdlib/stats/base/dvarm' );
+var dvarm = require( '@stdlib/stats/strided/dvarm' );
 ```
 
 #### dvarm( N, mean, correction, x, strideX )
@@ -195,7 +195,7 @@ var v = dvarm.ndarray( 4, 1.25, 1, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dvarm = require( '@stdlib/stats/base/dvarm' );
+var dvarm = require( '@stdlib/stats/strided/dvarm' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
@@ -233,7 +233,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dvarm.h"
+#include "stdlib/stats/strided/dvarm.h"
 ```
 
 #### stdlib_strided_dvarm( N, mean, correction, \*X, strideX )
@@ -302,7 +302,7 @@ double stdlib_strided_dvarm_ndarray( const CBLAS_INT N, const double mean, const
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dvarm.h"
+#include "stdlib/stats/strided/dvarm.h"
 #include <stdio.h>
 
 int main( void ) {

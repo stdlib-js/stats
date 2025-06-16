@@ -21,11 +21,11 @@
 /**
 * Compute the variance of a double-precision floating-point strided array provided a known mean.
 *
-* @module @stdlib/stats/base/dvarm
+* @module @stdlib/stats/strided/dvarm
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dvarm = require( '@stdlib/stats/base/dvarm' );
+* var dvarm = require( '@stdlib/stats/strided/dvarm' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dvarm = require( '@stdlib/stats/base/dvarm' );
+* var dvarm = require( '@stdlib/stats/strided/dvarm' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dvarm",
+  "name": "@stdlib/stats/strided/dvarm",
   "version": "0.0.0",
   "description": "Calculate the variance of a double-precision floating-point strided array provided a known mean.",
   "license": "Apache-2.0",

@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dvarm.h"
+#include "stdlib/stats/strided/dvarm.h"
 #include "stdlib/napi/export.h"
 #include "stdlib/napi/argv.h"
 #include "stdlib/napi/argv_int64.h"

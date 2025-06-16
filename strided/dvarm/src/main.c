@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dvarm.h"
+#include "stdlib/stats/strided/dvarm.h"
 #include "stdlib/stats/strided/dvarmpn.h"
 #include "stdlib/blas/base/shared.h"
 
