@@ -2469,6 +2469,7 @@ A total of 452 issues were closed in this release:
 
 <details>
 
+-   [`ae5f230`](https://github.com/stdlib-js/stdlib/commit/ae5f2304c8b5e190e263c032ec1423ecf34e3b22) - **bench:** fix value generation _(by Athan Reines)_
 -   [`3916b07`](https://github.com/stdlib-js/stdlib/commit/3916b07f5f5d58f21bbcdbb90465a8a65f59a97a) - **feat:** add C implementation for `@stdlib/stats/base/dists/pareto-type1/logpdf` [(#4313)](https://github.com/stdlib-js/stdlib/pull/4313) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`41688ca`](https://github.com/stdlib-js/stdlib/commit/41688caea773a70cd7dc4ad8b4ff4594651be8d4) - **feat:** add C implementation for `@stdlib/stats/base/dists/pareto-type1/logcdf` [(#4311)](https://github.com/stdlib-js/stdlib/pull/4311) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`3788752`](https://github.com/stdlib-js/stdlib/commit/378875214f365be77c596946bc773eb51b90cba0) - **feat:** add c implementation for `@stdlib/stats/base/dists/logistic/logcdf` [(#4380)](https://github.com/stdlib-js/stdlib/pull/4380) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_

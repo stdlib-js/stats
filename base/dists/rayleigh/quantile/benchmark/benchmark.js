@@ -71,10 +71,14 @@ bench( pkg+':factory', function benchmark( b ) {
 	sigma = 4.0;
 	myquantile = quantile.factory( sigma );
 
+	p = new Float64Array( 100 );
+	for ( i = 0; i < 100; i++ ) {
+		p[ i ] = uniform( 0.0, 1.0 );
+	}
+
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		p = randu();
-		y = myquantile( p );
+		y = myquantile( p[ i%p.length ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
