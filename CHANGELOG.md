@@ -2474,7 +2474,6 @@ A total of 457 issues were closed in this release:
 
 <details>
 
--   [`981457c`](https://github.com/stdlib-js/stdlib/commit/981457cd28f75549ae2ab8a67bcf78c38f8c64b1) - **docs:** update related packages sections [(#7396)](https://github.com/stdlib-js/stdlib/pull/7396) _(by stdlib-bot, Athan Reines)_
 -   [`1175b98`](https://github.com/stdlib-js/stdlib/commit/1175b98292f5ec329d4ea58adc704460e8a08bbc) - **docs:** update namespace table of contents [(#7380)](https://github.com/stdlib-js/stdlib/pull/7380) _(by stdlib-bot)_
 -   [`c5bcc23`](https://github.com/stdlib-js/stdlib/commit/c5bcc2354cc35dcfff5774ee885909ad27d08241) - **feat:** add C implementation for `stats/base/dists/normal/cdf` [(#3911)](https://github.com/stdlib-js/stdlib/pull/3911) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`cf30373`](https://github.com/stdlib-js/stdlib/commit/cf30373879ceec62e73aa5affeb52ccfd0bbdc5c) - **feat:** add C implementation for `stats/base/dists/normal/logcdf` [(#3988)](https://github.com/stdlib-js/stdlib/pull/3988) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
