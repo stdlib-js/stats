@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,17 +20,26 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var uniform = require( '@stdlib/random/array/uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var pkg = require( './../package.json' ).name;
-var skewness = require( './../lib' );
+
+
+// VARIABLES //
+
+var skewness = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( skewness instanceof Error )
+};
 
 
 // MAIN //
 
-bench( pkg, function benchmark( b ) {
+bench( pkg+'::native', opts, function benchmark( b ) {
 	var lambda;
 	var len;
 	var k;
@@ -38,8 +47,8 @@ bench( pkg, function benchmark( b ) {
 	var i;
 
 	len = 100;
-	lambda = uniform( len, EPS + 1.0, 10.0 );
-	k = uniform( len, EPS + 1.0, 10.0 );
+	k = uniform( len, 1.0 + EPS, 10.0 );
+	lambda = uniform( len, 1.0 + EPS, 10.0 );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
