@@ -10,6 +10,11 @@
 
 ### Features
 
+-   [`fd7bc75`](https://github.com/stdlib-js/stdlib/commit/fd7bc755c1c66c3be304d80b6f91185a296d2384) - add `stats/base/ztest/alternative-resolve-enum`
+-   [`319d9d8`](https://github.com/stdlib-js/stdlib/commit/319d9d816f90cf383f3864de7fdf6f6e7ef626e6) - add `stats/base/ztest/alternative-resolve-str`
+-   [`e9b8854`](https://github.com/stdlib-js/stdlib/commit/e9b88547792bbbfd2e035d5826611ce5dc1dfb0b) - add `stats/base/ztest/alternative-str2enum`
+-   [`227bb1e`](https://github.com/stdlib-js/stdlib/commit/227bb1e7645feb0e7eb1e34a59e122d393ec67e6) - add `stats/base/ztest/alternative-enum2str`
+-   [`fb54d44`](https://github.com/stdlib-js/stdlib/commit/fb54d44cc9a8fa777f72c673410094c9af20b8e2) - add `stats/base/ztest/alternatives`
 -   [`c5bcc23`](https://github.com/stdlib-js/stdlib/commit/c5bcc2354cc35dcfff5774ee885909ad27d08241) - add C implementation for `stats/base/dists/normal/cdf` [(#3911)](https://github.com/stdlib-js/stdlib/pull/3911)
 -   [`cf30373`](https://github.com/stdlib-js/stdlib/commit/cf30373879ceec62e73aa5affeb52ccfd0bbdc5c) - add C implementation for `stats/base/dists/normal/logcdf` [(#3988)](https://github.com/stdlib-js/stdlib/pull/3988)
 -   [`0498764`](https://github.com/stdlib-js/stdlib/commit/0498764541343a2eab6db22b6a203d76d0070717) - add C implementation for `stats/base/dists/hypergeometric/mean` [(#4193)](https://github.com/stdlib-js/stdlib/pull/4193)
@@ -2474,6 +2479,12 @@ A total of 457 issues were closed in this release:
 
 <details>
 
+-   [`fd7bc75`](https://github.com/stdlib-js/stdlib/commit/fd7bc755c1c66c3be304d80b6f91185a296d2384) - **feat:** add `stats/base/ztest/alternative-resolve-enum` _(by Athan Reines)_
+-   [`319d9d8`](https://github.com/stdlib-js/stdlib/commit/319d9d816f90cf383f3864de7fdf6f6e7ef626e6) - **feat:** add `stats/base/ztest/alternative-resolve-str` _(by Athan Reines)_
+-   [`e9b8854`](https://github.com/stdlib-js/stdlib/commit/e9b88547792bbbfd2e035d5826611ce5dc1dfb0b) - **feat:** add `stats/base/ztest/alternative-str2enum` _(by Athan Reines)_
+-   [`227bb1e`](https://github.com/stdlib-js/stdlib/commit/227bb1e7645feb0e7eb1e34a59e122d393ec67e6) - **feat:** add `stats/base/ztest/alternative-enum2str` _(by Athan Reines)_
+-   [`fb54d44`](https://github.com/stdlib-js/stdlib/commit/fb54d44cc9a8fa777f72c673410094c9af20b8e2) - **feat:** add `stats/base/ztest/alternatives` _(by Athan Reines)_
+-   [`981457c`](https://github.com/stdlib-js/stdlib/commit/981457cd28f75549ae2ab8a67bcf78c38f8c64b1) - **docs:** update related packages sections [(#7396)](https://github.com/stdlib-js/stdlib/pull/7396) _(by stdlib-bot, Athan Reines)_
 -   [`1175b98`](https://github.com/stdlib-js/stdlib/commit/1175b98292f5ec329d4ea58adc704460e8a08bbc) - **docs:** update namespace table of contents [(#7380)](https://github.com/stdlib-js/stdlib/pull/7380) _(by stdlib-bot)_
 -   [`c5bcc23`](https://github.com/stdlib-js/stdlib/commit/c5bcc2354cc35dcfff5774ee885909ad27d08241) - **feat:** add C implementation for `stats/base/dists/normal/cdf` [(#3911)](https://github.com/stdlib-js/stdlib/pull/3911) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`cf30373`](https://github.com/stdlib-js/stdlib/commit/cf30373879ceec62e73aa5affeb52ccfd0bbdc5c) - **feat:** add C implementation for `stats/base/dists/normal/logcdf` [(#3988)](https://github.com/stdlib-js/stdlib/pull/3988) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
