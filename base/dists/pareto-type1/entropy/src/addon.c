@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,20 +16,7 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/pareto-type1/entropy.h"
+#include "stdlib/math/base/napi/binary.h"
 
-var uniform = require( '@stdlib/random/base/uniform' );
-var EPS = require( '@stdlib/constants/float64/eps' );
-var entropy = require( './../lib' );
-
-var alpha;
-var beta;
-var v;
-var i;
-
-for ( i = 0; i < 10; i++ ) {
-	alpha = uniform( EPS, 10.0 );
-	beta = uniform( EPS, 10.0 );
-	v = entropy( alpha, beta );
-	console.log( 'α: %d, β: %d, h(X;α,β): %d', alpha.toFixed( 4 ), beta.toFixed( 4 ), v.toFixed( 4 ) );
-}
+STDLIB_MATH_BASE_NAPI_MODULE_DD_D( stdlib_base_dists_pareto_type1_entropy )
