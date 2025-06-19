@@ -2486,6 +2486,8 @@ A total of 464 issues were closed in this release:
 
 <details>
 
+-   [`b46839a`](https://github.com/stdlib-js/stdlib/commit/b46839a757385ec10d3056643983776678239fe4) - **chore:** remove trailing spaces _(by Philipp Burckhardt)_
+-   [`6df3667`](https://github.com/stdlib-js/stdlib/commit/6df366771b3a460e20c2ac2bb3dafbf7f267e785) - **test:** move require to module scope _(by Philipp Burckhardt)_
 -   [`9e54cc2`](https://github.com/stdlib-js/stdlib/commit/9e54cc27d2e2e7e986b93b7be2d37f9fb4bc3b5d) - **feat:** add C implementation for `stats/base/dists/t/variance` [(#3912)](https://github.com/stdlib-js/stdlib/pull/3912) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
 -   [`a02e418`](https://github.com/stdlib-js/stdlib/commit/a02e418da0425917d5caa699392759993351ade3) - **feat:** add C implementation for `stats/base/dists/pareto-type1/mode` [(#3932)](https://github.com/stdlib-js/stdlib/pull/3932) _(by Gururaj Gurram, Philipp Burckhardt, stdlib-bot)_
 -   [`56acda8`](https://github.com/stdlib-js/stdlib/commit/56acda846178ab2d33c4ffd73f082d5066873723) - **feat:** add C implementation for `stats/base/dists/weibull/skewness` [(#4053)](https://github.com/stdlib-js/stdlib/pull/4053) _(by Gururaj Gurram, Philipp Burckhardt, stdlib-bot)_

@@ -26,6 +26,7 @@ var tryRequire = require( '@stdlib/utils/try-require' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var abs = require( '@stdlib/math/base/special/abs' );
 var EPS = require( '@stdlib/constants/float64/eps' );
+var PINF = require( '@stdlib/constants/float64/pinf' );
 
 
 // FIXTURES //
@@ -71,7 +72,6 @@ tape( 'if provided `v <= 1`, the function returns `NaN`', opts, function test( t
 });
 
 tape( 'if provided `1 < v <= 2`, the function returns `Infinity`', opts, function test( t ) {
-	var PINF = require( '@stdlib/constants/float64/pinf' );
 	var y;
 
 	y = variance( 2.0 );
