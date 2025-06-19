@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`1ce2a18`](https://github.com/stdlib-js/stdlib/commit/1ce2a18d053367991bb6c395a21e12a342caaf28) - add `stats/strided/dztest`
+-   [`19ae8b4`](https://github.com/stdlib-js/stdlib/commit/19ae8b476a4e1ef220ff47168c5d1f8b74d80464) - add header file with results struct
+-   [`320bc09`](https://github.com/stdlib-js/stdlib/commit/320bc090e9b21455fbea8aa924a0e9a3fba60820) - add header file with results struct
 -   [`571f10d`](https://github.com/stdlib-js/stdlib/commit/571f10d49e1a89407152529e1ce6d9ae53ba1d9b) - add `stats/base/ztest/one-sample/results/float32`
 -   [`0abca05`](https://github.com/stdlib-js/stdlib/commit/0abca050129aeca6e8ec9d50829285f8556bb548) - add `stats/base/ztest/one-sample/results/float64`
 -   [`8fc1489`](https://github.com/stdlib-js/stdlib/commit/8fc1489a046839a861413a3bcfa287be85a0f4e1) - add `stats/base/ztest/one-sample-results/factory`
@@ -2495,6 +2498,10 @@ A total of 466 issues were closed in this release:
 
 <details>
 
+-   [`cec76df`](https://github.com/stdlib-js/stdlib/commit/cec76df2adccf5d8479499a9a36faad6124a8420) - **docs:** fix examples _(by Athan Reines)_
+-   [`1ce2a18`](https://github.com/stdlib-js/stdlib/commit/1ce2a18d053367991bb6c395a21e12a342caaf28) - **feat:** add `stats/strided/dztest` _(by Athan Reines)_
+-   [`19ae8b4`](https://github.com/stdlib-js/stdlib/commit/19ae8b476a4e1ef220ff47168c5d1f8b74d80464) - **feat:** add header file with results struct _(by Athan Reines)_
+-   [`320bc09`](https://github.com/stdlib-js/stdlib/commit/320bc090e9b21455fbea8aa924a0e9a3fba60820) - **feat:** add header file with results struct _(by Athan Reines)_
 -   [`571f10d`](https://github.com/stdlib-js/stdlib/commit/571f10d49e1a89407152529e1ce6d9ae53ba1d9b) - **feat:** add `stats/base/ztest/one-sample/results/float32` _(by Athan Reines)_
 -   [`0b5a64c`](https://github.com/stdlib-js/stdlib/commit/0b5a64ca64a069922adce6cfc8f6eac2ca41b5f8) - **docs:** update copy and example _(by Athan Reines)_
 -   [`0abca05`](https://github.com/stdlib-js/stdlib/commit/0abca050129aeca6e8ec9d50829285f8556bb548) - **feat:** add `stats/base/ztest/one-sample/results/float64` _(by Athan Reines)_
