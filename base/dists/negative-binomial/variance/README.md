@@ -41,7 +41,7 @@ The [variance][variance] for a [negative binomial][negative-binomial-distributio
 
 <!-- </equation> -->
 
-where `r` is the number of successes until experiment is stopped and `p` is the success probability in each trial. The random variable `X` denotes the number of failures until the `r` success is reached. 
+where `r` is the number of successes until experiment is stopped and `p` is the success probability in each trial. The random variable `X` denotes the number of failures until the `r` success is reached.
 
 </section>
 

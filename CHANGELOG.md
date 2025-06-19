@@ -2488,6 +2488,7 @@ A total of 466 issues were closed in this release:
 
 <details>
 
+-   [`e56f900`](https://github.com/stdlib-js/stdlib/commit/e56f90046337b0074fc6d78e51b045a115e39bb5) - **docs:** remove trailing space _(by Philipp Burckhardt)_
 -   [`516be28`](https://github.com/stdlib-js/stdlib/commit/516be28f24ee80c41f10abd1effee3a98729e707) - **feat:** add C implementation for `stats/base/dists/negative-binomial/variance` [(#3906)](https://github.com/stdlib-js/stdlib/pull/3906) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
 -   [`a58d208`](https://github.com/stdlib-js/stdlib/commit/a58d208ba0b0257dd401adf92d01a6fdde0d2a21) - **feat:** add C implementation for `stats/base/dists/t/median` [(#3914)](https://github.com/stdlib-js/stdlib/pull/3914) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
 -   [`b46839a`](https://github.com/stdlib-js/stdlib/commit/b46839a757385ec10d3056643983776678239fe4) - **chore:** remove trailing spaces _(by Philipp Burckhardt)_
