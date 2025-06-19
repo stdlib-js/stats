@@ -10,6 +10,12 @@
 
 ### Features
 
+-   [`571f10d`](https://github.com/stdlib-js/stdlib/commit/571f10d49e1a89407152529e1ce6d9ae53ba1d9b) - add `stats/base/ztest/one-sample/results/float32`
+-   [`0abca05`](https://github.com/stdlib-js/stdlib/commit/0abca050129aeca6e8ec9d50829285f8556bb548) - add `stats/base/ztest/one-sample/results/float64`
+-   [`8fc1489`](https://github.com/stdlib-js/stdlib/commit/8fc1489a046839a861413a3bcfa287be85a0f4e1) - add `stats/base/ztest/one-sample-results/factory`
+-   [`5a74e00`](https://github.com/stdlib-js/stdlib/commit/5a74e003674c5e0e86d6ecdd5b608dea11a4309f) - add `stats/base/ztest/one-sample/results/struct-factory`
+-   [`c5c7c08`](https://github.com/stdlib-js/stdlib/commit/c5c7c081082f75ca8a7f738a8c616213689b7d9e) - add `stats/base/ztest/one-sample/results/to-string`
+-   [`abad8ce`](https://github.com/stdlib-js/stdlib/commit/abad8cecc84aeb831a6936e33a9549550380faa6) - add `stats/base/ztest/one-sample/results/to-json`
 -   [`516be28`](https://github.com/stdlib-js/stdlib/commit/516be28f24ee80c41f10abd1effee3a98729e707) - add C implementation for `stats/base/dists/negative-binomial/variance` [(#3906)](https://github.com/stdlib-js/stdlib/pull/3906)
 -   [`a58d208`](https://github.com/stdlib-js/stdlib/commit/a58d208ba0b0257dd401adf92d01a6fdde0d2a21) - add C implementation for `stats/base/dists/t/median` [(#3914)](https://github.com/stdlib-js/stdlib/pull/3914)
 -   [`9e54cc2`](https://github.com/stdlib-js/stdlib/commit/9e54cc27d2e2e7e986b93b7be2d37f9fb4bc3b5d) - add C implementation for `stats/base/dists/t/variance` [(#3912)](https://github.com/stdlib-js/stdlib/pull/3912)
@@ -812,6 +818,7 @@
 
 ### Bug Fixes
 
+-   [`dac16e4`](https://github.com/stdlib-js/stdlib/commit/dac16e4815d502b3f54217d98c3335fdc0b629fc) - make fields optional
 -   [`8070167`](https://github.com/stdlib-js/stdlib/commit/80701670fb83e7ef33abec5b14565bef540964a5) - use static qualifier for constant
 -   [`8f8663e`](https://github.com/stdlib-js/stdlib/commit/8f8663eb779a27d73ca11867b29263cbf43472d3) - add missing includes
 -   [`72d1412`](https://github.com/stdlib-js/stdlib/commit/72d1412ee12e86641d68fc537f64a24350861611) - pass input array
@@ -2488,6 +2495,24 @@ A total of 466 issues were closed in this release:
 
 <details>
 
+-   [`571f10d`](https://github.com/stdlib-js/stdlib/commit/571f10d49e1a89407152529e1ce6d9ae53ba1d9b) - **feat:** add `stats/base/ztest/one-sample/results/float32` _(by Athan Reines)_
+-   [`0b5a64c`](https://github.com/stdlib-js/stdlib/commit/0b5a64ca64a069922adce6cfc8f6eac2ca41b5f8) - **docs:** update copy and example _(by Athan Reines)_
+-   [`0abca05`](https://github.com/stdlib-js/stdlib/commit/0abca050129aeca6e8ec9d50829285f8556bb548) - **feat:** add `stats/base/ztest/one-sample/results/float64` _(by Athan Reines)_
+-   [`29d3852`](https://github.com/stdlib-js/stdlib/commit/29d385286be5302e26125561518d3ec2cf3195cc) - **docs:** fix description _(by Athan Reines)_
+-   [`e0afca6`](https://github.com/stdlib-js/stdlib/commit/e0afca6ec005eeffc805bfca991258e23844c1f7) - **docs:** fix description _(by Athan Reines)_
+-   [`b592718`](https://github.com/stdlib-js/stdlib/commit/b592718390c0d338c8c2a5fc259c69e647f6a53f) - **docs:** update examples _(by Athan Reines)_
+-   [`28db711`](https://github.com/stdlib-js/stdlib/commit/28db71106c528bfe293ece4c259931b9366f4550) - **docs:** update parameter description _(by Athan Reines)_
+-   [`1417068`](https://github.com/stdlib-js/stdlib/commit/14170681b4eee794591cf7bf378182cf543af31f) - **docs:** update parameter description _(by Athan Reines)_
+-   [`8fc1489`](https://github.com/stdlib-js/stdlib/commit/8fc1489a046839a861413a3bcfa287be85a0f4e1) - **feat:** add `stats/base/ztest/one-sample-results/factory` _(by Athan Reines)_
+-   [`66ff6f9`](https://github.com/stdlib-js/stdlib/commit/66ff6f9681d996e8aedd08dff05b81b431040057) - **docs:** fix missing period _(by Athan Reines)_
+-   [`6771f4f`](https://github.com/stdlib-js/stdlib/commit/6771f4fa2dbfd8b1cb4547a30b03899721161714) - **docs:** fix missing period _(by Athan Reines)_
+-   [`932eb61`](https://github.com/stdlib-js/stdlib/commit/932eb61b99bf23ab44514b9e23ed6a8222ba7304) - **docs:** fix missing period _(by Athan Reines)_
+-   [`dac16e4`](https://github.com/stdlib-js/stdlib/commit/dac16e4815d502b3f54217d98c3335fdc0b629fc) - **fix:** make fields optional _(by Athan Reines)_
+-   [`5a74e00`](https://github.com/stdlib-js/stdlib/commit/5a74e003674c5e0e86d6ecdd5b608dea11a4309f) - **feat:** add `stats/base/ztest/one-sample/results/struct-factory` _(by Athan Reines)_
+-   [`c5c7c08`](https://github.com/stdlib-js/stdlib/commit/c5c7c081082f75ca8a7f738a8c616213689b7d9e) - **feat:** add `stats/base/ztest/one-sample/results/to-string` _(by Athan Reines)_
+-   [`cbf51ef`](https://github.com/stdlib-js/stdlib/commit/cbf51efff1a5cc1c872cd82f6124b0f50d9cba48) - **docs:** document parameters _(by Athan Reines)_
+-   [`c761dd8`](https://github.com/stdlib-js/stdlib/commit/c761dd89a4593d884c8b5a4bcc7e10e631124818) - **docs:** fix method name _(by Athan Reines)_
+-   [`abad8ce`](https://github.com/stdlib-js/stdlib/commit/abad8cecc84aeb831a6936e33a9549550380faa6) - **feat:** add `stats/base/ztest/one-sample/results/to-json` _(by Athan Reines)_
 -   [`e56f900`](https://github.com/stdlib-js/stdlib/commit/e56f90046337b0074fc6d78e51b045a115e39bb5) - **docs:** remove trailing space _(by Philipp Burckhardt)_
 -   [`516be28`](https://github.com/stdlib-js/stdlib/commit/516be28f24ee80c41f10abd1effee3a98729e707) - **feat:** add C implementation for `stats/base/dists/negative-binomial/variance` [(#3906)](https://github.com/stdlib-js/stdlib/pull/3906) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
 -   [`a58d208`](https://github.com/stdlib-js/stdlib/commit/a58d208ba0b0257dd401adf92d01a6fdde0d2a21) - **feat:** add C implementation for `stats/base/dists/t/median` [(#3914)](https://github.com/stdlib-js/stdlib/pull/3914) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
