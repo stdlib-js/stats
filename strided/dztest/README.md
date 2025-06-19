@@ -234,9 +234,9 @@ The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
 -   **alternative**: `[in] enum STDLIB_STATS_ZTEST_ALTERNATIVE` [alternative hypothesis][@stdlib/stats/base/ztest/alternatives].
--   **alpha**: significance level.
--   **mu**: value of the mean under the null hypothesis.
--   **sigma** known standard deviation.
+-   **alpha**: `[in] double` significance level.
+-   **mu**: `[in] double` value of the mean under the null hypothesis.
+-   **sigma** `[in] double` known standard deviation.
 -   **X**: `[in] double*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 -   **results**: `[out] struct stdlib_stats_ztest_one_sample_results_float64*` output [results object][@stdlib/stats/base/ztest/one-sample/results/float64].
@@ -273,9 +273,9 @@ The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
 -   **alternative**: `[in] enum STDLIB_STATS_ZTEST_ALTERNATIVE` [alternative hypothesis][@stdlib/stats/base/ztest/alternatives].
--   **alpha**: significance level.
--   **mu**: value of the mean under the null hypothesis.
--   **sigma** known standard deviation.
+-   **alpha**: `[in] double` significance level.
+-   **mu**: `[in] double` value of the mean under the null hypothesis.
+-   **sigma** `[in] double` known standard deviation.
 -   **X**: `[in] double*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 -   **offsetX**: `[in] CBLAS_INT` starting index for `X`.
