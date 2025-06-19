@@ -44,7 +44,7 @@ int main( void ) {
 		.sd = 0.0
 	};
 
-	// Compute a z-test:
+	// Compute a Z-test:
 	stdlib_strided_dztest( N, STDLIB_STATS_ZTEST_TWO_SIDED, 0.05, 5.0, 3.0, x, strideX, &results );
 
 	// Print the result:

@@ -2498,6 +2498,9 @@ A total of 466 issues were closed in this release:
 
 <details>
 
+-   [`550cf7e`](https://github.com/stdlib-js/stdlib/commit/550cf7e724a8774b3e0a83d1e06372ff4416c410) - **docs:** add struct to docs _(by Athan Reines)_
+-   [`ade7845`](https://github.com/stdlib-js/stdlib/commit/ade78451cd1c767865e5d0ca808aa85c49a5e544) - **docs:** add struct to docs _(by Athan Reines)_
+-   [`cb5844f`](https://github.com/stdlib-js/stdlib/commit/cb5844ffacbec5da322697ab5af011267f8d490c) - **docs:** update comments _(by Athan Reines)_
 -   [`0409af2`](https://github.com/stdlib-js/stdlib/commit/0409af2c21ceeeb2df2d02c6940044012293891b) - **docs:** fix missing dtypes _(by Athan Reines)_
 -   [`3b1438a`](https://github.com/stdlib-js/stdlib/commit/3b1438aba73f5fa0e042b27d71ba97c8578f7def) - **docs:** reorder imports _(by Athan Reines)_
 -   [`cec76df`](https://github.com/stdlib-js/stdlib/commit/cec76df2adccf5d8479499a9a36faad6124a8420) - **docs:** fix examples _(by Athan Reines)_

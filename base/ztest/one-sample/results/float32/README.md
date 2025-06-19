@@ -292,6 +292,91 @@ console.log( str );
 
 <!-- /.examples -->
 
+<!-- C interface documentation. -->
+
+* * *
+
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/stats/base/ztest/one-sample/results/float32.h"
+```
+
+#### stdlib_stats_ztest_one_sample_float32_results
+
+Structure for holding single-precision floating-point test results.
+
+```c
+#include <stdbool.h>
+#include <stdint.h>
+
+struct stdlib_stats_ztest_one_sample_float32_results {
+    // Boolean indicating whether the null hypothesis was rejected:
+    bool rejected;
+
+    // Alternative hypothesis:
+    int8_t alternative;
+
+    // Significance level:
+    float alpha;
+
+    // p-value:
+    float pValue;
+
+    // Test statistic:
+    float statistic;
+
+    // Confidence interval:
+    float ci[ 2 ];
+
+    // Mean value under the null hypothesis:
+    float nullValue;
+
+    // Standard error of the mean:
+    float sd;
+};
+```
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
+
 <!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="references">
