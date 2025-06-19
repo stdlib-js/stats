@@ -2503,6 +2503,7 @@ A total of 471 issues were closed in this release:
 
 <details>
 
+-   [`05c699b`](https://github.com/stdlib-js/stdlib/commit/05c699b2d1d0fbbbba0fe311e93df688c7322906) - **docs:** add notes _(by Athan Reines)_
 -   [`2f3cca7`](https://github.com/stdlib-js/stdlib/commit/2f3cca7d06afd7bf32b641d9620886625ae97d53) - **feat:** add C implementation for `stats/base/dists/poisson/mgf` [(#4626)](https://github.com/stdlib-js/stdlib/pull/4626) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
 -   [`a79528c`](https://github.com/stdlib-js/stdlib/commit/a79528cdc868d7ad54312192e561288503793b0b) - **feat:** add C implementation for `stats/base/dists/chi/logpdf` [(#4527)](https://github.com/stdlib-js/stdlib/pull/4527) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
 -   [`b02b1dc`](https://github.com/stdlib-js/stdlib/commit/b02b1dcda79311b83e803051d3f396f2b3d43874) - **feat:** add C implementation for `stats/base/dists/chi/pdf` [(#4526)](https://github.com/stdlib-js/stdlib/pull/4526) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
