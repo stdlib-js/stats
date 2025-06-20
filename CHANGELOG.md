@@ -833,6 +833,7 @@
 
 ### Bug Fixes
 
+-   [`32e4068`](https://github.com/stdlib-js/stdlib/commit/32e40687fc5b2e5ed1717b63ca2eda830ddcca44) - remove unused `exp` and `eps` dependencies from `gumbel/mean` manifest
 -   [`e457c7a`](https://github.com/stdlib-js/stdlib/commit/e457c7a03b29c7a470c165b21d77c85e4b21a4a1) - remove unused `eps` dependency from `cosine/pdf` build task
 -   [`3a6a270`](https://github.com/stdlib-js/stdlib/commit/3a6a2702d22c310869b5896404a5456db5ed9312) - remove unused `eps` dependency from `cosine/median` build task
 -   [`faa4ec6`](https://github.com/stdlib-js/stdlib/commit/faa4ec6547c9fb72f6a0ba0ebe0cbeaf405becca) - remove unused `eps` dependency from `cosine/logpdf` build task
@@ -2526,6 +2527,7 @@ A total of 471 issues were closed in this release:
 
 <details>
 
+-   [`32e4068`](https://github.com/stdlib-js/stdlib/commit/32e40687fc5b2e5ed1717b63ca2eda830ddcca44) - **fix:** remove unused `exp` and `eps` dependencies from `gumbel/mean` manifest _(by Philipp Burckhardt)_
 -   [`e457c7a`](https://github.com/stdlib-js/stdlib/commit/e457c7a03b29c7a470c165b21d77c85e4b21a4a1) - **fix:** remove unused `eps` dependency from `cosine/pdf` build task _(by Philipp Burckhardt)_
 -   [`3a6a270`](https://github.com/stdlib-js/stdlib/commit/3a6a2702d22c310869b5896404a5456db5ed9312) - **fix:** remove unused `eps` dependency from `cosine/median` build task _(by Philipp Burckhardt)_
 -   [`faa4ec6`](https://github.com/stdlib-js/stdlib/commit/faa4ec6547c9fb72f6a0ba0ebe0cbeaf405becca) - **fix:** remove unused `eps` dependency from `cosine/logpdf` build task _(by Philipp Burckhardt)_
