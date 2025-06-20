@@ -833,6 +833,11 @@
 
 ### Bug Fixes
 
+-   [`e457c7a`](https://github.com/stdlib-js/stdlib/commit/e457c7a03b29c7a470c165b21d77c85e4b21a4a1) - remove unused `eps` dependency from `cosine/pdf` build task
+-   [`3a6a270`](https://github.com/stdlib-js/stdlib/commit/3a6a2702d22c310869b5896404a5456db5ed9312) - remove unused `eps` dependency from `cosine/median` build task
+-   [`faa4ec6`](https://github.com/stdlib-js/stdlib/commit/faa4ec6547c9fb72f6a0ba0ebe0cbeaf405becca) - remove unused `eps` dependency from `cosine/logpdf` build task
+-   [`23d8106`](https://github.com/stdlib-js/stdlib/commit/23d81062f03e38da13c2a9d4d00983a1a4993b8b) - remove unused `eps` dependency from `cosine/logcdf` build task
+-   [`8dfe021`](https://github.com/stdlib-js/stdlib/commit/8dfe0212136eb297a3d1842a337d179034bdf743) - clean-up nonfibonacci implementation and remove unused deps
 -   [`e8d53c1`](https://github.com/stdlib-js/stdlib/commit/e8d53c1ed0a84ef82f9cd4fb6c1791d395cec482) - remove unused eps dependency from beta/variance build task
 -   [`9671664`](https://github.com/stdlib-js/stdlib/commit/96716646ce67e5a602eb83e6832d25c236c9592c) - remove unused eps dependency from beta/stdev build task
 -   [`1f2b51d`](https://github.com/stdlib-js/stdlib/commit/1f2b51d83c64ae987cb959fb55550b1300039ab0) - remove unused eps dependency from beta/skewness build task
@@ -2521,6 +2526,11 @@ A total of 471 issues were closed in this release:
 
 <details>
 
+-   [`e457c7a`](https://github.com/stdlib-js/stdlib/commit/e457c7a03b29c7a470c165b21d77c85e4b21a4a1) - **fix:** remove unused `eps` dependency from `cosine/pdf` build task _(by Philipp Burckhardt)_
+-   [`3a6a270`](https://github.com/stdlib-js/stdlib/commit/3a6a2702d22c310869b5896404a5456db5ed9312) - **fix:** remove unused `eps` dependency from `cosine/median` build task _(by Philipp Burckhardt)_
+-   [`faa4ec6`](https://github.com/stdlib-js/stdlib/commit/faa4ec6547c9fb72f6a0ba0ebe0cbeaf405becca) - **fix:** remove unused `eps` dependency from `cosine/logpdf` build task _(by Philipp Burckhardt)_
+-   [`23d8106`](https://github.com/stdlib-js/stdlib/commit/23d81062f03e38da13c2a9d4d00983a1a4993b8b) - **fix:** remove unused `eps` dependency from `cosine/logcdf` build task _(by Philipp Burckhardt)_
+-   [`8dfe021`](https://github.com/stdlib-js/stdlib/commit/8dfe0212136eb297a3d1842a337d179034bdf743) - **fix:** clean-up nonfibonacci implementation and remove unused deps _(by Philipp Burckhardt)_
 -   [`e8d53c1`](https://github.com/stdlib-js/stdlib/commit/e8d53c1ed0a84ef82f9cd4fb6c1791d395cec482) - **fix:** remove unused eps dependency from beta/variance build task _(by Philipp Burckhardt)_
 -   [`9671664`](https://github.com/stdlib-js/stdlib/commit/96716646ce67e5a602eb83e6832d25c236c9592c) - **fix:** remove unused eps dependency from beta/stdev build task _(by Philipp Burckhardt)_
 -   [`1f2b51d`](https://github.com/stdlib-js/stdlib/commit/1f2b51d83c64ae987cb959fb55550b1300039ab0) - **fix:** remove unused eps dependency from beta/skewness build task _(by Philipp Burckhardt)_
