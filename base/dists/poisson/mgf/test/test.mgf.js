@@ -23,15 +23,18 @@
 var tape = require( 'tape' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var abs = require( '@stdlib/math/base/special/abs' );
+var exp = require( '@stdlib/math/base/special/exp' );
+var PINF = require( '@stdlib/constants/float64/pinf' );
+var NINF = require( '@stdlib/constants/float64/ninf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var mgf = require( './../lib' );
 
 
 // FIXTURES //
 
-var small = require( './fixtures/julia/small.json' );
-var medium = require( './fixtures/julia/medium.json' );
-var large = require( './fixtures/julia/large.json' );
+var smallRange = require( './fixtures/julia/small.json' );
+var mediumRange = require( './fixtures/julia/medium.json' );
+var largeRange = require( './fixtures/julia/large.json' );
 
 
 // TESTS //
@@ -43,101 +46,107 @@ tape( 'main export is a function', function test( t ) {
 });
 
 tape( 'if provided `NaN` for any parameter, the function returns `NaN`', function test( t ) {
-	var y = mgf( NaN, 1.0 );
+	var y = mgf( NaN, 0.5 );
 	t.equal( isnan( y ), true, 'returns NaN' );
 	y = mgf( 0.0, NaN );
 	t.equal( isnan( y ), true, 'returns NaN' );
 	t.end();
 });
 
-tape( 'if provided a nonpositive`lambda`, the function always returns `NaN`', function test( t ) {
+tape( 'if provided `lambda <= 0`, the function returns `NaN`', function test( t ) {
 	var y;
 
 	y = mgf( 2.0, -1.0 );
 	t.equal( isnan( y ), true, 'returns NaN' );
 
-	y = mgf( 0.0, -1.0 );
-	t.equal( isnan( y ), true, 'returns NaN' );
-
-	y = mgf( 0.0, 0.0 );
-	t.equal( isnan( y ), true, 'returns NaN' );
-
-	y = mgf( -2.0, 0.0 );
+	y = mgf( 2.0, 0.0 );
 	t.equal( isnan( y ), true, 'returns NaN' );
 
 	t.end();
 });
 
-tape( 'the function evaluates the mgf for `x` given small `lambda` values', function test( t ) {
+tape( 'if provided `+infinity` for `t` and a valid `lambda`, the function returns `+infinity`', function test( t ) {
+	var y = mgf( PINF, 0.5 );
+	t.equal( y, PINF, 'returns +infinity' );
+	t.end();
+});
+
+tape( 'if provided `-infinity` for `t` and a valid `lambda`, the function returns `exp(-lambda)`', function test( t ) {
+	var y = mgf( NINF, 0.5 );
+	t.equal( y, exp(-0.5), 'returns exp(-lambda)' );
+	t.end();
+});
+
+tape( 'the function evaluates the mgf for `t` given a small range `lambda`', function test( t ) {
 	var expected;
 	var lambda;
+	var values;
 	var delta;
 	var tol;
-	var x;
 	var y;
 	var i;
 
-	expected = small.expected;
-	x = small.x;
-	lambda = small.lambda;
-	for ( i = 0; i < x.length; i++ ) {
-		y = mgf( x[i], lambda[i] );
-		if ( y === expected[i] ) {
-			t.equal( y, expected[i], 'x: '+x[i]+'. λ: '+lambda[i]+'. y: '+y+'. E: '+expected[i] );
+	expected = smallRange.expected;
+	values = smallRange.x;
+	lambda = smallRange.lambda;
+	for ( i = 0; i < values.length; i++ ) {
+		y = mgf( values[ i ], lambda[ i ] );
+		if ( y === expected[ i ] ) {
+			t.equal( y, expected[ i ], 't: ' + values[ i ] + ', lambda: ' + lambda[ i ] + ', y: ' + y + ', expected: ' + expected[ i ] );
 		} else {
-			delta = abs( y - expected[i] );
-			tol = EPS * abs( expected[i] );
-			t.ok( delta <= tol, 'within tolerance. x: '+x[i]+'. λ: '+lambda[i]+'. y: '+y+'. E: '+expected[i]+'. Δ: '+delta+'. tol: '+tol+'.' );
+			delta = abs( y - expected[ i ] );
+			tol = 1.0 * EPS * abs( expected[ i ] );
+			t.ok( delta <= tol, 'within tolerance. t: ' + values[ i ] + '. lambda: ' + lambda[ i ] + '. y: ' + y + '. E: ' + expected[ i ] + '. Δ: ' + delta + '. tol: ' + tol + '.' );
 		}
 	}
 	t.end();
 });
 
-tape( 'the function evaluates the mgf for `x` given medium `lambda` values', function test( t ) {
+tape( 'the function evaluates the mgf for `t` given a medium range `lambda`', function test( t ) {
 	var expected;
 	var lambda;
+	var values;
 	var delta;
 	var tol;
-	var x;
 	var y;
 	var i;
 
-	expected = medium.expected;
-	x = medium.x;
-	lambda = medium.lambda;
-	for ( i = 0; i < x.length; i++ ) {
-		y = mgf( x[i], lambda[i] );
-		if ( y === expected[i] ) {
-			t.equal( y, expected[i], 'x: '+x[i]+'. λ: '+lambda[i]+'. y: '+y+'. E: '+expected[i] );
+	expected = mediumRange.expected;
+	values = mediumRange.x;
+	lambda = mediumRange.lambda;
+	for ( i = 0; i < values.length; i++ ) {
+		y = mgf( values[ i ], lambda[ i ] );
+		if ( y === expected[ i ] ) {
+			t.equal( y, expected[ i ], 't: ' + values[ i ] + ', lambda: ' + lambda[ i ] + ', y: ' + y + ', expected: ' + expected[ i ] );
 		} else {
-			delta = abs( y - expected[i] );
-			tol = EPS * abs( expected[i] );
-			t.ok( delta <= tol, 'within tolerance. x: '+x[i]+'. λ: '+lambda[i]+'. y: '+y+'. E: '+expected[i]+'. Δ: '+delta+'. tol: '+tol+'.' );
+			delta = abs( y - expected[ i ] );
+			tol = 1.0 * EPS * abs( expected[ i ] );
+			t.ok( delta <= tol, 'within tolerance. t: ' + values[ i ] + '. lambda: ' + lambda[ i ] + '. y: ' + y + '. E: ' + expected[ i ] + '. Δ: ' + delta + '. tol: ' + tol + '.' );
 		}
 	}
 	t.end();
 });
 
-tape( 'the function evaluates the mgf for `x` given large `lambda` values', function test( t ) {
+tape( 'the function evaluates the mgf for `t` given a large range `lambda`', function test( t ) {
 	var expected;
+	var values;
 	var lambda;
 	var delta;
 	var tol;
-	var x;
 	var y;
 	var i;
 
-	expected = large.expected;
-	x = large.x;
-	lambda = large.lambda;
-	for ( i = 0; i < x.length; i++ ) {
-		y = mgf( x[i], lambda[i] );
-		if ( y === expected[i] ) {
-			t.equal( y, expected[i], 'x: '+x[i]+'. λ: '+lambda[i]+'. y: '+y+'. E: '+expected[i] );
+	expected = largeRange.expected;
+	values = largeRange.x;
+	lambda = largeRange.lambda;
+	for ( i = 0; i < values.length; i++ ) {
+		y = mgf( values[ i ], lambda[ i ] );
+		if ( y === expected[ i ] ) {
+			t.equal( y, expected[ i ], 't: ' + values[ i ] + ', lambda: ' + lambda[ i ] + ', y: ' + y + ', expected: ' + expected[ i ] );
 		} else {
-			delta = abs( y - expected[i] );
-			tol = EPS * abs( expected[i] );
-			t.ok( delta <= tol, 'within tolerance. x: '+x[i]+'. λ: '+lambda[i]+'. y: '+y+'. E: '+expected[i]+'. Δ: '+delta+'. tol: '+tol+'.' );
+			delta = abs( y - expected[ i ] );
+			tol = 1.0 * EPS * abs( expected[ i ] );
+			t.ok( delta <= tol, 'within tolerance. t: ' + values[ i ] + '. lambda: ' + lambda[ i ] + '. y: ' + y + '. E: ' + expected[ i ] + '. Δ: ' + delta + '. tol: ' + tol + '.' );
 		}
 	}
 	t.end();

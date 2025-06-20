@@ -104,7 +104,7 @@ tape( 'the function evaluates the mgf for `t` given a small range `lambda`', opt
 			t.equal( y, expected[ i ], 't: ' + values[ i ] + ', lambda: ' + lambda[ i ] + ', y: ' + y + ', expected: ' + expected[ i ] );
 		} else {
 			delta = abs( y - expected[ i ] );
-			tol = 2.0 * EPS * abs( expected[ i ] );
+			tol = 1.0 * EPS * abs( expected[ i ] );
 			t.ok( delta <= tol, 'within tolerance. t: ' + values[ i ] + '. lambda: ' + lambda[ i ] + '. y: ' + y + '. E: ' + expected[ i ] + '. Δ: ' + delta + '. tol: ' + tol + '.' );
 		}
 	}
@@ -129,7 +129,7 @@ tape( 'the function evaluates the mgf for `t` given a medium range `lambda`', op
 			t.equal( y, expected[ i ], 't: ' + values[ i ] + ', lambda: ' + lambda[ i ] + ', y: ' + y + ', expected: ' + expected[ i ] );
 		} else {
 			delta = abs( y - expected[ i ] );
-			tol = 2.0 * EPS * abs( expected[ i ] );
+			tol = 1.0 * EPS * abs( expected[ i ] );
 			t.ok( delta <= tol, 'within tolerance. t: ' + values[ i ] + '. lambda: ' + lambda[ i ] + '. y: ' + y + '. E: ' + expected[ i ] + '. Δ: ' + delta + '. tol: ' + tol + '.' );
 		}
 	}
@@ -154,7 +154,7 @@ tape( 'the function evaluates the mgf for `t` given a large range `lambda`', opt
 			t.equal( y, expected[ i ], 't: ' + values[ i ] + ', lambda: ' + lambda[ i ] + ', y: ' + y + ', expected: ' + expected[ i ] );
 		} else {
 			delta = abs( y - expected[ i ] );
-			tol = 2.0 * EPS * abs( expected[ i ] );
+			tol = 1.0 * EPS * abs( expected[ i ] );
 			t.ok( delta <= tol, 'within tolerance. t: ' + values[ i ] + '. lambda: ' + lambda[ i ] + '. y: ' + y + '. E: ' + expected[ i ] + '. Δ: ' + delta + '. tol: ' + tol + '.' );
 		}
 	}
