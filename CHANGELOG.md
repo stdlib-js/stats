@@ -2537,6 +2537,7 @@ A total of 475 issues were closed in this release:
 
 <details>
 
+-   [`27a0d50`](https://github.com/stdlib-js/stdlib/commit/27a0d5068f072e84bc99470744da5b55714d21a4) - **test:** fix missing `opts` argument _(by Athan Reines)_
 -   [`612a602`](https://github.com/stdlib-js/stdlib/commit/612a602ee7110d2d303282969975e99892004989) - **feat:** add C implementation for `stats/base/dists/planck/mgf` [(#4945)](https://github.com/stdlib-js/stdlib/pull/4945) _(by Yuvi Mittal, Philipp Burckhardt, stdlib-bot)_
 -   [`36e56bb`](https://github.com/stdlib-js/stdlib/commit/36e56bb67d7299d6a44ba5e9acf76a671ac8b563) - **feat:** add C implementation for `stats/base/dists/levy/pdf` [(#4918)](https://github.com/stdlib-js/stdlib/pull/4918) _(by Nishchay Rajput, Philipp Burckhardt)_
 -   [`f63f8df`](https://github.com/stdlib-js/stdlib/commit/f63f8df9abf7a7ddf9de4e895a64e4699d2f378b) - **style:** remove header section comments from C files _(by Philipp Burckhardt)_
