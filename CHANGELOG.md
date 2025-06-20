@@ -833,6 +833,11 @@
 
 ### Bug Fixes
 
+-   [`e8d53c1`](https://github.com/stdlib-js/stdlib/commit/e8d53c1ed0a84ef82f9cd4fb6c1791d395cec482) - remove unused eps dependency from beta/variance build task
+-   [`9671664`](https://github.com/stdlib-js/stdlib/commit/96716646ce67e5a602eb83e6832d25c236c9592c) - remove unused eps dependency from beta/stdev build task
+-   [`1f2b51d`](https://github.com/stdlib-js/stdlib/commit/1f2b51d83c64ae987cb959fb55550b1300039ab0) - remove unused eps dependency from beta/skewness build task
+-   [`571f40f`](https://github.com/stdlib-js/stdlib/commit/571f40f7a5e214203e091e694adbd91da218c214) - remove unused eps dependency from build task in beta/mode
+-   [`cad35db`](https://github.com/stdlib-js/stdlib/commit/cad35dba29ed6e097d9d5955a0db6165398baf78) - remove unused eps dependency from build task in beta/mean
 -   [`049ef05`](https://github.com/stdlib-js/stdlib/commit/049ef0522b41e091f5669ffee094788eb40fc8ef) - replace pow with expm1 dependency in triangular/mgf benchmark and examples
 -   [`d440f55`](https://github.com/stdlib-js/stdlib/commit/d440f556cf0ede9dd6edec070cb8fd0e1e60874d) - remove unused includes
 -   [`4a9645b`](https://github.com/stdlib-js/stdlib/commit/4a9645be0b51928789f6432b404c37e65704e939) - remove unused round dependency from benchmark task in erlang/mean
@@ -2516,6 +2521,11 @@ A total of 471 issues were closed in this release:
 
 <details>
 
+-   [`e8d53c1`](https://github.com/stdlib-js/stdlib/commit/e8d53c1ed0a84ef82f9cd4fb6c1791d395cec482) - **fix:** remove unused eps dependency from beta/variance build task _(by Philipp Burckhardt)_
+-   [`9671664`](https://github.com/stdlib-js/stdlib/commit/96716646ce67e5a602eb83e6832d25c236c9592c) - **fix:** remove unused eps dependency from beta/stdev build task _(by Philipp Burckhardt)_
+-   [`1f2b51d`](https://github.com/stdlib-js/stdlib/commit/1f2b51d83c64ae987cb959fb55550b1300039ab0) - **fix:** remove unused eps dependency from beta/skewness build task _(by Philipp Burckhardt)_
+-   [`571f40f`](https://github.com/stdlib-js/stdlib/commit/571f40f7a5e214203e091e694adbd91da218c214) - **fix:** remove unused eps dependency from build task in beta/mode _(by Philipp Burckhardt)_
+-   [`cad35db`](https://github.com/stdlib-js/stdlib/commit/cad35dba29ed6e097d9d5955a0db6165398baf78) - **fix:** remove unused eps dependency from build task in beta/mean _(by Philipp Burckhardt)_
 -   [`049ef05`](https://github.com/stdlib-js/stdlib/commit/049ef0522b41e091f5669ffee094788eb40fc8ef) - **fix:** replace pow with expm1 dependency in triangular/mgf benchmark and examples _(by Philipp Burckhardt)_
 -   [`d440f55`](https://github.com/stdlib-js/stdlib/commit/d440f556cf0ede9dd6edec070cb8fd0e1e60874d) - **fix:** remove unused includes _(by Philipp Burckhardt)_
 -   [`4a9645b`](https://github.com/stdlib-js/stdlib/commit/4a9645be0b51928789f6432b404c37e65704e939) - **fix:** remove unused round dependency from benchmark task in erlang/mean _(by Philipp Burckhardt)_
