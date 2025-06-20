@@ -16,18 +16,8 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/planck/logcdf.h"
+#include "stdlib/math/base/napi/binary.h"
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var uniform = require( '@stdlib/random/array/uniform' );
-var logcdf = require( './../lib' );
-
-var x = discreteUniform( 10, 0, 5 );
-var lambda = uniform( 10, 0.1, 5.0 );
-
-var i;
-var y;
-for ( i = 0; i < lambda.length; i++ ) {
-	y = logcdf( x[ i ], lambda[ i ] );
-	console.log( 'x: %d, λ: %d, F(x;λ): %d', x[ i ].toFixed( 4 ), lambda[ i ].toFixed( 4 ), y.toFixed( 4 ) );
-}
+// cppcheck-suppress shadowFunction
+STDLIB_MATH_BASE_NAPI_MODULE_DD_D( stdlib_base_dists_planck_logcdf )

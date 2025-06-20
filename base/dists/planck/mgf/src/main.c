@@ -24,7 +24,7 @@
 * Evaluates the moment-generating function (MGF) for a Planck distribution with shape parameter `lambda` .
 *
 * @param t       input value
-* @param lambda  shape parameter (must be positive)
+* @param lambda  shape parameter
 * @return        evaluated MGF
 *
 * @example

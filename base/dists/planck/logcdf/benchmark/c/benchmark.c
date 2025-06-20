@@ -16,14 +16,14 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dists/planck/mgf.h"
+#include "stdlib/stats/base/dists/planck/logcdf.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
 #include <time.h>
 #include <sys/time.h>
 
-#define NAME "planck-mgf"
+#define NAME "planck-logcdf"
 #define ITERATIONS 1000000
 #define REPEATS 3
 
@@ -71,7 +71,7 @@ static void print_results( double elapsed ) {
 static double tic( void ) {
 	struct timeval now;
 	gettimeofday( &now, NULL );
-	return (double)now.tv_sec + (double)now.tv_usec / 1.0e6;
+	return (double)now.tv_sec + (double)now.tv_usec/1.0e6;
 }
 
 /**
@@ -83,7 +83,11 @@ static double tic( void ) {
 */
 static double random_uniform( const double min, const double max ) {
 	double v = (double)rand() / ( (double)RAND_MAX + 1.0 );
-	return min + ( v * ( max - min ) );
+	return min + ( v*(max-min) );
+}
+
+static int discrete_uniform( const int min, const int max ) {
+	return min + (rand() % (max - min + 1));
 }
 
 /**
@@ -92,28 +96,28 @@ static double random_uniform( const double min, const double max ) {
 * @return elapsed time in seconds
 */
 static double benchmark( void ) {
-	double lambda[ 100 ];
 	double elapsed;
-	double t[ 100 ];
-	double start;
+	double lambda[ 100 ];
+	double x[ 100 ];
 	double y;
+	double t;
 	int i;
 
 	for ( i = 0; i < 100; i++ ) {
-		t[ i ] = random_uniform( 0.0, 10.0 );
+		x[ i ] = discrete_uniform( 0, 40 );
 		lambda[ i ] = random_uniform( 0.1, 10.0 );
 	}
 
-	start = tic();
+	t = tic();
 	for ( i = 0; i < ITERATIONS; i++ ) {
-		y = stdlib_base_dists_planck_mgf( t[ i%100 ], lambda[ i%100 ] );
-		if ( isnan( y ) ) {
+		y = stdlib_base_dists_planck_logcdf( x[ i%100 ], lambda[ i%100 ] );
+		if ( y != y ) {
 			printf( "should not return NaN\n" );
 			break;
 		}
 	}
-	elapsed = tic() - start;
-	if ( isnan( y ) ) {
+	elapsed = tic() - t;
+	if ( y != y ) {
 		printf( "should not return NaN\n" );
 	}
 	return elapsed;
@@ -134,7 +138,7 @@ int main( void ) {
 		printf( "# c::%s\n", NAME );
 		elapsed = benchmark();
 		print_results( elapsed );
-		printf( "ok %d benchmark finished\n", i + 1 );
+		printf( "ok %d benchmark finished\n", i+1 );
 	}
 	print_summary( REPEATS, REPEATS );
 }

@@ -16,18 +16,23 @@
 * limitations under the License.
 */
 
-'use strict';
+#ifndef STDLIB_STATS_BASE_DISTS_PLANCK_LOGCDF_H
+#define STDLIB_STATS_BASE_DISTS_PLANCK_LOGCDF_H
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var uniform = require( '@stdlib/random/array/uniform' );
-var logcdf = require( './../lib' );
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-var x = discreteUniform( 10, 0, 5 );
-var lambda = uniform( 10, 0.1, 5.0 );
+/**
+* Evaluates the logarithm of the cumulative distribution function (CDF) for a Planck distribution with shape parameter `lambda`.
+*/
+double stdlib_base_dists_planck_logcdf( const double x, const double lambda );
 
-var i;
-var y;
-for ( i = 0; i < lambda.length; i++ ) {
-	y = logcdf( x[ i ], lambda[ i ] );
-	console.log( 'x: %d, λ: %d, F(x;λ): %d', x[ i ].toFixed( 4 ), lambda[ i ].toFixed( 4 ), y.toFixed( 4 ) );
+#ifdef __cplusplus
 }
+#endif
+
+#endif // !STDLIB_STATS_BASE_DISTS_PLANCK_LOGCDF_H
