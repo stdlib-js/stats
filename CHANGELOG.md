@@ -10,6 +10,13 @@
 
 ### Features
 
+-   [`93dad47`](https://github.com/stdlib-js/stdlib/commit/93dad4760ffdef05d1095f9d4684f56572880744) - add `ztest` to namespace
+-   [`c070642`](https://github.com/stdlib-js/stdlib/commit/c07064219940ebe79d81ec33abb4712913b915da) - add `stats/strided/ztest`
+-   [`d08954a`](https://github.com/stdlib-js/stdlib/commit/d08954aeb667cc5ed699f5cc140110e45c1d6120) - add `sztest` to namespace
+-   [`0c3ca0a`](https://github.com/stdlib-js/stdlib/commit/0c3ca0a7897f0998b23749530e16857b246a32cd) - add `stats/strided/sztest`
+-   [`017fc80`](https://github.com/stdlib-js/stdlib/commit/017fc80c4a25de64b3369e1f5d71463f4a1d2536) - add `meanpw` to namespace
+-   [`33e0fcf`](https://github.com/stdlib-js/stdlib/commit/33e0fcfff14a09ce904c1cee4621e55069d10fb5) - add various aliases to namespace
+-   [`2d159e6`](https://github.com/stdlib-js/stdlib/commit/2d159e615d09e3e7a50d8ac1b43b02da2c700d65) - add `dztest` to namespace
 -   [`2f3cca7`](https://github.com/stdlib-js/stdlib/commit/2f3cca7d06afd7bf32b641d9620886625ae97d53) - add C implementation for `stats/base/dists/poisson/mgf` [(#4626)](https://github.com/stdlib-js/stdlib/pull/4626)
 -   [`a79528c`](https://github.com/stdlib-js/stdlib/commit/a79528cdc868d7ad54312192e561288503793b0b) - add C implementation for `stats/base/dists/chi/logpdf` [(#4527)](https://github.com/stdlib-js/stdlib/pull/4527)
 -   [`b02b1dc`](https://github.com/stdlib-js/stdlib/commit/b02b1dcda79311b83e803051d3f396f2b3d43874) - add C implementation for `stats/base/dists/chi/pdf` [(#4526)](https://github.com/stdlib-js/stdlib/pull/4526)
@@ -826,6 +833,8 @@
 
 ### Bug Fixes
 
+-   [`b990f66`](https://github.com/stdlib-js/stdlib/commit/b990f669417995aad5945da44c84f98f35d986fe) - support extended types
+-   [`de88ecb`](https://github.com/stdlib-js/stdlib/commit/de88ecb1aeb8dd5e089a855db5bd6bcfb0657281) - allow extended types
 -   [`dac16e4`](https://github.com/stdlib-js/stdlib/commit/dac16e4815d502b3f54217d98c3335fdc0b629fc) - make fields optional
 -   [`8070167`](https://github.com/stdlib-js/stdlib/commit/80701670fb83e7ef33abec5b14565bef540964a5) - use static qualifier for constant
 -   [`8f8663e`](https://github.com/stdlib-js/stdlib/commit/8f8663eb779a27d73ca11867b29263cbf43472d3) - add missing includes
@@ -2503,6 +2512,21 @@ A total of 471 issues were closed in this release:
 
 <details>
 
+-   [`7bef866`](https://github.com/stdlib-js/stdlib/commit/7bef86671f81c45cd186ae382dd41f2a30a8c6fd) - **docs:** fix example _(by Athan Reines)_
+-   [`93dad47`](https://github.com/stdlib-js/stdlib/commit/93dad4760ffdef05d1095f9d4684f56572880744) - **feat:** add `ztest` to namespace _(by Athan Reines)_
+-   [`c070642`](https://github.com/stdlib-js/stdlib/commit/c07064219940ebe79d81ec33abb4712913b915da) - **feat:** add `stats/strided/ztest` _(by Athan Reines)_
+-   [`265464f`](https://github.com/stdlib-js/stdlib/commit/265464f2e5972213857a751af846cb35fd5e08af) - **docs:** fix path _(by Athan Reines)_
+-   [`4149da8`](https://github.com/stdlib-js/stdlib/commit/4149da880f71efd853637ba18e5b92c18bedec54) - **docs:** fix path _(by Athan Reines)_
+-   [`b990f66`](https://github.com/stdlib-js/stdlib/commit/b990f669417995aad5945da44c84f98f35d986fe) - **fix:** support extended types _(by Athan Reines)_
+-   [`de88ecb`](https://github.com/stdlib-js/stdlib/commit/de88ecb1aeb8dd5e089a855db5bd6bcfb0657281) - **fix:** allow extended types _(by Athan Reines)_
+-   [`cb4c595`](https://github.com/stdlib-js/stdlib/commit/cb4c595622129c9701d28a9523ccb7453b792f84) - **refactor:** improve type specificity _(by Athan Reines)_
+-   [`80df49a`](https://github.com/stdlib-js/stdlib/commit/80df49a7bf7340d1f53d7c5330ae5295e9b94e17) - **refactor:** increase type specificity _(by Athan Reines)_
+-   [`d08954a`](https://github.com/stdlib-js/stdlib/commit/d08954aeb667cc5ed699f5cc140110e45c1d6120) - **feat:** add `sztest` to namespace _(by Athan Reines)_
+-   [`0c3ca0a`](https://github.com/stdlib-js/stdlib/commit/0c3ca0a7897f0998b23749530e16857b246a32cd) - **feat:** add `stats/strided/sztest` _(by Athan Reines)_
+-   [`017fc80`](https://github.com/stdlib-js/stdlib/commit/017fc80c4a25de64b3369e1f5d71463f4a1d2536) - **feat:** add `meanpw` to namespace _(by Athan Reines)_
+-   [`33e0fcf`](https://github.com/stdlib-js/stdlib/commit/33e0fcfff14a09ce904c1cee4621e55069d10fb5) - **feat:** add various aliases to namespace _(by Athan Reines)_
+-   [`2d159e6`](https://github.com/stdlib-js/stdlib/commit/2d159e615d09e3e7a50d8ac1b43b02da2c700d65) - **feat:** add `dztest` to namespace _(by Athan Reines)_
+-   [`6c90ed2`](https://github.com/stdlib-js/stdlib/commit/6c90ed295717a00a305f4ea3d68de7f0efd7aa29) - **refactor:** add `NaN` checks _(by Athan Reines)_
 -   [`48dd346`](https://github.com/stdlib-js/stdlib/commit/48dd346fb6e276f9132a3c91451a94469fcad5bb) - **docs:** update related packages sections [(#7420)](https://github.com/stdlib-js/stdlib/pull/7420) _(by stdlib-bot)_
 -   [`354a54b`](https://github.com/stdlib-js/stdlib/commit/354a54b69858eae98fb4b757d72ca3dde5ec1f4a) - **test:** match tolerance used for JS implementation _(by Philipp Burckhardt)_
 -   [`321490b`](https://github.com/stdlib-js/stdlib/commit/321490b2c4b3de26ca049685f433230a75d648ed) - **test:** align test descriptions between main and native test files _(by Philipp Burckhardt)_

@@ -22,8 +22,8 @@
 
 var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
-var isFinite = require( '@stdlib/assert/is-finite' ).isPrimitive; // eslint-disable-line stdlib/no-redeclare
 var Float64Results = require( './../../../base/ztest/one-sample/results/float64' );
+var isfinite = require( '@stdlib/math/base/assert/is-finite' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var dfill = require( '@stdlib/blas/ext/base/dfill' ).ndarray;
 var normalFactory = require( '@stdlib/random/array/normal' ).factory;
@@ -69,8 +69,8 @@ tape( 'the function performs a one-sample Z-test over a strided array (alternati
 	t.strictEqual( out.alternative, 'two-sided', 'returns expected value' );
 	t.strictEqual( isnan( out.statistic ), false, 'returns expected value' );
 	t.strictEqual( isnan( out.pValue ), false, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 0 ] ), true, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 1 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 0 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 1 ] ), true, 'returns expected value' );
 
 	out = dztest( x.length, 'two-sided', 0.1, 100.0, 1.0, x, 1, results );
 	t.strictEqual( out, results, 'returns expected value' );
@@ -78,8 +78,8 @@ tape( 'the function performs a one-sample Z-test over a strided array (alternati
 	t.strictEqual( out.alternative, 'two-sided', 'returns expected value' );
 	t.strictEqual( isnan( out.statistic ), false, 'returns expected value' );
 	t.strictEqual( isnan( out.pValue ), false, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 0 ] ), true, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 1 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 0 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 1 ] ), true, 'returns expected value' );
 
 	// Generate an array with a sufficiently large sample size to effectively guarantee expected results:
 	x = normal( 10000, 100.0, 1.0, {
@@ -92,8 +92,8 @@ tape( 'the function performs a one-sample Z-test over a strided array (alternati
 	t.strictEqual( out.alternative, 'two-sided', 'returns expected value' );
 	t.strictEqual( isnan( out.statistic ), false, 'returns expected value' );
 	t.strictEqual( isnan( out.pValue ), false, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 0 ] ), true, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 1 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 0 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 1 ] ), true, 'returns expected value' );
 
 	t.end();
 });
@@ -116,7 +116,7 @@ tape( 'the function performs a one-sample Z-test over a strided array (alternati
 	t.strictEqual( out.alternative, 'greater', 'returns expected value' );
 	t.strictEqual( isnan( out.statistic ), false, 'returns expected value' );
 	t.strictEqual( isnan( out.pValue ), false, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 0 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 0 ] ), true, 'returns expected value' );
 	t.strictEqual( out.ci[ 1 ], PINF, 'returns expected value' );
 
 	// Generate an array with a sufficiently large sample size to effectively guarantee expected results:
@@ -130,7 +130,7 @@ tape( 'the function performs a one-sample Z-test over a strided array (alternati
 	t.strictEqual( out.alternative, 'greater', 'returns expected value' );
 	t.strictEqual( isnan( out.statistic ), false, 'returns expected value' );
 	t.strictEqual( isnan( out.pValue ), false, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 0 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 0 ] ), true, 'returns expected value' );
 	t.strictEqual( out.ci[ 1 ], PINF, 'returns expected value' );
 
 	t.end();
@@ -155,7 +155,7 @@ tape( 'the function performs a one-sample Z-test over a strided array (alternati
 	t.strictEqual( isnan( out.statistic ), false, 'returns expected value' );
 	t.strictEqual( isnan( out.pValue ), false, 'returns expected value' );
 	t.strictEqual( out.ci[ 0 ], NINF, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 1 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 1 ] ), true, 'returns expected value' );
 
 	// Generate an array with a sufficiently large sample size to effectively guarantee expected results:
 	x = normal( 10000, -100.0, 1.0, {
@@ -169,7 +169,7 @@ tape( 'the function performs a one-sample Z-test over a strided array (alternati
 	t.strictEqual( isnan( out.statistic ), false, 'returns expected value' );
 	t.strictEqual( isnan( out.pValue ), false, 'returns expected value' );
 	t.strictEqual( out.ci[ 0 ], NINF, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 1 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 1 ] ), true, 'returns expected value' );
 
 	t.end();
 });
@@ -222,8 +222,8 @@ tape( 'the function supports a stride parameter', opts, function test( t ) {
 	t.strictEqual( out.alternative, 'two-sided', 'returns expected value' );
 	t.strictEqual( isnan( out.statistic ), false, 'returns expected value' );
 	t.strictEqual( isnan( out.pValue ), false, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 0 ] ), true, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 1 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 0 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 1 ] ), true, 'returns expected value' );
 
 	// Generate an array with a sufficiently large sample size to effectively guarantee expected results:
 	x = normal( N*2, 100.0, 1.0, {
@@ -237,8 +237,8 @@ tape( 'the function supports a stride parameter', opts, function test( t ) {
 	t.strictEqual( out.alternative, 'two-sided', 'returns expected value' );
 	t.strictEqual( isnan( out.statistic ), false, 'returns expected value' );
 	t.strictEqual( isnan( out.pValue ), false, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 0 ] ), true, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 1 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 0 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 1 ] ), true, 'returns expected value' );
 
 	t.end();
 });
@@ -264,8 +264,8 @@ tape( 'the function supports a negative stride parameter', opts, function test( 
 	t.strictEqual( out.alternative, 'two-sided', 'returns expected value' );
 	t.strictEqual( isnan( out.statistic ), false, 'returns expected value' );
 	t.strictEqual( isnan( out.pValue ), false, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 0 ] ), true, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 1 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 0 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 1 ] ), true, 'returns expected value' );
 
 	// Generate an array with a sufficiently large sample size to effectively guarantee expected results:
 	x = normal( N*2, 100.0, 1.0, {
@@ -279,8 +279,8 @@ tape( 'the function supports a negative stride parameter', opts, function test( 
 	t.strictEqual( out.alternative, 'two-sided', 'returns expected value' );
 	t.strictEqual( isnan( out.statistic ), false, 'returns expected value' );
 	t.strictEqual( isnan( out.pValue ), false, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 0 ] ), true, 'returns expected value' );
-	t.strictEqual( isFinite( out.ci[ 1 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 0 ] ), true, 'returns expected value' );
+	t.strictEqual( isfinite( out.ci[ 1 ] ), true, 'returns expected value' );
 
 	t.end();
 });

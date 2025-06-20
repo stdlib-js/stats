@@ -757,6 +757,24 @@ setReadOnly( ns, 'dvariancewd', require( './../../strided/dvariancewd' ) );
 setReadOnly( ns, 'dvarianceyc', require( './../../strided/dvarianceyc' ) );
 
 /**
+* @name dvarm
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dvarm}
+*/
+setReadOnly( ns, 'dvarm', require( './../../strided/dvarm' ) );
+
+/**
+* @name dvarmpn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dvarmpn}
+*/
+setReadOnly( ns, 'dvarmpn', require( './../../strided/dvarmpn' ) );
+
+/**
 * @name dvarmtk
 * @memberof ns
 * @readonly
@@ -764,6 +782,240 @@ setReadOnly( ns, 'dvarianceyc', require( './../../strided/dvarianceyc' ) );
 * @see {@link module:@stdlib/stats/strided/dvarmtk}
 */
 setReadOnly( ns, 'dvarmtk', require( './../../strided/dvarmtk' ) );
+
+/**
+* @name dztest
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dztest}
+*/
+setReadOnly( ns, 'dztest', require( './../../strided/dztest' ) );
+
+/**
+* @name max
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/max}
+*/
+setReadOnly( ns, 'max', require( './../../strided/max' ) );
+
+/**
+* @name maxBy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/max-by}
+*/
+setReadOnly( ns, 'maxBy', require( './../../strided/max-by' ) );
+
+/**
+* @name maxabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/maxabs}
+*/
+setReadOnly( ns, 'maxabs', require( './../../strided/maxabs' ) );
+
+/**
+* @name maxsorted
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/maxsorted}
+*/
+setReadOnly( ns, 'maxsorted', require( './../../strided/maxsorted' ) );
+
+/**
+* @name mean
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/mean}
+*/
+setReadOnly( ns, 'mean', require( './../../strided/mean' ) );
+
+/**
+* @name meankbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/meankbn}
+*/
+setReadOnly( ns, 'meankbn', require( './../../strided/meankbn' ) );
+
+/**
+* @name meankbn2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/meankbn2}
+*/
+setReadOnly( ns, 'meankbn2', require( './../../strided/meankbn2' ) );
+
+/**
+* @name meanors
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/meanors}
+*/
+setReadOnly( ns, 'meanors', require( './../../strided/meanors' ) );
+
+/**
+* @name meanpn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/meanpn}
+*/
+setReadOnly( ns, 'meanpn', require( './../../strided/meanpn' ) );
+
+/**
+* @name meanpw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/meanpw}
+*/
+setReadOnly( ns, 'meanpw', require( './../../strided/meanpw' ) );
+
+/**
+* @name meanwd
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/meanwd}
+*/
+setReadOnly( ns, 'meanwd', require( './../../strided/meanwd' ) );
+
+/**
+* @name mediansorted
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/mediansorted}
+*/
+setReadOnly( ns, 'mediansorted', require( './../../strided/mediansorted' ) );
+
+/**
+* @name min
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/min}
+*/
+setReadOnly( ns, 'min', require( './../../strided/min' ) );
+
+/**
+* @name minBy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/min-by}
+*/
+setReadOnly( ns, 'minBy', require( './../../strided/min-by' ) );
+
+/**
+* @name minabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/minabs}
+*/
+setReadOnly( ns, 'minabs', require( './../../strided/minabs' ) );
+
+/**
+* @name minsorted
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/minsorted}
+*/
+setReadOnly( ns, 'minsorted', require( './../../strided/minsorted' ) );
+
+/**
+* @name mskmax
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/mskmax}
+*/
+setReadOnly( ns, 'mskmax', require( './../../strided/mskmax' ) );
+
+/**
+* @name mskmin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/mskmin}
+*/
+setReadOnly( ns, 'mskmin', require( './../../strided/mskmin' ) );
+
+/**
+* @name mskrange
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/mskrange}
+*/
+setReadOnly( ns, 'mskrange', require( './../../strided/mskrange' ) );
+
+/**
+* @name nanmax
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/nanmax}
+*/
+setReadOnly( ns, 'nanmax', require( './../../strided/nanmax' ) );
+
+/**
+* @name nanmaxBy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/nanmax-by}
+*/
+setReadOnly( ns, 'nanmaxBy', require( './../../strided/nanmax-by' ) );
+
+/**
+* @name nanmaxabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/nanmaxabs}
+*/
+setReadOnly( ns, 'nanmaxabs', require( './../../strided/nanmaxabs' ) );
+
+/**
+* @name nanmin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/nanmin}
+*/
+setReadOnly( ns, 'nanmin', require( './../../strided/nanmin' ) );
+
+/**
+* @name nanminBy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/nanmin-by}
+*/
+setReadOnly( ns, 'nanminBy', require( './../../strided/nanmin-by' ) );
+
+/**
+* @name nanminabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/nanminabs}
+*/
+setReadOnly( ns, 'nanminabs', require( './../../strided/nanminabs' ) );
 
 /**
 * @name scumax
@@ -856,6 +1108,15 @@ setReadOnly( ns, 'smaxabssorted', require( './../../strided/smaxabssorted' ) );
 setReadOnly( ns, 'smaxsorted', require( './../../strided/smaxsorted' ) );
 
 /**
+* @name smean
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/smean}
+*/
+setReadOnly( ns, 'smean', require( './../../strided/smean' ) );
+
+/**
 * @name smeanli
 * @memberof ns
 * @readonly
@@ -863,6 +1124,15 @@ setReadOnly( ns, 'smaxsorted', require( './../../strided/smaxsorted' ) );
 * @see {@link module:@stdlib/stats/strided/smeanli}
 */
 setReadOnly( ns, 'smeanli', require( './../../strided/smeanli' ) );
+
+/**
+* @name smeanpn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/smeanpn}
+*/
+setReadOnly( ns, 'smeanpn', require( './../../strided/smeanpn' ) );
 
 /**
 * @name smeanpw
@@ -1063,6 +1333,15 @@ setReadOnly( ns, 'snanrange', require( './../../strided/snanrange' ) );
 setReadOnly( ns, 'srange', require( './../../strided/srange' ) );
 
 /**
+* @name sstdev
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/sstdev}
+*/
+setReadOnly( ns, 'sstdev', require( './../../strided/sstdev' ) );
+
+/**
 * @name sstdevch
 * @memberof ns
 * @readonly
@@ -1133,6 +1412,24 @@ setReadOnly( ns, 'svariancetk', require( './../../strided/svariancetk' ) );
 * @see {@link module:@stdlib/stats/strided/svarianceyc}
 */
 setReadOnly( ns, 'svarianceyc', require( './../../strided/svarianceyc' ) );
+
+/**
+* @name sztest
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/sztest}
+*/
+setReadOnly( ns, 'sztest', require( './../../strided/sztest' ) );
+
+/**
+* @name ztest
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/ztest}
+*/
+setReadOnly( ns, 'ztest', require( './../../strided/ztest' ) );
 
 
 // EXPORTS //
