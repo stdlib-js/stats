@@ -19,8 +19,6 @@
 #include "stdlib/stats/base/dists/poisson/mgf.h"
 #include "stdlib/math/base/assert/is_nan.h"
 #include "stdlib/math/base/special/exp.h"
-#include "stdlib/constants/float64/ninf.h"
-#include "stdlib/constants/float64/pinf.h"
 
 /**
 * Evaluates the moment-generating function (MGF) for a Poisson distribution with mean parameter `lambda` at a value `t`.
