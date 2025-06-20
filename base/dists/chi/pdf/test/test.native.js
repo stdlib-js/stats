@@ -92,7 +92,7 @@ tape( 'if provided `-infinity` for `x` and a valid `k`, the function returns `0`
 	t.end();
 });
 
-tape( 'the function evaluates the pdf for given `x` and `k`', opts, function test( t ) {
+tape( 'the function evaluates the pdf for `x` given degrees of freedom `k`', function test( t ) {
 	var expected;
 	var delta;
 	var tol;
@@ -105,16 +105,13 @@ tape( 'the function evaluates the pdf for given `x` and `k`', opts, function tes
 	x = data.x;
 	k = data.k;
 	for ( i = 0; i < x.length; i++ ) {
-		y = pdf( x[ i ], k[ i ] );
-		if ( y === expected[ i ] ) {
-			t.equal( y, expected[ i ], 'x: ' + x[ i ] + ', k: ' + k[ i ] + ', y: ' + y + ', expected: ' + expected[ i ] );
+		y = pdf( x[i], k[i] );
+		if ( y === expected[i] ) {
+			t.equal( y, expected[i], 'x: '+x[i]+'. k:'+k[i]+', y: '+y+', expected: '+expected[i] );
 		} else {
 			delta = abs( y - expected[ i ] );
-			tol = 2.0 * EPS * abs( expected[ i ] );
-			if ( tol < 1e-14 ) {
-				tol = 1e-14;
-			}
-			t.ok( delta <= tol, 'within tolerance. x: ' + x[ i ] + '. k: ' + k[ i ] + '. y: ' + y + '. E: ' + expected[ i ] + '. Δ: ' + delta + '. tol: ' + tol + '.' );
+			tol = 140.0 * EPS * abs( expected[ i ] );
+			t.ok( delta <= tol, 'within tolerance. x: '+x[ i ]+'. k: '+k[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
 		}
 	}
 	t.end();

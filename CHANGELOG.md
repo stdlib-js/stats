@@ -2503,6 +2503,11 @@ A total of 471 issues were closed in this release:
 
 <details>
 
+-   [`354a54b`](https://github.com/stdlib-js/stdlib/commit/354a54b69858eae98fb4b757d72ca3dde5ec1f4a) - **test:** match tolerance used for JS implementation _(by Philipp Burckhardt)_
+-   [`321490b`](https://github.com/stdlib-js/stdlib/commit/321490b2c4b3de26ca049685f433230a75d648ed) - **test:** align test descriptions between main and native test files _(by Philipp Burckhardt)_
+-   [`ebb4500`](https://github.com/stdlib-js/stdlib/commit/ebb4500287a0a8125b01bb4ccd47e1152205615a) - **test:** use exact equality check against fixtures _(by Philipp Burckhardt)_
+-   [`b5bffa7`](https://github.com/stdlib-js/stdlib/commit/b5bffa72ea42e7e856290c53c493650379487888) - **test:** align test descriptions between main and native test files _(by Philipp Burckhardt)_
+-   [`07cc4a4`](https://github.com/stdlib-js/stdlib/commit/07cc4a4f1aeec8d7d197d47b8a0db66be06a44f9) - **test:** align test descriptions between main and native test files _(by Philipp Burckhardt)_
 -   [`7b3dea1`](https://github.com/stdlib-js/stdlib/commit/7b3dea19db4333cc20d6deb6de1f62ed307ffeb5) - **test:** use correct function name _(by Philipp Burckhardt)_
 -   [`2a44b1b`](https://github.com/stdlib-js/stdlib/commit/2a44b1b1028e5218e54c6b0677dc319493a5391b) - **test:** use standard deviation instead of stdev _(by Philipp Burckhardt)_
 -   [`cf71b85`](https://github.com/stdlib-js/stdlib/commit/cf71b850b8be9495768d01474eceeefde3a76b79) - **test:** use exact equality check against fixtures _(by Philipp Burckhardt)_
