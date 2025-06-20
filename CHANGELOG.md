@@ -2503,6 +2503,12 @@ A total of 471 issues were closed in this release:
 
 <details>
 
+-   [`7b3dea1`](https://github.com/stdlib-js/stdlib/commit/7b3dea19db4333cc20d6deb6de1f62ed307ffeb5) - **test:** use correct function name _(by Philipp Burckhardt)_
+-   [`2a44b1b`](https://github.com/stdlib-js/stdlib/commit/2a44b1b1028e5218e54c6b0677dc319493a5391b) - **test:** use standard deviation instead of stdev _(by Philipp Burckhardt)_
+-   [`cf71b85`](https://github.com/stdlib-js/stdlib/commit/cf71b850b8be9495768d01474eceeefde3a76b79) - **test:** use exact equality check against fixtures _(by Philipp Burckhardt)_
+-   [`48e624a`](https://github.com/stdlib-js/stdlib/commit/48e624ae6f8c1a23367bd315d9520f8d28880154) - **test:** match tolerance used for JS implementation _(by Philipp Burckhardt)_
+-   [`57019f5`](https://github.com/stdlib-js/stdlib/commit/57019f5d47236478c41cad4d997fb19a8a6dca02) - **test:** match tolerance used for JS implementation _(by Philipp Burckhardt)_
+-   [`e967a55`](https://github.com/stdlib-js/stdlib/commit/e967a55e35636d97379e0ab525fc1f7c6755ca52) - **test:** update description to use correct term for lambda _(by Philipp Burckhardt)_
 -   [`c499a2b`](https://github.com/stdlib-js/stdlib/commit/c499a2b50d272eb567a8b670d5a0558e163f83a1) - **test:** update variables and remove references to range _(by Philipp Burckhardt)_
 -   [`4b136ff`](https://github.com/stdlib-js/stdlib/commit/4b136ff38994cd60151a6271312222c699e0d2f0) - **test:** update main MGF tests to match native ones and align tolerances _(by Philipp Burckhardt)_
 -   [`1fc8766`](https://github.com/stdlib-js/stdlib/commit/1fc87661cab2d02bdfbd875e8560e8933d5ca0de) - **test:** add tests _(by Athan Reines)_
