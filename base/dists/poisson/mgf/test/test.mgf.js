@@ -32,9 +32,9 @@ var mgf = require( './../lib' );
 
 // FIXTURES //
 
-var smallRange = require( './fixtures/julia/small.json' );
-var mediumRange = require( './fixtures/julia/medium.json' );
-var largeRange = require( './fixtures/julia/large.json' );
+var small = require( './fixtures/julia/small.json' );
+var medium = require( './fixtures/julia/medium.json' );
+var large = require( './fixtures/julia/large.json' );
 
 
 // TESTS //
@@ -77,7 +77,7 @@ tape( 'if provided `-infinity` for `t` and a valid `lambda`, the function return
 	t.end();
 });
 
-tape( 'the function evaluates the mgf for `t` given a small range `lambda`', function test( t ) {
+tape( 'the function evaluates the mgf for `t` given a small `lambda`', function test( t ) {
 	var expected;
 	var lambda;
 	var values;
@@ -86,9 +86,9 @@ tape( 'the function evaluates the mgf for `t` given a small range `lambda`', fun
 	var y;
 	var i;
 
-	expected = smallRange.expected;
-	values = smallRange.x;
-	lambda = smallRange.lambda;
+	expected = small.expected;
+	values = small.x;
+	lambda = small.lambda;
 	for ( i = 0; i < values.length; i++ ) {
 		y = mgf( values[ i ], lambda[ i ] );
 		if ( y === expected[ i ] ) {
@@ -102,7 +102,7 @@ tape( 'the function evaluates the mgf for `t` given a small range `lambda`', fun
 	t.end();
 });
 
-tape( 'the function evaluates the mgf for `t` given a medium range `lambda`', function test( t ) {
+tape( 'the function evaluates the mgf for `t` given a medium `lambda`', function test( t ) {
 	var expected;
 	var lambda;
 	var values;
@@ -111,9 +111,9 @@ tape( 'the function evaluates the mgf for `t` given a medium range `lambda`', fu
 	var y;
 	var i;
 
-	expected = mediumRange.expected;
-	values = mediumRange.x;
-	lambda = mediumRange.lambda;
+	expected = medium.expected;
+	values = medium.x;
+	lambda = medium.lambda;
 	for ( i = 0; i < values.length; i++ ) {
 		y = mgf( values[ i ], lambda[ i ] );
 		if ( y === expected[ i ] ) {
@@ -136,9 +136,9 @@ tape( 'the function evaluates the mgf for `t` given a large range `lambda`', fun
 	var y;
 	var i;
 
-	expected = largeRange.expected;
-	values = largeRange.x;
-	lambda = largeRange.lambda;
+	expected = large.expected;
+	values = large.x;
+	lambda = large.lambda;
 	for ( i = 0; i < values.length; i++ ) {
 		y = mgf( values[ i ], lambda[ i ] );
 		if ( y === expected[ i ] ) {

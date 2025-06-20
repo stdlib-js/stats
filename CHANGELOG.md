@@ -2503,6 +2503,7 @@ A total of 471 issues were closed in this release:
 
 <details>
 
+-   [`c499a2b`](https://github.com/stdlib-js/stdlib/commit/c499a2b50d272eb567a8b670d5a0558e163f83a1) - **test:** update variables and remove references to range _(by Philipp Burckhardt)_
 -   [`4b136ff`](https://github.com/stdlib-js/stdlib/commit/4b136ff38994cd60151a6271312222c699e0d2f0) - **test:** update main MGF tests to match native ones and align tolerances _(by Philipp Burckhardt)_
 -   [`1fc8766`](https://github.com/stdlib-js/stdlib/commit/1fc87661cab2d02bdfbd875e8560e8933d5ca0de) - **test:** add tests _(by Athan Reines)_
 -   [`f9aff17`](https://github.com/stdlib-js/stdlib/commit/f9aff17312f8447de40566ad1390f96c5d4ba5b5) - **test:** add tests _(by Athan Reines)_
