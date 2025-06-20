@@ -833,6 +833,9 @@
 
 ### Bug Fixes
 
+-   [`049ef05`](https://github.com/stdlib-js/stdlib/commit/049ef0522b41e091f5669ffee094788eb40fc8ef) - replace pow with expm1 dependency in triangular/mgf benchmark and examples
+-   [`d440f55`](https://github.com/stdlib-js/stdlib/commit/d440f556cf0ede9dd6edec070cb8fd0e1e60874d) - remove unused includes
+-   [`4a9645b`](https://github.com/stdlib-js/stdlib/commit/4a9645be0b51928789f6432b404c37e65704e939) - remove unused round dependency from benchmark task in erlang/mean
 -   [`be4189e`](https://github.com/stdlib-js/stdlib/commit/be4189e889c15276e3cba0f176bd0597fbdc299b) - remove unused includes
 -   [`b990f66`](https://github.com/stdlib-js/stdlib/commit/b990f669417995aad5945da44c84f98f35d986fe) - support extended types
 -   [`de88ecb`](https://github.com/stdlib-js/stdlib/commit/de88ecb1aeb8dd5e089a855db5bd6bcfb0657281) - allow extended types
@@ -2513,6 +2516,9 @@ A total of 471 issues were closed in this release:
 
 <details>
 
+-   [`049ef05`](https://github.com/stdlib-js/stdlib/commit/049ef0522b41e091f5669ffee094788eb40fc8ef) - **fix:** replace pow with expm1 dependency in triangular/mgf benchmark and examples _(by Philipp Burckhardt)_
+-   [`d440f55`](https://github.com/stdlib-js/stdlib/commit/d440f556cf0ede9dd6edec070cb8fd0e1e60874d) - **fix:** remove unused includes _(by Philipp Burckhardt)_
+-   [`4a9645b`](https://github.com/stdlib-js/stdlib/commit/4a9645be0b51928789f6432b404c37e65704e939) - **fix:** remove unused round dependency from benchmark task in erlang/mean _(by Philipp Burckhardt)_
 -   [`be4189e`](https://github.com/stdlib-js/stdlib/commit/be4189e889c15276e3cba0f176bd0597fbdc299b) - **fix:** remove unused includes _(by Philipp Burckhardt)_
 -   [`7bef866`](https://github.com/stdlib-js/stdlib/commit/7bef86671f81c45cd186ae382dd41f2a30a8c6fd) - **docs:** fix example _(by Athan Reines)_
 -   [`93dad47`](https://github.com/stdlib-js/stdlib/commit/93dad4760ffdef05d1095f9d4684f56572880744) - **feat:** add `ztest` to namespace _(by Athan Reines)_
