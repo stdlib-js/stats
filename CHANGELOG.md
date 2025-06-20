@@ -2503,6 +2503,7 @@ A total of 471 issues were closed in this release:
 
 <details>
 
+-   [`48dd346`](https://github.com/stdlib-js/stdlib/commit/48dd346fb6e276f9132a3c91451a94469fcad5bb) - **docs:** update related packages sections [(#7420)](https://github.com/stdlib-js/stdlib/pull/7420) _(by stdlib-bot)_
 -   [`354a54b`](https://github.com/stdlib-js/stdlib/commit/354a54b69858eae98fb4b757d72ca3dde5ec1f4a) - **test:** match tolerance used for JS implementation _(by Philipp Burckhardt)_
 -   [`321490b`](https://github.com/stdlib-js/stdlib/commit/321490b2c4b3de26ca049685f433230a75d648ed) - **test:** align test descriptions between main and native test files _(by Philipp Burckhardt)_
 -   [`ebb4500`](https://github.com/stdlib-js/stdlib/commit/ebb4500287a0a8125b01bb4ccd47e1152205615a) - **test:** use exact equality check against fixtures _(by Philipp Burckhardt)_
