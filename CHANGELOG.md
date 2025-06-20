@@ -833,6 +833,9 @@
 
 ### Bug Fixes
 
+-   [`541c34e`](https://github.com/stdlib-js/stdlib/commit/541c34e7613e29e855b192a62f4fea0368c362ed) - remove unused `pi` and `eps` dependencies from `rayleigh/mode` manifest
+-   [`1425b4a`](https://github.com/stdlib-js/stdlib/commit/1425b4a8b4a396b4e760ca3d99bd4345638d9f03) - remove unused `eps` dependency from `levy/logcdf` manifest
+-   [`74596d4`](https://github.com/stdlib-js/stdlib/commit/74596d4df6801d9176bd5027eb237497e9b078c0) - remove unused `eps` dependency from Frechet distribution manifests
 -   [`32e4068`](https://github.com/stdlib-js/stdlib/commit/32e40687fc5b2e5ed1717b63ca2eda830ddcca44) - remove unused `exp` and `eps` dependencies from `gumbel/mean` manifest
 -   [`e457c7a`](https://github.com/stdlib-js/stdlib/commit/e457c7a03b29c7a470c165b21d77c85e4b21a4a1) - remove unused `eps` dependency from `cosine/pdf` build task
 -   [`3a6a270`](https://github.com/stdlib-js/stdlib/commit/3a6a2702d22c310869b5896404a5456db5ed9312) - remove unused `eps` dependency from `cosine/median` build task
@@ -2527,6 +2530,9 @@ A total of 471 issues were closed in this release:
 
 <details>
 
+-   [`541c34e`](https://github.com/stdlib-js/stdlib/commit/541c34e7613e29e855b192a62f4fea0368c362ed) - **fix:** remove unused `pi` and `eps` dependencies from `rayleigh/mode` manifest _(by Philipp Burckhardt)_
+-   [`1425b4a`](https://github.com/stdlib-js/stdlib/commit/1425b4a8b4a396b4e760ca3d99bd4345638d9f03) - **fix:** remove unused `eps` dependency from `levy/logcdf` manifest _(by Philipp Burckhardt)_
+-   [`74596d4`](https://github.com/stdlib-js/stdlib/commit/74596d4df6801d9176bd5027eb237497e9b078c0) - **fix:** remove unused `eps` dependency from Frechet distribution manifests _(by Philipp Burckhardt)_
 -   [`32e4068`](https://github.com/stdlib-js/stdlib/commit/32e40687fc5b2e5ed1717b63ca2eda830ddcca44) - **fix:** remove unused `exp` and `eps` dependencies from `gumbel/mean` manifest _(by Philipp Burckhardt)_
 -   [`e457c7a`](https://github.com/stdlib-js/stdlib/commit/e457c7a03b29c7a470c165b21d77c85e4b21a4a1) - **fix:** remove unused `eps` dependency from `cosine/pdf` build task _(by Philipp Burckhardt)_
 -   [`3a6a270`](https://github.com/stdlib-js/stdlib/commit/3a6a2702d22c310869b5896404a5456db5ed9312) - **fix:** remove unused `eps` dependency from `cosine/median` build task _(by Philipp Burckhardt)_
