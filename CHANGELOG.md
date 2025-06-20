@@ -833,6 +833,11 @@
 
 ### Bug Fixes
 
+-   [`dc9cbad`](https://github.com/stdlib-js/stdlib/commit/dc9cbadc23ddabb54f00fc1d304c93e95fb3d88a) - remove unused `sqrt` dependency from `uniform/stdev` manifest
+-   [`62614d7`](https://github.com/stdlib-js/stdlib/commit/62614d7ddd740208bfe21cc1e5d4c7f9cc97a507) - remove unused `sqrt` dependency from `triangular/kurtosis` manifest
+-   [`efe801c`](https://github.com/stdlib-js/stdlib/commit/efe801c057e0fb3ad2327f6df6e3627d76964602) - remove unused `sqrt` and `eps` dependencies from `chisquare/variance` manifest
+-   [`9256312`](https://github.com/stdlib-js/stdlib/commit/9256312621508d17a4bddb161991fd02c778c4e5) - remove unused `eps` dependency from `f/mean` manifest
+-   [`71306ad`](https://github.com/stdlib-js/stdlib/commit/71306ad6afb49f88f725462c0604b8c7bc91a6a9) - remove unused `is-nan` dependency from `degenerate/mean` benchmark task
 -   [`541c34e`](https://github.com/stdlib-js/stdlib/commit/541c34e7613e29e855b192a62f4fea0368c362ed) - remove unused `pi` and `eps` dependencies from `rayleigh/mode` manifest
 -   [`1425b4a`](https://github.com/stdlib-js/stdlib/commit/1425b4a8b4a396b4e760ca3d99bd4345638d9f03) - remove unused `eps` dependency from `levy/logcdf` manifest
 -   [`74596d4`](https://github.com/stdlib-js/stdlib/commit/74596d4df6801d9176bd5027eb237497e9b078c0) - remove unused `eps` dependency from Frechet distribution manifests
@@ -2530,6 +2535,13 @@ A total of 473 issues were closed in this release:
 
 <details>
 
+-   [`f63f8df`](https://github.com/stdlib-js/stdlib/commit/f63f8df9abf7a7ddf9de4e895a64e4699d2f378b) - **style:** remove header section comments from C files _(by Philipp Burckhardt)_
+-   [`5d83a20`](https://github.com/stdlib-js/stdlib/commit/5d83a20bab1fd787ba28f19cb13c20d395398b43) - **style:** remove double empty lines in C files _(by Philipp Burckhardt)_
+-   [`dc9cbad`](https://github.com/stdlib-js/stdlib/commit/dc9cbadc23ddabb54f00fc1d304c93e95fb3d88a) - **fix:** remove unused `sqrt` dependency from `uniform/stdev` manifest _(by Philipp Burckhardt)_
+-   [`62614d7`](https://github.com/stdlib-js/stdlib/commit/62614d7ddd740208bfe21cc1e5d4c7f9cc97a507) - **fix:** remove unused `sqrt` dependency from `triangular/kurtosis` manifest _(by Philipp Burckhardt)_
+-   [`efe801c`](https://github.com/stdlib-js/stdlib/commit/efe801c057e0fb3ad2327f6df6e3627d76964602) - **fix:** remove unused `sqrt` and `eps` dependencies from `chisquare/variance` manifest _(by Philipp Burckhardt)_
+-   [`9256312`](https://github.com/stdlib-js/stdlib/commit/9256312621508d17a4bddb161991fd02c778c4e5) - **fix:** remove unused `eps` dependency from `f/mean` manifest _(by Philipp Burckhardt)_
+-   [`71306ad`](https://github.com/stdlib-js/stdlib/commit/71306ad6afb49f88f725462c0604b8c7bc91a6a9) - **fix:** remove unused `is-nan` dependency from `degenerate/mean` benchmark task _(by Philipp Burckhardt)_
 -   [`5b33d89`](https://github.com/stdlib-js/stdlib/commit/5b33d8941974b768fdb19f64809f60b58e7f16a1) - **chore:** address commit comments for commit `bbac3f9` [(#7422)](https://github.com/stdlib-js/stdlib/pull/7422) _(by Lokesh Ranjan)_
 -   [`a4464fb`](https://github.com/stdlib-js/stdlib/commit/a4464fbc05304fd3607b4c0471734a239b5451cb) - **chore:** address commit comments for commit `b02b1dc` [(#7423)](https://github.com/stdlib-js/stdlib/pull/7423) _(by Lokesh Ranjan)_
 -   [`541c34e`](https://github.com/stdlib-js/stdlib/commit/541c34e7613e29e855b192a62f4fea0368c362ed) - **fix:** remove unused `pi` and `eps` dependencies from `rayleigh/mode` manifest _(by Philipp Burckhardt)_
