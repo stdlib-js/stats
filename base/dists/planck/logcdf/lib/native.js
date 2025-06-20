@@ -20,21 +20,17 @@
 
 // MODULES //
 
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var floor = require( '@stdlib/math/base/special/floor' );
-var expm1 = require( '@stdlib/math/base/special/expm1' );
-var ln = require( '@stdlib/math/base/special/ln' );
-var NINF = require( '@stdlib/constants/float64/ninf' );
-var PINF = require( '@stdlib/constants/float64/pinf' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
 
 /**
-* Evaluates the logarithm of the cumulative distribution function (CDF) for a Planck distribution with shape parameter `lambda` at a value `x`.
+* Evaluates the logarithm of the cumulative distribution function (CDF) for a Planck distribution with shape parameter `lambda`.
 *
+* @private
 * @param {number} x - input value
-* @param {PositiveNumber} lambda - shape parameter
+* @param {number} lambda - shape parameter
 * @returns {number} evaluated logCDF
 *
 * @example
@@ -46,10 +42,6 @@ var PINF = require( '@stdlib/constants/float64/pinf' );
 * // returns ~-0.0112
 *
 * @example
-* var y = logcdf( -1.0, 0.5 );
-* // returns -Infinity
-*
-* @example
 * var y = logcdf( NaN, 0.5 );
 * // returns NaN
 *
@@ -58,21 +50,11 @@ var PINF = require( '@stdlib/constants/float64/pinf' );
 * // returns NaN
 *
 * @example
-* // Invalid shape parameter
-* var y = logcdf( 2.0, -1.4 );
+* var y = logcdf( 2.0, -1.0 );
 * // returns NaN
 */
 function logcdf( x, lambda ) {
-	if ( isnan( x ) || isnan( lambda ) || lambda <= 0.0 ) {
-		return NaN;
-	}
-	if ( x < 0.0 ) {
-		return NINF;
-	}
-	if ( x === PINF ) {
-		return 0.0;
-	}
-	return ln( -expm1( -lambda * ( floor( x ) + 1.0 ) ) );
+	return addon( x, lambda );
 }
 
 
