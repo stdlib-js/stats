@@ -2575,6 +2575,9 @@ A total of 479 issues were closed in this release:
 
 <details>
 
+-   [`18a1bcc`](https://github.com/stdlib-js/stdlib/commit/18a1bcc97735d26b415f7fa0f477d9340492c2cd) - **chore:** remove excess trailing whitespace _(by Athan Reines)_
+-   [`f32a0ed`](https://github.com/stdlib-js/stdlib/commit/f32a0ed051dddc4c29baa473fdc386e8654e33e6) - **chore:** clean-up _(by Athan Reines)_
+-   [`d0030d8`](https://github.com/stdlib-js/stdlib/commit/d0030d8f59684cfaa23353ff661fd49b790af9bd) - **chore:** add decimals _(by Athan Reines)_
 -   [`07a3861`](https://github.com/stdlib-js/stdlib/commit/07a3861a1d7b396fd95d93089cc135a323fb22fd) - **style:** remove blank line _(by Athan Reines)_
 -   [`d877d7c`](https://github.com/stdlib-js/stdlib/commit/d877d7c18f238623b2ad310ee3dcb361059d3fe5) - **style:** remove blank lines _(by Athan Reines)_
 -   [`4f869cf`](https://github.com/stdlib-js/stdlib/commit/4f869cf32ebce5318a88343471b8ea884c29448e) - **test:** fix tolerances _(by Athan Reines)_

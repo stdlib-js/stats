@@ -29,8 +29,8 @@ var addon = require( './../src/addon.node' );
 * Evaluates the quantile function for a Planck distribution with shape parameter `lambda`.
 *
 * @private
-* @param {number} p - input probability
-* @param {number} lambda - shape parameter
+* @param {Probability} p - input probability
+* @param {PositiveNumber} lambda - shape parameter
 * @returns {number} evaluated quantile function
 *
 * @example

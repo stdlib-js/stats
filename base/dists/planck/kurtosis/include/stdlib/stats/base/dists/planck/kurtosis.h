@@ -36,4 +36,3 @@ double stdlib_base_dists_planck_kurtosis( const double lambda );
 #endif
 
 #endif // !STDLIB_STATS_BASE_DISTS_PLANCK_KURTOSIS_H
-

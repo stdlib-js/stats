@@ -36,4 +36,3 @@ int main( void ) {
 		printf( "λ: %lf, Kurt(X;λ): %lf\n", lambda, y );
 	}
 }
-
