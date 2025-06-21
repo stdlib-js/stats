@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/svariance",
+  "name": "@stdlib/stats/strided/svariance",
   "version": "0.0.0",
   "description": "Calculate the variance of a single-precision floating-point strided array.",
   "license": "Apache-2.0",

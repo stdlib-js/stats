@@ -21,11 +21,11 @@
 /**
 * Compute the variance of a single-precision floating-point strided array.
 *
-* @module @stdlib/stats/base/svariance
+* @module @stdlib/stats/strided/svariance
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var svariance = require( '@stdlib/stats/base/svariance' );
+* var svariance = require( '@stdlib/stats/strided/svariance' );
 *
 * var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
 *
@@ -34,7 +34,7 @@
 *
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
-* var svariance = require( '@stdlib/stats/base/svariance' );
+* var svariance = require( '@stdlib/stats/strided/svariance' );
 *
 * var x = new Float32Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 *

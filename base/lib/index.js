@@ -568,15 +568,6 @@ setReadOnly( ns, 'stdevwd', require( './../../base/stdevwd' ) );
 setReadOnly( ns, 'stdevyc', require( './../../base/stdevyc' ) );
 
 /**
-* @name svariance
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/svariance}
-*/
-setReadOnly( ns, 'svariance', require( './../../base/svariance' ) );
-
-/**
 * @name variance
 * @memberof ns
 * @readonly
