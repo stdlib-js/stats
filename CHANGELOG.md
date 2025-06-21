@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2e1fd00`](https://github.com/stdlib-js/stdlib/commit/2e1fd00ef18ea2d3306e2196856c5076003071a2) - add C implementation for `stats/base/dists/planck/variance`
 -   [`70c26f9`](https://github.com/stdlib-js/stdlib/commit/70c26f984a2a6e6fd73f57398498fcf4985e56ad) - add C implementation for `stats/base/dists/levy/logpdf`
 -   [`e1cf69e`](https://github.com/stdlib-js/stdlib/commit/e1cf69e9c218c6d6a770199ffee1b086bb9d3cf2) - add `stats/strided/svariance`
 -   [`e68fd5c`](https://github.com/stdlib-js/stdlib/commit/e68fd5c1258fe347ac74e84eda8eeac1303b2360) - add `stats/strided/svariancewd`
@@ -2567,6 +2568,7 @@ A total of 478 issues were closed in this release:
 
 <details>
 
+-   [`2e1fd00`](https://github.com/stdlib-js/stdlib/commit/2e1fd00ef18ea2d3306e2196856c5076003071a2) - **feat:** add C implementation for `stats/base/dists/planck/variance` _(by Philipp Burckhardt)_
 -   [`2355e5d`](https://github.com/stdlib-js/stdlib/commit/2355e5d18ee7962e028a732ac76026a512f35f23) - **docs:** add missing periods _(by Philipp Burckhardt)_
 -   [`70c26f9`](https://github.com/stdlib-js/stdlib/commit/70c26f984a2a6e6fd73f57398498fcf4985e56ad) - **feat:** add C implementation for `stats/base/dists/levy/logpdf` _(by Philipp Burckhardt)_
 -   [`8aac235`](https://github.com/stdlib-js/stdlib/commit/8aac2356d862624b619505a56d4dcdd2cb0b6cdf) - **remove:** remove `stats/base/svariance` _(by Gururaj Gurram)_
