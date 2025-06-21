@@ -2542,6 +2542,7 @@ A total of 478 issues were closed in this release:
 
 <details>
 
+-   [`25e64ce`](https://github.com/stdlib-js/stdlib/commit/25e64cec268879ede40f3b76fccebb78c7945427) - **docs:** remove extra empty line [(#7430)](https://github.com/stdlib-js/stdlib/pull/7430) _(by stdlib-bot)_
 -   [`484bc07`](https://github.com/stdlib-js/stdlib/commit/484bc07d6974d904855666b30728d618b2261e03) - **chore:** address commit comments for commit `340a147` [(#7434)](https://github.com/stdlib-js/stdlib/pull/7434) _(by Lokesh Ranjan)_
 -   [`3f4be91`](https://github.com/stdlib-js/stdlib/commit/3f4be91fd9025e696b72b5159fee981f47937c7f) - **docs:** update namespace table of contents [(#7433)](https://github.com/stdlib-js/stdlib/pull/7433) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`fba6fde`](https://github.com/stdlib-js/stdlib/commit/fba6fde65ac6c330bfc16ef31b9669198a2f634f) - **feat:** add `stats/array/nanmskmax` [(#7413)](https://github.com/stdlib-js/stdlib/pull/7413) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
