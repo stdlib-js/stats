@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-20)
+## Unreleased (2025-06-21)
 
 <section class="features">
 
 ### Features
 
+-   [`1da8f0b`](https://github.com/stdlib-js/stdlib/commit/1da8f0b495dfbdf25b716bc8c778f087e4c57892) - add C ndarray interface and refactor implementation for `stats/base/svariance` [(#7402)](https://github.com/stdlib-js/stdlib/pull/7402)
 -   [`340a147`](https://github.com/stdlib-js/stdlib/commit/340a147293f2fb18db097491154b83671c44bdd3) - add C implementation for `@stdlib/stats/base/dists/planck/logcdf` [(#4936)](https://github.com/stdlib-js/stdlib/pull/4936)
 -   [`612a602`](https://github.com/stdlib-js/stdlib/commit/612a602ee7110d2d303282969975e99892004989) - add C implementation for `stats/base/dists/planck/mgf` [(#4945)](https://github.com/stdlib-js/stdlib/pull/4945)
 -   [`36e56bb`](https://github.com/stdlib-js/stdlib/commit/36e56bb67d7299d6a44ba5e9acf76a671ac8b563) - add C implementation for `stats/base/dists/levy/pdf` [(#4918)](https://github.com/stdlib-js/stdlib/pull/4918)
@@ -2538,6 +2539,7 @@ A total of 476 issues were closed in this release:
 
 <details>
 
+-   [`1da8f0b`](https://github.com/stdlib-js/stdlib/commit/1da8f0b495dfbdf25b716bc8c778f087e4c57892) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariance` [(#7402)](https://github.com/stdlib-js/stdlib/pull/7402) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`e4d9557`](https://github.com/stdlib-js/stdlib/commit/e4d955774c09a9e1139396fd69e0913951755302) - **chore:** clean-up _(by Athan Reines)_
 -   [`340a147`](https://github.com/stdlib-js/stdlib/commit/340a147293f2fb18db097491154b83671c44bdd3) - **feat:** add C implementation for `@stdlib/stats/base/dists/planck/logcdf` [(#4936)](https://github.com/stdlib-js/stdlib/pull/4936) _(by Yuvi Mittal, Philipp Burckhardt, stdlib-bot)_
 -   [`9c8bff8`](https://github.com/stdlib-js/stdlib/commit/9c8bff8a85818c74169190784a3cbd43dd53be67) - **chore:** clean-up _(by Athan Reines)_
