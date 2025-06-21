@@ -33,11 +33,9 @@
 */
 double stdlib_base_dists_planck_variance( const double lambda ) {
 	double temp;
-
 	if ( stdlib_base_is_nan( lambda ) || lambda <= 0.0 ) {
 		return 0.0/0.0; // NaN
 	}
-
 	temp = stdlib_base_expm1( -lambda );
 	return stdlib_base_exp( -lambda ) / ( temp * temp );
 }

@@ -34,6 +34,5 @@ double stdlib_base_dists_planck_skewness( const double lambda ) {
 	if ( stdlib_base_is_nan( lambda ) || lambda <= 0.0 ) {
 		return 0.0/0.0; // NaN
 	}
-
 	return 2.0 * stdlib_base_cosh( lambda / 2.0 );
 }
