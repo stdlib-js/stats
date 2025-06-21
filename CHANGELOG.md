@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`3253591`](https://github.com/stdlib-js/stdlib/commit/32535910933dcb61a8b0cb47ac76cc789aeff6e0) - add C implementation for `stats/base/dists/planck/logpmf`
+-   [`11de1b0`](https://github.com/stdlib-js/stdlib/commit/11de1b04a61be7bad540053589639855d319b88f) - add C implementation for `stats/base/dists/planck/pmf`
 -   [`5cc4546`](https://github.com/stdlib-js/stdlib/commit/5cc454641d97c66cf6ff75eb02a99086a65b7848) - add C implementation for `stats/base/dists/planck/mode` [(#4911)](https://github.com/stdlib-js/stdlib/pull/4911)
 -   [`2b0a046`](https://github.com/stdlib-js/stdlib/commit/2b0a046b6c94af24039a72419b9577117459a1c4) - add C implementation for `stats/base/dists/planck/kurtosis`
 -   [`91ac343`](https://github.com/stdlib-js/stdlib/commit/91ac343103b2c6f65a7fe76e95df32d08e01ae02) - add C implementation for `stats/base/dists/planck/quantile`
@@ -2572,6 +2574,8 @@ A total of 479 issues were closed in this release:
 
 <details>
 
+-   [`3253591`](https://github.com/stdlib-js/stdlib/commit/32535910933dcb61a8b0cb47ac76cc789aeff6e0) - **feat:** add C implementation for `stats/base/dists/planck/logpmf` _(by Philipp Burckhardt)_
+-   [`11de1b0`](https://github.com/stdlib-js/stdlib/commit/11de1b04a61be7bad540053589639855d319b88f) - **feat:** add C implementation for `stats/base/dists/planck/pmf` _(by Philipp Burckhardt)_
 -   [`5cc4546`](https://github.com/stdlib-js/stdlib/commit/5cc454641d97c66cf6ff75eb02a99086a65b7848) - **feat:** add C implementation for `stats/base/dists/planck/mode` [(#4911)](https://github.com/stdlib-js/stdlib/pull/4911) _(by Yuvi Mittal, Philipp Burckhardt, stdlib-bot)_
 -   [`2b0a046`](https://github.com/stdlib-js/stdlib/commit/2b0a046b6c94af24039a72419b9577117459a1c4) - **feat:** add C implementation for `stats/base/dists/planck/kurtosis` _(by Philipp Burckhardt)_
 -   [`91ac343`](https://github.com/stdlib-js/stdlib/commit/91ac343103b2c6f65a7fe76e95df32d08e01ae02) - **feat:** add C implementation for `stats/base/dists/planck/quantile` _(by Philipp Burckhardt)_
