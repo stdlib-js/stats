@@ -30,8 +30,8 @@ var addon = require( './../src/addon.node' );
 *
 * @private
 * @param {number} x - input value
-* @param {number} lambda - shape parameter
-* @returns {number} evaluated PMF
+* @param {PositiveNumber} lambda - shape parameter
+* @returns {Probability} evaluated PMF
 *
 * @example
 * var y = pmf( 2, 0.5 );

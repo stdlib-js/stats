@@ -53,13 +53,13 @@ var pmf = require( '@stdlib/stats/base/dists/planck/pmf' );
 Evaluates the [probability mass function][pmf] (PMF) of a Planck (discrete exponential) distribution with shape parameter `lambda`.
 
 ```javascript
-var y = pmf( 4, 0.3 );
+var y = pmf( 4.0, 0.3 );
 // returns ~0.0781
 
-y = pmf( 2, 1.7 );
+y = pmf( 2.0, 1.7 );
 // returns ~0.0273
 
-y = pmf( -1, 2.5 );
+y = pmf( -1.0, 2.5 );
 // returns 0.0
 ```
 
@@ -69,14 +69,14 @@ If provided `NaN` as any argument, the function returns `NaN`.
 var y = pmf( NaN, 0.0 );
 // returns NaN
 
-y = pmf( 0, NaN );
+y = pmf( 0.0, NaN );
 // returns NaN
 ```
 
 If provided a shape parameter `lambda` which is a nonpositive number, the function returns `NaN`.
 
 ```javascript
-var y = pmf( 2, -1.0 );
+var y = pmf( 2.0, -1.0 );
 // returns NaN
 ```
 
@@ -86,10 +86,10 @@ Returns a function for evaluating the [probability mass function][pmf] (PMF) of 
 
 ```javascript
 var mypmf = pmf.factory( 0.5 );
-var y = mypmf( 3 );
+var y = mypmf( 3.0 );
 // returns ~0.0878
 
-y = mypmf( 1 );
+y = mypmf( 1.0 );
 // returns ~0.2387
 ```
 
