@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`70c26f9`](https://github.com/stdlib-js/stdlib/commit/70c26f984a2a6e6fd73f57398498fcf4985e56ad) - add C implementation for `stats/base/dists/levy/logpdf`
 -   [`e1cf69e`](https://github.com/stdlib-js/stdlib/commit/e1cf69e9c218c6d6a770199ffee1b086bb9d3cf2) - add `stats/strided/svariance`
 -   [`e68fd5c`](https://github.com/stdlib-js/stdlib/commit/e68fd5c1258fe347ac74e84eda8eeac1303b2360) - add `stats/strided/svariancewd`
 -   [`fba6fde`](https://github.com/stdlib-js/stdlib/commit/fba6fde65ac6c330bfc16ef31b9669198a2f634f) - add `stats/array/nanmskmax` [(#7413)](https://github.com/stdlib-js/stdlib/pull/7413)
@@ -2566,6 +2567,7 @@ A total of 478 issues were closed in this release:
 
 <details>
 
+-   [`70c26f9`](https://github.com/stdlib-js/stdlib/commit/70c26f984a2a6e6fd73f57398498fcf4985e56ad) - **feat:** add C implementation for `stats/base/dists/levy/logpdf` _(by Philipp Burckhardt)_
 -   [`8aac235`](https://github.com/stdlib-js/stdlib/commit/8aac2356d862624b619505a56d4dcdd2cb0b6cdf) - **remove:** remove `stats/base/svariance` _(by Gururaj Gurram)_
 -   [`9482ada`](https://github.com/stdlib-js/stdlib/commit/9482adac1b21fa0ea2784fce177da803c647e8bb) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`7788023`](https://github.com/stdlib-js/stdlib/commit/7788023a2198f4f29ab14e91258fe5311526ea56) - **remove:** remove `svariance` from namespace _(by Gururaj Gurram)_
