@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2b0a046`](https://github.com/stdlib-js/stdlib/commit/2b0a046b6c94af24039a72419b9577117459a1c4) - add C implementation for `stats/base/dists/planck/kurtosis`
 -   [`91ac343`](https://github.com/stdlib-js/stdlib/commit/91ac343103b2c6f65a7fe76e95df32d08e01ae02) - add C implementation for `stats/base/dists/planck/quantile`
 -   [`8987e23`](https://github.com/stdlib-js/stdlib/commit/8987e23a05d1df2d7b062a2211394142dc3853b9) - add C implementation for `stats/base/dists/planck/skewness`
 -   [`2e1fd00`](https://github.com/stdlib-js/stdlib/commit/2e1fd00ef18ea2d3306e2196856c5076003071a2) - add C implementation for `stats/base/dists/planck/variance`
@@ -2570,6 +2571,7 @@ A total of 478 issues were closed in this release:
 
 <details>
 
+-   [`2b0a046`](https://github.com/stdlib-js/stdlib/commit/2b0a046b6c94af24039a72419b9577117459a1c4) - **feat:** add C implementation for `stats/base/dists/planck/kurtosis` _(by Philipp Burckhardt)_
 -   [`91ac343`](https://github.com/stdlib-js/stdlib/commit/91ac343103b2c6f65a7fe76e95df32d08e01ae02) - **feat:** add C implementation for `stats/base/dists/planck/quantile` _(by Philipp Burckhardt)_
 -   [`8987e23`](https://github.com/stdlib-js/stdlib/commit/8987e23a05d1df2d7b062a2211394142dc3853b9) - **feat:** add C implementation for `stats/base/dists/planck/skewness` _(by Philipp Burckhardt)_
 -   [`2e1fd00`](https://github.com/stdlib-js/stdlib/commit/2e1fd00ef18ea2d3306e2196856c5076003071a2) - **feat:** add C implementation for `stats/base/dists/planck/variance` _(by Philipp Burckhardt)_
