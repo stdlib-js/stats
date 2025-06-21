@@ -2567,6 +2567,7 @@ A total of 478 issues were closed in this release:
 
 <details>
 
+-   [`2355e5d`](https://github.com/stdlib-js/stdlib/commit/2355e5d18ee7962e028a732ac76026a512f35f23) - **docs:** add missing periods _(by Philipp Burckhardt)_
 -   [`70c26f9`](https://github.com/stdlib-js/stdlib/commit/70c26f984a2a6e6fd73f57398498fcf4985e56ad) - **feat:** add C implementation for `stats/base/dists/levy/logpdf` _(by Philipp Burckhardt)_
 -   [`8aac235`](https://github.com/stdlib-js/stdlib/commit/8aac2356d862624b619505a56d4dcdd2cb0b6cdf) - **remove:** remove `stats/base/svariance` _(by Gururaj Gurram)_
 -   [`9482ada`](https://github.com/stdlib-js/stdlib/commit/9482adac1b21fa0ea2784fce177da803c647e8bb) - **refactor:** update paths _(by Gururaj Gurram)_

@@ -183,7 +183,7 @@ double out = stdlib_base_dists_levy_logpdf( 2.0, 0.0, 1.0 );
 
 The function accepts the following arguments:
 
--   **x**: `[in] double` input value
+-   **x**: `[in] double` input value.
 -   **mu**: `[in] double` location parameter.
 -   **c**: `[in] double` scale parameter.
 
