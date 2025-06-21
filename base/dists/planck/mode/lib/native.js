@@ -29,7 +29,7 @@ var addon = require( './../src/addon.node' );
 * Returns the mode for a Planck distribution with shape parameter `lambda`.
 *
 * @private
-* @param {number} lambda - shape parameter
+* @param {PositiveNumber} lambda - shape parameter
 * @returns {number} mode
 *
 * @example
