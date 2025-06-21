@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/svariancewd.h"
+#include "stdlib/stats/strided/svariancewd.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

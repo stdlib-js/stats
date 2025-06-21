@@ -116,7 +116,7 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`stdevwd( N, correction, x, stride )`][@stdlib/stats/base/stdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using Welford's algorithm.</span>
 -   <span class="signature">[`stdevyc( N, correction, x, stride )`][@stdlib/stats/base/stdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
 -   <span class="signature">[`svariance( N, correction, x, strideX )`][@stdlib/stats/base/svariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array.</span>
--   <span class="signature">[`svariancewd( N, correction, x, strideX )`][@stdlib/stats/base/svariancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using Welford's algorithm.</span>
+-   <span class="signature">[`svariancewd( N, correction, x, strideX )`][@stdlib/stats/strided/svariancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using Welford's algorithm.</span>
 -   <span class="signature">[`variance( N, correction, x, stride )`][@stdlib/stats/base/variance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array.</span>
 -   <span class="signature">[`variancech( N, correction, x, strideX )`][@stdlib/stats/base/variancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a one-pass trial mean algorithm.</span>
 -   <span class="signature">[`variancepn( N, correction, x, strideX )`][@stdlib/stats/base/variancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a two-pass algorithm.</span>
@@ -291,7 +291,7 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/svariance]: https://github.com/stdlib-js/stats/tree/main/base/svariance
 
-[@stdlib/stats/base/svariancewd]: https://github.com/stdlib-js/stats/tree/main/base/svariancewd
+[@stdlib/stats/strided/svariancewd]: https://github.com/stdlib-js/stats/tree/main/strided/svariancewd
 
 [@stdlib/stats/base/variance]: https://github.com/stdlib-js/stats/tree/main/base/variance
 

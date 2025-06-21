@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/svariancewd",
+  "name": "@stdlib/stats/strided/svariancewd",
   "version": "0.0.0",
   "description": "Calculate the variance of a single-precision floating-point strided array using Welford's algorithm.",
   "license": "Apache-2.0",
