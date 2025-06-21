@@ -2575,6 +2575,7 @@ A total of 479 issues were closed in this release:
 
 <details>
 
+-   [`99d605d`](https://github.com/stdlib-js/stdlib/commit/99d605d037b740cc5565e8d7bb119b5ff4840619) - **bench:** clean-up _(by Athan Reines)_
 -   [`7120de1`](https://github.com/stdlib-js/stdlib/commit/7120de1b6484dd69bc0fd1e3cdc2ffe5d2635a8e) - **docs:** use consistent types _(by Athan Reines)_
 -   [`241e5de`](https://github.com/stdlib-js/stdlib/commit/241e5de5107bafc5a9bdd478ce1660bf4080d106) - **docs:** use consistent types _(by Athan Reines)_
 -   [`cb4a038`](https://github.com/stdlib-js/stdlib/commit/cb4a0383c7148d36b9bce721d6a324a009638f99) - **chore:** use consistent decimals and types _(by Athan Reines)_

@@ -23,8 +23,8 @@
 var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var randu = require( '@stdlib/random/base/randu' );
-var round = require( '@stdlib/math/base/special/round' );
+var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
+var uniform = require( '@stdlib/random/array/uniform' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
 
@@ -45,11 +45,12 @@ bench( pkg+'::native', opts, function benchmark( b ) {
 	var y;
 	var i;
 
+	x = discreteUniform( 100, 0, 40 );
+	lambda = uniform( 100, 0.1, 10.0 );
+
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		x = round( randu() * 40.0 );
-		lambda = ( randu() * 10.0 ) + 0.1;
-		y = cdf( x, lambda );
+		y = cdf( x[ i % x.length ], lambda[ i % lambda.length ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
