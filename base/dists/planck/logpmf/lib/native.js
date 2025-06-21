@@ -30,8 +30,8 @@ var addon = require( './../src/addon.node' );
 *
 * @private
 * @param {number} x - input value
-* @param {number} lambda - shape parameter
-* @returns {number} evaluated log PMF
+* @param {PositiveNumber} lambda - shape parameter
+* @returns {NonPositiveNumber} evaluated log PMF
 *
 * @example
 * var y = logpmf( 4.0, 0.3 );

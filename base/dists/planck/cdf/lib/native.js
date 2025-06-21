@@ -30,8 +30,8 @@ var addon = require( './../src/addon.node' );
 *
 * @private
 * @param {number} x - input value
-* @param {number} lambda - shape parameter
-* @returns {number} evaluated CDF
+* @param {PositiveNumber} lambda - shape parameter
+* @returns {Probability} evaluated CDF
 *
 * @example
 * var y = cdf( 2, 0.5 );

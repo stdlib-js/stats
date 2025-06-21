@@ -2575,6 +2575,8 @@ A total of 479 issues were closed in this release:
 
 <details>
 
+-   [`7120de1`](https://github.com/stdlib-js/stdlib/commit/7120de1b6484dd69bc0fd1e3cdc2ffe5d2635a8e) - **docs:** use consistent types _(by Athan Reines)_
+-   [`241e5de`](https://github.com/stdlib-js/stdlib/commit/241e5de5107bafc5a9bdd478ce1660bf4080d106) - **docs:** use consistent types _(by Athan Reines)_
 -   [`cb4a038`](https://github.com/stdlib-js/stdlib/commit/cb4a0383c7148d36b9bce721d6a324a009638f99) - **chore:** use consistent decimals and types _(by Athan Reines)_
 -   [`a477ce3`](https://github.com/stdlib-js/stdlib/commit/a477ce3c13373fb141f025c43b5001cb23f18258) - **chore:** ensure consistent use of decimals _(by Athan Reines)_
 -   [`18a1bcc`](https://github.com/stdlib-js/stdlib/commit/18a1bcc97735d26b415f7fa0f477d9340492c2cd) - **chore:** remove excess trailing whitespace _(by Athan Reines)_
