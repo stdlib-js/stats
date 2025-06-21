@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0486735`](https://github.com/stdlib-js/stdlib/commit/0486735a3bd3a0f69d5940e7ff590afa18dcecd8) - add C implementation for `stats/base/dists/planck/cdf`
 -   [`3253591`](https://github.com/stdlib-js/stdlib/commit/32535910933dcb61a8b0cb47ac76cc789aeff6e0) - add C implementation for `stats/base/dists/planck/logpmf`
 -   [`11de1b0`](https://github.com/stdlib-js/stdlib/commit/11de1b04a61be7bad540053589639855d319b88f) - add C implementation for `stats/base/dists/planck/pmf`
 -   [`5cc4546`](https://github.com/stdlib-js/stdlib/commit/5cc454641d97c66cf6ff75eb02a99086a65b7848) - add C implementation for `stats/base/dists/planck/mode` [(#4911)](https://github.com/stdlib-js/stdlib/pull/4911)
@@ -2574,6 +2575,7 @@ A total of 479 issues were closed in this release:
 
 <details>
 
+-   [`0486735`](https://github.com/stdlib-js/stdlib/commit/0486735a3bd3a0f69d5940e7ff590afa18dcecd8) - **feat:** add C implementation for `stats/base/dists/planck/cdf` _(by Philipp Burckhardt)_
 -   [`3253591`](https://github.com/stdlib-js/stdlib/commit/32535910933dcb61a8b0cb47ac76cc789aeff6e0) - **feat:** add C implementation for `stats/base/dists/planck/logpmf` _(by Philipp Burckhardt)_
 -   [`11de1b0`](https://github.com/stdlib-js/stdlib/commit/11de1b04a61be7bad540053589639855d319b88f) - **feat:** add C implementation for `stats/base/dists/planck/pmf` _(by Philipp Burckhardt)_
 -   [`5cc4546`](https://github.com/stdlib-js/stdlib/commit/5cc454641d97c66cf6ff75eb02a99086a65b7848) - **feat:** add C implementation for `stats/base/dists/planck/mode` [(#4911)](https://github.com/stdlib-js/stdlib/pull/4911) _(by Yuvi Mittal, Philipp Burckhardt, stdlib-bot)_
