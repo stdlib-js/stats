@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`30831fb`](https://github.com/stdlib-js/stdlib/commit/30831fb48cf6536b641f0704f544b50a9b20e50b) - add C ndarray interface and refactor implementation for `stats/base/dmeanvar` [(#7410)](https://github.com/stdlib-js/stdlib/pull/7410)
 -   [`b8ecd9a`](https://github.com/stdlib-js/stdlib/commit/b8ecd9a449e907c0a0e416242b09d79cb602c998) - add accessor protocol and refactor `stats/base/nanmskmax` [(#6161)](https://github.com/stdlib-js/stdlib/pull/6161)
 -   [`1da8f0b`](https://github.com/stdlib-js/stdlib/commit/1da8f0b495dfbdf25b716bc8c778f087e4c57892) - add C ndarray interface and refactor implementation for `stats/base/svariance` [(#7402)](https://github.com/stdlib-js/stdlib/pull/7402)
 -   [`340a147`](https://github.com/stdlib-js/stdlib/commit/340a147293f2fb18db097491154b83671c44bdd3) - add C implementation for `@stdlib/stats/base/dists/planck/logcdf` [(#4936)](https://github.com/stdlib-js/stdlib/pull/4936)
@@ -2540,6 +2541,7 @@ A total of 477 issues were closed in this release:
 
 <details>
 
+-   [`30831fb`](https://github.com/stdlib-js/stdlib/commit/30831fb48cf6536b641f0704f544b50a9b20e50b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanvar` [(#7410)](https://github.com/stdlib-js/stdlib/pull/7410) _(by Gururaj Gurram, Athan Reines)_
 -   [`b8ecd9a`](https://github.com/stdlib-js/stdlib/commit/b8ecd9a449e907c0a0e416242b09d79cb602c998) - **feat:** add accessor protocol and refactor `stats/base/nanmskmax` [(#6161)](https://github.com/stdlib-js/stdlib/pull/6161) _(by Rahul Kumar, Athan Reines, Gururaj Gurram)_
 -   [`1da8f0b`](https://github.com/stdlib-js/stdlib/commit/1da8f0b495dfbdf25b716bc8c778f087e4c57892) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariance` [(#7402)](https://github.com/stdlib-js/stdlib/pull/7402) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`e4d9557`](https://github.com/stdlib-js/stdlib/commit/e4d955774c09a9e1139396fd69e0913951755302) - **chore:** clean-up _(by Athan Reines)_
