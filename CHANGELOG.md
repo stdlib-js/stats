@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8987e23`](https://github.com/stdlib-js/stdlib/commit/8987e23a05d1df2d7b062a2211394142dc3853b9) - add C implementation for `stats/base/dists/planck/skewness`
 -   [`2e1fd00`](https://github.com/stdlib-js/stdlib/commit/2e1fd00ef18ea2d3306e2196856c5076003071a2) - add C implementation for `stats/base/dists/planck/variance`
 -   [`70c26f9`](https://github.com/stdlib-js/stdlib/commit/70c26f984a2a6e6fd73f57398498fcf4985e56ad) - add C implementation for `stats/base/dists/levy/logpdf`
 -   [`e1cf69e`](https://github.com/stdlib-js/stdlib/commit/e1cf69e9c218c6d6a770199ffee1b086bb9d3cf2) - add `stats/strided/svariance`
@@ -2568,6 +2569,7 @@ A total of 478 issues were closed in this release:
 
 <details>
 
+-   [`8987e23`](https://github.com/stdlib-js/stdlib/commit/8987e23a05d1df2d7b062a2211394142dc3853b9) - **feat:** add C implementation for `stats/base/dists/planck/skewness` _(by Philipp Burckhardt)_
 -   [`2e1fd00`](https://github.com/stdlib-js/stdlib/commit/2e1fd00ef18ea2d3306e2196856c5076003071a2) - **feat:** add C implementation for `stats/base/dists/planck/variance` _(by Philipp Burckhardt)_
 -   [`2355e5d`](https://github.com/stdlib-js/stdlib/commit/2355e5d18ee7962e028a732ac76026a512f35f23) - **docs:** add missing periods _(by Philipp Burckhardt)_
 -   [`70c26f9`](https://github.com/stdlib-js/stdlib/commit/70c26f984a2a6e6fd73f57398498fcf4985e56ad) - **feat:** add C implementation for `stats/base/dists/levy/logpdf` _(by Philipp Burckhardt)_
