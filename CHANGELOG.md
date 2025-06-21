@@ -2575,6 +2575,8 @@ A total of 479 issues were closed in this release:
 
 <details>
 
+-   [`4f869cf`](https://github.com/stdlib-js/stdlib/commit/4f869cf32ebce5318a88343471b8ea884c29448e) - **test:** fix tolerances _(by Athan Reines)_
+-   [`84f5212`](https://github.com/stdlib-js/stdlib/commit/84f5212d586c237d0f3b8b191991c342a754f866) - **chore:** remove extra blank line _(by Athan Reines)_
 -   [`0486735`](https://github.com/stdlib-js/stdlib/commit/0486735a3bd3a0f69d5940e7ff590afa18dcecd8) - **feat:** add C implementation for `stats/base/dists/planck/cdf` _(by Philipp Burckhardt)_
 -   [`3253591`](https://github.com/stdlib-js/stdlib/commit/32535910933dcb61a8b0cb47ac76cc789aeff6e0) - **feat:** add C implementation for `stats/base/dists/planck/logpmf` _(by Philipp Burckhardt)_
 -   [`11de1b0`](https://github.com/stdlib-js/stdlib/commit/11de1b04a61be7bad540053589639855d319b88f) - **feat:** add C implementation for `stats/base/dists/planck/pmf` _(by Philipp Burckhardt)_

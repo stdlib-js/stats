@@ -123,7 +123,7 @@ tape( 'the function evaluates the logpdf for `x` given positive `mu`', opts, fun
 				t.equal( y, expected[i], 'x: '+x[i]+', mu: '+mu[i]+', c: '+c[i]+', y: '+y+', expected: '+expected[i] );
 			} else {
 				delta = abs( y - expected[ i ] );
-				tol = 5.0 * EPS * abs( expected[ i ] );
+				tol = 3.0 * EPS * abs( expected[ i ] );
 				t.ok( delta <= tol, 'within tolerance. x: '+x[ i ]+'. mu: '+mu[i]+'. c: '+c[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
 			}
 		}
@@ -152,7 +152,7 @@ tape( 'the function evaluates the logpdf for `x` given negative `mu`', opts, fun
 				t.equal( y, expected[i], 'x: '+x[i]+', mu: '+mu[i]+', c: '+c[i]+', y: '+y+', expected: '+expected[i] );
 			} else {
 				delta = abs( y - expected[ i ] );
-				tol = 5.0 * EPS * abs( expected[ i ] );
+				tol = 3.0 * EPS * abs( expected[ i ] );
 				t.ok( delta <= tol, 'within tolerance. x: '+x[ i ]+'. mu: '+mu[i]+'. c: '+c[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
 			}
 		}
@@ -181,7 +181,7 @@ tape( 'the function evaluates the logpdf for `x` given large variance ( = large 
 				t.equal( y, expected[i], 'x: '+x[i]+', mu: '+mu[i]+', c: '+c[i]+', y: '+y+', expected: '+expected[i] );
 			} else {
 				delta = abs( y - expected[ i ] );
-				tol = 5.0 * EPS * abs( expected[ i ] );
+				tol = 2.0 * EPS * abs( expected[ i ] );
 				t.ok( delta <= tol, 'within tolerance. x: '+x[ i ]+'. mu: '+mu[i]+'. c: '+c[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
 			}
 		}
