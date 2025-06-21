@@ -135,6 +135,101 @@ for ( i = 0; i < lambda.length; i++ ) {
 
 <!-- /.examples -->
 
+<!-- C interface documentation. -->
+
+* * *
+
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/stats/base/dists/planck/quantile.h"
+```
+
+#### stdlib_base_dists_planck_quantile( p, lambda )
+
+Evaluates the [quantile function][quantile-function] for a Planck (discrete exponential) distribution with probability `p` and shape parameter `lambda`.
+
+```c
+double out = stdlib_base_dists_planck_quantile( 0.8, 0.4 );
+// returns 4.0
+```
+
+The function accepts the following arguments:
+
+-   **p**: `[in] double` input probability.
+-   **lambda**: `[in] double` shape parameter.
+
+```c
+double stdlib_base_dists_planck_quantile( const double p, const double lambda );
+```
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+### Examples
+
+```c
+#include "stdlib/stats/base/dists/planck/quantile.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+static double random_uniform( const double min, const double max ) {
+    double v = (double)rand() / ( (double)RAND_MAX + 1.0 );
+    return min + ( v*(max-min) );
+}
+
+int main( void ) {
+    double p;
+    double lambda;
+    double y;
+    int i;
+
+    for ( i = 0; i < 25; i++ ) {
+        p = random_uniform( 0.0, 1.0 );
+        lambda = random_uniform( 0.1, 5.0 );
+        y = stdlib_base_dists_planck_quantile( p, lambda );
+        printf( "p: %lf, λ: %lf, Q(p;λ): %lf\n", p, lambda, y );
+    }
+}
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
+
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
