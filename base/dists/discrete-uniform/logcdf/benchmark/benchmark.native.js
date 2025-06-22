@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,17 +20,25 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/array/uniform' );
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
-var logcdf = require( './../lib' );
+
+
+// VARIABLES //
+
+var logcdf = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( logcdf instanceof Error )
+};
 
 
 // MAIN //
 
-bench( pkg, function benchmark( b ) {
+bench( pkg+'::native', opts, function benchmark( b ) {
 	var min;
 	var max;
 	var len;
@@ -40,42 +48,12 @@ bench( pkg, function benchmark( b ) {
 
 	len = 100;
 	x = uniform( len, -10.0, 10.0 );
-	min = discreteUniform( len, -10, 0 );
-	max = discreteUniform( len, 0, 10 );
+	min = uniform( len, -10.0, 0.0 );
+	max = uniform( len, 0.0, 10.0 );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
 		y = logcdf( x[ i % len ], min[ i % len ], max[ i % len ] );
-		if ( isnan( y ) ) {
-			b.fail( 'should not return NaN' );
-		}
-	}
-	b.toc();
-	if ( isnan( y ) ) {
-		b.fail( 'should not return NaN' );
-	}
-	b.pass( 'benchmark finished' );
-	b.end();
-});
-
-bench( pkg+':factory', function benchmark( b ) {
-	var mylogcdf;
-	var min;
-	var max;
-	var len;
-	var x;
-	var y;
-	var i;
-
-	min = -2;
-	max = 2;
-	mylogcdf = logcdf.factory( min, max );
-	len = 100;
-	x = uniform( len, -2.0, 0.0 );
-
-	b.tic();
-	for ( i = 0; i < b.iterations; i++ ) {
-		y = mylogcdf( x[ i % len ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
