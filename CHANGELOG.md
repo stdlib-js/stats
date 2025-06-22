@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`8e22ba9`](https://github.com/stdlib-js/stdlib/commit/8e22ba9e7b19a969ccea393f5da9b9fe6daa5945) - add `sztest` to namespace
+-   [`9e93136`](https://github.com/stdlib-js/stdlib/commit/9e93136c1006acbc7ab36daf496202e5ab059dd9) - add `stats/base/ndarray/sztest`
 -   [`1d7a498`](https://github.com/stdlib-js/stdlib/commit/1d7a498fab055a69e2c7063ba80c0d59b55e4e07) - add C implementation for `stats/base/dists/discrete-uniform/logpmf` [(#4663)](https://github.com/stdlib-js/stdlib/pull/4663)
 -   [`582a3fa`](https://github.com/stdlib-js/stdlib/commit/582a3fa88c2c9d375fa1384d97d1f792ccf0ee0e) - add C implementation for `stats/base/dists/discrete-uniform/pmf` [(#4664)](https://github.com/stdlib-js/stdlib/pull/4664)
 -   [`373cd28`](https://github.com/stdlib-js/stdlib/commit/373cd289aed0e8c43cbdb32a4c69f02ef1c22f7a) - add C implementation for `stats/base/dists/discrete-uniform/logcdf` [(#4644)](https://github.com/stdlib-js/stdlib/pull/4644)
@@ -2601,6 +2603,9 @@ A total of 501 issues were closed in this release:
 
 <details>
 
+-   [`8e22ba9`](https://github.com/stdlib-js/stdlib/commit/8e22ba9e7b19a969ccea393f5da9b9fe6daa5945) - **feat:** add `sztest` to namespace _(by Athan Reines)_
+-   [`9e93136`](https://github.com/stdlib-js/stdlib/commit/9e93136c1006acbc7ab36daf496202e5ab059dd9) - **feat:** add `stats/base/ndarray/sztest` _(by Athan Reines)_
+-   [`a056348`](https://github.com/stdlib-js/stdlib/commit/a056348a4ea81fc8660231876daac4e57d58a9a9) - **docs:** fix example _(by Athan Reines)_
 -   [`ab5d777`](https://github.com/stdlib-js/stdlib/commit/ab5d777cae4eecdcce916060cf4ca2b77825e639) - **chore:** clean-up _(by Athan Reines)_
 -   [`4928e74`](https://github.com/stdlib-js/stdlib/commit/4928e742f5116fb3a692be1ddba03f9c349f1c36) - **docs:** update examples _(by Athan Reines)_
 -   [`237cee3`](https://github.com/stdlib-js/stdlib/commit/237cee3d11dc9edd1fb295f0959b154e86f99c51) - **docs:** update examples _(by Athan Reines)_

@@ -108,6 +108,15 @@ setReadOnly( ns, 'scumax', require( './../../../base/ndarray/scumax' ) );
 */
 setReadOnly( ns, 'smax', require( './../../../base/ndarray/smax' ) );
 
+/**
+* @name sztest
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/sztest}
+*/
+setReadOnly( ns, 'sztest', require( './../../../base/ndarray/sztest' ) );
+
 
 // EXPORTS //
 
