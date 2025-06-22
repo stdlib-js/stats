@@ -2603,6 +2603,8 @@ A total of 501 issues were closed in this release:
 
 <details>
 
+-   [`b7857ad`](https://github.com/stdlib-js/stdlib/commit/b7857adc0242d92363c7b9ded91267a1d9588b78) - **docs:** fix comment _(by Athan Reines)_
+-   [`ebadfbe`](https://github.com/stdlib-js/stdlib/commit/ebadfbe7f687e77451d86a59dc04ed4548c58f3b) - **docs:** fix comment _(by Athan Reines)_
 -   [`9d20bab`](https://github.com/stdlib-js/stdlib/commit/9d20bab16570b7a6716b393308d267c550dbf090) - **test:** ensure simulated stdev matches \"known\" stdev _(by Athan Reines)_
 -   [`667c659`](https://github.com/stdlib-js/stdlib/commit/667c65918c2e46151a36f995f223d9017e58f7e0) - **test:** ensure simulated stdev matches \"known\" stdev _(by Athan Reines)_
 -   [`8e22ba9`](https://github.com/stdlib-js/stdlib/commit/8e22ba9e7b19a969ccea393f5da9b9fe6daa5945) - **feat:** add `sztest` to namespace _(by Athan Reines)_

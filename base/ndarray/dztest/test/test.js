@@ -94,7 +94,7 @@ tape( 'the function performs a Z-test over a one-dimensional ndarray (two-sided)
 	mu = scalar2ndarray( 0.0, opts );
 	sigma = scalar2ndarray( 1.0, opts );
 
-	// Generate a large enough to array to effectively guarantee results...
+	// Generate a large enough array to effectively guarantee results...
 	xbuf = zeros( 10000, opts.dtype );
 	normal( xbuf.length, [ 0.0 ], 0, 0, [ 1.0 ], 0, 0, xbuf, 1, 0, RANDOM_OPTS );
 	x = vector( xbuf, xbuf.length, 1, 0 );
@@ -144,7 +144,7 @@ tape( 'the function performs a Z-test over a one-dimensional ndarray (less)', fu
 	mu = scalar2ndarray( 0.0, opts );
 	sigma = scalar2ndarray( 1.0, opts );
 
-	// Generate a large enough to array to effectively guarantee results...
+	// Generate a large enough array to effectively guarantee results...
 	xbuf = zeros( 10000, opts.dtype );
 	normal( xbuf.length, [ -1000.0 ], 0, 0, [ 1.0 ], 0, 0, xbuf, 1, 0, RANDOM_OPTS );
 	x = vector( xbuf, xbuf.length, 1, 0 );
@@ -188,7 +188,7 @@ tape( 'the function performs a Z-test over a one-dimensional ndarray (greater)',
 	mu = scalar2ndarray( 0.0, opts );
 	sigma = scalar2ndarray( 1.0, opts );
 
-	// Generate a large enough to array to effectively guarantee results...
+	// Generate a large enough array to effectively guarantee results...
 	xbuf = zeros( 10000, opts.dtype );
 	normal( xbuf.length, [ -1000.0 ], 0, 0, [ 1.0 ], 0, 0, xbuf, 1, 0, RANDOM_OPTS );
 	x = vector( xbuf, xbuf.length, 1, 0 );
@@ -232,7 +232,7 @@ tape( 'the function supports one-dimensional ndarrays having non-unit strides', 
 	mu = scalar2ndarray( 0.0, opts );
 	sigma = scalar2ndarray( 1.0, opts );
 
-	// Generate a large enough to array to effectively guarantee results...
+	// Generate a large enough array to effectively guarantee results...
 	xbuf = zeros( 10000, opts.dtype );
 	normal( 5000, [ 0.0 ], 0, 0, [ 1.0 ], 0, 0, xbuf, 2, 0, RANDOM_OPTS );
 	x = vector( xbuf, 5000, 2, 0 );
@@ -276,7 +276,7 @@ tape( 'the function supports one-dimensional ndarrays having non-zero offsets', 
 	mu = scalar2ndarray( 0.0, opts );
 	sigma = scalar2ndarray( 1.0, opts );
 
-	// Generate a large enough to array to effectively guarantee results...
+	// Generate a large enough array to effectively guarantee results...
 	xbuf = zeros( 10000, opts.dtype );
 	normal( 5000, [ 0.0 ], 0, 0, [ 1.0 ], 0, 0, xbuf, 1, 5000, RANDOM_OPTS );
 	x = vector( xbuf, 5000, 1, 5000 );
