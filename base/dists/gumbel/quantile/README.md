@@ -236,7 +236,7 @@ int main( void ) {
         mu = random_uniform( -5.0, 5.0 );
         beta = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 20.0 );
         y = stdlib_base_dists_gumbel_quantile( p, mu, beta );
-        printf( "p: %lf, mu: %lf, beta: %lf, Q(p;mu,beta): %lf\n", p, mu, beta, y );
+        printf( "p: %lf, µ: %lf, β: %lf, Q(p;µ,β): %lf\n", p, mu, beta, y );
     }
 }
 ```

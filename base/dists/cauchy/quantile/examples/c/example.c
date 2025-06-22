@@ -38,6 +38,6 @@ int main( void ) {
 		x0 = random_uniform( -5.0, 5.0 );
 		gamma = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 20.0 );
 		y = stdlib_base_dists_cauchy_quantile( p, x0, gamma );
-		printf( "p: %lf, x0: %lf, gamma: %lf, Q(p;x0,gamma): %lf\n", p, x0, gamma, y );
+		printf( "p: %lf, x0: %lf, γ: %lf, Q(p;x0,γ): %lf\n", p, x0, gamma, y );
 	}
 }
