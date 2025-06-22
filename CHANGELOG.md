@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`dc47648`](https://github.com/stdlib-js/stdlib/commit/dc476482499638e8c56a512a885e75672ecf198c) - add `stats/array/nanmeanpn` [(#7386)](https://github.com/stdlib-js/stdlib/pull/7386)
 -   [`5b6d07a`](https://github.com/stdlib-js/stdlib/commit/5b6d07aa23b24d736f1b4b1b9bb8fd4acc7344aa) - add C ndarray interface and refactor implementation for `stats/base/dmeanstdevpn` [(#7400)](https://github.com/stdlib-js/stdlib/pull/7400)
 -   [`0486735`](https://github.com/stdlib-js/stdlib/commit/0486735a3bd3a0f69d5940e7ff590afa18dcecd8) - add C implementation for `stats/base/dists/planck/cdf`
 -   [`3253591`](https://github.com/stdlib-js/stdlib/commit/32535910933dcb61a8b0cb47ac76cc789aeff6e0) - add C implementation for `stats/base/dists/planck/logpmf`
@@ -2576,6 +2577,7 @@ A total of 479 issues were closed in this release:
 
 <details>
 
+-   [`dc47648`](https://github.com/stdlib-js/stdlib/commit/dc476482499638e8c56a512a885e75672ecf198c) - **feat:** add `stats/array/nanmeanpn` [(#7386)](https://github.com/stdlib-js/stdlib/pull/7386) _(by Gururaj Gurram)_
 -   [`5438c01`](https://github.com/stdlib-js/stdlib/commit/5438c017e08a7950327771736999ed52a45baa17) - **docs:** update namespace table of contents [(#7445)](https://github.com/stdlib-js/stdlib/pull/7445) _(by stdlib-bot, Athan Reines)_
 -   [`025adb3`](https://github.com/stdlib-js/stdlib/commit/025adb3a222f9a07e881819084765d0e5b9c1938) - **docs:** update examples and benchmarks in `stats/base/nanmskrange` [(#7424)](https://github.com/stdlib-js/stdlib/pull/7424) _(by Gururaj Gurram)_
 -   [`5b6d07a`](https://github.com/stdlib-js/stdlib/commit/5b6d07aa23b24d736f1b4b1b9bb8fd4acc7344aa) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanstdevpn` [(#7400)](https://github.com/stdlib-js/stdlib/pull/7400) _(by Gururaj Gurram, Athan Reines)_
