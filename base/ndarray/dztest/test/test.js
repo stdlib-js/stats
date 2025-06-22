@@ -161,7 +161,7 @@ tape( 'the function performs a Z-test over a one-dimensional ndarray (less)', fu
 	v = dztest( [ x, out, alt, alpha, mu, sigma ] );
 	t.strictEqual( v, out, 'returns expected value' );
 	t.strictEqual( out.get().rejected, false, 'returns expected value' );
-	console.log( out.get().toString() );
+
 	t.end();
 });
 
@@ -199,7 +199,7 @@ tape( 'the function performs a Z-test over a one-dimensional ndarray (greater)',
 	v = dztest( [ x, out, alt, alpha, mu, sigma ] );
 	t.strictEqual( v, out, 'returns expected value' );
 	t.strictEqual( out.get().rejected, false, 'returns expected value' );
-	console.log( out.get().toString() );
+
 	normal( xbuf.length, [ 1000.0 ], 0, 0, [ 1.0 ], 0, 0, xbuf, 1, 0, RANDOM_OPTS );
 
 	v = dztest( [ x, out, alt, alpha, mu, sigma ] );

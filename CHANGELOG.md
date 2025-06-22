@@ -879,6 +879,9 @@
 
 ### Bug Fixes
 
+-   [`3c72680`](https://github.com/stdlib-js/stdlib/commit/3c72680427f484cad956390101fda76e4c247f8b) - always resolve the alternative string
+-   [`b969863`](https://github.com/stdlib-js/stdlib/commit/b96986389424d71ba9ffd381829e3a029cf32e5d) - always resolve the alternative string
+-   [`3a44f75`](https://github.com/stdlib-js/stdlib/commit/3a44f75d828b2c83ac1aca31ad24206ed6fca116) - always resolve the alternative string
 -   [`00ca999`](https://github.com/stdlib-js/stdlib/commit/00ca999867e561c7075e93f6a19bd5c969cae0c0) - add missing dependencies to manifest
 -   [`dc9cbad`](https://github.com/stdlib-js/stdlib/commit/dc9cbadc23ddabb54f00fc1d304c93e95fb3d88a) - remove unused `sqrt` dependency from `uniform/stdev` manifest
 -   [`62614d7`](https://github.com/stdlib-js/stdlib/commit/62614d7ddd740208bfe21cc1e5d4c7f9cc97a507) - remove unused `sqrt` dependency from `triangular/kurtosis` manifest
@@ -2604,6 +2607,10 @@ A total of 502 issues were closed in this release:
 
 <details>
 
+-   [`a2339e3`](https://github.com/stdlib-js/stdlib/commit/a2339e35ddceee09c92e9f016b75079d378176dc) - **chore:** remove console log statements _(by Athan Reines)_
+-   [`3c72680`](https://github.com/stdlib-js/stdlib/commit/3c72680427f484cad956390101fda76e4c247f8b) - **fix:** always resolve the alternative string _(by Athan Reines)_
+-   [`b969863`](https://github.com/stdlib-js/stdlib/commit/b96986389424d71ba9ffd381829e3a029cf32e5d) - **fix:** always resolve the alternative string _(by Athan Reines)_
+-   [`3a44f75`](https://github.com/stdlib-js/stdlib/commit/3a44f75d828b2c83ac1aca31ad24206ed6fca116) - **fix:** always resolve the alternative string _(by Athan Reines)_
 -   [`b822409`](https://github.com/stdlib-js/stdlib/commit/b8224091e6e6caa3f263c7837b70fbb5e793a458) - **feat:** add C implementation  for `stats/base/dists/kumaraswamy/quantile` [(#4549)](https://github.com/stdlib-js/stdlib/pull/4549) _(by Dev Goel, Philipp Burckhardt, stdlib-bot)_
 -   [`dbbc745`](https://github.com/stdlib-js/stdlib/commit/dbbc745758e55bb844d108f00ec32e6a8d00fe6f) - **temp:** add console statement for debugging on CI _(by Athan Reines)_
 -   [`b7857ad`](https://github.com/stdlib-js/stdlib/commit/b7857adc0242d92363c7b9ded91267a1d9588b78) - **docs:** fix comment _(by Athan Reines)_
