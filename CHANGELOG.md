@@ -11,6 +11,7 @@
 ### Features
 
 -   [`079d040`](https://github.com/stdlib-js/stdlib/commit/079d04046139093c7b4dea9f30b6004a8263c911) - add C implementation for `stats/base/dists/cosine/quantile` [(#6283)](https://github.com/stdlib-js/stdlib/pull/6283)
+-   [`c81a64c`](https://github.com/stdlib-js/stdlib/commit/c81a64c31b410883da7a3029c80376ff1bd2ac65) - add `stats/base/ndarray/ztest`
 -   [`7e1b98b`](https://github.com/stdlib-js/stdlib/commit/7e1b98bf3c2974b1bdb2065e01c3579cf7e6a5f0) - add C implementation for `stats/base/dists/gamma/pdf` [(#6396)](https://github.com/stdlib-js/stdlib/pull/6396)
 -   [`0773f85`](https://github.com/stdlib-js/stdlib/commit/0773f850e9f521f3949d77156cd1f5c98a3bbda3) - add C implementation for `stats/base/dists/kumaraswamy/cdf` [(#4449)](https://github.com/stdlib-js/stdlib/pull/4449)
 -   [`b822409`](https://github.com/stdlib-js/stdlib/commit/b8224091e6e6caa3f263c7837b70fbb5e793a458) - add C implementation  for `stats/base/dists/kumaraswamy/quantile` [(#4549)](https://github.com/stdlib-js/stdlib/pull/4549)
@@ -2611,6 +2612,7 @@ A total of 505 issues were closed in this release:
 <details>
 
 -   [`079d040`](https://github.com/stdlib-js/stdlib/commit/079d04046139093c7b4dea9f30b6004a8263c911) - **feat:** add C implementation for `stats/base/dists/cosine/quantile` [(#6283)](https://github.com/stdlib-js/stdlib/pull/6283) _(by Harishchandra Reddy, Philipp Burckhardt, stdlib-bot)_
+-   [`c81a64c`](https://github.com/stdlib-js/stdlib/commit/c81a64c31b410883da7a3029c80376ff1bd2ac65) - **feat:** add `stats/base/ndarray/ztest` _(by Athan Reines)_
 -   [`7e1b98b`](https://github.com/stdlib-js/stdlib/commit/7e1b98bf3c2974b1bdb2065e01c3579cf7e6a5f0) - **feat:** add C implementation for `stats/base/dists/gamma/pdf` [(#6396)](https://github.com/stdlib-js/stdlib/pull/6396) _(by Harishchandra Reddy, Philipp Burckhardt, stdlib-bot)_
 -   [`0773f85`](https://github.com/stdlib-js/stdlib/commit/0773f850e9f521f3949d77156cd1f5c98a3bbda3) - **feat:** add C implementation for `stats/base/dists/kumaraswamy/cdf` [(#4449)](https://github.com/stdlib-js/stdlib/pull/4449) _(by Dev Goel, Philipp Burckhardt, stdlib-bot)_
 -   [`a965f03`](https://github.com/stdlib-js/stdlib/commit/a965f0341c1f83ce76767e90f68ef89b3b6e3ee6) - **docs:** provide missing options _(by Athan Reines)_
