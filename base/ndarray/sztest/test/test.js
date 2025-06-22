@@ -106,13 +106,13 @@ tape( 'the function performs a Z-test over a one-dimensional ndarray (two-sided)
 	t.strictEqual( v, out, 'returns expected value' );
 	t.strictEqual( out.get().rejected, false, 'returns expected value' );
 
-	normal( xbuf.length, [ 1000.0 ], 0, 0, [ 10.0 ], 0, 0, xbuf, 1, 0, RANDOM_OPTS );
+	normal( xbuf.length, [ 1000.0 ], 0, 0, [ 1.0 ], 0, 0, xbuf, 1, 0, RANDOM_OPTS );
 
 	v = sztest( [ x, out, alt, alpha, mu, sigma ] );
 	t.strictEqual( v, out, 'returns expected value' );
 	t.strictEqual( out.get().rejected, true, 'returns expected value' );
 
-	normal( xbuf.length, [ -1000.0 ], 0, 0, [ 10.0 ], 0, 0, xbuf, 1, 0, RANDOM_OPTS );
+	normal( xbuf.length, [ -1000.0 ], 0, 0, [ 1.0 ], 0, 0, xbuf, 1, 0, RANDOM_OPTS );
 
 	v = sztest( [ x, out, alt, alpha, mu, sigma ] );
 	t.strictEqual( v, out, 'returns expected value' );
@@ -156,7 +156,7 @@ tape( 'the function performs a Z-test over a one-dimensional ndarray (less)', fu
 	t.strictEqual( v, out, 'returns expected value' );
 	t.strictEqual( out.get().rejected, true, 'returns expected value' );
 
-	normal( xbuf.length, [ 1000.0 ], 0, 0, [ 10.0 ], 0, 0, xbuf, 1, 0, RANDOM_OPTS );
+	normal( xbuf.length, [ 1000.0 ], 0, 0, [ 1.0 ], 0, 0, xbuf, 1, 0, RANDOM_OPTS );
 
 	v = sztest( [ x, out, alt, alpha, mu, sigma ] );
 	t.strictEqual( v, out, 'returns expected value' );
@@ -200,7 +200,7 @@ tape( 'the function performs a Z-test over a one-dimensional ndarray (greater)',
 	t.strictEqual( v, out, 'returns expected value' );
 	t.strictEqual( out.get().rejected, false, 'returns expected value' );
 
-	normal( xbuf.length, [ 1000.0 ], 0, 0, [ 10.0 ], 0, 0, xbuf, 1, 0, RANDOM_OPTS );
+	normal( xbuf.length, [ 1000.0 ], 0, 0, [ 1.0 ], 0, 0, xbuf, 1, 0, RANDOM_OPTS );
 
 	v = sztest( [ x, out, alt, alpha, mu, sigma ] );
 	t.strictEqual( v, out, 'returns expected value' );
@@ -244,7 +244,7 @@ tape( 'the function supports one-dimensional ndarrays having non-unit strides', 
 	t.strictEqual( v, out, 'returns expected value' );
 	t.strictEqual( out.get().rejected, false, 'returns expected value' );
 
-	normal( 5000, [ 1000.0 ], 0, 0, [ 10.0 ], 0, 0, xbuf, 2, 0, RANDOM_OPTS );
+	normal( 5000, [ 1000.0 ], 0, 0, [ 1.0 ], 0, 0, xbuf, 2, 0, RANDOM_OPTS );
 
 	v = sztest( [ x, out, alt, alpha, mu, sigma ] );
 	t.strictEqual( v, out, 'returns expected value' );
@@ -288,7 +288,7 @@ tape( 'the function supports one-dimensional ndarrays having non-zero offsets', 
 	t.strictEqual( v, out, 'returns expected value' );
 	t.strictEqual( out.get().rejected, false, 'returns expected value' );
 
-	normal( 5000, [ 1000.0 ], 0, 0, [ 10.0 ], 0, 0, xbuf, 1, 5000, RANDOM_OPTS );
+	normal( 5000, [ 1000.0 ], 0, 0, [ 1.0 ], 0, 0, xbuf, 1, 5000, RANDOM_OPTS );
 
 	v = sztest( [ x, out, alt, alpha, mu, sigma ] );
 	t.strictEqual( v, out, 'returns expected value' );
