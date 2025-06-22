@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8b8cfc1`](https://github.com/stdlib-js/stdlib/commit/8b8cfc1611ae29c9f0bc72dc526ebc2a8721e007) - add `stats/base/ztest/two-sample/results/struct-factory` [(#7447)](https://github.com/stdlib-js/stdlib/pull/7447)
 -   [`8905d11`](https://github.com/stdlib-js/stdlib/commit/8905d11cc2651211d42aa266f914aa3b1d4d3cef) - add support for accessor arrays and refactor `stats/base/nanstdevpn` [(#7357)](https://github.com/stdlib-js/stdlib/pull/7357)
 -   [`a290557`](https://github.com/stdlib-js/stdlib/commit/a2905579154f2fbd013d3faa8b006b049632129d) - add accessor protocol and refactor `stats/base/nanvariancepn` [(#6171)](https://github.com/stdlib-js/stdlib/pull/6171)
 -   [`4395438`](https://github.com/stdlib-js/stdlib/commit/43954384edb1bfdfa86731a82df686c08a7ac8bb) - add accessor protocol support and refactor `stats/base/nanmeanors` [(#6493)](https://github.com/stdlib-js/stdlib/pull/6493)
@@ -2583,6 +2584,7 @@ A total of 483 issues were closed in this release:
 
 <details>
 
+-   [`8b8cfc1`](https://github.com/stdlib-js/stdlib/commit/8b8cfc1611ae29c9f0bc72dc526ebc2a8721e007) - **feat:** add `stats/base/ztest/two-sample/results/struct-factory` [(#7447)](https://github.com/stdlib-js/stdlib/pull/7447) _(by Gururaj Gurram, Athan Reines)_
 -   [`8905d11`](https://github.com/stdlib-js/stdlib/commit/8905d11cc2651211d42aa266f914aa3b1d4d3cef) - **feat:** add support for accessor arrays and refactor `stats/base/nanstdevpn` [(#7357)](https://github.com/stdlib-js/stdlib/pull/7357) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`a290557`](https://github.com/stdlib-js/stdlib/commit/a2905579154f2fbd013d3faa8b006b049632129d) - **feat:** add accessor protocol and refactor `stats/base/nanvariancepn` [(#6171)](https://github.com/stdlib-js/stdlib/pull/6171) _(by Rahul Kumar, Athan Reines, stdlib-bot, Gururaj Gurram)_
 -   [`4395438`](https://github.com/stdlib-js/stdlib/commit/43954384edb1bfdfa86731a82df686c08a7ac8bb) - **feat:** add accessor protocol support and refactor `stats/base/nanmeanors` [(#6493)](https://github.com/stdlib-js/stdlib/pull/6493) _(by Rahul Kumar, Athan Reines, stdlib-bot, Gururaj Gurram)_
