@@ -2588,6 +2588,9 @@ A total of 487 issues were closed in this release:
 
 <details>
 
+-   [`3f2c722`](https://github.com/stdlib-js/stdlib/commit/3f2c722c9a531d61c7159072c35c3b59b744fa32) - **docs:** fix description _(by Athan Reines)_
+-   [`c7eca07`](https://github.com/stdlib-js/stdlib/commit/c7eca079c2085708dc55f897b88ccfebdd2ce347) - **docs:** fix description _(by Athan Reines)_
+-   [`9ecb0d0`](https://github.com/stdlib-js/stdlib/commit/9ecb0d0b3d7a17b2733959114fc573986273a5c0) - **docs:** fix description _(by Athan Reines)_
 -   [`d67b212`](https://github.com/stdlib-js/stdlib/commit/d67b2123cb21d1f9a7a6d6c419a71e1be78e379c) - **feat:** add `stats/incr/nanmsum` [(#5842)](https://github.com/stdlib-js/stdlib/pull/5842) _(by jsai28, Athan Reines, stdlib-bot)_
 -   [`995b4d5`](https://github.com/stdlib-js/stdlib/commit/995b4d5c49877edf1baf18ec259b17911988d7d8) - **feat:** add support for accessor arrays and refactor `stats/base/nanvariance` [(#7391)](https://github.com/stdlib-js/stdlib/pull/7391) _(by Gururaj Gurram, stdlib-bot)_
 -   [`7a4a523`](https://github.com/stdlib-js/stdlib/commit/7a4a523de352b78048e6ec94b2cf6d1b70250db0) - **feat:** add support for accessor arrays and refactor `stats/base/nanstdev`  [(#7392)](https://github.com/stdlib-js/stdlib/pull/7392) _(by Gururaj Gurram, stdlib-bot)_
