@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,23 +16,7 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/discrete-uniform/pmf.h"
+#include "stdlib/math/base/napi/ternary.h"
 
-var randint = require( '@stdlib/random/base/discrete-uniform' );
-var pmf = require( './../lib' );
-
-var randa = randint.factory( 0, 10 );
-var randb = randint.factory();
-var a;
-var b;
-var x;
-var y;
-var i;
-
-for ( i = 0; i < 25; i++ ) {
-	a = randa();
-	x = randb( a, a+randa() );
-	b = randb( a, a+randa() );
-	y = pmf( x, a, b );
-	console.log( 'x: %d, a: %d, b: %d, P(X=x;a,b): %d', x, a, b, y.toFixed( 4 ) );
-}
+STDLIB_MATH_BASE_NAPI_MODULE_DII_D( stdlib_base_dists_discrete_uniform_pmf )
