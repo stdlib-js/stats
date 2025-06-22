@@ -2585,6 +2585,7 @@ A total of 484 issues were closed in this release:
 
 <details>
 
+-   [`d3d045f`](https://github.com/stdlib-js/stdlib/commit/d3d045f6cc9b989c0f1769a20c79b27254e2bf26) - **refactor:** consolidate files _(by Athan Reines)_
 -   [`12a911c`](https://github.com/stdlib-js/stdlib/commit/12a911c8cc1295429aa84fbafd3f09d0eabb8e10) - **feat:** add accessor protocol support and refactor `stats/base/nanstdevyc` [(#6206)](https://github.com/stdlib-js/stdlib/pull/6206) _(by Rahul Kumar, Gururaj Gurram)_
 -   [`8b8cfc1`](https://github.com/stdlib-js/stdlib/commit/8b8cfc1611ae29c9f0bc72dc526ebc2a8721e007) - **feat:** add `stats/base/ztest/two-sample/results/struct-factory` [(#7447)](https://github.com/stdlib-js/stdlib/pull/7447) _(by Gururaj Gurram, Athan Reines)_
 -   [`8905d11`](https://github.com/stdlib-js/stdlib/commit/8905d11cc2651211d42aa266f914aa3b1d4d3cef) - **feat:** add support for accessor arrays and refactor `stats/base/nanstdevpn` [(#7357)](https://github.com/stdlib-js/stdlib/pull/7357) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
