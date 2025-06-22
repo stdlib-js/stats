@@ -2601,6 +2601,9 @@ A total of 501 issues were closed in this release:
 
 <details>
 
+-   [`4928e74`](https://github.com/stdlib-js/stdlib/commit/4928e742f5116fb3a692be1ddba03f9c349f1c36) - **docs:** update examples _(by Athan Reines)_
+-   [`237cee3`](https://github.com/stdlib-js/stdlib/commit/237cee3d11dc9edd1fb295f0959b154e86f99c51) - **docs:** update examples _(by Athan Reines)_
+-   [`1903306`](https://github.com/stdlib-js/stdlib/commit/19033062ada0dacd6f3bb979748d97001aa29be7) - **style:** insert blank line _(by Athan Reines)_
 -   [`efc52c9`](https://github.com/stdlib-js/stdlib/commit/efc52c9c2a9ff6c72b33efc3e000cb554badc171) - **chore:** clean-up _(by Athan Reines)_
 -   [`1d7a498`](https://github.com/stdlib-js/stdlib/commit/1d7a498fab055a69e2c7063ba80c0d59b55e4e07) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/logpmf` [(#4663)](https://github.com/stdlib-js/stdlib/pull/4663) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`582a3fa`](https://github.com/stdlib-js/stdlib/commit/582a3fa88c2c9d375fa1384d97d1f792ccf0ee0e) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/pmf` [(#4664)](https://github.com/stdlib-js/stdlib/pull/4664) _(by Prashant Kumar Yadav, Philipp Burckhardt)_

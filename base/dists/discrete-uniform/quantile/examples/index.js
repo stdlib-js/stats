@@ -22,16 +22,12 @@ var uniform = require( '@stdlib/random/array/uniform' );
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var quantile = require( './../lib' );
 
-var p;
-var a;
-var b;
+var p = uniform( 10, 0.0, 1.0 );
+var a = discreteUniform( 10, 0, 5 );
+var b = discreteUniform( 10, 2, 8 );
+
 var v;
 var i;
-
-p = uniform( 10, 0.0, 1.0 );
-a = discreteUniform( 10, 0, 5 );
-b = discreteUniform( 10, 2, 8 );
-
 for ( i = 0; i < 10; i++ ) {
 	v = quantile( p[ i ], a[ i ], b[ i ] );
 	console.log( 'p: %d, a: %d, b: %d, Q(p;a,b): %d', p[ i ].toFixed( 4 ), a[ i ], b[ i ], v );

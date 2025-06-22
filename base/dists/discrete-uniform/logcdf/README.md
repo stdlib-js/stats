@@ -126,16 +126,12 @@ var uniform = require( '@stdlib/random/array/uniform' );
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var logcdf = require( '@stdlib/stats/base/dists/discrete-uniform/logcdf' );
 
-var x;
-var a;
-var b;
+var x = uniform( 10, -10.0, 10.0 );
+var a = discreteUniform( 10, -10, 0 );
+var b = discreteUniform( 10, 0, 10 );
+
 var v;
 var i;
-
-x = uniform( 10, -10.0, 10.0 );
-a = discreteUniform( 10, -10, 0 );
-b = discreteUniform( 10, 0, 10 );
-
 for ( i = 0; i < x.length; i++ ) {
     v = logcdf( x[ i ], a[ i ], b[ i ] );
     console.log( 'x: %d, a: %d, b: %d, ln(F(x;a,b)): %d', x[ i ].toFixed( 4 ), a[ i ], b[ i ], v.toFixed( 4 ) );

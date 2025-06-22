@@ -27,6 +27,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+
 /**
 * Returns the natural logarithm of the probability mass function (PMF) for a discrete uniform distribution with parameters `a` (minimum support) and `b` (maximum support).
 */
