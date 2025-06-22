@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ca7d8db`](https://github.com/stdlib-js/stdlib/commit/ca7d8db0c967ca8d63def4aa1470fa0d9510988e) - add `stats/array/nanmeanwd` [(#7389)](https://github.com/stdlib-js/stdlib/pull/7389)
 -   [`7dfea8b`](https://github.com/stdlib-js/stdlib/commit/7dfea8b772444906be2a1c176bb00ce7d91b7c1e) - refactor and add protocol support to `stats/base/nanmeanwd` [(#6252)](https://github.com/stdlib-js/stdlib/pull/6252)
 -   [`0cdbf3c`](https://github.com/stdlib-js/stdlib/commit/0cdbf3cf7d5f3c16907ea70a586a732304b6b41b) - add C ndarray interface and refactor implementation for `stats/base/dmeanstdev` [(#7409)](https://github.com/stdlib-js/stdlib/pull/7409)
 -   [`dc47648`](https://github.com/stdlib-js/stdlib/commit/dc476482499638e8c56a512a885e75672ecf198c) - add `stats/array/nanmeanpn` [(#7386)](https://github.com/stdlib-js/stdlib/pull/7386)
@@ -2579,6 +2580,7 @@ A total of 480 issues were closed in this release:
 
 <details>
 
+-   [`ca7d8db`](https://github.com/stdlib-js/stdlib/commit/ca7d8db0c967ca8d63def4aa1470fa0d9510988e) - **feat:** add `stats/array/nanmeanwd` [(#7389)](https://github.com/stdlib-js/stdlib/pull/7389) _(by Gururaj Gurram, stdlib-bot)_
 -   [`7dfea8b`](https://github.com/stdlib-js/stdlib/commit/7dfea8b772444906be2a1c176bb00ce7d91b7c1e) - **feat:** refactor and add protocol support to `stats/base/nanmeanwd` [(#6252)](https://github.com/stdlib-js/stdlib/pull/6252) _(by Prajjwal Bajpai, Athan Reines, stdlib-bot, Gururaj Gurram)_
 -   [`0cdbf3c`](https://github.com/stdlib-js/stdlib/commit/0cdbf3cf7d5f3c16907ea70a586a732304b6b41b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanstdev` [(#7409)](https://github.com/stdlib-js/stdlib/pull/7409) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`dc47648`](https://github.com/stdlib-js/stdlib/commit/dc476482499638e8c56a512a885e75672ecf198c) - **feat:** add `stats/array/nanmeanpn` [(#7386)](https://github.com/stdlib-js/stdlib/pull/7386) _(by Gururaj Gurram)_
