@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,22 +16,7 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/gumbel/quantile.h"
+#include "stdlib/math/base/napi/ternary.h"
 
-var uniform = require( '@stdlib/random/base/uniform' );
-var EPS = require( '@stdlib/constants/float64/eps' );
-var quantile = require( './../lib' );
-
-var beta;
-var mu;
-var p;
-var y;
-var i;
-
-for ( i = 0; i < 100; i++ ) {
-	p = uniform( 0.0, 1.0 );
-	mu = uniform( -5.0, 5.0 );
-	beta = uniform( EPS, 10.0 );
-	y = quantile( p, mu, beta );
-	console.log( 'p: %d, µ: %d, β: %d, Q(p;µ,β): %d', p.toFixed( 4 ), mu.toFixed( 4 ), beta.toFixed( 4 ), y.toFixed( 4 ) );
-}
+STDLIB_MATH_BASE_NAPI_MODULE_DDD_D( stdlib_base_dists_gumbel_quantile )
