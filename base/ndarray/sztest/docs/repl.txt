@@ -42,13 +42,14 @@
     > var alt = {{alias:@stdlib/ndarray/from-scalar}}( 'two-sided' );
 
     // Specify the significance level:
-    > var alpha = {{alias:@stdlib/ndarray/from-scalar}}( 0.05 );
+    > var opts = { 'dtype': dt };
+    > var alpha = {{alias:@stdlib/ndarray/from-scalar}}( 0.05, opts );
 
     // Specify the mean under the null hypothesis:
-    > var mu = {{alias:@stdlib/ndarray/from-scalar}}( 0.0 );
+    > var mu = {{alias:@stdlib/ndarray/from-scalar}}( 0.0, opts );
 
     // Specify the known standard deviation:
-    > var sigma = {{alias:@stdlib/ndarray/from-scalar}}( 1.0 );
+    > var sigma = {{alias:@stdlib/ndarray/from-scalar}}( 1.0, opts );
 
     // Perform a Z-test:
     > {{alias}}( [ x, out, alt, alpha, mu, sigma ] );

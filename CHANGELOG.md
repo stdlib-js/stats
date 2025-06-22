@@ -2607,6 +2607,8 @@ A total of 502 issues were closed in this release:
 
 <details>
 
+-   [`a965f03`](https://github.com/stdlib-js/stdlib/commit/a965f0341c1f83ce76767e90f68ef89b3b6e3ee6) - **docs:** provide missing options _(by Athan Reines)_
+-   [`2c9a894`](https://github.com/stdlib-js/stdlib/commit/2c9a894c76a441b6343e0aad7984cb5d27152a48) - **docs:** provide missing options _(by Athan Reines)_
 -   [`a2339e3`](https://github.com/stdlib-js/stdlib/commit/a2339e35ddceee09c92e9f016b75079d378176dc) - **chore:** remove console log statements _(by Athan Reines)_
 -   [`3c72680`](https://github.com/stdlib-js/stdlib/commit/3c72680427f484cad956390101fda76e4c247f8b) - **fix:** always resolve the alternative string _(by Athan Reines)_
 -   [`b969863`](https://github.com/stdlib-js/stdlib/commit/b96986389424d71ba9ffd381829e3a029cf32e5d) - **fix:** always resolve the alternative string _(by Athan Reines)_
