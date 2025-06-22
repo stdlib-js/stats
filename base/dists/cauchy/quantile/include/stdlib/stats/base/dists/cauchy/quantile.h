@@ -27,7 +27,7 @@ extern "C" {
 #endif
 
 /**
-* Evaluates the quantile function for a Cauchy distribution with probability `p`, location parameter `x0` and scale parameter `gamma`.
+* Evaluates the quantile function for a Cauchy distribution with location parameter `x0` and scale parameter `gamma` at a probability `p`.
 */
 double stdlib_base_dists_cauchy_quantile( const double p, const double x0, const double gamma );
 
