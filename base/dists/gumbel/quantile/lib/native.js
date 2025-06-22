@@ -29,7 +29,7 @@ var addon = require( './../src/addon.node' );
 * Evaluates the quantile function for a Gumbel distribution with location parameter `mu` and scale parameter `beta`.
 *
 * @private
-* @param {number} p - input value
+* @param {Probability} p - input value
 * @param {number} mu - location parameter
 * @param {PositiveNumber} beta - scale parameter
 * @returns {number} quantile function value

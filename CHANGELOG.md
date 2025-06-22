@@ -2601,6 +2601,7 @@ A total of 501 issues were closed in this release:
 
 <details>
 
+-   [`efc52c9`](https://github.com/stdlib-js/stdlib/commit/efc52c9c2a9ff6c72b33efc3e000cb554badc171) - **chore:** clean-up _(by Athan Reines)_
 -   [`1d7a498`](https://github.com/stdlib-js/stdlib/commit/1d7a498fab055a69e2c7063ba80c0d59b55e4e07) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/logpmf` [(#4663)](https://github.com/stdlib-js/stdlib/pull/4663) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`582a3fa`](https://github.com/stdlib-js/stdlib/commit/582a3fa88c2c9d375fa1384d97d1f792ccf0ee0e) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/pmf` [(#4664)](https://github.com/stdlib-js/stdlib/pull/4664) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`373cd28`](https://github.com/stdlib-js/stdlib/commit/373cd289aed0e8c43cbdb32a4c69f02ef1c22f7a) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/logcdf` [(#4644)](https://github.com/stdlib-js/stdlib/pull/4644) _(by Prashant Kumar Yadav, Philipp Burckhardt)_

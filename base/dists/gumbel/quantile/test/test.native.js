@@ -159,7 +159,7 @@ tape( 'the function evaluates the quantile for `x` given negative mean `mu`', op
 	t.end();
 });
 
-tape( 'the function returns `NaN` for very large quantiles', opts, function test( t ) {
+tape( 'the function evaluates the quantile function at `p` given large variance ( = large `beta` )', opts, function test( t ) {
 	var expected;
 	var delta;
 	var beta;
