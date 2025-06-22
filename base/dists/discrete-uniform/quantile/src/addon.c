@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,23 +16,7 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/discrete-uniform/quantile.h"
+#include "stdlib/math/base/napi/ternary.h"
 
-var uniform = require( '@stdlib/random/array/uniform' );
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var quantile = require( './../lib' );
-
-var p;
-var a;
-var b;
-var v;
-var i;
-
-p = uniform( 10, 0.0, 1.0 );
-a = discreteUniform( 10, 0, 5 );
-b = discreteUniform( 10, 2, 8 );
-
-for ( i = 0; i < 10; i++ ) {
-	v = quantile( p[ i ], a[ i ], b[ i ] );
-	console.log( 'p: %d, a: %d, b: %d, Q(p;a,b): %d', p[ i ].toFixed( 4 ), a[ i ], b[ i ], v );
-}
+STDLIB_MATH_BASE_NAPI_MODULE_DII_D( stdlib_base_dists_discrete_uniform_quantile )
