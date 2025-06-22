@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,24 +16,7 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/frechet/cdf.h"
+#include "stdlib/math/base/napi/quaternary.h"
 
-var uniform = require( '@stdlib/random/base/uniform' );
-var EPS = require( '@stdlib/constants/float64/eps' );
-var cdf = require( './../lib' );
-
-var alpha;
-var s;
-var m;
-var x;
-var y;
-var i;
-
-for ( i = 0; i < 100; i++ ) {
-	alpha = uniform( EPS, 5.0 );
-	s = uniform( EPS, 5.0 );
-	m = uniform( -2.0, 2.0 );
-	x = uniform( m + 0.1, m + 10.0 );
-	y = cdf( x, alpha, s, m );
-	console.log( 'x: %d, α: %d, s: %d, m: %d, F(x;α,s,m): %d', x.toFixed( 4 ), alpha.toFixed( 4 ), s.toFixed( 4 ), m.toFixed( 4 ), y.toFixed( 4 ) );
-}
+STDLIB_MATH_BASE_NAPI_MODULE_DDDD_D( stdlib_base_dists_frechet_cdf )
