@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e9db84c`](https://github.com/stdlib-js/stdlib/commit/e9db84cb4f7cd1ff37610460be44f85bb2b2f102) - add `stats/array/nanmeanors` [(#7388)](https://github.com/stdlib-js/stdlib/pull/7388)
 -   [`770023d`](https://github.com/stdlib-js/stdlib/commit/770023dfd4da2004a00227efa104bacdb7da8b20) - add `dztest` to namespace
 -   [`17431a1`](https://github.com/stdlib-js/stdlib/commit/17431a19572114e45d2a5bc74db73d3c08af5cb1) - add `stats/base/ndarray/dztest`
 -   [`c0967b9`](https://github.com/stdlib-js/stdlib/commit/c0967b90a91f39e3995db3c31f29357b4f831ad9) - add static methods to prototype
@@ -2591,6 +2592,7 @@ A total of 487 issues were closed in this release:
 
 <details>
 
+-   [`e9db84c`](https://github.com/stdlib-js/stdlib/commit/e9db84cb4f7cd1ff37610460be44f85bb2b2f102) - **feat:** add `stats/array/nanmeanors` [(#7388)](https://github.com/stdlib-js/stdlib/pull/7388) _(by Gururaj Gurram, stdlib-bot)_
 -   [`770023d`](https://github.com/stdlib-js/stdlib/commit/770023dfd4da2004a00227efa104bacdb7da8b20) - **feat:** add `dztest` to namespace _(by Athan Reines)_
 -   [`17431a1`](https://github.com/stdlib-js/stdlib/commit/17431a19572114e45d2a5bc74db73d3c08af5cb1) - **feat:** add `stats/base/ndarray/dztest` _(by Athan Reines)_
 -   [`c0967b9`](https://github.com/stdlib-js/stdlib/commit/c0967b90a91f39e3995db3c31f29357b4f831ad9) - **feat:** add static methods to prototype _(by Athan Reines)_
