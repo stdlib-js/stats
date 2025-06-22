@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -23,45 +23,52 @@
 /**
 * Computes the arithmetic mean of a strided array, ignoring `NaN` values and using ordinary recursive summation.
 *
+* @private
 * @param {PositiveInteger} N - number of indexed elements
-* @param {NumericArray} x - input array
-* @param {integer} stride - stride length
+* @param {Object} x - input array object
+* @param {Collection} x.data - input array data
+* @param {Array<Function>} x.accessors - array element accessors
+* @param {integer} strideX - stride length
+* @param {NonNegativeInteger} offsetX - starting index
 * @returns {number} arithmetic mean
 *
 * @example
-* var x = [ 1.0, -2.0, NaN, 2.0 ];
-* var N = x.length;
+* var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
+* var arraylike2object = require( '@stdlib/array/base/arraylike2object' );
 *
-* var v = nanmeanors( N, x, 1 );
-* // returns ~0.3333
+* var x = toAccessorArray( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
+*
+* var v = nanmeanors( 5, arraylike2object( x ), 2, 1 );
+* // returns 1.25
 */
-function nanmeanors( N, x, stride ) {
+function nanmeanors( N, x, strideX, offsetX ) {
+	var xbuf;
+	var get;
 	var sum;
 	var ix;
 	var v;
 	var n;
 	var i;
 
-	if ( N <= 0 ) {
-		return NaN;
+	// Cache references to array data:
+	xbuf = x.data;
+
+	// Cache references to element accessors:
+	get = x.accessors[ 0 ];
+
+	if ( N === 1 || strideX === 0 ) {
+		return get( xbuf, offsetX );
 	}
-	if ( N === 1 || stride === 0 ) {
-		return x[ 0 ];
-	}
-	if ( stride < 0 ) {
-		ix = (1-N) * stride;
-	} else {
-		ix = 0;
-	}
+	ix = offsetX;
 	sum = 0.0;
 	n = 0;
 	for ( i = 0; i < N; i++ ) {
-		v = x[ ix ];
+		v = get( xbuf, ix );
 		if ( v === v ) {
 			sum += v;
 			n += 1;
 		}
-		ix += stride;
+		ix += strideX;
 	}
 	if ( n === 0 ) {
 		return NaN;
