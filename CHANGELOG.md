@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-21)
+## Unreleased (2025-06-22)
 
 <section class="features">
 
@@ -2576,6 +2576,7 @@ A total of 479 issues were closed in this release:
 
 <details>
 
+-   [`025adb3`](https://github.com/stdlib-js/stdlib/commit/025adb3a222f9a07e881819084765d0e5b9c1938) - **docs:** update examples and benchmarks in `stats/base/nanmskrange` [(#7424)](https://github.com/stdlib-js/stdlib/pull/7424) _(by Gururaj Gurram)_
 -   [`5b6d07a`](https://github.com/stdlib-js/stdlib/commit/5b6d07aa23b24d736f1b4b1b9bb8fd4acc7344aa) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanstdevpn` [(#7400)](https://github.com/stdlib-js/stdlib/pull/7400) _(by Gururaj Gurram, Athan Reines)_
 -   [`99d605d`](https://github.com/stdlib-js/stdlib/commit/99d605d037b740cc5565e8d7bb119b5ff4840619) - **bench:** clean-up _(by Athan Reines)_
 -   [`7120de1`](https://github.com/stdlib-js/stdlib/commit/7120de1b6484dd69bc0fd1e3cdc2ffe5d2635a8e) - **docs:** use consistent types _(by Athan Reines)_
