@@ -2592,6 +2592,7 @@ A total of 487 issues were closed in this release:
 
 <details>
 
+-   [`7f76a94`](https://github.com/stdlib-js/stdlib/commit/7f76a94c2c2f7af1b97bafe11938ea630c8dbdc5) - **chore:** remove keywords _(by Athan Reines)_
 -   [`e9db84c`](https://github.com/stdlib-js/stdlib/commit/e9db84cb4f7cd1ff37610460be44f85bb2b2f102) - **feat:** add `stats/array/nanmeanors` [(#7388)](https://github.com/stdlib-js/stdlib/pull/7388) _(by Gururaj Gurram, stdlib-bot)_
 -   [`770023d`](https://github.com/stdlib-js/stdlib/commit/770023dfd4da2004a00227efa104bacdb7da8b20) - **feat:** add `dztest` to namespace _(by Athan Reines)_
 -   [`17431a1`](https://github.com/stdlib-js/stdlib/commit/17431a19572114e45d2a5bc74db73d3c08af5cb1) - **feat:** add `stats/base/ndarray/dztest` _(by Athan Reines)_
