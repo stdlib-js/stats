@@ -64,6 +64,15 @@ setReadOnly( ns, 'dcumax', require( './../../../base/ndarray/dcumax' ) );
 setReadOnly( ns, 'dmax', require( './../../../base/ndarray/dmax' ) );
 
 /**
+* @name dztest
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/dztest}
+*/
+setReadOnly( ns, 'dztest', require( './../../../base/ndarray/dztest' ) );
+
+/**
 * @name max
 * @memberof ns
 * @readonly
