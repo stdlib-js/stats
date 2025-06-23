@@ -21,10 +21,10 @@
 /**
 * Compute the arithmetic mean of a strided array, ignoring `NaN` values and using Welford's algorithm.
 *
-* @module @stdlib/stats/base/nanmeanwd
+* @module @stdlib/stats/strided/nanmeanwd
 *
 * @example
-* var nanmeanwd = require( '@stdlib/stats/base/nanmeanwd' );
+* var nanmeanwd = require( '@stdlib/stats/strided/nanmeanwd' );
 *
 * var x = [ 1.0, -2.0, NaN, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns ~0.3333
 *
 * @example
-* var nanmeanwd = require( '@stdlib/stats/base/nanmeanwd' );
+* var nanmeanwd = require( '@stdlib/stats/strided/nanmeanwd' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN ];
 *

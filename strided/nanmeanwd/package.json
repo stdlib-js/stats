@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/nanmeanwd",
+  "name": "@stdlib/stats/strided/nanmeanwd",
   "version": "0.0.0",
   "description": "Calculate the arithmetic mean of a strided array, ignoring NaN values and using Welford's algorithm.",
   "license": "Apache-2.0",

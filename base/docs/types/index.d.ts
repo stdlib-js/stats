@@ -28,7 +28,6 @@ import dists = require( './../../../base/dists' );
 import nanmean = require( './../../../base/nanmean' );
 import nanmeanors = require( './../../../base/nanmeanors' );
 import nanmeanpn = require( './../../../base/nanmeanpn' );
-import nanmeanwd = require( './../../../base/nanmeanwd' );
 import nanmskmax = require( './../../../base/nanmskmax' );
 import nanmskmin = require( './../../../base/nanmskmin' );
 import nanmskrange = require( './../../../base/nanmskrange' );
@@ -272,28 +271,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	nanmeanpn: typeof nanmeanpn;
-
-	/**
-	* Computes the arithmetic mean of a strided array, ignoring `NaN` values and using Welford's algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanmeanwd( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanmeanwd.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	nanmeanwd: typeof nanmeanwd;
 
 	/**
 	* Computes the maximum value of a strided array according to a mask, ignoring `NaN` values.
