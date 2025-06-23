@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dmeanstdev.h"
+#include "stdlib/stats/strided/dmeanstdev.h"
 #include <stdio.h>
 
 int main( void ) {

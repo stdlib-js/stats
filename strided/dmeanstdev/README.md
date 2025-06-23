@@ -35,7 +35,7 @@ The population [standard deviation][standard-deviation] of a finite size populat
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma = \sqrt{\frac{1}{N} \sum_{i=0}^{N-1} (x_i - \mu)^2}" data-equation="eq:population_standard_deviation">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fc1d35912f15aaa6bfb58aadc07a842b1239c98c/lib/node_modules/@stdlib/stats/base/dmeanstdev/docs/img/equation_population_standard_deviation.svg" alt="Equation for the population standard deviation.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fc1d35912f15aaa6bfb58aadc07a842b1239c98c/lib/node_modules/@stdlib/stats/strided/dmeanstdev/docs/img/equation_population_standard_deviation.svg" alt="Equation for the population standard deviation.">
     <br>
 </div> -->
 
@@ -50,7 +50,7 @@ where the population mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{N} \sum_{i=0}^{N-1} x_i" data-equation="eq:population_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fc1d35912f15aaa6bfb58aadc07a842b1239c98c/lib/node_modules/@stdlib/stats/base/dmeanstdev/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fc1d35912f15aaa6bfb58aadc07a842b1239c98c/lib/node_modules/@stdlib/stats/strided/dmeanstdev/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
     <br>
 </div> -->
 
@@ -65,7 +65,7 @@ s = \sqrt{\frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2}
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="s = \sqrt{\frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2}" data-equation="eq:corrected_sample_standard_deviation">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fc1d35912f15aaa6bfb58aadc07a842b1239c98c/lib/node_modules/@stdlib/stats/base/dmeanstdev/docs/img/equation_corrected_sample_standard_deviation.svg" alt="Equation for computing a corrected sample standard deviation.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fc1d35912f15aaa6bfb58aadc07a842b1239c98c/lib/node_modules/@stdlib/stats/strided/dmeanstdev/docs/img/equation_corrected_sample_standard_deviation.svg" alt="Equation for computing a corrected sample standard deviation.">
     <br>
 </div> -->
 
@@ -80,7 +80,7 @@ where the sample mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:sample_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fc1d35912f15aaa6bfb58aadc07a842b1239c98c/lib/node_modules/@stdlib/stats/base/dmeanstdev/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fc1d35912f15aaa6bfb58aadc07a842b1239c98c/lib/node_modules/@stdlib/stats/strided/dmeanstdev/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
     <br>
 </div> -->
 
@@ -97,7 +97,7 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
-var dmeanstdev = require( '@stdlib/stats/base/dmeanstdev' );
+var dmeanstdev = require( '@stdlib/stats/strided/dmeanstdev' );
 ```
 
 #### dmeanstdev( N, correction, x, strideX, out, strideOut )
@@ -210,7 +210,7 @@ var v = dmeanstdev.ndarray( 4, 1, x, 2, 1, out, 2, 1 );
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var Float64Array = require( '@stdlib/array/float64' );
-var dmeanstdev = require( '@stdlib/stats/base/dmeanstdev' );
+var dmeanstdev = require( '@stdlib/stats/strided/dmeanstdev' );
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
@@ -249,7 +249,7 @@ console.log( out );
 ### Usage
 
 ```c
-#include "stdlib/stats/base/dmeanstdev.h"
+#include "stdlib/stats/strided/dmeanstdev.h"
 ```
 
 #### stdlib_strided_dmeanstdev( N, correction, \*X, strideX, \*Out, strideOut )
@@ -321,7 +321,7 @@ void stdlib_strided_dmeanstdev_ndarray( const CBLAS_INT N, const double correcti
 ### Examples
 
 ```c
-#include "stdlib/stats/base/dmeanstdev.h"
+#include "stdlib/stats/strided/dmeanstdev.h"
 #include <stdio.h>
 
 int main( void ) {

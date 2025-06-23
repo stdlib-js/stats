@@ -21,11 +21,11 @@
 /**
 * Compute the mean and standard deviation of a double-precision floating-point strided array.
 *
-* @module @stdlib/stats/base/dmeanstdev
+* @module @stdlib/stats/strided/dmeanstdev
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmeanstdev = require( '@stdlib/stats/base/dmeanstdev' );
+* var dmeanstdev = require( '@stdlib/stats/strided/dmeanstdev' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 * var out = new Float64Array( 2 );
@@ -35,7 +35,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmeanstdev = require( '@stdlib/stats/base/dmeanstdev' );
+* var dmeanstdev = require( '@stdlib/stats/strided/dmeanstdev' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 * var out = new Float64Array( 2 );

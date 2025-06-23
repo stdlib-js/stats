@@ -375,7 +375,7 @@ int main( void ) {
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats/strided/dmeanpn`][@stdlib/stats/strided/dmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array using a two-pass error correction algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/dmeanstdev`][@stdlib/stats/base/dmeanstdev]</span><span class="delimiter">: </span><span class="description">calculate the mean and standard deviation of a double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dmeanstdev`][@stdlib/stats/strided/dmeanstdev]</span><span class="delimiter">: </span><span class="description">calculate the mean and standard deviation of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dmeanvarpn`][@stdlib/stats/strided/dmeanvarpn]</span><span class="delimiter">: </span><span class="description">calculate the mean and variance of a double-precision floating-point strided array using a two-pass algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dstdevpn`][@stdlib/stats/strided/dstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using a two-pass algorithm.</span>
 
@@ -403,7 +403,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/dmeanpn]: https://github.com/stdlib-js/stats/tree/main/strided/dmeanpn
 
-[@stdlib/stats/base/dmeanstdev]: https://github.com/stdlib-js/stats/tree/main/base/dmeanstdev
+[@stdlib/stats/strided/dmeanstdev]: https://github.com/stdlib-js/stats/tree/main/strided/dmeanstdev
 
 [@stdlib/stats/strided/dmeanvarpn]: https://github.com/stdlib-js/stats/tree/main/strided/dmeanvarpn
 

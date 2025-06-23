@@ -25,7 +25,6 @@ import cumaxabs = require( './../../../base/cumaxabs' );
 import cumin = require( './../../../base/cumin' );
 import cuminabs = require( './../../../base/cuminabs' );
 import dists = require( './../../../base/dists' );
-import dmeanstdev = require( './../../../base/dmeanstdev' );
 import nanmean = require( './../../../base/nanmean' );
 import nanmeanors = require( './../../../base/nanmeanors' );
 import nanmeanpn = require( './../../../base/nanmeanpn' );
@@ -207,37 +206,6 @@ interface Namespace {
 	* Base (i.e., lower-level) probability distributions.
 	*/
 	dists: typeof dists;
-
-	/**
-	* Computes the mean and standard deviation of a double-precision floating-point strided array.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param out - output array
-	* @param strideOut - `out` stride length
-	* @returns output array
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	* var out = new Float64Array( 2 );
-	*
-	* var v = ns.dmeanstdev( x.length, 1, x, 1, out, 1 );
-	* // returns <Float64Array>[ ~0.3333, ~2.0817 ]
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	* var out = new Float64Array( 2 );
-	*
-	* var v = ns.dmeanstdev.ndarray( x.length, 1, x, 1, 0, out, 1, 0 );
-	* // returns <Float64Array>[ ~0.3333, ~2.0817 ]
-	*/
-	dmeanstdev: typeof dmeanstdev;
 
 	/**
 	* Computes the arithmetic mean of a strided array, ignoring `NaN` values.
