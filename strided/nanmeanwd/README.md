@@ -185,7 +185,7 @@ console.log( v );
 
 -   <span class="package-name">[`@stdlib/stats/strided/dnanmeanwd`][@stdlib/stats/strided/dnanmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, using Welford's algorithm and ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/meanwd`][@stdlib/stats/strided/meanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using Welford's algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanmean`][@stdlib/stats/base/nanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanmean`][@stdlib/stats/strided/nanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/snanmeanwd`][@stdlib/stats/strided/snanmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using Welford's algorithm.</span>
 
 </section>
@@ -214,7 +214,7 @@ console.log( v );
 
 [@stdlib/stats/strided/meanwd]: https://github.com/stdlib-js/stats/tree/main/strided/meanwd
 
-[@stdlib/stats/base/nanmean]: https://github.com/stdlib-js/stats/tree/main/base/nanmean
+[@stdlib/stats/strided/nanmean]: https://github.com/stdlib-js/stats/tree/main/strided/nanmean
 
 [@stdlib/stats/strided/snanmeanwd]: https://github.com/stdlib-js/stats/tree/main/strided/snanmeanwd
 

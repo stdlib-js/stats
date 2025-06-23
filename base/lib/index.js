@@ -82,33 +82,6 @@ setReadOnly( ns, 'cuminabs', require( './../../base/cuminabs' ) );
 setReadOnly( ns, 'dists', require( './../../base/dists' ) );
 
 /**
-* @name nanmean
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanmean}
-*/
-setReadOnly( ns, 'nanmean', require( './../../base/nanmean' ) );
-
-/**
-* @name nanmeanors
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanmeanors}
-*/
-setReadOnly( ns, 'nanmeanors', require( './../../base/nanmeanors' ) );
-
-/**
-* @name nanmeanpn
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanmeanpn}
-*/
-setReadOnly( ns, 'nanmeanpn', require( './../../base/nanmeanpn' ) );
-
-/**
 * @name nanmskmax
 * @memberof ns
 * @readonly

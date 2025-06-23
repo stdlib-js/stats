@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/nanmeanpn",
+  "name": "@stdlib/stats/strided/nanmeanpn",
   "version": "0.0.0",
   "description": "Calculate the arithmetic mean of a strided array, ignoring NaN values and using a two-pass error correction algorithm.",
   "license": "Apache-2.0",

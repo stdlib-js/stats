@@ -33,7 +33,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:arithmetic_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@9175c13dbc0434906c9644e01a0c6d2f700fc087/lib/node_modules/@stdlib/stats/base/nanmeanors/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@9175c13dbc0434906c9644e01a0c6d2f700fc087/lib/node_modules/@stdlib/stats/strided/nanmeanors/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-var nanmeanors = require( '@stdlib/stats/base/nanmeanors' );
+var nanmeanors = require( '@stdlib/stats/strided/nanmeanors' );
 ```
 
 #### nanmeanors( N, x, strideX )
@@ -143,7 +143,7 @@ var v = nanmeanors.ndarray( 5, x, 2, 1 );
 var uniform = require( '@stdlib/random/base/uniform' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
 var bernoulli = require( '@stdlib/random/base/bernoulli' );
-var nanmeanors = require( '@stdlib/stats/base/nanmeanors' );
+var nanmeanors = require( '@stdlib/stats/strided/nanmeanors' );
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
@@ -179,7 +179,7 @@ console.log( v );
 
 -   <span class="package-name">[`@stdlib/stats/strided/dnanmeanors`][@stdlib/stats/strided/dnanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/meanors`][@stdlib/stats/strided/meanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using ordinary recursive summation.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanmean`][@stdlib/stats/base/nanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanmean`][@stdlib/stats/strided/nanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/snanmeanors`][@stdlib/stats/strided/snanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation.</span>
 
 </section>
@@ -204,7 +204,7 @@ console.log( v );
 
 [@stdlib/stats/strided/meanors]: https://github.com/stdlib-js/stats/tree/main/strided/meanors
 
-[@stdlib/stats/base/nanmean]: https://github.com/stdlib-js/stats/tree/main/base/nanmean
+[@stdlib/stats/strided/nanmean]: https://github.com/stdlib-js/stats/tree/main/strided/nanmean
 
 [@stdlib/stats/strided/snanmeanors]: https://github.com/stdlib-js/stats/tree/main/strided/snanmeanors
 

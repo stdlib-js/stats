@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`05df508`](https://github.com/stdlib-js/stdlib/commit/05df508c1c7fe5ec257bbff6650069f484a218c5) - add `stats/strided/nanmean`
+-   [`f37e80c`](https://github.com/stdlib-js/stdlib/commit/f37e80c13e82db373a8cd934e6e6c311ca96d4b4) - add `stats/strided/nanmeanpn`
+-   [`1d7a258`](https://github.com/stdlib-js/stdlib/commit/1d7a258119c825e74801ee034b96c295422473ca) - add `stats/strided/nanmeanors`
 -   [`fd9994f`](https://github.com/stdlib-js/stdlib/commit/fd9994fd26cb5d2e69203bae3afdb89ec278d11b) - add C implementation for `@stdlib/stats/base/dists/rayleigh/mgf` [(#4298)](https://github.com/stdlib-js/stdlib/pull/4298)
 -   [`1a7ae19`](https://github.com/stdlib-js/stdlib/commit/1a7ae191ea73d8495b9858428ae31f36b6d35c68) - add `stats/strided/nanmeanwd`
 -   [`923249b`](https://github.com/stdlib-js/stdlib/commit/923249b1780336683ec6957c56083494e20f76ab) - add `stats/strided/dmeanstdev`
@@ -955,6 +958,39 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`cb44d2a`](https://github.com/stdlib-js/stdlib/commit/cb44d2aca78bfecfc52c38b565264b8990a98206): remove `stats/base/nanmean`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanmean`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`d578b92`](https://github.com/stdlib-js/stdlib/commit/d578b92e9c616ddb8461a157c0c11973b2f62a3a): remove `nanmean`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`1913535`](https://github.com/stdlib-js/stdlib/commit/191353591388319e4e22e3c0674b0ce5de65eb56): remove `stats/base/nanmeanpn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanmeanpn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`8aec167`](https://github.com/stdlib-js/stdlib/commit/8aec167b2ac5d0b3f513a10c68c15d078fe6beeb): remove `nanmeanpn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`54b11ec`](https://github.com/stdlib-js/stdlib/commit/54b11ec72f228279cb1c7340b058438951f36680): remove `stats/base/nanmeanors`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanmeanors`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`1826f9d`](https://github.com/stdlib-js/stdlib/commit/1826f9d71cefad87f8e59c38027c3fe21a95d3eb): remove `nanmeanors`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`5655aa5`](https://github.com/stdlib-js/stdlib/commit/5655aa56d479c95ac8499ef5f9090cc7d17fc715): remove `stats/base/nanmeanwd`
 
@@ -2677,6 +2713,18 @@ A total of 512 issues were closed in this release:
 
 <details>
 
+-   [`cb44d2a`](https://github.com/stdlib-js/stdlib/commit/cb44d2aca78bfecfc52c38b565264b8990a98206) - **remove:** remove `stats/base/nanmean` _(by Gururaj Gurram)_
+-   [`fe87ef3`](https://github.com/stdlib-js/stdlib/commit/fe87ef3f1d320867b195765cd1aec7800270e33e) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`d578b92`](https://github.com/stdlib-js/stdlib/commit/d578b92e9c616ddb8461a157c0c11973b2f62a3a) - **remove:** remove `nanmean` from namespace _(by Gururaj Gurram)_
+-   [`05df508`](https://github.com/stdlib-js/stdlib/commit/05df508c1c7fe5ec257bbff6650069f484a218c5) - **feat:** add `stats/strided/nanmean` _(by Gururaj Gurram)_
+-   [`1913535`](https://github.com/stdlib-js/stdlib/commit/191353591388319e4e22e3c0674b0ce5de65eb56) - **remove:** remove `stats/base/nanmeanpn` _(by Gururaj Gurram)_
+-   [`88d22d6`](https://github.com/stdlib-js/stdlib/commit/88d22d6c0f3bbb65f3882c784e8b8069785398a5) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`8aec167`](https://github.com/stdlib-js/stdlib/commit/8aec167b2ac5d0b3f513a10c68c15d078fe6beeb) - **remove:** remove `nanmeanpn` from namespace _(by Gururaj Gurram)_
+-   [`f37e80c`](https://github.com/stdlib-js/stdlib/commit/f37e80c13e82db373a8cd934e6e6c311ca96d4b4) - **feat:** add `stats/strided/nanmeanpn` _(by Gururaj Gurram)_
+-   [`54b11ec`](https://github.com/stdlib-js/stdlib/commit/54b11ec72f228279cb1c7340b058438951f36680) - **remove:** remove `stats/base/nanmeanors` _(by Gururaj Gurram)_
+-   [`640da92`](https://github.com/stdlib-js/stdlib/commit/640da923ded4442eb8b246847d1ec9ec8a0ed833) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`1826f9d`](https://github.com/stdlib-js/stdlib/commit/1826f9d71cefad87f8e59c38027c3fe21a95d3eb) - **remove:** remove `nanmeanors` from namespace _(by Gururaj Gurram)_
+-   [`1d7a258`](https://github.com/stdlib-js/stdlib/commit/1d7a258119c825e74801ee034b96c295422473ca) - **feat:** add `stats/strided/nanmeanors` _(by Gururaj Gurram)_
 -   [`fd9994f`](https://github.com/stdlib-js/stdlib/commit/fd9994fd26cb5d2e69203bae3afdb89ec278d11b) - **feat:** add C implementation for `@stdlib/stats/base/dists/rayleigh/mgf` [(#4298)](https://github.com/stdlib-js/stdlib/pull/4298) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`5655aa5`](https://github.com/stdlib-js/stdlib/commit/5655aa56d479c95ac8499ef5f9090cc7d17fc715) - **remove:** remove `stats/base/nanmeanwd` _(by Gururaj Gurram)_
 -   [`e97f5eb`](https://github.com/stdlib-js/stdlib/commit/e97f5ebcadbf66ed57e815ddb6fe900720711816) - **refactor:** update paths _(by Gururaj Gurram)_

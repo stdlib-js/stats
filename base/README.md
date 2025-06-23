@@ -65,9 +65,9 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`dmeanstdevpn( N, correction, x, strideX, out, strideOut )`][@stdlib/stats/strided/dmeanstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the mean and standard deviation of a double-precision floating-point strided array using a two-pass algorithm.</span>
 -   <span class="signature">[`dmeanvar( N, correction, x, strideX, out, strideOut )`][@stdlib/stats/strided/dmeanvar]</span><span class="delimiter">: </span><span class="description">calculate the mean and variance of a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dmeanvarpn( N, correction, x, strideX, out, strideOut )`][@stdlib/stats/strided/dmeanvarpn]</span><span class="delimiter">: </span><span class="description">calculate the mean and variance of a double-precision floating-point strided array using a two-pass algorithm.</span>
--   <span class="signature">[`nanmean( N, x, strideX )`][@stdlib/stats/base/nanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring `NaN` values.</span>
--   <span class="signature">[`nanmeanors( N, x, strideX )`][@stdlib/stats/base/nanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring `NaN` values and using ordinary recursive summation.</span>
--   <span class="signature">[`nanmeanpn( N, x, strideX )`][@stdlib/stats/base/nanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring `NaN` values and using a two-pass error correction algorithm.</span>
+-   <span class="signature">[`nanmean( N, x, strideX )`][@stdlib/stats/strided/nanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring `NaN` values.</span>
+-   <span class="signature">[`nanmeanors( N, x, strideX )`][@stdlib/stats/strided/nanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring `NaN` values and using ordinary recursive summation.</span>
+-   <span class="signature">[`nanmeanpn( N, x, strideX )`][@stdlib/stats/strided/nanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring `NaN` values and using a two-pass error correction algorithm.</span>
 -   <span class="signature">[`nanmeanwd( N, x, strideX )`][@stdlib/stats/strided/nanmeanwd]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring `NaN` values and using Welford's algorithm.</span>
 -   <span class="signature">[`nanmskmax( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/nanmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanmskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/base/nanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask, ignoring `NaN` values.</span>
@@ -187,11 +187,11 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/strided/dmeanvarpn]: https://github.com/stdlib-js/stats/tree/main/strided/dmeanvarpn
 
-[@stdlib/stats/base/nanmean]: https://github.com/stdlib-js/stats/tree/main/base/nanmean
+[@stdlib/stats/strided/nanmean]: https://github.com/stdlib-js/stats/tree/main/strided/nanmean
 
-[@stdlib/stats/base/nanmeanors]: https://github.com/stdlib-js/stats/tree/main/base/nanmeanors
+[@stdlib/stats/strided/nanmeanors]: https://github.com/stdlib-js/stats/tree/main/strided/nanmeanors
 
-[@stdlib/stats/base/nanmeanpn]: https://github.com/stdlib-js/stats/tree/main/base/nanmeanpn
+[@stdlib/stats/strided/nanmeanpn]: https://github.com/stdlib-js/stats/tree/main/strided/nanmeanpn
 
 [@stdlib/stats/strided/nanmeanwd]: https://github.com/stdlib-js/stats/tree/main/strided/nanmeanwd
 

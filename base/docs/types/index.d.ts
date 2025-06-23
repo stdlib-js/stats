@@ -25,9 +25,6 @@ import cumaxabs = require( './../../../base/cumaxabs' );
 import cumin = require( './../../../base/cumin' );
 import cuminabs = require( './../../../base/cuminabs' );
 import dists = require( './../../../base/dists' );
-import nanmean = require( './../../../base/nanmean' );
-import nanmeanors = require( './../../../base/nanmeanors' );
-import nanmeanpn = require( './../../../base/nanmeanpn' );
 import nanmskmax = require( './../../../base/nanmskmax' );
 import nanmskmin = require( './../../../base/nanmskmin' );
 import nanmskrange = require( './../../../base/nanmskrange' );
@@ -205,72 +202,6 @@ interface Namespace {
 	* Base (i.e., lower-level) probability distributions.
 	*/
 	dists: typeof dists;
-
-	/**
-	* Computes the arithmetic mean of a strided array, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanmean( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanmean.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	nanmean: typeof nanmean;
-
-	/**
-	* Computes the arithmetic mean of a strided array, ignoring `NaN` values and using ordinary recursive summation.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanmeanors( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanmeanors.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	nanmeanors: typeof nanmeanors;
-
-	/**
-	* Computes the arithmetic mean of a strided array, ignoring `NaN` values and using a two-pass error correction algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanmeanpn( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanmeanpn.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	nanmeanpn: typeof nanmeanpn;
 
 	/**
 	* Computes the maximum value of a strided array according to a mask, ignoring `NaN` values.

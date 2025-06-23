@@ -19,24 +19,24 @@
 'use strict';
 
 /**
-* Compute the arithmetic mean of a strided array, ignoring `NaN` values and using a two-pass error correction algorithm.
+* Compute the arithmetic mean of a strided array, ignoring `NaN` values and using ordinary recursive summation.
 *
-* @module @stdlib/stats/base/nanmeanpn
+* @module @stdlib/stats/strided/nanmeanors
 *
 * @example
-* var nanmeanpn = require( '@stdlib/stats/base/nanmeanpn' );
+* var nanmeanors = require( '@stdlib/stats/strided/nanmeanors' );
 *
 * var x = [ 1.0, -2.0, NaN, 2.0 ];
 *
-* var v = nanmeanpn( x.length, x, 1 );
+* var v = nanmeanors( x.length, x, 1 );
 * // returns ~0.3333
 *
 * @example
-* var nanmeanpn = require( '@stdlib/stats/base/nanmeanpn' );
+* var nanmeanors = require( '@stdlib/stats/strided/nanmeanors' );
 *
-* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
+* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN ];
 *
-* var v = nanmeanpn.ndarray( 5, x, 2, 1 );
+* var v = nanmeanors.ndarray( 4, x, 2, 1 );
 * // returns 1.25
 */
 

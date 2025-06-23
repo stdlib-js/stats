@@ -19,30 +19,37 @@
 'use strict';
 
 /**
-* Compute the arithmetic mean of a strided array, ignoring `NaN` values.
+* Compute the arithmetic mean of a strided array, ignoring `NaN` values and using a two-pass error correction algorithm.
 *
-* @module @stdlib/stats/base/nanmean
+* @module @stdlib/stats/strided/nanmeanpn
 *
 * @example
-* var nanmean = require( '@stdlib/stats/base/nanmean' );
+* var nanmeanpn = require( '@stdlib/stats/strided/nanmeanpn' );
 *
 * var x = [ 1.0, -2.0, NaN, 2.0 ];
 *
-* var v = nanmean( x.length, x, 1 );
+* var v = nanmeanpn( x.length, x, 1 );
 * // returns ~0.3333
 *
 * @example
-* var nanmean = require( '@stdlib/stats/base/nanmean' );
+* var nanmeanpn = require( '@stdlib/stats/strided/nanmeanpn' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
 *
-* var v = nanmean.ndarray( 5, x, 2, 1 );
+* var v = nanmeanpn.ndarray( 5, x, 2, 1 );
 * // returns 1.25
 */
 
 // MODULES //
 
+var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var main = require( './main.js' );
+var ndarray = require( './ndarray.js' );
+
+
+// MAIN //
+
+setReadOnly( main, 'ndarray', ndarray );
 
 
 // EXPORTS //
