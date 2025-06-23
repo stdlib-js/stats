@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dmeanvarpn = require( './../../../base/dmeanvarpn' ).ndarray;
+var dmeanvarpn = require( './../../../strided/dmeanvarpn' ).ndarray;
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 
 

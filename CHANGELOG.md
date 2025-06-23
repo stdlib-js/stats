@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4307e05`](https://github.com/stdlib-js/stdlib/commit/4307e05b7a0904672bc13e831fe9b2f3aa1ef14e) - add `stats/strided/dmeanvarpn`
 -   [`f344e9d`](https://github.com/stdlib-js/stdlib/commit/f344e9d6c049596d178389bd07f3be5eace72deb) - add `stats/base/dists/kumaraswamy/stdev` [(#4513)](https://github.com/stdlib-js/stdlib/pull/4513)
 -   [`b74cf16`](https://github.com/stdlib-js/stdlib/commit/b74cf1670fd9f0bde46fd02d2e432c94bbebf6c6) - add C implementation for `stats/base/dists/binomial/mgf` [(#4414)](https://github.com/stdlib-js/stdlib/pull/4414)
 -   [`21768a1`](https://github.com/stdlib-js/stdlib/commit/21768a127aa997bdb118af0a5986bc581690d52a) - add C implementation for `stats/base/dists/pareto-type1/pdf` [(#4452)](https://github.com/stdlib-js/stdlib/pull/4452)
@@ -949,6 +950,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`8bb4237`](https://github.com/stdlib-js/stdlib/commit/8bb4237230cb442674543b3f3ba3b06d39b9da19): remove `stats/base/dmeanvarpn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dmeanvarpn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`c344562`](https://github.com/stdlib-js/stdlib/commit/c344562ecf774bbd46581c59fbf99a94a738e923): remove `dmeanvarpn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`8aac235`](https://github.com/stdlib-js/stdlib/commit/8aac2356d862624b619505a56d4dcdd2cb0b6cdf): remove `stats/base/svariance`
 
@@ -2616,6 +2628,10 @@ A total of 511 issues were closed in this release:
 
 <details>
 
+-   [`8bb4237`](https://github.com/stdlib-js/stdlib/commit/8bb4237230cb442674543b3f3ba3b06d39b9da19) - **remove:** remove `stats/base/dmeanvarpn` _(by Gururaj Gurram)_
+-   [`ae4b511`](https://github.com/stdlib-js/stdlib/commit/ae4b511f75c86f46f18bf259996eee93b6cead8f) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`c344562`](https://github.com/stdlib-js/stdlib/commit/c344562ecf774bbd46581c59fbf99a94a738e923) - **remove:** remove `dmeanvarpn` from namespace _(by Gururaj Gurram)_
+-   [`4307e05`](https://github.com/stdlib-js/stdlib/commit/4307e05b7a0904672bc13e831fe9b2f3aa1ef14e) - **feat:** add `stats/strided/dmeanvarpn` _(by Gururaj Gurram)_
 -   [`f344e9d`](https://github.com/stdlib-js/stdlib/commit/f344e9d6c049596d178389bd07f3be5eace72deb) - **feat:** add `stats/base/dists/kumaraswamy/stdev` [(#4513)](https://github.com/stdlib-js/stdlib/pull/4513) _(by Shabareesh Shetty, Philipp Burckhardt, stdlib-bot)_
 -   [`b74cf16`](https://github.com/stdlib-js/stdlib/commit/b74cf1670fd9f0bde46fd02d2e432c94bbebf6c6) - **feat:** add C implementation for `stats/base/dists/binomial/mgf` [(#4414)](https://github.com/stdlib-js/stdlib/pull/4414) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`32af820`](https://github.com/stdlib-js/stdlib/commit/32af8206457723cf95b4b18d676e054090a85a67) - **docs:** update namespace table of contents [(#7458)](https://github.com/stdlib-js/stdlib/pull/7458) _(by stdlib-bot)_

@@ -21,11 +21,11 @@
 /**
 * Compute the mean and variance of a double-precision floating-point strided array using a two-pass algorithm.
 *
-* @module @stdlib/stats/base/dmeanvarpn
+* @module @stdlib/stats/strided/dmeanvarpn
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmeanvarpn = require( '@stdlib/stats/base/dmeanvarpn' );
+* var dmeanvarpn = require( '@stdlib/stats/strided/dmeanvarpn' );
 *
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
 * var out = new Float64Array( 2 );
@@ -35,7 +35,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dmeanvarpn = require( '@stdlib/stats/base/dmeanvarpn' );
+* var dmeanvarpn = require( '@stdlib/stats/strided/dmeanvarpn' );
 *
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 * var out = new Float64Array( 2 );

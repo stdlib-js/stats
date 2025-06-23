@@ -40,7 +40,7 @@
       "dependencies": [
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset",
-        "@stdlib/stats/base/dmeanvarpn",
+        "@stdlib/stats/strided/dmeanvarpn",
         "@stdlib/math/base/special/sqrt",
         "@stdlib/napi/export",
         "@stdlib/napi/argv",
@@ -63,7 +63,7 @@
       "dependencies": [
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset",
-        "@stdlib/stats/base/dmeanvarpn",
+        "@stdlib/stats/strided/dmeanvarpn",
         "@stdlib/math/base/special/sqrt"
       ]
     },
@@ -81,7 +81,7 @@
       "dependencies": [
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset",
-        "@stdlib/stats/base/dmeanvarpn",
+        "@stdlib/stats/strided/dmeanvarpn",
         "@stdlib/math/base/special/sqrt"
       ]
     },
@@ -99,7 +99,7 @@
       "dependencies": [
         "@stdlib/blas/base/shared",
         "@stdlib/strided/base/stride2offset",
-        "@stdlib/stats/base/dmeanvarpn",
+        "@stdlib/stats/strided/dmeanvarpn",
         "@stdlib/math/base/special/sqrt"
       ]
     }

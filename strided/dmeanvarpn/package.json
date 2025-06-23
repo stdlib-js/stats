@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/dmeanvarpn",
+  "name": "@stdlib/stats/strided/dmeanvarpn",
   "version": "0.0.0",
   "description": "Calculate the mean and variance of a double-precision floating-point strided array using a two-pass algorithm.",
   "license": "Apache-2.0",
