@@ -100,15 +100,6 @@ setReadOnly( ns, 'dmeanstdev', require( './../../base/dmeanstdev' ) );
 setReadOnly( ns, 'dmeanstdevpn', require( './../../base/dmeanstdevpn' ) );
 
 /**
-* @name dmeanvar
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/dmeanvar}
-*/
-setReadOnly( ns, 'dmeanvar', require( './../../base/dmeanvar' ) );
-
-/**
 * @name nanmean
 * @memberof ns
 * @readonly

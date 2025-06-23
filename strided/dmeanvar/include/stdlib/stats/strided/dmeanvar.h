@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_STATS_BASE_DMEANVAR_H
-#define STDLIB_STATS_BASE_DMEANVAR_H
+#ifndef STDLIB_STATS_STRIDED_DMEANVAR_H
+#define STDLIB_STATS_STRIDED_DMEANVAR_H
 
 #include "stdlib/blas/base/shared.h"
 
@@ -42,4 +42,4 @@ void API_SUFFIX(stdlib_strided_dmeanvar_ndarray)( const CBLAS_INT N, const doubl
 }
 #endif
 
-#endif // !STDLIB_STATS_BASE_DMEANVAR_H
+#endif // !STDLIB_STATS_STRIDED_DMEANVAR_H

@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dmeanvar.h"
+#include "stdlib/stats/strided/dmeanvar.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
