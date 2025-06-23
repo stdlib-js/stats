@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`94dff3a`](https://github.com/stdlib-js/stdlib/commit/94dff3ae7ded1d34a02388dd2699caab1d06535c) - add `stats/strided/dmeanstdevpn`
 -   [`66596ad`](https://github.com/stdlib-js/stdlib/commit/66596ad5d49d369bf25014a26af3c2147ce39346) - add `stats/strided/dmeanvar`
 -   [`4307e05`](https://github.com/stdlib-js/stdlib/commit/4307e05b7a0904672bc13e831fe9b2f3aa1ef14e) - add `stats/strided/dmeanvarpn`
 -   [`f344e9d`](https://github.com/stdlib-js/stdlib/commit/f344e9d6c049596d178389bd07f3be5eace72deb) - add `stats/base/dists/kumaraswamy/stdev` [(#4513)](https://github.com/stdlib-js/stdlib/pull/4513)
@@ -951,6 +952,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`0f45398`](https://github.com/stdlib-js/stdlib/commit/0f453981fc2f27d10d1a4d94ac058d331ec458b3): remove `stats/base/dmeanstdevpn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dmeanstdevpn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`f8a1170`](https://github.com/stdlib-js/stdlib/commit/f8a1170a72e3fea1b21c9d7795f5eab8069a1108): remove `dmeanstdevpn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`a7b1024`](https://github.com/stdlib-js/stdlib/commit/a7b102413d26c2d5c6c9e1aa01da54abeba724eb): remove `stats/base/dmeanvar`
 
@@ -2640,6 +2652,10 @@ A total of 511 issues were closed in this release:
 
 <details>
 
+-   [`0f45398`](https://github.com/stdlib-js/stdlib/commit/0f453981fc2f27d10d1a4d94ac058d331ec458b3) - **remove:** remove `stats/base/dmeanstdevpn` _(by Gururaj Gurram)_
+-   [`625686b`](https://github.com/stdlib-js/stdlib/commit/625686b7ac03c5bf31b5b46b9f7497fd1128241a) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`f8a1170`](https://github.com/stdlib-js/stdlib/commit/f8a1170a72e3fea1b21c9d7795f5eab8069a1108) - **remove:** remove `dmeanstdevpn` from namespace _(by Gururaj Gurram)_
+-   [`94dff3a`](https://github.com/stdlib-js/stdlib/commit/94dff3ae7ded1d34a02388dd2699caab1d06535c) - **feat:** add `stats/strided/dmeanstdevpn` _(by Gururaj Gurram)_
 -   [`a7b1024`](https://github.com/stdlib-js/stdlib/commit/a7b102413d26c2d5c6c9e1aa01da54abeba724eb) - **remove:** remove `stats/base/dmeanvar` _(by Gururaj Gurram)_
 -   [`424afa0`](https://github.com/stdlib-js/stdlib/commit/424afa0b52647777021656a290edbc24a3176894) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`24476b8`](https://github.com/stdlib-js/stdlib/commit/24476b8094aa6c09ad32d157ff4f0faa2b1c207b) - **remove:** remove `dmeanvar` from namespace _(by Gururaj Gurram)_

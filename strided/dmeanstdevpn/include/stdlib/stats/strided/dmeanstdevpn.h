@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_STATS_BASE_DMEANSTDEVPN_H
-#define STDLIB_STATS_BASE_DMEANSTDEVPN_H
+#ifndef STDLIB_STATS_STRIDED_DMEANSTDEVPN_H
+#define STDLIB_STATS_STRIDED_DMEANSTDEVPN_H
 
 #include "stdlib/blas/base/shared.h"
 
@@ -42,4 +42,4 @@ void API_SUFFIX(stdlib_strided_dmeanstdevpn_ndarray)( const CBLAS_INT N, const d
 }
 #endif
 
-#endif // !STDLIB_STATS_BASE_DMEANSTDEVPN_H
+#endif // !STDLIB_STATS_STRIDED_DMEANSTDEVPN_H

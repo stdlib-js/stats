@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dmeanstdevpn = require( './../../../base/dmeanstdevpn' ).ndarray;
+var dmeanstdevpn = require( './../../../strided/dmeanstdevpn' ).ndarray;
 
 
 // MAIN //

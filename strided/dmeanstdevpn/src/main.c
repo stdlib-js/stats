@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/base/dmeanstdevpn.h"
+#include "stdlib/stats/strided/dmeanstdevpn.h"
 #include "stdlib/stats/strided/dmeanvarpn.h"
 #include "stdlib/math/base/special/sqrt.h"
 #include "stdlib/strided/base/stride2offset.h"

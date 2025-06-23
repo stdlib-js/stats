@@ -17,7 +17,7 @@
 */
 
 #include "stdlib/stats/base/dmeanstdev.h"
-#include "stdlib/stats/base/dmeanstdevpn.h"
+#include "stdlib/stats/strided/dmeanstdevpn.h"
 #include "stdlib/strided/base/stride2offset.h"
 #include "stdlib/blas/base/shared.h"
 
