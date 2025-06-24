@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c6ae2c0`](https://github.com/stdlib-js/stdlib/commit/c6ae2c000e8f0d37ecb824b4d9da1c065f2889a9) - add C implementation for `stats/base/dists/normal/mean`
 -   [`a42b9b9`](https://github.com/stdlib-js/stdlib/commit/a42b9b921e8338cb4fd73198c742950726c1775c) - add `isStruct` static method and update tests
 -   [`05df508`](https://github.com/stdlib-js/stdlib/commit/05df508c1c7fe5ec257bbff6650069f484a218c5) - add `stats/strided/nanmean`
 -   [`f37e80c`](https://github.com/stdlib-js/stdlib/commit/f37e80c13e82db373a8cd934e6e6c311ca96d4b4) - add `stats/strided/nanmeanpn`
@@ -2720,6 +2721,7 @@ A total of 512 issues were closed in this release:
 
 <details>
 
+-   [`c6ae2c0`](https://github.com/stdlib-js/stdlib/commit/c6ae2c000e8f0d37ecb824b4d9da1c065f2889a9) - **feat:** add C implementation for `stats/base/dists/normal/mean` _(by Philipp Burckhardt)_
 -   [`00add1e`](https://github.com/stdlib-js/stdlib/commit/00add1eb9ad8dd682b8759a7401a4e900509931d) - **fix:** use correct return value _(by Athan Reines)_
 -   [`30b331e`](https://github.com/stdlib-js/stdlib/commit/30b331efe958bd5cab7e2bd51c45fcfa95f7c485) - **fix:** use correct return value _(by Athan Reines)_
 -   [`d2abe65`](https://github.com/stdlib-js/stdlib/commit/d2abe65f9dbe8b728f088e5635e096edc232fea8) - **fix:** use correct return value _(by Athan Reines)_
