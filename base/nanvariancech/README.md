@@ -262,6 +262,8 @@ console.log( v );
 
 [@schubert:2018a]: https://doi.org/10.1145/3221269.3223036
 
+[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
+
 <!-- <related-links> -->
 
 [@stdlib/stats/strided/dnanvariancech]: https://github.com/stdlib-js/stats/tree/main/strided/dnanvariancech
@@ -273,8 +275,6 @@ console.log( v );
 [@stdlib/stats/base/snanvariancech]: https://github.com/stdlib-js/stats/tree/main/base/snanvariancech
 
 [@stdlib/stats/base/variancech]: https://github.com/stdlib-js/stats/tree/main/base/variancech
-
-[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
 <!-- </related-links> -->
 
