@@ -2714,6 +2714,10 @@ A total of 512 issues were closed in this release:
 
 <details>
 
+-   [`bfe91db`](https://github.com/stdlib-js/stdlib/commit/bfe91db9d29fed2630637a535b37a251b1904729) - **refactor:** use base ndarray utility _(by Athan Reines)_
+-   [`81b7bd5`](https://github.com/stdlib-js/stdlib/commit/81b7bd579b25a9094a6010a8d6f1b262b53ff0c7) - **refactor:** use base ndarray utility _(by Athan Reines)_
+-   [`bc3d9f8`](https://github.com/stdlib-js/stdlib/commit/bc3d9f874bf104401acb9ba825fa73bda0ed9463) - **refactor:** use base ndarray utility _(by Athan Reines)_
+-   [`031d469`](https://github.com/stdlib-js/stdlib/commit/031d4696768d3eeac3f9432c57d6c979f58b540c) - **docs:** update related packages sections [(#7470)](https://github.com/stdlib-js/stdlib/pull/7470) _(by stdlib-bot, Athan Reines)_
 -   [`6f019ca`](https://github.com/stdlib-js/stdlib/commit/6f019ca3fa544d44dfdfd7a28580ba1031971a9d) - **docs:** update namespace table of contents [(#7472)](https://github.com/stdlib-js/stdlib/pull/7472) _(by stdlib-bot)_
 -   [`edef1e2`](https://github.com/stdlib-js/stdlib/commit/edef1e298a551ed453c4edc3d769746baf5dbde1) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`a0cba4f`](https://github.com/stdlib-js/stdlib/commit/a0cba4fddcaa21afc5862d5814c26e9d6c6c134c) - **test:** add tests for static methods _(by Athan Reines)_
