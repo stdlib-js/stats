@@ -2714,6 +2714,7 @@ A total of 512 issues were closed in this release:
 
 <details>
 
+-   [`edef1e2`](https://github.com/stdlib-js/stdlib/commit/edef1e298a551ed453c4edc3d769746baf5dbde1) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`a0cba4f`](https://github.com/stdlib-js/stdlib/commit/a0cba4fddcaa21afc5862d5814c26e9d6c6c134c) - **test:** add tests for static methods _(by Athan Reines)_
 -   [`d98b085`](https://github.com/stdlib-js/stdlib/commit/d98b0852c489759cc99f6d14e4ae1dab31df0a82) - **test:** add tests for static methods _(by Athan Reines)_
 -   [`a42b9b9`](https://github.com/stdlib-js/stdlib/commit/a42b9b921e8338cb4fd73198c742950726c1775c) - **feat:** add `isStruct` static method and update tests _(by Athan Reines)_
