@@ -96,14 +96,14 @@ function sztest( arrays ) {
 	var y;
 
 	x = arrays[ 0 ];
-	y = arrays[ 1 ];
+	y = ndarraylike2scalar( arrays[ 1 ] );
 
 	alt = ndarraylike2scalar( arrays[ 2 ] );
 	alpha = ndarraylike2scalar( arrays[ 3 ] );
 	mu = ndarraylike2scalar( arrays[ 4 ] );
 	sigma = ndarraylike2scalar( arrays[ 5 ] );
 
-	strided( numelDimension( x, 0 ), alt, alpha, mu, sigma, getData( x ), getStride( x, 0 ), getOffset( x ), y.get() ); // eslint-disable-line max-len
+	strided( numelDimension( x, 0 ), alt, alpha, mu, sigma, getData( x ), getStride( x, 0 ), getOffset( x ), y ); // eslint-disable-line max-len
 
 	return y;
 }

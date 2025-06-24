@@ -898,6 +898,9 @@
 
 ### Bug Fixes
 
+-   [`dd7aec5`](https://github.com/stdlib-js/stdlib/commit/dd7aec54bca8d8e1826ed56d499abbce23a7f19d) - ensure support for minimal ndarray-like objects
+-   [`d9d6025`](https://github.com/stdlib-js/stdlib/commit/d9d6025216e17a9698443312a57cb6928ccff5d0) - ensure support for minimal ndarray-like objects
+-   [`25a5630`](https://github.com/stdlib-js/stdlib/commit/25a56303f451e51ede40b37a041d6bbc7f67b7e7) - ensure support for minimal ndarray-like objects
 -   [`3c72680`](https://github.com/stdlib-js/stdlib/commit/3c72680427f484cad956390101fda76e4c247f8b) - always resolve the alternative string
 -   [`b969863`](https://github.com/stdlib-js/stdlib/commit/b96986389424d71ba9ffd381829e3a029cf32e5d) - always resolve the alternative string
 -   [`3a44f75`](https://github.com/stdlib-js/stdlib/commit/3a44f75d828b2c83ac1aca31ad24206ed6fca116) - always resolve the alternative string
@@ -2714,6 +2717,9 @@ A total of 512 issues were closed in this release:
 
 <details>
 
+-   [`dd7aec5`](https://github.com/stdlib-js/stdlib/commit/dd7aec54bca8d8e1826ed56d499abbce23a7f19d) - **fix:** ensure support for minimal ndarray-like objects _(by Athan Reines)_
+-   [`d9d6025`](https://github.com/stdlib-js/stdlib/commit/d9d6025216e17a9698443312a57cb6928ccff5d0) - **fix:** ensure support for minimal ndarray-like objects _(by Athan Reines)_
+-   [`25a5630`](https://github.com/stdlib-js/stdlib/commit/25a56303f451e51ede40b37a041d6bbc7f67b7e7) - **fix:** ensure support for minimal ndarray-like objects _(by Athan Reines)_
 -   [`bfe91db`](https://github.com/stdlib-js/stdlib/commit/bfe91db9d29fed2630637a535b37a251b1904729) - **refactor:** use base ndarray utility _(by Athan Reines)_
 -   [`81b7bd5`](https://github.com/stdlib-js/stdlib/commit/81b7bd579b25a9094a6010a8d6f1b262b53ff0c7) - **refactor:** use base ndarray utility _(by Athan Reines)_
 -   [`bc3d9f8`](https://github.com/stdlib-js/stdlib/commit/bc3d9f874bf104401acb9ba825fa73bda0ed9463) - **refactor:** use base ndarray utility _(by Athan Reines)_
