@@ -105,7 +105,7 @@ function sztest( arrays ) {
 
 	strided( numelDimension( x, 0 ), alt, alpha, mu, sigma, getData( x ), getStride( x, 0 ), getOffset( x ), y ); // eslint-disable-line max-len
 
-	return y;
+	return arrays[ 1 ];
 }
 
 

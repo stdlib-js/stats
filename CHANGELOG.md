@@ -898,6 +898,9 @@
 
 ### Bug Fixes
 
+-   [`00add1e`](https://github.com/stdlib-js/stdlib/commit/00add1eb9ad8dd682b8759a7401a4e900509931d) - use correct return value
+-   [`30b331e`](https://github.com/stdlib-js/stdlib/commit/30b331efe958bd5cab7e2bd51c45fcfa95f7c485) - use correct return value
+-   [`d2abe65`](https://github.com/stdlib-js/stdlib/commit/d2abe65f9dbe8b728f088e5635e096edc232fea8) - use correct return value
 -   [`dd7aec5`](https://github.com/stdlib-js/stdlib/commit/dd7aec54bca8d8e1826ed56d499abbce23a7f19d) - ensure support for minimal ndarray-like objects
 -   [`d9d6025`](https://github.com/stdlib-js/stdlib/commit/d9d6025216e17a9698443312a57cb6928ccff5d0) - ensure support for minimal ndarray-like objects
 -   [`25a5630`](https://github.com/stdlib-js/stdlib/commit/25a56303f451e51ede40b37a041d6bbc7f67b7e7) - ensure support for minimal ndarray-like objects
@@ -2717,6 +2720,9 @@ A total of 512 issues were closed in this release:
 
 <details>
 
+-   [`00add1e`](https://github.com/stdlib-js/stdlib/commit/00add1eb9ad8dd682b8759a7401a4e900509931d) - **fix:** use correct return value _(by Athan Reines)_
+-   [`30b331e`](https://github.com/stdlib-js/stdlib/commit/30b331efe958bd5cab7e2bd51c45fcfa95f7c485) - **fix:** use correct return value _(by Athan Reines)_
+-   [`d2abe65`](https://github.com/stdlib-js/stdlib/commit/d2abe65f9dbe8b728f088e5635e096edc232fea8) - **fix:** use correct return value _(by Athan Reines)_
 -   [`dd7aec5`](https://github.com/stdlib-js/stdlib/commit/dd7aec54bca8d8e1826ed56d499abbce23a7f19d) - **fix:** ensure support for minimal ndarray-like objects _(by Athan Reines)_
 -   [`d9d6025`](https://github.com/stdlib-js/stdlib/commit/d9d6025216e17a9698443312a57cb6928ccff5d0) - **fix:** ensure support for minimal ndarray-like objects _(by Athan Reines)_
 -   [`25a5630`](https://github.com/stdlib-js/stdlib/commit/25a56303f451e51ede40b37a041d6bbc7f67b7e7) - **fix:** ensure support for minimal ndarray-like objects _(by Athan Reines)_
