@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-23)
+## Unreleased (2025-06-24)
 
 <section class="features">
 
 ### Features
 
+-   [`a42b9b9`](https://github.com/stdlib-js/stdlib/commit/a42b9b921e8338cb4fd73198c742950726c1775c) - add `isStruct` static method and update tests
 -   [`05df508`](https://github.com/stdlib-js/stdlib/commit/05df508c1c7fe5ec257bbff6650069f484a218c5) - add `stats/strided/nanmean`
 -   [`f37e80c`](https://github.com/stdlib-js/stdlib/commit/f37e80c13e82db373a8cd934e6e6c311ca96d4b4) - add `stats/strided/nanmeanpn`
 -   [`1d7a258`](https://github.com/stdlib-js/stdlib/commit/1d7a258119c825e74801ee034b96c295422473ca) - add `stats/strided/nanmeanors`
@@ -2713,6 +2714,9 @@ A total of 512 issues were closed in this release:
 
 <details>
 
+-   [`a0cba4f`](https://github.com/stdlib-js/stdlib/commit/a0cba4fddcaa21afc5862d5814c26e9d6c6c134c) - **test:** add tests for static methods _(by Athan Reines)_
+-   [`d98b085`](https://github.com/stdlib-js/stdlib/commit/d98b0852c489759cc99f6d14e4ae1dab31df0a82) - **test:** add tests for static methods _(by Athan Reines)_
+-   [`a42b9b9`](https://github.com/stdlib-js/stdlib/commit/a42b9b921e8338cb4fd73198c742950726c1775c) - **feat:** add `isStruct` static method and update tests _(by Athan Reines)_
 -   [`cb44d2a`](https://github.com/stdlib-js/stdlib/commit/cb44d2aca78bfecfc52c38b565264b8990a98206) - **remove:** remove `stats/base/nanmean` _(by Gururaj Gurram)_
 -   [`fe87ef3`](https://github.com/stdlib-js/stdlib/commit/fe87ef3f1d320867b195765cd1aec7800270e33e) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`d578b92`](https://github.com/stdlib-js/stdlib/commit/d578b92e9c616ddb8461a157c0c11973b2f62a3a) - **remove:** remove `nanmean` from namespace _(by Gururaj Gurram)_
