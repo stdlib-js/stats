@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -23,19 +23,28 @@
 /**
 * Computes the variance of a strided array using a one-pass textbook algorithm.
 *
+* @private
 * @param {PositiveInteger} N - number of indexed elements
 * @param {number} correction - degrees of freedom adjustment
-* @param {NumericArray} x - input array
-* @param {integer} stride - stride length
+* @param {Object} x - input array object
+* @param {Collection} x.data - input array data
+* @param {Array<Function>} x.accessors - array element accessors
+* @param {integer} strideX - stride length
+* @param {NonNegativeInteger} offsetX - starting index
 * @returns {number} variance
 *
 * @example
-* var x = [ 1.0, -2.0, 2.0 ];
+* var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
+* var arraylike2object = require( '@stdlib/array/base/arraylike2object' );
 *
-* var v = variancetk( x.length, 1, x, 1 );
-* // returns ~4.3333
+* var x = toAccessorArray( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
+*
+* var v = variancetk( 4, 1, arraylike2object( x ), 2, 1 );
+* // returns 6.25
 */
-function variancetk( N, correction, x, stride ) {
+function variancetk( N, correction, x, strideX, offsetX ) {
+	var xbuf;
+	var get;
 	var S2;
 	var ix;
 	var S;
@@ -43,25 +52,21 @@ function variancetk( N, correction, x, stride ) {
 	var n;
 	var i;
 
+	// Cache reference to array data:
+	xbuf = x.data;
+
+	// Cache a reference to the element accessor:
+	get = x.accessors[ 0 ];
+
 	n = N - correction;
-	if ( N <= 0 || n <= 0.0 ) {
-		return NaN;
-	}
-	if ( N === 1 || stride === 0 ) {
-		return 0.0;
-	}
-	if ( stride < 0 ) {
-		ix = (1-N) * stride;
-	} else {
-		ix = 0;
-	}
+	ix = offsetX;
 	S2 = 0.0;
 	S = 0.0;
 	for ( i = 0; i < N; i++ ) {
-		v = x[ ix ];
+		v = get( xbuf, ix );
 		S2 += v * v;
 		S += v;
-		ix += stride;
+		ix += strideX;
 	}
 	return (S2 - ((S/N)*S)) / n;
 }
