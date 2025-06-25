@@ -10,6 +10,15 @@
 
 ### Features
 
+-   [`74b29a5`](https://github.com/stdlib-js/stdlib/commit/74b29a5184d2d1d0826b5b9da4e01a986eabffb5) - add C implementation for `stats/base/dists/bradford/median`
+-   [`bd51ebe`](https://github.com/stdlib-js/stdlib/commit/bd51ebe5f252f95c9c8961ce5b7dbd6d1a4e35da) - add C implementation for `stats/base/dists/bradford/mean`
+-   [`6a3edd8`](https://github.com/stdlib-js/stdlib/commit/6a3edd843858d5fd7faa074bf02d8757baa7ff36) - add C implementation for `stats/base/dists/bradford/quantile`
+-   [`306a302`](https://github.com/stdlib-js/stdlib/commit/306a30294e921def55ac3614e651aff95bd339d4) - add C implementation for `stats/base/dists/bradford/pdf`
+-   [`e3541f0`](https://github.com/stdlib-js/stdlib/commit/e3541f04b6cea0b599541f7e4225140469ee7d35) - add C implementation for `stats/base/dists/bradford/cdf`
+-   [`3491002`](https://github.com/stdlib-js/stdlib/commit/3491002e548afcb41f20d03cb348f9329f3080a6) - add C implementation for `stats/base/dists/bradford/mode`
+-   [`1acbc66`](https://github.com/stdlib-js/stdlib/commit/1acbc66006c70ed6d23ea1abd4307da4b9b9235b) - add C implementation for `stats/base/dists/bradford/entropy`
+-   [`f9ed054`](https://github.com/stdlib-js/stdlib/commit/f9ed05408e320ec9c68f4abe374e95ad0fed0b63) - add C implementation for `stats/base/dists/bradford/stdev`
+-   [`94efaa4`](https://github.com/stdlib-js/stdlib/commit/94efaa41dbcf4719bff4fd4bb73ed1a22204716e) - add C implementation for `stats/base/dists/bradford/variance`
 -   [`2a15634`](https://github.com/stdlib-js/stdlib/commit/2a156343175765e94f3c0414f0701ad8c5c01d4b) - refactor and add protocol support to `stats/base/nanmskmin` [(#6103)](https://github.com/stdlib-js/stdlib/pull/6103)
 -   [`3efb3a8`](https://github.com/stdlib-js/stdlib/commit/3efb3a803162fd01eef6f5b1f10bf972a6734a72) - add support for accessor arrays and refactor `stats/base/variance` [(#7481)](https://github.com/stdlib-js/stdlib/pull/7481)
 -   [`2e0bd53`](https://github.com/stdlib-js/stdlib/commit/2e0bd530323cfbd723332f5487b5971bb70b5eb2) - add support for accessor arrays and refactor `stats/base/variancetk` [(#5926)](https://github.com/stdlib-js/stdlib/pull/5926)
@@ -2724,6 +2733,15 @@ A total of 515 issues were closed in this release:
 
 <details>
 
+-   [`74b29a5`](https://github.com/stdlib-js/stdlib/commit/74b29a5184d2d1d0826b5b9da4e01a986eabffb5) - **feat:** add C implementation for `stats/base/dists/bradford/median` _(by Philipp Burckhardt)_
+-   [`bd51ebe`](https://github.com/stdlib-js/stdlib/commit/bd51ebe5f252f95c9c8961ce5b7dbd6d1a4e35da) - **feat:** add C implementation for `stats/base/dists/bradford/mean` _(by Philipp Burckhardt)_
+-   [`6a3edd8`](https://github.com/stdlib-js/stdlib/commit/6a3edd843858d5fd7faa074bf02d8757baa7ff36) - **feat:** add C implementation for `stats/base/dists/bradford/quantile` _(by Philipp Burckhardt)_
+-   [`306a302`](https://github.com/stdlib-js/stdlib/commit/306a30294e921def55ac3614e651aff95bd339d4) - **feat:** add C implementation for `stats/base/dists/bradford/pdf` _(by Philipp Burckhardt)_
+-   [`e3541f0`](https://github.com/stdlib-js/stdlib/commit/e3541f04b6cea0b599541f7e4225140469ee7d35) - **feat:** add C implementation for `stats/base/dists/bradford/cdf` _(by Philipp Burckhardt)_
+-   [`3491002`](https://github.com/stdlib-js/stdlib/commit/3491002e548afcb41f20d03cb348f9329f3080a6) - **feat:** add C implementation for `stats/base/dists/bradford/mode` _(by Philipp Burckhardt)_
+-   [`1acbc66`](https://github.com/stdlib-js/stdlib/commit/1acbc66006c70ed6d23ea1abd4307da4b9b9235b) - **feat:** add C implementation for `stats/base/dists/bradford/entropy` _(by Philipp Burckhardt)_
+-   [`f9ed054`](https://github.com/stdlib-js/stdlib/commit/f9ed05408e320ec9c68f4abe374e95ad0fed0b63) - **feat:** add C implementation for `stats/base/dists/bradford/stdev` _(by Philipp Burckhardt)_
+-   [`94efaa4`](https://github.com/stdlib-js/stdlib/commit/94efaa41dbcf4719bff4fd4bb73ed1a22204716e) - **feat:** add C implementation for `stats/base/dists/bradford/variance` _(by Philipp Burckhardt)_
 -   [`2a15634`](https://github.com/stdlib-js/stdlib/commit/2a156343175765e94f3c0414f0701ad8c5c01d4b) - **feat:** refactor and add protocol support to `stats/base/nanmskmin` [(#6103)](https://github.com/stdlib-js/stdlib/pull/6103) _(by Gautam Kaushik, Athan Reines, Gururaj Gurram, stdlib-bot)_
 -   [`3efb3a8`](https://github.com/stdlib-js/stdlib/commit/3efb3a803162fd01eef6f5b1f10bf972a6734a72) - **feat:** add support for accessor arrays and refactor `stats/base/variance` [(#7481)](https://github.com/stdlib-js/stdlib/pull/7481) _(by Gururaj Gurram)_
 -   [`2e0bd53`](https://github.com/stdlib-js/stdlib/commit/2e0bd530323cfbd723332f5487b5971bb70b5eb2) - **feat:** add support for accessor arrays and refactor `stats/base/variancetk` [(#5926)](https://github.com/stdlib-js/stdlib/pull/5926) _(by Prajjwal Bajpai, Athan Reines, Gururaj Gurram)_
