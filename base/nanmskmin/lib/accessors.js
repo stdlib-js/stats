@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -22,8 +22,6 @@
 
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
-var arraylike2object = require( '@stdlib/array/base/arraylike2object' );
-var accessors = require( './accessors.js' );
 
 
 // MAIN //
@@ -31,44 +29,54 @@ var accessors = require( './accessors.js' );
 /**
 * Computes the minimum value of a strided array according to a mask, ignoring `NaN` values.
 *
+* @private
 * @param {PositiveInteger} N - number of indexed elements
-* @param {NumericArray} x - input array
+* @param {Object} x - input array object
+* @param {Collection} x.data - input array data
+* @param {Array<Function>} x.accessors - array element accessors
 * @param {integer} strideX - stride length for `x`
 * @param {NonNegativeInteger} offsetX - starting index for `x`
-* @param {NumericArray} mask - mask array
+* @param {Object} mask - mask array object
+* @param {Collection} mask.data - mask array data
+* @param {Array<Function>} mask.accessors - mask element accessors
 * @param {integer} strideMask - stride length for `mask`
 * @param {NonNegativeInteger} offsetMask - starting index for `mask`
 * @returns {number} minimum value
 *
 * @example
-* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, -5.0, -6.0 ];
-* var mask = [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ];
+* var arraylike2object = require( '@stdlib/array/base/arraylike2object' );
+* var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
 *
-* var v = nanmskmin( 5, x, 2, 1, mask, 2, 1 );
+* var x = toAccessorArray( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+* var mask = toAccessorArray( [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ] );
+*
+* var v = nanmskmin( 5, arraylike2object( toAccessorArray( x ) ), 2, 1, arraylike2object( toAccessorArray( mask ) ), 2, 1 );
 * // returns -2.0
 */
 function nanmskmin( N, x, strideX, offsetX, mask, strideMask, offsetMask ) {
+	var xbuf;
+	var xget;
+	var mbuf;
+	var mget;
 	var min;
 	var ix;
 	var im;
-	var ox;
-	var om;
 	var v;
 	var i;
 
-	if ( N <= 0 ) {
-		return NaN;
-	}
-	ox = arraylike2object( x );
-	om = arraylike2object( mask );
-	if ( ox.accessorProtocol || om.accessorProtocol ) {
-		return accessors( N, ox, strideX, offsetX, om, strideMask, offsetMask );
-	}
+	// Cache references to array data:
+	xbuf = x.data;
+	mbuf = mask.data;
+
+	// Cache references to element accessors:
+	xget = x.accessors[ 0 ];
+	mget = mask.accessors[ 0 ];
+
 	ix = offsetX;
 	im = offsetMask;
 	for ( i = 0; i < N; i++ ) {
-		v = x[ ix ];
-		if ( v === v && mask[ im ] === 0 ) {
+		v = xget( xbuf, ix );
+		if ( v === v && mget( mbuf, im ) === 0 ) {
 			break;
 		}
 		ix += strideX;
@@ -82,10 +90,10 @@ function nanmskmin( N, x, strideX, offsetX, mask, strideMask, offsetMask ) {
 	for ( i; i < N; i++ ) {
 		ix += strideX;
 		im += strideMask;
-		if ( mask[ im ] ) {
+		if ( mget( mbuf, im ) ) {
 			continue;
 		}
-		v = x[ ix ];
+		v = xget( xbuf, ix );
 		if ( isnan( v ) ) {
 			continue;
 		}

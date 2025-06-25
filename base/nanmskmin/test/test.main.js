@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -24,7 +24,9 @@ var tape = require( 'tape' );
 var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
-var nanmskmin = require( './../lib/ndarray.js' );
+var Float64Array = require( '@stdlib/array/float64' );
+var Uint8Array = require( '@stdlib/array/uint8' );
+var nanmskmin = require( './../lib/main.js' );
 
 
 // TESTS //
@@ -35,8 +37,8 @@ tape( 'main export is a function', function test( t ) {
 	t.end();
 });
 
-tape( 'the function has an arity of 7', function test( t ) {
-	t.strictEqual( nanmskmin.length, 7, 'has expected arity' );
+tape( 'the function has an arity of 5', function test( t ) {
+	t.strictEqual( nanmskmin.length, 5, 'has expected arity' );
 	t.end();
 });
 
@@ -47,52 +49,52 @@ tape( 'the function calculates the minimum value of a strided array according to
 
 	x = [ 1.0, -2.0, -4.0, NaN, 5.0, 0.0, 3.0 ];
 	mask = [ 0, 0, 0, 1, 0, 0, 0 ];
-	v = nanmskmin( x.length, x, 1, 0, mask, 1, 0 );
+	v = nanmskmin( x.length, x, 1, mask, 1 );
 	t.strictEqual( v, -4.0, 'returns expected value' );
 
 	x = [ -4.0, NaN, -5.0 ];
 	mask = [ 0, 1, 0 ];
-	v = nanmskmin( x.length, x, 1, 0, mask, 1, 0 );
+	v = nanmskmin( x.length, x, 1, mask, 1 );
 	t.strictEqual( v, -5.0, 'returns expected value' );
 
 	x = [ 0.0, -0.0, NaN, 0.0 ];
 	mask = [ 0, 0, 1, 0 ];
-	v = nanmskmin( x.length, x, 1, 0, mask, 1, 0 );
+	v = nanmskmin( x.length, x, 1, mask, 1 );
 	t.strictEqual( isNegativeZero( v ), true, 'returns expected value' );
 
 	x = [ -4.0, 0.0, NaN, 5.0 ];
 	mask = [ 0, 0, 0, 0 ];
-	v = nanmskmin( x.length, x, 1, 0, mask, 1, 0 );
+	v = nanmskmin( x.length, x, 1, mask, 1 );
 	t.strictEqual( v, -4.0, 'returns expected value' );
 
 	x = [ NaN ];
 	mask = [ 0 ];
-	v = nanmskmin( x.length, x, 1, 0, mask, 1, 0 );
+	v = nanmskmin( x.length, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN ];
 	mask = [ 1 ];
-	v = nanmskmin( x.length, x, 1, 0, mask, 1, 0 );
+	v = nanmskmin( x.length, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 	mask = [ 1, 1 ];
-	v = nanmskmin( x.length, x, 1, 0, mask, 1, 0 );
+	v = nanmskmin( x.length, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 	mask = [ 1, 0 ];
-	v = nanmskmin( x.length, x, 1, 0, mask, 1, 0 );
+	v = nanmskmin( x.length, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 	mask = [ 0, 1 ];
-	v = nanmskmin( x.length, x, 1, 0, mask, 1, 0 );
+	v = nanmskmin( x.length, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 	mask = [ 0, 0 ];
-	v = nanmskmin( x.length, x, 1, 0, mask, 1, 0 );
+	v = nanmskmin( x.length, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -105,52 +107,52 @@ tape( 'the function calculates the minimum value of a strided array according to
 
 	x = [ 1.0, -2.0, -4.0, NaN, 5.0, 0.0, 3.0 ];
 	mask = [ 0, 0, 0, 1, 0, 0, 0 ];
-	v = nanmskmin( x.length, toAccessorArray( x ), 1, 0, toAccessorArray( mask ), 1, 0 ); // eslint-disable-line max-len
+	v = nanmskmin( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 ); // eslint-disable-line max-len
 	t.strictEqual( v, -4.0, 'returns expected value' );
 
 	x = [ -4.0, NaN, -5.0 ];
 	mask = [ 0, 1, 0 ];
-	v = nanmskmin( x.length, toAccessorArray( x ), 1, 0, toAccessorArray( mask ), 1, 0 ); // eslint-disable-line max-len
+	v = nanmskmin( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 ); // eslint-disable-line max-len
 	t.strictEqual( v, -5.0, 'returns expected value' );
 
 	x = [ 0.0, -0.0, NaN, 0.0 ];
 	mask = [ 0, 0, 1, 0 ];
-	v = nanmskmin( x.length, toAccessorArray( x ), 1, 0, toAccessorArray( mask ), 1, 0 ); // eslint-disable-line max-len
+	v = nanmskmin( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 ); // eslint-disable-line max-len
 	t.strictEqual( isNegativeZero( v ), true, 'returns expected value' );
 
 	x = [ -4.0, 0.0, NaN, 5.0 ];
 	mask = [ 0, 0, 0, 0 ];
-	v = nanmskmin( x.length, toAccessorArray( x ), 1, 0, toAccessorArray( mask ), 1, 0 ); // eslint-disable-line max-len
+	v = nanmskmin( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 ); // eslint-disable-line max-len
 	t.strictEqual( v, -4.0, 'returns expected value' );
 
 	x = [ NaN ];
 	mask = [ 0 ];
-	v = nanmskmin( x.length, toAccessorArray( x ), 1, 0, toAccessorArray( mask ), 1, 0 ); // eslint-disable-line max-len
+	v = nanmskmin( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 ); // eslint-disable-line max-len
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN ];
 	mask = [ 1 ];
-	v = nanmskmin( x.length, toAccessorArray( x ), 1, 0, toAccessorArray( mask ), 1, 0 ); // eslint-disable-line max-len
+	v = nanmskmin( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 ); // eslint-disable-line max-len
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 	mask = [ 1, 1 ];
-	v = nanmskmin( x.length, toAccessorArray( x ), 1, 0, toAccessorArray( mask ), 1, 0 ); // eslint-disable-line max-len
+	v = nanmskmin( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 ); // eslint-disable-line max-len
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 	mask = [ 1, 0 ];
-	v = nanmskmin( x.length, toAccessorArray( x ), 1, 0, toAccessorArray( mask ), 1, 0 ); // eslint-disable-line max-len
+	v = nanmskmin( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 ); // eslint-disable-line max-len
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 	mask = [ 0, 1 ];
-	v = nanmskmin( x.length, toAccessorArray( x ), 1, 0, toAccessorArray( mask ), 1, 0 ); // eslint-disable-line max-len
+	v = nanmskmin( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 ); // eslint-disable-line max-len
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 	mask = [ 0, 0 ];
-	v = nanmskmin( x.length, toAccessorArray( x ), 1, 0, toAccessorArray( mask ), 1, 0 ); // eslint-disable-line max-len
+	v = nanmskmin( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 ); // eslint-disable-line max-len
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -164,10 +166,10 @@ tape( 'if provided an `N` parameter less than or equal to `0`, the function retu
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
 	mask = [ 0, 0 ];
 
-	v = nanmskmin( 0, x, 1, 0, mask, 1, 0 );
+	v = nanmskmin( 0, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
-	v = nanmskmin( -1, x, 1, 0, mask, 1, 0 );
+	v = nanmskmin( -1, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -181,10 +183,10 @@ tape( 'if provided an `N` parameter less than or equal to `0`, the function retu
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
 	mask = [ 0, 0 ];
 
-	v = nanmskmin( 0, toAccessorArray( x ), 1, 0, toAccessorArray( mask ), 1, 0 ); // eslint-disable-line max-len
+	v = nanmskmin( 0, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
-	v = nanmskmin( -1, toAccessorArray( x ), 1, 0, toAccessorArray( mask ), 1, 0 ); // eslint-disable-line max-len
+	v = nanmskmin( -1, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -198,7 +200,7 @@ tape( 'if provided an `N` parameter equal to `1`, the function returns the first
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
 	mask = [ 0, 0 ];
 
-	v = nanmskmin( 1, x, 1, 0, mask, 1, 0 );
+	v = nanmskmin( 1, x, 1, mask, 1 );
 	t.strictEqual( v, 1.0, 'returns expected value' );
 
 	t.end();
@@ -212,7 +214,7 @@ tape( 'if provided an `N` parameter equal to `1`, the function returns the first
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
 	mask = [ 0, 0 ];
 
-	v = nanmskmin( 1, toAccessorArray( x ), 1, 0, toAccessorArray( mask ), 1, 0 ); // eslint-disable-line max-len
+	v = nanmskmin( 1, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 );
 	t.strictEqual( v, 1.0, 'returns expected value' );
 
 	t.end();
@@ -252,7 +254,7 @@ tape( 'the function supports `stride` parameters', function test( t ) {
 		0
 	];
 
-	v = nanmskmin( 6, x, 2, 0, mask, 2, 0 );
+	v = nanmskmin( 6, x, 2, mask, 2 );
 
 	t.strictEqual( v, -2.0, 'returns expected value' );
 	t.end();
@@ -292,7 +294,7 @@ tape( 'the function supports `stride` parameters (accessors)', function test( t 
 		0
 	];
 
-	v = nanmskmin( 6, toAccessorArray( x ), 2, 0, toAccessorArray( mask ), 2, 0 ); // eslint-disable-line max-len
+	v = nanmskmin( 6, toAccessorArray( x ), 2, toAccessorArray( mask ), 2 );
 
 	t.strictEqual( v, -2.0, 'returns expected value' );
 	t.end();
@@ -332,7 +334,7 @@ tape( 'the function supports negative `stride` parameters', function test( t ) {
 		0
 	];
 
-	v = nanmskmin( 6, x, -2, 10, mask, -2, 10 );
+	v = nanmskmin( 6, x, -2, mask, -2 );
 
 	t.strictEqual( v, -2.0, 'returns expected value' );
 	t.end();
@@ -372,18 +374,20 @@ tape( 'the function supports negative `stride` parameters (accessors)', function
 		0
 	];
 
-	v = nanmskmin( 6, toAccessorArray( x ), -2, 10, toAccessorArray( mask ), -2, 10 ); // eslint-disable-line max-len
+	v = nanmskmin( 6, toAccessorArray( x ), -2, toAccessorArray( mask ), -2 );
 
 	t.strictEqual( v, -2.0, 'returns expected value' );
 	t.end();
 });
 
-tape( 'the function supports `offset` parameters', function test( t ) {
-	var mask;
-	var x;
+tape( 'the function supports view offsets', function test( t ) {
+	var mask0;
+	var mask1;
+	var x0;
+	var x1;
 	var v;
 
-	x = [
+	x0 = new Float64Array([
 		2.0,
 		1.0,  // 0
 		2.0,
@@ -392,12 +396,13 @@ tape( 'the function supports `offset` parameters', function test( t ) {
 		2.0,  // 2
 		3.0,
 		4.0,  // 3
-		5.0,
-		6.0,  // 4
-		NaN,
-		NaN   // 5
-	];
-	mask = [
+		6.0,
+		5.0,  // 4
+		6.0,
+		NaN,  // 5
+		NaN
+	]);
+	mask0 = new Uint8Array([
 		0,
 		0, // 0
 		0,
@@ -406,24 +411,30 @@ tape( 'the function supports `offset` parameters', function test( t ) {
 		0, // 2
 		0,
 		0, // 3
-		1,
-		1, // 4
 		0,
-		0  // 5
-	];
+		1, // 4
+		1,
+		0, // 5
+		0
+	]);
 
-	v = nanmskmin( 6, x, 2, 1, mask, 2, 1 );
+	x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+	mask1 = new Uint8Array( mask0.buffer, mask0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+
+	v = nanmskmin( 6, x1, 2, mask1, 2 );
 	t.strictEqual( v, -2.0, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function supports `offset` parameters (accessors)', function test( t ) {
-	var mask;
-	var x;
+tape( 'the function supports view offsets (accessors)', function test( t ) {
+	var mask0;
+	var mask1;
+	var x0;
+	var x1;
 	var v;
 
-	x = [
+	x0 = new Float64Array([
 		2.0,
 		1.0,  // 0
 		2.0,
@@ -432,12 +443,13 @@ tape( 'the function supports `offset` parameters (accessors)', function test( t 
 		2.0,  // 2
 		3.0,
 		4.0,  // 3
-		5.0,
-		6.0,  // 4
-		NaN,
-		NaN   // 5
-	];
-	mask = [
+		6.0,
+		5.0,  // 4
+		6.0,
+		NaN,  // 5
+		NaN
+	]);
+	mask0 = new Uint8Array([
 		0,
 		0, // 0
 		0,
@@ -446,13 +458,17 @@ tape( 'the function supports `offset` parameters (accessors)', function test( t 
 		0, // 2
 		0,
 		0, // 3
-		1,
-		1, // 4
 		0,
-		0  // 5
-	];
+		1, // 4
+		1,
+		0, // 5
+		0
+	]);
 
-	v = nanmskmin( 6, toAccessorArray( x ), 2, 1, toAccessorArray( mask ), 2, 1 ); // eslint-disable-line max-len
+	x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+	mask1 = new Uint8Array( mask0.buffer, mask0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+
+	v = nanmskmin( 6, toAccessorArray( x1 ), 2, toAccessorArray( mask1 ), 2 );
 	t.strictEqual( v, -2.0, 'returns expected value' );
 
 	t.end();
