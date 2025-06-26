@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-25)
+## Unreleased (2025-06-26)
 
 <section class="features">
 
@@ -2733,6 +2733,7 @@ A total of 515 issues were closed in this release:
 
 <details>
 
+-   [`da1761d`](https://github.com/stdlib-js/stdlib/commit/da1761d4f0a218f85d7db082086709662a09df44) - **docs:** update namespace table of contents [(#7491)](https://github.com/stdlib-js/stdlib/pull/7491) _(by stdlib-bot)_
 -   [`74b29a5`](https://github.com/stdlib-js/stdlib/commit/74b29a5184d2d1d0826b5b9da4e01a986eabffb5) - **feat:** add C implementation for `stats/base/dists/bradford/median` _(by Philipp Burckhardt)_
 -   [`bd51ebe`](https://github.com/stdlib-js/stdlib/commit/bd51ebe5f252f95c9c8961ce5b7dbd6d1a4e35da) - **feat:** add C implementation for `stats/base/dists/bradford/mean` _(by Philipp Burckhardt)_
 -   [`6a3edd8`](https://github.com/stdlib-js/stdlib/commit/6a3edd843858d5fd7faa074bf02d8757baa7ff36) - **feat:** add C implementation for `stats/base/dists/bradford/quantile` _(by Philipp Burckhardt)_
