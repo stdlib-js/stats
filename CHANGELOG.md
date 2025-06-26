@@ -2734,6 +2734,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`6dff3f6`](https://github.com/stdlib-js/stdlib/commit/6dff3f60707c731841791e37fc10907272e626ce) - **build:** fix missing dep _(by Athan Reines)_
 -   [`853ae15`](https://github.com/stdlib-js/stdlib/commit/853ae156cb8904ba70b1b669b7e2cc59932c9bbe) - **feat:** add support for accessor arrays and refactor `stats/base/variancewd` [(#7482)](https://github.com/stdlib-js/stdlib/pull/7482) _(by Gururaj Gurram, Athan Reines)_
 -   [`da1761d`](https://github.com/stdlib-js/stdlib/commit/da1761d4f0a218f85d7db082086709662a09df44) - **docs:** update namespace table of contents [(#7491)](https://github.com/stdlib-js/stdlib/pull/7491) _(by stdlib-bot)_
 -   [`74b29a5`](https://github.com/stdlib-js/stdlib/commit/74b29a5184d2d1d0826b5b9da4e01a986eabffb5) - **feat:** add C implementation for `stats/base/dists/bradford/median` _(by Philipp Burckhardt)_
