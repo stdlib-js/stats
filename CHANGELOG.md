@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`06e44d5`](https://github.com/stdlib-js/stdlib/commit/06e44d5c9b58006b23d897ae4a62c89062672ef4) - add `stats/base/ndarray/min` [(#7504)](https://github.com/stdlib-js/stdlib/pull/7504)
 -   [`3e98d2b`](https://github.com/stdlib-js/stdlib/commit/3e98d2b9cb0c796b62ffdcc8071bfdf2e1aea8a3) - add `stats/base/ndarray/dmin` [(#7506)](https://github.com/stdlib-js/stdlib/pull/7506)
 -   [`305692a`](https://github.com/stdlib-js/stdlib/commit/305692a1a3cd3890fea83f7d6af8d0fba0a9d6a9) - add `stats/base/ndarray/smin` [(#7507)](https://github.com/stdlib-js/stdlib/pull/7507)
 -   [`f0bc703`](https://github.com/stdlib-js/stdlib/commit/f0bc703d30986a4f1c75a97f7b8928dc8bfd0dc2) - add C implementation for `stats/base/dists/poisson/cdf`
@@ -2747,6 +2748,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`06e44d5`](https://github.com/stdlib-js/stdlib/commit/06e44d5c9b58006b23d897ae4a62c89062672ef4) - **feat:** add `stats/base/ndarray/min` [(#7504)](https://github.com/stdlib-js/stdlib/pull/7504) _(by Gururaj Gurram)_
 -   [`3e98d2b`](https://github.com/stdlib-js/stdlib/commit/3e98d2b9cb0c796b62ffdcc8071bfdf2e1aea8a3) - **feat:** add `stats/base/ndarray/dmin` [(#7506)](https://github.com/stdlib-js/stdlib/pull/7506) _(by Gururaj Gurram)_
 -   [`305692a`](https://github.com/stdlib-js/stdlib/commit/305692a1a3cd3890fea83f7d6af8d0fba0a9d6a9) - **feat:** add `stats/base/ndarray/smin` [(#7507)](https://github.com/stdlib-js/stdlib/pull/7507) _(by Gururaj Gurram)_
 -   [`9a8b80d`](https://github.com/stdlib-js/stdlib/commit/9a8b80d61ab47a547d1c96e2c22c5516fc6b89a8) - **chore:** fix missing field _(by Athan Reines)_
