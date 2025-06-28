@@ -921,6 +921,7 @@
 
 ### Bug Fixes
 
+-   [`ef5b43f`](https://github.com/stdlib-js/stdlib/commit/ef5b43faeb24b8594802eeb0bfa665cafdbf4e85) - add missing build task
 -   [`1a48ebb`](https://github.com/stdlib-js/stdlib/commit/1a48ebbacff02aa8f374081b3b636bc2c0a027ef) - use correct Makefile for examples/c
 -   [`00add1e`](https://github.com/stdlib-js/stdlib/commit/00add1eb9ad8dd682b8759a7401a4e900509931d) - use correct return value
 -   [`30b331e`](https://github.com/stdlib-js/stdlib/commit/30b331efe958bd5cab7e2bd51c45fcfa95f7c485) - use correct return value
@@ -2744,6 +2745,9 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`9a8b80d`](https://github.com/stdlib-js/stdlib/commit/9a8b80d61ab47a547d1c96e2c22c5516fc6b89a8) - **chore:** fix missing field _(by Athan Reines)_
+-   [`ef5b43f`](https://github.com/stdlib-js/stdlib/commit/ef5b43faeb24b8594802eeb0bfa665cafdbf4e85) - **fix:** add missing build task _(by Athan Reines)_
+-   [`0167558`](https://github.com/stdlib-js/stdlib/commit/0167558e007e4f904758ae29bf8cb62f0ed80be7) - **chore:** clean-up _(by Athan Reines)_
 -   [`d477f6b`](https://github.com/stdlib-js/stdlib/commit/d477f6bb4d274ecfafba1fd1c31374d429589b36) - **chore:** clean-up _(by Athan Reines)_
 -   [`f0bc703`](https://github.com/stdlib-js/stdlib/commit/f0bc703d30986a4f1c75a97f7b8928dc8bfd0dc2) - **feat:** add C implementation for `stats/base/dists/poisson/cdf` _(by Philipp Burckhardt)_
 -   [`1a48ebb`](https://github.com/stdlib-js/stdlib/commit/1a48ebbacff02aa8f374081b3b636bc2c0a027ef) - **fix:** use correct Makefile for examples/c _(by Philipp Burckhardt)_

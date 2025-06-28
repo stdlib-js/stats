@@ -1,5 +1,8 @@
 {
-  "options": {},
+  "options": {
+    "task": "build",
+    "wasm": false
+  },
   "fields": [
     {
       "field": "src",
@@ -25,6 +28,7 @@
   "confs": [
     {
       "task": "build",
+      "wasm": false,
       "src": [
         "./src/main.c"
       ],
@@ -34,12 +38,14 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
+        "@stdlib/math/base/napi/unary",
         "@stdlib/math/base/assert/is-nan",
         "@stdlib/math/base/special/sqrt"
       ]
     },
     {
       "task": "examples",
+      "wasm": false,
       "src": [
         "./src/main.c"
       ],
@@ -55,6 +61,7 @@
     },
     {
       "task": "benchmark",
+      "wasm": false,
       "src": [
         "./src/main.c"
       ],

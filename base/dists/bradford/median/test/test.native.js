@@ -71,38 +71,39 @@ tape( 'if provided a nonpositive `c`, the function returns `NaN`', opts, functio
 	t.end();
 });
 
-tape( 'the function returns the median of a Bradford distribution', opts, function test( t ) {
-	var expected;
-	var c;
-	var i;
+tape( 'if provided `c <= 0`, the function returns `NaN`', opts, function test( t ) {
+	var v;
 
-	expected = data.expected;
-	c = data.x;
-	for ( i = 0; i < c.length; i++ ) {
-		t.equal( median( c[i] ), expected[ i ], 'returns expected value' );
-	}
+	v = median( 0.0 );
+	t.equal( isnan( v ), true, 'returns expected value' );
+
+	v = median( -1.0 );
+	t.equal( isnan( v ), true, 'returns expected value' );
+
+	v = median( NINF );
+	t.equal( isnan( v ), true, 'returns expected value' );
+
 	t.end();
 });
 
-tape( 'the function returns the median of a Bradford distribution (test fixtures)', opts, function test( t ) {
+tape( 'the function returns the median of a Bradford distribution', opts, function test( t ) {
 	var expected;
 	var delta;
 	var tol;
-	var c;
-	var v;
 	var i;
+	var c;
+	var y;
 
-	// We test against more stringent tolerance here given the sqrt in the implementation
-	tol = 5.0 * EPS; // ~1.11e-15
 	expected = data.expected;
 	c = data.x;
 	for ( i = 0; i < expected.length; i++ ) {
-		v = median( c[i] );
-		if ( v === expected[ i ] ) {
-			t.equal( v, expected[ i ], 'returns expected value' );
+		y = median( c[i] );
+		if ( y === expected[i] ) {
+			t.equal( y, expected[i], 'c: '+c[i]+', y: '+y+', expected: '+expected[i] );
 		} else {
-			delta = abs( v - expected[ i ] );
-			t.ok( delta <= tol, 'within tolerance. c: ' + c[i] + '. Expected: ' + expected[i] + '. Actual: ' + v + '. Tolerance: ' + tol + '.' );
+			delta = abs( y - expected[ i ] );
+			tol = 7.2 * EPS * abs( expected[ i ] );
+			t.ok( delta <= tol, 'within tolerance. c: '+c[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
 		}
 	}
 	t.end();
