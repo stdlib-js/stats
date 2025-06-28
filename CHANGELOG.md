@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`409bec4`](https://github.com/stdlib-js/stdlib/commit/409bec42b05a23d1527fd82696e1a05660daa8a3) - add C implementation for `stats/base/dists/chisquare/cdf`
+-   [`3109ba5`](https://github.com/stdlib-js/stdlib/commit/3109ba5061cbdfd2c95258aafc8bf42884e6691c) - add C implementation for `stats/base/dists/chi/cdf`
+-   [`e7b3a48`](https://github.com/stdlib-js/stdlib/commit/e7b3a483b78fc2619f8e1753f5c0b614a2e796a8) - add C implementation for gamma CDF
 -   [`b7f644e`](https://github.com/stdlib-js/stdlib/commit/b7f644ee905233220deec5cc7aa5d757391a3b4d) - add C implementation for inverse gamma CDF
 -   [`6cfd0be`](https://github.com/stdlib-js/stdlib/commit/6cfd0be5c0bc3fa6dcf23629975a7971f4bbb776) - add C implementation for `stats/base/dists/chi/kurtosis`
 -   [`26936b8`](https://github.com/stdlib-js/stdlib/commit/26936b8c598cb1461ca4a6b6a237db95b16605b1) - add C implementation for `stats/base/dists/chi/skewness`
@@ -917,6 +920,7 @@
 
 ### Bug Fixes
 
+-   [`1a48ebb`](https://github.com/stdlib-js/stdlib/commit/1a48ebbacff02aa8f374081b3b636bc2c0a027ef) - use correct Makefile for examples/c
 -   [`00add1e`](https://github.com/stdlib-js/stdlib/commit/00add1eb9ad8dd682b8759a7401a4e900509931d) - use correct return value
 -   [`30b331e`](https://github.com/stdlib-js/stdlib/commit/30b331efe958bd5cab7e2bd51c45fcfa95f7c485) - use correct return value
 -   [`d2abe65`](https://github.com/stdlib-js/stdlib/commit/d2abe65f9dbe8b728f088e5635e096edc232fea8) - use correct return value
@@ -2739,6 +2743,10 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`1a48ebb`](https://github.com/stdlib-js/stdlib/commit/1a48ebbacff02aa8f374081b3b636bc2c0a027ef) - **fix:** use correct Makefile for examples/c _(by Philipp Burckhardt)_
+-   [`409bec4`](https://github.com/stdlib-js/stdlib/commit/409bec42b05a23d1527fd82696e1a05660daa8a3) - **feat:** add C implementation for `stats/base/dists/chisquare/cdf` _(by Philipp Burckhardt)_
+-   [`3109ba5`](https://github.com/stdlib-js/stdlib/commit/3109ba5061cbdfd2c95258aafc8bf42884e6691c) - **feat:** add C implementation for `stats/base/dists/chi/cdf` _(by Philipp Burckhardt)_
+-   [`e7b3a48`](https://github.com/stdlib-js/stdlib/commit/e7b3a483b78fc2619f8e1753f5c0b614a2e796a8) - **feat:** add C implementation for gamma CDF _(by Philipp Burckhardt)_
 -   [`b7f644e`](https://github.com/stdlib-js/stdlib/commit/b7f644ee905233220deec5cc7aa5d757391a3b4d) - **feat:** add C implementation for inverse gamma CDF _(by Philipp Burckhardt)_
 -   [`6cfd0be`](https://github.com/stdlib-js/stdlib/commit/6cfd0be5c0bc3fa6dcf23629975a7971f4bbb776) - **feat:** add C implementation for `stats/base/dists/chi/kurtosis` _(by Philipp Burckhardt)_
 -   [`26936b8`](https://github.com/stdlib-js/stdlib/commit/26936b8c598cb1461ca4a6b6a237db95b16605b1) - **feat:** add C implementation for `stats/base/dists/chi/skewness` _(by Philipp Burckhardt)_
