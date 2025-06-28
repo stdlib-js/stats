@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-26)
+## Unreleased (2025-06-28)
 
 <section class="features">
 
 ### Features
 
+-   [`b7f644e`](https://github.com/stdlib-js/stdlib/commit/b7f644ee905233220deec5cc7aa5d757391a3b4d) - add C implementation for inverse gamma CDF
+-   [`6cfd0be`](https://github.com/stdlib-js/stdlib/commit/6cfd0be5c0bc3fa6dcf23629975a7971f4bbb776) - add C implementation for `stats/base/dists/chi/kurtosis`
+-   [`26936b8`](https://github.com/stdlib-js/stdlib/commit/26936b8c598cb1461ca4a6b6a237db95b16605b1) - add C implementation for `stats/base/dists/chi/skewness`
+-   [`ffd5b49`](https://github.com/stdlib-js/stdlib/commit/ffd5b49c68bf5f8b5515e654d55d1411fca07ea8) - add C implementation for `stats/base/dists/frechet/quantile`
+-   [`c5f6c77`](https://github.com/stdlib-js/stdlib/commit/c5f6c77e86a0b8dde6d85a40135e2a1d46742797) - add C implementation for `stats/base/dists/uniform/skewness`
 -   [`853ae15`](https://github.com/stdlib-js/stdlib/commit/853ae156cb8904ba70b1b669b7e2cc59932c9bbe) - add support for accessor arrays and refactor `stats/base/variancewd` [(#7482)](https://github.com/stdlib-js/stdlib/pull/7482)
 -   [`74b29a5`](https://github.com/stdlib-js/stdlib/commit/74b29a5184d2d1d0826b5b9da4e01a986eabffb5) - add C implementation for `stats/base/dists/bradford/median`
 -   [`bd51ebe`](https://github.com/stdlib-js/stdlib/commit/bd51ebe5f252f95c9c8961ce5b7dbd6d1a4e35da) - add C implementation for `stats/base/dists/bradford/mean`
@@ -2734,6 +2739,11 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`b7f644e`](https://github.com/stdlib-js/stdlib/commit/b7f644ee905233220deec5cc7aa5d757391a3b4d) - **feat:** add C implementation for inverse gamma CDF _(by Philipp Burckhardt)_
+-   [`6cfd0be`](https://github.com/stdlib-js/stdlib/commit/6cfd0be5c0bc3fa6dcf23629975a7971f4bbb776) - **feat:** add C implementation for `stats/base/dists/chi/kurtosis` _(by Philipp Burckhardt)_
+-   [`26936b8`](https://github.com/stdlib-js/stdlib/commit/26936b8c598cb1461ca4a6b6a237db95b16605b1) - **feat:** add C implementation for `stats/base/dists/chi/skewness` _(by Philipp Burckhardt)_
+-   [`ffd5b49`](https://github.com/stdlib-js/stdlib/commit/ffd5b49c68bf5f8b5515e654d55d1411fca07ea8) - **feat:** add C implementation for `stats/base/dists/frechet/quantile` _(by Philipp Burckhardt)_
+-   [`c5f6c77`](https://github.com/stdlib-js/stdlib/commit/c5f6c77e86a0b8dde6d85a40135e2a1d46742797) - **feat:** add C implementation for `stats/base/dists/uniform/skewness` _(by Philipp Burckhardt)_
 -   [`6dff3f6`](https://github.com/stdlib-js/stdlib/commit/6dff3f60707c731841791e37fc10907272e626ce) - **build:** fix missing dep _(by Athan Reines)_
 -   [`853ae15`](https://github.com/stdlib-js/stdlib/commit/853ae156cb8904ba70b1b669b7e2cc59932c9bbe) - **feat:** add support for accessor arrays and refactor `stats/base/variancewd` [(#7482)](https://github.com/stdlib-js/stdlib/pull/7482) _(by Gururaj Gurram, Athan Reines)_
 -   [`da1761d`](https://github.com/stdlib-js/stdlib/commit/da1761d4f0a218f85d7db082086709662a09df44) - **docs:** update namespace table of contents [(#7491)](https://github.com/stdlib-js/stdlib/pull/7491) _(by stdlib-bot)_
