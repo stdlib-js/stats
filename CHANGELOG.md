@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f0bc703`](https://github.com/stdlib-js/stdlib/commit/f0bc703d30986a4f1c75a97f7b8928dc8bfd0dc2) - add C implementation for `stats/base/dists/poisson/cdf`
 -   [`409bec4`](https://github.com/stdlib-js/stdlib/commit/409bec42b05a23d1527fd82696e1a05660daa8a3) - add C implementation for `stats/base/dists/chisquare/cdf`
 -   [`3109ba5`](https://github.com/stdlib-js/stdlib/commit/3109ba5061cbdfd2c95258aafc8bf42884e6691c) - add C implementation for `stats/base/dists/chi/cdf`
 -   [`e7b3a48`](https://github.com/stdlib-js/stdlib/commit/e7b3a483b78fc2619f8e1753f5c0b614a2e796a8) - add C implementation for gamma CDF
@@ -2743,6 +2744,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`f0bc703`](https://github.com/stdlib-js/stdlib/commit/f0bc703d30986a4f1c75a97f7b8928dc8bfd0dc2) - **feat:** add C implementation for `stats/base/dists/poisson/cdf` _(by Philipp Burckhardt)_
 -   [`1a48ebb`](https://github.com/stdlib-js/stdlib/commit/1a48ebbacff02aa8f374081b3b636bc2c0a027ef) - **fix:** use correct Makefile for examples/c _(by Philipp Burckhardt)_
 -   [`409bec4`](https://github.com/stdlib-js/stdlib/commit/409bec42b05a23d1527fd82696e1a05660daa8a3) - **feat:** add C implementation for `stats/base/dists/chisquare/cdf` _(by Philipp Burckhardt)_
 -   [`3109ba5`](https://github.com/stdlib-js/stdlib/commit/3109ba5061cbdfd2c95258aafc8bf42884e6691c) - **feat:** add C implementation for `stats/base/dists/chi/cdf` _(by Philipp Burckhardt)_
