@@ -2753,6 +2753,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`a4ce77e`](https://github.com/stdlib-js/stdlib/commit/a4ce77efe910c9398e75b767fb81e786a3a04cc0) - **test:** pass in opts to skip if addon is not available _(by Philipp Burckhardt)_
 -   [`b9e85bb`](https://github.com/stdlib-js/stdlib/commit/b9e85bb880c148b413a2cd2d8be4146994d12775) - **style:** remove extra spaces _(by Philipp Burckhardt)_
 -   [`728ba29`](https://github.com/stdlib-js/stdlib/commit/728ba29100d52c77c98d5ffc618b8accc6dcaf94) - **feat:** add C implementation for `stats/base/dists/gamma/logcdf` _(by Philipp Burckhardt)_
 -   [`d38aee3`](https://github.com/stdlib-js/stdlib/commit/d38aee33b071d2301bb055e9e4ce763deb13771b) - **feat:** add `stats/base/ndarray/cumin` [(#7508)](https://github.com/stdlib-js/stdlib/pull/7508) _(by Gururaj Gurram)_
