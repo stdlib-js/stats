@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d38aee3`](https://github.com/stdlib-js/stdlib/commit/d38aee33b071d2301bb055e9e4ce763deb13771b) - add `stats/base/ndarray/cumin` [(#7508)](https://github.com/stdlib-js/stdlib/pull/7508)
 -   [`0643fd0`](https://github.com/stdlib-js/stdlib/commit/0643fd07c0eb6f7121779983d576e8bc365bce57) - add `stats/array/nanmskmin` [(#7474)](https://github.com/stdlib-js/stdlib/pull/7474)
 -   [`4f1fed8`](https://github.com/stdlib-js/stdlib/commit/4f1fed812adb03f931aff272e3a2a33f955b88bd) - add C ndarray interface and refactor implementation for `stats/base/smeanors` [(#7501)](https://github.com/stdlib-js/stdlib/pull/7501)
 -   [`442eec3`](https://github.com/stdlib-js/stdlib/commit/442eec3253d20ad42207566bda488e75a96e32b1) - add `stats/base/ndarray/min-by` [(#7505)](https://github.com/stdlib-js/stdlib/pull/7505)
@@ -2751,6 +2752,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`d38aee3`](https://github.com/stdlib-js/stdlib/commit/d38aee33b071d2301bb055e9e4ce763deb13771b) - **feat:** add `stats/base/ndarray/cumin` [(#7508)](https://github.com/stdlib-js/stdlib/pull/7508) _(by Gururaj Gurram)_
 -   [`0643fd0`](https://github.com/stdlib-js/stdlib/commit/0643fd07c0eb6f7121779983d576e8bc365bce57) - **feat:** add `stats/array/nanmskmin` [(#7474)](https://github.com/stdlib-js/stdlib/pull/7474) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`4f1fed8`](https://github.com/stdlib-js/stdlib/commit/4f1fed812adb03f931aff272e3a2a33f955b88bd) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeanors` [(#7501)](https://github.com/stdlib-js/stdlib/pull/7501) _(by Gururaj Gurram, stdlib-bot)_
 -   [`442eec3`](https://github.com/stdlib-js/stdlib/commit/442eec3253d20ad42207566bda488e75a96e32b1) - **feat:** add `stats/base/ndarray/min-by` [(#7505)](https://github.com/stdlib-js/stdlib/pull/7505) _(by Gururaj Gurram)_
