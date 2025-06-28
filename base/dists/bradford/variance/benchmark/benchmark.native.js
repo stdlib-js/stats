@@ -23,7 +23,7 @@
 var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench/harness' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var uniform = require( '@stdlib/random/base/uniform' );
+var uniform = require( '@stdlib/random/array/uniform' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
 
@@ -39,14 +39,19 @@ var opts = {
 // MAIN //
 
 bench( pkg+'::native', opts, function benchmark( b ) {
+	var opts;
 	var c;
 	var y;
 	var i;
 
+	opts = {
+		'dtype': 'float64'
+	};
+	c = uniform( 100, 0.1, 10.0, opts );
+
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		c = uniform( 0.1, 10.0 );
-		y = variance( c );
+		y = variance( c[ i % c.length ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}

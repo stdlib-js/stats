@@ -56,7 +56,9 @@ var addon = require( './../src/addon.node' );
 * var v = variance( NaN );
 * // returns NaN
 */
-var variance = addon;
+function variance( c ) {
+	return addon( c );
+}
 
 
 // EXPORTS //

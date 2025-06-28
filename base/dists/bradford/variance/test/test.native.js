@@ -39,7 +39,8 @@ var opts = {
 
 // FIXTURES //
 
-var data = require( './fixtures/python/small_c.json' );
+var smallC = require( './fixtures/python/small_c.json' );
+var largeC = require( './fixtures/python/large_c.json' );
 
 
 // TESTS //
@@ -56,64 +57,69 @@ tape( 'if provided `NaN` for `c`, the function returns `NaN`', opts, function te
 	t.end();
 });
 
-tape( 'if provided a nonpositive `c`, the function returns `NaN`', opts, function test( t ) {
+tape( 'if provided `c <= 0`, the function returns `NaN`', opts, function test( t ) {
 	var v;
 
 	v = variance( 0.0 );
-	t.equal( isnan( v ), true, 'returns NaN' );
+	t.equal( isnan( v ), true, 'returns expected value' );
 
 	v = variance( -1.0 );
-	t.equal( isnan( v ), true, 'returns NaN' );
+	t.equal( isnan( v ), true, 'returns expected value' );
 
 	v = variance( NINF );
-	t.equal( isnan( v ), true, 'returns NaN' );
+	t.equal( isnan( v ), true, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function returns the variance of a Bradford distribution', opts, function test( t ) {
+tape( 'the function returns the variance of a Bradford distribution given small parameter `c`', opts, function test( t ) {
 	var expected;
 	var delta;
 	var tol;
-	var c;
-	var v;
 	var i;
+	var c;
+	var y;
 
-	// Use tolerance for floating-point comparison
-	tol = 100.0 * EPS; // ~2.22e-14
-	expected = data.expected;
-	c = data.c;
-	for ( i = 0; i < c.length; i++ ) {
-		v = variance( c[i] );
-		if ( v === expected[ i ] ) {
-			t.equal( v, expected[ i ], 'returns expected value' );
+	expected = smallC.expected;
+	c = smallC.c;
+	for ( i = 0; i < expected.length; i++ ) {
+		y = variance( c[i] );
+		if ( y === expected[i] ) {
+			t.equal( y, expected[i], 'c: '+c[i]+', y: '+y+', expected: '+expected[i] );
 		} else {
-			delta = abs( v - expected[ i ] );
-			t.ok( delta <= tol, 'within tolerance. c: ' + c[i] + '. Expected: ' + expected[i] + '. Actual: ' + v + '. Tolerance: ' + tol + '.' );
+			delta = abs( y - expected[ i ] );
+
+			/*
+			* NOTE: the tolerance is set high in this case due to:
+			*
+			* 1. The shape parameter being very small which causes differences in the `ln` calculations when compared to the test fixtures by SciPy.
+			* 2. The expected values being very small.
+			*/
+			tol = 643.0 * EPS * abs( expected[ i ] );
+			t.ok( delta <= tol, 'within tolerance. c: '+c[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
 		}
 	}
 	t.end();
 });
 
-tape( 'the function returns the variance of a Bradford distribution (test fixtures)', opts, function test( t ) {
+tape( 'the function returns the variance of a Bradford distribution given large parameter `c`', opts, function test( t ) {
 	var expected;
 	var delta;
 	var tol;
-	var c;
-	var v;
 	var i;
+	var c;
+	var y;
 
-	// We test against more stringent tolerance here given the ln operations in the implementation
-	tol = 100.0 * EPS; // ~2.22e-14
-	expected = data.expected;
-	c = data.c;
+	expected = largeC.expected;
+	c = largeC.c;
 	for ( i = 0; i < expected.length; i++ ) {
-		v = variance( c[i] );
-		if ( v === expected[ i ] ) {
-			t.equal( v, expected[ i ], 'returns expected value' );
+		y = variance( c[i] );
+		if ( y === expected[i] ) {
+			t.equal( y, expected[i], 'c: '+c[i]+', y: '+y+', expected: '+expected[i] );
 		} else {
-			delta = abs( v - expected[ i ] );
-			t.ok( delta <= tol, 'within tolerance. c: ' + c[i] + '. Expected: ' + expected[i] + '. Actual: ' + v + '. Tolerance: ' + tol + '.' );
+			delta = abs( y - expected[ i ] );
+			tol = 15.2 * EPS * abs( expected[ i ] );
+			t.ok( delta <= tol, 'within tolerance. c: '+c[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
 		}
 	}
 	t.end();
