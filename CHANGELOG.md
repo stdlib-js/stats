@@ -2758,6 +2758,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`b039368`](https://github.com/stdlib-js/stdlib/commit/b039368dc397596a89242970f520ecc06259c3cd) - **bench:** add missing eps dependency so C benchmarks compile _(by Philipp Burckhardt)_
 -   [`dc32afc`](https://github.com/stdlib-js/stdlib/commit/dc32afc5a19ebe7825ed085633b225c55557f047) - **chore:** add missing eps dependency to benchmark and examples configs _(by Philipp Burckhardt)_
 -   [`716f93d`](https://github.com/stdlib-js/stdlib/commit/716f93d14c76e1dda5b02c365a17a2519da3cada) - **chore:** add missing benchmark and examples dependencies _(by Philipp Burckhardt)_
 -   [`797e2e1`](https://github.com/stdlib-js/stdlib/commit/797e2e1202ae1d2c6f282e8ee3a47703e29480c9) - **chore:** clean-up and update tests _(by Athan Reines)_
