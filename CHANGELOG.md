@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`716275f`](https://github.com/stdlib-js/stdlib/commit/716275fdf515090bb85f78ca5099be9011abcb66) - add C ndarray interface and refactor implementation for `stats/base/smeanlipw` [(#7500)](https://github.com/stdlib-js/stdlib/pull/7500)
 -   [`7d8292f`](https://github.com/stdlib-js/stdlib/commit/7d8292f6bb2a275fc2005501ef1c8518f9af4986) - add `stats/base/ndarray/scumin` [(#7510)](https://github.com/stdlib-js/stdlib/pull/7510)
 -   [`7205acd`](https://github.com/stdlib-js/stdlib/commit/7205acdfc5ffbad435ba5bbcccc865447b77431d) - add `stats/base/ndarray/dcumin` [(#7509)](https://github.com/stdlib-js/stdlib/pull/7509)
 -   [`728ba29`](https://github.com/stdlib-js/stdlib/commit/728ba29100d52c77c98d5ffc618b8accc6dcaf94) - add C implementation for `stats/base/dists/gamma/logcdf`
@@ -2755,6 +2756,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`716275f`](https://github.com/stdlib-js/stdlib/commit/716275fdf515090bb85f78ca5099be9011abcb66) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeanlipw` [(#7500)](https://github.com/stdlib-js/stdlib/pull/7500) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`7d8292f`](https://github.com/stdlib-js/stdlib/commit/7d8292f6bb2a275fc2005501ef1c8518f9af4986) - **feat:** add `stats/base/ndarray/scumin` [(#7510)](https://github.com/stdlib-js/stdlib/pull/7510) _(by Gururaj Gurram)_
 -   [`7205acd`](https://github.com/stdlib-js/stdlib/commit/7205acdfc5ffbad435ba5bbcccc865447b77431d) - **feat:** add `stats/base/ndarray/dcumin` [(#7509)](https://github.com/stdlib-js/stdlib/pull/7509) _(by Gururaj Gurram)_
 -   [`0ec467e`](https://github.com/stdlib-js/stdlib/commit/0ec467e681c02b54383c7f50b5fbb07a938e16cb) - **chore:** remove excess trailing newlines [(#7512)](https://github.com/stdlib-js/stdlib/pull/7512) _(by stdlib-bot)_
