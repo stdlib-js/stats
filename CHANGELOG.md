@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7205acd`](https://github.com/stdlib-js/stdlib/commit/7205acdfc5ffbad435ba5bbcccc865447b77431d) - add `stats/base/ndarray/dcumin` [(#7509)](https://github.com/stdlib-js/stdlib/pull/7509)
 -   [`728ba29`](https://github.com/stdlib-js/stdlib/commit/728ba29100d52c77c98d5ffc618b8accc6dcaf94) - add C implementation for `stats/base/dists/gamma/logcdf`
 -   [`d38aee3`](https://github.com/stdlib-js/stdlib/commit/d38aee33b071d2301bb055e9e4ce763deb13771b) - add `stats/base/ndarray/cumin` [(#7508)](https://github.com/stdlib-js/stdlib/pull/7508)
 -   [`0643fd0`](https://github.com/stdlib-js/stdlib/commit/0643fd07c0eb6f7121779983d576e8bc365bce57) - add `stats/array/nanmskmin` [(#7474)](https://github.com/stdlib-js/stdlib/pull/7474)
@@ -2753,6 +2754,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`7205acd`](https://github.com/stdlib-js/stdlib/commit/7205acdfc5ffbad435ba5bbcccc865447b77431d) - **feat:** add `stats/base/ndarray/dcumin` [(#7509)](https://github.com/stdlib-js/stdlib/pull/7509) _(by Gururaj Gurram)_
 -   [`0ec467e`](https://github.com/stdlib-js/stdlib/commit/0ec467e681c02b54383c7f50b5fbb07a938e16cb) - **chore:** remove excess trailing newlines [(#7512)](https://github.com/stdlib-js/stdlib/pull/7512) _(by stdlib-bot)_
 -   [`6aeb7d0`](https://github.com/stdlib-js/stdlib/commit/6aeb7d0058535c3e7cacb2a66eed69e6806af479) - **test:** pass in opts to skip if addon is not available _(by Philipp Burckhardt)_
 -   [`a4ce77e`](https://github.com/stdlib-js/stdlib/commit/a4ce77efe910c9398e75b767fb81e786a3a04cc0) - **test:** pass in opts to skip if addon is not available _(by Philipp Burckhardt)_
