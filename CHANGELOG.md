@@ -2806,6 +2806,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`202df24`](https://github.com/stdlib-js/stdlib/commit/202df24a6e96c50d2b531bd2d86b743be06e7d5c) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`1f79156`](https://github.com/stdlib-js/stdlib/commit/1f79156e32b643e7131c0e0dcf7bc480fd20c657) - **remove:** remove `stats/base/smeankbn` _(by Gururaj Gurram)_
 -   [`1372c9e`](https://github.com/stdlib-js/stdlib/commit/1372c9e1742e3ecdb9c2de0600c4da449bb3ed1c) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`cc5115d`](https://github.com/stdlib-js/stdlib/commit/cc5115d726af52ce3d38cb8b6001d10b9860ec04) - **remove:** remove `smeankbn` from namespace _(by Gururaj Gurram)_
