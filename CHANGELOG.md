@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7e5c88b`](https://github.com/stdlib-js/stdlib/commit/7e5c88b980808074354a672c930472eb56130b7d) - add C ndarray interface and refactor implementation for `stats/base/smeankbn` [(#7494)](https://github.com/stdlib-js/stdlib/pull/7494)
 -   [`e559d14`](https://github.com/stdlib-js/stdlib/commit/e559d14a25bef7d018ad35133fe67188104d6e48) - add C ndarray interface and refactor implementation for `stats/base/smeankbn2` [(#7498)](https://github.com/stdlib-js/stdlib/pull/7498)
 -   [`716275f`](https://github.com/stdlib-js/stdlib/commit/716275fdf515090bb85f78ca5099be9011abcb66) - add C ndarray interface and refactor implementation for `stats/base/smeanlipw` [(#7500)](https://github.com/stdlib-js/stdlib/pull/7500)
 -   [`7d8292f`](https://github.com/stdlib-js/stdlib/commit/7d8292f6bb2a275fc2005501ef1c8518f9af4986) - add `stats/base/ndarray/scumin` [(#7510)](https://github.com/stdlib-js/stdlib/pull/7510)
@@ -2757,6 +2758,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`7e5c88b`](https://github.com/stdlib-js/stdlib/commit/7e5c88b980808074354a672c930472eb56130b7d) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeankbn` [(#7494)](https://github.com/stdlib-js/stdlib/pull/7494) _(by Gururaj Gurram, stdlib-bot)_
 -   [`e559d14`](https://github.com/stdlib-js/stdlib/commit/e559d14a25bef7d018ad35133fe67188104d6e48) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeankbn2` [(#7498)](https://github.com/stdlib-js/stdlib/pull/7498) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`716275f`](https://github.com/stdlib-js/stdlib/commit/716275fdf515090bb85f78ca5099be9011abcb66) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smeanlipw` [(#7500)](https://github.com/stdlib-js/stdlib/pull/7500) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`7d8292f`](https://github.com/stdlib-js/stdlib/commit/7d8292f6bb2a275fc2005501ef1c8518f9af4986) - **feat:** add `stats/base/ndarray/scumin` [(#7510)](https://github.com/stdlib-js/stdlib/pull/7510) _(by Gururaj Gurram)_
