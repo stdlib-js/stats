@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`a163191`](https://github.com/stdlib-js/stdlib/commit/a16319131f2e6c5bd42b4323f3b60e2f40f8a90f) - add `stats/strided/smeankbn`
+-   [`2283408`](https://github.com/stdlib-js/stdlib/commit/22834081edc23fa27cfe2cb29c15d54b983f2373) - add `stats/strided/smeankbn2`
+-   [`446bec5`](https://github.com/stdlib-js/stdlib/commit/446bec562044b0a0be65acab8c61a779b37b2e6d) - add `stats/strided/smeanlipw`
+-   [`02a0cbb`](https://github.com/stdlib-js/stdlib/commit/02a0cbb50e663700bd6cc9bf4595f31d2e955305) - add `stats/strided/smeanors`
 -   [`7e5c88b`](https://github.com/stdlib-js/stdlib/commit/7e5c88b980808074354a672c930472eb56130b7d) - add C ndarray interface and refactor implementation for `stats/base/smeankbn` [(#7494)](https://github.com/stdlib-js/stdlib/pull/7494)
 -   [`e559d14`](https://github.com/stdlib-js/stdlib/commit/e559d14a25bef7d018ad35133fe67188104d6e48) - add C ndarray interface and refactor implementation for `stats/base/smeankbn2` [(#7498)](https://github.com/stdlib-js/stdlib/pull/7498)
 -   [`716275f`](https://github.com/stdlib-js/stdlib/commit/716275fdf515090bb85f78ca5099be9011abcb66) - add C ndarray interface and refactor implementation for `stats/base/smeanlipw` [(#7500)](https://github.com/stdlib-js/stdlib/pull/7500)
@@ -1003,6 +1007,50 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`1f79156`](https://github.com/stdlib-js/stdlib/commit/1f79156e32b643e7131c0e0dcf7bc480fd20c657): remove `stats/base/smeankbn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/smeankbn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`cc5115d`](https://github.com/stdlib-js/stdlib/commit/cc5115d726af52ce3d38cb8b6001d10b9860ec04): remove `smeankbn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`d1ce3ba`](https://github.com/stdlib-js/stdlib/commit/d1ce3bace21346415c67cb30b31e1f4cc077eff0): remove `stats/base/smeankbn2`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/smeankbn2`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`c38da51`](https://github.com/stdlib-js/stdlib/commit/c38da516b84ac6f0d58e3795eb1c4541b609dc33): remove `smeankbn2`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`9a62195`](https://github.com/stdlib-js/stdlib/commit/9a62195f5655f0996af7eb07a6982daed9ab501b): remove `stats/base/smeanlipw`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/smeanlipw`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`fa1620a`](https://github.com/stdlib-js/stdlib/commit/fa1620ae59e02579f179a77a5130c139bb6f1a5a): remove `smeanlipw`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`78e8df1`](https://github.com/stdlib-js/stdlib/commit/78e8df1d78ad91c96629563bc812700ef036a375): remove `stats/base/smeanors`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/smeanors`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`57e29d1`](https://github.com/stdlib-js/stdlib/commit/57e29d165961f7b53702fc72b37049472b6d6fa4): remove `smeanors`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`cb44d2a`](https://github.com/stdlib-js/stdlib/commit/cb44d2aca78bfecfc52c38b565264b8990a98206): remove `stats/base/nanmean`
 
@@ -2758,6 +2806,22 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`1f79156`](https://github.com/stdlib-js/stdlib/commit/1f79156e32b643e7131c0e0dcf7bc480fd20c657) - **remove:** remove `stats/base/smeankbn` _(by Gururaj Gurram)_
+-   [`1372c9e`](https://github.com/stdlib-js/stdlib/commit/1372c9e1742e3ecdb9c2de0600c4da449bb3ed1c) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`cc5115d`](https://github.com/stdlib-js/stdlib/commit/cc5115d726af52ce3d38cb8b6001d10b9860ec04) - **remove:** remove `smeankbn` from namespace _(by Gururaj Gurram)_
+-   [`a163191`](https://github.com/stdlib-js/stdlib/commit/a16319131f2e6c5bd42b4323f3b60e2f40f8a90f) - **feat:** add `stats/strided/smeankbn` _(by Gururaj Gurram)_
+-   [`d1ce3ba`](https://github.com/stdlib-js/stdlib/commit/d1ce3bace21346415c67cb30b31e1f4cc077eff0) - **remove:** remove `stats/base/smeankbn2` _(by Gururaj Gurram)_
+-   [`0f71480`](https://github.com/stdlib-js/stdlib/commit/0f7148091196f346adf4c4b7192224caf43d9feb) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`c38da51`](https://github.com/stdlib-js/stdlib/commit/c38da516b84ac6f0d58e3795eb1c4541b609dc33) - **remove:** remove `smeankbn2` from namespace _(by Gururaj Gurram)_
+-   [`2283408`](https://github.com/stdlib-js/stdlib/commit/22834081edc23fa27cfe2cb29c15d54b983f2373) - **feat:** add `stats/strided/smeankbn2` _(by Gururaj Gurram)_
+-   [`9a62195`](https://github.com/stdlib-js/stdlib/commit/9a62195f5655f0996af7eb07a6982daed9ab501b) - **remove:** remove `stats/base/smeanlipw` _(by Gururaj Gurram)_
+-   [`3b5839c`](https://github.com/stdlib-js/stdlib/commit/3b5839cde8df61010823efe180a36e207ea3cf48) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`fa1620a`](https://github.com/stdlib-js/stdlib/commit/fa1620ae59e02579f179a77a5130c139bb6f1a5a) - **remove:** remove `smeanlipw` from namespace _(by Gururaj Gurram)_
+-   [`446bec5`](https://github.com/stdlib-js/stdlib/commit/446bec562044b0a0be65acab8c61a779b37b2e6d) - **feat:** add `stats/strided/smeanlipw` _(by Gururaj Gurram)_
+-   [`78e8df1`](https://github.com/stdlib-js/stdlib/commit/78e8df1d78ad91c96629563bc812700ef036a375) - **remove:** remove `stats/base/smeanors` _(by Gururaj Gurram)_
+-   [`57b0020`](https://github.com/stdlib-js/stdlib/commit/57b00201403ac9ea3178341029423b1023a2e94a) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`57e29d1`](https://github.com/stdlib-js/stdlib/commit/57e29d165961f7b53702fc72b37049472b6d6fa4) - **remove:** remove `smeanors` from namespace _(by Gururaj Gurram)_
+-   [`02a0cbb`](https://github.com/stdlib-js/stdlib/commit/02a0cbb50e663700bd6cc9bf4595f31d2e955305) - **feat:** add `stats/strided/smeanors` _(by Gururaj Gurram)_
 -   [`1f33916`](https://github.com/stdlib-js/stdlib/commit/1f33916dfe5b3d36c0d07c268be7be7ba2dee234) - **chore:** add missing eps dependency so C examples compile _(by Philipp Burckhardt)_
 -   [`c562195`](https://github.com/stdlib-js/stdlib/commit/c562195df34a35546bcbd17e199802a9dd5e75aa) - **bench:** use correct Makefile for remaining Bradford distribution functions _(by Philipp Burckhardt)_
 -   [`c698e73`](https://github.com/stdlib-js/stdlib/commit/c698e73a6365ec5d828861bb26a6e3bb74fb1af8) - **chore:** add missing eps dependency to benchmark and examples configs _(by Philipp Burckhardt)_

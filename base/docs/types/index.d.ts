@@ -46,10 +46,6 @@ import range = require( './../../../base/range' );
 import rangeBy = require( './../../../base/range-by' );
 import sdsnanmean = require( './../../../base/sdsnanmean' );
 import sdsnanmeanors = require( './../../../base/sdsnanmeanors' );
-import smeankbn = require( './../../../base/smeankbn' );
-import smeankbn2 = require( './../../../base/smeankbn2' );
-import smeanlipw = require( './../../../base/smeanlipw' );
-import smeanors = require( './../../../base/smeanors' );
 import snanmean = require( './../../../base/snanmean' );
 import snanstdev = require( './../../../base/snanstdev' );
 import snanstdevch = require( './../../../base/snanstdevch' );
@@ -742,110 +738,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	sdsnanmeanors: typeof sdsnanmeanors;
-
-	/**
-	* Computes the arithmetic mean of a single-precision floating-point strided array using an improved Kahan–Babuška algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.smeankbn( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.smeankbn.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	smeankbn: typeof smeankbn;
-
-	/**
-	* Computes the arithmetic mean of a single-precision floating-point strided array using a second-order iterative Kahan–Babuška algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.smeankbn2( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.smeankbn2.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	smeankbn2: typeof smeankbn2;
-
-	/**
-	* Computes the arithmetic mean of a single-precision floating-point strided array using a one-pass trial mean algorithm with pairwise summation.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.smeanlipw( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.smeanlipw.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	smeanlipw: typeof smeanlipw;
-
-	/**
-	* Computes the arithmetic mean of a single-precision floating-point strided array using ordinary recursive summation.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.smeanors( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.smeanors.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	smeanors: typeof smeanors;
 
 	/**
 	* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values.
