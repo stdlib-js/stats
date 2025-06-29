@@ -2758,6 +2758,8 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`c562195`](https://github.com/stdlib-js/stdlib/commit/c562195df34a35546bcbd17e199802a9dd5e75aa) - **bench:** use correct Makefile for remaining Bradford distribution functions _(by Philipp Burckhardt)_
+-   [`c698e73`](https://github.com/stdlib-js/stdlib/commit/c698e73a6365ec5d828861bb26a6e3bb74fb1af8) - **chore:** add missing eps dependency to benchmark and examples configs _(by Philipp Burckhardt)_
 -   [`b039368`](https://github.com/stdlib-js/stdlib/commit/b039368dc397596a89242970f520ecc06259c3cd) - **bench:** add missing eps dependency so C benchmarks compile _(by Philipp Burckhardt)_
 -   [`dc32afc`](https://github.com/stdlib-js/stdlib/commit/dc32afc5a19ebe7825ed085633b225c55557f047) - **chore:** add missing eps dependency to benchmark and examples configs _(by Philipp Burckhardt)_
 -   [`716f93d`](https://github.com/stdlib-js/stdlib/commit/716f93d14c76e1dda5b02c365a17a2519da3cada) - **chore:** add missing benchmark and examples dependencies _(by Philipp Burckhardt)_
