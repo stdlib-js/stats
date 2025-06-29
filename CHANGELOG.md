@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-28)
+## Unreleased (2025-06-29)
 
 <section class="features">
 
@@ -2753,6 +2753,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`0ec467e`](https://github.com/stdlib-js/stdlib/commit/0ec467e681c02b54383c7f50b5fbb07a938e16cb) - **chore:** remove excess trailing newlines [(#7512)](https://github.com/stdlib-js/stdlib/pull/7512) _(by stdlib-bot)_
 -   [`6aeb7d0`](https://github.com/stdlib-js/stdlib/commit/6aeb7d0058535c3e7cacb2a66eed69e6806af479) - **test:** pass in opts to skip if addon is not available _(by Philipp Burckhardt)_
 -   [`a4ce77e`](https://github.com/stdlib-js/stdlib/commit/a4ce77efe910c9398e75b767fb81e786a3a04cc0) - **test:** pass in opts to skip if addon is not available _(by Philipp Burckhardt)_
 -   [`b9e85bb`](https://github.com/stdlib-js/stdlib/commit/b9e85bb880c148b413a2cd2d8be4146994d12775) - **style:** remove extra spaces _(by Philipp Burckhardt)_
