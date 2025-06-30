@@ -2807,6 +2807,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`b135c83`](https://github.com/stdlib-js/stdlib/commit/b135c83aaf95e1a2e03e22ab6f9348284ad300fc) - **docs:** fix typo _(by Athan Reines)_
 -   [`1c56b53`](https://github.com/stdlib-js/stdlib/commit/1c56b532d50cb9b37249c16134c446104eb0d312) - **feat:** add `stats/array/nanmskrange` [(#7514)](https://github.com/stdlib-js/stdlib/pull/7514) _(by Gururaj Gurram, Athan Reines)_
 -   [`803f30a`](https://github.com/stdlib-js/stdlib/commit/803f30a518a22fb4c01e5d2b82b37afd9f0d567d) - **test:** update import paths _(by Athan Reines)_
 -   [`202df24`](https://github.com/stdlib-js/stdlib/commit/202df24a6e96c50d2b531bd2d86b743be06e7d5c) - **docs:** minor clean-up _(by Philipp Burckhardt)_
