@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-29)
+## Unreleased (2025-06-30)
 
 <section class="features">
 
@@ -2806,6 +2806,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`803f30a`](https://github.com/stdlib-js/stdlib/commit/803f30a518a22fb4c01e5d2b82b37afd9f0d567d) - **test:** update import paths _(by Athan Reines)_
 -   [`202df24`](https://github.com/stdlib-js/stdlib/commit/202df24a6e96c50d2b531bd2d86b743be06e7d5c) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`1f79156`](https://github.com/stdlib-js/stdlib/commit/1f79156e32b643e7131c0e0dcf7bc480fd20c657) - **remove:** remove `stats/base/smeankbn` _(by Gururaj Gurram)_
 -   [`1372c9e`](https://github.com/stdlib-js/stdlib/commit/1372c9e1742e3ecdb9c2de0600c4da449bb3ed1c) - **refactor:** update paths _(by Gururaj Gurram)_
