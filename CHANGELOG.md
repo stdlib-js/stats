@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`72f9e40`](https://github.com/stdlib-js/stdlib/commit/72f9e40f4e09c434f777d2ddc1e0ebb80faed109) - add `stats/array/variancepn` [(#7484)](https://github.com/stdlib-js/stdlib/pull/7484)
 -   [`9ffead9`](https://github.com/stdlib-js/stdlib/commit/9ffead9ad0296f08f24d90f3a766677b6c0f478d) - add `stats/array/variancetk` [(#7483)](https://github.com/stdlib-js/stdlib/pull/7483)
 -   [`7aa570d`](https://github.com/stdlib-js/stdlib/commit/7aa570dd5d22ef8359fad63fcc4110fe4fd05b38) - add `stats/array/variancewd` [(#7485)](https://github.com/stdlib-js/stdlib/pull/7485)
 -   [`1c56b53`](https://github.com/stdlib-js/stdlib/commit/1c56b532d50cb9b37249c16134c446104eb0d312) - add `stats/array/nanmskrange` [(#7514)](https://github.com/stdlib-js/stdlib/pull/7514)
@@ -2809,6 +2810,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`72f9e40`](https://github.com/stdlib-js/stdlib/commit/72f9e40f4e09c434f777d2ddc1e0ebb80faed109) - **feat:** add `stats/array/variancepn` [(#7484)](https://github.com/stdlib-js/stdlib/pull/7484) _(by Gururaj Gurram, Athan Reines)_
 -   [`9ffead9`](https://github.com/stdlib-js/stdlib/commit/9ffead9ad0296f08f24d90f3a766677b6c0f478d) - **feat:** add `stats/array/variancetk` [(#7483)](https://github.com/stdlib-js/stdlib/pull/7483) _(by Gururaj Gurram, Athan Reines)_
 -   [`7aa570d`](https://github.com/stdlib-js/stdlib/commit/7aa570dd5d22ef8359fad63fcc4110fe4fd05b38) - **feat:** add `stats/array/variancewd` [(#7485)](https://github.com/stdlib-js/stdlib/pull/7485) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`b135c83`](https://github.com/stdlib-js/stdlib/commit/b135c83aaf95e1a2e03e22ab6f9348284ad300fc) - **docs:** fix typo _(by Athan Reines)_
