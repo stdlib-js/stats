@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7aa570d`](https://github.com/stdlib-js/stdlib/commit/7aa570dd5d22ef8359fad63fcc4110fe4fd05b38) - add `stats/array/variancewd` [(#7485)](https://github.com/stdlib-js/stdlib/pull/7485)
 -   [`1c56b53`](https://github.com/stdlib-js/stdlib/commit/1c56b532d50cb9b37249c16134c446104eb0d312) - add `stats/array/nanmskrange` [(#7514)](https://github.com/stdlib-js/stdlib/pull/7514)
 -   [`a163191`](https://github.com/stdlib-js/stdlib/commit/a16319131f2e6c5bd42b4323f3b60e2f40f8a90f) - add `stats/strided/smeankbn`
 -   [`2283408`](https://github.com/stdlib-js/stdlib/commit/22834081edc23fa27cfe2cb29c15d54b983f2373) - add `stats/strided/smeankbn2`
@@ -2807,6 +2808,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`7aa570d`](https://github.com/stdlib-js/stdlib/commit/7aa570dd5d22ef8359fad63fcc4110fe4fd05b38) - **feat:** add `stats/array/variancewd` [(#7485)](https://github.com/stdlib-js/stdlib/pull/7485) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`b135c83`](https://github.com/stdlib-js/stdlib/commit/b135c83aaf95e1a2e03e22ab6f9348284ad300fc) - **docs:** fix typo _(by Athan Reines)_
 -   [`1c56b53`](https://github.com/stdlib-js/stdlib/commit/1c56b532d50cb9b37249c16134c446104eb0d312) - **feat:** add `stats/array/nanmskrange` [(#7514)](https://github.com/stdlib-js/stdlib/pull/7514) _(by Gururaj Gurram, Athan Reines)_
 -   [`803f30a`](https://github.com/stdlib-js/stdlib/commit/803f30a518a22fb4c01e5d2b82b37afd9f0d567d) - **test:** update import paths _(by Athan Reines)_
