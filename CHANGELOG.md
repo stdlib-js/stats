@@ -944,6 +944,7 @@
 
 ### Bug Fixes
 
+-   [`f0d49c1`](https://github.com/stdlib-js/stdlib/commit/f0d49c177b252ac1182ebc831fec6c90e862d56d) - handle infinity case and increase tolerances for passing tests
 -   [`ef5b43f`](https://github.com/stdlib-js/stdlib/commit/ef5b43faeb24b8594802eeb0bfa665cafdbf4e85) - add missing build task
 -   [`1a48ebb`](https://github.com/stdlib-js/stdlib/commit/1a48ebbacff02aa8f374081b3b636bc2c0a027ef) - use correct Makefile for examples/c
 -   [`00add1e`](https://github.com/stdlib-js/stdlib/commit/00add1eb9ad8dd682b8759a7401a4e900509931d) - use correct return value
@@ -2812,6 +2813,9 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`f0d49c1`](https://github.com/stdlib-js/stdlib/commit/f0d49c177b252ac1182ebc831fec6c90e862d56d) - **fix:** handle infinity case and increase tolerances for passing tests _(by Philipp Burckhardt)_
+-   [`0a23889`](https://github.com/stdlib-js/stdlib/commit/0a23889dd55afcd8f1a85cd208a2397c931637bd) - **test:** increase tolerances for passing tests _(by Philipp Burckhardt)_
+-   [`7e24b8b`](https://github.com/stdlib-js/stdlib/commit/7e24b8ba0fff87a56584bb1a2fa106eb88267596) - **test:** slightly increase tolerances for passing tests _(by Philipp Burckhardt)_
 -   [`f304f03`](https://github.com/stdlib-js/stdlib/commit/f304f0337148d8fefad35cf2a022db107e0eeef0) - **feat:** add `stats/array/variance` [(#7525)](https://github.com/stdlib-js/stdlib/pull/7525) _(by Gururaj Gurram, Athan Reines)_
 -   [`c7d89fd`](https://github.com/stdlib-js/stdlib/commit/c7d89fd8cdf7f79f8725dcf3d069d1e7376f79b6) - **feat:** add `stats/array/variancech` [(#7526)](https://github.com/stdlib-js/stdlib/pull/7526) _(by Gururaj Gurram)_
 -   [`72f9e40`](https://github.com/stdlib-js/stdlib/commit/72f9e40f4e09c434f777d2ddc1e0ebb80faed109) - **feat:** add `stats/array/variancepn` [(#7484)](https://github.com/stdlib-js/stdlib/pull/7484) _(by Gururaj Gurram, Athan Reines)_
