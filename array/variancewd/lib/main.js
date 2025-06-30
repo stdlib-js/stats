@@ -39,7 +39,7 @@ var GENERIC_DTYPE = 'generic';
 // MAIN //
 
 /**
-* Computes the standard deviation of an array using Welford's algorithm.
+* Computes the variance of an array using Welford's algorithm.
 *
 * ## Method
 *
