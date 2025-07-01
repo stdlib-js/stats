@@ -19,9 +19,14 @@
 // TypeScript Version: 4.1
 
 /**
+* Alternative hypothesis.
+*/
+type Alternative = 'two-sided' | 'greater' | 'less';
+
+/**
 * Interface describing test results.
 */
-interface Results<T> {
+interface Results {
 	/**
 	* Boolean indicating whether the null hypothesis was rejected.
 	*/
@@ -30,7 +35,7 @@ interface Results<T> {
 	/**
 	* Alternative hypothesis.
 	*/
-	alternative?: number;
+	alternative?: Alternative;
 
 	/**
 	* Significance level.
@@ -50,7 +55,7 @@ interface Results<T> {
 	/**
 	* Confidence interval.
 	*/
-	ci?: T;
+	ci?: Float64Array;
 
 	/**
 	* Difference in means under the null hypothesis.
@@ -69,18 +74,18 @@ interface Results<T> {
 }
 
 /**
-* Interface describing a struct data structure.
+* Interface describing a results data structure.
 */
-declare class Struct<T> {
+declare class ResultsStruct {
 	/**
-	* Struct constructor.
+	* Results constructor.
 	*
 	* @param arg - buffer or data object
 	* @param byteOffset - byte offset
 	* @param byteLength - maximum byte length
-	* @returns struct
+	* @returns results
 	*/
-	constructor( arg?: ArrayBuffer | Results<T>, byteOffset?: number, byteLength?: number );
+	constructor( arg?: ArrayBuffer | Results, byteOffset?: number, byteLength?: number );
 
 	/**
 	* Boolean indicating whether the null hypothesis was rejected.
@@ -90,7 +95,7 @@ declare class Struct<T> {
 	/**
 	* Alternative hypothesis.
 	*/
-	alternative: number;
+	alternative: Alternative;
 
 	/**
 	* Significance level.
@@ -110,7 +115,7 @@ declare class Struct<T> {
 	/**
 	* Confidence interval.
 	*/
-	ci: T;
+	ci: Float64Array;
 
 	/**
 	* Difference in means under the null hypothesis.
@@ -126,64 +131,68 @@ declare class Struct<T> {
 	* Sample mean of `y`.
 	*/
 	ymean: number;
+
+	/**
+	* Test method.
+	*/
+	method: string;
 }
 
 /**
-* Interface defining a struct constructor which is both "newable" and "callable".
+* Interface defining a results constructor which is both "newable" and "callable".
 */
-interface StructConstructor<T> {
+interface ResultsConstructor {
 	/**
-	* Struct constructor.
+	* Results constructor.
 	*
 	* @param arg - buffer or data object
 	* @param byteOffset - byte offset
 	* @param byteLength - maximum byte length
-	* @returns struct
+	* @returns results object
 	*/
-	new( arg?: ArrayBuffer | Results<T>, byteOffset?: number, byteLength?: number ): Struct<T>;
+	new( arg?: ArrayBuffer | Results, byteOffset?: number, byteLength?: number ): ResultsStruct;
 
 	/**
-	* Struct constructor.
+	* Results constructor.
 	*
 	* @param arg - buffer or data object
 	* @param byteOffset - byte offset
 	* @param byteLength - maximum byte length
-	* @returns struct
+	* @returns results object
 	*/
-	( arg?: ArrayBuffer | Results<T>, byteOffset?: number, byteLength?: number ): Struct<T>;
+	( arg?: ArrayBuffer | Results, byteOffset?: number, byteLength?: number ): ResultsStruct;
 }
 
 /**
-* Returns a new struct constructor tailored to a specified floating-point data type.
+* Returns a two-sample Z-test double-precision floating-point results object.
 *
-* @param dtype - floating-point data type for storing floating-point results
-* @returns struct constructor
-*
-* @example
-* var Struct = structFactory( 'float64' );
-* // returns <Function>
-*
-* var s = new Struct();
-* // returns <Struct>
-*/
-declare function structFactory( dtype: 'float64' ): StructConstructor<Float64Array>;
-
-/**
-* Returns a new struct constructor tailored to a specified floating-point data type.
-*
-* @param dtype - floating-point data type for storing floating-point results
-* @returns struct constructor
+* @param arg - buffer or data object
+* @param byteOffset - byte offset
+* @param byteLength - maximum byte length
+* @returns results object
 *
 * @example
-* var Struct = structFactory( 'float32' );
-* // returns <Function>
+* var Float64Array = require( '@stdlib/array/float64' );
 *
-* var s = new Struct();
-* // returns <Struct>
+* var results = new Results();
+* // returns <Results>
+*
+* results.alternative = 'two-sided';
+* results.alpha = 0.05;
+* results.nullValue = 0.0;
+* results.pValue = 0.0132;
+* results.statistic = 2.4773;
+* results.xmean = 3.7561;
+* results.ymean = 3.0129;
+* results.ci = new Float64Array( [ 0.1552, 1.3311 ] );
+* results.rejected = true;
+*
+* var str = results.toString();
+* // returns <string>
 */
-declare function structFactory( dtype: 'float32' ): StructConstructor<Float32Array>;
+declare var Results: ResultsConstructor;
 
 
 // EXPORTS //
 
-export = structFactory;
+export = Results;

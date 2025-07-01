@@ -19,6 +19,11 @@
 // TypeScript Version: 4.1
 
 /**
+* Alternative hypothesis.
+*/
+type Alternative = 'two-sided' | 'greater' | 'less';
+
+/**
 * Interface describing test results.
 */
 interface Results<T> {
@@ -30,7 +35,7 @@ interface Results<T> {
 	/**
 	* Alternative hypothesis.
 	*/
-	alternative?: number;
+	alternative?: Alternative;
 
 	/**
 	* Significance level.
@@ -69,16 +74,16 @@ interface Results<T> {
 }
 
 /**
-* Interface describing a struct data structure.
+* Interface describing a results data structure.
 */
-declare class Struct<T> {
+declare class ResultsStruct<T> {
 	/**
-	* Struct constructor.
+	* Results constructor.
 	*
 	* @param arg - buffer or data object
 	* @param byteOffset - byte offset
 	* @param byteLength - maximum byte length
-	* @returns struct
+	* @returns results
 	*/
 	constructor( arg?: ArrayBuffer | Results<T>, byteOffset?: number, byteLength?: number );
 
@@ -90,7 +95,7 @@ declare class Struct<T> {
 	/**
 	* Alternative hypothesis.
 	*/
-	alternative: number;
+	alternative: Alternative;
 
 	/**
 	* Significance level.
@@ -126,64 +131,69 @@ declare class Struct<T> {
 	* Sample mean of `y`.
 	*/
 	ymean: number;
+
+	/**
+	* Test method.
+	*/
+	method: string;
 }
 
 /**
-* Interface defining a struct constructor which is both "newable" and "callable".
+* Interface defining a results constructor which is both "newable" and "callable".
 */
-interface StructConstructor<T> {
+interface ResultsConstructor<T> {
 	/**
-	* Struct constructor.
+	* Results constructor.
 	*
 	* @param arg - buffer or data object
 	* @param byteOffset - byte offset
 	* @param byteLength - maximum byte length
 	* @returns struct
 	*/
-	new( arg?: ArrayBuffer | Results<T>, byteOffset?: number, byteLength?: number ): Struct<T>;
+	new( arg?: ArrayBuffer | Results<T>, byteOffset?: number, byteLength?: number ): ResultsStruct<T>;
 
 	/**
-	* Struct constructor.
+	* Results constructor.
 	*
 	* @param arg - buffer or data object
 	* @param byteOffset - byte offset
 	* @param byteLength - maximum byte length
 	* @returns struct
 	*/
-	( arg?: ArrayBuffer | Results<T>, byteOffset?: number, byteLength?: number ): Struct<T>;
+	( arg?: ArrayBuffer | Results<T>, byteOffset?: number, byteLength?: number ): ResultsStruct<T>;
 }
 
 /**
-* Returns a new struct constructor tailored to a specified floating-point data type.
+* Returns a new results constructor for creating a two-sample Z-test results object.
 *
 * @param dtype - floating-point data type for storing floating-point results
-* @returns struct constructor
+* @returns results constructor
 *
 * @example
-* var Struct = structFactory( 'float64' );
+* var Results = resultsFactory( 'float64' );
 * // returns <Function>
 *
-* var s = new Struct();
-* // returns <Struct>
+* var r = new Results();
+* // returns <Results>
 */
-declare function structFactory( dtype: 'float64' ): StructConstructor<Float64Array>;
+declare function resultsFactory( dtype: 'float64' ): ResultsConstructor<Float64Array>;
 
 /**
-* Returns a new struct constructor tailored to a specified floating-point data type.
+* Returns a constructor for creating a two-sample Z-test results object.
 *
 * @param dtype - floating-point data type for storing floating-point results
-* @returns struct constructor
+* @returns results constructor
 *
 * @example
-* var Struct = structFactory( 'float32' );
+* var Results = resultsFactory( 'float32' );
 * // returns <Function>
 *
-* var s = new Struct();
-* // returns <Struct>
+* var r = new Results();
+* // returns <Results>
 */
-declare function structFactory( dtype: 'float32' ): StructConstructor<Float32Array>;
+declare function resultsFactory( dtype: 'float32' ): ResultsConstructor<Float32Array>;
 
 
 // EXPORTS //
 
-export = structFactory;
+export = resultsFactory;

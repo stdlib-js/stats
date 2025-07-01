@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b01aeba`](https://github.com/stdlib-js/stdlib/commit/b01aeba0cb63c8a37967d8f09f3a1a4bebd5aa91) - add `stats/base/ztest/two-sample/results` [(#7448)](https://github.com/stdlib-js/stdlib/pull/7448)
 -   [`f304f03`](https://github.com/stdlib-js/stdlib/commit/f304f0337148d8fefad35cf2a022db107e0eeef0) - add `stats/array/variance` [(#7525)](https://github.com/stdlib-js/stdlib/pull/7525)
 -   [`c7d89fd`](https://github.com/stdlib-js/stdlib/commit/c7d89fd8cdf7f79f8725dcf3d069d1e7376f79b6) - add `stats/array/variancech` [(#7526)](https://github.com/stdlib-js/stdlib/pull/7526)
 -   [`72f9e40`](https://github.com/stdlib-js/stdlib/commit/72f9e40f4e09c434f777d2ddc1e0ebb80faed109) - add `stats/array/variancepn` [(#7484)](https://github.com/stdlib-js/stdlib/pull/7484)
@@ -2813,6 +2814,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`b01aeba`](https://github.com/stdlib-js/stdlib/commit/b01aeba0cb63c8a37967d8f09f3a1a4bebd5aa91) - **feat:** add `stats/base/ztest/two-sample/results` [(#7448)](https://github.com/stdlib-js/stdlib/pull/7448) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`4b3f6b6`](https://github.com/stdlib-js/stdlib/commit/4b3f6b66882ec35af639463719e8e2fd57bd4d10) - **docs:** fix missing periods _(by Athan Reines)_
 -   [`4ea82ac`](https://github.com/stdlib-js/stdlib/commit/4ea82ac0995cffd3f126ffc51badb04da502d538) - **test:** fix description _(by Athan Reines)_
 -   [`5b3f1fe`](https://github.com/stdlib-js/stdlib/commit/5b3f1fe23bb75e6e6570f71420af877ca377dd76) - **test:** use approximate equality for native addon tests _(by Philipp Burckhardt)_
