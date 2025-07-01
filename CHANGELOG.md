@@ -2886,6 +2886,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`83af59d`](https://github.com/stdlib-js/stdlib/commit/83af59de17b7e0db3d95fb5959ec0f38cf63c88e) - **test:** increase needed tolerances for tests to pass _(by Philipp Burckhardt)_
 -   [`a1991ea`](https://github.com/stdlib-js/stdlib/commit/a1991eadd5b3b5a718363eaa70cd325866574bc5) - **remove:** remove `stats/base/variance` _(by Gururaj Gurram)_
 -   [`e342a38`](https://github.com/stdlib-js/stdlib/commit/e342a388619ab71f5222105ec94c5029e42a4458) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`c345633`](https://github.com/stdlib-js/stdlib/commit/c345633f8162b7c27b94d71f48a478fa5a174999) - **remove:** remove `variance` from namespace _(by Gururaj Gurram)_
