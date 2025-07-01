@@ -21,7 +21,7 @@
 var geometricRandomFactory = require( '@stdlib/random/base/geometric' ).factory;
 var negativeBinomial = require( './../../../../base/dists/negative-binomial' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
-var variance = require( './../../../../base/variance' );
+var variance = require( './../../../../strided/variance' );
 var linspace = require( '@stdlib/array/base/linspace' );
 var mean = require( './../../../../strided/mean' );
 var abs = require( '@stdlib/math/base/special/abs' );

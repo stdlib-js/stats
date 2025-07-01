@@ -20,7 +20,7 @@
 
 var invgammaRandomFactory = require( '@stdlib/random/base/invgamma' ).factory;
 var filledarrayBy = require( '@stdlib/array/filled-by' );
-var variance = require( './../../../../base/variance' );
+var variance = require( './../../../../strided/variance' );
 var linspace = require( '@stdlib/array/base/linspace' );
 var gamma = require( './../../../../base/dists/gamma' );
 var mean = require( './../../../../strided/mean' );

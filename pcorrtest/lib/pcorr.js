@@ -23,7 +23,7 @@
 var max = require( '@stdlib/math/base/special/max' );
 var min = require( '@stdlib/math/base/special/min' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
-var variance = require( './../../base/variance' );
+var variance = require( './../../strided/variance' );
 var mean = require( './../../strided/mean' );
 
 

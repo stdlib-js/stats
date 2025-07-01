@@ -460,60 +460,6 @@ setReadOnly( ns, 'stdevwd', require( './../../base/stdevwd' ) );
 setReadOnly( ns, 'stdevyc', require( './../../base/stdevyc' ) );
 
 /**
-* @name variance
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/variance}
-*/
-setReadOnly( ns, 'variance', require( './../../base/variance' ) );
-
-/**
-* @name variancech
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/variancech}
-*/
-setReadOnly( ns, 'variancech', require( './../../base/variancech' ) );
-
-/**
-* @name variancepn
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/variancepn}
-*/
-setReadOnly( ns, 'variancepn', require( './../../base/variancepn' ) );
-
-/**
-* @name variancetk
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/variancetk}
-*/
-setReadOnly( ns, 'variancetk', require( './../../base/variancetk' ) );
-
-/**
-* @name variancewd
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/variancewd}
-*/
-setReadOnly( ns, 'variancewd', require( './../../base/variancewd' ) );
-
-/**
-* @name varianceyc
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/varianceyc}
-*/
-setReadOnly( ns, 'varianceyc', require( './../../base/varianceyc' ) );
-
-/**
 * @name dmeankbn2
 * @memberof ns
 * @readonly

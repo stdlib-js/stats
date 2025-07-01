@@ -20,7 +20,7 @@
 
 var chiRandomFactory = require( '@stdlib/random/base/chi' ).factory;
 var filledarrayBy = require( '@stdlib/array/filled-by' );
-var variance = require( './../../../../base/variance' );
+var variance = require( './../../../../strided/variance' );
 var linspace = require( '@stdlib/array/base/linspace' );
 var rayleigh = require( './../../../../base/dists/rayleigh' );
 var absdiff = require( '@stdlib/math/base/utils/absolute-difference' );

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var variancewd = require( './../../../base/variancewd' );
+var variancewd = require( './../../../strided/variancewd' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 
 
