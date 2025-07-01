@@ -2813,6 +2813,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`4ea82ac`](https://github.com/stdlib-js/stdlib/commit/4ea82ac0995cffd3f126ffc51badb04da502d538) - **test:** fix description _(by Athan Reines)_
 -   [`5b3f1fe`](https://github.com/stdlib-js/stdlib/commit/5b3f1fe23bb75e6e6570f71420af877ca377dd76) - **test:** use approximate equality for native addon tests _(by Philipp Burckhardt)_
 -   [`57a1566`](https://github.com/stdlib-js/stdlib/commit/57a15667d495dd2ff2101e5350679d0e106aa116) - **docs:** remove extra empty line [(#7534)](https://github.com/stdlib-js/stdlib/pull/7534) _(by stdlib-bot)_
 -   [`f0d49c1`](https://github.com/stdlib-js/stdlib/commit/f0d49c177b252ac1182ebc831fec6c90e862d56d) - **fix:** handle infinity case and increase tolerances for passing tests _(by Philipp Burckhardt)_
