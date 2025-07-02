@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# nanmskmax
+# nanmskmin
 
-> Calculate the maximum value of a strided array according to a mask, ignoring `NaN` values.
+> Calculate the minimum value of a strided array according to a mask, ignoring `NaN` values.
 
 <section class="intro">
 
@@ -33,19 +33,19 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var nanmskmax = require( '@stdlib/stats/base/nanmskmax' );
+var nanmskmin = require( '@stdlib/stats/strided/nanmskmin' );
 ```
 
-#### nanmskmax( N, x, strideX, mask, strideMask )
+#### nanmskmin( N, x, strideX, mask, strideMask )
 
-Computes the maximum value of a strided array according to a `mask`, ignoring `NaN` values.
+Computes the minimum value of a strided array according to a `mask`, ignoring `NaN` values.
 
 ```javascript
-var x = [ 1.0, -2.0, 4.0, 2.0, NaN ];
+var x = [ 1.0, -2.0, -4.0, 2.0, NaN ];
 var mask = [ 0, 0, 1, 0, 0 ];
 
-var v = nanmskmax( x.length, x, 1, mask, 1 );
-// returns 2.0
+var v = nanmskmin( x.length, x, 1, mask, 1 );
+// returns -2.0
 ```
 
 The function has the following parameters:
@@ -56,14 +56,14 @@ The function has the following parameters:
 -   **mask**: mask [`Array`][mdn-array] or [`typed array`][mdn-typed-array]. If a `mask` array element is `0`, the corresponding element in `x` is considered valid and **included** in computation. If a `mask` array element is `1`, the corresponding element in `x` is considered invalid/missing and **excluded** from computation.
 -   **strideMask**: stride length for `mask`.
 
-The `N` and stride parameters determine which elements in the strided arrays are accessed at runtime. For example, to compute the maximum value of every other element in `x`,
+The `N` and stride parameters determine which elements in the strided arrays are accessed at runtime. For example, to compute the minimum value of every other element in `x`,
 
 ```javascript
-var x = [ 1.0, 2.0, -7.0, -2.0, 4.0, 3.0, 5.0, 6.0, NaN, NaN ];
+var x = [ 1.0, 2.0, -7.0, -2.0, 4.0, 3.0, -5.0, -6.0, NaN, NaN ];
 var mask = [ 0, 0, 0, 0, 0, 0, 1, 1, 0, 0 ];
 
-var v = nanmskmax( 5, x, 2, mask, 2 );
-// returns 4.0
+var v = nanmskmin( 5, x, 2, mask, 2 );
+// returns -7.0
 ```
 
 Note that indexing is relative to the first index. To introduce offsets, use [`typed array`][mdn-typed-array] views.
@@ -80,20 +80,20 @@ var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd 
 var mask0 = new Uint8Array( [ 0, 0, 0, 0, 0, 0, 1, 1, 0, 0 ] );
 var mask1 = new Uint8Array( mask0.buffer, mask0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var v = nanmskmax( 5, x1, 2, mask1, 2 );
-// returns 4.0
+var v = nanmskmin( 5, x1, 2, mask1, 2 );
+// returns -2.0
 ```
 
-#### nanmskmax.ndarray( N, x, strideX, offsetX, mask, strideMask, offsetMask )
+#### nanmskmin.ndarray( N, x, strideX, offsetX, mask, strideMask, offsetMask )
 
-Computes the maximum value of a strided array according to a `mask`, ignoring `NaN` values and using alternative indexing semantics.
+Computes the minimum value of a strided array according to a `mask`, ignoring `NaN` values and using alternative indexing semantics.
 
 ```javascript
-var x = [ 1.0, -2.0, 4.0, 2.0, NaN ];
+var x = [ 1.0, -2.0, -4.0, 2.0, NaN ];
 var mask = [ 0, 0, 1, 0, 0 ];
 
-var v = nanmskmax.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-// returns 2.0
+var v = nanmskmin.ndarray( x.length, x, 1, 0, mask, 1, 0 );
+// returns -2.0
 ```
 
 The function has the following additional parameters:
@@ -101,14 +101,14 @@ The function has the following additional parameters:
 -   **offsetX**: starting index for `x`.
 -   **offsetMask**: starting index for `mask`.
 
-While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameters support indexing semantics based on starting indices. For example, to calculate the maximum value for every other element in `x` starting from the second element
+While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameters support indexing semantics based on starting indices. For example, to calculate the minimum value for every other element in `x` starting from the second element
 
 ```javascript
-var x = [ 2.0, 1.0, -2.0, -2.0, 3.0, 4.0, 5.0, 6.0, NaN, NaN ];
+var x = [ 2.0, 1.0, -2.0, -2.0, 3.0, 4.0, -5.0, -6.0, NaN, NaN ];
 var mask = [ 0, 0, 0, 0, 0, 0, 1, 1, 0, 0 ];
 
-var v = nanmskmax.ndarray( 5, x, 2, 1, mask, 2, 1 );
-// returns 4.0
+var v = nanmskmin.ndarray( 5, x, 2, 1, mask, 2, 1 );
+// returns -2.0
 ```
 
 </section>
@@ -120,7 +120,7 @@ var v = nanmskmax.ndarray( 5, x, 2, 1, mask, 2, 1 );
 ## Notes
 
 -   If `N <= 0`, both functions return `NaN`.
--   Depending on the environment, the typed versions ([`dnanmskmax`][@stdlib/stats/strided/dnanmskmax], [`snanmskmax`][@stdlib/stats/strided/snanmskmax], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dnanmskmin`][@stdlib/stats/strided/dnanmskmin], [`snanmskmin`][@stdlib/stats/strided/snanmskmin], etc.) are likely to be significantly more performant.
 -   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array/base/accessor`][@stdlib/array/base/accessor]).
 
 </section>
@@ -137,7 +137,7 @@ var v = nanmskmax.ndarray( 5, x, 2, 1, mask, 2, 1 );
 var uniform = require( '@stdlib/random/base/uniform' );
 var bernoulli = require( '@stdlib/random/base/bernoulli' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
-var nanmskmax = require( '@stdlib/stats/base/nanmskmax' );
+var nanmskmin = require( '@stdlib/stats/strided/nanmskmin' );
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
@@ -152,7 +152,7 @@ console.log( x );
 var mask = filledarrayBy( x.length, 'uint8', bernoulli.factory( 0.2 ) );
 console.log( mask );
 
-var v = nanmskmax( x.length, x, 1, mask, 1 );
+var v = nanmskmin( x.length, x, 1, mask, 1 );
 console.log( v );
 ```
 
@@ -168,11 +168,11 @@ console.log( v );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/strided/dnanmskmax`][@stdlib/stats/strided/dnanmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/strided/mskmax`][@stdlib/stats/strided/mskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask.</span>
--   <span class="package-name">[`@stdlib/stats/strided/nanmax`][@stdlib/stats/strided/nanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanmskmin`][@stdlib/stats/base/nanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/strided/snanmskmax`][@stdlib/stats/strided/snanmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array according to a mask, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dnanmskmin`][@stdlib/stats/strided/dnanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/mskmin`][@stdlib/stats/strided/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanmin`][@stdlib/stats/strided/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanmskmax`][@stdlib/stats/strided/nanmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/snanmskmin`][@stdlib/stats/strided/snanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask, ignoring NaN values.</span>
 
 </section>
 
@@ -190,15 +190,15 @@ console.log( v );
 
 <!-- <related-links> -->
 
-[@stdlib/stats/strided/dnanmskmax]: https://github.com/stdlib-js/stats/tree/main/strided/dnanmskmax
+[@stdlib/stats/strided/dnanmskmin]: https://github.com/stdlib-js/stats/tree/main/strided/dnanmskmin
 
-[@stdlib/stats/strided/mskmax]: https://github.com/stdlib-js/stats/tree/main/strided/mskmax
+[@stdlib/stats/strided/mskmin]: https://github.com/stdlib-js/stats/tree/main/strided/mskmin
 
-[@stdlib/stats/strided/nanmax]: https://github.com/stdlib-js/stats/tree/main/strided/nanmax
+[@stdlib/stats/strided/nanmin]: https://github.com/stdlib-js/stats/tree/main/strided/nanmin
 
-[@stdlib/stats/base/nanmskmin]: https://github.com/stdlib-js/stats/tree/main/base/nanmskmin
+[@stdlib/stats/strided/nanmskmax]: https://github.com/stdlib-js/stats/tree/main/strided/nanmskmax
 
-[@stdlib/stats/strided/snanmskmax]: https://github.com/stdlib-js/stats/tree/main/strided/snanmskmax
+[@stdlib/stats/strided/snanmskmin]: https://github.com/stdlib-js/stats/tree/main/strided/snanmskmin
 
 <!-- </related-links> -->
 

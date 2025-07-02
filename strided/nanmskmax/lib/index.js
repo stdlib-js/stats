@@ -19,34 +19,39 @@
 'use strict';
 
 /**
-* Compute the range of a strided array according to a mask, ignoring `NaN` values.
+* Compute the maximum value of a strided array according to a mask, ignoring `NaN` values.
 *
-* @module @stdlib/stats/base/nanmskrange
+* @module @stdlib/stats/strided/nanmskmax
 *
 * @example
-* var nanmskrange = require( '@stdlib/stats/base/nanmskrange' );
+* var nanmskmax = require( '@stdlib/stats/strided/nanmskmax' );
 *
 * var x = [ 1.0, -2.0, 4.0, 2.0, NaN ];
 * var mask = [ 0, 0, 1, 0, 0 ];
 *
-* var v = nanmskrange( x.length, x, 1 );
-* // returns 4.0
+* var v = nanmskmax( x.length, x, 1 );
+* // returns 2.0
 *
 * @example
-* var floor = require( '@stdlib/math/base/special/floor' );
-* var nanmskrange = require( '@stdlib/stats/base/nanmskrange' );
+* var nanmskmax = require( '@stdlib/stats/strided/nanmskmax' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, 5.0, 6.0 ];
 * var mask = [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ];
-* var N = floor( x.length / 2 );
 *
-* var v = nanmskrange.ndarray( N, x, 2, 1, mask, 2, 1 );
-* // returns 6.0
+* var v = nanmskmax.ndarray( 5, x, 2, 1, mask, 2, 1 );
+* // returns 4.0
 */
 
 // MODULES //
 
+var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
 var main = require( './main.js' );
+var ndarray = require( './ndarray.js' );
+
+
+// MAIN //
+
+setReadOnly( main, 'ndarray', ndarray );
 
 
 // EXPORTS //

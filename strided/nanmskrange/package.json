@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/stats/base/nanmskmax",
+  "name": "@stdlib/stats/strided/nanmskrange",
   "version": "0.0.0",
-  "description": "Calculate the maximum value of a strided array according to a mask, ignoring NaN values.",
+  "description": "Calculate the range of a strided array according to a mask, ignoring NaN values.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -58,10 +58,13 @@
     "math",
     "maximum",
     "max",
+    "minimum",
+    "min",
     "range",
     "extremes",
     "domain",
     "extent",
+    "dispersion",
     "strided",
     "strided array",
     "masked",

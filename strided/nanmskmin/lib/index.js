@@ -21,10 +21,10 @@
 /**
 * Compute the minimum value of a strided array according to a mask, ignoring `NaN` values.
 *
-* @module @stdlib/stats/base/nanmskmin
+* @module @stdlib/stats/strided/nanmskmin
 *
 * @example
-* var nanmskmin = require( '@stdlib/stats/base/nanmskmin' );
+* var nanmskmin = require( '@stdlib/stats/strided/nanmskmin' );
 *
 * var x = [ 1.0, -2.0, -4.0, 2.0, NaN ];
 * var mask = [ 0, 0, 1, 0, 0 ];
@@ -33,7 +33,7 @@
 * // returns -2.0
 *
 * @example
-* var nanmskmin = require( '@stdlib/stats/base/nanmskmin' );
+* var nanmskmin = require( '@stdlib/stats/strided/nanmskmin' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, -5.0, -6.0 ];
 * var mask = [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ];

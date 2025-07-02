@@ -322,7 +322,7 @@ int main( void ) {
 -   <span class="package-name">[`@stdlib/stats/strided/dmskmin`][@stdlib/stats/strided/dmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dnanmin`][@stdlib/stats/strided/dnanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/dnanmskmax`][@stdlib/stats/strided/dnanmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanmskmin`][@stdlib/stats/base/nanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanmskmin`][@stdlib/stats/strided/nanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/snanmskmin`][@stdlib/stats/strided/snanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask, ignoring NaN values.</span>
 
 </section>
@@ -347,7 +347,7 @@ int main( void ) {
 
 [@stdlib/stats/strided/dnanmskmax]: https://github.com/stdlib-js/stats/tree/main/strided/dnanmskmax
 
-[@stdlib/stats/base/nanmskmin]: https://github.com/stdlib-js/stats/tree/main/base/nanmskmin
+[@stdlib/stats/strided/nanmskmin]: https://github.com/stdlib-js/stats/tree/main/strided/nanmskmin
 
 [@stdlib/stats/strided/snanmskmin]: https://github.com/stdlib-js/stats/tree/main/strided/snanmskmin
 

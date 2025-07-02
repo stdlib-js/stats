@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-01)
+## Unreleased (2025-07-02)
 
 <section class="features">
 
 ### Features
 
+-   [`0935bc3`](https://github.com/stdlib-js/stdlib/commit/0935bc38e6c5f3a65d2fc6875dbd856aa85b27eb) - add `stats/strided/nanmskmax`
+-   [`61bd08c`](https://github.com/stdlib-js/stdlib/commit/61bd08ca8cc501cb6c4157fbc84251a594e1b148) - add `stats/strided/nanmskmin`
+-   [`d62f174`](https://github.com/stdlib-js/stdlib/commit/d62f174684ec5a516694f4a854c5244d2e48a583) - add `stats/strided/nanmskrange`
 -   [`09be71b`](https://github.com/stdlib-js/stdlib/commit/09be71bc241b529b2d10f0e4669610dd1c1d32ee) - add `stats/strided/variance`
 -   [`f9595aa`](https://github.com/stdlib-js/stdlib/commit/f9595aae3104a02826b98a64618c4f22d7edc70b) - add `stats/strided/variancech`
 -   [`9620756`](https://github.com/stdlib-js/stdlib/commit/9620756c1d37e87cbe4d29f75206b670aa0666a2) - add `stats/strided/variancepn`
@@ -1021,6 +1024,39 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`5728404`](https://github.com/stdlib-js/stdlib/commit/5728404f7e082706945341d9a46125abc7a69db0): remove `stats/base/nanmskmax`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanmskmax`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`ae4368a`](https://github.com/stdlib-js/stdlib/commit/ae4368a13abb8df2a7401a293396e0b2c1f18c5d): remove `nanmskmax`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`cc925d2`](https://github.com/stdlib-js/stdlib/commit/cc925d27f55fbf3bccfbde12bfd8b858c29de13c): remove `stats/base/nanmskmin`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanmskmin`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`9408ac9`](https://github.com/stdlib-js/stdlib/commit/9408ac9c416fe261fe638e80b2e1a7862f241f05): remove `nanmskmin`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`8db32e6`](https://github.com/stdlib-js/stdlib/commit/8db32e67057093789c03239cde990e2b6d7ee39d): remove `stats/base/nanmskrange`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanmskrange`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`7fd493e`](https://github.com/stdlib-js/stdlib/commit/7fd493edc910a6e338b24355e305b111b6bf0b35): remove `nanmskrange`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`a1991ea`](https://github.com/stdlib-js/stdlib/commit/a1991eadd5b3b5a718363eaa70cd325866574bc5): remove `stats/base/variance`
 
@@ -2886,6 +2922,18 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`5728404`](https://github.com/stdlib-js/stdlib/commit/5728404f7e082706945341d9a46125abc7a69db0) - **remove:** remove `stats/base/nanmskmax` _(by Gururaj Gurram)_
+-   [`f3bab2e`](https://github.com/stdlib-js/stdlib/commit/f3bab2e7582cd325e0ef3ff8db976d43f330e417) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`ae4368a`](https://github.com/stdlib-js/stdlib/commit/ae4368a13abb8df2a7401a293396e0b2c1f18c5d) - **remove:** remove `nanmskmax` from namespace _(by Gururaj Gurram)_
+-   [`0935bc3`](https://github.com/stdlib-js/stdlib/commit/0935bc38e6c5f3a65d2fc6875dbd856aa85b27eb) - **feat:** add `stats/strided/nanmskmax` _(by Gururaj Gurram)_
+-   [`cc925d2`](https://github.com/stdlib-js/stdlib/commit/cc925d27f55fbf3bccfbde12bfd8b858c29de13c) - **remove:** remove `stats/base/nanmskmin` _(by Gururaj Gurram)_
+-   [`2e3121e`](https://github.com/stdlib-js/stdlib/commit/2e3121ef5d08bfa8cca4be5ed133e9ec62a8c7a5) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`9408ac9`](https://github.com/stdlib-js/stdlib/commit/9408ac9c416fe261fe638e80b2e1a7862f241f05) - **remove:** remove `nanmskmin` from namespace _(by Gururaj Gurram)_
+-   [`61bd08c`](https://github.com/stdlib-js/stdlib/commit/61bd08ca8cc501cb6c4157fbc84251a594e1b148) - **feat:** add `stats/strided/nanmskmin` _(by Gururaj Gurram)_
+-   [`8db32e6`](https://github.com/stdlib-js/stdlib/commit/8db32e67057093789c03239cde990e2b6d7ee39d) - **remove:** remove `stats/base/nanmskrange` _(by Gururaj Gurram)_
+-   [`43282dc`](https://github.com/stdlib-js/stdlib/commit/43282dc04760b5360d32b9c333203230ac149f93) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`7fd493e`](https://github.com/stdlib-js/stdlib/commit/7fd493edc910a6e338b24355e305b111b6bf0b35) - **remove:** remove `nanmskrange` from namespace _(by Gururaj Gurram)_
+-   [`d62f174`](https://github.com/stdlib-js/stdlib/commit/d62f174684ec5a516694f4a854c5244d2e48a583) - **feat:** add `stats/strided/nanmskrange` _(by Gururaj Gurram)_
 -   [`83af59d`](https://github.com/stdlib-js/stdlib/commit/83af59de17b7e0db3d95fb5959ec0f38cf63c88e) - **test:** increase needed tolerances for tests to pass _(by Philipp Burckhardt)_
 -   [`a1991ea`](https://github.com/stdlib-js/stdlib/commit/a1991eadd5b3b5a718363eaa70cd325866574bc5) - **remove:** remove `stats/base/variance` _(by Gururaj Gurram)_
 -   [`e342a38`](https://github.com/stdlib-js/stdlib/commit/e342a388619ab71f5222105ec94c5029e42a4458) - **refactor:** update paths _(by Gururaj Gurram)_

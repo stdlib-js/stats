@@ -82,33 +82,6 @@ setReadOnly( ns, 'cuminabs', require( './../../base/cuminabs' ) );
 setReadOnly( ns, 'dists', require( './../../base/dists' ) );
 
 /**
-* @name nanmskmax
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanmskmax}
-*/
-setReadOnly( ns, 'nanmskmax', require( './../../base/nanmskmax' ) );
-
-/**
-* @name nanmskmin
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanmskmin}
-*/
-setReadOnly( ns, 'nanmskmin', require( './../../base/nanmskmin' ) );
-
-/**
-* @name nanmskrange
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanmskrange}
-*/
-setReadOnly( ns, 'nanmskrange', require( './../../base/nanmskrange' ) );
-
-/**
 * @name nanrange
 * @memberof ns
 * @readonly

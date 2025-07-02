@@ -25,9 +25,6 @@ import cumaxabs = require( './../../../base/cumaxabs' );
 import cumin = require( './../../../base/cumin' );
 import cuminabs = require( './../../../base/cuminabs' );
 import dists = require( './../../../base/dists' );
-import nanmskmax = require( './../../../base/nanmskmax' );
-import nanmskmin = require( './../../../base/nanmskmin' );
-import nanmskrange = require( './../../../base/nanmskrange' );
 import nanrange = require( './../../../base/nanrange' );
 import nanrangeBy = require( './../../../base/nanrange-by' );
 import nanstdev = require( './../../../base/nanstdev' );
@@ -192,84 +189,6 @@ interface Namespace {
 	* Base (i.e., lower-level) probability distributions.
 	*/
 	dists: typeof dists;
-
-	/**
-	* Computes the maximum value of a strided array according to a mask, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param mask - mask array
-	* @param strideMask - `mask` stride length
-	* @returns maximum value
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 4.0, 2.0, NaN ];
-	* var mask = [ 0, 0, 1, 0, 0 ];
-	*
-	* var v = ns.nanmskmax( x.length, x, 1, mask, 1 );
-	* // returns 2.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 4.0, 2.0, NaN ];
-	* var mask = [ 0, 0, 1, 0, 0 ];
-	*
-	* var v = ns.nanmskmax.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 2.0
-	*/
-	nanmskmax: typeof nanmskmax;
-
-	/**
-	* Computes the minimum value of a strided array according to a mask, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param mask - mask array
-	* @param strideMask - `mask` stride length
-	* @returns minimum value
-	*
-	* @example
-	* var x = [ 1.0, -2.0, -4.0, 2.0, NaN ];
-	* var mask = [ 0, 0, 1, 0, 0 ];
-	*
-	* var v = ns.nanmskmin( x.length, x, 1, mask, 1 );
-	* // returns -2.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, -4.0, 2.0, NaN ];
-	* var mask = [ 0, 0, 1, 0, 0 ];
-	*
-	* var v = ns.nanmskmin.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns -2.0
-	*/
-	nanmskmin: typeof nanmskmin;
-
-	/**
-	* Computes the range of a strided array according to a mask, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length for `x`
-	* @param mask - mask array
-	* @param strideMask - stride length for `x`
-	* @returns range
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 4.0, 2.0, NaN ];
-	* var mask = [ 0, 0, 1, 0, 0 ];
-	*
-	* var v = ns.nanmskrange( x.length, x, 1, mask, 1 );
-	* // returns 4.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 4.0, 2.0, NaN ];
-	* var mask = [ 0, 0, 1, 0, 0 ];
-	*
-	* var v = ns.nanmskrange.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 4.0
-	*/
-	nanmskrange: typeof nanmskrange;
 
 	/**
 	* Computes the range of a strided array, ignoring `NaN` values.

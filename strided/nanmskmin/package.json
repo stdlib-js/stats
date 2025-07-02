@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/nanmskmin",
+  "name": "@stdlib/stats/strided/nanmskmin",
   "version": "0.0.0",
   "description": "Calculate the minimum value of a strided array according to a mask, ignoring NaN values.",
   "license": "Apache-2.0",
