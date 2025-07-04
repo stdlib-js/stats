@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-02)
+## Unreleased (2025-07-04)
 
 <section class="features">
 
@@ -954,6 +954,7 @@
 
 ### Bug Fixes
 
+-   [`98e8f6b`](https://github.com/stdlib-js/stdlib/commit/98e8f6bfbe48aa24003710ed87ea88f5dc68977e) - allow non-numeric input arrays
 -   [`f0d49c1`](https://github.com/stdlib-js/stdlib/commit/f0d49c177b252ac1182ebc831fec6c90e862d56d) - handle infinity case and increase tolerances for passing tests
 -   [`ef5b43f`](https://github.com/stdlib-js/stdlib/commit/ef5b43faeb24b8594802eeb0bfa665cafdbf4e85) - add missing build task
 -   [`1a48ebb`](https://github.com/stdlib-js/stdlib/commit/1a48ebbacff02aa8f374081b3b636bc2c0a027ef) - use correct Makefile for examples/c
@@ -2922,6 +2923,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`98e8f6b`](https://github.com/stdlib-js/stdlib/commit/98e8f6bfbe48aa24003710ed87ea88f5dc68977e) - **fix:** allow non-numeric input arrays _(by Athan Reines)_
 -   [`5728404`](https://github.com/stdlib-js/stdlib/commit/5728404f7e082706945341d9a46125abc7a69db0) - **remove:** remove `stats/base/nanmskmax` _(by Gururaj Gurram)_
 -   [`f3bab2e`](https://github.com/stdlib-js/stdlib/commit/f3bab2e7582cd325e0ef3ff8db976d43f330e417) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`ae4368a`](https://github.com/stdlib-js/stdlib/commit/ae4368a13abb8df2a7401a293396e0b2c1f18c5d) - **remove:** remove `nanmskmax` from namespace _(by Gururaj Gurram)_
