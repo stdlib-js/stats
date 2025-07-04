@@ -2923,6 +2923,7 @@ A total of 516 issues were closed in this release:
 
 <details>
 
+-   [`643a522`](https://github.com/stdlib-js/stdlib/commit/643a522e06a09ad448f5c9eafa355e48b0faefd4) - **docs:** update parameter descriptions _(by Athan Reines)_
 -   [`98e8f6b`](https://github.com/stdlib-js/stdlib/commit/98e8f6bfbe48aa24003710ed87ea88f5dc68977e) - **fix:** allow non-numeric input arrays _(by Athan Reines)_
 -   [`5728404`](https://github.com/stdlib-js/stdlib/commit/5728404f7e082706945341d9a46125abc7a69db0) - **remove:** remove `stats/base/nanmskmax` _(by Gururaj Gurram)_
 -   [`f3bab2e`](https://github.com/stdlib-js/stdlib/commit/f3bab2e7582cd325e0ef3ff8db976d43f330e417) - **refactor:** update paths _(by Gururaj Gurram)_
