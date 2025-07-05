@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`15a7438`](https://github.com/stdlib-js/stdlib/commit/15a74381527a3202ba42c9e2aaa6e49e509f3efb) - refactor and add protocol support to `stats/base/stdevtk` [(#7566)](https://github.com/stdlib-js/stdlib/pull/7566)
 -   [`c87a3f5`](https://github.com/stdlib-js/stdlib/commit/c87a3f551554f1019d20d21175f2293a9e0c3f42) - add `stats/array/range-by` [(#7552)](https://github.com/stdlib-js/stdlib/pull/7552)
 -   [`34e5e27`](https://github.com/stdlib-js/stdlib/commit/34e5e2770f16fb82b758fcc9983cc8c834910a07) - add accessor protocol support to `stats/base/range-by` [(#5914)](https://github.com/stdlib-js/stdlib/pull/5914)
 -   [`0935bc3`](https://github.com/stdlib-js/stdlib/commit/0935bc38e6c5f3a65d2fc6875dbd856aa85b27eb) - add `stats/strided/nanmskmax`
@@ -2926,6 +2927,7 @@ A total of 517 issues were closed in this release:
 
 <details>
 
+-   [`15a7438`](https://github.com/stdlib-js/stdlib/commit/15a74381527a3202ba42c9e2aaa6e49e509f3efb) - **feat:** refactor and add protocol support to `stats/base/stdevtk` [(#7566)](https://github.com/stdlib-js/stdlib/pull/7566) _(by Gururaj Gurram)_
 -   [`c87a3f5`](https://github.com/stdlib-js/stdlib/commit/c87a3f551554f1019d20d21175f2293a9e0c3f42) - **feat:** add `stats/array/range-by` [(#7552)](https://github.com/stdlib-js/stdlib/pull/7552) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`4f80b80`](https://github.com/stdlib-js/stdlib/commit/4f80b80dc67daff48e7e6c00aea02b3ad695fa44) - **fix:** ensure original input array is passed to callback _(by Athan Reines)_
 -   [`34e5e27`](https://github.com/stdlib-js/stdlib/commit/34e5e2770f16fb82b758fcc9983cc8c834910a07) - **feat:** add accessor protocol support to `stats/base/range-by` [(#5914)](https://github.com/stdlib-js/stdlib/pull/5914) _(by Dhruvil Mehta, Athan Reines, stdlib-bot, Gururaj Gurram)_
