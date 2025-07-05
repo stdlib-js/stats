@@ -2927,6 +2927,7 @@ A total of 517 issues were closed in this release:
 
 <details>
 
+-   [`ca9889e`](https://github.com/stdlib-js/stdlib/commit/ca9889eb5f37296b267b7ee43439a9a007f583fd) - **docs:** add intros _(by Athan Reines)_
 -   [`15a7438`](https://github.com/stdlib-js/stdlib/commit/15a74381527a3202ba42c9e2aaa6e49e509f3efb) - **feat:** refactor and add protocol support to `stats/base/stdevtk` [(#7566)](https://github.com/stdlib-js/stdlib/pull/7566) _(by Gururaj Gurram)_
 -   [`c87a3f5`](https://github.com/stdlib-js/stdlib/commit/c87a3f551554f1019d20d21175f2293a9e0c3f42) - **feat:** add `stats/array/range-by` [(#7552)](https://github.com/stdlib-js/stdlib/pull/7552) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`4f80b80`](https://github.com/stdlib-js/stdlib/commit/4f80b80dc67daff48e7e6c00aea02b3ad695fa44) - **fix:** ensure original input array is passed to callback _(by Athan Reines)_
