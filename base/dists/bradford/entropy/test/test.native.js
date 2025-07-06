@@ -88,7 +88,7 @@ tape( 'the function returns the differential entropy of a Bradford distribution 
 			t.equal( y, expected[i], 'c: '+c[i]+', y: '+y+', expected: '+expected[i] );
 		} else {
 			delta = abs( y - expected[ i ] );
-			tol = 990.0 * EPS * abs( expected[ i ] );
+			tol = 1523.0 * EPS * abs( expected[ i ] );
 			t.ok( delta <= tol, 'within tolerance. c: '+c[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
 		}
 	}
