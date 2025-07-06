@@ -2930,6 +2930,7 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`a416e9d`](https://github.com/stdlib-js/stdlib/commit/a416e9dff64dd522608a026d5951418d06a82356) - **chore:** clean-up _(by Athan Reines)_
 -   [`2923d16`](https://github.com/stdlib-js/stdlib/commit/2923d162e8ad17357dca8b9fe781369bb452c4e6) - **chore:** clean-up _(by Athan Reines)_
 -   [`4b0ff12`](https://github.com/stdlib-js/stdlib/commit/4b0ff12bdb163c8e9a70f84703551ac1e1b210c5) - **feat:** add `stats/array/nanrange-by` [(#7564)](https://github.com/stdlib-js/stdlib/pull/7564) _(by Gururaj Gurram, stdlib-bot)_
 -   [`cd645cc`](https://github.com/stdlib-js/stdlib/commit/cd645cc7887109540fd4b0262a925ed7a59a55a9) - **chore:** clean-up _(by Athan Reines)_
