@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4b0ff12`](https://github.com/stdlib-js/stdlib/commit/4b0ff12bdb163c8e9a70f84703551ac1e1b210c5) - add `stats/array/nanrange-by` [(#7564)](https://github.com/stdlib-js/stdlib/pull/7564)
 -   [`c72df63`](https://github.com/stdlib-js/stdlib/commit/c72df63c4127781fd86c0fb3073b01b3db272223) - add support for accessor arrays and refactor `stats/base/stdevwd` [(#6527)](https://github.com/stdlib-js/stdlib/pull/6527)
 -   [`4f78b17`](https://github.com/stdlib-js/stdlib/commit/4f78b17cee147cfd13285ec9445d17239d4b94df) - refactor and add protocol support to `stats/base/nanrange-by` [(#6440)](https://github.com/stdlib-js/stdlib/pull/6440)
 -   [`15a7438`](https://github.com/stdlib-js/stdlib/commit/15a74381527a3202ba42c9e2aaa6e49e509f3efb) - refactor and add protocol support to `stats/base/stdevtk` [(#7566)](https://github.com/stdlib-js/stdlib/pull/7566)
@@ -2929,6 +2930,7 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`4b0ff12`](https://github.com/stdlib-js/stdlib/commit/4b0ff12bdb163c8e9a70f84703551ac1e1b210c5) - **feat:** add `stats/array/nanrange-by` [(#7564)](https://github.com/stdlib-js/stdlib/pull/7564) _(by Gururaj Gurram, stdlib-bot)_
 -   [`cd645cc`](https://github.com/stdlib-js/stdlib/commit/cd645cc7887109540fd4b0262a925ed7a59a55a9) - **chore:** clean-up _(by Athan Reines)_
 -   [`5a53fcc`](https://github.com/stdlib-js/stdlib/commit/5a53fcc1adc1a598d44feb69812cc2869d1590ac) - **test:** adjust tolerance to ensure passing tests _(by Athan Reines)_
 -   [`625d924`](https://github.com/stdlib-js/stdlib/commit/625d924e6c427a2a5c7c6d0a2eb43f9a5a47e429) - **chore:** clean-up _(by Athan Reines)_
