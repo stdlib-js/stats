@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-05)
+## Unreleased (2025-07-06)
 
 <section class="features">
 
@@ -2929,6 +2929,7 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`4a955a9`](https://github.com/stdlib-js/stdlib/commit/4a955a9efd250b22c415f2a1bdc13d96f9ebd8d2) - **chore:** clean-up _(by Athan Reines)_
 -   [`c72df63`](https://github.com/stdlib-js/stdlib/commit/c72df63c4127781fd86c0fb3073b01b3db272223) - **feat:** add support for accessor arrays and refactor `stats/base/stdevwd` [(#6527)](https://github.com/stdlib-js/stdlib/pull/6527) _(by Arihant Pal, Athan Reines, stdlib-bot, Gururaj Gurram)_
 -   [`4f78b17`](https://github.com/stdlib-js/stdlib/commit/4f78b17cee147cfd13285ec9445d17239d4b94df) - **feat:** refactor and add protocol support to `stats/base/nanrange-by` [(#6440)](https://github.com/stdlib-js/stdlib/pull/6440) _(by Gautam Kaushik, Athan Reines, stdlib-bot, Gururaj Gurram)_
 -   [`ca9889e`](https://github.com/stdlib-js/stdlib/commit/ca9889eb5f37296b267b7ee43439a9a007f583fd) - **docs:** add intros _(by Athan Reines)_
