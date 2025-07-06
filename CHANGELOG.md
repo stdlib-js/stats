@@ -2929,6 +2929,7 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`cd645cc`](https://github.com/stdlib-js/stdlib/commit/cd645cc7887109540fd4b0262a925ed7a59a55a9) - **chore:** clean-up _(by Athan Reines)_
 -   [`5a53fcc`](https://github.com/stdlib-js/stdlib/commit/5a53fcc1adc1a598d44feb69812cc2869d1590ac) - **test:** adjust tolerance to ensure passing tests _(by Athan Reines)_
 -   [`625d924`](https://github.com/stdlib-js/stdlib/commit/625d924e6c427a2a5c7c6d0a2eb43f9a5a47e429) - **chore:** clean-up _(by Athan Reines)_
 -   [`4a955a9`](https://github.com/stdlib-js/stdlib/commit/4a955a9efd250b22c415f2a1bdc13d96f9ebd8d2) - **chore:** clean-up _(by Athan Reines)_
