@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`326125d`](https://github.com/stdlib-js/stdlib/commit/326125d622036bb9805b9fa698f70d2486afe3c4) - add `stats/base/ndarray/srange` [(#7574)](https://github.com/stdlib-js/stdlib/pull/7574)
 -   [`9ec2006`](https://github.com/stdlib-js/stdlib/commit/9ec2006a727c5b6752715ab5e28f00824fff4fbf) - add `stats/base/ndarray/drange` [(#7573)](https://github.com/stdlib-js/stdlib/pull/7573)
 -   [`277ff47`](https://github.com/stdlib-js/stdlib/commit/277ff471b445b93975761564f8b66a8f29da0070) - add `stats/base/ndarray/range` [(#7572)](https://github.com/stdlib-js/stdlib/pull/7572)
 -   [`4b0ff12`](https://github.com/stdlib-js/stdlib/commit/4b0ff12bdb163c8e9a70f84703551ac1e1b210c5) - add `stats/array/nanrange-by` [(#7564)](https://github.com/stdlib-js/stdlib/pull/7564)
@@ -2932,6 +2933,7 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`326125d`](https://github.com/stdlib-js/stdlib/commit/326125d622036bb9805b9fa698f70d2486afe3c4) - **feat:** add `stats/base/ndarray/srange` [(#7574)](https://github.com/stdlib-js/stdlib/pull/7574) _(by Gururaj Gurram, Athan Reines)_
 -   [`9ec2006`](https://github.com/stdlib-js/stdlib/commit/9ec2006a727c5b6752715ab5e28f00824fff4fbf) - **feat:** add `stats/base/ndarray/drange` [(#7573)](https://github.com/stdlib-js/stdlib/pull/7573) _(by Gururaj Gurram)_
 -   [`277ff47`](https://github.com/stdlib-js/stdlib/commit/277ff471b445b93975761564f8b66a8f29da0070) - **feat:** add `stats/base/ndarray/range` [(#7572)](https://github.com/stdlib-js/stdlib/pull/7572) _(by Gururaj Gurram)_
 -   [`bc29fc3`](https://github.com/stdlib-js/stdlib/commit/bc29fc339ea0896650e7607a056cae0a086586a8) - **chore:** clean-up _(by Athan Reines)_
