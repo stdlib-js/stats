@@ -2929,6 +2929,7 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`625d924`](https://github.com/stdlib-js/stdlib/commit/625d924e6c427a2a5c7c6d0a2eb43f9a5a47e429) - **chore:** clean-up _(by Athan Reines)_
 -   [`4a955a9`](https://github.com/stdlib-js/stdlib/commit/4a955a9efd250b22c415f2a1bdc13d96f9ebd8d2) - **chore:** clean-up _(by Athan Reines)_
 -   [`c72df63`](https://github.com/stdlib-js/stdlib/commit/c72df63c4127781fd86c0fb3073b01b3db272223) - **feat:** add support for accessor arrays and refactor `stats/base/stdevwd` [(#6527)](https://github.com/stdlib-js/stdlib/pull/6527) _(by Arihant Pal, Athan Reines, stdlib-bot, Gururaj Gurram)_
 -   [`4f78b17`](https://github.com/stdlib-js/stdlib/commit/4f78b17cee147cfd13285ec9445d17239d4b94df) - **feat:** refactor and add protocol support to `stats/base/nanrange-by` [(#6440)](https://github.com/stdlib-js/stdlib/pull/6440) _(by Gautam Kaushik, Athan Reines, stdlib-bot, Gururaj Gurram)_
