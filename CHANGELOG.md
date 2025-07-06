@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`277ff47`](https://github.com/stdlib-js/stdlib/commit/277ff471b445b93975761564f8b66a8f29da0070) - add `stats/base/ndarray/range` [(#7572)](https://github.com/stdlib-js/stdlib/pull/7572)
 -   [`4b0ff12`](https://github.com/stdlib-js/stdlib/commit/4b0ff12bdb163c8e9a70f84703551ac1e1b210c5) - add `stats/array/nanrange-by` [(#7564)](https://github.com/stdlib-js/stdlib/pull/7564)
 -   [`c72df63`](https://github.com/stdlib-js/stdlib/commit/c72df63c4127781fd86c0fb3073b01b3db272223) - add support for accessor arrays and refactor `stats/base/stdevwd` [(#6527)](https://github.com/stdlib-js/stdlib/pull/6527)
 -   [`4f78b17`](https://github.com/stdlib-js/stdlib/commit/4f78b17cee147cfd13285ec9445d17239d4b94df) - refactor and add protocol support to `stats/base/nanrange-by` [(#6440)](https://github.com/stdlib-js/stdlib/pull/6440)
@@ -2930,6 +2931,7 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`277ff47`](https://github.com/stdlib-js/stdlib/commit/277ff471b445b93975761564f8b66a8f29da0070) - **feat:** add `stats/base/ndarray/range` [(#7572)](https://github.com/stdlib-js/stdlib/pull/7572) _(by Gururaj Gurram)_
 -   [`bc29fc3`](https://github.com/stdlib-js/stdlib/commit/bc29fc339ea0896650e7607a056cae0a086586a8) - **chore:** clean-up _(by Athan Reines)_
 -   [`1d1fa58`](https://github.com/stdlib-js/stdlib/commit/1d1fa5859f36b155e3a74a27790a5cd7a14ac84a) - **chore:** clean-up _(by Athan Reines)_
 -   [`a416e9d`](https://github.com/stdlib-js/stdlib/commit/a416e9dff64dd522608a026d5951418d06a82356) - **chore:** clean-up _(by Athan Reines)_
