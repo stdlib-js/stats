@@ -21,10 +21,10 @@
 /**
 * Compute the range of a strided array.
 *
-* @module @stdlib/stats/base/range
+* @module @stdlib/stats/strided/range
 *
 * @example
-* var range = require( '@stdlib/stats/base/range' );
+* var range = require( '@stdlib/stats/strided/range' );
 *
 * var x = [ 1.0, -2.0, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns 4.0
 *
 * @example
-* var range = require( '@stdlib/stats/base/range' );
+* var range = require( '@stdlib/stats/strided/range' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
 *

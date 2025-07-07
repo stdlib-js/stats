@@ -35,7 +35,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-var nanrange = require( '@stdlib/stats/base/nanrange' );
+var nanrange = require( '@stdlib/stats/strided/nanrange' );
 ```
 
 #### nanrange( N, x, strideX )
@@ -130,7 +130,7 @@ var v = nanrange.ndarray( 5, x, 2, 1 );
 var uniform = require( '@stdlib/random/base/uniform' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
 var bernoulli = require( '@stdlib/random/base/bernoulli' );
-var nanrange = require( '@stdlib/stats/base/nanrange' );
+var nanrange = require( '@stdlib/stats/strided/nanrange' );
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
@@ -161,7 +161,7 @@ console.log( v );
 -   <span class="package-name">[`@stdlib/stats/strided/dnanrange`][@stdlib/stats/strided/dnanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/nanmax`][@stdlib/stats/strided/nanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/nanmin`][@stdlib/stats/strided/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/range`][@stdlib/stats/base/range]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/range`][@stdlib/stats/strided/range]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/snanrange`][@stdlib/stats/strided/snanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array, ignoring NaN values.</span>
 
 </section>
@@ -188,7 +188,7 @@ console.log( v );
 
 [@stdlib/stats/strided/nanmin]: https://github.com/stdlib-js/stats/tree/main/strided/nanmin
 
-[@stdlib/stats/base/range]: https://github.com/stdlib-js/stats/tree/main/base/range
+[@stdlib/stats/strided/range]: https://github.com/stdlib-js/stats/tree/main/strided/range
 
 [@stdlib/stats/strided/snanrange]: https://github.com/stdlib-js/stats/tree/main/strided/snanrange
 

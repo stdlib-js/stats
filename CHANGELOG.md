@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-06)
+## Unreleased (2025-07-07)
 
 <section class="features">
 
 ### Features
 
+-   [`57dae71`](https://github.com/stdlib-js/stdlib/commit/57dae71389e6be6202f255c0692e69d4d97ddc54) - add `stats/strided/range`
+-   [`8ecbdfa`](https://github.com/stdlib-js/stdlib/commit/8ecbdfa2c71d1d5a666b8f82fd0fb4bcbd1a16b5) - add `stats/strided/range-by`
+-   [`6719904`](https://github.com/stdlib-js/stdlib/commit/6719904d2b70615368d65af2e7b2bc19b7fb3dbf) - add `stats/strided/nanrange`
+-   [`cf0fa88`](https://github.com/stdlib-js/stdlib/commit/cf0fa88005477ed297d89074b2c1e1a66e138d93) - add `stats/strided/nanrange-by`
 -   [`326125d`](https://github.com/stdlib-js/stdlib/commit/326125d622036bb9805b9fa698f70d2486afe3c4) - add `stats/base/ndarray/srange` [(#7574)](https://github.com/stdlib-js/stdlib/pull/7574)
 -   [`9ec2006`](https://github.com/stdlib-js/stdlib/commit/9ec2006a727c5b6752715ab5e28f00824fff4fbf) - add `stats/base/ndarray/drange` [(#7573)](https://github.com/stdlib-js/stdlib/pull/7573)
 -   [`277ff47`](https://github.com/stdlib-js/stdlib/commit/277ff471b445b93975761564f8b66a8f29da0070) - add `stats/base/ndarray/range` [(#7572)](https://github.com/stdlib-js/stdlib/pull/7572)
@@ -1035,6 +1039,50 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`5dd3fd0`](https://github.com/stdlib-js/stdlib/commit/5dd3fd0e4e217533b59a2a216086cc7a2d6f57c6): remove `stats/base/range`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/range`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`d0766bc`](https://github.com/stdlib-js/stdlib/commit/d0766bc8f83111face62334e8b0429427345c666): remove `range`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`a398714`](https://github.com/stdlib-js/stdlib/commit/a398714ffaf37243cd663fdcdbcb841fdcf98e72): remove `stats/base/range-by`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/range-by`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`906d67f`](https://github.com/stdlib-js/stdlib/commit/906d67fc06825b61f8a6734866e61091b4f058e2): remove `range-by`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`a742112`](https://github.com/stdlib-js/stdlib/commit/a742112f6bf5c32ef72ee9d509bf14f79cd5234f): remove `stats/base/nanrange`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanrange`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`b02e700`](https://github.com/stdlib-js/stdlib/commit/b02e70045f7147c0a02ec8bb9b54670076b71bef): remove `nanrange`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`733e4aa`](https://github.com/stdlib-js/stdlib/commit/733e4aaa74510af8798f5134a6233d8a5ce7f8d2): remove `stats/base/nanrange-by`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanrange-by`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`5ff1d84`](https://github.com/stdlib-js/stdlib/commit/5ff1d84f08a186a9677215d0626ab9d3f73c3ce6): remove `nanrange-by`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`5728404`](https://github.com/stdlib-js/stdlib/commit/5728404f7e082706945341d9a46125abc7a69db0): remove `stats/base/nanmskmax`
 
@@ -2933,6 +2981,22 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`5dd3fd0`](https://github.com/stdlib-js/stdlib/commit/5dd3fd0e4e217533b59a2a216086cc7a2d6f57c6) - **remove:** remove `stats/base/range` _(by Gururaj Gurram)_
+-   [`ffbc889`](https://github.com/stdlib-js/stdlib/commit/ffbc88901427ca5ceaf0d4cc557facd4865eba90) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`d0766bc`](https://github.com/stdlib-js/stdlib/commit/d0766bc8f83111face62334e8b0429427345c666) - **remove:** remove `range` from namespace _(by Gururaj Gurram)_
+-   [`57dae71`](https://github.com/stdlib-js/stdlib/commit/57dae71389e6be6202f255c0692e69d4d97ddc54) - **feat:** add `stats/strided/range` _(by Gururaj Gurram)_
+-   [`a398714`](https://github.com/stdlib-js/stdlib/commit/a398714ffaf37243cd663fdcdbcb841fdcf98e72) - **remove:** remove `stats/base/range-by` _(by Gururaj Gurram)_
+-   [`4075997`](https://github.com/stdlib-js/stdlib/commit/407599734ccf26438febd9e8712fdb7c97cf9bd8) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`906d67f`](https://github.com/stdlib-js/stdlib/commit/906d67fc06825b61f8a6734866e61091b4f058e2) - **remove:** remove `range-by` from namespace _(by Gururaj Gurram)_
+-   [`8ecbdfa`](https://github.com/stdlib-js/stdlib/commit/8ecbdfa2c71d1d5a666b8f82fd0fb4bcbd1a16b5) - **feat:** add `stats/strided/range-by` _(by Gururaj Gurram)_
+-   [`a742112`](https://github.com/stdlib-js/stdlib/commit/a742112f6bf5c32ef72ee9d509bf14f79cd5234f) - **remove:** remove `stats/base/nanrange` _(by Gururaj Gurram)_
+-   [`3c776ed`](https://github.com/stdlib-js/stdlib/commit/3c776ed5458e453e0fa0135a9b689fc54602af4a) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`b02e700`](https://github.com/stdlib-js/stdlib/commit/b02e70045f7147c0a02ec8bb9b54670076b71bef) - **remove:** remove `nanrange` from namespace _(by Gururaj Gurram)_
+-   [`6719904`](https://github.com/stdlib-js/stdlib/commit/6719904d2b70615368d65af2e7b2bc19b7fb3dbf) - **feat:** add `stats/strided/nanrange` _(by Gururaj Gurram)_
+-   [`733e4aa`](https://github.com/stdlib-js/stdlib/commit/733e4aaa74510af8798f5134a6233d8a5ce7f8d2) - **remove:** remove `stats/base/nanrange-by` _(by Gururaj Gurram)_
+-   [`5bd5488`](https://github.com/stdlib-js/stdlib/commit/5bd548843a24ec44599e26ac68f15fe70fcf70eb) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`5ff1d84`](https://github.com/stdlib-js/stdlib/commit/5ff1d84f08a186a9677215d0626ab9d3f73c3ce6) - **remove:** remove `nanrange-by` from namespace _(by Gururaj Gurram)_
+-   [`cf0fa88`](https://github.com/stdlib-js/stdlib/commit/cf0fa88005477ed297d89074b2c1e1a66e138d93) - **feat:** add `stats/strided/nanrange-by` _(by Gururaj Gurram)_
 -   [`326125d`](https://github.com/stdlib-js/stdlib/commit/326125d622036bb9805b9fa698f70d2486afe3c4) - **feat:** add `stats/base/ndarray/srange` [(#7574)](https://github.com/stdlib-js/stdlib/pull/7574) _(by Gururaj Gurram, Athan Reines)_
 -   [`9ec2006`](https://github.com/stdlib-js/stdlib/commit/9ec2006a727c5b6752715ab5e28f00824fff4fbf) - **feat:** add `stats/base/ndarray/drange` [(#7573)](https://github.com/stdlib-js/stdlib/pull/7573) _(by Gururaj Gurram)_
 -   [`277ff47`](https://github.com/stdlib-js/stdlib/commit/277ff471b445b93975761564f8b66a8f29da0070) - **feat:** add `stats/base/ndarray/range` [(#7572)](https://github.com/stdlib-js/stdlib/pull/7572) _(by Gururaj Gurram)_

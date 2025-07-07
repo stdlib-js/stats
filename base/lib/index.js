@@ -82,24 +82,6 @@ setReadOnly( ns, 'cuminabs', require( './../../base/cuminabs' ) );
 setReadOnly( ns, 'dists', require( './../../base/dists' ) );
 
 /**
-* @name nanrange
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanrange}
-*/
-setReadOnly( ns, 'nanrange', require( './../../base/nanrange' ) );
-
-/**
-* @name nanrangeBy
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanrange-by}
-*/
-setReadOnly( ns, 'nanrangeBy', require( './../../base/nanrange-by' ) );
-
-/**
 * @name nanstdev
 * @memberof ns
 * @readonly
@@ -215,24 +197,6 @@ setReadOnly( ns, 'nanvarianceyc', require( './../../base/nanvarianceyc' ) );
 * @see {@link module:@stdlib/stats/base/ndarray}
 */
 setReadOnly( ns, 'ndarray', require( './../../base/ndarray' ) );
-
-/**
-* @name range
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/range}
-*/
-setReadOnly( ns, 'range', require( './../../base/range' ) );
-
-/**
-* @name rangeBy
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/range-by}
-*/
-setReadOnly( ns, 'rangeBy', require( './../../base/range-by' ) );
 
 /**
 * @name sdsnanmean

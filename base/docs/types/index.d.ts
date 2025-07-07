@@ -25,8 +25,6 @@ import cumaxabs = require( './../../../base/cumaxabs' );
 import cumin = require( './../../../base/cumin' );
 import cuminabs = require( './../../../base/cuminabs' );
 import dists = require( './../../../base/dists' );
-import nanrange = require( './../../../base/nanrange' );
-import nanrangeBy = require( './../../../base/nanrange-by' );
 import nanstdev = require( './../../../base/nanstdev' );
 import nanstdevch = require( './../../../base/nanstdevch' );
 import nanstdevpn = require( './../../../base/nanstdevpn' );
@@ -39,8 +37,6 @@ import nanvariancepn = require( './../../../base/nanvariancepn' );
 import nanvariancetk = require( './../../../base/nanvariancetk' );
 import nanvariancewd = require( './../../../base/nanvariancewd' );
 import nanvarianceyc = require( './../../../base/nanvarianceyc' );
-import range = require( './../../../base/range' );
-import rangeBy = require( './../../../base/range-by' );
 import sdsnanmean = require( './../../../base/sdsnanmean' );
 import sdsnanmeanors = require( './../../../base/sdsnanmeanors' );
 import snanmean = require( './../../../base/snanmean' );
@@ -189,75 +185,6 @@ interface Namespace {
 	* Base (i.e., lower-level) probability distributions.
 	*/
 	dists: typeof dists;
-
-	/**
-	* Computes the range of a strided array, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns range
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanrange( x.length, x, 1 );
-	* // returns 4.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 2.0 ];
-	*
-	* var v = ns.nanrange.ndarray( x.length, x, 1, 0 );
-	* // returns 4.0
-	*/
-	nanrange: typeof nanrange;
-
-	/**
-	* Calculates the range of a strided array via a callback function, ignoring `NaN` values.
-	*
-	* ## Notes
-	*
-	* -   The callback function is provided four arguments:
-	*
-	*     -   `value`: array element
-	*     -   `aidx`: array index
-	*     -   `sidx`: strided index (offset + aidx*stride)
-	*     -   `array`: input array
-	*
-	* -   The callback function should return a numeric value.
-	*
-	* -   If the callback function does not return any value (or equivalently, explicitly returns `undefined`), the value is ignored.
-	*
-	* -   If the callback function returns `NaN`, the value is ignored.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @param clbk - callback
-	* @param thisArg - execution context
-	* @returns range
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, NaN, 0.0, -1.0, -3.0 ];
-	*
-	* function accessor( v ) {
-	*     return v * 2.0;
-	* }
-	*
-	* var v = ns.nanrangeBy( x.length, x, 1, accessor );
-	* // returns 18.0
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, NaN, 0.0, -1.0, -3.0 ];
-	*
-	* function accessor( v ) {
-	*     return v * 2.0;
-	* }
-	*
-	* var v = ns.nanrangeBy.ndarray( x.length, x, 1, 0, accessor );
-	* // returns 18.0
-	*/
-	nanrangeBy: typeof nanrangeBy;
 
 	/**
 	* Computes the standard deviation of a strided array ignoring `NaN` values.
@@ -534,71 +461,6 @@ interface Namespace {
 	* // returns ~4.3333
 	*/
 	nanvarianceyc: typeof nanvarianceyc;
-
-	/**
-	* Computes the range of a strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns range
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.range( x.length, x, 1 );
-	* // returns 4.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.range.ndarray( x.length, x, 1, 0 );
-	* // returns 4.0
-	*/
-	range: typeof range;
-
-	/**
-	* Calculates the range of a strided array via a callback function.
-	*
-	* ## Notes
-	*
-	* -   The callback function is provided four arguments:
-	*
-	*     -   `value`: array element
-	*     -   `aidx`: array index
-	*     -   `sidx`: strided index (offset + aidx*stride)
-	*     -   `array`: input array
-	*
-	* -   The callback function should return a numeric value. If the callback function does not return any value (or equivalently, explicitly returns `undefined`), the value is ignored.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @param clbk - callback
-	* @param thisArg - execution context
-	* @returns range
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
-	*
-	* function accessor( v ) {
-	*     return v * 2.0;
-	* }
-	*
-	* var v = ns.rangeBy( x.length, x, 1, accessor );
-	* // returns 18.0
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
-	*
-	* function accessor( v ) {
-	*     return v * 2.0;
-	* }
-	*
-	* var v = ns.rangeBy.ndarray( x.length, x, 1, 0, accessor );
-	* // returns 18.0
-	*/
-	rangeBy: typeof rangeBy;
 
 	/**
 	* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using extended accumulation.

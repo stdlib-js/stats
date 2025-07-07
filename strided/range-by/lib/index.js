@@ -21,10 +21,10 @@
 /**
 * Compute the range of a strided array via a callback function.
 *
-* @module @stdlib/stats/base/range-by
+* @module @stdlib/stats/strided/range-by
 *
 * @example
-* var rangeBy = require( '@stdlib/stats/base/range-by' );
+* var rangeBy = require( '@stdlib/stats/strided/range-by' );
 *
 * function accessor( v ) {
 *     return v * 2.0;
@@ -36,7 +36,7 @@
 * // returns 18.0
 *
 * @example
-* var rangeBy = require( '@stdlib/stats/base/range-by' );
+* var rangeBy = require( '@stdlib/stats/strided/range-by' );
 *
 * function accessor( v ) {
 *     return v * 2.0;

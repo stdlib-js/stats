@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# nanrangeBy
+# rangeBy
 
-> Calculate the [range][range] of a strided array via a callback function, ignoring `NaN` values.
+> Calculate the [range][range] of a strided array via a callback function.
 
 <section class="intro">
 
@@ -35,21 +35,21 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-var nanrangeBy = require( '@stdlib/stats/base/nanrange-by' );
+var rangeBy = require( '@stdlib/stats/strided/range-by' );
 ```
 
-#### nanrangeBy( N, x, strideX, clbk\[, thisArg] )
+#### rangeBy( N, x, strideX, clbk\[, thisArg] )
 
-Computes the [range][range] of a strided array via a callback function, ignoring `NaN` values.
+Computes the [range][range] of a strided array via a callback function.
 
 ```javascript
 function accessor( v ) {
     return v * 2.0;
 }
 
-var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, NaN, 0.0, -1.0, -3.0, NaN ];
+var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
 
-var v = nanrangeBy( x.length, x, 1, accessor );
+var v = rangeBy( x.length, x, 1, accessor );
 // returns 18.0
 ```
 
@@ -76,17 +76,17 @@ function accessor( v ) {
     return v * 2.0;
 }
 
-var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, NaN, 0.0, -1.0, -3.0, NaN ];
+var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
 
 var context = {
     'count': 0
 };
 
-var v = nanrangeBy( x.length, x, 1, accessor, context );
+var v = rangeBy( x.length, x, 1, accessor, context );
 // returns 18.0
 
 var cnt = context.count;
-// returns 10
+// returns 8
 ```
 
 The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to access every other element
@@ -96,9 +96,9 @@ function accessor( v ) {
     return v * 2.0;
 }
 
-var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0, NaN, NaN ];
+var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
 
-var v = nanrangeBy( 5, x, 2, accessor );
+var v = rangeBy( 4, x, 2, accessor );
 // returns 12.0
 ```
 
@@ -118,22 +118,22 @@ var x0 = new Float64Array( [ 1.0, -2.0, 3.0, -4.0, 5.0, -6.0 ] );
 var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
 // Access every other element...
-var v = nanrangeBy( 3, x1, 2, accessor );
+var v = rangeBy( 3, x1, 2, accessor );
 // returns 8.0
 ```
 
-#### nanrangeBy.ndarray( N, x, strideX, offsetX, clbk\[, thisArg] )
+#### rangeBy.ndarray( N, x, strideX, offsetX, clbk\[, thisArg] )
 
-Computes the [range][range] of a strided array via a callback function, ignoring `NaN` values and using alternative indexing semantics.
+Computes the [range][range] of a strided array via a callback function and using alternative indexing semantics.
 
 ```javascript
 function accessor( v ) {
     return v * 2.0;
 }
 
-var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, NaN, 0.0, -1.0, -3.0, NaN ];
+var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
 
-var v = nanrangeBy.ndarray( x.length, x, 1, 0, accessor );
+var v = rangeBy.ndarray( x.length, x, 1, 0, accessor );
 // returns 18.0
 ```
 
@@ -150,7 +150,7 @@ function accessor( v ) {
 
 var x = [ 1.0, -2.0, 3.0, -4.0, 5.0, -6.0 ];
 
-var v = nanrangeBy.ndarray( 3, x, 1, x.length-3, accessor );
+var v = rangeBy.ndarray( 3, x, 1, x.length-3, accessor );
 // returns 22.0
 ```
 
@@ -164,10 +164,9 @@ var v = nanrangeBy.ndarray( 3, x, 1, x.length-3, accessor );
 
 -   If `N <= 0`, both functions return `NaN`.
 -   A provided callback function should return a numeric value.
--   If a provided callback function returns `NaN`, the value is ignored.
--   If a provided callback function does not return any value (or equivalently, explicitly returns `undefined`), the value is ignored.
+-   If a provided callback function does not return any value (or equivalently, explicitly returns `undefined`), the value is **ignored**.
 -   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array/base/accessor`][@stdlib/array/base/accessor]).
--   When possible, prefer using [`dnanrange`][@stdlib/stats/strided/dnanrange], [`snanrange`][@stdlib/stats/strided/snanrange], and/or [`nanrange`][@stdlib/stats/base/nanrange], as, depending on the environment, these interfaces are likely to be significantly more performant.
+-   When possible, prefer using [`drange`][@stdlib/stats/strided/drange], [`srange`][@stdlib/stats/strided/srange], and/or [`range`][@stdlib/stats/strided/range], as, depending on the environment, these interfaces are likely to be significantly more performant.
 
 </section>
 
@@ -180,26 +179,19 @@ var v = nanrangeBy.ndarray( 3, x, 1, x.length-3, accessor );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var uniform = require( '@stdlib/random/base/uniform' );
-var filledarrayBy = require( '@stdlib/array/filled-by' );
-var bernoulli = require( '@stdlib/random/base/bernoulli' );
-var nanrangeBy = require( '@stdlib/stats/base/nanrange-by' );
-
-function rand() {
-    if ( bernoulli( 0.8 ) < 0.2 ) {
-        return NaN;
-    }
-    return uniform( -50.0, 50.0 );
-}
+var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
+var rangeBy = require( '@stdlib/stats/strided/range-by' );
 
 function accessor( v ) {
     return v * 2.0;
 }
 
-var x = filledarrayBy( 10, 'float64', rand );
+var x = discreteUniform( 10, -50, 50, {
+    'dtype': 'float64'
+});
 console.log( x );
 
-var v = nanrangeBy( x.length, x, 1, accessor );
+var v = rangeBy( x.length, x, 1, accessor );
 console.log( v );
 ```
 
@@ -215,12 +207,12 @@ console.log( v );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/strided/dnanrange`][@stdlib/stats/strided/dnanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/strided/nanmax-by`][@stdlib/stats/strided/nanmax-by]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array via a callback function, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/strided/nanmin-by`][@stdlib/stats/strided/nanmin-by]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array via a callback function, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanrange`][@stdlib/stats/base/nanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/range-by`][@stdlib/stats/base/range-by]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array via a callback function.</span>
--   <span class="package-name">[`@stdlib/stats/strided/snanrange`][@stdlib/stats/strided/snanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/drange`][@stdlib/stats/strided/drange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/max-by`][@stdlib/stats/strided/max-by]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array via a callback function.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/min-by`][@stdlib/stats/strided/min-by]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array via a callback function.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanrange-by`][@stdlib/stats/strided/nanrange-by]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array via a callback function, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/range`][@stdlib/stats/strided/range]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/srange`][@stdlib/stats/strided/srange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array.</span>
 
 </section>
 
@@ -240,17 +232,17 @@ console.log( v );
 
 <!-- <related-links> -->
 
-[@stdlib/stats/strided/dnanrange]: https://github.com/stdlib-js/stats/tree/main/strided/dnanrange
+[@stdlib/stats/strided/drange]: https://github.com/stdlib-js/stats/tree/main/strided/drange
 
-[@stdlib/stats/strided/nanmax-by]: https://github.com/stdlib-js/stats/tree/main/strided/nanmax-by
+[@stdlib/stats/strided/max-by]: https://github.com/stdlib-js/stats/tree/main/strided/max-by
 
-[@stdlib/stats/strided/nanmin-by]: https://github.com/stdlib-js/stats/tree/main/strided/nanmin-by
+[@stdlib/stats/strided/min-by]: https://github.com/stdlib-js/stats/tree/main/strided/min-by
 
-[@stdlib/stats/base/nanrange]: https://github.com/stdlib-js/stats/tree/main/base/nanrange
+[@stdlib/stats/strided/nanrange-by]: https://github.com/stdlib-js/stats/tree/main/strided/nanrange-by
 
-[@stdlib/stats/base/range-by]: https://github.com/stdlib-js/stats/tree/main/base/range-by
+[@stdlib/stats/strided/range]: https://github.com/stdlib-js/stats/tree/main/strided/range
 
-[@stdlib/stats/strided/snanrange]: https://github.com/stdlib-js/stats/tree/main/strided/snanrange
+[@stdlib/stats/strided/srange]: https://github.com/stdlib-js/stats/tree/main/strided/srange
 
 <!-- </related-links> -->
 

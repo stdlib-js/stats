@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/stats/base/range-by",
+  "name": "@stdlib/stats/strided/nanrange",
   "version": "0.0.0",
-  "description": "Calculate the range of a strided array via a callback function.",
+  "description": "Calculate the range of a strided array, ignoring NaN values.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -57,6 +57,8 @@
     "math",
     "maximum",
     "max",
+    "minimum",
+    "min",
     "range",
     "extremes",
     "dispersion",

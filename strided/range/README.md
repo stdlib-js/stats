@@ -35,7 +35,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-var range = require( '@stdlib/stats/base/range' );
+var range = require( '@stdlib/stats/strided/range' );
 ```
 
 #### range( N, x, strideX )
@@ -126,7 +126,7 @@ var v = range.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var range = require( '@stdlib/stats/base/range' );
+var range = require( '@stdlib/stats/strided/range' );
 
 var x = discreteUniform(10, -50, 50, {
     'dtype': 'float64'
@@ -152,7 +152,7 @@ console.log( v );
 -   <span class="package-name">[`@stdlib/stats/strided/drange`][@stdlib/stats/strided/drange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/max`][@stdlib/stats/strided/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/min`][@stdlib/stats/strided/min]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanrange`][@stdlib/stats/base/nanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanrange`][@stdlib/stats/strided/nanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/srange`][@stdlib/stats/strided/srange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array.</span>
 
 </section>
@@ -179,7 +179,7 @@ console.log( v );
 
 [@stdlib/stats/strided/min]: https://github.com/stdlib-js/stats/tree/main/strided/min
 
-[@stdlib/stats/base/nanrange]: https://github.com/stdlib-js/stats/tree/main/base/nanrange
+[@stdlib/stats/strided/nanrange]: https://github.com/stdlib-js/stats/tree/main/strided/nanrange
 
 [@stdlib/stats/strided/srange]: https://github.com/stdlib-js/stats/tree/main/strided/srange
 

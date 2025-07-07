@@ -19,26 +19,33 @@
 'use strict';
 
 /**
-* Compute the range of a strided array, ignoring `NaN` values.
+* Compute the range of a strided array via a callback function and ignoring `NaN` values.
 *
-* @module @stdlib/stats/base/nanrange
-*
-* @example
-* var nanrange = require( '@stdlib/stats/base/nanrange' );
-*
-* var x = [ 1.0, -2.0, NaN, 2.0 ];
-* var N = x.length;
-*
-* var v = nanrange( N, x, 1 );
-* // returns 4.0
+* @module @stdlib/stats/strided/nanrange-by
 *
 * @example
-* var nanrange = require( '@stdlib/stats/base/nanrange' );
+* var nanrangeBy = require( '@stdlib/stats/strided/nanrange-by' );
 *
-* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
+* function accessor( v ) {
+*     return v * 2.0;
+* }
 *
-* var v = nanrange.ndarray( 5, x, 2, 1 );
-* // returns 6.0
+* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, NaN, 0.0, -1.0, -3.0 ];
+*
+* var v = nanrangeBy( x.length, x, 1, accessor );
+* // returns 18.0
+*
+* @example
+* var nanrangeBy = require( '@stdlib/stats/strided/nanrange-by' );
+*
+* function accessor( v ) {
+*     return v * 2.0;
+* }
+*
+* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, NaN, 0.0, -1.0, -3.0 ];
+*
+* var v = nanrangeBy.ndarray( x.length, x, 1, 0, accessor );
+* // returns 18.0
 */
 
 // MODULES //
