@@ -82,6 +82,60 @@ setReadOnly( ns, 'maxsorted', require( './../../array/maxsorted' ) );
 setReadOnly( ns, 'mean', require( './../../array/mean' ) );
 
 /**
+* @name meankbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/meankbn}
+*/
+setReadOnly( ns, 'meankbn', require( './../../array/meankbn' ) );
+
+/**
+* @name meankbn2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/meankbn2}
+*/
+setReadOnly( ns, 'meankbn2', require( './../../array/meankbn2' ) );
+
+/**
+* @name meanors
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/meanors}
+*/
+setReadOnly( ns, 'meanors', require( './../../array/meanors' ) );
+
+/**
+* @name meanpn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/meanpn}
+*/
+setReadOnly( ns, 'meanpn', require( './../../array/meanpn' ) );
+
+/**
+* @name meanpw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/meanpw}
+*/
+setReadOnly( ns, 'meanpw', require( './../../array/meanpw' ) );
+
+/**
+* @name meanwd
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/meanwd}
+*/
+setReadOnly( ns, 'meanwd', require( './../../array/meanwd' ) );
+
+/**
 * @name mediansorted
 * @memberof ns
 * @readonly
