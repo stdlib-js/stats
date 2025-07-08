@@ -163,6 +163,18 @@ console.log( v );
 
 <!-- /.examples -->
 
+* * *
+
+<section class="references">
+
+## References
+
+-   Ling, Robert F. 1974. "Comparison of Several Algorithms for Computing Sample Means and Variances." _Journal of the American Statistical Association_ 69 (348). American Statistical Association, Taylor & Francis, Ltd.: 859–66. doi:[10.2307/2286154][@ling:1974a].
+
+</section>
+
+<!-- /.references -->
+
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
@@ -178,6 +190,8 @@ console.log( v );
 [standard-deviation]: https://en.wikipedia.org/wiki/Standard_deviation
 
 [@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
+
+[@ling:1974a]: https://doi.org/10.2307/2286154
 
 </section>
 
