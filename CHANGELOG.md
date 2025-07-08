@@ -10,6 +10,11 @@
 
 ### Features
 
+-   [`8c140c1`](https://github.com/stdlib-js/stdlib/commit/8c140c149134fa06a098b8876785a870fdaf6dbd) - add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, and `stdevyc` to namespace
+-   [`00aa2c3`](https://github.com/stdlib-js/stdlib/commit/00aa2c3ea08a8c03b6aed11fb2e4063fe3ede82c) - add `variance`, `variancech`, `variancepn`, `variancetk`, and `variancewd` to namespace
+-   [`7e0b97b`](https://github.com/stdlib-js/stdlib/commit/7e0b97b2994d89ca1577175fd2c1f58db011ce6c) - add `nanrangeBy` and `rangeBy` to namespace
+-   [`28f0484`](https://github.com/stdlib-js/stdlib/commit/28f0484189addefe6eda8fef0c56237941e24138) - add `nanmskmax`, `nanmskmin`, and `nanmskrange` to namespace
+-   [`7599ea8`](https://github.com/stdlib-js/stdlib/commit/7599ea833510057ded6f47b9923aaa50364ad25e) - add `nanmean`, `nanmeanors`, `nanmeanpn`, and `nanmeanwd` to namespace
 -   [`69386b4`](https://github.com/stdlib-js/stdlib/commit/69386b4cc0a71b0eaf697c039c103fde940653f3) - add `meankbn`, `meankbn2`, `meanors`, `meanpn`, `meanpw`, and `meanwd` to namespace
 -   [`c26050b`](https://github.com/stdlib-js/stdlib/commit/c26050b5f999f106591434ff1fc6675c892a617b) - add `stats/array/stdev` [(#7475)](https://github.com/stdlib-js/stdlib/pull/7475)
 -   [`d43d8be`](https://github.com/stdlib-js/stdlib/commit/d43d8be018d9b1fab2253628a24c50422afbad56) - add `stats/array/stdevch` [(#7580)](https://github.com/stdlib-js/stdlib/pull/7580)
@@ -2988,6 +2993,11 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`8c140c1`](https://github.com/stdlib-js/stdlib/commit/8c140c149134fa06a098b8876785a870fdaf6dbd) - **feat:** add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, and `stdevyc` to namespace _(by Athan Reines)_
+-   [`00aa2c3`](https://github.com/stdlib-js/stdlib/commit/00aa2c3ea08a8c03b6aed11fb2e4063fe3ede82c) - **feat:** add `variance`, `variancech`, `variancepn`, `variancetk`, and `variancewd` to namespace _(by Athan Reines)_
+-   [`7e0b97b`](https://github.com/stdlib-js/stdlib/commit/7e0b97b2994d89ca1577175fd2c1f58db011ce6c) - **feat:** add `nanrangeBy` and `rangeBy` to namespace _(by Athan Reines)_
+-   [`28f0484`](https://github.com/stdlib-js/stdlib/commit/28f0484189addefe6eda8fef0c56237941e24138) - **feat:** add `nanmskmax`, `nanmskmin`, and `nanmskrange` to namespace _(by Athan Reines)_
+-   [`7599ea8`](https://github.com/stdlib-js/stdlib/commit/7599ea833510057ded6f47b9923aaa50364ad25e) - **feat:** add `nanmean`, `nanmeanors`, `nanmeanpn`, and `nanmeanwd` to namespace _(by Athan Reines)_
 -   [`7276cf7`](https://github.com/stdlib-js/stdlib/commit/7276cf782ac47f8daae9817a2ce758e479f67bff) - **docs:** fix typo _(by Philipp Burckhardt)_
 -   [`8ea46b6`](https://github.com/stdlib-js/stdlib/commit/8ea46b662dc6e27231d250d101e33a3cf770cd77) - **test:** update descriptions to match language used in JS tests _(by Philipp Burckhardt)_
 -   [`69386b4`](https://github.com/stdlib-js/stdlib/commit/69386b4cc0a71b0eaf697c039c103fde940653f3) - **feat:** add `meankbn`, `meankbn2`, `meanors`, `meanpn`, `meanpw`, and `meanwd` to namespace _(by Athan Reines)_
