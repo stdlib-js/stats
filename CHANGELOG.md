@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-07)
+## Unreleased (2025-07-08)
 
 <section class="features">
 
 ### Features
 
+-   [`65ce21c`](https://github.com/stdlib-js/stdlib/commit/65ce21c5809bf9ca8f63218a29b4a93a527810df) - add `stats/array/stdevpn` [(#7556)](https://github.com/stdlib-js/stdlib/pull/7556)
 -   [`57dae71`](https://github.com/stdlib-js/stdlib/commit/57dae71389e6be6202f255c0692e69d4d97ddc54) - add `stats/strided/range`
 -   [`8ecbdfa`](https://github.com/stdlib-js/stdlib/commit/8ecbdfa2c71d1d5a666b8f82fd0fb4bcbd1a16b5) - add `stats/strided/range-by`
 -   [`6719904`](https://github.com/stdlib-js/stdlib/commit/6719904d2b70615368d65af2e7b2bc19b7fb3dbf) - add `stats/strided/nanrange`
@@ -2981,6 +2982,9 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`65ce21c`](https://github.com/stdlib-js/stdlib/commit/65ce21c5809bf9ca8f63218a29b4a93a527810df) - **feat:** add `stats/array/stdevpn` [(#7556)](https://github.com/stdlib-js/stdlib/pull/7556) _(by Gururaj Gurram, Athan Reines)_
+-   [`acafa46`](https://github.com/stdlib-js/stdlib/commit/acafa46345911839600d0fda232a6ed73b38f582) - **chore:** add missing keywords _(by Philipp Burckhardt)_
+-   [`aa87ac7`](https://github.com/stdlib-js/stdlib/commit/aa87ac7c0f5ec929147cfc2d4f4f4dffdb8fc2ce) - **test:** fix test descriptions _(by Philipp Burckhardt)_
 -   [`5dd3fd0`](https://github.com/stdlib-js/stdlib/commit/5dd3fd0e4e217533b59a2a216086cc7a2d6f57c6) - **remove:** remove `stats/base/range` _(by Gururaj Gurram)_
 -   [`ffbc889`](https://github.com/stdlib-js/stdlib/commit/ffbc88901427ca5ceaf0d4cc557facd4865eba90) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`d0766bc`](https://github.com/stdlib-js/stdlib/commit/d0766bc8f83111face62334e8b0429427345c666) - **remove:** remove `range` from namespace _(by Gururaj Gurram)_
