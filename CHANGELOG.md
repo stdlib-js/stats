@@ -2988,6 +2988,8 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`7276cf7`](https://github.com/stdlib-js/stdlib/commit/7276cf782ac47f8daae9817a2ce758e479f67bff) - **docs:** fix typo _(by Philipp Burckhardt)_
+-   [`8ea46b6`](https://github.com/stdlib-js/stdlib/commit/8ea46b662dc6e27231d250d101e33a3cf770cd77) - **test:** update descriptions to match language used in JS tests _(by Philipp Burckhardt)_
 -   [`69386b4`](https://github.com/stdlib-js/stdlib/commit/69386b4cc0a71b0eaf697c039c103fde940653f3) - **feat:** add `meankbn`, `meankbn2`, `meanors`, `meanpn`, `meanpw`, and `meanwd` to namespace _(by Athan Reines)_
 -   [`c26050b`](https://github.com/stdlib-js/stdlib/commit/c26050b5f999f106591434ff1fc6675c892a617b) - **feat:** add `stats/array/stdev` [(#7475)](https://github.com/stdlib-js/stdlib/pull/7475) _(by Gururaj Gurram, Athan Reines)_
 -   [`267cac8`](https://github.com/stdlib-js/stdlib/commit/267cac8058eb566a4478642f563a96ea885fc6b3) - **docs:** add missing references and add missing notes _(by Athan Reines)_
