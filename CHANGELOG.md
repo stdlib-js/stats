@@ -3003,6 +3003,8 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`a77644a`](https://github.com/stdlib-js/stdlib/commit/a77644ac6d491ff8693b0b02315b52a3d1659172) - **bench:** fix import path _(by Athan Reines)_
+-   [`c19cc6b`](https://github.com/stdlib-js/stdlib/commit/c19cc6bfcccf04aede87a6cb69578117db09704b) - **chore:** clean-up _(by Athan Reines)_
 -   [`d00c8a8`](https://github.com/stdlib-js/stdlib/commit/d00c8a84536acee1f0d53f08806d004856129d7b) - **docs:** fix string interpolation _(by Athan Reines)_
 -   [`d56366e`](https://github.com/stdlib-js/stdlib/commit/d56366e05e4b941d984a9fbf18e726102eaaa705) - **docs:** update examples and fix docs _(by Athan Reines)_
 -   [`0de0a91`](https://github.com/stdlib-js/stdlib/commit/0de0a91bf68caff14964772458cf057b36b7cf37) - **feat:** add `dmeanstdev` and `dmeanstdevpn` to namespace _(by Athan Reines)_
