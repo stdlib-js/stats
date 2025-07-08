@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`97cc0f2`](https://github.com/stdlib-js/stdlib/commit/97cc0f26a74fb2376538bdd44d42f0adab596a2e) - add `stats/array/stdevyc` [(#7583)](https://github.com/stdlib-js/stdlib/pull/7583)
 -   [`65ce21c`](https://github.com/stdlib-js/stdlib/commit/65ce21c5809bf9ca8f63218a29b4a93a527810df) - add `stats/array/stdevpn` [(#7556)](https://github.com/stdlib-js/stdlib/pull/7556)
 -   [`57dae71`](https://github.com/stdlib-js/stdlib/commit/57dae71389e6be6202f255c0692e69d4d97ddc54) - add `stats/strided/range`
 -   [`8ecbdfa`](https://github.com/stdlib-js/stdlib/commit/8ecbdfa2c71d1d5a666b8f82fd0fb4bcbd1a16b5) - add `stats/strided/range-by`
@@ -2982,6 +2983,7 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`97cc0f2`](https://github.com/stdlib-js/stdlib/commit/97cc0f26a74fb2376538bdd44d42f0adab596a2e) - **feat:** add `stats/array/stdevyc` [(#7583)](https://github.com/stdlib-js/stdlib/pull/7583) _(by Gururaj Gurram, Athan Reines)_
 -   [`65ce21c`](https://github.com/stdlib-js/stdlib/commit/65ce21c5809bf9ca8f63218a29b4a93a527810df) - **feat:** add `stats/array/stdevpn` [(#7556)](https://github.com/stdlib-js/stdlib/pull/7556) _(by Gururaj Gurram, Athan Reines)_
 -   [`acafa46`](https://github.com/stdlib-js/stdlib/commit/acafa46345911839600d0fda232a6ed73b38f582) - **chore:** add missing keywords _(by Philipp Burckhardt)_
 -   [`aa87ac7`](https://github.com/stdlib-js/stdlib/commit/aa87ac7c0f5ec929147cfc2d4f4f4dffdb8fc2ce) - **test:** fix test descriptions _(by Philipp Burckhardt)_
