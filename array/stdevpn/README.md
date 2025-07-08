@@ -162,6 +162,19 @@ console.log( v );
 
 <!-- /.examples -->
 
+* * *
+
+<section class="references">
+
+## References
+
+-   Neely, Peter M. 1966. "Comparison of Several Algorithms for Computation of Means, Standard Deviations and Correlation Coefficients." _Communications of the ACM_ 9 (7). Association for Computing Machinery: 496–99. doi:[10.1145/365719.365958][@neely:1966a].
+-   Schubert, Erich, and Michael Gertz. 2018. "Numerically Stable Parallel Computation of (Co-)Variance." In _Proceedings of the 30th International Conference on Scientific and Statistical Database Management_. New York, NY, USA: Association for Computing Machinery. doi:[10.1145/3221269.3223036][@schubert:2018a].
+
+</section>
+
+<!-- /.references -->
+
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
@@ -177,6 +190,10 @@ console.log( v );
 [standard-deviation]: https://en.wikipedia.org/wiki/Standard_deviation
 
 [@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
+
+[@neely:1966a]: https://doi.org/10.1145/365719.365958
+
+[@schubert:2018a]: https://doi.org/10.1145/3221269.3223036
 
 </section>
 

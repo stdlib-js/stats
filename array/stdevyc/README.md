@@ -162,6 +162,18 @@ console.log( v );
 
 <!-- /.examples -->
 
+* * *
+
+<section class="references">
+
+## References
+
+-   Youngs, Edward A., and Elliot M. Cramer. 1971. "Some Results Relevant to Choice of Sum and Sum-of-Product Algorithms." _Technometrics_ 13 (3): 657–65. doi:[10.1080/00401706.1971.10488826][@youngs:1971a].
+
+</section>
+
+<!-- /.references -->
+
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
@@ -177,6 +189,8 @@ console.log( v );
 [standard-deviation]: https://en.wikipedia.org/wiki/Standard_deviation
 
 [@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
+
+[@youngs:1971a]: https://doi.org/10.1080/00401706.1971.10488826
 
 </section>
 
