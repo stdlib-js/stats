@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d43d8be`](https://github.com/stdlib-js/stdlib/commit/d43d8be018d9b1fab2253628a24c50422afbad56) - add `stats/array/stdevch` [(#7580)](https://github.com/stdlib-js/stdlib/pull/7580)
 -   [`bcba300`](https://github.com/stdlib-js/stdlib/commit/bcba3007051b36b929a946fc77aa3e737f0e45fc) - add `stats/array/stdevtk` [(#7581)](https://github.com/stdlib-js/stdlib/pull/7581)
 -   [`0dd627d`](https://github.com/stdlib-js/stdlib/commit/0dd627d856996957e2d40ecb64429e18e475fe1b) - add `stats/array/stdevwd` [(#7582)](https://github.com/stdlib-js/stdlib/pull/7582)
 -   [`97cc0f2`](https://github.com/stdlib-js/stdlib/commit/97cc0f26a74fb2376538bdd44d42f0adab596a2e) - add `stats/array/stdevyc` [(#7583)](https://github.com/stdlib-js/stdlib/pull/7583)
@@ -2985,6 +2986,7 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`d43d8be`](https://github.com/stdlib-js/stdlib/commit/d43d8be018d9b1fab2253628a24c50422afbad56) - **feat:** add `stats/array/stdevch` [(#7580)](https://github.com/stdlib-js/stdlib/pull/7580) _(by Gururaj Gurram, Athan Reines)_
 -   [`bcba300`](https://github.com/stdlib-js/stdlib/commit/bcba3007051b36b929a946fc77aa3e737f0e45fc) - **feat:** add `stats/array/stdevtk` [(#7581)](https://github.com/stdlib-js/stdlib/pull/7581) _(by Gururaj Gurram, Athan Reines)_
 -   [`d01ed1d`](https://github.com/stdlib-js/stdlib/commit/d01ed1d6f8d0b25296e5d085b1e1bcf73c03da6d) - **docs:** fix notes _(by Athan Reines)_
 -   [`2947a4b`](https://github.com/stdlib-js/stdlib/commit/2947a4b6d7a99f6d9a7c3badb1a89396b8cae00f) - **docs:** add references and fix optional parameter documentation _(by Athan Reines)_
