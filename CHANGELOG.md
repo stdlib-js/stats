@@ -10,6 +10,16 @@
 
 ### Features
 
+-   [`0de0a91`](https://github.com/stdlib-js/stdlib/commit/0de0a91bf68caff14964772458cf057b36b7cf37) - add `dmeanstdev` and `dmeanstdevpn` to namespace
+-   [`176b58c`](https://github.com/stdlib-js/stdlib/commit/176b58c1800a0f833abdbbef6c5f0ccb48f17779) - add `dmeanvar` and `dmeanvarpn` to namespace
+-   [`4c54ae3`](https://github.com/stdlib-js/stdlib/commit/4c54ae36cf5c69e90714f25110ae844fa679bcd0) - add `nanmean`, `nanmeanors`, `nanmeanpn`, and `nanmeanwd` to namespace
+-   [`6a7dacf`](https://github.com/stdlib-js/stdlib/commit/6a7dacf55deaf2995de4275028c07b9f438d03d4) - add `nanmskmax`, `nanmskmin`, and `nanmskrange` to namespace
+-   [`4c18567`](https://github.com/stdlib-js/stdlib/commit/4c18567142a33ee7cc5fc43496607e83930e76a9) - add `nanrange` and `nanrangeBy` to namespace
+-   [`78bfdde`](https://github.com/stdlib-js/stdlib/commit/78bfdde2a2f5f863c2f723aada6aa0408d0b2468) - add `range` and `rangeBy` to namespace
+-   [`3361595`](https://github.com/stdlib-js/stdlib/commit/3361595c51e9e1b5e2be86300a97558ec23b9f78) - add `smeankbn`, `smeankbn2`, `smeanlipw`, and `smeanors` to namespace
+-   [`376de54`](https://github.com/stdlib-js/stdlib/commit/376de5431b62739606070696438e447712f921b5) - add `svariance` and `svariancewd` to namespace
+-   [`cce4a4f`](https://github.com/stdlib-js/stdlib/commit/cce4a4fc4e49686a1692bacda6640c852d81ef7b) - add `variance`, `variancech`, `variancepn`, `variancetk`, and `variancewd` to namespace
+-   [`f4da64a`](https://github.com/stdlib-js/stdlib/commit/f4da64a29cab5be4df64c3825b2ba24cff2cab49) - add `varianceyc` to namespace
 -   [`8c140c1`](https://github.com/stdlib-js/stdlib/commit/8c140c149134fa06a098b8876785a870fdaf6dbd) - add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, and `stdevyc` to namespace
 -   [`00aa2c3`](https://github.com/stdlib-js/stdlib/commit/00aa2c3ea08a8c03b6aed11fb2e4063fe3ede82c) - add `variance`, `variancech`, `variancepn`, `variancetk`, and `variancewd` to namespace
 -   [`7e0b97b`](https://github.com/stdlib-js/stdlib/commit/7e0b97b2994d89ca1577175fd2c1f58db011ce6c) - add `nanrangeBy` and `rangeBy` to namespace
@@ -2993,6 +3003,16 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`0de0a91`](https://github.com/stdlib-js/stdlib/commit/0de0a91bf68caff14964772458cf057b36b7cf37) - **feat:** add `dmeanstdev` and `dmeanstdevpn` to namespace _(by Athan Reines)_
+-   [`176b58c`](https://github.com/stdlib-js/stdlib/commit/176b58c1800a0f833abdbbef6c5f0ccb48f17779) - **feat:** add `dmeanvar` and `dmeanvarpn` to namespace _(by Athan Reines)_
+-   [`4c54ae3`](https://github.com/stdlib-js/stdlib/commit/4c54ae36cf5c69e90714f25110ae844fa679bcd0) - **feat:** add `nanmean`, `nanmeanors`, `nanmeanpn`, and `nanmeanwd` to namespace _(by Athan Reines)_
+-   [`6a7dacf`](https://github.com/stdlib-js/stdlib/commit/6a7dacf55deaf2995de4275028c07b9f438d03d4) - **feat:** add `nanmskmax`, `nanmskmin`, and `nanmskrange` to namespace _(by Athan Reines)_
+-   [`4c18567`](https://github.com/stdlib-js/stdlib/commit/4c18567142a33ee7cc5fc43496607e83930e76a9) - **feat:** add `nanrange` and `nanrangeBy` to namespace _(by Athan Reines)_
+-   [`78bfdde`](https://github.com/stdlib-js/stdlib/commit/78bfdde2a2f5f863c2f723aada6aa0408d0b2468) - **feat:** add `range` and `rangeBy` to namespace _(by Athan Reines)_
+-   [`3361595`](https://github.com/stdlib-js/stdlib/commit/3361595c51e9e1b5e2be86300a97558ec23b9f78) - **feat:** add `smeankbn`, `smeankbn2`, `smeanlipw`, and `smeanors` to namespace _(by Athan Reines)_
+-   [`376de54`](https://github.com/stdlib-js/stdlib/commit/376de5431b62739606070696438e447712f921b5) - **feat:** add `svariance` and `svariancewd` to namespace _(by Athan Reines)_
+-   [`cce4a4f`](https://github.com/stdlib-js/stdlib/commit/cce4a4fc4e49686a1692bacda6640c852d81ef7b) - **feat:** add `variance`, `variancech`, `variancepn`, `variancetk`, and `variancewd` to namespace _(by Athan Reines)_
+-   [`f4da64a`](https://github.com/stdlib-js/stdlib/commit/f4da64a29cab5be4df64c3825b2ba24cff2cab49) - **feat:** add `varianceyc` to namespace _(by Athan Reines)_
 -   [`8c140c1`](https://github.com/stdlib-js/stdlib/commit/8c140c149134fa06a098b8876785a870fdaf6dbd) - **feat:** add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, and `stdevyc` to namespace _(by Athan Reines)_
 -   [`00aa2c3`](https://github.com/stdlib-js/stdlib/commit/00aa2c3ea08a8c03b6aed11fb2e4063fe3ede82c) - **feat:** add `variance`, `variancech`, `variancepn`, `variancetk`, and `variancewd` to namespace _(by Athan Reines)_
 -   [`7e0b97b`](https://github.com/stdlib-js/stdlib/commit/7e0b97b2994d89ca1577175fd2c1f58db011ce6c) - **feat:** add `nanrangeBy` and `rangeBy` to namespace _(by Athan Reines)_
