@@ -3003,6 +3003,8 @@ A total of 519 issues were closed in this release:
 
 <details>
 
+-   [`d00c8a8`](https://github.com/stdlib-js/stdlib/commit/d00c8a84536acee1f0d53f08806d004856129d7b) - **docs:** fix string interpolation _(by Athan Reines)_
+-   [`d56366e`](https://github.com/stdlib-js/stdlib/commit/d56366e05e4b941d984a9fbf18e726102eaaa705) - **docs:** update examples and fix docs _(by Athan Reines)_
 -   [`0de0a91`](https://github.com/stdlib-js/stdlib/commit/0de0a91bf68caff14964772458cf057b36b7cf37) - **feat:** add `dmeanstdev` and `dmeanstdevpn` to namespace _(by Athan Reines)_
 -   [`176b58c`](https://github.com/stdlib-js/stdlib/commit/176b58c1800a0f833abdbbef6c5f0ccb48f17779) - **feat:** add `dmeanvar` and `dmeanvarpn` to namespace _(by Athan Reines)_
 -   [`4c54ae3`](https://github.com/stdlib-js/stdlib/commit/4c54ae36cf5c69e90714f25110ae844fa679bcd0) - **feat:** add `nanmean`, `nanmeanors`, `nanmeanpn`, and `nanmeanwd` to namespace _(by Athan Reines)_
