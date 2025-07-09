@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`18e1770`](https://github.com/stdlib-js/stdlib/commit/18e1770df01297a9b1a7f6c7a3b25c02cacf192c) - add `stats/base/dists/bradford/skewness` [(#6401)](https://github.com/stdlib-js/stdlib/pull/6401)
 -   [`02bedd4`](https://github.com/stdlib-js/stdlib/commit/02bedd4c6ebc39c099f3503ece5e953949546242) - refactor and add protocol support to `stats/base/stdevyc` [(#7586)](https://github.com/stdlib-js/stdlib/pull/7586)
 -   [`5654424`](https://github.com/stdlib-js/stdlib/commit/5654424510f9b6d9273b5ce4c60f365761a53cca) - add support for accessor arrays and refactor `stats/base/nanstdevch` [(#7588)](https://github.com/stdlib-js/stdlib/pull/7588)
 -   [`a0f761b`](https://github.com/stdlib-js/stdlib/commit/a0f761b72ab538e2a92f97a3ca6de7e53ed45004) - add support for accessor arrays and refactor `stats/base/nanstdevtk` [(#7589)](https://github.com/stdlib-js/stdlib/pull/7589)
@@ -3008,6 +3009,7 @@ A total of 525 issues were closed in this release:
 
 <details>
 
+-   [`18e1770`](https://github.com/stdlib-js/stdlib/commit/18e1770df01297a9b1a7f6c7a3b25c02cacf192c) - **feat:** add `stats/base/dists/bradford/skewness` [(#6401)](https://github.com/stdlib-js/stdlib/pull/6401) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
 -   [`b82041b`](https://github.com/stdlib-js/stdlib/commit/b82041b21006124a084827e4181ecc995e2c1767) - **chore:** fix EditorConfig lint errors [(#7595)](https://github.com/stdlib-js/stdlib/pull/7595) _(by Shivansh, Athan Reines)_
 -   [`0ce3935`](https://github.com/stdlib-js/stdlib/commit/0ce393575bc9f92b32158f83cc47c02aec2445e8) - **refactor:** rename files and update paths _(by Athan Reines)_
 -   [`02bedd4`](https://github.com/stdlib-js/stdlib/commit/02bedd4c6ebc39c099f3503ece5e953949546242) - **feat:** refactor and add protocol support to `stats/base/stdevyc` [(#7586)](https://github.com/stdlib-js/stdlib/pull/7586) _(by Gururaj Gurram, Athan Reines)_
