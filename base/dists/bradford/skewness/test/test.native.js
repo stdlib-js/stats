@@ -20,12 +20,13 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var abs = require( '@stdlib/math/base/special/abs' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
-var skewness = require( './../lib' );
 
 
 // FIXTURES //
@@ -33,49 +34,57 @@ var skewness = require( './../lib' );
 var data = require( './fixtures/python/data.json' );
 
 
+// VARIABLES //
+
+var skewness = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( skewness instanceof Error )
+};
+
+
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof skewness, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'if provided `NaN` for `c`, the function returns `NaN`', function test( t ) {
-	var v = skewness( NaN );
-	t.equal( isnan( v ), true, 'returns NaN' );
+tape( 'if provided `NaN`, the function returns `NaN`', opts, function test( t ) {
+	var y = skewness( NaN );
+	t.equal( isnan( y ), true, 'returns expected value' );
 	t.end();
 });
 
-tape( 'if provided a shape parameter `c` that is not a positive number, the function returns `NaN`', function test( t ) {
-	var v;
+tape( 'if provided `c <= 0`, the function returns `NaN`', opts, function test( t ) {
+	var y;
 
-	v = skewness( -1.0 );
-	t.equal( isnan( v ), true, 'returns NaN' );
+	y = skewness( 0.0 );
+	t.equal( isnan( y ), true, 'returns expected value' );
 
-	v = skewness( 0.0 );
-	t.equal( isnan( v ), true, 'returns NaN' );
+	y = skewness( -1.0 );
+	t.equal( isnan( y ), true, 'returns expected value' );
 
-	v = skewness( NINF );
-	t.equal( isnan( v ), true, 'returns NaN' );
+	y = skewness( NINF );
+	t.equal( isnan( y ), true, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function returns the skewness of a bradford distribution', function test( t ) {
+tape( 'the function returns the skewness of a Bradford distribution', opts, function test( t ) {
 	var expected;
 	var delta;
 	var tol;
-	var x;
-	var i;
+	var c;
 	var y;
+	var i;
 
 	expected = data.expected;
-	x = data.x;
-	for ( i = 0; i < expected.length; i++ ) {
-		y = skewness( x[i] );
+	c = data.x;
+	for ( i = 0; i < c.length; i++ ) {
+		y = skewness( c[i] );
 		if ( y === expected[i] ) {
-			t.equal( y, expected[i], 'x:'+x[i]+', y: '+y+', expected: '+expected[i] );
+			t.equal( y, expected[i], 'c: '+c[i]+', y: '+y+', expected: '+expected[i] );
 		} else {
 			delta = abs( y - expected[ i ] );
 
@@ -90,7 +99,7 @@ tape( 'the function returns the skewness of a bradford distribution', function t
 			* Out of 1000 test cases, only two require tolerance higher than 500*EPS (specifically c=0.4 needs ~20000*EPS).
 			*/
 			tol = 20000.0 * EPS * abs( expected[ i ] );
-			t.ok( delta <= tol, 'within tolerance. x: '+x[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
+			t.ok( delta <= tol, 'within tolerance. c: '+c[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
 		}
 	}
 	t.end();

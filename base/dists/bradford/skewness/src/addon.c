@@ -16,15 +16,7 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/bradford/skewness.h"
+#include "stdlib/math/base/napi/unary.h"
 
-var uniform = require( '@stdlib/random/array/uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
-var skewness = require( './../lib' );
-
-var opts = {
-	'dtype': 'float64'
-};
-var c = uniform( 10, 0.1, 10.0, opts );
-
-logEachMap( 'c: %0.4f, skew(X;c): %0.4f', c, skewness );
+STDLIB_MATH_BASE_NAPI_MODULE_D_D( stdlib_base_dists_bradford_skewness )

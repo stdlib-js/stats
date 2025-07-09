@@ -16,15 +16,23 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/bradford/skewness.h"
+#include <stdlib.h>
+#include <stdio.h>
 
-var uniform = require( '@stdlib/random/array/uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
-var skewness = require( './../lib' );
+static double random_uniform( const double min, const double max ) {
+	double v = (double)rand() / ( (double)RAND_MAX + 1.0 );
+	return min + ( v*(max-min) );
+}
 
-var opts = {
-	'dtype': 'float64'
-};
-var c = uniform( 10, 0.1, 10.0, opts );
+int main( void ) {
+	double c;
+	double y;
+	int i;
 
-logEachMap( 'c: %0.4f, skew(X;c): %0.4f', c, skewness );
+	for ( i = 0; i < 10; i++ ) {
+		c = random_uniform( 0.01, 10.0 );
+		y = stdlib_base_dists_bradford_skewness( c );
+		printf( "c: %lf, skew(X;c): %lf\n", c, y );
+	}
+}

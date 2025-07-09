@@ -16,15 +16,23 @@
 * limitations under the License.
 */
 
-'use strict';
+#ifndef STDLIB_STATS_BASE_DISTS_BRADFORD_SKEWNESS_H
+#define STDLIB_STATS_BASE_DISTS_BRADFORD_SKEWNESS_H
 
-var uniform = require( '@stdlib/random/array/uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
-var skewness = require( './../lib' );
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-var opts = {
-	'dtype': 'float64'
-};
-var c = uniform( 10, 0.1, 10.0, opts );
+/**
+* Returns the skewness of a Bradford distribution.
+*/
+double stdlib_base_dists_bradford_skewness( const double c );
 
-logEachMap( 'c: %0.4f, skew(X;c): %0.4f', c, skewness );
+#ifdef __cplusplus
+}
+#endif
+
+#endif // !STDLIB_STATS_BASE_DISTS_BRADFORD_SKEWNESS_H
