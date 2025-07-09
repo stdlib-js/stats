@@ -3008,6 +3008,7 @@ A total of 524 issues were closed in this release:
 
 <details>
 
+-   [`0ce3935`](https://github.com/stdlib-js/stdlib/commit/0ce393575bc9f92b32158f83cc47c02aec2445e8) - **refactor:** rename files and update paths _(by Athan Reines)_
 -   [`02bedd4`](https://github.com/stdlib-js/stdlib/commit/02bedd4c6ebc39c099f3503ece5e953949546242) - **feat:** refactor and add protocol support to `stats/base/stdevyc` [(#7586)](https://github.com/stdlib-js/stdlib/pull/7586) _(by Gururaj Gurram, Athan Reines)_
 -   [`5654424`](https://github.com/stdlib-js/stdlib/commit/5654424510f9b6d9273b5ce4c60f365761a53cca) - **feat:** add support for accessor arrays and refactor `stats/base/nanstdevch` [(#7588)](https://github.com/stdlib-js/stdlib/pull/7588) _(by Gururaj Gurram)_
 -   [`a0f761b`](https://github.com/stdlib-js/stdlib/commit/a0f761b72ab538e2a92f97a3ca6de7e53ed45004) - **feat:** add support for accessor arrays and refactor `stats/base/nanstdevtk` [(#7589)](https://github.com/stdlib-js/stdlib/pull/7589) _(by Gururaj Gurram)_
