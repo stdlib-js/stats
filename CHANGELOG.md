@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`8e0e86d`](https://github.com/stdlib-js/stdlib/commit/8e0e86d59d64a740f2452647f890d3dd5b164c05) - add `dcovarmtk` to namespace
+-   [`95608b2`](https://github.com/stdlib-js/stdlib/commit/95608b2ebabf95ec76675a09f16d026ebb01b381) - add `stats/strided/dcovarmtk`
 -   [`b02e481`](https://github.com/stdlib-js/stdlib/commit/b02e481d876054cc7ea2845e45d1655931a82a0b) - add C implementation for `@stdlib/stats/base/dists/pareto-type1/quantile` [(#4308)](https://github.com/stdlib-js/stdlib/pull/4308)
 -   [`e711bd7`](https://github.com/stdlib-js/stdlib/commit/e711bd7d9e72c365915dfbe92ac50394890a2da4) - add C implementation for `stats/base/dists/pareto-type1/mean` [(#4035)](https://github.com/stdlib-js/stdlib/pull/4035)
 -   [`8fcada4`](https://github.com/stdlib-js/stdlib/commit/8fcada4b91016e83b9205b1183d9b206fc54ce32) - add C implementation for `stats/base/dists/gumbel/median` [(#4152)](https://github.com/stdlib-js/stdlib/pull/4152)
@@ -3037,6 +3039,9 @@ A total of 528 issues were closed in this release:
 
 <details>
 
+-   [`e3ec747`](https://github.com/stdlib-js/stdlib/commit/e3ec7479e52d2427f8b6f3decb07125e4286178e) - **bench:** fix call signature _(by Athan Reines)_
+-   [`8e0e86d`](https://github.com/stdlib-js/stdlib/commit/8e0e86d59d64a740f2452647f890d3dd5b164c05) - **feat:** add `dcovarmtk` to namespace _(by Athan Reines)_
+-   [`95608b2`](https://github.com/stdlib-js/stdlib/commit/95608b2ebabf95ec76675a09f16d026ebb01b381) - **feat:** add `stats/strided/dcovarmtk` _(by Athan Reines)_
 -   [`97af938`](https://github.com/stdlib-js/stdlib/commit/97af9381daa44746086d0110fcbc31c3b8572e7c) - **docs:** fix signature and parameter order _(by Athan Reines)_
 -   [`5c78c73`](https://github.com/stdlib-js/stdlib/commit/5c78c731a6ec51fde6d0bdd28fb9831f03dfe0b5) - **bench:** fix invocation _(by Athan Reines)_
 -   [`7e9ce86`](https://github.com/stdlib-js/stdlib/commit/7e9ce86fc343a49f7f24387493e6eb78f9693282) - **refactor:** reorder parameters _(by Athan Reines)_

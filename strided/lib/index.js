@@ -37,6 +37,15 @@ var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 var ns = {};
 
 /**
+* @name dcovarmtk
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dcovarmtk}
+*/
+setReadOnly( ns, 'dcovarmtk', require( './../../strided/dcovarmtk' ) );
+
+/**
 * @name dcumax
 * @memberof ns
 * @readonly
