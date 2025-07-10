@@ -1072,6 +1072,14 @@
 
 ### BREAKING CHANGES
 
+-   [`21f2041`](https://github.com/stdlib-js/stdlib/commit/21f2041ea274e9160eb878c2535ff4c8545982c8): switch order of `mean` and `correction` parameters
+
+    -   To migrate, users should swap `mean` and `correction` arguments.
+        This change ensures that the `*varm*` function signatures follow
+        similar conventions as found in binary APIs, such as those for
+        computing the covariance, where the `mean` parameter immediately
+        precedes the array argument.
+
 -   [`5dd3fd0`](https://github.com/stdlib-js/stdlib/commit/5dd3fd0e4e217533b59a2a216086cc7a2d6f57c6): remove `stats/base/range`
 
     -   To migrate, users should update their require/import paths to use
@@ -3014,6 +3022,7 @@ A total of 528 issues were closed in this release:
 <details>
 
 -   [`b02e481`](https://github.com/stdlib-js/stdlib/commit/b02e481d876054cc7ea2845e45d1655931a82a0b) - **feat:** add C implementation for `@stdlib/stats/base/dists/pareto-type1/quantile` [(#4308)](https://github.com/stdlib-js/stdlib/pull/4308) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
+-   [`21f2041`](https://github.com/stdlib-js/stdlib/commit/21f2041ea274e9160eb878c2535ff4c8545982c8) - **refactor:** reorder parameters _(by Athan Reines)_
 -   [`db1153d`](https://github.com/stdlib-js/stdlib/commit/db1153d945912b49754e0b7fd01d74f58b8c7e97) - **chore:** replace comment explaining need for large tolerance _(by Philipp Burckhardt)_
 -   [`c2fe10f`](https://github.com/stdlib-js/stdlib/commit/c2fe10f542196829e3c713a9b22977c48da055d1) - **bench:** fix require path _(by Athan Reines)_
 -   [`e711bd7`](https://github.com/stdlib-js/stdlib/commit/e711bd7d9e72c365915dfbe92ac50394890a2da4) - **feat:** add C implementation for `stats/base/dists/pareto-type1/mean` [(#4035)](https://github.com/stdlib-js/stdlib/pull/4035) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
