@@ -1072,6 +1072,14 @@
 
 ### BREAKING CHANGES
 
+-   [`7e9ce86`](https://github.com/stdlib-js/stdlib/commit/7e9ce86fc343a49f7f24387493e6eb78f9693282): switch order of `mean` and `correction` parameters
+
+    -   To migrate, users should swap `mean` and `correction` arguments.
+        This change ensures that the `*varm*` function signatures follow
+        similar conventions as found in binary APIs, such as those for
+        computing the covariance, where the `mean` parameter immediately
+        precedes the array argument.
+
 -   [`488f765`](https://github.com/stdlib-js/stdlib/commit/488f7650b91db3e3c9170442878643715efc560d): switch order of `mean` and `correction` parameters
 
     -   To migrate, users should swap `mean` and `correction` arguments.
@@ -3029,6 +3037,8 @@ A total of 528 issues were closed in this release:
 
 <details>
 
+-   [`5c78c73`](https://github.com/stdlib-js/stdlib/commit/5c78c731a6ec51fde6d0bdd28fb9831f03dfe0b5) - **bench:** fix invocation _(by Athan Reines)_
+-   [`7e9ce86`](https://github.com/stdlib-js/stdlib/commit/7e9ce86fc343a49f7f24387493e6eb78f9693282) - **refactor:** reorder parameters _(by Athan Reines)_
 -   [`488f765`](https://github.com/stdlib-js/stdlib/commit/488f7650b91db3e3c9170442878643715efc560d) - **refactor:** reorder parameters _(by Athan Reines)_
 -   [`e213c1c`](https://github.com/stdlib-js/stdlib/commit/e213c1c16475f98510398204a1c3b8939081b2ac) - **docs:** add missing private annotation _(by Athan Reines)_
 -   [`b02e481`](https://github.com/stdlib-js/stdlib/commit/b02e481d876054cc7ea2845e45d1655931a82a0b) - **feat:** add C implementation for `@stdlib/stats/base/dists/pareto-type1/quantile` [(#4308)](https://github.com/stdlib-js/stdlib/pull/4308) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
