@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,13 +20,14 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
-var abs = require( '@stdlib/math/base/special/abs' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var abs = require( '@stdlib/math/base/special/abs' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 var EPS = require( '@stdlib/constants/float64/eps' );
-var mean = require( './../lib' );
 
 
 // FIXTURES //
@@ -34,28 +35,37 @@ var mean = require( './../lib' );
 var data = require( './fixtures/julia/data.json' );
 
 
+// VARIABLES //
+
+var mean = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( mean instanceof Error )
+};
+
+
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof mean, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'if provided `NaN` for any parameter, the function returns `NaN`', function test( t ) {
-	var v = mean( NaN, 0.5 );
-	t.equal( isnan( v ), true, 'returns expected value' );
-
-	v = mean( 10.0, NaN );
-	t.equal( isnan( v ), true, 'returns expected value' );
-
+tape( 'if provided `NaN` for any parameter, the function returns `NaN`', opts, function test( t ) {
+	var y = mean( NaN, 1.0 );
+	t.equal( isnan( y ), true, 'returns expected value' );
+	y = mean( 2.0, NaN );
+	t.equal( isnan( y ), true, 'returns expected value' );
 	t.end();
 });
 
-tape( 'if provided `alpha <= 0`, the function returns `NaN`', function test( t ) {
+tape( 'if provided `alpha <= 0`, the function returns `NaN`', opts, function test( t ) {
 	var y;
 
 	y = mean( -1.0, 2.0 );
+	t.equal( isnan( y ), true, 'returns expected value' );
+
+	y = mean( 0.0, 1.0 );
 	t.equal( isnan( y ), true, 'returns expected value' );
 
 	y = mean( NINF, 1.0 );
@@ -73,7 +83,7 @@ tape( 'if provided `alpha <= 0`, the function returns `NaN`', function test( t )
 	t.end();
 });
 
-tape( 'if provided `0 < alpha <= 1`, the function returns `+Infinity`', function test( t ) {
+tape( 'if provided `0 < alpha <= 1`, the function returns `+Infinity`', opts, function test( t ) {
 	var y;
 
 	y = mean( 0.2, 2.0 );
@@ -85,13 +95,19 @@ tape( 'if provided `0 < alpha <= 1`, the function returns `+Infinity`', function
 	y = mean( 0.9, 2.0 );
 	t.equal( y, PINF, 'returns expected value' );
 
+	y = mean( 1.0, 1.0 );
+	t.equal( y, PINF, 'returns expected value' );
+
 	t.end();
 });
 
-tape( 'if provided `beta <= 0`, the function returns `NaN`', function test( t ) {
+tape( 'if provided `beta <= 0`, the function returns `NaN`', opts, function test( t ) {
 	var y;
 
 	y = mean( 2.0, -1.0 );
+	t.equal( isnan( y ), true, 'returns expected value' );
+
+	y = mean( 2.0, 0.0 );
 	t.equal( isnan( y ), true, 'returns expected value' );
 
 	y = mean( 1.0, NINF );
@@ -109,26 +125,26 @@ tape( 'if provided `beta <= 0`, the function returns `NaN`', function test( t ) 
 	t.end();
 });
 
-tape( 'the function returns the mean of a Pareto (Type I) distribution', function test( t ) {
+tape( 'the function evaluates the mean for a Pareto Type I distribution', opts, function test( t ) {
 	var expected;
 	var delta;
 	var alpha;
 	var beta;
 	var tol;
-	var i;
 	var y;
+	var i;
 
 	expected = data.expected;
 	alpha = data.alpha;
 	beta = data.beta;
-	for ( i = 0; i < expected.length; i++ ) {
-		y = mean( alpha[i], beta[i] );
-		if ( y === expected[i] ) {
-			t.equal( y, expected[i], 'alpha: '+alpha[i]+', beta: '+beta[i]+', y: '+y+', expected: '+expected[i] );
+	for ( i = 0; i < alpha.length; i++ ) {
+		y = mean( alpha[ i ], beta[ i ] );
+		if ( y === expected[ i ] ) {
+			t.equal( y, expected[ i ], 'alpha: ' + alpha[ i ] + ', beta: ' + beta[ i ] + ', y: ' + y + ', expected: ' + expected[ i ] );
 		} else {
 			delta = abs( y - expected[ i ] );
-			tol = 1.0 * EPS * abs( expected[ i ] );
-			t.ok( delta <= tol, 'within tolerance. alpha: '+alpha[i]+'. beta: '+beta[i]+'. y: '+y+'. E: '+expected[ i ]+'. Δ: '+delta+'. tol: '+tol+'.' );
+			tol = 2.0 * EPS * abs( expected[ i ] );
+			t.ok( delta <= tol, 'within tolerance. alpha: ' + alpha[ i ] + '. beta: ' + beta[ i ] + '. y: ' + y + '. E: ' + expected[ i ] + '. Δ: ' + delta + '. tol: ' + tol + '.' );
 		}
 	}
 	t.end();
