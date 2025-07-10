@@ -3011,6 +3011,7 @@ A total of 526 issues were closed in this release:
 
 <details>
 
+-   [`8fdf505`](https://github.com/stdlib-js/stdlib/commit/8fdf505023f88e68b94627083ba88faa32b8d52d) - **bench:** refactor random value generation _(by Athan Reines)_
 -   [`8fcada4`](https://github.com/stdlib-js/stdlib/commit/8fcada4b91016e83b9205b1183d9b206fc54ce32) - **feat:** add C implementation for `stats/base/dists/gumbel/median` [(#4152)](https://github.com/stdlib-js/stdlib/pull/4152) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
 -   [`58e2a62`](https://github.com/stdlib-js/stdlib/commit/58e2a62359bd975009be246ddeda507dc8656fe1) - **feat:** add C implementation for `stats/base/dists/bradford/skewness` _(by Philipp Burckhardt)_
 -   [`18e1770`](https://github.com/stdlib-js/stdlib/commit/18e1770df01297a9b1a7f6c7a3b25c02cacf192c) - **feat:** add `stats/base/dists/bradford/skewness` [(#6401)](https://github.com/stdlib-js/stdlib/pull/6401) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
