@@ -26,7 +26,7 @@ limitations under the License.
 
 <section class="intro">
 
-The population [covariance][covariance] of a finite size population of size `N` is given by
+The population [covariance][covariance] of two finite size populations of size `N` is given by
 
 <!-- <equation class="equation" label="eq:population_covariance" align="center" raw="\operatorname{\mathrm{cov_N}} = \frac{1}{N} \sum_{i=0}^{N-1} (x_i - \mu_x)(y_i - \mu_y)" alt="Equation for the population covariance."> -->
 
