@@ -114,8 +114,8 @@ var v = dvarmtk( x.length, 1, 1.0/3.0, x, 1 );
 The function has the following parameters:
 
 -   **N**: number of indexed elements.
--   **mean**: mean.
 -   **correction**: degrees of freedom adjustment. Setting this parameter to a value other than `0` has the effect of adjusting the divisor during the calculation of the [variance][variance] according to `N-c` where `c` corresponds to the provided degrees of freedom adjustment. When computing the [variance][variance] of a population, setting this parameter to `0` is the standard choice (i.e., the provided array contains data constituting an entire population). When computing the unbiased sample [variance][variance], setting this parameter to `1` is the standard choice (i.e., the provided array contains data sampled from a larger population; this is commonly referred to as Bessel's correction).
+-   **mean**: mean.
 -   **x**: input [`Float64Array`][@stdlib/array/float64].
 -   **strideX**: stride length for `x`.
 
@@ -144,7 +144,7 @@ var v = dvarmtk( 4, 1, 1.25, x1, 2 );
 // returns 6.25
 ```
 
-#### dvarmtk.ndarray( N, mean, correction, x, strideX, offsetX )
+#### dvarmtk.ndarray( N, correction, mean, x, strideX, offsetX )
 
 Computes the [variance][variance] of a double-precision floating-point strided array provided a known `mean` and using a one-pass textbook algorithm and alternative indexing semantics.
 

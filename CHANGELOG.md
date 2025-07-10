@@ -3037,6 +3037,7 @@ A total of 528 issues were closed in this release:
 
 <details>
 
+-   [`97af938`](https://github.com/stdlib-js/stdlib/commit/97af9381daa44746086d0110fcbc31c3b8572e7c) - **docs:** fix signature and parameter order _(by Athan Reines)_
 -   [`5c78c73`](https://github.com/stdlib-js/stdlib/commit/5c78c731a6ec51fde6d0bdd28fb9831f03dfe0b5) - **bench:** fix invocation _(by Athan Reines)_
 -   [`7e9ce86`](https://github.com/stdlib-js/stdlib/commit/7e9ce86fc343a49f7f24387493e6eb78f9693282) - **refactor:** reorder parameters _(by Athan Reines)_
 -   [`488f765`](https://github.com/stdlib-js/stdlib/commit/488f7650b91db3e3c9170442878643715efc560d) - **refactor:** reorder parameters _(by Athan Reines)_
