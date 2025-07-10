@@ -3039,6 +3039,7 @@ A total of 528 issues were closed in this release:
 
 <details>
 
+-   [`7cd152b`](https://github.com/stdlib-js/stdlib/commit/7cd152ba9f730665bac86f9c488374c5c0c2f2c7) - **docs:** fix return values and parameters _(by Philipp Burckhardt)_
 -   [`70c0a74`](https://github.com/stdlib-js/stdlib/commit/70c0a74d7298a99ac9f59c4fb4db78acec57c404) - **docs:** update copy _(by Athan Reines)_
 -   [`dd3c840`](https://github.com/stdlib-js/stdlib/commit/dd3c84098321191a425401880f073b5de4159ff5) - **docs:** update copy _(by Athan Reines)_
 -   [`e3ec747`](https://github.com/stdlib-js/stdlib/commit/e3ec7479e52d2427f8b6f3decb07125e4286178e) - **bench:** fix call signature _(by Athan Reines)_
