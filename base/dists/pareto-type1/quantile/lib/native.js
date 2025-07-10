@@ -28,6 +28,7 @@ var addon = require( './../src/addon.node' );
 /**
 * Evaluates the quantile function for a Pareto (Type I) distribution with shape parameter `alpha` and scale parameter `beta` at a probability `p`.
 *
+* @private
 * @param {Probability} p - input value
 * @param {PositiveNumber} alpha - shape parameter
 * @param {PositiveNumber} beta - scale parameter
