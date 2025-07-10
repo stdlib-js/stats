@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,16 +20,25 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var uniform = require( '@stdlib/random/array/uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var pkg = require( './../package.json' ).name;
-var quantile = require( './../lib' );
+
+
+// VARIABLES //
+
+var quantile = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( quantile instanceof Error )
+};
 
 
 // MAIN //
 
-bench( pkg, function benchmark( b ) {
+bench( pkg+'::native', opts, function benchmark( b ) {
 	var alpha;
 	var beta;
 	var len;
@@ -39,42 +48,12 @@ bench( pkg, function benchmark( b ) {
 
 	len = 100;
 	p = uniform( len, 0.0, 1.0 );
-	alpha = uniform( len, 1.0, 100.0 );
-	beta = uniform( len, 1.0, 100.0 );
+	alpha = uniform( len, 1.0, 10.0 );
+	beta = uniform( len, 1.0, 10.0 );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
 		y = quantile( p[ i % len ], alpha[ i % len ], beta[ i % len ] );
-		if ( isnan( y ) ) {
-			b.fail( 'should not return NaN' );
-		}
-	}
-	b.toc();
-	if ( isnan( y ) ) {
-		b.fail( 'should not return NaN' );
-	}
-	b.pass( 'benchmark finished' );
-	b.end();
-});
-
-bench( pkg+':factory', function benchmark( b ) {
-	var myquantile;
-	var alpha;
-	var beta;
-	var len;
-	var p;
-	var y;
-	var i;
-
-	alpha = 100.56789;
-	beta = 55.54321;
-	myquantile = quantile.factory( alpha, beta );
-	len = 100;
-	p = uniform( len, 0.0, 1.0 );
-
-	b.tic();
-	for ( i = 0; i < b.iterations; i++ ) {
-		y = myquantile( p[ i % len ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
