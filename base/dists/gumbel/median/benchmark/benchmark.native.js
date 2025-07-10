@@ -22,7 +22,7 @@
 
 var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
-var uniform = require( '@stdlib/random/array/randu' );
+var uniform = require( '@stdlib/random/array/uniform' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var tryRequire = require( '@stdlib/utils/try-require' );

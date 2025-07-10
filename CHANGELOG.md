@@ -3012,6 +3012,7 @@ A total of 527 issues were closed in this release:
 
 <details>
 
+-   [`c2fe10f`](https://github.com/stdlib-js/stdlib/commit/c2fe10f542196829e3c713a9b22977c48da055d1) - **bench:** fix require path _(by Athan Reines)_
 -   [`e711bd7`](https://github.com/stdlib-js/stdlib/commit/e711bd7d9e72c365915dfbe92ac50394890a2da4) - **feat:** add C implementation for `stats/base/dists/pareto-type1/mean` [(#4035)](https://github.com/stdlib-js/stdlib/pull/4035) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
 -   [`8fdf505`](https://github.com/stdlib-js/stdlib/commit/8fdf505023f88e68b94627083ba88faa32b8d52d) - **bench:** refactor random value generation _(by Athan Reines)_
 -   [`8fcada4`](https://github.com/stdlib-js/stdlib/commit/8fcada4b91016e83b9205b1183d9b206fc54ce32) - **feat:** add C implementation for `stats/base/dists/gumbel/median` [(#4152)](https://github.com/stdlib-js/stdlib/pull/4152) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
