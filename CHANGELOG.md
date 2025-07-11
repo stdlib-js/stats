@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-10)
+## Unreleased (2025-07-11)
 
 <section class="features">
 
 ### Features
 
+-   [`1624fe5`](https://github.com/stdlib-js/stdlib/commit/1624fe52725211d1847426269dc004d1fc48acae) - add `stats/strided/ztest2` [(#7464)](https://github.com/stdlib-js/stdlib/pull/7464)
 -   [`8e0e86d`](https://github.com/stdlib-js/stdlib/commit/8e0e86d59d64a740f2452647f890d3dd5b164c05) - add `dcovarmtk` to namespace
 -   [`95608b2`](https://github.com/stdlib-js/stdlib/commit/95608b2ebabf95ec76675a09f16d026ebb01b381) - add `stats/strided/dcovarmtk`
 -   [`b02e481`](https://github.com/stdlib-js/stdlib/commit/b02e481d876054cc7ea2845e45d1655931a82a0b) - add C implementation for `@stdlib/stats/base/dists/pareto-type1/quantile` [(#4308)](https://github.com/stdlib-js/stdlib/pull/4308)
@@ -3039,6 +3040,7 @@ A total of 531 issues were closed in this release:
 
 <details>
 
+-   [`1624fe5`](https://github.com/stdlib-js/stdlib/commit/1624fe52725211d1847426269dc004d1fc48acae) - **feat:** add `stats/strided/ztest2` [(#7464)](https://github.com/stdlib-js/stdlib/pull/7464) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`cb0a268`](https://github.com/stdlib-js/stdlib/commit/cb0a268e3bb793499ac8dd396e57d075837422ee) - **test:** update type expectations in `stats/base/cumaxabs` [(#7611)](https://github.com/stdlib-js/stdlib/pull/7611) _(by Deepak Singh)_
 -   [`ea8ecc0`](https://github.com/stdlib-js/stdlib/commit/ea8ecc050c5e0c4ffbb338c4fd8fb285933ef822) - **test:** update type expectations in `stats/base/cumin` [(#7610)](https://github.com/stdlib-js/stdlib/pull/7610) _(by Deepak Singh)_
 -   [`fd2955b`](https://github.com/stdlib-js/stdlib/commit/fd2955b528f74743158831eb4c8878389c9a35a9) - **test:** update type expectations in `stats/base/cumax` [(#7609)](https://github.com/stdlib-js/stdlib/pull/7609) _(by Deepak Singh)_
