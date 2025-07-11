@@ -3040,6 +3040,7 @@ A total of 531 issues were closed in this release:
 
 <details>
 
+-   [`53543a3`](https://github.com/stdlib-js/stdlib/commit/53543a3bd5e382153a3c7c7965e874a9d6c3ae9b) - **docs:** update Markdown stdlib package URLs [(#7617)](https://github.com/stdlib-js/stdlib/pull/7617) _(by stdlib-bot)_
 -   [`1624fe5`](https://github.com/stdlib-js/stdlib/commit/1624fe52725211d1847426269dc004d1fc48acae) - **feat:** add `stats/strided/ztest2` [(#7464)](https://github.com/stdlib-js/stdlib/pull/7464) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`cb0a268`](https://github.com/stdlib-js/stdlib/commit/cb0a268e3bb793499ac8dd396e57d075837422ee) - **test:** update type expectations in `stats/base/cumaxabs` [(#7611)](https://github.com/stdlib-js/stdlib/pull/7611) _(by Deepak Singh)_
 -   [`ea8ecc0`](https://github.com/stdlib-js/stdlib/commit/ea8ecc050c5e0c4ffbb338c4fd8fb285933ef822) - **test:** update type expectations in `stats/base/cumin` [(#7610)](https://github.com/stdlib-js/stdlib/pull/7610) _(by Deepak Singh)_
