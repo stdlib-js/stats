@@ -26,7 +26,7 @@ limitations under the License.
 
 <section class="intro">
 
-The [skewness][skewness] for a [Bradford][bradford-distribution] random variable with shape parameter.`c` is
+The [skewness][skewness] for a [Bradford][bradford-distribution] random variable with shape parameter `c` is
 
 <!-- <equation class="equation" label="eq:bradford_skewness" align="center" raw="\operatorname{skew}\left( c \right) = \frac{\sqrt{2}\,\Bigl(12c^2 - 9c\,\log(1+c)(c+2) +2\,(\log(1+c))^2\,(c(c+3)+3)\Bigr)}{\sqrt{c\,\Bigl(c\,(\log(1+c)-2)+2\log(1+c)\Bigr)}\Bigl(3c\,(\log(1+c)-2)+6\log(1+c)\Bigr)}" alt="Skewness for a bradford distribution."> -->
 
@@ -35,8 +35,6 @@ The [skewness][skewness] for a [Bradford][bradford-distribution] random variable
 ```
 
 <!-- </equation> -->
-
-where `c` is the shape parameter.
 
 </section>
 
