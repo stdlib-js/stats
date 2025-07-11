@@ -1003,6 +1003,7 @@
 
 ### Bug Fixes
 
+-   [`6e8daa6`](https://github.com/stdlib-js/stdlib/commit/6e8daa697b0d0cd11b156fe844cbd7a54fbdc89a) - use correct dependency name
 -   [`4f80b80`](https://github.com/stdlib-js/stdlib/commit/4f80b80dc67daff48e7e6c00aea02b3ad695fa44) - ensure original input array is passed to callback
 -   [`98e8f6b`](https://github.com/stdlib-js/stdlib/commit/98e8f6bfbe48aa24003710ed87ea88f5dc68977e) - allow non-numeric input arrays
 -   [`f0d49c1`](https://github.com/stdlib-js/stdlib/commit/f0d49c177b252ac1182ebc831fec6c90e862d56d) - handle infinity case and increase tolerances for passing tests
@@ -3041,6 +3042,7 @@ A total of 533 issues were closed in this release:
 
 <details>
 
+-   [`6e8daa6`](https://github.com/stdlib-js/stdlib/commit/6e8daa697b0d0cd11b156fe844cbd7a54fbdc89a) - **fix:** use correct dependency name _(by Philipp Burckhardt)_
 -   [`e6823fe`](https://github.com/stdlib-js/stdlib/commit/e6823fe95a468d4c981dffb05dbc04149e15083d) - **feat:** add C implementation for `stats/base/dists/signrank/pdf` [(#4637)](https://github.com/stdlib-js/stdlib/pull/4637) _(by Lokesh Ranjan, Philipp Burckhardt)_
 -   [`f9059f4`](https://github.com/stdlib-js/stdlib/commit/f9059f4031bed07162079fa7d68d31fce9b6550d) - **chore:** address commit comments [(#7621)](https://github.com/stdlib-js/stdlib/pull/7621) _(by Anmol Sah, Athan Reines)_
 -   [`53543a3`](https://github.com/stdlib-js/stdlib/commit/53543a3bd5e382153a3c7c7965e874a9d6c3ae9b) - **docs:** update Markdown stdlib package URLs [(#7617)](https://github.com/stdlib-js/stdlib/pull/7617) _(by stdlib-bot)_

@@ -60,7 +60,6 @@
     "@stdlib/iter": "github:stdlib-js/iter#main",
     "@stdlib/object": "github:stdlib-js/object#main",
     "@stdlib/plot": "github:stdlib-js/plot#main",
-    "@stdlib/stdlib": "github:stdlib-js/stdlib#main",
     "@stdlib/time": "github:stdlib-js/time#main",
     "@stdlib/wasm": "github:stdlib-js/wasm#main",
     "proxyquire": "^2.0.0",

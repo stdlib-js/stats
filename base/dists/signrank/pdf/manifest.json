@@ -50,7 +50,7 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/stdlib/math/base/special/ceil",
+        "@stdlib/math/base/special/ceil",
         "@stdlib/math/base/assert/is-nan",
         "@stdlib/math/base/special/exp",
         "@stdlib/constants/float64/ln-two",
@@ -66,7 +66,7 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/stdlib/math/base/special/ceil",
+        "@stdlib/math/base/special/ceil",
         "@stdlib/math/base/assert/is-nan",
         "@stdlib/math/base/special/exp",
         "@stdlib/constants/float64/ln-two",
