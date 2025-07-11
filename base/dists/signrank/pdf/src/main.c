@@ -35,16 +35,16 @@ static double weights( double x, const int32_t n ) {
 	double mlim;
 
 	if ( n == 0 ) {
-		return ( x == 0 ) ? 1 : 0;
+		return ( x == 0 ) ? 1.0 : 0.0;
 	}
 	mlim = ( (double)n * ( (double)n + 1.0 ) ) / 2.0;
 	if ( x < 0 || x > mlim ) {
-		return 0;
+		return 0.0;
 	}
-	if ( x > mlim / 2 ) {
+	if ( x > mlim / 2.0 ) {
 		x = mlim - x;
 	}
-	return weights( x - (double)n, n - 1 ) + weights( x, n - 1 );
+	return weights( x-(double)n, n-1 ) + weights( x, n-1 );
 }
 
 /**

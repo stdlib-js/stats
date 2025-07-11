@@ -1003,6 +1003,7 @@
 
 ### Bug Fixes
 
+-   [`90f0ddf`](https://github.com/stdlib-js/stdlib/commit/90f0ddf5cf57ea682898f62445a7a018fa582386) - add missing decimals
 -   [`6e8daa6`](https://github.com/stdlib-js/stdlib/commit/6e8daa697b0d0cd11b156fe844cbd7a54fbdc89a) - use correct dependency name
 -   [`4f80b80`](https://github.com/stdlib-js/stdlib/commit/4f80b80dc67daff48e7e6c00aea02b3ad695fa44) - ensure original input array is passed to callback
 -   [`98e8f6b`](https://github.com/stdlib-js/stdlib/commit/98e8f6bfbe48aa24003710ed87ea88f5dc68977e) - allow non-numeric input arrays
@@ -3042,6 +3043,7 @@ A total of 533 issues were closed in this release:
 
 <details>
 
+-   [`90f0ddf`](https://github.com/stdlib-js/stdlib/commit/90f0ddf5cf57ea682898f62445a7a018fa582386) - **fix:** add missing decimals _(by Athan Reines)_
 -   [`6e8daa6`](https://github.com/stdlib-js/stdlib/commit/6e8daa697b0d0cd11b156fe844cbd7a54fbdc89a) - **fix:** use correct dependency name _(by Philipp Burckhardt)_
 -   [`e6823fe`](https://github.com/stdlib-js/stdlib/commit/e6823fe95a468d4c981dffb05dbc04149e15083d) - **feat:** add C implementation for `stats/base/dists/signrank/pdf` [(#4637)](https://github.com/stdlib-js/stdlib/pull/4637) _(by Lokesh Ranjan, Philipp Burckhardt)_
 -   [`f9059f4`](https://github.com/stdlib-js/stdlib/commit/f9059f4031bed07162079fa7d68d31fce9b6550d) - **chore:** address commit comments [(#7621)](https://github.com/stdlib-js/stdlib/pull/7621) _(by Anmol Sah, Athan Reines)_
