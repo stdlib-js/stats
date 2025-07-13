@@ -1003,6 +1003,7 @@
 
 ### Bug Fixes
 
+-   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - use correct package names in package.json
 -   [`4e2fe4f`](https://github.com/stdlib-js/stdlib/commit/4e2fe4f7226b7f96aab5879f57a4536460c8f847) - make properties required in interface [(#7643)](https://github.com/stdlib-js/stdlib/pull/7643)
 -   [`90f0ddf`](https://github.com/stdlib-js/stdlib/commit/90f0ddf5cf57ea682898f62445a7a018fa582386) - add missing decimals
 -   [`6e8daa6`](https://github.com/stdlib-js/stdlib/commit/6e8daa697b0d0cd11b156fe844cbd7a54fbdc89a) - use correct dependency name
@@ -3044,6 +3045,7 @@ A total of 535 issues were closed in this release:
 
 <details>
 
+-   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - **fix:** use correct package names in package.json _(by Philipp Burckhardt)_
 -   [`4e2fe4f`](https://github.com/stdlib-js/stdlib/commit/4e2fe4f7226b7f96aab5879f57a4536460c8f847) - **fix:** make properties required in interface [(#7643)](https://github.com/stdlib-js/stdlib/pull/7643) _(by Gururaj Gurram)_
 -   [`6bfa600`](https://github.com/stdlib-js/stdlib/commit/6bfa6008723749f4d9ca862b3dacab1e8a1f9957) - **chore:** address commit comments for commit `e711bd7` [(#7633)](https://github.com/stdlib-js/stdlib/pull/7633) _(by Anmol Sah, stdlib-bot)_
 -   [`a63b948`](https://github.com/stdlib-js/stdlib/commit/a63b94861bb8c0ba67e67f4a3aaec8f7f8dd59f0) - **chore:** address commit comments for commit `e6823fe` [(#7632)](https://github.com/stdlib-js/stdlib/pull/7632) _(by Anmol Sah)_
