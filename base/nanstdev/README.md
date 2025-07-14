@@ -227,7 +227,7 @@ console.log( v );
 -   <span class="package-name">[`@stdlib/stats/strided/dnanstdev`][@stdlib/stats/strided/dnanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanvariance`][@stdlib/stats/base/nanvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanstdev`][@stdlib/stats/base/snanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/stdev`][@stdlib/stats/base/stdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/stdev`][@stdlib/stats/strided/stdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array.</span>
 
 </section>
 
@@ -253,7 +253,7 @@ console.log( v );
 
 [@stdlib/stats/base/snanstdev]: https://github.com/stdlib-js/stats/tree/main/base/snanstdev
 
-[@stdlib/stats/base/stdev]: https://github.com/stdlib-js/stats/tree/main/base/stdev
+[@stdlib/stats/strided/stdev]: https://github.com/stdlib-js/stats/tree/main/strided/stdev
 
 <!-- </related-links> -->
 

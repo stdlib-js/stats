@@ -22,7 +22,7 @@ var Float64Array = require( '@stdlib/array/float64' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
 var mean = require( './../../../../strided/mean' );
 var variance = require( './../../../../strided/variance' );
-var stdev = require( './../../../../base/stdev' );
+var stdev = require( './../../../../strided/stdev' );
 var randGumbel = require( '@stdlib/random/base/gumbel' ).factory;
 var gumbel = require( './../lib' );
 

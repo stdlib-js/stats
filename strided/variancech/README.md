@@ -229,7 +229,7 @@ console.log( v );
 
 -   <span class="package-name">[`@stdlib/stats/strided/dvariancech`][@stdlib/stats/strided/dvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a one-pass trial mean algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanvariancech`][@stdlib/stats/base/nanvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/stdevch`][@stdlib/stats/base/stdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass trial mean algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/stdevch`][@stdlib/stats/strided/stdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass trial mean algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/variance`][@stdlib/stats/strided/variance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array.</span>
 
 </section>
@@ -264,7 +264,7 @@ console.log( v );
 
 [@stdlib/stats/base/nanvariancech]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancech
 
-[@stdlib/stats/base/stdevch]: https://github.com/stdlib-js/stats/tree/main/base/stdevch
+[@stdlib/stats/strided/stdevch]: https://github.com/stdlib-js/stats/tree/main/strided/stdevch
 
 [@stdlib/stats/strided/variance]: https://github.com/stdlib-js/stats/tree/main/strided/variance
 

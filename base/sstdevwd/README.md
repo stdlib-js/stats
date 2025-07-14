@@ -248,7 +248,7 @@ console.log( v );
 -   <span class="package-name">[`@stdlib/stats/strided/dstdevwd`][@stdlib/stats/strided/dstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using Welford's algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanstdevwd`][@stdlib/stats/base/snanstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using Welford's algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/sstdev`][@stdlib/stats/strided/sstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/base/stdevwd`][@stdlib/stats/base/stdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using Welford's algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/stdevwd`][@stdlib/stats/strided/stdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using Welford's algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/svariancewd`][@stdlib/stats/strided/svariancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array using Welford's algorithm.</span>
 
 </section>
@@ -277,7 +277,7 @@ console.log( v );
 
 [@stdlib/stats/strided/sstdev]: https://github.com/stdlib-js/stats/tree/main/strided/sstdev
 
-[@stdlib/stats/base/stdevwd]: https://github.com/stdlib-js/stats/tree/main/base/stdevwd
+[@stdlib/stats/strided/stdevwd]: https://github.com/stdlib-js/stats/tree/main/strided/stdevwd
 
 [@stdlib/stats/strided/svariancewd]: https://github.com/stdlib-js/stats/tree/main/strided/svariancewd
 

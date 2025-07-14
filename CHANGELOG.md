@@ -10,6 +10,12 @@
 
 ### Features
 
+-   [`f8d770c`](https://github.com/stdlib-js/stdlib/commit/f8d770c6b844611c382c6bf11187fee24a4df5e2) - add `stats/strided/stdev`
+-   [`f82186c`](https://github.com/stdlib-js/stdlib/commit/f82186c2f59b579044d5328b0298036b9a7bd8a6) - add `stats/strided/stdevch`
+-   [`36934e8`](https://github.com/stdlib-js/stdlib/commit/36934e80023d2c5af861db5b5415a38388de4803) - add `stats/strided/stdevpn`
+-   [`1414fca`](https://github.com/stdlib-js/stdlib/commit/1414fca8c2b92f248e8310120f72f944525a728f) - add `stats/strided/stdevtk`
+-   [`706e9ad`](https://github.com/stdlib-js/stdlib/commit/706e9ad474b127319af2046ff58b3eaeca1a9702) - add `stats/strided/stdevwd`
+-   [`812bf10`](https://github.com/stdlib-js/stdlib/commit/812bf10b4652a57a92cb50bdc59d85d27ee96dbc) - add `stats/strided/stdevyc`
 -   [`e6823fe`](https://github.com/stdlib-js/stdlib/commit/e6823fe95a468d4c981dffb05dbc04149e15083d) - add C implementation for `stats/base/dists/signrank/pdf` [(#4637)](https://github.com/stdlib-js/stdlib/pull/4637)
 -   [`1624fe5`](https://github.com/stdlib-js/stdlib/commit/1624fe52725211d1847426269dc004d1fc48acae) - add `stats/strided/ztest2` [(#7464)](https://github.com/stdlib-js/stdlib/pull/7464)
 -   [`8e0e86d`](https://github.com/stdlib-js/stdlib/commit/8e0e86d59d64a740f2452647f890d3dd5b164c05) - add `dcovarmtk` to namespace
@@ -1079,6 +1085,72 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`4975cf0`](https://github.com/stdlib-js/stdlib/commit/4975cf067b213bf23b2a36329d2fbfd44f4ecec9): remove `stats/base/stdev`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/stdev`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`5c0803a`](https://github.com/stdlib-js/stdlib/commit/5c0803acaa5b079d3b35ea4f3efda47b427d73ce): remove `stdev`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`c0d333c`](https://github.com/stdlib-js/stdlib/commit/c0d333c488b1d5d6f66cc1291d1eebd284daaf9a): remove `stats/base/stdevch`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/stdevch`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`236b9e3`](https://github.com/stdlib-js/stdlib/commit/236b9e36289078d937d2312996a546d8259d29c1): remove `stdevch`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`28e2ea1`](https://github.com/stdlib-js/stdlib/commit/28e2ea156069cf2e1d7165d479c43561633c9be1): remove `stats/base/stdevpn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/stdevpn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`d898599`](https://github.com/stdlib-js/stdlib/commit/d8985997d34768f31fd18ed59d782ae20064356e): remove `stdevpn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`14ab63d`](https://github.com/stdlib-js/stdlib/commit/14ab63df56dbb4cce0371f5c58e1b75a7dd2fb03): remove `stats/base/stdevtk`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/stdevtk`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`732445c`](https://github.com/stdlib-js/stdlib/commit/732445c58a1bf7f4d3a203cf2d6ece566d507203): remove `stdevtk`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`ffee0ef`](https://github.com/stdlib-js/stdlib/commit/ffee0ef6826a8ae7728cd81e1242c3584819062a): remove `stats/base/stdevwd`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/stdevwd`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`ae9e5fd`](https://github.com/stdlib-js/stdlib/commit/ae9e5fdd66004c0e578bfe697d49790af7facee5): remove `stdevwd`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`7860df3`](https://github.com/stdlib-js/stdlib/commit/7860df324f8eaa8cedea1e90e83830a239083472): remove `stats/base/stdevyc`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/stdevyc`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`6d91a2a`](https://github.com/stdlib-js/stdlib/commit/6d91a2ad7f441b1d05b97c443ae88b1bba342d8e): remove `stdevyc`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`7e9ce86`](https://github.com/stdlib-js/stdlib/commit/7e9ce86fc343a49f7f24387493e6eb78f9693282): switch order of `mean` and `correction` parameters
 
@@ -3045,6 +3117,30 @@ A total of 535 issues were closed in this release:
 
 <details>
 
+-   [`4975cf0`](https://github.com/stdlib-js/stdlib/commit/4975cf067b213bf23b2a36329d2fbfd44f4ecec9) - **remove:** remove `stats/base/stdev` _(by Gururaj Gurram)_
+-   [`028d338`](https://github.com/stdlib-js/stdlib/commit/028d338ec185c667fb62c8dafe7011a60287ad3a) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`5c0803a`](https://github.com/stdlib-js/stdlib/commit/5c0803acaa5b079d3b35ea4f3efda47b427d73ce) - **remove:** remove `stdev` from namespace _(by Gururaj Gurram)_
+-   [`f8d770c`](https://github.com/stdlib-js/stdlib/commit/f8d770c6b844611c382c6bf11187fee24a4df5e2) - **feat:** add `stats/strided/stdev` _(by Gururaj Gurram)_
+-   [`c0d333c`](https://github.com/stdlib-js/stdlib/commit/c0d333c488b1d5d6f66cc1291d1eebd284daaf9a) - **remove:** remove `stats/base/stdevch` _(by Gururaj Gurram)_
+-   [`8c107ba`](https://github.com/stdlib-js/stdlib/commit/8c107ba16d7d2b6e4a37fc8fbbdf54553385414c) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`236b9e3`](https://github.com/stdlib-js/stdlib/commit/236b9e36289078d937d2312996a546d8259d29c1) - **remove:** remove `stdevch` from namespace _(by Gururaj Gurram)_
+-   [`f82186c`](https://github.com/stdlib-js/stdlib/commit/f82186c2f59b579044d5328b0298036b9a7bd8a6) - **feat:** add `stats/strided/stdevch` _(by Gururaj Gurram)_
+-   [`28e2ea1`](https://github.com/stdlib-js/stdlib/commit/28e2ea156069cf2e1d7165d479c43561633c9be1) - **remove:** remove `stats/base/stdevpn` _(by Gururaj Gurram)_
+-   [`b9f9779`](https://github.com/stdlib-js/stdlib/commit/b9f97793ddf7d6afeb64a6a42c821f9337acb993) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`d898599`](https://github.com/stdlib-js/stdlib/commit/d8985997d34768f31fd18ed59d782ae20064356e) - **remove:** remove `stdevpn` from namespace _(by Gururaj Gurram)_
+-   [`36934e8`](https://github.com/stdlib-js/stdlib/commit/36934e80023d2c5af861db5b5415a38388de4803) - **feat:** add `stats/strided/stdevpn` _(by Gururaj Gurram)_
+-   [`14ab63d`](https://github.com/stdlib-js/stdlib/commit/14ab63df56dbb4cce0371f5c58e1b75a7dd2fb03) - **remove:** remove `stats/base/stdevtk` _(by Gururaj Gurram)_
+-   [`a478ac6`](https://github.com/stdlib-js/stdlib/commit/a478ac64883bb557ea66c3026f9c112696a0878e) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`732445c`](https://github.com/stdlib-js/stdlib/commit/732445c58a1bf7f4d3a203cf2d6ece566d507203) - **remove:** remove `stdevtk` from namespace _(by Gururaj Gurram)_
+-   [`1414fca`](https://github.com/stdlib-js/stdlib/commit/1414fca8c2b92f248e8310120f72f944525a728f) - **feat:** add `stats/strided/stdevtk` _(by Gururaj Gurram)_
+-   [`ffee0ef`](https://github.com/stdlib-js/stdlib/commit/ffee0ef6826a8ae7728cd81e1242c3584819062a) - **remove:** remove `stats/base/stdevwd` _(by Gururaj Gurram)_
+-   [`790c636`](https://github.com/stdlib-js/stdlib/commit/790c6365997dbc302ef6a312210fc3d74b423da3) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`ae9e5fd`](https://github.com/stdlib-js/stdlib/commit/ae9e5fdd66004c0e578bfe697d49790af7facee5) - **remove:** remove `stdevwd` from namespace _(by Gururaj Gurram)_
+-   [`706e9ad`](https://github.com/stdlib-js/stdlib/commit/706e9ad474b127319af2046ff58b3eaeca1a9702) - **feat:** add `stats/strided/stdevwd` _(by Gururaj Gurram)_
+-   [`7860df3`](https://github.com/stdlib-js/stdlib/commit/7860df324f8eaa8cedea1e90e83830a239083472) - **remove:** remove `stats/base/stdevyc` _(by Gururaj Gurram)_
+-   [`f182fe8`](https://github.com/stdlib-js/stdlib/commit/f182fe83c16c349237c898796505f80f34c2ec31) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`6d91a2a`](https://github.com/stdlib-js/stdlib/commit/6d91a2ad7f441b1d05b97c443ae88b1bba342d8e) - **remove:** remove `stdevyc` from namespace _(by Gururaj Gurram)_
+-   [`812bf10`](https://github.com/stdlib-js/stdlib/commit/812bf10b4652a57a92cb50bdc59d85d27ee96dbc) - **feat:** add `stats/strided/stdevyc` _(by Gururaj Gurram)_
 -   [`708320e`](https://github.com/stdlib-js/stdlib/commit/708320e43d505cd6f390bf6014d58cb5e092cbaf) - **docs:** update related packages sections [(#7647)](https://github.com/stdlib-js/stdlib/pull/7647) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`dddf657`](https://github.com/stdlib-js/stdlib/commit/dddf657be1a00531786ca624e64a7158edce9eea) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`493ccaf`](https://github.com/stdlib-js/stdlib/commit/493ccaf407a78b7ea088b517a67053e2f7948487) - **test:** rename variable _(by Athan Reines)_

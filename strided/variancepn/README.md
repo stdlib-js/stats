@@ -226,7 +226,7 @@ console.log( v );
 
 -   <span class="package-name">[`@stdlib/stats/strided/dvariancepn`][@stdlib/stats/strided/dvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array using a two-pass algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanvariancepn`][@stdlib/stats/base/nanvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values and using a two-pass algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/stdevpn`][@stdlib/stats/base/stdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a two-pass algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/stdevpn`][@stdlib/stats/strided/stdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a two-pass algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/variance`][@stdlib/stats/strided/variance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array.</span>
 
 </section>
@@ -257,7 +257,7 @@ console.log( v );
 
 [@stdlib/stats/base/nanvariancepn]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancepn
 
-[@stdlib/stats/base/stdevpn]: https://github.com/stdlib-js/stats/tree/main/base/stdevpn
+[@stdlib/stats/strided/stdevpn]: https://github.com/stdlib-js/stats/tree/main/strided/stdevpn
 
 [@stdlib/stats/strided/variance]: https://github.com/stdlib-js/stats/tree/main/strided/variance
 

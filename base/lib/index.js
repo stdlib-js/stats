@@ -343,60 +343,6 @@ setReadOnly( ns, 'snanvarianceyc', require( './../../base/snanvarianceyc' ) );
 setReadOnly( ns, 'sstdevwd', require( './../../base/sstdevwd' ) );
 
 /**
-* @name stdev
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/stdev}
-*/
-setReadOnly( ns, 'stdev', require( './../../base/stdev' ) );
-
-/**
-* @name stdevch
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/stdevch}
-*/
-setReadOnly( ns, 'stdevch', require( './../../base/stdevch' ) );
-
-/**
-* @name stdevpn
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/stdevpn}
-*/
-setReadOnly( ns, 'stdevpn', require( './../../base/stdevpn' ) );
-
-/**
-* @name stdevtk
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/stdevtk}
-*/
-setReadOnly( ns, 'stdevtk', require( './../../base/stdevtk' ) );
-
-/**
-* @name stdevwd
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/stdevwd}
-*/
-setReadOnly( ns, 'stdevwd', require( './../../base/stdevwd' ) );
-
-/**
-* @name stdevyc
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/stdevyc}
-*/
-setReadOnly( ns, 'stdevyc', require( './../../base/stdevyc' ) );
-
-/**
 * @name dmeankbn2
 * @memberof ns
 * @readonly
