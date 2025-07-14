@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-13)
+## Unreleased (2025-07-14)
 
 <section class="features">
 
@@ -3045,6 +3045,8 @@ A total of 535 issues were closed in this release:
 
 <details>
 
+-   [`dddf657`](https://github.com/stdlib-js/stdlib/commit/dddf657be1a00531786ca624e64a7158edce9eea) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`493ccaf`](https://github.com/stdlib-js/stdlib/commit/493ccaf407a78b7ea088b517a67053e2f7948487) - **test:** rename variable _(by Athan Reines)_
 -   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - **fix:** use correct package names in package.json _(by Philipp Burckhardt)_
 -   [`4e2fe4f`](https://github.com/stdlib-js/stdlib/commit/4e2fe4f7226b7f96aab5879f57a4536460c8f847) - **fix:** make properties required in interface [(#7643)](https://github.com/stdlib-js/stdlib/pull/7643) _(by Gururaj Gurram)_
 -   [`6bfa600`](https://github.com/stdlib-js/stdlib/commit/6bfa6008723749f4d9ca862b3dacab1e8a1f9957) - **chore:** address commit comments for commit `e711bd7` [(#7633)](https://github.com/stdlib-js/stdlib/pull/7633) _(by Anmol Sah, stdlib-bot)_
