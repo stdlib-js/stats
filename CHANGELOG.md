@@ -3045,6 +3045,7 @@ A total of 535 issues were closed in this release:
 
 <details>
 
+-   [`708320e`](https://github.com/stdlib-js/stdlib/commit/708320e43d505cd6f390bf6014d58cb5e092cbaf) - **docs:** update related packages sections [(#7647)](https://github.com/stdlib-js/stdlib/pull/7647) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`dddf657`](https://github.com/stdlib-js/stdlib/commit/dddf657be1a00531786ca624e64a7158edce9eea) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`493ccaf`](https://github.com/stdlib-js/stdlib/commit/493ccaf407a78b7ea088b517a67053e2f7948487) - **test:** rename variable _(by Athan Reines)_
 -   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - **fix:** use correct package names in package.json _(by Philipp Burckhardt)_
