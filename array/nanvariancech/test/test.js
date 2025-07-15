@@ -319,7 +319,7 @@ tape( 'if provided an array containing a single element, the function returns `0
 	t.end();
 });
 
-tape( 'if provided a `correction` parameter which is greater than or equal to the input array length, the function returns `NaN`', function test( t ) {
+tape( 'if provided a `correction` parameter yielding a correction term less than or equal to `0`, the function returns `NaN`, the function returns `NaN`', function test( t ) {
 	var x;
 	var v;
 
@@ -334,7 +334,7 @@ tape( 'if provided a `correction` parameter which is greater than or equal to th
 	t.end();
 });
 
-tape( 'if provided a `correction` parameter which is greater than or equal to the input array length, the function returns `NaN` (accessors)', function test( t ) {
+tape( 'if provided a `correction` parameter yielding a correction term less than or equal to `0`, the function returns `NaN`, the function returns `NaN` (accessors)', function test( t ) {
 	var x;
 	var v;
 

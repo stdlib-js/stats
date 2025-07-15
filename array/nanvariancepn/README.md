@@ -112,7 +112,7 @@ var v = nanvariancepn( x );
 The function has the following parameters:
 
 -   **x**: input array.
--   **correction**: degrees of freedom adjustment. Setting this parameter to a value other than `0` has the effect of adjusting the divisor during the calculation of the [variance][variance] according to `N-c` where  `N` corresponds to the number of array elements and `c` corresponds to the provided degrees of freedom adjustment. When computing the [variance][variance] of a population, setting this parameter to `0` is the standard choice (i.e., the provided array contains data constituting an entire population). When computing the unbiased sample [variance][variance], setting this parameter to `1` is the standard choice (i.e., the provided array contains data sampled from a larger population; this is commonly referred to as Bessel's correction). Default: `1.0`.
+-   **correction**: degrees of freedom adjustment. Setting this parameter to a value other than `0` has the effect of adjusting the divisor during the calculation of the [variance][variance] according to `N-c` where  `N` corresponds to the number of non-`NaN` array elements and `c` corresponds to the provided degrees of freedom adjustment. When computing the [variance][variance] of a population, setting this parameter to `0` is the standard choice (i.e., the provided array contains data constituting an entire population). When computing the unbiased sample [variance][variance], setting this parameter to `1` is the standard choice (i.e., the provided array contains data sampled from a larger population; this is commonly referred to as Bessel's correction). Default: `1.0`.
 
 By default, the function computes the sample [variance][variance]. To adjust the degrees of freedom when computing the [variance][variance], provide a `correction` argument.
 
@@ -132,7 +132,7 @@ var v = nanvariancepn( x, 0.0 );
 ## Notes
 
 -   If provided an empty array, the function returns `NaN`.
--   If provided a `correction` argument which is greater than or equal to the number of elements in a provided input array, the function returns `NaN`.
+-   If `N - c` is less than or equal to `0` (where `c` corresponds to the provided degrees of freedom adjustment and `N` corresponds to the number of non-`NaN` array elements), the function returns `NaN`.
 -   The function supports array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array/base/accessor`][@stdlib/array/base/accessor]).
 
 </section>

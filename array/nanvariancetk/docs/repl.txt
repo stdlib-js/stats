@@ -14,9 +14,9 @@
         Degrees of freedom adjustment. Setting this parameter to a value other
         than `0` has the effect of adjusting the divisor during the calculation
         of the variance according to `N - c` where `N` corresponds to the number
-        of array elements and `c` corresponds to the provided degrees of freedom
-        adjustment. When computing the variance of a population, setting this
-        parameter to `0` is the standard choice (i.e., the provided array
+        of non-NaN array elements and `c` corresponds to the provided degrees of
+        freedom adjustment. When computing the variance of a population, setting
+        this parameter to `0` is the standard choice (i.e., the provided array
         contains data constituting an entire population). When computing the
         unbiased sample variance, setting this parameter to `1` is the standard
         choice (i.e., the provided array contains data sampled from a larger

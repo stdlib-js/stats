@@ -3125,6 +3125,7 @@ A total of 535 issues were closed in this release:
 
 <details>
 
+-   [`5d6b241`](https://github.com/stdlib-js/stdlib/commit/5d6b24158bfaf492d511bb1fe3460e15c3634f5b) - **docs:** update notes and copy _(by Athan Reines)_
 -   [`c08c615`](https://github.com/stdlib-js/stdlib/commit/c08c6152cebe101c5fb16668a708f876cc6c69e3) - **feat:** add `stats/array/nanvariance` [(#7667)](https://github.com/stdlib-js/stdlib/pull/7667) _(by Gururaj Gurram, Athan Reines)_
 -   [`1eff904`](https://github.com/stdlib-js/stdlib/commit/1eff904ba1b4cf11d0a9908932212d419feda2f6) - **feat:** add `stats/array/nanvariancepn` [(#7666)](https://github.com/stdlib-js/stdlib/pull/7666) _(by Gururaj Gurram, Athan Reines)_
 -   [`148bde4`](https://github.com/stdlib-js/stdlib/commit/148bde49c5a7937d6815cbeae7359864c5e04723) - **feat:** add `stats/array/nanvariancech` [(#7668)](https://github.com/stdlib-js/stdlib/pull/7668) _(by Gururaj Gurram, Athan Reines)_
