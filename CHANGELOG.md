@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`148bde4`](https://github.com/stdlib-js/stdlib/commit/148bde49c5a7937d6815cbeae7359864c5e04723) - add `stats/array/nanvariancech` [(#7668)](https://github.com/stdlib-js/stdlib/pull/7668)
 -   [`2cd5e79`](https://github.com/stdlib-js/stdlib/commit/2cd5e794d0dd839722394961b2391ad834acc1ae) - add `stats/array/nanvariancewd` [(#7670)](https://github.com/stdlib-js/stdlib/pull/7670)
 -   [`ae5c67b`](https://github.com/stdlib-js/stdlib/commit/ae5c67b8e09fd854d60dc1a5bffc165c49137973) - add `stats/array/nanvarianceyc` [(#7671)](https://github.com/stdlib-js/stdlib/pull/7671)
 -   [`472e0d6`](https://github.com/stdlib-js/stdlib/commit/472e0d63461ac223557f1bb0a0ac9407d4cc6b4a) - add `stats/array/nanvariancetk` [(#7669)](https://github.com/stdlib-js/stdlib/pull/7669)
@@ -3122,6 +3123,7 @@ A total of 535 issues were closed in this release:
 
 <details>
 
+-   [`148bde4`](https://github.com/stdlib-js/stdlib/commit/148bde49c5a7937d6815cbeae7359864c5e04723) - **feat:** add `stats/array/nanvariancech` [(#7668)](https://github.com/stdlib-js/stdlib/pull/7668) _(by Gururaj Gurram, Athan Reines)_
 -   [`2cd5e79`](https://github.com/stdlib-js/stdlib/commit/2cd5e794d0dd839722394961b2391ad834acc1ae) - **feat:** add `stats/array/nanvariancewd` [(#7670)](https://github.com/stdlib-js/stdlib/pull/7670) _(by Gururaj Gurram, Athan Reines)_
 -   [`ae5c67b`](https://github.com/stdlib-js/stdlib/commit/ae5c67b8e09fd854d60dc1a5bffc165c49137973) - **feat:** add `stats/array/nanvarianceyc` [(#7671)](https://github.com/stdlib-js/stdlib/pull/7671) _(by Gururaj Gurram, Athan Reines)_
 -   [`472e0d6`](https://github.com/stdlib-js/stdlib/commit/472e0d63461ac223557f1bb0a0ac9407d4cc6b4a) - **feat:** add `stats/array/nanvariancetk` [(#7669)](https://github.com/stdlib-js/stdlib/pull/7669) _(by Gururaj Gurram, Athan Reines)_
