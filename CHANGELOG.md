@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ae5c67b`](https://github.com/stdlib-js/stdlib/commit/ae5c67b8e09fd854d60dc1a5bffc165c49137973) - add `stats/array/nanvarianceyc` [(#7671)](https://github.com/stdlib-js/stdlib/pull/7671)
 -   [`472e0d6`](https://github.com/stdlib-js/stdlib/commit/472e0d63461ac223557f1bb0a0ac9407d4cc6b4a) - add `stats/array/nanvariancetk` [(#7669)](https://github.com/stdlib-js/stdlib/pull/7669)
 -   [`0223c17`](https://github.com/stdlib-js/stdlib/commit/0223c174b37d7802cfa4540f731245a90fa44249) - add `stats/strided/dcovmatmtk`
 -   [`f8d770c`](https://github.com/stdlib-js/stdlib/commit/f8d770c6b844611c382c6bf11187fee24a4df5e2) - add `stats/strided/stdev`
@@ -3120,6 +3121,7 @@ A total of 535 issues were closed in this release:
 
 <details>
 
+-   [`ae5c67b`](https://github.com/stdlib-js/stdlib/commit/ae5c67b8e09fd854d60dc1a5bffc165c49137973) - **feat:** add `stats/array/nanvarianceyc` [(#7671)](https://github.com/stdlib-js/stdlib/pull/7671) _(by Gururaj Gurram, Athan Reines)_
 -   [`472e0d6`](https://github.com/stdlib-js/stdlib/commit/472e0d63461ac223557f1bb0a0ac9407d4cc6b4a) - **feat:** add `stats/array/nanvariancetk` [(#7669)](https://github.com/stdlib-js/stdlib/pull/7669) _(by Gururaj Gurram, Athan Reines)_
 -   [`01186a6`](https://github.com/stdlib-js/stdlib/commit/01186a6c54a31b74f9b1bf84f97ef40bd50a7e06) - **test:** add tests for an invalid correction argument _(by Athan Reines)_
 -   [`cc9cb3f`](https://github.com/stdlib-js/stdlib/commit/cc9cb3fa58fdb1fa11e38c6cd3e0d1b70d99ccb6) - **docs:** update equation _(by Athan Reines)_
