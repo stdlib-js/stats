@@ -386,10 +386,10 @@ The function accepts the following arguments:
 -   **LDB**: `[in] CBLAS_INT` stride of the first dimension of `B` (a.k.a., leading dimension of the matrix `B`).
 
 ```c
-void stdlib_strided_dcovmatmtk( const CBLAS_LAYOUT layout, const CBLAS_ORIENT orient, const int uplo, const CBLAS_INT M, const CBLAS_INT N, const double correction, const double *means, const CBLAS_INT strideM, const double *A, const CBLAS_INT LDA, double *B, const CBLAS_INT LDB );
+void stdlib_strided_dcovmatmtk( const CBLAS_LAYOUT layout, const CBLAS_ORIENT orient, const int uplo, const CBLAS_INT M, const CBLAS_INT N, const double correction, const double *Means, const CBLAS_INT strideM, const double *A, const CBLAS_INT LDA, double *B, const CBLAS_INT LDB );
 ```
 
-#### stdlib_strided_dcovmatmtk_ndarray( orient,uplo, M,N, c, \*Means,sm,om, \*A,sa1,sa2,oa, \*B,sb1,sb2,ob )
+#### stdlib_strided_dcovmatmtk_ndarray( orient, uplo, M, N, c, \*Means, sm, om, \*A, sa1, sa2, oa, \*B, sb1, sb2, ob )
 
 Computes the [covariance matrix][covariance-matrix] for an `M` by `N` double-precision floating-point matrix `A` and assigns the results to a matrix `B` when provided known means and using a one-pass textbook algorithm and alternative indexing semantics.
 
@@ -428,7 +428,7 @@ The function accepts the following arguments:
 -   **ob**: `[in] CBLAS_INT` starting index for `B`.
 
 ```c
-void stdlib_strided_dcovmatmtk_ndarray( const CBLAS_ORIENT orient, const int uplo, const CBLAS_INT M, const CBLAS_INT N, const double correction, const double *means, const CBLAS_INT strideM, const CBLAS_INT offsetM, const double *A, const CBLAS_INT strideA1, const CBLAS_INT strideA2, const CBLAS_INT offsetA, double *B, const CBLAS_INT strideB1, const CBLAS_INT strideB2, const CBLAS_INT offsetB );
+void stdlib_strided_dcovmatmtk_ndarray( const CBLAS_ORIENT orient, const int uplo, const CBLAS_INT M, const CBLAS_INT N, const double correction, const double *Means, const CBLAS_INT strideM, const CBLAS_INT offsetM, const double *A, const CBLAS_INT strideA1, const CBLAS_INT strideA2, const CBLAS_INT offsetA, double *B, const CBLAS_INT strideB1, const CBLAS_INT strideB2, const CBLAS_INT offsetB );
 ```
 
 </section>

@@ -25,6 +25,8 @@
 var tape = require( 'tape' );
 var Float64Array = require( '@stdlib/array/float64' );
 var isAlmostEqualFloat64Array = require( '@stdlib/assert/is-almost-equal-float64array' );
+var isSameFloat64Array = require( '@stdlib/assert/is-same-float64array' );
+var filledarray = require( '@stdlib/array/filled' );
 var dcovmatmtk = require( './../lib/ndarray.js' );
 
 
@@ -41,6 +43,7 @@ var rmob = require( './fixtures/row_major_ob.json' );
 var rmom = require( './fixtures/row_major_om.json' );
 var rmsa1sa2 = require( './fixtures/row_major_sa1_sa2.json' );
 var rmsb1sb2 = require( './fixtures/row_major_sb1_sb2.json' );
+var rmic = require( './fixtures/row_major_invalid_correction.json' );
 
 var cm = require( './fixtures/column_major.json' );
 var cmc = require( './fixtures/column_major_corrected.json' );
@@ -53,6 +56,7 @@ var cmob = require( './fixtures/column_major_ob.json' );
 var cmom = require( './fixtures/column_major_om.json' );
 var cmsa1sa2 = require( './fixtures/column_major_sa1_sa2.json' );
 var cmsb1sb2 = require( './fixtures/column_major_sb1_sb2.json' );
+var cmic = require( './fixtures/column_major_invalid_correction.json' );
 
 
 // TESTS //
@@ -625,5 +629,49 @@ tape( 'the function supports specifying an offset for `B` (column-major)', funct
 	out = dcovmatmtk( data.orientation, data.uplo, data.M, data.N, data.correction, m, data.strideM, data.offsetM, A, data.strideA1, data.strideA2, data.offsetA, B, data.strideB1, data.strideB2, data.offsetB );
 	t.strictEqual( out, B, 'returns expected value' );
 	t.strictEqual( isAlmostEqualFloat64Array( out, expected, 200 ), true, 'returns expected value' );
+	t.end();
+});
+
+tape( 'the function sets elements in the output matrix to `NaN` if provided an invalid correction argument (row-major)', function test( t ) {
+	var expected;
+	var data;
+	var out;
+	var A;
+	var B;
+	var m;
+
+	data = rmic;
+
+	m = new Float64Array( data.means );
+	A = new Float64Array( data.A );
+	B = new Float64Array( data.B );
+
+	expected = filledarray( NaN, B.length, 'float64' );
+
+	out = dcovmatmtk( data.orientation, data.uplo, data.M, data.N, data.correction, m, data.strideM, data.offsetM, A, data.strideA1, data.strideA2, data.offsetA, B, data.strideB1, data.strideB2, data.offsetB );
+	t.strictEqual( out, B, 'returns expected value' );
+	t.strictEqual( isSameFloat64Array( out, expected ), true, 'returns expected value' );
+	t.end();
+});
+
+tape( 'the function sets elements in the output matrix to `NaN` if provided an invalid correction argument (column-major)', function test( t ) {
+	var expected;
+	var data;
+	var out;
+	var A;
+	var B;
+	var m;
+
+	data = cmic;
+
+	m = new Float64Array( data.means );
+	A = new Float64Array( data.A );
+	B = new Float64Array( data.B );
+
+	expected = filledarray( NaN, B.length, 'float64' );
+
+	out = dcovmatmtk( data.orientation, data.uplo, data.M, data.N, data.correction, m, data.strideM, data.offsetM, A, data.strideA1, data.strideA2, data.offsetA, B, data.strideB1, data.strideB2, data.offsetB );
+	t.strictEqual( out, B, 'returns expected value' );
+	t.strictEqual( isSameFloat64Array( out, expected ), true, 'returns expected value' );
 	t.end();
 });

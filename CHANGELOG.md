@@ -3119,6 +3119,7 @@ A total of 535 issues were closed in this release:
 
 <details>
 
+-   [`01186a6`](https://github.com/stdlib-js/stdlib/commit/01186a6c54a31b74f9b1bf84f97ef40bd50a7e06) - **test:** add tests for an invalid correction argument _(by Athan Reines)_
 -   [`cc9cb3f`](https://github.com/stdlib-js/stdlib/commit/cc9cb3fa58fdb1fa11e38c6cd3e0d1b70d99ccb6) - **docs:** update equation _(by Athan Reines)_
 -   [`dd8b50b`](https://github.com/stdlib-js/stdlib/commit/dd8b50b6fef0c09543396c23d360bfc535531283) - **docs:** update equation _(by Athan Reines)_
 -   [`0697c39`](https://github.com/stdlib-js/stdlib/commit/0697c390bd49cc063e8ef4879c19bcc096403d58) - **docs:** fix comment _(by Athan Reines)_
