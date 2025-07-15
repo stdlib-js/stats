@@ -90,14 +90,14 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Depend
 
 Given a matrix **X** containing `K` data vectors `X_i`, a [covariance matrix][covariance-matrix] (also known as the **auto-covariance matrix**, **dispersion matrix**, **variance matrix**, or **variance-covariance matrix**) is a square matrix containing the [covariance][covariance] `cov(X_i,X_j)` between each pair of data vectors for `0 <= i < K` and `0 <= j < K`.
 
-<!-- <equation class="equation" label="eq:covariance_matrix" align="center" raw="\mathop{cov}(\mathbf{X}) = \begin{bmatrix} \mathop{var}(X_0,X_0) & \mathop{cov}(X_0,X_1) & \ldots & \mathop{cov}(X_0,X_K) \\ \mathop{cov}(X_1,X_0) & \mathop{var}(X_1,X_1) & \ldots & \mathop{cov}(X_1,X_K) \\ \vdots & \vdots & \ddots & \vdots \\ \mathop{cov}(X_K,X_0) & \mathop{cov}(X_K,X_1) & \ldots & \mathop{var}(X_K,X_K) \\ \end{bmatrix}" alt="Equation for covariance matrix."> -->
+<!-- <equation class="equation" label="eq:covariance_matrix" align="center" raw="\operatorname{cov}(\mathbf{X}) = \begin{bmatrix} \operatorname{var}(X_0,X_0) & \operatorname{cov}(X_0,X_1) & \ldots & \operatorname{cov}(X_0,X_K) \\ \operatorname{cov}(X_1,X_0) & \operatorname{var}(X_1,X_1) & \ldots & \operatorname{cov}(X_1,X_K) \\ \vdots & \vdots & \ddots & \vdots \\ \operatorname{cov}(X_K,X_0) & \operatorname{cov}(X_K,X_1) & \ldots & \operatorname{var}(X_K,X_K) \\ \end{bmatrix}" alt="Equation for covariance matrix."> -->
 
 ```math
-\mathop{cov}(\mathbf{X}) = \begin{bmatrix}
-\mathop{var}(X_0,X_0) & \mathop{cov}(X_0,X_1) & \ldots & \mathop{cov}(X_0,X_K) \\
-\mathop{cov}(X_1,X_0) & \mathop{var}(X_1,X_1) & \ldots & \mathop{cov}(X_1,X_K) \\
+\mathop{\mathrm{cov}}(\mathbf{X}) = \begin{bmatrix}
+\mathop{\mathrm{var}}(X_0,X_0) & \mathop{\mathrm{cov}}(X_0,X_1) & \ldots & \mathop{\mathrm{cov}}(X_0,X_K) \\
+\mathop{\mathrm{cov}}(X_1,X_0) & \mathop{\mathrm{var}}(X_1,X_1) & \ldots & \mathop{\mathrm{cov}}(X_1,X_K) \\
 \vdots & \vdots & \ddots & \vdots \\
-\mathop{cov}(X_K,X_0) & \mathop{cov}(X_K,X_1) & \ldots & \mathop{var}(X_K,X_K) \\
+\mathop{\mathrm{cov}}(X_K,X_0) & \mathop{\mathrm{cov}}(X_K,X_1) & \ldots & \mathop{\mathrm{var}}(X_K,X_K) \\
 \end{bmatrix}
 ```
 
