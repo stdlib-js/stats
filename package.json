@@ -58,6 +58,7 @@
     "@stdlib/dstructs": "github:stdlib-js/dstructs#main",
     "@stdlib/fs": "github:stdlib-js/fs#main",
     "@stdlib/iter": "github:stdlib-js/iter#main",
+    "@stdlib/lapack": "github:stdlib-js/lapack#main",
     "@stdlib/object": "github:stdlib-js/object#main",
     "@stdlib/plot": "github:stdlib-js/plot#main",
     "@stdlib/time": "github:stdlib-js/time#main",

@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-14)
+## Unreleased (2025-07-15)
 
 <section class="features">
 
 ### Features
 
+-   [`0223c17`](https://github.com/stdlib-js/stdlib/commit/0223c174b37d7802cfa4540f731245a90fa44249) - add `stats/strided/dcovmatmtk`
 -   [`f8d770c`](https://github.com/stdlib-js/stdlib/commit/f8d770c6b844611c382c6bf11187fee24a4df5e2) - add `stats/strided/stdev`
 -   [`f82186c`](https://github.com/stdlib-js/stdlib/commit/f82186c2f59b579044d5328b0298036b9a7bd8a6) - add `stats/strided/stdevch`
 -   [`36934e8`](https://github.com/stdlib-js/stdlib/commit/36934e80023d2c5af861db5b5415a38388de4803) - add `stats/strided/stdevpn`
@@ -1009,6 +1010,7 @@
 
 ### Bug Fixes
 
+-   [`d529cbd`](https://github.com/stdlib-js/stdlib/commit/d529cbd7745c4ba69415d450f1e2f597b212e9fc) - simplify and fix branching logic and use assertion utility
 -   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - use correct package names in package.json
 -   [`4e2fe4f`](https://github.com/stdlib-js/stdlib/commit/4e2fe4f7226b7f96aab5879f57a4536460c8f847) - make properties required in interface [(#7643)](https://github.com/stdlib-js/stdlib/pull/7643)
 -   [`90f0ddf`](https://github.com/stdlib-js/stdlib/commit/90f0ddf5cf57ea682898f62445a7a018fa582386) - add missing decimals
@@ -3117,6 +3119,11 @@ A total of 535 issues were closed in this release:
 
 <details>
 
+-   [`0697c39`](https://github.com/stdlib-js/stdlib/commit/0697c390bd49cc063e8ef4879c19bcc096403d58) - **docs:** fix comment _(by Athan Reines)_
+-   [`f4fcf70`](https://github.com/stdlib-js/stdlib/commit/f4fcf70ef5217c6be503a40e9cb7e1fe64e1bbb0) - **docs:** update comment _(by Athan Reines)_
+-   [`d529cbd`](https://github.com/stdlib-js/stdlib/commit/d529cbd7745c4ba69415d450f1e2f597b212e9fc) - **fix:** simplify and fix branching logic and use assertion utility _(by Athan Reines)_
+-   [`44999d8`](https://github.com/stdlib-js/stdlib/commit/44999d869ceff5fb91fc092ea75aa03d4d39b1eb) - **chore:** resolve lint errors _(by Athan Reines)_
+-   [`0223c17`](https://github.com/stdlib-js/stdlib/commit/0223c174b37d7802cfa4540f731245a90fa44249) - **feat:** add `stats/strided/dcovmatmtk` _(by Athan Reines)_
 -   [`4975cf0`](https://github.com/stdlib-js/stdlib/commit/4975cf067b213bf23b2a36329d2fbfd44f4ecec9) - **remove:** remove `stats/base/stdev` _(by Gururaj Gurram)_
 -   [`028d338`](https://github.com/stdlib-js/stdlib/commit/028d338ec185c667fb62c8dafe7011a60287ad3a) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`5c0803a`](https://github.com/stdlib-js/stdlib/commit/5c0803acaa5b079d3b35ea4f3efda47b427d73ce) - **remove:** remove `stdev` from namespace _(by Gururaj Gurram)_
