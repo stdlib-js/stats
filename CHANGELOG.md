@@ -3126,6 +3126,7 @@ A total of 536 issues were closed in this release:
 
 <details>
 
+-   [`1b65a25`](https://github.com/stdlib-js/stdlib/commit/1b65a2501f3f98168a8528532bdcadacaea818b8) - **style:** remove backticks _(by Athan Reines)_
 -   [`da458f1`](https://github.com/stdlib-js/stdlib/commit/da458f1a24eeff32429540d12c9c4995521d347c) - **chore:** fix C lint errors [(#7677)](https://github.com/stdlib-js/stdlib/pull/7677) _(by GeoDaoyu, Athan Reines)_
 -   [`ba735e1`](https://github.com/stdlib-js/stdlib/commit/ba735e18b51ccf5709eb5d95418f0e39bdb86e99) - **docs:** fix typo _(by Athan Reines)_
 -   [`5388bba`](https://github.com/stdlib-js/stdlib/commit/5388bba36044d2de93dacb0134c6e5539b02928c) - **chore:** minor clean-up _(by Philipp Burckhardt)_
