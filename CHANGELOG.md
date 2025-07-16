@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1d9d1c1`](https://github.com/stdlib-js/stdlib/commit/1d9d1c1aad4d048391b268ce89ced67dc9b6e5b6) - add `stats/strided/covarmtk` [(#7659)](https://github.com/stdlib-js/stdlib/pull/7659)
 -   [`0baa2d3`](https://github.com/stdlib-js/stdlib/commit/0baa2d329813e33808e3a4ce10d6f0a7b1edeabc) - add `stats/strided/scovarmtk` [(#7650)](https://github.com/stdlib-js/stdlib/pull/7650)
 -   [`3447088`](https://github.com/stdlib-js/stdlib/commit/3447088db3fbd5cb9b1e5a6146969277e2e375e8) - add `stats/array/nanstdev` [(#7652)](https://github.com/stdlib-js/stdlib/pull/7652)
 -   [`a3f89b4`](https://github.com/stdlib-js/stdlib/commit/a3f89b4b7e3a642a9efad7e83893ad8b29fa96b3) - add `stats/array/nanstdevch` [(#7654)](https://github.com/stdlib-js/stdlib/pull/7654)
@@ -3128,6 +3129,7 @@ A total of 536 issues were closed in this release:
 
 <details>
 
+-   [`1d9d1c1`](https://github.com/stdlib-js/stdlib/commit/1d9d1c1aad4d048391b268ce89ced67dc9b6e5b6) - **feat:** add `stats/strided/covarmtk` [(#7659)](https://github.com/stdlib-js/stdlib/pull/7659) _(by Gururaj Gurram, Athan Reines)_
 -   [`0baa2d3`](https://github.com/stdlib-js/stdlib/commit/0baa2d329813e33808e3a4ce10d6f0a7b1edeabc) - **feat:** add `stats/strided/scovarmtk` [(#7650)](https://github.com/stdlib-js/stdlib/pull/7650) _(by Gururaj Gurram, Athan Reines)_
 -   [`9392f2e`](https://github.com/stdlib-js/stdlib/commit/9392f2e49bb32be6d4bcd79af802b10439e2f3c0) - **docs:** fix return values _(by Athan Reines)_
 -   [`8bb4f88`](https://github.com/stdlib-js/stdlib/commit/8bb4f882f7e0c2c7f2b105b06794352667f6ff68) - **chore:** minor cleanup in `stats/strided/dcovarmtk` [(#7651)](https://github.com/stdlib-js/stdlib/pull/7651) _(by Gururaj Gurram)_
