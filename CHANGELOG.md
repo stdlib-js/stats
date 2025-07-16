@@ -3127,6 +3127,7 @@ A total of 536 issues were closed in this release:
 
 <details>
 
+-   [`8bb4f88`](https://github.com/stdlib-js/stdlib/commit/8bb4f882f7e0c2c7f2b105b06794352667f6ff68) - **chore:** minor cleanup in `stats/strided/dcovarmtk` [(#7651)](https://github.com/stdlib-js/stdlib/pull/7651) _(by Gururaj Gurram)_
 -   [`3447088`](https://github.com/stdlib-js/stdlib/commit/3447088db3fbd5cb9b1e5a6146969277e2e375e8) - **feat:** add `stats/array/nanstdev` [(#7652)](https://github.com/stdlib-js/stdlib/pull/7652) _(by Gururaj Gurram, Athan Reines)_
 -   [`1b65a25`](https://github.com/stdlib-js/stdlib/commit/1b65a2501f3f98168a8528532bdcadacaea818b8) - **style:** remove backticks _(by Athan Reines)_
 -   [`da458f1`](https://github.com/stdlib-js/stdlib/commit/da458f1a24eeff32429540d12c9c4995521d347c) - **chore:** fix C lint errors [(#7677)](https://github.com/stdlib-js/stdlib/pull/7677) _(by GeoDaoyu, Athan Reines)_
