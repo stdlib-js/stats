@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3447088`](https://github.com/stdlib-js/stdlib/commit/3447088db3fbd5cb9b1e5a6146969277e2e375e8) - add `stats/array/nanstdev` [(#7652)](https://github.com/stdlib-js/stdlib/pull/7652)
 -   [`a3f89b4`](https://github.com/stdlib-js/stdlib/commit/a3f89b4b7e3a642a9efad7e83893ad8b29fa96b3) - add `stats/array/nanstdevch` [(#7654)](https://github.com/stdlib-js/stdlib/pull/7654)
 -   [`c08c615`](https://github.com/stdlib-js/stdlib/commit/c08c6152cebe101c5fb16668a708f876cc6c69e3) - add `stats/array/nanvariance` [(#7667)](https://github.com/stdlib-js/stdlib/pull/7667)
 -   [`1eff904`](https://github.com/stdlib-js/stdlib/commit/1eff904ba1b4cf11d0a9908932212d419feda2f6) - add `stats/array/nanvariancepn` [(#7666)](https://github.com/stdlib-js/stdlib/pull/7666)
@@ -3126,6 +3127,7 @@ A total of 536 issues were closed in this release:
 
 <details>
 
+-   [`3447088`](https://github.com/stdlib-js/stdlib/commit/3447088db3fbd5cb9b1e5a6146969277e2e375e8) - **feat:** add `stats/array/nanstdev` [(#7652)](https://github.com/stdlib-js/stdlib/pull/7652) _(by Gururaj Gurram, Athan Reines)_
 -   [`1b65a25`](https://github.com/stdlib-js/stdlib/commit/1b65a2501f3f98168a8528532bdcadacaea818b8) - **style:** remove backticks _(by Athan Reines)_
 -   [`da458f1`](https://github.com/stdlib-js/stdlib/commit/da458f1a24eeff32429540d12c9c4995521d347c) - **chore:** fix C lint errors [(#7677)](https://github.com/stdlib-js/stdlib/pull/7677) _(by GeoDaoyu, Athan Reines)_
 -   [`ba735e1`](https://github.com/stdlib-js/stdlib/commit/ba735e18b51ccf5709eb5d95418f0e39bdb86e99) - **docs:** fix typo _(by Athan Reines)_
