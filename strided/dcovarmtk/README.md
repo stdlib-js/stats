@@ -262,7 +262,7 @@ const double x[] = { 1.0, -2.0, 2.0 };
 const double y[] = { 2.0, -2.0, 1.0 };
 
 double v = stdlib_strided_dcovarmtk( 3, 1.0, 1.0/3.0, x, 1, 1.0/3.0, y, 1 );
-// returns ~7.6667
+// returns ~3.8333
 ```
 
 The function accepts the following arguments:
@@ -289,7 +289,7 @@ const double x[] = { 1.0, -2.0, 2.0 };
 const double y[] = { 2.0, -2.0, 1.0 };
 
 double v = stdlib_strided_dcovarmtk_ndarray( 3, 1.0, 1.0/3.0, x, 1, 0, 1.0/3.0, y, 1, 0 );
-// returns ~7.6667
+// returns ~3.8333
 ```
 
 The function accepts the following arguments:
