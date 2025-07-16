@@ -37,6 +37,15 @@ var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 var ns = {};
 
 /**
+* @name covarmtk
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/covarmtk}
+*/
+setReadOnly( ns, 'covarmtk', require( './../../strided/covarmtk' ) );
+
+/**
 * @name dcovarmtk
 * @memberof ns
 * @readonly
@@ -44,6 +53,15 @@ var ns = {};
 * @see {@link module:@stdlib/stats/strided/dcovarmtk}
 */
 setReadOnly( ns, 'dcovarmtk', require( './../../strided/dcovarmtk' ) );
+
+/**
+* @name dcovmatmtk
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dcovmatmtk}
+*/
+setReadOnly( ns, 'dcovmatmtk', require( './../../strided/dcovmatmtk' ) );
 
 /**
 * @name dcumax
@@ -1162,6 +1180,15 @@ setReadOnly( ns, 'range', require( './../../strided/range' ) );
 setReadOnly( ns, 'rangeBy', require( './../../strided/range-by' ) );
 
 /**
+* @name scovarmtk
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/scovarmtk}
+*/
+setReadOnly( ns, 'scovarmtk', require( './../../strided/scovarmtk' ) );
+
+/**
 * @name scumax
 * @memberof ns
 * @readonly
@@ -1558,6 +1585,60 @@ setReadOnly( ns, 'sstdevtk', require( './../../strided/sstdevtk' ) );
 setReadOnly( ns, 'sstdevyc', require( './../../strided/sstdevyc' ) );
 
 /**
+* @name stdev
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/stdev}
+*/
+setReadOnly( ns, 'stdev', require( './../../strided/stdev' ) );
+
+/**
+* @name stdevch
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/stdevch}
+*/
+setReadOnly( ns, 'stdevch', require( './../../strided/stdevch' ) );
+
+/**
+* @name stdevpn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/stdevpn}
+*/
+setReadOnly( ns, 'stdevpn', require( './../../strided/stdevpn' ) );
+
+/**
+* @name stdevtk
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/stdevtk}
+*/
+setReadOnly( ns, 'stdevtk', require( './../../strided/stdevtk' ) );
+
+/**
+* @name stdevwd
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/stdevwd}
+*/
+setReadOnly( ns, 'stdevwd', require( './../../strided/stdevwd' ) );
+
+/**
+* @name stdevyc
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/stdevyc}
+*/
+setReadOnly( ns, 'stdevyc', require( './../../strided/stdevyc' ) );
+
+/**
 * @name svariance
 * @memberof ns
 * @readonly
@@ -1682,6 +1763,15 @@ setReadOnly( ns, 'varianceyc', require( './../../strided/varianceyc' ) );
 * @see {@link module:@stdlib/stats/strided/ztest}
 */
 setReadOnly( ns, 'ztest', require( './../../strided/ztest' ) );
+
+/**
+* @name ztest2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/ztest2}
+*/
+setReadOnly( ns, 'ztest2', require( './../../strided/ztest2' ) );
 
 
 // EXPORTS //

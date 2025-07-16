@@ -10,6 +10,11 @@
 
 ### Features
 
+-   [`ae9acc7`](https://github.com/stdlib-js/stdlib/commit/ae9acc7e68ffa51732b6a783334c54e37b512551) - add `dcovmatmtk` to namespace
+-   [`8e5050c`](https://github.com/stdlib-js/stdlib/commit/8e5050c7adeaebc783564ce24ab3e0c2c9b09992) - add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, and `stdevyc` to namespace
+-   [`74d0992`](https://github.com/stdlib-js/stdlib/commit/74d0992f5b2ee5bfc9d0b05a86011e1463de0da7) - add `ztest2` to namespace
+-   [`b01bff8`](https://github.com/stdlib-js/stdlib/commit/b01bff8fc53767819fff152e0c0dd4bdac13611a) - add `scovarmtk` to namespace
+-   [`cf7da5a`](https://github.com/stdlib-js/stdlib/commit/cf7da5abdbd793f1609910a861e4618733e87a31) - add `covarmtk` to namespace
 -   [`1d9d1c1`](https://github.com/stdlib-js/stdlib/commit/1d9d1c1aad4d048391b268ce89ced67dc9b6e5b6) - add `stats/strided/covarmtk` [(#7659)](https://github.com/stdlib-js/stdlib/pull/7659)
 -   [`0baa2d3`](https://github.com/stdlib-js/stdlib/commit/0baa2d329813e33808e3a4ce10d6f0a7b1edeabc) - add `stats/strided/scovarmtk` [(#7650)](https://github.com/stdlib-js/stdlib/pull/7650)
 -   [`3447088`](https://github.com/stdlib-js/stdlib/commit/3447088db3fbd5cb9b1e5a6146969277e2e375e8) - add `stats/array/nanstdev` [(#7652)](https://github.com/stdlib-js/stdlib/pull/7652)
@@ -3129,6 +3134,11 @@ A total of 536 issues were closed in this release:
 
 <details>
 
+-   [`ae9acc7`](https://github.com/stdlib-js/stdlib/commit/ae9acc7e68ffa51732b6a783334c54e37b512551) - **feat:** add `dcovmatmtk` to namespace _(by Athan Reines)_
+-   [`8e5050c`](https://github.com/stdlib-js/stdlib/commit/8e5050c7adeaebc783564ce24ab3e0c2c9b09992) - **feat:** add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, and `stdevyc` to namespace _(by Athan Reines)_
+-   [`74d0992`](https://github.com/stdlib-js/stdlib/commit/74d0992f5b2ee5bfc9d0b05a86011e1463de0da7) - **feat:** add `ztest2` to namespace _(by Athan Reines)_
+-   [`b01bff8`](https://github.com/stdlib-js/stdlib/commit/b01bff8fc53767819fff152e0c0dd4bdac13611a) - **feat:** add `scovarmtk` to namespace _(by Athan Reines)_
+-   [`cf7da5a`](https://github.com/stdlib-js/stdlib/commit/cf7da5abdbd793f1609910a861e4618733e87a31) - **feat:** add `covarmtk` to namespace _(by Athan Reines)_
 -   [`1d9d1c1`](https://github.com/stdlib-js/stdlib/commit/1d9d1c1aad4d048391b268ce89ced67dc9b6e5b6) - **feat:** add `stats/strided/covarmtk` [(#7659)](https://github.com/stdlib-js/stdlib/pull/7659) _(by Gururaj Gurram, Athan Reines)_
 -   [`0baa2d3`](https://github.com/stdlib-js/stdlib/commit/0baa2d329813e33808e3a4ce10d6f0a7b1edeabc) - **feat:** add `stats/strided/scovarmtk` [(#7650)](https://github.com/stdlib-js/stdlib/pull/7650) _(by Gururaj Gurram, Athan Reines)_
 -   [`9392f2e`](https://github.com/stdlib-js/stdlib/commit/9392f2e49bb32be6d4bcd79af802b10439e2f3c0) - **docs:** fix return values _(by Athan Reines)_
