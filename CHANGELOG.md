@@ -3134,6 +3134,7 @@ A total of 537 issues were closed in this release:
 
 <details>
 
+-   [`4cf9054`](https://github.com/stdlib-js/stdlib/commit/4cf9054b114f7813295567be551dcb293016442e) - **docs:** remove unused definition _(by Athan Reines)_
 -   [`21b2d73`](https://github.com/stdlib-js/stdlib/commit/21b2d735baed33328aae9f499ab3d3733b776e54) - **chore:** address commit comments for commit `75a786a` [(#7679)](https://github.com/stdlib-js/stdlib/pull/7679) _(by Anmol Sah)_
 -   [`ae9acc7`](https://github.com/stdlib-js/stdlib/commit/ae9acc7e68ffa51732b6a783334c54e37b512551) - **feat:** add `dcovmatmtk` to namespace _(by Athan Reines)_
 -   [`8e5050c`](https://github.com/stdlib-js/stdlib/commit/8e5050c7adeaebc783564ce24ab3e0c2c9b09992) - **feat:** add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, and `stdevyc` to namespace _(by Athan Reines)_
