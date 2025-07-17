@@ -33,7 +33,7 @@ The population [variance][variance] of a finite size population of size `N` is g
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma^2 = \frac{1}{N} \sum_{i=0}^{N-1} (x_i - \mu)^2" data-equation="eq:population_variance">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e3faa6fa37ba4ddb60d75018f4d1d3ce16c9bc60/lib/node_modules/@stdlib/stats/base/nanvariancepn/docs/img/equation_population_variance.svg" alt="Equation for the population variance.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e3faa6fa37ba4ddb60d75018f4d1d3ce16c9bc60/lib/node_modules/@stdlib/stats/strided/nanvariancepn/docs/img/equation_population_variance.svg" alt="Equation for the population variance.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ where the population mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{N} \sum_{i=0}^{N-1} x_i" data-equation="eq:population_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e3faa6fa37ba4ddb60d75018f4d1d3ce16c9bc60/lib/node_modules/@stdlib/stats/base/nanvariancepn/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e3faa6fa37ba4ddb60d75018f4d1d3ce16c9bc60/lib/node_modules/@stdlib/stats/strided/nanvariancepn/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
     <br>
 </div> -->
 
@@ -63,7 +63,7 @@ s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2" data-equation="eq:unbiased_sample_variance">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e3faa6fa37ba4ddb60d75018f4d1d3ce16c9bc60/lib/node_modules/@stdlib/stats/base/nanvariancepn/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for computing an unbiased sample variance.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e3faa6fa37ba4ddb60d75018f4d1d3ce16c9bc60/lib/node_modules/@stdlib/stats/strided/nanvariancepn/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for computing an unbiased sample variance.">
     <br>
 </div> -->
 
@@ -78,7 +78,7 @@ where the sample mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:sample_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e3faa6fa37ba4ddb60d75018f4d1d3ce16c9bc60/lib/node_modules/@stdlib/stats/base/nanvariancepn/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e3faa6fa37ba4ddb60d75018f4d1d3ce16c9bc60/lib/node_modules/@stdlib/stats/strided/nanvariancepn/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
     <br>
 </div> -->
 
@@ -95,7 +95,7 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
-var nanvariancepn = require( '@stdlib/stats/base/nanvariancepn' );
+var nanvariancepn = require( '@stdlib/stats/strided/nanvariancepn' );
 ```
 
 #### nanvariancepn( N, correction, x, strideX )
@@ -190,7 +190,7 @@ var v = nanvariancepn.ndarray( 5, 1, x, 2, 1 );
 var uniform = require( '@stdlib/random/base/uniform' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
 var bernoulli = require( '@stdlib/random/base/bernoulli' );
-var nanvariancepn = require( '@stdlib/stats/base/nanvariancepn' );
+var nanvariancepn = require( '@stdlib/stats/strided/nanvariancepn' );
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
@@ -233,7 +233,7 @@ console.log( v );
 
 -   <span class="package-name">[`@stdlib/stats/strided/dnanvariancepn`][@stdlib/stats/strided/dnanvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array ignoring NaN values and using a two-pass algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanstdevpn`][@stdlib/stats/base/nanstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values and using a two-pass algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanvariance`][@stdlib/stats/base/nanvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanvariance`][@stdlib/stats/strided/nanvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanvariancepn`][@stdlib/stats/base/snanvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array ignoring NaN values and using a two-pass algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/variancepn`][@stdlib/stats/strided/variancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a two-pass algorithm.</span>
 
@@ -263,7 +263,7 @@ console.log( v );
 
 [@stdlib/stats/base/nanstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/nanstdevpn
 
-[@stdlib/stats/base/nanvariance]: https://github.com/stdlib-js/stats/tree/main/base/nanvariance
+[@stdlib/stats/strided/nanvariance]: https://github.com/stdlib-js/stats/tree/main/strided/nanvariance
 
 [@stdlib/stats/base/snanvariancepn]: https://github.com/stdlib-js/stats/tree/main/base/snanvariancepn
 

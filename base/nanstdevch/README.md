@@ -235,7 +235,7 @@ console.log( v );
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats/strided/dnanstdevch`][@stdlib/stats/strided/dnanstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanvariancech`][@stdlib/stats/base/nanvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanvariancech`][@stdlib/stats/strided/nanvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanstdev`][@stdlib/stats/base/nanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanstdevch`][@stdlib/stats/base/snanstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/stdevch`][@stdlib/stats/strided/stdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass trial mean algorithm.</span>
@@ -268,7 +268,7 @@ console.log( v );
 
 [@stdlib/stats/strided/dnanstdevch]: https://github.com/stdlib-js/stats/tree/main/strided/dnanstdevch
 
-[@stdlib/stats/base/nanvariancech]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancech
+[@stdlib/stats/strided/nanvariancech]: https://github.com/stdlib-js/stats/tree/main/strided/nanvariancech
 
 [@stdlib/stats/base/nanstdev]: https://github.com/stdlib-js/stats/tree/main/base/nanstdev
 

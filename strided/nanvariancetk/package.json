@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/stats/base/nanvarianceyc",
+  "name": "@stdlib/stats/strided/nanvariancetk",
   "version": "0.0.0",
-  "description": "Calculate the variance of a strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.",
+  "description": "Calculate the variance of a strided array ignoring NaN values and using a one-pass textbook algorithm.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",

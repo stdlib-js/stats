@@ -10,6 +10,12 @@
 
 ### Features
 
+-   [`0377a72`](https://github.com/stdlib-js/stdlib/commit/0377a72eba4c71cb58de1e548e4912bbd2615477) - add `stats/strided/nanvariance`
+-   [`a10c914`](https://github.com/stdlib-js/stdlib/commit/a10c914cbb24886f7dcdd255e65dcb5416adcc1a) - add `stats/strided/nanvariancech`
+-   [`e9963aa`](https://github.com/stdlib-js/stdlib/commit/e9963aabbf5102f5e124caf1f7d3b1db114dd309) - add `stats/strided/nanvariancepn`
+-   [`c3dbfc3`](https://github.com/stdlib-js/stdlib/commit/c3dbfc396732f455a684b64b18e4ddd59d983836) - add `stats/strided/nanvariancetk`
+-   [`745ae6f`](https://github.com/stdlib-js/stdlib/commit/745ae6f5d8f3530e09e44f511791b20bd5097bc7) - add `stats/strided/nanvariancewd`
+-   [`f79b308`](https://github.com/stdlib-js/stdlib/commit/f79b3081e7628c90bc0061ab7bcdfb761a00bab2) - add `stats/strided/nanvarianceyc`
 -   [`cd1a5a6`](https://github.com/stdlib-js/stdlib/commit/cd1a5a690e3abd41fcdd64471d465fc22f1d9c4d) - add `stats/strided/sztest2` [(#7642)](https://github.com/stdlib-js/stdlib/pull/7642)
 -   [`ae9acc7`](https://github.com/stdlib-js/stdlib/commit/ae9acc7e68ffa51732b6a783334c54e37b512551) - add `dcovmatmtk` to namespace
 -   [`8e5050c`](https://github.com/stdlib-js/stdlib/commit/8e5050c7adeaebc783564ce24ab3e0c2c9b09992) - add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, and `stdevyc` to namespace
@@ -1103,6 +1109,72 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`8d178f5`](https://github.com/stdlib-js/stdlib/commit/8d178f58787fc8822af2c37f3cb9531eb573fcff): remove `stats/base/nanvariance`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanvariance`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`ff26720`](https://github.com/stdlib-js/stdlib/commit/ff2672051f841bf5b6730a0da20aae15ecfda711): remove `nanvariance`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`954b9c7`](https://github.com/stdlib-js/stdlib/commit/954b9c77bd0ebfb79a406fe2c337a6d701288665): remove `stats/base/nanvariancech`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanvariancech`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`43555e9`](https://github.com/stdlib-js/stdlib/commit/43555e9f3541e79447dfb867451fa086c22e7f3d): remove `nanvariancech`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`702579b`](https://github.com/stdlib-js/stdlib/commit/702579b0aab113b065ceb09c7163f17c9069b63f): remove `stats/base/nanvariancepn`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanvariancepn`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`0e24223`](https://github.com/stdlib-js/stdlib/commit/0e242234e8e268b9ee53de4b418b25e03999a5ca): remove `nanvariancepn`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`8d82a18`](https://github.com/stdlib-js/stdlib/commit/8d82a181d5551c20dc1908b1961518d62737c4a5): remove `stats/base/nanvariancetk`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanvariancetk`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`a37a7fc`](https://github.com/stdlib-js/stdlib/commit/a37a7fcc1f3e62f5ab67942326a8aa5165b2f92f): remove `nanvariancetk`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`ee9a081`](https://github.com/stdlib-js/stdlib/commit/ee9a08142182512d3cfeebce758b9d492d4dfe0f): remove `stats/base/nanvariancewd`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanvariancewd`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`99d610f`](https://github.com/stdlib-js/stdlib/commit/99d610fc7722237b635c127f3391f36cb74f2b83): remove `nanvariancewd`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`e5a2790`](https://github.com/stdlib-js/stdlib/commit/e5a27901622a4a22edd6fe14f791d12bde6679c6): remove `stats/base/nanvarianceyc`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/nanvarianceyc`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`090a791`](https://github.com/stdlib-js/stdlib/commit/090a791470764b08fd37f569ffe6beb81d12eda2): remove `nanvarianceyc`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`4975cf0`](https://github.com/stdlib-js/stdlib/commit/4975cf067b213bf23b2a36329d2fbfd44f4ecec9): remove `stats/base/stdev`
 
@@ -3135,6 +3207,30 @@ A total of 537 issues were closed in this release:
 
 <details>
 
+-   [`8d178f5`](https://github.com/stdlib-js/stdlib/commit/8d178f58787fc8822af2c37f3cb9531eb573fcff) - **remove:** remove `stats/base/nanvariance` _(by Gururaj Gurram)_
+-   [`599039a`](https://github.com/stdlib-js/stdlib/commit/599039a0832889aaec19083e6d918e519edddb00) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`ff26720`](https://github.com/stdlib-js/stdlib/commit/ff2672051f841bf5b6730a0da20aae15ecfda711) - **remove:** remove `nanvariance` from namespace _(by Gururaj Gurram)_
+-   [`0377a72`](https://github.com/stdlib-js/stdlib/commit/0377a72eba4c71cb58de1e548e4912bbd2615477) - **feat:** add `stats/strided/nanvariance` _(by Gururaj Gurram)_
+-   [`954b9c7`](https://github.com/stdlib-js/stdlib/commit/954b9c77bd0ebfb79a406fe2c337a6d701288665) - **remove:** remove `stats/base/nanvariancech` _(by Gururaj Gurram)_
+-   [`3e5f087`](https://github.com/stdlib-js/stdlib/commit/3e5f087480788b58307242117587a8564114519f) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`43555e9`](https://github.com/stdlib-js/stdlib/commit/43555e9f3541e79447dfb867451fa086c22e7f3d) - **remove:** remove `nanvariancech` from namespace _(by Gururaj Gurram)_
+-   [`a10c914`](https://github.com/stdlib-js/stdlib/commit/a10c914cbb24886f7dcdd255e65dcb5416adcc1a) - **feat:** add `stats/strided/nanvariancech` _(by Gururaj Gurram)_
+-   [`702579b`](https://github.com/stdlib-js/stdlib/commit/702579b0aab113b065ceb09c7163f17c9069b63f) - **remove:** remove `stats/base/nanvariancepn` _(by Gururaj Gurram)_
+-   [`61c4728`](https://github.com/stdlib-js/stdlib/commit/61c4728812031ccccd496101dd7a87d13782b562) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`0e24223`](https://github.com/stdlib-js/stdlib/commit/0e242234e8e268b9ee53de4b418b25e03999a5ca) - **remove:** remove `nanvariancepn` from namespace _(by Gururaj Gurram)_
+-   [`e9963aa`](https://github.com/stdlib-js/stdlib/commit/e9963aabbf5102f5e124caf1f7d3b1db114dd309) - **feat:** add `stats/strided/nanvariancepn` _(by Gururaj Gurram)_
+-   [`8d82a18`](https://github.com/stdlib-js/stdlib/commit/8d82a181d5551c20dc1908b1961518d62737c4a5) - **remove:** remove `stats/base/nanvariancetk` _(by Gururaj Gurram)_
+-   [`680b881`](https://github.com/stdlib-js/stdlib/commit/680b8812b7444a45b2d92c2c1c55ce29ab2366a4) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`a37a7fc`](https://github.com/stdlib-js/stdlib/commit/a37a7fcc1f3e62f5ab67942326a8aa5165b2f92f) - **remove:** remove `nanvariancetk` from namespace _(by Gururaj Gurram)_
+-   [`c3dbfc3`](https://github.com/stdlib-js/stdlib/commit/c3dbfc396732f455a684b64b18e4ddd59d983836) - **feat:** add `stats/strided/nanvariancetk` _(by Gururaj Gurram)_
+-   [`ee9a081`](https://github.com/stdlib-js/stdlib/commit/ee9a08142182512d3cfeebce758b9d492d4dfe0f) - **remove:** remove `stats/base/nanvariancewd` _(by Gururaj Gurram)_
+-   [`2dc1303`](https://github.com/stdlib-js/stdlib/commit/2dc13030ffbb6ce3701cfdbb8fab4b648fe37fc4) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`99d610f`](https://github.com/stdlib-js/stdlib/commit/99d610fc7722237b635c127f3391f36cb74f2b83) - **remove:** remove `nanvariancewd` from namespace _(by Gururaj Gurram)_
+-   [`745ae6f`](https://github.com/stdlib-js/stdlib/commit/745ae6f5d8f3530e09e44f511791b20bd5097bc7) - **feat:** add `stats/strided/nanvariancewd` _(by Gururaj Gurram)_
+-   [`e5a2790`](https://github.com/stdlib-js/stdlib/commit/e5a27901622a4a22edd6fe14f791d12bde6679c6) - **remove:** remove `stats/base/nanvarianceyc` _(by Gururaj Gurram)_
+-   [`ba4ee56`](https://github.com/stdlib-js/stdlib/commit/ba4ee5616dfe77f6c5254024aab2b8183f2c4232) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`090a791`](https://github.com/stdlib-js/stdlib/commit/090a791470764b08fd37f569ffe6beb81d12eda2) - **remove:** remove `nanvarianceyc` from namespace _(by Gururaj Gurram)_
+-   [`f79b308`](https://github.com/stdlib-js/stdlib/commit/f79b3081e7628c90bc0061ab7bcdfb761a00bab2) - **feat:** add `stats/strided/nanvarianceyc` _(by Gururaj Gurram)_
 -   [`cd1a5a6`](https://github.com/stdlib-js/stdlib/commit/cd1a5a690e3abd41fcdd64471d465fc22f1d9c4d) - **feat:** add `stats/strided/sztest2` [(#7642)](https://github.com/stdlib-js/stdlib/pull/7642) _(by Gururaj Gurram, Athan Reines)_
 -   [`45384a1`](https://github.com/stdlib-js/stdlib/commit/45384a12a3cb54855e5c87d22211eb24661870fb) - **docs:** fix comment _(by Athan Reines)_
 -   [`b6328d9`](https://github.com/stdlib-js/stdlib/commit/b6328d92945fbfd5c01070377da77de335cc7cce) - **docs:** fix comment _(by Athan Reines)_

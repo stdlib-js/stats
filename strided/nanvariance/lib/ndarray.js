@@ -18,42 +18,34 @@
 
 'use strict';
 
-/**
-* Compute the variance of a strided array ignoring `NaN` values and using a two-pass algorithm.
-*
-* @module @stdlib/stats/base/nanvariancepn
-*
-* @example
-* var nanvariancepn = require( '@stdlib/stats/base/nanvariancepn' );
-*
-* var x = [ 1.0, -2.0, NaN, 2.0 ];
-*
-* var v = nanvariancepn( x.length, 1, x, 1 );
-* // returns ~4.3333
-*
-* @example
-* var nanvariancepn = require( '@stdlib/stats/base/nanvariancepn' );
-*
-* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
-*
-* var v = nanvariancepn.ndarray( 5, 1, x, 2, 1 );
-* // returns 6.25
-*/
-
 // MODULES //
 
-var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var main = require( './main.js' );
-var ndarray = require( './ndarray.js' );
+var nanvariancepn = require( './../../../strided/nanvariancepn' ).ndarray;
 
 
 // MAIN //
 
-setReadOnly( main, 'ndarray', ndarray );
+/**
+* Computes the variance of a strided array ignoring `NaN` values.
+*
+* @param {PositiveInteger} N - number of indexed elements
+* @param {number} correction - degrees of freedom adjustment
+* @param {NumericArray} x - input array
+* @param {integer} strideX - stride length
+* @param {NonNegativeInteger} offsetX - starting index
+* @returns {number} variance
+*
+* @example
+* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
+*
+* var v = nanvariance( 5, 1, x, 2, 1 );
+* // returns 6.25
+*/
+function nanvariance( N, correction, x, strideX, offsetX ) {
+	return nanvariancepn( N, correction, x, strideX, offsetX );
+}
 
 
 // EXPORTS //
 
-module.exports = main;
-
-// exports: { "ndarray": "main.ndarray" }
+module.exports = nanvariance;

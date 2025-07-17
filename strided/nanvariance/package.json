@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats/base/nanvariance",
+  "name": "@stdlib/stats/strided/nanvariance",
   "version": "0.0.0",
   "description": "Calculate the variance of a strided array ignoring NaN values.",
   "license": "Apache-2.0",

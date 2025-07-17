@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/stats/base/nanvariancewd",
+  "name": "@stdlib/stats/strided/nanvariancech",
   "version": "0.0.0",
-  "description": "Calculate the variance of a strided array ignoring NaN values and using Welford's algorithm.",
+  "description": "Calculate the variance of a strided array ignoring NaN values and using a one-pass trial mean algorithm.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -65,7 +65,6 @@
     "stdev",
     "std",
     "standard deviation",
-    "welford",
     "strided",
     "strided array",
     "typed",

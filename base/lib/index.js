@@ -136,60 +136,6 @@ setReadOnly( ns, 'nanstdevwd', require( './../../base/nanstdevwd' ) );
 setReadOnly( ns, 'nanstdevyc', require( './../../base/nanstdevyc' ) );
 
 /**
-* @name nanvariance
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanvariance}
-*/
-setReadOnly( ns, 'nanvariance', require( './../../base/nanvariance' ) );
-
-/**
-* @name nanvariancech
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanvariancech}
-*/
-setReadOnly( ns, 'nanvariancech', require( './../../base/nanvariancech' ) );
-
-/**
-* @name nanvariancepn
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanvariancepn}
-*/
-setReadOnly( ns, 'nanvariancepn', require( './../../base/nanvariancepn' ) );
-
-/**
-* @name nanvariancetk
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanvariancetk}
-*/
-setReadOnly( ns, 'nanvariancetk', require( './../../base/nanvariancetk' ) );
-
-/**
-* @name nanvariancewd
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanvariancewd}
-*/
-setReadOnly( ns, 'nanvariancewd', require( './../../base/nanvariancewd' ) );
-
-/**
-* @name nanvarianceyc
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanvarianceyc}
-*/
-setReadOnly( ns, 'nanvarianceyc', require( './../../base/nanvarianceyc' ) );
-
-/**
 * @name ndarray
 * @memberof ns
 * @readonly

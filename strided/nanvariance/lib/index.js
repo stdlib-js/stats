@@ -18,34 +18,35 @@
 
 'use strict';
 
-// MODULES //
-
-var nanvariancepn = require( './../../../base/nanvariancepn' ).ndarray;
-
-
-// MAIN //
-
 /**
-* Computes the variance of a strided array ignoring `NaN` values.
+* Compute the variance of a strided array ignoring `NaN` values.
 *
-* @param {PositiveInteger} N - number of indexed elements
-* @param {number} correction - degrees of freedom adjustment
-* @param {NumericArray} x - input array
-* @param {integer} strideX - stride length
-* @param {NonNegativeInteger} offsetX - starting index
-* @returns {number} variance
+* @module @stdlib/stats/strided/nanvariance
 *
 * @example
+* var nanvariance = require( '@stdlib/stats/strided/nanvariance' );
+*
+* var x = [ 1.0, -2.0, NaN, 2.0 ];
+*
+* var v = nanvariance( x.length, 1, x, 1 );
+* // returns ~4.3333
+*
+* @example
+* var nanvariance = require( '@stdlib/stats/strided/nanvariance' );
+*
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
 *
-* var v = nanvariance( 5, 1, x, 2, 1 );
+* var v = nanvariance.ndarray( 5, 1, x, 2, 1 );
 * // returns 6.25
 */
-function nanvariance( N, correction, x, strideX, offsetX ) {
-	return nanvariancepn( N, correction, x, strideX, offsetX );
-}
+
+// MODULES //
+
+var main = require( './main.js' );
 
 
 // EXPORTS //
 
-module.exports = nanvariance;
+module.exports = main;
+
+// exports: { "ndarray": "main.ndarray" }

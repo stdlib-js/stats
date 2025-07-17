@@ -72,12 +72,12 @@ The namespace contains the following statistical functions:
 -   <span class="signature">[`nanstdevtk( N, correction, x, stride )`][@stdlib/stats/base/nanstdevtk]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring `NaN` values and using a one-pass textbook algorithm.</span>
 -   <span class="signature">[`nanstdevwd( N, correction, x, stride )`][@stdlib/stats/base/nanstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring `NaN` values and using Welford's algorithm.</span>
 -   <span class="signature">[`nanstdevyc( N, correction, x, strideX )`][@stdlib/stats/base/nanstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring `NaN` values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
--   <span class="signature">[`nanvariance( N, correction, x, strideX )`][@stdlib/stats/base/nanvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring `NaN` values.</span>
--   <span class="signature">[`nanvariancech( N, correction, x, strideX )`][@stdlib/stats/base/nanvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring `NaN` values and using a one-pass trial mean algorithm.</span>
--   <span class="signature">[`nanvariancepn( N, correction, x, strideX )`][@stdlib/stats/base/nanvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring `NaN` values and using a two-pass algorithm.</span>
--   <span class="signature">[`nanvariancetk( N, correction, x, strideX )`][@stdlib/stats/base/nanvariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring `NaN` values and using a one-pass textbook algorithm.</span>
--   <span class="signature">[`nanvariancewd( N, correction, x, strideX )`][@stdlib/stats/base/nanvariancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring `NaN` values and using Welford's algorithm.</span>
--   <span class="signature">[`nanvarianceyc( N, correction, x, strideX )`][@stdlib/stats/base/nanvarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring `NaN` values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
+-   <span class="signature">[`nanvariance( N, correction, x, strideX )`][@stdlib/stats/strided/nanvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring `NaN` values.</span>
+-   <span class="signature">[`nanvariancech( N, correction, x, strideX )`][@stdlib/stats/strided/nanvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring `NaN` values and using a one-pass trial mean algorithm.</span>
+-   <span class="signature">[`nanvariancepn( N, correction, x, strideX )`][@stdlib/stats/strided/nanvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring `NaN` values and using a two-pass algorithm.</span>
+-   <span class="signature">[`nanvariancetk( N, correction, x, strideX )`][@stdlib/stats/strided/nanvariancetk]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring `NaN` values and using a one-pass textbook algorithm.</span>
+-   <span class="signature">[`nanvariancewd( N, correction, x, strideX )`][@stdlib/stats/strided/nanvariancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring `NaN` values and using Welford's algorithm.</span>
+-   <span class="signature">[`nanvarianceyc( N, correction, x, strideX )`][@stdlib/stats/strided/nanvarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring `NaN` values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
 -   <span class="signature">[`ndarray`][@stdlib/stats/base/ndarray]</span><span class="delimiter">: </span><span class="description">base ndarray statistical functions.</span>
 -   <span class="signature">[`rangeBy( N, x, stride, clbk[, thisArg] )`][@stdlib/stats/strided/range-by]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array via a callback function.</span>
 -   <span class="signature">[`range( N, x, strideX )`][@stdlib/stats/strided/range]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array.</span>
@@ -193,17 +193,17 @@ console.log( objectKeys( ns ) );
 
 [@stdlib/stats/base/nanstdevyc]: https://github.com/stdlib-js/stats/tree/main/base/nanstdevyc
 
-[@stdlib/stats/base/nanvariance]: https://github.com/stdlib-js/stats/tree/main/base/nanvariance
+[@stdlib/stats/strided/nanvariance]: https://github.com/stdlib-js/stats/tree/main/strided/nanvariance
 
-[@stdlib/stats/base/nanvariancech]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancech
+[@stdlib/stats/strided/nanvariancech]: https://github.com/stdlib-js/stats/tree/main/strided/nanvariancech
 
-[@stdlib/stats/base/nanvariancepn]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancepn
+[@stdlib/stats/strided/nanvariancepn]: https://github.com/stdlib-js/stats/tree/main/strided/nanvariancepn
 
-[@stdlib/stats/base/nanvariancetk]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancetk
+[@stdlib/stats/strided/nanvariancetk]: https://github.com/stdlib-js/stats/tree/main/strided/nanvariancetk
 
-[@stdlib/stats/base/nanvariancewd]: https://github.com/stdlib-js/stats/tree/main/base/nanvariancewd
+[@stdlib/stats/strided/nanvariancewd]: https://github.com/stdlib-js/stats/tree/main/strided/nanvariancewd
 
-[@stdlib/stats/base/nanvarianceyc]: https://github.com/stdlib-js/stats/tree/main/base/nanvarianceyc
+[@stdlib/stats/strided/nanvarianceyc]: https://github.com/stdlib-js/stats/tree/main/strided/nanvarianceyc
 
 [@stdlib/stats/base/ndarray]: https://github.com/stdlib-js/stats/tree/main/base/ndarray
 

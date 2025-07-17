@@ -19,24 +19,24 @@
 'use strict';
 
 /**
-* Compute the variance of a strided array ignoring `NaN` values and using a one-pass algorithm proposed by Youngs and Cramer.
+* Compute the variance of a strided array ignoring `NaN` values and using Welford's algorithm.
 *
-* @module @stdlib/stats/base/nanvarianceyc
+* @module @stdlib/stats/strided/nanvariancewd
 *
 * @example
-* var nanvarianceyc = require( '@stdlib/stats/base/nanvarianceyc' );
+* var nanvariancewd = require( '@stdlib/stats/strided/nanvariancewd' );
 *
 * var x = [ 1.0, -2.0, NaN, 2.0 ];
 *
-* var v = nanvarianceyc( x.length, 1.0, x, 1 );
+* var v = nanvariancewd( x.length, 1, x, 1 );
 * // returns ~4.3333
 *
 * @example
-* var nanvarianceyc = require( '@stdlib/stats/base/nanvarianceyc' );
+* var nanvariancewd = require( '@stdlib/stats/strided/nanvariancewd' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
 *
-* var v = nanvarianceyc.ndarray( 5, 1.0, x, 2, 1 );
+* var v = nanvariancewd.ndarray( 5, 1, x, 2, 1 );
 * // returns 6.25
 */
 

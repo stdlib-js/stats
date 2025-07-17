@@ -21,10 +21,10 @@
 /**
 * Compute the variance of a strided array ignoring `NaN` values and using a one-pass textbook algorithm.
 *
-* @module @stdlib/stats/base/nanvariancetk
+* @module @stdlib/stats/strided/nanvariancetk
 *
 * @example
-* var nanvariancetk = require( '@stdlib/stats/base/nanvariancetk' );
+* var nanvariancetk = require( '@stdlib/stats/strided/nanvariancetk' );
 *
 * var x = [ 1.0, -2.0, NaN, 2.0 ];
 *
@@ -33,7 +33,7 @@
 *
 * @example
 * var floor = require( '@stdlib/math/base/special/floor' );
-* var nanvariancetk = require( '@stdlib/stats/base/nanvariancetk' );
+* var nanvariancetk = require( '@stdlib/stats/strided/nanvariancetk' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
 *

@@ -231,7 +231,7 @@ console.log( v );
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats/strided/dnanstdevyc`][@stdlib/stats/strided/dnanstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanvarianceyc`][@stdlib/stats/base/nanvarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanvarianceyc`][@stdlib/stats/strided/nanvarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
 -   <span class="package-name">[`@stdlib/stats/base/nanstdev`][@stdlib/stats/base/nanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats/base/snanstdevyc`][@stdlib/stats/base/snanstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
 -   <span class="package-name">[`@stdlib/stats/strided/stdevyc`][@stdlib/stats/strided/stdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
@@ -258,7 +258,7 @@ console.log( v );
 
 [@stdlib/stats/strided/dnanstdevyc]: https://github.com/stdlib-js/stats/tree/main/strided/dnanstdevyc
 
-[@stdlib/stats/base/nanvarianceyc]: https://github.com/stdlib-js/stats/tree/main/base/nanvarianceyc
+[@stdlib/stats/strided/nanvarianceyc]: https://github.com/stdlib-js/stats/tree/main/strided/nanvarianceyc
 
 [@stdlib/stats/base/nanstdev]: https://github.com/stdlib-js/stats/tree/main/base/nanstdev
 

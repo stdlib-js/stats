@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# nanvariancech
+# nanvariancewd
 
-> Calculate the [variance][variance] of a strided array ignoring `NaN` values and using a one-pass trial mean algorithm.
+> Calculate the [variance][variance] of a strided array ignoring `NaN` values and using Welford's algorithm.
 
 <section class="intro">
 
@@ -33,7 +33,7 @@ The population [variance][variance] of a finite size population of size `N` is g
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma^2 = \frac{1}{N} \sum_{i=0}^{N-1} (x_i - \mu)^2" data-equation="eq:population_variance">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@a42764beff9494374912d93a140da3491f12e2cc/lib/node_modules/@stdlib/stats/base/nanvariancech/docs/img/equation_population_variance.svg" alt="Equation for the population variance.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e50971c12e3bc534fe464a6f19ba362bb168c8e4/lib/node_modules/@stdlib/stats/strided/nanvariancewd/docs/img/equation_population_variance.svg" alt="Equation for the population variance.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ where the population mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{N} \sum_{i=0}^{N-1} x_i" data-equation="eq:population_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@a42764beff9494374912d93a140da3491f12e2cc/lib/node_modules/@stdlib/stats/base/nanvariancech/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e50971c12e3bc534fe464a6f19ba362bb168c8e4/lib/node_modules/@stdlib/stats/strided/nanvariancewd/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
     <br>
 </div> -->
 
@@ -63,7 +63,7 @@ s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2" data-equation="eq:unbiased_sample_variance">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@a42764beff9494374912d93a140da3491f12e2cc/lib/node_modules/@stdlib/stats/base/nanvariancech/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for computing an unbiased sample variance.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e50971c12e3bc534fe464a6f19ba362bb168c8e4/lib/node_modules/@stdlib/stats/strided/nanvariancewd/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for computing an unbiased sample variance.">
     <br>
 </div> -->
 
@@ -78,7 +78,7 @@ where the sample mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:sample_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@a42764beff9494374912d93a140da3491f12e2cc/lib/node_modules/@stdlib/stats/base/nanvariancech/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e50971c12e3bc534fe464a6f19ba362bb168c8e4/lib/node_modules/@stdlib/stats/strided/nanvariancewd/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
     <br>
 </div> -->
 
@@ -95,17 +95,17 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
-var nanvariancech = require( '@stdlib/stats/base/nanvariancech' );
+var nanvariancewd = require( '@stdlib/stats/strided/nanvariancewd' );
 ```
 
-#### nanvariancech( N, correction, x, strideX )
+#### nanvariancewd( N, correction, x, strideX )
 
-Computes the [variance][variance] of a strided array ignoring `NaN` values and using a one-pass trial mean algorithm.
+Computes the [variance][variance] of a strided array ignoring `NaN` values and using Welford's algorithm.
 
 ```javascript
 var x = [ 1.0, -2.0, NaN, 2.0 ];
 
-var v = nanvariancech( x.length, 1, x, 1 );
+var v = nanvariancewd( x.length, 1, x, 1 );
 // returns ~4.3333
 ```
 
@@ -116,12 +116,12 @@ The function has the following parameters:
 -   **x**: input [`Array`][mdn-array] or [`typed array`][mdn-typed-array].
 -   **strideX**: stride length for `x`.
 
-The `N` and stride parameters determine which elements in the stided array are accessed at runtime. For example, to compute the [variance][variance] of every other element in `x`,
+The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to compute the [variance][variance] of every other element in `x`,
 
 ```javascript
-var x = [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0, NaN, NaN ];
+var x = [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0, NaN ];
 
-var v = nanvariancech( 5, 1, x, 2 );
+var v = nanvariancewd( 5, 1, x, 2 );
 // returns 6.25
 ```
 
@@ -135,18 +135,18 @@ var Float64Array = require( '@stdlib/array/float64' );
 var x0 = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
 var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var v = nanvariancech( 5, 1, x1, 2 );
+var v = nanvariancewd( 5, 1, x1, 2 );
 // returns 6.25
 ```
 
-#### nanvariancech.ndarray( N, correction, x, strideX, offsetX )
+#### nanvariancewd.ndarray( N, correction, x, strideX, offsetX )
 
-Computes the [variance][variance] of a strided array ignoring `NaN` values and using a one-pass trial mean algorithm and alternative indexing semantics.
+Computes the [variance][variance] of a strided array ignoring `NaN` values and using Welford's algorithm and alternative indexing semantics.
 
 ```javascript
 var x = [ 1.0, -2.0, NaN, 2.0 ];
 
-var v = nanvariancech.ndarray( x.length, 1, x, 1, 0 );
+var v = nanvariancewd.ndarray( x.length, 1, x, 1, 0 );
 // returns ~4.33333
 ```
 
@@ -159,7 +159,7 @@ While [`typed array`][mdn-typed-array] views mandate a view offset based on the 
 ```javascript
 var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
 
-var v = nanvariancech.ndarray( 5, 1, x, 2, 1 );
+var v = nanvariancewd.ndarray( 5, 1, x, 2, 1 );
 // returns 6.25
 ```
 
@@ -174,8 +174,7 @@ var v = nanvariancech.ndarray( 5, 1, x, 2, 1 );
 -   If `N <= 0`, both functions return `NaN`.
 -   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array/base/accessor`][@stdlib/array/base/accessor]).
 -   If `n - c` is less than or equal to `0` (where `c` corresponds to the provided degrees of freedom adjustment and `n` corresponds to the number of non-`NaN` indexed elements), both functions return `NaN`.
--   The underlying algorithm is a specialized case of Neely's two-pass algorithm. As the variance is invariant with respect to changes in the location parameter, the underlying algorithm uses the first non-`NaN` strided array element as a trial mean to shift subsequent data values and thus mitigate catastrophic cancellation. Accordingly, the algorithm's accuracy is best when data is **unordered** (i.e., the data is **not** sorted in either ascending or descending order such that the first value is an "extreme" value).
--   Depending on the environment, the typed versions ([`dnanvariancech`][@stdlib/stats/strided/dnanvariancech], [`snanvariancech`][@stdlib/stats/base/snanvariancech], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dnanvariancewd`][@stdlib/stats/strided/dnanvariancewd], [`snanvariancewd`][@stdlib/stats/base/snanvariancewd], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -190,8 +189,8 @@ var v = nanvariancech.ndarray( 5, 1, x, 2, 1 );
 ```javascript
 var uniform = require( '@stdlib/random/base/uniform' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
+var nanvariancewd = require( '@stdlib/stats/strided/nanvariancewd' );
 var bernoulli = require( '@stdlib/random/base/bernoulli' );
-var nanvariancech = require( '@stdlib/stats/base/nanvariancech' );
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
@@ -200,10 +199,10 @@ function rand() {
     return uniform( -50.0, 50.0 );
 }
 
-var x = filledarrayBy( 10, 'generic', rand );
+var x = filledarrayBy( 10, 'float64', rand );
 console.log( x );
 
-var v = nanvariancech( x.length, 1, x, 1 );
+var v = nanvariancewd( x.length, 1, x, 1 );
 console.log( v );
 ```
 
@@ -217,10 +216,8 @@ console.log( v );
 
 ## References
 
--   Neely, Peter M. 1966. "Comparison of Several Algorithms for Computation of Means, Standard Deviations and Correlation Coefficients." _Communications of the ACM_ 9 (7). Association for Computing Machinery: 496–99. doi:[10.1145/365719.365958][@neely:1966a].
--   Ling, Robert F. 1974. "Comparison of Several Algorithms for Computing Sample Means and Variances." _Journal of the American Statistical Association_ 69 (348). American Statistical Association, Taylor & Francis, Ltd.: 859–66. doi:[10.2307/2286154][@ling:1974a].
--   Chan, Tony F., Gene H. Golub, and Randall J. LeVeque. 1983. "Algorithms for Computing the Sample Variance: Analysis and Recommendations." _The American Statistician_ 37 (3). American Statistical Association, Taylor & Francis, Ltd.: 242–47. doi:[10.1080/00031305.1983.10483115][@chan:1983a].
--   Schubert, Erich, and Michael Gertz. 2018. "Numerically Stable Parallel Computation of (Co-)Variance." In _Proceedings of the 30th International Conference on Scientific and Statistical Database Management_. New York, NY, USA: Association for Computing Machinery. doi:[10.1145/3221269.3223036][@schubert:2018a].
+-   Welford, B. P. 1962. "Note on a Method for Calculating Corrected Sums of Squares and Products." _Technometrics_ 4 (3). Taylor & Francis: 419–20. doi:[10.1080/00401706.1962.10490022][@welford:1962a].
+-   van Reeken, A. J. 1968. "Letters to the Editor: Dealing with Neely's Algorithms." _Communications of the ACM_ 11 (3): 149–50. doi:[10.1145/362929.362961][@vanreeken:1968a].
 
 </section>
 
@@ -234,11 +231,11 @@ console.log( v );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/strided/dnanvariancech`][@stdlib/stats/strided/dnanvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanstdevch`][@stdlib/stats/base/nanstdevch]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanvariance`][@stdlib/stats/base/nanvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/snanvariancech`][@stdlib/stats/base/snanvariancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array ignoring NaN values and using a one-pass trial mean algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/strided/variancech`][@stdlib/stats/strided/variancech]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using a one-pass trial mean algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dnanvariancewd`][@stdlib/stats/strided/dnanvariancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a double-precision floating-point strided array ignoring NaN values and using Welford's algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/base/nanstdevwd`][@stdlib/stats/base/nanstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values and using Welford's algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanvariance`][@stdlib/stats/strided/nanvariance]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanvariancewd`][@stdlib/stats/base/snanvariancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a single-precision floating-point strided array ignoring NaN values and using Welford's algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/variancewd`][@stdlib/stats/strided/variancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using Welford's algorithm.</span>
 
 </section>
 
@@ -254,27 +251,23 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@neely:1966a]: https://doi.org/10.1145/365719.365958
-
-[@ling:1974a]: https://doi.org/10.2307/2286154
-
-[@chan:1983a]: https://doi.org/10.1080/00031305.1983.10483115
-
-[@schubert:2018a]: https://doi.org/10.1145/3221269.3223036
-
 [@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
+
+[@welford:1962a]: https://doi.org/10.1080/00401706.1962.10490022
+
+[@vanreeken:1968a]: https://doi.org/10.1145/362929.362961
 
 <!-- <related-links> -->
 
-[@stdlib/stats/strided/dnanvariancech]: https://github.com/stdlib-js/stats/tree/main/strided/dnanvariancech
+[@stdlib/stats/strided/dnanvariancewd]: https://github.com/stdlib-js/stats/tree/main/strided/dnanvariancewd
 
-[@stdlib/stats/base/nanstdevch]: https://github.com/stdlib-js/stats/tree/main/base/nanstdevch
+[@stdlib/stats/base/nanstdevwd]: https://github.com/stdlib-js/stats/tree/main/base/nanstdevwd
 
-[@stdlib/stats/base/nanvariance]: https://github.com/stdlib-js/stats/tree/main/base/nanvariance
+[@stdlib/stats/strided/nanvariance]: https://github.com/stdlib-js/stats/tree/main/strided/nanvariance
 
-[@stdlib/stats/base/snanvariancech]: https://github.com/stdlib-js/stats/tree/main/base/snanvariancech
+[@stdlib/stats/base/snanvariancewd]: https://github.com/stdlib-js/stats/tree/main/base/snanvariancewd
 
-[@stdlib/stats/strided/variancech]: https://github.com/stdlib-js/stats/tree/main/strided/variancech
+[@stdlib/stats/strided/variancewd]: https://github.com/stdlib-js/stats/tree/main/strided/variancewd
 
 <!-- </related-links> -->
 
