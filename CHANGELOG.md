@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-17)
+## Unreleased (2025-07-18)
 
 <section class="features">
 
@@ -3207,6 +3207,8 @@ A total of 537 issues were closed in this release:
 
 <details>
 
+-   [`d8dd116`](https://github.com/stdlib-js/stdlib/commit/d8dd11669e80ed814975d2c941aa315d878a9fb0) - **docs:** fix description _(by Athan Reines)_
+-   [`e1835a1`](https://github.com/stdlib-js/stdlib/commit/e1835a124a5ee8a1a3c763e5414ad86bc3a2256e) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`8d178f5`](https://github.com/stdlib-js/stdlib/commit/8d178f58787fc8822af2c37f3cb9531eb573fcff) - **remove:** remove `stats/base/nanvariance` _(by Gururaj Gurram)_
 -   [`599039a`](https://github.com/stdlib-js/stdlib/commit/599039a0832889aaec19083e6d918e519edddb00) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`ff26720`](https://github.com/stdlib-js/stdlib/commit/ff2672051f841bf5b6730a0da20aae15ecfda711) - **remove:** remove `nanvariance` from namespace _(by Gururaj Gurram)_
