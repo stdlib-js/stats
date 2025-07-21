@@ -1050,6 +1050,7 @@
 
 ### Bug Fixes
 
+-   [`dbfb45d`](https://github.com/stdlib-js/stdlib/commit/dbfb45db7d075160f3c6873f31268ab6877bb8c9) - correct calculation for x variance
 -   [`d529cbd`](https://github.com/stdlib-js/stdlib/commit/d529cbd7745c4ba69415d450f1e2f597b212e9fc) - simplify and fix branching logic and use assertion utility
 -   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - use correct package names in package.json
 -   [`4e2fe4f`](https://github.com/stdlib-js/stdlib/commit/4e2fe4f7226b7f96aab5879f57a4536460c8f847) - make properties required in interface [(#7643)](https://github.com/stdlib-js/stdlib/pull/7643)
@@ -3291,6 +3292,7 @@ A total of 537 issues were closed in this release:
 
 <details>
 
+-   [`dbfb45d`](https://github.com/stdlib-js/stdlib/commit/dbfb45db7d075160f3c6873f31268ab6877bb8c9) - **fix:** correct calculation for x variance _(by Philipp Burckhardt)_
 -   [`dfe367c`](https://github.com/stdlib-js/stdlib/commit/dfe367cbf0742a949c014531aa4b53e754b6d377) - **remove:** remove `stats/base/nanstdev` _(by Gururaj Gurram)_
 -   [`07d7a23`](https://github.com/stdlib-js/stdlib/commit/07d7a2388a8916c3f70c18abcc51b4086898bb1a) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`8a1eb65`](https://github.com/stdlib-js/stdlib/commit/8a1eb65f02b2f9efd99c64cd3d346dc1a7fce809) - **remove:** remove `nanstdev` from namespace _(by Gururaj Gurram)_
