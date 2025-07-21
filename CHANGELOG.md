@@ -3211,6 +3211,7 @@ A total of 537 issues were closed in this release:
 
 <details>
 
+-   [`a12628a`](https://github.com/stdlib-js/stdlib/commit/a12628ad05e60a114fad1165481fd2da16f57886) - **bench:** fix descriptions _(by Athan Reines)_
 -   [`dc7133c`](https://github.com/stdlib-js/stdlib/commit/dc7133ce521ff84759cb75e0c1955cfe38de220f) - **feat:** add `stats/array/nanstdevyc` [(#7658)](https://github.com/stdlib-js/stdlib/pull/7658) _(by Gururaj Gurram)_
 -   [`6f6f7ba`](https://github.com/stdlib-js/stdlib/commit/6f6f7bacbc5480068b07969112a20fb9ed3bde15) - **feat:** add `stats/array/nanstdevwd` [(#7657)](https://github.com/stdlib-js/stdlib/pull/7657) _(by Gururaj Gurram)_
 -   [`b5e028e`](https://github.com/stdlib-js/stdlib/commit/b5e028e71bd38e4a6e13f6c52ad8ebfe94b11711) - **feat:** add `stats/array/nanstdevtk` [(#7656)](https://github.com/stdlib-js/stdlib/pull/7656) _(by Gururaj Gurram)_
