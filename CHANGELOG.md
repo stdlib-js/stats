@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`87d47a6`](https://github.com/stdlib-js/stdlib/commit/87d47a6f57e7f8fe55280a08ccd5e1abefaa30a1) - add `min`, `minBy`, `scumin`, and `smin` to namespace
+-   [`a249d09`](https://github.com/stdlib-js/stdlib/commit/a249d09157e6991f0f191bb6ba4bd69efbb4456f) - add `drange`, `range`, and `srange` to namespace
+-   [`f0e0eca`](https://github.com/stdlib-js/stdlib/commit/f0e0ecac9f6874592b02c9ab9f99b86d1fa583c8) - add `cumin`, `dcumin`, and `dmin` to namespace
+-   [`009d1d9`](https://github.com/stdlib-js/stdlib/commit/009d1d9bb3b3a4ac602412cb37acb6ce9dc2eac9) - add `sztest2`, `ztest`, and `ztest2` to namespace
 -   [`59a8452`](https://github.com/stdlib-js/stdlib/commit/59a8452eb145b296ff4ad8d6355d40d7d841ed53) - add `stats/base/ndarray/ztest2` [(#7698)](https://github.com/stdlib-js/stdlib/pull/7698)
 -   [`2ed2c5f`](https://github.com/stdlib-js/stdlib/commit/2ed2c5f41f9f9f5d509c3748b1c716d71d5861ab) - add `stats/base/ndarray/dztest2` [(#7704)](https://github.com/stdlib-js/stdlib/pull/7704)
 -   [`f3dfedc`](https://github.com/stdlib-js/stdlib/commit/f3dfedcc9f4ba210b01dc91a70579be530d999f7) - add `stats/base/ndarray/sztest2` [(#7703)](https://github.com/stdlib-js/stdlib/pull/7703)
@@ -3215,6 +3219,10 @@ A total of 537 issues were closed in this release:
 
 <details>
 
+-   [`87d47a6`](https://github.com/stdlib-js/stdlib/commit/87d47a6f57e7f8fe55280a08ccd5e1abefaa30a1) - **feat:** add `min`, `minBy`, `scumin`, and `smin` to namespace _(by Athan Reines)_
+-   [`a249d09`](https://github.com/stdlib-js/stdlib/commit/a249d09157e6991f0f191bb6ba4bd69efbb4456f) - **feat:** add `drange`, `range`, and `srange` to namespace _(by Athan Reines)_
+-   [`f0e0eca`](https://github.com/stdlib-js/stdlib/commit/f0e0ecac9f6874592b02c9ab9f99b86d1fa583c8) - **feat:** add `cumin`, `dcumin`, and `dmin` to namespace _(by Athan Reines)_
+-   [`009d1d9`](https://github.com/stdlib-js/stdlib/commit/009d1d9bb3b3a4ac602412cb37acb6ce9dc2eac9) - **feat:** add `sztest2`, `ztest`, and `ztest2` to namespace _(by Athan Reines)_
 -   [`59a8452`](https://github.com/stdlib-js/stdlib/commit/59a8452eb145b296ff4ad8d6355d40d7d841ed53) - **feat:** add `stats/base/ndarray/ztest2` [(#7698)](https://github.com/stdlib-js/stdlib/pull/7698) _(by Gururaj Gurram)_
 -   [`2ed2c5f`](https://github.com/stdlib-js/stdlib/commit/2ed2c5f41f9f9f5d509c3748b1c716d71d5861ab) - **feat:** add `stats/base/ndarray/dztest2` [(#7704)](https://github.com/stdlib-js/stdlib/pull/7704) _(by Gururaj Gurram, stdlib-bot)_
 -   [`f3dfedc`](https://github.com/stdlib-js/stdlib/commit/f3dfedcc9f4ba210b01dc91a70579be530d999f7) - **feat:** add `stats/base/ndarray/sztest2` [(#7703)](https://github.com/stdlib-js/stdlib/pull/7703) _(by Gururaj Gurram, Athan Reines)_
