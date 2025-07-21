@@ -18,42 +18,34 @@
 
 'use strict';
 
-/**
-* Compute the standard deviation of a strided array ignoring `NaN` values and using a one-pass trial mean algorithm.
-*
-* @module @stdlib/stats/base/nanstdevch
-*
-* @example
-* var nanstdevch = require( '@stdlib/stats/base/nanstdevch' );
-*
-* var x = [ 1.0, -2.0, NaN, 2.0 ];
-*
-* var v = nanstdevch( x.length, 1, x, 1 );
-* // returns ~2.0817
-*
-* @example
-* var nanstdevch = require( '@stdlib/stats/base/nanstdevch' );
-*
-* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
-*
-* var v = nanstdevch.ndarray( 5, 1, x, 2, 1 );
-* // returns 2.5
-*/
-
 // MODULES //
 
-var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var main = require( './main.js' );
-var ndarray = require( './ndarray.js' );
+var nanstdevpn = require( './../../../strided/nanstdevpn' ).ndarray;
 
 
 // MAIN //
 
-setReadOnly( main, 'ndarray', ndarray );
+/**
+* Computes the standard deviation of a strided array ignoring `NaN` values.
+*
+* @param {PositiveInteger} N - number of indexed elements
+* @param {number} correction - degrees of freedom adjustment
+* @param {NumericArray} x - input array
+* @param {integer} strideX - stride length
+* @param {NonNegativeInteger} offsetX - starting index
+* @returns {number} standard deviation
+*
+* @example
+* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
+*
+* var v = nanstdev( 5, 1, x, 2, 1 );
+* // returns 2.5
+*/
+function nanstdev( N, correction, x, strideX, offsetX ) {
+	return nanstdevpn( N, correction, x, strideX, offsetX );
+}
 
 
 // EXPORTS //
 
-module.exports = main;
-
-// exports: { "ndarray": "main.ndarray" }
+module.exports = nanstdev;

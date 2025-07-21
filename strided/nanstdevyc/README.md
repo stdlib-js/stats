@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# nanstdevpn
+# nanstdevyc
 
-> Calculate the [standard deviation][standard-deviation] of a strided array ignoring `NaN` values and using a two-pass algorithm.
+> Calculate the [standard deviation][standard-deviation] of a strided array ignoring `NaN` values and using a one-pass algorithm proposed by Youngs and Cramer.
 
 <section class="intro">
 
@@ -33,7 +33,7 @@ The population [standard deviation][standard-deviation] of a finite size populat
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\sigma = \sqrt{\frac{1}{N} \sum_{i=0}^{N-1} (x_i - \mu)^2}" data-equation="eq:population_standard_deviation">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@8e7c31bfe267fe8d9af267eb3ae880d98772a2d1/lib/node_modules/@stdlib/stats/base/nanstdevpn/docs/img/equation_population_standard_deviation.svg" alt="Equation for the population standard deviation.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fd9ce3e3db4eb5f6a809d92f1baa358dbfd134b0/lib/node_modules/@stdlib/stats/strided/nanstdevyc/docs/img/equation_population_standard_deviation.svg" alt="Equation for the population standard deviation.">
     <br>
 </div> -->
 
@@ -48,7 +48,7 @@ where the population mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\mu = \frac{1}{N} \sum_{i=0}^{N-1} x_i" data-equation="eq:population_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@8e7c31bfe267fe8d9af267eb3ae880d98772a2d1/lib/node_modules/@stdlib/stats/base/nanstdevpn/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fd9ce3e3db4eb5f6a809d92f1baa358dbfd134b0/lib/node_modules/@stdlib/stats/strided/nanstdevyc/docs/img/equation_population_mean.svg" alt="Equation for the population mean.">
     <br>
 </div> -->
 
@@ -63,7 +63,7 @@ s = \sqrt{\frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2}
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="s = \sqrt{\frac{1}{n-1} \sum_{i=0}^{n-1} (x_i - \bar{x})^2}" data-equation="eq:corrected_sample_standard_deviation">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@8e7c31bfe267fe8d9af267eb3ae880d98772a2d1/lib/node_modules/@stdlib/stats/base/nanstdevpn/docs/img/equation_corrected_sample_standard_deviation.svg" alt="Equation for computing a corrected sample standard deviation.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fd9ce3e3db4eb5f6a809d92f1baa358dbfd134b0/lib/node_modules/@stdlib/stats/strided/nanstdevyc/docs/img/equation_corrected_sample_standard_deviation.svg" alt="Equation for computing a corrected sample standard deviation.">
     <br>
 </div> -->
 
@@ -78,7 +78,7 @@ where the sample mean is given by
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:sample_mean">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@8e7c31bfe267fe8d9af267eb3ae880d98772a2d1/lib/node_modules/@stdlib/stats/base/nanstdevpn/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@fd9ce3e3db4eb5f6a809d92f1baa358dbfd134b0/lib/node_modules/@stdlib/stats/strided/nanstdevyc/docs/img/equation_sample_mean.svg" alt="Equation for the sample mean.">
     <br>
 </div> -->
 
@@ -95,17 +95,17 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
-var nanstdevpn = require( '@stdlib/stats/base/nanstdevpn' );
+var nanstdevyc = require( '@stdlib/stats/strided/nanstdevyc' );
 ```
 
-#### nanstdevpn( N, correction, x, strideX )
+#### nanstdevyc( N, correction, x, strideX )
 
-Computes the [standard deviation][standard-deviation] of a strided array ignoring `NaN` values and using a two-pass algorithm.
+Computes the [standard deviation][standard-deviation] of a strided array ignoring `NaN` values and using a one-pass algorithm proposed by Youngs and Cramer.
 
 ```javascript
 var x = [ 1.0, -2.0, NaN, 2.0 ];
 
-var v = nanstdevpn( x.length, 1, x, 1 );
+var v = nanstdevyc( x.length, 1, x, 1 );
 // returns ~2.0817
 ```
 
@@ -116,12 +116,12 @@ The function has the following parameters:
 -   **x**: input [`Array`][mdn-array] or [`typed array`][mdn-typed-array].
 -   **strideX**: stride length for `x`.
 
-The `N` and `stride` parameters determine which elements in `x` are accessed at runtime. For example, to compute the [standard deviation][standard-deviation] of every other element in `x`,
+The `N` and stride parameters determine which elements in the strided arrays are accessed at runtime. For example, to compute the [standard deviation][standard-deviation] of every other element in `x`,
 
 ```javascript
 var x = [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0, NaN, NaN ];
 
-var v = nanstdevpn( 5, 1, x, 2 );
+var v = nanstdevyc( 5, 1, x, 2 );
 // returns 2.5
 ```
 
@@ -135,18 +135,18 @@ var Float64Array = require( '@stdlib/array/float64' );
 var x0 = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ] );
 var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var v = nanstdevpn( 5, 1, x1, 2 );
+var v = nanstdevyc( 5, 1, x1, 2 );
 // returns 2.5
 ```
 
-#### nanstdevpn.ndarray( N, correction, x, strideX, offsetX )
+#### nanstdevyc.ndarray( N, correction, x, strideX, offsetX )
 
-Computes the [standard deviation][standard-deviation] of a strided array ignoring `NaN` values and using a two-pass algorithm and alternative indexing semantics.
+Computes the [standard deviation][standard-deviation] of a strided array ignoring `NaN` values and using a one-pass algorithm proposed by Youngs and Cramer and alternative indexing semantics.
 
 ```javascript
 var x = [ 1.0, -2.0, NaN, 2.0 ];
 
-var v = nanstdevpn.ndarray( x.length, 1, x, 1, 0 );
+var v = nanstdevyc.ndarray( x.length, 1, x, 1, 0 );
 // returns ~2.0817
 ```
 
@@ -159,7 +159,7 @@ While [`typed array`][mdn-typed-array] views mandate a view offset based on the 
 ```javascript
 var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
 
-var v = nanstdevpn.ndarray( 5, 1, x, 2, 1 );
+var v = nanstdevyc.ndarray( 5, 1, x, 2, 1 );
 // returns 2.5
 ```
 
@@ -174,7 +174,7 @@ var v = nanstdevpn.ndarray( 5, 1, x, 2, 1 );
 -   If `N <= 0`, both functions return `NaN`.
 -   If `n - c` is less than or equal to `0` (where `c` corresponds to the provided degrees of freedom adjustment and `n` corresponds to the number of non-`NaN` indexed elements), both functions return `NaN`.
 -   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array/base/accessor`][@stdlib/array/base/accessor]).
--   Depending on the environment, the typed versions ([`dnanstdevpn`][@stdlib/stats/strided/dnanstdevpn], [`snanstdevpn`][@stdlib/stats/base/snanstdevpn], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dnanstdevyc`][@stdlib/stats/strided/dnanstdevyc], [`snanstdevyc`][@stdlib/stats/base/snanstdevyc], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -190,7 +190,7 @@ var v = nanstdevpn.ndarray( 5, 1, x, 2, 1 );
 var uniform = require( '@stdlib/random/base/uniform' );
 var filledarrayBy = require( '@stdlib/array/filled-by' );
 var bernoulli = require( '@stdlib/random/base/bernoulli' );
-var nanstdevpn = require( '@stdlib/stats/base/nanstdevpn' );
+var nanstdevyc = require( '@stdlib/stats/strided/nanstdevyc' );
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
@@ -199,10 +199,10 @@ function rand() {
     return uniform( -50.0, 50.0 );
 }
 
-var x = filledarrayBy( 10, 'float64', rand );
+var x = filledarrayBy( 10, 'generic', rand );
 console.log( x );
 
-var v = nanstdevpn( x.length, 1, x, 1 );
+var v = nanstdevyc( x.length, 1, x, 1 );
 console.log( v );
 ```
 
@@ -216,8 +216,7 @@ console.log( v );
 
 ## References
 
--   Neely, Peter M. 1966. "Comparison of Several Algorithms for Computation of Means, Standard Deviations and Correlation Coefficients." _Communications of the ACM_ 9 (7). Association for Computing Machinery: 496–99. doi:[10.1145/365719.365958][@neely:1966a].
--   Schubert, Erich, and Michael Gertz. 2018. "Numerically Stable Parallel Computation of (Co-)Variance." In _Proceedings of the 30th International Conference on Scientific and Statistical Database Management_. New York, NY, USA: Association for Computing Machinery. doi:[10.1145/3221269.3223036][@schubert:2018a].
+-   Youngs, Edward A., and Elliot M. Cramer. 1971. "Some Results Relevant to Choice of Sum and Sum-of-Product Algorithms." _Technometrics_ 13 (3): 657–65. doi:[10.1080/00401706.1971.10488826][@youngs:1971a].
 
 </section>
 
@@ -231,11 +230,11 @@ console.log( v );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/strided/dnanstdevpn`][@stdlib/stats/strided/dnanstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values and using a two-pass algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/strided/nanvariancepn`][@stdlib/stats/strided/nanvariancepn]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values and using a two-pass algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/base/nanstdev`][@stdlib/stats/base/nanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats/base/snanstdevpn`][@stdlib/stats/base/snanstdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a two-pass algorithm.</span>
--   <span class="package-name">[`@stdlib/stats/strided/stdevpn`][@stdlib/stats/strided/stdevpn]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a two-pass algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dnanstdevyc`][@stdlib/stats/strided/dnanstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanvarianceyc`][@stdlib/stats/strided/nanvarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/nanstdev`][@stdlib/stats/strided/nanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats/base/snanstdevyc`][@stdlib/stats/base/snanstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/stdevyc`][@stdlib/stats/strided/stdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
 
 </section>
 
@@ -251,23 +250,21 @@ console.log( v );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+[@youngs:1971a]: https://doi.org/10.1080/00401706.1971.10488826
+
 [@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
-
-[@neely:1966a]: https://doi.org/10.1145/365719.365958
-
-[@schubert:2018a]: https://doi.org/10.1145/3221269.3223036
 
 <!-- <related-links> -->
 
-[@stdlib/stats/strided/dnanstdevpn]: https://github.com/stdlib-js/stats/tree/main/strided/dnanstdevpn
+[@stdlib/stats/strided/dnanstdevyc]: https://github.com/stdlib-js/stats/tree/main/strided/dnanstdevyc
 
-[@stdlib/stats/strided/nanvariancepn]: https://github.com/stdlib-js/stats/tree/main/strided/nanvariancepn
+[@stdlib/stats/strided/nanvarianceyc]: https://github.com/stdlib-js/stats/tree/main/strided/nanvarianceyc
 
-[@stdlib/stats/base/nanstdev]: https://github.com/stdlib-js/stats/tree/main/base/nanstdev
+[@stdlib/stats/strided/nanstdev]: https://github.com/stdlib-js/stats/tree/main/strided/nanstdev
 
-[@stdlib/stats/base/snanstdevpn]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevpn
+[@stdlib/stats/base/snanstdevyc]: https://github.com/stdlib-js/stats/tree/main/base/snanstdevyc
 
-[@stdlib/stats/strided/stdevpn]: https://github.com/stdlib-js/stats/tree/main/strided/stdevpn
+[@stdlib/stats/strided/stdevyc]: https://github.com/stdlib-js/stats/tree/main/strided/stdevyc
 
 <!-- </related-links> -->
 

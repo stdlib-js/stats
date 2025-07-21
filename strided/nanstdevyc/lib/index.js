@@ -21,10 +21,10 @@
 /**
 * Compute the standard deviation of a strided array ignoring `NaN` values and using a one-pass algorithm proposed by Youngs and Cramer.
 *
-* @module @stdlib/stats/base/nanstdevyc
+* @module @stdlib/stats/strided/nanstdevyc
 *
 * @example
-* var nanstdevyc = require( '@stdlib/stats/base/nanstdevyc' );
+* var nanstdevyc = require( '@stdlib/stats/strided/nanstdevyc' );
 *
 * var x = [ 1.0, -2.0, NaN, 2.0 ];
 *
@@ -32,7 +32,7 @@
 * // returns ~2.0817
 *
 * @example
-* var nanstdevyc = require( '@stdlib/stats/base/nanstdevyc' );
+* var nanstdevyc = require( '@stdlib/stats/strided/nanstdevyc' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
 *

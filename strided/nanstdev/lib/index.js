@@ -19,24 +19,24 @@
 'use strict';
 
 /**
-* Compute the standard deviation of a strided array ignoring `NaN` values and using a two-pass algorithm.
+* Compute the standard deviation of a strided array ignoring `NaN` values.
 *
-* @module @stdlib/stats/base/nanstdevpn
+* @module @stdlib/stats/strided/nanstdev
 *
 * @example
-* var nanstdevpn = require( '@stdlib/stats/base/nanstdevpn' );
+* var nanstdev = require( '@stdlib/stats/strided/nanstdev' );
 *
 * var x = [ 1.0, -2.0, NaN, 2.0 ];
 *
-* var v = nanstdevpn( x.length, 1, x, 1 );
+* var v = nanstdev( x.length, 1, x, 1 );
 * // returns ~2.0817
 *
 * @example
-* var nanstdevpn = require( '@stdlib/stats/base/nanstdevpn' );
+* var nanstdev = require( '@stdlib/stats/strided/nanstdev' );
 *
 * var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, NaN, NaN ];
 *
-* var v = nanstdevpn.ndarray( 5, 1, x, 2, 1 );
+* var v = nanstdev.ndarray( 5, 1, x, 2, 1 );
 * // returns 2.5
 */
 

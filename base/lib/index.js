@@ -82,60 +82,6 @@ setReadOnly( ns, 'cuminabs', require( './../../base/cuminabs' ) );
 setReadOnly( ns, 'dists', require( './../../base/dists' ) );
 
 /**
-* @name nanstdev
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanstdev}
-*/
-setReadOnly( ns, 'nanstdev', require( './../../base/nanstdev' ) );
-
-/**
-* @name nanstdevch
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanstdevch}
-*/
-setReadOnly( ns, 'nanstdevch', require( './../../base/nanstdevch' ) );
-
-/**
-* @name nanstdevpn
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanstdevpn}
-*/
-setReadOnly( ns, 'nanstdevpn', require( './../../base/nanstdevpn' ) );
-
-/**
-* @name nanstdevtk
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanstdevtk}
-*/
-setReadOnly( ns, 'nanstdevtk', require( './../../base/nanstdevtk' ) );
-
-/**
-* @name nanstdevwd
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanstdevwd}
-*/
-setReadOnly( ns, 'nanstdevwd', require( './../../base/nanstdevwd' ) );
-
-/**
-* @name nanstdevyc
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/nanstdevyc}
-*/
-setReadOnly( ns, 'nanstdevyc', require( './../../base/nanstdevyc' ) );
-
-/**
 * @name ndarray
 * @memberof ns
 * @readonly
