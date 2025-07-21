@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2ed2c5f`](https://github.com/stdlib-js/stdlib/commit/2ed2c5f41f9f9f5d509c3748b1c716d71d5861ab) - add `stats/base/ndarray/dztest2` [(#7704)](https://github.com/stdlib-js/stdlib/pull/7704)
 -   [`f3dfedc`](https://github.com/stdlib-js/stdlib/commit/f3dfedcc9f4ba210b01dc91a70579be530d999f7) - add `stats/base/ndarray/sztest2` [(#7703)](https://github.com/stdlib-js/stdlib/pull/7703)
 -   [`79915fb`](https://github.com/stdlib-js/stdlib/commit/79915fbc5fddf69c9045545e207d68bd9a9e5f3f) - add `stats/strided/dztest2` [(#7579)](https://github.com/stdlib-js/stdlib/pull/7579)
 -   [`dc7133c`](https://github.com/stdlib-js/stdlib/commit/dc7133ce521ff84759cb75e0c1955cfe38de220f) - add `stats/array/nanstdevyc` [(#7658)](https://github.com/stdlib-js/stdlib/pull/7658)
@@ -3213,6 +3214,7 @@ A total of 537 issues were closed in this release:
 
 <details>
 
+-   [`2ed2c5f`](https://github.com/stdlib-js/stdlib/commit/2ed2c5f41f9f9f5d509c3748b1c716d71d5861ab) - **feat:** add `stats/base/ndarray/dztest2` [(#7704)](https://github.com/stdlib-js/stdlib/pull/7704) _(by Gururaj Gurram, stdlib-bot)_
 -   [`f3dfedc`](https://github.com/stdlib-js/stdlib/commit/f3dfedcc9f4ba210b01dc91a70579be530d999f7) - **feat:** add `stats/base/ndarray/sztest2` [(#7703)](https://github.com/stdlib-js/stdlib/pull/7703) _(by Gururaj Gurram, Athan Reines)_
 -   [`79915fb`](https://github.com/stdlib-js/stdlib/commit/79915fbc5fddf69c9045545e207d68bd9a9e5f3f) - **feat:** add `stats/strided/dztest2` [(#7579)](https://github.com/stdlib-js/stdlib/pull/7579) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`a12628a`](https://github.com/stdlib-js/stdlib/commit/a12628ad05e60a114fad1165481fd2da16f57886) - **bench:** fix descriptions _(by Athan Reines)_
