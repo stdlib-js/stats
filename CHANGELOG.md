@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b5e028e`](https://github.com/stdlib-js/stdlib/commit/b5e028e71bd38e4a6e13f6c52ad8ebfe94b11711) - add `stats/array/nanstdevtk` [(#7656)](https://github.com/stdlib-js/stdlib/pull/7656)
 -   [`692b133`](https://github.com/stdlib-js/stdlib/commit/692b1330473b00a12db88ff52c7975a3e203ec71) - add `stats/array/nanstdevpn` [(#7655)](https://github.com/stdlib-js/stdlib/pull/7655)
 -   [`0377a72`](https://github.com/stdlib-js/stdlib/commit/0377a72eba4c71cb58de1e548e4912bbd2615477) - add `stats/strided/nanvariance`
 -   [`a10c914`](https://github.com/stdlib-js/stdlib/commit/a10c914cbb24886f7dcdd255e65dcb5416adcc1a) - add `stats/strided/nanvariancech`
@@ -3208,6 +3209,7 @@ A total of 537 issues were closed in this release:
 
 <details>
 
+-   [`b5e028e`](https://github.com/stdlib-js/stdlib/commit/b5e028e71bd38e4a6e13f6c52ad8ebfe94b11711) - **feat:** add `stats/array/nanstdevtk` [(#7656)](https://github.com/stdlib-js/stdlib/pull/7656) _(by Gururaj Gurram)_
 -   [`692b133`](https://github.com/stdlib-js/stdlib/commit/692b1330473b00a12db88ff52c7975a3e203ec71) - **feat:** add `stats/array/nanstdevpn` [(#7655)](https://github.com/stdlib-js/stdlib/pull/7655) _(by Gururaj Gurram)_
 -   [`27435b3`](https://github.com/stdlib-js/stdlib/commit/27435b36d50175f885a99d5a4e17c999225a9533) - **docs:** remove trailing empty lines [(#7701)](https://github.com/stdlib-js/stdlib/pull/7701) _(by stdlib-bot)_
 -   [`d8dd116`](https://github.com/stdlib-js/stdlib/commit/d8dd11669e80ed814975d2c941aa315d878a9fb0) - **docs:** fix description _(by Athan Reines)_
