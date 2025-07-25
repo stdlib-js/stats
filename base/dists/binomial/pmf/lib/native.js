@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,50 +18,51 @@
 
 'use strict';
 
-/**
-* Binomial distribution probability mass function (PMF).
-*
-* @module @stdlib/stats/base/dists/binomial/pmf
-*
-* @example
-* var pmf = require( '@stdlib/stats/base/dists/binomial/pmf' );
-*
-* var y = pmf( 3.0, 20, 0.2 );
-* // returns ~0.205
-*
-* y = pmf( 21.0, 20, 0.2 );
-* // returns 0.0
-*
-* y = pmf( 5.0, 10, 0.4 );
-* // returns ~0.201
-*
-* y = pmf( 0.0, 10, 0.4 );
-* // returns ~0.006
-*
-* @example
-* var factory = require( '@stdlib/stats/base/dists/binomial/pmf' ).factory;
-*
-* var pmf = factory( 10, 0.5 );
-*
-* var y = pmf( 3.0 );
-* // returns ~0.117
-*
-* y = pmf( 5.0 );
-* // returns ~0.246
-*/
-
 // MODULES //
 
-var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var main = require( './main.js' );
-var factory = require( './factory.js' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
 
-setReadOnly( main, 'factory', factory );
+/**
+* Evaluates the probability mass function (PMF) for a binomial distribution with number of trials `n` and success probability `p` at a value `x`.
+*
+* @private
+* @param {number} x - input value
+* @param {NonNegativeInteger} n - number of trials
+* @param {Probability} p - success probability
+* @returns {Probability} evaluated PMF
+*
+* @example
+* var y = pmf( 3.0, 20, 0.2 );
+* // returns ~0.205
+*
+* @example
+* var y = pmf( 21.0, 20, 0.2 );
+* // returns 0.0
+*
+* @example
+* var y = pmf( 5.0, 10, 0.4 );
+* // returns ~0.201
+*
+* @example
+* var y = pmf( 0.0, 10, 0.4 );
+* // returns ~0.006
+*
+* @example
+* var y = pmf( NaN, 20, 0.5 );
+* // returns NaN
+*
+* @example
+* var y = pmf( 0.0, 20, NaN );
+* // returns NaN
+*/
+function pmf( x, n, p ) {
+	return addon( x, n, p );
+}
 
 
 // EXPORTS //
 
-module.exports = main;
+module.exports = pmf;
