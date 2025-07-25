@@ -3294,6 +3294,7 @@ A total of 539 issues were closed in this release:
 
 <details>
 
+-   [`47382c3`](https://github.com/stdlib-js/stdlib/commit/47382c3cda5d0001d557f837bab70cba9da43ccc) - **chore:** fix JavaScript lint errors [(#7729)](https://github.com/stdlib-js/stdlib/pull/7729) _(by Siddhesh waje, Athan Reines)_
 -   [`797e534`](https://github.com/stdlib-js/stdlib/commit/797e53461faa68130f467a325f4996892e62a05a) - **feat:** add C implementation for `stats/base/dists/binomial/pmf` [(#4359)](https://github.com/stdlib-js/stdlib/pull/4359) _(by Abhijit Raut, Philipp Burckhardt, stdlib-bot)_
 -   [`394df9c`](https://github.com/stdlib-js/stdlib/commit/394df9cbfe1e319625331814813bfffb5113d8d6) - **feat:** add C implementation for `stats/base/dists/binomial/entropy` [(#4016)](https://github.com/stdlib-js/stdlib/pull/4016) _(by Divyansh Seth, Philipp Burckhardt, stdlib-bot)_
 -   [`dbfb45d`](https://github.com/stdlib-js/stdlib/commit/dbfb45db7d075160f3c6873f31268ab6877bb8c9) - **fix:** correct calculation for x variance _(by Philipp Burckhardt)_
@@ -5863,7 +5864,7 @@ A total of 539 issues were closed in this release:
 
 ### Contributors
 
-A total of 74 people contributed to this release. Thank you to the following contributors:
+A total of 75 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -5927,6 +5928,7 @@ A total of 74 people contributed to this release. Thank you to the following con
 -   Saurabh Singh
 -   Shabareesh Shetty
 -   Shivansh
+-   Siddhesh waje
 -   Tanishq Ahuja
 -   Vinit Pandit
 -   Vivek Maurya
