@@ -3295,6 +3295,7 @@ A total of 539 issues were closed in this release:
 
 <details>
 
+-   [`fcafc72`](https://github.com/stdlib-js/stdlib/commit/fcafc72d6526a4d3346531c85cebe28c0211393a) - **docs:** update description _(by Athan Reines)_
 -   [`7664323`](https://github.com/stdlib-js/stdlib/commit/7664323090022ab8df2134939207585fe2c356af) - **docs:** fix orphan section _(by Athan Reines)_
 -   [`b6e1e36`](https://github.com/stdlib-js/stdlib/commit/b6e1e361ee0e0771c29f78cd9a576c84614e5f50) - **feat:** add `stats/base/ndarray/dcovarmtk` [(#7692)](https://github.com/stdlib-js/stdlib/pull/7692) _(by Gururaj Gurram)_
 -   [`47382c3`](https://github.com/stdlib-js/stdlib/commit/47382c3cda5d0001d557f837bab70cba9da43ccc) - **chore:** fix JavaScript lint errors [(#7729)](https://github.com/stdlib-js/stdlib/pull/7729) _(by Siddhesh waje, Athan Reines)_
