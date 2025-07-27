@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7aab14b`](https://github.com/stdlib-js/stdlib/commit/7aab14b3dd6e1e8111d18deb92625984e9d1971c) - add C ndarray interface and refactor implementation for `stats/base/sstdevwd` [(#7721)](https://github.com/stdlib-js/stdlib/pull/7721)
 -   [`cc5caf6`](https://github.com/stdlib-js/stdlib/commit/cc5caf61e67f92737aad055a384dd2b41cf74ebf) - add C ndarray API and refactor for `stats/base/sdsnanmeanors` [(#4727)](https://github.com/stdlib-js/stdlib/pull/4727)
 -   [`6b61a7a`](https://github.com/stdlib-js/stdlib/commit/6b61a7a150d1087c3a6194c6386316c375bc7bd2) - add `stats/base/ndarray/covarmtk` [(#7712)](https://github.com/stdlib-js/stdlib/pull/7712)
 -   [`cefac8d`](https://github.com/stdlib-js/stdlib/commit/cefac8d407d907adb4f825197bc9a3d921f1f875) - add `stats/base/ndarray/scovarmtk` [(#7693)](https://github.com/stdlib-js/stdlib/pull/7693)
@@ -3298,6 +3299,7 @@ A total of 539 issues were closed in this release:
 
 <details>
 
+-   [`7aab14b`](https://github.com/stdlib-js/stdlib/commit/7aab14b3dd6e1e8111d18deb92625984e9d1971c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sstdevwd` [(#7721)](https://github.com/stdlib-js/stdlib/pull/7721) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`cc5caf6`](https://github.com/stdlib-js/stdlib/commit/cc5caf61e67f92737aad055a384dd2b41cf74ebf) - **feat:** add C ndarray API and refactor for `stats/base/sdsnanmeanors` [(#4727)](https://github.com/stdlib-js/stdlib/pull/4727) _(by Dhruv Arvind Singh, Athan Reines, stdlib-bot, Gururaj Gurram)_
 -   [`6b61a7a`](https://github.com/stdlib-js/stdlib/commit/6b61a7a150d1087c3a6194c6386316c375bc7bd2) - **feat:** add `stats/base/ndarray/covarmtk` [(#7712)](https://github.com/stdlib-js/stdlib/pull/7712) _(by Gururaj Gurram, Athan Reines)_
 -   [`cefac8d`](https://github.com/stdlib-js/stdlib/commit/cefac8d407d907adb4f825197bc9a3d921f1f875) - **feat:** add `stats/base/ndarray/scovarmtk` [(#7693)](https://github.com/stdlib-js/stdlib/pull/7693) _(by Gururaj Gurram, Athan Reines)_
