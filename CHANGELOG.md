@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`cc5caf6`](https://github.com/stdlib-js/stdlib/commit/cc5caf61e67f92737aad055a384dd2b41cf74ebf) - add C ndarray API and refactor for `stats/base/sdsnanmeanors` [(#4727)](https://github.com/stdlib-js/stdlib/pull/4727)
 -   [`6b61a7a`](https://github.com/stdlib-js/stdlib/commit/6b61a7a150d1087c3a6194c6386316c375bc7bd2) - add `stats/base/ndarray/covarmtk` [(#7712)](https://github.com/stdlib-js/stdlib/pull/7712)
 -   [`cefac8d`](https://github.com/stdlib-js/stdlib/commit/cefac8d407d907adb4f825197bc9a3d921f1f875) - add `stats/base/ndarray/scovarmtk` [(#7693)](https://github.com/stdlib-js/stdlib/pull/7693)
 -   [`b6e1e36`](https://github.com/stdlib-js/stdlib/commit/b6e1e361ee0e0771c29f78cd9a576c84614e5f50) - add `stats/base/ndarray/dcovarmtk` [(#7692)](https://github.com/stdlib-js/stdlib/pull/7692)
@@ -3297,6 +3298,7 @@ A total of 539 issues were closed in this release:
 
 <details>
 
+-   [`cc5caf6`](https://github.com/stdlib-js/stdlib/commit/cc5caf61e67f92737aad055a384dd2b41cf74ebf) - **feat:** add C ndarray API and refactor for `stats/base/sdsnanmeanors` [(#4727)](https://github.com/stdlib-js/stdlib/pull/4727) _(by Dhruv Arvind Singh, Athan Reines, stdlib-bot, Gururaj Gurram)_
 -   [`6b61a7a`](https://github.com/stdlib-js/stdlib/commit/6b61a7a150d1087c3a6194c6386316c375bc7bd2) - **feat:** add `stats/base/ndarray/covarmtk` [(#7712)](https://github.com/stdlib-js/stdlib/pull/7712) _(by Gururaj Gurram, Athan Reines)_
 -   [`cefac8d`](https://github.com/stdlib-js/stdlib/commit/cefac8d407d907adb4f825197bc9a3d921f1f875) - **feat:** add `stats/base/ndarray/scovarmtk` [(#7693)](https://github.com/stdlib-js/stdlib/pull/7693) _(by Gururaj Gurram, Athan Reines)_
 -   [`fcafc72`](https://github.com/stdlib-js/stdlib/commit/fcafc72d6526a4d3346531c85cebe28c0211393a) - **docs:** update description _(by Athan Reines)_
