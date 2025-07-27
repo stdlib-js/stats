@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`cefac8d`](https://github.com/stdlib-js/stdlib/commit/cefac8d407d907adb4f825197bc9a3d921f1f875) - add `stats/base/ndarray/scovarmtk` [(#7693)](https://github.com/stdlib-js/stdlib/pull/7693)
 -   [`b6e1e36`](https://github.com/stdlib-js/stdlib/commit/b6e1e361ee0e0771c29f78cd9a576c84614e5f50) - add `stats/base/ndarray/dcovarmtk` [(#7692)](https://github.com/stdlib-js/stdlib/pull/7692)
 -   [`797e534`](https://github.com/stdlib-js/stdlib/commit/797e53461faa68130f467a325f4996892e62a05a) - add C implementation for `stats/base/dists/binomial/pmf` [(#4359)](https://github.com/stdlib-js/stdlib/pull/4359)
 -   [`394df9c`](https://github.com/stdlib-js/stdlib/commit/394df9cbfe1e319625331814813bfffb5113d8d6) - add C implementation for `stats/base/dists/binomial/entropy` [(#4016)](https://github.com/stdlib-js/stdlib/pull/4016)
@@ -3295,6 +3296,7 @@ A total of 539 issues were closed in this release:
 
 <details>
 
+-   [`cefac8d`](https://github.com/stdlib-js/stdlib/commit/cefac8d407d907adb4f825197bc9a3d921f1f875) - **feat:** add `stats/base/ndarray/scovarmtk` [(#7693)](https://github.com/stdlib-js/stdlib/pull/7693) _(by Gururaj Gurram, Athan Reines)_
 -   [`fcafc72`](https://github.com/stdlib-js/stdlib/commit/fcafc72d6526a4d3346531c85cebe28c0211393a) - **docs:** update description _(by Athan Reines)_
 -   [`7664323`](https://github.com/stdlib-js/stdlib/commit/7664323090022ab8df2134939207585fe2c356af) - **docs:** fix orphan section _(by Athan Reines)_
 -   [`b6e1e36`](https://github.com/stdlib-js/stdlib/commit/b6e1e361ee0e0771c29f78cd9a576c84614e5f50) - **feat:** add `stats/base/ndarray/dcovarmtk` [(#7692)](https://github.com/stdlib-js/stdlib/pull/7692) _(by Gururaj Gurram)_
