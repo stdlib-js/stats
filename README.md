@@ -46,7 +46,7 @@ npm install @stdlib/stats
 Alternatively,
 
 -   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage instructions).
 -   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
 
 The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
