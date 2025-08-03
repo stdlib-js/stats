@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-29)
+## Unreleased (2025-08-03)
 
 <section class="features">
 
@@ -3299,6 +3299,7 @@ A total of 541 issues were closed in this release:
 
 <details>
 
+-   [`5c0a9df`](https://github.com/stdlib-js/stdlib/commit/5c0a9df7ce9e03e36ea29d89b8f2852a4b0c3e3c) - **style:** remove empty lines [(#7795)](https://github.com/stdlib-js/stdlib/pull/7795) _(by stdlib-bot)_
 -   [`7174b1d`](https://github.com/stdlib-js/stdlib/commit/7174b1d9840374153f03de7ef79ac8112e4fdd17) - **chore:** fix EditorConfig lint errors [(#7764)](https://github.com/stdlib-js/stdlib/pull/7764) _(by Vansh Choudhary)_
 -   [`b6ca4b7`](https://github.com/stdlib-js/stdlib/commit/b6ca4b794ee6a139616ef2115e7ba38bdede2f85) - **docs:** fix capitalization [(#7763)](https://github.com/stdlib-js/stdlib/pull/7763) _(by Abhishek G, Athan Reines)_
 -   [`7aab14b`](https://github.com/stdlib-js/stdlib/commit/7aab14b3dd6e1e8111d18deb92625984e9d1971c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/sstdevwd` [(#7721)](https://github.com/stdlib-js/stdlib/pull/7721) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
