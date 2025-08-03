@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`cd135d6`](https://github.com/stdlib-js/stdlib/commit/cd135d6f2fa4586cc92729ca016242262eb04ad1) - add `stats/min` [(#7791)](https://github.com/stdlib-js/stdlib/pull/7791)
 -   [`7aab14b`](https://github.com/stdlib-js/stdlib/commit/7aab14b3dd6e1e8111d18deb92625984e9d1971c) - add C ndarray interface and refactor implementation for `stats/base/sstdevwd` [(#7721)](https://github.com/stdlib-js/stdlib/pull/7721)
 -   [`cc5caf6`](https://github.com/stdlib-js/stdlib/commit/cc5caf61e67f92737aad055a384dd2b41cf74ebf) - add C ndarray API and refactor for `stats/base/sdsnanmeanors` [(#4727)](https://github.com/stdlib-js/stdlib/pull/4727)
 -   [`6b61a7a`](https://github.com/stdlib-js/stdlib/commit/6b61a7a150d1087c3a6194c6386316c375bc7bd2) - add `stats/base/ndarray/covarmtk` [(#7712)](https://github.com/stdlib-js/stdlib/pull/7712)
@@ -3299,6 +3300,7 @@ A total of 541 issues were closed in this release:
 
 <details>
 
+-   [`cd135d6`](https://github.com/stdlib-js/stdlib/commit/cd135d6f2fa4586cc92729ca016242262eb04ad1) - **feat:** add `stats/min` [(#7791)](https://github.com/stdlib-js/stdlib/pull/7791) _(by Gururaj Gurram)_
 -   [`5c0a9df`](https://github.com/stdlib-js/stdlib/commit/5c0a9df7ce9e03e36ea29d89b8f2852a4b0c3e3c) - **style:** remove empty lines [(#7795)](https://github.com/stdlib-js/stdlib/pull/7795) _(by stdlib-bot)_
 -   [`7174b1d`](https://github.com/stdlib-js/stdlib/commit/7174b1d9840374153f03de7ef79ac8112e4fdd17) - **chore:** fix EditorConfig lint errors [(#7764)](https://github.com/stdlib-js/stdlib/pull/7764) _(by Vansh Choudhary)_
 -   [`b6ca4b7`](https://github.com/stdlib-js/stdlib/commit/b6ca4b794ee6a139616ef2115e7ba38bdede2f85) - **docs:** fix capitalization [(#7763)](https://github.com/stdlib-js/stdlib/pull/7763) _(by Abhishek G, Athan Reines)_
