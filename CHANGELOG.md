@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-03)
+## Unreleased (2025-08-09)
 
 <section class="features">
 
 ### Features
 
+-   [`615ca97`](https://github.com/stdlib-js/stdlib/commit/615ca97ab62902c268fe9e0ac1a3f628630280cb) - add `stats/base/ndarray/dmaxabs` [(#7836)](https://github.com/stdlib-js/stdlib/pull/7836)
 -   [`e292ce7`](https://github.com/stdlib-js/stdlib/commit/e292ce728511dbe6b41907c38339a0af379e4051) - add `stats/range` [(#7798)](https://github.com/stdlib-js/stdlib/pull/7798)
 -   [`cd135d6`](https://github.com/stdlib-js/stdlib/commit/cd135d6f2fa4586cc92729ca016242262eb04ad1) - add `stats/min` [(#7791)](https://github.com/stdlib-js/stdlib/pull/7791)
 -   [`7aab14b`](https://github.com/stdlib-js/stdlib/commit/7aab14b3dd6e1e8111d18deb92625984e9d1971c) - add C ndarray interface and refactor implementation for `stats/base/sstdevwd` [(#7721)](https://github.com/stdlib-js/stdlib/pull/7721)
@@ -3301,6 +3302,11 @@ A total of 541 issues were closed in this release:
 
 <details>
 
+-   [`615ca97`](https://github.com/stdlib-js/stdlib/commit/615ca97ab62902c268fe9e0ac1a3f628630280cb) - **feat:** add `stats/base/ndarray/dmaxabs` [(#7836)](https://github.com/stdlib-js/stdlib/pull/7836) _(by Gururaj Gurram)_
+-   [`504a3f1`](https://github.com/stdlib-js/stdlib/commit/504a3f1d1db20b670b48efd1c292d7efbb433b58) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`b20b024`](https://github.com/stdlib-js/stdlib/commit/b20b0247ea520b8f715d41851cb7b1fbfdf2122d) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`153c9c1`](https://github.com/stdlib-js/stdlib/commit/153c9c19e7e5bc138e18500cea598365d6df55d8) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`52ff2d9`](https://github.com/stdlib-js/stdlib/commit/52ff2d9dd297d77ae607ff615a47715bc68470c0) - **style:** add missing semicolons _(by Philipp Burckhardt)_
 -   [`e292ce7`](https://github.com/stdlib-js/stdlib/commit/e292ce728511dbe6b41907c38339a0af379e4051) - **feat:** add `stats/range` [(#7798)](https://github.com/stdlib-js/stdlib/pull/7798) _(by Gururaj Gurram)_
 -   [`cd135d6`](https://github.com/stdlib-js/stdlib/commit/cd135d6f2fa4586cc92729ca016242262eb04ad1) - **feat:** add `stats/min` [(#7791)](https://github.com/stdlib-js/stdlib/pull/7791) _(by Gururaj Gurram)_
 -   [`5c0a9df`](https://github.com/stdlib-js/stdlib/commit/5c0a9df7ce9e03e36ea29d89b8f2852a4b0c3e3c) - **style:** remove empty lines [(#7795)](https://github.com/stdlib-js/stdlib/pull/7795) _(by stdlib-bot)_
