@@ -26,7 +26,7 @@ import { float64ndarray } from '@stdlib/types/ndarray';
 * Computes the maximum absolute value of a one-dimensional double-precision floating-point ndarray.
 *
 * @param arrays - array-like object containing an input ndarray
-* @returns maximum value
+* @returns maximum absolute value
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );

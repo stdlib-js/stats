@@ -13,7 +13,7 @@
     Returns
     -------
     out: number
-        Maximum value.
+        Maximum absolute value.
 
     Examples
     --------

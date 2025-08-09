@@ -33,7 +33,7 @@ var strided = require( './../../../../strided/maxabs' ).ndarray;
 * Computes the maximum absolute value of a one-dimensional ndarray.
 *
 * @param {ArrayLikeObject<Object>} arrays - array-like object containing an input ndarray
-* @returns {number} maximum value
+* @returns {number} maximum absolute value
 *
 * @example
 * var ndarray = require( '@stdlib/ndarray/base/ctor' );

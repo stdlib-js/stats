@@ -26,7 +26,7 @@ import { ndarray } from '@stdlib/types/ndarray';
 * Computes the maximum absolute value of a one-dimensional ndarray.
 *
 * @param arrays - array-like object containing an input ndarray
-* @returns maximum value
+* @returns maximum absolute value
 *
 * @example
 * var ndarray = require( '@stdlib/ndarray/base/ctor' );
