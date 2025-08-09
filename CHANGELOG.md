@@ -3309,6 +3309,7 @@ A total of 541 issues were closed in this release:
 
 <details>
 
+-   [`492af1d`](https://github.com/stdlib-js/stdlib/commit/492af1d2ee1a9aa44c5820d8cf71d5f2d81d62f7) - **docs:** fix notes _(by Athan Reines)_
 -   [`17a1dba`](https://github.com/stdlib-js/stdlib/commit/17a1dbab31423ee7aa76d6b497a3f0ab8bc0a2d1) - **feat:** add `stats/mean` [(#7824)](https://github.com/stdlib-js/stdlib/pull/7824) _(by Gururaj Gurram, stdlib-bot)_
 -   [`f845fcc`](https://github.com/stdlib-js/stdlib/commit/f845fcc73a4480d93c8a330a193180a0d962a3e3) - **feat:** add `stats/maxabs` [(#7837)](https://github.com/stdlib-js/stdlib/pull/7837) _(by Gururaj Gurram, stdlib-bot)_
 -   [`6fc31e1`](https://github.com/stdlib-js/stdlib/commit/6fc31e1057e63858264b0738dc235ca05ca9448b) - **docs:** update return value descriptions _(by Philipp Burckhardt)_
