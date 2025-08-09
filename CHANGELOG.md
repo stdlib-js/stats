@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4d492dd`](https://github.com/stdlib-js/stdlib/commit/4d492dd05272453887a4e00cb83fa3c17cb193db) - add `stats/base/ndarray/maxabs` [(#7835)](https://github.com/stdlib-js/stdlib/pull/7835)
 -   [`615ca97`](https://github.com/stdlib-js/stdlib/commit/615ca97ab62902c268fe9e0ac1a3f628630280cb) - add `stats/base/ndarray/dmaxabs` [(#7836)](https://github.com/stdlib-js/stdlib/pull/7836)
 -   [`e292ce7`](https://github.com/stdlib-js/stdlib/commit/e292ce728511dbe6b41907c38339a0af379e4051) - add `stats/range` [(#7798)](https://github.com/stdlib-js/stdlib/pull/7798)
 -   [`cd135d6`](https://github.com/stdlib-js/stdlib/commit/cd135d6f2fa4586cc92729ca016242262eb04ad1) - add `stats/min` [(#7791)](https://github.com/stdlib-js/stdlib/pull/7791)
@@ -3302,6 +3303,7 @@ A total of 541 issues were closed in this release:
 
 <details>
 
+-   [`4d492dd`](https://github.com/stdlib-js/stdlib/commit/4d492dd05272453887a4e00cb83fa3c17cb193db) - **feat:** add `stats/base/ndarray/maxabs` [(#7835)](https://github.com/stdlib-js/stdlib/pull/7835) _(by Gururaj Gurram)_
 -   [`615ca97`](https://github.com/stdlib-js/stdlib/commit/615ca97ab62902c268fe9e0ac1a3f628630280cb) - **feat:** add `stats/base/ndarray/dmaxabs` [(#7836)](https://github.com/stdlib-js/stdlib/pull/7836) _(by Gururaj Gurram)_
 -   [`504a3f1`](https://github.com/stdlib-js/stdlib/commit/504a3f1d1db20b670b48efd1c292d7efbb433b58) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
 -   [`b20b024`](https://github.com/stdlib-js/stdlib/commit/b20b0247ea520b8f715d41851cb7b1fbfdf2122d) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
