@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2533a1b`](https://github.com/stdlib-js/stdlib/commit/2533a1bcd188c2d5f5d6c2bf085a960021b4e99a) - add `stats/base/ndarray/smean` [(#7823)](https://github.com/stdlib-js/stdlib/pull/7823)
 -   [`a34b28a`](https://github.com/stdlib-js/stdlib/commit/a34b28a5f13e77e662c4a6f2180fb19e50dc378d) - add `stats/base/ndarray/smaxabs` [(#7834)](https://github.com/stdlib-js/stdlib/pull/7834)
 -   [`4d492dd`](https://github.com/stdlib-js/stdlib/commit/4d492dd05272453887a4e00cb83fa3c17cb193db) - add `stats/base/ndarray/maxabs` [(#7835)](https://github.com/stdlib-js/stdlib/pull/7835)
 -   [`615ca97`](https://github.com/stdlib-js/stdlib/commit/615ca97ab62902c268fe9e0ac1a3f628630280cb) - add `stats/base/ndarray/dmaxabs` [(#7836)](https://github.com/stdlib-js/stdlib/pull/7836)
@@ -3304,6 +3305,7 @@ A total of 541 issues were closed in this release:
 
 <details>
 
+-   [`2533a1b`](https://github.com/stdlib-js/stdlib/commit/2533a1bcd188c2d5f5d6c2bf085a960021b4e99a) - **feat:** add `stats/base/ndarray/smean` [(#7823)](https://github.com/stdlib-js/stdlib/pull/7823) _(by Gururaj Gurram)_
 -   [`a34b28a`](https://github.com/stdlib-js/stdlib/commit/a34b28a5f13e77e662c4a6f2180fb19e50dc378d) - **feat:** add `stats/base/ndarray/smaxabs` [(#7834)](https://github.com/stdlib-js/stdlib/pull/7834) _(by Gururaj Gurram)_
 -   [`4d492dd`](https://github.com/stdlib-js/stdlib/commit/4d492dd05272453887a4e00cb83fa3c17cb193db) - **feat:** add `stats/base/ndarray/maxabs` [(#7835)](https://github.com/stdlib-js/stdlib/pull/7835) _(by Gururaj Gurram)_
 -   [`615ca97`](https://github.com/stdlib-js/stdlib/commit/615ca97ab62902c268fe9e0ac1a3f628630280cb) - **feat:** add `stats/base/ndarray/dmaxabs` [(#7836)](https://github.com/stdlib-js/stdlib/pull/7836) _(by Gururaj Gurram)_
