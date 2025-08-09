@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a7b8ae0`](https://github.com/stdlib-js/stdlib/commit/a7b8ae0522dacf6a970b5b8cba90fe1a1dbcc9ce) - add `stats/cumin` [(#7799)](https://github.com/stdlib-js/stdlib/pull/7799)
 -   [`c63cbbc`](https://github.com/stdlib-js/stdlib/commit/c63cbbc8dd488c83b5a806324fe2012878e07570) - add `stats/min-by` [(#7792)](https://github.com/stdlib-js/stdlib/pull/7792)
 -   [`17a1dba`](https://github.com/stdlib-js/stdlib/commit/17a1dbab31423ee7aa76d6b497a3f0ab8bc0a2d1) - add `stats/mean` [(#7824)](https://github.com/stdlib-js/stdlib/pull/7824)
 -   [`f845fcc`](https://github.com/stdlib-js/stdlib/commit/f845fcc73a4480d93c8a330a193180a0d962a3e3) - add `stats/maxabs` [(#7837)](https://github.com/stdlib-js/stdlib/pull/7837)
@@ -3310,6 +3311,7 @@ A total of 541 issues were closed in this release:
 
 <details>
 
+-   [`a7b8ae0`](https://github.com/stdlib-js/stdlib/commit/a7b8ae0522dacf6a970b5b8cba90fe1a1dbcc9ce) - **feat:** add `stats/cumin` [(#7799)](https://github.com/stdlib-js/stdlib/pull/7799) _(by Gururaj Gurram)_
 -   [`c63cbbc`](https://github.com/stdlib-js/stdlib/commit/c63cbbc8dd488c83b5a806324fe2012878e07570) - **feat:** add `stats/min-by` [(#7792)](https://github.com/stdlib-js/stdlib/pull/7792) _(by Gururaj Gurram, Athan Reines)_
 -   [`2309e73`](https://github.com/stdlib-js/stdlib/commit/2309e734dac30835ae0da1f0cded664c3bfe39e2) - **docs:** remove dtype restriction _(by Athan Reines)_
 -   [`492af1d`](https://github.com/stdlib-js/stdlib/commit/492af1d2ee1a9aa44c5820d8cf71d5f2d81d62f7) - **docs:** fix notes _(by Athan Reines)_
