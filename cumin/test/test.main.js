@@ -322,7 +322,7 @@ tape( 'the function throws an error if provided a `dims` option which contains d
 	}
 });
 
-tape( 'the function computes the cumulative maximum value over elements in an ndarray (default, row-major)', function test( t ) {
+tape( 'the function computes the cumulative minimum value over elements in an ndarray (default, row-major)', function test( t ) {
 	var expected;
 	var actual;
 	var xbuf;
@@ -343,7 +343,7 @@ tape( 'the function computes the cumulative maximum value over elements in an nd
 	t.end();
 });
 
-tape( 'the function computes the cumulative maximum value over elements in an ndarray (default, column-major)', function test( t ) {
+tape( 'the function computes the cumulative minimum value over elements in an ndarray (default, column-major)', function test( t ) {
 	var expected;
 	var actual;
 	var xbuf;
@@ -364,7 +364,7 @@ tape( 'the function computes the cumulative maximum value over elements in an nd
 	t.end();
 });
 
-tape( 'the function computes the cumulative maximum value over elements in an ndarray (all dimensions, row-major)', function test( t ) {
+tape( 'the function computes the cumulative minimum value over elements in an ndarray (all dimensions, row-major)', function test( t ) {
 	var expected;
 	var actual;
 	var xbuf;
@@ -387,7 +387,7 @@ tape( 'the function computes the cumulative maximum value over elements in an nd
 	t.end();
 });
 
-tape( 'the function computes the cumulative maximum value over elements in an ndarray (all dimensions, column-major)', function test( t ) {
+tape( 'the function computes the cumulative minimum value over elements in an ndarray (all dimensions, column-major)', function test( t ) {
 	var expected;
 	var actual;
 	var xbuf;
@@ -410,7 +410,7 @@ tape( 'the function computes the cumulative maximum value over elements in an nd
 	t.end();
 });
 
-tape( 'the function computes the cumulative maximum value over elements in an ndarray (no dimensions, row-major)', function test( t ) {
+tape( 'the function computes the cumulative minimum value over elements in an ndarray (no dimensions, row-major)', function test( t ) {
 	var expected;
 	var actual;
 	var xbuf;
@@ -433,7 +433,7 @@ tape( 'the function computes the cumulative maximum value over elements in an nd
 	t.end();
 });
 
-tape( 'the function computes the cumulative maximum value over elements in an ndarray (no dimensions, column-major)', function test( t ) {
+tape( 'the function computes the cumulative minimum value over elements in an ndarray (no dimensions, column-major)', function test( t ) {
 	var expected;
 	var actual;
 	var xbuf;
