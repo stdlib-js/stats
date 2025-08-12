@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-10)
+## Unreleased (2025-08-12)
 
 <section class="features">
 
@@ -3311,6 +3311,7 @@ A total of 543 issues were closed in this release:
 
 <details>
 
+-   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`a2fa5eb`](https://github.com/stdlib-js/stdlib/commit/a2fa5eb53203cfd1df88056fb5b4ebf9894c3e87) - **chore:** address commit comments [(#7845)](https://github.com/stdlib-js/stdlib/pull/7845) _(by Nakul Krishnakumar)_
 -   [`6d4aa11`](https://github.com/stdlib-js/stdlib/commit/6d4aa112f7d3eb6e5edaa058484fd833ead94c33) - **chore:** fix C lint errors [(#7843)](https://github.com/stdlib-js/stdlib/pull/7843) _(by GeoDaoyu)_
 -   [`9880cf4`](https://github.com/stdlib-js/stdlib/commit/9880cf4c490d6e7f0299d04ffc4ddf2e69d6565e) - **test:** fix copy & paste error in description _(by Philipp Burckhardt)_
