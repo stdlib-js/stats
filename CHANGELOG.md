@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-12)
+## Unreleased (2025-08-13)
 
 <section class="features">
 
 ### Features
 
+-   [`03fa864`](https://github.com/stdlib-js/stdlib/commit/03fa864694becb2d5bf705033dd106c5fdc2566b) - add C ndarray interface and refactor implementation for `stats/base/snanmean` [(#7705)](https://github.com/stdlib-js/stdlib/pull/7705)
 -   [`a7b8ae0`](https://github.com/stdlib-js/stdlib/commit/a7b8ae0522dacf6a970b5b8cba90fe1a1dbcc9ce) - add `stats/cumin` [(#7799)](https://github.com/stdlib-js/stdlib/pull/7799)
 -   [`c63cbbc`](https://github.com/stdlib-js/stdlib/commit/c63cbbc8dd488c83b5a806324fe2012878e07570) - add `stats/min-by` [(#7792)](https://github.com/stdlib-js/stdlib/pull/7792)
 -   [`17a1dba`](https://github.com/stdlib-js/stdlib/commit/17a1dbab31423ee7aa76d6b497a3f0ab8bc0a2d1) - add `stats/mean` [(#7824)](https://github.com/stdlib-js/stdlib/pull/7824)
@@ -3311,6 +3312,7 @@ A total of 543 issues were closed in this release:
 
 <details>
 
+-   [`03fa864`](https://github.com/stdlib-js/stdlib/commit/03fa864694becb2d5bf705033dd106c5fdc2566b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmean` [(#7705)](https://github.com/stdlib-js/stdlib/pull/7705) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`a2fa5eb`](https://github.com/stdlib-js/stdlib/commit/a2fa5eb53203cfd1df88056fb5b4ebf9894c3e87) - **chore:** address commit comments [(#7845)](https://github.com/stdlib-js/stdlib/pull/7845) _(by Nakul Krishnakumar)_
 -   [`6d4aa11`](https://github.com/stdlib-js/stdlib/commit/6d4aa112f7d3eb6e5edaa058484fd833ead94c33) - **chore:** fix C lint errors [(#7843)](https://github.com/stdlib-js/stdlib/pull/7843) _(by GeoDaoyu)_
