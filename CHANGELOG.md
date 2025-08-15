@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9a6ebbf`](https://github.com/stdlib-js/stdlib/commit/9a6ebbf9243a38173a927cef6a5cc71684bc154a) - add `stats/base/ndarray/nanmax` [(#7886)](https://github.com/stdlib-js/stdlib/pull/7886)
 -   [`9b376e9`](https://github.com/stdlib-js/stdlib/commit/9b376e9f5770676b863131d0fb287fb20397e651) - add `stats/base/ndarray/snanmax` [(#7885)](https://github.com/stdlib-js/stdlib/pull/7885)
 -   [`d9a224c`](https://github.com/stdlib-js/stdlib/commit/d9a224cad0bd2e22084920b487f6fdf72a1065bd) - add `stats/base/ndarray/dnanmax` [(#7884)](https://github.com/stdlib-js/stdlib/pull/7884)
 -   [`9fb612a`](https://github.com/stdlib-js/stdlib/commit/9fb612ab6cd5c28d8900c2c7d161bca5ffcc30ff) - add `stats/minabs` [(#7883)](https://github.com/stdlib-js/stdlib/pull/7883)
@@ -3318,6 +3319,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`9a6ebbf`](https://github.com/stdlib-js/stdlib/commit/9a6ebbf9243a38173a927cef6a5cc71684bc154a) - **feat:** add `stats/base/ndarray/nanmax` [(#7886)](https://github.com/stdlib-js/stdlib/pull/7886) _(by Gururaj Gurram)_
 -   [`9b376e9`](https://github.com/stdlib-js/stdlib/commit/9b376e9f5770676b863131d0fb287fb20397e651) - **feat:** add `stats/base/ndarray/snanmax` [(#7885)](https://github.com/stdlib-js/stdlib/pull/7885) _(by Gururaj Gurram, Athan Reines)_
 -   [`d9a224c`](https://github.com/stdlib-js/stdlib/commit/d9a224cad0bd2e22084920b487f6fdf72a1065bd) - **feat:** add `stats/base/ndarray/dnanmax` [(#7884)](https://github.com/stdlib-js/stdlib/pull/7884) _(by Gururaj Gurram)_
 -   [`993324c`](https://github.com/stdlib-js/stdlib/commit/993324c928a43c5cd49768b6cd2e6666c71340f9) - **docs:** replace manual `for` loop in examples [(#7888)](https://github.com/stdlib-js/stdlib/pull/7888) _(by Harsh)_
