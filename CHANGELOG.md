@@ -3316,6 +3316,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`993324c`](https://github.com/stdlib-js/stdlib/commit/993324c928a43c5cd49768b6cd2e6666c71340f9) - **docs:** replace manual `for` loop in examples [(#7888)](https://github.com/stdlib-js/stdlib/pull/7888) _(by Harsh)_
 -   [`b8343ec`](https://github.com/stdlib-js/stdlib/commit/b8343ec7ccbe3524a933c2ac0e479864fc8169ba) - **docs:** replace manual `for` loop in examples [(#7889)](https://github.com/stdlib-js/stdlib/pull/7889) _(by Harsh)_
 -   [`9fb612a`](https://github.com/stdlib-js/stdlib/commit/9fb612ab6cd5c28d8900c2c7d161bca5ffcc30ff) - **feat:** add `stats/minabs` [(#7883)](https://github.com/stdlib-js/stdlib/pull/7883) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`3f6ab18`](https://github.com/stdlib-js/stdlib/commit/3f6ab1825eab2f3ef53d570d8e0de24b2474a9bf) - **feat:** add `stats/base/ndarray/sminabs` [(#7881)](https://github.com/stdlib-js/stdlib/pull/7881) _(by Gururaj Gurram, Athan Reines)_
