@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-13)
+## Unreleased (2025-08-15)
 
 <section class="features">
 
 ### Features
 
+-   [`ca1908c`](https://github.com/stdlib-js/stdlib/commit/ca1908c96b83777579315cba10c11484a0d25466) - add `stats/base/ndarray/minabs` [(#7882)](https://github.com/stdlib-js/stdlib/pull/7882)
 -   [`03fa864`](https://github.com/stdlib-js/stdlib/commit/03fa864694becb2d5bf705033dd106c5fdc2566b) - add C ndarray interface and refactor implementation for `stats/base/snanmean` [(#7705)](https://github.com/stdlib-js/stdlib/pull/7705)
 -   [`a7b8ae0`](https://github.com/stdlib-js/stdlib/commit/a7b8ae0522dacf6a970b5b8cba90fe1a1dbcc9ce) - add `stats/cumin` [(#7799)](https://github.com/stdlib-js/stdlib/pull/7799)
 -   [`c63cbbc`](https://github.com/stdlib-js/stdlib/commit/c63cbbc8dd488c83b5a806324fe2012878e07570) - add `stats/min-by` [(#7792)](https://github.com/stdlib-js/stdlib/pull/7792)
@@ -3312,6 +3313,13 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`ca1908c`](https://github.com/stdlib-js/stdlib/commit/ca1908c96b83777579315cba10c11484a0d25466) - **feat:** add `stats/base/ndarray/minabs` [(#7882)](https://github.com/stdlib-js/stdlib/pull/7882) _(by Gururaj Gurram)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`842892d`](https://github.com/stdlib-js/stdlib/commit/842892db70da69098d8fb271ea19ae45c09a8a0e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`59bb1b1`](https://github.com/stdlib-js/stdlib/commit/59bb1b1660a736459b4eb16eb4b390ccdb7855a4) - **chore:** address commit comments [(#7867)](https://github.com/stdlib-js/stdlib/pull/7867) _(by NEEKUorAAYUSH, Athan Reines)_
 -   [`f0f8463`](https://github.com/stdlib-js/stdlib/commit/f0f8463cb72dcc3d7905d15c98d9598e7bb8315b) - **docs:** remove comment [(#7831)](https://github.com/stdlib-js/stdlib/pull/7831) _(by SAUJANYA MAGARDE)_
 -   [`03fa864`](https://github.com/stdlib-js/stdlib/commit/03fa864694becb2d5bf705033dd106c5fdc2566b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmean` [(#7705)](https://github.com/stdlib-js/stdlib/pull/7705) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
