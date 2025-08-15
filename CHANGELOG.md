@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9fb612a`](https://github.com/stdlib-js/stdlib/commit/9fb612ab6cd5c28d8900c2c7d161bca5ffcc30ff) - add `stats/minabs` [(#7883)](https://github.com/stdlib-js/stdlib/pull/7883)
 -   [`3f6ab18`](https://github.com/stdlib-js/stdlib/commit/3f6ab1825eab2f3ef53d570d8e0de24b2474a9bf) - add `stats/base/ndarray/sminabs` [(#7881)](https://github.com/stdlib-js/stdlib/pull/7881)
 -   [`b58d123`](https://github.com/stdlib-js/stdlib/commit/b58d1233b4a139b3f70ba604541ff1ab5bae1dfd) - add `stats/base/ndarray/dminabs` [(#7880)](https://github.com/stdlib-js/stdlib/pull/7880)
 -   [`ca1908c`](https://github.com/stdlib-js/stdlib/commit/ca1908c96b83777579315cba10c11484a0d25466) - add `stats/base/ndarray/minabs` [(#7882)](https://github.com/stdlib-js/stdlib/pull/7882)
@@ -3315,6 +3316,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`9fb612a`](https://github.com/stdlib-js/stdlib/commit/9fb612ab6cd5c28d8900c2c7d161bca5ffcc30ff) - **feat:** add `stats/minabs` [(#7883)](https://github.com/stdlib-js/stdlib/pull/7883) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`3f6ab18`](https://github.com/stdlib-js/stdlib/commit/3f6ab1825eab2f3ef53d570d8e0de24b2474a9bf) - **feat:** add `stats/base/ndarray/sminabs` [(#7881)](https://github.com/stdlib-js/stdlib/pull/7881) _(by Gururaj Gurram, Athan Reines)_
 -   [`b58d123`](https://github.com/stdlib-js/stdlib/commit/b58d1233b4a139b3f70ba604541ff1ab5bae1dfd) - **feat:** add `stats/base/ndarray/dminabs` [(#7880)](https://github.com/stdlib-js/stdlib/pull/7880) _(by Gururaj Gurram)_
 -   [`ca1908c`](https://github.com/stdlib-js/stdlib/commit/ca1908c96b83777579315cba10c11484a0d25466) - **feat:** add `stats/base/ndarray/minabs` [(#7882)](https://github.com/stdlib-js/stdlib/pull/7882) _(by Gururaj Gurram)_
