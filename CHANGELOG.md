@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b58d123`](https://github.com/stdlib-js/stdlib/commit/b58d1233b4a139b3f70ba604541ff1ab5bae1dfd) - add `stats/base/ndarray/dminabs` [(#7880)](https://github.com/stdlib-js/stdlib/pull/7880)
 -   [`ca1908c`](https://github.com/stdlib-js/stdlib/commit/ca1908c96b83777579315cba10c11484a0d25466) - add `stats/base/ndarray/minabs` [(#7882)](https://github.com/stdlib-js/stdlib/pull/7882)
 -   [`03fa864`](https://github.com/stdlib-js/stdlib/commit/03fa864694becb2d5bf705033dd106c5fdc2566b) - add C ndarray interface and refactor implementation for `stats/base/snanmean` [(#7705)](https://github.com/stdlib-js/stdlib/pull/7705)
 -   [`a7b8ae0`](https://github.com/stdlib-js/stdlib/commit/a7b8ae0522dacf6a970b5b8cba90fe1a1dbcc9ce) - add `stats/cumin` [(#7799)](https://github.com/stdlib-js/stdlib/pull/7799)
@@ -3313,6 +3314,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`b58d123`](https://github.com/stdlib-js/stdlib/commit/b58d1233b4a139b3f70ba604541ff1ab5bae1dfd) - **feat:** add `stats/base/ndarray/dminabs` [(#7880)](https://github.com/stdlib-js/stdlib/pull/7880) _(by Gururaj Gurram)_
 -   [`ca1908c`](https://github.com/stdlib-js/stdlib/commit/ca1908c96b83777579315cba10c11484a0d25466) - **feat:** add `stats/base/ndarray/minabs` [(#7882)](https://github.com/stdlib-js/stdlib/pull/7882) _(by Gururaj Gurram)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
