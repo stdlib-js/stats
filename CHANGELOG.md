@@ -3319,6 +3319,15 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`dea5fbd`](https://github.com/stdlib-js/stdlib/commit/dea5fbd58692c835c8083d3f4f4a3b193fd40275) - **style:** re-enable lint rule _(by Athan Reines)_
+-   [`aabca15`](https://github.com/stdlib-js/stdlib/commit/aabca154e4deab8128cf7cd26e0d52bf3c06d02d) - **style:** re-enable lint rule _(by Athan Reines)_
+-   [`2f12b7c`](https://github.com/stdlib-js/stdlib/commit/2f12b7c67d4c3ed696dc46ea28640bead88bde13) - **style:** re-enable lint rule _(by Athan Reines)_
+-   [`3feeecf`](https://github.com/stdlib-js/stdlib/commit/3feeecf243a61548d046ea8760f6e51f2b5641a4) - **style:** re-enable lint rule _(by Athan Reines)_
+-   [`cabca24`](https://github.com/stdlib-js/stdlib/commit/cabca24a257106dbc80193fd2ea4a6340ee9118b) - **style:** re-enable lint rule _(by Athan Reines)_
+-   [`5a1f204`](https://github.com/stdlib-js/stdlib/commit/5a1f204397fde0d8a7c9877e4c34491bbe64e077) - **style:** re-enable lint rule _(by Athan Reines)_
+-   [`1cd76d9`](https://github.com/stdlib-js/stdlib/commit/1cd76d97f12959e8ad4d346ea2b5a80c1464d88c) - **style:** re-enable lint rule _(by Athan Reines)_
+-   [`3d7e65d`](https://github.com/stdlib-js/stdlib/commit/3d7e65d6a7cd7b21a9172a96d2ad98f9780c5143) - **style:** re-enable lint rule _(by Athan Reines)_
+-   [`426387b`](https://github.com/stdlib-js/stdlib/commit/426387b6eea6087b31f5629feac9335b9cc5ae65) - **style:** re-enable lint rule _(by Athan Reines)_
 -   [`9a6ebbf`](https://github.com/stdlib-js/stdlib/commit/9a6ebbf9243a38173a927cef6a5cc71684bc154a) - **feat:** add `stats/base/ndarray/nanmax` [(#7886)](https://github.com/stdlib-js/stdlib/pull/7886) _(by Gururaj Gurram)_
 -   [`9b376e9`](https://github.com/stdlib-js/stdlib/commit/9b376e9f5770676b863131d0fb287fb20397e651) - **feat:** add `stats/base/ndarray/snanmax` [(#7885)](https://github.com/stdlib-js/stdlib/pull/7885) _(by Gururaj Gurram, Athan Reines)_
 -   [`d9a224c`](https://github.com/stdlib-js/stdlib/commit/d9a224cad0bd2e22084920b487f6fdf72a1065bd) - **feat:** add `stats/base/ndarray/dnanmax` [(#7884)](https://github.com/stdlib-js/stdlib/pull/7884) _(by Gururaj Gurram)_
