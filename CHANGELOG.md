@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-15)
+## Unreleased (2025-08-16)
 
 <section class="features">
 
 ### Features
 
+-   [`03cae20`](https://github.com/stdlib-js/stdlib/commit/03cae201187e3180ba04f739ffe5672140961f1e) - add `stats/nanmax` [(#7887)](https://github.com/stdlib-js/stdlib/pull/7887)
 -   [`9a6ebbf`](https://github.com/stdlib-js/stdlib/commit/9a6ebbf9243a38173a927cef6a5cc71684bc154a) - add `stats/base/ndarray/nanmax` [(#7886)](https://github.com/stdlib-js/stdlib/pull/7886)
 -   [`9b376e9`](https://github.com/stdlib-js/stdlib/commit/9b376e9f5770676b863131d0fb287fb20397e651) - add `stats/base/ndarray/snanmax` [(#7885)](https://github.com/stdlib-js/stdlib/pull/7885)
 -   [`d9a224c`](https://github.com/stdlib-js/stdlib/commit/d9a224cad0bd2e22084920b487f6fdf72a1065bd) - add `stats/base/ndarray/dnanmax` [(#7884)](https://github.com/stdlib-js/stdlib/pull/7884)
@@ -3319,6 +3320,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`03cae20`](https://github.com/stdlib-js/stdlib/commit/03cae201187e3180ba04f739ffe5672140961f1e) - **feat:** add `stats/nanmax` [(#7887)](https://github.com/stdlib-js/stdlib/pull/7887) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`dea5fbd`](https://github.com/stdlib-js/stdlib/commit/dea5fbd58692c835c8083d3f4f4a3b193fd40275) - **style:** re-enable lint rule _(by Athan Reines)_
 -   [`aabca15`](https://github.com/stdlib-js/stdlib/commit/aabca154e4deab8128cf7cd26e0d52bf3c06d02d) - **style:** re-enable lint rule _(by Athan Reines)_
 -   [`2f12b7c`](https://github.com/stdlib-js/stdlib/commit/2f12b7c67d4c3ed696dc46ea28640bead88bde13) - **style:** re-enable lint rule _(by Athan Reines)_
