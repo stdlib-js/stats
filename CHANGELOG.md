@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-17)
+## Unreleased (2025-08-20)
 
 <section class="features">
 
@@ -3320,6 +3320,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`776887e`](https://github.com/stdlib-js/stdlib/commit/776887e9577ae2402fd69c97328cb864811bd120) - **docs:** update annotation values _(by Philipp Burckhardt)_
 -   [`582de14`](https://github.com/stdlib-js/stdlib/commit/582de14d2d72ac0705d8d5d5e837767594354a46) - **docs:** remove empty line [(#7902)](https://github.com/stdlib-js/stdlib/pull/7902) _(by stdlib-bot)_
 -   [`03cae20`](https://github.com/stdlib-js/stdlib/commit/03cae201187e3180ba04f739ffe5672140961f1e) - **feat:** add `stats/nanmax` [(#7887)](https://github.com/stdlib-js/stdlib/pull/7887) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`dea5fbd`](https://github.com/stdlib-js/stdlib/commit/dea5fbd58692c835c8083d3f4f4a3b193fd40275) - **style:** re-enable lint rule _(by Athan Reines)_
