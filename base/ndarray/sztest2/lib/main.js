@@ -85,7 +85,7 @@ var strided = require( './../../../../strided/sztest2' ).ndarray;
 *
 * // Create a zero-dimensional results ndarray:
 * var ResultsArray = structFactory( Float32Results );
-* var out = new ndarray( Float32Results, new ResultsArray( 1 ), [], [ 0 ], 0, 'row-major' );
+* var out = new ndarray( 'generic', new ResultsArray( 1 ), [], [ 0 ], 0, 'row-major' );
 *
 * // Perform a Z-test:
 * var v = sztest2( [ x, y, out, alt, alpha, diff, sigmax, sigmay ] );

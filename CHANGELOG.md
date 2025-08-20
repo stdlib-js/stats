@@ -3323,6 +3323,10 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`e678757`](https://github.com/stdlib-js/stdlib/commit/e678757c9a62631a907278ec13a5d7b27c0f1e15) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`e4701e8`](https://github.com/stdlib-js/stdlib/commit/e4701e814ce9db206690ad9f2ce8b84e5a4f4e52) - **docs:** fix example code _(by Philipp Burckhardt)_
+-   [`afca27e`](https://github.com/stdlib-js/stdlib/commit/afca27e5a12962febf70b6de36e2cea94295b16b) - **docs:** fix example code _(by Philipp Burckhardt)_
+-   [`60c82d7`](https://github.com/stdlib-js/stdlib/commit/60c82d7956372df2c50a05cab73205aa85198aa5) - **docs:** fix example code _(by Philipp Burckhardt)_
 -   [`660d87d`](https://github.com/stdlib-js/stdlib/commit/660d87d43e9c2d172466a6eba02db7b92993a762) - **feat:** add missing `stats/incr` exports to namespace _(by Philipp Burckhardt)_
 -   [`b1913e3`](https://github.com/stdlib-js/stdlib/commit/b1913e32b4477bc8b1ee21833316faca9e5130be) - **feat:** add missing `stats/strided` exports to namespace _(by Philipp Burckhardt)_
 -   [`736e2ec`](https://github.com/stdlib-js/stdlib/commit/736e2ecb55d3f408c5cc4370206bc221207df319) - **feat:** add missing `stats/array` exports to namespace _(by Philipp Burckhardt)_
