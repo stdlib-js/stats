@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`660d87d`](https://github.com/stdlib-js/stdlib/commit/660d87d43e9c2d172466a6eba02db7b92993a762) - add missing `stats/incr` exports to namespace
+-   [`b1913e3`](https://github.com/stdlib-js/stdlib/commit/b1913e32b4477bc8b1ee21833316faca9e5130be) - add missing `stats/strided` exports to namespace
+-   [`736e2ec`](https://github.com/stdlib-js/stdlib/commit/736e2ecb55d3f408c5cc4370206bc221207df319) - add missing `stats/array` exports to namespace
 -   [`03cae20`](https://github.com/stdlib-js/stdlib/commit/03cae201187e3180ba04f739ffe5672140961f1e) - add `stats/nanmax` [(#7887)](https://github.com/stdlib-js/stdlib/pull/7887)
 -   [`9a6ebbf`](https://github.com/stdlib-js/stdlib/commit/9a6ebbf9243a38173a927cef6a5cc71684bc154a) - add `stats/base/ndarray/nanmax` [(#7886)](https://github.com/stdlib-js/stdlib/pull/7886)
 -   [`9b376e9`](https://github.com/stdlib-js/stdlib/commit/9b376e9f5770676b863131d0fb287fb20397e651) - add `stats/base/ndarray/snanmax` [(#7885)](https://github.com/stdlib-js/stdlib/pull/7885)
@@ -3320,6 +3323,9 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`660d87d`](https://github.com/stdlib-js/stdlib/commit/660d87d43e9c2d172466a6eba02db7b92993a762) - **feat:** add missing `stats/incr` exports to namespace _(by Philipp Burckhardt)_
+-   [`b1913e3`](https://github.com/stdlib-js/stdlib/commit/b1913e32b4477bc8b1ee21833316faca9e5130be) - **feat:** add missing `stats/strided` exports to namespace _(by Philipp Burckhardt)_
+-   [`736e2ec`](https://github.com/stdlib-js/stdlib/commit/736e2ecb55d3f408c5cc4370206bc221207df319) - **feat:** add missing `stats/array` exports to namespace _(by Philipp Burckhardt)_
 -   [`776887e`](https://github.com/stdlib-js/stdlib/commit/776887e9577ae2402fd69c97328cb864811bd120) - **docs:** update annotation values _(by Philipp Burckhardt)_
 -   [`582de14`](https://github.com/stdlib-js/stdlib/commit/582de14d2d72ac0705d8d5d5e837767594354a46) - **docs:** remove empty line [(#7902)](https://github.com/stdlib-js/stdlib/pull/7902) _(by stdlib-bot)_
 -   [`03cae20`](https://github.com/stdlib-js/stdlib/commit/03cae201187e3180ba04f739ffe5672140961f1e) - **feat:** add `stats/nanmax` [(#7887)](https://github.com/stdlib-js/stdlib/pull/7887) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_

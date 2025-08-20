@@ -685,6 +685,69 @@ setReadOnly( ns, 'incrmvmr', require( './../../incr/mvmr' ) );
 setReadOnly( ns, 'incrnancount', require( './../../incr/nancount' ) );
 
 /**
+* @name incrnanmaxabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/incr/nanmaxabs}
+*/
+setReadOnly( ns, 'incrnanmaxabs', require( './../../incr/nanmaxabs' ) );
+
+/**
+* @name incrnanmean
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/incr/nanmean}
+*/
+setReadOnly( ns, 'incrnanmean', require( './../../incr/nanmean' ) );
+
+/**
+* @name incrnanmeanabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/incr/nanmeanabs}
+*/
+setReadOnly( ns, 'incrnanmeanabs', require( './../../incr/nanmeanabs' ) );
+
+/**
+* @name incrnanmstdev
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/incr/nanmstdev}
+*/
+setReadOnly( ns, 'incrnanmstdev', require( './../../incr/nanmstdev' ) );
+
+/**
+* @name incrnanmsum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/incr/nanmsum}
+*/
+setReadOnly( ns, 'incrnanmsum', require( './../../incr/nanmsum' ) );
+
+/**
+* @name incrnanskewness
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/incr/nanskewness}
+*/
+setReadOnly( ns, 'incrnanskewness', require( './../../incr/nanskewness' ) );
+
+/**
+* @name incrnanstdev
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/incr/nanstdev}
+*/
+setReadOnly( ns, 'incrnanstdev', require( './../../incr/nanstdev' ) );
+
+/**
 * @name incrnansum
 * @memberof ns
 * @readonly

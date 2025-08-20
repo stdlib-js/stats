@@ -343,6 +343,114 @@ setReadOnly( ns, 'nanrange', require( './../../array/nanrange' ) );
 setReadOnly( ns, 'nanrangeBy', require( './../../array/nanrange-by' ) );
 
 /**
+* @name nanstdev
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/nanstdev}
+*/
+setReadOnly( ns, 'nanstdev', require( './../../array/nanstdev' ) );
+
+/**
+* @name nanstdevch
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/nanstdevch}
+*/
+setReadOnly( ns, 'nanstdevch', require( './../../array/nanstdevch' ) );
+
+/**
+* @name nanstdevpn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/nanstdevpn}
+*/
+setReadOnly( ns, 'nanstdevpn', require( './../../array/nanstdevpn' ) );
+
+/**
+* @name nanstdevtk
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/nanstdevtk}
+*/
+setReadOnly( ns, 'nanstdevtk', require( './../../array/nanstdevtk' ) );
+
+/**
+* @name nanstdevwd
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/nanstdevwd}
+*/
+setReadOnly( ns, 'nanstdevwd', require( './../../array/nanstdevwd' ) );
+
+/**
+* @name nanstdevyc
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/nanstdevyc}
+*/
+setReadOnly( ns, 'nanstdevyc', require( './../../array/nanstdevyc' ) );
+
+/**
+* @name nanvariance
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/nanvariance}
+*/
+setReadOnly( ns, 'nanvariance', require( './../../array/nanvariance' ) );
+
+/**
+* @name nanvariancech
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/nanvariancech}
+*/
+setReadOnly( ns, 'nanvariancech', require( './../../array/nanvariancech' ) );
+
+/**
+* @name nanvariancepn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/nanvariancepn}
+*/
+setReadOnly( ns, 'nanvariancepn', require( './../../array/nanvariancepn' ) );
+
+/**
+* @name nanvariancetk
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/nanvariancetk}
+*/
+setReadOnly( ns, 'nanvariancetk', require( './../../array/nanvariancetk' ) );
+
+/**
+* @name nanvariancewd
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/nanvariancewd}
+*/
+setReadOnly( ns, 'nanvariancewd', require( './../../array/nanvariancewd' ) );
+
+/**
+* @name nanvarianceyc
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/array/nanvarianceyc}
+*/
+setReadOnly( ns, 'nanvarianceyc', require( './../../array/nanvarianceyc' ) );
+
+/**
 * @name range
 * @memberof ns
 * @readonly
