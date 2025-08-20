@@ -3323,6 +3323,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`4589cee`](https://github.com/stdlib-js/stdlib/commit/4589cee4e69b2a4c4a433321f413824a69eebb6e) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
 -   [`e678757`](https://github.com/stdlib-js/stdlib/commit/e678757c9a62631a907278ec13a5d7b27c0f1e15) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
 -   [`e4701e8`](https://github.com/stdlib-js/stdlib/commit/e4701e814ce9db206690ad9f2ce8b84e5a4f4e52) - **docs:** fix example code _(by Philipp Burckhardt)_
 -   [`afca27e`](https://github.com/stdlib-js/stdlib/commit/afca27e5a12962febf70b6de36e2cea94295b16b) - **docs:** fix example code _(by Philipp Burckhardt)_
