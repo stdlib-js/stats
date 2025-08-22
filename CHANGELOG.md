@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-20)
+## Unreleased (2025-08-22)
 
 <section class="features">
 
 ### Features
 
+-   [`5ef479c`](https://github.com/stdlib-js/stdlib/commit/5ef479c48bc3be02ff3b928ff4f7e9a113d6d193) - add `planck` and `bradford` distributions to namespace
+-   [`5e3f0ad`](https://github.com/stdlib-js/stdlib/commit/5e3f0ad64fdac2a68ee1b1fcf88081bdc274d1e7) - add `planck` distribution namespace
+-   [`48cbb5c`](https://github.com/stdlib-js/stdlib/commit/48cbb5ce2be9a5a371c6e245c4556b52ec7ac3d7) - add `bradford` distribution namespace
+-   [`79336d0`](https://github.com/stdlib-js/stdlib/commit/79336d0e6c7958fbfca296e3def3c777e263c59c) - add missing `stats/base/ndarray` exports to namespace
+-   [`26a24b4`](https://github.com/stdlib-js/stdlib/commit/26a24b4138a65f5edb2957aaeab8fe85d11dd81b) - add missing `stats/base` exports to namespace
 -   [`660d87d`](https://github.com/stdlib-js/stdlib/commit/660d87d43e9c2d172466a6eba02db7b92993a762) - add missing `stats/incr` exports to namespace
 -   [`b1913e3`](https://github.com/stdlib-js/stdlib/commit/b1913e32b4477bc8b1ee21833316faca9e5130be) - add missing `stats/strided` exports to namespace
 -   [`736e2ec`](https://github.com/stdlib-js/stdlib/commit/736e2ecb55d3f408c5cc4370206bc221207df319) - add missing `stats/array` exports to namespace
@@ -1155,6 +1160,17 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="reverts">
+
+### Reverts
+
+-   [`168c7c1`](https://github.com/stdlib-js/stdlib/commit/168c7c18aa58007cf9d7785b9cde69e8e7157c21) - docs: fix example code
+-   [`5678272`](https://github.com/stdlib-js/stdlib/commit/5678272af1d4f9e08fd667e54cb46083075b5d3d) - feat: add missing `stats/base` exports to namespace
+
+</section>
+
+<!-- /.reverts -->
 
 <section class="breaking-changes">
 
@@ -3323,6 +3339,13 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`168c7c1`](https://github.com/stdlib-js/stdlib/commit/168c7c18aa58007cf9d7785b9cde69e8e7157c21) - **revert:** docs: fix example code _(by Philipp Burckhardt)_
+-   [`5678272`](https://github.com/stdlib-js/stdlib/commit/5678272af1d4f9e08fd667e54cb46083075b5d3d) - **revert:** feat: add missing `stats/base` exports to namespace _(by Philipp Burckhardt)_
+-   [`5ef479c`](https://github.com/stdlib-js/stdlib/commit/5ef479c48bc3be02ff3b928ff4f7e9a113d6d193) - **feat:** add `planck` and `bradford` distributions to namespace _(by Philipp Burckhardt)_
+-   [`5e3f0ad`](https://github.com/stdlib-js/stdlib/commit/5e3f0ad64fdac2a68ee1b1fcf88081bdc274d1e7) - **feat:** add `planck` distribution namespace _(by Philipp Burckhardt)_
+-   [`48cbb5c`](https://github.com/stdlib-js/stdlib/commit/48cbb5ce2be9a5a371c6e245c4556b52ec7ac3d7) - **feat:** add `bradford` distribution namespace _(by Philipp Burckhardt)_
+-   [`79336d0`](https://github.com/stdlib-js/stdlib/commit/79336d0e6c7958fbfca296e3def3c777e263c59c) - **feat:** add missing `stats/base/ndarray` exports to namespace _(by Philipp Burckhardt)_
+-   [`26a24b4`](https://github.com/stdlib-js/stdlib/commit/26a24b4138a65f5edb2957aaeab8fe85d11dd81b) - **feat:** add missing `stats/base` exports to namespace _(by Philipp Burckhardt)_
 -   [`4589cee`](https://github.com/stdlib-js/stdlib/commit/4589cee4e69b2a4c4a433321f413824a69eebb6e) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
 -   [`e678757`](https://github.com/stdlib-js/stdlib/commit/e678757c9a62631a907278ec13a5d7b27c0f1e15) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
 -   [`e4701e8`](https://github.com/stdlib-js/stdlib/commit/e4701e814ce9db206690ad9f2ce8b84e5a4f4e52) - **docs:** fix example code _(by Philipp Burckhardt)_

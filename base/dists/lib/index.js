@@ -82,6 +82,15 @@ setReadOnly( dist, 'betaprime', require( './../../../base/dists/betaprime' ) );
 setReadOnly( dist, 'binomial', require( './../../../base/dists/binomial' ) );
 
 /**
+* @name bradford
+* @memberof dist
+* @readonly
+* @type {Namespace}
+* @see {@link module:@stdlib/stats/base/dists/bradford}
+*/
+setReadOnly( dist, 'bradford', require( './../../../base/dists/bradford' ) );
+
+/**
 * @name cauchy
 * @memberof dist
 * @readonly
@@ -288,6 +297,15 @@ setReadOnly( dist, 'normal', require( './../../../base/dists/normal' ) );
 * @see {@link module:@stdlib/stats/base/dists/pareto-type1}
 */
 setReadOnly( dist, 'pareto1', require( './../../../base/dists/pareto-type1' ) );
+
+/**
+* @name planck
+* @memberof dist
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/dists/planck}
+*/
+setReadOnly( dist, 'planck', require( './../../../base/dists/planck' ) );
 
 /**
 * @name poisson
