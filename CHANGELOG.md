@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e7e42b3`](https://github.com/stdlib-js/stdlib/commit/e7e42b321fd0d8f9e47c62a8a3e5c511a70c6c5d) - add `stats/nanmin` [(#7930)](https://github.com/stdlib-js/stdlib/pull/7930)
 -   [`aab41ab`](https://github.com/stdlib-js/stdlib/commit/aab41abe42b3180f15b27efbfcb4b72f67709654) - add `stats/base/ndarray/snanmin` [(#7929)](https://github.com/stdlib-js/stdlib/pull/7929)
 -   [`d71aa90`](https://github.com/stdlib-js/stdlib/commit/d71aa90555968756dccfdc526690c8a486ae8c06) - add `stats/base/ndarray/dnanmin` [(#7928)](https://github.com/stdlib-js/stdlib/pull/7928)
 -   [`36e2e16`](https://github.com/stdlib-js/stdlib/commit/36e2e163e14336ff8e7d11b80f9c7a6528014f39) - add `stats/base/ndarray/nanmin` [(#7927)](https://github.com/stdlib-js/stdlib/pull/7927)
@@ -3342,6 +3343,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`e7e42b3`](https://github.com/stdlib-js/stdlib/commit/e7e42b321fd0d8f9e47c62a8a3e5c511a70c6c5d) - **feat:** add `stats/nanmin` [(#7930)](https://github.com/stdlib-js/stdlib/pull/7930) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`aab41ab`](https://github.com/stdlib-js/stdlib/commit/aab41abe42b3180f15b27efbfcb4b72f67709654) - **feat:** add `stats/base/ndarray/snanmin` [(#7929)](https://github.com/stdlib-js/stdlib/pull/7929) _(by Gururaj Gurram)_
 -   [`d71aa90`](https://github.com/stdlib-js/stdlib/commit/d71aa90555968756dccfdc526690c8a486ae8c06) - **feat:** add `stats/base/ndarray/dnanmin` [(#7928)](https://github.com/stdlib-js/stdlib/pull/7928) _(by Gururaj Gurram)_
 -   [`36e2e16`](https://github.com/stdlib-js/stdlib/commit/36e2e163e14336ff8e7d11b80f9c7a6528014f39) - **feat:** add `stats/base/ndarray/nanmin` [(#7927)](https://github.com/stdlib-js/stdlib/pull/7927) _(by Gururaj Gurram)_
