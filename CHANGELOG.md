@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-22)
+## Unreleased (2025-08-23)
 
 <section class="features">
 
@@ -3339,6 +3339,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`eb3218e`](https://github.com/stdlib-js/stdlib/commit/eb3218e35b0e498a31f286f8cf889e509a6d7792) - **style:** remove extra empty line [(#7932)](https://github.com/stdlib-js/stdlib/pull/7932) _(by stdlib-bot)_
 -   [`168c7c1`](https://github.com/stdlib-js/stdlib/commit/168c7c18aa58007cf9d7785b9cde69e8e7157c21) - **revert:** docs: fix example code _(by Philipp Burckhardt)_
 -   [`5678272`](https://github.com/stdlib-js/stdlib/commit/5678272af1d4f9e08fd667e54cb46083075b5d3d) - **revert:** feat: add missing `stats/base` exports to namespace _(by Philipp Burckhardt)_
 -   [`5ef479c`](https://github.com/stdlib-js/stdlib/commit/5ef479c48bc3be02ff3b928ff4f7e9a113d6d193) - **feat:** add `planck` and `bradford` distributions to namespace _(by Philipp Burckhardt)_
