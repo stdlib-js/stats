@@ -3339,6 +3339,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`a7ee897`](https://github.com/stdlib-js/stdlib/commit/a7ee897ffbec2a6a758563fd68277591352f22a8) - **docs:** encode Markdown stdlib package URLs [(#7933)](https://github.com/stdlib-js/stdlib/pull/7933) _(by stdlib-bot)_
 -   [`eb3218e`](https://github.com/stdlib-js/stdlib/commit/eb3218e35b0e498a31f286f8cf889e509a6d7792) - **style:** remove extra empty line [(#7932)](https://github.com/stdlib-js/stdlib/pull/7932) _(by stdlib-bot)_
 -   [`168c7c1`](https://github.com/stdlib-js/stdlib/commit/168c7c18aa58007cf9d7785b9cde69e8e7157c21) - **revert:** docs: fix example code _(by Philipp Burckhardt)_
 -   [`5678272`](https://github.com/stdlib-js/stdlib/commit/5678272af1d4f9e08fd667e54cb46083075b5d3d) - **revert:** feat: add missing `stats/base` exports to namespace _(by Philipp Burckhardt)_
