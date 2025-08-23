@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d71aa90`](https://github.com/stdlib-js/stdlib/commit/d71aa90555968756dccfdc526690c8a486ae8c06) - add `stats/base/ndarray/dnanmin` [(#7928)](https://github.com/stdlib-js/stdlib/pull/7928)
 -   [`36e2e16`](https://github.com/stdlib-js/stdlib/commit/36e2e163e14336ff8e7d11b80f9c7a6528014f39) - add `stats/base/ndarray/nanmin` [(#7927)](https://github.com/stdlib-js/stdlib/pull/7927)
 -   [`5ef479c`](https://github.com/stdlib-js/stdlib/commit/5ef479c48bc3be02ff3b928ff4f7e9a113d6d193) - add `planck` and `bradford` distributions to namespace
 -   [`5e3f0ad`](https://github.com/stdlib-js/stdlib/commit/5e3f0ad64fdac2a68ee1b1fcf88081bdc274d1e7) - add `planck` distribution namespace
@@ -3340,6 +3341,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`d71aa90`](https://github.com/stdlib-js/stdlib/commit/d71aa90555968756dccfdc526690c8a486ae8c06) - **feat:** add `stats/base/ndarray/dnanmin` [(#7928)](https://github.com/stdlib-js/stdlib/pull/7928) _(by Gururaj Gurram)_
 -   [`36e2e16`](https://github.com/stdlib-js/stdlib/commit/36e2e163e14336ff8e7d11b80f9c7a6528014f39) - **feat:** add `stats/base/ndarray/nanmin` [(#7927)](https://github.com/stdlib-js/stdlib/pull/7927) _(by Gururaj Gurram)_
 -   [`1f159ee`](https://github.com/stdlib-js/stdlib/commit/1f159ee7f00e50c35c89ac61558fde3e64367d58) - **test:** fix test cases for `stats/base/ndarray/*nanmin` [(#7926)](https://github.com/stdlib-js/stdlib/pull/7926) _(by Gururaj Gurram)_
 -   [`a7ee897`](https://github.com/stdlib-js/stdlib/commit/a7ee897ffbec2a6a758563fd68277591352f22a8) - **docs:** encode Markdown stdlib package URLs [(#7933)](https://github.com/stdlib-js/stdlib/pull/7933) _(by stdlib-bot)_
