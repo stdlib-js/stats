@@ -3343,6 +3343,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`5c1bb3c`](https://github.com/stdlib-js/stdlib/commit/5c1bb3c262b799be2c9b8ff6a6d6ec678cd51e24) - **docs:** be consistent with backticks around NaN _(by Philipp Burckhardt)_
 -   [`e7e42b3`](https://github.com/stdlib-js/stdlib/commit/e7e42b321fd0d8f9e47c62a8a3e5c511a70c6c5d) - **feat:** add `stats/nanmin` [(#7930)](https://github.com/stdlib-js/stdlib/pull/7930) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`aab41ab`](https://github.com/stdlib-js/stdlib/commit/aab41abe42b3180f15b27efbfcb4b72f67709654) - **feat:** add `stats/base/ndarray/snanmin` [(#7929)](https://github.com/stdlib-js/stdlib/pull/7929) _(by Gururaj Gurram)_
 -   [`d71aa90`](https://github.com/stdlib-js/stdlib/commit/d71aa90555968756dccfdc526690c8a486ae8c06) - **feat:** add `stats/base/ndarray/dnanmin` [(#7928)](https://github.com/stdlib-js/stdlib/pull/7928) _(by Gururaj Gurram)_
