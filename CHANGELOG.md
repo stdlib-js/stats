@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ceaf138`](https://github.com/stdlib-js/stdlib/commit/ceaf138672e744c0d9af8373085c7eec0da521ee) - add `stats/base/ndarray/dnanmean` [(#7965)](https://github.com/stdlib-js/stdlib/pull/7965)
 -   [`6d4efd4`](https://github.com/stdlib-js/stdlib/commit/6d4efd4724f41ce832be624f9e2d23b6142fb046) - add `stats/base/ndarray/nanmean` [(#7967)](https://github.com/stdlib-js/stdlib/pull/7967)
 -   [`e7e42b3`](https://github.com/stdlib-js/stdlib/commit/e7e42b321fd0d8f9e47c62a8a3e5c511a70c6c5d) - add `stats/nanmin` [(#7930)](https://github.com/stdlib-js/stdlib/pull/7930)
 -   [`aab41ab`](https://github.com/stdlib-js/stdlib/commit/aab41abe42b3180f15b27efbfcb4b72f67709654) - add `stats/base/ndarray/snanmin` [(#7929)](https://github.com/stdlib-js/stdlib/pull/7929)
@@ -3344,6 +3345,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`ceaf138`](https://github.com/stdlib-js/stdlib/commit/ceaf138672e744c0d9af8373085c7eec0da521ee) - **feat:** add `stats/base/ndarray/dnanmean` [(#7965)](https://github.com/stdlib-js/stdlib/pull/7965) _(by Gururaj Gurram)_
 -   [`6d4efd4`](https://github.com/stdlib-js/stdlib/commit/6d4efd4724f41ce832be624f9e2d23b6142fb046) - **feat:** add `stats/base/ndarray/nanmean` [(#7967)](https://github.com/stdlib-js/stdlib/pull/7967) _(by Gururaj Gurram)_
 -   [`5c1bb3c`](https://github.com/stdlib-js/stdlib/commit/5c1bb3c262b799be2c9b8ff6a6d6ec678cd51e24) - **docs:** be consistent with backticks around NaN _(by Philipp Burckhardt)_
 -   [`e7e42b3`](https://github.com/stdlib-js/stdlib/commit/e7e42b321fd0d8f9e47c62a8a3e5c511a70c6c5d) - **feat:** add `stats/nanmin` [(#7930)](https://github.com/stdlib-js/stdlib/pull/7930) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
