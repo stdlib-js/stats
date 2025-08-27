@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7c108ad`](https://github.com/stdlib-js/stdlib/commit/7c108ad80e9720a66e890bb47cedcb3851830405) - add `stats/nanmean` [(#7968)](https://github.com/stdlib-js/stdlib/pull/7968)
 -   [`2ca02fb`](https://github.com/stdlib-js/stdlib/commit/2ca02fb23c28dd7d5d9d6853a0329ca044b68102) - add `stats/base/ndarray/snanmean` [(#7966)](https://github.com/stdlib-js/stdlib/pull/7966)
 -   [`ceaf138`](https://github.com/stdlib-js/stdlib/commit/ceaf138672e744c0d9af8373085c7eec0da521ee) - add `stats/base/ndarray/dnanmean` [(#7965)](https://github.com/stdlib-js/stdlib/pull/7965)
 -   [`6d4efd4`](https://github.com/stdlib-js/stdlib/commit/6d4efd4724f41ce832be624f9e2d23b6142fb046) - add `stats/base/ndarray/nanmean` [(#7967)](https://github.com/stdlib-js/stdlib/pull/7967)
@@ -3347,6 +3348,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`7c108ad`](https://github.com/stdlib-js/stdlib/commit/7c108ad80e9720a66e890bb47cedcb3851830405) - **feat:** add `stats/nanmean` [(#7968)](https://github.com/stdlib-js/stdlib/pull/7968) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`0144b30`](https://github.com/stdlib-js/stdlib/commit/0144b30de33a67c27535f1a6da5c9e0ff4ace570) - **style:** use consistent markup _(by Athan Reines)_
 -   [`10a26a3`](https://github.com/stdlib-js/stdlib/commit/10a26a3ff404b828cdd5426fc3d657ae13edd980) - **docs:** update copy _(by Athan Reines)_
 -   [`090adaa`](https://github.com/stdlib-js/stdlib/commit/090adaa48a67d8e8df75ea0d01b92340c261f4e2) - **fix:** ensure output dtype can only be real-valued floating-point or generic _(by Athan Reines)_
