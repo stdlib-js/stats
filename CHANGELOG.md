@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2ca02fb`](https://github.com/stdlib-js/stdlib/commit/2ca02fb23c28dd7d5d9d6853a0329ca044b68102) - add `stats/base/ndarray/snanmean` [(#7966)](https://github.com/stdlib-js/stdlib/pull/7966)
 -   [`ceaf138`](https://github.com/stdlib-js/stdlib/commit/ceaf138672e744c0d9af8373085c7eec0da521ee) - add `stats/base/ndarray/dnanmean` [(#7965)](https://github.com/stdlib-js/stdlib/pull/7965)
 -   [`6d4efd4`](https://github.com/stdlib-js/stdlib/commit/6d4efd4724f41ce832be624f9e2d23b6142fb046) - add `stats/base/ndarray/nanmean` [(#7967)](https://github.com/stdlib-js/stdlib/pull/7967)
 -   [`e7e42b3`](https://github.com/stdlib-js/stdlib/commit/e7e42b321fd0d8f9e47c62a8a3e5c511a70c6c5d) - add `stats/nanmin` [(#7930)](https://github.com/stdlib-js/stdlib/pull/7930)
@@ -3345,6 +3346,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`2ca02fb`](https://github.com/stdlib-js/stdlib/commit/2ca02fb23c28dd7d5d9d6853a0329ca044b68102) - **feat:** add `stats/base/ndarray/snanmean` [(#7966)](https://github.com/stdlib-js/stdlib/pull/7966) _(by Gururaj Gurram, Athan Reines)_
 -   [`b33ec59`](https://github.com/stdlib-js/stdlib/commit/b33ec59f183293ed7a357db25b00e9fae40337ae) - **docs:** fix hyphenation _(by Athan Reines)_
 -   [`ceaf138`](https://github.com/stdlib-js/stdlib/commit/ceaf138672e744c0d9af8373085c7eec0da521ee) - **feat:** add `stats/base/ndarray/dnanmean` [(#7965)](https://github.com/stdlib-js/stdlib/pull/7965) _(by Gururaj Gurram)_
 -   [`6d4efd4`](https://github.com/stdlib-js/stdlib/commit/6d4efd4724f41ce832be624f9e2d23b6142fb046) - **feat:** add `stats/base/ndarray/nanmean` [(#7967)](https://github.com/stdlib-js/stdlib/pull/7967) _(by Gururaj Gurram)_
