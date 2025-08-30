@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-27)
+## Unreleased (2025-08-30)
 
 <section class="features">
 
@@ -3348,6 +3348,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`4c3f5bb`](https://github.com/stdlib-js/stdlib/commit/4c3f5bb092fbd08dfcdb47abecc46fe8b66ff63e) - **test:** ensure test values are deterministic _(by Athan Reines)_
 -   [`7c108ad`](https://github.com/stdlib-js/stdlib/commit/7c108ad80e9720a66e890bb47cedcb3851830405) - **feat:** add `stats/nanmean` [(#7968)](https://github.com/stdlib-js/stdlib/pull/7968) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`0144b30`](https://github.com/stdlib-js/stdlib/commit/0144b30de33a67c27535f1a6da5c9e0ff4ace570) - **style:** use consistent markup _(by Athan Reines)_
 -   [`10a26a3`](https://github.com/stdlib-js/stdlib/commit/10a26a3ff404b828cdd5426fc3d657ae13edd980) - **docs:** update copy _(by Athan Reines)_
