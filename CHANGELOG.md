@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-30)
+## Unreleased (2025-09-03)
 
 <section class="features">
 
 ### Features
 
+-   [`cf55c5e`](https://github.com/stdlib-js/stdlib/commit/cf55c5ebc1f3a91b788622c70da37c6e753771b3) - add missing exports to `stats` namespace
 -   [`7c108ad`](https://github.com/stdlib-js/stdlib/commit/7c108ad80e9720a66e890bb47cedcb3851830405) - add `stats/nanmean` [(#7968)](https://github.com/stdlib-js/stdlib/pull/7968)
 -   [`2ca02fb`](https://github.com/stdlib-js/stdlib/commit/2ca02fb23c28dd7d5d9d6853a0329ca044b68102) - add `stats/base/ndarray/snanmean` [(#7966)](https://github.com/stdlib-js/stdlib/pull/7966)
 -   [`ceaf138`](https://github.com/stdlib-js/stdlib/commit/ceaf138672e744c0d9af8373085c7eec0da521ee) - add `stats/base/ndarray/dnanmean` [(#7965)](https://github.com/stdlib-js/stdlib/pull/7965)
@@ -3348,6 +3349,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`cf55c5e`](https://github.com/stdlib-js/stdlib/commit/cf55c5ebc1f3a91b788622c70da37c6e753771b3) - **feat:** add missing exports to `stats` namespace _(by Philipp Burckhardt)_
 -   [`4c3f5bb`](https://github.com/stdlib-js/stdlib/commit/4c3f5bb092fbd08dfcdb47abecc46fe8b66ff63e) - **test:** ensure test values are deterministic _(by Athan Reines)_
 -   [`7c108ad`](https://github.com/stdlib-js/stdlib/commit/7c108ad80e9720a66e890bb47cedcb3851830405) - **feat:** add `stats/nanmean` [(#7968)](https://github.com/stdlib-js/stdlib/pull/7968) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`0144b30`](https://github.com/stdlib-js/stdlib/commit/0144b30de33a67c27535f1a6da5c9e0ff4ace570) - **style:** use consistent markup _(by Athan Reines)_
