@@ -3349,6 +3349,7 @@ A total of 545 issues were closed in this release:
 
 <details>
 
+-   [`590cfd6`](https://github.com/stdlib-js/stdlib/commit/590cfd61459544b8398c0d965190d82c15fc7196) - **docs:** replace manual `for` loop in examples [(#8020)](https://github.com/stdlib-js/stdlib/pull/8020) _(by Harsh)_
 -   [`ceef77f`](https://github.com/stdlib-js/stdlib/commit/ceef77fd9f7d409cc5819829e8a01f7a5fe45148) - **docs:** replace manual `for` loop in examples [(#8019)](https://github.com/stdlib-js/stdlib/pull/8019) _(by Harsh)_
 -   [`cf55c5e`](https://github.com/stdlib-js/stdlib/commit/cf55c5ebc1f3a91b788622c70da37c6e753771b3) - **feat:** add missing exports to `stats` namespace _(by Philipp Burckhardt)_
 -   [`4c3f5bb`](https://github.com/stdlib-js/stdlib/commit/4c3f5bb092fbd08dfcdb47abecc46fe8b66ff63e) - **test:** ensure test values are deterministic _(by Athan Reines)_
