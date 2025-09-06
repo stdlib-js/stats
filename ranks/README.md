@@ -87,7 +87,7 @@ out = ranks( data, {
 // returns [ 2, 2, 1, 4, 3 ]
 ```
 
-The `missing` option is used to specify how to handle missing data. By default, `NaN` or `null` are treated as missing values. `'last'`specifies that missing values are placed last, `'first'` that the are assigned the lowest ranks and `'remove'` means that they are removed from the array before the ranks are calculated.
+The `missing` option is used to specify how to handle missing data. By default, `NaN` or `null` are treated as missing values. `'last'` specifies that missing values are placed last, `'first'` that they are assigned the lowest ranks and `'remove'` means that they are removed from the array before the ranks are calculated.
 
 ```javascript
 var data = [ NaN, 2, 2, 1, 4, 3, null, null ];
