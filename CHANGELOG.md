@@ -3388,6 +3388,7 @@ A total of 546 issues were closed in this release:
 
 <details>
 
+-   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
 -   [`80a9821`](https://github.com/stdlib-js/stdlib/commit/80a98213f6ca2e1102cc07b3ea3c7c160a7c8ef1) - **remove:** remove `stats/base/sdsnanmeanors` _(by Gururaj Gurram)_
 -   [`3255779`](https://github.com/stdlib-js/stdlib/commit/3255779bbbb9fc1b4ab755ac57aad2bc1c5dbd97) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`f83492e`](https://github.com/stdlib-js/stdlib/commit/f83492ed224ffb37c531108aaa1f753473ff31b0) - **remove:** remove `sdsnanmeanors` from namespace _(by Gururaj Gurram)_
