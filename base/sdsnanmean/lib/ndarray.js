@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var sdsnanmeanors = require( './../../../base/sdsnanmeanors' ).ndarray;
+var sdsnanmeanors = require( './../../../strided/sdsnanmeanors' ).ndarray;
 
 
 // MAIN //

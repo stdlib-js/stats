@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`7546cdf`](https://github.com/stdlib-js/stdlib/commit/7546cdf2e3dbbde28497d3a35b45ed28f721a992) - add `stats/strided/sdsnanmeanors`
+-   [`4bce739`](https://github.com/stdlib-js/stdlib/commit/4bce7392f50f9c62d056295fce90cd156a071597) - add `stats/strided/sstdevwd`
+-   [`8d4c4f8`](https://github.com/stdlib-js/stdlib/commit/8d4c4f888b4c858c7b2c1d1f396684babe86464f) - add `stats/strided/snanmean`
 -   [`4323f9b`](https://github.com/stdlib-js/stdlib/commit/4323f9baeab70fd73e4a48328d2b493775f91fc5) - add `stats/base/ndarray/smaxsorted` [(#8036)](https://github.com/stdlib-js/stdlib/pull/8036)
 -   [`c9bc2a7`](https://github.com/stdlib-js/stdlib/commit/c9bc2a7e497e170d04a11db899b9e54279a85187) - add `stats/base/ndarray/dmaxsorted` [(#8035)](https://github.com/stdlib-js/stdlib/pull/8035)
 -   [`ebe64d8`](https://github.com/stdlib-js/stdlib/commit/ebe64d8193373cc0c513b402a8b9fc08de381d36) - add `stats/base/ndarray/maxsorted` [(#8034)](https://github.com/stdlib-js/stdlib/pull/8034)
@@ -1188,6 +1191,39 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`80a9821`](https://github.com/stdlib-js/stdlib/commit/80a98213f6ca2e1102cc07b3ea3c7c160a7c8ef1): remove `stats/base/sdsnanmeanors`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/sdsnanmeanors`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`f83492e`](https://github.com/stdlib-js/stdlib/commit/f83492ed224ffb37c531108aaa1f753473ff31b0): remove `sdsnanmeanors`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`9cf630c`](https://github.com/stdlib-js/stdlib/commit/9cf630c061fd2455e3c412af7e25c3e9d6bebe3f): remove `stats/base/sstdevwd`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/sstdevwd`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`3dd2c2f`](https://github.com/stdlib-js/stdlib/commit/3dd2c2fd22fc083a724242d56a639610d1b8fd80): remove `sstdevwd`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`c3cb90b`](https://github.com/stdlib-js/stdlib/commit/c3cb90b96da6774a8b5ab3da5f0762e938c907a5): remove `stats/base/snanmean`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/snanmean`, which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
+
+-   [`27d0969`](https://github.com/stdlib-js/stdlib/commit/27d0969bbf32df4406c82123b140336300ebd34d): remove `snanmean`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+        Ref: https://github.com/stdlib-js/stdlib/issues/4797
 
 -   [`dfe367c`](https://github.com/stdlib-js/stdlib/commit/dfe367cbf0742a949c014531aa4b53e754b6d377): remove `stats/base/nanstdev`
 
@@ -3352,6 +3388,18 @@ A total of 546 issues were closed in this release:
 
 <details>
 
+-   [`80a9821`](https://github.com/stdlib-js/stdlib/commit/80a98213f6ca2e1102cc07b3ea3c7c160a7c8ef1) - **remove:** remove `stats/base/sdsnanmeanors` _(by Gururaj Gurram)_
+-   [`3255779`](https://github.com/stdlib-js/stdlib/commit/3255779bbbb9fc1b4ab755ac57aad2bc1c5dbd97) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`f83492e`](https://github.com/stdlib-js/stdlib/commit/f83492ed224ffb37c531108aaa1f753473ff31b0) - **remove:** remove `sdsnanmeanors` from namespace _(by Gururaj Gurram)_
+-   [`7546cdf`](https://github.com/stdlib-js/stdlib/commit/7546cdf2e3dbbde28497d3a35b45ed28f721a992) - **feat:** add `stats/strided/sdsnanmeanors` _(by Gururaj Gurram)_
+-   [`9cf630c`](https://github.com/stdlib-js/stdlib/commit/9cf630c061fd2455e3c412af7e25c3e9d6bebe3f) - **remove:** remove `stats/base/sstdevwd` _(by Gururaj Gurram)_
+-   [`26d86b8`](https://github.com/stdlib-js/stdlib/commit/26d86b8b1996eebbc5eaeb5a1ce62ba61ade78bf) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`3dd2c2f`](https://github.com/stdlib-js/stdlib/commit/3dd2c2fd22fc083a724242d56a639610d1b8fd80) - **remove:** remove `sstdevwd` from namespace _(by Gururaj Gurram)_
+-   [`4bce739`](https://github.com/stdlib-js/stdlib/commit/4bce7392f50f9c62d056295fce90cd156a071597) - **feat:** add `stats/strided/sstdevwd` _(by Gururaj Gurram)_
+-   [`c3cb90b`](https://github.com/stdlib-js/stdlib/commit/c3cb90b96da6774a8b5ab3da5f0762e938c907a5) - **remove:** remove `stats/base/snanmean` _(by Gururaj Gurram)_
+-   [`4ec3a47`](https://github.com/stdlib-js/stdlib/commit/4ec3a471ad594bf710eb4e78a6650136389cb0a7) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`27d0969`](https://github.com/stdlib-js/stdlib/commit/27d0969bbf32df4406c82123b140336300ebd34d) - **remove:** remove `snanmean` from namespace _(by Gururaj Gurram)_
+-   [`8d4c4f8`](https://github.com/stdlib-js/stdlib/commit/8d4c4f888b4c858c7b2c1d1f396684babe86464f) - **feat:** add `stats/strided/snanmean` _(by Gururaj Gurram)_
 -   [`4323f9b`](https://github.com/stdlib-js/stdlib/commit/4323f9baeab70fd73e4a48328d2b493775f91fc5) - **feat:** add `stats/base/ndarray/smaxsorted` [(#8036)](https://github.com/stdlib-js/stdlib/pull/8036) _(by Gururaj Gurram, Athan Reines)_
 -   [`c9bc2a7`](https://github.com/stdlib-js/stdlib/commit/c9bc2a7e497e170d04a11db899b9e54279a85187) - **feat:** add `stats/base/ndarray/dmaxsorted` [(#8035)](https://github.com/stdlib-js/stdlib/pull/8035) _(by Gururaj Gurram, Athan Reines)_
 -   [`ebe64d8`](https://github.com/stdlib-js/stdlib/commit/ebe64d8193373cc0c513b402a8b9fc08de381d36) - **feat:** add `stats/base/ndarray/maxsorted` [(#8034)](https://github.com/stdlib-js/stdlib/pull/8034) _(by Gururaj Gurram, Athan Reines)_

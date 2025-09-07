@@ -24,7 +24,7 @@ var numelDimension = require( '@stdlib/ndarray/base/numel-dimension' );
 var getStride = require( '@stdlib/ndarray/base/stride' );
 var getOffset = require( '@stdlib/ndarray/base/offset' );
 var getData = require( '@stdlib/ndarray/base/data-buffer' );
-var strided = require( './../../../../base/snanmean' ).ndarray;
+var strided = require( './../../../../strided/snanmean' ).ndarray;
 
 
 // MAIN //

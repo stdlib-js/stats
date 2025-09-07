@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var sdsnanmeanors = require( './../../../base/sdsnanmeanors' );
+var sdsnanmeanors = require( './../../../strided/sdsnanmeanors' );
 
 
 // MAIN //

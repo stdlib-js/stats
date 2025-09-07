@@ -26,8 +26,6 @@ import cumin = require( './../../../base/cumin' );
 import cuminabs = require( './../../../base/cuminabs' );
 import dists = require( './../../../base/dists' );
 import sdsnanmean = require( './../../../base/sdsnanmean' );
-import sdsnanmeanors = require( './../../../base/sdsnanmeanors' );
-import snanmean = require( './../../../base/snanmean' );
 import snanstdev = require( './../../../base/snanstdev' );
 import snanstdevch = require( './../../../base/snanstdevch' );
 import snanstdevpn = require( './../../../base/snanstdevpn' );
@@ -40,7 +38,6 @@ import snanvariancepn = require( './../../../base/snanvariancepn' );
 import snanvariancetk = require( './../../../base/snanvariancetk' );
 import snanvariancewd = require( './../../../base/snanvariancewd' );
 import snanvarianceyc = require( './../../../base/snanvarianceyc' );
-import sstdevwd = require( './../../../base/sstdevwd' );
 import dmeankbn2 = require( './../../../strided/dmeankbn2' );
 import dmeanli = require( './../../../strided/dmeanli' );
 import dmeanlipw = require( './../../../strided/dmeanlipw' );
@@ -193,58 +190,6 @@ interface Namespace {
 	* // returns ~0.3333
 	*/
 	sdsnanmean: typeof sdsnanmean;
-
-	/**
-	* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using ordinary recursive summation with extended accumulation.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.sdsnanmeanors( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.sdsnanmeanors.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	sdsnanmeanors: typeof sdsnanmeanors;
-
-	/**
-	* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param stride - stride length
-	* @returns arithmetic mean
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.snanmean( x.length, x, 1 );
-	* // returns ~0.3333
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.snanmean.ndarray( x.length, x, 1, 0 );
-	* // returns ~0.3333
-	*/
-	snanmean: typeof snanmean;
 
 	/**
 	* Computes the standard deviation of a single-precision floating-point strided array ignoring `NaN` values.
@@ -569,33 +514,6 @@ interface Namespace {
 	* // returns ~4.3333
 	*/
 	snanvarianceyc: typeof snanvarianceyc;
-
-	/**
-	* Computes the standard deviation of a single-precision floating-point strided array using Welford's algorithm.
-	*
-	* @param N - number of indexed elements
-	* @param correction - degrees of freedom adjustment
-	* @param x - input array
-	* @param stride - stride length
-	* @returns standard deviation
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.sstdevwd( x.length, 1, x, 1 );
-	* // returns ~2.0817
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.sstdevwd.ndarray( x.length, 1, x, 1, 0 );
-	* // returns ~2.0817
-	*/
-	sstdevwd: typeof sstdevwd;
 
 	/**
 	* Computes the arithmetic mean of a double-precision floating-point strided array using a second-order iterative Kahan–Babuška algorithm.

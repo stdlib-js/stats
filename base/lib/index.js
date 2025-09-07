@@ -100,24 +100,6 @@ setReadOnly( ns, 'ndarray', require( './../../base/ndarray' ) );
 setReadOnly( ns, 'sdsnanmean', require( './../../base/sdsnanmean' ) );
 
 /**
-* @name sdsnanmeanors
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/sdsnanmeanors}
-*/
-setReadOnly( ns, 'sdsnanmeanors', require( './../../base/sdsnanmeanors' ) );
-
-/**
-* @name snanmean
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/snanmean}
-*/
-setReadOnly( ns, 'snanmean', require( './../../base/snanmean' ) );
-
-/**
 * @name snanstdev
 * @memberof ns
 * @readonly
@@ -224,15 +206,6 @@ setReadOnly( ns, 'snanvariancewd', require( './../../base/snanvariancewd' ) );
 * @see {@link module:@stdlib/stats/base/snanvarianceyc}
 */
 setReadOnly( ns, 'snanvarianceyc', require( './../../base/snanvarianceyc' ) );
-
-/**
-* @name sstdevwd
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/base/sstdevwd}
-*/
-setReadOnly( ns, 'sstdevwd', require( './../../base/sstdevwd' ) );
 
 /**
 * @name dmeankbn2
