@@ -1360,6 +1360,15 @@ setReadOnly( ns, 'sdsmean', require( './../../strided/sdsmean' ) );
 setReadOnly( ns, 'sdsmeanors', require( './../../strided/sdsmeanors' ) );
 
 /**
+* @name sdsnanmeanors
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/sdsnanmeanors}
+*/
+setReadOnly( ns, 'sdsnanmeanors', require( './../../strided/sdsnanmeanors' ) );
+
+/**
 * @name smax
 * @memberof ns
 * @readonly
@@ -1567,6 +1576,15 @@ setReadOnly( ns, 'snanmax', require( './../../strided/snanmax' ) );
 setReadOnly( ns, 'snanmaxabs', require( './../../strided/snanmaxabs' ) );
 
 /**
+* @name snanmean
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/snanmean}
+*/
+setReadOnly( ns, 'snanmean', require( './../../strided/snanmean' ) );
+
+/**
 * @name snanmeanors
 * @memberof ns
 * @readonly
@@ -1691,6 +1709,15 @@ setReadOnly( ns, 'sstdevpn', require( './../../strided/sstdevpn' ) );
 * @see {@link module:@stdlib/stats/strided/sstdevtk}
 */
 setReadOnly( ns, 'sstdevtk', require( './../../strided/sstdevtk' ) );
+
+/**
+* @name sstdevwd
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/sstdevwd}
+*/
+setReadOnly( ns, 'sstdevwd', require( './../../strided/sstdevwd' ) );
 
 /**
 * @name sstdevyc

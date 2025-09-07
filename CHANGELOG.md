@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`b146b54`](https://github.com/stdlib-js/stdlib/commit/b146b54af84f9455952f82f7928f8f7bad6df121) - add exports to `stats/base/ndarray` namespace
+-   [`7592c09`](https://github.com/stdlib-js/stdlib/commit/7592c09ca5b6486f4c84f5d59189f0be0219454d) - add exports to `stats/strided` namespace
 -   [`7546cdf`](https://github.com/stdlib-js/stdlib/commit/7546cdf2e3dbbde28497d3a35b45ed28f721a992) - add `stats/strided/sdsnanmeanors`
 -   [`4bce739`](https://github.com/stdlib-js/stdlib/commit/4bce7392f50f9c62d056295fce90cd156a071597) - add `stats/strided/sstdevwd`
 -   [`8d4c4f8`](https://github.com/stdlib-js/stdlib/commit/8d4c4f888b4c858c7b2c1d1f396684babe86464f) - add `stats/strided/snanmean`
@@ -3388,6 +3390,8 @@ A total of 546 issues were closed in this release:
 
 <details>
 
+-   [`b146b54`](https://github.com/stdlib-js/stdlib/commit/b146b54af84f9455952f82f7928f8f7bad6df121) - **feat:** add exports to `stats/base/ndarray` namespace _(by Philipp Burckhardt)_
+-   [`7592c09`](https://github.com/stdlib-js/stdlib/commit/7592c09ca5b6486f4c84f5d59189f0be0219454d) - **feat:** add exports to `stats/strided` namespace _(by Philipp Burckhardt)_
 -   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
 -   [`80a9821`](https://github.com/stdlib-js/stdlib/commit/80a98213f6ca2e1102cc07b3ea3c7c160a7c8ef1) - **remove:** remove `stats/base/sdsnanmeanors` _(by Gururaj Gurram)_
 -   [`3255779`](https://github.com/stdlib-js/stdlib/commit/3255779bbbb9fc1b4ab755ac57aad2bc1c5dbd97) - **refactor:** update paths _(by Gururaj Gurram)_

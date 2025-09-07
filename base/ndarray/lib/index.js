@@ -109,6 +109,15 @@ setReadOnly( ns, 'dmax', require( './../../../base/ndarray/dmax' ) );
 setReadOnly( ns, 'dmaxabs', require( './../../../base/ndarray/dmaxabs' ) );
 
 /**
+* @name dmaxsorted
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/dmaxsorted}
+*/
+setReadOnly( ns, 'dmaxsorted', require( './../../../base/ndarray/dmaxsorted' ) );
+
+/**
 * @name dmean
 * @memberof ns
 * @readonly
@@ -143,6 +152,24 @@ setReadOnly( ns, 'dminabs', require( './../../../base/ndarray/dminabs' ) );
 * @see {@link module:@stdlib/stats/base/ndarray/dnanmax}
 */
 setReadOnly( ns, 'dnanmax', require( './../../../base/ndarray/dnanmax' ) );
+
+/**
+* @name dnanmean
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/dnanmean}
+*/
+setReadOnly( ns, 'dnanmean', require( './../../../base/ndarray/dnanmean' ) );
+
+/**
+* @name dnanmin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/dnanmin}
+*/
+setReadOnly( ns, 'dnanmin', require( './../../../base/ndarray/dnanmin' ) );
 
 /**
 * @name drange
@@ -199,6 +226,15 @@ setReadOnly( ns, 'maxBy', require( './../../../base/ndarray/max-by' ) );
 setReadOnly( ns, 'maxabs', require( './../../../base/ndarray/maxabs' ) );
 
 /**
+* @name maxsorted
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/maxsorted}
+*/
+setReadOnly( ns, 'maxsorted', require( './../../../base/ndarray/maxsorted' ) );
+
+/**
 * @name mean
 * @memberof ns
 * @readonly
@@ -242,6 +278,24 @@ setReadOnly( ns, 'minabs', require( './../../../base/ndarray/minabs' ) );
 * @see {@link module:@stdlib/stats/base/ndarray/nanmax}
 */
 setReadOnly( ns, 'nanmax', require( './../../../base/ndarray/nanmax' ) );
+
+/**
+* @name nanmean
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/nanmean}
+*/
+setReadOnly( ns, 'nanmean', require( './../../../base/ndarray/nanmean' ) );
+
+/**
+* @name nanmin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/nanmin}
+*/
+setReadOnly( ns, 'nanmin', require( './../../../base/ndarray/nanmin' ) );
 
 /**
 * @name range
@@ -298,6 +352,15 @@ setReadOnly( ns, 'smax', require( './../../../base/ndarray/smax' ) );
 setReadOnly( ns, 'smaxabs', require( './../../../base/ndarray/smaxabs' ) );
 
 /**
+* @name smaxsorted
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/smaxsorted}
+*/
+setReadOnly( ns, 'smaxsorted', require( './../../../base/ndarray/smaxsorted' ) );
+
+/**
 * @name smean
 * @memberof ns
 * @readonly
@@ -332,6 +395,24 @@ setReadOnly( ns, 'sminabs', require( './../../../base/ndarray/sminabs' ) );
 * @see {@link module:@stdlib/stats/base/ndarray/snanmax}
 */
 setReadOnly( ns, 'snanmax', require( './../../../base/ndarray/snanmax' ) );
+
+/**
+* @name snanmean
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/snanmean}
+*/
+setReadOnly( ns, 'snanmean', require( './../../../base/ndarray/snanmean' ) );
+
+/**
+* @name snanmin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/snanmin}
+*/
+setReadOnly( ns, 'snanmin', require( './../../../base/ndarray/snanmin' ) );
 
 /**
 * @name srange
