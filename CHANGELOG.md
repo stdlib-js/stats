@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-06)
+## Unreleased (2025-09-07)
 
 <section class="features">
 
 ### Features
 
+-   [`ebe64d8`](https://github.com/stdlib-js/stdlib/commit/ebe64d8193373cc0c513b402a8b9fc08de381d36) - add `stats/base/ndarray/maxsorted` [(#8034)](https://github.com/stdlib-js/stdlib/pull/8034)
 -   [`cf55c5e`](https://github.com/stdlib-js/stdlib/commit/cf55c5ebc1f3a91b788622c70da37c6e753771b3) - add missing exports to `stats` namespace
 -   [`7c108ad`](https://github.com/stdlib-js/stdlib/commit/7c108ad80e9720a66e890bb47cedcb3851830405) - add `stats/nanmean` [(#7968)](https://github.com/stdlib-js/stdlib/pull/7968)
 -   [`2ca02fb`](https://github.com/stdlib-js/stdlib/commit/2ca02fb23c28dd7d5d9d6853a0329ca044b68102) - add `stats/base/ndarray/snanmean` [(#7966)](https://github.com/stdlib-js/stdlib/pull/7966)
@@ -3349,8 +3350,9 @@ A total of 546 issues were closed in this release:
 
 <details>
 
+-   [`ebe64d8`](https://github.com/stdlib-js/stdlib/commit/ebe64d8193373cc0c513b402a8b9fc08de381d36) - **feat:** add `stats/base/ndarray/maxsorted` [(#8034)](https://github.com/stdlib-js/stdlib/pull/8034) _(by Gururaj Gurram, Athan Reines)_
 -   [`1891116`](https://github.com/stdlib-js/stdlib/commit/1891116f31ac5680c4349c2159bb5d115e6239ae) - **docs:** minor clean-up _(by Philipp Burckhardt)_
--   [`afee9b8`](https://github.com/stdlib-js/stdlib/commit/afee9b8ccfb8688748b390a1960be38f562f22f3) - **chore:** resolve JavaScript lint errors [(#8018)](https://github.com/stdlib-js/stdlib/pull/8018) _(by Gauravkaushik-1206, Athan Reines)_
+-   [`afee9b8`](https://github.com/stdlib-js/stdlib/commit/afee9b8ccfb8688748b390a1960be38f562f22f3) - **chore:** resolve JavaScript lint errors [(#8018)](https://github.com/stdlib-js/stdlib/pull/8018) _(by Gaurav Kaushik, Athan Reines)_
 -   [`590cfd6`](https://github.com/stdlib-js/stdlib/commit/590cfd61459544b8398c0d965190d82c15fc7196) - **docs:** replace manual `for` loop in examples [(#8020)](https://github.com/stdlib-js/stdlib/pull/8020) _(by Harsh)_
 -   [`ceef77f`](https://github.com/stdlib-js/stdlib/commit/ceef77fd9f7d409cc5819829e8a01f7a5fe45148) - **docs:** replace manual `for` loop in examples [(#8019)](https://github.com/stdlib-js/stdlib/pull/8019) _(by Harsh)_
 -   [`cf55c5e`](https://github.com/stdlib-js/stdlib/commit/cf55c5ebc1f3a91b788622c70da37c6e753771b3) - **feat:** add missing exports to `stats` namespace _(by Philipp Burckhardt)_
@@ -6048,7 +6050,7 @@ A total of 81 people contributed to this release. Thank you to the following con
 -   Divyansh Seth
 -   GK Bishnoi
 -   Gaurav
--   Gauravkaushik-1206
+-   Gaurav Kaushik
 -   Gautam Kaushik
 -   Gautam sharma
 -   GeoDaoyu
