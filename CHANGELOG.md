@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c9bc2a7`](https://github.com/stdlib-js/stdlib/commit/c9bc2a7e497e170d04a11db899b9e54279a85187) - add `stats/base/ndarray/dmaxsorted` [(#8035)](https://github.com/stdlib-js/stdlib/pull/8035)
 -   [`ebe64d8`](https://github.com/stdlib-js/stdlib/commit/ebe64d8193373cc0c513b402a8b9fc08de381d36) - add `stats/base/ndarray/maxsorted` [(#8034)](https://github.com/stdlib-js/stdlib/pull/8034)
 -   [`cf55c5e`](https://github.com/stdlib-js/stdlib/commit/cf55c5ebc1f3a91b788622c70da37c6e753771b3) - add missing exports to `stats` namespace
 -   [`7c108ad`](https://github.com/stdlib-js/stdlib/commit/7c108ad80e9720a66e890bb47cedcb3851830405) - add `stats/nanmean` [(#7968)](https://github.com/stdlib-js/stdlib/pull/7968)
@@ -3350,6 +3351,7 @@ A total of 546 issues were closed in this release:
 
 <details>
 
+-   [`c9bc2a7`](https://github.com/stdlib-js/stdlib/commit/c9bc2a7e497e170d04a11db899b9e54279a85187) - **feat:** add `stats/base/ndarray/dmaxsorted` [(#8035)](https://github.com/stdlib-js/stdlib/pull/8035) _(by Gururaj Gurram, Athan Reines)_
 -   [`ebe64d8`](https://github.com/stdlib-js/stdlib/commit/ebe64d8193373cc0c513b402a8b9fc08de381d36) - **feat:** add `stats/base/ndarray/maxsorted` [(#8034)](https://github.com/stdlib-js/stdlib/pull/8034) _(by Gururaj Gurram, Athan Reines)_
 -   [`1891116`](https://github.com/stdlib-js/stdlib/commit/1891116f31ac5680c4349c2159bb5d115e6239ae) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`afee9b8`](https://github.com/stdlib-js/stdlib/commit/afee9b8ccfb8688748b390a1960be38f562f22f3) - **chore:** resolve JavaScript lint errors [(#8018)](https://github.com/stdlib-js/stdlib/pull/8018) _(by Gaurav Kaushik, Athan Reines)_
