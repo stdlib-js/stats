@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-07)
+## Unreleased (2025-09-09)
 
 <section class="features">
 
@@ -3390,6 +3390,7 @@ A total of 546 issues were closed in this release:
 
 <details>
 
+-   [`d3c3d08`](https://github.com/stdlib-js/stdlib/commit/d3c3d083f564d82302b8351359955034f34789e3) - **docs:** replace manual `for` loop in examples [(#8047)](https://github.com/stdlib-js/stdlib/pull/8047) _(by Harsh)_
 -   [`b146b54`](https://github.com/stdlib-js/stdlib/commit/b146b54af84f9455952f82f7928f8f7bad6df121) - **feat:** add exports to `stats/base/ndarray` namespace _(by Philipp Burckhardt)_
 -   [`7592c09`](https://github.com/stdlib-js/stdlib/commit/7592c09ca5b6486f4c84f5d59189f0be0219454d) - **feat:** add exports to `stats/strided` namespace _(by Philipp Burckhardt)_
 -   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
