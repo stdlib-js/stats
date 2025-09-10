@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-09)
+## Unreleased (2025-09-10)
 
 <section class="features">
 
@@ -3390,6 +3390,7 @@ A total of 546 issues were closed in this release:
 
 <details>
 
+-   [`82be305`](https://github.com/stdlib-js/stdlib/commit/82be305dfecc75ac71e18dbed841aa6f8022e7be) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
 -   [`93de48b`](https://github.com/stdlib-js/stdlib/commit/93de48be828ed50d6116f13eb9f4812e2c0bcf6a) - **docs:** replace manual `for` loop in examples [(#8048)](https://github.com/stdlib-js/stdlib/pull/8048) _(by Harsh)_
 -   [`d3c3d08`](https://github.com/stdlib-js/stdlib/commit/d3c3d083f564d82302b8351359955034f34789e3) - **docs:** replace manual `for` loop in examples [(#8047)](https://github.com/stdlib-js/stdlib/pull/8047) _(by Harsh)_
 -   [`b146b54`](https://github.com/stdlib-js/stdlib/commit/b146b54af84f9455952f82f7928f8f7bad6df121) - **feat:** add exports to `stats/base/ndarray` namespace _(by Philipp Burckhardt)_
