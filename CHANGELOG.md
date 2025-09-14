@@ -3390,6 +3390,7 @@ A total of 547 issues were closed in this release:
 
 <details>
 
+-   [`0f21a37`](https://github.com/stdlib-js/stdlib/commit/0f21a37f076bf26a2c6c7f0acf08e6f2d1be9004) - **docs:** replace manual `for` loop in examples [(#8076)](https://github.com/stdlib-js/stdlib/pull/8076) _(by Harsh)_
 -   [`49f2313`](https://github.com/stdlib-js/stdlib/commit/49f23133cefb121f626a918838ef4bed4cc81da6) - **docs:** replace manual `for` loop in examples [(#8077)](https://github.com/stdlib-js/stdlib/pull/8077) _(by Harsh)_
 -   [`fd24b4a`](https://github.com/stdlib-js/stdlib/commit/fd24b4a9cd4322a1d32b552c92f81f506afda44e) - **chore:** address commit comments [(#8067)](https://github.com/stdlib-js/stdlib/pull/8067) _(by Vara Rahul Rajana)_
 -   [`82be305`](https://github.com/stdlib-js/stdlib/commit/82be305dfecc75ac71e18dbed841aa6f8022e7be) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
