@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-14)
+## Unreleased (2025-09-17)
 
 <section class="features">
 
 ### Features
 
+-   [`b5ace26`](https://github.com/stdlib-js/stdlib/commit/b5ace26f95531ed7322c25bcf190e77d595dc055) - add `stats/strided/wasm/dnanvariancewd` [(#8085)](https://github.com/stdlib-js/stdlib/pull/8085)
 -   [`b146b54`](https://github.com/stdlib-js/stdlib/commit/b146b54af84f9455952f82f7928f8f7bad6df121) - add exports to `stats/base/ndarray` namespace
 -   [`7592c09`](https://github.com/stdlib-js/stdlib/commit/7592c09ca5b6486f4c84f5d59189f0be0219454d) - add exports to `stats/strided` namespace
 -   [`7546cdf`](https://github.com/stdlib-js/stdlib/commit/7546cdf2e3dbbde28497d3a35b45ed28f721a992) - add `stats/strided/sdsnanmeanors`
@@ -3390,6 +3391,7 @@ A total of 547 issues were closed in this release:
 
 <details>
 
+-   [`b5ace26`](https://github.com/stdlib-js/stdlib/commit/b5ace26f95531ed7322c25bcf190e77d595dc055) - **feat:** add `stats/strided/wasm/dnanvariancewd` [(#8085)](https://github.com/stdlib-js/stdlib/pull/8085) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`0f21a37`](https://github.com/stdlib-js/stdlib/commit/0f21a37f076bf26a2c6c7f0acf08e6f2d1be9004) - **docs:** replace manual `for` loop in examples [(#8076)](https://github.com/stdlib-js/stdlib/pull/8076) _(by Harsh)_
 -   [`49f2313`](https://github.com/stdlib-js/stdlib/commit/49f23133cefb121f626a918838ef4bed4cc81da6) - **docs:** replace manual `for` loop in examples [(#8077)](https://github.com/stdlib-js/stdlib/pull/8077) _(by Harsh)_
 -   [`fd24b4a`](https://github.com/stdlib-js/stdlib/commit/fd24b4a9cd4322a1d32b552c92f81f506afda44e) - **chore:** address commit comments [(#8067)](https://github.com/stdlib-js/stdlib/pull/8067) _(by Vara Rahul Rajana)_
