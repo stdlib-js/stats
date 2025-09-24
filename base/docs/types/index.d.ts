@@ -25,6 +25,7 @@ import cumaxabs = require( './../../../base/cumaxabs' );
 import cumin = require( './../../../base/cumin' );
 import cuminabs = require( './../../../base/cuminabs' );
 import dists = require( './../../../base/dists' );
+import ndarray = require( './../../../base/ndarray' );
 import sdsnanmean = require( './../../../base/sdsnanmean' );
 import snanstdev = require( './../../../base/snanstdev' );
 import snanstdevch = require( './../../../base/snanstdevch' );
@@ -139,9 +140,9 @@ interface Namespace {
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
-	* @param strideX - `x` stride length
+	* @param strideX - stride length for `x`
 	* @param y - output array
-	* @param strideY - `y` stride length
+	* @param strideY - stride length for `y`
 	* @returns output array
 	*
 	* @example
@@ -164,6 +165,11 @@ interface Namespace {
 	* Base (i.e., lower-level) probability distributions.
 	*/
 	dists: typeof dists;
+
+	/**
+	* Base ndarray statistical functions.
+	*/
+	ndarray: typeof ndarray;
 
 	/**
 	* Computes the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values and using extended accumulation.

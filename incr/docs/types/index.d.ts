@@ -92,6 +92,13 @@ import incrmsumprod = require( './../../../incr/msumprod' );
 import incrmvariance = require( './../../../incr/mvariance' );
 import incrmvmr = require( './../../../incr/mvmr' );
 import incrnancount = require( './../../../incr/nancount' );
+import incrnanmaxabs = require( './../../../incr/nanmaxabs' );
+import incrnanmean = require( './../../../incr/nanmean' );
+import incrnanmeanabs = require( './../../../incr/nanmeanabs' );
+import incrnanmstdev = require( './../../../incr/nanmstdev' );
+import incrnanmsum = require( './../../../incr/nanmsum' );
+import incrnanskewness = require( './../../../incr/nanskewness' );
+import incrnanstdev = require( './../../../incr/nanstdev' );
 import incrnansum = require( './../../../incr/nansum' );
 import incrnansumabs = require( './../../../incr/nansumabs' );
 import incrnansumabs2 = require( './../../../incr/nansumabs2' );
@@ -2313,6 +2320,233 @@ interface Namespace {
 	* // returns 2
 	*/
 	incrnancount: typeof incrnancount;
+
+	/**
+	* Returns an accumulator function which incrementally computes a maximum absolute value, ignoring `NaN` values.
+	*
+	* @returns accumulator function
+	*
+	* @example
+	* var accumulator = ns.incrnanmaxabs();
+	*
+	* var v = accumulator();
+	* // returns null
+	*
+	* v = accumulator( 2.0 );
+	* // returns 2.0
+	*
+	* v = accumulator( -3.0 );
+	* // returns 3.0
+	*
+	* v = accumulator( NaN );
+	* // returns 3.0
+	*
+	* v = accumulator( 1.0 );
+	* // returns 3.0
+	*
+	* v = accumulator();
+	* // returns 3.0
+	*/
+	incrnanmaxabs: typeof incrnanmaxabs;
+
+	/**
+	* Returns an accumulator function which incrementally computes an arithmetic mean, ignoring `NaN` values.
+	*
+	* @returns accumulator function
+	*
+	* @example
+	* var accumulator = ns.incrnanmean();
+	*
+	* var mu = accumulator();
+	* // returns null
+	*
+	* mu = accumulator( 2.0 );
+	* // returns 2.0
+	*
+	* mu = accumulator( NaN );
+	* // returns 2.0
+	*
+	* mu = accumulator( 3.0 );
+	* // returns 2.5
+	*
+	* mu = accumulator( 4.0 );
+	* // returns 3.0
+	*
+	* mu = accumulator();
+	* // returns 3.0
+	*/
+	incrnanmean: typeof incrnanmean;
+
+	/**
+	* Returns an accumulator function which incrementally computes an arithmetic mean of absolute values, ignoring `NaN` values.
+	*
+	* @returns accumulator function
+	*
+	* @example
+	* var accumulator = ns.incrnanmeanabs();
+	*
+	* var mu = accumulator();
+	* // returns null
+	*
+	* mu = accumulator( 2.0 );
+	* // returns 2.0
+	*
+	* mu = accumulator( NaN );
+	* // returns 2.0
+	*
+	* mu = accumulator( -3.0 );
+	* // returns 2.5
+	*
+	* mu = accumulator( -4.0 );
+	* // returns 3.0
+	*
+	* mu = accumulator();
+	* // returns 3.0
+	*/
+	incrnanmeanabs: typeof incrnanmeanabs;
+
+	/**
+	* Returns an accumulator function which incrementally computes a moving corrected sample standard deviation, ignoring NaN values.
+	*
+	* ## Notes
+	*
+	* -   The `W` parameter defines the number of values over which to compute the moving corrected sample standard deviation.
+	* -   As `W` values are needed to fill the window buffer, the first `W-1` returned values are calculated from smaller sample sizes. Until the window is full, each returned value is calculated from all provided values.
+	* -   NaN values are ignored.
+	*
+	* @param W - window size
+	* @param mean - mean value
+	* @throws first argument must be a positive integer
+	* @returns accumulator function
+	*
+	* @example
+	* var accumulator = ns.incrnanmstdev( 3 );
+	*
+	* var s = accumulator();
+	* // returns null
+	*
+	* s = accumulator( 2.0 );
+	* // returns 0.0
+	*
+	* s = accumulator( NaN );
+	* // returns 0.0
+	*
+	* s = accumulator( -5.0 );
+	* // returns ~4.95
+	*
+	* s = accumulator( 3.0 );
+	* // returns ~4.36
+	*
+	* s = accumulator( NaN );
+	* // returns ~4.36
+	*
+	* s = accumulator( 5.0 );
+	* // returns ~5.29
+	*
+	* s = accumulator();
+	* // returns ~5.29
+	*
+	* @example
+	* var accumulator = ns.incrnanmstdev( 3, 5.0 );
+	*/
+	incrnanmstdev: typeof incrnanmstdev;
+
+	/**
+	* Returns an accumulator function which incrementally computes a moving sum , ignoring `NaN` values.
+	*
+	* ## Notes
+	*
+	* -   The `W` parameter defines the number of values over which to compute the moving sum.
+	* -   As `W` values are needed to fill the window buffer, the first `W-1` returned values are calculated from smaller sample sizes. Until the window is full, each returned value is calculated from all provided values.
+	*
+	* @param W - window size
+	* @returns accumulator function
+	*
+	* @example
+	* var nanmsum = require( './../../../incr/nanmsum' );
+	*
+	* var accumulator = ns.incrnanmsum( 3 );
+	*
+	* var v = accumulator();
+	* // returns null
+	*
+	* v = accumulator( 2.0 );
+	* // returns 2.0
+	*
+	* v = accumulator( NaN );
+	* // returns 2.0
+	*
+	* v = accumulator( -5.0 );
+	* // returns -3.0
+	*
+	* v = accumulator( 3.0 );
+	* // returns 0.0
+	*
+	* v = accumulator( 5.0 );
+	* // returns 3.0
+	*
+	* v = accumulator();
+	* // returns 3.0
+	*/
+	incrnanmsum: typeof incrnanmsum;
+
+	/**
+	* Returns an accumulator function which incrementally computes a corrected sample skewness, ignoring `NaN` values.
+	*
+	* ## Notes
+	*
+	* -   If provided a value, the accumulator function returns an updated corrected sample skewness. If not provided a value, the accumulator function returns the current corrected sample skewness.
+	*
+	* @returns accumulator function
+	*
+	* @example
+	* var accumulator = ns.incrnanskewness();
+	*
+	* var skewness = accumulator();
+	* // returns null
+	*
+	* skewness = accumulator( 2.0 );
+	* // returns null
+	*
+	* skewness = accumulator( -5.0 );
+	* // returns null
+	*
+	* skewness = accumulator( -10.0 );
+	* // returns ~0.492
+	*
+	* skewness = accumulator( NaN );
+	* // returns ~0.492
+	*
+	* skewness = accumulator();
+	* // returns ~0.492
+	*/
+	incrnanskewness: typeof incrnanskewness;
+
+	/**
+	* Returns an accumulator function which incrementally computes a corrected sample standard deviation, ignoring `NaN` values.
+	*
+	* @param mu - known mean
+	* @returns accumulator function
+	*
+	* @example
+	* var accumulator = ns.incrnanstdev();
+	*
+	* var s = accumulator();
+	* // returns null
+	*
+	* s = accumulator( 2.0 );
+	* // returns 0.0
+	*
+	* s = accumulator( -5.0 );
+	* // returns ~4.95
+	*
+	* s = accumulator( NaN );
+	* // returns ~4.95
+	*
+	* s = accumulator();
+	* // returns ~4.95
+	*/
+	incrnanstdev: typeof incrnanstdev;
 
 	/**
 	* Returns an accumulator function which incrementally computes a sum, ignoring `NaN` values.

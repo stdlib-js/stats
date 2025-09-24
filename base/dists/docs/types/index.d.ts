@@ -25,6 +25,7 @@ import bernoulli = require( './../../../../base/dists/bernoulli' );
 import beta = require( './../../../../base/dists/beta' );
 import betaprime = require( './../../../../base/dists/betaprime' );
 import binomial = require( './../../../../base/dists/binomial' );
+import bradford = require( './../../../../base/dists/bradford' );
 import cauchy = require( './../../../../base/dists/cauchy' );
 import chi = require( './../../../../base/dists/chi' );
 import chisquare = require( './../../../../base/dists/chisquare' );
@@ -48,6 +49,7 @@ import lognormal = require( './../../../../base/dists/lognormal' );
 import negativeBinomial = require( './../../../../base/dists/negative-binomial' );
 import normal = require( './../../../../base/dists/normal' );
 import pareto1 = require( './../../../../base/dists/pareto-type1' );
+import planck = require( './../../../../base/dists/planck' );
 import poisson = require( './../../../../base/dists/poisson' );
 import rayleigh = require( './../../../../base/dists/rayleigh' );
 import signrank = require( './../../../../base/dists/signrank' );
@@ -86,6 +88,11 @@ interface Namespace {
 	* Binomial distribution.
 	*/
 	binomial: typeof binomial;
+
+	/**
+	* Bradford distribution.
+	*/
+	bradford: typeof bradford;
 
 	/**
 	* Cauchy distribution.
@@ -201,6 +208,11 @@ interface Namespace {
 	* Pareto (Type I) distribution.
 	*/
 	pareto1: typeof pareto1;
+
+	/**
+	* Planck distribution.
+	*/
+	planck: typeof planck;
 
 	/**
 	* Poisson distribution.
