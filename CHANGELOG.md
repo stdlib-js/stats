@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-27)
+## Unreleased (2025-09-29)
 
 <section class="features">
 
@@ -3401,6 +3401,7 @@ A total of 551 issues were closed in this release:
 
 <details>
 
+-   [`b7c2031`](https://github.com/stdlib-js/stdlib/commit/b7c20312491bdcf54ffc681e5fe489b9ba3d059c) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
 -   [`091c2e0`](https://github.com/stdlib-js/stdlib/commit/091c2e05434c5e89a76d6f142d7f407f65ab7b27) - **feat:** add `stats/incr/nanmin` [(#5917)](https://github.com/stdlib-js/stdlib/pull/5917) _(by Abhishek Jain, Philipp Burckhardt)_
 -   [`21c4e0f`](https://github.com/stdlib-js/stdlib/commit/21c4e0fc5a6b112f5e31cd07ce5354f9a7cf7332) - **feat:** add `stats/incr/nangmean` [(#6020)](https://github.com/stdlib-js/stdlib/pull/6020) _(by Abhishek Jain, Philipp Burckhardt)_
 -   [`32709f5`](https://github.com/stdlib-js/stdlib/commit/32709f5088f656ce58b99b00463c1549f5d54b3b) - **feat:** add `stats/incr/nanhmean` [(#6027)](https://github.com/stdlib-js/stdlib/pull/6027) _(by Abhishek Jain, Philipp Burckhardt)_
