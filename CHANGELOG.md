@@ -3401,6 +3401,7 @@ A total of 551 issues were closed in this release:
 
 <details>
 
+-   [`29a9d52`](https://github.com/stdlib-js/stdlib/commit/29a9d527a226f48963e1e0b8db110b64d760c72f) - **docs:** use correct instance formatting in return annotation _(by Philipp Burckhardt)_
 -   [`b7c2031`](https://github.com/stdlib-js/stdlib/commit/b7c20312491bdcf54ffc681e5fe489b9ba3d059c) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
 -   [`091c2e0`](https://github.com/stdlib-js/stdlib/commit/091c2e05434c5e89a76d6f142d7f407f65ab7b27) - **feat:** add `stats/incr/nanmin` [(#5917)](https://github.com/stdlib-js/stdlib/pull/5917) _(by Abhishek Jain, Philipp Burckhardt)_
 -   [`21c4e0f`](https://github.com/stdlib-js/stdlib/commit/21c4e0fc5a6b112f5e31cd07ce5354f9a7cf7332) - **feat:** add `stats/incr/nangmean` [(#6020)](https://github.com/stdlib-js/stdlib/pull/6020) _(by Abhishek Jain, Philipp Burckhardt)_
