@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-14)
+## Unreleased (2025-10-20)
 
 <section class="features">
 
@@ -3401,10 +3401,11 @@ A total of 555 issues were closed in this release:
 
 <details>
 
+-   [`e4be7f9`](https://github.com/stdlib-js/stdlib/commit/e4be7f953df25fba01efe2355dd82208023a00f6) - **docs:** replace manual `for` loop in examples [(#8259)](https://github.com/stdlib-js/stdlib/pull/8259) _(by Harsh Yadav)_
 -   [`32e2924`](https://github.com/stdlib-js/stdlib/commit/32e2924cea84c650a1bbde85ea6e4143c6e7c3b4) - **chore:** fix JavaScript lint errors [(#8214)](https://github.com/stdlib-js/stdlib/pull/8214) _(by Vara Rahul Rajana, Athan Reines)_
--   [`8eafaaa`](https://github.com/stdlib-js/stdlib/commit/8eafaaa6903a36942148972269b561071ff99eed) - **chore:** fix C lint errors [(#8237)](https://github.com/stdlib-js/stdlib/pull/8237) _(by GeoDaoyu)_
--   [`150854b`](https://github.com/stdlib-js/stdlib/commit/150854b200a0db4ef3f2001c16d0c743c69ee32b) - **docs:** replace manual `for` loop in examples [(#8229)](https://github.com/stdlib-js/stdlib/pull/8229) _(by Harsh)_
--   [`4a599d7`](https://github.com/stdlib-js/stdlib/commit/4a599d7672902faa05e6dfbe3822a27422337278) - **docs:** replace manual `for` loop in examples [(#8230)](https://github.com/stdlib-js/stdlib/pull/8230) _(by Harsh)_
+-   [`8eafaaa`](https://github.com/stdlib-js/stdlib/commit/8eafaaa6903a36942148972269b561071ff99eed) - **chore:** fix C lint errors [(#8237)](https://github.com/stdlib-js/stdlib/pull/8237) _(by Geo Daoyu)_
+-   [`150854b`](https://github.com/stdlib-js/stdlib/commit/150854b200a0db4ef3f2001c16d0c743c69ee32b) - **docs:** replace manual `for` loop in examples [(#8229)](https://github.com/stdlib-js/stdlib/pull/8229) _(by Harsh Yadav)_
+-   [`4a599d7`](https://github.com/stdlib-js/stdlib/commit/4a599d7672902faa05e6dfbe3822a27422337278) - **docs:** replace manual `for` loop in examples [(#8230)](https://github.com/stdlib-js/stdlib/pull/8230) _(by Harsh Yadav)_
 -   [`72317f7`](https://github.com/stdlib-js/stdlib/commit/72317f741a54745b3025f656e124c272e8bdf344) - **docs:** update related packages sections [(#8203)](https://github.com/stdlib-js/stdlib/pull/8203) _(by stdlib-bot)_
 -   [`eebec21`](https://github.com/stdlib-js/stdlib/commit/eebec2173891b678ab5e419eec8d6ab3651ed9aa) - **chore:** fix lint errors [(#8184)](https://github.com/stdlib-js/stdlib/pull/8184) _(by Payal Goswami, Athan Reines)_
 -   [`97684e4`](https://github.com/stdlib-js/stdlib/commit/97684e405691f707a532d542ea0f4ea106234588) - **chore:** fix EditorConfig lint errors [(#8178)](https://github.com/stdlib-js/stdlib/pull/8178) _(by navyansh007, Philipp Burckhardt)_
@@ -3415,7 +3416,7 @@ A total of 555 issues were closed in this release:
 -   [`091c2e0`](https://github.com/stdlib-js/stdlib/commit/091c2e05434c5e89a76d6f142d7f407f65ab7b27) - **feat:** add `stats/incr/nanmin` [(#5917)](https://github.com/stdlib-js/stdlib/pull/5917) _(by Abhishek Jain, Philipp Burckhardt)_
 -   [`21c4e0f`](https://github.com/stdlib-js/stdlib/commit/21c4e0fc5a6b112f5e31cd07ce5354f9a7cf7332) - **feat:** add `stats/incr/nangmean` [(#6020)](https://github.com/stdlib-js/stdlib/pull/6020) _(by Abhishek Jain, Philipp Burckhardt)_
 -   [`32709f5`](https://github.com/stdlib-js/stdlib/commit/32709f5088f656ce58b99b00463c1549f5d54b3b) - **feat:** add `stats/incr/nanhmean` [(#6027)](https://github.com/stdlib-js/stdlib/pull/6027) _(by Abhishek Jain, Philipp Burckhardt)_
--   [`7c908e8`](https://github.com/stdlib-js/stdlib/commit/7c908e80b8f6188f892421690bf7925b20bc5aaf) - **chore:** fix C lint errors [(#8130)](https://github.com/stdlib-js/stdlib/pull/8130) _(by GeoDaoyu)_
+-   [`7c908e8`](https://github.com/stdlib-js/stdlib/commit/7c908e80b8f6188f892421690bf7925b20bc5aaf) - **chore:** fix C lint errors [(#8130)](https://github.com/stdlib-js/stdlib/pull/8130) _(by Geo Daoyu)_
 -   [`e427b37`](https://github.com/stdlib-js/stdlib/commit/e427b37b14b6b2fb7828f483aec4a0aed935c3ad) - **feat:** update `stats/strided` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`ce68101`](https://github.com/stdlib-js/stdlib/commit/ce681013131b53961d7319ab939336cd2fdd9730) - **feat:** update `stats/incr` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`a168998`](https://github.com/stdlib-js/stdlib/commit/a16899815e919c40080a1b27b94cca79da71c3bb) - **feat:** update `stats` TypeScript declarations _(by Philipp Burckhardt)_
@@ -3425,12 +3426,12 @@ A total of 555 issues were closed in this release:
 -   [`66f5e9d`](https://github.com/stdlib-js/stdlib/commit/66f5e9dd712a3448b777f5b318a4cb316252fd45) - **feat:** update `stats/array` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`14fbe2a`](https://github.com/stdlib-js/stdlib/commit/14fbe2a5ced542c4183b6cae8a5d369462a6023a) - **docs:** clean-up TypeScript declarations example code _(by Philipp Burckhardt)_
 -   [`b5ace26`](https://github.com/stdlib-js/stdlib/commit/b5ace26f95531ed7322c25bcf190e77d595dc055) - **feat:** add `stats/strided/wasm/dnanvariancewd` [(#8085)](https://github.com/stdlib-js/stdlib/pull/8085) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
--   [`0f21a37`](https://github.com/stdlib-js/stdlib/commit/0f21a37f076bf26a2c6c7f0acf08e6f2d1be9004) - **docs:** replace manual `for` loop in examples [(#8076)](https://github.com/stdlib-js/stdlib/pull/8076) _(by Harsh)_
--   [`49f2313`](https://github.com/stdlib-js/stdlib/commit/49f23133cefb121f626a918838ef4bed4cc81da6) - **docs:** replace manual `for` loop in examples [(#8077)](https://github.com/stdlib-js/stdlib/pull/8077) _(by Harsh)_
+-   [`0f21a37`](https://github.com/stdlib-js/stdlib/commit/0f21a37f076bf26a2c6c7f0acf08e6f2d1be9004) - **docs:** replace manual `for` loop in examples [(#8076)](https://github.com/stdlib-js/stdlib/pull/8076) _(by Harsh Yadav)_
+-   [`49f2313`](https://github.com/stdlib-js/stdlib/commit/49f23133cefb121f626a918838ef4bed4cc81da6) - **docs:** replace manual `for` loop in examples [(#8077)](https://github.com/stdlib-js/stdlib/pull/8077) _(by Harsh Yadav)_
 -   [`fd24b4a`](https://github.com/stdlib-js/stdlib/commit/fd24b4a9cd4322a1d32b552c92f81f506afda44e) - **chore:** address commit comments [(#8067)](https://github.com/stdlib-js/stdlib/pull/8067) _(by Vara Rahul Rajana)_
 -   [`82be305`](https://github.com/stdlib-js/stdlib/commit/82be305dfecc75ac71e18dbed841aa6f8022e7be) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
--   [`93de48b`](https://github.com/stdlib-js/stdlib/commit/93de48be828ed50d6116f13eb9f4812e2c0bcf6a) - **docs:** replace manual `for` loop in examples [(#8048)](https://github.com/stdlib-js/stdlib/pull/8048) _(by Harsh)_
--   [`d3c3d08`](https://github.com/stdlib-js/stdlib/commit/d3c3d083f564d82302b8351359955034f34789e3) - **docs:** replace manual `for` loop in examples [(#8047)](https://github.com/stdlib-js/stdlib/pull/8047) _(by Harsh)_
+-   [`93de48b`](https://github.com/stdlib-js/stdlib/commit/93de48be828ed50d6116f13eb9f4812e2c0bcf6a) - **docs:** replace manual `for` loop in examples [(#8048)](https://github.com/stdlib-js/stdlib/pull/8048) _(by Harsh Yadav)_
+-   [`d3c3d08`](https://github.com/stdlib-js/stdlib/commit/d3c3d083f564d82302b8351359955034f34789e3) - **docs:** replace manual `for` loop in examples [(#8047)](https://github.com/stdlib-js/stdlib/pull/8047) _(by Harsh Yadav)_
 -   [`b146b54`](https://github.com/stdlib-js/stdlib/commit/b146b54af84f9455952f82f7928f8f7bad6df121) - **feat:** add exports to `stats/base/ndarray` namespace _(by Philipp Burckhardt)_
 -   [`7592c09`](https://github.com/stdlib-js/stdlib/commit/7592c09ca5b6486f4c84f5d59189f0be0219454d) - **feat:** add exports to `stats/strided` namespace _(by Philipp Burckhardt)_
 -   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
@@ -3451,8 +3452,8 @@ A total of 555 issues were closed in this release:
 -   [`ebe64d8`](https://github.com/stdlib-js/stdlib/commit/ebe64d8193373cc0c513b402a8b9fc08de381d36) - **feat:** add `stats/base/ndarray/maxsorted` [(#8034)](https://github.com/stdlib-js/stdlib/pull/8034) _(by Gururaj Gurram, Athan Reines)_
 -   [`1891116`](https://github.com/stdlib-js/stdlib/commit/1891116f31ac5680c4349c2159bb5d115e6239ae) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`afee9b8`](https://github.com/stdlib-js/stdlib/commit/afee9b8ccfb8688748b390a1960be38f562f22f3) - **chore:** resolve JavaScript lint errors [(#8018)](https://github.com/stdlib-js/stdlib/pull/8018) _(by Gaurav Kaushik, Athan Reines)_
--   [`590cfd6`](https://github.com/stdlib-js/stdlib/commit/590cfd61459544b8398c0d965190d82c15fc7196) - **docs:** replace manual `for` loop in examples [(#8020)](https://github.com/stdlib-js/stdlib/pull/8020) _(by Harsh)_
--   [`ceef77f`](https://github.com/stdlib-js/stdlib/commit/ceef77fd9f7d409cc5819829e8a01f7a5fe45148) - **docs:** replace manual `for` loop in examples [(#8019)](https://github.com/stdlib-js/stdlib/pull/8019) _(by Harsh)_
+-   [`590cfd6`](https://github.com/stdlib-js/stdlib/commit/590cfd61459544b8398c0d965190d82c15fc7196) - **docs:** replace manual `for` loop in examples [(#8020)](https://github.com/stdlib-js/stdlib/pull/8020) _(by Harsh Yadav)_
+-   [`ceef77f`](https://github.com/stdlib-js/stdlib/commit/ceef77fd9f7d409cc5819829e8a01f7a5fe45148) - **docs:** replace manual `for` loop in examples [(#8019)](https://github.com/stdlib-js/stdlib/pull/8019) _(by Harsh Yadav)_
 -   [`cf55c5e`](https://github.com/stdlib-js/stdlib/commit/cf55c5ebc1f3a91b788622c70da37c6e753771b3) - **feat:** add missing exports to `stats` namespace _(by Philipp Burckhardt)_
 -   [`4c3f5bb`](https://github.com/stdlib-js/stdlib/commit/4c3f5bb092fbd08dfcdb47abecc46fe8b66ff63e) - **test:** ensure test values are deterministic _(by Athan Reines)_
 -   [`7c108ad`](https://github.com/stdlib-js/stdlib/commit/7c108ad80e9720a66e890bb47cedcb3851830405) - **feat:** add `stats/nanmean` [(#7968)](https://github.com/stdlib-js/stdlib/pull/7968) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
@@ -3502,8 +3503,8 @@ A total of 555 issues were closed in this release:
 -   [`9a6ebbf`](https://github.com/stdlib-js/stdlib/commit/9a6ebbf9243a38173a927cef6a5cc71684bc154a) - **feat:** add `stats/base/ndarray/nanmax` [(#7886)](https://github.com/stdlib-js/stdlib/pull/7886) _(by Gururaj Gurram)_
 -   [`9b376e9`](https://github.com/stdlib-js/stdlib/commit/9b376e9f5770676b863131d0fb287fb20397e651) - **feat:** add `stats/base/ndarray/snanmax` [(#7885)](https://github.com/stdlib-js/stdlib/pull/7885) _(by Gururaj Gurram, Athan Reines)_
 -   [`d9a224c`](https://github.com/stdlib-js/stdlib/commit/d9a224cad0bd2e22084920b487f6fdf72a1065bd) - **feat:** add `stats/base/ndarray/dnanmax` [(#7884)](https://github.com/stdlib-js/stdlib/pull/7884) _(by Gururaj Gurram)_
--   [`993324c`](https://github.com/stdlib-js/stdlib/commit/993324c928a43c5cd49768b6cd2e6666c71340f9) - **docs:** replace manual `for` loop in examples [(#7888)](https://github.com/stdlib-js/stdlib/pull/7888) _(by Harsh)_
--   [`b8343ec`](https://github.com/stdlib-js/stdlib/commit/b8343ec7ccbe3524a933c2ac0e479864fc8169ba) - **docs:** replace manual `for` loop in examples [(#7889)](https://github.com/stdlib-js/stdlib/pull/7889) _(by Harsh)_
+-   [`993324c`](https://github.com/stdlib-js/stdlib/commit/993324c928a43c5cd49768b6cd2e6666c71340f9) - **docs:** replace manual `for` loop in examples [(#7888)](https://github.com/stdlib-js/stdlib/pull/7888) _(by Harsh Yadav)_
+-   [`b8343ec`](https://github.com/stdlib-js/stdlib/commit/b8343ec7ccbe3524a933c2ac0e479864fc8169ba) - **docs:** replace manual `for` loop in examples [(#7889)](https://github.com/stdlib-js/stdlib/pull/7889) _(by Harsh Yadav)_
 -   [`9fb612a`](https://github.com/stdlib-js/stdlib/commit/9fb612ab6cd5c28d8900c2c7d161bca5ffcc30ff) - **feat:** add `stats/minabs` [(#7883)](https://github.com/stdlib-js/stdlib/pull/7883) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`3f6ab18`](https://github.com/stdlib-js/stdlib/commit/3f6ab1825eab2f3ef53d570d8e0de24b2474a9bf) - **feat:** add `stats/base/ndarray/sminabs` [(#7881)](https://github.com/stdlib-js/stdlib/pull/7881) _(by Gururaj Gurram, Athan Reines)_
 -   [`b58d123`](https://github.com/stdlib-js/stdlib/commit/b58d1233b4a139b3f70ba604541ff1ab5bae1dfd) - **feat:** add `stats/base/ndarray/dminabs` [(#7880)](https://github.com/stdlib-js/stdlib/pull/7880) _(by Gururaj Gurram)_
@@ -3519,7 +3520,7 @@ A total of 555 issues were closed in this release:
 -   [`03fa864`](https://github.com/stdlib-js/stdlib/commit/03fa864694becb2d5bf705033dd106c5fdc2566b) - **feat:** add C ndarray interface and refactor implementation for `stats/base/snanmean` [(#7705)](https://github.com/stdlib-js/stdlib/pull/7705) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`a2fa5eb`](https://github.com/stdlib-js/stdlib/commit/a2fa5eb53203cfd1df88056fb5b4ebf9894c3e87) - **chore:** address commit comments [(#7845)](https://github.com/stdlib-js/stdlib/pull/7845) _(by Nakul Krishnakumar)_
--   [`6d4aa11`](https://github.com/stdlib-js/stdlib/commit/6d4aa112f7d3eb6e5edaa058484fd833ead94c33) - **chore:** fix C lint errors [(#7843)](https://github.com/stdlib-js/stdlib/pull/7843) _(by GeoDaoyu)_
+-   [`6d4aa11`](https://github.com/stdlib-js/stdlib/commit/6d4aa112f7d3eb6e5edaa058484fd833ead94c33) - **chore:** fix C lint errors [(#7843)](https://github.com/stdlib-js/stdlib/pull/7843) _(by Geo Daoyu)_
 -   [`9880cf4`](https://github.com/stdlib-js/stdlib/commit/9880cf4c490d6e7f0299d04ffc4ddf2e69d6565e) - **test:** fix copy & paste error in description _(by Philipp Burckhardt)_
 -   [`a7b8ae0`](https://github.com/stdlib-js/stdlib/commit/a7b8ae0522dacf6a970b5b8cba90fe1a1dbcc9ce) - **feat:** add `stats/cumin` [(#7799)](https://github.com/stdlib-js/stdlib/pull/7799) _(by Gururaj Gurram)_
 -   [`c63cbbc`](https://github.com/stdlib-js/stdlib/commit/c63cbbc8dd488c83b5a806324fe2012878e07570) - **feat:** add `stats/min-by` [(#7792)](https://github.com/stdlib-js/stdlib/pull/7792) _(by Gururaj Gurram, Athan Reines)_
@@ -3634,7 +3635,7 @@ A total of 555 issues were closed in this release:
 -   [`8bb4f88`](https://github.com/stdlib-js/stdlib/commit/8bb4f882f7e0c2c7f2b105b06794352667f6ff68) - **chore:** minor cleanup in `stats/strided/dcovarmtk` [(#7651)](https://github.com/stdlib-js/stdlib/pull/7651) _(by Gururaj Gurram)_
 -   [`3447088`](https://github.com/stdlib-js/stdlib/commit/3447088db3fbd5cb9b1e5a6146969277e2e375e8) - **feat:** add `stats/array/nanstdev` [(#7652)](https://github.com/stdlib-js/stdlib/pull/7652) _(by Gururaj Gurram, Athan Reines)_
 -   [`1b65a25`](https://github.com/stdlib-js/stdlib/commit/1b65a2501f3f98168a8528532bdcadacaea818b8) - **style:** remove backticks _(by Athan Reines)_
--   [`da458f1`](https://github.com/stdlib-js/stdlib/commit/da458f1a24eeff32429540d12c9c4995521d347c) - **chore:** fix C lint errors [(#7677)](https://github.com/stdlib-js/stdlib/pull/7677) _(by GeoDaoyu, Athan Reines)_
+-   [`da458f1`](https://github.com/stdlib-js/stdlib/commit/da458f1a24eeff32429540d12c9c4995521d347c) - **chore:** fix C lint errors [(#7677)](https://github.com/stdlib-js/stdlib/pull/7677) _(by Geo Daoyu, Athan Reines)_
 -   [`ba735e1`](https://github.com/stdlib-js/stdlib/commit/ba735e18b51ccf5709eb5d95418f0e39bdb86e99) - **docs:** fix typo _(by Athan Reines)_
 -   [`5388bba`](https://github.com/stdlib-js/stdlib/commit/5388bba36044d2de93dacb0134c6e5539b02928c) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`a3f89b4`](https://github.com/stdlib-js/stdlib/commit/a3f89b4b7e3a642a9efad7e83893ad8b29fa96b3) - **feat:** add `stats/array/nanstdevch` [(#7654)](https://github.com/stdlib-js/stdlib/pull/7654) _(by Gururaj Gurram, Athan Reines)_
@@ -4218,7 +4219,7 @@ A total of 555 issues were closed in this release:
 -   [`8070167`](https://github.com/stdlib-js/stdlib/commit/80701670fb83e7ef33abec5b14565bef540964a5) - **fix:** use static qualifier for constant _(by Philipp Burckhardt)_
 -   [`65c90fb`](https://github.com/stdlib-js/stdlib/commit/65c90fb88af1b8af95cfdc4be713c786f9180d4e) - **feat:** add C implementation for `@stdlib/stats/base/dists/logistic/mgf` [(#4360)](https://github.com/stdlib-js/stdlib/pull/4360) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`84d2f1d`](https://github.com/stdlib-js/stdlib/commit/84d2f1df9be56b3186328c39457894b84712e844) - **feat:** add C implementation for `stats/base/dists/rayleigh/skewness` [(#4290)](https://github.com/stdlib-js/stdlib/pull/4290) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
--   [`0449885`](https://github.com/stdlib-js/stdlib/commit/044988596dc1f7bc9084033663a426ef366e564c) - **docs:** replace manual `for` loop in examples [(#7367)](https://github.com/stdlib-js/stdlib/pull/7367) _(by Harsh)_
+-   [`0449885`](https://github.com/stdlib-js/stdlib/commit/044988596dc1f7bc9084033663a426ef366e564c) - **docs:** replace manual `for` loop in examples [(#7367)](https://github.com/stdlib-js/stdlib/pull/7367) _(by Harsh Yadav)_
 -   [`7a70890`](https://github.com/stdlib-js/stdlib/commit/7a708901d96214143bd56d83ab68fb0ad4557c4d) - **feat:** add C implementation for `stats/base/dists/invgamma/logpdf` [(#4423)](https://github.com/stdlib-js/stdlib/pull/4423) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`806fcd3`](https://github.com/stdlib-js/stdlib/commit/806fcd357e14d3e2c10c29cbe0a41b709484264f) - **docs:** update namespace table of contents [(#7364)](https://github.com/stdlib-js/stdlib/pull/7364) _(by stdlib-bot)_
 -   [`10f5b51`](https://github.com/stdlib-js/stdlib/commit/10f5b51f8b13bdda4da48dadfee88d155e63acfc) - **feat:** add C implementation for `@stdlib/stats/base/dists/logistic/cdf` [(#4386)](https://github.com/stdlib-js/stdlib/pull/4386) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
@@ -4353,7 +4354,7 @@ A total of 555 issues were closed in this release:
 -   [`e0767ad`](https://github.com/stdlib-js/stdlib/commit/e0767ad9f2f73ebdbe725d7ea90cb734b3b77037) - **remove:** remove `max-by` from namespace _(by Gururaj Gurram)_
 -   [`609ca76`](https://github.com/stdlib-js/stdlib/commit/609ca76859f68d7dc3261618c69eec72963e90dd) - **feat:** add `stats/strided/max-by` _(by Gururaj Gurram)_
 -   [`c584077`](https://github.com/stdlib-js/stdlib/commit/c5840770ca22e8717a880d1f1ced8496f7f5a62e) - **docs:** update namespace table of contents [(#7283)](https://github.com/stdlib-js/stdlib/pull/7283) _(by stdlib-bot)_
--   [`25c2e85`](https://github.com/stdlib-js/stdlib/commit/25c2e855e0c63a1e778ceac3cdb10c7b2eda37b7) - **chore:** fix C lint errors [(#7278)](https://github.com/stdlib-js/stdlib/pull/7278) _(by zhanggy)_
+-   [`25c2e85`](https://github.com/stdlib-js/stdlib/commit/25c2e855e0c63a1e778ceac3cdb10c7b2eda37b7) - **chore:** fix C lint errors [(#7278)](https://github.com/stdlib-js/stdlib/pull/7278) _(by Geo Daoyu)_
 -   [`f642f04`](https://github.com/stdlib-js/stdlib/commit/f642f049a14d0438e50f8cdab98835019809fbc9) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancewd` [(#4370#pullrequestreview-2908287034)](https://github.com/stdlib-js/stdlib/pull/4370#pullrequestreview-2908287034) _(by Vinit Pandit, Athan Reines, Aayush Khanna, stdlib-bot)_
 -   [`73c0e28`](https://github.com/stdlib-js/stdlib/commit/73c0e280f30d7132f5bceadf6efd45e4897e017d) - **remove:** remove `stats/base/sstdev` _(by Gururaj Gurram)_
 -   [`ea622d9`](https://github.com/stdlib-js/stdlib/commit/ea622d981caec008ecc84f33c2253e39c0267576) - **refactor:** update paths _(by Gururaj Gurram)_
@@ -4458,9 +4459,9 @@ A total of 555 issues were closed in this release:
 -   [`ee3f5ae`](https://github.com/stdlib-js/stdlib/commit/ee3f5ae5b8c3a4c6522dc9c03972507204814f3f) - **test:** use function declaration _(by Athan Reines)_
 -   [`1a721d0`](https://github.com/stdlib-js/stdlib/commit/1a721d05d7e63de943935a09f024d6cf52208e38) - **refactor:** allow arrays of any dtype _(by Athan Reines)_
 -   [`f66ef4f`](https://github.com/stdlib-js/stdlib/commit/f66ef4f470b76550b1634371cbaa1a4ab6c54b3b) - **feat:** add `stats/array/nanmaxabs` [(#7172)](https://github.com/stdlib-js/stdlib/pull/7172) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
--   [`d4effdb`](https://github.com/stdlib-js/stdlib/commit/d4effdbd021088e1260f4e3beb0636261972744d) - **chore:** fix C lint errors [(#7217)](https://github.com/stdlib-js/stdlib/pull/7217) _(by zhanggy)_
+-   [`d4effdb`](https://github.com/stdlib-js/stdlib/commit/d4effdbd021088e1260f4e3beb0636261972744d) - **chore:** fix C lint errors [(#7217)](https://github.com/stdlib-js/stdlib/pull/7217) _(by Geo Daoyu)_
 -   [`c1876a1`](https://github.com/stdlib-js/stdlib/commit/c1876a14d75a46b662b0cde90a62f9c934156318) - **docs:** update namespace table of contents [(#7222)](https://github.com/stdlib-js/stdlib/pull/7222) _(by stdlib-bot)_
--   [`ea63aeb`](https://github.com/stdlib-js/stdlib/commit/ea63aeb201d61526dc65f558285ff96c63f20be8) - **chore:** fix C lint errors [(#7219)](https://github.com/stdlib-js/stdlib/pull/7219) _(by zhanggy)_
+-   [`ea63aeb`](https://github.com/stdlib-js/stdlib/commit/ea63aeb201d61526dc65f558285ff96c63f20be8) - **chore:** fix C lint errors [(#7219)](https://github.com/stdlib-js/stdlib/pull/7219) _(by Geo Daoyu)_
 -   [`b82a3b0`](https://github.com/stdlib-js/stdlib/commit/b82a3b04be3cdb301d6521b2b466172fc5a9b986) - **remove:** remove `stats/base/dmean` _(by Gururaj Gurram)_
 -   [`744337a`](https://github.com/stdlib-js/stdlib/commit/744337aaebfd4a9631f17765bce57a38c5374173) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`3a971ae`](https://github.com/stdlib-js/stdlib/commit/3a971ae60992b3c6ea6b5cc1654084ab08ca44bd) - **remove:** remove `dmean` from namespace _(by Gururaj Gurram)_
@@ -4481,7 +4482,7 @@ A total of 555 issues were closed in this release:
 -   [`adf9888`](https://github.com/stdlib-js/stdlib/commit/adf9888732761d02993f2d88c6bac323769ec729) - **feat:** add `maxBy` to namespace _(by Athan Reines)_
 -   [`d7db461`](https://github.com/stdlib-js/stdlib/commit/d7db461a6245ffed9b9bd81b5b6fa7fd2670071b) - **feat:** add `stats/base/ndarray/max-by` [(#7194)](https://github.com/stdlib-js/stdlib/pull/7194) _(by Muhammad Haris, Athan Reines)_
 -   [`ec8118b`](https://github.com/stdlib-js/stdlib/commit/ec8118b138efccc2c6440716635b422843f9a184) - **feat:** add `stats/array/nanrange` [(#7178)](https://github.com/stdlib-js/stdlib/pull/7178) _(by Gururaj Gurram)_
--   [`391830c`](https://github.com/stdlib-js/stdlib/commit/391830ccb553b0d53a43029d4aea3a07070b25df) - **docs:** replace manual `for` loop in examples [(#7170)](https://github.com/stdlib-js/stdlib/pull/7170) _(by Harsh)_
+-   [`391830c`](https://github.com/stdlib-js/stdlib/commit/391830ccb553b0d53a43029d4aea3a07070b25df) - **docs:** replace manual `for` loop in examples [(#7170)](https://github.com/stdlib-js/stdlib/pull/7170) _(by Harsh Yadav)_
 -   [`4514170`](https://github.com/stdlib-js/stdlib/commit/4514170ad8cf99fd55fc30804fd1f1d17e11ed7f) - **docs:** update namespace table of contents [(#7162)](https://github.com/stdlib-js/stdlib/pull/7162) _(by stdlib-bot)_
 -   [`4905a27`](https://github.com/stdlib-js/stdlib/commit/4905a27a366974bb37b57d26eb238c2713797132) - **feat:** add `minBy` to namespace _(by Athan Reines)_
 -   [`5501d03`](https://github.com/stdlib-js/stdlib/commit/5501d03eff68bf9916ae5daff0ce8d8aa1b561b8) - **feat:** add `stats/array/min-by` [(#7155)](https://github.com/stdlib-js/stdlib/pull/7155) _(by Gururaj Gurram, stdlib-bot)_
@@ -4497,28 +4498,28 @@ A total of 555 issues were closed in this release:
 -   [`f50db5b`](https://github.com/stdlib-js/stdlib/commit/f50db5b43e51607e188f38bd6fab7d0ad5098110) - **docs:** update namespace table of contents [(#7152)](https://github.com/stdlib-js/stdlib/pull/7152) _(by stdlib-bot)_
 -   [`cdd2f1a`](https://github.com/stdlib-js/stdlib/commit/cdd2f1a7003c811f1379e3fc05fafbb3236dd74f) - **feat:** add support for accessor arrays and refactor `stats/base/min-by`  [(#7146)](https://github.com/stdlib-js/stdlib/pull/7146) _(by Gururaj Gurram)_
 -   [`7d64bcb`](https://github.com/stdlib-js/stdlib/commit/7d64bcba9a16806015fb6d22a431c7543f196c2f) - **feat:** add support for accessor arrays and refactor `stats/base/max-by` [(#7129)](https://github.com/stdlib-js/stdlib/pull/7129) _(by Gururaj Gurram, Athan Reines)_
--   [`776c7e4`](https://github.com/stdlib-js/stdlib/commit/776c7e4b2fb38b08d91da3b7a9a99e2cd83a372d) - **docs:** replace manual `for` loop in examples [(#7122)](https://github.com/stdlib-js/stdlib/pull/7122) _(by Harsh, Philipp Burckhardt)_
+-   [`776c7e4`](https://github.com/stdlib-js/stdlib/commit/776c7e4b2fb38b08d91da3b7a9a99e2cd83a372d) - **docs:** replace manual `for` loop in examples [(#7122)](https://github.com/stdlib-js/stdlib/pull/7122) _(by Harsh Yadav, Philipp Burckhardt)_
 -   [`c24ea87`](https://github.com/stdlib-js/stdlib/commit/c24ea877723f2ac751abb70e8d3f38362f846a43) - **test:** add missing skips for native add-on tests _(by Philipp Burckhardt)_
 -   [`33ba5a0`](https://github.com/stdlib-js/stdlib/commit/33ba5a0d301d47b4d950ca6ed548dcc4a5bcc1a1) - **test:** add missing skips for native add-on tests _(by Philipp Burckhardt)_
 -   [`20dd4e8`](https://github.com/stdlib-js/stdlib/commit/20dd4e891d7fac27581eecb54240ae194d6076ab) - **test:** add missing skips for native add-on tests _(by Philipp Burckhardt)_
 -   [`e78de77`](https://github.com/stdlib-js/stdlib/commit/e78de77d7342c529cca274c49704472e892f1084) - **test:** add missing skips for native add-on tests _(by Philipp Burckhardt)_
--   [`a3a900c`](https://github.com/stdlib-js/stdlib/commit/a3a900cc12d70440163c9a46a07cea796913e89e) - **docs:** replace manual `for` loop in examples [(#7123)](https://github.com/stdlib-js/stdlib/pull/7123) _(by Harsh)_
+-   [`a3a900c`](https://github.com/stdlib-js/stdlib/commit/a3a900cc12d70440163c9a46a07cea796913e89e) - **docs:** replace manual `for` loop in examples [(#7123)](https://github.com/stdlib-js/stdlib/pull/7123) _(by Harsh Yadav)_
 -   [`2385da4`](https://github.com/stdlib-js/stdlib/commit/2385da4d81efbff565e8ce9ba9bcaaa61b31fb73) - **feat:** add `stats/array/mediansorted` [(#7106)](https://github.com/stdlib-js/stdlib/pull/7106) _(by Gururaj Gurram)_
 -   [`7453d19`](https://github.com/stdlib-js/stdlib/commit/7453d1986c3190121cec0a80bea425d814a51e62) - **bench:** fix value generation in `stats/array/*` [(#7117)](https://github.com/stdlib-js/stdlib/pull/7117) _(by Gururaj Gurram)_
 -   [`bab1647`](https://github.com/stdlib-js/stdlib/commit/bab1647c1309043335a7ec9badb8f3e629bf9136) - **style:** add missing space _(by Athan Reines)_
--   [`2f1bc9e`](https://github.com/stdlib-js/stdlib/commit/2f1bc9eb0ca087fb141fd68d1fe7704317be49a1) - **bench:** update random value generation [(#7093)](https://github.com/stdlib-js/stdlib/pull/7093) _(by Harsh)_
--   [`2ad245f`](https://github.com/stdlib-js/stdlib/commit/2ad245f8ea17a02a55fb41de90a7d6ee7c738c87) - **bench:** update random value generation [(#7094)](https://github.com/stdlib-js/stdlib/pull/7094) _(by Harsh)_
--   [`6792321`](https://github.com/stdlib-js/stdlib/commit/6792321ed5029b40a9ed15ac3f2dba212eb713e0) - **docs:** replace manual `for` loop in examples [(#7074)](https://github.com/stdlib-js/stdlib/pull/7074) _(by Harsh)_
--   [`5bed283`](https://github.com/stdlib-js/stdlib/commit/5bed2837d020e3ea6f8452e85b0f7008d4d76b68) - **docs:** replace manual `for` loop in examples [(#7075)](https://github.com/stdlib-js/stdlib/pull/7075) _(by Harsh)_
--   [`295552a`](https://github.com/stdlib-js/stdlib/commit/295552a680556056d92f9920f69c402bd779d533) - **chore:** fix C lint errors [(#7052)](https://github.com/stdlib-js/stdlib/pull/7052) _(by zhanggy)_
--   [`79bdf8d`](https://github.com/stdlib-js/stdlib/commit/79bdf8de999eb7f782005ef13e3d7ad471da2325) - **chore:** fix C lint errors [(#7053)](https://github.com/stdlib-js/stdlib/pull/7053) _(by zhanggy)_
--   [`2e9da74`](https://github.com/stdlib-js/stdlib/commit/2e9da74a9f19a2090b8405b54553baa7fb715c27) - **docs:** replace manual `for` loop in examples [(#7056)](https://github.com/stdlib-js/stdlib/pull/7056) _(by Harsh)_
--   [`ce62b14`](https://github.com/stdlib-js/stdlib/commit/ce62b1490d4948a707f496b66ad03bb296a2468a) - **docs:** replace manual `for` loop in examples [(#7055)](https://github.com/stdlib-js/stdlib/pull/7055) _(by Harsh)_
--   [`b480ff0`](https://github.com/stdlib-js/stdlib/commit/b480ff02ebf1d1f334d49172358c86e8bca5fbc3) - **chore:** fix C lint errors [(#7012)](https://github.com/stdlib-js/stdlib/pull/7012) _(by zhanggy)_
--   [`b51a457`](https://github.com/stdlib-js/stdlib/commit/b51a457474fb3527c628001639fc4e1174ed45e4) - **bench:** update random value generation [(#7010)](https://github.com/stdlib-js/stdlib/pull/7010) _(by Harsh)_
--   [`367fdcd`](https://github.com/stdlib-js/stdlib/commit/367fdcd966fd9b6c883997b6f0deebbe84a63cbd) - **bench:** update random value generation [(#7026)](https://github.com/stdlib-js/stdlib/pull/7026) _(by Harsh)_
--   [`4a896f3`](https://github.com/stdlib-js/stdlib/commit/4a896f34e9a1bd41102d45f4de71992ce85fab5f) - **bench:** update random value generation [(#7027)](https://github.com/stdlib-js/stdlib/pull/7027) _(by Harsh)_
--   [`876d319`](https://github.com/stdlib-js/stdlib/commit/876d319235fa6b11ff7df92a34f3ebba821d6630) - **bench:** update random value generation [(#7009)](https://github.com/stdlib-js/stdlib/pull/7009) _(by Harsh)_
+-   [`2f1bc9e`](https://github.com/stdlib-js/stdlib/commit/2f1bc9eb0ca087fb141fd68d1fe7704317be49a1) - **bench:** update random value generation [(#7093)](https://github.com/stdlib-js/stdlib/pull/7093) _(by Harsh Yadav)_
+-   [`2ad245f`](https://github.com/stdlib-js/stdlib/commit/2ad245f8ea17a02a55fb41de90a7d6ee7c738c87) - **bench:** update random value generation [(#7094)](https://github.com/stdlib-js/stdlib/pull/7094) _(by Harsh Yadav)_
+-   [`6792321`](https://github.com/stdlib-js/stdlib/commit/6792321ed5029b40a9ed15ac3f2dba212eb713e0) - **docs:** replace manual `for` loop in examples [(#7074)](https://github.com/stdlib-js/stdlib/pull/7074) _(by Harsh Yadav)_
+-   [`5bed283`](https://github.com/stdlib-js/stdlib/commit/5bed2837d020e3ea6f8452e85b0f7008d4d76b68) - **docs:** replace manual `for` loop in examples [(#7075)](https://github.com/stdlib-js/stdlib/pull/7075) _(by Harsh Yadav)_
+-   [`295552a`](https://github.com/stdlib-js/stdlib/commit/295552a680556056d92f9920f69c402bd779d533) - **chore:** fix C lint errors [(#7052)](https://github.com/stdlib-js/stdlib/pull/7052) _(by Geo Daoyu)_
+-   [`79bdf8d`](https://github.com/stdlib-js/stdlib/commit/79bdf8de999eb7f782005ef13e3d7ad471da2325) - **chore:** fix C lint errors [(#7053)](https://github.com/stdlib-js/stdlib/pull/7053) _(by Geo Daoyu)_
+-   [`2e9da74`](https://github.com/stdlib-js/stdlib/commit/2e9da74a9f19a2090b8405b54553baa7fb715c27) - **docs:** replace manual `for` loop in examples [(#7056)](https://github.com/stdlib-js/stdlib/pull/7056) _(by Harsh Yadav)_
+-   [`ce62b14`](https://github.com/stdlib-js/stdlib/commit/ce62b1490d4948a707f496b66ad03bb296a2468a) - **docs:** replace manual `for` loop in examples [(#7055)](https://github.com/stdlib-js/stdlib/pull/7055) _(by Harsh Yadav)_
+-   [`b480ff0`](https://github.com/stdlib-js/stdlib/commit/b480ff02ebf1d1f334d49172358c86e8bca5fbc3) - **chore:** fix C lint errors [(#7012)](https://github.com/stdlib-js/stdlib/pull/7012) _(by Geo Daoyu)_
+-   [`b51a457`](https://github.com/stdlib-js/stdlib/commit/b51a457474fb3527c628001639fc4e1174ed45e4) - **bench:** update random value generation [(#7010)](https://github.com/stdlib-js/stdlib/pull/7010) _(by Harsh Yadav)_
+-   [`367fdcd`](https://github.com/stdlib-js/stdlib/commit/367fdcd966fd9b6c883997b6f0deebbe84a63cbd) - **bench:** update random value generation [(#7026)](https://github.com/stdlib-js/stdlib/pull/7026) _(by Harsh Yadav)_
+-   [`4a896f3`](https://github.com/stdlib-js/stdlib/commit/4a896f34e9a1bd41102d45f4de71992ce85fab5f) - **bench:** update random value generation [(#7027)](https://github.com/stdlib-js/stdlib/pull/7027) _(by Harsh Yadav)_
+-   [`876d319`](https://github.com/stdlib-js/stdlib/commit/876d319235fa6b11ff7df92a34f3ebba821d6630) - **bench:** update random value generation [(#7009)](https://github.com/stdlib-js/stdlib/pull/7009) _(by Harsh Yadav)_
 -   [`fcda856`](https://github.com/stdlib-js/stdlib/commit/fcda85627edc4bc8dbf0bf01b192906449e43e77) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanvarpn`  [(#5030)](https://github.com/stdlib-js/stdlib/pull/5030) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`bde1562`](https://github.com/stdlib-js/stdlib/commit/bde156258f0e182fa6cf50f9bdd907ba8593dbf0) - **chore:** clean-up _(by Athan Reines)_
 -   [`eb555e4`](https://github.com/stdlib-js/stdlib/commit/eb555e4097f20ab99054945e55b44a9f795f0cf7) - **chore:** clean-up _(by Athan Reines)_
@@ -4548,9 +4549,9 @@ A total of 555 issues were closed in this release:
 -   [`9231d48`](https://github.com/stdlib-js/stdlib/commit/9231d48ada17d2ee3208b8de3e13d94b39794ffd) - **feat:** add C implementation for `stats/base/dists/negative-binomial/mode` [(#4104)](https://github.com/stdlib-js/stdlib/pull/4104) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`3c04537`](https://github.com/stdlib-js/stdlib/commit/3c045376b0079bd51c2a60ff690ab25f5c178d1a) - **feat:** add add C ndarray interface and refactor implementation for `stats/base/sstdev` [(#6930)](https://github.com/stdlib-js/stdlib/pull/6930) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`e9b6d47`](https://github.com/stdlib-js/stdlib/commit/e9b6d47ac953663cc012367851e342677ab2d375) - **feat:** add `stats/array/minsorted` [(#6940)](https://github.com/stdlib-js/stdlib/pull/6940) _(by Gururaj Gurram)_
--   [`c207ec0`](https://github.com/stdlib-js/stdlib/commit/c207ec04c36c99e70363baef8ecef6baba10a198) - **chore:** fix C lint errors [(#6938)](https://github.com/stdlib-js/stdlib/pull/6938) _(by zhanggy)_
--   [`6af184d`](https://github.com/stdlib-js/stdlib/commit/6af184d8a8ed89c7be0fe08dd5d87125b60c5e01) - **bench:** update random value generation [(#6953)](https://github.com/stdlib-js/stdlib/pull/6953) _(by Harsh)_
--   [`f025bc3`](https://github.com/stdlib-js/stdlib/commit/f025bc39e4761a1c7dee8bf781581b75868b3a89) - **bench:** update random value generation [(#6954)](https://github.com/stdlib-js/stdlib/pull/6954) _(by Harsh)_
+-   [`c207ec0`](https://github.com/stdlib-js/stdlib/commit/c207ec04c36c99e70363baef8ecef6baba10a198) - **chore:** fix C lint errors [(#6938)](https://github.com/stdlib-js/stdlib/pull/6938) _(by Geo Daoyu)_
+-   [`6af184d`](https://github.com/stdlib-js/stdlib/commit/6af184d8a8ed89c7be0fe08dd5d87125b60c5e01) - **bench:** update random value generation [(#6953)](https://github.com/stdlib-js/stdlib/pull/6953) _(by Harsh Yadav)_
+-   [`f025bc3`](https://github.com/stdlib-js/stdlib/commit/f025bc39e4761a1c7dee8bf781581b75868b3a89) - **bench:** update random value generation [(#6954)](https://github.com/stdlib-js/stdlib/pull/6954) _(by Harsh Yadav)_
 -   [`d345bbe`](https://github.com/stdlib-js/stdlib/commit/d345bbe1bd7fed4c12c0b64bef1e70f94ebad746) - **chore:** minor clean-up and add missing license headers _(by Philipp Burckhardt)_
 -   [`47d4dfa`](https://github.com/stdlib-js/stdlib/commit/47d4dfa8f8fbbb256aaeca77dfe522cae618ea47) - **feat:** add C implementation for `stats/base/dists/lognormal/entropy` [(#4178)](https://github.com/stdlib-js/stdlib/pull/4178) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`736fe31`](https://github.com/stdlib-js/stdlib/commit/736fe3118504faef9a2b6ac064debe426c8f9a24) - **feat:** add C implementation for `stats/base/dists/lognormal/skewness` [(#4166)](https://github.com/stdlib-js/stdlib/pull/4166) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
@@ -4571,10 +4572,10 @@ A total of 555 issues were closed in this release:
 -   [`1920374`](https://github.com/stdlib-js/stdlib/commit/192037470033f100dfa9ac717733d32ad67f8ead) - **feat:** add C implementation for `stats/base/dists/frechet/mode` [(#4571)](https://github.com/stdlib-js/stdlib/pull/4571) _(by Manvith M, Philipp Burckhardt)_
 -   [`e0195dc`](https://github.com/stdlib-js/stdlib/commit/e0195dc51ddd7d614ea70a49d1cd69045fbdc239) - **feat:** add C implementation for `stats/base/dists/frechet/kurtosis` [(#4604)](https://github.com/stdlib-js/stdlib/pull/4604) _(by Manvith M, Philipp Burckhardt)_
 -   [`c6a36fe`](https://github.com/stdlib-js/stdlib/commit/c6a36fe190b9685cd488fd57911c8ce7642a07df) - **chore:** fix EditorConfig lint errors [(#6924)](https://github.com/stdlib-js/stdlib/pull/6924) _(by Lalit Narayan Yadav)_
--   [`ca3d958`](https://github.com/stdlib-js/stdlib/commit/ca3d958f22927d6a6d4af71f50b92b5f7be27d7c) - **docs:** replace manual `for` loop in examples [(#6919)](https://github.com/stdlib-js/stdlib/pull/6919) _(by Harsh, Philipp Burckhardt)_
--   [`28f64ec`](https://github.com/stdlib-js/stdlib/commit/28f64ec05e56db3e8836cfcdfd45e27a53eda4bf) - **docs:** replace manual `for` loop in examples [(#6918)](https://github.com/stdlib-js/stdlib/pull/6918) _(by Harsh)_
--   [`7788818`](https://github.com/stdlib-js/stdlib/commit/77888181398b4aa628194b37b058e262c8bdb7fd) - **docs:** replace manual `for` loop in examples [(#6921)](https://github.com/stdlib-js/stdlib/pull/6921) _(by Harsh)_
--   [`828cfd5`](https://github.com/stdlib-js/stdlib/commit/828cfd594d771e9d1ba2af3e80af0021f0b7fd8f) - **docs:** replace manual `for` loop in examples [(#6922)](https://github.com/stdlib-js/stdlib/pull/6922) _(by Harsh)_
+-   [`ca3d958`](https://github.com/stdlib-js/stdlib/commit/ca3d958f22927d6a6d4af71f50b92b5f7be27d7c) - **docs:** replace manual `for` loop in examples [(#6919)](https://github.com/stdlib-js/stdlib/pull/6919) _(by Harsh Yadav, Philipp Burckhardt)_
+-   [`28f64ec`](https://github.com/stdlib-js/stdlib/commit/28f64ec05e56db3e8836cfcdfd45e27a53eda4bf) - **docs:** replace manual `for` loop in examples [(#6918)](https://github.com/stdlib-js/stdlib/pull/6918) _(by Harsh Yadav)_
+-   [`7788818`](https://github.com/stdlib-js/stdlib/commit/77888181398b4aa628194b37b058e262c8bdb7fd) - **docs:** replace manual `for` loop in examples [(#6921)](https://github.com/stdlib-js/stdlib/pull/6921) _(by Harsh Yadav)_
+-   [`828cfd5`](https://github.com/stdlib-js/stdlib/commit/828cfd594d771e9d1ba2af3e80af0021f0b7fd8f) - **docs:** replace manual `for` loop in examples [(#6922)](https://github.com/stdlib-js/stdlib/pull/6922) _(by Harsh Yadav)_
 -   [`e990142`](https://github.com/stdlib-js/stdlib/commit/e990142808bb6e6f20ab5ba41e55b6aab8ff89a3) - **docs:** update examples _(by Athan Reines)_
 -   [`dd412c2`](https://github.com/stdlib-js/stdlib/commit/dd412c2c02d052e102d549b94b6fa114dd7e1da7) - **docs:** update examples _(by Athan Reines)_
 -   [`475d08f`](https://github.com/stdlib-js/stdlib/commit/475d08f900ffe086e3c558603085d5ae846992e4) - **docs:** update examples _(by Athan Reines)_
@@ -4582,10 +4583,10 @@ A total of 555 issues were closed in this release:
 -   [`38a86ef`](https://github.com/stdlib-js/stdlib/commit/38a86ef2b647f7c71259657ce2459a6fbac62da5) - **docs:** update examples _(by Athan Reines)_
 -   [`8ee277b`](https://github.com/stdlib-js/stdlib/commit/8ee277b29842671eff2fc121882459da260d924a) - **docs:** update note _(by Athan Reines)_
 -   [`aa39e18`](https://github.com/stdlib-js/stdlib/commit/aa39e18609c3db192370a71a386fd27a2cf90072) - **docs:** update note _(by Athan Reines)_
--   [`fe60f20`](https://github.com/stdlib-js/stdlib/commit/fe60f203dd58e075e075d8cc8751216b66314fc9) - **chore:** adds `opts` [(#6908)](https://github.com/stdlib-js/stdlib/pull/6908) _(by Harsh)_
--   [`a594d58`](https://github.com/stdlib-js/stdlib/commit/a594d58d530900e5f90dab88494520c09f01ee35) - **chore:** adds `opts` [(#6909)](https://github.com/stdlib-js/stdlib/pull/6909) _(by Harsh)_
--   [`e991da9`](https://github.com/stdlib-js/stdlib/commit/e991da93b36805cf0705e9a9625f06b9c2e44173) - **docs:** replace manual `for` loop in examples [(#6906)](https://github.com/stdlib-js/stdlib/pull/6906) _(by Harsh)_
--   [`379390a`](https://github.com/stdlib-js/stdlib/commit/379390a688ef3f94fb7a2dfdfbfbd940bd1cb28a) - **docs:** replace manual `for` loop in examples [(#6907)](https://github.com/stdlib-js/stdlib/pull/6907) _(by Harsh)_
+-   [`fe60f20`](https://github.com/stdlib-js/stdlib/commit/fe60f203dd58e075e075d8cc8751216b66314fc9) - **chore:** adds `opts` [(#6908)](https://github.com/stdlib-js/stdlib/pull/6908) _(by Harsh Yadav)_
+-   [`a594d58`](https://github.com/stdlib-js/stdlib/commit/a594d58d530900e5f90dab88494520c09f01ee35) - **chore:** adds `opts` [(#6909)](https://github.com/stdlib-js/stdlib/pull/6909) _(by Harsh Yadav)_
+-   [`e991da9`](https://github.com/stdlib-js/stdlib/commit/e991da93b36805cf0705e9a9625f06b9c2e44173) - **docs:** replace manual `for` loop in examples [(#6906)](https://github.com/stdlib-js/stdlib/pull/6906) _(by Harsh Yadav)_
+-   [`379390a`](https://github.com/stdlib-js/stdlib/commit/379390a688ef3f94fb7a2dfdfbfbd940bd1cb28a) - **docs:** replace manual `for` loop in examples [(#6907)](https://github.com/stdlib-js/stdlib/pull/6907) _(by Harsh Yadav)_
 -   [`9bec44a`](https://github.com/stdlib-js/stdlib/commit/9bec44a3ee202771b579b7220d4b73b8cd0791e2) - **feat:** add `stats/incr/nanmstdev` [(#6297)](https://github.com/stdlib-js/stdlib/pull/6297) _(by Hemang Choudhary, Philipp Burckhardt, stdlib-bot)_
 -   [`053722e`](https://github.com/stdlib-js/stdlib/commit/053722e28d6b086a08fc017948ae364976d9601c) - **feat(stats):** add C implementation for `stats/base/dists/chi/stdev` [(#4590)](https://github.com/stdlib-js/stdlib/pull/4590) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
 -   [`8b7ddc2`](https://github.com/stdlib-js/stdlib/commit/8b7ddc2cdc3dd40b27d7ef9f2a2a5729a4f5c3aa) - **feat(stats):** add C implementation for `stats/base/dists/chi/variance` [(#4591)](https://github.com/stdlib-js/stdlib/pull/4591) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
@@ -4594,7 +4595,7 @@ A total of 555 issues were closed in this release:
 -   [`3d75aa0`](https://github.com/stdlib-js/stdlib/commit/3d75aa008decb8d22141b80d1b528aa5167015b3) - **fix:** restrict set of allowed data types _(by Athan Reines)_
 -   [`806644c`](https://github.com/stdlib-js/stdlib/commit/806644ce38213eafe7b7eb6e092c318e061df438) - **fix:** restrict set of allowed data types _(by Athan Reines)_
 -   [`3d9063e`](https://github.com/stdlib-js/stdlib/commit/3d9063e1c739d5740cfaf15727669cba3c7c31b3) - **feat:** add `stats/array/maxsorted` [(#6884)](https://github.com/stdlib-js/stdlib/pull/6884) _(by Gururaj Gurram, Athan Reines)_
--   [`83bf18f`](https://github.com/stdlib-js/stdlib/commit/83bf18f82480ccae71efca244780e28f4d3a9af7) - **chore:** fix C lint errors [(#6895)](https://github.com/stdlib-js/stdlib/pull/6895) _(by zhanggy)_
+-   [`83bf18f`](https://github.com/stdlib-js/stdlib/commit/83bf18f82480ccae71efca244780e28f4d3a9af7) - **chore:** fix C lint errors [(#6895)](https://github.com/stdlib-js/stdlib/pull/6895) _(by Geo Daoyu)_
 -   [`acbc377`](https://github.com/stdlib-js/stdlib/commit/acbc377067de86f0b986b8fdf5bebb664bc824ec) - **feat:** add `stats/array/maxabs` [(#6883)](https://github.com/stdlib-js/stdlib/pull/6883) _(by Gururaj Gurram)_
 -   [`afe5811`](https://github.com/stdlib-js/stdlib/commit/afe581112f8ae3e6a8b3f9c304cf1ee994b7b997) - **build:** update configuration _(by Athan Reines)_
 -   [`b650a37`](https://github.com/stdlib-js/stdlib/commit/b650a37fa93c2837f1cd61d5c269e0ce88e3a4b3) - **docs:** update namespace table of contents [(#6876)](https://github.com/stdlib-js/stdlib/pull/6876) _(by stdlib-bot)_
@@ -4604,31 +4605,31 @@ A total of 555 issues were closed in this release:
 -   [`14fc1c1`](https://github.com/stdlib-js/stdlib/commit/14fc1c13ef83b084e5715fcac023615d2d11a5c6) - **feat:** refactor and add accessor protocol support to `stats/base/nanvariancetk` [(#6025)](https://github.com/stdlib-js/stdlib/pull/6025) _(by Prajjwal Bajpai, Athan Reines)_
 -   [`27b7e04`](https://github.com/stdlib-js/stdlib/commit/27b7e04a7296f606209f964c9d09731791f7eba0) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsem` [(#6839)](https://github.com/stdlib-js/stdlib/pull/6839) _(by Gururaj Gurram, stdlib-bot)_
 -   [`76f65a5`](https://github.com/stdlib-js/stdlib/commit/76f65a5a792b6fa1ee9549e88ec07e2f978b682e) - **feat:** add `stats/incr/nanmaxabs` [(#6116)](https://github.com/stdlib-js/stdlib/pull/6116) _(by Girish Garg, Athan Reines, stdlib-bot)_
--   [`c1df69c`](https://github.com/stdlib-js/stdlib/commit/c1df69ccf92f1ce80f08883226dd4252644f0324) - **docs:** replace manual `for` loop in examples [(#6848)](https://github.com/stdlib-js/stdlib/pull/6848) _(by Harsh, Athan Reines)_
+-   [`c1df69c`](https://github.com/stdlib-js/stdlib/commit/c1df69ccf92f1ce80f08883226dd4252644f0324) - **docs:** replace manual `for` loop in examples [(#6848)](https://github.com/stdlib-js/stdlib/pull/6848) _(by Harsh Yadav, Athan Reines)_
 -   [`f6baee4`](https://github.com/stdlib-js/stdlib/commit/f6baee41647e238275de3bda5cbba1943a1ebd8a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdev` [(#6850)](https://github.com/stdlib-js/stdlib/pull/6850) _(by Gururaj Gurram, Athan Reines)_
 -   [`9421794`](https://github.com/stdlib-js/stdlib/commit/942179479d7e9d6dae38cf4a187690856d43c022) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smean` [(#6814)](https://github.com/stdlib-js/stdlib/pull/6814) _(by Gururaj Gurram, stdlib-bot, Aayush Khanna)_
--   [`a5e0667`](https://github.com/stdlib-js/stdlib/commit/a5e0667c308881e101549d77c6d8573e3b632c67) - **docs:** replace manual `for` loop in examples [(#6849)](https://github.com/stdlib-js/stdlib/pull/6849) _(by Harsh, Athan Reines)_
--   [`3353337`](https://github.com/stdlib-js/stdlib/commit/3353337506226163bbe65241b088b899f0a4b60c) - **bench:** update random value generation [(#6840)](https://github.com/stdlib-js/stdlib/pull/6840) _(by Harsh)_
--   [`7279e43`](https://github.com/stdlib-js/stdlib/commit/7279e433dc1936056560624b5892eea8d9350ef1) - **bench:** update random value generation [(#6853)](https://github.com/stdlib-js/stdlib/pull/6853) _(by Harsh)_
--   [`c1acd4b`](https://github.com/stdlib-js/stdlib/commit/c1acd4bf3ed08b40d6d4e93ee245f03c9eef8472) - **bench:** update random value generation [(#6858)](https://github.com/stdlib-js/stdlib/pull/6858) _(by Harsh, Athan Reines)_
--   [`e658ffd`](https://github.com/stdlib-js/stdlib/commit/e658ffd3c46b5cb1ba33c0be61e55bf6995237ca) - **bench:** update random value generation [(#6856)](https://github.com/stdlib-js/stdlib/pull/6856) _(by Harsh)_
--   [`22c4c3e`](https://github.com/stdlib-js/stdlib/commit/22c4c3e5ffc0356aabf7b740b8e201e9ee427901) - **bench:** update random value generation [(#6857)](https://github.com/stdlib-js/stdlib/pull/6857) _(by Harsh)_
--   [`5301df6`](https://github.com/stdlib-js/stdlib/commit/5301df6699ae3b3229da3a8ab0ecd281f02f460e) - **bench:** update random value generation [(#6841)](https://github.com/stdlib-js/stdlib/pull/6841) _(by Harsh)_
--   [`e8dea99`](https://github.com/stdlib-js/stdlib/commit/e8dea9975e4b6fa5b11e6bfbf90f92af904b6786) - **bench:** update random value generation [(#6842)](https://github.com/stdlib-js/stdlib/pull/6842) _(by Harsh)_
--   [`b59ce6f`](https://github.com/stdlib-js/stdlib/commit/b59ce6ffab63e0027ac910b7c91a9082edea925e) - **docs:** replace manual `for` loop in examples [(#6831)](https://github.com/stdlib-js/stdlib/pull/6831) _(by Harsh)_
--   [`b2aa3f7`](https://github.com/stdlib-js/stdlib/commit/b2aa3f7fc67e416f476455522f9189d586915d2e) - **docs:** replace manual `for` loop in examples [(#6830)](https://github.com/stdlib-js/stdlib/pull/6830) _(by Harsh)_
+-   [`a5e0667`](https://github.com/stdlib-js/stdlib/commit/a5e0667c308881e101549d77c6d8573e3b632c67) - **docs:** replace manual `for` loop in examples [(#6849)](https://github.com/stdlib-js/stdlib/pull/6849) _(by Harsh Yadav, Athan Reines)_
+-   [`3353337`](https://github.com/stdlib-js/stdlib/commit/3353337506226163bbe65241b088b899f0a4b60c) - **bench:** update random value generation [(#6840)](https://github.com/stdlib-js/stdlib/pull/6840) _(by Harsh Yadav)_
+-   [`7279e43`](https://github.com/stdlib-js/stdlib/commit/7279e433dc1936056560624b5892eea8d9350ef1) - **bench:** update random value generation [(#6853)](https://github.com/stdlib-js/stdlib/pull/6853) _(by Harsh Yadav)_
+-   [`c1acd4b`](https://github.com/stdlib-js/stdlib/commit/c1acd4bf3ed08b40d6d4e93ee245f03c9eef8472) - **bench:** update random value generation [(#6858)](https://github.com/stdlib-js/stdlib/pull/6858) _(by Harsh Yadav, Athan Reines)_
+-   [`e658ffd`](https://github.com/stdlib-js/stdlib/commit/e658ffd3c46b5cb1ba33c0be61e55bf6995237ca) - **bench:** update random value generation [(#6856)](https://github.com/stdlib-js/stdlib/pull/6856) _(by Harsh Yadav)_
+-   [`22c4c3e`](https://github.com/stdlib-js/stdlib/commit/22c4c3e5ffc0356aabf7b740b8e201e9ee427901) - **bench:** update random value generation [(#6857)](https://github.com/stdlib-js/stdlib/pull/6857) _(by Harsh Yadav)_
+-   [`5301df6`](https://github.com/stdlib-js/stdlib/commit/5301df6699ae3b3229da3a8ab0ecd281f02f460e) - **bench:** update random value generation [(#6841)](https://github.com/stdlib-js/stdlib/pull/6841) _(by Harsh Yadav)_
+-   [`e8dea99`](https://github.com/stdlib-js/stdlib/commit/e8dea9975e4b6fa5b11e6bfbf90f92af904b6786) - **bench:** update random value generation [(#6842)](https://github.com/stdlib-js/stdlib/pull/6842) _(by Harsh Yadav)_
+-   [`b59ce6f`](https://github.com/stdlib-js/stdlib/commit/b59ce6ffab63e0027ac910b7c91a9082edea925e) - **docs:** replace manual `for` loop in examples [(#6831)](https://github.com/stdlib-js/stdlib/pull/6831) _(by Harsh Yadav)_
+-   [`b2aa3f7`](https://github.com/stdlib-js/stdlib/commit/b2aa3f7fc67e416f476455522f9189d586915d2e) - **docs:** replace manual `for` loop in examples [(#6830)](https://github.com/stdlib-js/stdlib/pull/6830) _(by Harsh Yadav)_
 -   [`9832ef4`](https://github.com/stdlib-js/stdlib/commit/9832ef44d25da27f865073661bde886af90cc9b4) - **docs:** update examples to use `random/array` utilities [(#6836)](https://github.com/stdlib-js/stdlib/pull/6836) _(by Gururaj Gurram)_
 -   [`14b1d83`](https://github.com/stdlib-js/stdlib/commit/14b1d83da670984e339ce1a2ebfc6f0f37c3ccd2) - **test:** update descriptions _(by Athan Reines)_
 -   [`60aea0a`](https://github.com/stdlib-js/stdlib/commit/60aea0a031600792ed138a8dafdee69ea3fdf1bf) - **fix:** replace policy string with policy object _(by Athan Reines)_
 -   [`cb86a56`](https://github.com/stdlib-js/stdlib/commit/cb86a569e143dbd29f18fe14414f4c3a06ee6320) - **fix:** replace policy string with policy object _(by Athan Reines)_
--   [`d87dd71`](https://github.com/stdlib-js/stdlib/commit/d87dd71ce7fcfbc3af99acd57d13604b877fbb7b) - **bench:** update random value generation [(#6812)](https://github.com/stdlib-js/stdlib/pull/6812) _(by Harsh)_
+-   [`d87dd71`](https://github.com/stdlib-js/stdlib/commit/d87dd71ce7fcfbc3af99acd57d13604b877fbb7b) - **bench:** update random value generation [(#6812)](https://github.com/stdlib-js/stdlib/pull/6812) _(by Harsh Yadav)_
 -   [`b9d5fc2`](https://github.com/stdlib-js/stdlib/commit/b9d5fc27dcdc1d57f94f63be1d05276c63025c14) - **docs:** update namespace table of contents [(#6819)](https://github.com/stdlib-js/stdlib/pull/6819) _(by stdlib-bot, Philipp Burckhardt)_
--   [`3ba6db7`](https://github.com/stdlib-js/stdlib/commit/3ba6db72e6cb7e636d62c71e73a283f69beafdca) - **bench:** update random value generation [(#6811)](https://github.com/stdlib-js/stdlib/pull/6811) _(by Harsh)_
--   [`58636bd`](https://github.com/stdlib-js/stdlib/commit/58636bd810b01e44e6b3f5b987bcfc3da3f53d25) - **bench:** update random value generation [(#6813)](https://github.com/stdlib-js/stdlib/pull/6813) _(by Harsh)_
+-   [`3ba6db7`](https://github.com/stdlib-js/stdlib/commit/3ba6db72e6cb7e636d62c71e73a283f69beafdca) - **bench:** update random value generation [(#6811)](https://github.com/stdlib-js/stdlib/pull/6811) _(by Harsh Yadav)_
+-   [`58636bd`](https://github.com/stdlib-js/stdlib/commit/58636bd810b01e44e6b3f5b987bcfc3da3f53d25) - **bench:** update random value generation [(#6813)](https://github.com/stdlib-js/stdlib/pull/6813) _(by Harsh Yadav)_
 -   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
 -   [`366925e`](https://github.com/stdlib-js/stdlib/commit/366925e14f08852288d1422041d5613c1aaddb28) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`5d94f92`](https://github.com/stdlib-js/stdlib/commit/5d94f9213500163957b30ea3ad36df4c141a5d41) - **feat:** add C ndarray interface and refactor implementation for  `stats/base/dsempn` [(#6785)](https://github.com/stdlib-js/stdlib/pull/6785) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
--   [`4d16c32`](https://github.com/stdlib-js/stdlib/commit/4d16c32fb0ceb4b18fb2548aa596251d9e8c99f4) - **bench:** update random value generation [(#6794)](https://github.com/stdlib-js/stdlib/pull/6794) _(by Harsh, Athan Reines)_
+-   [`4d16c32`](https://github.com/stdlib-js/stdlib/commit/4d16c32fb0ceb4b18fb2548aa596251d9e8c99f4) - **bench:** update random value generation [(#6794)](https://github.com/stdlib-js/stdlib/pull/6794) _(by Harsh Yadav, Athan Reines)_
 -   [`bbfcd3e`](https://github.com/stdlib-js/stdlib/commit/bbfcd3ee9072499e16d6baa0e13e9d2b21c4b4d0) - **docs:** update namespace table of contents [(#6809)](https://github.com/stdlib-js/stdlib/pull/6809) _(by stdlib-bot)_
 -   [`0def122`](https://github.com/stdlib-js/stdlib/commit/0def122ace01882b5b7344ac90754ea5f4375ac7) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`23c60da`](https://github.com/stdlib-js/stdlib/commit/23c60daf037b609ab1315f45448e0ba52a89c247) - **docs:** remove spaces before periods _(by Philipp Burckhardt)_
@@ -4648,8 +4649,8 @@ A total of 555 issues were closed in this release:
 -   [`a93824b`](https://github.com/stdlib-js/stdlib/commit/a93824b2e0d24fd082b5ea74ba0f6df5a73d4085) - **remove:** remove `tools` from namespace _(by Athan Reines)_
 -   [`93f94bb`](https://github.com/stdlib-js/stdlib/commit/93f94bb85103f971545d6176ab37505c2f282b32) - **refactor:** update import path _(by Athan Reines)_
 -   [`b1fd89f`](https://github.com/stdlib-js/stdlib/commit/b1fd89faa0db6a1eb7b5f55b753130454ba0b7a3) - **refactor:** update import path _(by Athan Reines)_
--   [`70429b3`](https://github.com/stdlib-js/stdlib/commit/70429b300e75b81b55f1192e0dfc6ab7f5ae9dc1) - **docs:** replace manual `for` loop in examples [(#6792)](https://github.com/stdlib-js/stdlib/pull/6792) _(by Harsh)_
--   [`b7ca1bd`](https://github.com/stdlib-js/stdlib/commit/b7ca1bd43ab7777ea30f52b4f1392a78f3ad7b1b) - **docs:** replace manual `for` loop in examples [(#6793)](https://github.com/stdlib-js/stdlib/pull/6793) _(by Harsh)_
+-   [`70429b3`](https://github.com/stdlib-js/stdlib/commit/70429b300e75b81b55f1192e0dfc6ab7f5ae9dc1) - **docs:** replace manual `for` loop in examples [(#6792)](https://github.com/stdlib-js/stdlib/pull/6792) _(by Harsh Yadav)_
+-   [`b7ca1bd`](https://github.com/stdlib-js/stdlib/commit/b7ca1bd43ab7777ea30f52b4f1392a78f3ad7b1b) - **docs:** replace manual `for` loop in examples [(#6793)](https://github.com/stdlib-js/stdlib/pull/6793) _(by Harsh Yadav)_
 -   [`b4767e5`](https://github.com/stdlib-js/stdlib/commit/b4767e55d6280ebd6248e3f4565e1789df5dcf00) - **fix:** set default task _(by Athan Reines)_
 -   [`8f0bda9`](https://github.com/stdlib-js/stdlib/commit/8f0bda9d6148ac8e6990beae23689eeaf032228b) - **docs:** add note _(by Athan Reines)_
 -   [`6c629cf`](https://github.com/stdlib-js/stdlib/commit/6c629cfc6440598911b5321d71e8e4650bd1d98e) - **feat:** add `cumax` to namespace _(by Athan Reines)_
@@ -4680,7 +4681,7 @@ A total of 555 issues were closed in this release:
 -   [`04e92c3`](https://github.com/stdlib-js/stdlib/commit/04e92c36eabfd9e2a03f58664485a1ec70ac0f69) - **feat:** add `dcumax` to namespace _(by Athan Reines)_
 -   [`68cf553`](https://github.com/stdlib-js/stdlib/commit/68cf553c1f2888f317e0683691b933f9c0785a5e) - **docs:** update related packages sections [(#6788)](https://github.com/stdlib-js/stdlib/pull/6788) _(by stdlib-bot)_
 -   [`06a5afb`](https://github.com/stdlib-js/stdlib/commit/06a5afb144a1a368b8deb2281eefd9e9d92fcdcb) - **feat:** add `stats/base/ndarray/dcumax` _(by Athan Reines)_
--   [`8948bbc`](https://github.com/stdlib-js/stdlib/commit/8948bbcc14500981b8e617ed5c2bfe4d0384a93c) - **chore:** address commit comments for commit `f6829da` [(#6769)](https://github.com/stdlib-js/stdlib/pull/6769) _(by devshree-bhati, Philipp Burckhardt)_
+-   [`8948bbc`](https://github.com/stdlib-js/stdlib/commit/8948bbcc14500981b8e617ed5c2bfe4d0384a93c) - **chore:** address commit comments for commit `f6829da` [(#6769)](https://github.com/stdlib-js/stdlib/pull/6769) _(by Devshree Bhati, Philipp Burckhardt)_
 -   [`a273094`](https://github.com/stdlib-js/stdlib/commit/a2730940159da23d2fd8eed7fd832925d937bfed) - **fix:** update error message _(by Athan Reines)_
 -   [`d4d57c3`](https://github.com/stdlib-js/stdlib/commit/d4d57c376c6abdcaf1993d7893129b75af4f2056) - **docs:** update namespace table of contents [(#6719)](https://github.com/stdlib-js/stdlib/pull/6719) _(by stdlib-bot)_
 -   [`e03ed79`](https://github.com/stdlib-js/stdlib/commit/e03ed792ae8455e5b75b1a5cf4fa39206e1e04f1) - **chore:** clean-up _(by Athan Reines)_
@@ -4691,7 +4692,7 @@ A total of 555 issues were closed in this release:
 -   [`0f3d5f4`](https://github.com/stdlib-js/stdlib/commit/0f3d5f4d29ea7e98d99514a65955c27977aeff36) - **chore:** clean-up _(by Athan Reines)_
 -   [`c79716f`](https://github.com/stdlib-js/stdlib/commit/c79716fbdd4f07fcf070e3000255717201d2b571) - **chore:** clean-up _(by Athan Reines)_
 -   [`51e3867`](https://github.com/stdlib-js/stdlib/commit/51e3867e1ab01fd1496c7dbf897e6ca8f3af47d0) - **chore:** clean-up _(by Athan Reines)_
--   [`843d1d0`](https://github.com/stdlib-js/stdlib/commit/843d1d0685fa8c550bb9c209c8bd87ca0f7ddb2c) - **feat:** add C implementation for `stats/base/dists/frechet/logpdf` [(#5249)](https://github.com/stdlib-js/stdlib/pull/5249) _(by iraandrushko, Philipp Burckhardt)_
+-   [`843d1d0`](https://github.com/stdlib-js/stdlib/commit/843d1d0685fa8c550bb9c209c8bd87ca0f7ddb2c) - **feat:** add C implementation for `stats/base/dists/frechet/logpdf` [(#5249)](https://github.com/stdlib-js/stdlib/pull/5249) _(by Iryna Andrushko, Philipp Burckhardt)_
 -   [`8f66d56`](https://github.com/stdlib-js/stdlib/commit/8f66d56a08779f053154777f958a7e18bd02187b) - **bench:** fix indentation and remove stray 0 _(by Philipp Burckhardt)_
 -   [`5c47b95`](https://github.com/stdlib-js/stdlib/commit/5c47b95b984cb0e088f642974e05ae9d7d6bffa0) - **feat:** add C implementation `stats/base/dists/gamma/logpdf` [(#4800)](https://github.com/stdlib-js/stdlib/pull/4800) _(by Shabareesh Shetty, Philipp Burckhardt, stdlib-bot)_
 -   [`8972a22`](https://github.com/stdlib-js/stdlib/commit/8972a2247dc5b6a01534851dbd276fd0b4d5f269) - **feat:** add C implementation for `stats/base/dists/erlang/stdev` [(#4249)](https://github.com/stdlib-js/stdlib/pull/4249) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
@@ -4834,9 +4835,9 @@ A total of 555 issues were closed in this release:
 -   [`41d0632`](https://github.com/stdlib-js/stdlib/commit/41d0632145a36b71711b27c0ee7add3c0434c7f5) - **feat:** refactor and add protocol support to `stats/base/nanvariancewd` [(#6023)](https://github.com/stdlib-js/stdlib/pull/6023) _(by Prajjwal Bajpai, Athan Reines, Aayush Khanna)_
 -   [`cc8314e`](https://github.com/stdlib-js/stdlib/commit/cc8314e54ecc4017857d851ea10f2b70f8d379c0) - **docs:** update namespace table of contents [(#6506)](https://github.com/stdlib-js/stdlib/pull/6506) _(by stdlib-bot)_
 -   [`4e53b42`](https://github.com/stdlib-js/stdlib/commit/4e53b4284ec07bae3e7825ab6e78c1ffca1ed903) - **style:** remove whitespace _(by Athan Reines)_
--   [`09aac30`](https://github.com/stdlib-js/stdlib/commit/09aac30680a3c2c81b0741cb025175a8b1e54ec4) - **chore:** address commit comment [(#5450)](https://github.com/stdlib-js/stdlib/pull/5450) _(by Harsh)_
--   [`78dc663`](https://github.com/stdlib-js/stdlib/commit/78dc663f35d9de92c555c21ae65a4e9883270431) - **chore:** address commit comment [(#5451)](https://github.com/stdlib-js/stdlib/pull/5451) _(by Harsh)_
--   [`cfa7b23`](https://github.com/stdlib-js/stdlib/commit/cfa7b23590ff73b540aab2601eb2a0b7539d1f56) - **chore:** address commit comment [(#5449)](https://github.com/stdlib-js/stdlib/pull/5449) _(by Harsh)_
+-   [`09aac30`](https://github.com/stdlib-js/stdlib/commit/09aac30680a3c2c81b0741cb025175a8b1e54ec4) - **chore:** address commit comment [(#5450)](https://github.com/stdlib-js/stdlib/pull/5450) _(by Harsh Yadav)_
+-   [`78dc663`](https://github.com/stdlib-js/stdlib/commit/78dc663f35d9de92c555c21ae65a4e9883270431) - **chore:** address commit comment [(#5451)](https://github.com/stdlib-js/stdlib/pull/5451) _(by Harsh Yadav)_
+-   [`cfa7b23`](https://github.com/stdlib-js/stdlib/commit/cfa7b23590ff73b540aab2601eb2a0b7539d1f56) - **chore:** address commit comment [(#5449)](https://github.com/stdlib-js/stdlib/pull/5449) _(by Harsh Yadav)_
 -   [`56d8d56`](https://github.com/stdlib-js/stdlib/commit/56d8d567d71cc93e1a12de83459be74cc91f2bb0) - **feat:** add C implementation for `stats/base/dists/hypergeometric/variance` [(#4557)](https://github.com/stdlib-js/stdlib/pull/4557) _(by Karan Anand)_
 -   [`0e04cae`](https://github.com/stdlib-js/stdlib/commit/0e04cae89fe28a88081186969948e8e8013ab41d) - **feat:** add C implementation for `@stdlib/stats/base/dists/logistic/logpdf` [(#4388)](https://github.com/stdlib-js/stdlib/pull/4388) _(by Dhruv Arvind Singh, stdlib-bot, Philipp Burckhardt)_
 -   [`a567912`](https://github.com/stdlib-js/stdlib/commit/a567912175989cd5cef181056c8d41c8678c0087) - **docs:** fix example _(by Athan Reines)_
@@ -5248,7 +5249,7 @@ A total of 555 issues were closed in this release:
 -   [`dc9f39f`](https://github.com/stdlib-js/stdlib/commit/dc9f39f6f289ac4a78bdfb99571db2fbbdd6e7a2) - **chore:** address commit comments [(#6011)](https://github.com/stdlib-js/stdlib/pull/6011) _(by Deep Trivedi)_
 -   [`cb7c51d`](https://github.com/stdlib-js/stdlib/commit/cb7c51d44ec655d7aa6bdc76781a539597467865) - **chore:** address commit comments [(#6015)](https://github.com/stdlib-js/stdlib/pull/6015) _(by Deep Trivedi)_
 -   [`87abb74`](https://github.com/stdlib-js/stdlib/commit/87abb743fe577742c81ce1be6b5b8477da33b5f2) - **feat:** update namespace TypeScript declarations [(#6008)](https://github.com/stdlib-js/stdlib/pull/6008) _(by stdlib-bot)_
--   [`26490b7`](https://github.com/stdlib-js/stdlib/commit/26490b70b5ed23d5e2dd7b3d1884e6d389aae524) - **chore:** address commit comment [(#5953)](https://github.com/stdlib-js/stdlib/pull/5953) _(by Harsh)_
+-   [`26490b7`](https://github.com/stdlib-js/stdlib/commit/26490b70b5ed23d5e2dd7b3d1884e6d389aae524) - **chore:** address commit comment [(#5953)](https://github.com/stdlib-js/stdlib/pull/5953) _(by Harsh Yadav)_
 -   [`e1b7184`](https://github.com/stdlib-js/stdlib/commit/e1b7184cd08ad496335c6acb76170e027fcc86ce) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevyc` [(#5394)](https://github.com/stdlib-js/stdlib/pull/5394) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`5219674`](https://github.com/stdlib-js/stdlib/commit/5219674d43d8c4cdff5b80169f206e6b4864b374) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dstdevpn` [(#4687)](https://github.com/stdlib-js/stdlib/pull/4687) _(by Prashant Kumar Yadav, stdlib-bot)_
 -   [`ece5e44`](https://github.com/stdlib-js/stdlib/commit/ece5e447db05e52c5eb951075c8dfc5cb25d082e) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancepn` [(#4766)](https://github.com/stdlib-js/stdlib/pull/4766) _(by Prashant Kumar Yadav, Athan Reines)_
@@ -5256,11 +5257,11 @@ A total of 555 issues were closed in this release:
 -   [`d8fc3a6`](https://github.com/stdlib-js/stdlib/commit/d8fc3a674fe903b4a9ba6d2d0fd7732fdad9b336) - **feat:** add `stats/incr/nanmean` [(#5976)](https://github.com/stdlib-js/stdlib/pull/5976) _(by Anshu Kumar, Athan Reines)_
 -   [`0b66ee5`](https://github.com/stdlib-js/stdlib/commit/0b66ee5df6d2855fd846c57d2fca7682651aa031) - **docs:** update namespace table of contents [(#5965)](https://github.com/stdlib-js/stdlib/pull/5965) _(by stdlib-bot)_
 -   [`589af2d`](https://github.com/stdlib-js/stdlib/commit/589af2d01ba500ec61bd5b1f6b4840e597a00df1) - **docs:** update namespace TypeScript declarations [(#5963)](https://github.com/stdlib-js/stdlib/pull/5963) _(by stdlib-bot)_
--   [`7036b32`](https://github.com/stdlib-js/stdlib/commit/7036b3205e9c2afc5123cec375559f8a7da0c0b3) - **chore:** address commit comment [(#5972)](https://github.com/stdlib-js/stdlib/pull/5972) _(by Harsh)_
+-   [`7036b32`](https://github.com/stdlib-js/stdlib/commit/7036b3205e9c2afc5123cec375559f8a7da0c0b3) - **chore:** address commit comment [(#5972)](https://github.com/stdlib-js/stdlib/pull/5972) _(by Harsh Yadav)_
 -   [`d8322de`](https://github.com/stdlib-js/stdlib/commit/d8322de9306b0972be795fa9f4a5ec0173d9c568) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevwd` [(#5406)](https://github.com/stdlib-js/stdlib/pull/5406) _(by Prashant Kumar Yadav, Aayush Khanna)_
--   [`4748a5a`](https://github.com/stdlib-js/stdlib/commit/4748a5a2ba84c637c10515c018a9f5162f42c8ee) - **chore(sincosd):** address commit comments [(#5955)](https://github.com/stdlib-js/stdlib/pull/5955) _(by Jaison D Souza)_
+-   [`4748a5a`](https://github.com/stdlib-js/stdlib/commit/4748a5a2ba84c637c10515c018a9f5162f42c8ee) - **chore(sincosd):** address commit comments [(#5955)](https://github.com/stdlib-js/stdlib/pull/5955) _(by Jaison Dsouza)_
 -   [`fe9731c`](https://github.com/stdlib-js/stdlib/commit/fe9731c4a5ea31fb0553ad5b9b217017749ef157) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanstdevtk` [(#5413)](https://github.com/stdlib-js/stdlib/pull/5413) _(by Prashant Kumar Yadav)_
--   [`2ce745b`](https://github.com/stdlib-js/stdlib/commit/2ce745bfa32318ef066ee82bd886d14f7432605f) - **chore:** address commit comments [(#5927)](https://github.com/stdlib-js/stdlib/pull/5927) _(by AmanBhadkariya, Philipp Burckhardt)_
+-   [`2ce745b`](https://github.com/stdlib-js/stdlib/commit/2ce745bfa32318ef066ee82bd886d14f7432605f) - **chore:** address commit comments [(#5927)](https://github.com/stdlib-js/stdlib/pull/5927) _(by Aman Bhadkariya, Philipp Burckhardt)_
 -   [`2bd92b9`](https://github.com/stdlib-js/stdlib/commit/2bd92b9ec557e1e5504abbdfe5d08f03966514b2) - **docs(bradford):** update readme to fix typo [(#5929)](https://github.com/stdlib-js/stdlib/pull/5929) _(by Haroon Rasheed)_
 -   [`2a46bc7`](https://github.com/stdlib-js/stdlib/commit/2a46bc7f9419e7b629197f54377d1181e2a236b4) - **refactor:** avoid unnecessary computation _(by Athan Reines)_
 -   [`1949944`](https://github.com/stdlib-js/stdlib/commit/19499442b3eeaa0ad9efc5b91a76538dcc45a18d) - **feat:** add `stats/base/dists/bradford/pdf` [(#5280)](https://github.com/stdlib-js/stdlib/pull/5280) _(by Karan Anand)_
@@ -5286,12 +5287,12 @@ A total of 555 issues were closed in this release:
 -   [`5ff0c98`](https://github.com/stdlib-js/stdlib/commit/5ff0c98ff5b276f6fa2eb05d8fa36e6aa6269c30) - **chore:** address commit comments (commit `cdcb256`) [(#5799)](https://github.com/stdlib-js/stdlib/pull/5799) _(by Tanishq Ahuja, Philipp Burckhardt)_
 -   [`befc79b`](https://github.com/stdlib-js/stdlib/commit/befc79b8a2b00c3f9b91d0b21bee3ef5006bc91e) - **feat:** add C implementation for `stats/base/dists/geometric/kurtosis` [(#4092)](https://github.com/stdlib-js/stdlib/pull/4092) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`b2b2c84`](https://github.com/stdlib-js/stdlib/commit/b2b2c8452743fd7096114ec524524b8d0b817ab4) - **feat:** add `stats/base/dists/bradford/quantile` [(#5295)](https://github.com/stdlib-js/stdlib/pull/5295) _(by Karan Anand, Philipp Burckhardt, stdlib-bot)_
--   [`1ebcfd6`](https://github.com/stdlib-js/stdlib/commit/1ebcfd618beaf055a7097c89f3794d507fd14947) - **bench:** refactor random number generation in `stats/base/dists/weibull` [(#5342)](https://github.com/stdlib-js/stdlib/pull/5342) _(by Gaurav)_
+-   [`1ebcfd6`](https://github.com/stdlib-js/stdlib/commit/1ebcfd618beaf055a7097c89f3794d507fd14947) - **bench:** refactor random number generation in `stats/base/dists/weibull` [(#5342)](https://github.com/stdlib-js/stdlib/pull/5342) _(by Gaurav Jadhav)_
 -   [`766b77d`](https://github.com/stdlib-js/stdlib/commit/766b77dbec2e3aee7e59d5759382baae1db229ac) - **feat:** add C implementation for `stats/base/dists/bernoulli/quantile` [(#4869)](https://github.com/stdlib-js/stdlib/pull/4869) _(by Nishchay Rajput, Philipp Burckhardt, stdlib-bot)_
 -   [`bc90eba`](https://github.com/stdlib-js/stdlib/commit/bc90ebaf8e8318423f84cf652e1003836e898ab4) - **feat:** add C implementation for `stats/base/dists/uniform/mgf` [(#4142)](https://github.com/stdlib-js/stdlib/pull/4142) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`afa0a17`](https://github.com/stdlib-js/stdlib/commit/afa0a17b6d628f825151674c1c3848be2a16f5dc) - **test:** pass in missing `opts` argument [(#5794)](https://github.com/stdlib-js/stdlib/pull/5794) _(by Karan Anand)_
 -   [`a74d773`](https://github.com/stdlib-js/stdlib/commit/a74d773fe8fc148cc4bc7619e868624c2e499bc7) - **feat:** add C implementation for `@stdlib/stats/base/dists/frechet/logcdf` [(#5517)](https://github.com/stdlib-js/stdlib/pull/5517) _(by Nishchay Rajput, Philipp Burckhardt)_
--   [`e5238bb`](https://github.com/stdlib-js/stdlib/commit/e5238bb96b7138d346ea0db8b535aec64c8a856c) - **bench:** refactor random number generation in `stats/base/dists/laplace` [(#5270)](https://github.com/stdlib-js/stdlib/pull/5270) _(by GK Bishnoi)_
+-   [`e5238bb`](https://github.com/stdlib-js/stdlib/commit/e5238bb96b7138d346ea0db8b535aec64c8a856c) - **bench:** refactor random number generation in `stats/base/dists/laplace` [(#5270)](https://github.com/stdlib-js/stdlib/pull/5270) _(by Gopi Kishan)_
 -   [`2bb57c6`](https://github.com/stdlib-js/stdlib/commit/2bb57c69cdf5668f7a1490f85edd538a3f7517e4) - **feat:** add C implementation for `stats/base/dists/levy/quantile` [(#4756)](https://github.com/stdlib-js/stdlib/pull/4756) _(by Saurabh Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`70a7c2f`](https://github.com/stdlib-js/stdlib/commit/70a7c2f519fceab9a8587ddedbc03044b6f93f86) - **chore:** address commit comments in README, benchmarks, and main.c [(#5763)](https://github.com/stdlib-js/stdlib/pull/5763) _(by Abhay Punia, Philipp Burckhardt)_
 -   [`2e43df0`](https://github.com/stdlib-js/stdlib/commit/2e43df04b30107baae137ed29552ae3cd9de4add) - **chore:** address commit comments [(#5744)](https://github.com/stdlib-js/stdlib/pull/5744) _(by Dhruvil Mehta)_
@@ -5319,11 +5320,11 @@ A total of 555 issues were closed in this release:
 -   [`e63c0b4`](https://github.com/stdlib-js/stdlib/commit/e63c0b409b6ce579268ac14d8f1ca4c3ff0b4390) - **feat:** add C implementation for `stats/base/dists/geometric/logpmf` [(#4221)](https://github.com/stdlib-js/stdlib/pull/4221) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`d269f48`](https://github.com/stdlib-js/stdlib/commit/d269f482403afcd7bab905b05255f66624904998) - **feat:** add C implementation for `stats/base/dists/geometric/logcdf` [(#4205)](https://github.com/stdlib-js/stdlib/pull/4205) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`2616db9`](https://github.com/stdlib-js/stdlib/commit/2616db935d792a899cd88d208e06460edfe53723) - **feat:** add C implementation for `stats/base/dists/geometric/cdf` [(#4203)](https://github.com/stdlib-js/stdlib/pull/4203) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
--   [`3e9c53b`](https://github.com/stdlib-js/stdlib/commit/3e9c53b529d3523c5360ebd5788bddfea42b0a5d) - **chore:** address commit comments [(#5460)](https://github.com/stdlib-js/stdlib/pull/5460) _(by Harsh)_
--   [`0d8ee45`](https://github.com/stdlib-js/stdlib/commit/0d8ee45ff4534afb9911179c06b3134934dcf640) - **chore:** address commit comments [(#5461)](https://github.com/stdlib-js/stdlib/pull/5461) _(by Harsh)_
--   [`c320d8b`](https://github.com/stdlib-js/stdlib/commit/c320d8ba8d50de0b54e3231650076873be39c492) - **chore:** address commit comments [(#5491)](https://github.com/stdlib-js/stdlib/pull/5491) _(by Harsh)_
+-   [`3e9c53b`](https://github.com/stdlib-js/stdlib/commit/3e9c53b529d3523c5360ebd5788bddfea42b0a5d) - **chore:** address commit comments [(#5460)](https://github.com/stdlib-js/stdlib/pull/5460) _(by Harsh Yadav)_
+-   [`0d8ee45`](https://github.com/stdlib-js/stdlib/commit/0d8ee45ff4534afb9911179c06b3134934dcf640) - **chore:** address commit comments [(#5461)](https://github.com/stdlib-js/stdlib/pull/5461) _(by Harsh Yadav)_
+-   [`c320d8b`](https://github.com/stdlib-js/stdlib/commit/c320d8ba8d50de0b54e3231650076873be39c492) - **chore:** address commit comments [(#5491)](https://github.com/stdlib-js/stdlib/pull/5491) _(by Harsh Yadav)_
 -   [`00fa462`](https://github.com/stdlib-js/stdlib/commit/00fa4624da3569f508a061390f96eea92bb84ee3) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvariance` [(#5522)](https://github.com/stdlib-js/stdlib/pull/5522) _(by Prashant Kumar Yadav, Aayush Khanna)_
--   [`a1c366a`](https://github.com/stdlib-js/stdlib/commit/a1c366a395fd46fde193bad73bac162daf90389b) - **chore:** address commit comments [(#5492)](https://github.com/stdlib-js/stdlib/pull/5492) _(by Harsh, Neeraj Pathak)_
+-   [`a1c366a`](https://github.com/stdlib-js/stdlib/commit/a1c366a395fd46fde193bad73bac162daf90389b) - **chore:** address commit comments [(#5492)](https://github.com/stdlib-js/stdlib/pull/5492) _(by Harsh Yadav, Neeraj Pathak)_
 -   [`483ccab`](https://github.com/stdlib-js/stdlib/commit/483ccab72251ca824d678a1a5b241faf8c694005) - **chore:** address commit comments (docs update & bench refactor) [(#5518)](https://github.com/stdlib-js/stdlib/pull/5518) _(by rahulrangers, Neeraj Pathak)_
 -   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - **feat:** update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436) _(by stdlib-bot)_
 -   [`0025233`](https://github.com/stdlib-js/stdlib/commit/0025233fc631a66f86f0139edd2ee9a37885193f) - **feat:** add C implementation for `stats/base/dists/geometric/variance` [(#4012)](https://github.com/stdlib-js/stdlib/pull/4012) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
@@ -5343,8 +5344,8 @@ A total of 555 issues were closed in this release:
 -   [`3eff83f`](https://github.com/stdlib-js/stdlib/commit/3eff83f89e26a589f041538aa34fe47446cbdde8) - **feat:** add C implementation of `stats/base/dists/gumbel/mgf`  [(#4168)](https://github.com/stdlib-js/stdlib/pull/4168) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
 -   [`00b23b3`](https://github.com/stdlib-js/stdlib/commit/00b23b3cb5b4e72bf977a9ac170062f8e8614ef1) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanvariancech` [(#4803)](https://github.com/stdlib-js/stdlib/pull/4803) _(by Prashant Kumar Yadav)_
 -   [`8fa3827`](https://github.com/stdlib-js/stdlib/commit/8fa382766ef9fac1355c9ad98cf3e81f47387016) - **feat:** add C implementation of `stats/base/dists/cauchy/cdf` [(#4389)](https://github.com/stdlib-js/stdlib/pull/4389) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
--   [`0622cf1`](https://github.com/stdlib-js/stdlib/commit/0622cf1018078943f26ea1cdadefc448f0038649) - **docs:** fix line wrapping [(#5389)](https://github.com/stdlib-js/stdlib/pull/5389) _(by fadiothman22)_
--   [`e1c0bd2`](https://github.com/stdlib-js/stdlib/commit/e1c0bd2a55ba108c5e77c99ab17117b9f6693508) - **chore:** address commit comment [(#5321)](https://github.com/stdlib-js/stdlib/pull/5321) _(by Harsh, Philipp Burckhardt)_
+-   [`0622cf1`](https://github.com/stdlib-js/stdlib/commit/0622cf1018078943f26ea1cdadefc448f0038649) - **docs:** fix line wrapping [(#5389)](https://github.com/stdlib-js/stdlib/pull/5389) _(by Fadio)_
+-   [`e1c0bd2`](https://github.com/stdlib-js/stdlib/commit/e1c0bd2a55ba108c5e77c99ab17117b9f6693508) - **chore:** address commit comment [(#5321)](https://github.com/stdlib-js/stdlib/pull/5321) _(by Harsh Yadav, Philipp Burckhardt)_
 -   [`afbe56b`](https://github.com/stdlib-js/stdlib/commit/afbe56bcdf992a969b20a912828b42d0cdbe717a) - **docs:** update namespace table of contents [(#5387)](https://github.com/stdlib-js/stdlib/pull/5387) _(by stdlib-bot)_
 -   [`bf2f650`](https://github.com/stdlib-js/stdlib/commit/bf2f65007fb311b77e8a56d8d53b67b4e8b7b670) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanvariancepn` [(#4838)](https://github.com/stdlib-js/stdlib/pull/4838) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`ecfa20e`](https://github.com/stdlib-js/stdlib/commit/ecfa20ee5474b4908861770b6ea4ddb04dacbdf9) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanvarianceyc` [(#4852)](https://github.com/stdlib-js/stdlib/pull/4852) _(by Prashant Kumar Yadav, Athan Reines)_
@@ -5430,16 +5431,16 @@ A total of 555 issues were closed in this release:
 -   [`11f1341`](https://github.com/stdlib-js/stdlib/commit/11f1341134c5d6c7c0ecd82c99dff766e08e731a) - **feat:** add support for accessor arrays and refactor `stats/base/cumax` _(by Vivek Maurya, stdlib-bot)_
 -   [`cfada54`](https://github.com/stdlib-js/stdlib/commit/cfada54a59fd74da628a2c918325a59debd25d3d) - **feat:** update namespace TypeScript declarations [(#5277)](https://github.com/stdlib-js/stdlib/pull/5277) _(by stdlib-bot)_
 -   [`a437539`](https://github.com/stdlib-js/stdlib/commit/a437539905254dcb01dff5011322c432f44f02bd) - **docs:** update namespace table of contents [(#5279)](https://github.com/stdlib-js/stdlib/pull/5279) _(by stdlib-bot)_
--   [`0d255bc`](https://github.com/stdlib-js/stdlib/commit/0d255bc39e0a122554fbc972be6c0973abb2c48a) - **bench:** refactor random number generation in JS benchmarks for `stats/base/dists/logistic` [(#5139)](https://github.com/stdlib-js/stdlib/pull/5139) _(by GK Bishnoi, Gopi Kishan)_
+-   [`0d255bc`](https://github.com/stdlib-js/stdlib/commit/0d255bc39e0a122554fbc972be6c0973abb2c48a) - **bench:** refactor random number generation in JS benchmarks for `stats/base/dists/logistic` [(#5139)](https://github.com/stdlib-js/stdlib/pull/5139) _(by Gopi Kishan, Gopi Kishan)_
 -   [`9b455b1`](https://github.com/stdlib-js/stdlib/commit/9b455b15cb301af9ecc7eff8960e223a3a7d1b24) - **feat:** add C implementation for `stats/base/dists/binomial/median` [(#3950)](https://github.com/stdlib-js/stdlib/pull/3950) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`d9c5d0c`](https://github.com/stdlib-js/stdlib/commit/d9c5d0c3343a0d0354d90d57f39638183bf3f51d) - **feat:** add C implementation for `stats/base/dists/uniform/stdev` [(#4133)](https://github.com/stdlib-js/stdlib/pull/4133) _(by Prashant Kumar Yadav, stdlib-bot)_
 -   [`ae08a29`](https://github.com/stdlib-js/stdlib/commit/ae08a29eb928357ae97532f0c3f398b0fef58ebd) - **bench:** refactor random number generation in `stats/base/dists/lognormal` [(#5164)](https://github.com/stdlib-js/stdlib/pull/5164) _(by Saurabh Singh)_
--   [`4d79bde`](https://github.com/stdlib-js/stdlib/commit/4d79bde011701144a125ba35d58ed42f7ecc5961) - **bench:** refactor random number generation in JS benchmarks for `stats/base/dists/pareto-type1` [(#5260)](https://github.com/stdlib-js/stdlib/pull/5260) _(by GK Bishnoi)_
+-   [`4d79bde`](https://github.com/stdlib-js/stdlib/commit/4d79bde011701144a125ba35d58ed42f7ecc5961) - **bench:** refactor random number generation in JS benchmarks for `stats/base/dists/pareto-type1` [(#5260)](https://github.com/stdlib-js/stdlib/pull/5260) _(by Gopi Kishan)_
 -   [`e05da28`](https://github.com/stdlib-js/stdlib/commit/e05da283a2493c635c06ab0f19e4aefbcc9e2540) - **feat:** add C implementation for `stats/base/dists/binomial/stdev` [(#4408)](https://github.com/stdlib-js/stdlib/pull/4408) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
--   [`2f54879`](https://github.com/stdlib-js/stdlib/commit/2f54879e747af42e332e37d0a033a25f54ae05c2) - **bench:** refactor random number generation in `stats/base/dists/studentized-range` [(#5175)](https://github.com/stdlib-js/stdlib/pull/5175) _(by Harsh, Karan Anand, stdlib-bot)_
+-   [`2f54879`](https://github.com/stdlib-js/stdlib/commit/2f54879e747af42e332e37d0a033a25f54ae05c2) - **bench:** refactor random number generation in `stats/base/dists/studentized-range` [(#5175)](https://github.com/stdlib-js/stdlib/pull/5175) _(by Harsh Yadav, Karan Anand, stdlib-bot)_
 -   [`427d616`](https://github.com/stdlib-js/stdlib/commit/427d616af6cd3690fc65f658bdfd016ad4f49102) - **chore:** address commit comments and update tests [(#5264)](https://github.com/stdlib-js/stdlib/pull/5264) _(by Saurabh Singh)_
 -   [`fc127d4`](https://github.com/stdlib-js/stdlib/commit/fc127d4f0cf0b49f32e19dbd65c724ae64d8f4e7) - **chore:** address commit comments and update tests [(#5265)](https://github.com/stdlib-js/stdlib/pull/5265) _(by Saurabh Singh)_
--   [`c15d420`](https://github.com/stdlib-js/stdlib/commit/c15d420088984080d6fb3b14d791dcee61e0c673) - **chore:** address commit comments [(#5261)](https://github.com/stdlib-js/stdlib/pull/5261) _(by Harsh)_
+-   [`c15d420`](https://github.com/stdlib-js/stdlib/commit/c15d420088984080d6fb3b14d791dcee61e0c673) - **chore:** address commit comments [(#5261)](https://github.com/stdlib-js/stdlib/pull/5261) _(by Harsh Yadav)_
 -   [`cb07fb5`](https://github.com/stdlib-js/stdlib/commit/cb07fb51b4cd8267c9219d098bc9e9a7a35525aa) - **remove:** remove `stats/base/dmeankbn` _(by Aayush Khanna)_
 -   [`5cc731b`](https://github.com/stdlib-js/stdlib/commit/5cc731bdea5ca228c30734e9bccfaa9215ab231e) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`8f63518`](https://github.com/stdlib-js/stdlib/commit/8f635182665cacd285ae4c031c132ef07ba0b6dd) - **feat:** add `stats/strided/dmeankbn` _(by Aayush Khanna)_
@@ -5451,10 +5452,10 @@ A total of 555 issues were closed in this release:
 -   [`0a40704`](https://github.com/stdlib-js/stdlib/commit/0a40704a8d12a61a6ab86a42b6994e6ccd1da176) - **feat:** add `stats/strided/dmaxabssorted` _(by Aayush Khanna)_
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - **feat:** update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254) _(by stdlib-bot)_
 -   [`8df3643`](https://github.com/stdlib-js/stdlib/commit/8df36439153e0c5f399c01b755213be55b2a696c) - **docs:** update namespace table of contents [(#5256)](https://github.com/stdlib-js/stdlib/pull/5256) _(by stdlib-bot)_
--   [`ebe88f3`](https://github.com/stdlib-js/stdlib/commit/ebe88f3d87f2e3f0dc9e070bd59e7b9068e483dd) - **chore:** fix C lint errors [(#5206)](https://github.com/stdlib-js/stdlib/pull/5206) _(by GK Bishnoi)_
+-   [`ebe88f3`](https://github.com/stdlib-js/stdlib/commit/ebe88f3d87f2e3f0dc9e070bd59e7b9068e483dd) - **chore:** fix C lint errors [(#5206)](https://github.com/stdlib-js/stdlib/pull/5206) _(by Gopi Kishan)_
 -   [`d465523`](https://github.com/stdlib-js/stdlib/commit/d465523f1465201c42ca8491ecf14c6bde261031) - **feat:** add C implementation for `stats/base/dists/binomial/kurtosis` [(#4411)](https://github.com/stdlib-js/stdlib/pull/4411) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
--   [`39f6970`](https://github.com/stdlib-js/stdlib/commit/39f69705826500421b402f732d6a16e204f54dca) - **bench:** refactor random number generation in `stats/base/dists/negative-binomial` [(#5193)](https://github.com/stdlib-js/stdlib/pull/5193) _(by GK Bishnoi)_
--   [`5186577`](https://github.com/stdlib-js/stdlib/commit/518657703bf95bfa4e0e99e6d453e2e909453f59) - **chore:** fix copy & paste error [(#5247)](https://github.com/stdlib-js/stdlib/pull/5247) _(by Harsh)_
+-   [`39f6970`](https://github.com/stdlib-js/stdlib/commit/39f69705826500421b402f732d6a16e204f54dca) - **bench:** refactor random number generation in `stats/base/dists/negative-binomial` [(#5193)](https://github.com/stdlib-js/stdlib/pull/5193) _(by Gopi Kishan)_
+-   [`5186577`](https://github.com/stdlib-js/stdlib/commit/518657703bf95bfa4e0e99e6d453e2e909453f59) - **chore:** fix copy & paste error [(#5247)](https://github.com/stdlib-js/stdlib/pull/5247) _(by Harsh Yadav)_
 -   [`ef0c134`](https://github.com/stdlib-js/stdlib/commit/ef0c134d557fa7364dd80c9eaa40d2df9189f4b1) - **remove:** remove `stats/base/dmaxabs` _(by Aayush Khanna)_
 -   [`e63974c`](https://github.com/stdlib-js/stdlib/commit/e63974c31c4c73f6755cd33fb08f85b6eef4291b) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`3242006`](https://github.com/stdlib-js/stdlib/commit/32420064f3024f992882127a08aa64e99f9c6ea5) - **feat:** add `stats/strided/dmaxabs` _(by Aayush Khanna)_
@@ -5473,15 +5474,15 @@ A total of 555 issues were closed in this release:
 -   [`954e7c1`](https://github.com/stdlib-js/stdlib/commit/954e7c1e1716bfdd15903b4be7039741396927eb) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanlipw` [(#4733)](https://github.com/stdlib-js/stdlib/pull/4733) _(by Prashant Kumar Yadav)_
 -   [`6ea60b4`](https://github.com/stdlib-js/stdlib/commit/6ea60b46ac39f35f18255ea92c95b053d03c1819) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dnanmeanpn` [(#4250)](https://github.com/stdlib-js/stdlib/pull/4250) _(by Neeraj Pathak, Aayush Khanna)_
 -   [`f70e622`](https://github.com/stdlib-js/stdlib/commit/f70e6223dfc766d41092bc0039379c94f3b34681) - **feat:** add C `ndarray` interface and refactor implementation for `stats/base/dsnanmeanors` [(#4397)](https://github.com/stdlib-js/stdlib/pull/4397) _(by Neeraj Pathak, Aayush Khanna)_
--   [`25a369b`](https://github.com/stdlib-js/stdlib/commit/25a369b09bd828db38dc962afdb23b3c88fb8188) - **bench:** refactor number generation [(#5212)](https://github.com/stdlib-js/stdlib/pull/5212) _(by Harsh, Philipp Burckhardt)_
+-   [`25a369b`](https://github.com/stdlib-js/stdlib/commit/25a369b09bd828db38dc962afdb23b3c88fb8188) - **bench:** refactor number generation [(#5212)](https://github.com/stdlib-js/stdlib/pull/5212) _(by Harsh Yadav, Philipp Burckhardt)_
 -   [`ba1dd19`](https://github.com/stdlib-js/stdlib/commit/ba1dd197d12e30a10eac417f13833cfc48dbac5d) - **feat:** add C implementation for `stats/base/dists/geometric/mgf` [(#4226)](https://github.com/stdlib-js/stdlib/pull/4226) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
--   [`70019dd`](https://github.com/stdlib-js/stdlib/commit/70019ddf8248acad69408092d933236e206bdd8c) - **docs:** fix return value [(#5184)](https://github.com/stdlib-js/stdlib/pull/5184) _(by ekambains)_
+-   [`70019dd`](https://github.com/stdlib-js/stdlib/commit/70019ddf8248acad69408092d933236e206bdd8c) - **docs:** fix return value [(#5184)](https://github.com/stdlib-js/stdlib/pull/5184) _(by Ekampreet Singh Bains)_
 -   [`f64e693`](https://github.com/stdlib-js/stdlib/commit/f64e6939aa6ac202a29f85e6df6b66ccc1418dd8) - **chore:** address commit comments [(#5202)](https://github.com/stdlib-js/stdlib/pull/5202) _(by Saurabh Singh)_
--   [`273d9f1`](https://github.com/stdlib-js/stdlib/commit/273d9f168ed5293a563e6748219f79a033e7ca8a) - **bench:** refactor random number generation in benchmarks for `stats/base/dists/uniform` [(#5176)](https://github.com/stdlib-js/stdlib/pull/5176) _(by Gaurav, Philipp Burckhardt, stdlib-bot)_
--   [`9d5f07f`](https://github.com/stdlib-js/stdlib/commit/9d5f07f2c383faf8c4b0c84384a6724bc34ddc24) - **chore:** fix C lint errors [(#5195)](https://github.com/stdlib-js/stdlib/pull/5195) _(by GK Bishnoi)_
--   [`10b7eff`](https://github.com/stdlib-js/stdlib/commit/10b7eff89e06862772f7c5ba751171f8def32848) - **bench:** refactor number generation [(#5198)](https://github.com/stdlib-js/stdlib/pull/5198) _(by Harsh)_
--   [`9a18dc7`](https://github.com/stdlib-js/stdlib/commit/9a18dc77697311a314e9ff0c5bf5427a2fcfbfd7) - **bench:** remove duplicate variable declaration [(#5159)](https://github.com/stdlib-js/stdlib/pull/5159) _(by ekambains)_
--   [`9d153b5`](https://github.com/stdlib-js/stdlib/commit/9d153b57100822ae6fe4cd3ad9475bf3ee4c8200) - **bench:** remove duplicate logic [(#5160)](https://github.com/stdlib-js/stdlib/pull/5160) _(by ekambains)_
+-   [`273d9f1`](https://github.com/stdlib-js/stdlib/commit/273d9f168ed5293a563e6748219f79a033e7ca8a) - **bench:** refactor random number generation in benchmarks for `stats/base/dists/uniform` [(#5176)](https://github.com/stdlib-js/stdlib/pull/5176) _(by Gaurav Jadhav, Philipp Burckhardt, stdlib-bot)_
+-   [`9d5f07f`](https://github.com/stdlib-js/stdlib/commit/9d5f07f2c383faf8c4b0c84384a6724bc34ddc24) - **chore:** fix C lint errors [(#5195)](https://github.com/stdlib-js/stdlib/pull/5195) _(by Gopi Kishan)_
+-   [`10b7eff`](https://github.com/stdlib-js/stdlib/commit/10b7eff89e06862772f7c5ba751171f8def32848) - **bench:** refactor number generation [(#5198)](https://github.com/stdlib-js/stdlib/pull/5198) _(by Harsh Yadav)_
+-   [`9a18dc7`](https://github.com/stdlib-js/stdlib/commit/9a18dc77697311a314e9ff0c5bf5427a2fcfbfd7) - **bench:** remove duplicate variable declaration [(#5159)](https://github.com/stdlib-js/stdlib/pull/5159) _(by Ekampreet Singh Bains)_
+-   [`9d153b5`](https://github.com/stdlib-js/stdlib/commit/9d153b57100822ae6fe4cd3ad9475bf3ee4c8200) - **bench:** remove duplicate logic [(#5160)](https://github.com/stdlib-js/stdlib/pull/5160) _(by Ekampreet Singh Bains)_
 -   [`d6e1030`](https://github.com/stdlib-js/stdlib/commit/d6e103056ea873a0cc9fa63fa60b56ff61d9a041) - **docs:** update namespace TypeScript declarations [(#5152)](https://github.com/stdlib-js/stdlib/pull/5152) _(by stdlib-bot)_
 -   [`9a0d2cb`](https://github.com/stdlib-js/stdlib/commit/9a0d2cb8183bc4f1a13eb2ff212d0d0570b60a68) - **docs:** update namespace table of contents [(#5154)](https://github.com/stdlib-js/stdlib/pull/5154) _(by stdlib-bot)_
 -   [`911e179`](https://github.com/stdlib-js/stdlib/commit/911e1793885aced96a177f2ea54300503b2c2a26) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
@@ -5525,7 +5526,7 @@ A total of 555 issues were closed in this release:
 -   [`a4cc596`](https://github.com/stdlib-js/stdlib/commit/a4cc596f9cdd579bad8e486f1feee2200f23ea9e) - **feat:** add C implementation for `stats/base/dists/gamma/mgf` [(#4354)](https://github.com/stdlib-js/stdlib/pull/4354) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
 -   [`cb703c8`](https://github.com/stdlib-js/stdlib/commit/cb703c831f5d3fbfc90231daa401bc317e00a421) - **chore:** address commit comments [(#5100)](https://github.com/stdlib-js/stdlib/pull/5100) _(by Saurabh Singh, Philipp Burckhardt)_
 -   [`001d18c`](https://github.com/stdlib-js/stdlib/commit/001d18c5a1d8b378ed9c1be7d19e5823d311ff67) - **chore:** address commit comments [(#5097)](https://github.com/stdlib-js/stdlib/pull/5097) _(by Saurabh Singh, Philipp Burckhardt)_
--   [`d8c1025`](https://github.com/stdlib-js/stdlib/commit/d8c102519a591741b18bd7a58404f6f82145ccf8) - **chore:** refactor random number generation in `stats/base/dists/rayleigh` [(#5104)](https://github.com/stdlib-js/stdlib/pull/5104) _(by ekambains, Philipp Burckhardt)_
+-   [`d8c1025`](https://github.com/stdlib-js/stdlib/commit/d8c102519a591741b18bd7a58404f6f82145ccf8) - **chore:** refactor random number generation in `stats/base/dists/rayleigh` [(#5104)](https://github.com/stdlib-js/stdlib/pull/5104) _(by Ekampreet Singh Bains, Philipp Burckhardt)_
 -   [`556ec54`](https://github.com/stdlib-js/stdlib/commit/556ec541cac82efa3eeec2693b7a8daa44ee8cad) - **chore:** refactor according to commit comments [(#5098)](https://github.com/stdlib-js/stdlib/pull/5098) _(by Saurabh Singh, Philipp Burckhardt)_
 -   [`28b78a0`](https://github.com/stdlib-js/stdlib/commit/28b78a0590907a6757bc6fd4c9e88d9109280950) - **bench:** refactor random number generation in `stats/base/dists/poisson` [(#5106)](https://github.com/stdlib-js/stdlib/pull/5106) _(by pranav-1720)_
 -   [`368834a`](https://github.com/stdlib-js/stdlib/commit/368834a3ca4a12ad798730909270cabbfb369d1b) - **chore:** address commit comments [(#5101)](https://github.com/stdlib-js/stdlib/pull/5101) _(by Saurabh Singh)_
@@ -6120,7 +6121,7 @@ A total of 555 issues were closed in this release:
 
 ### Contributors
 
-A total of 84 people contributed to this release. Thank you to the following contributors:
+A total of 82 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -6130,7 +6131,7 @@ A total of 84 people contributed to this release. Thank you to the following con
 -   Abhishek G
 -   Abhishek Jain
 -   Aksshay Balasubramanian
--   AmanBhadkariya
+-   Aman Bhadkariya
 -   Amisha Chhajed
 -   Anmol Sah
 -   Annamalai Prabu
@@ -6142,25 +6143,28 @@ A total of 84 people contributed to this release. Thank you to the following con
 -   Deepak Singh
 -   Desh Deepak Kant
 -   Dev Goel
+-   Devshree Bhati
 -   Dhruv Arvind Singh
 -   Dhruvil Mehta
 -   Dipjyoti Das
 -   Divyansh Seth
--   GK Bishnoi
--   Gaurav
+-   Ekampreet Singh Bains
+-   Fadio
+-   Gaurav Jadhav
 -   Gaurav Kaushik
 -   Gautam Kaushik
 -   Gautam sharma
--   GeoDaoyu
+-   Geo Daoyu
 -   Girish Garg
 -   Gopi Kishan
 -   Gururaj Gurram
 -   Harishchandra Reddy
 -   Haroon Rasheed
--   Harsh
+-   Harsh Yadav
 -   Hemang Choudhary
 -   Hemant M Mehta
--   Jaison D Souza
+-   Iryna Andrushko
+-   Jaison Dsouza
 -   Jalaj Kumar
 -   Jay Soni
 -   Jaysukh Makvana
@@ -6197,15 +6201,10 @@ A total of 84 people contributed to this release. Thank you to the following con
 -   Vinit Pandit
 -   Vivek Maurya
 -   Yuvi Mittal
--   devshree-bhati
--   ekambains
--   fadiothman22
--   iraandrushko
 -   jsai28
 -   navyansh007
 -   pranav-1720
 -   rahulrangers
--   zhanggy
 
 </section>
 
