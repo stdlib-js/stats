@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,14 +18,16 @@
 
 'use strict';
 
-var uniform = require( '@stdlib/random/array/uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
-var entropy = require( './../lib' );
+var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
+var ndarray = require( '@stdlib/ndarray/base/ctor' );
+var ndarray2array = require( '@stdlib/ndarray/to-array' );
+var meankbn = require( './../lib' );
 
-var opts = {
-	'dtype': 'float64'
-};
-var mu = uniform( 10, -5.0, 5.0, opts );
-var sigma = uniform( 10, 0.0, 20.0, opts );
+var xbuf = discreteUniform( 10, -50, 50, {
+	'dtype': 'generic'
+});
+var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
+console.log( ndarray2array( x ) );
 
-logEachMap( 'µ: %0.4f, σ: %0.4f, h(X;µ,σ): %0.4f', mu, sigma, entropy );
+var v = meankbn( [ x ] );
+console.log( v );

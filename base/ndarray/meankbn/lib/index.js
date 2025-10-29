@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,14 +18,27 @@
 
 'use strict';
 
-var uniform = require( '@stdlib/random/array/uniform' );
-var logEachMap = require( '@stdlib/console/log-each-map' );
-var entropy = require( './../lib' );
+/**
+* Compute the arithmetic mean of a one-dimensional ndarray using an improved Kahan–Babuška algorithm.
+*
+* @module @stdlib/stats/base/ndarray/meankbn
+*
+* @example
+* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+* var meankbn = require( '@stdlib/stats/base/ndarray/meankbn' );
+*
+* var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
+* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+*
+* var v = meankbn( [ x ] );
+* // returns 2.5
+*/
 
-var opts = {
-	'dtype': 'float64'
-};
-var mu = uniform( 10, -5.0, 5.0, opts );
-var sigma = uniform( 10, 0.0, 20.0, opts );
+// MODULES //
 
-logEachMap( 'µ: %0.4f, σ: %0.4f, h(X;µ,σ): %0.4f', mu, sigma, entropy );
+var main = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = main;
