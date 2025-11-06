@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1cfff5d`](https://github.com/stdlib-js/stdlib/commit/1cfff5db1ecd2beea87c0a530d00291f9e8601ce) - add `stats/base/ndarray/meanors`  [(#8407)](https://github.com/stdlib-js/stdlib/pull/8407)
 -   [`589bf2a`](https://github.com/stdlib-js/stdlib/commit/589bf2ac18b4b6ff5dda610872ef1968cf83e304) - add `stats/base/ndarray/meanpw` [(#8396)](https://github.com/stdlib-js/stdlib/pull/8396)
 -   [`7fd6312`](https://github.com/stdlib-js/stdlib/commit/7fd63128c54f64f4e7dc14e6d9007e482a905ecf) - add `stats/base/ndarray/meankbn2` [(#8307)](https://github.com/stdlib-js/stdlib/pull/8307)
 -   [`be6826b`](https://github.com/stdlib-js/stdlib/commit/be6826bdaf42d89210be88782eb49ce5a38a6251) - add `stats/base/ndarray/meankbn` [(#8116)](https://github.com/stdlib-js/stdlib/pull/8116)
@@ -3404,6 +3405,7 @@ A total of 556 issues were closed in this release:
 
 <details>
 
+-   [`1cfff5d`](https://github.com/stdlib-js/stdlib/commit/1cfff5db1ecd2beea87c0a530d00291f9e8601ce) - **feat:** add `stats/base/ndarray/meanors`  [(#8407)](https://github.com/stdlib-js/stdlib/pull/8407) _(by Sachin Pangal)_
 -   [`589bf2a`](https://github.com/stdlib-js/stdlib/commit/589bf2ac18b4b6ff5dda610872ef1968cf83e304) - **feat:** add `stats/base/ndarray/meanpw` [(#8396)](https://github.com/stdlib-js/stdlib/pull/8396) _(by Sachin Pangal)_
 -   [`7fd6312`](https://github.com/stdlib-js/stdlib/commit/7fd63128c54f64f4e7dc14e6d9007e482a905ecf) - **feat:** add `stats/base/ndarray/meankbn2` [(#8307)](https://github.com/stdlib-js/stdlib/pull/8307) _(by Bureir AL, Athan Reines)_
 -   [`3b39228`](https://github.com/stdlib-js/stdlib/commit/3b39228e76a9586ede35c2c128939f21c6982d09) - **docs:** replace manual `for` loop in examples [(#8263)](https://github.com/stdlib-js/stdlib/pull/8263) _(by Harsh Yadav)_
