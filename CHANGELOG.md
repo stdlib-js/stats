@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-29)
+## Unreleased (2025-11-06)
 
 <section class="features">
 
 ### Features
 
+-   [`589bf2a`](https://github.com/stdlib-js/stdlib/commit/589bf2ac18b4b6ff5dda610872ef1968cf83e304) - add `stats/base/ndarray/meanpw` [(#8396)](https://github.com/stdlib-js/stdlib/pull/8396)
+-   [`7fd6312`](https://github.com/stdlib-js/stdlib/commit/7fd63128c54f64f4e7dc14e6d9007e482a905ecf) - add `stats/base/ndarray/meankbn2` [(#8307)](https://github.com/stdlib-js/stdlib/pull/8307)
 -   [`be6826b`](https://github.com/stdlib-js/stdlib/commit/be6826bdaf42d89210be88782eb49ce5a38a6251) - add `stats/base/ndarray/meankbn` [(#8116)](https://github.com/stdlib-js/stdlib/pull/8116)
 -   [`091c2e0`](https://github.com/stdlib-js/stdlib/commit/091c2e05434c5e89a76d6f142d7f407f65ab7b27) - add `stats/incr/nanmin` [(#5917)](https://github.com/stdlib-js/stdlib/pull/5917)
 -   [`21c4e0f`](https://github.com/stdlib-js/stdlib/commit/21c4e0fc5a6b112f5e31cd07ce5354f9a7cf7332) - add `stats/incr/nangmean` [(#6020)](https://github.com/stdlib-js/stdlib/pull/6020)
@@ -3402,6 +3404,8 @@ A total of 556 issues were closed in this release:
 
 <details>
 
+-   [`589bf2a`](https://github.com/stdlib-js/stdlib/commit/589bf2ac18b4b6ff5dda610872ef1968cf83e304) - **feat:** add `stats/base/ndarray/meanpw` [(#8396)](https://github.com/stdlib-js/stdlib/pull/8396) _(by Sachin Pangal)_
+-   [`7fd6312`](https://github.com/stdlib-js/stdlib/commit/7fd63128c54f64f4e7dc14e6d9007e482a905ecf) - **feat:** add `stats/base/ndarray/meankbn2` [(#8307)](https://github.com/stdlib-js/stdlib/pull/8307) _(by Bureir AL, Athan Reines)_
 -   [`3b39228`](https://github.com/stdlib-js/stdlib/commit/3b39228e76a9586ede35c2c128939f21c6982d09) - **docs:** replace manual `for` loop in examples [(#8263)](https://github.com/stdlib-js/stdlib/pull/8263) _(by Harsh Yadav)_
 -   [`be6826b`](https://github.com/stdlib-js/stdlib/commit/be6826bdaf42d89210be88782eb49ce5a38a6251) - **feat:** add `stats/base/ndarray/meankbn` [(#8116)](https://github.com/stdlib-js/stdlib/pull/8116) _(by Bureir AL, Athan Reines, Muhammad Haris)_
 -   [`5bbd209`](https://github.com/stdlib-js/stdlib/commit/5bbd209871c06aaf7d6347c6eb7696af6128ee1a) - **docs:** replace manual `for` loop in examples [(#8257)](https://github.com/stdlib-js/stdlib/pull/8257) _(by Harsh Yadav)_
@@ -6125,7 +6129,7 @@ A total of 556 issues were closed in this release:
 
 ### Contributors
 
-A total of 83 people contributed to this release. Thank you to the following contributors:
+A total of 84 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -6196,6 +6200,7 @@ A total of 83 people contributed to this release. Thank you to the following con
 -   Rishav Tarway
 -   Ruthwik Chikoti
 -   SAUJANYA MAGARDE
+-   Sachin Pangal
 -   Saurabh Singh
 -   Shabareesh Shetty
 -   Shivansh
