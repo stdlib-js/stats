@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-07)
+## Unreleased (2025-11-08)
 
 <section class="features">
 
 ### Features
 
+-   [`bf74a8c`](https://github.com/stdlib-js/stdlib/commit/bf74a8c248bb2b2f5614370a12a0c46f9f1bf9f8) - add `stats/base/ndarray/mediansorted` [(#8433)](https://github.com/stdlib-js/stdlib/pull/8433)
 -   [`ccaf3a2`](https://github.com/stdlib-js/stdlib/commit/ccaf3a2f23735bcb37f00ec28aea187662b174b6) - add `stats/base/ndarray/meanwd` [(#8422)](https://github.com/stdlib-js/stdlib/pull/8422)
 -   [`5ac2a43`](https://github.com/stdlib-js/stdlib/commit/5ac2a43dbf6d761ad2eb83c55f21bf5bf5caa753) - add `stats/base/ndarray/meanpn` [(#8410)](https://github.com/stdlib-js/stdlib/pull/8410)
 -   [`1cfff5d`](https://github.com/stdlib-js/stdlib/commit/1cfff5db1ecd2beea87c0a530d00291f9e8601ce) - add `stats/base/ndarray/meanors`  [(#8407)](https://github.com/stdlib-js/stdlib/pull/8407)
@@ -3407,6 +3408,7 @@ A total of 556 issues were closed in this release:
 
 <details>
 
+-   [`bf74a8c`](https://github.com/stdlib-js/stdlib/commit/bf74a8c248bb2b2f5614370a12a0c46f9f1bf9f8) - **feat:** add `stats/base/ndarray/mediansorted` [(#8433)](https://github.com/stdlib-js/stdlib/pull/8433) _(by Sachin Pangal)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`b893587`](https://github.com/stdlib-js/stdlib/commit/b893587169727ab72e382fe40ff2c0b9bb7078e7) - **chore:** resolve lint failures _(by Athan Reines)_
 -   [`ccaf3a2`](https://github.com/stdlib-js/stdlib/commit/ccaf3a2f23735bcb37f00ec28aea187662b174b6) - **feat:** add `stats/base/ndarray/meanwd` [(#8422)](https://github.com/stdlib-js/stdlib/pull/8422) _(by Sachin Pangal, Athan Reines)_
