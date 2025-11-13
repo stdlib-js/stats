@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b435961`](https://github.com/stdlib-js/stdlib/commit/b4359613d27e7a601752bb8685ed7eb612341f38) - add `stats/base/ndarray/dminsorted` [(#8506)](https://github.com/stdlib-js/stdlib/pull/8506)
 -   [`d8f70e8`](https://github.com/stdlib-js/stdlib/commit/d8f70e8573ef8f6bd45a0008e3a30440aab45902) - add `stats/base/ndarray/sminsorted` [(#8505)](https://github.com/stdlib-js/stdlib/pull/8505)
 -   [`6d3dd75`](https://github.com/stdlib-js/stdlib/commit/6d3dd75def6baa7cd7816547598bc10107deba36) - add `stats/base/ndarray/dmeanli` [(#8492)](https://github.com/stdlib-js/stdlib/pull/8492)
 -   [`65f4abe`](https://github.com/stdlib-js/stdlib/commit/65f4abe305e53eeddb276f30649003e3bbfd8cbb) - add `stats/base/ndarray/mskmin` [(#8471)](https://github.com/stdlib-js/stdlib/pull/8471)
@@ -3413,6 +3414,7 @@ A total of 556 issues were closed in this release:
 
 <details>
 
+-   [`b435961`](https://github.com/stdlib-js/stdlib/commit/b4359613d27e7a601752bb8685ed7eb612341f38) - **feat:** add `stats/base/ndarray/dminsorted` [(#8506)](https://github.com/stdlib-js/stdlib/pull/8506) _(by Pratik)_
 -   [`d8f70e8`](https://github.com/stdlib-js/stdlib/commit/d8f70e8573ef8f6bd45a0008e3a30440aab45902) - **feat:** add `stats/base/ndarray/sminsorted` [(#8505)](https://github.com/stdlib-js/stdlib/pull/8505) _(by Pratik)_
 -   [`6d3dd75`](https://github.com/stdlib-js/stdlib/commit/6d3dd75def6baa7cd7816547598bc10107deba36) - **feat:** add `stats/base/ndarray/dmeanli` [(#8492)](https://github.com/stdlib-js/stdlib/pull/8492) _(by Sachin Pangal, Athan Reines)_
 -   [`65f4abe`](https://github.com/stdlib-js/stdlib/commit/65f4abe305e53eeddb276f30649003e3bbfd8cbb) - **feat:** add `stats/base/ndarray/mskmin` [(#8471)](https://github.com/stdlib-js/stdlib/pull/8471) _(by Pratik, Athan Reines)_
