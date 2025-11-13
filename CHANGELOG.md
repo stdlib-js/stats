@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`4b15a4b`](https://github.com/stdlib-js/stdlib/commit/4b15a4b7c8320e008a1cfa20ec993b5364066fec) - add `stats/base/ndarray/dmeankbn2` [(#8511)](https://github.com/stdlib-js/stdlib/pull/8511)
+-   [`0980d0d`](https://github.com/stdlib-js/stdlib/commit/0980d0da2fca10c7f1b65da82c09418440309d56) - add `stats/base/ndarray/dmeankbn` [(#8510)](https://github.com/stdlib-js/stdlib/pull/8510)
 -   [`b435961`](https://github.com/stdlib-js/stdlib/commit/b4359613d27e7a601752bb8685ed7eb612341f38) - add `stats/base/ndarray/dminsorted` [(#8506)](https://github.com/stdlib-js/stdlib/pull/8506)
 -   [`d8f70e8`](https://github.com/stdlib-js/stdlib/commit/d8f70e8573ef8f6bd45a0008e3a30440aab45902) - add `stats/base/ndarray/sminsorted` [(#8505)](https://github.com/stdlib-js/stdlib/pull/8505)
 -   [`6d3dd75`](https://github.com/stdlib-js/stdlib/commit/6d3dd75def6baa7cd7816547598bc10107deba36) - add `stats/base/ndarray/dmeanli` [(#8492)](https://github.com/stdlib-js/stdlib/pull/8492)
@@ -3414,6 +3416,9 @@ A total of 556 issues were closed in this release:
 
 <details>
 
+-   [`ca60e8e`](https://github.com/stdlib-js/stdlib/commit/ca60e8e60d6ba7b0548a1ace511f3a67fe42a9c5) - **docs:** update descriptions _(by Athan Reines)_
+-   [`4b15a4b`](https://github.com/stdlib-js/stdlib/commit/4b15a4b7c8320e008a1cfa20ec993b5364066fec) - **feat:** add `stats/base/ndarray/dmeankbn2` [(#8511)](https://github.com/stdlib-js/stdlib/pull/8511) _(by Sachin Pangal)_
+-   [`0980d0d`](https://github.com/stdlib-js/stdlib/commit/0980d0da2fca10c7f1b65da82c09418440309d56) - **feat:** add `stats/base/ndarray/dmeankbn` [(#8510)](https://github.com/stdlib-js/stdlib/pull/8510) _(by Sachin Pangal)_
 -   [`b435961`](https://github.com/stdlib-js/stdlib/commit/b4359613d27e7a601752bb8685ed7eb612341f38) - **feat:** add `stats/base/ndarray/dminsorted` [(#8506)](https://github.com/stdlib-js/stdlib/pull/8506) _(by Pratik)_
 -   [`d8f70e8`](https://github.com/stdlib-js/stdlib/commit/d8f70e8573ef8f6bd45a0008e3a30440aab45902) - **feat:** add `stats/base/ndarray/sminsorted` [(#8505)](https://github.com/stdlib-js/stdlib/pull/8505) _(by Pratik)_
 -   [`6d3dd75`](https://github.com/stdlib-js/stdlib/commit/6d3dd75def6baa7cd7816547598bc10107deba36) - **feat:** add `stats/base/ndarray/dmeanli` [(#8492)](https://github.com/stdlib-js/stdlib/pull/8492) _(by Sachin Pangal, Athan Reines)_
