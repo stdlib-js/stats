@@ -3418,6 +3418,8 @@ A total of 556 issues were closed in this release:
 
 <details>
 
+-   [`ff50310`](https://github.com/stdlib-js/stdlib/commit/ff5031015827c1783e8b7b62713361ca6c7bc655) - **chore:** fix lint errors _(by Philipp Burckhardt)_
+-   [`e4d5f21`](https://github.com/stdlib-js/stdlib/commit/e4d5f21b9a7111bb6255874d2f7a2d5a0c08e59e) - **docs:** fix lint errors in TS declaration files _(by Philipp Burckhardt)_
 -   [`1cb42a1`](https://github.com/stdlib-js/stdlib/commit/1cb42a1905d6fc02127d02b5c8bc2777b2969dd1) - **feat:** add `stats/base/ndarray/range-by` [(#8497)](https://github.com/stdlib-js/stdlib/pull/8497) _(by Pratik, Athan Reines)_
 -   [`1298a25`](https://github.com/stdlib-js/stdlib/commit/1298a25393537fda6d60cc412a4b912e16ea90b5) - **feat:** add `stats/base/ndarray/dmeanlipw` [(#8512)](https://github.com/stdlib-js/stdlib/pull/8512) _(by Sachin Pangal, Athan Reines)_
 -   [`ca60e8e`](https://github.com/stdlib-js/stdlib/commit/ca60e8e60d6ba7b0548a1ace511f3a67fe42a9c5) - **docs:** update descriptions _(by Athan Reines)_
