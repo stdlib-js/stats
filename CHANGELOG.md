@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1cb42a1`](https://github.com/stdlib-js/stdlib/commit/1cb42a1905d6fc02127d02b5c8bc2777b2969dd1) - add `stats/base/ndarray/range-by` [(#8497)](https://github.com/stdlib-js/stdlib/pull/8497)
 -   [`1298a25`](https://github.com/stdlib-js/stdlib/commit/1298a25393537fda6d60cc412a4b912e16ea90b5) - add `stats/base/ndarray/dmeanlipw` [(#8512)](https://github.com/stdlib-js/stdlib/pull/8512)
 -   [`4b15a4b`](https://github.com/stdlib-js/stdlib/commit/4b15a4b7c8320e008a1cfa20ec993b5364066fec) - add `stats/base/ndarray/dmeankbn2` [(#8511)](https://github.com/stdlib-js/stdlib/pull/8511)
 -   [`0980d0d`](https://github.com/stdlib-js/stdlib/commit/0980d0da2fca10c7f1b65da82c09418440309d56) - add `stats/base/ndarray/dmeankbn` [(#8510)](https://github.com/stdlib-js/stdlib/pull/8510)
@@ -3417,6 +3418,7 @@ A total of 556 issues were closed in this release:
 
 <details>
 
+-   [`1cb42a1`](https://github.com/stdlib-js/stdlib/commit/1cb42a1905d6fc02127d02b5c8bc2777b2969dd1) - **feat:** add `stats/base/ndarray/range-by` [(#8497)](https://github.com/stdlib-js/stdlib/pull/8497) _(by Pratik, Athan Reines)_
 -   [`1298a25`](https://github.com/stdlib-js/stdlib/commit/1298a25393537fda6d60cc412a4b912e16ea90b5) - **feat:** add `stats/base/ndarray/dmeanlipw` [(#8512)](https://github.com/stdlib-js/stdlib/pull/8512) _(by Sachin Pangal, Athan Reines)_
 -   [`ca60e8e`](https://github.com/stdlib-js/stdlib/commit/ca60e8e60d6ba7b0548a1ace511f3a67fe42a9c5) - **docs:** update descriptions _(by Athan Reines)_
 -   [`4b15a4b`](https://github.com/stdlib-js/stdlib/commit/4b15a4b7c8320e008a1cfa20ec993b5364066fec) - **feat:** add `stats/base/ndarray/dmeankbn2` [(#8511)](https://github.com/stdlib-js/stdlib/pull/8511) _(by Sachin Pangal)_
