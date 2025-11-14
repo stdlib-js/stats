@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-13)
+## Unreleased (2025-11-14)
 
 <section class="features">
 
 ### Features
 
+-   [`30acccc`](https://github.com/stdlib-js/stdlib/commit/30acccc684354e23758ed5c0b636634ba1466eec) - add `stats/base/ndarray/snanminabs` [(#8527)](https://github.com/stdlib-js/stdlib/pull/8527)
 -   [`81b01b7`](https://github.com/stdlib-js/stdlib/commit/81b01b7419abfa6f64c7652029dfaea86bfae704) - add `stats/base/ndarray/smaxabssorted` [(#8507)](https://github.com/stdlib-js/stdlib/pull/8507)
 -   [`1cb42a1`](https://github.com/stdlib-js/stdlib/commit/1cb42a1905d6fc02127d02b5c8bc2777b2969dd1) - add `stats/base/ndarray/range-by` [(#8497)](https://github.com/stdlib-js/stdlib/pull/8497)
 -   [`1298a25`](https://github.com/stdlib-js/stdlib/commit/1298a25393537fda6d60cc412a4b912e16ea90b5) - add `stats/base/ndarray/dmeanlipw` [(#8512)](https://github.com/stdlib-js/stdlib/pull/8512)
@@ -3419,6 +3420,7 @@ A total of 556 issues were closed in this release:
 
 <details>
 
+-   [`30acccc`](https://github.com/stdlib-js/stdlib/commit/30acccc684354e23758ed5c0b636634ba1466eec) - **feat:** add `stats/base/ndarray/snanminabs` [(#8527)](https://github.com/stdlib-js/stdlib/pull/8527) _(by Pratik, Athan Reines)_
 -   [`81b01b7`](https://github.com/stdlib-js/stdlib/commit/81b01b7419abfa6f64c7652029dfaea86bfae704) - **feat:** add `stats/base/ndarray/smaxabssorted` [(#8507)](https://github.com/stdlib-js/stdlib/pull/8507) _(by Pratik, Athan Reines)_
 -   [`ff50310`](https://github.com/stdlib-js/stdlib/commit/ff5031015827c1783e8b7b62713361ca6c7bc655) - **chore:** fix lint errors _(by Philipp Burckhardt)_
 -   [`e4d5f21`](https://github.com/stdlib-js/stdlib/commit/e4d5f21b9a7111bb6255874d2f7a2d5a0c08e59e) - **docs:** fix lint errors in TS declaration files _(by Philipp Burckhardt)_
