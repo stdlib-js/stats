@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4d992ff`](https://github.com/stdlib-js/stdlib/commit/4d992ff0239e8f4214a1104590f7569699a2fffe) - add `stats/base/ndarray/nanmaxabs` [(#8552)](https://github.com/stdlib-js/stdlib/pull/8552)
 -   [`90af5e7`](https://github.com/stdlib-js/stdlib/commit/90af5e7c4ff521f45440d1f9f333dcca9c5776fa) - add `stats/incr/nanmcv` [(#8447)](https://github.com/stdlib-js/stdlib/pull/8447)
 -   [`6356de9`](https://github.com/stdlib-js/stdlib/commit/6356de936d073c304d6473dc4e847055be961e1c) - add `stats/base/ndarray/dnanmaxabs` [(#8532)](https://github.com/stdlib-js/stdlib/pull/8532)
 -   [`8b1786c`](https://github.com/stdlib-js/stdlib/commit/8b1786ccbfd45bb8bfa87c749e0664381fcbefca) - add `stats/base/ndarray/dnanminabs` [(#8539)](https://github.com/stdlib-js/stdlib/pull/8539)
@@ -3424,6 +3425,10 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`4d992ff`](https://github.com/stdlib-js/stdlib/commit/4d992ff0239e8f4214a1104590f7569699a2fffe) - **feat:** add `stats/base/ndarray/nanmaxabs` [(#8552)](https://github.com/stdlib-js/stdlib/pull/8552) _(by Pratik)_
+-   [`97218a1`](https://github.com/stdlib-js/stdlib/commit/97218a12e1d5ec1479a5b39ac4d32318c372e922) - **docs:** fix TSDoc example code return annotations _(by Philipp Burckhardt)_
+-   [`445837e`](https://github.com/stdlib-js/stdlib/commit/445837e40421e2fae48eaa8e02c55723d3323722) - **docs:** fix TSDoc example annotations and remove unwanted parenthesis _(by Philipp Burckhardt)_
+-   [`47e33c0`](https://github.com/stdlib-js/stdlib/commit/47e33c04e7efe09005ef537d36b2ab545d16cc86) - **chore:** fix malformed HTML `alt` attributes in README files _(by Philipp Burckhardt)_
 -   [`90af5e7`](https://github.com/stdlib-js/stdlib/commit/90af5e7c4ff521f45440d1f9f333dcca9c5776fa) - **feat:** add `stats/incr/nanmcv` [(#8447)](https://github.com/stdlib-js/stdlib/pull/8447) _(by Sagar Ratna Chaudhary, Athan Reines)_
 -   [`6356de9`](https://github.com/stdlib-js/stdlib/commit/6356de936d073c304d6473dc4e847055be961e1c) - **feat:** add `stats/base/ndarray/dnanmaxabs` [(#8532)](https://github.com/stdlib-js/stdlib/pull/8532) _(by Pratik)_
 -   [`8b1786c`](https://github.com/stdlib-js/stdlib/commit/8b1786ccbfd45bb8bfa87c749e0664381fcbefca) - **feat:** add `stats/base/ndarray/dnanminabs` [(#8539)](https://github.com/stdlib-js/stdlib/pull/8539) _(by Pratik)_
