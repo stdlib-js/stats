@@ -3425,6 +3425,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`2d0a331`](https://github.com/stdlib-js/stdlib/commit/2d0a3316f8ad189b82373212b72b49510ebf5663) - **docs:** fix type _(by Athan Reines)_
 -   [`4d992ff`](https://github.com/stdlib-js/stdlib/commit/4d992ff0239e8f4214a1104590f7569699a2fffe) - **feat:** add `stats/base/ndarray/nanmaxabs` [(#8552)](https://github.com/stdlib-js/stdlib/pull/8552) _(by Pratik)_
 -   [`97218a1`](https://github.com/stdlib-js/stdlib/commit/97218a12e1d5ec1479a5b39ac4d32318c372e922) - **docs:** fix TSDoc example code return annotations _(by Philipp Burckhardt)_
 -   [`445837e`](https://github.com/stdlib-js/stdlib/commit/445837e40421e2fae48eaa8e02c55723d3323722) - **docs:** fix TSDoc example annotations and remove unwanted parenthesis _(by Philipp Burckhardt)_
