@@ -3431,6 +3431,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`6267d64`](https://github.com/stdlib-js/stdlib/commit/6267d641e61283531af7ce4eb9fa5f83c145fc4d) - **docs:** fix equations _(by Athan Reines)_
 -   [`cf4140d`](https://github.com/stdlib-js/stdlib/commit/cf4140d45ad394171a01c08307a51c70aa25ece0) - **feat:** add `stats/strided/wasm/dmeanpw`  [(#7100)](https://github.com/stdlib-js/stdlib/pull/7100) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`0d71e53`](https://github.com/stdlib-js/stdlib/commit/0d71e530c42bc8d7c98ad779e505fc01bd904a1f) - **fix:** ensure correct `this` context when creating a new Module instance _(by Athan Reines)_
 -   [`edfd675`](https://github.com/stdlib-js/stdlib/commit/edfd6756143f80e262fbc2c09c28db938fa65a29) - **fix:** ensure correct `this` context when creating a new Module instance _(by Athan Reines)_
