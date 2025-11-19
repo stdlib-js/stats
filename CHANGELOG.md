@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-18)
+## Unreleased (2025-11-19)
 
 <section class="features">
 
@@ -1139,6 +1139,9 @@
 
 ### Bug Fixes
 
+-   [`edfd675`](https://github.com/stdlib-js/stdlib/commit/edfd6756143f80e262fbc2c09c28db938fa65a29) - ensure correct `this` context when creating a new Module instance
+-   [`de1d0f7`](https://github.com/stdlib-js/stdlib/commit/de1d0f71bf4ae0cb747dc48b479e551f069bd58a) - ensure correct `this` context when creating a new Module instance
+-   [`982ac2d`](https://github.com/stdlib-js/stdlib/commit/982ac2d5c21bccdeffa39b4807b13b20ecba5cb9) - ensure correct `this` context when creating a new Module instance
 -   [`090adaa`](https://github.com/stdlib-js/stdlib/commit/090adaa48a67d8e8df75ea0d01b92340c261f4e2) - ensure output dtype can only be real-valued floating-point or generic
 -   [`dbfb45d`](https://github.com/stdlib-js/stdlib/commit/dbfb45db7d075160f3c6873f31268ab6877bb8c9) - correct calculation for x variance
 -   [`d529cbd`](https://github.com/stdlib-js/stdlib/commit/d529cbd7745c4ba69415d450f1e2f597b212e9fc) - simplify and fix branching logic and use assertion utility
@@ -3426,6 +3429,9 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`edfd675`](https://github.com/stdlib-js/stdlib/commit/edfd6756143f80e262fbc2c09c28db938fa65a29) - **fix:** ensure correct `this` context when creating a new Module instance _(by Athan Reines)_
+-   [`de1d0f7`](https://github.com/stdlib-js/stdlib/commit/de1d0f71bf4ae0cb747dc48b479e551f069bd58a) - **fix:** ensure correct `this` context when creating a new Module instance _(by Athan Reines)_
+-   [`982ac2d`](https://github.com/stdlib-js/stdlib/commit/982ac2d5c21bccdeffa39b4807b13b20ecba5cb9) - **fix:** ensure correct `this` context when creating a new Module instance _(by Athan Reines)_
 -   [`4aa1c69`](https://github.com/stdlib-js/stdlib/commit/4aa1c6981b81a4e40457460543e07924e87c8540) - **feat:** add `stats/base/ndarray/nanminabs` [(#8553)](https://github.com/stdlib-js/stdlib/pull/8553) _(by Pratik, Athan Reines)_
 -   [`2d0a331`](https://github.com/stdlib-js/stdlib/commit/2d0a3316f8ad189b82373212b72b49510ebf5663) - **docs:** fix type _(by Athan Reines)_
 -   [`4d992ff`](https://github.com/stdlib-js/stdlib/commit/4d992ff0239e8f4214a1104590f7569699a2fffe) - **feat:** add `stats/base/ndarray/nanmaxabs` [(#8552)](https://github.com/stdlib-js/stdlib/pull/8552) _(by Pratik)_
