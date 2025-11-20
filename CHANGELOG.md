@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-19)
+## Unreleased (2025-11-20)
 
 <section class="features">
 
 ### Features
 
+-   [`eef2019`](https://github.com/stdlib-js/stdlib/commit/eef2019ecdec2d9220c0e2c8b67b8f92c86f9c76) - add `stats/base/ndarray/scuminabs` [(#8558)](https://github.com/stdlib-js/stdlib/pull/8558)
 -   [`cf4140d`](https://github.com/stdlib-js/stdlib/commit/cf4140d45ad394171a01c08307a51c70aa25ece0) - add `stats/strided/wasm/dmeanpw`  [(#7100)](https://github.com/stdlib-js/stdlib/pull/7100)
 -   [`4aa1c69`](https://github.com/stdlib-js/stdlib/commit/4aa1c6981b81a4e40457460543e07924e87c8540) - add `stats/base/ndarray/nanminabs` [(#8553)](https://github.com/stdlib-js/stdlib/pull/8553)
 -   [`4d992ff`](https://github.com/stdlib-js/stdlib/commit/4d992ff0239e8f4214a1104590f7569699a2fffe) - add `stats/base/ndarray/nanmaxabs` [(#8552)](https://github.com/stdlib-js/stdlib/pull/8552)
@@ -3431,6 +3432,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`eef2019`](https://github.com/stdlib-js/stdlib/commit/eef2019ecdec2d9220c0e2c8b67b8f92c86f9c76) - **feat:** add `stats/base/ndarray/scuminabs` [(#8558)](https://github.com/stdlib-js/stdlib/pull/8558) _(by Pratik)_
 -   [`6267d64`](https://github.com/stdlib-js/stdlib/commit/6267d641e61283531af7ce4eb9fa5f83c145fc4d) - **docs:** fix equations _(by Athan Reines)_
 -   [`cf4140d`](https://github.com/stdlib-js/stdlib/commit/cf4140d45ad394171a01c08307a51c70aa25ece0) - **feat:** add `stats/strided/wasm/dmeanpw`  [(#7100)](https://github.com/stdlib-js/stdlib/pull/7100) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`0d71e53`](https://github.com/stdlib-js/stdlib/commit/0d71e530c42bc8d7c98ad779e505fc01bd904a1f) - **fix:** ensure correct `this` context when creating a new Module instance _(by Athan Reines)_
