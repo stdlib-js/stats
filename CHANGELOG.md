@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-20)
+## Unreleased (2025-11-21)
 
 <section class="features">
 
@@ -3433,6 +3433,12 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`8635752`](https://github.com/stdlib-js/stdlib/commit/86357522033571bdb71ca96fff64c12f8fedb3c0) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
+-   [`98b7643`](https://github.com/stdlib-js/stdlib/commit/98b76435c701c8430f868b641edde4987f12cc4d) - **docs:** rename class to match public symbol _(by Philipp Burckhardt)_
+-   [`80b5969`](https://github.com/stdlib-js/stdlib/commit/80b5969a77342302214b80d19ffb325f042c92d2) - **docs:** fix copy & paste error _(by Philipp Burckhardt)_
+-   [`9b13062`](https://github.com/stdlib-js/stdlib/commit/9b130625f0f19866a877023e9be85204636ef01e) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
+-   [`2cabe18`](https://github.com/stdlib-js/stdlib/commit/2cabe1887e6a502a306b70580fb5d038da0917f3) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
+-   [`e02e358`](https://github.com/stdlib-js/stdlib/commit/e02e358c5541ba0c4e5962dd15acb685b099b60c) - **docs:** fix example code in TSDoc comments _(by Philipp Burckhardt)_
 -   [`df65fec`](https://github.com/stdlib-js/stdlib/commit/df65fec83e7fa9c253f13bcf3e6f8ccf2d9ab45b) - **feat:** add `stats/base/ndarray/scumaxabs` [(#8557)](https://github.com/stdlib-js/stdlib/pull/8557) _(by Pratik)_
 -   [`eef2019`](https://github.com/stdlib-js/stdlib/commit/eef2019ecdec2d9220c0e2c8b67b8f92c86f9c76) - **feat:** add `stats/base/ndarray/scuminabs` [(#8558)](https://github.com/stdlib-js/stdlib/pull/8558) _(by Pratik)_
 -   [`6267d64`](https://github.com/stdlib-js/stdlib/commit/6267d641e61283531af7ce4eb9fa5f83c145fc4d) - **docs:** fix equations _(by Athan Reines)_
