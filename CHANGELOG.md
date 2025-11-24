@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-21)
+## Unreleased (2025-11-24)
 
 <section class="features">
 
 ### Features
 
+-   [`ffd12f6`](https://github.com/stdlib-js/stdlib/commit/ffd12f673f9ce1081f9153a97232b50aaa7ddb5e) - add `stats/base/ndarray/dcuminabs` [(#8572)](https://github.com/stdlib-js/stdlib/pull/8572)
 -   [`df65fec`](https://github.com/stdlib-js/stdlib/commit/df65fec83e7fa9c253f13bcf3e6f8ccf2d9ab45b) - add `stats/base/ndarray/scumaxabs` [(#8557)](https://github.com/stdlib-js/stdlib/pull/8557)
 -   [`eef2019`](https://github.com/stdlib-js/stdlib/commit/eef2019ecdec2d9220c0e2c8b67b8f92c86f9c76) - add `stats/base/ndarray/scuminabs` [(#8558)](https://github.com/stdlib-js/stdlib/pull/8558)
 -   [`cf4140d`](https://github.com/stdlib-js/stdlib/commit/cf4140d45ad394171a01c08307a51c70aa25ece0) - add `stats/strided/wasm/dmeanpw`  [(#7100)](https://github.com/stdlib-js/stdlib/pull/7100)
@@ -3433,6 +3434,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`ffd12f6`](https://github.com/stdlib-js/stdlib/commit/ffd12f673f9ce1081f9153a97232b50aaa7ddb5e) - **feat:** add `stats/base/ndarray/dcuminabs` [(#8572)](https://github.com/stdlib-js/stdlib/pull/8572) _(by Pratik, Athan Reines)_
 -   [`8635752`](https://github.com/stdlib-js/stdlib/commit/86357522033571bdb71ca96fff64c12f8fedb3c0) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
 -   [`98b7643`](https://github.com/stdlib-js/stdlib/commit/98b76435c701c8430f868b641edde4987f12cc4d) - **docs:** rename class to match public symbol _(by Philipp Burckhardt)_
 -   [`80b5969`](https://github.com/stdlib-js/stdlib/commit/80b5969a77342302214b80d19ffb325f042c92d2) - **docs:** fix copy & paste error _(by Philipp Burckhardt)_
