@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f4b6e80`](https://github.com/stdlib-js/stdlib/commit/f4b6e8054eaaf24d85169d0286192068435dfd03) - add `stats/base/ndarray/nanmeanpn` [(#8587)](https://github.com/stdlib-js/stdlib/pull/8587)
 -   [`e98f22a`](https://github.com/stdlib-js/stdlib/commit/e98f22a6564e5b3e4d0e3787870d5df7f9968238) - add `stats/base/ndarray/dcumaxabs` [(#8571)](https://github.com/stdlib-js/stdlib/pull/8571)
 -   [`ffd12f6`](https://github.com/stdlib-js/stdlib/commit/ffd12f673f9ce1081f9153a97232b50aaa7ddb5e) - add `stats/base/ndarray/dcuminabs` [(#8572)](https://github.com/stdlib-js/stdlib/pull/8572)
 -   [`df65fec`](https://github.com/stdlib-js/stdlib/commit/df65fec83e7fa9c253f13bcf3e6f8ccf2d9ab45b) - add `stats/base/ndarray/scumaxabs` [(#8557)](https://github.com/stdlib-js/stdlib/pull/8557)
@@ -3435,6 +3436,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`f4b6e80`](https://github.com/stdlib-js/stdlib/commit/f4b6e8054eaaf24d85169d0286192068435dfd03) - **feat:** add `stats/base/ndarray/nanmeanpn` [(#8587)](https://github.com/stdlib-js/stdlib/pull/8587) _(by Pratik, Athan Reines)_
 -   [`e98f22a`](https://github.com/stdlib-js/stdlib/commit/e98f22a6564e5b3e4d0e3787870d5df7f9968238) - **feat:** add `stats/base/ndarray/dcumaxabs` [(#8571)](https://github.com/stdlib-js/stdlib/pull/8571) _(by Pratik, Athan Reines)_
 -   [`ffd12f6`](https://github.com/stdlib-js/stdlib/commit/ffd12f673f9ce1081f9153a97232b50aaa7ddb5e) - **feat:** add `stats/base/ndarray/dcuminabs` [(#8572)](https://github.com/stdlib-js/stdlib/pull/8572) _(by Pratik, Athan Reines)_
 -   [`8635752`](https://github.com/stdlib-js/stdlib/commit/86357522033571bdb71ca96fff64c12f8fedb3c0) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
