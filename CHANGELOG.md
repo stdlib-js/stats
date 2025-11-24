@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e98f22a`](https://github.com/stdlib-js/stdlib/commit/e98f22a6564e5b3e4d0e3787870d5df7f9968238) - add `stats/base/ndarray/dcumaxabs` [(#8571)](https://github.com/stdlib-js/stdlib/pull/8571)
 -   [`ffd12f6`](https://github.com/stdlib-js/stdlib/commit/ffd12f673f9ce1081f9153a97232b50aaa7ddb5e) - add `stats/base/ndarray/dcuminabs` [(#8572)](https://github.com/stdlib-js/stdlib/pull/8572)
 -   [`df65fec`](https://github.com/stdlib-js/stdlib/commit/df65fec83e7fa9c253f13bcf3e6f8ccf2d9ab45b) - add `stats/base/ndarray/scumaxabs` [(#8557)](https://github.com/stdlib-js/stdlib/pull/8557)
 -   [`eef2019`](https://github.com/stdlib-js/stdlib/commit/eef2019ecdec2d9220c0e2c8b67b8f92c86f9c76) - add `stats/base/ndarray/scuminabs` [(#8558)](https://github.com/stdlib-js/stdlib/pull/8558)
@@ -3434,6 +3435,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`e98f22a`](https://github.com/stdlib-js/stdlib/commit/e98f22a6564e5b3e4d0e3787870d5df7f9968238) - **feat:** add `stats/base/ndarray/dcumaxabs` [(#8571)](https://github.com/stdlib-js/stdlib/pull/8571) _(by Pratik, Athan Reines)_
 -   [`ffd12f6`](https://github.com/stdlib-js/stdlib/commit/ffd12f673f9ce1081f9153a97232b50aaa7ddb5e) - **feat:** add `stats/base/ndarray/dcuminabs` [(#8572)](https://github.com/stdlib-js/stdlib/pull/8572) _(by Pratik, Athan Reines)_
 -   [`8635752`](https://github.com/stdlib-js/stdlib/commit/86357522033571bdb71ca96fff64c12f8fedb3c0) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
 -   [`98b7643`](https://github.com/stdlib-js/stdlib/commit/98b76435c701c8430f868b641edde4987f12cc4d) - **docs:** rename class to match public symbol _(by Philipp Burckhardt)_
