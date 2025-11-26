@@ -1,4 +1,4 @@
-/*
+/**
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,37 +16,30 @@
 * limitations under the License.
 */
 
-// TypeScript Version: 4.1
+'use strict';
 
 /**
-* Returns the skewness of a Planck distribution.
+* Compute the arithmetic mean of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values and using pairwise summation.
 *
-* ## Notes
-*
-* -   If `lambda <= 0`, the function returns `NaN`.
-*
-* @param lambda - shape parameter
-* @returns skewness
+* @module @stdlib/stats/base/ndarray/dnanmeanpw
 *
 * @example
-* var v = skewness( 0.1 );
-* // returns ~2.0025
+* var Float64Array = require( '@stdlib/array/float64' );
+* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+* var dnanmeanpw = require( '@stdlib/stats/base/ndarray/dnanmeanpw' );
 *
-* @example
-* var v = skewness( 0.5 );
-* // returns ~2.063
+* var xbuf = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
 *
-* @example
-* var v = skewness( -1.1 );
-* // returns NaN
-*
-* @example
-* var v = skewness( NaN );
-* // returns NaN
+* var v = dnanmeanpw( [ x ] );
+* // returns ~0.3333
 */
-declare function skewness( lambda: number ): number;
+
+// MODULES //
+
+var main = require( './main.js' );
 
 
 // EXPORTS //
 
-export = skewness;
+module.exports = main;

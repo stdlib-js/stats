@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-24)
+## Unreleased (2025-11-26)
 
 <section class="features">
 
 ### Features
 
+-   [`b88b80b`](https://github.com/stdlib-js/stdlib/commit/b88b80b9a5bccbae2103892364199189fb710862) - add `stats/base/ndarray/dnanmeanpw` [(#8601)](https://github.com/stdlib-js/stdlib/pull/8601)
 -   [`e0b955f`](https://github.com/stdlib-js/stdlib/commit/e0b955fee88aa05a72bf1f6568fa217c497debbc) - add `stats/base/ndarray/dnanmeanpn` [(#8585)](https://github.com/stdlib-js/stdlib/pull/8585)
 -   [`f4b6e80`](https://github.com/stdlib-js/stdlib/commit/f4b6e8054eaaf24d85169d0286192068435dfd03) - add `stats/base/ndarray/nanmeanpn` [(#8587)](https://github.com/stdlib-js/stdlib/pull/8587)
 -   [`e98f22a`](https://github.com/stdlib-js/stdlib/commit/e98f22a6564e5b3e4d0e3787870d5df7f9968238) - add `stats/base/ndarray/dcumaxabs` [(#8571)](https://github.com/stdlib-js/stdlib/pull/8571)
@@ -3437,6 +3438,9 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`b88b80b`](https://github.com/stdlib-js/stdlib/commit/b88b80b9a5bccbae2103892364199189fb710862) - **feat:** add `stats/base/ndarray/dnanmeanpw` [(#8601)](https://github.com/stdlib-js/stdlib/pull/8601) _(by Sachin Pangal, Athan Reines)_
+-   [`7f55434`](https://github.com/stdlib-js/stdlib/commit/7f554349e50fc601e7ab4206ba1da0eceae93518) - **docs:** fix TSDoc comments example code and return annotation values _(by Philipp Burckhardt)_
+-   [`47088cc`](https://github.com/stdlib-js/stdlib/commit/47088cc299d84289a904dd2e7d2cdf0aee9057aa) - **docs:** fix TSDoc comments example code and return annotation values _(by Philipp Burckhardt)_
 -   [`e0b955f`](https://github.com/stdlib-js/stdlib/commit/e0b955fee88aa05a72bf1f6568fa217c497debbc) - **feat:** add `stats/base/ndarray/dnanmeanpn` [(#8585)](https://github.com/stdlib-js/stdlib/pull/8585) _(by Sachin Pangal, Athan Reines)_
 -   [`f4b6e80`](https://github.com/stdlib-js/stdlib/commit/f4b6e8054eaaf24d85169d0286192068435dfd03) - **feat:** add `stats/base/ndarray/nanmeanpn` [(#8587)](https://github.com/stdlib-js/stdlib/pull/8587) _(by Pratik, Athan Reines)_
 -   [`e98f22a`](https://github.com/stdlib-js/stdlib/commit/e98f22a6564e5b3e4d0e3787870d5df7f9968238) - **feat:** add `stats/base/ndarray/dcumaxabs` [(#8571)](https://github.com/stdlib-js/stdlib/pull/8571) _(by Pratik, Athan Reines)_
