@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`bb296a7`](https://github.com/stdlib-js/stdlib/commit/bb296a7e788371a2c43d83224fa0130252983b35) - add `stats/base/ndarray/dmaxabssorted` [(#8598)](https://github.com/stdlib-js/stdlib/pull/8598)
 -   [`8971430`](https://github.com/stdlib-js/stdlib/commit/8971430984b03832b996f0a2267c72211bb75ad8) - add `stats/base/ndarray/dmeanpn` [(#8592)](https://github.com/stdlib-js/stdlib/pull/8592)
 -   [`655e43c`](https://github.com/stdlib-js/stdlib/commit/655e43cf2669d11f8b128764636f96bd2e0fb0e4) - add `stats/base/ndarray/dmeanpw` [(#8594)](https://github.com/stdlib-js/stdlib/pull/8594)
 -   [`7c622b2`](https://github.com/stdlib-js/stdlib/commit/7c622b2e73b9d8a7c0e63b7720a701f517e83725) - add `stats/base/ndarray/nanmeanwd` [(#8596)](https://github.com/stdlib-js/stdlib/pull/8596)
@@ -3442,6 +3443,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`bb296a7`](https://github.com/stdlib-js/stdlib/commit/bb296a7e788371a2c43d83224fa0130252983b35) - **feat:** add `stats/base/ndarray/dmaxabssorted` [(#8598)](https://github.com/stdlib-js/stdlib/pull/8598) _(by Kaustubh Patange, Athan Reines)_
 -   [`8971430`](https://github.com/stdlib-js/stdlib/commit/8971430984b03832b996f0a2267c72211bb75ad8) - **feat:** add `stats/base/ndarray/dmeanpn` [(#8592)](https://github.com/stdlib-js/stdlib/pull/8592) _(by Pratik, Athan Reines)_
 -   [`655e43c`](https://github.com/stdlib-js/stdlib/commit/655e43cf2669d11f8b128764636f96bd2e0fb0e4) - **feat:** add `stats/base/ndarray/dmeanpw` [(#8594)](https://github.com/stdlib-js/stdlib/pull/8594) _(by Pratik, Athan Reines)_
 -   [`7c622b2`](https://github.com/stdlib-js/stdlib/commit/7c622b2e73b9d8a7c0e63b7720a701f517e83725) - **feat:** add `stats/base/ndarray/nanmeanwd` [(#8596)](https://github.com/stdlib-js/stdlib/pull/8596) _(by Pratik, Athan Reines)_
@@ -6223,7 +6225,7 @@ A total of 557 issues were closed in this release:
 
 ### Contributors
 
-A total of 86 people contributed to this release. Thank you to the following contributors:
+A total of 87 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -6272,6 +6274,7 @@ A total of 86 people contributed to this release. Thank you to the following con
 -   Jay Soni
 -   Jaysukh Makvana
 -   Karan Anand
+-   Kaustubh Patange
 -   Kohantika Nath
 -   Lalit Narayan Yadav
 -   Lokesh Ranjan
