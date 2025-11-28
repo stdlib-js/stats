@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`459b0f7`](https://github.com/stdlib-js/stdlib/commit/459b0f711341adaa7c869cc8e45e5e33ac8314ee) - add `stats/base/ndarray/dnanmeanwd` [(#8618)](https://github.com/stdlib-js/stdlib/pull/8618)
 -   [`1dc60b6`](https://github.com/stdlib-js/stdlib/commit/1dc60b62f19dcd8090832116bf438c70fc3a945d) - add `stats/base/ndarray/smeanwd` [(#8616)](https://github.com/stdlib-js/stdlib/pull/8616)
 -   [`05b6217`](https://github.com/stdlib-js/stdlib/commit/05b62170dcc3effc007c28d9c4a13043313c9fa7) - add `stats/base/ndarray/smeanpw` [(#8615)](https://github.com/stdlib-js/stdlib/pull/8615)
 -   [`41fad97`](https://github.com/stdlib-js/stdlib/commit/41fad973ae4a609a982fc1208eb82f5c6b1a2c04) - add `stats/base/ndarray/smeanpn` [(#8613)](https://github.com/stdlib-js/stdlib/pull/8613)
@@ -3449,6 +3450,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`459b0f7`](https://github.com/stdlib-js/stdlib/commit/459b0f711341adaa7c869cc8e45e5e33ac8314ee) - **feat:** add `stats/base/ndarray/dnanmeanwd` [(#8618)](https://github.com/stdlib-js/stdlib/pull/8618) _(by Sachin Pangal, Athan Reines)_
 -   [`1dc60b6`](https://github.com/stdlib-js/stdlib/commit/1dc60b62f19dcd8090832116bf438c70fc3a945d) - **feat:** add `stats/base/ndarray/smeanwd` [(#8616)](https://github.com/stdlib-js/stdlib/pull/8616) _(by Pratik, Athan Reines)_
 -   [`05b6217`](https://github.com/stdlib-js/stdlib/commit/05b62170dcc3effc007c28d9c4a13043313c9fa7) - **feat:** add `stats/base/ndarray/smeanpw` [(#8615)](https://github.com/stdlib-js/stdlib/pull/8615) _(by Pratik, Athan Reines)_
 -   [`41fad97`](https://github.com/stdlib-js/stdlib/commit/41fad973ae4a609a982fc1208eb82f5c6b1a2c04) - **feat:** add `stats/base/ndarray/smeanpn` [(#8613)](https://github.com/stdlib-js/stdlib/pull/8613) _(by Pratik, Athan Reines)_
