@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`59bea21`](https://github.com/stdlib-js/stdlib/commit/59bea210b0588dcd33452b65d93f9acf58bd4725) - add `stats/base/ndarray/dmediansorted` [(#8637)](https://github.com/stdlib-js/stdlib/pull/8637)
 -   [`c0a0085`](https://github.com/stdlib-js/stdlib/commit/c0a00852f2e240715917b79ed0b9443f908ac653) - add `stats/base/ndarray/sdsmean` [(#8636)](https://github.com/stdlib-js/stdlib/pull/8636)
 -   [`9fac978`](https://github.com/stdlib-js/stdlib/commit/9fac9780267610cfe2e7f462cb8808539c36c811) - add `stats/base/ndarray/dmeanwd` [(#8628)](https://github.com/stdlib-js/stdlib/pull/8628)
 -   [`5c67e6d`](https://github.com/stdlib-js/stdlib/commit/5c67e6d69d9b7ef4cc4a4d1ae64da2c93205e401) - add `stats/base/ndarray/dmeanors` [(#8631)](https://github.com/stdlib-js/stdlib/pull/8631)
@@ -3477,6 +3478,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`59bea21`](https://github.com/stdlib-js/stdlib/commit/59bea210b0588dcd33452b65d93f9acf58bd4725) - **feat:** add `stats/base/ndarray/dmediansorted` [(#8637)](https://github.com/stdlib-js/stdlib/pull/8637) _(by Divyanshu, Athan Reines)_
 -   [`c0a0085`](https://github.com/stdlib-js/stdlib/commit/c0a00852f2e240715917b79ed0b9443f908ac653) - **feat:** add `stats/base/ndarray/sdsmean` [(#8636)](https://github.com/stdlib-js/stdlib/pull/8636) _(by Kaustubh Patange)_
 -   [`9fac978`](https://github.com/stdlib-js/stdlib/commit/9fac9780267610cfe2e7f462cb8808539c36c811) - **feat:** add `stats/base/ndarray/dmeanwd` [(#8628)](https://github.com/stdlib-js/stdlib/pull/8628) _(by Pratik)_
 -   [`5c67e6d`](https://github.com/stdlib-js/stdlib/commit/5c67e6d69d9b7ef4cc4a4d1ae64da2c93205e401) - **feat:** add `stats/base/ndarray/dmeanors` [(#8631)](https://github.com/stdlib-js/stdlib/pull/8631) _(by Pratik)_
@@ -6296,7 +6298,7 @@ A total of 557 issues were closed in this release:
 
 ### Contributors
 
-A total of 87 people contributed to this release. Thank you to the following contributors:
+A total of 88 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -6324,6 +6326,7 @@ A total of 87 people contributed to this release. Thank you to the following con
 -   Dhruvil Mehta
 -   Dipjyoti Das
 -   Divyansh Seth
+-   Divyanshu
 -   Ekampreet Singh Bains
 -   Fadio
 -   Gaurav Jadhav
