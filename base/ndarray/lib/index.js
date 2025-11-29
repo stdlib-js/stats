@@ -505,6 +505,15 @@ setReadOnly( ns, 'mskmax', require( './../../../base/ndarray/mskmax' ) );
 setReadOnly( ns, 'mskmin', require( './../../../base/ndarray/mskmin' ) );
 
 /**
+* @name mskrange
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/mskrange}
+*/
+setReadOnly( ns, 'mskrange', require( './../../../base/ndarray/mskrange' ) );
+
+/**
 * @name nanmax
 * @memberof ns
 * @readonly
