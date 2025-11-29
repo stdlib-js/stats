@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c0b3cef`](https://github.com/stdlib-js/stdlib/commit/c0b3cef48f22a420738a91fae2be1e327409ff8e) - add `stats/base/ndarray/smediansorted` [(#8635)](https://github.com/stdlib-js/stdlib/pull/8635)
 -   [`59bea21`](https://github.com/stdlib-js/stdlib/commit/59bea210b0588dcd33452b65d93f9acf58bd4725) - add `stats/base/ndarray/dmediansorted` [(#8637)](https://github.com/stdlib-js/stdlib/pull/8637)
 -   [`c0a0085`](https://github.com/stdlib-js/stdlib/commit/c0a00852f2e240715917b79ed0b9443f908ac653) - add `stats/base/ndarray/sdsmean` [(#8636)](https://github.com/stdlib-js/stdlib/pull/8636)
 -   [`9fac978`](https://github.com/stdlib-js/stdlib/commit/9fac9780267610cfe2e7f462cb8808539c36c811) - add `stats/base/ndarray/dmeanwd` [(#8628)](https://github.com/stdlib-js/stdlib/pull/8628)
@@ -3478,6 +3479,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`c0b3cef`](https://github.com/stdlib-js/stdlib/commit/c0b3cef48f22a420738a91fae2be1e327409ff8e) - **feat:** add `stats/base/ndarray/smediansorted` [(#8635)](https://github.com/stdlib-js/stdlib/pull/8635) _(by Divyanshu, Athan Reines)_
 -   [`59bea21`](https://github.com/stdlib-js/stdlib/commit/59bea210b0588dcd33452b65d93f9acf58bd4725) - **feat:** add `stats/base/ndarray/dmediansorted` [(#8637)](https://github.com/stdlib-js/stdlib/pull/8637) _(by Divyanshu, Athan Reines)_
 -   [`c0a0085`](https://github.com/stdlib-js/stdlib/commit/c0a00852f2e240715917b79ed0b9443f908ac653) - **feat:** add `stats/base/ndarray/sdsmean` [(#8636)](https://github.com/stdlib-js/stdlib/pull/8636) _(by Kaustubh Patange)_
 -   [`9fac978`](https://github.com/stdlib-js/stdlib/commit/9fac9780267610cfe2e7f462cb8808539c36c811) - **feat:** add `stats/base/ndarray/dmeanwd` [(#8628)](https://github.com/stdlib-js/stdlib/pull/8628) _(by Pratik)_
