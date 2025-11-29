@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-28)
+## Unreleased (2025-11-29)
 
 <section class="features">
 
 ### Features
 
+-   [`b75b097`](https://github.com/stdlib-js/stdlib/commit/b75b097cd53455457d3c001eb18693090ae9ccd0) - add `stats/base/ndarray/smeanli` [(#8620)](https://github.com/stdlib-js/stdlib/pull/8620)
 -   [`82bee78`](https://github.com/stdlib-js/stdlib/commit/82bee789129b35b845a525aeac5b37f79d8f45e5) - add `stats/base/ndarray/dnanmeanors` [(#8619)](https://github.com/stdlib-js/stdlib/pull/8619)
 -   [`459b0f7`](https://github.com/stdlib-js/stdlib/commit/459b0f711341adaa7c869cc8e45e5e33ac8314ee) - add `stats/base/ndarray/dnanmeanwd` [(#8618)](https://github.com/stdlib-js/stdlib/pull/8618)
 -   [`1dc60b6`](https://github.com/stdlib-js/stdlib/commit/1dc60b62f19dcd8090832116bf438c70fc3a945d) - add `stats/base/ndarray/smeanwd` [(#8616)](https://github.com/stdlib-js/stdlib/pull/8616)
@@ -3451,6 +3452,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`b75b097`](https://github.com/stdlib-js/stdlib/commit/b75b097cd53455457d3c001eb18693090ae9ccd0) - **feat:** add `stats/base/ndarray/smeanli` [(#8620)](https://github.com/stdlib-js/stdlib/pull/8620) _(by Kaustubh Patange, Athan Reines)_
 -   [`82bee78`](https://github.com/stdlib-js/stdlib/commit/82bee789129b35b845a525aeac5b37f79d8f45e5) - **feat:** add `stats/base/ndarray/dnanmeanors` [(#8619)](https://github.com/stdlib-js/stdlib/pull/8619) _(by Sachin Pangal, Athan Reines)_
 -   [`459b0f7`](https://github.com/stdlib-js/stdlib/commit/459b0f711341adaa7c869cc8e45e5e33ac8314ee) - **feat:** add `stats/base/ndarray/dnanmeanwd` [(#8618)](https://github.com/stdlib-js/stdlib/pull/8618) _(by Sachin Pangal, Athan Reines)_
 -   [`1dc60b6`](https://github.com/stdlib-js/stdlib/commit/1dc60b62f19dcd8090832116bf438c70fc3a945d) - **feat:** add `stats/base/ndarray/smeanwd` [(#8616)](https://github.com/stdlib-js/stdlib/pull/8616) _(by Pratik, Athan Reines)_
