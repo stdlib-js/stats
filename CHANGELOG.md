@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5c67e6d`](https://github.com/stdlib-js/stdlib/commit/5c67e6d69d9b7ef4cc4a4d1ae64da2c93205e401) - add `stats/base/ndarray/dmeanors` [(#8631)](https://github.com/stdlib-js/stdlib/pull/8631)
 -   [`4fcb8ea`](https://github.com/stdlib-js/stdlib/commit/4fcb8eac686415fdd15e3d277ae91ec69434d100) - add `stats/base/ndarray/nanmeanors` [(#8632)](https://github.com/stdlib-js/stdlib/pull/8632)
 -   [`4337bf2`](https://github.com/stdlib-js/stdlib/commit/4337bf2a4e5781e2305da08b93ed5fba821a696a) - add `stats/base/ndarray/smeanors` [(#8633)](https://github.com/stdlib-js/stdlib/pull/8633)
 -   [`2dd2d7e`](https://github.com/stdlib-js/stdlib/commit/2dd2d7ec8378f425d10122608707ca7591250641) - add `mskrange` to namespace
@@ -3474,6 +3475,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`5c67e6d`](https://github.com/stdlib-js/stdlib/commit/5c67e6d69d9b7ef4cc4a4d1ae64da2c93205e401) - **feat:** add `stats/base/ndarray/dmeanors` [(#8631)](https://github.com/stdlib-js/stdlib/pull/8631) _(by Pratik)_
 -   [`4fcb8ea`](https://github.com/stdlib-js/stdlib/commit/4fcb8eac686415fdd15e3d277ae91ec69434d100) - **feat:** add `stats/base/ndarray/nanmeanors` [(#8632)](https://github.com/stdlib-js/stdlib/pull/8632) _(by Pratik)_
 -   [`4337bf2`](https://github.com/stdlib-js/stdlib/commit/4337bf2a4e5781e2305da08b93ed5fba821a696a) - **feat:** add `stats/base/ndarray/smeanors` [(#8633)](https://github.com/stdlib-js/stdlib/pull/8633) _(by Pratik)_
 -   [`2dd2d7e`](https://github.com/stdlib-js/stdlib/commit/2dd2d7ec8378f425d10122608707ca7591250641) - **feat:** add `mskrange` to namespace _(by Athan Reines)_
