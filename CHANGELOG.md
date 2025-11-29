@@ -10,6 +10,22 @@
 
 ### Features
 
+-   [`84b30fb`](https://github.com/stdlib-js/stdlib/commit/84b30fb2c4455b9cdc27d8010487631a4568c0cf) - add `snanmeanors`, `snanmeanpn`, `snanmeanwd` to namespace
+-   [`320a026`](https://github.com/stdlib-js/stdlib/commit/320a026ee97a919f752a4d205a80d705b0e8c07b) - add `sminsorted`, `snanmaxabs`, `snanminabs` to namespace
+-   [`11c3a12`](https://github.com/stdlib-js/stdlib/commit/11c3a1236bbf511c76ba421960f468e8bac696ad) - add `smeankbn`, `smeankbn2`, `smeanli`, `smeanlipw`, `smeanpn`, `smeanpw`, `smeanwd` to namespace
+-   [`e468858`](https://github.com/stdlib-js/stdlib/commit/e468858b1859b2e9cbc0a0f96fffef738e6a89f8) - add `scuminabs`, `scumaxabs`, `smaxabssorted` to namespace
+-   [`5b56ba7`](https://github.com/stdlib-js/stdlib/commit/5b56ba71d603dad5fa09bd99aa2f59699201ae70) - add `rangeBy` to namespace
+-   [`88495bc`](https://github.com/stdlib-js/stdlib/commit/88495bcae6e4b09787590f3cd985e6f0381f53d5) - add `nanminabs`, `nanmaxabs`, `nanmeanpn`, `nanmeanwd` to namespace
+-   [`c5012fa`](https://github.com/stdlib-js/stdlib/commit/c5012fa7fd7ca982ea9960dc617d3ae436ebf9df) - add `mskmax` and `mskmin` to namespace
+-   [`34d55d6`](https://github.com/stdlib-js/stdlib/commit/34d55d6692d3022502cd8c4d9fbba8efc68209cf) - add `mediansorted` and `minsorted` to namespace
+-   [`5363fe4`](https://github.com/stdlib-js/stdlib/commit/5363fe4d290ca751ae9cb58eb93e6e9a3a15e20d) - add `meankbn`, `meankbn2`, `meanpn`, `meanpw`, `meanwd` to namespace
+-   [`349fefb`](https://github.com/stdlib-js/stdlib/commit/349fefbf5aeeb43ed6357e5ac5b9175c735e71ac) - add `dnanminabs` to namespace
+-   [`08b4ee9`](https://github.com/stdlib-js/stdlib/commit/08b4ee9c801d7533473d01d52d50461db31e48c7) - add `dnanmeanors`, `dnanmeanpn`, `dnanmeanpw`, `dnanmeanwd` to namespace
+-   [`1bfaf23`](https://github.com/stdlib-js/stdlib/commit/1bfaf2323cc7b7d30cb9ffc996f918bb7b5affd6) - add `dnanmaxabs` to namespace
+-   [`970863c`](https://github.com/stdlib-js/stdlib/commit/970863cfb9eef498adc1d3577a9f3e534956c7ca) - add `dminsorted` to namespace
+-   [`36866c4`](https://github.com/stdlib-js/stdlib/commit/36866c461001fd1ec1c75899f20fae31ba951678) - add `dmeanli`, `dmeanlipw`, `dmeanpn`, `dmeanpw` to namespace
+-   [`ac413aa`](https://github.com/stdlib-js/stdlib/commit/ac413aa3c8d9fe761a5d03ded714a21e80bdde30) - add `dcuminabs`, `dmaxabssorted`, `dmeankbn`, and `dmeankbn2` to namespace
+-   [`7d69142`](https://github.com/stdlib-js/stdlib/commit/7d69142c230dff766aee030770852103688f7649) - add `dcumaxabs` to namespace
 -   [`70277f2`](https://github.com/stdlib-js/stdlib/commit/70277f2d5538f8137b6df77c9ea1a36cb3b064aa) - add `stats/base/ndarray/smeankbn2` [(#8617)](https://github.com/stdlib-js/stdlib/pull/8617)
 -   [`48f7f88`](https://github.com/stdlib-js/stdlib/commit/48f7f8864a2f3cdf06c5c8d163d0bf61fba101a7) - add `stats/base/ndarray/smeanlipw` [(#8621)](https://github.com/stdlib-js/stdlib/pull/8621)
 -   [`b75b097`](https://github.com/stdlib-js/stdlib/commit/b75b097cd53455457d3c001eb18693090ae9ccd0) - add `stats/base/ndarray/smeanli` [(#8620)](https://github.com/stdlib-js/stdlib/pull/8620)
@@ -3454,6 +3470,23 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`84b30fb`](https://github.com/stdlib-js/stdlib/commit/84b30fb2c4455b9cdc27d8010487631a4568c0cf) - **feat:** add `snanmeanors`, `snanmeanpn`, `snanmeanwd` to namespace _(by Athan Reines)_
+-   [`320a026`](https://github.com/stdlib-js/stdlib/commit/320a026ee97a919f752a4d205a80d705b0e8c07b) - **feat:** add `sminsorted`, `snanmaxabs`, `snanminabs` to namespace _(by Athan Reines)_
+-   [`11c3a12`](https://github.com/stdlib-js/stdlib/commit/11c3a1236bbf511c76ba421960f468e8bac696ad) - **feat:** add `smeankbn`, `smeankbn2`, `smeanli`, `smeanlipw`, `smeanpn`, `smeanpw`, `smeanwd` to namespace _(by Athan Reines)_
+-   [`e468858`](https://github.com/stdlib-js/stdlib/commit/e468858b1859b2e9cbc0a0f96fffef738e6a89f8) - **feat:** add `scuminabs`, `scumaxabs`, `smaxabssorted` to namespace _(by Athan Reines)_
+-   [`5b56ba7`](https://github.com/stdlib-js/stdlib/commit/5b56ba71d603dad5fa09bd99aa2f59699201ae70) - **feat:** add `rangeBy` to namespace _(by Athan Reines)_
+-   [`88495bc`](https://github.com/stdlib-js/stdlib/commit/88495bcae6e4b09787590f3cd985e6f0381f53d5) - **feat:** add `nanminabs`, `nanmaxabs`, `nanmeanpn`, `nanmeanwd` to namespace _(by Athan Reines)_
+-   [`c5012fa`](https://github.com/stdlib-js/stdlib/commit/c5012fa7fd7ca982ea9960dc617d3ae436ebf9df) - **feat:** add `mskmax` and `mskmin` to namespace _(by Athan Reines)_
+-   [`34d55d6`](https://github.com/stdlib-js/stdlib/commit/34d55d6692d3022502cd8c4d9fbba8efc68209cf) - **feat:** add `mediansorted` and `minsorted` to namespace _(by Athan Reines)_
+-   [`5363fe4`](https://github.com/stdlib-js/stdlib/commit/5363fe4d290ca751ae9cb58eb93e6e9a3a15e20d) - **feat:** add `meankbn`, `meankbn2`, `meanpn`, `meanpw`, `meanwd` to namespace _(by Athan Reines)_
+-   [`349fefb`](https://github.com/stdlib-js/stdlib/commit/349fefbf5aeeb43ed6357e5ac5b9175c735e71ac) - **feat:** add `dnanminabs` to namespace _(by Athan Reines)_
+-   [`08b4ee9`](https://github.com/stdlib-js/stdlib/commit/08b4ee9c801d7533473d01d52d50461db31e48c7) - **feat:** add `dnanmeanors`, `dnanmeanpn`, `dnanmeanpw`, `dnanmeanwd` to namespace _(by Athan Reines)_
+-   [`1bfaf23`](https://github.com/stdlib-js/stdlib/commit/1bfaf2323cc7b7d30cb9ffc996f918bb7b5affd6) - **feat:** add `dnanmaxabs` to namespace _(by Athan Reines)_
+-   [`970863c`](https://github.com/stdlib-js/stdlib/commit/970863cfb9eef498adc1d3577a9f3e534956c7ca) - **feat:** add `dminsorted` to namespace _(by Athan Reines)_
+-   [`36866c4`](https://github.com/stdlib-js/stdlib/commit/36866c461001fd1ec1c75899f20fae31ba951678) - **feat:** add `dmeanli`, `dmeanlipw`, `dmeanpn`, `dmeanpw` to namespace _(by Athan Reines)_
+-   [`ac413aa`](https://github.com/stdlib-js/stdlib/commit/ac413aa3c8d9fe761a5d03ded714a21e80bdde30) - **feat:** add `dcuminabs`, `dmaxabssorted`, `dmeankbn`, and `dmeankbn2` to namespace _(by Athan Reines)_
+-   [`7d69142`](https://github.com/stdlib-js/stdlib/commit/7d69142c230dff766aee030770852103688f7649) - **feat:** add `dcumaxabs` to namespace _(by Athan Reines)_
+-   [`0d2bde9`](https://github.com/stdlib-js/stdlib/commit/0d2bde9c340755e6ebdf3b1495c9e4cf47b56a03) - **docs:** add missing references and notes _(by Athan Reines)_
 -   [`347914d`](https://github.com/stdlib-js/stdlib/commit/347914dc5de466218b40f73e5302d8439f7ba20f) - **test:** update descriptions _(by Athan Reines)_
 -   [`70277f2`](https://github.com/stdlib-js/stdlib/commit/70277f2d5538f8137b6df77c9ea1a36cb3b064aa) - **feat:** add `stats/base/ndarray/smeankbn2` [(#8617)](https://github.com/stdlib-js/stdlib/pull/8617) _(by Kaustubh Patange, Athan Reines)_
 -   [`48f7f88`](https://github.com/stdlib-js/stdlib/commit/48f7f8864a2f3cdf06c5c8d163d0bf61fba101a7) - **feat:** add `stats/base/ndarray/smeanlipw` [(#8621)](https://github.com/stdlib-js/stdlib/pull/8621) _(by Kaustubh Patange, Athan Reines)_

@@ -63,7 +63,7 @@ The function has the following parameters:
 ## Notes
 
 -   If provided an empty one-dimensional ndarray, the function returns `NaN`.
--   The input ndarray must be sorted in either ascending or descending order.
+-   The one-dimensional input ndarray must be sorted in either **strictly** ascending or descending order.
 
 </section>
 

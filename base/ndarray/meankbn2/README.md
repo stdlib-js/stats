@@ -109,6 +109,18 @@ console.log( v );
 
 <!-- /.examples -->
 
+* * *
+
+<section class="references">
+
+## References
+
+-   Klein, Andreas. 2005. "A Generalized Kahan-Babuška-Summation-Algorithm." _Computing_ 76 (3): 279–93. doi:[10.1007/s00607-005-0139-x][@klein:2005a].
+
+</section>
+
+<!-- /.references -->
+
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
@@ -122,6 +134,8 @@ console.log( v );
 <section class="links">
 
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
+
+[@klein:2005a]: https://doi.org/10.1007/s00607-005-0139-x
 
 </section>
 
