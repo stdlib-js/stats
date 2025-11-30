@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`10ab0d9`](https://github.com/stdlib-js/stdlib/commit/10ab0d97e9b0ac1fe4a27bdc64fa8646df4dff88) - add `stats/base/ndarray/nanrange` [(#8642)](https://github.com/stdlib-js/stdlib/pull/8642)
 -   [`c0b3cef`](https://github.com/stdlib-js/stdlib/commit/c0b3cef48f22a420738a91fae2be1e327409ff8e) - add `stats/base/ndarray/smediansorted` [(#8635)](https://github.com/stdlib-js/stdlib/pull/8635)
 -   [`59bea21`](https://github.com/stdlib-js/stdlib/commit/59bea210b0588dcd33452b65d93f9acf58bd4725) - add `stats/base/ndarray/dmediansorted` [(#8637)](https://github.com/stdlib-js/stdlib/pull/8637)
 -   [`c0a0085`](https://github.com/stdlib-js/stdlib/commit/c0a00852f2e240715917b79ed0b9443f908ac653) - add `stats/base/ndarray/sdsmean` [(#8636)](https://github.com/stdlib-js/stdlib/pull/8636)
@@ -3479,6 +3480,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`10ab0d9`](https://github.com/stdlib-js/stdlib/commit/10ab0d97e9b0ac1fe4a27bdc64fa8646df4dff88) - **feat:** add `stats/base/ndarray/nanrange` [(#8642)](https://github.com/stdlib-js/stdlib/pull/8642) _(by Pratik)_
 -   [`be4ce52`](https://github.com/stdlib-js/stdlib/commit/be4ce524621e636ab04b9940df550dff7dc93aa5) - **docs:** update examples to use explicit dtype _(by Athan Reines)_
 -   [`7d92c02`](https://github.com/stdlib-js/stdlib/commit/7d92c02e873280404a69091107eec08afc1cbb74) - **docs:** fix typos and missing require in mediansorted packages _(by Philipp Burckhardt)_
 -   [`fd40621`](https://github.com/stdlib-js/stdlib/commit/fd40621d93fac33ff8a483754f3aa2c8c929f1b9) - **docs:** fix typos and inconsistencies in ndarray stats READMEs _(by Philipp Burckhardt)_
