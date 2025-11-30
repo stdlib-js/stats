@@ -3479,6 +3479,8 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`7d92c02`](https://github.com/stdlib-js/stdlib/commit/7d92c02e873280404a69091107eec08afc1cbb74) - **docs:** fix typos and missing require in mediansorted packages _(by Philipp Burckhardt)_
+-   [`fd40621`](https://github.com/stdlib-js/stdlib/commit/fd40621d93fac33ff8a483754f3aa2c8c929f1b9) - **docs:** fix typos and inconsistencies in ndarray stats READMEs _(by Philipp Burckhardt)_
 -   [`e63bbbd`](https://github.com/stdlib-js/stdlib/commit/e63bbbd535150fb694d287d97adbb5d606bd42fe) - **docs:** update namespace table of contents [(#8639)](https://github.com/stdlib-js/stdlib/pull/8639) _(by stdlib-bot)_
 -   [`c0b3cef`](https://github.com/stdlib-js/stdlib/commit/c0b3cef48f22a420738a91fae2be1e327409ff8e) - **feat:** add `stats/base/ndarray/smediansorted` [(#8635)](https://github.com/stdlib-js/stdlib/pull/8635) _(by Divyanshu, Athan Reines)_
 -   [`59bea21`](https://github.com/stdlib-js/stdlib/commit/59bea210b0588dcd33452b65d93f9acf58bd4725) - **feat:** add `stats/base/ndarray/dmediansorted` [(#8637)](https://github.com/stdlib-js/stdlib/pull/8637) _(by Divyanshu, Athan Reines)_

@@ -76,7 +76,7 @@ The function has the following parameters:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var linspace = require( '@stdlib/array/base/linspace' );
+var linspace = require( '@stdlib/array/linspace' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
 var minsorted = require( '@stdlib/stats/base/ndarray/minsorted' );
