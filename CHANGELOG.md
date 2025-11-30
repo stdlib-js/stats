@@ -3479,6 +3479,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`be4ce52`](https://github.com/stdlib-js/stdlib/commit/be4ce524621e636ab04b9940df550dff7dc93aa5) - **docs:** update examples to use explicit dtype _(by Athan Reines)_
 -   [`7d92c02`](https://github.com/stdlib-js/stdlib/commit/7d92c02e873280404a69091107eec08afc1cbb74) - **docs:** fix typos and missing require in mediansorted packages _(by Philipp Burckhardt)_
 -   [`fd40621`](https://github.com/stdlib-js/stdlib/commit/fd40621d93fac33ff8a483754f3aa2c8c929f1b9) - **docs:** fix typos and inconsistencies in ndarray stats READMEs _(by Philipp Burckhardt)_
 -   [`e63bbbd`](https://github.com/stdlib-js/stdlib/commit/e63bbbd535150fb694d287d97adbb5d606bd42fe) - **docs:** update namespace table of contents [(#8639)](https://github.com/stdlib-js/stdlib/pull/8639) _(by stdlib-bot)_

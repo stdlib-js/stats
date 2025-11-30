@@ -82,7 +82,9 @@ var ndarray2array = require( '@stdlib/ndarray/to-array' );
 var minsorted = require( '@stdlib/stats/base/ndarray/minsorted' );
 
 // Create a sorted data buffer:
-var xbuf = linspace( -5.0, 5.0, 10 );
+var xbuf = linspace( -5.0, 5.0, 10, {
+    'dtype': 'generic'
+});
 
 // Wrap in an ndarray:
 var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
