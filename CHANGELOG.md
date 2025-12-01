@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-30)
+## Unreleased (2025-12-01)
 
 <section class="features">
 
@@ -3480,6 +3480,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`b55b024`](https://github.com/stdlib-js/stdlib/commit/b55b0244c489e33a24298fe28fbb8ae7be0846ad) - **docs:** update namespace table of contents [(#8672)](https://github.com/stdlib-js/stdlib/pull/8672) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`10ab0d9`](https://github.com/stdlib-js/stdlib/commit/10ab0d97e9b0ac1fe4a27bdc64fa8646df4dff88) - **feat:** add `stats/base/ndarray/nanrange` [(#8642)](https://github.com/stdlib-js/stdlib/pull/8642) _(by Pratik)_
 -   [`be4ce52`](https://github.com/stdlib-js/stdlib/commit/be4ce524621e636ab04b9940df550dff7dc93aa5) - **docs:** update examples to use explicit dtype _(by Athan Reines)_
 -   [`7d92c02`](https://github.com/stdlib-js/stdlib/commit/7d92c02e873280404a69091107eec08afc1cbb74) - **docs:** fix typos and missing require in mediansorted packages _(by Philipp Burckhardt)_
