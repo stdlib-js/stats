@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5d41e02`](https://github.com/stdlib-js/stdlib/commit/5d41e023e8d77303cc9af4502db85e03672a0091) - update `stats/base/ndarray` TypeScript declarations
 -   [`6881387`](https://github.com/stdlib-js/stdlib/commit/6881387c6df3a209630a64c069849ee4a59ff777) - add `stats/base/ndarray/sdsmeanors` [(#8667)](https://github.com/stdlib-js/stdlib/pull/8667)
 -   [`40d11d8`](https://github.com/stdlib-js/stdlib/commit/40d11d898cc5861fb1c08111a406c4fe600cd789) - add `stats/base/ndarray/sdsnanmeanors` [(#8685)](https://github.com/stdlib-js/stdlib/pull/8685)
 -   [`08d4eb9`](https://github.com/stdlib-js/stdlib/commit/08d4eb92863f937d1a0383b8b548cd556c2eed40) - add `stats/base/ndarray/smidrange` [(#8708)](https://github.com/stdlib-js/stdlib/pull/8708)
@@ -3488,6 +3489,8 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`5d41e02`](https://github.com/stdlib-js/stdlib/commit/5d41e023e8d77303cc9af4502db85e03672a0091) - **feat:** update `stats/base/ndarray` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`88fe77a`](https://github.com/stdlib-js/stdlib/commit/88fe77a2f059149b803f51d1a787894c7670798b) - **docs:** fix example code in namespace TypeScript declarations _(by Philipp Burckhardt)_
 -   [`6881387`](https://github.com/stdlib-js/stdlib/commit/6881387c6df3a209630a64c069849ee4a59ff777) - **feat:** add `stats/base/ndarray/sdsmeanors` [(#8667)](https://github.com/stdlib-js/stdlib/pull/8667) _(by Kaustubh Patange, Athan Reines)_
 -   [`40d11d8`](https://github.com/stdlib-js/stdlib/commit/40d11d898cc5861fb1c08111a406c4fe600cd789) - **feat:** add `stats/base/ndarray/sdsnanmeanors` [(#8685)](https://github.com/stdlib-js/stdlib/pull/8685) _(by Sachin Pangal, Athan Reines)_
 -   [`08d4eb9`](https://github.com/stdlib-js/stdlib/commit/08d4eb92863f937d1a0383b8b548cd556c2eed40) - **feat:** add `stats/base/ndarray/smidrange` [(#8708)](https://github.com/stdlib-js/stdlib/pull/8708) _(by Divyanshu, Athan Reines)_

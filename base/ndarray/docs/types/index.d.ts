@@ -25,16 +25,32 @@ import cumax = require( './../../../../base/ndarray/cumax' );
 import cumin = require( './../../../../base/ndarray/cumin' );
 import dcovarmtk = require( './../../../../base/ndarray/dcovarmtk' );
 import dcumax = require( './../../../../base/ndarray/dcumax' );
+import dcumaxabs = require( './../../../../base/ndarray/dcumaxabs' );
 import dcumin = require( './../../../../base/ndarray/dcumin' );
+import dcuminabs = require( './../../../../base/ndarray/dcuminabs' );
 import dmax = require( './../../../../base/ndarray/dmax' );
 import dmaxabs = require( './../../../../base/ndarray/dmaxabs' );
+import dmaxabssorted = require( './../../../../base/ndarray/dmaxabssorted' );
 import dmaxsorted = require( './../../../../base/ndarray/dmaxsorted' );
 import dmean = require( './../../../../base/ndarray/dmean' );
+import dmeankbn = require( './../../../../base/ndarray/dmeankbn' );
+import dmeankbn2 = require( './../../../../base/ndarray/dmeankbn2' );
+import dmeanli = require( './../../../../base/ndarray/dmeanli' );
+import dmeanlipw = require( './../../../../base/ndarray/dmeanlipw' );
+import dmeanpn = require( './../../../../base/ndarray/dmeanpn' );
+import dmeanpw = require( './../../../../base/ndarray/dmeanpw' );
 import dmin = require( './../../../../base/ndarray/dmin' );
 import dminabs = require( './../../../../base/ndarray/dminabs' );
+import dminsorted = require( './../../../../base/ndarray/dminsorted' );
 import dnanmax = require( './../../../../base/ndarray/dnanmax' );
+import dnanmaxabs = require( './../../../../base/ndarray/dnanmaxabs' );
 import dnanmean = require( './../../../../base/ndarray/dnanmean' );
+import dnanmeanors = require( './../../../../base/ndarray/dnanmeanors' );
+import dnanmeanpn = require( './../../../../base/ndarray/dnanmeanpn' );
+import dnanmeanpw = require( './../../../../base/ndarray/dnanmeanpw' );
+import dnanmeanwd = require( './../../../../base/ndarray/dnanmeanwd' );
 import dnanmin = require( './../../../../base/ndarray/dnanmin' );
+import dnanminabs = require( './../../../../base/ndarray/dnanminabs' );
 import drange = require( './../../../../base/ndarray/drange' );
 import dztest = require( './../../../../base/ndarray/dztest' );
 import dztest2 = require( './../../../../base/ndarray/dztest2' );
@@ -43,25 +59,57 @@ import maxBy = require( './../../../../base/ndarray/max-by' );
 import maxabs = require( './../../../../base/ndarray/maxabs' );
 import maxsorted = require( './../../../../base/ndarray/maxsorted' );
 import mean = require( './../../../../base/ndarray/mean' );
+import meankbn = require( './../../../../base/ndarray/meankbn' );
+import meankbn2 = require( './../../../../base/ndarray/meankbn2' );
+import meanors = require( './../../../../base/ndarray/meanors' );
+import meanpn = require( './../../../../base/ndarray/meanpn' );
+import meanpw = require( './../../../../base/ndarray/meanpw' );
+import meanwd = require( './../../../../base/ndarray/meanwd' );
+import mediansorted = require( './../../../../base/ndarray/mediansorted' );
 import min = require( './../../../../base/ndarray/min' );
 import minBy = require( './../../../../base/ndarray/min-by' );
 import minabs = require( './../../../../base/ndarray/minabs' );
+import minsorted = require( './../../../../base/ndarray/minsorted' );
+import mskmax = require( './../../../../base/ndarray/mskmax' );
+import mskmin = require( './../../../../base/ndarray/mskmin' );
+import mskrange = require( './../../../../base/ndarray/mskrange' );
 import nanmax = require( './../../../../base/ndarray/nanmax' );
+import nanmaxabs = require( './../../../../base/ndarray/nanmaxabs' );
 import nanmean = require( './../../../../base/ndarray/nanmean' );
+import nanmeanpn = require( './../../../../base/ndarray/nanmeanpn' );
+import nanmeanwd = require( './../../../../base/ndarray/nanmeanwd' );
 import nanmin = require( './../../../../base/ndarray/nanmin' );
+import nanminabs = require( './../../../../base/ndarray/nanminabs' );
 import range = require( './../../../../base/ndarray/range' );
+import rangeBy = require( './../../../../base/ndarray/range-by' );
 import scovarmtk = require( './../../../../base/ndarray/scovarmtk' );
 import scumax = require( './../../../../base/ndarray/scumax' );
+import scumaxabs = require( './../../../../base/ndarray/scumaxabs' );
 import scumin = require( './../../../../base/ndarray/scumin' );
+import scuminabs = require( './../../../../base/ndarray/scuminabs' );
 import smax = require( './../../../../base/ndarray/smax' );
 import smaxabs = require( './../../../../base/ndarray/smaxabs' );
+import smaxabssorted = require( './../../../../base/ndarray/smaxabssorted' );
 import smaxsorted = require( './../../../../base/ndarray/smaxsorted' );
 import smean = require( './../../../../base/ndarray/smean' );
+import smeankbn = require( './../../../../base/ndarray/smeankbn' );
+import smeankbn2 = require( './../../../../base/ndarray/smeankbn2' );
+import smeanli = require( './../../../../base/ndarray/smeanli' );
+import smeanlipw = require( './../../../../base/ndarray/smeanlipw' );
+import smeanpn = require( './../../../../base/ndarray/smeanpn' );
+import smeanpw = require( './../../../../base/ndarray/smeanpw' );
+import smeanwd = require( './../../../../base/ndarray/smeanwd' );
 import smin = require( './../../../../base/ndarray/smin' );
 import sminabs = require( './../../../../base/ndarray/sminabs' );
+import sminsorted = require( './../../../../base/ndarray/sminsorted' );
 import snanmax = require( './../../../../base/ndarray/snanmax' );
+import snanmaxabs = require( './../../../../base/ndarray/snanmaxabs' );
 import snanmean = require( './../../../../base/ndarray/snanmean' );
+import snanmeanors = require( './../../../../base/ndarray/snanmeanors' );
+import snanmeanpn = require( './../../../../base/ndarray/snanmeanpn' );
+import snanmeanwd = require( './../../../../base/ndarray/snanmeanwd' );
 import snanmin = require( './../../../../base/ndarray/snanmin' );
+import snanminabs = require( './../../../../base/ndarray/snanminabs' );
 import srange = require( './../../../../base/ndarray/srange' );
 import sztest = require( './../../../../base/ndarray/sztest' );
 import sztest2 = require( './../../../../base/ndarray/sztest2' );
@@ -234,6 +282,34 @@ interface Namespace {
 	dcumax: typeof dcumax;
 
 	/**
+	* Computes the cumulative maximum absolute value of a one-dimensional double-precision floating-point ndarray.
+	*
+	* @param arrays - array-like object containing an input ndarray and an output ndarray
+	* @returns output ndarray
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var ybuf = new Float64Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	* var y = new ndarray( 'float64', ybuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dcumaxabs( [ x, y ] );
+	* // returns <ndarray>
+	*
+	* var bool = ( v === y );
+	* // returns true
+	*
+	* var arr = ndarray2array( v );
+	* // returns [ 1.0, 3.0, 4.0, 4.0 ]
+	*/
+	dcumaxabs: typeof dcumaxabs;
+
+	/**
 	* Computes the cumulative minimum value of a one-dimensional double-precision floating-point ndarray.
 	*
 	* @param arrays - array-like object containing an input ndarray and an output ndarray
@@ -260,6 +336,34 @@ interface Namespace {
 	* // returns [ 1.0, 1.0, 1.0, 1.0 ]
 	*/
 	dcumin: typeof dcumin;
+
+	/**
+	* Computes the cumulative minimum absolute value of a one-dimensional double-precision floating-point ndarray.
+	*
+	* @param arrays - array-like object containing an input ndarray and an output ndarray
+	* @returns output ndarray
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var ybuf = new Float64Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	* var y = new ndarray( 'float64', ybuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dcuminabs( [ x, y ] );
+	* // returns <ndarray>
+	*
+	* var bool = ( v === y );
+	* // returns true
+	*
+	* var arr = ndarray2array( v );
+	* // returns [ 1.0, 1.0, 1.0, 1.0 ]
+	*/
+	dcuminabs: typeof dcuminabs;
 
 	/**
 	* Computes the maximum value of a one-dimensional double-precision floating-point ndarray.
@@ -298,6 +402,24 @@ interface Namespace {
 	dmaxabs: typeof dmaxabs;
 
 	/**
+	* Computes the maximum absolute value of a sorted one-dimensional double-precision floating-point ndarray.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns maximum absolute value
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dmaxabssorted( [ x ] );
+	* // returns 4.0
+	*/
+	dmaxabssorted: typeof dmaxabssorted;
+
+	/**
 	* Computes the maximum value of a sorted one-dimensional double-precision floating-point ndarray.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -332,6 +454,114 @@ interface Namespace {
 	* // returns 2.5
 	*/
 	dmean: typeof dmean;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional double-precision floating-point ndarray using an improved Kahan–Babuška algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dmeankbn( [ x ] );
+	* // returns ~2.5
+	*/
+	dmeankbn: typeof dmeankbn;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional double-precision floating-point ndarray using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dmeankbn2( [ x ] );
+	* // returns ~2.5
+	*/
+	dmeankbn2: typeof dmeankbn2;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional double-precision floating-point ndarray using a one-pass trial mean algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dmeanli( [ x ] );
+	* // returns 2.5
+	*/
+	dmeanli: typeof dmeanli;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional double-precision floating-point ndarray using a one-pass trial mean algorithm with pairwise summation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dmeanlipw( [ x ] );
+	* // returns 2.5
+	*/
+	dmeanlipw: typeof dmeanlipw;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional double-precision floating-point ndarray using a two-pass error correction algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dmeanpn( [ x ] );
+	* // returns 2.5
+	*/
+	dmeanpn: typeof dmeanpn;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional double-precision floating-point ndarray using pairwise summation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dmeanpw( [ x ] );
+	* // returns 2.5
+	*/
+	dmeanpw: typeof dmeanpw;
 
 	/**
 	* Computes the minimum value of a one-dimensional double-precision floating-point ndarray.
@@ -370,6 +600,24 @@ interface Namespace {
 	dminabs: typeof dminabs;
 
 	/**
+	* Computes the minimum value of a sorted one-dimensional double-precision floating-point ndarray.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns minimum value
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dminsorted( [ x ] );
+	* // returns 1.0
+	*/
+	dminsorted: typeof dminsorted;
+
+	/**
 	* Computes the maximum value of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -386,6 +634,24 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	dnanmax: typeof dnanmax;
+
+	/**
+	* Computes the maximum absolute value of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns maximum absolute value
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dnanmaxabs( [ x ] );
+	* // returns 2.0
+	*/
+	dnanmaxabs: typeof dnanmaxabs;
 
 	/**
 	* Computes the arithmetic mean of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values.
@@ -406,6 +672,78 @@ interface Namespace {
 	dnanmean: typeof dnanmean;
 
 	/**
+	* Computes the arithmetic mean of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values and using ordinary recursive summation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dnanmeanors( [ x ] );
+	* // returns ~0.3333
+	*/
+	dnanmeanors: typeof dnanmeanors;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values and using a two-pass error correction algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dnanmeanpn( [ x ] );
+	* // returns ~0.3333
+	*/
+	dnanmeanpn: typeof dnanmeanpn;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values and using pairwise summation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dnanmeanpw( [ x ] );
+	* // returns ~0.3333
+	*/
+	dnanmeanpw: typeof dnanmeanpw;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values and using Welford's algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dnanmeanwd( [ x ] );
+	* // returns ~0.3333
+	*/
+	dnanmeanwd: typeof dnanmeanwd;
+
+	/**
 	* Computes the minimum value of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -422,6 +760,24 @@ interface Namespace {
 	* // returns -2.0
 	*/
 	dnanmin: typeof dnanmin;
+
+	/**
+	* Computes the minimum absolute value of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns minimum absolute value
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dnanminabs( [ x ] );
+	* // returns 1.0
+	*/
+	dnanminabs: typeof dnanminabs;
 
 	/**
 	* Computes the range of a one-dimensional double-precision floating-point ndarray.
@@ -657,6 +1013,125 @@ interface Namespace {
 	mean: typeof mean;
 
 	/**
+	* Computes the arithmetic mean of a one-dimensional ndarray using an improved Kahan–Babuška algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.meankbn( [ x ] );
+	* // returns 2.5
+	*/
+	meankbn: typeof meankbn;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional ndarray using a second-order Kahan–Babuška algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.meankbn2( [ x ] );
+	* // returns 2.5
+	*/
+	meankbn2: typeof meankbn2;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional ndarray using ordinary recursive summation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.meanors( [ x ] );
+	* // returns 2.5
+	*/
+	meanors: typeof meanors;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional ndarray using a two-pass error correction algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.meanpn( [ x ] );
+	* // returns 2.5
+	*/
+	meanpn: typeof meanpn;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional ndarray using pairwise summation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.meanpw( [ x ] );
+	* // returns 2.5
+	*/
+	meanpw: typeof meanpw;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional ndarray using Welford's algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.meanwd( [ x ] );
+	* // returns 2.5
+	*/
+	meanwd: typeof meanwd;
+
+	/**
+	* Computes the median value of a sorted one-dimensional ndarray.
+	*
+	* @param arrays - array-like object containing a sorted input ndarray
+	* @returns median value
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, 2.0, 3.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.mediansorted( [ x ] );
+	* // returns 2.0
+	*/
+	mediansorted: typeof mediansorted;
+
+	/**
 	* Computes the minimum value of a one-dimensional ndarray.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -714,6 +1189,83 @@ interface Namespace {
 	minabs: typeof minabs;
 
 	/**
+	* Computes the minimum value of a sorted one-dimensional ndarray.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray
+	* @returns minimum value
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.minsorted( [ x ] );
+	* // returns 1.0
+	*/
+	minsorted: typeof minsorted;
+
+	/**
+	* Calculates the maximum value of a one-dimensional ndarray according to a mask.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns maximum value
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, -2.0, 4.0, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var mbuf = [ 0, 0, 1, 0 ];
+	* var mask = new ndarray( 'generic', mbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.mskmax( [ x, mask ] );
+	* // returns 2.0
+	*/
+	mskmax: typeof mskmax;
+
+	/**
+	* Computes the minimum value of a one-dimensional ndarray according to a mask.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns minimum value
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, -2.0, 4.0, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var maskbuf = [ 0, 0, 1, 0 ];
+	* var mask = new ndarray( 'generic', maskbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.mskmin( [ x, mask ] );
+	* // returns -2.0
+	*/
+	mskmin: typeof mskmin;
+
+	/**
+	* Calculates the range of a one-dimensional ndarray according to a mask.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns range
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, -2.0, 4.0, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var mbuf = [ 0, 0, 1, 0 ];
+	* var mask = new ndarray( 'generic', mbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.mskrange( [ x, mask ] );
+	* // returns 4.0
+	*/
+	mskrange: typeof mskrange;
+
+	/**
 	* Computes the maximum value of a one-dimensional ndarray, ignoring `NaN` values.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -729,6 +1281,23 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	nanmax: typeof nanmax;
+
+	/**
+	* Computes the maximum absolute value of a one-dimensional ndarray, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns maximum absolute value
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, -2.0, NaN, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.nanmaxabs( [ x ] );
+	* // returns 2.0
+	*/
+	nanmaxabs: typeof nanmaxabs;
 
 	/**
 	* Computes the arithmetic mean of a one-dimensional ndarray, ignoring `NaN` values.
@@ -748,6 +1317,40 @@ interface Namespace {
 	nanmean: typeof nanmean;
 
 	/**
+	* Computes the arithmetic mean of a one-dimensional ndarray, ignoring `NaN` values and using a two-pass error correction algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, 3.0, NaN, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.nanmeanpn( [ x ] );
+	* // returns 2.0
+	*/
+	nanmeanpn: typeof nanmeanpn;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional ndarray, ignoring `NaN` values and using Welford's algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, 3.0, NaN, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.nanmeanwd( [ x ] );
+	* // returns 2.0
+	*/
+	nanmeanwd: typeof nanmeanwd;
+
+	/**
 	* Computes the minimum value of a one-dimensional ndarray, ignoring `NaN` values.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -765,6 +1368,23 @@ interface Namespace {
 	nanmin: typeof nanmin;
 
 	/**
+	* Computes the minimum absolute value of a one-dimensional ndarray, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns minimum absolute value
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, -2.0, NaN, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.nanminabs( [ x ] );
+	* // returns 1.0
+	*/
+	nanminabs: typeof nanminabs;
+
+	/**
 	* Computes the range of a one-dimensional ndarray.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -780,6 +1400,29 @@ interface Namespace {
 	* // returns 3.0
 	*/
 	range: typeof range;
+
+	/**
+	* Computes the range of a one-dimensional ndarray via a callback function.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @param clbk - callback function
+	* @param thisArg - callback execution context
+	* @returns range
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* function clbk( value ) {
+	*     return value * 2.0;
+	* }
+	*
+	* var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.rangeBy( [ x ], clbk );
+	* // returns 6.0
+	*/
+	rangeBy: typeof rangeBy;
 
 	/**
 	* Computes the covariance of two one-dimensional single-precision floating-point ndarrays provided known means and using a one-pass textbook algorithm.
@@ -850,6 +1493,34 @@ interface Namespace {
 	scumax: typeof scumax;
 
 	/**
+	* Computes the cumulative maximum absolute value of a one-dimensional single-precision floating-point ndarray.
+	*
+	* @param arrays - array-like object containing an input ndarray and an output ndarray
+	* @returns output ndarray
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var ybuf = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	* var y = new ndarray( 'float32', ybuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.scumaxabs( [ x, y ] );
+	* // returns <ndarray>
+	*
+	* var bool = ( v === y );
+	* // returns true
+	*
+	* var arr = ndarray2array( v );
+	* // returns [ 1.0, 3.0, 4.0, 4.0 ]
+	*/
+	scumaxabs: typeof scumaxabs;
+
+	/**
 	* Computes the cumulative minimum value of a one-dimensional single-precision floating-point ndarray.
 	*
 	* @param arrays - array-like object containing an input ndarray and an output ndarray
@@ -876,6 +1547,34 @@ interface Namespace {
 	* // returns [ 1.0, 1.0, 1.0, 1.0 ]
 	*/
 	scumin: typeof scumin;
+
+	/**
+	* Computes the cumulative minimum absolute value of a one-dimensional single-precision floating-point ndarray.
+	*
+	* @param arrays - array-like object containing an input ndarray and an output ndarray
+	* @returns output ndarray
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var ybuf = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	* var y = new ndarray( 'float32', ybuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.scuminabs( [ x, y ] );
+	* // returns <ndarray>
+	*
+	* var bool = ( v === y );
+	* // returns true
+	*
+	* var arr = ndarray2array( v );
+	* // returns [ 1.0, 1.0, 1.0, 1.0 ]
+	*/
+	scuminabs: typeof scuminabs;
 
 	/**
 	* Computes the maximum value of a one-dimensional single-precision floating-point ndarray.
@@ -914,6 +1613,24 @@ interface Namespace {
 	smaxabs: typeof smaxabs;
 
 	/**
+	* Computes the maximum absolute value of a sorted one-dimensional single-precision floating-point ndarray.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns maximum absolute value
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ -4.0, -1.0, 2.0, 3.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smaxabssorted( [ x ] );
+	* // returns 4.0
+	*/
+	smaxabssorted: typeof smaxabssorted;
+
+	/**
 	* Computes the maximum value of a sorted one-dimensional single-precision floating-point ndarray.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -948,6 +1665,132 @@ interface Namespace {
 	* // returns 2.5
 	*/
 	smean: typeof smean;
+
+	/**
+	* Calculates the arithmetic mean of a one-dimensional single-precision floating-point ndarray using an improved Kahan–Babuška algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smeankbn( [ x ] );
+	* // returns 2.5
+	*/
+	smeankbn: typeof smeankbn;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smeankbn2( [ x ] );
+	* // returns ~2.5
+	*/
+	smeankbn2: typeof smeankbn2;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray using a one-pass trial mean algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smeanli( [ x ] );
+	* // returns 2.5
+	*/
+	smeanli: typeof smeanli;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray using a one-pass trial mean algorithm with pairwise summation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smeanlipw( [ x ] );
+	* // returns 2.5
+	*/
+	smeanlipw: typeof smeanlipw;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray using a two-pass error correction algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smeanpn( [ x ] );
+	* // returns 2.5
+	*/
+	smeanpn: typeof smeanpn;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray using pairwise summation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smeanpw( [ x ] );
+	* // returns 2.5
+	*/
+	smeanpw: typeof smeanpw;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray using Welford's algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smeanwd( [ x ] );
+	* // returns 2.5
+	*/
+	smeanwd: typeof smeanwd;
 
 	/**
 	* Computes the minimum value of a one-dimensional single-precision floating-point ndarray.
@@ -986,6 +1829,24 @@ interface Namespace {
 	sminabs: typeof sminabs;
 
 	/**
+	* Computes the minimum value of a sorted one-dimensional single-precision floating-point ndarray.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns minimum value
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.sminsorted( [ x ] );
+	* // returns 1.0
+	*/
+	sminsorted: typeof sminsorted;
+
+	/**
 	* Computes the maximum value of a one-dimensional single-precision floating-point ndarray, ignoring `NaN` values.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -1002,6 +1863,24 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	snanmax: typeof snanmax;
+
+	/**
+	* Computes the maximum absolute value of a one-dimensional single-precision floating-point ndarray, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns maximum absolute value
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.snanmaxabs( [ x ] );
+	* // returns 2.0
+	*/
+	snanmaxabs: typeof snanmaxabs;
 
 	/**
 	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray, ignoring `NaN` values.
@@ -1022,6 +1901,60 @@ interface Namespace {
 	snanmean: typeof snanmean;
 
 	/**
+	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray, ignoring `NaN` values and using ordinary recursive summation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.snanmeanors( [ x ] );
+	* // returns 2.0
+	*/
+	snanmeanors: typeof snanmeanors;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray, ignoring `NaN` values and using a two-pass error correction algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.snanmeanpn( [ x ] );
+	* // returns 2.0
+	*/
+	snanmeanpn: typeof snanmeanpn;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray, ignoring `NaN` values and using Welford's algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.snanmeanwd( [ x ] );
+	* // returns 2.0
+	*/
+	snanmeanwd: typeof snanmeanwd;
+
+	/**
 	* Computes the minimum value of a one-dimensional single-precision floating-point ndarray, ignoring `NaN` values.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -1038,6 +1971,24 @@ interface Namespace {
 	* // returns -2.0
 	*/
 	snanmin: typeof snanmin;
+
+	/**
+	* Computes the minimum absolute value of a one-dimensional single-precision floating-point ndarray, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns minimum absolute value
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.snanminabs( [ x ] );
+	* // returns 1.0
+	*/
+	snanminabs: typeof snanminabs;
 
 	/**
 	* Computes the range of a one-dimensional single-precision floating-point ndarray.
