@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-01)
+## Unreleased (2025-12-02)
 
 <section class="features">
 
 ### Features
 
+-   [`49f4894`](https://github.com/stdlib-js/stdlib/commit/49f4894a7b05e173efc2c5f69ed56bbc98e52711) - add `stats/base/ndarray/dmidrange` [(#8626)](https://github.com/stdlib-js/stdlib/pull/8626)
 -   [`10ab0d9`](https://github.com/stdlib-js/stdlib/commit/10ab0d97e9b0ac1fe4a27bdc64fa8646df4dff88) - add `stats/base/ndarray/nanrange` [(#8642)](https://github.com/stdlib-js/stdlib/pull/8642)
 -   [`c0b3cef`](https://github.com/stdlib-js/stdlib/commit/c0b3cef48f22a420738a91fae2be1e327409ff8e) - add `stats/base/ndarray/smediansorted` [(#8635)](https://github.com/stdlib-js/stdlib/pull/8635)
 -   [`59bea21`](https://github.com/stdlib-js/stdlib/commit/59bea210b0588dcd33452b65d93f9acf58bd4725) - add `stats/base/ndarray/dmediansorted` [(#8637)](https://github.com/stdlib-js/stdlib/pull/8637)
@@ -3480,6 +3481,8 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`49f4894`](https://github.com/stdlib-js/stdlib/commit/49f4894a7b05e173efc2c5f69ed56bbc98e52711) - **feat:** add `stats/base/ndarray/dmidrange` [(#8626)](https://github.com/stdlib-js/stdlib/pull/8626) _(by Divyanshu, Athan Reines)_
+-   [`d745259`](https://github.com/stdlib-js/stdlib/commit/d745259e39acdcc3f80b3b569185491daef92145) - **docs:** add missing spaces and update parameter type _(by Philipp Burckhardt)_
 -   [`b55b024`](https://github.com/stdlib-js/stdlib/commit/b55b0244c489e33a24298fe28fbb8ae7be0846ad) - **docs:** update namespace table of contents [(#8672)](https://github.com/stdlib-js/stdlib/pull/8672) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`10ab0d9`](https://github.com/stdlib-js/stdlib/commit/10ab0d97e9b0ac1fe4a27bdc64fa8646df4dff88) - **feat:** add `stats/base/ndarray/nanrange` [(#8642)](https://github.com/stdlib-js/stdlib/pull/8642) _(by Pratik)_
 -   [`be4ce52`](https://github.com/stdlib-js/stdlib/commit/be4ce524621e636ab04b9940df550dff7dc93aa5) - **docs:** update examples to use explicit dtype _(by Athan Reines)_
