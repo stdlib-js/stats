@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5c941d3`](https://github.com/stdlib-js/stdlib/commit/5c941d3997c9f960d1f1d52bd76a9d3871c5b507) - add `stats/base/ndarray/nanmin-by` [(#8681)](https://github.com/stdlib-js/stdlib/pull/8681)
 -   [`bb916a2`](https://github.com/stdlib-js/stdlib/commit/bb916a2c4ba4a698be842b72de0c3ed4eb9135ab) - add `stats/base/ndarray/smskmax` [(#8698)](https://github.com/stdlib-js/stdlib/pull/8698)
 -   [`49f4894`](https://github.com/stdlib-js/stdlib/commit/49f4894a7b05e173efc2c5f69ed56bbc98e52711) - add `stats/base/ndarray/dmidrange` [(#8626)](https://github.com/stdlib-js/stdlib/pull/8626)
 -   [`10ab0d9`](https://github.com/stdlib-js/stdlib/commit/10ab0d97e9b0ac1fe4a27bdc64fa8646df4dff88) - add `stats/base/ndarray/nanrange` [(#8642)](https://github.com/stdlib-js/stdlib/pull/8642)
@@ -3482,6 +3483,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`5c941d3`](https://github.com/stdlib-js/stdlib/commit/5c941d3997c9f960d1f1d52bd76a9d3871c5b507) - **feat:** add `stats/base/ndarray/nanmin-by` [(#8681)](https://github.com/stdlib-js/stdlib/pull/8681) _(by Sachin Pangal, Athan Reines)_
 -   [`e311dfa`](https://github.com/stdlib-js/stdlib/commit/e311dfa54b983e913453dc5c141115ef58e0c9dc) - **style:** remove extra empty line _(by Philipp Burckhardt)_
 -   [`bb916a2`](https://github.com/stdlib-js/stdlib/commit/bb916a2c4ba4a698be842b72de0c3ed4eb9135ab) - **feat:** add `stats/base/ndarray/smskmax` [(#8698)](https://github.com/stdlib-js/stdlib/pull/8698) _(by Kaustubh Patange, Athan Reines)_
 -   [`49f4894`](https://github.com/stdlib-js/stdlib/commit/49f4894a7b05e173efc2c5f69ed56bbc98e52711) - **feat:** add `stats/base/ndarray/dmidrange` [(#8626)](https://github.com/stdlib-js/stdlib/pull/8626) _(by Divyanshu, Athan Reines)_
