@@ -40,7 +40,6 @@ var dmidrange = require( './../lib' );
 * @param {NonNegativeInteger} offset - index offset
 * @returns {ndarray} one-dimensional ndarray
 */
-
 function vector( buffer, length, stride, offset ) {
 	return new ndarray( 'float64', buffer, [ length ], [ stride ], offset, 'row-major' );
 }

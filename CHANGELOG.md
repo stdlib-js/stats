@@ -3482,6 +3482,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`e311dfa`](https://github.com/stdlib-js/stdlib/commit/e311dfa54b983e913453dc5c141115ef58e0c9dc) - **style:** remove extra empty line _(by Philipp Burckhardt)_
 -   [`bb916a2`](https://github.com/stdlib-js/stdlib/commit/bb916a2c4ba4a698be842b72de0c3ed4eb9135ab) - **feat:** add `stats/base/ndarray/smskmax` [(#8698)](https://github.com/stdlib-js/stdlib/pull/8698) _(by Kaustubh Patange, Athan Reines)_
 -   [`49f4894`](https://github.com/stdlib-js/stdlib/commit/49f4894a7b05e173efc2c5f69ed56bbc98e52711) - **feat:** add `stats/base/ndarray/dmidrange` [(#8626)](https://github.com/stdlib-js/stdlib/pull/8626) _(by Divyanshu, Athan Reines)_
 -   [`d745259`](https://github.com/stdlib-js/stdlib/commit/d745259e39acdcc3f80b3b569185491daef92145) - **docs:** add missing spaces and update parameter type _(by Philipp Burckhardt)_
