@@ -3493,6 +3493,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`2192360`](https://github.com/stdlib-js/stdlib/commit/21923606030eb12678894c265023c6d265a89968) - **test:** explicitly serialize dtypes to strings _(by Athan Reines)_
 -   [`eaa916e`](https://github.com/stdlib-js/stdlib/commit/eaa916ee6edf015a3c759e4dba766a7d1e92b95f) - **docs:** update examples _(by Athan Reines)_
 -   [`e6b2007`](https://github.com/stdlib-js/stdlib/commit/e6b200700c411f81de9a89334950f57099971014) - **docs:** update examples _(by Athan Reines)_
 -   [`4675b8b`](https://github.com/stdlib-js/stdlib/commit/4675b8b9dc5fcb29a4716eb6f5554644abf5456a) - **feat:** add `stats/base/ndarray/dmskrange` [(#8730)](https://github.com/stdlib-js/stdlib/pull/8730) _(by Kaustubh Patange)_
