@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`650aa2e`](https://github.com/stdlib-js/stdlib/commit/650aa2e575437f60d134da07abb855d7a451a915) - add `stats/base/ndarray/dmskmin` [(#8720)](https://github.com/stdlib-js/stdlib/pull/8720)
 -   [`e5bf66b`](https://github.com/stdlib-js/stdlib/commit/e5bf66b083574e9efa584578127d399ebb8ddd0c) - add `stats/base/ndarray/dmskmax` [(#8718)](https://github.com/stdlib-js/stdlib/pull/8718)
 -   [`bd98a13`](https://github.com/stdlib-js/stdlib/commit/bd98a130f38167a7b0ca3726407f854703895c73) - add `stats/base/ndarray/smskrange` [(#8715)](https://github.com/stdlib-js/stdlib/pull/8715)
 -   [`5d41e02`](https://github.com/stdlib-js/stdlib/commit/5d41e023e8d77303cc9af4502db85e03672a0091) - update `stats/base/ndarray` TypeScript declarations
@@ -3491,6 +3492,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`650aa2e`](https://github.com/stdlib-js/stdlib/commit/650aa2e575437f60d134da07abb855d7a451a915) - **feat:** add `stats/base/ndarray/dmskmin` [(#8720)](https://github.com/stdlib-js/stdlib/pull/8720) _(by Divyanshu)_
 -   [`e5bf66b`](https://github.com/stdlib-js/stdlib/commit/e5bf66b083574e9efa584578127d399ebb8ddd0c) - **feat:** add `stats/base/ndarray/dmskmax` [(#8718)](https://github.com/stdlib-js/stdlib/pull/8718) _(by Divyanshu, Athan Reines)_
 -   [`bd98a13`](https://github.com/stdlib-js/stdlib/commit/bd98a130f38167a7b0ca3726407f854703895c73) - **feat:** add `stats/base/ndarray/smskrange` [(#8715)](https://github.com/stdlib-js/stdlib/pull/8715) _(by Kaustubh Patange, Athan Reines)_
 -   [`5d41e02`](https://github.com/stdlib-js/stdlib/commit/5d41e023e8d77303cc9af4502db85e03672a0091) - **feat:** update `stats/base/ndarray` TypeScript declarations _(by Philipp Burckhardt)_
