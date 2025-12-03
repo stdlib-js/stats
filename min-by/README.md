@@ -210,7 +210,7 @@ var opts = {
 var y = minBy( x, opts, clbk );
 // returns <ndarray>
 
-var dt = getDType( y );
+var dt = String( getDType( y ) );
 // returns 'float64'
 ```
 
