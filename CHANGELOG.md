@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b74955d`](https://github.com/stdlib-js/stdlib/commit/b74955d44608b40c744e1854739fc957758df872) - add `stats/range-by` [(#8723)](https://github.com/stdlib-js/stdlib/pull/8723)
 -   [`4675b8b`](https://github.com/stdlib-js/stdlib/commit/4675b8b9dc5fcb29a4716eb6f5554644abf5456a) - add `stats/base/ndarray/dmskrange` [(#8730)](https://github.com/stdlib-js/stdlib/pull/8730)
 -   [`650aa2e`](https://github.com/stdlib-js/stdlib/commit/650aa2e575437f60d134da07abb855d7a451a915) - add `stats/base/ndarray/dmskmin` [(#8720)](https://github.com/stdlib-js/stdlib/pull/8720)
 -   [`e5bf66b`](https://github.com/stdlib-js/stdlib/commit/e5bf66b083574e9efa584578127d399ebb8ddd0c) - add `stats/base/ndarray/dmskmax` [(#8718)](https://github.com/stdlib-js/stdlib/pull/8718)
@@ -3493,6 +3494,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`b74955d`](https://github.com/stdlib-js/stdlib/commit/b74955d44608b40c744e1854739fc957758df872) - **feat:** add `stats/range-by` [(#8723)](https://github.com/stdlib-js/stdlib/pull/8723) _(by Sachin Pangal, Athan Reines)_
 -   [`2192360`](https://github.com/stdlib-js/stdlib/commit/21923606030eb12678894c265023c6d265a89968) - **test:** explicitly serialize dtypes to strings _(by Athan Reines)_
 -   [`eaa916e`](https://github.com/stdlib-js/stdlib/commit/eaa916ee6edf015a3c759e4dba766a7d1e92b95f) - **docs:** update examples _(by Athan Reines)_
 -   [`e6b2007`](https://github.com/stdlib-js/stdlib/commit/e6b200700c411f81de9a89334950f57099971014) - **docs:** update examples _(by Athan Reines)_
