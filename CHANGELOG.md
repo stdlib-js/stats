@@ -3503,6 +3503,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`32672ca`](https://github.com/stdlib-js/stdlib/commit/32672ca6f9c3e8ef435c456e49eebe190f36967a) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`4dab954`](https://github.com/stdlib-js/stdlib/commit/4dab954de45d88b4bff56494dbdc7381e72938db) - **feat:** add `stats/maxsorted` [(#8735)](https://github.com/stdlib-js/stdlib/pull/8735) _(by Pratik, Athan Reines)_
 -   [`a118739`](https://github.com/stdlib-js/stdlib/commit/a118739a4cd7e373ac4f6a74312b56f12ab911fc) - **docs:** update examples _(by Athan Reines)_
 -   [`85ec605`](https://github.com/stdlib-js/stdlib/commit/85ec60580ef65be852f93674c2ffd5b73d5e2442) - **feat:** add `stats/base/ndarray/snanmskmin` [(#8746)](https://github.com/stdlib-js/stdlib/pull/8746) _(by Kaustubh Patange, Athan Reines)_
