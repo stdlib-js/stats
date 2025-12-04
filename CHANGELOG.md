@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b59f2a8`](https://github.com/stdlib-js/stdlib/commit/b59f2a8b28249e88f2f6fa8d323171893b5b3fc3) - add `stats/nanmaxabs` [(#8765)](https://github.com/stdlib-js/stdlib/pull/8765)
 -   [`4dab954`](https://github.com/stdlib-js/stdlib/commit/4dab954de45d88b4bff56494dbdc7381e72938db) - add `stats/maxsorted` [(#8735)](https://github.com/stdlib-js/stdlib/pull/8735)
 -   [`85ec605`](https://github.com/stdlib-js/stdlib/commit/85ec60580ef65be852f93674c2ffd5b73d5e2442) - add `stats/base/ndarray/snanmskmin` [(#8746)](https://github.com/stdlib-js/stdlib/pull/8746)
 -   [`7757e13`](https://github.com/stdlib-js/stdlib/commit/7757e13d769ec0245261f09ee6209bf646286f45) - add `stats/base/ndarray/dnanmskmax` [(#8748#pullrequestreview-3538086086)](https://github.com/stdlib-js/stdlib/pull/8748#pullrequestreview-3538086086)
@@ -3503,6 +3504,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`b59f2a8`](https://github.com/stdlib-js/stdlib/commit/b59f2a8b28249e88f2f6fa8d323171893b5b3fc3) - **feat:** add `stats/nanmaxabs` [(#8765)](https://github.com/stdlib-js/stdlib/pull/8765) _(by Pratik)_
 -   [`9856e30`](https://github.com/stdlib-js/stdlib/commit/9856e30024f7a0bf0698f5274cc1d13b428b3891) - **docs:** fix description _(by Philipp Burckhardt)_
 -   [`2d2c81b`](https://github.com/stdlib-js/stdlib/commit/2d2c81b60826f00bffc81269099cc64b7177ecdd) - **docs:** update parameter name _(by Athan Reines)_
 -   [`32672ca`](https://github.com/stdlib-js/stdlib/commit/32672ca6f9c3e8ef435c456e49eebe190f36967a) - **docs:** minor clean-up _(by Philipp Burckhardt)_
