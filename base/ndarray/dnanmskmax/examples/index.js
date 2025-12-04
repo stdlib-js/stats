@@ -18,32 +18,21 @@
 
 'use strict';
 
-var uniform = require( '@stdlib/random/base/uniform' );
-var filledarrayBy = require( '@stdlib/array/filled-by' );
-var bernoulli = require( '@stdlib/random/base/bernoulli' );
+var uniform = require( '@stdlib/random/array/uniform' );
+var bernoulli = require( '@stdlib/random/array/bernoulli' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
 var dnanmskmax = require( './../lib' );
 
-function rand() {
-	if ( bernoulli( 0.8 ) < 1 ) {
-		return NaN;
-	}
-	return uniform( -50.0, 50.0 );
-}
-
-function randMask() {
-	if ( bernoulli( 0.1 ) < 1 ) {
-		return 1;
-	}
-	return 0;
-}
-
-var xbuf = filledarrayBy( 10, 'float64', rand );
+var xbuf = uniform( 10, -50.0, 50.0, {
+	'dtype': 'float64'
+});
 var x = new ndarray( 'float64', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
 console.log( ndarray2array( x ) );
 
-var maskbuf = filledarrayBy( xbuf.length, 'uint8', randMask );
+var maskbuf = bernoulli( xbuf.length, 0.2, {
+	'dtype': 'uint8'
+});
 var mask = new ndarray( 'uint8', maskbuf, [ maskbuf.length ], [ 1 ], 0, 'row-major' );
 console.log( ndarray2array( mask ) );
 
