@@ -3499,6 +3499,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`911af88`](https://github.com/stdlib-js/stdlib/commit/911af88583e1b29ffa7f857e20b74cfafba80081) - **docs:** update descriptions _(by Athan Reines)_
 -   [`1047039`](https://github.com/stdlib-js/stdlib/commit/1047039d66b59aebfd435202f7173a1809f3aa17) - **feat:** add `stats/base/ndarray/nanmskrange` [(#8757)](https://github.com/stdlib-js/stdlib/pull/8757) _(by Kaustubh Patange)_
 -   [`3e95cb4`](https://github.com/stdlib-js/stdlib/commit/3e95cb456bbeabe21ae465e1207a6f3e4ecaef6f) - **feat:** add `stats/base/ndarray/snanmskmax` [(#8738)](https://github.com/stdlib-js/stdlib/pull/8738) _(by Kaustubh Patange)_
 -   [`9fd602c`](https://github.com/stdlib-js/stdlib/commit/9fd602c0962f9c7f2bcb3783b1b65aa9b8c517bc) - **feat:** add `stats/base/ndarray/nanrange-by` [(#8737)](https://github.com/stdlib-js/stdlib/pull/8737) _(by Sachin Pangal)_
