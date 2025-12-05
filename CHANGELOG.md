@@ -3510,6 +3510,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`72ee197`](https://github.com/stdlib-js/stdlib/commit/72ee197151024d68c6345fa094d6e05fa4c90bfd) - **docs:** fix incorrect \`@name\` tag in \`stats/nanmeanors\` _(by Philipp Burckhardt)_
 -   [`d59bcf1`](https://github.com/stdlib-js/stdlib/commit/d59bcf10a72a422cbe767dc1dab9e903dabbd300) - **feat:** add `stats/meanors` [(#8793)](https://github.com/stdlib-js/stdlib/pull/8793) _(by Sachin Pangal, Athan Reines)_
 -   [`fdc9009`](https://github.com/stdlib-js/stdlib/commit/fdc900992fd753d7819880d61e7a6a9862202380) - **feat:** add `stats/nanmeanors` [(#8779)](https://github.com/stdlib-js/stdlib/pull/8779) _(by Pratik, Athan Reines)_
 -   [`0a95ffb`](https://github.com/stdlib-js/stdlib/commit/0a95ffb6202ca4eb7bd5f10f63eaf144b2646ea5) - **docs:** fix JSDoc name tag in `stats/nanmeanpn` _(by Philipp Burckhardt)_
