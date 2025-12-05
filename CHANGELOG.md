@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`29e36f2`](https://github.com/stdlib-js/stdlib/commit/29e36f2113ec3007521290b5deca817d9ed9b1f3) - add `stats/base/ndarray/dnanmskrange` [(#8791)](https://github.com/stdlib-js/stdlib/pull/8791)
 -   [`2eb8eb5`](https://github.com/stdlib-js/stdlib/commit/2eb8eb54227d35ea5f5d4df5174393064c2b0dac) - add `stats/nanmeanpn` [(#8780)](https://github.com/stdlib-js/stdlib/pull/8780)
 -   [`fe1bf6a`](https://github.com/stdlib-js/stdlib/commit/fe1bf6a0a542d66c0ff5eaecd8ea40cb98500e0b) - add `stats/base/ndarray/snanmskrange` [(#8788)](https://github.com/stdlib-js/stdlib/pull/8788)
 -   [`97deb1c`](https://github.com/stdlib-js/stdlib/commit/97deb1c5eb5a78230bb13a40c4bd2faf20541886) - add `stats/nanminabs` [(#8768)](https://github.com/stdlib-js/stdlib/pull/8768)
@@ -3507,6 +3508,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`29e36f2`](https://github.com/stdlib-js/stdlib/commit/29e36f2113ec3007521290b5deca817d9ed9b1f3) - **feat:** add `stats/base/ndarray/dnanmskrange` [(#8791)](https://github.com/stdlib-js/stdlib/pull/8791) _(by Divyanshu, Athan Reines)_
 -   [`b0026d0`](https://github.com/stdlib-js/stdlib/commit/b0026d091a1595b5d28302b5cfb9a40484cfede6) - **bench:** fix dtype _(by Athan Reines)_
 -   [`2eb8eb5`](https://github.com/stdlib-js/stdlib/commit/2eb8eb54227d35ea5f5d4df5174393064c2b0dac) - **feat:** add `stats/nanmeanpn` [(#8780)](https://github.com/stdlib-js/stdlib/pull/8780) _(by Pratik, Athan Reines)_
 -   [`fe1bf6a`](https://github.com/stdlib-js/stdlib/commit/fe1bf6a0a542d66c0ff5eaecd8ea40cb98500e0b) - **feat:** add `stats/base/ndarray/snanmskrange` [(#8788)](https://github.com/stdlib-js/stdlib/pull/8788) _(by Kaustubh Patange)_
