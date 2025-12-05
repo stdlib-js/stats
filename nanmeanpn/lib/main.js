@@ -53,7 +53,7 @@ var table = {
 /**
 * Computes the arithmetic mean along one or more ndarray dimensions, ignoring `NaN` values and using a two-pass error correction algorithm.
 *
-* @name mean
+* @name nanmeanpn
 * @type {Function}
 * @param {ndarray} x - input ndarray
 * @param {Options} [options] - function options

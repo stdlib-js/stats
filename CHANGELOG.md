@@ -3508,6 +3508,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`0a95ffb`](https://github.com/stdlib-js/stdlib/commit/0a95ffb6202ca4eb7bd5f10f63eaf144b2646ea5) - **docs:** fix JSDoc name tag in `stats/nanmeanpn` _(by Philipp Burckhardt)_
 -   [`29e36f2`](https://github.com/stdlib-js/stdlib/commit/29e36f2113ec3007521290b5deca817d9ed9b1f3) - **feat:** add `stats/base/ndarray/dnanmskrange` [(#8791)](https://github.com/stdlib-js/stdlib/pull/8791) _(by Divyanshu, Athan Reines)_
 -   [`b0026d0`](https://github.com/stdlib-js/stdlib/commit/b0026d091a1595b5d28302b5cfb9a40484cfede6) - **bench:** fix dtype _(by Athan Reines)_
 -   [`2eb8eb5`](https://github.com/stdlib-js/stdlib/commit/2eb8eb54227d35ea5f5d4df5174393064c2b0dac) - **feat:** add `stats/nanmeanpn` [(#8780)](https://github.com/stdlib-js/stdlib/pull/8780) _(by Pratik, Athan Reines)_
