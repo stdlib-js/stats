@@ -3510,8 +3510,6 @@ A total of 557 issues were closed in this release:
 
 <details>
 
--   [`ac2791d`](https://github.com/stdlib-js/stdlib/commit/ac2791d4895a2932decb9f998a6b81057d2111b9) - **docs:** update examples in `stats/minabs` [(#8826)](https://github.com/stdlib-js/stdlib/pull/8826) _(by Sachin Pangal)_
--   [`2cb9592`](https://github.com/stdlib-js/stdlib/commit/2cb9592c7057c1d5b1693343f01d740dd2e1d583) - **docs:** update examples in `stats/max` [(#8827)](https://github.com/stdlib-js/stdlib/pull/8827) _(by Sachin Pangal)_
 -   [`120e209`](https://github.com/stdlib-js/stdlib/commit/120e2092781bcc3db496f02c5882d7e0ec735e94) - **docs:** update examples in `stats/range` [(#8828)](https://github.com/stdlib-js/stdlib/pull/8828) _(by Sachin Pangal)_
 -   [`495d074`](https://github.com/stdlib-js/stdlib/commit/495d07427db5430c75747fb7317dd679fea217ad) - **docs:** update examples in `stats/cumax` [(#8829)](https://github.com/stdlib-js/stdlib/pull/8829) _(by Sachin Pangal)_
 -   [`2c42959`](https://github.com/stdlib-js/stdlib/commit/2c4295942380cc2becc363c431dce88f869d68ff) - **docs:** update examples in `stats/cumin` [(#8830)](https://github.com/stdlib-js/stdlib/pull/8830) _(by Sachin Pangal)_
