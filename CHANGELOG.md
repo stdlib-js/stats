@@ -3510,6 +3510,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`495d074`](https://github.com/stdlib-js/stdlib/commit/495d07427db5430c75747fb7317dd679fea217ad) - **docs:** update examples in `stats/cumax` [(#8829)](https://github.com/stdlib-js/stdlib/pull/8829) _(by Sachin Pangal)_
 -   [`2c42959`](https://github.com/stdlib-js/stdlib/commit/2c4295942380cc2becc363c431dce88f869d68ff) - **docs:** update examples in `stats/cumin` [(#8830)](https://github.com/stdlib-js/stdlib/pull/8830) _(by Sachin Pangal)_
 -   [`72ee197`](https://github.com/stdlib-js/stdlib/commit/72ee197151024d68c6345fa094d6e05fa4c90bfd) - **docs:** fix incorrect \`@name\` tag in \`stats/nanmeanors\` _(by Philipp Burckhardt)_
 -   [`d59bcf1`](https://github.com/stdlib-js/stdlib/commit/d59bcf10a72a422cbe767dc1dab9e903dabbd300) - **feat:** add `stats/meanors` [(#8793)](https://github.com/stdlib-js/stdlib/pull/8793) _(by Sachin Pangal, Athan Reines)_
