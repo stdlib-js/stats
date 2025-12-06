@@ -18,13 +18,19 @@
 
 'use strict';
 
-var uniform = require( '@stdlib/random/uniform' );
+var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var getDType = require( '@stdlib/ndarray/dtype' );
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
+var ndarray = require( '@stdlib/ndarray/ctor' );
 var mean = require( './../lib' );
 
 // Generate an array of random numbers:
-var x = uniform( [ 5, 5 ], 0.0, 20.0 );
+var xbuf = discreteUniform( 25, 0, 20, {
+	'dtype': 'generic'
+});
+
+// Wrap in an ndarray:
+var x = new ndarray( 'generic', xbuf, [ 5, 5 ], [ 5, 1 ], 0, 'row-major' );
 console.log( ndarray2array( x ) );
 
 // Perform a reduction:

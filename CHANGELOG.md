@@ -3510,10 +3510,6 @@ A total of 557 issues were closed in this release:
 
 <details>
 
--   [`8be43b3`](https://github.com/stdlib-js/stdlib/commit/8be43b3489187f60926783d3936fb8003f2a8b9a) - **docs:** update examples in `stats/mean` [(#8823)](https://github.com/stdlib-js/stdlib/pull/8823) _(by Sachin Pangal)_
--   [`48d0dcb`](https://github.com/stdlib-js/stdlib/commit/48d0dcbf02ab85d05d7b0904d5a7196435787c44) - **docs:** update examples in `stats/maxabs` [(#8824)](https://github.com/stdlib-js/stdlib/pull/8824) _(by Sachin Pangal)_
--   [`8cf190a`](https://github.com/stdlib-js/stdlib/commit/8cf190af409092c48ce33af1f5c8067393f17656) - **docs:** update examples in `stats/min` [(#8825)](https://github.com/stdlib-js/stdlib/pull/8825) _(by Sachin Pangal)_
--   [`ac2791d`](https://github.com/stdlib-js/stdlib/commit/ac2791d4895a2932decb9f998a6b81057d2111b9) - **docs:** update examples in `stats/minabs` [(#8826)](https://github.com/stdlib-js/stdlib/pull/8826) _(by Sachin Pangal)_
 -   [`2cb9592`](https://github.com/stdlib-js/stdlib/commit/2cb9592c7057c1d5b1693343f01d740dd2e1d583) - **docs:** update examples in `stats/max` [(#8827)](https://github.com/stdlib-js/stdlib/pull/8827) _(by Sachin Pangal)_
 -   [`120e209`](https://github.com/stdlib-js/stdlib/commit/120e2092781bcc3db496f02c5882d7e0ec735e94) - **docs:** update examples in `stats/range` [(#8828)](https://github.com/stdlib-js/stdlib/pull/8828) _(by Sachin Pangal)_
 -   [`495d074`](https://github.com/stdlib-js/stdlib/commit/495d07427db5430c75747fb7317dd679fea217ad) - **docs:** update examples in `stats/cumax` [(#8829)](https://github.com/stdlib-js/stdlib/pull/8829) _(by Sachin Pangal)_
