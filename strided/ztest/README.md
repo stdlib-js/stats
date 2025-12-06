@@ -202,8 +202,6 @@ console.log( out.toString() );
 
 <section class="links">
 
-[variance]: https://en.wikipedia.org/wiki/Variance
-
 [@stdlib/stats/base/ztest/alternatives]: https://github.com/stdlib-js/stats/tree/main/base/ztest/alternatives
 
 [@stdlib/stats/base/ztest/one-sample/results/float64]: https://github.com/stdlib-js/stats/tree/main/base/ztest/one-sample/results/float64

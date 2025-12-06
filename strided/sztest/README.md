@@ -375,8 +375,6 @@ int main( void ) {
 
 <section class="links">
 
-[variance]: https://en.wikipedia.org/wiki/Variance
-
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [@stdlib/stats/base/ztest/alternatives]: https://github.com/stdlib-js/stats/tree/main/base/ztest/alternatives
