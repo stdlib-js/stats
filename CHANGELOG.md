@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-06)
+## Unreleased (2025-12-07)
 
 <section class="features">
 
@@ -3510,6 +3510,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`9c412c7`](https://github.com/stdlib-js/stdlib/commit/9c412c7a96d4b5381cda9be8c83f4e701155fe95) - **docs:** update related packages sections [(#8860)](https://github.com/stdlib-js/stdlib/pull/8860) _(by stdlib-bot, Athan Reines)_
 -   [`9ab0f17`](https://github.com/stdlib-js/stdlib/commit/9ab0f1770255e4c11d47f859316cd529a0f3dffb) - **docs:** remove unused link definition _(by Athan Reines)_
 -   [`ed42a4f`](https://github.com/stdlib-js/stdlib/commit/ed42a4f20e80757e6e855dc9ac4e70ab5a28f423) - **docs:** update related packages sections [(#8835)](https://github.com/stdlib-js/stdlib/pull/8835) _(by stdlib-bot)_
 -   [`8be43b3`](https://github.com/stdlib-js/stdlib/commit/8be43b3489187f60926783d3936fb8003f2a8b9a) - **docs:** update examples in `stats/mean` [(#8823)](https://github.com/stdlib-js/stdlib/pull/8823) _(by Sachin Pangal)_
