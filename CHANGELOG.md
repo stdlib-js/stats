@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3d4db51`](https://github.com/stdlib-js/stdlib/commit/3d4db51e2ad26e7021b48606d7c31157fdad00c4) - add `stats/nanmax-by` [(#8769)](https://github.com/stdlib-js/stdlib/pull/8769)
 -   [`c3faa28`](https://github.com/stdlib-js/stdlib/commit/c3faa28eb8dadcaaf61c8fed8ce87edf1f2d9aab) - add `stats/nanmeanwd` [(#8786)](https://github.com/stdlib-js/stdlib/pull/8786)
 -   [`d59bcf1`](https://github.com/stdlib-js/stdlib/commit/d59bcf10a72a422cbe767dc1dab9e903dabbd300) - add `stats/meanors` [(#8793)](https://github.com/stdlib-js/stdlib/pull/8793)
 -   [`fdc9009`](https://github.com/stdlib-js/stdlib/commit/fdc900992fd753d7819880d61e7a6a9862202380) - add `stats/nanmeanors` [(#8779)](https://github.com/stdlib-js/stdlib/pull/8779)
@@ -3511,6 +3512,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`3d4db51`](https://github.com/stdlib-js/stdlib/commit/3d4db51e2ad26e7021b48606d7c31157fdad00c4) - **feat:** add `stats/nanmax-by` [(#8769)](https://github.com/stdlib-js/stdlib/pull/8769) _(by Sachin Pangal, Athan Reines)_
 -   [`006274e`](https://github.com/stdlib-js/stdlib/commit/006274e27badde01275e5daa80e8caeab301a787) - **test:** fix strides _(by Athan Reines)_
 -   [`c3faa28`](https://github.com/stdlib-js/stdlib/commit/c3faa28eb8dadcaaf61c8fed8ce87edf1f2d9aab) - **feat:** add `stats/nanmeanwd` [(#8786)](https://github.com/stdlib-js/stdlib/pull/8786) _(by Sachin Pangal, Athan Reines)_
 -   [`9c412c7`](https://github.com/stdlib-js/stdlib/commit/9c412c7a96d4b5381cda9be8c83f4e701155fe95) - **docs:** update related packages sections [(#8860)](https://github.com/stdlib-js/stdlib/pull/8860) _(by stdlib-bot, Athan Reines)_
