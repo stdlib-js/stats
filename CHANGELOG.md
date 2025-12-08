@@ -3511,6 +3511,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`006274e`](https://github.com/stdlib-js/stdlib/commit/006274e27badde01275e5daa80e8caeab301a787) - **test:** fix strides _(by Athan Reines)_
 -   [`c3faa28`](https://github.com/stdlib-js/stdlib/commit/c3faa28eb8dadcaaf61c8fed8ce87edf1f2d9aab) - **feat:** add `stats/nanmeanwd` [(#8786)](https://github.com/stdlib-js/stdlib/pull/8786) _(by Sachin Pangal, Athan Reines)_
 -   [`9c412c7`](https://github.com/stdlib-js/stdlib/commit/9c412c7a96d4b5381cda9be8c83f4e701155fe95) - **docs:** update related packages sections [(#8860)](https://github.com/stdlib-js/stdlib/pull/8860) _(by stdlib-bot, Athan Reines)_
 -   [`9ab0f17`](https://github.com/stdlib-js/stdlib/commit/9ab0f1770255e4c11d47f859316cd529a0f3dffb) - **docs:** remove unused link definition _(by Athan Reines)_
