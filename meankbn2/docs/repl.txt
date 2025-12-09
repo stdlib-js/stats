@@ -1,6 +1,7 @@
 
 {{alias}}( x[, options] )
-    Computes the maximum value along one or more ndarray dimensions.
+    Computes the arithmetic mean along one or more ndarray dimensions using a
+    second-order iterative Kahan–Babuška algorithm.
 
     Parameters
     ----------
@@ -11,7 +12,8 @@
         Function options.
 
     options.dtype: string (optional)
-        Output array data type. Must be a real-valued or "generic" data type.
+        Output array data type. Must be a real-valued floating-point or
+        "generic" data type.
 
     options.dims: Array<integer> (optional)
         List of dimensions over which to perform a reduction. If not provided,
@@ -32,17 +34,18 @@
     > var x = {{alias:@stdlib/ndarray/array}}( [ -1.0, 2.0, -3.0, -4.0 ] );
     > var y = {{alias}}( x );
     > var v = y.get()
-    2.0
+    -1.5
 
 
 {{alias}}.assign( x, out[, options] )
-    Computes the maximum value along one or more ndarray dimensions and assigns
-    results to a provided output ndarray.
+    Computes the arithmetic mean along one or more ndarray dimensions using a
+    second-order iterative Kahan–Babuška algorithm and assigns results to a
+    provided output ndarray.
 
     Parameters
     ----------
     x: ndarray
-        Input array. Must have a real-valued or generic data type.
+        Input array. Must have a real-valued or "generic" data type.
 
     out: ndarray
         Output array.
@@ -65,9 +68,11 @@
     > var x = {{alias:@stdlib/ndarray/array}}( [ -1.0, 2.0, -3.0, -4.0 ] );
     > var out = {{alias:@stdlib/ndarray/zeros}}( [] );
     > var y = {{alias}}.assign( x, out )
-    <ndarray>[ 2.0 ]
+    <ndarray>
     > var bool = ( out === y )
     true
+    > var v = out.get()
+    -1.5
 
     See Also
     --------

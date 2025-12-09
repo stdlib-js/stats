@@ -19,14 +19,14 @@
 'use strict';
 
 /**
-* Compute the maximum value along one or more ndarray dimensions.
+* Compute the arithmetic mean along one or more ndarray dimensions using an improved Kahan–Babuška algorithm.
 *
-* @module @stdlib/stats/max
+* @module @stdlib/stats/meankbn
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
 * var ndarray = require( '@stdlib/ndarray/ctor' );
-* var max = require( '@stdlib/stats/max' );
+* var meankbn = require( '@stdlib/stats/meankbn' );
 *
 * // Create a data buffer:
 * var xbuf = new Float64Array( [ 0.0, 2.0, 3.0, 0.0, 0.0, 6.0, 7.0, 0.0, 0.0, 10.0, 11.0, 0.0 ] );
@@ -44,8 +44,11 @@
 * var x = new ndarray( 'float64', xbuf, sh, sx, ox, 'row-major' );
 *
 * // Perform reduction:
-* var out = max( x );
-* // returns <ndarray>[ 11.0 ]
+* var out = meankbn( x );
+* // returns <ndarray>
+*
+* var v = out.get();
+* // returns 6.5
 */
 
 // MODULES //

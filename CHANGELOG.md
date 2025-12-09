@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`492117e`](https://github.com/stdlib-js/stdlib/commit/492117e5209184d5dc186c397cb54fb53393dd69) - add `stats/meankbn` [(#8854)](https://github.com/stdlib-js/stdlib/pull/8854)
+-   [`317438a`](https://github.com/stdlib-js/stdlib/commit/317438abf73316f326712254aa305fac7262851b) - add `stats/meankbn2` [(#8874)](https://github.com/stdlib-js/stdlib/pull/8874)
 -   [`e888953`](https://github.com/stdlib-js/stdlib/commit/e8889532c48dafa994bc720350b1f373061a7590) - add `stats/mediansorted` [(#8892)](https://github.com/stdlib-js/stdlib/pull/8892)
 -   [`7bea8b5`](https://github.com/stdlib-js/stdlib/commit/7bea8b5c11cfe2b7beda45abd52a3a77c951ac2e) - add `stats/meanpn` [(#8884)](https://github.com/stdlib-js/stdlib/pull/8884)
 -   [`b7393b1`](https://github.com/stdlib-js/stdlib/commit/b7393b1ad321506d9adbed0ab055c82cc7960492) - add `stats/minsorted` [(#8890)](https://github.com/stdlib-js/stdlib/pull/8890)
@@ -3516,6 +3518,12 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`01a7d5e`](https://github.com/stdlib-js/stdlib/commit/01a7d5eae3a7c6c244382ff2c2c00c19cc5acb68) - **docs:** add missing semicolons _(by Athan Reines)_
+-   [`6c85fa1`](https://github.com/stdlib-js/stdlib/commit/6c85fa1533817b8b5e227ca4814c9fc63c23dec7) - **docs:** update return annotations to use ndarray instance notation _(by Athan Reines)_
+-   [`1e07403`](https://github.com/stdlib-js/stdlib/commit/1e074034dfc14ccc5ec31573fa52678f72b707cf) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`492117e`](https://github.com/stdlib-js/stdlib/commit/492117e5209184d5dc186c397cb54fb53393dd69) - **feat:** add `stats/meankbn` [(#8854)](https://github.com/stdlib-js/stdlib/pull/8854) _(by Sachin Pangal, Athan Reines)_
+-   [`05b76f2`](https://github.com/stdlib-js/stdlib/commit/05b76f24a8401577157a14126e6d04b934a4b56e) - **docs:** fix section placement _(by Athan Reines)_
+-   [`317438a`](https://github.com/stdlib-js/stdlib/commit/317438abf73316f326712254aa305fac7262851b) - **feat:** add `stats/meankbn2` [(#8874)](https://github.com/stdlib-js/stdlib/pull/8874) _(by Sachin Pangal, Athan Reines)_
 -   [`e888953`](https://github.com/stdlib-js/stdlib/commit/e8889532c48dafa994bc720350b1f373061a7590) - **feat:** add `stats/mediansorted` [(#8892)](https://github.com/stdlib-js/stdlib/pull/8892) _(by Sachin Pangal, Athan Reines)_
 -   [`7bea8b5`](https://github.com/stdlib-js/stdlib/commit/7bea8b5c11cfe2b7beda45abd52a3a77c951ac2e) - **feat:** add `stats/meanpn` [(#8884)](https://github.com/stdlib-js/stdlib/pull/8884) _(by Sachin Pangal, Athan Reines)_
 -   [`b7393b1`](https://github.com/stdlib-js/stdlib/commit/b7393b1ad321506d9adbed0ab055c82cc7960492) - **feat:** add `stats/minsorted` [(#8890)](https://github.com/stdlib-js/stdlib/pull/8890) _(by Sachin Pangal, Athan Reines)_

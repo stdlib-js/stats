@@ -21,18 +21,18 @@
 // MODULES //
 
 var dtypes = require( '@stdlib/ndarray/dtypes' );
-var gmax = require( './../../base/ndarray/max' );
-var dmax = require( './../../base/ndarray/dmax' );
-var smax = require( './../../base/ndarray/smax' );
+var gmeankbn = require( './../../base/ndarray/meankbn' );
+var dmeankbn = require( './../../base/ndarray/dmeankbn' );
+var smeankbn = require( './../../base/ndarray/smeankbn' );
 var factory = require( '@stdlib/ndarray/base/unary-reduce-strided1d-dispatch-factory' );
 
 
 // VARIABLES //
 
 var idtypes = dtypes( 'real_and_generic' );
-var odtypes = dtypes( 'real_and_generic' );
+var odtypes = dtypes( 'real_floating_point_and_generic' );
 var policies = {
-	'output': 'same',
+	'output': 'real_floating_point_and_generic',
 	'casting': 'none'
 };
 var table = {
@@ -41,19 +41,19 @@ var table = {
 		'float32'  // input
 	],
 	'fcns': [
-		dmax,
-		smax
+		dmeankbn,
+		smeankbn
 	],
-	'default': gmax
+	'default': gmeankbn
 };
 
 
 // MAIN //
 
 /**
-* Computes the maximum value along one or more ndarray dimensions.
+* Computes the arithmetic mean along one or more ndarray dimensions using an improved Kahan–Babuška algorithm.
 *
-* @name max
+* @name meankbn
 * @type {Function}
 * @param {ndarray} x - input ndarray
 * @param {Options} [options] - function options
@@ -87,12 +87,15 @@ var table = {
 * var x = new ndarray( 'float64', xbuf, sh, sx, ox, 'row-major' );
 *
 * // Perform reduction:
-* var out = max( x );
-* // returns <ndarray>[ 11.0 ]
+* var out = meankbn( x );
+* // returns <ndarray>
+*
+* var v = out.get();
+* // returns 6.5
 */
-var max = factory( table, [ idtypes ], odtypes, policies );
+var meankbn = factory( table, [ idtypes ], odtypes, policies );
 
 
 // EXPORTS //
 
-module.exports = max;
+module.exports = meankbn;

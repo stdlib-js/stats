@@ -21,7 +21,7 @@
 /// <reference types="@stdlib/types"/>
 
 import { ArrayLike } from '@stdlib/types/array';
-import { RealAndGenericDataType as DataType, typedndarray } from '@stdlib/types/ndarray';
+import { RealFloatingPointAndGenericDataType as DataType, typedndarray } from '@stdlib/types/ndarray';
 
 /**
 * Input array.
@@ -63,7 +63,7 @@ interface Options extends BaseOptions {
 */
 interface Unary {
 	/**
-	* Computes the maximum value along one or more ndarray dimensions.
+	* Computes the arithmetic mean along one or more ndarray dimensions using an improved Kahan–Babuška algorithm.
 	*
 	* @param x - input ndarray
 	* @param options - function options
@@ -72,15 +72,18 @@ interface Unary {
 	* @example
 	* var array = require( '@stdlib/ndarray/array' );
 	*
-	* var x = array( [ -1.0, 2.0, -3.0 ] );
+	* var x = array( [ 1.0, 2.0, -2.0, 4.0 ] );
 	*
-	* var y = max( x );
-	* // returns <ndarray>[ 2.0 ]
+	* var y = meankbn( x );
+	* // returns <ndarray>
+	*
+	* var v = y.get();
+	* // returns 1.25
 	*/
 	<T = unknown, U = unknown>( x: InputArray<T>, options?: Options ): OutputArray<U>; // NOTE: we lose type specificity here, but retaining specificity would likely be difficult and/or tedious to completely enumerate, as the output ndarray data type is dependent on how `x` interacts with output data type policy and whether that policy has been overridden by `options.dtype`.
 
 	/**
-	* Computes the maximum value along one or more ndarray dimensions and assigns results to a provided output ndarray.
+	* Computes the arithmetic mean along one or more ndarray dimensions using an improved Kahan–Babuška algorithm and assigns results to a provided output ndarray.
 	*
 	* @param x - input ndarray
 	* @param out - output ndarray
@@ -91,11 +94,14 @@ interface Unary {
 	* var array = require( '@stdlib/ndarray/array' );
 	* var zeros = require( '@stdlib/ndarray/zeros' );
 	*
-	* var x = array( [ -1.0, 2.0, -3.0 ] );
+	* var x = array( [ 1.0, 2.0, -2.0, 4.0 ] );
 	* var y = zeros( [] );
 	*
-	* var out = max.assign( x, y );
-	* // returns <ndarray>[ 2.0 ]
+	* var out = meankbn.assign( x, y );
+	* // returns <ndarray>
+	*
+	* var v = out.get();
+	* // returns 1.25
 	*
 	* var bool = ( out === y );
 	* // returns true
@@ -104,7 +110,7 @@ interface Unary {
 }
 
 /**
-* Computes the maximum value along one or more ndarray dimensions.
+* Computes the arithmetic mean along one or more ndarray dimensions using an improved Kahan–Babuška algorithm.
 *
 * @param x - input ndarray
 * @param options - function options
@@ -113,27 +119,33 @@ interface Unary {
 * @example
 * var array = require( '@stdlib/ndarray/array' );
 *
-* var x = array( [ -1.0, 2.0, -3.0 ] );
+* var x = array( [ 1.0, 2.0, -2.0, 4.0 ] );
 *
-* var y = max( x );
-* // returns <ndarray>[ 2.0 ]
+* var y = meankbn( x );
+* // returns <ndarray>
+*
+* var v = y.get();
+* // returns 1.25
 *
 * @example
 * var array = require( '@stdlib/ndarray/array' );
 * var zeros = require( '@stdlib/ndarray/zeros' );
 *
-* var x = array( [ -1.0, 2.0, -3.0 ] )
+* var x = array( [ 1.0, 2.0, -2.0, 4.0 ] );
 * var y = zeros( [] );
 *
-* var out = max.assign( x, y );
-* // returns <ndarray>[ 2.0 ]
+* var out = meankbn.assign( x, y );
+* // returns <ndarray>
+*
+* var v = out.get();
+* // returns 1.25
 *
 * var bool = ( out === y );
 * // returns true
 */
-declare const max: Unary;
+declare const meankbn: Unary;
 
 
 // EXPORTS //
 
-export = max;
+export = meankbn;
