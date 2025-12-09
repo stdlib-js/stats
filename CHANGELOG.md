@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-08)
+## Unreleased (2025-12-09)
 
 <section class="features">
 
 ### Features
 
+-   [`c5c1a8f`](https://github.com/stdlib-js/stdlib/commit/c5c1a8f9650b6bbb6978870738833a9d250c76a7) - add `stats/meanpw` [(#8810)](https://github.com/stdlib-js/stdlib/pull/8810)
 -   [`3d4db51`](https://github.com/stdlib-js/stdlib/commit/3d4db51e2ad26e7021b48606d7c31157fdad00c4) - add `stats/nanmax-by` [(#8769)](https://github.com/stdlib-js/stdlib/pull/8769)
 -   [`c3faa28`](https://github.com/stdlib-js/stdlib/commit/c3faa28eb8dadcaaf61c8fed8ce87edf1f2d9aab) - add `stats/nanmeanwd` [(#8786)](https://github.com/stdlib-js/stdlib/pull/8786)
 -   [`d59bcf1`](https://github.com/stdlib-js/stdlib/commit/d59bcf10a72a422cbe767dc1dab9e903dabbd300) - add `stats/meanors` [(#8793)](https://github.com/stdlib-js/stdlib/pull/8793)
@@ -3512,6 +3513,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`c5c1a8f`](https://github.com/stdlib-js/stdlib/commit/c5c1a8f9650b6bbb6978870738833a9d250c76a7) - **feat:** add `stats/meanpw` [(#8810)](https://github.com/stdlib-js/stdlib/pull/8810) _(by Pratik, Athan Reines)_
 -   [`3d4db51`](https://github.com/stdlib-js/stdlib/commit/3d4db51e2ad26e7021b48606d7c31157fdad00c4) - **feat:** add `stats/nanmax-by` [(#8769)](https://github.com/stdlib-js/stdlib/pull/8769) _(by Sachin Pangal, Athan Reines)_
 -   [`006274e`](https://github.com/stdlib-js/stdlib/commit/006274e27badde01275e5daa80e8caeab301a787) - **test:** fix strides _(by Athan Reines)_
 -   [`c3faa28`](https://github.com/stdlib-js/stdlib/commit/c3faa28eb8dadcaaf61c8fed8ce87edf1f2d9aab) - **feat:** add `stats/nanmeanwd` [(#8786)](https://github.com/stdlib-js/stdlib/pull/8786) _(by Sachin Pangal, Athan Reines)_
