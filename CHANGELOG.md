@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3a07ca1`](https://github.com/stdlib-js/stdlib/commit/3a07ca1fffc12a0d1f37f51c449bf5dd36c21160) - add `stats/meanwd` [(#8914)](https://github.com/stdlib-js/stdlib/pull/8914)
 -   [`492117e`](https://github.com/stdlib-js/stdlib/commit/492117e5209184d5dc186c397cb54fb53393dd69) - add `stats/meankbn` [(#8854)](https://github.com/stdlib-js/stdlib/pull/8854)
 -   [`317438a`](https://github.com/stdlib-js/stdlib/commit/317438abf73316f326712254aa305fac7262851b) - add `stats/meankbn2` [(#8874)](https://github.com/stdlib-js/stdlib/pull/8874)
 -   [`e888953`](https://github.com/stdlib-js/stdlib/commit/e8889532c48dafa994bc720350b1f373061a7590) - add `stats/mediansorted` [(#8892)](https://github.com/stdlib-js/stdlib/pull/8892)
@@ -3518,6 +3519,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`3a07ca1`](https://github.com/stdlib-js/stdlib/commit/3a07ca1fffc12a0d1f37f51c449bf5dd36c21160) - **feat:** add `stats/meanwd` [(#8914)](https://github.com/stdlib-js/stdlib/pull/8914) _(by Sachin Pangal, Athan Reines)_
 -   [`01a7d5e`](https://github.com/stdlib-js/stdlib/commit/01a7d5eae3a7c6c244382ff2c2c00c19cc5acb68) - **docs:** add missing semicolons _(by Athan Reines)_
 -   [`6c85fa1`](https://github.com/stdlib-js/stdlib/commit/6c85fa1533817b8b5e227ca4814c9fc63c23dec7) - **docs:** update return annotations to use ndarray instance notation _(by Athan Reines)_
 -   [`1e07403`](https://github.com/stdlib-js/stdlib/commit/1e074034dfc14ccc5ec31573fa52678f72b707cf) - **chore:** minor clean-up _(by Philipp Burckhardt)_
