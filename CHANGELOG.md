@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e888953`](https://github.com/stdlib-js/stdlib/commit/e8889532c48dafa994bc720350b1f373061a7590) - add `stats/mediansorted` [(#8892)](https://github.com/stdlib-js/stdlib/pull/8892)
 -   [`7bea8b5`](https://github.com/stdlib-js/stdlib/commit/7bea8b5c11cfe2b7beda45abd52a3a77c951ac2e) - add `stats/meanpn` [(#8884)](https://github.com/stdlib-js/stdlib/pull/8884)
 -   [`b7393b1`](https://github.com/stdlib-js/stdlib/commit/b7393b1ad321506d9adbed0ab055c82cc7960492) - add `stats/minsorted` [(#8890)](https://github.com/stdlib-js/stdlib/pull/8890)
 -   [`c5c1a8f`](https://github.com/stdlib-js/stdlib/commit/c5c1a8f9650b6bbb6978870738833a9d250c76a7) - add `stats/meanpw` [(#8810)](https://github.com/stdlib-js/stdlib/pull/8810)
@@ -3515,6 +3516,7 @@ A total of 557 issues were closed in this release:
 
 <details>
 
+-   [`e888953`](https://github.com/stdlib-js/stdlib/commit/e8889532c48dafa994bc720350b1f373061a7590) - **feat:** add `stats/mediansorted` [(#8892)](https://github.com/stdlib-js/stdlib/pull/8892) _(by Sachin Pangal, Athan Reines)_
 -   [`7bea8b5`](https://github.com/stdlib-js/stdlib/commit/7bea8b5c11cfe2b7beda45abd52a3a77c951ac2e) - **feat:** add `stats/meanpn` [(#8884)](https://github.com/stdlib-js/stdlib/pull/8884) _(by Sachin Pangal, Athan Reines)_
 -   [`b7393b1`](https://github.com/stdlib-js/stdlib/commit/b7393b1ad321506d9adbed0ab055c82cc7960492) - **feat:** add `stats/minsorted` [(#8890)](https://github.com/stdlib-js/stdlib/pull/8890) _(by Sachin Pangal, Athan Reines)_
 -   [`c5c1a8f`](https://github.com/stdlib-js/stdlib/commit/c5c1a8f9650b6bbb6978870738833a9d250c76a7) - **feat:** add `stats/meanpw` [(#8810)](https://github.com/stdlib-js/stdlib/pull/8810) _(by Pratik, Athan Reines)_
