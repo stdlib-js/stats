@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ce624dc`](https://github.com/stdlib-js/stdlib/commit/ce624dc7f0efd6d5e96d57bea6191b3390542206) - add `stats/base/ndarray/dnanmskmin` [(#8924)](https://github.com/stdlib-js/stdlib/pull/8924)
 -   [`3a07ca1`](https://github.com/stdlib-js/stdlib/commit/3a07ca1fffc12a0d1f37f51c449bf5dd36c21160) - add `stats/meanwd` [(#8914)](https://github.com/stdlib-js/stdlib/pull/8914)
 -   [`492117e`](https://github.com/stdlib-js/stdlib/commit/492117e5209184d5dc186c397cb54fb53393dd69) - add `stats/meankbn` [(#8854)](https://github.com/stdlib-js/stdlib/pull/8854)
 -   [`317438a`](https://github.com/stdlib-js/stdlib/commit/317438abf73316f326712254aa305fac7262851b) - add `stats/meankbn2` [(#8874)](https://github.com/stdlib-js/stdlib/pull/8874)
@@ -3519,6 +3520,7 @@ A total of 558 issues were closed in this release:
 
 <details>
 
+-   [`ce624dc`](https://github.com/stdlib-js/stdlib/commit/ce624dc7f0efd6d5e96d57bea6191b3390542206) - **feat:** add `stats/base/ndarray/dnanmskmin` [(#8924)](https://github.com/stdlib-js/stdlib/pull/8924) _(by Pratik, Athan Reines)_
 -   [`4b9e370`](https://github.com/stdlib-js/stdlib/commit/4b9e370719620bef34b850abf218d4d065e650d8) - **bench:** refactor random number generation in `stats/base/dists/t` [(#8833)](https://github.com/stdlib-js/stdlib/pull/8833) _(by Sagar Ratna Chaudhary)_
 -   [`3a07ca1`](https://github.com/stdlib-js/stdlib/commit/3a07ca1fffc12a0d1f37f51c449bf5dd36c21160) - **feat:** add `stats/meanwd` [(#8914)](https://github.com/stdlib-js/stdlib/pull/8914) _(by Sachin Pangal, Athan Reines)_
 -   [`01a7d5e`](https://github.com/stdlib-js/stdlib/commit/01a7d5eae3a7c6c244382ff2c2c00c19cc5acb68) - **docs:** add missing semicolons _(by Athan Reines)_
