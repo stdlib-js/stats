@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-10)
+## Unreleased (2025-12-13)
 
 <section class="features">
 
@@ -3520,6 +3520,7 @@ A total of 558 issues were closed in this release:
 
 <details>
 
+-   [`1122999`](https://github.com/stdlib-js/stdlib/commit/1122999e01e55ebd060cead63acfdfd89d01a72f) - **docs:** replace manual `for` loop in examples [(#9019)](https://github.com/stdlib-js/stdlib/pull/9019) _(by Harsh Yadav)_
 -   [`e4bb414`](https://github.com/stdlib-js/stdlib/commit/e4bb41490a59186722b1d35eb9feb34c19678e5e) - **docs:** update examples [(#8927)](https://github.com/stdlib-js/stdlib/pull/8927) _(by stdlib-bot)_
 -   [`ce624dc`](https://github.com/stdlib-js/stdlib/commit/ce624dc7f0efd6d5e96d57bea6191b3390542206) - **feat:** add `stats/base/ndarray/dnanmskmin` [(#8924)](https://github.com/stdlib-js/stdlib/pull/8924) _(by Pratik, Athan Reines)_
 -   [`4b9e370`](https://github.com/stdlib-js/stdlib/commit/4b9e370719620bef34b850abf218d4d065e650d8) - **bench:** refactor random number generation in `stats/base/dists/t` [(#8833)](https://github.com/stdlib-js/stdlib/pull/8833) _(by Sagar Ratna Chaudhary)_
