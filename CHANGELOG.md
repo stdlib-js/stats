@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1bbae9f`](https://github.com/stdlib-js/stdlib/commit/1bbae9f0b9cb70547c20d29095361d3b28002b7e) - add `stats/base/ndarray/snanrange` [(#8979)](https://github.com/stdlib-js/stdlib/pull/8979)
 -   [`d6a7c47`](https://github.com/stdlib-js/stdlib/commit/d6a7c4729603d09b8ff81b91f8062ccee3510398) - add `stats/base/ndarray/dnanrange` [(#8978)](https://github.com/stdlib-js/stdlib/pull/8978)
 -   [`ce624dc`](https://github.com/stdlib-js/stdlib/commit/ce624dc7f0efd6d5e96d57bea6191b3390542206) - add `stats/base/ndarray/dnanmskmin` [(#8924)](https://github.com/stdlib-js/stdlib/pull/8924)
 -   [`3a07ca1`](https://github.com/stdlib-js/stdlib/commit/3a07ca1fffc12a0d1f37f51c449bf5dd36c21160) - add `stats/meanwd` [(#8914)](https://github.com/stdlib-js/stdlib/pull/8914)
@@ -3521,6 +3522,7 @@ A total of 558 issues were closed in this release:
 
 <details>
 
+-   [`1bbae9f`](https://github.com/stdlib-js/stdlib/commit/1bbae9f0b9cb70547c20d29095361d3b28002b7e) - **feat:** add `stats/base/ndarray/snanrange` [(#8979)](https://github.com/stdlib-js/stdlib/pull/8979) _(by Sachin Pangal)_
 -   [`1a8cc79`](https://github.com/stdlib-js/stdlib/commit/1a8cc797c3adce4d19378ab7eb85323272472164) - **docs:** update return annotations to use ndarray instance notation in `stats/range-by` [(#8939)](https://github.com/stdlib-js/stdlib/pull/8939) _(by Sachin Pangal, Athan Reines)_
 -   [`2f5534c`](https://github.com/stdlib-js/stdlib/commit/2f5534c2ed013da50eff79600144d4d3a6f43839) - **docs:** update return annotations to use ndarray instance notation for `stats/max-by` [(#8932)](https://github.com/stdlib-js/stdlib/pull/8932) _(by Pratik, Athan Reines)_
 -   [`d6a7c47`](https://github.com/stdlib-js/stdlib/commit/d6a7c4729603d09b8ff81b91f8062ccee3510398) - **feat:** add `stats/base/ndarray/dnanrange` [(#8978)](https://github.com/stdlib-js/stdlib/pull/8978) _(by Sachin Pangal)_
