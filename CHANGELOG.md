@@ -3523,6 +3523,7 @@ A total of 558 issues were closed in this release:
 
 <details>
 
+-   [`1bb0a07`](https://github.com/stdlib-js/stdlib/commit/1bb0a0711118f948aa9e719f61c360fef7f540f9) - **docs:** update examples [(#9075)](https://github.com/stdlib-js/stdlib/pull/9075) _(by stdlib-bot)_
 -   [`769ab89`](https://github.com/stdlib-js/stdlib/commit/769ab89a85f7c5c5be06e4b49c1cc69f8b528d15) - **feat:** add `stats/nanrange-by` [(#9006)](https://github.com/stdlib-js/stdlib/pull/9006) _(by Sachin Pangal, Athan Reines)_
 -   [`1bbae9f`](https://github.com/stdlib-js/stdlib/commit/1bbae9f0b9cb70547c20d29095361d3b28002b7e) - **feat:** add `stats/base/ndarray/snanrange` [(#8979)](https://github.com/stdlib-js/stdlib/pull/8979) _(by Sachin Pangal)_
 -   [`1a8cc79`](https://github.com/stdlib-js/stdlib/commit/1a8cc797c3adce4d19378ab7eb85323272472164) - **docs:** update return annotations to use ndarray instance notation in `stats/range-by` [(#8939)](https://github.com/stdlib-js/stdlib/pull/8939) _(by Sachin Pangal, Athan Reines)_
