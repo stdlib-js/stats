@@ -3523,6 +3523,7 @@ A total of 558 issues were closed in this release:
 
 <details>
 
+-   [`e43e952`](https://github.com/stdlib-js/stdlib/commit/e43e952e8e677f858d962a0ae590537adc784b43) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmin` [(#9081)](https://github.com/stdlib-js/stdlib/pull/9081) _(by officiallyanee)_
 -   [`1bb0a07`](https://github.com/stdlib-js/stdlib/commit/1bb0a0711118f948aa9e719f61c360fef7f540f9) - **docs:** update examples [(#9075)](https://github.com/stdlib-js/stdlib/pull/9075) _(by stdlib-bot)_
 -   [`769ab89`](https://github.com/stdlib-js/stdlib/commit/769ab89a85f7c5c5be06e4b49c1cc69f8b528d15) - **feat:** add `stats/nanrange-by` [(#9006)](https://github.com/stdlib-js/stdlib/pull/9006) _(by Sachin Pangal, Athan Reines)_
 -   [`1bbae9f`](https://github.com/stdlib-js/stdlib/commit/1bbae9f0b9cb70547c20d29095361d3b28002b7e) - **feat:** add `stats/base/ndarray/snanrange` [(#8979)](https://github.com/stdlib-js/stdlib/pull/8979) _(by Sachin Pangal)_
@@ -6429,7 +6430,7 @@ A total of 558 issues were closed in this release:
 
 ### Contributors
 
-A total of 88 people contributed to this release. Thank you to the following contributors:
+A total of 89 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -6517,6 +6518,7 @@ A total of 88 people contributed to this release. Thank you to the following con
 -   Yuvi Mittal
 -   jsai28
 -   navyansh007
+-   officiallyanee
 -   pranav-1720
 -   rahulrangers
 
