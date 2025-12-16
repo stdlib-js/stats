@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`76d6b8f`](https://github.com/stdlib-js/stdlib/commit/76d6b8f5bc1907fd716c2ddb93406bba25bc8789) - add `stats/nanrange` [(#8956)](https://github.com/stdlib-js/stdlib/pull/8956)
 -   [`769ab89`](https://github.com/stdlib-js/stdlib/commit/769ab89a85f7c5c5be06e4b49c1cc69f8b528d15) - add `stats/nanrange-by` [(#9006)](https://github.com/stdlib-js/stdlib/pull/9006)
 -   [`1bbae9f`](https://github.com/stdlib-js/stdlib/commit/1bbae9f0b9cb70547c20d29095361d3b28002b7e) - add `stats/base/ndarray/snanrange` [(#8979)](https://github.com/stdlib-js/stdlib/pull/8979)
 -   [`d6a7c47`](https://github.com/stdlib-js/stdlib/commit/d6a7c4729603d09b8ff81b91f8062ccee3510398) - add `stats/base/ndarray/dnanrange` [(#8978)](https://github.com/stdlib-js/stdlib/pull/8978)
@@ -3523,6 +3524,7 @@ A total of 558 issues were closed in this release:
 
 <details>
 
+-   [`76d6b8f`](https://github.com/stdlib-js/stdlib/commit/76d6b8f5bc1907fd716c2ddb93406bba25bc8789) - **feat:** add `stats/nanrange` [(#8956)](https://github.com/stdlib-js/stdlib/pull/8956) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
 -   [`0adbf48`](https://github.com/stdlib-js/stdlib/commit/0adbf4895162c92aef25e477c40e53508bd9c999) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmeanli` [(#9085)](https://github.com/stdlib-js/stdlib/pull/9085) _(by officiallyanee)_
 -   [`e43e952`](https://github.com/stdlib-js/stdlib/commit/e43e952e8e677f858d962a0ae590537adc784b43) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmin` [(#9081)](https://github.com/stdlib-js/stdlib/pull/9081) _(by officiallyanee)_
 -   [`1bb0a07`](https://github.com/stdlib-js/stdlib/commit/1bb0a0711118f948aa9e719f61c360fef7f540f9) - **docs:** update examples [(#9075)](https://github.com/stdlib-js/stdlib/pull/9075) _(by stdlib-bot)_
