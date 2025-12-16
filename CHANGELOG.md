@@ -3524,6 +3524,7 @@ A total of 558 issues were closed in this release:
 
 <details>
 
+-   [`94be096`](https://github.com/stdlib-js/stdlib/commit/94be096210ed131627cbefea2f275f8ec416e509) - **docs:** update return annotations to use ndarray instance notation for `stats/maxabs` [(#9084)](https://github.com/stdlib-js/stdlib/pull/9084) _(by Sachin Pangal)_
 -   [`76d6b8f`](https://github.com/stdlib-js/stdlib/commit/76d6b8f5bc1907fd716c2ddb93406bba25bc8789) - **feat:** add `stats/nanrange` [(#8956)](https://github.com/stdlib-js/stdlib/pull/8956) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
 -   [`0adbf48`](https://github.com/stdlib-js/stdlib/commit/0adbf4895162c92aef25e477c40e53508bd9c999) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmeanli` [(#9085)](https://github.com/stdlib-js/stdlib/pull/9085) _(by officiallyanee)_
 -   [`e43e952`](https://github.com/stdlib-js/stdlib/commit/e43e952e8e677f858d962a0ae590537adc784b43) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmin` [(#9081)](https://github.com/stdlib-js/stdlib/pull/9081) _(by officiallyanee)_
