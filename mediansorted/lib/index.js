@@ -45,7 +45,10 @@
 *
 * // Perform reduction:
 * var out = mediansorted( x );
-* // returns <ndarray>[ 3.5 ]
+* // returns <ndarray>
+*
+* var v = out.get();
+* // returns 3.5
 */
 
 // MODULES //

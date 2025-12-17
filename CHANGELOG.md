@@ -3524,9 +3524,6 @@ A total of 558 issues were closed in this release:
 
 <details>
 
--   [`f419d39`](https://github.com/stdlib-js/stdlib/commit/f419d39fe7ec26198d390fa01e85377619c881cd) - **docs:** update return annotations to use ndarray instance notation for `stats/mediansorted` [(#9104)](https://github.com/stdlib-js/stdlib/pull/9104) _(by Pratik)_
--   [`29d229e`](https://github.com/stdlib-js/stdlib/commit/29d229e63a7c9175502c751be31413ace522531f) - **docs:** update return annotations to use ndarray instance notation for `stats/min` [(#9105)](https://github.com/stdlib-js/stdlib/pull/9105) _(by Pratik)_
--   [`79f7d2e`](https://github.com/stdlib-js/stdlib/commit/79f7d2e71ea47b46dba013acc2440f9613901597) - **docs:** update return annotations to use ndarray instance notation for `stats/minabs` [(#9107)](https://github.com/stdlib-js/stdlib/pull/9107) _(by Pratik, Athan Reines)_
 -   [`7384845`](https://github.com/stdlib-js/stdlib/commit/7384845755aa80345bd5f7ae28af1ddd3a501340) - **docs:** update return annotations to use ndarray instance notation for `stats/min-by` [(#9106)](https://github.com/stdlib-js/stdlib/pull/9106) _(by Pratik)_
 -   [`7cf51e4`](https://github.com/stdlib-js/stdlib/commit/7cf51e4f847d45635243db7a8679305e67272511) - **docs:** update `stats` TypeScript declarations [(#9118)](https://github.com/stdlib-js/stdlib/pull/9118) _(by stdlib-bot)_
 -   [`94be096`](https://github.com/stdlib-js/stdlib/commit/94be096210ed131627cbefea2f275f8ec416e509) - **docs:** update return annotations to use ndarray instance notation for `stats/maxabs` [(#9084)](https://github.com/stdlib-js/stdlib/pull/9084) _(by Sachin Pangal)_

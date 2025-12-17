@@ -88,7 +88,10 @@ var table = {
 *
 * // Perform reduction:
 * var out = min( x );
-* // returns <ndarray>[ 2.0 ]
+* // returns <ndarray>
+*
+* var v = out.get();
+* // returns 2.0
 */
 var min = factory( table, [ idtypes ], odtypes, policies );
 

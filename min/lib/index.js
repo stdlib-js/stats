@@ -45,7 +45,10 @@
 *
 * // Perform reduction:
 * var out = min( x );
-* // returns <ndarray>[ 2.0 ]
+* // returns <ndarray>
+*
+* var v = out.get();
+* // returns 2.0
 */
 
 // MODULES //
