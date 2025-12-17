@@ -3524,6 +3524,8 @@ A total of 558 issues were closed in this release:
 
 <details>
 
+-   [`e23bad7`](https://github.com/stdlib-js/stdlib/commit/e23bad75d0635153bd643441192b3d3817bc33f3) - **docs:** update return annotations to use ndarray instance notation for `stats/mean` [(#9092)](https://github.com/stdlib-js/stdlib/pull/9092) _(by Pratik, Athan Reines)_
+-   [`5e0faf8`](https://github.com/stdlib-js/stdlib/commit/5e0faf88ff77013e8f29fb29d73eeec9f7cc64d7) - **docs:** update return annotations to use ndarray instance notation for `stats/meankbn2` [(#9100)](https://github.com/stdlib-js/stdlib/pull/9100) _(by Pratik, Athan Reines)_
 -   [`ef6af24`](https://github.com/stdlib-js/stdlib/commit/ef6af24d7711c680e58d393a70b16f65ee675ad5) - **docs:** update return annotations to use ndarray instance notation for `stats/minsorted` [(#9089)](https://github.com/stdlib-js/stdlib/pull/9089) _(by Sachin Pangal)_
 -   [`e645614`](https://github.com/stdlib-js/stdlib/commit/e64561496e00760d08fb263a656093a1106df840) - **docs:** update return annotations to use ndarray instance notation for `stats/meanors` [(#9101)](https://github.com/stdlib-js/stdlib/pull/9101) _(by Pratik)_
 -   [`c97ca9a`](https://github.com/stdlib-js/stdlib/commit/c97ca9a4307bba71ad8ec74bb67eeb5478d0be52) - **docs:** update return annotations to use ndarray instance notation for `stats/meanpn` [(#9102)](https://github.com/stdlib-js/stdlib/pull/9102) _(by Pratik)_
