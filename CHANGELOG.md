@@ -3524,6 +3524,7 @@ A total of 558 issues were closed in this release:
 
 <details>
 
+-   [`79af092`](https://github.com/stdlib-js/stdlib/commit/79af0924a39db5d71a84faf0f1c05d9fcac76956) - **docs:** update return annotations to use ndarray instance notation for `stats/nanmeanpn` [(#9184)](https://github.com/stdlib-js/stdlib/pull/9184) _(by Sachin Pangal)_
 -   [`16bfee5`](https://github.com/stdlib-js/stdlib/commit/16bfee568a13d70f7e87195296f0852b5f51dd32) - **docs:** update return annotations to use ndarray instance notation for `stats/nanmeanors` [(#9182)](https://github.com/stdlib-js/stdlib/pull/9182) _(by Sachin Pangal)_
 -   [`358876b`](https://github.com/stdlib-js/stdlib/commit/358876b7339bb8d8000661571ed5670ec6c6c123) - **docs:** update return annotations to use ndarray instance notation for `stats/nanmean` [(#9181)](https://github.com/stdlib-js/stdlib/pull/9181) _(by Sachin Pangal)_
 -   [`e235637`](https://github.com/stdlib-js/stdlib/commit/e2356377908f1f6a589f695de1c18e2590a85a0a) - **docs:** update return annotations to use ndarray instance notation for `stats/nanmaxabs` [(#9180)](https://github.com/stdlib-js/stdlib/pull/9180) _(by Sachin Pangal)_
