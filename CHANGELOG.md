@@ -3524,6 +3524,7 @@ A total of 558 issues were closed in this release:
 
 <details>
 
+-   [`ea2e468`](https://github.com/stdlib-js/stdlib/commit/ea2e468ba5638502b1b59cf5d946ba065fae9f7e) - **docs:** update examples [(#9239)](https://github.com/stdlib-js/stdlib/pull/9239) _(by stdlib-bot)_
 -   [`d9ba91b`](https://github.com/stdlib-js/stdlib/commit/d9ba91b874e4ca00243e6d51fff6231d4ab801c2) - **docs:** update return annotations to use ndarray instance notation for `stats/nanminabs` [(#9223)](https://github.com/stdlib-js/stdlib/pull/9223) _(by Sachin Pangal)_
 -   [`30ac15d`](https://github.com/stdlib-js/stdlib/commit/30ac15d266224258d0f50599b43506b4745cf5c9) - **docs:** update return annotations to use ndarray instance notation for `stats/nanmin-by` [(#9195)](https://github.com/stdlib-js/stdlib/pull/9195) _(by Sachin Pangal)_
 -   [`5b31846`](https://github.com/stdlib-js/stdlib/commit/5b318464d02d50f7bbd373c5d1d158b748937225) - **docs:** update return annotations to use ndarray instance notation for `stats/nanmin` [(#9190)](https://github.com/stdlib-js/stdlib/pull/9190) _(by Sachin Pangal)_
