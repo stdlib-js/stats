@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-18)
+## Unreleased (2025-12-19)
 
 <section class="features">
 
@@ -3524,6 +3524,7 @@ A total of 558 issues were closed in this release:
 
 <details>
 
+-   [`d9ba91b`](https://github.com/stdlib-js/stdlib/commit/d9ba91b874e4ca00243e6d51fff6231d4ab801c2) - **docs:** update return annotations to use ndarray instance notation for `stats/nanminabs` [(#9223)](https://github.com/stdlib-js/stdlib/pull/9223) _(by Sachin Pangal)_
 -   [`30ac15d`](https://github.com/stdlib-js/stdlib/commit/30ac15d266224258d0f50599b43506b4745cf5c9) - **docs:** update return annotations to use ndarray instance notation for `stats/nanmin-by` [(#9195)](https://github.com/stdlib-js/stdlib/pull/9195) _(by Sachin Pangal)_
 -   [`5b31846`](https://github.com/stdlib-js/stdlib/commit/5b318464d02d50f7bbd373c5d1d158b748937225) - **docs:** update return annotations to use ndarray instance notation for `stats/nanmin` [(#9190)](https://github.com/stdlib-js/stdlib/pull/9190) _(by Sachin Pangal)_
 -   [`babc451`](https://github.com/stdlib-js/stdlib/commit/babc451c2e9fbf49b234d2fb09942ec50d9e4730) - **docs:** update return annotations to use ndarray instance notation for `stats/nanmeanwd` [(#9187)](https://github.com/stdlib-js/stdlib/pull/9187) _(by Sachin Pangal)_
