@@ -3524,6 +3524,9 @@ A total of 558 issues were closed in this release:
 
 <details>
 
+-   [`6fe0761`](https://github.com/stdlib-js/stdlib/commit/6fe0761c9b399fae0e81992d5dda665cebaee019) - **docs:** replace manual `for` loop in examples [(#9055)](https://github.com/stdlib-js/stdlib/pull/9055) _(by Harsh Yadav)_
+-   [`d57045f`](https://github.com/stdlib-js/stdlib/commit/d57045fec3f0dab1790f3926fd31604724c81540) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`d61ac9c`](https://github.com/stdlib-js/stdlib/commit/d61ac9c7ba00677bfde2c2fbc039db20ef9b2ce2) - **docs:** fix README sections _(by Athan Reines)_
 -   [`8e9cdba`](https://github.com/stdlib-js/stdlib/commit/8e9cdba2577c9ef6b349c091450ef90f96e70a77) - **docs:** update examples [(#9270)](https://github.com/stdlib-js/stdlib/pull/9270) _(by stdlib-bot)_
 -   [`975697c`](https://github.com/stdlib-js/stdlib/commit/975697c99f123dbf8ca5943c877dd6d99740af02) - **docs:** update return annotations to use ndarray instance notation for `stats/range` [(#9246)](https://github.com/stdlib-js/stdlib/pull/9246) _(by Samarth Kolarkar)_
 -   [`ea2e468`](https://github.com/stdlib-js/stdlib/commit/ea2e468ba5638502b1b59cf5d946ba065fae9f7e) - **docs:** update examples [(#9239)](https://github.com/stdlib-js/stdlib/pull/9239) _(by stdlib-bot)_
