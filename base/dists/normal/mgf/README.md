@@ -146,6 +146,8 @@ logEachMap( 't: %0.4f, µ: %0.4f, σ: %0.4f, M_X(t;µ,σ): %0.4f', t, mu, sigma,
 
 </section>
 
+<!-- /.examples -->
+
 <!-- C interface documentation. -->
 
 * * *
