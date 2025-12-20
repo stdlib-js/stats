@@ -3524,6 +3524,7 @@ A total of 558 issues were closed in this release:
 
 <details>
 
+-   [`ee22a7f`](https://github.com/stdlib-js/stdlib/commit/ee22a7f42d7a8733c2ae503a4085a942de386983) - **docs:** replace manual `for` loop in examples [(#9057)](https://github.com/stdlib-js/stdlib/pull/9057) _(by Harsh Yadav)_
 -   [`580e56b`](https://github.com/stdlib-js/stdlib/commit/580e56be6f8ef13e7cefadfa73ac1406ee9bf342) - **docs:** fix missing closing comment _(by Athan Reines)_
 -   [`6fe0761`](https://github.com/stdlib-js/stdlib/commit/6fe0761c9b399fae0e81992d5dda665cebaee019) - **docs:** replace manual `for` loop in examples [(#9055)](https://github.com/stdlib-js/stdlib/pull/9055) _(by Harsh Yadav)_
 -   [`d57045f`](https://github.com/stdlib-js/stdlib/commit/d57045fec3f0dab1790f3926fd31604724c81540) - **chore:** minor clean-up _(by Philipp Burckhardt)_
