@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-20)
+## Unreleased (2025-12-21)
 
 <section class="features">
 
 ### Features
 
+-   [`595918c`](https://github.com/stdlib-js/stdlib/commit/595918c57777524dd8533b80a429c7d331f87444) - add `stats/strided/midrange` [(#9298)](https://github.com/stdlib-js/stdlib/pull/9298)
 -   [`76d6b8f`](https://github.com/stdlib-js/stdlib/commit/76d6b8f5bc1907fd716c2ddb93406bba25bc8789) - add `stats/nanrange` [(#8956)](https://github.com/stdlib-js/stdlib/pull/8956)
 -   [`769ab89`](https://github.com/stdlib-js/stdlib/commit/769ab89a85f7c5c5be06e4b49c1cc69f8b528d15) - add `stats/nanrange-by` [(#9006)](https://github.com/stdlib-js/stdlib/pull/9006)
 -   [`1bbae9f`](https://github.com/stdlib-js/stdlib/commit/1bbae9f0b9cb70547c20d29095361d3b28002b7e) - add `stats/base/ndarray/snanrange` [(#8979)](https://github.com/stdlib-js/stdlib/pull/8979)
@@ -3524,6 +3525,7 @@ A total of 559 issues were closed in this release:
 
 <details>
 
+-   [`595918c`](https://github.com/stdlib-js/stdlib/commit/595918c57777524dd8533b80a429c7d331f87444) - **feat:** add `stats/strided/midrange` [(#9298)](https://github.com/stdlib-js/stdlib/pull/9298) _(by Sachin Pangal, Athan Reines)_
 -   [`f839e6d`](https://github.com/stdlib-js/stdlib/commit/f839e6d90b2b7854450c4abcb8af04b01cb60225) - **chore:** fix C lint errors [(#9282)](https://github.com/stdlib-js/stdlib/pull/9282) _(by Rohit R Bhat)_
 -   [`ee22a7f`](https://github.com/stdlib-js/stdlib/commit/ee22a7f42d7a8733c2ae503a4085a942de386983) - **docs:** replace manual `for` loop in examples [(#9057)](https://github.com/stdlib-js/stdlib/pull/9057) _(by Harsh Yadav)_
 -   [`580e56b`](https://github.com/stdlib-js/stdlib/commit/580e56be6f8ef13e7cefadfa73ac1406ee9bf342) - **docs:** fix missing closing comment _(by Athan Reines)_
