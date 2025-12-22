@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-21)
+## Unreleased (2025-12-22)
 
 <section class="features">
 
@@ -3525,6 +3525,7 @@ A total of 559 issues were closed in this release:
 
 <details>
 
+-   [`61046bb`](https://github.com/stdlib-js/stdlib/commit/61046bb1c95923825493592bf78808fa1b18abc5) - **test:** add missing TypeScript declaration tests _(by Philipp Burckhardt)_
 -   [`595918c`](https://github.com/stdlib-js/stdlib/commit/595918c57777524dd8533b80a429c7d331f87444) - **feat:** add `stats/strided/midrange` [(#9298)](https://github.com/stdlib-js/stdlib/pull/9298) _(by Sachin Pangal, Athan Reines)_
 -   [`f839e6d`](https://github.com/stdlib-js/stdlib/commit/f839e6d90b2b7854450c4abcb8af04b01cb60225) - **chore:** fix C lint errors [(#9282)](https://github.com/stdlib-js/stdlib/pull/9282) _(by Rohit R Bhat)_
 -   [`ee22a7f`](https://github.com/stdlib-js/stdlib/commit/ee22a7f42d7a8733c2ae503a4085a942de386983) - **docs:** replace manual `for` loop in examples [(#9057)](https://github.com/stdlib-js/stdlib/pull/9057) _(by Harsh Yadav)_
