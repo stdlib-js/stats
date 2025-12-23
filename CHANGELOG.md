@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-22)
+## Unreleased (2025-12-23)
 
 <section class="features">
 
 ### Features
 
+-   [`c17e5f2`](https://github.com/stdlib-js/stdlib/commit/c17e5f26a44218e7cc295e5360f681c1d36fee13) - add `stats/base/ndarray/stdev` [(#9248)](https://github.com/stdlib-js/stdlib/pull/9248)
 -   [`595918c`](https://github.com/stdlib-js/stdlib/commit/595918c57777524dd8533b80a429c7d331f87444) - add `stats/strided/midrange` [(#9298)](https://github.com/stdlib-js/stdlib/pull/9298)
 -   [`76d6b8f`](https://github.com/stdlib-js/stdlib/commit/76d6b8f5bc1907fd716c2ddb93406bba25bc8789) - add `stats/nanrange` [(#8956)](https://github.com/stdlib-js/stdlib/pull/8956)
 -   [`769ab89`](https://github.com/stdlib-js/stdlib/commit/769ab89a85f7c5c5be06e4b49c1cc69f8b528d15) - add `stats/nanrange-by` [(#9006)](https://github.com/stdlib-js/stdlib/pull/9006)
@@ -3525,6 +3526,7 @@ A total of 559 issues were closed in this release:
 
 <details>
 
+-   [`c17e5f2`](https://github.com/stdlib-js/stdlib/commit/c17e5f26a44218e7cc295e5360f681c1d36fee13) - **feat:** add `stats/base/ndarray/stdev` [(#9248)](https://github.com/stdlib-js/stdlib/pull/9248) _(by Pratik, Athan Reines)_
 -   [`61046bb`](https://github.com/stdlib-js/stdlib/commit/61046bb1c95923825493592bf78808fa1b18abc5) - **test:** add missing TypeScript declaration tests _(by Philipp Burckhardt)_
 -   [`595918c`](https://github.com/stdlib-js/stdlib/commit/595918c57777524dd8533b80a429c7d331f87444) - **feat:** add `stats/strided/midrange` [(#9298)](https://github.com/stdlib-js/stdlib/pull/9298) _(by Sachin Pangal, Athan Reines)_
 -   [`f839e6d`](https://github.com/stdlib-js/stdlib/commit/f839e6d90b2b7854450c4abcb8af04b01cb60225) - **chore:** fix C lint errors [(#9282)](https://github.com/stdlib-js/stdlib/pull/9282) _(by Rohit R Bhat)_
