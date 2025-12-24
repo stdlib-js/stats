@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2c30c8f`](https://github.com/stdlib-js/stdlib/commit/2c30c8fccde4aa82d60552050b8a876ffac9bc6d) - add `stats/midrange` [(#9333)](https://github.com/stdlib-js/stdlib/pull/9333)
 -   [`f04a31d`](https://github.com/stdlib-js/stdlib/commit/f04a31de84e7201d3cb54cc39a19eee84f49b407) - add `stats/base/ndarray/stdevch` [(#9327)](https://github.com/stdlib-js/stdlib/pull/9327)
 -   [`2447f62`](https://github.com/stdlib-js/stdlib/commit/2447f62ca5393d6bfcfb487915efb58797867c10) - add `stats/base/ndarray/sstdev` [(#9341)](https://github.com/stdlib-js/stdlib/pull/9341)
 -   [`ffee9eb`](https://github.com/stdlib-js/stdlib/commit/ffee9eb167e2f3b1750163bf9f9937f7e9db48d3) - add `stats/strided/mskmidrange` [(#9331)](https://github.com/stdlib-js/stdlib/pull/9331)
@@ -3531,6 +3532,7 @@ A total of 559 issues were closed in this release:
 
 <details>
 
+-   [`2c30c8f`](https://github.com/stdlib-js/stdlib/commit/2c30c8fccde4aa82d60552050b8a876ffac9bc6d) - **feat:** add `stats/midrange` [(#9333)](https://github.com/stdlib-js/stdlib/pull/9333) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
 -   [`f04a31d`](https://github.com/stdlib-js/stdlib/commit/f04a31de84e7201d3cb54cc39a19eee84f49b407) - **feat:** add `stats/base/ndarray/stdevch` [(#9327)](https://github.com/stdlib-js/stdlib/pull/9327) _(by Pratik, Athan Reines)_
 -   [`2447f62`](https://github.com/stdlib-js/stdlib/commit/2447f62ca5393d6bfcfb487915efb58797867c10) - **feat:** add `stats/base/ndarray/sstdev` [(#9341)](https://github.com/stdlib-js/stdlib/pull/9341) _(by Kaustubh Patange, Athan Reines)_
 -   [`d94f831`](https://github.com/stdlib-js/stdlib/commit/d94f8313eb8c0a08d2963a938c96a5f22a5f666e) - **test:** fix message _(by Athan Reines)_
