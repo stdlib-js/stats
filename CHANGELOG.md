@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0d237ed`](https://github.com/stdlib-js/stdlib/commit/0d237ed24ae4362f4d31ebdf742b0b3901ada59b) - add `stats/strided/nanmidrange` [(#9323)](https://github.com/stdlib-js/stdlib/pull/9323)
 -   [`c17e5f2`](https://github.com/stdlib-js/stdlib/commit/c17e5f26a44218e7cc295e5360f681c1d36fee13) - add `stats/base/ndarray/stdev` [(#9248)](https://github.com/stdlib-js/stdlib/pull/9248)
 -   [`595918c`](https://github.com/stdlib-js/stdlib/commit/595918c57777524dd8533b80a429c7d331f87444) - add `stats/strided/midrange` [(#9298)](https://github.com/stdlib-js/stdlib/pull/9298)
 -   [`76d6b8f`](https://github.com/stdlib-js/stdlib/commit/76d6b8f5bc1907fd716c2ddb93406bba25bc8789) - add `stats/nanrange` [(#8956)](https://github.com/stdlib-js/stdlib/pull/8956)
@@ -3526,6 +3527,7 @@ A total of 559 issues were closed in this release:
 
 <details>
 
+-   [`0d237ed`](https://github.com/stdlib-js/stdlib/commit/0d237ed24ae4362f4d31ebdf742b0b3901ada59b) - **feat:** add `stats/strided/nanmidrange` [(#9323)](https://github.com/stdlib-js/stdlib/pull/9323) _(by Sachin Pangal, Athan Reines)_
 -   [`038e74d`](https://github.com/stdlib-js/stdlib/commit/038e74da7817997d6de072cf614f32e930136fa9) - **docs:** revert back to using 'constructor' instead of 'function' _(by Philipp Burckhardt)_
 -   [`c216219`](https://github.com/stdlib-js/stdlib/commit/c2162190116f0953296c56c41b7480c8c050ab7e) - **docs:** fix JSDoc parameter type in `stats/base/ztest/one-sample/results` constructors _(by Philipp Burckhardt)_
 -   [`518e88e`](https://github.com/stdlib-js/stdlib/commit/518e88ef1c3de77e44a760fcabb1aa7ebd4ee72d) - **chore:** use literal since setter accepts strings directly _(by Philipp Burckhardt)_
