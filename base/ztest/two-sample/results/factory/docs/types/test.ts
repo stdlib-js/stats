@@ -53,7 +53,7 @@ import resultsFactory = require( './index' );
 	const r3 = new Results( new ArrayBuffer( 80 ), 8, 16 ); // $ExpectType ResultsStruct<Float64Array>
 }
 
-// The returned function can be invoked without `new`...
+// The returned constructor can be invoked without `new`...
 {
 	const Results = resultsFactory( 'float64' );
 

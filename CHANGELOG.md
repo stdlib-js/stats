@@ -3526,6 +3526,7 @@ A total of 559 issues were closed in this release:
 
 <details>
 
+-   [`038e74d`](https://github.com/stdlib-js/stdlib/commit/038e74da7817997d6de072cf614f32e930136fa9) - **docs:** revert back to using 'constructor' instead of 'function' _(by Philipp Burckhardt)_
 -   [`c216219`](https://github.com/stdlib-js/stdlib/commit/c2162190116f0953296c56c41b7480c8c050ab7e) - **docs:** fix JSDoc parameter type in `stats/base/ztest/one-sample/results` constructors _(by Philipp Burckhardt)_
 -   [`518e88e`](https://github.com/stdlib-js/stdlib/commit/518e88ef1c3de77e44a760fcabb1aa7ebd4ee72d) - **chore:** use literal since setter accepts strings directly _(by Philipp Burckhardt)_
 -   [`59455b6`](https://github.com/stdlib-js/stdlib/commit/59455b661612d4c4ed47c25d3077884b985742fc) - **docs:** add `toString`, `toJSON`, and `toDataView` declarations to Z-test results packages _(by Philipp Burckhardt)_

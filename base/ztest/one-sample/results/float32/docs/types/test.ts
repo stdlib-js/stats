@@ -21,7 +21,7 @@ import Results = require( './index' );
 
 // TESTS //
 
-// The function returns a results object...
+// The constructor returns a results object...
 {
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	const r0 = new Results( {} ); // $ExpectType ResultsStruct
@@ -36,7 +36,7 @@ import Results = require( './index' );
 	const r3 = new Results( new ArrayBuffer( 80 ), 8, 16 ); // $ExpectType ResultsStruct
 }
 
-// The function can be invoked without `new`...
+// The constructor can be invoked without `new`...
 {
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	const r0 = Results( {} ); // $ExpectType ResultsStruct
