@@ -31,7 +31,7 @@ var factory = require( './../../../../../../base/ztest/one-sample/results/factor
 * @name Results
 * @constructor
 * @type {Function}
-* @param {ArrayBuffer} [buffer] - underlying byte buffer
+* @param {(ArrayBuffer|Object)} [arg] - underlying byte buffer or data object
 * @param {NonNegativeInteger} [byteOffset] - byte offset
 * @param {NonNegativeInteger} [byteLength] - maximum byte length
 * @returns {Results} results object

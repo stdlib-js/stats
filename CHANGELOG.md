@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-23)
+## Unreleased (2025-12-24)
 
 <section class="features">
 
@@ -3526,6 +3526,10 @@ A total of 559 issues were closed in this release:
 
 <details>
 
+-   [`c216219`](https://github.com/stdlib-js/stdlib/commit/c2162190116f0953296c56c41b7480c8c050ab7e) - **docs:** fix JSDoc parameter type in `stats/base/ztest/one-sample/results` constructors _(by Philipp Burckhardt)_
+-   [`518e88e`](https://github.com/stdlib-js/stdlib/commit/518e88ef1c3de77e44a760fcabb1aa7ebd4ee72d) - **chore:** use literal since setter accepts strings directly _(by Philipp Burckhardt)_
+-   [`59455b6`](https://github.com/stdlib-js/stdlib/commit/59455b661612d4c4ed47c25d3077884b985742fc) - **docs:** add `toString`, `toJSON`, and `toDataView` declarations to Z-test results packages _(by Philipp Burckhardt)_
+-   [`0a437aa`](https://github.com/stdlib-js/stdlib/commit/0a437aad60abb626a22840c9bad66414b627749f) - **chore:** remove usage of unsupported option _(by Philipp Burckhardt)_
 -   [`c17e5f2`](https://github.com/stdlib-js/stdlib/commit/c17e5f26a44218e7cc295e5360f681c1d36fee13) - **feat:** add `stats/base/ndarray/stdev` [(#9248)](https://github.com/stdlib-js/stdlib/pull/9248) _(by Pratik, Athan Reines)_
 -   [`61046bb`](https://github.com/stdlib-js/stdlib/commit/61046bb1c95923825493592bf78808fa1b18abc5) - **test:** add missing TypeScript declaration tests _(by Philipp Burckhardt)_
 -   [`595918c`](https://github.com/stdlib-js/stdlib/commit/595918c57777524dd8533b80a429c7d331f87444) - **feat:** add `stats/strided/midrange` [(#9298)](https://github.com/stdlib-js/stdlib/pull/9298) _(by Sachin Pangal, Athan Reines)_

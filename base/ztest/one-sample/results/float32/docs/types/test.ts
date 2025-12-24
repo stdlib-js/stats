@@ -21,7 +21,7 @@ import Results = require( './index' );
 
 // TESTS //
 
-// The constructor returns a results object...
+// The function returns a results object...
 {
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	const r0 = new Results( {} ); // $ExpectType ResultsStruct
@@ -36,7 +36,7 @@ import Results = require( './index' );
 	const r3 = new Results( new ArrayBuffer( 80 ), 8, 16 ); // $ExpectType ResultsStruct
 }
 
-// The constructor can be invoked without `new`...
+// The function can be invoked without `new`...
 {
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	const r0 = Results( {} ); // $ExpectType ResultsStruct
@@ -114,4 +114,29 @@ import Results = require( './index' );
 	new Results( new ArrayBuffer( 80 ), 8, [] ); // $ExpectError
 	new Results( new ArrayBuffer( 80 ), 8, {} ); // $ExpectError
 	new Results( new ArrayBuffer( 80 ), 8, ( x: number ): number => x ); // $ExpectError
+}
+
+// The results object has a `toString` method...
+{
+	const r = new Results( {} );
+
+	r.toString(); // $ExpectType string
+	r.toString( {} ); // $ExpectType string
+	r.toString( { 'digits': 4 } ); // $ExpectType string
+	r.toString( { 'decision': true } ); // $ExpectType string
+	r.toString( { 'digits': 4, 'decision': true } ); // $ExpectType string
+}
+
+// The results object has a `toJSON` method...
+{
+	const r = new Results( {} );
+
+	r.toJSON(); // $ExpectType object
+}
+
+// The results object has a `toDataView` method...
+{
+	const r = new Results( {} );
+
+	r.toDataView(); // $ExpectType DataView
 }

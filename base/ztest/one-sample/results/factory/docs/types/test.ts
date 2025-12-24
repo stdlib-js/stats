@@ -53,7 +53,7 @@ import resultsFactory = require( './index' );
 	const r3 = new Results( new ArrayBuffer( 80 ), 8, 16 ); // $ExpectType ResultsStruct<Float64Array>
 }
 
-// The returned constructor can be invoked without `new`...
+// The returned function can be invoked without `new`...
 {
 	const Results = resultsFactory( 'float64' );
 
@@ -170,4 +170,32 @@ import resultsFactory = require( './index' );
 	new Results( new ArrayBuffer( 80 ), 8, [] ); // $ExpectError
 	new Results( new ArrayBuffer( 80 ), 8, {} ); // $ExpectError
 	new Results( new ArrayBuffer( 80 ), 8, ( x: number ): number => x ); // $ExpectError
+}
+
+// The results object has a `toString` method...
+{
+	const Results = resultsFactory( 'float64' );
+	const r = new Results( {} );
+
+	r.toString(); // $ExpectType string
+	r.toString( {} ); // $ExpectType string
+	r.toString( { 'digits': 4 } ); // $ExpectType string
+	r.toString( { 'decision': true } ); // $ExpectType string
+	r.toString( { 'digits': 4, 'decision': true } ); // $ExpectType string
+}
+
+// The results object has a `toJSON` method...
+{
+	const Results = resultsFactory( 'float64' );
+	const r = new Results( {} );
+
+	r.toJSON(); // $ExpectType object
+}
+
+// The results object has a `toDataView` method...
+{
+	const Results = resultsFactory( 'float64' );
+	const r = new Results( {} );
+
+	r.toDataView(); // $ExpectType DataView
 }
