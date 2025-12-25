@@ -3533,6 +3533,10 @@ A total of 559 issues were closed in this release:
 
 <details>
 
+-   [`b256d64`](https://github.com/stdlib-js/stdlib/commit/b256d64a727ea0a266e8fae6ffacd519b55abdb0) - **test:** add test for negative zero _(by Philipp Burckhardt)_
+-   [`54b804b`](https://github.com/stdlib-js/stdlib/commit/54b804bba55d0045117f48b267cae91de0d9da8d) - **chore:** fix spacing _(by Philipp Burckhardt)_
+-   [`ddac446`](https://github.com/stdlib-js/stdlib/commit/ddac4466bf8851865e8f0260a1562c6db70774d8) - **test:** pass in missing argument _(by Philipp Burckhardt)_
+-   [`683e342`](https://github.com/stdlib-js/stdlib/commit/683e34223d282c9021303d0a57c07cffdc431397) - **bench:** add missing :ndarray _(by Philipp Burckhardt)_
 -   [`65784f7`](https://github.com/stdlib-js/stdlib/commit/65784f785748107e1fc5d84ad75c9778422e8442) - **feat:** add `stats/strided/midrange-by` [(#9328)](https://github.com/stdlib-js/stdlib/pull/9328) _(by Sachin Pangal, Athan Reines)_
 -   [`2c30c8f`](https://github.com/stdlib-js/stdlib/commit/2c30c8fccde4aa82d60552050b8a876ffac9bc6d) - **feat:** add `stats/midrange` [(#9333)](https://github.com/stdlib-js/stdlib/pull/9333) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
 -   [`f04a31d`](https://github.com/stdlib-js/stdlib/commit/f04a31de84e7201d3cb54cc39a19eee84f49b407) - **feat:** add `stats/base/ndarray/stdevch` [(#9327)](https://github.com/stdlib-js/stdlib/pull/9327) _(by Pratik, Athan Reines)_
