@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9e5b1db`](https://github.com/stdlib-js/stdlib/commit/9e5b1dbcb5c122ac460507aa889a171a8f67bd2e) - add `stats/base/ndarray/stdevpn` [(#9381)](https://github.com/stdlib-js/stdlib/pull/9381)
 -   [`9a44f1a`](https://github.com/stdlib-js/stdlib/commit/9a44f1ac8a945490b8703f52c32f3aaef3ae1283) - add `stats/base/ndarray/stdevtk` [(#9382)](https://github.com/stdlib-js/stdlib/pull/9382)
 -   [`d687dfb`](https://github.com/stdlib-js/stdlib/commit/d687dfb2c5fa089b942f3a56ad668ae15ea4eec3) - add `stats/base/ndarray/sstdevch` [(#9383)](https://github.com/stdlib-js/stdlib/pull/9383)
 -   [`9e89946`](https://github.com/stdlib-js/stdlib/commit/9e89946832d57bb62985856154032f79be7ec695) - add `stats/base/ndarray/stdevwd` [(#9384)](https://github.com/stdlib-js/stdlib/pull/9384)
@@ -3537,6 +3538,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`9e5b1db`](https://github.com/stdlib-js/stdlib/commit/9e5b1dbcb5c122ac460507aa889a171a8f67bd2e) - **feat:** add `stats/base/ndarray/stdevpn` [(#9381)](https://github.com/stdlib-js/stdlib/pull/9381) _(by Pratik)_
 -   [`9a44f1a`](https://github.com/stdlib-js/stdlib/commit/9a44f1ac8a945490b8703f52c32f3aaef3ae1283) - **feat:** add `stats/base/ndarray/stdevtk` [(#9382)](https://github.com/stdlib-js/stdlib/pull/9382) _(by Pratik)_
 -   [`d687dfb`](https://github.com/stdlib-js/stdlib/commit/d687dfb2c5fa089b942f3a56ad668ae15ea4eec3) - **feat:** add `stats/base/ndarray/sstdevch` [(#9383)](https://github.com/stdlib-js/stdlib/pull/9383) _(by Kaustubh Patange, Athan Reines)_
 -   [`9e89946`](https://github.com/stdlib-js/stdlib/commit/9e89946832d57bb62985856154032f79be7ec695) - **feat:** add `stats/base/ndarray/stdevwd` [(#9384)](https://github.com/stdlib-js/stdlib/pull/9384) _(by Pratik)_
