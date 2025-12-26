@@ -3534,6 +3534,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`7f51132`](https://github.com/stdlib-js/stdlib/commit/7f511325dacfffc581b49bd6d3d4c5a035c167d8) - **docs:** improve doctests for ndarray instances in `stats/maxsorted` [(#9385)](https://github.com/stdlib-js/stdlib/pull/9385) _(by Shivam Mittal, Athan Reines)_
 -   [`e88f80d`](https://github.com/stdlib-js/stdlib/commit/e88f80dbfd6514e9949f7b523e703a962c780273) - **feat:** add `stats/strided/dnanmidrange` [(#9374)](https://github.com/stdlib-js/stdlib/pull/9374) _(by Sachin Pangal, Athan Reines)_
 -   [`8006652`](https://github.com/stdlib-js/stdlib/commit/800665265e87453d27573506d1e5f3c50e458920) - **chore:** fix C lint errors [(#9360)](https://github.com/stdlib-js/stdlib/pull/9360) _(by Geo Daoyu, Athan Reines)_
 -   [`b256d64`](https://github.com/stdlib-js/stdlib/commit/b256d64a727ea0a266e8fae6ffacd519b55abdb0) - **test:** add test for negative zero _(by Philipp Burckhardt)_
@@ -6499,7 +6500,7 @@ A total of 560 issues were closed in this release:
 
 ### Contributors
 
-A total of 91 people contributed to this release. Thank you to the following contributors:
+A total of 92 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -6579,6 +6580,7 @@ A total of 91 people contributed to this release. Thank you to the following con
 -   Samarth Kolarkar
 -   Saurabh Singh
 -   Shabareesh Shetty
+-   Shivam Mittal
 -   Shivansh
 -   Siddhesh waje
 -   Tanishq Ahuja
