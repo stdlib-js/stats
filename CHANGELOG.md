@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9e89946`](https://github.com/stdlib-js/stdlib/commit/9e89946832d57bb62985856154032f79be7ec695) - add `stats/base/ndarray/stdevwd` [(#9384)](https://github.com/stdlib-js/stdlib/pull/9384)
 -   [`e88f80d`](https://github.com/stdlib-js/stdlib/commit/e88f80dbfd6514e9949f7b523e703a962c780273) - add `stats/strided/dnanmidrange` [(#9374)](https://github.com/stdlib-js/stdlib/pull/9374)
 -   [`65784f7`](https://github.com/stdlib-js/stdlib/commit/65784f785748107e1fc5d84ad75c9778422e8442) - add `stats/strided/midrange-by` [(#9328)](https://github.com/stdlib-js/stdlib/pull/9328)
 -   [`2c30c8f`](https://github.com/stdlib-js/stdlib/commit/2c30c8fccde4aa82d60552050b8a876ffac9bc6d) - add `stats/midrange` [(#9333)](https://github.com/stdlib-js/stdlib/pull/9333)
@@ -3534,6 +3535,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`9e89946`](https://github.com/stdlib-js/stdlib/commit/9e89946832d57bb62985856154032f79be7ec695) - **feat:** add `stats/base/ndarray/stdevwd` [(#9384)](https://github.com/stdlib-js/stdlib/pull/9384) _(by Pratik)_
 -   [`7f51132`](https://github.com/stdlib-js/stdlib/commit/7f511325dacfffc581b49bd6d3d4c5a035c167d8) - **docs:** improve doctests for ndarray instances in `stats/maxsorted` [(#9385)](https://github.com/stdlib-js/stdlib/pull/9385) _(by Shivam Mittal, Athan Reines)_
 -   [`e88f80d`](https://github.com/stdlib-js/stdlib/commit/e88f80dbfd6514e9949f7b523e703a962c780273) - **feat:** add `stats/strided/dnanmidrange` [(#9374)](https://github.com/stdlib-js/stdlib/pull/9374) _(by Sachin Pangal, Athan Reines)_
 -   [`8006652`](https://github.com/stdlib-js/stdlib/commit/800665265e87453d27573506d1e5f3c50e458920) - **chore:** fix C lint errors [(#9360)](https://github.com/stdlib-js/stdlib/pull/9360) _(by Geo Daoyu, Athan Reines)_
