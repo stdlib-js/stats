@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e88f80d`](https://github.com/stdlib-js/stdlib/commit/e88f80dbfd6514e9949f7b523e703a962c780273) - add `stats/strided/dnanmidrange` [(#9374)](https://github.com/stdlib-js/stdlib/pull/9374)
 -   [`65784f7`](https://github.com/stdlib-js/stdlib/commit/65784f785748107e1fc5d84ad75c9778422e8442) - add `stats/strided/midrange-by` [(#9328)](https://github.com/stdlib-js/stdlib/pull/9328)
 -   [`2c30c8f`](https://github.com/stdlib-js/stdlib/commit/2c30c8fccde4aa82d60552050b8a876ffac9bc6d) - add `stats/midrange` [(#9333)](https://github.com/stdlib-js/stdlib/pull/9333)
 -   [`f04a31d`](https://github.com/stdlib-js/stdlib/commit/f04a31de84e7201d3cb54cc39a19eee84f49b407) - add `stats/base/ndarray/stdevch` [(#9327)](https://github.com/stdlib-js/stdlib/pull/9327)
@@ -3533,6 +3534,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`e88f80d`](https://github.com/stdlib-js/stdlib/commit/e88f80dbfd6514e9949f7b523e703a962c780273) - **feat:** add `stats/strided/dnanmidrange` [(#9374)](https://github.com/stdlib-js/stdlib/pull/9374) _(by Sachin Pangal, Athan Reines)_
 -   [`8006652`](https://github.com/stdlib-js/stdlib/commit/800665265e87453d27573506d1e5f3c50e458920) - **chore:** fix C lint errors [(#9360)](https://github.com/stdlib-js/stdlib/pull/9360) _(by Geo Daoyu, Athan Reines)_
 -   [`b256d64`](https://github.com/stdlib-js/stdlib/commit/b256d64a727ea0a266e8fae6ffacd519b55abdb0) - **test:** add test for negative zero _(by Philipp Burckhardt)_
 -   [`54b804b`](https://github.com/stdlib-js/stdlib/commit/54b804bba55d0045117f48b267cae91de0d9da8d) - **chore:** fix spacing _(by Philipp Burckhardt)_
