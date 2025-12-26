@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9a44f1a`](https://github.com/stdlib-js/stdlib/commit/9a44f1ac8a945490b8703f52c32f3aaef3ae1283) - add `stats/base/ndarray/stdevtk` [(#9382)](https://github.com/stdlib-js/stdlib/pull/9382)
 -   [`d687dfb`](https://github.com/stdlib-js/stdlib/commit/d687dfb2c5fa089b942f3a56ad668ae15ea4eec3) - add `stats/base/ndarray/sstdevch` [(#9383)](https://github.com/stdlib-js/stdlib/pull/9383)
 -   [`9e89946`](https://github.com/stdlib-js/stdlib/commit/9e89946832d57bb62985856154032f79be7ec695) - add `stats/base/ndarray/stdevwd` [(#9384)](https://github.com/stdlib-js/stdlib/pull/9384)
 -   [`e88f80d`](https://github.com/stdlib-js/stdlib/commit/e88f80dbfd6514e9949f7b523e703a962c780273) - add `stats/strided/dnanmidrange` [(#9374)](https://github.com/stdlib-js/stdlib/pull/9374)
@@ -3536,6 +3537,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`9a44f1a`](https://github.com/stdlib-js/stdlib/commit/9a44f1ac8a945490b8703f52c32f3aaef3ae1283) - **feat:** add `stats/base/ndarray/stdevtk` [(#9382)](https://github.com/stdlib-js/stdlib/pull/9382) _(by Pratik)_
 -   [`d687dfb`](https://github.com/stdlib-js/stdlib/commit/d687dfb2c5fa089b942f3a56ad668ae15ea4eec3) - **feat:** add `stats/base/ndarray/sstdevch` [(#9383)](https://github.com/stdlib-js/stdlib/pull/9383) _(by Kaustubh Patange, Athan Reines)_
 -   [`9e89946`](https://github.com/stdlib-js/stdlib/commit/9e89946832d57bb62985856154032f79be7ec695) - **feat:** add `stats/base/ndarray/stdevwd` [(#9384)](https://github.com/stdlib-js/stdlib/pull/9384) _(by Pratik)_
 -   [`7f51132`](https://github.com/stdlib-js/stdlib/commit/7f511325dacfffc581b49bd6d3d4c5a035c167d8) - **docs:** improve doctests for ndarray instances in `stats/maxsorted` [(#9385)](https://github.com/stdlib-js/stdlib/pull/9385) _(by Shivam Mittal, Athan Reines)_
