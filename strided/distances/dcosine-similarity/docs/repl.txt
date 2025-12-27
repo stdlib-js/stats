@@ -20,13 +20,13 @@
         First input array.
 
     strideX: integer
-        String length for `x`.
+        Stride length for `x`.
 
     y: Float64Array
         Second input array.
 
     strideY: integer
-        String length for `y`.
+        Stride length for `y`.
 
     Returns
     -------
@@ -73,7 +73,7 @@
         First input array.
 
     strideX: integer
-        String length for `x`.
+        Stride length for `x`.
 
     offsetX: integer
         Starting index for `x`.
@@ -82,7 +82,7 @@
         Second input array.
 
     strideY: integer
-        String length for `y`.
+        Stride length for `y`.
 
     offsetY: integer
         Starting index for `y`.

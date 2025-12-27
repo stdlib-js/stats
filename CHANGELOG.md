@@ -3539,6 +3539,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`f40f3ed`](https://github.com/stdlib-js/stdlib/commit/f40f3ed3614de207225686772c7858c64510d1fb) - **docs:** fix parameter description _(by Philipp Burckhardt)_
 -   [`7be3235`](https://github.com/stdlib-js/stdlib/commit/7be3235f58dab6f5a5ac11a58ddad8d5ba2fcb1a) - **feat:** add `stats/strided/distances/dcosine-similarity` [(#9281)](https://github.com/stdlib-js/stdlib/pull/9281) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
 -   [`9e5b1db`](https://github.com/stdlib-js/stdlib/commit/9e5b1dbcb5c122ac460507aa889a171a8f67bd2e) - **feat:** add `stats/base/ndarray/stdevpn` [(#9381)](https://github.com/stdlib-js/stdlib/pull/9381) _(by Pratik)_
 -   [`9a44f1a`](https://github.com/stdlib-js/stdlib/commit/9a44f1ac8a945490b8703f52c32f3aaef3ae1283) - **feat:** add `stats/base/ndarray/stdevtk` [(#9382)](https://github.com/stdlib-js/stdlib/pull/9382) _(by Pratik)_
