@@ -1248,6 +1248,7 @@
 
 ### Bug Fixes
 
+-   [`20d29ed`](https://github.com/stdlib-js/stdlib/commit/20d29ed3410f2ff8ff6bfadbfb0a1f5a4b7e5fde) - use `int8ndarray` type for alternative hypothesis param in `ndarray/sztest` and `ndarray/dztest`
 -   [`0d71e53`](https://github.com/stdlib-js/stdlib/commit/0d71e530c42bc8d7c98ad779e505fc01bd904a1f) - ensure correct `this` context when creating a new Module instance
 -   [`edfd675`](https://github.com/stdlib-js/stdlib/commit/edfd6756143f80e262fbc2c09c28db938fa65a29) - ensure correct `this` context when creating a new Module instance
 -   [`de1d0f7`](https://github.com/stdlib-js/stdlib/commit/de1d0f71bf4ae0cb747dc48b479e551f069bd58a) - ensure correct `this` context when creating a new Module instance
@@ -3539,6 +3540,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`20d29ed`](https://github.com/stdlib-js/stdlib/commit/20d29ed3410f2ff8ff6bfadbfb0a1f5a4b7e5fde) - **fix:** use `int8ndarray` type for alternative hypothesis param in `ndarray/sztest` and `ndarray/dztest` _(by Philipp Burckhardt)_
 -   [`880be90`](https://github.com/stdlib-js/stdlib/commit/880be90c78565355d6e6616def13ccf5037faeca) - **style:** add missing spaces before closing bracket _(by Philipp Burckhardt)_
 -   [`f40f3ed`](https://github.com/stdlib-js/stdlib/commit/f40f3ed3614de207225686772c7858c64510d1fb) - **docs:** fix parameter description _(by Philipp Burckhardt)_
 -   [`7be3235`](https://github.com/stdlib-js/stdlib/commit/7be3235f58dab6f5a5ac11a58ddad8d5ba2fcb1a) - **feat:** add `stats/strided/distances/dcosine-similarity` [(#9281)](https://github.com/stdlib-js/stdlib/pull/9281) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
