@@ -3542,6 +3542,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`6d64a34`](https://github.com/stdlib-js/stdlib/commit/6d64a344071e5e7afd0a8500cc27bee493d6e439) - **docs:** replace manual `for` loop in examples [(#9439)](https://github.com/stdlib-js/stdlib/pull/9439) _(by Harsh Yadav, Athan Reines)_
 -   [`b1ea83c`](https://github.com/stdlib-js/stdlib/commit/b1ea83c92e4080906e3fdbd9530c4013142894ad) - **feat:** add `stats/strided/nanmidrange-by` [(#9401)](https://github.com/stdlib-js/stdlib/pull/9401) _(by Sachin Pangal, Athan Reines)_
 -   [`f4d072e`](https://github.com/stdlib-js/stdlib/commit/f4d072ea93759a1ddb497804a572a13158cdffb9) - **feat:** add `stats/strided/snanmidrange` [(#9400)](https://github.com/stdlib-js/stdlib/pull/9400) _(by Sachin Pangal, Athan Reines)_
 -   [`40fddc9`](https://github.com/stdlib-js/stdlib/commit/40fddc9801524ef1ff07040447efbb70cdfa7452) - **test:** fix test descriptions _(by Athan Reines)_
