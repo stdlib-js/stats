@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b1ea83c`](https://github.com/stdlib-js/stdlib/commit/b1ea83c92e4080906e3fdbd9530c4013142894ad) - add `stats/strided/nanmidrange-by` [(#9401)](https://github.com/stdlib-js/stdlib/pull/9401)
 -   [`f4d072e`](https://github.com/stdlib-js/stdlib/commit/f4d072ea93759a1ddb497804a572a13158cdffb9) - add `stats/strided/snanmidrange` [(#9400)](https://github.com/stdlib-js/stdlib/pull/9400)
 -   [`7be3235`](https://github.com/stdlib-js/stdlib/commit/7be3235f58dab6f5a5ac11a58ddad8d5ba2fcb1a) - add `stats/strided/distances/dcosine-similarity` [(#9281)](https://github.com/stdlib-js/stdlib/pull/9281)
 -   [`9e5b1db`](https://github.com/stdlib-js/stdlib/commit/9e5b1dbcb5c122ac460507aa889a171a8f67bd2e) - add `stats/base/ndarray/stdevpn` [(#9381)](https://github.com/stdlib-js/stdlib/pull/9381)
@@ -3541,6 +3542,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`b1ea83c`](https://github.com/stdlib-js/stdlib/commit/b1ea83c92e4080906e3fdbd9530c4013142894ad) - **feat:** add `stats/strided/nanmidrange-by` [(#9401)](https://github.com/stdlib-js/stdlib/pull/9401) _(by Sachin Pangal, Athan Reines)_
 -   [`f4d072e`](https://github.com/stdlib-js/stdlib/commit/f4d072ea93759a1ddb497804a572a13158cdffb9) - **feat:** add `stats/strided/snanmidrange` [(#9400)](https://github.com/stdlib-js/stdlib/pull/9400) _(by Sachin Pangal, Athan Reines)_
 -   [`40fddc9`](https://github.com/stdlib-js/stdlib/commit/40fddc9801524ef1ff07040447efbb70cdfa7452) - **test:** fix test descriptions _(by Athan Reines)_
 -   [`7830472`](https://github.com/stdlib-js/stdlib/commit/783047291af025831264739d9841e60ab32232f2) - **bench:** fix description _(by Athan Reines)_
