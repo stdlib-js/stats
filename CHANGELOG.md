@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-29)
+## Unreleased (2025-12-30)
 
 <section class="features">
 
@@ -3540,6 +3540,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`50b3a2c`](https://github.com/stdlib-js/stdlib/commit/50b3a2c95317bf69b879709c648aacf908439c16) - **docs:** fix function name tags _(by Philipp Burckhardt)_
 -   [`4b1efc6`](https://github.com/stdlib-js/stdlib/commit/4b1efc6552af03e1b7d260f6f10e7e042e7d68f6) - **docs:** update dtype type _(by Athan Reines)_
 -   [`ff435c0`](https://github.com/stdlib-js/stdlib/commit/ff435c01d291e9ef75429a026fb221b729aa4a07) - **docs:** update dtype type _(by Athan Reines)_
 -   [`20d29ed`](https://github.com/stdlib-js/stdlib/commit/20d29ed3410f2ff8ff6bfadbfb0a1f5a4b7e5fde) - **fix:** use `int8ndarray` type for alternative hypothesis param in `ndarray/sztest` and `ndarray/dztest` _(by Philipp Burckhardt)_
