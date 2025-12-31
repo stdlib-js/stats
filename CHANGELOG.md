@@ -3543,6 +3543,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`4d332d8`](https://github.com/stdlib-js/stdlib/commit/4d332d8be34328ad684754205b482d90151d9bdf) - **docs:** replace manual `for` loop in examples [(#9455)](https://github.com/stdlib-js/stdlib/pull/9455) _(by Harsh Yadav)_
 -   [`b06fcb7`](https://github.com/stdlib-js/stdlib/commit/b06fcb7281ace6b7d917fb124e514bf27dd9816f) - **feat:** add `stats/strided/dmskmidrange` [(#9446)](https://github.com/stdlib-js/stdlib/pull/9446) _(by Sachin Pangal, Athan Reines)_
 -   [`93fa3eb`](https://github.com/stdlib-js/stdlib/commit/93fa3eb4ae84a02ec231d778c6e543a83a86bc45) - **docs:** replace manual `for` loop in examples [(#9440)](https://github.com/stdlib-js/stdlib/pull/9440) _(by Harsh Yadav, Athan Reines)_
 -   [`6d64a34`](https://github.com/stdlib-js/stdlib/commit/6d64a344071e5e7afd0a8500cc27bee493d6e439) - **docs:** replace manual `for` loop in examples [(#9439)](https://github.com/stdlib-js/stdlib/pull/9439) _(by Harsh Yadav, Athan Reines)_
