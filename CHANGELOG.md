@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-30)
+## Unreleased (2025-12-31)
 
 <section class="features">
 
@@ -3542,6 +3542,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`93fa3eb`](https://github.com/stdlib-js/stdlib/commit/93fa3eb4ae84a02ec231d778c6e543a83a86bc45) - **docs:** replace manual `for` loop in examples [(#9440)](https://github.com/stdlib-js/stdlib/pull/9440) _(by Harsh Yadav, Athan Reines)_
 -   [`6d64a34`](https://github.com/stdlib-js/stdlib/commit/6d64a344071e5e7afd0a8500cc27bee493d6e439) - **docs:** replace manual `for` loop in examples [(#9439)](https://github.com/stdlib-js/stdlib/pull/9439) _(by Harsh Yadav, Athan Reines)_
 -   [`b1ea83c`](https://github.com/stdlib-js/stdlib/commit/b1ea83c92e4080906e3fdbd9530c4013142894ad) - **feat:** add `stats/strided/nanmidrange-by` [(#9401)](https://github.com/stdlib-js/stdlib/pull/9401) _(by Sachin Pangal, Athan Reines)_
 -   [`f4d072e`](https://github.com/stdlib-js/stdlib/commit/f4d072ea93759a1ddb497804a572a13158cdffb9) - **feat:** add `stats/strided/snanmidrange` [(#9400)](https://github.com/stdlib-js/stdlib/pull/9400) _(by Sachin Pangal, Athan Reines)_
