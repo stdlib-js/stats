@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-31)
+## Unreleased (2026-01-01)
 
 <section class="features">
 
@@ -3543,6 +3543,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`edccce1`](https://github.com/stdlib-js/stdlib/commit/edccce1444f24145380aa51e8439f95928bda403) - **docs:** replace manual `for` loop in examples [(#9479)](https://github.com/stdlib-js/stdlib/pull/9479) _(by Harsh Yadav)_
 -   [`8caa497`](https://github.com/stdlib-js/stdlib/commit/8caa4973a29c819b20c60eb5d7e5127a9b3a15b9) - **chore:** clean-up, fix examples, and update tests _(by Athan Reines)_
 -   [`e682423`](https://github.com/stdlib-js/stdlib/commit/e6824239d2ebe1dfdc4397ab6e0da2151ac131aa) - **docs:** replace manual `for` loop in examples [(#9456)](https://github.com/stdlib-js/stdlib/pull/9456) _(by Harsh Yadav)_
 -   [`4d332d8`](https://github.com/stdlib-js/stdlib/commit/4d332d8be34328ad684754205b482d90151d9bdf) - **docs:** replace manual `for` loop in examples [(#9455)](https://github.com/stdlib-js/stdlib/pull/9455) _(by Harsh Yadav)_
