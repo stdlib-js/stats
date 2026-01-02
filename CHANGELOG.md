@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-01)
+## Unreleased (2026-01-02)
 
 <section class="features">
 
 ### Features
 
+-   [`81f1cc5`](https://github.com/stdlib-js/stdlib/commit/81f1cc50d12dbb6ad9c0a198850ee56455c76db7) - add `stats/base/ndarray/nanmidrange` [(#9418)](https://github.com/stdlib-js/stdlib/pull/9418)
 -   [`b06fcb7`](https://github.com/stdlib-js/stdlib/commit/b06fcb7281ace6b7d917fb124e514bf27dd9816f) - add `stats/strided/dmskmidrange` [(#9446)](https://github.com/stdlib-js/stdlib/pull/9446)
 -   [`b1ea83c`](https://github.com/stdlib-js/stdlib/commit/b1ea83c92e4080906e3fdbd9530c4013142894ad) - add `stats/strided/nanmidrange-by` [(#9401)](https://github.com/stdlib-js/stdlib/pull/9401)
 -   [`f4d072e`](https://github.com/stdlib-js/stdlib/commit/f4d072ea93759a1ddb497804a572a13158cdffb9) - add `stats/strided/snanmidrange` [(#9400)](https://github.com/stdlib-js/stdlib/pull/9400)
@@ -3543,6 +3544,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`81f1cc5`](https://github.com/stdlib-js/stdlib/commit/81f1cc50d12dbb6ad9c0a198850ee56455c76db7) - **feat:** add `stats/base/ndarray/nanmidrange` [(#9418)](https://github.com/stdlib-js/stdlib/pull/9418) _(by Sachin Pangal, stdlib-bot)_
 -   [`88af63a`](https://github.com/stdlib-js/stdlib/commit/88af63aa54165f09b84ef528cadc3dae622ab05a) - **docs:** replace manual `for` loop in examples [(#9444)](https://github.com/stdlib-js/stdlib/pull/9444) _(by Harsh Yadav)_
 -   [`edccce1`](https://github.com/stdlib-js/stdlib/commit/edccce1444f24145380aa51e8439f95928bda403) - **docs:** replace manual `for` loop in examples [(#9479)](https://github.com/stdlib-js/stdlib/pull/9479) _(by Harsh Yadav)_
 -   [`8caa497`](https://github.com/stdlib-js/stdlib/commit/8caa4973a29c819b20c60eb5d7e5127a9b3a15b9) - **chore:** clean-up, fix examples, and update tests _(by Athan Reines)_
