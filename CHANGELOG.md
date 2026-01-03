@@ -1339,6 +1339,7 @@
 
 ### Reverts
 
+-   [`932f042`](https://github.com/stdlib-js/stdlib/commit/932f0422195ffa4db9efaca5e060881716aae006) - chore: add src to directories
 -   [`168c7c1`](https://github.com/stdlib-js/stdlib/commit/168c7c18aa58007cf9d7785b9cde69e8e7157c21) - docs: fix example code
 -   [`5678272`](https://github.com/stdlib-js/stdlib/commit/5678272af1d4f9e08fd667e54cb46083075b5d3d) - feat: add missing `stats/base` exports to namespace
 
@@ -3546,6 +3547,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`932f042`](https://github.com/stdlib-js/stdlib/commit/932f0422195ffa4db9efaca5e060881716aae006) - **revert:** chore: add src to directories _(by Philipp Burckhardt)_
 -   [`3b896f1`](https://github.com/stdlib-js/stdlib/commit/3b896f19550d799ea5a61d386974f6ce1f341eaa) - **chore:** add src to directories _(by Philipp Burckhardt)_
 -   [`8107a5a`](https://github.com/stdlib-js/stdlib/commit/8107a5a755bbdeb69c8110a2dbc9ed1a39d136c9) - **feat:** add `stats/base/ndarray/dnanmidrange` [(#9504)](https://github.com/stdlib-js/stdlib/pull/9504) _(by Sachin Pangal)_
 -   [`fb7c43e`](https://github.com/stdlib-js/stdlib/commit/fb7c43e10a7a6f10f2677fa7ea1790fff535c968) - **feat:** add `stats/strided/smskmidrange` [(#9492)](https://github.com/stdlib-js/stdlib/pull/9492) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
