@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`fb7c43e`](https://github.com/stdlib-js/stdlib/commit/fb7c43e10a7a6f10f2677fa7ea1790fff535c968) - add `stats/strided/smskmidrange` [(#9492)](https://github.com/stdlib-js/stdlib/pull/9492)
 -   [`81f1cc5`](https://github.com/stdlib-js/stdlib/commit/81f1cc50d12dbb6ad9c0a198850ee56455c76db7) - add `stats/base/ndarray/nanmidrange` [(#9418)](https://github.com/stdlib-js/stdlib/pull/9418)
 -   [`b06fcb7`](https://github.com/stdlib-js/stdlib/commit/b06fcb7281ace6b7d917fb124e514bf27dd9816f) - add `stats/strided/dmskmidrange` [(#9446)](https://github.com/stdlib-js/stdlib/pull/9446)
 -   [`b1ea83c`](https://github.com/stdlib-js/stdlib/commit/b1ea83c92e4080906e3fdbd9530c4013142894ad) - add `stats/strided/nanmidrange-by` [(#9401)](https://github.com/stdlib-js/stdlib/pull/9401)
@@ -3544,6 +3545,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`fb7c43e`](https://github.com/stdlib-js/stdlib/commit/fb7c43e10a7a6f10f2677fa7ea1790fff535c968) - **feat:** add `stats/strided/smskmidrange` [(#9492)](https://github.com/stdlib-js/stdlib/pull/9492) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
 -   [`c026135`](https://github.com/stdlib-js/stdlib/commit/c0261358afbc15c908bd276eb789f86f9d90ffaa) - **style:** remove empty line [(#9507)](https://github.com/stdlib-js/stdlib/pull/9507) _(by stdlib-bot)_
 -   [`81f1cc5`](https://github.com/stdlib-js/stdlib/commit/81f1cc50d12dbb6ad9c0a198850ee56455c76db7) - **feat:** add `stats/base/ndarray/nanmidrange` [(#9418)](https://github.com/stdlib-js/stdlib/pull/9418) _(by Sachin Pangal, stdlib-bot)_
 -   [`88af63a`](https://github.com/stdlib-js/stdlib/commit/88af63aa54165f09b84ef528cadc3dae622ab05a) - **docs:** replace manual `for` loop in examples [(#9444)](https://github.com/stdlib-js/stdlib/pull/9444) _(by Harsh Yadav)_
