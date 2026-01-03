@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-02)
+## Unreleased (2026-01-03)
 
 <section class="features">
 
@@ -3544,6 +3544,7 @@ A total of 560 issues were closed in this release:
 
 <details>
 
+-   [`c026135`](https://github.com/stdlib-js/stdlib/commit/c0261358afbc15c908bd276eb789f86f9d90ffaa) - **style:** remove empty line [(#9507)](https://github.com/stdlib-js/stdlib/pull/9507) _(by stdlib-bot)_
 -   [`81f1cc5`](https://github.com/stdlib-js/stdlib/commit/81f1cc50d12dbb6ad9c0a198850ee56455c76db7) - **feat:** add `stats/base/ndarray/nanmidrange` [(#9418)](https://github.com/stdlib-js/stdlib/pull/9418) _(by Sachin Pangal, stdlib-bot)_
 -   [`88af63a`](https://github.com/stdlib-js/stdlib/commit/88af63aa54165f09b84ef528cadc3dae622ab05a) - **docs:** replace manual `for` loop in examples [(#9444)](https://github.com/stdlib-js/stdlib/pull/9444) _(by Harsh Yadav)_
 -   [`edccce1`](https://github.com/stdlib-js/stdlib/commit/edccce1444f24145380aa51e8439f95928bda403) - **docs:** replace manual `for` loop in examples [(#9479)](https://github.com/stdlib-js/stdlib/pull/9479) _(by Harsh Yadav)_
