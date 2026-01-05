@@ -1256,6 +1256,7 @@
 
 ### Bug Fixes
 
+-   [`bda1a5c`](https://github.com/stdlib-js/stdlib/commit/bda1a5c6cfa6777839ab5f941296b2008880b75a) - use correct types
 -   [`20d29ed`](https://github.com/stdlib-js/stdlib/commit/20d29ed3410f2ff8ff6bfadbfb0a1f5a4b7e5fde) - use `int8ndarray` type for alternative hypothesis param in `ndarray/sztest` and `ndarray/dztest`
 -   [`0d71e53`](https://github.com/stdlib-js/stdlib/commit/0d71e530c42bc8d7c98ad779e505fc01bd904a1f) - ensure correct `this` context when creating a new Module instance
 -   [`edfd675`](https://github.com/stdlib-js/stdlib/commit/edfd6756143f80e262fbc2c09c28db938fa65a29) - ensure correct `this` context when creating a new Module instance
@@ -3549,6 +3550,7 @@ A total of 562 issues were closed in this release:
 
 <details>
 
+-   [`bda1a5c`](https://github.com/stdlib-js/stdlib/commit/bda1a5c6cfa6777839ab5f941296b2008880b75a) - **fix:** use correct types _(by Athan Reines)_
 -   [`d681872`](https://github.com/stdlib-js/stdlib/commit/d681872a9b87321f4f66852f5aabfeec19e195fc) - **feat:** add `stats/base/ndarray/mskmidrange` [(#9511)](https://github.com/stdlib-js/stdlib/pull/9511) _(by Sachin Pangal)_
 -   [`c824fea`](https://github.com/stdlib-js/stdlib/commit/c824feae2f1582ff59f0d3bee99896fa77ef1f81) - **feat:** add `stats/base/ndarray/snanmidrange` [(#9505)](https://github.com/stdlib-js/stdlib/pull/9505) _(by Sachin Pangal)_
 -   [`c7b5670`](https://github.com/stdlib-js/stdlib/commit/c7b567035c988493c48a6f305b535d6510e72501) - **chore:** fix EditorConfig lint errors [(#9528)](https://github.com/stdlib-js/stdlib/pull/9528) _(by Shreelaxmi Hegde)_
