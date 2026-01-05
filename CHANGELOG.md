@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c216b80`](https://github.com/stdlib-js/stdlib/commit/c216b80baf3efe0d21387a280368c44122328b76) - add `stats/base/ndarray/smskmidrange` [(#9519)](https://github.com/stdlib-js/stdlib/pull/9519)
 -   [`d681872`](https://github.com/stdlib-js/stdlib/commit/d681872a9b87321f4f66852f5aabfeec19e195fc) - add `stats/base/ndarray/mskmidrange` [(#9511)](https://github.com/stdlib-js/stdlib/pull/9511)
 -   [`c824fea`](https://github.com/stdlib-js/stdlib/commit/c824feae2f1582ff59f0d3bee99896fa77ef1f81) - add `stats/base/ndarray/snanmidrange` [(#9505)](https://github.com/stdlib-js/stdlib/pull/9505)
 -   [`8107a5a`](https://github.com/stdlib-js/stdlib/commit/8107a5a755bbdeb69c8110a2dbc9ed1a39d136c9) - add `stats/base/ndarray/dnanmidrange` [(#9504)](https://github.com/stdlib-js/stdlib/pull/9504)
@@ -3550,6 +3551,7 @@ A total of 562 issues were closed in this release:
 
 <details>
 
+-   [`c216b80`](https://github.com/stdlib-js/stdlib/commit/c216b80baf3efe0d21387a280368c44122328b76) - **feat:** add `stats/base/ndarray/smskmidrange` [(#9519)](https://github.com/stdlib-js/stdlib/pull/9519) _(by Sachin Pangal, Athan Reines)_
 -   [`bda1a5c`](https://github.com/stdlib-js/stdlib/commit/bda1a5c6cfa6777839ab5f941296b2008880b75a) - **fix:** use correct types _(by Athan Reines)_
 -   [`d681872`](https://github.com/stdlib-js/stdlib/commit/d681872a9b87321f4f66852f5aabfeec19e195fc) - **feat:** add `stats/base/ndarray/mskmidrange` [(#9511)](https://github.com/stdlib-js/stdlib/pull/9511) _(by Sachin Pangal)_
 -   [`c824fea`](https://github.com/stdlib-js/stdlib/commit/c824feae2f1582ff59f0d3bee99896fa77ef1f81) - **feat:** add `stats/base/ndarray/snanmidrange` [(#9505)](https://github.com/stdlib-js/stdlib/pull/9505) _(by Sachin Pangal)_
