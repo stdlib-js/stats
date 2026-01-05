@@ -3547,6 +3547,7 @@ A total of 561 issues were closed in this release:
 
 <details>
 
+-   [`a27671f`](https://github.com/stdlib-js/stdlib/commit/a27671f8fc907e4f054086e3e422234ed56964cd) - **docs:** update string interpolation in various `stats/base/dists` examples [(#9533)](https://github.com/stdlib-js/stdlib/pull/9533) _(by Harsh Yadav)_
 -   [`e1c4c43`](https://github.com/stdlib-js/stdlib/commit/e1c4c4337a0ad754e9752546fe96ed63f51764da) - **test:** address review comments [(#9543)](https://github.com/stdlib-js/stdlib/pull/9543) _(by daksha607, Athan Reines)_
 -   [`46c47ec`](https://github.com/stdlib-js/stdlib/commit/46c47ec0c92f9a3608290ef8a6ca5cf0e9258866) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`932f042`](https://github.com/stdlib-js/stdlib/commit/932f0422195ffa4db9efaca5e060881716aae006) - **revert:** chore: add src to directories _(by Philipp Burckhardt)_
