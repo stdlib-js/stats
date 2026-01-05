@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1d19423`](https://github.com/stdlib-js/stdlib/commit/1d19423c208ee726419674b8e44ed9b7d4f21ec2) - add `stats/base/ndarray/dstdev` [(#9516)](https://github.com/stdlib-js/stdlib/pull/9516)
 -   [`aa31c82`](https://github.com/stdlib-js/stdlib/commit/aa31c82f3d919244c5393ae7a8b7331355eb2e17) - add `stats/base/ndarray/nanmidrange-by` [(#9501)](https://github.com/stdlib-js/stdlib/pull/9501)
 -   [`6986d92`](https://github.com/stdlib-js/stdlib/commit/6986d92dd402cf96c394abfea5340be84184d2c1) - add `stats/base/ndarray/midrange-by` [(#9512)](https://github.com/stdlib-js/stdlib/pull/9512)
 -   [`c216b80`](https://github.com/stdlib-js/stdlib/commit/c216b80baf3efe0d21387a280368c44122328b76) - add `stats/base/ndarray/smskmidrange` [(#9519)](https://github.com/stdlib-js/stdlib/pull/9519)
@@ -3554,6 +3555,7 @@ A total of 562 issues were closed in this release:
 
 <details>
 
+-   [`1d19423`](https://github.com/stdlib-js/stdlib/commit/1d19423c208ee726419674b8e44ed9b7d4f21ec2) - **feat:** add `stats/base/ndarray/dstdev` [(#9516)](https://github.com/stdlib-js/stdlib/pull/9516) _(by Pratik, Athan Reines)_
 -   [`e80d912`](https://github.com/stdlib-js/stdlib/commit/e80d91298650049b369091edf4af6db7718cfa5d) - **bench:** fix descriptions _(by Athan Reines)_
 -   [`35ce703`](https://github.com/stdlib-js/stdlib/commit/35ce70320886dd8f426225b2bd300114e7ea4c7d) - **docs:** remove duplicate words in documentation [(#9555)](https://github.com/stdlib-js/stdlib/pull/9555) _(by Shivam Mittal)_
 -   [`948e04b`](https://github.com/stdlib-js/stdlib/commit/948e04bf760415e316dbf802d78d82478ca72b2c) - **docs:** update examples _(by Athan Reines)_
