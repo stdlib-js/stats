@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`aa31c82`](https://github.com/stdlib-js/stdlib/commit/aa31c82f3d919244c5393ae7a8b7331355eb2e17) - add `stats/base/ndarray/nanmidrange-by` [(#9501)](https://github.com/stdlib-js/stdlib/pull/9501)
 -   [`6986d92`](https://github.com/stdlib-js/stdlib/commit/6986d92dd402cf96c394abfea5340be84184d2c1) - add `stats/base/ndarray/midrange-by` [(#9512)](https://github.com/stdlib-js/stdlib/pull/9512)
 -   [`c216b80`](https://github.com/stdlib-js/stdlib/commit/c216b80baf3efe0d21387a280368c44122328b76) - add `stats/base/ndarray/smskmidrange` [(#9519)](https://github.com/stdlib-js/stdlib/pull/9519)
 -   [`d681872`](https://github.com/stdlib-js/stdlib/commit/d681872a9b87321f4f66852f5aabfeec19e195fc) - add `stats/base/ndarray/mskmidrange` [(#9511)](https://github.com/stdlib-js/stdlib/pull/9511)
@@ -3553,6 +3554,8 @@ A total of 562 issues were closed in this release:
 
 <details>
 
+-   [`948e04b`](https://github.com/stdlib-js/stdlib/commit/948e04bf760415e316dbf802d78d82478ca72b2c) - **docs:** update examples _(by Athan Reines)_
+-   [`aa31c82`](https://github.com/stdlib-js/stdlib/commit/aa31c82f3d919244c5393ae7a8b7331355eb2e17) - **feat:** add `stats/base/ndarray/nanmidrange-by` [(#9501)](https://github.com/stdlib-js/stdlib/pull/9501) _(by Sachin Pangal, Athan Reines)_
 -   [`6986d92`](https://github.com/stdlib-js/stdlib/commit/6986d92dd402cf96c394abfea5340be84184d2c1) - **feat:** add `stats/base/ndarray/midrange-by` [(#9512)](https://github.com/stdlib-js/stdlib/pull/9512) _(by Sachin Pangal)_
 -   [`3af0a04`](https://github.com/stdlib-js/stdlib/commit/3af0a041f6ae95c251cbfa2acae82b30e3b4579b) - **fix:** return `NaN` when the number of indexed elements is zero in `stats/strided/distances/dcosine-similarity` [(#9497)](https://github.com/stdlib-js/stdlib/pull/9497) _(by Nakul Krishnakumar)_
 -   [`c216b80`](https://github.com/stdlib-js/stdlib/commit/c216b80baf3efe0d21387a280368c44122328b76) - **feat:** add `stats/base/ndarray/smskmidrange` [(#9519)](https://github.com/stdlib-js/stdlib/pull/9519) _(by Sachin Pangal, Athan Reines)_
