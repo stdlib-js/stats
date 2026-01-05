@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c824fea`](https://github.com/stdlib-js/stdlib/commit/c824feae2f1582ff59f0d3bee99896fa77ef1f81) - add `stats/base/ndarray/snanmidrange` [(#9505)](https://github.com/stdlib-js/stdlib/pull/9505)
 -   [`8107a5a`](https://github.com/stdlib-js/stdlib/commit/8107a5a755bbdeb69c8110a2dbc9ed1a39d136c9) - add `stats/base/ndarray/dnanmidrange` [(#9504)](https://github.com/stdlib-js/stdlib/pull/9504)
 -   [`fb7c43e`](https://github.com/stdlib-js/stdlib/commit/fb7c43e10a7a6f10f2677fa7ea1790fff535c968) - add `stats/strided/smskmidrange` [(#9492)](https://github.com/stdlib-js/stdlib/pull/9492)
 -   [`81f1cc5`](https://github.com/stdlib-js/stdlib/commit/81f1cc50d12dbb6ad9c0a198850ee56455c76db7) - add `stats/base/ndarray/nanmidrange` [(#9418)](https://github.com/stdlib-js/stdlib/pull/9418)
@@ -3547,6 +3548,7 @@ A total of 562 issues were closed in this release:
 
 <details>
 
+-   [`c824fea`](https://github.com/stdlib-js/stdlib/commit/c824feae2f1582ff59f0d3bee99896fa77ef1f81) - **feat:** add `stats/base/ndarray/snanmidrange` [(#9505)](https://github.com/stdlib-js/stdlib/pull/9505) _(by Sachin Pangal)_
 -   [`c7b5670`](https://github.com/stdlib-js/stdlib/commit/c7b567035c988493c48a6f305b535d6510e72501) - **chore:** fix EditorConfig lint errors [(#9528)](https://github.com/stdlib-js/stdlib/pull/9528) _(by Shreelaxmi Hegde)_
 -   [`a27671f`](https://github.com/stdlib-js/stdlib/commit/a27671f8fc907e4f054086e3e422234ed56964cd) - **docs:** update string interpolation in various `stats/base/dists` examples [(#9533)](https://github.com/stdlib-js/stdlib/pull/9533) _(by Harsh Yadav)_
 -   [`e1c4c43`](https://github.com/stdlib-js/stdlib/commit/e1c4c4337a0ad754e9752546fe96ed63f51764da) - **test:** address review comments [(#9543)](https://github.com/stdlib-js/stdlib/pull/9543) _(by daksha607, Athan Reines)_
