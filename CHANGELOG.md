@@ -3559,6 +3559,7 @@ A total of 563 issues were closed in this release:
 
 <details>
 
+-   [`7e63571`](https://github.com/stdlib-js/stdlib/commit/7e63571d1ad59b012697ee2ce76e3ca3ac008e7e) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`008ae82`](https://github.com/stdlib-js/stdlib/commit/008ae82617ebeff86a92987e405e2c30ad627f1d) - **feat:** add `stats/strided/distances/dchebychev` [(#9559)](https://github.com/stdlib-js/stdlib/pull/9559) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
 -   [`ed3afe7`](https://github.com/stdlib-js/stdlib/commit/ed3afe7252708109f1a8350c15bcdabcc96f6e0a) - **chore:** fix C lint errors [(#9571)](https://github.com/stdlib-js/stdlib/pull/9571) _(by Geo Daoyu)_
 -   [`9422059`](https://github.com/stdlib-js/stdlib/commit/94220593c164a6c649125950794a496da05b10ef) - **feat:** add `stats/strided/distances/deuclidean` [(#9376)](https://github.com/stdlib-js/stdlib/pull/9376) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
