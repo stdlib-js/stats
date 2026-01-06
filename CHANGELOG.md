@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`09140c2`](https://github.com/stdlib-js/stdlib/commit/09140c2f44214e91e61ce3d6b993d36b56a08f12) - add `stats/strided/distances/dcosine-distance` [(#9430)](https://github.com/stdlib-js/stdlib/pull/9430)
 -   [`fcc1f3c`](https://github.com/stdlib-js/stdlib/commit/fcc1f3cce959e57ada8f4cc484b8a55157ad6087) - add `stats/base/ndarray/sstdevpn` [(#9534)](https://github.com/stdlib-js/stdlib/pull/9534)
 -   [`1d19423`](https://github.com/stdlib-js/stdlib/commit/1d19423c208ee726419674b8e44ed9b7d4f21ec2) - add `stats/base/ndarray/dstdev` [(#9516)](https://github.com/stdlib-js/stdlib/pull/9516)
 -   [`aa31c82`](https://github.com/stdlib-js/stdlib/commit/aa31c82f3d919244c5393ae7a8b7331355eb2e17) - add `stats/base/ndarray/nanmidrange-by` [(#9501)](https://github.com/stdlib-js/stdlib/pull/9501)
@@ -3556,6 +3557,7 @@ A total of 562 issues were closed in this release:
 
 <details>
 
+-   [`09140c2`](https://github.com/stdlib-js/stdlib/commit/09140c2f44214e91e61ce3d6b993d36b56a08f12) - **feat:** add `stats/strided/distances/dcosine-distance` [(#9430)](https://github.com/stdlib-js/stdlib/pull/9430) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
 -   [`d5f4e8c`](https://github.com/stdlib-js/stdlib/commit/d5f4e8cbabde611d9859f9acda04e5b4f0daecd9) - **style:** remove whitespace _(by Athan Reines)_
 -   [`4016fcb`](https://github.com/stdlib-js/stdlib/commit/4016fcbd472fb1dc58b091a59f0828e810f73866) - **style:** remove whitespace _(by Athan Reines)_
 -   [`a20542a`](https://github.com/stdlib-js/stdlib/commit/a20542aba55714d744e959d3073fa5bb9966e454) - **style:** remove whitespace _(by Athan Reines)_
