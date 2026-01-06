@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`008ae82`](https://github.com/stdlib-js/stdlib/commit/008ae82617ebeff86a92987e405e2c30ad627f1d) - add `stats/strided/distances/dchebychev` [(#9559)](https://github.com/stdlib-js/stdlib/pull/9559)
 -   [`9422059`](https://github.com/stdlib-js/stdlib/commit/94220593c164a6c649125950794a496da05b10ef) - add `stats/strided/distances/deuclidean` [(#9376)](https://github.com/stdlib-js/stdlib/pull/9376)
 -   [`09140c2`](https://github.com/stdlib-js/stdlib/commit/09140c2f44214e91e61ce3d6b993d36b56a08f12) - add `stats/strided/distances/dcosine-distance` [(#9430)](https://github.com/stdlib-js/stdlib/pull/9430)
 -   [`fcc1f3c`](https://github.com/stdlib-js/stdlib/commit/fcc1f3cce959e57ada8f4cc484b8a55157ad6087) - add `stats/base/ndarray/sstdevpn` [(#9534)](https://github.com/stdlib-js/stdlib/pull/9534)
@@ -3558,6 +3559,7 @@ A total of 563 issues were closed in this release:
 
 <details>
 
+-   [`008ae82`](https://github.com/stdlib-js/stdlib/commit/008ae82617ebeff86a92987e405e2c30ad627f1d) - **feat:** add `stats/strided/distances/dchebychev` [(#9559)](https://github.com/stdlib-js/stdlib/pull/9559) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
 -   [`ed3afe7`](https://github.com/stdlib-js/stdlib/commit/ed3afe7252708109f1a8350c15bcdabcc96f6e0a) - **chore:** fix C lint errors [(#9571)](https://github.com/stdlib-js/stdlib/pull/9571) _(by Geo Daoyu)_
 -   [`9422059`](https://github.com/stdlib-js/stdlib/commit/94220593c164a6c649125950794a496da05b10ef) - **feat:** add `stats/strided/distances/deuclidean` [(#9376)](https://github.com/stdlib-js/stdlib/pull/9376) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
 -   [`09140c2`](https://github.com/stdlib-js/stdlib/commit/09140c2f44214e91e61ce3d6b993d36b56a08f12) - **feat:** add `stats/strided/distances/dcosine-distance` [(#9430)](https://github.com/stdlib-js/stdlib/pull/9430) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
