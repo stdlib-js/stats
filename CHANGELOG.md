@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`92d23f5`](https://github.com/stdlib-js/stdlib/commit/92d23f56523bf43782063a7a00b4499502ac1c38) - add Wald distribution mean [(#9502)](https://github.com/stdlib-js/stdlib/pull/9502)
 -   [`008ae82`](https://github.com/stdlib-js/stdlib/commit/008ae82617ebeff86a92987e405e2c30ad627f1d) - add `stats/strided/distances/dchebychev` [(#9559)](https://github.com/stdlib-js/stdlib/pull/9559)
 -   [`9422059`](https://github.com/stdlib-js/stdlib/commit/94220593c164a6c649125950794a496da05b10ef) - add `stats/strided/distances/deuclidean` [(#9376)](https://github.com/stdlib-js/stdlib/pull/9376)
 -   [`09140c2`](https://github.com/stdlib-js/stdlib/commit/09140c2f44214e91e61ce3d6b993d36b56a08f12) - add `stats/strided/distances/dcosine-distance` [(#9430)](https://github.com/stdlib-js/stdlib/pull/9430)
@@ -3559,6 +3560,7 @@ A total of 564 issues were closed in this release:
 
 <details>
 
+-   [`92d23f5`](https://github.com/stdlib-js/stdlib/commit/92d23f56523bf43782063a7a00b4499502ac1c38) - **feat:** add Wald distribution mean [(#9502)](https://github.com/stdlib-js/stdlib/pull/9502) _(by Manit Roy, Philipp Burckhardt)_
 -   [`f6e662c`](https://github.com/stdlib-js/stdlib/commit/f6e662c42b347d90ab8e7e77130e8288b979dc6f) - **bench:** update random value generation [(#9584)](https://github.com/stdlib-js/stdlib/pull/9584) _(by Harsh Yadav)_
 -   [`a7a77a7`](https://github.com/stdlib-js/stdlib/commit/a7a77a7ba28bc0f55275db3a77a0117f0679b317) - **test:** remove duplicate NaN test cases in normal mean [(#9588)](https://github.com/stdlib-js/stdlib/pull/9588) _(by Suyash Pathak)_
 -   [`75552e8`](https://github.com/stdlib-js/stdlib/commit/75552e80fb02f81854f91d7361586a661d6b377e) - **bench:** update random value generation [(#9589)](https://github.com/stdlib-js/stdlib/pull/9589) _(by Harsh Yadav)_
@@ -6583,7 +6585,7 @@ A total of 564 issues were closed in this release:
 
 ### Contributors
 
-A total of 95 people contributed to this release. Thank you to the following contributors:
+A total of 96 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -6638,6 +6640,7 @@ A total of 95 people contributed to this release. Thank you to the following con
 -   Lalit Narayan Yadav
 -   Lokesh Ranjan
 -   MANI
+-   Manit Roy
 -   Manvith M
 -   Muhammad Haris
 -   Muhmmad Saad
