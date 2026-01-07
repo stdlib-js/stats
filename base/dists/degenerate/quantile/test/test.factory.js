@@ -78,10 +78,10 @@ tape( 'the created function returns `mu` for `p` on the interval `[0,1]`', funct
 	quantile = factory( mu );
 
 	y = quantile( 0.3 );
-	t.strictEqual( y, mu, 'returns expected value' );
+	t.strictEqual( y, mu, 'returns `mu`' );
 
 	y = quantile( 0.1 );
-	t.strictEqual( y, mu, 'returns expected value' );
+	t.strictEqual( y, mu, 'returns `mu`' );
 
 	t.end();
 });

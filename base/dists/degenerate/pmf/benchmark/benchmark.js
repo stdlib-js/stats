@@ -21,8 +21,9 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var uniform = require( '@stdlib/random/array/uniform' );
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
+var Float64Array = require( '@stdlib/array/float64' );
+var uniform = require( '@stdlib/random/base/uniform' );
+var discreteUniform = require( '@stdlib/random/base/discrete-uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var pkg = require( './../package.json' ).name;
 var pmf = require( './../lib' );
@@ -31,21 +32,23 @@ var pmf = require( './../lib' );
 // MAIN //
 
 bench( pkg, function benchmark( b ) {
-	var opts;
+	var len;
 	var mu;
 	var x;
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
-	x = uniform( 100, -100.0, 0.0, opts );
-	mu = uniform( 100, -50.0, 50.0, opts );
+	len = 100;
+	x = new Float64Array( len );
+	mu = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		x[ i ] = discreteUniform( -100, 0 );
+		mu[ i ] = uniform( -50.0, 50.0 );
+	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = pmf( x[ i % x.length ], mu[ i % mu.length ] );
+		y = pmf( x[ i % len ], mu[ i % len ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
@@ -60,7 +63,7 @@ bench( pkg, function benchmark( b ) {
 
 bench( pkg+':factory', function benchmark( b ) {
 	var mypmf;
-	var opts;
+	var len;
 	var mu;
 	var x;
 	var y;
@@ -68,15 +71,15 @@ bench( pkg+':factory', function benchmark( b ) {
 
 	mu = 40.0;
 	mypmf = pmf.factory( mu );
-
-	opts = {
-		'dtype': 'float64'
-	};
-	x = discreteUniform( 100, 0.0, 100.0, opts );
+	len = 100;
+	x = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		x[ i ] = discreteUniform( 0, 100 );
+	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = mypmf( x[ i % x.length ] );
+		y = mypmf( x[ i % len ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}

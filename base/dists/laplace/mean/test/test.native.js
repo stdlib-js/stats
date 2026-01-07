@@ -68,6 +68,9 @@ tape( 'if provided a nonpositive `b`, the function returns `NaN`', opts, functio
 	y = mean( 2.0, -1.0 );
 	t.strictEqual( isnan( y ), true, 'returns expected value' );
 
+	y = mean( 2.0, -1.0 );
+	t.strictEqual( isnan( y ), true, 'returns expected value' );
+
 	y = mean( 1.0, NINF );
 	t.strictEqual( isnan( y ), true, 'returns expected value' );
 
