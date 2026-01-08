@@ -22,7 +22,7 @@
 
 var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
-var runiform = require( '@stdlib/random/array/uniform' );
+var uniform = require( '@stdlib/random/array/uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 var EPS = require( '@stdlib/constants/float64/eps' );
@@ -49,9 +49,9 @@ bench( format( '%s::native', pkg ), opts, function benchmark( b ) {
 	var i;
 
 	len = 100;
-	x = runiform( len, EPS, 100.0 );
-	mu = runiform( len, EPS, 50.0 );
-	lambda = runiform( len, EPS, 20.0 );
+	x = uniform( len, EPS, 100.0 );
+	mu = uniform( len, EPS, 50.0 );
+	lambda = uniform( len, EPS, 20.0 );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {

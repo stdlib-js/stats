@@ -92,7 +92,7 @@ var isnan = require( '@stdlib/math/base/assert/is-nan' );
 function pdf( x, mu, lambda ) {
 	var A;
 	var B;
-
+	var v;
 	if (
 		isnan( x ) ||
 		isnan( mu ) ||
@@ -110,7 +110,8 @@ function pdf( x, mu, lambda ) {
 	}
 	A = sqrt( lambda / TWO_PI );
 	B = -lambda / ( 2.0 * mu * mu );
-	return A / ( x * sqrt(x) ) * exp( B * ( x - mu ) * ( x - mu ) / x );
+	v = x - mu;
+	return A / ( x * sqrt( x ) ) * exp( B * v * v / x );
 }
 
 

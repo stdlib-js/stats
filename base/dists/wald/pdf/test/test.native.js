@@ -168,7 +168,7 @@ tape( 'if provided `lambda` equals `0`, the function evaluates a degenerate dist
 	var y;
 
 	y = pdf( 2.0, 2.0, 0.0 );
-	t.strictEqual( y, PINF, 'returns +infinity for x equal to mu' );
+	t.strictEqual( y, PINF, 'returns expected value' );
 
 	y = pdf( 1.0, 2.0, 0.0 );
 	t.strictEqual( y, 0.0, 'returns expected value' );
@@ -189,16 +189,16 @@ tape( 'if provided a non-positive `x`, the function returns `0` (outside support
 	var y;
 
 	y = pdf( 0.0, 1.0, 1.0 );
-	t.strictEqual( y, 0.0, 'returns 0 for x=0' );
+	t.strictEqual( y, 0.0, 'returns expected value' );
 
 	y = pdf( -1.0, 1.0, 1.0 );
-	t.strictEqual( y, 0.0, 'returns 0 for negative x' );
+	t.strictEqual( y, 0.0, 'returns expected value' );
 
 	y = pdf( -10.0, 2.0, 3.0 );
-	t.strictEqual( y, 0.0, 'returns 0 for negative x' );
+	t.strictEqual( y, 0.0, 'returns expected value' );
 
 	y = pdf( NINF, 1.0, 1.0 );
-	t.strictEqual( y, 0.0, 'returns 0 for -infinity' );
+	t.strictEqual( y, 0.0, 'returns expected value' );
 
 	t.end();
 });

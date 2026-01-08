@@ -39,6 +39,7 @@
 double stdlib_base_dists_wald_pdf( const double x, const double mu, const double lambda ) {
 	double A;
 	double B;
+	double v;
 	if (
 		stdlib_base_is_nan( x ) ||
 		stdlib_base_is_nan( mu ) ||
@@ -56,5 +57,6 @@ double stdlib_base_dists_wald_pdf( const double x, const double mu, const double
 	}
 	A = stdlib_base_sqrt( lambda / STDLIB_CONSTANT_FLOAT64_TWO_PI );
 	B = -lambda / ( 2.0 * mu * mu );
-	return A / ( x * stdlib_base_sqrt(x) ) * stdlib_base_exp( B * ( x - mu ) * ( x - mu ) / x );
+	v = x - mu;
+	return A / ( x * stdlib_base_sqrt( x ) ) * stdlib_base_exp( B * v * v / x );
 }

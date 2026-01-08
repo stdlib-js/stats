@@ -200,7 +200,7 @@ tape( 'if `lambda` equals `0`, the created function evaluates a degenerate distr
 	pdf = factory( 2.0, 0.0 );
 
 	y = pdf( 2.0 );
-	t.strictEqual( y, PINF, 'returns +infinity for x equal to mu' );
+	t.strictEqual( y, PINF, 'returns expected value' );
 
 	y = pdf( 1.0 );
 	t.strictEqual( y, 0.0, 'returns expected value' );
@@ -224,18 +224,18 @@ tape( 'if provided a non-positive `x`, the created function returns `0` (outside
 	pdf = factory( 1.0, 1.0 );
 
 	y = pdf( 0.0 );
-	t.strictEqual( y, 0.0, 'returns 0 for x=0' );
+	t.strictEqual( y, 0.0, 'returns expected value' );
 
 	y = pdf( -1.0 );
-	t.strictEqual( y, 0.0, 'returns 0 for negative x' );
+	t.strictEqual( y, 0.0, 'returns expected value' );
 
 	pdf = factory( 2.0, 3.0 );
 	y = pdf( -10.0 );
-	t.strictEqual( y, 0.0, 'returns 0 for negative x' );
+	t.strictEqual( y, 0.0, 'returns expected value' );
 
 	pdf = factory( 1.0, 1.0 );
 	y = pdf( NINF );
-	t.strictEqual( y, 0.0, 'returns 0 for -infinity' );
+	t.strictEqual( y, 0.0, 'returns expected value' );
 
 	t.end();
 });

@@ -1,3 +1,4 @@
+
 {{alias}}( x, μ, λ )
     Evaluates the probability density function (PDF) for a Wald distribution
     with mean `μ` and shape parameter `λ` at a value `x`.

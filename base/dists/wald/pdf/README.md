@@ -26,13 +26,13 @@ limitations under the License.
 
 The [probability density function][pdf] (PDF) for a [Wald][wald-distribution] random variable is
 
-<!-- <equation class="equation" label="eq:wald_pdf" align="center" raw="f(x;\mu,\lambda)=\sqrt{\frac{\lambda}{2\pi x^3}}\, e^{-\frac{\lambda(x-\mu)^2}{2\mu^2 x}}" alt="Probability density function (PDF) for a Wald distribution."> -->
+<!-- <equation class="equation" label="eq:wald_pdf" align="center" raw="f(x;\mu,\lambda) = \sqrt{\frac{\lambda}{2\pi x^3}}\, e^{-\frac{\lambda(x-\mu)^2}{2\mu^2 x}}" alt="Probability density function (PDF) for a Wald distribution."> -->
 
 ```math
-f(x;\mu,\lambda)=\sqrt{\frac{\lambda}{2\pi x^3}}\, e^{-\frac{\lambda(x-\mu)^2}{2\mu^2 x}}
+f(x;\mu,\lambda) = \sqrt{\frac{\lambda}{2\pi x^3}}\, e^{-\frac{\lambda(x-\mu)^2}{2\mu^2 x}}
 ```
 
-<!-- <div class="equation" align="center" data-raw-text="f(x;\mu,\lambda)=\sqrt{\frac{\lambda}{2\pi x^3}}\, e^{-\frac{\lambda(x-\mu)^2}{2\mu^2 x}}" data-equation="eq:wald_pdf">
+<!-- <div class="equation" align="center" data-raw-text="f(x;\mu,\lambda) = \sqrt{\frac{\lambda}{2\pi x^3}}\, e^{-\frac{\lambda(x-\mu)^2}{2\mu^2 x}}" data-equation="eq:wald_pdf">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@51534079fef45e990850102147e8945fb023d1d0/lib/node_modules/@stdlib/stats/base/dists/wald/pdf/docs/img/equation_wald_pdf.svg" alt="Probability density function (PDF) for a Wald distribution.">
     <br>
 </div> -->
@@ -117,7 +117,7 @@ y = pdf( -1.0, 1.0, 1.0 );
 
 #### pdf.factory( mu, lambda )
 
-Partially applies `mu` and `lambda` to create a reusable `function` for evaluating the PDF.
+Partially applies `mu` and `lambda` to create a reusable function for evaluating the PDF.
 
 ```javascript
 var mypdf = pdf.factory( 1.0, 1.0 );

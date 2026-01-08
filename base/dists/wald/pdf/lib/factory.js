@@ -75,13 +75,15 @@ function factory( mu, lambda ) {
 	* // returns <number>
 	*/
 	function pdf( x ) {
+		var v;
 		if ( isnan( x ) ) {
 			return NaN;
 		}
 		if ( x <= 0.0 || !isFinite( x ) ) {
 			return 0.0;
 		}
-		return A / ( x * sqrt(x) ) * exp( B * ( x - mu ) * ( x - mu ) / x );
+		v = x - mu;
+		return A / ( x * sqrt( x ) ) * exp( B * v * v / x );
 	}
 }
 

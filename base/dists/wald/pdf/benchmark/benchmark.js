@@ -21,8 +21,7 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var runiform = require( '@stdlib/random/array/uniform' );
-var uniform = require( '@stdlib/random/base/uniform' );
+var uniform = require( '@stdlib/random/array/uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var format = require( '@stdlib/string/format' );
@@ -41,9 +40,9 @@ bench( pkg, function benchmark( b ) {
 	var i;
 
 	len = 100;
-	x = runiform( len, EPS, 100.0 );
-	mu = runiform( len, EPS, 50.0 );
-	lambda = runiform( len, EPS, 20.0 );
+	x = uniform( len, EPS, 100.0 );
+	mu = uniform( len, EPS, 50.0 );
+	lambda = uniform( len, EPS, 20.0 );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
@@ -61,21 +60,17 @@ bench( pkg, function benchmark( b ) {
 });
 
 bench( format( '%s:factory', pkg ), function benchmark( b ) {
-	var lambda;
 	var mypdf;
-	var mu;
 	var x;
 	var y;
 	var i;
 
-	mu = 1.0;
-	lambda = 1.5;
-	mypdf = pdf.factory( mu, lambda );
+	mypdf = pdf.factory( 1.0, 1.5 );
+	x = uniform( 100, EPS, 10.0 );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		x = uniform( EPS, 10.0 );
-		y = mypdf( x );
+		y = mypdf( x[ i%100 ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}

@@ -3561,6 +3561,7 @@ A total of 564 issues were closed in this release:
 
 <details>
 
+-   [`fb07e54`](https://github.com/stdlib-js/stdlib/commit/fb07e549179ee734beabf5c39c66db876cc959b5) - **chore:** clean-up _(by Athan Reines)_
 -   [`48ad5e6`](https://github.com/stdlib-js/stdlib/commit/48ad5e6cd965d673404c69e4b074c2bbb5ae5869) - **chore:** clean-up _(by Athan Reines)_
 -   [`ef0435b`](https://github.com/stdlib-js/stdlib/commit/ef0435b69f05fa6a8d0e7d4ee44c72e1ccff1dd9) - **feat:** add Wald distribution PDF [(#9324)](https://github.com/stdlib-js/stdlib/pull/9324) _(by Manit Roy)_
 -   [`92d23f5`](https://github.com/stdlib-js/stdlib/commit/92d23f56523bf43782063a7a00b4499502ac1c38) - **feat:** add Wald distribution mean [(#9502)](https://github.com/stdlib-js/stdlib/pull/9502) _(by Manit Roy, Philipp Burckhardt)_
