@@ -3562,6 +3562,7 @@ A total of 564 issues were closed in this release:
 
 <details>
 
+-   [`1012150`](https://github.com/stdlib-js/stdlib/commit/1012150cdd393f4050502120b0123ed575dcd6de) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmediansorted` [(#9604)](https://github.com/stdlib-js/stdlib/pull/9604) _(by Vishal Gaikwad, Athan Reines)_
 -   [`75e4432`](https://github.com/stdlib-js/stdlib/commit/75e44322fd78e14954befe091e8890cc8a810076) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmidrange` [(#9603)](https://github.com/stdlib-js/stdlib/pull/9603) _(by Vishal Gaikwad)_
 -   [`5f66676`](https://github.com/stdlib-js/stdlib/commit/5f666765772650801c7ba6f73237c85bb67c1574) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dminabs` [(#9605)](https://github.com/stdlib-js/stdlib/pull/9605) _(by Vishal Gaikwad)_
 -   [`26dfea9`](https://github.com/stdlib-js/stdlib/commit/26dfea9906df6cc05c0da7b331beb2f553911344) - **style:** fix line wrapping _(by Athan Reines)_
