@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-08)
+## Unreleased (2026-01-09)
 
 <section class="features">
 
 ### Features
 
+-   [`1749282`](https://github.com/stdlib-js/stdlib/commit/1749282903f4364994431735e440fa2c2973ee00) - add `stats/base/ndarray/variancech` [(#9633)](https://github.com/stdlib-js/stdlib/pull/9633)
 -   [`ef0435b`](https://github.com/stdlib-js/stdlib/commit/ef0435b69f05fa6a8d0e7d4ee44c72e1ccff1dd9) - add Wald distribution PDF [(#9324)](https://github.com/stdlib-js/stdlib/pull/9324)
 -   [`92d23f5`](https://github.com/stdlib-js/stdlib/commit/92d23f56523bf43782063a7a00b4499502ac1c38) - add Wald distribution mean [(#9502)](https://github.com/stdlib-js/stdlib/pull/9502)
 -   [`008ae82`](https://github.com/stdlib-js/stdlib/commit/008ae82617ebeff86a92987e405e2c30ad627f1d) - add `stats/strided/distances/dchebychev` [(#9559)](https://github.com/stdlib-js/stdlib/pull/9559)
@@ -3561,6 +3562,7 @@ A total of 564 issues were closed in this release:
 
 <details>
 
+-   [`1749282`](https://github.com/stdlib-js/stdlib/commit/1749282903f4364994431735e440fa2c2973ee00) - **feat:** add `stats/base/ndarray/variancech` [(#9633)](https://github.com/stdlib-js/stdlib/pull/9633) _(by Divyanshu, stdlib-bot)_
 -   [`fb07e54`](https://github.com/stdlib-js/stdlib/commit/fb07e549179ee734beabf5c39c66db876cc959b5) - **chore:** clean-up _(by Athan Reines)_
 -   [`48ad5e6`](https://github.com/stdlib-js/stdlib/commit/48ad5e6cd965d673404c69e4b074c2bbb5ae5869) - **chore:** clean-up _(by Athan Reines)_
 -   [`ef0435b`](https://github.com/stdlib-js/stdlib/commit/ef0435b69f05fa6a8d0e7d4ee44c72e1ccff1dd9) - **feat:** add Wald distribution PDF [(#9324)](https://github.com/stdlib-js/stdlib/pull/9324) _(by Manit Roy)_
