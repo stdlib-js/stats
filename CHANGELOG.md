@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-09)
+## Unreleased (2026-01-10)
 
 <section class="features">
 
@@ -3562,6 +3562,7 @@ A total of 564 issues were closed in this release:
 
 <details>
 
+-   [`efec547`](https://github.com/stdlib-js/stdlib/commit/efec5470c54d62b675c8ca598fe352c7ac16a6cb) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanmeanwd` [(#9657)](https://github.com/stdlib-js/stdlib/pull/9657) _(by Bhargav Dabhade, Athan Reines)_
 -   [`1012150`](https://github.com/stdlib-js/stdlib/commit/1012150cdd393f4050502120b0123ed575dcd6de) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmediansorted` [(#9604)](https://github.com/stdlib-js/stdlib/pull/9604) _(by Vishal Gaikwad, Athan Reines)_
 -   [`75e4432`](https://github.com/stdlib-js/stdlib/commit/75e44322fd78e14954befe091e8890cc8a810076) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmidrange` [(#9603)](https://github.com/stdlib-js/stdlib/pull/9603) _(by Vishal Gaikwad)_
 -   [`5f66676`](https://github.com/stdlib-js/stdlib/commit/5f666765772650801c7ba6f73237c85bb67c1574) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dminabs` [(#9605)](https://github.com/stdlib-js/stdlib/pull/9605) _(by Vishal Gaikwad)_
@@ -6595,7 +6596,7 @@ A total of 564 issues were closed in this release:
 
 ### Contributors
 
-A total of 97 people contributed to this release. Thank you to the following contributors:
+A total of 98 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -6613,6 +6614,7 @@ A total of 97 people contributed to this release. Thank you to the following con
 -   Arihant Pal
 -   Aryan Bhirud
 -   Athan Reines
+-   Bhargav Dabhade
 -   Bureir AL
 -   Deep Trivedi
 -   Deepak Singh
