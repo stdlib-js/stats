@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8019f5c`](https://github.com/stdlib-js/stdlib/commit/8019f5c04432ee29e3f16513dd29f3f4ed436346) - add `stats/strided/distances/dcityblock` [(#9586)](https://github.com/stdlib-js/stdlib/pull/9586)
 -   [`1749282`](https://github.com/stdlib-js/stdlib/commit/1749282903f4364994431735e440fa2c2973ee00) - add `stats/base/ndarray/variancech` [(#9633)](https://github.com/stdlib-js/stdlib/pull/9633)
 -   [`ef0435b`](https://github.com/stdlib-js/stdlib/commit/ef0435b69f05fa6a8d0e7d4ee44c72e1ccff1dd9) - add Wald distribution PDF [(#9324)](https://github.com/stdlib-js/stdlib/pull/9324)
 -   [`92d23f5`](https://github.com/stdlib-js/stdlib/commit/92d23f56523bf43782063a7a00b4499502ac1c38) - add Wald distribution mean [(#9502)](https://github.com/stdlib-js/stdlib/pull/9502)
@@ -3562,6 +3563,7 @@ A total of 564 issues were closed in this release:
 
 <details>
 
+-   [`8019f5c`](https://github.com/stdlib-js/stdlib/commit/8019f5c04432ee29e3f16513dd29f3f4ed436346) - **feat:** add `stats/strided/distances/dcityblock` [(#9586)](https://github.com/stdlib-js/stdlib/pull/9586) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`4669c51`](https://github.com/stdlib-js/stdlib/commit/4669c51aa02b1d7d8c463e387df494f73c636587) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmskmin` [(#9652)](https://github.com/stdlib-js/stdlib/pull/9652) _(by Vishal Gaikwad, Athan Reines)_
 -   [`411353c`](https://github.com/stdlib-js/stdlib/commit/411353c97c756168a89eff9f5252ee32048819de) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmskmax` [(#9650)](https://github.com/stdlib-js/stdlib/pull/9650) _(by Vishal Gaikwad, Athan Reines)_
 -   [`3d8c416`](https://github.com/stdlib-js/stdlib/commit/3d8c4168a574f6940eaa978408c63542162558ba) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dminsorted` [(#9648)](https://github.com/stdlib-js/stdlib/pull/9648) _(by Vishal Gaikwad)_
