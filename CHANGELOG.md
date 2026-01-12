@@ -3564,6 +3564,7 @@ A total of 564 issues were closed in this release:
 
 <details>
 
+-   [`55a2f26`](https://github.com/stdlib-js/stdlib/commit/55a2f260629b5dca631ea8176ce8c3c1b0b78c8f) - **build:** add scaffold for ternary random packages _(by Athan Reines)_
 -   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`88f0620`](https://github.com/stdlib-js/stdlib/commit/88f06201ec78b8b5376ad685f92aa3d3135a3d59) - **feat:** add `stats/base/ndarray/sstdevwd` [(#9565)](https://github.com/stdlib-js/stdlib/pull/9565) _(by Divyanshu)_
 -   [`8019f5c`](https://github.com/stdlib-js/stdlib/commit/8019f5c04432ee29e3f16513dd29f3f4ed436346) - **feat:** add `stats/strided/distances/dcityblock` [(#9586)](https://github.com/stdlib-js/stdlib/pull/9586) _(by Nakul Krishnakumar, Athan Reines)_
