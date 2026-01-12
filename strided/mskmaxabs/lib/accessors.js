@@ -73,9 +73,6 @@ function mskmaxabs( N, x, strideX, offsetX, mask, strideMask, offsetMask ) {
 	xget = x.accessors[ 0 ];
 	mget = mask.accessors[ 0 ];
 
-	if ( N <= 0 ) {
-		return NaN;
-	}
 	ix = offsetX;
 	im = offsetMask;
 	for ( i = 0; i < N; i++ ) {
