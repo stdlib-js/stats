@@ -41,7 +41,7 @@ var isPositiveZero = require( '@stdlib/math/base/assert/is-positive-zero' );
 * @param {Array<Function>} mask.accessors - mask element accessors
 * @param {integer} strideMask - stride length for `mask`
 * @param {NonNegativeInteger} offsetMask - starting index for `mask`
-* @returns {Object} output maximum value
+* @returns {number} maximum value
 *
 * @example
 * var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
