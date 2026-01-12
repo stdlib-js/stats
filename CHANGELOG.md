@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d3a2eff`](https://github.com/stdlib-js/stdlib/commit/d3a2eff2cb9c18a89c287cf65cb0498a5b5b6245) - add `stats/strided/mskmaxabs` [(#9696)](https://github.com/stdlib-js/stdlib/pull/9696)
 -   [`521f824`](https://github.com/stdlib-js/stdlib/commit/521f824a62e2f5b14db1022e760c88f0fffdf0ad) - add C implementation for `stats/base/dists/erlang/mgf` [(#8754)](https://github.com/stdlib-js/stdlib/pull/8754)
 -   [`88f0620`](https://github.com/stdlib-js/stdlib/commit/88f06201ec78b8b5376ad685f92aa3d3135a3d59) - add `stats/base/ndarray/sstdevwd` [(#9565)](https://github.com/stdlib-js/stdlib/pull/9565)
 -   [`8019f5c`](https://github.com/stdlib-js/stdlib/commit/8019f5c04432ee29e3f16513dd29f3f4ed436346) - add `stats/strided/distances/dcityblock` [(#9586)](https://github.com/stdlib-js/stdlib/pull/9586)
@@ -3565,6 +3566,7 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`d3a2eff`](https://github.com/stdlib-js/stdlib/commit/d3a2eff2cb9c18a89c287cf65cb0498a5b5b6245) - **feat:** add `stats/strided/mskmaxabs` [(#9696)](https://github.com/stdlib-js/stdlib/pull/9696) _(by Sachin Pangal, Philipp Burckhardt)_
 -   [`521f824`](https://github.com/stdlib-js/stdlib/commit/521f824a62e2f5b14db1022e760c88f0fffdf0ad) - **feat:** add C implementation for `stats/base/dists/erlang/mgf` [(#8754)](https://github.com/stdlib-js/stdlib/pull/8754) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
 -   [`55a2f26`](https://github.com/stdlib-js/stdlib/commit/55a2f260629b5dca631ea8176ce8c3c1b0b78c8f) - **build:** add scaffold for ternary random packages _(by Athan Reines)_
 -   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
