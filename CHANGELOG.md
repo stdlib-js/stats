@@ -3567,6 +3567,7 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`3e81841`](https://github.com/stdlib-js/stdlib/commit/3e81841c3790593fb3b7e85e7cfdc41680ed67be) - **bench:** update random value generation [(#9727)](https://github.com/stdlib-js/stdlib/pull/9727) _(by Harsh Yadav)_
 -   [`efd9272`](https://github.com/stdlib-js/stdlib/commit/efd92729d0fe46c08c4e0f647fb5a8dd5d713510) - **bench:** update random value generation [(#9728)](https://github.com/stdlib-js/stdlib/pull/9728) _(by Harsh Yadav)_
 -   [`a7ff263`](https://github.com/stdlib-js/stdlib/commit/a7ff263ba2b391497325f42217dc89386ec6012e) - **feat:** add `stats/base/ndarray/variancewd` [(#9634)](https://github.com/stdlib-js/stdlib/pull/9634) _(by Divyanshu, stdlib-bot)_
 -   [`1e61003`](https://github.com/stdlib-js/stdlib/commit/1e610036abcefe23cb1ea91e8c2308352323a47f) - **refactor:** remove unreachable path _(by Athan Reines)_
