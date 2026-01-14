@@ -3570,6 +3570,7 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`11560ee`](https://github.com/stdlib-js/stdlib/commit/11560ee7b8f8bc2876ec2edb35d6b880247eda5e) - **chore:** clean-up _(by Athan Reines)_
 -   [`069d813`](https://github.com/stdlib-js/stdlib/commit/069d81355ab0d2bf36773bbfd1ed1bc90ebaccb1) - **feat:** add `stats/base/ndarray/dmeanstdev` [(#8525)](https://github.com/stdlib-js/stdlib/pull/8525) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
 -   [`85c8240`](https://github.com/stdlib-js/stdlib/commit/85c82409c5230249613943f9693ca0e8a19f5500) - **feat:** add `stats/base/dists/halfnormal/stdev` [(#9714)](https://github.com/stdlib-js/stdlib/pull/9714) _(by Bhargav Dabhade, Philipp Burckhardt)_
 -   [`c8781bb`](https://github.com/stdlib-js/stdlib/commit/c8781bb6f4f9745c8abd24b3b67ea7ba7aee8f78) - **feat:** add `stats/strided/nanmskmidrange` [(#9417)](https://github.com/stdlib-js/stdlib/pull/9417) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
