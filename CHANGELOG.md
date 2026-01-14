@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`85c8240`](https://github.com/stdlib-js/stdlib/commit/85c82409c5230249613943f9693ca0e8a19f5500) - add `stats/base/dists/halfnormal/stdev` [(#9714)](https://github.com/stdlib-js/stdlib/pull/9714)
 -   [`c8781bb`](https://github.com/stdlib-js/stdlib/commit/c8781bb6f4f9745c8abd24b3b67ea7ba7aee8f78) - add `stats/strided/nanmskmidrange` [(#9417)](https://github.com/stdlib-js/stdlib/pull/9417)
 -   [`a7ff263`](https://github.com/stdlib-js/stdlib/commit/a7ff263ba2b391497325f42217dc89386ec6012e) - add `stats/base/ndarray/variancewd` [(#9634)](https://github.com/stdlib-js/stdlib/pull/9634)
 -   [`d3a2eff`](https://github.com/stdlib-js/stdlib/commit/d3a2eff2cb9c18a89c287cf65cb0498a5b5b6245) - add `stats/strided/mskmaxabs` [(#9696)](https://github.com/stdlib-js/stdlib/pull/9696)
@@ -3568,6 +3569,7 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`85c8240`](https://github.com/stdlib-js/stdlib/commit/85c82409c5230249613943f9693ca0e8a19f5500) - **feat:** add `stats/base/dists/halfnormal/stdev` [(#9714)](https://github.com/stdlib-js/stdlib/pull/9714) _(by Bhargav Dabhade, Philipp Burckhardt)_
 -   [`c8781bb`](https://github.com/stdlib-js/stdlib/commit/c8781bb6f4f9745c8abd24b3b67ea7ba7aee8f78) - **feat:** add `stats/strided/nanmskmidrange` [(#9417)](https://github.com/stdlib-js/stdlib/pull/9417) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
 -   [`3e81841`](https://github.com/stdlib-js/stdlib/commit/3e81841c3790593fb3b7e85e7cfdc41680ed67be) - **bench:** update random value generation [(#9727)](https://github.com/stdlib-js/stdlib/pull/9727) _(by Harsh Yadav)_
 -   [`efd9272`](https://github.com/stdlib-js/stdlib/commit/efd92729d0fe46c08c4e0f647fb5a8dd5d713510) - **bench:** update random value generation [(#9728)](https://github.com/stdlib-js/stdlib/pull/9728) _(by Harsh Yadav)_
