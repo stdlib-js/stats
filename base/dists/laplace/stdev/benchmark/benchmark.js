@@ -22,7 +22,8 @@
 
 var bench = require( '@stdlib/bench' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var uniform = require( '@stdlib/random/array/uniform' );
+var Float64Array = require( '@stdlib/array/float64' );
+var uniform = require( '@stdlib/random/base/uniform' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var pkg = require( './../package.json' ).name;
 var stdev = require( './../lib' );
@@ -32,20 +33,22 @@ var stdev = require( './../lib' );
 
 bench( pkg, function benchmark( b ) {
 	var scale;
-	var opts;
+	var len;
 	var mu;
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
-	mu = uniform( 100, -50.0, 50.0, opts );
-	scale = uniform( 100, EPS, 20.0, opts );
+	len = 100;
+	mu = new Float64Array( len );
+	scale = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		mu[ i ] = uniform( -50.0, 50.0 );
+		scale[ i ] = uniform( EPS, 20.0 );
+	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = stdev( mu[ i % mu.length ], scale[ i % scale.length ] );
+		y = stdev( mu[ i % len ], scale[ i % len ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
