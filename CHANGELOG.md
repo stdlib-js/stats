@@ -3570,6 +3570,8 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`a6b5609`](https://github.com/stdlib-js/stdlib/commit/a6b5609b1e8e92ec33fda5874e3c03c9e3e571c6) - **bench:** update random value generation [(#9745)](https://github.com/stdlib-js/stdlib/pull/9745) _(by Harsh Yadav)_
+-   [`e5d2034`](https://github.com/stdlib-js/stdlib/commit/e5d203481f08ab2ecbdc7a4dbfe36462736cb7e7) - **bench:** update random value generation [(#9746)](https://github.com/stdlib-js/stdlib/pull/9746) _(by Harsh Yadav)_
 -   [`0bf02be`](https://github.com/stdlib-js/stdlib/commit/0bf02be23ebbde03611a294ffab98c55ca770000) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanmax` [(#9750)](https://github.com/stdlib-js/stdlib/pull/9750) _(by Vishal Gaikwad)_
 -   [`0a326f9`](https://github.com/stdlib-js/stdlib/commit/0a326f9f502b6d12dcc058ee92774b8f937b5840) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanmaxabs` [(#9751)](https://github.com/stdlib-js/stdlib/pull/9751) _(by Vishal Gaikwad)_
 -   [`e0ab0b1`](https://github.com/stdlib-js/stdlib/commit/e0ab0b1c2933b865aa5302ae60b4bc22bc0d4a39) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanmean` [(#9752)](https://github.com/stdlib-js/stdlib/pull/9752) _(by Vishal Gaikwad)_
