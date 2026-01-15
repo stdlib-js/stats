@@ -3570,6 +3570,7 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`0a326f9`](https://github.com/stdlib-js/stdlib/commit/0a326f9f502b6d12dcc058ee92774b8f937b5840) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanmaxabs` [(#9751)](https://github.com/stdlib-js/stdlib/pull/9751) _(by Vishal Gaikwad)_
 -   [`e0ab0b1`](https://github.com/stdlib-js/stdlib/commit/e0ab0b1c2933b865aa5302ae60b4bc22bc0d4a39) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanmean` [(#9752)](https://github.com/stdlib-js/stdlib/pull/9752) _(by Vishal Gaikwad)_
 -   [`3b73da5`](https://github.com/stdlib-js/stdlib/commit/3b73da5a3793534fa08f009722a98f96c61b0314) - **docs:** update related packages sections [(#9732)](https://github.com/stdlib-js/stdlib/pull/9732) _(by stdlib-bot, Athan Reines)_
 -   [`11560ee`](https://github.com/stdlib-js/stdlib/commit/11560ee7b8f8bc2876ec2edb35d6b880247eda5e) - **chore:** clean-up _(by Athan Reines)_
