@@ -3571,6 +3571,7 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`1a6a202`](https://github.com/stdlib-js/stdlib/commit/1a6a20298bc6eaf5f2dc9607994f2a9b19fb1ff5) - **chore:** clean-up _(by Athan Reines)_
 -   [`af1b1d0`](https://github.com/stdlib-js/stdlib/commit/af1b1d09c7e06a87d1eecd4c7ac5becfedf05d27) - **chore:** clean-up _(by Athan Reines)_
 -   [`242c076`](https://github.com/stdlib-js/stdlib/commit/242c076de549632a025fe3bc519fbf1a5d46be7a) - **feat:** add `stats/base/dists/halfnormal/mean` [(#9613)](https://github.com/stdlib-js/stdlib/pull/9613) _(by Shubham)_
 -   [`089d872`](https://github.com/stdlib-js/stdlib/commit/089d872ce2b44fc51d5d58700a518214f18a6a48) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmskrange` [(#9749)](https://github.com/stdlib-js/stdlib/pull/9749) _(by Vishal Gaikwad)_
