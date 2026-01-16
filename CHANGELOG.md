@@ -1276,6 +1276,7 @@
 
 ### Bug Fixes
 
+-   [`6544e40`](https://github.com/stdlib-js/stdlib/commit/6544e40467b59c16865cd47427a9c01861a351b4) - inline constant value
 -   [`a1fbf46`](https://github.com/stdlib-js/stdlib/commit/a1fbf4635c30c28ed3c8044ded17640bc877ca0d) - require `sigma` be greater than zero
 -   [`3af0a04`](https://github.com/stdlib-js/stdlib/commit/3af0a041f6ae95c251cbfa2acae82b30e3b4579b) - return `NaN` when the number of indexed elements is zero in `stats/strided/distances/dcosine-similarity` [(#9497)](https://github.com/stdlib-js/stdlib/pull/9497)
 -   [`bda1a5c`](https://github.com/stdlib-js/stdlib/commit/bda1a5c6cfa6777839ab5f941296b2008880b75a) - use correct types
@@ -3572,6 +3573,7 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`6544e40`](https://github.com/stdlib-js/stdlib/commit/6544e40467b59c16865cd47427a9c01861a351b4) - **fix:** inline constant value _(by Athan Reines)_
 -   [`c729420`](https://github.com/stdlib-js/stdlib/commit/c7294205a503ea3e9a37d1588b2aea4e12331aa6) - **chore:** clean-up _(by Athan Reines)_
 -   [`a1fbf46`](https://github.com/stdlib-js/stdlib/commit/a1fbf4635c30c28ed3c8044ded17640bc877ca0d) - **fix:** require `sigma` be greater than zero _(by Athan Reines)_
 -   [`52f3b09`](https://github.com/stdlib-js/stdlib/commit/52f3b09939070e38ef2ef12d8625afe03b6180e1) - **style:** add empty line _(by Athan Reines)_
