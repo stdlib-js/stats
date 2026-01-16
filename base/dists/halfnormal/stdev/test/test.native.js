@@ -56,7 +56,7 @@ tape( 'if provided `NaN`, the function returns `NaN`', opts, function test( t ) 
 	t.end();
 });
 
-tape( 'if provided a negative number, the function returns `NaN`', opts, function test( t ) {
+tape( 'if provided a non-positive number, the function returns `NaN`', opts, function test( t ) {
 	var sigma;
 
 	sigma = stdev( -1.0 );

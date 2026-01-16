@@ -1276,6 +1276,7 @@
 
 ### Bug Fixes
 
+-   [`a1fbf46`](https://github.com/stdlib-js/stdlib/commit/a1fbf4635c30c28ed3c8044ded17640bc877ca0d) - require `sigma` be greater than zero
 -   [`3af0a04`](https://github.com/stdlib-js/stdlib/commit/3af0a041f6ae95c251cbfa2acae82b30e3b4579b) - return `NaN` when the number of indexed elements is zero in `stats/strided/distances/dcosine-similarity` [(#9497)](https://github.com/stdlib-js/stdlib/pull/9497)
 -   [`bda1a5c`](https://github.com/stdlib-js/stdlib/commit/bda1a5c6cfa6777839ab5f941296b2008880b75a) - use correct types
 -   [`20d29ed`](https://github.com/stdlib-js/stdlib/commit/20d29ed3410f2ff8ff6bfadbfb0a1f5a4b7e5fde) - use `int8ndarray` type for alternative hypothesis param in `ndarray/sztest` and `ndarray/dztest`
@@ -3571,6 +3572,7 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`a1fbf46`](https://github.com/stdlib-js/stdlib/commit/a1fbf4635c30c28ed3c8044ded17640bc877ca0d) - **fix:** require `sigma` be greater than zero _(by Athan Reines)_
 -   [`52f3b09`](https://github.com/stdlib-js/stdlib/commit/52f3b09939070e38ef2ef12d8625afe03b6180e1) - **style:** add empty line _(by Athan Reines)_
 -   [`1a6a202`](https://github.com/stdlib-js/stdlib/commit/1a6a20298bc6eaf5f2dc9607994f2a9b19fb1ff5) - **chore:** clean-up _(by Athan Reines)_
 -   [`af1b1d0`](https://github.com/stdlib-js/stdlib/commit/af1b1d09c7e06a87d1eecd4c7ac5becfedf05d27) - **chore:** clean-up _(by Athan Reines)_

@@ -1,7 +1,7 @@
 {{alias}}( σ )
     Returns the standard deviation of a half-normal distribution.
 
-    If provided `σ < 0`, the function returns `NaN`.
+    If provided `σ <= 0`, the function returns `NaN`.
 
     Parameters
     ----------

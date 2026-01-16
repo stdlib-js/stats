@@ -36,7 +36,7 @@ The [standard deviation][standard-deviation] for a [half-normal][half-normal-dis
 
 <!-- </equation> -->
 
-where `σ >= 0` is the scale parameter.
+where `σ > 0` is the scale parameter.
 
 </section>
 
@@ -64,7 +64,7 @@ y = stdev( 3.5 );
 // returns ~2.1098
 ```
 
-If provided `sigma < 0`, the function returns `NaN`.
+If provided `sigma <= 0`, the function returns `NaN`.
 
 ```javascript
 var y = stdev( -1.0 );
