@@ -3570,6 +3570,7 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`089d872`](https://github.com/stdlib-js/stdlib/commit/089d872ce2b44fc51d5d58700a518214f18a6a48) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmskrange` [(#9749)](https://github.com/stdlib-js/stdlib/pull/9749) _(by Vishal Gaikwad)_
 -   [`bf8af22`](https://github.com/stdlib-js/stdlib/commit/bf8af2283026f8ba57f0df6647e28e619887e3ca) - **bench:** update random value generation [(#9764)](https://github.com/stdlib-js/stdlib/pull/9764) _(by Harsh Yadav)_
 -   [`872403f`](https://github.com/stdlib-js/stdlib/commit/872403fdf92d939ae463a63a6a921ca65d8387fd) - **bench:** update random value generation [(#9765)](https://github.com/stdlib-js/stdlib/pull/9765) _(by Harsh Yadav)_
 -   [`16e4fd3`](https://github.com/stdlib-js/stdlib/commit/16e4fd3d3f18326c2d1a1e46d4cca60a2afad037) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanmeanpw` [(#9770)](https://github.com/stdlib-js/stdlib/pull/9770) _(by Vishal Gaikwad)_
