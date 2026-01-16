@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`242c076`](https://github.com/stdlib-js/stdlib/commit/242c076de549632a025fe3bc519fbf1a5d46be7a) - add `stats/base/dists/halfnormal/mean` [(#9613)](https://github.com/stdlib-js/stdlib/pull/9613)
 -   [`069d813`](https://github.com/stdlib-js/stdlib/commit/069d81355ab0d2bf36773bbfd1ed1bc90ebaccb1) - add `stats/base/ndarray/dmeanstdev` [(#8525)](https://github.com/stdlib-js/stdlib/pull/8525)
 -   [`85c8240`](https://github.com/stdlib-js/stdlib/commit/85c82409c5230249613943f9693ca0e8a19f5500) - add `stats/base/dists/halfnormal/stdev` [(#9714)](https://github.com/stdlib-js/stdlib/pull/9714)
 -   [`c8781bb`](https://github.com/stdlib-js/stdlib/commit/c8781bb6f4f9745c8abd24b3b67ea7ba7aee8f78) - add `stats/strided/nanmskmidrange` [(#9417)](https://github.com/stdlib-js/stdlib/pull/9417)
@@ -3570,6 +3571,7 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`242c076`](https://github.com/stdlib-js/stdlib/commit/242c076de549632a025fe3bc519fbf1a5d46be7a) - **feat:** add `stats/base/dists/halfnormal/mean` [(#9613)](https://github.com/stdlib-js/stdlib/pull/9613) _(by Shubham)_
 -   [`089d872`](https://github.com/stdlib-js/stdlib/commit/089d872ce2b44fc51d5d58700a518214f18a6a48) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmskrange` [(#9749)](https://github.com/stdlib-js/stdlib/pull/9749) _(by Vishal Gaikwad)_
 -   [`bf8af22`](https://github.com/stdlib-js/stdlib/commit/bf8af2283026f8ba57f0df6647e28e619887e3ca) - **bench:** update random value generation [(#9764)](https://github.com/stdlib-js/stdlib/pull/9764) _(by Harsh Yadav)_
 -   [`872403f`](https://github.com/stdlib-js/stdlib/commit/872403fdf92d939ae463a63a6a921ca65d8387fd) - **bench:** update random value generation [(#9765)](https://github.com/stdlib-js/stdlib/pull/9765) _(by Harsh Yadav)_
@@ -6638,7 +6640,7 @@ A total of 565 issues were closed in this release:
 
 ### Contributors
 
-A total of 98 people contributed to this release. Thank you to the following contributors:
+A total of 99 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -6723,6 +6725,7 @@ A total of 98 people contributed to this release. Thank you to the following con
 -   Shivam Mittal
 -   Shivansh
 -   Shreelaxmi Hegde
+-   Shubham
 -   Siddhesh waje
 -   Suyash Pathak
 -   Tanishq Ahuja
