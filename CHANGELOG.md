@@ -3572,6 +3572,7 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`c729420`](https://github.com/stdlib-js/stdlib/commit/c7294205a503ea3e9a37d1588b2aea4e12331aa6) - **chore:** clean-up _(by Athan Reines)_
 -   [`a1fbf46`](https://github.com/stdlib-js/stdlib/commit/a1fbf4635c30c28ed3c8044ded17640bc877ca0d) - **fix:** require `sigma` be greater than zero _(by Athan Reines)_
 -   [`52f3b09`](https://github.com/stdlib-js/stdlib/commit/52f3b09939070e38ef2ef12d8625afe03b6180e1) - **style:** add empty line _(by Athan Reines)_
 -   [`1a6a202`](https://github.com/stdlib-js/stdlib/commit/1a6a20298bc6eaf5f2dc9607994f2a9b19fb1ff5) - **chore:** clean-up _(by Athan Reines)_

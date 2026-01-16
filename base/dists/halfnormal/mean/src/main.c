@@ -21,6 +21,8 @@
 #include "stdlib/math/base/special/sqrt.h"
 #include "stdlib/constants/float64/pi.h"
 
+static const double SQRT_TWO_OVER_PI = stdlib_base_sqrt( 2.0 / STDLIB_CONSTANT_FLOAT64_PI );
+
 /**
 * Returns the expected value for a half-normal distribution with scale parameter `sigma`.
 *
@@ -35,5 +37,5 @@ double stdlib_base_dists_halfnormal_mean( const double sigma ) {
 	if ( stdlib_base_is_nan( sigma ) || sigma <= 0.0 ) {
 		return 0.0 / 0.0; // NaN
 	}
-	return sigma * stdlib_base_sqrt( 2.0 / STDLIB_CONSTANT_FLOAT64_PI );
+	return sigma * SQRT_TWO_OVER_PI;
 }
