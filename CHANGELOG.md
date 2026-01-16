@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-15)
+## Unreleased (2026-01-16)
 
 <section class="features">
 
@@ -3570,6 +3570,7 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`e21e6df`](https://github.com/stdlib-js/stdlib/commit/e21e6dfa62d160bd43b2c282b136021085e9d45a) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmean` [(#9773)](https://github.com/stdlib-js/stdlib/pull/9773) _(by Bhargav Dabhade)_
 -   [`5b02960`](https://github.com/stdlib-js/stdlib/commit/5b0296021280236d1e98e0d2c6d2082eb4ebb47d) - **bench:** update random value generation [(#9737)](https://github.com/stdlib-js/stdlib/pull/9737) _(by Harsh Yadav)_
 -   [`5e9a7cd`](https://github.com/stdlib-js/stdlib/commit/5e9a7cdd0bc9d07a331dfb72a74adc96b14b815c) - **bench:** update random value generation [(#9738)](https://github.com/stdlib-js/stdlib/pull/9738) _(by Harsh Yadav)_
 -   [`a6b5609`](https://github.com/stdlib-js/stdlib/commit/a6b5609b1e8e92ec33fda5874e3c03c9e3e571c6) - **bench:** update random value generation [(#9745)](https://github.com/stdlib-js/stdlib/pull/9745) _(by Harsh Yadav)_
