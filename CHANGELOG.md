@@ -3573,6 +3573,7 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`960af8f`](https://github.com/stdlib-js/stdlib/commit/960af8f193a0e7eaa20215e8ae231f943e825366) - **bench:** update random value generation [(#9781)](https://github.com/stdlib-js/stdlib/pull/9781) _(by Harsh Yadav)_
 -   [`99d0a3c`](https://github.com/stdlib-js/stdlib/commit/99d0a3c95c5bbf6f2b0d3f8b6b0648bee9ef310b) - **bench:** update random value generation [(#9782)](https://github.com/stdlib-js/stdlib/pull/9782) _(by Harsh Yadav)_
 -   [`610a4d0`](https://github.com/stdlib-js/stdlib/commit/610a4d02b5171f87c334c586160a1b159d8de7ee) - **bench:** update random value generation [(#9783)](https://github.com/stdlib-js/stdlib/pull/9783) _(by Harsh Yadav)_
 -   [`b71d961`](https://github.com/stdlib-js/stdlib/commit/b71d961f103c018065390d2db1118c292be181fa) - **bench:** refactor to use string interpolation in `stats/base/dists/rayleigh/stdev` [(#9788)](https://github.com/stdlib-js/stdlib/pull/9788) _(by Bhargav Dabhade)_
