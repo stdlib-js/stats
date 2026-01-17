@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-16)
+## Unreleased (2026-01-17)
 
 <section class="features">
 
@@ -3573,6 +3573,7 @@ A total of 565 issues were closed in this release:
 
 <details>
 
+-   [`92a0acc`](https://github.com/stdlib-js/stdlib/commit/92a0acc04033b0feb7113d04b6ade7ab1ebbc406) - **bench:** update random value generation [(#9802)](https://github.com/stdlib-js/stdlib/pull/9802) _(by Harsh Yadav)_
 -   [`0472076`](https://github.com/stdlib-js/stdlib/commit/04720767c484e6277ad9411dff3dc5a116c31378) - **docs:** remove duplicated words in documentation and comments _(by Philipp Burckhardt)_
 -   [`aaac825`](https://github.com/stdlib-js/stdlib/commit/aaac825c751f8ffc88d9d45e3e44f06bb36e297c) - **bench:** fix assertions _(by Athan Reines)_
 -   [`6544e40`](https://github.com/stdlib-js/stdlib/commit/6544e40467b59c16865cd47427a9c01861a351b4) - **fix:** inline constant value _(by Athan Reines)_
