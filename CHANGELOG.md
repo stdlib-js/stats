@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1b8a546`](https://github.com/stdlib-js/stdlib/commit/1b8a546a22a9b669cd5287c32a5c16f9422c48c9) - add `stats/strided/dnanmskmidrange` [(#9823)](https://github.com/stdlib-js/stdlib/pull/9823)
 -   [`3dc14f7`](https://github.com/stdlib-js/stdlib/commit/3dc14f7bbee9514c55b44940004f77c6771d7b12) - add `stats/base/ndarray/dstdevpn` [(#9787)](https://github.com/stdlib-js/stdlib/pull/9787)
 -   [`242c076`](https://github.com/stdlib-js/stdlib/commit/242c076de549632a025fe3bc519fbf1a5d46be7a) - add `stats/base/dists/halfnormal/mean` [(#9613)](https://github.com/stdlib-js/stdlib/pull/9613)
 -   [`069d813`](https://github.com/stdlib-js/stdlib/commit/069d81355ab0d2bf36773bbfd1ed1bc90ebaccb1) - add `stats/base/ndarray/dmeanstdev` [(#8525)](https://github.com/stdlib-js/stdlib/pull/8525)
@@ -3574,6 +3575,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`1b8a546`](https://github.com/stdlib-js/stdlib/commit/1b8a546a22a9b669cd5287c32a5c16f9422c48c9) - **feat:** add `stats/strided/dnanmskmidrange` [(#9823)](https://github.com/stdlib-js/stdlib/pull/9823) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
 -   [`3dc14f7`](https://github.com/stdlib-js/stdlib/commit/3dc14f7bbee9514c55b44940004f77c6771d7b12) - **feat:** add `stats/base/ndarray/dstdevpn` [(#9787)](https://github.com/stdlib-js/stdlib/pull/9787) _(by Pratik, Philipp Burckhardt)_
 -   [`7ddfd47`](https://github.com/stdlib-js/stdlib/commit/7ddfd47647bffccc63781211c7bf1e529f6822eb) - **test:** remove duplicate test cases in `stats/base/dists/normal` packages _(by Philipp Burckhardt)_
 -   [`5ee0c78`](https://github.com/stdlib-js/stdlib/commit/5ee0c781e82099b730ddd0126f888515b817b47c) - **test:** remove duplicate test cases in `stats/base/dists/lognormal` packages _(by Philipp Burckhardt)_
