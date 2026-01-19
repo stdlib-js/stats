@@ -3573,6 +3573,17 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`7ddfd47`](https://github.com/stdlib-js/stdlib/commit/7ddfd47647bffccc63781211c7bf1e529f6822eb) - **test:** remove duplicate test cases in `stats/base/dists/normal` packages _(by Philipp Burckhardt)_
+-   [`5ee0c78`](https://github.com/stdlib-js/stdlib/commit/5ee0c781e82099b730ddd0126f888515b817b47c) - **test:** remove duplicate test cases in `stats/base/dists/lognormal` packages _(by Philipp Burckhardt)_
+-   [`749fcaf`](https://github.com/stdlib-js/stdlib/commit/749fcafc87f8a07912d99a10fe3cb32ac2701f20) - **test:** remove duplicate test cases in `stats/base/dists/logistic` packages _(by Philipp Burckhardt)_
+-   [`99d1d40`](https://github.com/stdlib-js/stdlib/commit/99d1d40243aee2ea033af6eb4cc168841755a62e) - **test:** remove duplicate test cases in `stats/base/dists/levy` packages _(by Philipp Burckhardt)_
+-   [`ce2a193`](https://github.com/stdlib-js/stdlib/commit/ce2a1930b7c0014fd2404c7cf5f7a90f44e9f6fa) - **test:** remove duplicate test cases in `stats/base/dists/laplace` packages _(by Philipp Burckhardt)_
+-   [`81d3277`](https://github.com/stdlib-js/stdlib/commit/81d3277b781d2270f126ae12bc67269107d23a5f) - **test:** remove duplicate test cases in `stats/base/dists/kumaraswamy` packages _(by Philipp Burckhardt)_
+-   [`af9f6dc`](https://github.com/stdlib-js/stdlib/commit/af9f6dcb8d83eaf080cdda5828eb9a27cf182378) - **test:** remove duplicate test cases in `stats/base/dists/gumbel` packages _(by Philipp Burckhardt)_
+-   [`3459117`](https://github.com/stdlib-js/stdlib/commit/345911757db54bdd60ac0e41615b421536a2f4a4) - **test:** remove duplicate test cases in `stats/base/dists/frechet` packages _(by Philipp Burckhardt)_
+-   [`590f3d5`](https://github.com/stdlib-js/stdlib/commit/590f3d50f63756ba32242c90aa0d0ef672180159) - **test:** remove duplicate test cases in `stats/base/dists/cosine` packages _(by Philipp Burckhardt)_
+-   [`1ec4672`](https://github.com/stdlib-js/stdlib/commit/1ec46724592393aa1503e774e9ddedf52873d3f8) - **bench:** refactor to use use dynamic memory allocation in `stats/strided/dmeankbn` [(#9814)](https://github.com/stdlib-js/stdlib/pull/9814) _(by Vishal Gaikwad)_
+-   [`b5ee1c6`](https://github.com/stdlib-js/stdlib/commit/b5ee1c6c5b7b982be4373a8c4f1e5b598f5cdcec) - **bench:** refactor to use use dynamic memory allocation in `stats/strided/dmeankbn2` [(#9816)](https://github.com/stdlib-js/stdlib/pull/9816) _(by Vishal Gaikwad)_
 -   [`6f5aec7`](https://github.com/stdlib-js/stdlib/commit/6f5aec7cf9da6150245618637de7b50bc7594993) - **test:** remove duplicate test cases in normal variance [(#9826)](https://github.com/stdlib-js/stdlib/pull/9826) _(by Geo Daoyu)_
 -   [`2141b2f`](https://github.com/stdlib-js/stdlib/commit/2141b2f3469ee6e013716201f8e39e083d3676d3) - **bench:** update random value generation [(#9780)](https://github.com/stdlib-js/stdlib/pull/9780) _(by Harsh Yadav)_
 -   [`960af8f`](https://github.com/stdlib-js/stdlib/commit/960af8f193a0e7eaa20215e8ae231f943e825366) - **bench:** update random value generation [(#9781)](https://github.com/stdlib-js/stdlib/pull/9781) _(by Harsh Yadav)_
