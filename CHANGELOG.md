@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9bf5e56`](https://github.com/stdlib-js/stdlib/commit/9bf5e561b497aea964565bfa9ca59964be12476c) - add `stats/base/dists/halfnormal/entropy` [(#9753)](https://github.com/stdlib-js/stdlib/pull/9753)
 -   [`2463b16`](https://github.com/stdlib-js/stdlib/commit/2463b161e2b13334b7ac23c24fe85323e6447484) - add implementation of `stats/base/dists/halfnormal/kurtosis` [(#9771)](https://github.com/stdlib-js/stdlib/pull/9771)
 -   [`1b8a546`](https://github.com/stdlib-js/stdlib/commit/1b8a546a22a9b669cd5287c32a5c16f9422c48c9) - add `stats/strided/dnanmskmidrange` [(#9823)](https://github.com/stdlib-js/stdlib/pull/9823)
 -   [`3dc14f7`](https://github.com/stdlib-js/stdlib/commit/3dc14f7bbee9514c55b44940004f77c6771d7b12) - add `stats/base/ndarray/dstdevpn` [(#9787)](https://github.com/stdlib-js/stdlib/pull/9787)
@@ -3576,6 +3577,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`9bf5e56`](https://github.com/stdlib-js/stdlib/commit/9bf5e561b497aea964565bfa9ca59964be12476c) - **feat:** add `stats/base/dists/halfnormal/entropy` [(#9753)](https://github.com/stdlib-js/stdlib/pull/9753) _(by Bhargav Dabhade, Philipp Burckhardt)_
 -   [`2463b16`](https://github.com/stdlib-js/stdlib/commit/2463b161e2b13334b7ac23c24fe85323e6447484) - **feat:** add implementation of `stats/base/dists/halfnormal/kurtosis` [(#9771)](https://github.com/stdlib-js/stdlib/pull/9771) _(by Om-A-osc, Philipp Burckhardt)_
 -   [`1b8a546`](https://github.com/stdlib-js/stdlib/commit/1b8a546a22a9b669cd5287c32a5c16f9422c48c9) - **feat:** add `stats/strided/dnanmskmidrange` [(#9823)](https://github.com/stdlib-js/stdlib/pull/9823) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
 -   [`3dc14f7`](https://github.com/stdlib-js/stdlib/commit/3dc14f7bbee9514c55b44940004f77c6771d7b12) - **feat:** add `stats/base/ndarray/dstdevpn` [(#9787)](https://github.com/stdlib-js/stdlib/pull/9787) _(by Pratik, Philipp Burckhardt)_
