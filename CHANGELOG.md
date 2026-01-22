@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-19)
+## Unreleased (2026-01-22)
 
 <section class="features">
 
 ### Features
 
+-   [`2463b16`](https://github.com/stdlib-js/stdlib/commit/2463b161e2b13334b7ac23c24fe85323e6447484) - add implementation of `stats/base/dists/halfnormal/kurtosis` [(#9771)](https://github.com/stdlib-js/stdlib/pull/9771)
 -   [`1b8a546`](https://github.com/stdlib-js/stdlib/commit/1b8a546a22a9b669cd5287c32a5c16f9422c48c9) - add `stats/strided/dnanmskmidrange` [(#9823)](https://github.com/stdlib-js/stdlib/pull/9823)
 -   [`3dc14f7`](https://github.com/stdlib-js/stdlib/commit/3dc14f7bbee9514c55b44940004f77c6771d7b12) - add `stats/base/ndarray/dstdevpn` [(#9787)](https://github.com/stdlib-js/stdlib/pull/9787)
 -   [`242c076`](https://github.com/stdlib-js/stdlib/commit/242c076de549632a025fe3bc519fbf1a5d46be7a) - add `stats/base/dists/halfnormal/mean` [(#9613)](https://github.com/stdlib-js/stdlib/pull/9613)
@@ -3575,6 +3576,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`2463b16`](https://github.com/stdlib-js/stdlib/commit/2463b161e2b13334b7ac23c24fe85323e6447484) - **feat:** add implementation of `stats/base/dists/halfnormal/kurtosis` [(#9771)](https://github.com/stdlib-js/stdlib/pull/9771) _(by Om-A-osc, Philipp Burckhardt)_
 -   [`1b8a546`](https://github.com/stdlib-js/stdlib/commit/1b8a546a22a9b669cd5287c32a5c16f9422c48c9) - **feat:** add `stats/strided/dnanmskmidrange` [(#9823)](https://github.com/stdlib-js/stdlib/pull/9823) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
 -   [`3dc14f7`](https://github.com/stdlib-js/stdlib/commit/3dc14f7bbee9514c55b44940004f77c6771d7b12) - **feat:** add `stats/base/ndarray/dstdevpn` [(#9787)](https://github.com/stdlib-js/stdlib/pull/9787) _(by Pratik, Philipp Burckhardt)_
 -   [`7ddfd47`](https://github.com/stdlib-js/stdlib/commit/7ddfd47647bffccc63781211c7bf1e529f6822eb) - **test:** remove duplicate test cases in `stats/base/dists/normal` packages _(by Philipp Burckhardt)_
@@ -6672,7 +6674,7 @@ A total of 566 issues were closed in this release:
 
 ### Contributors
 
-A total of 99 people contributed to this release. Thank you to the following contributors:
+A total of 100 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -6737,6 +6739,7 @@ A total of 99 people contributed to this release. Thank you to the following con
 -   Neeraj Pathak
 -   NirvedMishra
 -   Nishchay Rajput
+-   Om-A-osc
 -   Payal Goswami
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
