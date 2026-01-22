@@ -3579,6 +3579,8 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`6114701`](https://github.com/stdlib-js/stdlib/commit/611470131a2d7acced9ee078458b6817b78138c3) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`1dc536d`](https://github.com/stdlib-js/stdlib/commit/1dc536d94d8783c36df2f1dd9fc8777689155d23) - **refactor:** pre-calculate constant _(by Philipp Burckhardt)_
 -   [`794dd4a`](https://github.com/stdlib-js/stdlib/commit/794dd4ad9f6be2c42f70119dade0d569ce382ad2) - **feat:** add `stats/base/dists/halfnormal/mode` [(#9705)](https://github.com/stdlib-js/stdlib/pull/9705) _(by Lokesh Ranjan, Philipp Burckhardt)_
 -   [`c9d512a`](https://github.com/stdlib-js/stdlib/commit/c9d512afde29049ca85e7e9e814eb33bf0bb5072) - **feat:** add `stats/strided/srangeabs` [(#9850)](https://github.com/stdlib-js/stdlib/pull/9850) _(by Sachin Pangal, stdlib-bot)_
 -   [`9bf5e56`](https://github.com/stdlib-js/stdlib/commit/9bf5e561b497aea964565bfa9ca59964be12476c) - **feat:** add `stats/base/dists/halfnormal/entropy` [(#9753)](https://github.com/stdlib-js/stdlib/pull/9753) _(by Bhargav Dabhade, Philipp Burckhardt)_
