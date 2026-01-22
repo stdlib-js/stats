@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`794dd4a`](https://github.com/stdlib-js/stdlib/commit/794dd4ad9f6be2c42f70119dade0d569ce382ad2) - add `stats/base/dists/halfnormal/mode` [(#9705)](https://github.com/stdlib-js/stdlib/pull/9705)
 -   [`c9d512a`](https://github.com/stdlib-js/stdlib/commit/c9d512afde29049ca85e7e9e814eb33bf0bb5072) - add `stats/strided/srangeabs` [(#9850)](https://github.com/stdlib-js/stdlib/pull/9850)
 -   [`9bf5e56`](https://github.com/stdlib-js/stdlib/commit/9bf5e561b497aea964565bfa9ca59964be12476c) - add `stats/base/dists/halfnormal/entropy` [(#9753)](https://github.com/stdlib-js/stdlib/pull/9753)
 -   [`2463b16`](https://github.com/stdlib-js/stdlib/commit/2463b161e2b13334b7ac23c24fe85323e6447484) - add implementation of `stats/base/dists/halfnormal/kurtosis` [(#9771)](https://github.com/stdlib-js/stdlib/pull/9771)
@@ -3578,6 +3579,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`794dd4a`](https://github.com/stdlib-js/stdlib/commit/794dd4ad9f6be2c42f70119dade0d569ce382ad2) - **feat:** add `stats/base/dists/halfnormal/mode` [(#9705)](https://github.com/stdlib-js/stdlib/pull/9705) _(by Lokesh Ranjan, Philipp Burckhardt)_
 -   [`c9d512a`](https://github.com/stdlib-js/stdlib/commit/c9d512afde29049ca85e7e9e814eb33bf0bb5072) - **feat:** add `stats/strided/srangeabs` [(#9850)](https://github.com/stdlib-js/stdlib/pull/9850) _(by Sachin Pangal, stdlib-bot)_
 -   [`9bf5e56`](https://github.com/stdlib-js/stdlib/commit/9bf5e561b497aea964565bfa9ca59964be12476c) - **feat:** add `stats/base/dists/halfnormal/entropy` [(#9753)](https://github.com/stdlib-js/stdlib/pull/9753) _(by Bhargav Dabhade, Philipp Burckhardt)_
 -   [`2463b16`](https://github.com/stdlib-js/stdlib/commit/2463b161e2b13334b7ac23c24fe85323e6447484) - **feat:** add implementation of `stats/base/dists/halfnormal/kurtosis` [(#9771)](https://github.com/stdlib-js/stdlib/pull/9771) _(by Om-A-osc, Philipp Burckhardt)_
