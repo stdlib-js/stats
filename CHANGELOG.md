@@ -3579,6 +3579,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`b0c70d4`](https://github.com/stdlib-js/stdlib/commit/b0c70d4e0ee87f9678d29c51613a90b05c7aae92) - **chore:** clean-up _(by Athan Reines)_
 -   [`42a21ef`](https://github.com/stdlib-js/stdlib/commit/42a21ef96b20ae2c821330ef5ddf8b1bce032bfc) - **chore:** add missing exports comments _(by Philipp Burckhardt)_
 -   [`ca3ead8`](https://github.com/stdlib-js/stdlib/commit/ca3ead8968414cc4d281ddfce84449fc10ac3ffa) - **chore:** remove unneeded exports comment _(by Philipp Burckhardt)_
 -   [`da376aa`](https://github.com/stdlib-js/stdlib/commit/da376aaaf20f9eacc241279eba60a6de5d476c00) - **bench:** update random value generation [(#9860)](https://github.com/stdlib-js/stdlib/pull/9860) _(by Harsh Yadav)_
