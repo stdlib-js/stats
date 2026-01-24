@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2026 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,37 +18,36 @@
 
 'use strict';
 
+// MODULES //
+
+var stride2offset = require( '@stdlib/strided/base/stride2offset' );
+var ndarray = require( './ndarray.js' );
+
+
+// MAIN //
+
 /**
-* Compute the maximum value of a strided array according to a mask.
+* Computes the maximum value of a strided array according to a mask.
 *
-* @module @stdlib/stats/strided/mskmax
+* @param {PositiveInteger} N - number of indexed elements
+* @param {NumericArray} x - input array
+* @param {integer} strideX - `x` stride length
+* @param {NumericArray} mask - mask array
+* @param {integer} strideMask - `mask` stride length
+* @returns {number} maximum value
 *
 * @example
-* var mskmax = require( '@stdlib/stats/strided/mskmax' );
-*
 * var x = [ 1.0, -2.0, 4.0, 2.0 ];
 * var mask = [ 0, 0, 1, 0 ];
 *
 * var v = mskmax( x.length, x, 1, mask, 1 );
 * // returns 2.0
-*
-* @example
-* var mskmax = require( '@stdlib/stats/strided/mskmax' );
-*
-* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0, 5.0, 6.0 ];
-* var mask = [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ];
-*
-* var v = mskmax.ndarray( 5, x, 2, 1, mask, 2, 1 );
-* // returns 4.0
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+function mskmax( N, x, strideX, mask, strideMask ) {
+	return ndarray( N, x, strideX, stride2offset( N, strideX ), mask, strideMask, stride2offset( N, strideMask ) ); // eslint-disable-line max-len
+}
 
 
 // EXPORTS //
 
-module.exports = main;
-
-// exports: { "ndarray": "main.ndarray" }
+module.exports = mskmax;
