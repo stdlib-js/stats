@@ -3579,6 +3579,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`95a8d60`](https://github.com/stdlib-js/stdlib/commit/95a8d60c4d73ed9df86cf640230f1874aa8be9e7) - **chore:** remove exports comment _(by Philipp Burckhardt)_
 -   [`0954a22`](https://github.com/stdlib-js/stdlib/commit/0954a22ec2926b4d772482696031a5d36f2d747d) - **chore:** add missing exports comments _(by Philipp Burckhardt)_
 -   [`94692a4`](https://github.com/stdlib-js/stdlib/commit/94692a42667fa49bcd4c25abf5e717ab4c7f904c) - **chore:** use format instead of string concatenation [(#9863)](https://github.com/stdlib-js/stdlib/pull/9863) _(by Om-A-osc)_
 -   [`b0c70d4`](https://github.com/stdlib-js/stdlib/commit/b0c70d4e0ee87f9678d29c51613a90b05c7aae92) - **chore:** clean-up _(by Athan Reines)_
