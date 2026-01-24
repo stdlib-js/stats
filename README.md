@@ -35,20 +35,32 @@ limitations under the License.
 
 > Statistical functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import statistics from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { anova1, array, bartlettTest, base, binomialTest, chi2gof, chi2test, cumax, cumin, flignerTest, incr, iterators, kde2d, kruskalTest, kstest, leveneTest, lowess, max, maxBy, maxabs, mean, min, minBy, minabs, nanmax, nanmean, nanmin, padjust, pcorrtest, range, ranks, strided, ttest, ttest2, vartest, wilcoxon, ztest, ztest2 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@deno/mod.js';
+var statistics = require( '@stdlib/stats' );
 ```
 
 #### statistics
@@ -132,11 +144,21 @@ Other statistical functions included are:
 <div class="namespace-toc">
 
 -   <span class="signature">[`cumax( x[, options] )`][@stdlib/stats/cumax]</span><span class="delimiter">: </span><span class="description">compute the cumulative maximum value along one or more ndarray dimensions.</span>
+-   <span class="signature">[`cumin( x[, options] )`][@stdlib/stats/cumin]</span><span class="delimiter">: </span><span class="description">compute the cumulative minimum value along one or more ndarray dimensions.</span>
 -   <span class="signature">[`kde2d()`][@stdlib/stats/kde2d]</span><span class="delimiter">: </span><span class="description">two-dimensional kernel density estimation.</span>
 -   <span class="signature">[`lowess( x, y[, opts] )`][@stdlib/stats/lowess]</span><span class="delimiter">: </span><span class="description">locally-weighted polynomial regression via the LOWESS algorithm.</span>
 -   <span class="signature">[`maxBy( x[, options], clbk[, thisArg] )`][@stdlib/stats/max-by]</span><span class="delimiter">: </span><span class="description">compute the maximum value along one or more ndarray dimensions according to a callback function.</span>
 -   <span class="signature">[`max( x[, options] )`][@stdlib/stats/max]</span><span class="delimiter">: </span><span class="description">compute the maximum value along one or more ndarray dimensions.</span>
+-   <span class="signature">[`maxabs( x[, options] )`][@stdlib/stats/maxabs]</span><span class="delimiter">: </span><span class="description">compute the maximum absolute value along one or more ndarray dimensions.</span>
+-   <span class="signature">[`mean( x[, options] )`][@stdlib/stats/mean]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions.</span>
+-   <span class="signature">[`minBy( x[, options], clbk[, thisArg] )`][@stdlib/stats/min-by]</span><span class="delimiter">: </span><span class="description">compute the minimum value along one or more ndarray dimensions according to a callback function.</span>
+-   <span class="signature">[`min( x[, options] )`][@stdlib/stats/min]</span><span class="delimiter">: </span><span class="description">compute the minimum value along one or more ndarray dimensions.</span>
+-   <span class="signature">[`minabs( x[, options] )`][@stdlib/stats/minabs]</span><span class="delimiter">: </span><span class="description">compute the minimum absolute value along one or more ndarray dimensions.</span>
+-   <span class="signature">[`nanmax( x[, options] )`][@stdlib/stats/nanmax]</span><span class="delimiter">: </span><span class="description">compute the maximum value along one or more ndarray dimensions, ignoring `NaN` values.</span>
+-   <span class="signature">[`nanmean( x[, options] )`][@stdlib/stats/nanmean]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions, ignoring `NaN` values.</span>
+-   <span class="signature">[`nanmin( x[, options] )`][@stdlib/stats/nanmin]</span><span class="delimiter">: </span><span class="description">compute the minimum value along one or more ndarray dimensions, ignoring `NaN` values.</span>
 -   <span class="signature">[`padjust( pvals, method[, comparisons] )`][@stdlib/stats/padjust]</span><span class="delimiter">: </span><span class="description">adjust supplied p-values for multiple comparisons.</span>
+-   <span class="signature">[`range( x[, options] )`][@stdlib/stats/range]</span><span class="delimiter">: </span><span class="description">compute the range along one or more ndarray dimensions.</span>
 -   <span class="signature">[`ranks( arr[, opts] )`][@stdlib/stats/ranks]</span><span class="delimiter">: </span><span class="description">compute ranks for values of an array-like object.</span>
 
 </div>
@@ -156,8 +178,8 @@ Other statistical functions included are:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import statistics from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@deno/mod.js';
+var objectKeys = require( '@stdlib/utils/keys' );
+var statistics = require( '@stdlib/stats' );
 
 console.log( objectKeys( statistics ) );
 ```
@@ -183,7 +205,7 @@ console.log( objectKeys( statistics ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -200,7 +222,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -226,8 +248,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -250,6 +272,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/cumax]: https://github.com/stdlib-js/stats/tree/main/cumax
 
+[@stdlib/stats/cumin]: https://github.com/stdlib-js/stats/tree/main/cumin
+
 [@stdlib/stats/kde2d]: https://github.com/stdlib-js/stats/tree/main/kde2d
 
 [@stdlib/stats/lowess]: https://github.com/stdlib-js/stats/tree/main/lowess
@@ -258,7 +282,25 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/max]: https://github.com/stdlib-js/stats/tree/main/max
 
+[@stdlib/stats/maxabs]: https://github.com/stdlib-js/stats/tree/main/maxabs
+
+[@stdlib/stats/mean]: https://github.com/stdlib-js/stats/tree/main/mean
+
+[@stdlib/stats/min-by]: https://github.com/stdlib-js/stats/tree/main/min-by
+
+[@stdlib/stats/min]: https://github.com/stdlib-js/stats/tree/main/min
+
+[@stdlib/stats/minabs]: https://github.com/stdlib-js/stats/tree/main/minabs
+
+[@stdlib/stats/nanmax]: https://github.com/stdlib-js/stats/tree/main/nanmax
+
+[@stdlib/stats/nanmean]: https://github.com/stdlib-js/stats/tree/main/nanmean
+
+[@stdlib/stats/nanmin]: https://github.com/stdlib-js/stats/tree/main/nanmin
+
 [@stdlib/stats/padjust]: https://github.com/stdlib-js/stats/tree/main/padjust
+
+[@stdlib/stats/range]: https://github.com/stdlib-js/stats/tree/main/range
 
 [@stdlib/stats/ranks]: https://github.com/stdlib-js/stats/tree/main/ranks
 
