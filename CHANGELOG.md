@@ -1282,6 +1282,7 @@
 
 ### Bug Fixes
 
+-   [`7df5cea`](https://github.com/stdlib-js/stdlib/commit/7df5cea68c5d3239fa979b7e4d200d19c10bf9f2) - remove unneeded export comments and ensure browser build includes ndarray method
 -   [`ad77b26`](https://github.com/stdlib-js/stdlib/commit/ad77b26a72b25bb371da51c3cb665c2803a8d9b0) - remove unneeded export comments and ensure browser build includes ndarray method
 -   [`924aa84`](https://github.com/stdlib-js/stdlib/commit/924aa84174dd5191cf02f2e6e985ff90f4acceb4) - remove unneeded export comments and ensure browser build includes ndarray method
 -   [`26ea808`](https://github.com/stdlib-js/stdlib/commit/26ea808b6afc4bb6db6492a9020f8325ebd2157e) - ensure browser-specific version of package has ndarray method
@@ -3583,6 +3584,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`7df5cea`](https://github.com/stdlib-js/stdlib/commit/7df5cea68c5d3239fa979b7e4d200d19c10bf9f2) - **fix:** remove unneeded export comments and ensure browser build includes ndarray method _(by Philipp Burckhardt)_
 -   [`ad77b26`](https://github.com/stdlib-js/stdlib/commit/ad77b26a72b25bb371da51c3cb665c2803a8d9b0) - **fix:** remove unneeded export comments and ensure browser build includes ndarray method _(by Philipp Burckhardt)_
 -   [`924aa84`](https://github.com/stdlib-js/stdlib/commit/924aa84174dd5191cf02f2e6e985ff90f4acceb4) - **fix:** remove unneeded export comments and ensure browser build includes ndarray method _(by Philipp Burckhardt)_
 -   [`90da141`](https://github.com/stdlib-js/stdlib/commit/90da141063d7deb9af83a387dc4bbd27b73e8095) - **chore:** remove exports comments _(by Philipp Burckhardt)_
