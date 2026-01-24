@@ -1282,6 +1282,7 @@
 
 ### Bug Fixes
 
+-   [`108e110`](https://github.com/stdlib-js/stdlib/commit/108e1100258d7c684177568b9d36abf77f1303f1) - use correct analytic formula and update tests and documentation
 -   [`6544e40`](https://github.com/stdlib-js/stdlib/commit/6544e40467b59c16865cd47427a9c01861a351b4) - inline constant value
 -   [`a1fbf46`](https://github.com/stdlib-js/stdlib/commit/a1fbf4635c30c28ed3c8044ded17640bc877ca0d) - require `sigma` be greater than zero
 -   [`3af0a04`](https://github.com/stdlib-js/stdlib/commit/3af0a041f6ae95c251cbfa2acae82b30e3b4579b) - return `NaN` when the number of indexed elements is zero in `stats/strided/distances/dcosine-similarity` [(#9497)](https://github.com/stdlib-js/stdlib/pull/9497)
@@ -3579,6 +3580,8 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`108e110`](https://github.com/stdlib-js/stdlib/commit/108e1100258d7c684177568b9d36abf77f1303f1) - **fix:** use correct analytic formula and update tests and documentation _(by Athan Reines)_
+-   [`2816724`](https://github.com/stdlib-js/stdlib/commit/2816724d9493a837fd62b1bce1ea1527afe6f2bc) - **chore:** clean-up _(by Athan Reines)_
 -   [`ac1050a`](https://github.com/stdlib-js/stdlib/commit/ac1050ab5716b16ad08fc7acd45b0742ee775461) - **chore:** clean-up _(by Athan Reines)_
 -   [`95a8d60`](https://github.com/stdlib-js/stdlib/commit/95a8d60c4d73ed9df86cf640230f1874aa8be9e7) - **chore:** remove exports comment _(by Philipp Burckhardt)_
 -   [`0954a22`](https://github.com/stdlib-js/stdlib/commit/0954a22ec2926b4d772482696031a5d36f2d747d) - **chore:** add missing exports comments _(by Philipp Burckhardt)_
