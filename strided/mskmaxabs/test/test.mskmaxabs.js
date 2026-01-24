@@ -26,7 +26,7 @@ var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
 var isPositiveZero = require( '@stdlib/math/base/assert/is-positive-zero' );
 var Float64Array = require( '@stdlib/array/float64' );
 var Uint8Array = require( '@stdlib/array/uint8' );
-var mskmaxabs = require( './../lib/main.js' );
+var mskmaxabs = require( './../lib/mskmaxabs.js' );
 
 
 // TESTS //
