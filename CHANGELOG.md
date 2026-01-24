@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-23)
+## Unreleased (2026-01-24)
 
 <section class="features">
 
@@ -3579,6 +3579,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`ca3ead8`](https://github.com/stdlib-js/stdlib/commit/ca3ead8968414cc4d281ddfce84449fc10ac3ffa) - **chore:** remove unneeded exports comment _(by Philipp Burckhardt)_
 -   [`da376aa`](https://github.com/stdlib-js/stdlib/commit/da376aaaf20f9eacc241279eba60a6de5d476c00) - **bench:** update random value generation [(#9860)](https://github.com/stdlib-js/stdlib/pull/9860) _(by Harsh Yadav)_
 -   [`89e6e3f`](https://github.com/stdlib-js/stdlib/commit/89e6e3f78d7a3adb40799b58f51a7d79c298a0bc) - **bench:** update random value generation [(#9855)](https://github.com/stdlib-js/stdlib/pull/9855) _(by Harsh Yadav)_
 -   [`6114701`](https://github.com/stdlib-js/stdlib/commit/611470131a2d7acced9ee078458b6817b78138c3) - **docs:** minor clean-up _(by Philipp Burckhardt)_
