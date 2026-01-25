@@ -42,13 +42,19 @@
 * // returns 4.0
 */
 
+
 // MODULES //
 
-var main = require( './main.js' );
+var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
+var mskmaxabs = require( './main.js' );
+var ndarray = require( './ndarray.js' );
+
+
+// MAIN //
+
+setReadOnly( mskmaxabs, 'ndarray', ndarray );
 
 
 // EXPORTS //
 
-module.exports = main;
-
-// exports: { "ndarray": "main.ndarray" }
+module.exports = mskmaxabs;

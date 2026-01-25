@@ -21,138 +21,138 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
+var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
 var isPositiveZero = require( '@stdlib/math/base/assert/is-positive-zero' );
 var Float64Array = require( '@stdlib/array/float64' );
 var Uint8Array = require( '@stdlib/array/uint8' );
-var nanmskrange = require( './../lib/nanmskrange.js' );
+var mskrange = require( './../lib/main.js' );
 
 
 // TESTS //
 
 tape( 'main export is a function', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof nanmskrange, 'function', 'main export is a function' );
+	t.strictEqual( typeof mskrange, 'function', 'main export is a function' );
 	t.end();
 });
 
 tape( 'the function has an arity of 5', function test( t ) {
-	t.strictEqual( nanmskrange.length, 5, 'has expected arity' );
+	t.strictEqual( mskrange.length, 5, 'has expected arity' );
 	t.end();
 });
 
-tape( 'the function calculates the range of a strided array according to a mask, ignoring NaN values', function test( t ) {
+tape( 'the function calculates the range of a strided array according to a mask', function test( t ) {
 	var mask;
 	var x;
 	var v;
 
 	x = [ 1.0, -2.0, -4.0, NaN, 5.0, 0.0, 3.0 ];
 	mask = [ 0, 0, 0, 1, 0, 0, 0 ];
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	v = mskrange( x.length, x, 1, mask, 1 );
 	t.strictEqual( v, 9.0, 'returns expected value' );
 
 	x = [ -4.0, NaN, -5.0 ];
 	mask = [ 0, 1, 0 ];
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	v = mskrange( x.length, x, 1, mask, 1 );
 	t.strictEqual( v, 1.0, 'returns expected value' );
 
 	x = [ -0.0, 0.0, NaN, -0.0 ];
 	mask = [ 0, 0, 1, 0 ];
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	v = mskrange( x.length, x, 1, mask, 1 );
 	t.strictEqual( isPositiveZero( v ), true, 'returns expected value' );
 
 	x = [ -4.0, 0.0, NaN, 5.0 ];
 	mask = [ 0, 0, 0, 0 ];
-	v = nanmskrange( x.length, x, 1, mask, 1 );
-	t.strictEqual( v, 9.0, 'returns expected value' );
+	v = mskrange( x.length, x, 1, mask, 1 );
+	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN ];
 	mask = [ 0 ];
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	v = mskrange( x.length, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN ];
 	mask = [ 1 ];
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	v = mskrange( x.length, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 	mask = [ 1, 1 ];
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	v = mskrange( x.length, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 	mask = [ 1, 0 ];
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	v = mskrange( x.length, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 	mask = [ 0, 1 ];
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	v = mskrange( x.length, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	x = [ NaN, NaN ];
 	mask = [ 0, 0 ];
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	v = mskrange( x.length, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function calculates the range of a strided array according to a mask, ignoring NaN values (accessors)', function test( t ) {
+tape( 'the function calculates the range of a strided array according to a mask (accessor)', function test( t ) {
 	var mask;
 	var x;
 	var v;
 
-	x = toAccessorArray( [ 1.0, -2.0, -4.0, NaN, 5.0, 0.0, 3.0 ] );
-	mask = toAccessorArray( [ 0, 0, 0, 1, 0, 0, 0 ] );
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	x = [ 1.0, -2.0, -4.0, NaN, 5.0, 0.0, 3.0 ];
+	mask = [ 0, 0, 0, 1, 0, 0, 0 ];
+	v = mskrange( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 );
 	t.strictEqual( v, 9.0, 'returns expected value' );
 
-	x = toAccessorArray( [ -4.0, NaN, -5.0 ] );
-	mask = toAccessorArray( [ 0, 1, 0 ] );
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	x = [ -4.0, NaN, -5.0 ];
+	mask = [ 0, 1, 0 ];
+	v = mskrange( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 );
 	t.strictEqual( v, 1.0, 'returns expected value' );
 
-	x = toAccessorArray( [ -0.0, 0.0, NaN, -0.0 ] );
-	mask = toAccessorArray( [ 0, 0, 1, 0 ] );
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	x = [ -0.0, 0.0, NaN, -0.0 ];
+	mask = [ 0, 0, 1, 0 ];
+	v = mskrange( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 );
 	t.strictEqual( isPositiveZero( v ), true, 'returns expected value' );
 
-	x = toAccessorArray( [ -4.0, 0.0, NaN, 5.0 ] );
-	mask = toAccessorArray( [ 0, 0, 0, 0 ] );
-	v = nanmskrange( x.length, x, 1, mask, 1 );
-	t.strictEqual( v, 9.0, 'returns expected value' );
-
-	x = toAccessorArray( [ NaN ] );
-	mask = toAccessorArray( [ 0 ] );
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	x = [ -4.0, 0.0, NaN, 5.0 ];
+	mask = [ 0, 0, 0, 0 ];
+	v = mskrange( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
-	x = toAccessorArray( [ NaN ] );
-	mask = toAccessorArray( [ 1 ] );
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	x = [ NaN ];
+	mask = [ 0 ];
+	v = mskrange( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
-	x = toAccessorArray( [ NaN, NaN ] );
-	mask = toAccessorArray( [ 1, 1 ] );
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	x = [ NaN ];
+	mask = [ 1 ];
+	v = mskrange( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
-	x = toAccessorArray( [ NaN, NaN ] );
-	mask = toAccessorArray( [ 1, 0 ] );
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	x = [ NaN, NaN ];
+	mask = [ 1, 1 ];
+	v = mskrange( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
-	x = toAccessorArray( [ NaN, NaN ] );
-	mask = toAccessorArray( [ 0, 1 ] );
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	x = [ NaN, NaN ];
+	mask = [ 1, 0 ];
+	v = mskrange( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
-	x = toAccessorArray( [ NaN, NaN ] );
-	mask = toAccessorArray( [ 0, 0 ] );
-	v = nanmskrange( x.length, x, 1, mask, 1 );
+	x = [ NaN, NaN ];
+	mask = [ 0, 1 ];
+	v = mskrange( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 );
+	t.strictEqual( isnan( v ), true, 'returns expected value' );
+
+	x = [ NaN, NaN ];
+	mask = [ 0, 0 ];
+	v = mskrange( x.length, toAccessorArray( x ), 1, toAccessorArray( mask ), 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -164,12 +164,12 @@ tape( 'if provided an `N` parameter less than or equal to `0`, the function retu
 	var v;
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
-	mask = [ 0.0, 0.0 ];
+	mask = [ 0, 0, 0, 0, 0 ];
 
-	v = nanmskrange( 0, x, 1, mask, 1 );
+	v = mskrange( 0, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
-	v = nanmskrange( -1, x, 1, mask, 1 );
+	v = mskrange( -1, x, 1, mask, 1 );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 
 	t.end();
@@ -181,9 +181,9 @@ tape( 'if provided an `N` parameter equal to `1`, the function returns `0`', fun
 	var v;
 
 	x = [ 1.0, -2.0, -4.0, 5.0, 3.0 ];
-	mask = [ 0.0, 0.0 ];
+	mask = [ 0, 0, 0, 0, 0 ];
 
-	v = nanmskrange( 1, x, 1, mask, 1 );
+	v = mskrange( 1, x, 1, mask, 1 );
 	t.strictEqual( v, 0.0, 'returns expected value' );
 
 	t.end();
@@ -204,9 +204,7 @@ tape( 'the function supports `stride` parameters', function test( t ) {
 		4.0,  // 3
 		2.0,
 		5.0,  // 4
-		6.0,
-		NaN,  // 5
-		NaN
+		6.0
 	];
 	mask = [
 		0, // 0
@@ -218,18 +216,16 @@ tape( 'the function supports `stride` parameters', function test( t ) {
 		0, // 3
 		0,
 		1, // 4
-		1,
-		0, // 5
-		0
+		1
 	];
 
-	v = nanmskrange( 6, x, 2, mask, 2 );
+	v = mskrange( 5, x, 2, mask, 2 );
 
 	t.strictEqual( v, 6.0, 'returns expected value' );
 	t.end();
 });
 
-tape( 'the function supports `stride` parameters (accessors)', function test( t ) {
+tape( 'the function supports `stride` parameters (accessor)', function test( t ) {
 	var mask;
 	var x;
 	var v;
@@ -244,9 +240,7 @@ tape( 'the function supports `stride` parameters (accessors)', function test( t 
 		4.0,  // 3
 		2.0,
 		5.0,  // 4
-		6.0,
-		NaN,  // 5
-		NaN
+		6.0
 	];
 	mask = [
 		0, // 0
@@ -258,12 +252,10 @@ tape( 'the function supports `stride` parameters (accessors)', function test( t 
 		0, // 3
 		0,
 		1, // 4
-		1,
-		0, // 5
-		0
+		1
 	];
 
-	v = nanmskrange( 6, toAccessorArray( x ), 2, toAccessorArray( mask ), 2 );
+	v = mskrange( 5, x, 2, mask, 2 );
 
 	t.strictEqual( v, 6.0, 'returns expected value' );
 	t.end();
@@ -275,8 +267,6 @@ tape( 'the function supports negative `stride` parameters', function test( t ) {
 	var v;
 
 	x = [
-		NaN,  // 5
-		NaN,
 		5.0,  // 4
 		6.0,
 		1.0,  // 3
@@ -289,8 +279,6 @@ tape( 'the function supports negative `stride` parameters', function test( t ) {
 		2.0
 	];
 	mask = [
-		0, // 5
-		0,
 		1, // 4
 		1,
 		0, // 3
@@ -303,20 +291,18 @@ tape( 'the function supports negative `stride` parameters', function test( t ) {
 		0
 	];
 
-	v = nanmskrange( 6, x, -2, mask, -2 );
+	v = mskrange( 5, x, -2, mask, -2 );
 
 	t.strictEqual( v, 6.0, 'returns expected value' );
 	t.end();
 });
 
-tape( 'the function supports negative `stride` parameters (accessors)', function test( t ) {
+tape( 'the function supports negative `stride` parameters (accessor)', function test( t ) {
 	var mask;
 	var x;
 	var v;
 
 	x = [
-		NaN,  // 5
-		NaN,
 		5.0,  // 4
 		6.0,
 		1.0,  // 3
@@ -329,8 +315,6 @@ tape( 'the function supports negative `stride` parameters (accessors)', function
 		2.0
 	];
 	mask = [
-		0, // 5
-		0,
 		1, // 4
 		1,
 		0, // 3
@@ -343,7 +327,7 @@ tape( 'the function supports negative `stride` parameters (accessors)', function
 		0
 	];
 
-	v = nanmskrange( 6, toAccessorArray( x ), -2, toAccessorArray( mask ), -2 );
+	v = mskrange( 5, toAccessorArray( x ), -2, toAccessorArray( mask ), -2 );
 
 	t.strictEqual( v, 6.0, 'returns expected value' );
 	t.end();
@@ -367,9 +351,7 @@ tape( 'the function supports view offsets', function test( t ) {
 		4.0,  // 3
 		6.0,
 		5.0,  // 4
-		6.0,
-		NaN,  // 5
-		NaN
+		6.0
 	]);
 	mask0 = new Uint8Array([
 		0,
@@ -382,21 +364,19 @@ tape( 'the function supports view offsets', function test( t ) {
 		0, // 3
 		0,
 		1, // 4
-		1,
-		0, // 5
-		0
+		1
 	]);
 
 	x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 	mask1 = new Uint8Array( mask0.buffer, mask0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-	v = nanmskrange( 6, x1, 2, mask1, 2 );
+	v = mskrange( 5, x1, 2, mask1, 2 );
 	t.strictEqual( v, 6.0, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function supports view offsets (accessors)', function test( t ) {
+tape( 'the function supports view offsets (accessor)', function test( t ) {
 	var mask0;
 	var mask1;
 	var x0;
@@ -414,9 +394,7 @@ tape( 'the function supports view offsets (accessors)', function test( t ) {
 		4.0,  // 3
 		6.0,
 		5.0,  // 4
-		6.0,
-		NaN,  // 5
-		NaN
+		6.0
 	]);
 	mask0 = new Uint8Array([
 		0,
@@ -429,15 +407,13 @@ tape( 'the function supports view offsets (accessors)', function test( t ) {
 		0, // 3
 		0,
 		1, // 4
-		1,
-		0, // 5
-		0
+		1
 	]);
 
 	x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 	mask1 = new Uint8Array( mask0.buffer, mask0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-	v = nanmskrange( 6, toAccessorArray( x1 ), 2, toAccessorArray( mask1 ), 2 );
+	v = mskrange( 5, toAccessorArray( x1 ), 2, toAccessorArray( mask1 ), 2 );
 	t.strictEqual( v, 6.0, 'returns expected value' );
 
 	t.end();

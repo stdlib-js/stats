@@ -24,7 +24,7 @@ var tape = require( 'tape' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var Float64Array = require( '@stdlib/array/float64' );
 var toAccessorArray = require( '@stdlib/array/base/to-accessor-array' );
-var nanvariance = require( './../lib/nanvariance.js' );
+var nanvariance = require( './../lib/main.js' );
 
 
 // TESTS //

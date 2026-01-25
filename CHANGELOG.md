@@ -3584,6 +3584,14 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`0646933`](https://github.com/stdlib-js/stdlib/commit/06469331a90eca2105b96749522f3e73450b556c) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`e42451a`](https://github.com/stdlib-js/stdlib/commit/e42451a082479c4f573c60885a54fa9a6fc4313e) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`49b870b`](https://github.com/stdlib-js/stdlib/commit/49b870bdbabb88bb852fc22744ebb76f7dde5d44) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`a976e0d`](https://github.com/stdlib-js/stdlib/commit/a976e0d977a2c0b117d83581d38441fd15ca6273) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`a830720`](https://github.com/stdlib-js/stdlib/commit/a830720e1179ecd50924edf20d884483cc39f570) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`0db4998`](https://github.com/stdlib-js/stdlib/commit/0db499866f3b5f50061f3827c7726851c6b8e320) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`719e685`](https://github.com/stdlib-js/stdlib/commit/719e685eaa6460d9ded69333953019952455750f) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`430583e`](https://github.com/stdlib-js/stdlib/commit/430583e905716d80351b947a43631e3aa26ee257) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
 -   [`b665247`](https://github.com/stdlib-js/stdlib/commit/b665247f7098a8dda04c8cee2e8f8f14a6923f1a) - **docs:** add missing references for `stats/base/ndarray/sstdevwd` [(#9864)](https://github.com/stdlib-js/stdlib/pull/9864) _(by Pratik)_
 -   [`1c9a785`](https://github.com/stdlib-js/stdlib/commit/1c9a785ad53c5dac99aa5e019402cd4d8e7bccaa) - **bench:** add missing benchmarks _(by Athan Reines)_
 -   [`a1628e3`](https://github.com/stdlib-js/stdlib/commit/a1628e3cd7cfded6ca980c21645c29fd34ede4ce) - **chore:** clean-up _(by Athan Reines)_
