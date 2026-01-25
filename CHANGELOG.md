@@ -3584,6 +3584,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`1c9a785`](https://github.com/stdlib-js/stdlib/commit/1c9a785ad53c5dac99aa5e019402cd4d8e7bccaa) - **bench:** add missing benchmarks _(by Athan Reines)_
 -   [`a1628e3`](https://github.com/stdlib-js/stdlib/commit/a1628e3cd7cfded6ca980c21645c29fd34ede4ce) - **chore:** clean-up _(by Athan Reines)_
 -   [`e28d2fe`](https://github.com/stdlib-js/stdlib/commit/e28d2fe0eba692438ff7322feedcc8db4da6c308) - **chore:** remove unneeded exports comment _(by Philipp Burckhardt)_
 -   [`7df5cea`](https://github.com/stdlib-js/stdlib/commit/7df5cea68c5d3239fa979b7e4d200d19c10bf9f2) - **fix:** remove unneeded export comments and ensure browser build includes ndarray method _(by Philipp Burckhardt)_
