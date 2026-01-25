@@ -3584,6 +3584,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`b665247`](https://github.com/stdlib-js/stdlib/commit/b665247f7098a8dda04c8cee2e8f8f14a6923f1a) - **docs:** add missing references for `stats/base/ndarray/sstdevwd` [(#9864)](https://github.com/stdlib-js/stdlib/pull/9864) _(by Pratik)_
 -   [`1c9a785`](https://github.com/stdlib-js/stdlib/commit/1c9a785ad53c5dac99aa5e019402cd4d8e7bccaa) - **bench:** add missing benchmarks _(by Athan Reines)_
 -   [`a1628e3`](https://github.com/stdlib-js/stdlib/commit/a1628e3cd7cfded6ca980c21645c29fd34ede4ce) - **chore:** clean-up _(by Athan Reines)_
 -   [`e28d2fe`](https://github.com/stdlib-js/stdlib/commit/e28d2fe0eba692438ff7322feedcc8db4da6c308) - **chore:** remove unneeded exports comment _(by Philipp Burckhardt)_
