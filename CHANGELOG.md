@@ -3584,6 +3584,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`2a9e3c5`](https://github.com/stdlib-js/stdlib/commit/2a9e3c51b801951fed1dd75b0cdd3180b91c5ca6) - **bench:** refactor `stats/base/dists/arcsine/cdf` benchmarks [(#9881)](https://github.com/stdlib-js/stdlib/pull/9881) _(by Om-A-osc, Athan Reines)_
 -   [`0646933`](https://github.com/stdlib-js/stdlib/commit/06469331a90eca2105b96749522f3e73450b556c) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
 -   [`e42451a`](https://github.com/stdlib-js/stdlib/commit/e42451a082479c4f573c60885a54fa9a6fc4313e) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
 -   [`49b870b`](https://github.com/stdlib-js/stdlib/commit/49b870bdbabb88bb852fc22744ebb76f7dde5d44) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
