@@ -10,6 +10,18 @@
 
 ### Features
 
+-   [`fabac99`](https://github.com/stdlib-js/stdlib/commit/fabac994a5faee54c764fc1744f9a3427a6cf7b3) - add `variance`, `variancech`, `variancewd` to namespace
+-   [`b165d09`](https://github.com/stdlib-js/stdlib/commit/b165d09ba924d67d5ee7ed2f307a2a394708c830) - add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, `stdevyc` to namespace
+-   [`f68ce9c`](https://github.com/stdlib-js/stdlib/commit/f68ce9c54ec885f22090a8397346c865242aed80) - add `sstdev`, `sstdevch`, `sstdevpn`, `sstdevwd` to namespace
+-   [`7139c25`](https://github.com/stdlib-js/stdlib/commit/7139c25a29aa627c32bd5995aee81e89511931b8) - add `snanrange` to namespace
+-   [`94ff22d`](https://github.com/stdlib-js/stdlib/commit/94ff22dca4d701f12d6bb6abdcab72adb28715c0) - add `snanmskmax`, `snanmskmin`, `snanmskrange` to namespace
+-   [`b38d7db`](https://github.com/stdlib-js/stdlib/commit/b38d7db968c63307010eb6ab7d9911cd22395497) - add `snanmidrange` to namespace
+-   [`a3c5163`](https://github.com/stdlib-js/stdlib/commit/a3c516334b198d5e75651fe6ccab356fb859a0b0) - add `smskmax`, `smskmidrange`, `smskmin`, `smskrange` to namespace
+-   [`e76145c`](https://github.com/stdlib-js/stdlib/commit/e76145c08e0d14d58ebd4000b4be3e5aa2b847cd) - add `smeanors`, `smediansorted`, `smidrange` to namespace
+-   [`1ef47af`](https://github.com/stdlib-js/stdlib/commit/1ef47afe2c2d359bdcbdd581377e55a3ae32bf98) - add `sdsmean`, `sdsmeanors`, `sdsnanmeanors` to namespace
+-   [`ce723a4`](https://github.com/stdlib-js/stdlib/commit/ce723a44bfba8592c4add60f31021768b7497798) - add `nanrange` and `nanrangeBy` to namespace
+-   [`87ee49b`](https://github.com/stdlib-js/stdlib/commit/87ee49bd98f76bfe8f7819206cc941de1d1b09eb) - add `nanmskmax`, `nanmskmin`, `nanmskrange` to namespace
+-   [`a4d6dcf`](https://github.com/stdlib-js/stdlib/commit/a4d6dcfe836dbab948b11ef1e86e0b9fcb52f58e) - add `nanmeanors`, `nanmidrange`, `nanmidrangeBy`, `nanminBy` to namespace
 -   [`5feabb7`](https://github.com/stdlib-js/stdlib/commit/5feabb757b0306583c947e77cb327316cc340080) - add `mskmidrange` to namespace
 -   [`a6c1cde`](https://github.com/stdlib-js/stdlib/commit/a6c1cde8db2eb893de6912f2942b715837c28cb9) - add `nanmaxBy` to namespace
 -   [`f916336`](https://github.com/stdlib-js/stdlib/commit/f916336ffb65ee1718c971dc97ac4cdc4beda3b3) - add `midrange` and `midrangeBy` to namespace
@@ -3605,6 +3617,18 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`fabac99`](https://github.com/stdlib-js/stdlib/commit/fabac994a5faee54c764fc1744f9a3427a6cf7b3) - **feat:** add `variance`, `variancech`, `variancewd` to namespace _(by Athan Reines)_
+-   [`b165d09`](https://github.com/stdlib-js/stdlib/commit/b165d09ba924d67d5ee7ed2f307a2a394708c830) - **feat:** add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, `stdevyc` to namespace _(by Athan Reines)_
+-   [`f68ce9c`](https://github.com/stdlib-js/stdlib/commit/f68ce9c54ec885f22090a8397346c865242aed80) - **feat:** add `sstdev`, `sstdevch`, `sstdevpn`, `sstdevwd` to namespace _(by Athan Reines)_
+-   [`7139c25`](https://github.com/stdlib-js/stdlib/commit/7139c25a29aa627c32bd5995aee81e89511931b8) - **feat:** add `snanrange` to namespace _(by Athan Reines)_
+-   [`94ff22d`](https://github.com/stdlib-js/stdlib/commit/94ff22dca4d701f12d6bb6abdcab72adb28715c0) - **feat:** add `snanmskmax`, `snanmskmin`, `snanmskrange` to namespace _(by Athan Reines)_
+-   [`b38d7db`](https://github.com/stdlib-js/stdlib/commit/b38d7db968c63307010eb6ab7d9911cd22395497) - **feat:** add `snanmidrange` to namespace _(by Athan Reines)_
+-   [`a3c5163`](https://github.com/stdlib-js/stdlib/commit/a3c516334b198d5e75651fe6ccab356fb859a0b0) - **feat:** add `smskmax`, `smskmidrange`, `smskmin`, `smskrange` to namespace _(by Athan Reines)_
+-   [`e76145c`](https://github.com/stdlib-js/stdlib/commit/e76145c08e0d14d58ebd4000b4be3e5aa2b847cd) - **feat:** add `smeanors`, `smediansorted`, `smidrange` to namespace _(by Athan Reines)_
+-   [`1ef47af`](https://github.com/stdlib-js/stdlib/commit/1ef47afe2c2d359bdcbdd581377e55a3ae32bf98) - **feat:** add `sdsmean`, `sdsmeanors`, `sdsnanmeanors` to namespace _(by Athan Reines)_
+-   [`ce723a4`](https://github.com/stdlib-js/stdlib/commit/ce723a44bfba8592c4add60f31021768b7497798) - **feat:** add `nanrange` and `nanrangeBy` to namespace _(by Athan Reines)_
+-   [`87ee49b`](https://github.com/stdlib-js/stdlib/commit/87ee49bd98f76bfe8f7819206cc941de1d1b09eb) - **feat:** add `nanmskmax`, `nanmskmin`, `nanmskrange` to namespace _(by Athan Reines)_
+-   [`a4d6dcf`](https://github.com/stdlib-js/stdlib/commit/a4d6dcfe836dbab948b11ef1e86e0b9fcb52f58e) - **feat:** add `nanmeanors`, `nanmidrange`, `nanmidrangeBy`, `nanminBy` to namespace _(by Athan Reines)_
 -   [`5feabb7`](https://github.com/stdlib-js/stdlib/commit/5feabb757b0306583c947e77cb327316cc340080) - **feat:** add `mskmidrange` to namespace _(by Athan Reines)_
 -   [`a6c1cde`](https://github.com/stdlib-js/stdlib/commit/a6c1cde8db2eb893de6912f2942b715837c28cb9) - **feat:** add `nanmaxBy` to namespace _(by Athan Reines)_
 -   [`f916336`](https://github.com/stdlib-js/stdlib/commit/f916336ffb65ee1718c971dc97ac4cdc4beda3b3) - **feat:** add `midrange` and `midrangeBy` to namespace _(by Athan Reines)_
