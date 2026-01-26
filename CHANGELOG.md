@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`5feabb7`](https://github.com/stdlib-js/stdlib/commit/5feabb757b0306583c947e77cb327316cc340080) - add `mskmidrange` to namespace
+-   [`a6c1cde`](https://github.com/stdlib-js/stdlib/commit/a6c1cde8db2eb893de6912f2942b715837c28cb9) - add `nanmaxBy` to namespace
+-   [`f916336`](https://github.com/stdlib-js/stdlib/commit/f916336ffb65ee1718c971dc97ac4cdc4beda3b3) - add `midrange` and `midrangeBy` to namespace
 -   [`d99d331`](https://github.com/stdlib-js/stdlib/commit/d99d331a62b1521342ac812793a7080e449d192d) - add `dstdev`, `dstdevch`, `dstdevpn`, and `dstdevwd` to namespace
 -   [`52f25b4`](https://github.com/stdlib-js/stdlib/commit/52f25b4a749bfafacdbeb46884c1c314b3a25f73) - add `dnanrange` to namespace
 -   [`6a81c76`](https://github.com/stdlib-js/stdlib/commit/6a81c76e896d7fe3794f9857ed8b157fccc7493b) - add `dnanmskmax`, `dnanmskmin`, and `dnanmskrange` to namespace
@@ -3602,6 +3605,9 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`5feabb7`](https://github.com/stdlib-js/stdlib/commit/5feabb757b0306583c947e77cb327316cc340080) - **feat:** add `mskmidrange` to namespace _(by Athan Reines)_
+-   [`a6c1cde`](https://github.com/stdlib-js/stdlib/commit/a6c1cde8db2eb893de6912f2942b715837c28cb9) - **feat:** add `nanmaxBy` to namespace _(by Athan Reines)_
+-   [`f916336`](https://github.com/stdlib-js/stdlib/commit/f916336ffb65ee1718c971dc97ac4cdc4beda3b3) - **feat:** add `midrange` and `midrangeBy` to namespace _(by Athan Reines)_
 -   [`d99d331`](https://github.com/stdlib-js/stdlib/commit/d99d331a62b1521342ac812793a7080e449d192d) - **feat:** add `dstdev`, `dstdevch`, `dstdevpn`, and `dstdevwd` to namespace _(by Athan Reines)_
 -   [`52f25b4`](https://github.com/stdlib-js/stdlib/commit/52f25b4a749bfafacdbeb46884c1c314b3a25f73) - **feat:** add `dnanrange` to namespace _(by Athan Reines)_
 -   [`6a81c76`](https://github.com/stdlib-js/stdlib/commit/6a81c76e896d7fe3794f9857ed8b157fccc7493b) - **feat:** add `dnanmskmax`, `dnanmskmin`, and `dnanmskrange` to namespace _(by Athan Reines)_

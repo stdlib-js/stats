@@ -604,6 +604,24 @@ setReadOnly( ns, 'meanwd', require( './../../../base/ndarray/meanwd' ) );
 setReadOnly( ns, 'mediansorted', require( './../../../base/ndarray/mediansorted' ) );
 
 /**
+* @name midrange
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/midrange}
+*/
+setReadOnly( ns, 'midrange', require( './../../../base/ndarray/midrange' ) );
+
+/**
+* @name midrangeBy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/midrange-by}
+*/
+setReadOnly( ns, 'midrangeBy', require( './../../../base/ndarray/midrange-by' ) );
+
+/**
 * @name min
 * @memberof ns
 * @readonly
@@ -649,6 +667,15 @@ setReadOnly( ns, 'minsorted', require( './../../../base/ndarray/minsorted' ) );
 setReadOnly( ns, 'mskmax', require( './../../../base/ndarray/mskmax' ) );
 
 /**
+* @name mskmidrange
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/mskmidrange}
+*/
+setReadOnly( ns, 'mskmidrange', require( './../../../base/ndarray/mskmidrange' ) );
+
+/**
 * @name mskmin
 * @memberof ns
 * @readonly
@@ -674,6 +701,15 @@ setReadOnly( ns, 'mskrange', require( './../../../base/ndarray/mskrange' ) );
 * @see {@link module:@stdlib/stats/base/ndarray/nanmax}
 */
 setReadOnly( ns, 'nanmax', require( './../../../base/ndarray/nanmax' ) );
+
+/**
+* @name nanmaxBy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/nanmax-by}
+*/
+setReadOnly( ns, 'nanmaxBy', require( './../../../base/ndarray/nanmax-by' ) );
 
 /**
 * @name nanmaxabs
