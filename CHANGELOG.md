@@ -3584,6 +3584,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`c404057`](https://github.com/stdlib-js/stdlib/commit/c4040575dcca6cc615621c9a3b1dc3eb0ff18f6d) - **bench:** update random value generation [(#9820)](https://github.com/stdlib-js/stdlib/pull/9820) _(by Harsh Yadav)_
 -   [`4f42b6a`](https://github.com/stdlib-js/stdlib/commit/4f42b6af6b471d4ba9786f73d308e93992a12cdb) - **bench:** refactor to use string interpolation in `stats/base/dists/levy/mean` [(#9896)](https://github.com/stdlib-js/stdlib/pull/9896) _(by Daksha Raj)_
 -   [`2a9e3c5`](https://github.com/stdlib-js/stdlib/commit/2a9e3c51b801951fed1dd75b0cdd3180b91c5ca6) - **bench:** refactor `stats/base/dists/arcsine/cdf` benchmarks [(#9881)](https://github.com/stdlib-js/stdlib/pull/9881) _(by Om-A-osc, Athan Reines)_
 -   [`0646933`](https://github.com/stdlib-js/stdlib/commit/06469331a90eca2105b96749522f3e73450b556c) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
