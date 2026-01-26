@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ef33867`](https://github.com/stdlib-js/stdlib/commit/ef33867476544151b1ccfeb094c44b64c18dc1e0) - add `stats/strided/drangeabs` [(#9865)](https://github.com/stdlib-js/stdlib/pull/9865)
 -   [`e6a8746`](https://github.com/stdlib-js/stdlib/commit/e6a87460491fd4ddba7e52f23555663dc4557ccd) - add `stats/strided/smskmaxabs` [(#9729)](https://github.com/stdlib-js/stdlib/pull/9729)
 -   [`4152dbe`](https://github.com/stdlib-js/stdlib/commit/4152dbe038aa147be4d0712b9944fb916d14ef2f) - add `stats/base/ndarray/variance` [(#9828)](https://github.com/stdlib-js/stdlib/pull/9828)
 -   [`3d6cd7d`](https://github.com/stdlib-js/stdlib/commit/3d6cd7d04e8f02dfa2fca7beda923f230c57a695) - add `stats/base/ndarray/stdevyc` [(#9736)](https://github.com/stdlib-js/stdlib/pull/9736)
@@ -3589,6 +3590,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`ef33867`](https://github.com/stdlib-js/stdlib/commit/ef33867476544151b1ccfeb094c44b64c18dc1e0) - **feat:** add `stats/strided/drangeabs` [(#9865)](https://github.com/stdlib-js/stdlib/pull/9865) _(by Sachin Pangal, Athan Reines)_
 -   [`3cebbe5`](https://github.com/stdlib-js/stdlib/commit/3cebbe518119ad62a6ba1657a740e43fff916342) - **refactor:** perform explicit push when using generic arrays [(#9873)](https://github.com/stdlib-js/stdlib/pull/9873) _(by Om-A-osc, Athan Reines)_
 -   [`53c6e6c`](https://github.com/stdlib-js/stdlib/commit/53c6e6c6d4c9f0ce1d2ebfb19f340d1879c8e8ae) - **bench:** update random value generation [(#9891)](https://github.com/stdlib-js/stdlib/pull/9891) _(by Harsh Yadav, Athan Reines)_
 -   [`e6a8746`](https://github.com/stdlib-js/stdlib/commit/e6a87460491fd4ddba7e52f23555663dc4557ccd) - **feat:** add `stats/strided/smskmaxabs` [(#9729)](https://github.com/stdlib-js/stdlib/pull/9729) _(by Sachin Pangal, Athan Reines)_
