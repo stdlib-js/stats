@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4152dbe`](https://github.com/stdlib-js/stdlib/commit/4152dbe038aa147be4d0712b9944fb916d14ef2f) - add `stats/base/ndarray/variance` [(#9828)](https://github.com/stdlib-js/stdlib/pull/9828)
 -   [`3d6cd7d`](https://github.com/stdlib-js/stdlib/commit/3d6cd7d04e8f02dfa2fca7beda923f230c57a695) - add `stats/base/ndarray/stdevyc` [(#9736)](https://github.com/stdlib-js/stdlib/pull/9736)
 -   [`5b47953`](https://github.com/stdlib-js/stdlib/commit/5b479534f84d156b55e370c5cdb68f09b3943ed4) - add `stats/base/ndarray/dstdevwd` [(#9852)](https://github.com/stdlib-js/stdlib/pull/9852)
 -   [`7a516b3`](https://github.com/stdlib-js/stdlib/commit/7a516b358abf02f8c4e871b9e7bb6b52c2ac9a42) - add `stats/base/ndarray/dstdevch` [(#9761)](https://github.com/stdlib-js/stdlib/pull/9761)
@@ -3587,6 +3588,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`4152dbe`](https://github.com/stdlib-js/stdlib/commit/4152dbe038aa147be4d0712b9944fb916d14ef2f) - **feat:** add `stats/base/ndarray/variance` [(#9828)](https://github.com/stdlib-js/stdlib/pull/9828) _(by Divyanshu)_
 -   [`3d6cd7d`](https://github.com/stdlib-js/stdlib/commit/3d6cd7d04e8f02dfa2fca7beda923f230c57a695) - **feat:** add `stats/base/ndarray/stdevyc` [(#9736)](https://github.com/stdlib-js/stdlib/pull/9736) _(by Pratik, Athan Reines)_
 -   [`5b47953`](https://github.com/stdlib-js/stdlib/commit/5b479534f84d156b55e370c5cdb68f09b3943ed4) - **feat:** add `stats/base/ndarray/dstdevwd` [(#9852)](https://github.com/stdlib-js/stdlib/pull/9852) _(by Pratik)_
 -   [`7a516b3`](https://github.com/stdlib-js/stdlib/commit/7a516b358abf02f8c4e871b9e7bb6b52c2ac9a42) - **feat:** add `stats/base/ndarray/dstdevch` [(#9761)](https://github.com/stdlib-js/stdlib/pull/9761) _(by Pratik)_
