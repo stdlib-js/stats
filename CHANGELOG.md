@@ -10,6 +10,15 @@
 
 ### Features
 
+-   [`d99d331`](https://github.com/stdlib-js/stdlib/commit/d99d331a62b1521342ac812793a7080e449d192d) - add `dstdev`, `dstdevch`, `dstdevpn`, and `dstdevwd` to namespace
+-   [`52f25b4`](https://github.com/stdlib-js/stdlib/commit/52f25b4a749bfafacdbeb46884c1c314b3a25f73) - add `dnanrange` to namespace
+-   [`6a81c76`](https://github.com/stdlib-js/stdlib/commit/6a81c76e896d7fe3794f9857ed8b157fccc7493b) - add `dnanmskmax`, `dnanmskmin`, and `dnanmskrange` to namespace
+-   [`43ad0bc`](https://github.com/stdlib-js/stdlib/commit/43ad0bc483f79583c41354c4e494e28022c6e83d) - add `dnanmidrange` to namespace
+-   [`b90d38d`](https://github.com/stdlib-js/stdlib/commit/b90d38d7eb7f24e6370c07ecabe0c6bf6d3b2b80) - add `dmskmax`, `dmskmin`, and `dmskrange` to namespace
+-   [`914b803`](https://github.com/stdlib-js/stdlib/commit/914b80399759dcf6911f9a92a4ff6845527d8bb8) - add `dmediansorted` and `dmidrange` to namespace
+-   [`4a91724`](https://github.com/stdlib-js/stdlib/commit/4a91724da0e502a7f861b71a80796b5c980ac042) - add `dmeanstdev` to namespace
+-   [`3c8018f`](https://github.com/stdlib-js/stdlib/commit/3c8018f6095b3553a0004d9eb164e4daecc22b9e) - add `dmeanors` to namespace
+-   [`7f787ff`](https://github.com/stdlib-js/stdlib/commit/7f787ffc41f715cdca8a37fe39d46da733c53e32) - add `dmeanwd` to namespace
 -   [`3f76170`](https://github.com/stdlib-js/stdlib/commit/3f76170e20453f17308441619f3160bb22cc6c11) - add `stats/nanmidrange-by` [(#9637)](https://github.com/stdlib-js/stdlib/pull/9637)
 -   [`896a1d4`](https://github.com/stdlib-js/stdlib/commit/896a1d454943f4aa2cff2f09cfe3045469dcf43e) - add `stats/strided/rangeabs` [(#9693)](https://github.com/stdlib-js/stdlib/pull/9693)
 -   [`79d674d`](https://github.com/stdlib-js/stdlib/commit/79d674df0faad3185d690e5feab9cf8b160c4c35) - add `stats/midrange-by` [(#9681)](https://github.com/stdlib-js/stdlib/pull/9681)
@@ -3593,6 +3602,15 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`d99d331`](https://github.com/stdlib-js/stdlib/commit/d99d331a62b1521342ac812793a7080e449d192d) - **feat:** add `dstdev`, `dstdevch`, `dstdevpn`, and `dstdevwd` to namespace _(by Athan Reines)_
+-   [`52f25b4`](https://github.com/stdlib-js/stdlib/commit/52f25b4a749bfafacdbeb46884c1c314b3a25f73) - **feat:** add `dnanrange` to namespace _(by Athan Reines)_
+-   [`6a81c76`](https://github.com/stdlib-js/stdlib/commit/6a81c76e896d7fe3794f9857ed8b157fccc7493b) - **feat:** add `dnanmskmax`, `dnanmskmin`, and `dnanmskrange` to namespace _(by Athan Reines)_
+-   [`43ad0bc`](https://github.com/stdlib-js/stdlib/commit/43ad0bc483f79583c41354c4e494e28022c6e83d) - **feat:** add `dnanmidrange` to namespace _(by Athan Reines)_
+-   [`b90d38d`](https://github.com/stdlib-js/stdlib/commit/b90d38d7eb7f24e6370c07ecabe0c6bf6d3b2b80) - **feat:** add `dmskmax`, `dmskmin`, and `dmskrange` to namespace _(by Athan Reines)_
+-   [`914b803`](https://github.com/stdlib-js/stdlib/commit/914b80399759dcf6911f9a92a4ff6845527d8bb8) - **feat:** add `dmediansorted` and `dmidrange` to namespace _(by Athan Reines)_
+-   [`4a91724`](https://github.com/stdlib-js/stdlib/commit/4a91724da0e502a7f861b71a80796b5c980ac042) - **feat:** add `dmeanstdev` to namespace _(by Athan Reines)_
+-   [`3c8018f`](https://github.com/stdlib-js/stdlib/commit/3c8018f6095b3553a0004d9eb164e4daecc22b9e) - **feat:** add `dmeanors` to namespace _(by Athan Reines)_
+-   [`7f787ff`](https://github.com/stdlib-js/stdlib/commit/7f787ffc41f715cdca8a37fe39d46da733c53e32) - **feat:** add `dmeanwd` to namespace _(by Athan Reines)_
 -   [`65aa64a`](https://github.com/stdlib-js/stdlib/commit/65aa64a2f860129b3ca2f09f47641e4355303799) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`3f76170`](https://github.com/stdlib-js/stdlib/commit/3f76170e20453f17308441619f3160bb22cc6c11) - **feat:** add `stats/nanmidrange-by` [(#9637)](https://github.com/stdlib-js/stdlib/pull/9637) _(by Sachin Pangal)_
 -   [`896a1d4`](https://github.com/stdlib-js/stdlib/commit/896a1d454943f4aa2cff2f09cfe3045469dcf43e) - **feat:** add `stats/strided/rangeabs` [(#9693)](https://github.com/stdlib-js/stdlib/pull/9693) _(by Sachin Pangal, Athan Reines)_
