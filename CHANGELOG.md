@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3f76170`](https://github.com/stdlib-js/stdlib/commit/3f76170e20453f17308441619f3160bb22cc6c11) - add `stats/nanmidrange-by` [(#9637)](https://github.com/stdlib-js/stdlib/pull/9637)
 -   [`896a1d4`](https://github.com/stdlib-js/stdlib/commit/896a1d454943f4aa2cff2f09cfe3045469dcf43e) - add `stats/strided/rangeabs` [(#9693)](https://github.com/stdlib-js/stdlib/pull/9693)
 -   [`79d674d`](https://github.com/stdlib-js/stdlib/commit/79d674df0faad3185d690e5feab9cf8b160c4c35) - add `stats/midrange-by` [(#9681)](https://github.com/stdlib-js/stdlib/pull/9681)
 -   [`ef33867`](https://github.com/stdlib-js/stdlib/commit/ef33867476544151b1ccfeb094c44b64c18dc1e0) - add `stats/strided/drangeabs` [(#9865)](https://github.com/stdlib-js/stdlib/pull/9865)
@@ -3592,6 +3593,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`3f76170`](https://github.com/stdlib-js/stdlib/commit/3f76170e20453f17308441619f3160bb22cc6c11) - **feat:** add `stats/nanmidrange-by` [(#9637)](https://github.com/stdlib-js/stdlib/pull/9637) _(by Sachin Pangal)_
 -   [`896a1d4`](https://github.com/stdlib-js/stdlib/commit/896a1d454943f4aa2cff2f09cfe3045469dcf43e) - **feat:** add `stats/strided/rangeabs` [(#9693)](https://github.com/stdlib-js/stdlib/pull/9693) _(by Sachin Pangal, Athan Reines)_
 -   [`79d674d`](https://github.com/stdlib-js/stdlib/commit/79d674df0faad3185d690e5feab9cf8b160c4c35) - **feat:** add `stats/midrange-by` [(#9681)](https://github.com/stdlib-js/stdlib/pull/9681) _(by Sachin Pangal)_
 -   [`ef33867`](https://github.com/stdlib-js/stdlib/commit/ef33867476544151b1ccfeb094c44b64c18dc1e0) - **feat:** add `stats/strided/drangeabs` [(#9865)](https://github.com/stdlib-js/stdlib/pull/9865) _(by Sachin Pangal, Athan Reines)_
