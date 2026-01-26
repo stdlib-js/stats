@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-25)
+## Unreleased (2026-01-26)
 
 <section class="features">
 
@@ -3584,6 +3584,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`4f42b6a`](https://github.com/stdlib-js/stdlib/commit/4f42b6af6b471d4ba9786f73d308e93992a12cdb) - **bench:** refactor to use string interpolation in `stats/base/dists/levy/mean` [(#9896)](https://github.com/stdlib-js/stdlib/pull/9896) _(by Daksha Raj)_
 -   [`2a9e3c5`](https://github.com/stdlib-js/stdlib/commit/2a9e3c51b801951fed1dd75b0cdd3180b91c5ca6) - **bench:** refactor `stats/base/dists/arcsine/cdf` benchmarks [(#9881)](https://github.com/stdlib-js/stdlib/pull/9881) _(by Om-A-osc, Athan Reines)_
 -   [`0646933`](https://github.com/stdlib-js/stdlib/commit/06469331a90eca2105b96749522f3e73450b556c) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
 -   [`e42451a`](https://github.com/stdlib-js/stdlib/commit/e42451a082479c4f573c60885a54fa9a6fc4313e) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
@@ -6717,7 +6718,7 @@ A total of 566 issues were closed in this release:
 
 ### Contributors
 
-A total of 100 people contributed to this release. Thank you to the following contributors:
+A total of 101 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -6737,6 +6738,7 @@ A total of 100 people contributed to this release. Thank you to the following co
 -   Athan Reines
 -   Bhargav Dabhade
 -   Bureir AL
+-   Daksha Raj
 -   Deep Trivedi
 -   Deepak Singh
 -   Desh Deepak Kant
