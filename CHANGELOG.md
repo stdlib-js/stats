@@ -3617,6 +3617,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`de545e8`](https://github.com/stdlib-js/stdlib/commit/de545e8b4d05e9f6fbadc4387c3bd254c6abfcef) - **bench:** add opts and use string interpolation in `stats/base/dists/halfnormal/mode` [(#9904)](https://github.com/stdlib-js/stdlib/pull/9904) _(by Lokesh Ranjan)_
 -   [`f79a945`](https://github.com/stdlib-js/stdlib/commit/f79a9459ee83a526964301bb1e400059f0daf08d) - **bench:** refactor to use string interpolation in `stats/base/dists/planck` [(#9901)](https://github.com/stdlib-js/stdlib/pull/9901) _(by Suyash Pathak)_
 -   [`fabac99`](https://github.com/stdlib-js/stdlib/commit/fabac994a5faee54c764fc1744f9a3427a6cf7b3) - **feat:** add `variance`, `variancech`, `variancewd` to namespace _(by Athan Reines)_
 -   [`b165d09`](https://github.com/stdlib-js/stdlib/commit/b165d09ba924d67d5ee7ed2f307a2a394708c830) - **feat:** add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, `stdevyc` to namespace _(by Athan Reines)_
