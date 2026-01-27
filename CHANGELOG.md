@@ -10,6 +10,17 @@
 
 ### Features
 
+-   [`0538a41`](https://github.com/stdlib-js/stdlib/commit/0538a41cc4147040c041d86068fce07ecfdca36d) - add `stats/strided/distances/dsquared-euclidean` [(#9680)](https://github.com/stdlib-js/stdlib/pull/9680)
+-   [`fbc0835`](https://github.com/stdlib-js/stdlib/commit/fbc08352233e90ae7ff159385d4d3926dff1e13c) - add `snanmidrange` and `srangeabs` to namespace
+-   [`52100d1`](https://github.com/stdlib-js/stdlib/commit/52100d116b87170e3a325bd87665b0ad223894e2) - add `smskmaxabs` and `smskmidrange` to namespace
+-   [`bde889e`](https://github.com/stdlib-js/stdlib/commit/bde889e82b8692575b6a0a1876b28ba9130abf11) - add `rangeabs` to namespace
+-   [`0e31507`](https://github.com/stdlib-js/stdlib/commit/0e31507fc2049fb7c9ab2e7a4f1ae95a97cee2ae) - add `nanmskmidrange` to namespace
+-   [`c13da4c`](https://github.com/stdlib-js/stdlib/commit/c13da4c90cf6fc5fe8f95a092c16a3158e8dc957) - add `nanmidrange` and `nanmidrangeBy` to namespace
+-   [`4d7e3d2`](https://github.com/stdlib-js/stdlib/commit/4d7e3d2d2a82112e93d9289c81a35f44d2e2e312) - add `mskmaxabs` and `mskmidrange` to namespace
+-   [`c86ff1c`](https://github.com/stdlib-js/stdlib/commit/c86ff1cf8c853f3a549b92ee9231e6ce1571dfe7) - add `midrange` and `midrangeBy` to namespace
+-   [`3f0d5ee`](https://github.com/stdlib-js/stdlib/commit/3f0d5ee64202dcd04ad9d5bf0aa4a2d22de82351) - add `drangeabs` to namespace
+-   [`8c75c0d`](https://github.com/stdlib-js/stdlib/commit/8c75c0da4f1d5710fde341b06672faf7e18e221b) - add `dmskmidrange`, `dnanmidrange`, `dnanmskmidrange` to namespace
+-   [`1fa6b54`](https://github.com/stdlib-js/stdlib/commit/1fa6b54311953d38b35d08bee5967e8496a5261d) - add `snanmskmidrange` to namespace
 -   [`562065d`](https://github.com/stdlib-js/stdlib/commit/562065d7fcb441b25a487453c4321030478ee966) - add `stats/strided/snanmskmidrange` [(#9821)](https://github.com/stdlib-js/stdlib/pull/9821)
 -   [`e3e238d`](https://github.com/stdlib-js/stdlib/commit/e3e238dd684b98b67ad10ae4da51f33f1cf5413d) - update `stats/base/ndarray` TypeScript declarations [(#9914)](https://github.com/stdlib-js/stdlib/pull/9914)
 -   [`fabac99`](https://github.com/stdlib-js/stdlib/commit/fabac994a5faee54c764fc1744f9a3427a6cf7b3) - add `variance`, `variancech`, `variancewd` to namespace
@@ -3619,6 +3630,17 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`0538a41`](https://github.com/stdlib-js/stdlib/commit/0538a41cc4147040c041d86068fce07ecfdca36d) - **feat:** add `stats/strided/distances/dsquared-euclidean` [(#9680)](https://github.com/stdlib-js/stdlib/pull/9680) _(by Nakul Krishnakumar, Athan Reines)_
+-   [`fbc0835`](https://github.com/stdlib-js/stdlib/commit/fbc08352233e90ae7ff159385d4d3926dff1e13c) - **feat:** add `snanmidrange` and `srangeabs` to namespace _(by Athan Reines)_
+-   [`52100d1`](https://github.com/stdlib-js/stdlib/commit/52100d116b87170e3a325bd87665b0ad223894e2) - **feat:** add `smskmaxabs` and `smskmidrange` to namespace _(by Athan Reines)_
+-   [`bde889e`](https://github.com/stdlib-js/stdlib/commit/bde889e82b8692575b6a0a1876b28ba9130abf11) - **feat:** add `rangeabs` to namespace _(by Athan Reines)_
+-   [`0e31507`](https://github.com/stdlib-js/stdlib/commit/0e31507fc2049fb7c9ab2e7a4f1ae95a97cee2ae) - **feat:** add `nanmskmidrange` to namespace _(by Athan Reines)_
+-   [`c13da4c`](https://github.com/stdlib-js/stdlib/commit/c13da4c90cf6fc5fe8f95a092c16a3158e8dc957) - **feat:** add `nanmidrange` and `nanmidrangeBy` to namespace _(by Athan Reines)_
+-   [`4d7e3d2`](https://github.com/stdlib-js/stdlib/commit/4d7e3d2d2a82112e93d9289c81a35f44d2e2e312) - **feat:** add `mskmaxabs` and `mskmidrange` to namespace _(by Athan Reines)_
+-   [`c86ff1c`](https://github.com/stdlib-js/stdlib/commit/c86ff1cf8c853f3a549b92ee9231e6ce1571dfe7) - **feat:** add `midrange` and `midrangeBy` to namespace _(by Athan Reines)_
+-   [`3f0d5ee`](https://github.com/stdlib-js/stdlib/commit/3f0d5ee64202dcd04ad9d5bf0aa4a2d22de82351) - **feat:** add `drangeabs` to namespace _(by Athan Reines)_
+-   [`8c75c0d`](https://github.com/stdlib-js/stdlib/commit/8c75c0da4f1d5710fde341b06672faf7e18e221b) - **feat:** add `dmskmidrange`, `dnanmidrange`, `dnanmskmidrange` to namespace _(by Athan Reines)_
+-   [`1fa6b54`](https://github.com/stdlib-js/stdlib/commit/1fa6b54311953d38b35d08bee5967e8496a5261d) - **feat:** add `snanmskmidrange` to namespace _(by Athan Reines)_
 -   [`562065d`](https://github.com/stdlib-js/stdlib/commit/562065d7fcb441b25a487453c4321030478ee966) - **feat:** add `stats/strided/snanmskmidrange` [(#9821)](https://github.com/stdlib-js/stdlib/pull/9821) _(by Sachin Pangal, Philipp Burckhardt, Athan Reines)_
 -   [`e3e238d`](https://github.com/stdlib-js/stdlib/commit/e3e238dd684b98b67ad10ae4da51f33f1cf5413d) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#9914)](https://github.com/stdlib-js/stdlib/pull/9914) _(by stdlib-bot, Athan Reines)_
 -   [`ce2a3e1`](https://github.com/stdlib-js/stdlib/commit/ce2a3e195b5cfda0de0e06da8c7c82da70ff1339) - **docs:** fix example _(by Athan Reines)_
