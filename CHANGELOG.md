@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`07e112a`](https://github.com/stdlib-js/stdlib/commit/07e112a03fc1c0308bdc38bcb0425dc2fe6faec5) - add C API
 -   [`942fa9b`](https://github.com/stdlib-js/stdlib/commit/942fa9ba4e93c3064011ead7bae1d1f8ac0281de) - add `distances` to namespace
 -   [`262f96d`](https://github.com/stdlib-js/stdlib/commit/262f96df7fe35057b1ad9a29802497f935788600) - update namespace
 -   [`d0e3e71`](https://github.com/stdlib-js/stdlib/commit/d0e3e71f26da59d042df4ae94869589ee17f237a) - add `stats/strided/distances` namespace
@@ -3633,6 +3634,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`07e112a`](https://github.com/stdlib-js/stdlib/commit/07e112a03fc1c0308bdc38bcb0425dc2fe6faec5) - **feat:** add C API _(by Athan Reines)_
 -   [`942fa9b`](https://github.com/stdlib-js/stdlib/commit/942fa9ba4e93c3064011ead7bae1d1f8ac0281de) - **feat:** add `distances` to namespace _(by Athan Reines)_
 -   [`262f96d`](https://github.com/stdlib-js/stdlib/commit/262f96df7fe35057b1ad9a29802497f935788600) - **feat:** update namespace _(by Athan Reines)_
 -   [`d0e3e71`](https://github.com/stdlib-js/stdlib/commit/d0e3e71f26da59d042df4ae94869589ee17f237a) - **feat:** add `stats/strided/distances` namespace _(by Athan Reines)_
