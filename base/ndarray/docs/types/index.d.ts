@@ -37,11 +37,19 @@ import dmeankbn = require( './../../../../base/ndarray/dmeankbn' );
 import dmeankbn2 = require( './../../../../base/ndarray/dmeankbn2' );
 import dmeanli = require( './../../../../base/ndarray/dmeanli' );
 import dmeanlipw = require( './../../../../base/ndarray/dmeanlipw' );
+import dmeanors = require( './../../../../base/ndarray/dmeanors' );
 import dmeanpn = require( './../../../../base/ndarray/dmeanpn' );
 import dmeanpw = require( './../../../../base/ndarray/dmeanpw' );
+import dmeanstdev = require( './../../../../base/ndarray/dmeanstdev' );
+import dmeanwd = require( './../../../../base/ndarray/dmeanwd' );
+import dmediansorted = require( './../../../../base/ndarray/dmediansorted' );
+import dmidrange = require( './../../../../base/ndarray/dmidrange' );
 import dmin = require( './../../../../base/ndarray/dmin' );
 import dminabs = require( './../../../../base/ndarray/dminabs' );
 import dminsorted = require( './../../../../base/ndarray/dminsorted' );
+import dmskmax = require( './../../../../base/ndarray/dmskmax' );
+import dmskmin = require( './../../../../base/ndarray/dmskmin' );
+import dmskrange = require( './../../../../base/ndarray/dmskrange' );
 import dnanmax = require( './../../../../base/ndarray/dnanmax' );
 import dnanmaxabs = require( './../../../../base/ndarray/dnanmaxabs' );
 import dnanmean = require( './../../../../base/ndarray/dnanmean' );
@@ -49,9 +57,18 @@ import dnanmeanors = require( './../../../../base/ndarray/dnanmeanors' );
 import dnanmeanpn = require( './../../../../base/ndarray/dnanmeanpn' );
 import dnanmeanpw = require( './../../../../base/ndarray/dnanmeanpw' );
 import dnanmeanwd = require( './../../../../base/ndarray/dnanmeanwd' );
+import dnanmidrange = require( './../../../../base/ndarray/dnanmidrange' );
 import dnanmin = require( './../../../../base/ndarray/dnanmin' );
 import dnanminabs = require( './../../../../base/ndarray/dnanminabs' );
+import dnanmskmax = require( './../../../../base/ndarray/dnanmskmax' );
+import dnanmskmin = require( './../../../../base/ndarray/dnanmskmin' );
+import dnanmskrange = require( './../../../../base/ndarray/dnanmskrange' );
+import dnanrange = require( './../../../../base/ndarray/dnanrange' );
 import drange = require( './../../../../base/ndarray/drange' );
+import dstdev = require( './../../../../base/ndarray/dstdev' );
+import dstdevch = require( './../../../../base/ndarray/dstdevch' );
+import dstdevpn = require( './../../../../base/ndarray/dstdevpn' );
+import dstdevwd = require( './../../../../base/ndarray/dstdevwd' );
 import dztest = require( './../../../../base/ndarray/dztest' );
 import dztest2 = require( './../../../../base/ndarray/dztest2' );
 import max = require( './../../../../base/ndarray/max' );
@@ -66,20 +83,33 @@ import meanpn = require( './../../../../base/ndarray/meanpn' );
 import meanpw = require( './../../../../base/ndarray/meanpw' );
 import meanwd = require( './../../../../base/ndarray/meanwd' );
 import mediansorted = require( './../../../../base/ndarray/mediansorted' );
+import midrange = require( './../../../../base/ndarray/midrange' );
+import midrangeBy = require( './../../../../base/ndarray/midrange-by' );
 import min = require( './../../../../base/ndarray/min' );
 import minBy = require( './../../../../base/ndarray/min-by' );
 import minabs = require( './../../../../base/ndarray/minabs' );
 import minsorted = require( './../../../../base/ndarray/minsorted' );
 import mskmax = require( './../../../../base/ndarray/mskmax' );
+import mskmidrange = require( './../../../../base/ndarray/mskmidrange' );
 import mskmin = require( './../../../../base/ndarray/mskmin' );
 import mskrange = require( './../../../../base/ndarray/mskrange' );
 import nanmax = require( './../../../../base/ndarray/nanmax' );
+import nanmaxBy = require( './../../../../base/ndarray/nanmax-by' );
 import nanmaxabs = require( './../../../../base/ndarray/nanmaxabs' );
 import nanmean = require( './../../../../base/ndarray/nanmean' );
+import nanmeanors = require( './../../../../base/ndarray/nanmeanors' );
 import nanmeanpn = require( './../../../../base/ndarray/nanmeanpn' );
 import nanmeanwd = require( './../../../../base/ndarray/nanmeanwd' );
+import nanmidrange = require( './../../../../base/ndarray/nanmidrange' );
+import nanmidrangeBy = require( './../../../../base/ndarray/nanmidrange-by' );
 import nanmin = require( './../../../../base/ndarray/nanmin' );
+import nanminBy = require( './../../../../base/ndarray/nanmin-by' );
 import nanminabs = require( './../../../../base/ndarray/nanminabs' );
+import nanmskmax = require( './../../../../base/ndarray/nanmskmax' );
+import nanmskmin = require( './../../../../base/ndarray/nanmskmin' );
+import nanmskrange = require( './../../../../base/ndarray/nanmskrange' );
+import nanrange = require( './../../../../base/ndarray/nanrange' );
+import nanrangeBy = require( './../../../../base/ndarray/nanrange-by' );
 import range = require( './../../../../base/ndarray/range' );
 import rangeBy = require( './../../../../base/ndarray/range-by' );
 import scovarmtk = require( './../../../../base/ndarray/scovarmtk' );
@@ -87,6 +117,9 @@ import scumax = require( './../../../../base/ndarray/scumax' );
 import scumaxabs = require( './../../../../base/ndarray/scumaxabs' );
 import scumin = require( './../../../../base/ndarray/scumin' );
 import scuminabs = require( './../../../../base/ndarray/scuminabs' );
+import sdsmean = require( './../../../../base/ndarray/sdsmean' );
+import sdsmeanors = require( './../../../../base/ndarray/sdsmeanors' );
+import sdsnanmeanors = require( './../../../../base/ndarray/sdsnanmeanors' );
 import smax = require( './../../../../base/ndarray/smax' );
 import smaxabs = require( './../../../../base/ndarray/smaxabs' );
 import smaxabssorted = require( './../../../../base/ndarray/smaxabssorted' );
@@ -96,23 +129,48 @@ import smeankbn = require( './../../../../base/ndarray/smeankbn' );
 import smeankbn2 = require( './../../../../base/ndarray/smeankbn2' );
 import smeanli = require( './../../../../base/ndarray/smeanli' );
 import smeanlipw = require( './../../../../base/ndarray/smeanlipw' );
+import smeanors = require( './../../../../base/ndarray/smeanors' );
 import smeanpn = require( './../../../../base/ndarray/smeanpn' );
 import smeanpw = require( './../../../../base/ndarray/smeanpw' );
 import smeanwd = require( './../../../../base/ndarray/smeanwd' );
+import smediansorted = require( './../../../../base/ndarray/smediansorted' );
+import smidrange = require( './../../../../base/ndarray/smidrange' );
 import smin = require( './../../../../base/ndarray/smin' );
 import sminabs = require( './../../../../base/ndarray/sminabs' );
 import sminsorted = require( './../../../../base/ndarray/sminsorted' );
+import smskmax = require( './../../../../base/ndarray/smskmax' );
+import smskmidrange = require( './../../../../base/ndarray/smskmidrange' );
+import smskmin = require( './../../../../base/ndarray/smskmin' );
+import smskrange = require( './../../../../base/ndarray/smskrange' );
 import snanmax = require( './../../../../base/ndarray/snanmax' );
 import snanmaxabs = require( './../../../../base/ndarray/snanmaxabs' );
 import snanmean = require( './../../../../base/ndarray/snanmean' );
 import snanmeanors = require( './../../../../base/ndarray/snanmeanors' );
 import snanmeanpn = require( './../../../../base/ndarray/snanmeanpn' );
 import snanmeanwd = require( './../../../../base/ndarray/snanmeanwd' );
+import snanmidrange = require( './../../../../base/ndarray/snanmidrange' );
 import snanmin = require( './../../../../base/ndarray/snanmin' );
 import snanminabs = require( './../../../../base/ndarray/snanminabs' );
+import snanmskmax = require( './../../../../base/ndarray/snanmskmax' );
+import snanmskmin = require( './../../../../base/ndarray/snanmskmin' );
+import snanmskrange = require( './../../../../base/ndarray/snanmskrange' );
+import snanrange = require( './../../../../base/ndarray/snanrange' );
 import srange = require( './../../../../base/ndarray/srange' );
+import sstdev = require( './../../../../base/ndarray/sstdev' );
+import sstdevch = require( './../../../../base/ndarray/sstdevch' );
+import sstdevpn = require( './../../../../base/ndarray/sstdevpn' );
+import sstdevwd = require( './../../../../base/ndarray/sstdevwd' );
+import stdev = require( './../../../../base/ndarray/stdev' );
+import stdevch = require( './../../../../base/ndarray/stdevch' );
+import stdevpn = require( './../../../../base/ndarray/stdevpn' );
+import stdevtk = require( './../../../../base/ndarray/stdevtk' );
+import stdevwd = require( './../../../../base/ndarray/stdevwd' );
+import stdevyc = require( './../../../../base/ndarray/stdevyc' );
 import sztest = require( './../../../../base/ndarray/sztest' );
 import sztest2 = require( './../../../../base/ndarray/sztest2' );
+import variance = require( './../../../../base/ndarray/variance' );
+import variancech = require( './../../../../base/ndarray/variancech' );
+import variancewd = require( './../../../../base/ndarray/variancewd' );
 import ztest = require( './../../../../base/ndarray/ztest' );
 import ztest2 = require( './../../../../base/ndarray/ztest2' );
 
@@ -528,6 +586,24 @@ interface Namespace {
 	dmeanlipw: typeof dmeanlipw;
 
 	/**
+	* Computes the arithmetic mean of a one-dimensional double-precision floating-point ndarray using ordinary recursive summation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dmeanors( [ x ] );
+	* // returns 2.5
+	*/
+	dmeanors: typeof dmeanors;
+
+	/**
 	* Computes the arithmetic mean of a one-dimensional double-precision floating-point ndarray using a two-pass error correction algorithm.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -562,6 +638,87 @@ interface Namespace {
 	* // returns 2.5
 	*/
 	dmeanpw: typeof dmeanpw;
+
+	/**
+	* Computes the mean and standard deviation of a one-dimensional double-precision floating-point ndarray.
+	*
+	* @param arrays - array-like object containing an input ndarray, an output ndarray, and ndarray containing the degrees of freedom adjustment
+	* @returns output ndarray
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 4 ], [ 2 ], 1, 'row-major' );
+	*
+	* var out = new ndarray( opts.dtype, new Float64Array( 2 ), [ 2 ], [ 1 ], 0, 'row-major' );
+	*
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.dmeanstdev( [ x, out, correction ] );
+	* // returns <ndarray>[ ~1.25, ~2.5 ]
+	*/
+	dmeanstdev: typeof dmeanstdev;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional double-precision floating-point ndarray using Welford's algorithm.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dmeanwd( [ x ] );
+	* // returns 2.5
+	*/
+	dmeanwd: typeof dmeanwd;
+
+	/**
+	* Computes the median value of a sorted one-dimensional double-precision floating-point ndarray.
+	*
+	* @param arrays - array-like object containing a sorted input ndarray
+	* @returns median value
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dmediansorted( [ x ] );
+	* // returns 2.0
+	*/
+	dmediansorted: typeof dmediansorted;
+
+	/**
+	* Computes the mid-range of a one-dimensional double-precision floating-point ndarray.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns mid-range
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0, 4.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dmidrange( [ x ] );
+	* // returns 1.0
+	*/
+	dmidrange: typeof dmidrange;
 
 	/**
 	* Computes the minimum value of a one-dimensional double-precision floating-point ndarray.
@@ -616,6 +773,72 @@ interface Namespace {
 	* // returns 1.0
 	*/
 	dminsorted: typeof dminsorted;
+
+	/**
+	* Computes the maximum value of a one-dimensional double-precision floating-point ndarray according to a mask.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns maximum value
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var mbuf = new Uint8Array( [ 0, 0, 1, 0 ] );
+	* var mask = new ndarray( 'uint8', mbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dmskmax( [ x, mask ] );
+	* // returns 2.0
+	*/
+	dmskmax: typeof dmskmax;
+
+	/**
+	* Computes the minimum value of a one-dimensional double-precision floating-point ndarray according to a mask.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns minimum value
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var maskbuf = new Uint8Array( [ 0, 0, 1, 0 ] );
+	* var mask = new ndarray( 'uint8', maskbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dmskmin( [ x, mask ] );
+	* // returns -2.0
+	*/
+	dmskmin: typeof dmskmin;
+
+	/**
+	* Calculates the range of a one-dimensional double-precision floating-point ndarray according to a mask.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns range
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var mbuf = new Uint8Array( [ 0, 0, 1, 0 ] );
+	* var mask = new ndarray( 'uint8', mbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dmskrange( [ x, mask ] );
+	* // returns 4.0
+	*/
+	dmskrange: typeof dmskrange;
 
 	/**
 	* Computes the maximum value of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values.
@@ -744,6 +967,24 @@ interface Namespace {
 	dnanmeanwd: typeof dnanmeanwd;
 
 	/**
+	* Computes the mid-range of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns mid-range
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dnanmidrange( [ x ] );
+	* // returns 0.0
+	*/
+	dnanmidrange: typeof dnanmidrange;
+
+	/**
 	* Computes the minimum value of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -780,6 +1021,90 @@ interface Namespace {
 	dnanminabs: typeof dnanminabs;
 
 	/**
+	* Computes the maximum value of a double-precision floating-point ndarray according to a mask, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns maximum value
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var mbuf = new Uint8Array( [ 0, 0, 0, 0 ] );
+	* var mask = new ndarray( 'uint8', mbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dnanmskmax( [ x, mask ] );
+	* // returns 2.0
+	*/
+	dnanmskmax: typeof dnanmskmax;
+
+	/**
+	* Computes the minimum value of a double-precision floating-point ndarray according to a mask, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns minimum value
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var mbuf = new Uint8Array( [ 0, 0, 0, 0 ] );
+	* var mask = new ndarray( 'uint8', mbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dnanmskmin( [ x, mask ] );
+	* // returns -2.0
+	*/
+	dnanmskmin: typeof dnanmskmin;
+
+	/**
+	* Calculates the range of a one-dimensional double-precision floating-point ndarray according to a mask, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns range
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 4.0, 2.0, NaN ] );
+	* var x = new ndarray( 'float64', xbuf, [ 5 ], [ 1 ], 0, 'row-major' );
+	*
+	* var maskbuf = new Uint8Array( [ 0, 0, 1, 0, 0 ] );
+	* var mask = new ndarray( 'uint8', maskbuf, [ 5 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dnanmskrange( [ x, mask ] );
+	* // returns 4.0
+	*/
+	dnanmskrange: typeof dnanmskrange;
+
+	/**
+	* Computes the range of a one-dimensional double-precision floating-point ndarray, ignoring NaN values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns range
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.dnanrange( [ x ] );
+	* // returns 4.0
+	*/
+	dnanrange: typeof dnanrange;
+
+	/**
 	* Computes the range of a one-dimensional double-precision floating-point ndarray.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -796,6 +1121,102 @@ interface Namespace {
 	* // returns 3.0
 	*/
 	drange: typeof drange;
+
+	/**
+	* Computes the standard deviation of a one-dimensional double-precision floating-point ndarray.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.dstdev( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	dstdev: typeof dstdev;
+
+	/**
+	* Computes the standard deviation of a one-dimensional double-precision floating-point ndarray using a one-pass trial mean algorithm.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.dstdevch( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	dstdevch: typeof dstdevch;
+
+	/**
+	* Computes the standard deviation of a one-dimensional double-precision floating-point ndarray using a two-pass algorithm.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.dstdevpn( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	dstdevpn: typeof dstdevpn;
+
+	/**
+	* Computes the standard deviation of a one-dimensional double-precision floating-point ndarray using Welford's algorithm.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.dstdevwd( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	dstdevwd: typeof dstdevwd;
 
 	/**
 	* Computes a one-sample Z-test for a one-dimensional double-precision floating-point ndarray.
@@ -1132,6 +1553,46 @@ interface Namespace {
 	mediansorted: typeof mediansorted;
 
 	/**
+	* Computes the mid-range of a one-dimensional ndarray.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns mid-range
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, -2.0, 2.0, 4.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.midrange( [ x ] );
+	* // returns 1.0
+	*/
+	midrange: typeof midrange;
+
+	/**
+	* Computes the mid-range of a one-dimensional ndarray via a callback function.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @param clbk - callback function
+	* @param thisArg - callback execution context
+	* @returns mid-range
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* function clbk( value ) {
+	*     return value * 2.0;
+	* }
+	*
+	* var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.midrangeBy( [ x ], clbk );
+	* // returns 5.0
+	*/
+	midrangeBy: typeof midrangeBy;
+
+	/**
 	* Computes the minimum value of a one-dimensional ndarray.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -1226,6 +1687,26 @@ interface Namespace {
 	mskmax: typeof mskmax;
 
 	/**
+	* Calculates the mid-range of a one-dimensional ndarray according to a mask.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns mid-range
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, -2.0, 4.0, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var mbuf = [ 0, 0, 1, 0 ];
+	* var mask = new ndarray( 'generic', mbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.mskmidrange( [ x, mask ] );
+	* // returns 0.0
+	*/
+	mskmidrange: typeof mskmidrange;
+
+	/**
 	* Computes the minimum value of a one-dimensional ndarray according to a mask.
 	*
 	* @param arrays - array-like object containing an input ndarray and a mask ndarray
@@ -1283,6 +1764,29 @@ interface Namespace {
 	nanmax: typeof nanmax;
 
 	/**
+	* Computes the maximum value of a one-dimensional ndarray via a callback function, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @param clbk - callback function
+	* @param thisArg - callback execution context
+	* @returns maximum value
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* function clbk( value ) {
+	*     return value * 2.0;
+	* }
+	*
+	* var xbuf = [ 1.0, NaN, 4.0, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.nanmaxBy( [ x ], clbk );
+	* // returns 8.0
+	*/
+	nanmaxBy: typeof nanmaxBy;
+
+	/**
 	* Computes the maximum absolute value of a one-dimensional ndarray, ignoring `NaN` values.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -1315,6 +1819,23 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	nanmean: typeof nanmean;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional ndarray, ignoring `NaN` values and using ordinary recursive summation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, 3.0, NaN, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.nanmeanors( [ x ] );
+	* // returns 2.0
+	*/
+	nanmeanors: typeof nanmeanors;
 
 	/**
 	* Computes the arithmetic mean of a one-dimensional ndarray, ignoring `NaN` values and using a two-pass error correction algorithm.
@@ -1351,6 +1872,46 @@ interface Namespace {
 	nanmeanwd: typeof nanmeanwd;
 
 	/**
+	* Computes the mid-range of a one-dimensional ndarray, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns mid-range
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, -2.0, NaN, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.nanmidrange( [ x ] );
+	* // returns 0.0
+	*/
+	nanmidrange: typeof nanmidrange;
+
+	/**
+	* Computes the mid-range of a one-dimensional ndarray via a callback function, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @param clbk - callback function
+	* @param thisArg - callback execution context
+	* @returns mid-range
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* function clbk( value ) {
+	*     return value * 2.0;
+	* }
+	*
+	* var xbuf = [ 1.0, -2.0, NaN, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.nanmidrangeBy( [ x ], clbk );
+	* // returns 0.0
+	*/
+	nanmidrangeBy: typeof nanmidrangeBy;
+
+	/**
 	* Computes the minimum value of a one-dimensional ndarray, ignoring `NaN` values.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -1368,6 +1929,29 @@ interface Namespace {
 	nanmin: typeof nanmin;
 
 	/**
+	* Computes the minimum value of a one-dimensional ndarray via a callback function, ignoring NaN values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @param clbk - callback function
+	* @param thisArg - callback execution context
+	* @returns minimum value
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* function clbk( value ) {
+	*     return value * 2.0;
+	* }
+	*
+	* var xbuf = [ 1.0, -2.0, NaN, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.nanminBy( [ x ], clbk );
+	* // returns -4.0
+	*/
+	nanminBy: typeof nanminBy;
+
+	/**
 	* Computes the minimum absolute value of a one-dimensional ndarray, ignoring `NaN` values.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -1383,6 +1967,106 @@ interface Namespace {
 	* // returns 1.0
 	*/
 	nanminabs: typeof nanminabs;
+
+	/**
+	* Calculates the maximum value of a one-dimensional ndarray according to a mask, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns maximum value
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, -2.0, 4.0, 2.0, NaN ];
+	* var x = new ndarray( 'generic', xbuf, [ 5 ], [ 1 ], 0, 'row-major' );
+	*
+	* var mbuf = [ 0, 0, 1, 0, 0 ];
+	* var mask = new ndarray( 'generic', mbuf, [ 5 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.nanmskmax( [ x, mask ] );
+	* // returns 2.0
+	*/
+	nanmskmax: typeof nanmskmax;
+
+	/**
+	* Computes the minimum value of a one-dimensional ndarray according to a mask, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns minimum value
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, -2.0, 4.0, 2.0, NaN ];
+	* var x = new ndarray( 'generic', xbuf, [ 5 ], [ 1 ], 0, 'row-major' );
+	*
+	* var maskbuf = [ 0, 0, 1, 0, 0 ];
+	* var mask = new ndarray( 'generic', maskbuf, [ 5 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.nanmskmin( [ x, mask ] );
+	* // returns -2.0
+	*/
+	nanmskmin: typeof nanmskmin;
+
+	/**
+	* Calculates the range of a one-dimensional ndarray according to a mask, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns range
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, -2.0, 4.0, 2.0, NaN ];
+	* var x = new ndarray( 'generic', xbuf, [ 5 ], [ 1 ], 0, 'row-major' );
+	*
+	* var maskbuf = [ 0, 0, 1, 0, 0 ];
+	* var mask = new ndarray( 'generic', maskbuf, [ 5 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.nanmskrange( [ x, mask ] );
+	* // returns 4.0
+	*/
+	nanmskrange: typeof nanmskrange;
+
+	/**
+	* Computes the range of a one-dimensional ndarray, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns range
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, -2.0, NaN, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.nanrange( [ x ] );
+	* // returns 4.0
+	*/
+	nanrange: typeof nanrange;
+
+	/**
+	* Computes the range of a one-dimensional ndarray via a callback function, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @param clbk - callback function
+	* @param thisArg - callback execution context
+	* @returns range
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* function clbk( value ) {
+	*     return value * 2.0;
+	* }
+	*
+	* var xbuf = [ 1.0, -2.0, NaN, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.nanrangeBy( [ x ], clbk );
+	* // returns 8.0
+	*/
+	nanrangeBy: typeof nanrangeBy;
 
 	/**
 	* Computes the range of a one-dimensional ndarray.
@@ -1577,6 +2261,60 @@ interface Namespace {
 	scuminabs: typeof scuminabs;
 
 	/**
+	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray using extended accumulation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.sdsmean( [ x ] );
+	* // returns 2.5
+	*/
+	sdsmean: typeof sdsmean;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray using ordinary recursive summation with extended accumulation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.sdsmeanors( [ x ] );
+	* // returns 2.5
+	*/
+	sdsmeanors: typeof sdsmeanors;
+
+	/**
+	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray, ignoring NaN values and using ordinary recursive summation with extended accumulation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.sdsnanmeanors( [ x ] );
+	* // returns ~0.3333
+	*/
+	sdsnanmeanors: typeof sdsnanmeanors;
+
+	/**
 	* Computes the maximum value of a one-dimensional single-precision floating-point ndarray.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -1739,6 +2477,24 @@ interface Namespace {
 	smeanlipw: typeof smeanlipw;
 
 	/**
+	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray using ordinary recursive summation.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns arithmetic mean
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smeanors( [ x ] );
+	* // returns 2.5
+	*/
+	smeanors: typeof smeanors;
+
+	/**
 	* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray using a two-pass error correction algorithm.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -1793,6 +2549,42 @@ interface Namespace {
 	smeanwd: typeof smeanwd;
 
 	/**
+	* Computes the median value of a sorted one-dimensional single-precision floating-point ndarray.
+	*
+	* @param arrays - array-like object containing a sorted input ndarray
+	* @returns median value
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, 2.0, 3.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smediansorted( [ x ] );
+	* // returns 2.0
+	*/
+	smediansorted: typeof smediansorted;
+
+	/**
+	* Computes the mid-range of a one-dimensional single-precision floating-point ndarray.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns mid-range
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 2.0, 4.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smidrange( [ x ] );
+	* // returns 1.0
+	*/
+	smidrange: typeof smidrange;
+
+	/**
 	* Computes the minimum value of a one-dimensional single-precision floating-point ndarray.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -1845,6 +2637,94 @@ interface Namespace {
 	* // returns 1.0
 	*/
 	sminsorted: typeof sminsorted;
+
+	/**
+	* Computes the maximum value of a one-dimensional single-precision floating-point ndarray according to a mask.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns maximum value
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var mbuf = new Uint8Array( [ 0, 0, 1, 0 ] );
+	* var mask = new ndarray( 'uint8', mbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smskmax( [ x, mask ] );
+	* // returns 2.0
+	*/
+	smskmax: typeof smskmax;
+
+	/**
+	* Calculates the mid-range of a one-dimensional single-precision floating-point ndarray according to a mask.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns mid-range
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var mbuf = new Uint8Array( [ 0, 0, 1, 0 ] );
+	* var mask = new ndarray( 'uint8', mbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smskmidrange( [ x, mask ] );
+	* // returns 0.0
+	*/
+	smskmidrange: typeof smskmidrange;
+
+	/**
+	* Computes the minimum value of a one-dimensional single-precision floating-point ndarray according to a mask.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns minimum value
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var maskbuf = new Uint8Array( [ 0, 0, 1, 0 ] );
+	* var mask = new ndarray( 'uint8', maskbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smskmin( [ x, mask ] );
+	* // returns -2.0
+	*/
+	smskmin: typeof smskmin;
+
+	/**
+	* Calculates the range of a one-dimensional single-precision floating-point ndarray according to a mask.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns range
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var mbuf = new Uint8Array( [ 0, 0, 1, 0 ] );
+	* var mask = new ndarray( 'uint8', mbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smskrange( [ x, mask ] );
+	* // returns 4.0
+	*/
+	smskrange: typeof smskrange;
 
 	/**
 	* Computes the maximum value of a one-dimensional single-precision floating-point ndarray, ignoring `NaN` values.
@@ -1955,6 +2835,24 @@ interface Namespace {
 	snanmeanwd: typeof snanmeanwd;
 
 	/**
+	* Computes the mid-range of a one-dimensional single-precision floating-point ndarray, ignoring NaN values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns mid-range
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.snanmidrange( [ x ] );
+	* // returns 0.0
+	*/
+	snanmidrange: typeof snanmidrange;
+
+	/**
 	* Computes the minimum value of a one-dimensional single-precision floating-point ndarray, ignoring `NaN` values.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -1991,6 +2889,90 @@ interface Namespace {
 	snanminabs: typeof snanminabs;
 
 	/**
+	* Computes the maximum value of a one-dimensional single-precision floating-point ndarray according to a mask, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns maximum value
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var mbuf = new Uint8Array( [ 0, 0, 1, 0 ] );
+	* var mask = new ndarray( 'uint8', mbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.snanmskmax( [ x, mask ] );
+	* // returns 2.0
+	*/
+	snanmskmax: typeof snanmskmax;
+
+	/**
+	* Computes the minimum value of a one-dimensional single-precision floating-point ndarray according to a mask, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns minimum value
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 4.0, 2.0, NaN ] );
+	* var x = new ndarray( 'float32', xbuf, [ 5 ], [ 1 ], 0, 'row-major' );
+	*
+	* var maskbuf = new Uint8Array( [ 0, 0, 1, 0, 0 ] );
+	* var mask = new ndarray( 'uint8', maskbuf, [ 5 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.snanmskmin( [ x, mask ] );
+	* // returns -2.0
+	*/
+	snanmskmin: typeof snanmskmin;
+
+	/**
+	* Calculates the range of a one-dimensional single-precision floating-point ndarray according to a mask, ignoring `NaN` values.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns range
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 4.0, 2.0, NaN ] );
+	* var x = new ndarray( 'float32', xbuf, [ 5 ], [ 1 ], 0, 'row-major' );
+	*
+	* var maskbuf = new Uint8Array( [ 0, 0, 1, 0, 0 ] );
+	* var mask = new ndarray( 'uint8', maskbuf, [ 5 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.snanmskrange( [ x, mask ] );
+	* // returns 4.0
+	*/
+	snanmskrange: typeof snanmskrange;
+
+	/**
+	* Computes the range of a one-dimensional single-precision floating-point ndarray, ignoring NaN values.
+	*
+	* @param arrays - array-like object containing an input ndarray
+	* @returns range
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.snanrange( [ x ] );
+	* // returns 4.0
+	*/
+	snanrange: typeof snanrange;
+
+	/**
 	* Computes the range of a one-dimensional single-precision floating-point ndarray.
 	*
 	* @param arrays - array-like object containing an input ndarray
@@ -2007,6 +2989,246 @@ interface Namespace {
 	* // returns 3.0
 	*/
 	srange: typeof srange;
+
+	/**
+	* Computes the standard deviation of a one-dimensional ndarray.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var opts = {
+	*     'dtype': 'float32'
+	* };
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.sstdev( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	sstdev: typeof sstdev;
+
+	/**
+	* Computes the standard deviation of a one-dimensional single-precision floating-point ndarray using a one-pass trial mean algorithm.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var opts = {
+	*     'dtype': 'float32'
+	* };
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.sstdevch( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	sstdevch: typeof sstdevch;
+
+	/**
+	* Computes the standard deviation of a one-dimensional single-precision floating-point ndarray using a two-pass algorithm.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var opts = {
+	*     'dtype': 'float32'
+	* };
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.sstdevpn( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	sstdevpn: typeof sstdevpn;
+
+	/**
+	* Computes the standard deviation of a one-dimensional single-precision floating-point ndarray using Welford's algorithm.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var opts = {
+	*     'dtype': 'float32'
+	* };
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.sstdevwd( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	sstdevwd: typeof sstdevwd;
+
+	/**
+	* Computes the standard deviation of a one-dimensional ndarray.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.stdev( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	stdev: typeof stdev;
+
+	/**
+	* Computes the standard deviation of a one-dimensional ndarray using a one-pass trial mean algorithm.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.stdevch( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	stdevch: typeof stdevch;
+
+	/**
+	* Computes the standard deviation of a one-dimensional ndarray using a two-pass algorithm.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.stdevpn( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	stdevpn: typeof stdevpn;
+
+	/**
+	* Computes the standard deviation of a one-dimensional ndarray using a one-pass textbook algorithm.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.stdevtk( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	stdevtk: typeof stdevtk;
+
+	/**
+	* Computes the standard deviation of a one-dimensional ndarray using Welford's algorithm.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.stdevwd( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	stdevwd: typeof stdevwd;
+
+	/**
+	* Computes the standard deviation of a one-dimensional ndarray using a one-pass algorithm proposed by Youngs and Cramer.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.stdevyc( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	stdevyc: typeof stdevyc;
 
 	/**
 	* Computes a one-sample Z-test for a one-dimensional single-precision floating-point ndarray.
@@ -2131,6 +3353,78 @@ interface Namespace {
 	* console.log( v.get().toString() );
 	*/
 	sztest2: typeof sztest2;
+
+	/**
+	* Computes the variance of a one-dimensional ndarray.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns variance
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.variance( [ x, correction ] );
+	* // returns ~4.333
+	*/
+	variance: typeof variance;
+
+	/**
+	* Computes the variance of a one-dimensional ndarray using a one-pass trial mean algorithm.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns variance
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.variancech( [ x, correction ] );
+	* // returns ~4.333
+	*/
+	variancech: typeof variancech;
+
+	/**
+	* Computes the variance of a one-dimensional ndarray using Welford's algorithm.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns variance
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.variancewd( [ x, correction ] );
+	* // returns ~4.3333
+	*/
+	variancewd: typeof variancewd;
 
 	/**
 	* Computes a one-sample Z-test for a one-dimensional ndarray.

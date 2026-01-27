@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e3e238d`](https://github.com/stdlib-js/stdlib/commit/e3e238dd684b98b67ad10ae4da51f33f1cf5413d) - update `stats/base/ndarray` TypeScript declarations [(#9914)](https://github.com/stdlib-js/stdlib/pull/9914)
 -   [`fabac99`](https://github.com/stdlib-js/stdlib/commit/fabac994a5faee54c764fc1744f9a3427a6cf7b3) - add `variance`, `variancech`, `variancewd` to namespace
 -   [`b165d09`](https://github.com/stdlib-js/stdlib/commit/b165d09ba924d67d5ee7ed2f307a2a394708c830) - add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, `stdevyc` to namespace
 -   [`f68ce9c`](https://github.com/stdlib-js/stdlib/commit/f68ce9c54ec885f22090a8397346c865242aed80) - add `sstdev`, `sstdevch`, `sstdevpn`, `sstdevwd` to namespace
@@ -3617,6 +3618,8 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`e3e238d`](https://github.com/stdlib-js/stdlib/commit/e3e238dd684b98b67ad10ae4da51f33f1cf5413d) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#9914)](https://github.com/stdlib-js/stdlib/pull/9914) _(by stdlib-bot, Athan Reines)_
+-   [`ce2a3e1`](https://github.com/stdlib-js/stdlib/commit/ce2a3e195b5cfda0de0e06da8c7c82da70ff1339) - **docs:** fix example _(by Athan Reines)_
 -   [`196734e`](https://github.com/stdlib-js/stdlib/commit/196734eccb0d43439332b2a275fb3a50cb73df67) - **docs:** update namespace table of contents [(#9915)](https://github.com/stdlib-js/stdlib/pull/9915) _(by stdlib-bot)_
 -   [`de545e8`](https://github.com/stdlib-js/stdlib/commit/de545e8b4d05e9f6fbadc4387c3bd254c6abfcef) - **bench:** add opts and use string interpolation in `stats/base/dists/halfnormal/mode` [(#9904)](https://github.com/stdlib-js/stdlib/pull/9904) _(by Lokesh Ranjan)_
 -   [`f79a945`](https://github.com/stdlib-js/stdlib/commit/f79a9459ee83a526964301bb1e400059f0daf08d) - **bench:** refactor to use string interpolation in `stats/base/dists/planck` [(#9901)](https://github.com/stdlib-js/stdlib/pull/9901) _(by Suyash Pathak)_
