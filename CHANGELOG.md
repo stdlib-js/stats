@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`562065d`](https://github.com/stdlib-js/stdlib/commit/562065d7fcb441b25a487453c4321030478ee966) - add `stats/strided/snanmskmidrange` [(#9821)](https://github.com/stdlib-js/stdlib/pull/9821)
 -   [`e3e238d`](https://github.com/stdlib-js/stdlib/commit/e3e238dd684b98b67ad10ae4da51f33f1cf5413d) - update `stats/base/ndarray` TypeScript declarations [(#9914)](https://github.com/stdlib-js/stdlib/pull/9914)
 -   [`fabac99`](https://github.com/stdlib-js/stdlib/commit/fabac994a5faee54c764fc1744f9a3427a6cf7b3) - add `variance`, `variancech`, `variancewd` to namespace
 -   [`b165d09`](https://github.com/stdlib-js/stdlib/commit/b165d09ba924d67d5ee7ed2f307a2a394708c830) - add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, `stdevyc` to namespace
@@ -3618,6 +3619,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`562065d`](https://github.com/stdlib-js/stdlib/commit/562065d7fcb441b25a487453c4321030478ee966) - **feat:** add `stats/strided/snanmskmidrange` [(#9821)](https://github.com/stdlib-js/stdlib/pull/9821) _(by Sachin Pangal, Philipp Burckhardt, Athan Reines)_
 -   [`e3e238d`](https://github.com/stdlib-js/stdlib/commit/e3e238dd684b98b67ad10ae4da51f33f1cf5413d) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#9914)](https://github.com/stdlib-js/stdlib/pull/9914) _(by stdlib-bot, Athan Reines)_
 -   [`ce2a3e1`](https://github.com/stdlib-js/stdlib/commit/ce2a3e195b5cfda0de0e06da8c7c82da70ff1339) - **docs:** fix example _(by Athan Reines)_
 -   [`196734e`](https://github.com/stdlib-js/stdlib/commit/196734eccb0d43439332b2a275fb3a50cb73df67) - **docs:** update namespace table of contents [(#9915)](https://github.com/stdlib-js/stdlib/pull/9915) _(by stdlib-bot)_
