@@ -100,6 +100,15 @@ setReadOnly( ns, 'dcumin', require( './../../strided/dcumin' ) );
 setReadOnly( ns, 'dcuminabs', require( './../../strided/dcuminabs' ) );
 
 /**
+* @name distances
+* @memberof ns
+* @readonly
+* @type {Namespace}
+* @see {@link module:@stdlib/stats/strided/distances}
+*/
+setReadOnly( ns, 'distances', require( './../../strided/distances' ) );
+
+/**
 * @name dmax
 * @memberof ns
 * @readonly

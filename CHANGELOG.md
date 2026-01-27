@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`942fa9b`](https://github.com/stdlib-js/stdlib/commit/942fa9ba4e93c3064011ead7bae1d1f8ac0281de) - add `distances` to namespace
+-   [`262f96d`](https://github.com/stdlib-js/stdlib/commit/262f96df7fe35057b1ad9a29802497f935788600) - update namespace
+-   [`d0e3e71`](https://github.com/stdlib-js/stdlib/commit/d0e3e71f26da59d042df4ae94869589ee17f237a) - add `stats/strided/distances` namespace
+-   [`0538a41`](https://github.com/stdlib-js/stdlib/commit/0538a41cc4147040c041d86068fce07ecfdca36d) - add `stats/strided/distances/dsquared-euclidean` [(#9680)](https://github.com/stdlib-js/stdlib/pull/9680)
 -   [`fbc0835`](https://github.com/stdlib-js/stdlib/commit/fbc08352233e90ae7ff159385d4d3926dff1e13c) - add `snanmidrange` and `srangeabs` to namespace
 -   [`52100d1`](https://github.com/stdlib-js/stdlib/commit/52100d116b87170e3a325bd87665b0ad223894e2) - add `smskmaxabs` and `smskmidrange` to namespace
 -   [`bde889e`](https://github.com/stdlib-js/stdlib/commit/bde889e82b8692575b6a0a1876b28ba9130abf11) - add `rangeabs` to namespace
@@ -3629,6 +3633,10 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`942fa9b`](https://github.com/stdlib-js/stdlib/commit/942fa9ba4e93c3064011ead7bae1d1f8ac0281de) - **feat:** add `distances` to namespace _(by Athan Reines)_
+-   [`262f96d`](https://github.com/stdlib-js/stdlib/commit/262f96df7fe35057b1ad9a29802497f935788600) - **feat:** update namespace _(by Athan Reines)_
+-   [`d0e3e71`](https://github.com/stdlib-js/stdlib/commit/d0e3e71f26da59d042df4ae94869589ee17f237a) - **feat:** add `stats/strided/distances` namespace _(by Athan Reines)_
+-   [`0538a41`](https://github.com/stdlib-js/stdlib/commit/0538a41cc4147040c041d86068fce07ecfdca36d) - **feat:** add `stats/strided/distances/dsquared-euclidean` [(#9680)](https://github.com/stdlib-js/stdlib/pull/9680) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`fbc0835`](https://github.com/stdlib-js/stdlib/commit/fbc08352233e90ae7ff159385d4d3926dff1e13c) - **feat:** add `snanmidrange` and `srangeabs` to namespace _(by Athan Reines)_
 -   [`52100d1`](https://github.com/stdlib-js/stdlib/commit/52100d116b87170e3a325bd87665b0ad223894e2) - **feat:** add `smskmaxabs` and `smskmidrange` to namespace _(by Athan Reines)_
 -   [`bde889e`](https://github.com/stdlib-js/stdlib/commit/bde889e82b8692575b6a0a1876b28ba9130abf11) - **feat:** add `rangeabs` to namespace _(by Athan Reines)_
