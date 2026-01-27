@@ -126,7 +126,6 @@ console.log( v );
 Computes the maximum value of a one-dimensional double-precision floating-point ndarray.
 
 ```c
-#include "stdlib/stats/base/ndarray/dmax.h"
 #include "stdlib/ndarray/ctor.h"
 #include "stdlib/ndarray/dtypes.h"
 #include "stdlib/ndarray/index_modes.h"
