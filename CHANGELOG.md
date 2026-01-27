@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-26)
+## Unreleased (2026-01-27)
 
 <section class="features">
 
@@ -3617,6 +3617,8 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`ce2a3e1`](https://github.com/stdlib-js/stdlib/commit/ce2a3e195b5cfda0de0e06da8c7c82da70ff1339) - **docs:** fix example _(by Athan Reines)_
+-   [`196734e`](https://github.com/stdlib-js/stdlib/commit/196734eccb0d43439332b2a275fb3a50cb73df67) - **docs:** update namespace table of contents [(#9915)](https://github.com/stdlib-js/stdlib/pull/9915) _(by stdlib-bot)_
 -   [`de545e8`](https://github.com/stdlib-js/stdlib/commit/de545e8b4d05e9f6fbadc4387c3bd254c6abfcef) - **bench:** add opts and use string interpolation in `stats/base/dists/halfnormal/mode` [(#9904)](https://github.com/stdlib-js/stdlib/pull/9904) _(by Lokesh Ranjan)_
 -   [`f79a945`](https://github.com/stdlib-js/stdlib/commit/f79a9459ee83a526964301bb1e400059f0daf08d) - **bench:** refactor to use string interpolation in `stats/base/dists/planck` [(#9901)](https://github.com/stdlib-js/stdlib/pull/9901) _(by Suyash Pathak)_
 -   [`fabac99`](https://github.com/stdlib-js/stdlib/commit/fabac994a5faee54c764fc1744f9a3427a6cf7b3) - **feat:** add `variance`, `variancech`, `variancewd` to namespace _(by Athan Reines)_
