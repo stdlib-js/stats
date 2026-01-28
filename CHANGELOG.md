@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`0b8361f`](https://github.com/stdlib-js/stdlib/commit/0b8361f354a73d91b1ca235e74bf0fab1bd1d7ae) - add `stats/base/ndarray/rangeabs` [(#9918)](https://github.com/stdlib-js/stdlib/pull/9918)
 -   [`2b5c80e`](https://github.com/stdlib-js/stdlib/commit/2b5c80e62c9d6d2583a009fdf496a4a5e1827d64) - add `srangeabs` to namespace
 -   [`c66543d`](https://github.com/stdlib-js/stdlib/commit/c66543d7be8062e7a3efcc3e332e5e270986d59c) - add `stats/base/ndarray/srangeabs` [(#9920)](https://github.com/stdlib-js/stdlib/pull/9920)
 -   [`aa4cdfd`](https://github.com/stdlib-js/stdlib/commit/aa4cdfd5a67ada2e018c7970c4a777187280cce2) - update `stats/strided/distances` TypeScript declarations [(#9936)](https://github.com/stdlib-js/stdlib/pull/9936)
@@ -3639,7 +3638,6 @@ A total of 566 issues were closed in this release:
 
 <details>
 
--   [`0b8361f`](https://github.com/stdlib-js/stdlib/commit/0b8361f354a73d91b1ca235e74bf0fab1bd1d7ae) - **feat:** add `stats/base/ndarray/rangeabs` [(#9918)](https://github.com/stdlib-js/stdlib/pull/9918) _(by Sachin Pangal)_
 -   [`2b5c80e`](https://github.com/stdlib-js/stdlib/commit/2b5c80e62c9d6d2583a009fdf496a4a5e1827d64) - **feat:** add `srangeabs` to namespace _(by Athan Reines)_
 -   [`c66543d`](https://github.com/stdlib-js/stdlib/commit/c66543d7be8062e7a3efcc3e332e5e270986d59c) - **feat:** add `stats/base/ndarray/srangeabs` [(#9920)](https://github.com/stdlib-js/stdlib/pull/9920) _(by Sachin Pangal)_
 -   [`5ff8286`](https://github.com/stdlib-js/stdlib/commit/5ff82862ae371a0b87203969dad69861fd5ef180) - **bench:** update random value generation [(#9923)](https://github.com/stdlib-js/stdlib/pull/9923) _(by Harsh Yadav)_
