@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`aa4cdfd`](https://github.com/stdlib-js/stdlib/commit/aa4cdfd5a67ada2e018c7970c4a777187280cce2) - update `stats/strided/distances` TypeScript declarations [(#9936)](https://github.com/stdlib-js/stdlib/pull/9936)
 -   [`2dc14e3`](https://github.com/stdlib-js/stdlib/commit/2dc14e39bc443c009059c88c1650e4ca227b708a) - update `stats/strided` TypeScript declarations [(#9937)](https://github.com/stdlib-js/stdlib/pull/9937)
 -   [`07e112a`](https://github.com/stdlib-js/stdlib/commit/07e112a03fc1c0308bdc38bcb0425dc2fe6faec5) - add C API
 -   [`942fa9b`](https://github.com/stdlib-js/stdlib/commit/942fa9ba4e93c3064011ead7bae1d1f8ac0281de) - add `distances` to namespace
@@ -3636,7 +3635,6 @@ A total of 566 issues were closed in this release:
 
 <details>
 
--   [`aa4cdfd`](https://github.com/stdlib-js/stdlib/commit/aa4cdfd5a67ada2e018c7970c4a777187280cce2) - **feat:** update `stats/strided/distances` TypeScript declarations [(#9936)](https://github.com/stdlib-js/stdlib/pull/9936) _(by stdlib-bot)_
 -   [`2dc14e3`](https://github.com/stdlib-js/stdlib/commit/2dc14e39bc443c009059c88c1650e4ca227b708a) - **feat:** update `stats/strided` TypeScript declarations [(#9937)](https://github.com/stdlib-js/stdlib/pull/9937) _(by stdlib-bot)_
 -   [`a87bde4`](https://github.com/stdlib-js/stdlib/commit/a87bde4102c9e3637ab02b18b39de03815e8d927) - **docs:** update namespace table of contents [(#9938)](https://github.com/stdlib-js/stdlib/pull/9938) _(by stdlib-bot)_
 -   [`886ac7f`](https://github.com/stdlib-js/stdlib/commit/886ac7f190023a49a18e580f5345e9fdf71155bf) - **chore:** fix copyright year _(by Philipp Burckhardt)_
