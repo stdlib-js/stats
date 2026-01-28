@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c66543d`](https://github.com/stdlib-js/stdlib/commit/c66543d7be8062e7a3efcc3e332e5e270986d59c) - add `stats/base/ndarray/srangeabs` [(#9920)](https://github.com/stdlib-js/stdlib/pull/9920)
 -   [`aa4cdfd`](https://github.com/stdlib-js/stdlib/commit/aa4cdfd5a67ada2e018c7970c4a777187280cce2) - update `stats/strided/distances` TypeScript declarations [(#9936)](https://github.com/stdlib-js/stdlib/pull/9936)
 -   [`2dc14e3`](https://github.com/stdlib-js/stdlib/commit/2dc14e39bc443c009059c88c1650e4ca227b708a) - update `stats/strided` TypeScript declarations [(#9937)](https://github.com/stdlib-js/stdlib/pull/9937)
 -   [`07e112a`](https://github.com/stdlib-js/stdlib/commit/07e112a03fc1c0308bdc38bcb0425dc2fe6faec5) - add C API
@@ -3636,6 +3637,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`c66543d`](https://github.com/stdlib-js/stdlib/commit/c66543d7be8062e7a3efcc3e332e5e270986d59c) - **feat:** add `stats/base/ndarray/srangeabs` [(#9920)](https://github.com/stdlib-js/stdlib/pull/9920) _(by Sachin Pangal)_
 -   [`5ff8286`](https://github.com/stdlib-js/stdlib/commit/5ff82862ae371a0b87203969dad69861fd5ef180) - **bench:** update random value generation [(#9923)](https://github.com/stdlib-js/stdlib/pull/9923) _(by Harsh Yadav)_
 -   [`12a9091`](https://github.com/stdlib-js/stdlib/commit/12a9091c51692376b7c516aa250906ffcc26d6c4) - **bench:** update random value generation for `stats/base/dists/arcsine` [(#9924)](https://github.com/stdlib-js/stdlib/pull/9924) _(by Lokesh Ranjan, Athan Reines)_
 -   [`6926cf8`](https://github.com/stdlib-js/stdlib/commit/6926cf846717f27831738dbc96fa4bd902ef9dc5) - **bench:** refactor to use string interpolation in `stats/base/dists/uniform` [(#9928)](https://github.com/stdlib-js/stdlib/pull/9928) _(by Lokesh Ranjan)_
