@@ -27,7 +27,6 @@ import dcumax = require( './../../../strided/dcumax' );
 import dcumaxabs = require( './../../../strided/dcumaxabs' );
 import dcumin = require( './../../../strided/dcumin' );
 import dcuminabs = require( './../../../strided/dcuminabs' );
-import distances = require( './../../../strided/distances' );
 import dmax = require( './../../../strided/dmax' );
 import dmaxabs = require( './../../../strided/dmaxabs' );
 import dmaxabssorted = require( './../../../strided/dmaxabssorted' );
@@ -51,7 +50,6 @@ import dmin = require( './../../../strided/dmin' );
 import dminabs = require( './../../../strided/dminabs' );
 import dminsorted = require( './../../../strided/dminsorted' );
 import dmskmax = require( './../../../strided/dmskmax' );
-import dmskmidrange = require( './../../../strided/dmskmidrange' );
 import dmskmin = require( './../../../strided/dmskmin' );
 import dmskrange = require( './../../../strided/dmskrange' );
 import dnanmax = require( './../../../strided/dnanmax' );
@@ -61,11 +59,9 @@ import dnanmeanors = require( './../../../strided/dnanmeanors' );
 import dnanmeanpn = require( './../../../strided/dnanmeanpn' );
 import dnanmeanpw = require( './../../../strided/dnanmeanpw' );
 import dnanmeanwd = require( './../../../strided/dnanmeanwd' );
-import dnanmidrange = require( './../../../strided/dnanmidrange' );
 import dnanmin = require( './../../../strided/dnanmin' );
 import dnanminabs = require( './../../../strided/dnanminabs' );
 import dnanmskmax = require( './../../../strided/dnanmskmax' );
-import dnanmskmidrange = require( './../../../strided/dnanmskmidrange' );
 import dnanmskmin = require( './../../../strided/dnanmskmin' );
 import dnanmskrange = require( './../../../strided/dnanmskrange' );
 import dnanrange = require( './../../../strided/dnanrange' );
@@ -82,7 +78,6 @@ import dnanvariancetk = require( './../../../strided/dnanvariancetk' );
 import dnanvariancewd = require( './../../../strided/dnanvariancewd' );
 import dnanvarianceyc = require( './../../../strided/dnanvarianceyc' );
 import drange = require( './../../../strided/drange' );
-import drangeabs = require( './../../../strided/drangeabs' );
 import dsem = require( './../../../strided/dsem' );
 import dsemch = require( './../../../strided/dsemch' );
 import dsempn = require( './../../../strided/dsempn' );
@@ -129,15 +124,11 @@ import meanpn = require( './../../../strided/meanpn' );
 import meanpw = require( './../../../strided/meanpw' );
 import meanwd = require( './../../../strided/meanwd' );
 import mediansorted = require( './../../../strided/mediansorted' );
-import midrange = require( './../../../strided/midrange' );
-import midrangeBy = require( './../../../strided/midrange-by' );
 import min = require( './../../../strided/min' );
 import minBy = require( './../../../strided/min-by' );
 import minabs = require( './../../../strided/minabs' );
 import minsorted = require( './../../../strided/minsorted' );
 import mskmax = require( './../../../strided/mskmax' );
-import mskmaxabs = require( './../../../strided/mskmaxabs' );
-import mskmidrange = require( './../../../strided/mskmidrange' );
 import mskmin = require( './../../../strided/mskmin' );
 import mskrange = require( './../../../strided/mskrange' );
 import nanmax = require( './../../../strided/nanmax' );
@@ -147,13 +138,10 @@ import nanmean = require( './../../../strided/nanmean' );
 import nanmeanors = require( './../../../strided/nanmeanors' );
 import nanmeanpn = require( './../../../strided/nanmeanpn' );
 import nanmeanwd = require( './../../../strided/nanmeanwd' );
-import nanmidrange = require( './../../../strided/nanmidrange' );
-import nanmidrangeBy = require( './../../../strided/nanmidrange-by' );
 import nanmin = require( './../../../strided/nanmin' );
 import nanminBy = require( './../../../strided/nanmin-by' );
 import nanminabs = require( './../../../strided/nanminabs' );
 import nanmskmax = require( './../../../strided/nanmskmax' );
-import nanmskmidrange = require( './../../../strided/nanmskmidrange' );
 import nanmskmin = require( './../../../strided/nanmskmin' );
 import nanmskrange = require( './../../../strided/nanmskrange' );
 import nanrange = require( './../../../strided/nanrange' );
@@ -172,7 +160,6 @@ import nanvariancewd = require( './../../../strided/nanvariancewd' );
 import nanvarianceyc = require( './../../../strided/nanvarianceyc' );
 import range = require( './../../../strided/range' );
 import rangeBy = require( './../../../strided/range-by' );
-import rangeabs = require( './../../../strided/rangeabs' );
 import scovarmtk = require( './../../../strided/scovarmtk' );
 import scumax = require( './../../../strided/scumax' );
 import scumaxabs = require( './../../../strided/scumaxabs' );
@@ -200,8 +187,6 @@ import smin = require( './../../../strided/smin' );
 import sminabs = require( './../../../strided/sminabs' );
 import sminsorted = require( './../../../strided/sminsorted' );
 import smskmax = require( './../../../strided/smskmax' );
-import smskmaxabs = require( './../../../strided/smskmaxabs' );
-import smskmidrange = require( './../../../strided/smskmidrange' );
 import smskmin = require( './../../../strided/smskmin' );
 import smskrange = require( './../../../strided/smskrange' );
 import snanmax = require( './../../../strided/snanmax' );
@@ -210,16 +195,13 @@ import snanmean = require( './../../../strided/snanmean' );
 import snanmeanors = require( './../../../strided/snanmeanors' );
 import snanmeanpn = require( './../../../strided/snanmeanpn' );
 import snanmeanwd = require( './../../../strided/snanmeanwd' );
-import snanmidrange = require( './../../../strided/snanmidrange' );
 import snanmin = require( './../../../strided/snanmin' );
 import snanminabs = require( './../../../strided/snanminabs' );
 import snanmskmax = require( './../../../strided/snanmskmax' );
-import snanmskmidrange = require( './../../../strided/snanmskmidrange' );
 import snanmskmin = require( './../../../strided/snanmskmin' );
 import snanmskrange = require( './../../../strided/snanmskrange' );
 import snanrange = require( './../../../strided/snanrange' );
 import srange = require( './../../../strided/srange' );
-import srangeabs = require( './../../../strided/srangeabs' );
 import sstdev = require( './../../../strided/sstdev' );
 import sstdevch = require( './../../../strided/sstdevch' );
 import sstdevpn = require( './../../../strided/sstdevpn' );
@@ -511,11 +493,6 @@ interface Namespace {
 	* // y => <Float64Array>[ 1.0, 1.0, 1.0 ]
 	*/
 	dcuminabs: typeof dcuminabs;
-
-	/**
-	* Distance metrics for strided arrays.
-	*/
-	distances: typeof distances;
 
 	/**
 	* Computes the maximum value of a double-precision floating-point strided array.
@@ -1142,38 +1119,6 @@ interface Namespace {
 	dmskmax: typeof dmskmax;
 
 	/**
-	* Computes the mid-range of a double-precision floating-point strided array according to a mask.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param mask - mask array
-	* @param strideMask - `mask` stride length
-	* @returns mid-range
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 4.0, 2.0 ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0 ] );
-	*
-	* var v = ns.dmskmidrange( x.length, x, 1, mask, 1 );
-	* // returns 0.0
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 4.0, 2.0 ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0 ] );
-	*
-	* var v = ns.dmskmidrange.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 0.0
-	*/
-	dmskmidrange: typeof dmskmidrange;
-
-	/**
 	* Computes the minimum value of a double-precision floating-point strided array according to a mask.
 	*
 	* @param N - number of indexed elements
@@ -1420,32 +1365,6 @@ interface Namespace {
 	dnanmeanwd: typeof dnanmeanwd;
 
 	/**
-	* Computes the mid-range of a double-precision floating-point strided array, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns mid-range
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.dnanmidrange( x.length, x, 1 );
-	* // returns 0.0
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.dnanmidrange.ndarray( x.length, x, 1, 0 );
-	* // returns 0.0
-	*/
-	dnanmidrange: typeof dnanmidrange;
-
-	/**
 	* Computes the minimum value of a double-precision floating-point strided array, ignoring `NaN` values.
 	*
 	* @param N - number of indexed elements
@@ -1528,38 +1447,6 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	dnanmskmax: typeof dnanmskmax;
-
-	/**
-	* Computes the mid-range of a double-precision floating-point strided array according to a mask, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param mask - mask array
-	* @param strideMask - `mask` stride length
-	* @returns mid-range
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 4.0, 2.0, NaN ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0, 0 ] );
-	*
-	* var v = ns.dnanmskmidrange( x.length, x, 1, mask, 1 );
-	* // returns 0.0
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 4.0, 2.0, NaN ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0, 0 ] );
-	*
-	* var v = ns.dnanmskmidrange.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 0.0
-	*/
-	dnanmskmidrange: typeof dnanmskmidrange;
 
 	/**
 	* Computes the minimum value of a double-precision floating-point strided array according to a mask, ignoring `NaN` values.
@@ -2000,32 +1887,6 @@ interface Namespace {
 	* // returns 4.0
 	*/
 	drange: typeof drange;
-
-	/**
-	* Computes the range of absolute values of a double-precision floating-point strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns range
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.drangeabs( x.length, x, 1 );
-	* // returns 1.0
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.drangeabs.ndarray( x.length, x, 1, 0 );
-	* // returns 1.0
-	*/
-	drangeabs: typeof drangeabs;
 
 	/**
 	* Computes the standard error of the mean for a double-precision floating-point strided array.
@@ -3259,71 +3120,6 @@ interface Namespace {
 	mediansorted: typeof mediansorted;
 
 	/**
-	* Computes the mid-range of a strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns mid-range
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.midrange( x.length, x, 1 );
-	* // returns 0.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.midrange.ndarray( x.length, x, 1, 0 );
-	* // returns 0.0
-	*/
-	midrange: typeof midrange;
-
-	/**
-	* Computes the mid-range of a strided array via a callback function.
-	*
-	* ## Notes
-	*
-	* -   The callback function is provided four arguments:
-	*
-	*     -   `value`: array element
-	*     -   `aidx`: array index
-	*     -   `sidx`: strided index (offset + aidx*stride)
-	*     -   `array`: input array
-	*
-	* -   The callback function should return a numeric value. If the callback function does not return any value (or equivalently, explicitly returns `undefined`), the value is ignored.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @param clbk - callback
-	* @param thisArg - execution context
-	* @returns mid-range
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
-	*
-	* function accessor( v ) {
-	*     return v * 2.0;
-	* }
-	*
-	* var v = ns.midrangeBy( x.length, x, 1, accessor );
-	* // returns -1.0
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
-	*
-	* function accessor( v ) {
-	*     return v * 2.0;
-	* }
-	*
-	* var v = ns.midrangeBy.ndarray( x.length, x, 1, 0, accessor );
-	* // returns -1.0
-	*/
-	midrangeBy: typeof midrangeBy;
-
-	/**
 	* Computes the minimum value of a strided array.
 	*
 	* @param N - number of indexed elements
@@ -3457,58 +3253,6 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	mskmax: typeof mskmax;
-
-	/**
-	* Computes the maximum absolute value of a strided array according to a mask.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length for `x`
-	* @param mask - mask array
-	* @param strideMask - stride length for `mask`
-	* @returns maximum absolute value
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 4.0, 2.0 ];
-	* var mask = [ 0, 0, 1, 0 ];
-	*
-	* var v = ns.mskmaxabs( x.length, x, 1, mask, 1 );
-	* // returns 2.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 4.0, 2.0 ];
-	* var mask = [ 0, 0, 1, 0 ];
-	*
-	* var v = ns.mskmaxabs.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 2.0
-	*/
-	mskmaxabs: typeof mskmaxabs;
-
-	/**
-	* Computes the mid-range of a strided array according to a mask.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length for `x`
-	* @param mask - mask array
-	* @param strideMask - stride length for `mask`
-	* @returns mid-range
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 4.0, 2.0 ];
-	* var mask = [ 0, 0, 1, 0 ];
-	*
-	* var v = ns.mskmidrange( x.length, x, 1, mask, 1 );
-	* // returns 0.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 4.0, 2.0 ];
-	* var mask = [ 0, 0, 1, 0 ];
-	*
-	* var v = ns.mskmidrange.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 0.0
-	*/
-	mskmidrange: typeof mskmidrange;
 
 	/**
 	* Computes the minimum value of a strided array according to a mask.
@@ -3742,71 +3486,6 @@ interface Namespace {
 	nanmeanwd: typeof nanmeanwd;
 
 	/**
-	* Computes the mid-range of a strided array, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns mid-range
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0, NaN ];
-	*
-	* var v = ns.nanmidrange( x.length, x, 1 );
-	* // returns 0.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0, NaN ];
-	*
-	* var v = ns.nanmidrange.ndarray( x.length, x, 1, 0 );
-	* // returns 0.0
-	*/
-	nanmidrange: typeof nanmidrange;
-
-	/**
-	* Computes the mid-range of a strided array via a callback function, ignoring `NaN` values.
-	*
-	* ## Notes
-	*
-	* -   The callback function is provided four arguments:
-	*
-	*     -   `value`: array element
-	*     -   `aidx`: array index
-	*     -   `sidx`: strided index (offset + aidx*stride)
-	*     -   `array`: input array
-	*
-	* -   The callback function should return a numeric value. If the callback function does not return any value (or equivalently, explicitly returns `undefined`), the value is ignored.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @param clbk - callback
-	* @param thisArg - execution context
-	* @returns mid-range
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
-	*
-	* function accessor( v ) {
-	*     return v * 2.0;
-	* }
-	*
-	* var v = ns.nanmidrangeBy( x.length, x, 1, accessor );
-	* // returns -1.0
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
-	*
-	* function accessor( v ) {
-	*     return v * 2.0;
-	* }
-	*
-	* var v = ns.nanmidrangeBy.ndarray( x.length, x, 1, 0, accessor );
-	* // returns -1.0
-	*/
-	nanmidrangeBy: typeof nanmidrangeBy;
-
-	/**
 	* Computes the minimum value of a strided array, ignoring `NaN` values.
 	*
 	* @param N - number of indexed elements
@@ -3922,32 +3601,6 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	nanmskmax: typeof nanmskmax;
-
-	/**
-	* Computes the mid-range of a strided array according to a mask, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length for `x`
-	* @param mask - mask array
-	* @param strideMask - stride length for `mask`
-	* @returns mid-range
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 4.0, 2.0 ];
-	* var mask = [ 0, 0, 0, 1, 0 ];
-	*
-	* var v = ns.nanmskmidrange( x.length, x, 1, mask, 1 );
-	* // returns 0.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, NaN, 4.0, 2.0 ];
-	* var mask = [ 0, 0, 0, 1, 0 ];
-	*
-	* var v = ns.nanmskmidrange.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 0.0
-	*/
-	nanmskmidrange: typeof nanmskmidrange;
 
 	/**
 	* Computes the minimum value of a strided array according to a mask, ignoring `NaN` values.
@@ -4410,28 +4063,6 @@ interface Namespace {
 	* // returns 18.0
 	*/
 	rangeBy: typeof rangeBy;
-
-	/**
-	* Computes the range of absolute values of a strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns range of absolute values
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.rangeabs( x.length, x, 1 );
-	* // returns 1.0
-	*
-	* @example
-	* var x = [ 1.0, -2.0, 2.0 ];
-	*
-	* var v = ns.rangeabs.ndarray( x.length, x, 1, 0 );
-	* // returns 1.0
-	*/
-	rangeabs: typeof rangeabs;
 
 	/**
 	* Computes the covariance of two single-precision floating-point strided arrays provided known means and using a one-pass textbook algorithm.
@@ -5165,70 +4796,6 @@ interface Namespace {
 	smskmax: typeof smskmax;
 
 	/**
-	* Computes the maximum absolute value of a single-precision floating-point strided array according to a mask.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param mask - mask array
-	* @param strideMask - `mask` stride length
-	* @returns maximum absolute value
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 4.0, 2.0 ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0 ] );
-	*
-	* var v = ns.smskmaxabs( x.length, x, 1, mask, 1 );
-	* // returns 2.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 4.0, 2.0 ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0 ] );
-	*
-	* var v = ns.smskmaxabs.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 2.0
-	*/
-	smskmaxabs: typeof smskmaxabs;
-
-	/**
-	* Computes the mid-range of a single-precision floating-point strided array according to a mask.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param mask - mask array
-	* @param strideMask - `mask` stride length
-	* @returns mid-range
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 4.0, 2.0 ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0 ] );
-	*
-	* var v = ns.smskmidrange( x.length, x, 1, mask, 1 );
-	* // returns 0.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 4.0, 2.0 ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0 ] );
-	*
-	* var v = ns.smskmidrange.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 0.0
-	*/
-	smskmidrange: typeof smskmidrange;
-
-	/**
 	* Computes the minimum value of a single-precision floating-point strided array according to a mask.
 	*
 	* @param N - number of indexed elements
@@ -5449,32 +5016,6 @@ interface Namespace {
 	snanmeanwd: typeof snanmeanwd;
 
 	/**
-	* Computes the mid-range of a single-precision floating-point strided array, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns mid-range
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.snanmidrange( x.length, x, 1 );
-	* // returns 0.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
-	*
-	* var v = ns.snanmidrange.ndarray( x.length, x, 1, 0 );
-	* // returns 0.0
-	*/
-	snanmidrange: typeof snanmidrange;
-
-	/**
 	* Computes the minimum value of a single-precision floating-point strided array, ignoring `NaN` values.
 	*
 	* @param N - number of indexed elements
@@ -5557,38 +5098,6 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	snanmskmax: typeof snanmskmax;
-
-	/**
-	* Computes the mid-range of a single-precision floating-point strided array according to a mask, ignoring `NaN` values.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param mask - mask array
-	* @param strideMask - `mask` stride length
-	* @returns mid-range
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 4.0, 2.0, NaN ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0, 0 ] );
-	*
-	* var v = ns.snanmskmidrange( x.length, x, 1, mask, 1 );
-	* // returns 0.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 4.0, 2.0, NaN ] );
-	* var mask = new Uint8Array( [ 0, 0, 1, 0, 0 ] );
-	*
-	* var v = ns.snanmskmidrange.ndarray( x.length, x, 1, 0, mask, 1, 0 );
-	* // returns 0.0
-	*/
-	snanmskmidrange: typeof snanmskmidrange;
 
 	/**
 	* Computes the minimum value of a single-precision floating-point strided array according to a mask, ignoring `NaN` values.
@@ -5705,32 +5214,6 @@ interface Namespace {
 	* // returns 4.0
 	*/
 	srange: typeof srange;
-
-	/**
-	* Computes the range of absolute values of a single-precision floating-point strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns range
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.srangeabs( x.length, x, 1 );
-	* // returns 1.0
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var v = ns.srangeabs.ndarray( x.length, x, 1, 0 );
-	* // returns 1.0
-	*/
-	srangeabs: typeof srangeabs;
 
 	/**
 	* Computes the standard deviation of a single-precision floating-point strided array.
