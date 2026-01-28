@@ -3636,6 +3636,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`3c6ce73`](https://github.com/stdlib-js/stdlib/commit/3c6ce73fcba6d4e4228609ef4dd23297c7dce41d) - **docs:** remove unused include _(by Athan Reines)_
 -   [`27f8d66`](https://github.com/stdlib-js/stdlib/commit/27f8d6680258f746da15c2f5af7a712a57886492) - **chore:** fix missing closing section tag in README [(#9930)](https://github.com/stdlib-js/stdlib/pull/9930) _(by pxxad, Athan Reines)_
 -   [`96537c4`](https://github.com/stdlib-js/stdlib/commit/96537c4a420cfd9517b9033531bde46eeb8c7ea4) - **chore:** clean-up examples _(by Athan Reines)_
 -   [`aa4cdfd`](https://github.com/stdlib-js/stdlib/commit/aa4cdfd5a67ada2e018c7970c4a777187280cce2) - **feat:** update `stats/strided/distances` TypeScript declarations [(#9936)](https://github.com/stdlib-js/stdlib/pull/9936) _(by stdlib-bot)_
