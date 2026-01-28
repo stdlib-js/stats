@@ -3636,6 +3636,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`6926cf8`](https://github.com/stdlib-js/stdlib/commit/6926cf846717f27831738dbc96fa4bd902ef9dc5) - **bench:** refactor to use string interpolation in `stats/base/dists/uniform` [(#9928)](https://github.com/stdlib-js/stdlib/pull/9928) _(by Lokesh Ranjan)_
 -   [`3c6ce73`](https://github.com/stdlib-js/stdlib/commit/3c6ce73fcba6d4e4228609ef4dd23297c7dce41d) - **docs:** remove unused include _(by Athan Reines)_
 -   [`27f8d66`](https://github.com/stdlib-js/stdlib/commit/27f8d6680258f746da15c2f5af7a712a57886492) - **chore:** fix missing closing section tag in README [(#9930)](https://github.com/stdlib-js/stdlib/pull/9930) _(by pxxad, Athan Reines)_
 -   [`96537c4`](https://github.com/stdlib-js/stdlib/commit/96537c4a420cfd9517b9033531bde46eeb8c7ea4) - **chore:** clean-up examples _(by Athan Reines)_
