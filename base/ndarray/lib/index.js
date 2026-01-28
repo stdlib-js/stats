@@ -865,6 +865,15 @@ setReadOnly( ns, 'range', require( './../../../base/ndarray/range' ) );
 setReadOnly( ns, 'rangeBy', require( './../../../base/ndarray/range-by' ) );
 
 /**
+* @name rangeabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/rangeabs}
+*/
+setReadOnly( ns, 'rangeabs', require( './../../../base/ndarray/rangeabs' ) );
+
+/**
 * @name scovarmtk
 * @memberof ns
 * @readonly
