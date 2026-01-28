@@ -3636,6 +3636,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`27f8d66`](https://github.com/stdlib-js/stdlib/commit/27f8d6680258f746da15c2f5af7a712a57886492) - **chore:** fix missing closing section tag in README [(#9930)](https://github.com/stdlib-js/stdlib/pull/9930) _(by pxxad, Athan Reines)_
 -   [`96537c4`](https://github.com/stdlib-js/stdlib/commit/96537c4a420cfd9517b9033531bde46eeb8c7ea4) - **chore:** clean-up examples _(by Athan Reines)_
 -   [`aa4cdfd`](https://github.com/stdlib-js/stdlib/commit/aa4cdfd5a67ada2e018c7970c4a777187280cce2) - **feat:** update `stats/strided/distances` TypeScript declarations [(#9936)](https://github.com/stdlib-js/stdlib/pull/9936) _(by stdlib-bot)_
 -   [`2dc14e3`](https://github.com/stdlib-js/stdlib/commit/2dc14e39bc443c009059c88c1650e4ca227b708a) - **feat:** update `stats/strided` TypeScript declarations [(#9937)](https://github.com/stdlib-js/stdlib/pull/9937) _(by stdlib-bot)_
@@ -6835,7 +6836,7 @@ A total of 566 issues were closed in this release:
 
 ### Contributors
 
-A total of 101 people contributed to this release. Thank you to the following contributors:
+A total of 102 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -6937,6 +6938,7 @@ A total of 101 people contributed to this release. Thank you to the following co
 -   navyansh007
 -   officiallyanee
 -   pranav-1720
+-   pxxad
 -   rahulrangers
 
 </section>

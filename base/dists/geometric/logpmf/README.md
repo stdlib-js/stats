@@ -140,10 +140,6 @@ logEachMap( 'x: %d, p: %0.4f, ln( P( X = x; p ) ): %0.4f', x, p, logpmf );
 
 <!-- /.examples -->
 
-<!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="references">
-
 <!-- C interface documentation. -->
 
 * * *
@@ -232,6 +228,18 @@ int main( void ) {
     }
 }
 ```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
+
+<!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="references">
 
 </section>
 
