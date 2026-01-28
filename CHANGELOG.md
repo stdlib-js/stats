@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-27)
+## Unreleased (2026-01-28)
 
 <section class="features">
 
@@ -3634,6 +3634,8 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`886ac7f`](https://github.com/stdlib-js/stdlib/commit/886ac7f190023a49a18e580f5345e9fdf71155bf) - **chore:** fix copyright year _(by Philipp Burckhardt)_
+-   [`640d00d`](https://github.com/stdlib-js/stdlib/commit/640d00d5567707d2dcef81f1e6fafbdb947b6eab) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`e970275`](https://github.com/stdlib-js/stdlib/commit/e970275b9a144b5c27a875d315b6f6a6ab3ad063) - **docs:** update example _(by Athan Reines)_
 -   [`07e112a`](https://github.com/stdlib-js/stdlib/commit/07e112a03fc1c0308bdc38bcb0425dc2fe6faec5) - **feat:** add C API _(by Athan Reines)_
 -   [`942fa9b`](https://github.com/stdlib-js/stdlib/commit/942fa9ba4e93c3064011ead7bae1d1f8ac0281de) - **feat:** add `distances` to namespace _(by Athan Reines)_
