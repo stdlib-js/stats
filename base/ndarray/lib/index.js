@@ -1261,6 +1261,15 @@ setReadOnly( ns, 'snanrange', require( './../../../base/ndarray/snanrange' ) );
 setReadOnly( ns, 'srange', require( './../../../base/ndarray/srange' ) );
 
 /**
+* @name srangeabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/srangeabs}
+*/
+setReadOnly( ns, 'srangeabs', require( './../../../base/ndarray/srangeabs' ) );
+
+/**
 * @name sstdev
 * @memberof ns
 * @readonly
