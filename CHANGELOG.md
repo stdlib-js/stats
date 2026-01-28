@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`6a6d716`](https://github.com/stdlib-js/stdlib/commit/6a6d7163446fadaa9ffa3ca5ec01a44c77fe3c0c) - add `drangeabs` to namespace
 -   [`88808cc`](https://github.com/stdlib-js/stdlib/commit/88808ccb3992c3565daed22fc1d1cd6321f33802) - add `stats/base/ndarray/drangeabs` [(#9919)](https://github.com/stdlib-js/stdlib/pull/9919)
 -   [`d9d3ea6`](https://github.com/stdlib-js/stdlib/commit/d9d3ea6f22ba8eb35a75bea6c4ed21a72b7f3618) - add `rangeabs` to namespace
 -   [`0b8361f`](https://github.com/stdlib-js/stdlib/commit/0b8361f354a73d91b1ca235e74bf0fab1bd1d7ae) - add `stats/base/ndarray/rangeabs` [(#9918)](https://github.com/stdlib-js/stdlib/pull/9918)
@@ -3641,6 +3642,8 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`64eb01b`](https://github.com/stdlib-js/stdlib/commit/64eb01b2ec3b527e033196d7b9629ea256c9acbd) - **bench:** include native suffix in benchmark [(#9921)](https://github.com/stdlib-js/stdlib/pull/9921) _(by Harsh Yadav)_
+-   [`6a6d716`](https://github.com/stdlib-js/stdlib/commit/6a6d7163446fadaa9ffa3ca5ec01a44c77fe3c0c) - **feat:** add `drangeabs` to namespace _(by Athan Reines)_
 -   [`88808cc`](https://github.com/stdlib-js/stdlib/commit/88808ccb3992c3565daed22fc1d1cd6321f33802) - **feat:** add `stats/base/ndarray/drangeabs` [(#9919)](https://github.com/stdlib-js/stdlib/pull/9919) _(by Sachin Pangal)_
 -   [`d9d3ea6`](https://github.com/stdlib-js/stdlib/commit/d9d3ea6f22ba8eb35a75bea6c4ed21a72b7f3618) - **feat:** add `rangeabs` to namespace _(by Athan Reines)_
 -   [`0b8361f`](https://github.com/stdlib-js/stdlib/commit/0b8361f354a73d91b1ca235e74bf0fab1bd1d7ae) - **feat:** add `stats/base/ndarray/rangeabs` [(#9918)](https://github.com/stdlib-js/stdlib/pull/9918) _(by Sachin Pangal)_
