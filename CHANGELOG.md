@@ -3636,6 +3636,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`5ff8286`](https://github.com/stdlib-js/stdlib/commit/5ff82862ae371a0b87203969dad69861fd5ef180) - **bench:** update random value generation [(#9923)](https://github.com/stdlib-js/stdlib/pull/9923) _(by Harsh Yadav)_
 -   [`12a9091`](https://github.com/stdlib-js/stdlib/commit/12a9091c51692376b7c516aa250906ffcc26d6c4) - **bench:** update random value generation for `stats/base/dists/arcsine` [(#9924)](https://github.com/stdlib-js/stdlib/pull/9924) _(by Lokesh Ranjan, Athan Reines)_
 -   [`6926cf8`](https://github.com/stdlib-js/stdlib/commit/6926cf846717f27831738dbc96fa4bd902ef9dc5) - **bench:** refactor to use string interpolation in `stats/base/dists/uniform` [(#9928)](https://github.com/stdlib-js/stdlib/pull/9928) _(by Lokesh Ranjan)_
 -   [`3c6ce73`](https://github.com/stdlib-js/stdlib/commit/3c6ce73fcba6d4e4228609ef4dd23297c7dce41d) - **docs:** remove unused include _(by Athan Reines)_
