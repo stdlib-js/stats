@@ -1341,6 +1341,7 @@
 
 ### Bug Fixes
 
+-   [`17da583`](https://github.com/stdlib-js/stdlib/commit/17da583dbeb78fa8b171d68af7011cba7b4f6be6) - improve type specificity
 -   [`7df5cea`](https://github.com/stdlib-js/stdlib/commit/7df5cea68c5d3239fa979b7e4d200d19c10bf9f2) - remove unneeded export comments and ensure browser build includes ndarray method
 -   [`ad77b26`](https://github.com/stdlib-js/stdlib/commit/ad77b26a72b25bb371da51c3cb665c2803a8d9b0) - remove unneeded export comments and ensure browser build includes ndarray method
 -   [`924aa84`](https://github.com/stdlib-js/stdlib/commit/924aa84174dd5191cf02f2e6e985ff90f4acceb4) - remove unneeded export comments and ensure browser build includes ndarray method
@@ -3643,6 +3644,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`17da583`](https://github.com/stdlib-js/stdlib/commit/17da583dbeb78fa8b171d68af7011cba7b4f6be6) - **fix:** improve type specificity _(by Athan Reines)_
 -   [`b2ded58`](https://github.com/stdlib-js/stdlib/commit/b2ded58e47be1142dc7a054df093d77feeb49bf1) - **bench:** update random value generation [(#9925)](https://github.com/stdlib-js/stdlib/pull/9925) _(by Harsh Yadav)_
 -   [`111fc36`](https://github.com/stdlib-js/stdlib/commit/111fc36035d3cc5eca9cd60a26c82f030636d583) - **bench:** update random value generation for `stats/base/dists/arcsine` [(#9953)](https://github.com/stdlib-js/stdlib/pull/9953) _(by Lokesh Ranjan)_
 -   [`6860622`](https://github.com/stdlib-js/stdlib/commit/686062223abc7a79a5ae7f7fcc21fa93e943a101) - **bench:** refactor to use string interpolation in `stats/base/dists/erlang` [(#9941)](https://github.com/stdlib-js/stdlib/pull/9941) _(by Bhargav Dabhade)_
