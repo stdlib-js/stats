@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b1c1ac0`](https://github.com/stdlib-js/stdlib/commit/b1c1ac0ca0ae8488c5cec52a8f109d29cddecff6) - add `stats/base/ndarray/smskmaxabs` [(#9961)](https://github.com/stdlib-js/stdlib/pull/9961)
 -   [`a65d18d`](https://github.com/stdlib-js/stdlib/commit/a65d18d175d72246b54daca7ff8b59ccf7956f64) - update `stats/base/ndarray` TypeScript declarations [(#9966)](https://github.com/stdlib-js/stdlib/pull/9966)
 -   [`6a6d716`](https://github.com/stdlib-js/stdlib/commit/6a6d7163446fadaa9ffa3ca5ec01a44c77fe3c0c) - add `drangeabs` to namespace
 -   [`88808cc`](https://github.com/stdlib-js/stdlib/commit/88808ccb3992c3565daed22fc1d1cd6321f33802) - add `stats/base/ndarray/drangeabs` [(#9919)](https://github.com/stdlib-js/stdlib/pull/9919)
@@ -3644,6 +3645,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`b1c1ac0`](https://github.com/stdlib-js/stdlib/commit/b1c1ac0ca0ae8488c5cec52a8f109d29cddecff6) - **feat:** add `stats/base/ndarray/smskmaxabs` [(#9961)](https://github.com/stdlib-js/stdlib/pull/9961) _(by Sachin Pangal, Athan Reines)_
 -   [`7062ec1`](https://github.com/stdlib-js/stdlib/commit/7062ec16b2a4ebb8bc83d2460cd55e8ad09374d3) - **docs:** update copy _(by Athan Reines)_
 -   [`17da583`](https://github.com/stdlib-js/stdlib/commit/17da583dbeb78fa8b171d68af7011cba7b4f6be6) - **fix:** improve type specificity _(by Athan Reines)_
 -   [`b2ded58`](https://github.com/stdlib-js/stdlib/commit/b2ded58e47be1142dc7a054df093d77feeb49bf1) - **bench:** update random value generation [(#9925)](https://github.com/stdlib-js/stdlib/pull/9925) _(by Harsh Yadav)_
