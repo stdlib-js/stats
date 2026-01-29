@@ -316,6 +316,15 @@ setReadOnly( ns, 'dminsorted', require( './../../strided/dminsorted' ) );
 setReadOnly( ns, 'dmskmax', require( './../../strided/dmskmax' ) );
 
 /**
+* @name dmskmaxabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dmskmaxabs}
+*/
+setReadOnly( ns, 'dmskmaxabs', require( './../../strided/dmskmaxabs' ) );
+
+/**
 * @name dmskmidrange
 * @memberof ns
 * @readonly
