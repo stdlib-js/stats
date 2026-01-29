@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ae0d247`](https://github.com/stdlib-js/stdlib/commit/ae0d247cceb75d109353ae90eec5c9489e786408) - add `stats/strided/mskminabs` [(#9722)](https://github.com/stdlib-js/stdlib/pull/9722)
 -   [`6a778f7`](https://github.com/stdlib-js/stdlib/commit/6a778f7dffb0d8225bf2f5f8849b6677aa19434c) - add `smskmaxabs` to namespace
 -   [`00e8094`](https://github.com/stdlib-js/stdlib/commit/00e80949192deafa3d801d12df8933c613fcb52c) - add `mskmaxabs` to namespace
 -   [`991e692`](https://github.com/stdlib-js/stdlib/commit/991e6926616d85d4732140b22a85bb87cdb5720c) - add `dmskmaxabs` to namespace
@@ -3650,6 +3651,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`ae0d247`](https://github.com/stdlib-js/stdlib/commit/ae0d247cceb75d109353ae90eec5c9489e786408) - **feat:** add `stats/strided/mskminabs` [(#9722)](https://github.com/stdlib-js/stdlib/pull/9722) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
 -   [`112d5e4`](https://github.com/stdlib-js/stdlib/commit/112d5e414e8e3b764e435aea7a3d8d41c62dabaf) - **bench:** refactor to use string interpolation _(by Athan Reines)_
 -   [`fb97a2e`](https://github.com/stdlib-js/stdlib/commit/fb97a2e03b8bace788979a6ab9d880669740cf76) - **refactor:** export native add-on if available _(by Athan Reines)_
 -   [`6a778f7`](https://github.com/stdlib-js/stdlib/commit/6a778f7dffb0d8225bf2f5f8849b6677aa19434c) - **feat:** add `smskmaxabs` to namespace _(by Athan Reines)_
