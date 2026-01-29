@@ -676,6 +676,15 @@ setReadOnly( ns, 'minsorted', require( './../../../base/ndarray/minsorted' ) );
 setReadOnly( ns, 'mskmax', require( './../../../base/ndarray/mskmax' ) );
 
 /**
+* @name mskmaxabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/mskmaxabs}
+*/
+setReadOnly( ns, 'mskmaxabs', require( './../../../base/ndarray/mskmaxabs' ) );
+
+/**
 * @name mskmidrange
 * @memberof ns
 * @readonly
@@ -1124,6 +1133,15 @@ setReadOnly( ns, 'sminsorted', require( './../../../base/ndarray/sminsorted' ) )
 * @see {@link module:@stdlib/stats/base/ndarray/smskmax}
 */
 setReadOnly( ns, 'smskmax', require( './../../../base/ndarray/smskmax' ) );
+
+/**
+* @name smskmaxabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/smskmaxabs}
+*/
+setReadOnly( ns, 'smskmaxabs', require( './../../../base/ndarray/smskmaxabs' ) );
 
 /**
 * @name smskmidrange

@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`6a778f7`](https://github.com/stdlib-js/stdlib/commit/6a778f7dffb0d8225bf2f5f8849b6677aa19434c) - add `smskmaxabs` to namespace
+-   [`00e8094`](https://github.com/stdlib-js/stdlib/commit/00e80949192deafa3d801d12df8933c613fcb52c) - add `mskmaxabs` to namespace
 -   [`991e692`](https://github.com/stdlib-js/stdlib/commit/991e6926616d85d4732140b22a85bb87cdb5720c) - add `dmskmaxabs` to namespace
 -   [`ac01c27`](https://github.com/stdlib-js/stdlib/commit/ac01c274acc740fbf7ebad5b404d7ff2449b1b1d) - add `stats/base/ndarray/mskmaxabs` [(#9957)](https://github.com/stdlib-js/stdlib/pull/9957)
 -   [`8ae9939`](https://github.com/stdlib-js/stdlib/commit/8ae993948492720e8b646c99bd17032be9bfea6c) - add `stats/strided/dmskmaxabs` [(#9743)](https://github.com/stdlib-js/stdlib/pull/9743)
@@ -3648,6 +3650,9 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`6a778f7`](https://github.com/stdlib-js/stdlib/commit/6a778f7dffb0d8225bf2f5f8849b6677aa19434c) - **feat:** add `smskmaxabs` to namespace _(by Athan Reines)_
+-   [`00e8094`](https://github.com/stdlib-js/stdlib/commit/00e80949192deafa3d801d12df8933c613fcb52c) - **feat:** add `mskmaxabs` to namespace _(by Athan Reines)_
+-   [`498e8b2`](https://github.com/stdlib-js/stdlib/commit/498e8b2882c1737a5bf5757704a97c0c63d90711) - **docs:** move content to notes _(by Athan Reines)_
 -   [`991e692`](https://github.com/stdlib-js/stdlib/commit/991e6926616d85d4732140b22a85bb87cdb5720c) - **feat:** add `dmskmaxabs` to namespace _(by Athan Reines)_
 -   [`ac01c27`](https://github.com/stdlib-js/stdlib/commit/ac01c274acc740fbf7ebad5b404d7ff2449b1b1d) - **feat:** add `stats/base/ndarray/mskmaxabs` [(#9957)](https://github.com/stdlib-js/stdlib/pull/9957) _(by Sachin Pangal, Athan Reines)_
 -   [`31e075c`](https://github.com/stdlib-js/stdlib/commit/31e075c065f55f86226182872b987f585b489818) - **style:** remove empty line _(by Athan Reines)_
