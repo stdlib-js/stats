@@ -3650,6 +3650,8 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`112d5e4`](https://github.com/stdlib-js/stdlib/commit/112d5e414e8e3b764e435aea7a3d8d41c62dabaf) - **bench:** refactor to use string interpolation _(by Athan Reines)_
+-   [`fb97a2e`](https://github.com/stdlib-js/stdlib/commit/fb97a2e03b8bace788979a6ab9d880669740cf76) - **refactor:** export native add-on if available _(by Athan Reines)_
 -   [`6a778f7`](https://github.com/stdlib-js/stdlib/commit/6a778f7dffb0d8225bf2f5f8849b6677aa19434c) - **feat:** add `smskmaxabs` to namespace _(by Athan Reines)_
 -   [`00e8094`](https://github.com/stdlib-js/stdlib/commit/00e80949192deafa3d801d12df8933c613fcb52c) - **feat:** add `mskmaxabs` to namespace _(by Athan Reines)_
 -   [`498e8b2`](https://github.com/stdlib-js/stdlib/commit/498e8b2882c1737a5bf5757704a97c0c63d90711) - **docs:** move content to notes _(by Athan Reines)_
