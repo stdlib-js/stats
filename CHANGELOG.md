@@ -3644,6 +3644,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`7062ec1`](https://github.com/stdlib-js/stdlib/commit/7062ec16b2a4ebb8bc83d2460cd55e8ad09374d3) - **docs:** update copy _(by Athan Reines)_
 -   [`17da583`](https://github.com/stdlib-js/stdlib/commit/17da583dbeb78fa8b171d68af7011cba7b4f6be6) - **fix:** improve type specificity _(by Athan Reines)_
 -   [`b2ded58`](https://github.com/stdlib-js/stdlib/commit/b2ded58e47be1142dc7a054df093d77feeb49bf1) - **bench:** update random value generation [(#9925)](https://github.com/stdlib-js/stdlib/pull/9925) _(by Harsh Yadav)_
 -   [`111fc36`](https://github.com/stdlib-js/stdlib/commit/111fc36035d3cc5eca9cd60a26c82f030636d583) - **bench:** update random value generation for `stats/base/dists/arcsine` [(#9953)](https://github.com/stdlib-js/stdlib/pull/9953) _(by Lokesh Ranjan)_
