@@ -26,7 +26,6 @@ var uniform = require( '@stdlib/random/base/uniform' );
 var discreteUniform = require( '@stdlib/random/base/discrete-uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var EPS = require( '@stdlib/constants/float64/eps' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var pdf = require( './../lib' );
 
@@ -66,7 +65,7 @@ bench( pkg, function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:factory', pkg ), function benchmark( b ) {
+bench( pkg+':factory', function benchmark( b ) {
 	var lambda;
 	var mypdf;
 	var len;

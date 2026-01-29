@@ -29,7 +29,6 @@ var Int32Array = require( '@stdlib/array/int32' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var tryRequire = require( '@stdlib/utils/try-require' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 
 
@@ -43,7 +42,7 @@ var opts = {
 
 // MAIN //
 
-bench( format( '%s::native', pkg ), opts, function benchmark( b ) {
+bench( pkg+'::native', opts, function benchmark( b ) {
 	var lambda;
 	var len;
 	var k;
