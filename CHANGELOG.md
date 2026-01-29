@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ac01c27`](https://github.com/stdlib-js/stdlib/commit/ac01c274acc740fbf7ebad5b404d7ff2449b1b1d) - add `stats/base/ndarray/mskmaxabs` [(#9957)](https://github.com/stdlib-js/stdlib/pull/9957)
 -   [`8ae9939`](https://github.com/stdlib-js/stdlib/commit/8ae993948492720e8b646c99bd17032be9bfea6c) - add `stats/strided/dmskmaxabs` [(#9743)](https://github.com/stdlib-js/stdlib/pull/9743)
 -   [`b1c1ac0`](https://github.com/stdlib-js/stdlib/commit/b1c1ac0ca0ae8488c5cec52a8f109d29cddecff6) - add `stats/base/ndarray/smskmaxabs` [(#9961)](https://github.com/stdlib-js/stdlib/pull/9961)
 -   [`a65d18d`](https://github.com/stdlib-js/stdlib/commit/a65d18d175d72246b54daca7ff8b59ccf7956f64) - update `stats/base/ndarray` TypeScript declarations [(#9966)](https://github.com/stdlib-js/stdlib/pull/9966)
@@ -3646,6 +3647,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`ac01c27`](https://github.com/stdlib-js/stdlib/commit/ac01c274acc740fbf7ebad5b404d7ff2449b1b1d) - **feat:** add `stats/base/ndarray/mskmaxabs` [(#9957)](https://github.com/stdlib-js/stdlib/pull/9957) _(by Sachin Pangal, Athan Reines)_
 -   [`31e075c`](https://github.com/stdlib-js/stdlib/commit/31e075c065f55f86226182872b987f585b489818) - **style:** remove empty line _(by Athan Reines)_
 -   [`8ae9939`](https://github.com/stdlib-js/stdlib/commit/8ae993948492720e8b646c99bd17032be9bfea6c) - **feat:** add `stats/strided/dmskmaxabs` [(#9743)](https://github.com/stdlib-js/stdlib/pull/9743) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
 -   [`b1c1ac0`](https://github.com/stdlib-js/stdlib/commit/b1c1ac0ca0ae8488c5cec52a8f109d29cddecff6) - **feat:** add `stats/base/ndarray/smskmaxabs` [(#9961)](https://github.com/stdlib-js/stdlib/pull/9961) _(by Sachin Pangal, Athan Reines)_
