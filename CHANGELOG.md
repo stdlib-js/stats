@@ -3643,6 +3643,8 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`111fc36`](https://github.com/stdlib-js/stdlib/commit/111fc36035d3cc5eca9cd60a26c82f030636d583) - **bench:** update random value generation for `stats/base/dists/arcsine` [(#9953)](https://github.com/stdlib-js/stdlib/pull/9953) _(by Lokesh Ranjan)_
+-   [`6860622`](https://github.com/stdlib-js/stdlib/commit/686062223abc7a79a5ae7f7fcc21fa93e943a101) - **bench:** refactor to use string interpolation in `stats/base/dists/erlang` [(#9941)](https://github.com/stdlib-js/stdlib/pull/9941) _(by Bhargav Dabhade)_
 -   [`3c0d17b`](https://github.com/stdlib-js/stdlib/commit/3c0d17b0ea89b722f56db662f6d5496713e16d3f) - **docs:** update namespace table of contents [(#9967)](https://github.com/stdlib-js/stdlib/pull/9967) _(by stdlib-bot)_
 -   [`a65d18d`](https://github.com/stdlib-js/stdlib/commit/a65d18d175d72246b54daca7ff8b59ccf7956f64) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#9966)](https://github.com/stdlib-js/stdlib/pull/9966) _(by stdlib-bot)_
 -   [`64eb01b`](https://github.com/stdlib-js/stdlib/commit/64eb01b2ec3b527e033196d7b9629ea256c9acbd) - **bench:** include native suffix in benchmark [(#9921)](https://github.com/stdlib-js/stdlib/pull/9921) _(by Harsh Yadav)_
