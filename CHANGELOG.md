@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ff26c6d`](https://github.com/stdlib-js/stdlib/commit/ff26c6dd3ee1f76fa6c8deac6f1ae2ee5226baaa) - add `stats/rangeabs` [(#9972)](https://github.com/stdlib-js/stdlib/pull/9972)
 -   [`67315ee`](https://github.com/stdlib-js/stdlib/commit/67315ee65982c6354194c8baa3f22c6709bf25d3) - add `stats/base/ndarray/dstdevyc` [(#9927)](https://github.com/stdlib-js/stdlib/pull/9927)
 -   [`ead840b`](https://github.com/stdlib-js/stdlib/commit/ead840b4a3cbadea51b04eb2614e379b411bd7ca) - add `stats/base/ndarray/sstdevyc` [(#9922)](https://github.com/stdlib-js/stdlib/pull/9922)
 -   [`f4f48b1`](https://github.com/stdlib-js/stdlib/commit/f4f48b130f926c2adff515c2a90ec99cbc308815) - add `stats/base/ndarray/dstdevtk` [(#9926)](https://github.com/stdlib-js/stdlib/pull/9926)
@@ -3656,6 +3657,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`ff26c6d`](https://github.com/stdlib-js/stdlib/commit/ff26c6dd3ee1f76fa6c8deac6f1ae2ee5226baaa) - **feat:** add `stats/rangeabs` [(#9972)](https://github.com/stdlib-js/stdlib/pull/9972) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
 -   [`50af83b`](https://github.com/stdlib-js/stdlib/commit/50af83bcaa184b672be143271ee32f0b9fba06e1) - **docs:** update copy _(by Athan Reines)_
 -   [`67315ee`](https://github.com/stdlib-js/stdlib/commit/67315ee65982c6354194c8baa3f22c6709bf25d3) - **feat:** add `stats/base/ndarray/dstdevyc` [(#9927)](https://github.com/stdlib-js/stdlib/pull/9927) _(by Samarth Kolarkar)_
 -   [`ead840b`](https://github.com/stdlib-js/stdlib/commit/ead840b4a3cbadea51b04eb2614e379b411bd7ca) - **feat:** add `stats/base/ndarray/sstdevyc` [(#9922)](https://github.com/stdlib-js/stdlib/pull/9922) _(by Samarth Kolarkar)_
