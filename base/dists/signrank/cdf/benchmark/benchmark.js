@@ -21,10 +21,9 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var uniform = require( '@stdlib/random/array/uniform' );
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
+var randu = require( '@stdlib/random/base/randu' );
+var ceil = require( '@stdlib/math/base/special/ceil' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var cdf = require( './../lib' );
 
@@ -32,21 +31,16 @@ var cdf = require( './../lib' );
 // MAIN //
 
 bench( pkg, function benchmark( b ) {
-	var opts;
 	var n;
 	var x;
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
-	x = uniform( 100, 0.0, 20.0, opts );
-	n = discreteUniform( 100, 1, 20, opts );
-
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = cdf( x[ i%x.length ], n[ i%n.length ] );
+		x = randu() * 20.0;
+		n = ceil( randu()*20.0 );
+		y = cdf( x, n );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
@@ -59,7 +53,7 @@ bench( pkg, function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s::factory', pkg ), function benchmark( b ) {
+bench( pkg+':factory', function benchmark( b ) {
 	var mycdf;
 	var n;
 	var x;
@@ -69,13 +63,10 @@ bench( format( '%s::factory', pkg ), function benchmark( b ) {
 	n = 20;
 	mycdf = cdf.factory( n );
 
-	x = uniform( 100, 0.0, 20.0, {
-		'dtype': 'float64'
-	});
-
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = mycdf( x[ i%x.length ] );
+		x = randu() * 20.0;
+		y = mycdf( x );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}

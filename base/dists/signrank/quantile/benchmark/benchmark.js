@@ -21,10 +21,9 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var uniform = require( '@stdlib/random/array/uniform' );
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
+var randu = require( '@stdlib/random/base/randu' );
+var randint = require( '@stdlib/random/base/discrete-uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var quantile = require( './../lib' );
 
@@ -32,21 +31,16 @@ var quantile = require( './../lib' );
 // MAIN //
 
 bench( pkg, function benchmark( b ) {
-	var opts;
 	var n;
 	var p;
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
-	p = uniform( 100, 0.0, 1.0, opts );
-	n = discreteUniform( 100, 1, 200, opts );
-
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = quantile( p[ i%p.length ], n[ i%n.length ] );
+		p = randu();
+		n = randint( 1, 200 );
+		y = quantile( p, n );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
@@ -59,7 +53,7 @@ bench( pkg, function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s::factory', pkg ), function benchmark( b ) {
+bench( pkg+':factory', function benchmark( b ) {
 	var myquantile;
 	var n;
 	var p;
@@ -69,13 +63,10 @@ bench( format( '%s::factory', pkg ), function benchmark( b ) {
 	n = 8;
 	myquantile = quantile.factory( n );
 
-	p = uniform( 100, 0.0, 1.0, {
-		'dtype': 'float64'
-	});
-
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = myquantile( p[ i%p.length ] );
+		p = randu();
+		y = myquantile( p );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}

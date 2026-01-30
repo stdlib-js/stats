@@ -24,7 +24,6 @@ var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/array/uniform' );
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var pdf = require( './../lib' );
 
@@ -32,21 +31,19 @@ var pdf = require( './../lib' );
 // MAIN //
 
 bench( pkg, function benchmark( b ) {
-	var opts;
+	var len;
 	var n;
 	var x;
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
-	x = uniform( 100, 0.0, 30.0, opts );
-	n = discreteUniform( 100, 1, 30, opts );
+	len = 100;
+	x = uniform( len, 0.0, 30.0 );
+	n = discreteUniform( len, 1, 30 );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = pdf( x[ i % x.length ], n[ i % n.length ] );
+		y = pdf( x[ i % len ], n[ i % len ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
@@ -59,7 +56,7 @@ bench( pkg, function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s::factory', pkg ), function benchmark( b ) {
+bench( pkg+':factory', function benchmark( b ) {
 	var mypdf;
 	var n;
 	var x;
@@ -68,13 +65,11 @@ bench( format( '%s::factory', pkg ), function benchmark( b ) {
 
 	n = 20;
 	mypdf = pdf.factory( n );
-	x = uniform( 100, -2.0, 2.0, {
-		'dtype': 'float64'
-	});
+	x = uniform( 100, -2.0, 2.0 );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = mypdf( x[ i % x.length ] );
+		y = mypdf( x[ i % x.length] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}

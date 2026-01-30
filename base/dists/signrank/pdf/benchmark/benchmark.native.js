@@ -25,7 +25,6 @@ var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/array/uniform' );
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var format = require( '@stdlib/string/format' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
 
@@ -40,22 +39,20 @@ var opts = {
 
 // MAIN //
 
-bench( format( '%s::native', pkg ), opts, function benchmark( b ) {
-	var opts;
+bench( pkg+'::native', opts, function benchmark( b ) {
+	var len;
 	var n;
 	var x;
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
-	x = uniform( 100, 0.0, 30.0, opts );
-	n = discreteUniform( 100, 1, 30, opts );
+	len = 100;
+	x = uniform( len, 0.0, 30.0 );
+	n = discreteUniform( len, 1, 30 );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = pdf( x[ i % x.length ], n[ i % n.length ] );
+		y = pdf( x[ i % len ], n[ i % len ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
