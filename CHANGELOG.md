@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`bbaef7b`](https://github.com/stdlib-js/stdlib/commit/bbaef7b113570a432bd33e31d03f18f070f3814b) - add C implementation for `stats/base/ndarray/dmin` [(#9939)](https://github.com/stdlib-js/stdlib/pull/9939)
 -   [`fae4985`](https://github.com/stdlib-js/stdlib/commit/fae498583ef5643ae4826247852d855629e93d6a) - add `dstdevtk` and `dstdevyc` to namespace
 -   [`af66e3c`](https://github.com/stdlib-js/stdlib/commit/af66e3c56f7a54ffbd16308bf506657f1f4948d0) - add `sstdevyc` to namespace
 -   [`b1a3172`](https://github.com/stdlib-js/stdlib/commit/b1a31727a8fc6ba8cb2b07891e89c4c267a8242d) - add `sstdevtk` to namespace
@@ -3669,6 +3670,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`bbaef7b`](https://github.com/stdlib-js/stdlib/commit/bbaef7b113570a432bd33e31d03f18f070f3814b) - **feat:** add C implementation for `stats/base/ndarray/dmin` [(#9939)](https://github.com/stdlib-js/stdlib/pull/9939) _(by Kaustubh Patange)_
 -   [`fae4985`](https://github.com/stdlib-js/stdlib/commit/fae498583ef5643ae4826247852d855629e93d6a) - **feat:** add `dstdevtk` and `dstdevyc` to namespace _(by Athan Reines)_
 -   [`af66e3c`](https://github.com/stdlib-js/stdlib/commit/af66e3c56f7a54ffbd16308bf506657f1f4948d0) - **feat:** add `sstdevyc` to namespace _(by Athan Reines)_
 -   [`b1a3172`](https://github.com/stdlib-js/stdlib/commit/b1a31727a8fc6ba8cb2b07891e89c4c267a8242d) - **feat:** add `sstdevtk` to namespace _(by Athan Reines)_
