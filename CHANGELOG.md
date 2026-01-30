@@ -10,6 +10,14 @@
 
 ### Features
 
+-   [`df6733b`](https://github.com/stdlib-js/stdlib/commit/df6733b7cba6fd7122f3bd01811b609b84b97ca8) - add `nanrange`, `nanrangeBy`, `rangeBy` to namespace
+-   [`4b9ded3`](https://github.com/stdlib-js/stdlib/commit/4b9ded3ba52a495d3cb976df6df8969eea3c8fe4) - add `nanmidrangeBy`, `nanminBy`, `nanminabs` to namespace
+-   [`21a310e`](https://github.com/stdlib-js/stdlib/commit/21a310e5967dc01d80ac4505efbf66bc896f01dd) - add `nanmeanors`, `nanmeanpn`, `nanmeanwd` to namespace
+-   [`18e825e`](https://github.com/stdlib-js/stdlib/commit/18e825eb623226175d0eca6141c98a37dd3dc3ea) - add `minsorted`, `nanmaxBy`, `nanmaxabs` to namespace
+-   [`01f982c`](https://github.com/stdlib-js/stdlib/commit/01f982c89b9078a67483965e574f26edeeb25c73) - add `mediansorted`, `midrange`, `midrangeBy` to namespace
+-   [`1ae0613`](https://github.com/stdlib-js/stdlib/commit/1ae0613632ccd365a9888087978398fe3af8faea) - add `meankbn2`, `meanors`, `meanpn`, `meanpw`, `meanwd` to namespace
+-   [`c649696`](https://github.com/stdlib-js/stdlib/commit/c6496960fbe675dfb2d90e57312407bc1d14cd64) - add `maxsorted` and `meankbn` to namespace
+-   [`6e7b3a8`](https://github.com/stdlib-js/stdlib/commit/6e7b3a875e396ef3d5f00953a7b241f34286b4a1) - add `rangeabs` to namespace
 -   [`ff26c6d`](https://github.com/stdlib-js/stdlib/commit/ff26c6dd3ee1f76fa6c8deac6f1ae2ee5226baaa) - add `stats/rangeabs` [(#9972)](https://github.com/stdlib-js/stdlib/pull/9972)
 -   [`67315ee`](https://github.com/stdlib-js/stdlib/commit/67315ee65982c6354194c8baa3f22c6709bf25d3) - add `stats/base/ndarray/dstdevyc` [(#9927)](https://github.com/stdlib-js/stdlib/pull/9927)
 -   [`ead840b`](https://github.com/stdlib-js/stdlib/commit/ead840b4a3cbadea51b04eb2614e379b411bd7ca) - add `stats/base/ndarray/sstdevyc` [(#9922)](https://github.com/stdlib-js/stdlib/pull/9922)
@@ -3657,6 +3665,14 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`df6733b`](https://github.com/stdlib-js/stdlib/commit/df6733b7cba6fd7122f3bd01811b609b84b97ca8) - **feat:** add `nanrange`, `nanrangeBy`, `rangeBy` to namespace _(by Athan Reines)_
+-   [`4b9ded3`](https://github.com/stdlib-js/stdlib/commit/4b9ded3ba52a495d3cb976df6df8969eea3c8fe4) - **feat:** add `nanmidrangeBy`, `nanminBy`, `nanminabs` to namespace _(by Athan Reines)_
+-   [`21a310e`](https://github.com/stdlib-js/stdlib/commit/21a310e5967dc01d80ac4505efbf66bc896f01dd) - **feat:** add `nanmeanors`, `nanmeanpn`, `nanmeanwd` to namespace _(by Athan Reines)_
+-   [`18e825e`](https://github.com/stdlib-js/stdlib/commit/18e825eb623226175d0eca6141c98a37dd3dc3ea) - **feat:** add `minsorted`, `nanmaxBy`, `nanmaxabs` to namespace _(by Athan Reines)_
+-   [`01f982c`](https://github.com/stdlib-js/stdlib/commit/01f982c89b9078a67483965e574f26edeeb25c73) - **feat:** add `mediansorted`, `midrange`, `midrangeBy` to namespace _(by Athan Reines)_
+-   [`1ae0613`](https://github.com/stdlib-js/stdlib/commit/1ae0613632ccd365a9888087978398fe3af8faea) - **feat:** add `meankbn2`, `meanors`, `meanpn`, `meanpw`, `meanwd` to namespace _(by Athan Reines)_
+-   [`c649696`](https://github.com/stdlib-js/stdlib/commit/c6496960fbe675dfb2d90e57312407bc1d14cd64) - **feat:** add `maxsorted` and `meankbn` to namespace _(by Athan Reines)_
+-   [`6e7b3a8`](https://github.com/stdlib-js/stdlib/commit/6e7b3a875e396ef3d5f00953a7b241f34286b4a1) - **feat:** add `rangeabs` to namespace _(by Athan Reines)_
 -   [`ff26c6d`](https://github.com/stdlib-js/stdlib/commit/ff26c6dd3ee1f76fa6c8deac6f1ae2ee5226baaa) - **feat:** add `stats/rangeabs` [(#9972)](https://github.com/stdlib-js/stdlib/pull/9972) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
 -   [`50af83b`](https://github.com/stdlib-js/stdlib/commit/50af83bcaa184b672be143271ee32f0b9fba06e1) - **docs:** update copy _(by Athan Reines)_
 -   [`67315ee`](https://github.com/stdlib-js/stdlib/commit/67315ee65982c6354194c8baa3f22c6709bf25d3) - **feat:** add `stats/base/ndarray/dstdevyc` [(#9927)](https://github.com/stdlib-js/stdlib/pull/9927) _(by Samarth Kolarkar)_
