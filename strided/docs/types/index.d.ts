@@ -51,6 +51,7 @@ import dmin = require( './../../../strided/dmin' );
 import dminabs = require( './../../../strided/dminabs' );
 import dminsorted = require( './../../../strided/dminsorted' );
 import dmskmax = require( './../../../strided/dmskmax' );
+import dmskmaxabs = require( './../../../strided/dmskmaxabs' );
 import dmskmidrange = require( './../../../strided/dmskmidrange' );
 import dmskmin = require( './../../../strided/dmskmin' );
 import dmskrange = require( './../../../strided/dmskrange' );
@@ -1140,6 +1141,38 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	dmskmax: typeof dmskmax;
+
+	/**
+	* Computes the maximum absolute value of a double-precision floating-point strided array according to a mask.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param mask - mask array
+	* @param strideMask - `mask` stride length
+	* @returns maximum absolute value
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 4.0, 2.0 ] );
+	* var mask = new Uint8Array( [ 0, 0, 1, 0 ] );
+	*
+	* var v = ns.dmskmaxabs( x.length, x, 1, mask, 1 );
+	* // returns 2.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 4.0, 2.0 ] );
+	* var mask = new Uint8Array( [ 0, 0, 1, 0 ] );
+	*
+	* var v = ns.dmskmaxabs.ndarray( x.length, x, 1, 0, mask, 1, 0 );
+	* // returns 2.0
+	*/
+	dmskmaxabs: typeof dmskmaxabs;
 
 	/**
 	* Computes the mid-range of a double-precision floating-point strided array according to a mask.

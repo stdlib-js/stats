@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`71f4422`](https://github.com/stdlib-js/stdlib/commit/71f442266b75b400c0087df6820a5f5ac8ba1a1f) - update `stats/strided` TypeScript declarations [(#9985)](https://github.com/stdlib-js/stdlib/pull/9985)
 -   [`18a1271`](https://github.com/stdlib-js/stdlib/commit/18a1271042bb0163ba7f0b6a74433852a8eb882a) - update `stats/base/ndarray` TypeScript declarations [(#9984)](https://github.com/stdlib-js/stdlib/pull/9984)
 -   [`ae0d247`](https://github.com/stdlib-js/stdlib/commit/ae0d247cceb75d109353ae90eec5c9489e786408) - add `stats/strided/mskminabs` [(#9722)](https://github.com/stdlib-js/stdlib/pull/9722)
 -   [`6a778f7`](https://github.com/stdlib-js/stdlib/commit/6a778f7dffb0d8225bf2f5f8849b6677aa19434c) - add `smskmaxabs` to namespace
@@ -3652,6 +3653,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`71f4422`](https://github.com/stdlib-js/stdlib/commit/71f442266b75b400c0087df6820a5f5ac8ba1a1f) - **feat:** update `stats/strided` TypeScript declarations [(#9985)](https://github.com/stdlib-js/stdlib/pull/9985) _(by stdlib-bot)_
 -   [`18a1271`](https://github.com/stdlib-js/stdlib/commit/18a1271042bb0163ba7f0b6a74433852a8eb882a) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#9984)](https://github.com/stdlib-js/stdlib/pull/9984) _(by stdlib-bot)_
 -   [`221e7ef`](https://github.com/stdlib-js/stdlib/commit/221e7efeec2d6c2e74c977b3e3f2f2fadb63860a) - **bench:** update random value generation [(#9976)](https://github.com/stdlib-js/stdlib/pull/9976) _(by Harsh Yadav)_
 -   [`9159299`](https://github.com/stdlib-js/stdlib/commit/915929996cd4681abd544eebe75198b9eda29fa3) - **docs:** update namespace table of contents [(#9986)](https://github.com/stdlib-js/stdlib/pull/9986) _(by stdlib-bot)_
