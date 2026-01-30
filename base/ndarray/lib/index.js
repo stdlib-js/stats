@@ -478,6 +478,15 @@ setReadOnly( ns, 'dstdevch', require( './../../../base/ndarray/dstdevch' ) );
 setReadOnly( ns, 'dstdevpn', require( './../../../base/ndarray/dstdevpn' ) );
 
 /**
+* @name dstdevtk
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/dstdevtk}
+*/
+setReadOnly( ns, 'dstdevtk', require( './../../../base/ndarray/dstdevtk' ) );
+
+/**
 * @name dstdevwd
 * @memberof ns
 * @readonly
@@ -485,6 +494,15 @@ setReadOnly( ns, 'dstdevpn', require( './../../../base/ndarray/dstdevpn' ) );
 * @see {@link module:@stdlib/stats/base/ndarray/dstdevwd}
 */
 setReadOnly( ns, 'dstdevwd', require( './../../../base/ndarray/dstdevwd' ) );
+
+/**
+* @name dstdevyc
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/dstdevyc}
+*/
+setReadOnly( ns, 'dstdevyc', require( './../../../base/ndarray/dstdevyc' ) );
 
 /**
 * @name dztest
@@ -1333,6 +1351,15 @@ setReadOnly( ns, 'sstdevch', require( './../../../base/ndarray/sstdevch' ) );
 setReadOnly( ns, 'sstdevpn', require( './../../../base/ndarray/sstdevpn' ) );
 
 /**
+* @name sstdevtk
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/sstdevtk}
+*/
+setReadOnly( ns, 'sstdevtk', require( './../../../base/ndarray/sstdevtk' ) );
+
+/**
 * @name sstdevwd
 * @memberof ns
 * @readonly
@@ -1340,6 +1367,15 @@ setReadOnly( ns, 'sstdevpn', require( './../../../base/ndarray/sstdevpn' ) );
 * @see {@link module:@stdlib/stats/base/ndarray/sstdevwd}
 */
 setReadOnly( ns, 'sstdevwd', require( './../../../base/ndarray/sstdevwd' ) );
+
+/**
+* @name sstdevyc
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/sstdevyc}
+*/
+setReadOnly( ns, 'sstdevyc', require( './../../../base/ndarray/sstdevyc' ) );
 
 /**
 * @name stdev
