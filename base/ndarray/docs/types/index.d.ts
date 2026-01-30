@@ -91,6 +91,7 @@ import minBy = require( './../../../../base/ndarray/min-by' );
 import minabs = require( './../../../../base/ndarray/minabs' );
 import minsorted = require( './../../../../base/ndarray/minsorted' );
 import mskmax = require( './../../../../base/ndarray/mskmax' );
+import mskmaxabs = require( './../../../../base/ndarray/mskmaxabs' );
 import mskmidrange = require( './../../../../base/ndarray/mskmidrange' );
 import mskmin = require( './../../../../base/ndarray/mskmin' );
 import mskrange = require( './../../../../base/ndarray/mskrange' );
@@ -141,6 +142,7 @@ import smin = require( './../../../../base/ndarray/smin' );
 import sminabs = require( './../../../../base/ndarray/sminabs' );
 import sminsorted = require( './../../../../base/ndarray/sminsorted' );
 import smskmax = require( './../../../../base/ndarray/smskmax' );
+import smskmaxabs = require( './../../../../base/ndarray/smskmaxabs' );
 import smskmidrange = require( './../../../../base/ndarray/smskmidrange' );
 import smskmin = require( './../../../../base/ndarray/smskmin' );
 import smskrange = require( './../../../../base/ndarray/smskrange' );
@@ -1708,6 +1710,26 @@ interface Namespace {
 	mskmax: typeof mskmax;
 
 	/**
+	* Calculates the maximum absolute value of a one-dimensional ndarray according to a mask.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns maximum absolute value
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = [ 1.0, -5.0, 4.0, 2.0 ];
+	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var mbuf = [ 0, 0, 1, 0 ];
+	* var mask = new ndarray( 'generic', mbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.mskmaxabs( [ x, mask ] );
+	* // returns 5.0
+	*/
+	mskmaxabs: typeof mskmaxabs;
+
+	/**
 	* Calculates the mid-range of a one-dimensional ndarray according to a mask.
 	*
 	* @param arrays - array-like object containing an input ndarray and a mask ndarray
@@ -2697,6 +2719,28 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	smskmax: typeof smskmax;
+
+	/**
+	* Computes the maximum absolute value of a one-dimensional single-precision floating-point ndarray according to a mask.
+	*
+	* @param arrays - array-like object containing an input ndarray and a mask ndarray
+	* @returns maximum absolute value
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -5.0, 4.0, 2.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var mbuf = new Uint8Array( [ 0, 0, 1, 0 ] );
+	* var mask = new ndarray( 'uint8', mbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var v = ns.smskmaxabs( [ x, mask ] );
+	* // returns 5.0
+	*/
+	smskmaxabs: typeof smskmaxabs;
 
 	/**
 	* Calculates the mid-range of a one-dimensional single-precision floating-point ndarray according to a mask.
