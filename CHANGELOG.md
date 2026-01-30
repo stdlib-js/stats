@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`58c2966`](https://github.com/stdlib-js/stdlib/commit/58c296693a0d4b9674368b5bbf71fb0dc4389007) - add `stats/base/ndarray/sstdevtk` [(#9917)](https://github.com/stdlib-js/stdlib/pull/9917)
 -   [`df6733b`](https://github.com/stdlib-js/stdlib/commit/df6733b7cba6fd7122f3bd01811b609b84b97ca8) - add `nanrange`, `nanrangeBy`, `rangeBy` to namespace
 -   [`4b9ded3`](https://github.com/stdlib-js/stdlib/commit/4b9ded3ba52a495d3cb976df6df8969eea3c8fe4) - add `nanmidrangeBy`, `nanminBy`, `nanminabs` to namespace
 -   [`21a310e`](https://github.com/stdlib-js/stdlib/commit/21a310e5967dc01d80ac4505efbf66bc896f01dd) - add `nanmeanors`, `nanmeanpn`, `nanmeanwd` to namespace
@@ -3665,6 +3666,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`58c2966`](https://github.com/stdlib-js/stdlib/commit/58c296693a0d4b9674368b5bbf71fb0dc4389007) - **feat:** add `stats/base/ndarray/sstdevtk` [(#9917)](https://github.com/stdlib-js/stdlib/pull/9917) _(by Samarth Kolarkar)_
 -   [`df6733b`](https://github.com/stdlib-js/stdlib/commit/df6733b7cba6fd7122f3bd01811b609b84b97ca8) - **feat:** add `nanrange`, `nanrangeBy`, `rangeBy` to namespace _(by Athan Reines)_
 -   [`4b9ded3`](https://github.com/stdlib-js/stdlib/commit/4b9ded3ba52a495d3cb976df6df8969eea3c8fe4) - **feat:** add `nanmidrangeBy`, `nanminBy`, `nanminabs` to namespace _(by Athan Reines)_
 -   [`21a310e`](https://github.com/stdlib-js/stdlib/commit/21a310e5967dc01d80ac4505efbf66bc896f01dd) - **feat:** add `nanmeanors`, `nanmeanpn`, `nanmeanwd` to namespace _(by Athan Reines)_
