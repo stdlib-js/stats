@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2025 The Stdlib Authors.
+* Copyright (c) 2026 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,42 +18,38 @@
 
 'use strict';
 
-/**
-* Compute the maximum value of a one-dimensional single-precision floating-point ndarray.
-*
-* @module @stdlib/stats/base/ndarray/smax
-*
-* @example
-* var Float32Array = require( '@stdlib/array/float32' );
-* var ndarray = require( '@stdlib/ndarray/base/ctor' );
-* var smax = require( '@stdlib/stats/base/ndarray/smax' );
-*
-* var xbuf = new Float32Array( [ 1.0, 3.0, 4.0, 2.0 ] );
-* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
-*
-* var v = smax( [ x ] );
-* // returns 4.0
-*/
-
 // MODULES //
 
-var join = require( 'path' ).join;
-var tryRequire = require( '@stdlib/utils/try-require' );
-var isError = require( '@stdlib/assert/is-error' );
-var main = require( './main.js' );
+var serialize = require( '@stdlib/ndarray/base/serialize-meta-data' );
+var getData = require( '@stdlib/ndarray/base/data-buffer' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
 
-var smax;
-var tmp = tryRequire( join( __dirname, './native.js' ) );
-if ( isError( tmp ) ) {
-	smax = main;
-} else {
-	smax = tmp;
+/**
+* Computes the minimum value of a one-dimensional single-precision floating-point ndarray.
+*
+* @private
+* @param {ArrayLikeObject<Object>} arrays - array-like object containing an input ndarray
+* @returns {number} minimum value
+*
+* @example
+* var Float32Array = require( '@stdlib/array/float32' );
+* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+*
+* var xbuf = new Float32Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+*
+* var v = smin( [ x ] );
+* // returns 1.0
+*/
+function smin( arrays ) {
+	var x = arrays[ 0 ];
+	return addon( getData( x ), serialize( x ) );
 }
 
 
 // EXPORTS //
 
-module.exports = smax;
+module.exports = smin;

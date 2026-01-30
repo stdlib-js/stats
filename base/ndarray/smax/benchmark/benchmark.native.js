@@ -20,18 +20,23 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/array/uniform' );
 var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
 var format = require( '@stdlib/string/format' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
-var smin = require( './../lib/main.js' );
 
 
 // VARIABLES //
 
+var smax = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( smax instanceof Error )
+};
 var options = {
 	'dtype': 'float32'
 };
@@ -67,7 +72,7 @@ function createBenchmark( len ) {
 
 		b.tic();
 		for ( i = 0; i < b.iterations; i++ ) {
-			v = smin( [ x ] );
+			v = smax( [ x ] );
 			if ( isnanf( v ) ) {
 				b.fail( 'should not return NaN' );
 			}
@@ -102,7 +107,7 @@ function main() {
 	for ( i = min; i <= max; i++ ) {
 		len = pow( 10, i );
 		f = createBenchmark( len );
-		bench( format( '%s:len=%d', pkg, len ), f );
+		bench( format( '%s::native:len=%d', pkg, len ), opts, f );
 	}
 }
 
