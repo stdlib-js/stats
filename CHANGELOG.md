@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`67315ee`](https://github.com/stdlib-js/stdlib/commit/67315ee65982c6354194c8baa3f22c6709bf25d3) - add `stats/base/ndarray/dstdevyc` [(#9927)](https://github.com/stdlib-js/stdlib/pull/9927)
 -   [`ead840b`](https://github.com/stdlib-js/stdlib/commit/ead840b4a3cbadea51b04eb2614e379b411bd7ca) - add `stats/base/ndarray/sstdevyc` [(#9922)](https://github.com/stdlib-js/stdlib/pull/9922)
 -   [`f4f48b1`](https://github.com/stdlib-js/stdlib/commit/f4f48b130f926c2adff515c2a90ec99cbc308815) - add `stats/base/ndarray/dstdevtk` [(#9926)](https://github.com/stdlib-js/stdlib/pull/9926)
 -   [`71f4422`](https://github.com/stdlib-js/stdlib/commit/71f442266b75b400c0087df6820a5f5ac8ba1a1f) - update `stats/strided` TypeScript declarations [(#9985)](https://github.com/stdlib-js/stdlib/pull/9985)
@@ -3655,6 +3656,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`67315ee`](https://github.com/stdlib-js/stdlib/commit/67315ee65982c6354194c8baa3f22c6709bf25d3) - **feat:** add `stats/base/ndarray/dstdevyc` [(#9927)](https://github.com/stdlib-js/stdlib/pull/9927) _(by Samarth Kolarkar)_
 -   [`ead840b`](https://github.com/stdlib-js/stdlib/commit/ead840b4a3cbadea51b04eb2614e379b411bd7ca) - **feat:** add `stats/base/ndarray/sstdevyc` [(#9922)](https://github.com/stdlib-js/stdlib/pull/9922) _(by Samarth Kolarkar)_
 -   [`8aaad97`](https://github.com/stdlib-js/stdlib/commit/8aaad97b1c15eb494a1607a00492cfdeee2acb98) - **bench:** update random value generation for `stats/base/dists/arcsine` [(#9973)](https://github.com/stdlib-js/stdlib/pull/9973) _(by Lokesh Ranjan)_
 -   [`f4f48b1`](https://github.com/stdlib-js/stdlib/commit/f4f48b130f926c2adff515c2a90ec99cbc308815) - **feat:** add `stats/base/ndarray/dstdevtk` [(#9926)](https://github.com/stdlib-js/stdlib/pull/9926) _(by Samarth Kolarkar)_
