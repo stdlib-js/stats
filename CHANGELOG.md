@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-29)
+## Unreleased (2026-01-30)
 
 <section class="features">
 
@@ -3651,6 +3651,8 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`221e7ef`](https://github.com/stdlib-js/stdlib/commit/221e7efeec2d6c2e74c977b3e3f2f2fadb63860a) - **bench:** update random value generation [(#9976)](https://github.com/stdlib-js/stdlib/pull/9976) _(by Harsh Yadav)_
+-   [`9159299`](https://github.com/stdlib-js/stdlib/commit/915929996cd4681abd544eebe75198b9eda29fa3) - **docs:** update namespace table of contents [(#9986)](https://github.com/stdlib-js/stdlib/pull/9986) _(by stdlib-bot)_
 -   [`ae0d247`](https://github.com/stdlib-js/stdlib/commit/ae0d247cceb75d109353ae90eec5c9489e786408) - **feat:** add `stats/strided/mskminabs` [(#9722)](https://github.com/stdlib-js/stdlib/pull/9722) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
 -   [`112d5e4`](https://github.com/stdlib-js/stdlib/commit/112d5e414e8e3b764e435aea7a3d8d41c62dabaf) - **bench:** refactor to use string interpolation _(by Athan Reines)_
 -   [`fb97a2e`](https://github.com/stdlib-js/stdlib/commit/fb97a2e03b8bace788979a6ab9d880669740cf76) - **refactor:** export native add-on if available _(by Athan Reines)_
