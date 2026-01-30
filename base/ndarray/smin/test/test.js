@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2026 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,16 +21,28 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var proxyquire = require( 'proxyquire' );
-var IS_BROWSER = require( '@stdlib/assert/is-browser' );
+var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
+var isNegativeZerof = require( '@stdlib/math/base/assert/is-negative-zerof' );
+var Float32Array = require( '@stdlib/array/float32' );
+var ndarray = require( '@stdlib/ndarray/base/ctor' );
 var smin = require( './../lib' );
 
 
-// VARIABLES //
+// FUNCTIONS //
 
-var opts = {
-	'skip': IS_BROWSER
-};
+/**
+* Returns a one-dimensional ndarray.
+*
+* @private
+* @param {Float32Array} buffer - underlying data buffer
+* @param {NonNegativeInteger} length - number of indexed elements
+* @param {integer} stride - stride length
+* @param {NonNegativeInteger} offset - index offset
+* @returns {ndarray} one-dimensional ndarray
+*/
+function vector( buffer, length, stride, offset ) {
+	return new ndarray( 'float32', buffer, [ length ], [ stride ], offset, 'row-major' );
+}
 
 
 // TESTS //
@@ -41,37 +53,121 @@ tape( 'main export is a function', function test( t ) {
 	t.end();
 });
 
-tape( 'if a native implementation is available, the main export is the native implementation', opts, function test( t ) {
-	var smin = proxyquire( './../lib', {
-		'@stdlib/utils/try-require': tryRequire
-	});
-
-	t.strictEqual( smin, mock, 'returns expected value' );
+tape( 'the function has an arity of 1', function test( t ) {
+	t.strictEqual( smin.length, 1, 'has expected arity' );
 	t.end();
-
-	function tryRequire() {
-		return mock;
-	}
-
-	function mock() {
-		// Mock...
-	}
 });
 
-tape( 'if a native implementation is not available, the main export is a JavaScript implementation', opts, function test( t ) {
-	var smin;
-	var main;
+tape( 'the function calculates the minimum value of a one-dimensional ndarray', function test( t ) {
+	var x;
+	var v;
 
-	main = require( './../lib/main.js' );
+	x = new Float32Array( [ 1.0, -2.0, -4.0, 5.0, 0.0, 3.0 ] );
+	v = smin( [ vector( x, 6, 1, 0 ) ] );
+	t.strictEqual( v, -4.0, 'returns expected value' );
 
-	smin = proxyquire( './../lib', {
-		'@stdlib/utils/try-require': tryRequire
-	});
+	x = new Float32Array( [ -4.0, -5.0 ] );
+	v = smin( [ vector( x, 2, 1, 0 ) ] );
+	t.strictEqual( v, -5.0, 'returns expected value' );
 
-	t.strictEqual( smin, main, 'returns expected value' );
+	x = new Float32Array( [ -0.0, 0.0, -0.0 ] );
+	v = smin( [ vector( x, 3, 1, 0 ) ] );
+	t.strictEqual( isNegativeZerof( v ), true, 'returns expected value' );
+
+	x = new Float32Array( [ NaN ] );
+	v = smin( [ vector( x, 1, 1, 0 ) ] );
+	t.strictEqual( isnanf( v ), true, 'returns expected value' );
+
+	x = new Float32Array( [ NaN, NaN ] );
+	v = smin( [ vector( x, 2, 1, 0 ) ] );
+	t.strictEqual( isnanf( v ), true, 'returns expected value' );
+
 	t.end();
+});
 
-	function tryRequire() {
-		return new Error( 'Cannot find module' );
-	}
+tape( 'if provided an empty ndarray, the function returns `NaN`', function test( t ) {
+	var x;
+	var v;
+
+	x = new Float32Array( [] );
+
+	v = smin( [ vector( x, 0, 1, 0 ) ] );
+	t.strictEqual( isnanf( v ), true, 'returns expected value' );
+
+	t.end();
+});
+
+tape( 'if provided an ndarray containing a single element, the function returns that element', function test( t ) {
+	var x;
+	var v;
+
+	x = new Float32Array( [ 1.0 ] );
+
+	v = smin( [ vector( x, 1, 1, 0 ) ] );
+	t.strictEqual( v, 1.0, 'returns expected value' );
+
+	t.end();
+});
+
+tape( 'the function supports one-dimensional ndarrays having non-unit strides', function test( t ) {
+	var x;
+	var v;
+
+	x = new Float32Array([
+		1.0,  // 0
+		2.0,
+		2.0,  // 1
+		-7.0,
+		-2.0, // 2
+		3.0,
+		4.0,  // 3
+		2.0
+	]);
+
+	v = smin( [ vector( x, 4, 2, 0 ) ] );
+
+	t.strictEqual( v, -2.0, 'returns expected value' );
+	t.end();
+});
+
+tape( 'the function supports one-dimensional ndarrays having negative strides', function test( t ) {
+	var x;
+	var v;
+
+	x = new Float32Array([
+		1.0,  // 3
+		2.0,
+		2.0,  // 2
+		-7.0,
+		-2.0, // 1
+		3.0,
+		4.0,  // 0
+		2.0
+	]);
+
+	v = smin( [ vector( x, 4, -2, 6 ) ] );
+
+	t.strictEqual( v, -2.0, 'returns expected value' );
+	t.end();
+});
+
+tape( 'the function supports one-dimensional ndarrays having non-zero offsets', function test( t ) {
+	var x;
+	var v;
+
+	x = new Float32Array([
+		2.0,
+		1.0,  // 0
+		2.0,
+		-2.0, // 1
+		-2.0,
+		2.0,  // 2
+		3.0,
+		4.0   // 3
+	]);
+
+	v = smin( [ vector( x, 4, 2, 1 ) ] );
+	t.strictEqual( v, -2.0, 'returns expected value' );
+
+	t.end();
 });
