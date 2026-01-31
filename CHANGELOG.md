@@ -3674,6 +3674,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`7b6aa5d`](https://github.com/stdlib-js/stdlib/commit/7b6aa5da510d61fdc069869e35128fe60e06b6f0) - **bench:** refactor to use string interpolation in `stats/base/dists/bernoulli` [(#9992)](https://github.com/stdlib-js/stdlib/pull/9992) _(by Lokesh Ranjan)_
 -   [`f5f5199`](https://github.com/stdlib-js/stdlib/commit/f5f5199a93a6a91e708a30552586919367ba2289) - **bench:** update random value generation [(#9989)](https://github.com/stdlib-js/stdlib/pull/9989) _(by Harsh Yadav)_
 -   [`ec0d83c`](https://github.com/stdlib-js/stdlib/commit/ec0d83c87503b82fc4a192b6886ea3feab4b3448) - **docs:** update namespace table of contents [(#10003)](https://github.com/stdlib-js/stdlib/pull/10003) _(by stdlib-bot)_
 -   [`75a4928`](https://github.com/stdlib-js/stdlib/commit/75a4928752ee93a88cbdf3114c12cd4ba2979c07) - **feat:** update `stats` TypeScript declarations [(#10002)](https://github.com/stdlib-js/stdlib/pull/10002) _(by stdlib-bot)_
