@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`75a4928`](https://github.com/stdlib-js/stdlib/commit/75a4928752ee93a88cbdf3114c12cd4ba2979c07) - update `stats` TypeScript declarations [(#10002)](https://github.com/stdlib-js/stdlib/pull/10002)
 -   [`cef8ee6`](https://github.com/stdlib-js/stdlib/commit/cef8ee6f3805b44b0784449befe4399584dd3b47) - update `stats/base/ndarray` TypeScript declarations [(#10001)](https://github.com/stdlib-js/stdlib/pull/10001)
 -   [`d660cab`](https://github.com/stdlib-js/stdlib/commit/d660cabc2799c7f43cda85b7a4ff65e0995a9a1e) - add C implementation for `stats/base/ndarray/smin` [(#9981)](https://github.com/stdlib-js/stdlib/pull/9981)
 -   [`041e713`](https://github.com/stdlib-js/stdlib/commit/041e7138e20a8149b85835d9067c4065ce856893) - add C implementation for `stats/base/ndarray/smax` [(#9956)](https://github.com/stdlib-js/stdlib/pull/9956)
@@ -3673,6 +3674,9 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`f5f5199`](https://github.com/stdlib-js/stdlib/commit/f5f5199a93a6a91e708a30552586919367ba2289) - **bench:** update random value generation [(#9989)](https://github.com/stdlib-js/stdlib/pull/9989) _(by Harsh Yadav)_
+-   [`ec0d83c`](https://github.com/stdlib-js/stdlib/commit/ec0d83c87503b82fc4a192b6886ea3feab4b3448) - **docs:** update namespace table of contents [(#10003)](https://github.com/stdlib-js/stdlib/pull/10003) _(by stdlib-bot)_
+-   [`75a4928`](https://github.com/stdlib-js/stdlib/commit/75a4928752ee93a88cbdf3114c12cd4ba2979c07) - **feat:** update `stats` TypeScript declarations [(#10002)](https://github.com/stdlib-js/stdlib/pull/10002) _(by stdlib-bot)_
 -   [`cef8ee6`](https://github.com/stdlib-js/stdlib/commit/cef8ee6f3805b44b0784449befe4399584dd3b47) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#10001)](https://github.com/stdlib-js/stdlib/pull/10001) _(by stdlib-bot)_
 -   [`d660cab`](https://github.com/stdlib-js/stdlib/commit/d660cabc2799c7f43cda85b7a4ff65e0995a9a1e) - **feat:** add C implementation for `stats/base/ndarray/smin` [(#9981)](https://github.com/stdlib-js/stdlib/pull/9981) _(by Kaustubh Patange, Athan Reines)_
 -   [`041e713`](https://github.com/stdlib-js/stdlib/commit/041e7138e20a8149b85835d9067c4065ce856893) - **feat:** add C implementation for `stats/base/ndarray/smax` [(#9956)](https://github.com/stdlib-js/stdlib/pull/9956) _(by Kaustubh Patange, Athan Reines)_
