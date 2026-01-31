@@ -35,38 +35,32 @@ limitations under the License.
 
 > Statistical functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-statistics = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var statistics = require( 'path/to/vendor/umd/stats/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.statistics;
-})();
-</script>
+var statistics = require( '@stdlib/stats' );
 ```
 
 #### statistics
@@ -156,15 +150,38 @@ Other statistical functions included are:
 -   <span class="signature">[`maxBy( x[, options], clbk[, thisArg] )`][@stdlib/stats/max-by]</span><span class="delimiter">: </span><span class="description">compute the maximum value along one or more ndarray dimensions according to a callback function.</span>
 -   <span class="signature">[`max( x[, options] )`][@stdlib/stats/max]</span><span class="delimiter">: </span><span class="description">compute the maximum value along one or more ndarray dimensions.</span>
 -   <span class="signature">[`maxabs( x[, options] )`][@stdlib/stats/maxabs]</span><span class="delimiter">: </span><span class="description">compute the maximum absolute value along one or more ndarray dimensions.</span>
+-   <span class="signature">[`maxsorted( x[, options] )`][@stdlib/stats/maxsorted]</span><span class="delimiter">: </span><span class="description">compute the maximum value along one or more sorted ndarray dimensions.</span>
 -   <span class="signature">[`mean( x[, options] )`][@stdlib/stats/mean]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions.</span>
+-   <span class="signature">[`meankbn( x[, options] )`][@stdlib/stats/meankbn]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions using an improved Kahan–Babuška algorithm.</span>
+-   <span class="signature">[`meankbn2( x[, options] )`][@stdlib/stats/meankbn2]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions using a second-order iterative Kahan–Babuška algorithm.</span>
+-   <span class="signature">[`meanors( x[, options] )`][@stdlib/stats/meanors]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions using ordinary recursive summation.</span>
+-   <span class="signature">[`meanpn( x[, options] )`][@stdlib/stats/meanpn]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions using a two-pass error correction algorithm.</span>
+-   <span class="signature">[`meanpw( x[, options] )`][@stdlib/stats/meanpw]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions using pairwise summation.</span>
+-   <span class="signature">[`meanwd( x[, options] )`][@stdlib/stats/meanwd]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions using Welford's algorithm.</span>
+-   <span class="signature">[`mediansorted( x[, options] )`][@stdlib/stats/mediansorted]</span><span class="delimiter">: </span><span class="description">compute the median value along one or more sorted ndarray dimensions.</span>
+-   <span class="signature">[`midrangeBy( x[, options], clbk[, thisArg] )`][@stdlib/stats/midrange-by]</span><span class="delimiter">: </span><span class="description">compute the mid-range along one or more ndarray dimensions according to a callback function.</span>
+-   <span class="signature">[`midrange( x[, options] )`][@stdlib/stats/midrange]</span><span class="delimiter">: </span><span class="description">compute the mid-range along one or more ndarray dimensions.</span>
 -   <span class="signature">[`minBy( x[, options], clbk[, thisArg] )`][@stdlib/stats/min-by]</span><span class="delimiter">: </span><span class="description">compute the minimum value along one or more ndarray dimensions according to a callback function.</span>
 -   <span class="signature">[`min( x[, options] )`][@stdlib/stats/min]</span><span class="delimiter">: </span><span class="description">compute the minimum value along one or more ndarray dimensions.</span>
 -   <span class="signature">[`minabs( x[, options] )`][@stdlib/stats/minabs]</span><span class="delimiter">: </span><span class="description">compute the minimum absolute value along one or more ndarray dimensions.</span>
+-   <span class="signature">[`minsorted( x[, options] )`][@stdlib/stats/minsorted]</span><span class="delimiter">: </span><span class="description">compute the minimum value along one or more sorted ndarray dimensions.</span>
+-   <span class="signature">[`nanmaxBy( x[, options], clbk[, thisArg] )`][@stdlib/stats/nanmax-by]</span><span class="delimiter">: </span><span class="description">compute the maximum value along one or more ndarray dimensions according to a callback function, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanmax( x[, options] )`][@stdlib/stats/nanmax]</span><span class="delimiter">: </span><span class="description">compute the maximum value along one or more ndarray dimensions, ignoring `NaN` values.</span>
+-   <span class="signature">[`nanmaxabs( x[, options] )`][@stdlib/stats/nanmaxabs]</span><span class="delimiter">: </span><span class="description">compute the maximum absolute value along one or more ndarray dimensions, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanmean( x[, options] )`][@stdlib/stats/nanmean]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions, ignoring `NaN` values.</span>
+-   <span class="signature">[`nanmeanors( x[, options] )`][@stdlib/stats/nanmeanors]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions, ignoring `NaN` values and using ordinary recursive summation.</span>
+-   <span class="signature">[`nanmeanpn( x[, options] )`][@stdlib/stats/nanmeanpn]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions, ignoring `NaN` values and using a two-pass error correction algorithm.</span>
+-   <span class="signature">[`nanmeanwd( x[, options] )`][@stdlib/stats/nanmeanwd]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions, ignoring `NaN` values and using Welford's algorithm.</span>
+-   <span class="signature">[`nanmidrangeBy( x[, options], clbk[, thisArg] )`][@stdlib/stats/nanmidrange-by]</span><span class="delimiter">: </span><span class="description">compute the **mid-range** along one or more ndarray dimensions according to a callback function, ignoring `NaN` values.</span>
+-   <span class="signature">[`nanminBy( x[, options], clbk[, thisArg] )`][@stdlib/stats/nanmin-by]</span><span class="delimiter">: </span><span class="description">compute the minimum value along one or more ndarray dimensions according to a callback function, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanmin( x[, options] )`][@stdlib/stats/nanmin]</span><span class="delimiter">: </span><span class="description">compute the minimum value along one or more ndarray dimensions, ignoring `NaN` values.</span>
+-   <span class="signature">[`nanminabs( x[, options] )`][@stdlib/stats/nanminabs]</span><span class="delimiter">: </span><span class="description">compute the minimum absolute value along one or more ndarray dimensions, ignoring `NaN` values.</span>
+-   <span class="signature">[`nanrangeBy( x[, options], clbk[, thisArg] )`][@stdlib/stats/nanrange-by]</span><span class="delimiter">: </span><span class="description">compute the **range** along one or more ndarray dimensions according to a callback function, ignoring `NaN` values.</span>
+-   <span class="signature">[`nanrange( x[, options] )`][@stdlib/stats/nanrange]</span><span class="delimiter">: </span><span class="description">compute the range along one or more ndarray dimensions, ignoring `NaN` values.</span>
 -   <span class="signature">[`padjust( pvals, method[, comparisons] )`][@stdlib/stats/padjust]</span><span class="delimiter">: </span><span class="description">adjust supplied p-values for multiple comparisons.</span>
+-   <span class="signature">[`rangeBy( x[, options], clbk[, thisArg] )`][@stdlib/stats/range-by]</span><span class="delimiter">: </span><span class="description">compute the **range** along one or more ndarray dimensions according to a callback function.</span>
 -   <span class="signature">[`range( x[, options] )`][@stdlib/stats/range]</span><span class="delimiter">: </span><span class="description">compute the range along one or more ndarray dimensions.</span>
+-   <span class="signature">[`rangeabs( x[, options] )`][@stdlib/stats/rangeabs]</span><span class="delimiter">: </span><span class="description">compute the range of absolute values along one or more ndarray dimensions.</span>
 -   <span class="signature">[`ranks( arr[, opts] )`][@stdlib/stats/ranks]</span><span class="delimiter">: </span><span class="description">compute ranks for values of an array-like object.</span>
 
 </div>
@@ -183,21 +200,11 @@ Other statistical functions included are:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var statistics = require( '@stdlib/stats' );
 
 console.log( objectKeys( statistics ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -300,7 +307,27 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/maxabs]: https://github.com/stdlib-js/stats/tree/main/maxabs
 
+[@stdlib/stats/maxsorted]: https://github.com/stdlib-js/stats/tree/main/maxsorted
+
 [@stdlib/stats/mean]: https://github.com/stdlib-js/stats/tree/main/mean
+
+[@stdlib/stats/meankbn]: https://github.com/stdlib-js/stats/tree/main/meankbn
+
+[@stdlib/stats/meankbn2]: https://github.com/stdlib-js/stats/tree/main/meankbn2
+
+[@stdlib/stats/meanors]: https://github.com/stdlib-js/stats/tree/main/meanors
+
+[@stdlib/stats/meanpn]: https://github.com/stdlib-js/stats/tree/main/meanpn
+
+[@stdlib/stats/meanpw]: https://github.com/stdlib-js/stats/tree/main/meanpw
+
+[@stdlib/stats/meanwd]: https://github.com/stdlib-js/stats/tree/main/meanwd
+
+[@stdlib/stats/mediansorted]: https://github.com/stdlib-js/stats/tree/main/mediansorted
+
+[@stdlib/stats/midrange-by]: https://github.com/stdlib-js/stats/tree/main/midrange-by
+
+[@stdlib/stats/midrange]: https://github.com/stdlib-js/stats/tree/main/midrange
 
 [@stdlib/stats/min-by]: https://github.com/stdlib-js/stats/tree/main/min-by
 
@@ -308,15 +335,41 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/minabs]: https://github.com/stdlib-js/stats/tree/main/minabs
 
+[@stdlib/stats/minsorted]: https://github.com/stdlib-js/stats/tree/main/minsorted
+
+[@stdlib/stats/nanmax-by]: https://github.com/stdlib-js/stats/tree/main/nanmax-by
+
 [@stdlib/stats/nanmax]: https://github.com/stdlib-js/stats/tree/main/nanmax
+
+[@stdlib/stats/nanmaxabs]: https://github.com/stdlib-js/stats/tree/main/nanmaxabs
 
 [@stdlib/stats/nanmean]: https://github.com/stdlib-js/stats/tree/main/nanmean
 
+[@stdlib/stats/nanmeanors]: https://github.com/stdlib-js/stats/tree/main/nanmeanors
+
+[@stdlib/stats/nanmeanpn]: https://github.com/stdlib-js/stats/tree/main/nanmeanpn
+
+[@stdlib/stats/nanmeanwd]: https://github.com/stdlib-js/stats/tree/main/nanmeanwd
+
+[@stdlib/stats/nanmidrange-by]: https://github.com/stdlib-js/stats/tree/main/nanmidrange-by
+
+[@stdlib/stats/nanmin-by]: https://github.com/stdlib-js/stats/tree/main/nanmin-by
+
 [@stdlib/stats/nanmin]: https://github.com/stdlib-js/stats/tree/main/nanmin
+
+[@stdlib/stats/nanminabs]: https://github.com/stdlib-js/stats/tree/main/nanminabs
+
+[@stdlib/stats/nanrange-by]: https://github.com/stdlib-js/stats/tree/main/nanrange-by
+
+[@stdlib/stats/nanrange]: https://github.com/stdlib-js/stats/tree/main/nanrange
 
 [@stdlib/stats/padjust]: https://github.com/stdlib-js/stats/tree/main/padjust
 
+[@stdlib/stats/range-by]: https://github.com/stdlib-js/stats/tree/main/range-by
+
 [@stdlib/stats/range]: https://github.com/stdlib-js/stats/tree/main/range
+
+[@stdlib/stats/rangeabs]: https://github.com/stdlib-js/stats/tree/main/rangeabs
 
 [@stdlib/stats/ranks]: https://github.com/stdlib-js/stats/tree/main/ranks
 
