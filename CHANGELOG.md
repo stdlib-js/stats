@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-30)
+## Unreleased (2026-01-31)
 
 <section class="features">
 
 ### Features
 
+-   [`75a4928`](https://github.com/stdlib-js/stdlib/commit/75a4928752ee93a88cbdf3114c12cd4ba2979c07) - update `stats` TypeScript declarations [(#10002)](https://github.com/stdlib-js/stdlib/pull/10002)
+-   [`cef8ee6`](https://github.com/stdlib-js/stdlib/commit/cef8ee6f3805b44b0784449befe4399584dd3b47) - update `stats/base/ndarray` TypeScript declarations [(#10001)](https://github.com/stdlib-js/stdlib/pull/10001)
+-   [`d660cab`](https://github.com/stdlib-js/stdlib/commit/d660cabc2799c7f43cda85b7a4ff65e0995a9a1e) - add C implementation for `stats/base/ndarray/smin` [(#9981)](https://github.com/stdlib-js/stdlib/pull/9981)
 -   [`041e713`](https://github.com/stdlib-js/stdlib/commit/041e7138e20a8149b85835d9067c4065ce856893) - add C implementation for `stats/base/ndarray/smax` [(#9956)](https://github.com/stdlib-js/stdlib/pull/9956)
 -   [`bbaef7b`](https://github.com/stdlib-js/stdlib/commit/bbaef7b113570a432bd33e31d03f18f070f3814b) - add C implementation for `stats/base/ndarray/dmin` [(#9939)](https://github.com/stdlib-js/stdlib/pull/9939)
 -   [`fae4985`](https://github.com/stdlib-js/stdlib/commit/fae498583ef5643ae4826247852d855629e93d6a) - add `dstdevtk` and `dstdevyc` to namespace
@@ -3671,6 +3674,9 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`75a4928`](https://github.com/stdlib-js/stdlib/commit/75a4928752ee93a88cbdf3114c12cd4ba2979c07) - **feat:** update `stats` TypeScript declarations [(#10002)](https://github.com/stdlib-js/stdlib/pull/10002) _(by stdlib-bot)_
+-   [`cef8ee6`](https://github.com/stdlib-js/stdlib/commit/cef8ee6f3805b44b0784449befe4399584dd3b47) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#10001)](https://github.com/stdlib-js/stdlib/pull/10001) _(by stdlib-bot)_
+-   [`d660cab`](https://github.com/stdlib-js/stdlib/commit/d660cabc2799c7f43cda85b7a4ff65e0995a9a1e) - **feat:** add C implementation for `stats/base/ndarray/smin` [(#9981)](https://github.com/stdlib-js/stdlib/pull/9981) _(by Kaustubh Patange, Athan Reines)_
 -   [`041e713`](https://github.com/stdlib-js/stdlib/commit/041e7138e20a8149b85835d9067c4065ce856893) - **feat:** add C implementation for `stats/base/ndarray/smax` [(#9956)](https://github.com/stdlib-js/stdlib/pull/9956) _(by Kaustubh Patange, Athan Reines)_
 -   [`bbaef7b`](https://github.com/stdlib-js/stdlib/commit/bbaef7b113570a432bd33e31d03f18f070f3814b) - **feat:** add C implementation for `stats/base/ndarray/dmin` [(#9939)](https://github.com/stdlib-js/stdlib/pull/9939) _(by Kaustubh Patange)_
 -   [`fae4985`](https://github.com/stdlib-js/stdlib/commit/fae498583ef5643ae4826247852d855629e93d6a) - **feat:** add `dstdevtk` and `dstdevyc` to namespace _(by Athan Reines)_

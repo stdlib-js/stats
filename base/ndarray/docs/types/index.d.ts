@@ -69,7 +69,9 @@ import drangeabs = require( './../../../../base/ndarray/drangeabs' );
 import dstdev = require( './../../../../base/ndarray/dstdev' );
 import dstdevch = require( './../../../../base/ndarray/dstdevch' );
 import dstdevpn = require( './../../../../base/ndarray/dstdevpn' );
+import dstdevtk = require( './../../../../base/ndarray/dstdevtk' );
 import dstdevwd = require( './../../../../base/ndarray/dstdevwd' );
+import dstdevyc = require( './../../../../base/ndarray/dstdevyc' );
 import dztest = require( './../../../../base/ndarray/dztest' );
 import dztest2 = require( './../../../../base/ndarray/dztest2' );
 import max = require( './../../../../base/ndarray/max' );
@@ -164,7 +166,9 @@ import srangeabs = require( './../../../../base/ndarray/srangeabs' );
 import sstdev = require( './../../../../base/ndarray/sstdev' );
 import sstdevch = require( './../../../../base/ndarray/sstdevch' );
 import sstdevpn = require( './../../../../base/ndarray/sstdevpn' );
+import sstdevtk = require( './../../../../base/ndarray/sstdevtk' );
 import sstdevwd = require( './../../../../base/ndarray/sstdevwd' );
+import sstdevyc = require( './../../../../base/ndarray/sstdevyc' );
 import stdev = require( './../../../../base/ndarray/stdev' );
 import stdevch = require( './../../../../base/ndarray/stdevch' );
 import stdevpn = require( './../../../../base/ndarray/stdevpn' );
@@ -1218,6 +1222,30 @@ interface Namespace {
 	dstdevpn: typeof dstdevpn;
 
 	/**
+	* Computes the standard deviation of a one-dimensional double-precision floating-point ndarray using a one-pass textbook algorithm.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.dstdevtk( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	dstdevtk: typeof dstdevtk;
+
+	/**
 	* Computes the standard deviation of a one-dimensional double-precision floating-point ndarray using Welford's algorithm.
 	*
 	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
@@ -1240,6 +1268,30 @@ interface Namespace {
 	* // returns ~2.0817
 	*/
 	dstdevwd: typeof dstdevwd;
+
+	/**
+	* Computes the standard deviation of a one-dimensional double-precision floating-point ndarray using a one-pass algorithm proposed by Youngs and Cramer.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var opts = {
+	*     'dtype': 'float64'
+	* };
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.dstdevyc( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	dstdevyc: typeof dstdevyc;
 
 	/**
 	* Computes a one-sample Z-test for a one-dimensional double-precision floating-point ndarray.
@@ -3163,6 +3215,30 @@ interface Namespace {
 	sstdevpn: typeof sstdevpn;
 
 	/**
+	* Computes the standard deviation of a one-dimensional single-precision floating-point ndarray using a one-pass textbook algorithm.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var opts = {
+	*     'dtype': 'float32'
+	* };
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.sstdevtk( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	sstdevtk: typeof sstdevtk;
+
+	/**
 	* Computes the standard deviation of a one-dimensional single-precision floating-point ndarray using Welford's algorithm.
 	*
 	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
@@ -3185,6 +3261,30 @@ interface Namespace {
 	* // returns ~2.0817
 	*/
 	sstdevwd: typeof sstdevwd;
+
+	/**
+	* Computes the standard deviation of a one-dimensional single-precision floating-point ndarray using a one-pass algorithm proposed by Youngs and Cramer.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying a degrees of freedom adjustment
+	* @returns standard deviation
+	*
+	* @example
+	* var ndarray = require( '@stdlib/ndarray/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var opts = {
+	*     'dtype': 'float32'
+	* };
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var x = new ndarray( opts.dtype, xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	* var correction = scalar2ndarray( 1.0, opts );
+	*
+	* var v = ns.sstdevyc( [ x, correction ] );
+	* // returns ~2.0817
+	*/
+	sstdevyc: typeof sstdevyc;
 
 	/**
 	* Computes the standard deviation of a one-dimensional ndarray.
