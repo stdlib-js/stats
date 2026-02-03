@@ -3674,6 +3674,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`8842552`](https://github.com/stdlib-js/stdlib/commit/884255265619ee97385a996f5444d6a437c789a1) - **bench:** refactor to use string interpolation in `stats/base/dists/betaprime` [(#10050)](https://github.com/stdlib-js/stdlib/pull/10050) _(by Harsh Yadav)_
 -   [`9d71f4b`](https://github.com/stdlib-js/stdlib/commit/9d71f4b4d116829abcea63c67ffb7b61d798e11c) - **bench:** refactor to use string interpolation in `stats/base/dists/beta` [(#10049)](https://github.com/stdlib-js/stdlib/pull/10049) _(by Harsh Yadav)_
 -   [`ee4e852`](https://github.com/stdlib-js/stdlib/commit/ee4e852c6aebea0c9ce7316f364736622e4bf6a4) - **docs:** fix comments and returns description [(#10015)](https://github.com/stdlib-js/stdlib/pull/10015) _(by Sachin Pangal)_
 -   [`66c95d7`](https://github.com/stdlib-js/stdlib/commit/66c95d76361e89d0774e48eaeeda47a0224dd954) - **bench:** update random value generation for `stats/base/dists/poisson` [(#10008)](https://github.com/stdlib-js/stdlib/pull/10008) _(by Bhargav Dabhade)_
