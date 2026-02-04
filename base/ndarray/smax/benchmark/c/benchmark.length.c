@@ -100,7 +100,7 @@ static float rand_float( void ) {
 * @param len          array length
 * @return             elapsed time in seconds
 */
-static float benchmark( int iterations, int len ) {
+static double benchmark( int iterations, int len ) {
 	enum STDLIB_NDARRAY_INDEX_MODE imode;
 	const struct ndarray *arrays[ 1 ];
 	enum STDLIB_NDARRAY_ORDER order;
@@ -110,7 +110,7 @@ static float benchmark( int iterations, int len ) {
 	int64_t nsubmodes;
 	struct ndarray *x;
 	int64_t offset;
-	float elapsed;
+	double elapsed;
 	int64_t ndims;
 	float *data;
 	float v;
