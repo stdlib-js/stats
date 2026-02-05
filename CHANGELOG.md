@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`42ada99`](https://github.com/stdlib-js/stdlib/commit/42ada99a46614cf0d14f2f8f70c5d95869e08bd8) - add C implementation of `stats/base/ndarray/dmaxabs` [(#10039)](https://github.com/stdlib-js/stdlib/pull/10039)
 -   [`06e3710`](https://github.com/stdlib-js/stdlib/commit/06e37102b1e86507533abe95f50c4c44e4ddcf54) - add C implementation for `stats/base/ndarray/dminabs` [(#10046)](https://github.com/stdlib-js/stdlib/pull/10046)
 -   [`75a4928`](https://github.com/stdlib-js/stdlib/commit/75a4928752ee93a88cbdf3114c12cd4ba2979c07) - update `stats` TypeScript declarations [(#10002)](https://github.com/stdlib-js/stdlib/pull/10002)
 -   [`cef8ee6`](https://github.com/stdlib-js/stdlib/commit/cef8ee6f3805b44b0784449befe4399584dd3b47) - update `stats/base/ndarray` TypeScript declarations [(#10001)](https://github.com/stdlib-js/stdlib/pull/10001)
@@ -3675,6 +3676,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`42ada99`](https://github.com/stdlib-js/stdlib/commit/42ada99a46614cf0d14f2f8f70c5d95869e08bd8) - **feat:** add C implementation of `stats/base/ndarray/dmaxabs` [(#10039)](https://github.com/stdlib-js/stdlib/pull/10039) _(by Bhargav Dabhade)_
 -   [`9b98e3f`](https://github.com/stdlib-js/stdlib/commit/9b98e3f6a8a80db920ed4aa05264e356aa019605) - **refactor:** reduce FLOPs _(by Athan Reines)_
 -   [`1212357`](https://github.com/stdlib-js/stdlib/commit/121235768111adbe05f293a18ec2ca2ca75815df) - **bench:** use string interpolation in `stats/base/dists/cauchy/pdf` [(#10064)](https://github.com/stdlib-js/stdlib/pull/10064) _(by Om-A-osc)_
 -   [`ad89c98`](https://github.com/stdlib-js/stdlib/commit/ad89c984e5b495cb695c61e1140d99067d8ebf1b) - **bench:** refractor to use string interpolation in `stats/base/dists/kumaraswamy` [(#10066)](https://github.com/stdlib-js/stdlib/pull/10066) _(by Shubham)_
