@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-04)
+## Unreleased (2026-02-05)
 
 <section class="features">
 
@@ -3674,6 +3674,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`b1ac7f1`](https://github.com/stdlib-js/stdlib/commit/b1ac7f156f4a3e4fba31d27f4797843676515519) - **bench:** refactor to use string interpolation in `stats/base/dists/arcsine/ctor` [(#10054)](https://github.com/stdlib-js/stdlib/pull/10054) _(by Lokesh Ranjan)_
 -   [`06188d1`](https://github.com/stdlib-js/stdlib/commit/06188d19cb37068a0aa27c391a443a48fd6b6b56) - **bench:** fix types _(by Athan Reines)_
 -   [`b2b06e2`](https://github.com/stdlib-js/stdlib/commit/b2b06e25153452e89a95ed63ae1ae4f7646d7c1d) - **bench:** fix dtypes _(by Athan Reines)_
 -   [`8842552`](https://github.com/stdlib-js/stdlib/commit/884255265619ee97385a996f5444d6a437c789a1) - **bench:** refactor to use string interpolation in `stats/base/dists/betaprime` [(#10050)](https://github.com/stdlib-js/stdlib/pull/10050) _(by Harsh Yadav)_
