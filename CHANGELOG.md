@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`06e3710`](https://github.com/stdlib-js/stdlib/commit/06e37102b1e86507533abe95f50c4c44e4ddcf54) - add C implementation for `stats/base/ndarray/dminabs` [(#10046)](https://github.com/stdlib-js/stdlib/pull/10046)
 -   [`75a4928`](https://github.com/stdlib-js/stdlib/commit/75a4928752ee93a88cbdf3114c12cd4ba2979c07) - update `stats` TypeScript declarations [(#10002)](https://github.com/stdlib-js/stdlib/pull/10002)
 -   [`cef8ee6`](https://github.com/stdlib-js/stdlib/commit/cef8ee6f3805b44b0784449befe4399584dd3b47) - update `stats/base/ndarray` TypeScript declarations [(#10001)](https://github.com/stdlib-js/stdlib/pull/10001)
 -   [`d660cab`](https://github.com/stdlib-js/stdlib/commit/d660cabc2799c7f43cda85b7a4ff65e0995a9a1e) - add C implementation for `stats/base/ndarray/smin` [(#9981)](https://github.com/stdlib-js/stdlib/pull/9981)
@@ -3674,6 +3675,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`06e3710`](https://github.com/stdlib-js/stdlib/commit/06e37102b1e86507533abe95f50c4c44e4ddcf54) - **feat:** add C implementation for `stats/base/ndarray/dminabs` [(#10046)](https://github.com/stdlib-js/stdlib/pull/10046) _(by Samarth Kolarkar, Athan Reines)_
 -   [`b1ac7f1`](https://github.com/stdlib-js/stdlib/commit/b1ac7f156f4a3e4fba31d27f4797843676515519) - **bench:** refactor to use string interpolation in `stats/base/dists/arcsine/ctor` [(#10054)](https://github.com/stdlib-js/stdlib/pull/10054) _(by Lokesh Ranjan)_
 -   [`06188d1`](https://github.com/stdlib-js/stdlib/commit/06188d19cb37068a0aa27c391a443a48fd6b6b56) - **bench:** fix types _(by Athan Reines)_
 -   [`b2b06e2`](https://github.com/stdlib-js/stdlib/commit/b2b06e25153452e89a95ed63ae1ae4f7646d7c1d) - **bench:** fix dtypes _(by Athan Reines)_
