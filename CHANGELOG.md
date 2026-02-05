@@ -3675,6 +3675,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`1212357`](https://github.com/stdlib-js/stdlib/commit/121235768111adbe05f293a18ec2ca2ca75815df) - **bench:** use string interpolation in `stats/base/dists/cauchy/pdf` [(#10064)](https://github.com/stdlib-js/stdlib/pull/10064) _(by Om-A-osc)_
 -   [`ad89c98`](https://github.com/stdlib-js/stdlib/commit/ad89c984e5b495cb695c61e1140d99067d8ebf1b) - **bench:** refractor to use string interpolation in `stats/base/dists/kumaraswamy` [(#10066)](https://github.com/stdlib-js/stdlib/pull/10066) _(by Shubham)_
 -   [`8cd8362`](https://github.com/stdlib-js/stdlib/commit/8cd836257e3921abc52ad245dce15642aea6288e) - **bench:** refactor to use string interpolation in `stats/base/dists/bernoulli/ctor` [(#10053)](https://github.com/stdlib-js/stdlib/pull/10053) _(by Lokesh Ranjan, Athan Reines)_
 -   [`06e3710`](https://github.com/stdlib-js/stdlib/commit/06e37102b1e86507533abe95f50c4c44e4ddcf54) - **feat:** add C implementation for `stats/base/ndarray/dminabs` [(#10046)](https://github.com/stdlib-js/stdlib/pull/10046) _(by Samarth Kolarkar, Athan Reines)_
