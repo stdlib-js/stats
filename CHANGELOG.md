@@ -3676,6 +3676,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`f52da9e`](https://github.com/stdlib-js/stdlib/commit/f52da9e13bdc5a66f81238e00794dc4d04713f50) - **bench:** refractor to use string interpolation in `stats/base/snanstdevch` [(#10139)](https://github.com/stdlib-js/stdlib/pull/10139) _(by Shubham)_
 -   [`7826bce`](https://github.com/stdlib-js/stdlib/commit/7826bce4fef1d743e5ed065281e2c067e657c8de) - **bench:** refractor to use string interpolation in `stats/base/snanstdev` [(#10140)](https://github.com/stdlib-js/stdlib/pull/10140) _(by Shubham)_
 -   [`45ed6fc`](https://github.com/stdlib-js/stdlib/commit/45ed6fc6c6eee93a191b1ba9ecf89e058ad3e57d) - **bench:** refractor to use string interpolation in `stats/base/snanstdevwd` [(#10141)](https://github.com/stdlib-js/stdlib/pull/10141) _(by Shubham)_
 -   [`6253df4`](https://github.com/stdlib-js/stdlib/commit/6253df45cc1376691e0bf7e044c14d64d0ceb179) - **bench:** refractor to use string interpolation in `stats/base/snanstdevtk` [(#10142)](https://github.com/stdlib-js/stdlib/pull/10142) _(by Shubham)_
