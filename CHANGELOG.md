@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-07)
+## Unreleased (2026-02-09)
 
 <section class="features">
 
@@ -3676,6 +3676,8 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`0a3bfa2`](https://github.com/stdlib-js/stdlib/commit/0a3bfa2d83ccf5139c1557f07b936fac61cf5838) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`a7bba71`](https://github.com/stdlib-js/stdlib/commit/a7bba712251731591ce02227e24f4d61042e1710) - **style:** fix indentation _(by Philipp Burckhardt)_
 -   [`65ac870`](https://github.com/stdlib-js/stdlib/commit/65ac870bcc9363ee25cdde72514d9e0783b5395e) - **bench:** use string interpolation in `stats/base/cumax` [(#10135)](https://github.com/stdlib-js/stdlib/pull/10135) _(by Om-A-osc, Athan Reines)_
 -   [`84c8c5c`](https://github.com/stdlib-js/stdlib/commit/84c8c5c9581cc66cbfad9d74f75270a01677abf5) - **bench:** refractor to use string interpolation in `stats/base/sdsnanmean` [(#10137)](https://github.com/stdlib-js/stdlib/pull/10137) _(by Shubham)_
 -   [`8b905a5`](https://github.com/stdlib-js/stdlib/commit/8b905a5660d1c61e3cbac7ad25e376eb4988dcb4) - **bench:** refractor to use string interpolation in `stats/base/snanstdevpn` [(#10138)](https://github.com/stdlib-js/stdlib/pull/10138) _(by Shubham)_
