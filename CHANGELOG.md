@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-09)
+## Unreleased (2026-02-10)
 
 <section class="features">
 
@@ -3676,6 +3676,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`81fd782`](https://github.com/stdlib-js/stdlib/commit/81fd7822d544bff51fccb618844e07f7edf31e8b) - **bench:** use string interpolation in `stats/base/dists/chi` [(#10171)](https://github.com/stdlib-js/stdlib/pull/10171) _(by Om-A-osc)_
 -   [`0a3bfa2`](https://github.com/stdlib-js/stdlib/commit/0a3bfa2d83ccf5139c1557f07b936fac61cf5838) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`a7bba71`](https://github.com/stdlib-js/stdlib/commit/a7bba712251731591ce02227e24f4d61042e1710) - **style:** fix indentation _(by Philipp Burckhardt)_
 -   [`65ac870`](https://github.com/stdlib-js/stdlib/commit/65ac870bcc9363ee25cdde72514d9e0783b5395e) - **bench:** use string interpolation in `stats/base/cumax` [(#10135)](https://github.com/stdlib-js/stdlib/pull/10135) _(by Om-A-osc, Athan Reines)_
