@@ -3677,6 +3677,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`61e0c07`](https://github.com/stdlib-js/stdlib/commit/61e0c078903198eb07fe30301f14c3180186f5c9) - **bench:** use string interpolation in `stats/base/ndarray/nanmeanors` [(#10163)](https://github.com/stdlib-js/stdlib/pull/10163) _(by Om-A-osc)_
 -   [`6bd2cc0`](https://github.com/stdlib-js/stdlib/commit/6bd2cc0e88930b003aacdae33981e3050a1c99a7) - **bench:** refactor to use string interpolation in `stats/base/snanvariancech` [(#10202)](https://github.com/stdlib-js/stdlib/pull/10202) _(by Shubham)_
 -   [`3ec99c9`](https://github.com/stdlib-js/stdlib/commit/3ec99c94c286bafabeee0971d4beb29b3a3fc756) - **bench:** refactor to use string interpolation in `stats/base/snanvariancepn` [(#10204)](https://github.com/stdlib-js/stdlib/pull/10204) _(by Shubham)_
 -   [`40cc554`](https://github.com/stdlib-js/stdlib/commit/40cc554a45933e2bc58e7d6ec4ba7b1611006a41) - **bench:** refactor to use string interpolation in `stats/base/snanvariance` [(#10200)](https://github.com/stdlib-js/stdlib/pull/10200) _(by Shubham)_
