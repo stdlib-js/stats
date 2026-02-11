@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-10)
+## Unreleased (2026-02-11)
 
 <section class="features">
 
 ### Features
 
+-   [`79a051f`](https://github.com/stdlib-js/stdlib/commit/79a051fbab0d43293a1cb71a92625c7dd2969bfa) - add `stats/array/nanmidrange` [(#10201)](https://github.com/stdlib-js/stdlib/pull/10201)
 -   [`42ada99`](https://github.com/stdlib-js/stdlib/commit/42ada99a46614cf0d14f2f8f70c5d95869e08bd8) - add C implementation of `stats/base/ndarray/dmaxabs` [(#10039)](https://github.com/stdlib-js/stdlib/pull/10039)
 -   [`06e3710`](https://github.com/stdlib-js/stdlib/commit/06e37102b1e86507533abe95f50c4c44e4ddcf54) - add C implementation for `stats/base/ndarray/dminabs` [(#10046)](https://github.com/stdlib-js/stdlib/pull/10046)
 -   [`75a4928`](https://github.com/stdlib-js/stdlib/commit/75a4928752ee93a88cbdf3114c12cd4ba2979c07) - update `stats` TypeScript declarations [(#10002)](https://github.com/stdlib-js/stdlib/pull/10002)
@@ -3676,6 +3677,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`79a051f`](https://github.com/stdlib-js/stdlib/commit/79a051fbab0d43293a1cb71a92625c7dd2969bfa) - **feat:** add `stats/array/nanmidrange` [(#10201)](https://github.com/stdlib-js/stdlib/pull/10201) _(by Sachin Pangal, stdlib-bot)_
 -   [`81fd782`](https://github.com/stdlib-js/stdlib/commit/81fd7822d544bff51fccb618844e07f7edf31e8b) - **bench:** use string interpolation in `stats/base/dists/chi` [(#10171)](https://github.com/stdlib-js/stdlib/pull/10171) _(by Om-A-osc)_
 -   [`0a3bfa2`](https://github.com/stdlib-js/stdlib/commit/0a3bfa2d83ccf5139c1557f07b936fac61cf5838) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`a7bba71`](https://github.com/stdlib-js/stdlib/commit/a7bba712251731591ce02227e24f4d61042e1710) - **style:** fix indentation _(by Philipp Burckhardt)_
