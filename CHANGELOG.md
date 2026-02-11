@@ -3677,6 +3677,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`40cc554`](https://github.com/stdlib-js/stdlib/commit/40cc554a45933e2bc58e7d6ec4ba7b1611006a41) - **bench:** refactor to use string interpolation in `stats/base/snanvariance` [(#10200)](https://github.com/stdlib-js/stdlib/pull/10200) _(by Shubham)_
 -   [`79a051f`](https://github.com/stdlib-js/stdlib/commit/79a051fbab0d43293a1cb71a92625c7dd2969bfa) - **feat:** add `stats/array/nanmidrange` [(#10201)](https://github.com/stdlib-js/stdlib/pull/10201) _(by Sachin Pangal, stdlib-bot)_
 -   [`81fd782`](https://github.com/stdlib-js/stdlib/commit/81fd7822d544bff51fccb618844e07f7edf31e8b) - **bench:** use string interpolation in `stats/base/dists/chi` [(#10171)](https://github.com/stdlib-js/stdlib/pull/10171) _(by Om-A-osc)_
 -   [`0a3bfa2`](https://github.com/stdlib-js/stdlib/commit/0a3bfa2d83ccf5139c1557f07b936fac61cf5838) - **chore:** minor clean-up _(by Philipp Burckhardt)_
