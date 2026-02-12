@@ -25,7 +25,6 @@ var randu = require( '@stdlib/random/base/randu' );
 var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var Float32Array = require( '@stdlib/array/float32' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var snanvarianceyc = require( './../lib/ndarray.js' );
 
@@ -100,7 +99,7 @@ function main() {
 	for ( i = min; i <= max; i++ ) {
 		len = pow( 10, i );
 		f = createBenchmark( len );
-		bench( format( '%s:ndarray:len=%d', pkg, len ), f );
+		bench( pkg+':ndarray:len='+len, f );
 	}
 }
 
