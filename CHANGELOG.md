@@ -3678,6 +3678,10 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`1d869c7`](https://github.com/stdlib-js/stdlib/commit/1d869c731b86a36a2463698a060cdfb6d2b401f2) - **bench:** update random value generation for stats/base/dists/gumbel/variance [(#10242)](https://github.com/stdlib-js/stdlib/pull/10242) _(by Bhargav Dabhade, Philipp Burckhardt)_
+-   [`1c014d0`](https://github.com/stdlib-js/stdlib/commit/1c014d0bd6d77de7c034db4fe86060fab87a4a53) - **bench:** refactor to use string interpolation in `stats/base/snanvarianceyc` [(#10243)](https://github.com/stdlib-js/stdlib/pull/10243) _(by Bhargav Dabhade)_
+-   [`6a53aa7`](https://github.com/stdlib-js/stdlib/commit/6a53aa7c12756f57916ccbaeab9f09913aa9b8ee) - **bench:** refactor to use string interpolation in `stats/base/snanvariancewd` [(#10244)](https://github.com/stdlib-js/stdlib/pull/10244) _(by Bhargav Dabhade)_
+-   [`3f082c4`](https://github.com/stdlib-js/stdlib/commit/3f082c405532bdd617a97fb6b4f4ea3dac67a633) - **bench:** refactor to use string interpolation in `stats/base/snanvariancetk` [(#10245)](https://github.com/stdlib-js/stdlib/pull/10245) _(by Bhargav Dabhade)_
 -   [`1bb7d5b`](https://github.com/stdlib-js/stdlib/commit/1bb7d5bec1f232fd5541f56734612f40bb63cf89) - **bench:** refactor to use string interpolation in `stats/base/cumaxabs` [(#10161)](https://github.com/stdlib-js/stdlib/pull/10161) _(by Vishal Gaikwad)_
 -   [`582219e`](https://github.com/stdlib-js/stdlib/commit/582219ec5e332c28c5bd1e5f3cdbb9f7904d6b1c) - **bench:** use string interpolation in `stats/base/ndarray/nanmean` [(#10164)](https://github.com/stdlib-js/stdlib/pull/10164) _(by Om-A-osc)_
 -   [`7476e20`](https://github.com/stdlib-js/stdlib/commit/7476e2084236526a362d28d3c6f335cc4331fd8c) - **bench:** use string interpolation in `stats/base/ndarray/nanmaxabs` [(#10165)](https://github.com/stdlib-js/stdlib/pull/10165) _(by Om-A-osc)_
