@@ -35,20 +35,32 @@ limitations under the License.
 
 > Statistical functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import statistics from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { anova1, array, bartlettTest, base, binomialTest, chi2gof, chi2test, cumax, cumin, flignerTest, incr, iterators, kde2d, kruskalTest, kstest, leveneTest, lowess, max, maxBy, maxabs, maxsorted, mean, meankbn, meankbn2, meanors, meanpn, meanpw, meanwd, mediansorted, midrange, midrangeBy, min, minBy, minabs, minsorted, nanmax, nanmaxBy, nanmaxabs, nanmean, nanmeanors, nanmeanpn, nanmeanwd, nanmidrangeBy, nanmin, nanminBy, nanminabs, nanrange, nanrangeBy, padjust, pcorrtest, range, rangeBy, rangeabs, ranks, strided, ttest, ttest2, vartest, wilcoxon, ztest, ztest2 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@esm/index.mjs';
+var statistics = require( '@stdlib/stats' );
 ```
 
 #### statistics
@@ -188,20 +200,11 @@ Other statistical functions included are:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import statistics from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var statistics = require( '@stdlib/stats' );
 
 console.log( objectKeys( statistics ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -225,7 +228,7 @@ console.log( objectKeys( statistics ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -234,6 +237,11 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
+
+## License
+
+See [LICENSE][stdlib-license].
+
 
 ## Copyright
 
@@ -280,6 +288,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/stats/tree/esm
 [esm-readme]: https://github.com/stdlib-js/stats/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats/main/LICENSE
 
 <!-- <toc-links> -->
 
