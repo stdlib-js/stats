@@ -3678,6 +3678,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`582219e`](https://github.com/stdlib-js/stdlib/commit/582219ec5e332c28c5bd1e5f3cdbb9f7904d6b1c) - **bench:** use string interpolation in `stats/base/ndarray/nanmean` [(#10164)](https://github.com/stdlib-js/stdlib/pull/10164) _(by Om-A-osc)_
 -   [`7476e20`](https://github.com/stdlib-js/stdlib/commit/7476e2084236526a362d28d3c6f335cc4331fd8c) - **bench:** use string interpolation in `stats/base/ndarray/nanmaxabs` [(#10165)](https://github.com/stdlib-js/stdlib/pull/10165) _(by Om-A-osc)_
 -   [`c70d9ed`](https://github.com/stdlib-js/stdlib/commit/c70d9eda1f4465e886f967cf09fdc54f0b11900d) - **feat:** add `stats/array/midrange` [(#10189)](https://github.com/stdlib-js/stdlib/pull/10189) _(by Sachin Pangal)_
 -   [`61e0c07`](https://github.com/stdlib-js/stdlib/commit/61e0c078903198eb07fe30301f14c3180186f5c9) - **bench:** use string interpolation in `stats/base/ndarray/nanmeanors` [(#10163)](https://github.com/stdlib-js/stdlib/pull/10163) _(by Om-A-osc)_
