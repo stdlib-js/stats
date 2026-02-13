@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-12)
+## Unreleased (2026-02-13)
 
 <section class="features">
 
 ### Features
 
+-   [`ab43b7f`](https://github.com/stdlib-js/stdlib/commit/ab43b7fff2a33d8e101f50d65d18bfa914dbfcf0) - add `stats/array/mskmidrange` [(#10221)](https://github.com/stdlib-js/stdlib/pull/10221)
 -   [`c70d9ed`](https://github.com/stdlib-js/stdlib/commit/c70d9eda1f4465e886f967cf09fdc54f0b11900d) - add `stats/array/midrange` [(#10189)](https://github.com/stdlib-js/stdlib/pull/10189)
 -   [`79a051f`](https://github.com/stdlib-js/stdlib/commit/79a051fbab0d43293a1cb71a92625c7dd2969bfa) - add `stats/array/nanmidrange` [(#10201)](https://github.com/stdlib-js/stdlib/pull/10201)
 -   [`42ada99`](https://github.com/stdlib-js/stdlib/commit/42ada99a46614cf0d14f2f8f70c5d95869e08bd8) - add C implementation of `stats/base/ndarray/dmaxabs` [(#10039)](https://github.com/stdlib-js/stdlib/pull/10039)
@@ -3678,6 +3679,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`ab43b7f`](https://github.com/stdlib-js/stdlib/commit/ab43b7fff2a33d8e101f50d65d18bfa914dbfcf0) - **feat:** add `stats/array/mskmidrange` [(#10221)](https://github.com/stdlib-js/stdlib/pull/10221) _(by Sachin Pangal, Philipp Burckhardt)_
 -   [`749de6f`](https://github.com/stdlib-js/stdlib/commit/749de6f8c437bf7daad8413ff86175781c934df2) - **bench:** refactor to use string interpolation in `stats/base/dists/bradford` [(#10234)](https://github.com/stdlib-js/stdlib/pull/10234) _(by Vishal Gaikwad)_
 -   [`46aeb95`](https://github.com/stdlib-js/stdlib/commit/46aeb956e694d0e7fe1fd1a95a706d230c7bc4a9) - **bench:** update random value generation for `stats/base/dists/gumbel/stdev` [(#10241)](https://github.com/stdlib-js/stdlib/pull/10241) _(by Bhargav Dabhade, Philipp Burckhardt)_
 -   [`1d869c7`](https://github.com/stdlib-js/stdlib/commit/1d869c731b86a36a2463698a060cdfb6d2b401f2) - **bench:** update random value generation for stats/base/dists/gumbel/variance [(#10242)](https://github.com/stdlib-js/stdlib/pull/10242) _(by Bhargav Dabhade, Philipp Burckhardt)_
