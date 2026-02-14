@@ -22,12 +22,12 @@
 
 var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/array/uniform' );
-var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
+var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
 var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
-var srangeabs = require( './../lib/main.js' );
+var srangeabs = require( './../lib' );
 
 
 // VARIABLES //
@@ -68,12 +68,12 @@ function createBenchmark( len ) {
 		b.tic();
 		for ( i = 0; i < b.iterations; i++ ) {
 			v = srangeabs( [ x ] );
-			if ( isnanf( v ) ) {
+			if ( isnan( v ) ) {
 				b.fail( 'should not return NaN' );
 			}
 		}
 		b.toc();
-		if ( isnanf( v ) ) {
+		if ( isnan( v ) ) {
 			b.fail( 'should not return NaN' );
 		}
 		b.pass( 'benchmark finished' );
