@@ -3683,6 +3683,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`e7e6955`](https://github.com/stdlib-js/stdlib/commit/e7e695564ed321e40640ba406cf85d8c2f854fc3) - **bench:** use string interpolation in `stats/base/ndarray/nanmeanpn` [(#10170)](https://github.com/stdlib-js/stdlib/pull/10170) _(by Om-A-osc)_
 -   [`3088f39`](https://github.com/stdlib-js/stdlib/commit/3088f3987094c907d9b81fbdeeea5ac58a915ac3) - **feat:** add implementation of `stats/base/dists/wald/kurtosis` [(#10216)](https://github.com/stdlib-js/stdlib/pull/10216) _(by Bhargav Dabhade, Philipp Burckhardt)_
 -   [`96f2808`](https://github.com/stdlib-js/stdlib/commit/96f28086b0a4bf03556f5ba91078d68c1823a27d) - **feat:** add implementation of `stats/base/dists/wald/skewness` [(#10206)](https://github.com/stdlib-js/stdlib/pull/10206) _(by Bhargav Dabhade, Philipp Burckhardt)_
 -   [`5dfd41d`](https://github.com/stdlib-js/stdlib/commit/5dfd41df5e698950034ed3e54d9f32dc9ff03355) - **feat:** add C implementation for `stats/base/ndarray/srangeabs` [(#10240)](https://github.com/stdlib-js/stdlib/pull/10240) _(by Bhargav Dabhade, Philipp Burckhardt)_
