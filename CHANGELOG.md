@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-13)
+## Unreleased (2026-02-14)
 
 <section class="features">
 
@@ -3679,6 +3679,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`a76fdd9`](https://github.com/stdlib-js/stdlib/commit/a76fdd9159a85d9e63982dce2c3a87861d1bf662) - **bench:** update random value generation for `stats/base/dists/f` [(#10238)](https://github.com/stdlib-js/stdlib/pull/10238) _(by Lokesh Ranjan, Philipp Burckhardt)_
 -   [`ab43b7f`](https://github.com/stdlib-js/stdlib/commit/ab43b7fff2a33d8e101f50d65d18bfa914dbfcf0) - **feat:** add `stats/array/mskmidrange` [(#10221)](https://github.com/stdlib-js/stdlib/pull/10221) _(by Sachin Pangal, Philipp Burckhardt)_
 -   [`749de6f`](https://github.com/stdlib-js/stdlib/commit/749de6f8c437bf7daad8413ff86175781c934df2) - **bench:** refactor to use string interpolation in `stats/base/dists/bradford` [(#10234)](https://github.com/stdlib-js/stdlib/pull/10234) _(by Vishal Gaikwad)_
 -   [`46aeb95`](https://github.com/stdlib-js/stdlib/commit/46aeb956e694d0e7fe1fd1a95a706d230c7bc4a9) - **bench:** update random value generation for `stats/base/dists/gumbel/stdev` [(#10241)](https://github.com/stdlib-js/stdlib/pull/10241) _(by Bhargav Dabhade, Philipp Burckhardt)_
