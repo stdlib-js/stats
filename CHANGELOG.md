@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5dfd41d`](https://github.com/stdlib-js/stdlib/commit/5dfd41df5e698950034ed3e54d9f32dc9ff03355) - add C implementation for `stats/base/ndarray/srangeabs` [(#10240)](https://github.com/stdlib-js/stdlib/pull/10240)
 -   [`2a8cda9`](https://github.com/stdlib-js/stdlib/commit/2a8cda98b404d0507e04c4c62d572726a08b015a) - add `stats/array/midrange-by` [(#10263)](https://github.com/stdlib-js/stdlib/pull/10263)
 -   [`ab43b7f`](https://github.com/stdlib-js/stdlib/commit/ab43b7fff2a33d8e101f50d65d18bfa914dbfcf0) - add `stats/array/mskmidrange` [(#10221)](https://github.com/stdlib-js/stdlib/pull/10221)
 -   [`c70d9ed`](https://github.com/stdlib-js/stdlib/commit/c70d9eda1f4465e886f967cf09fdc54f0b11900d) - add `stats/array/midrange` [(#10189)](https://github.com/stdlib-js/stdlib/pull/10189)
@@ -3680,6 +3681,8 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`5dfd41d`](https://github.com/stdlib-js/stdlib/commit/5dfd41df5e698950034ed3e54d9f32dc9ff03355) - **feat:** add C implementation for `stats/base/ndarray/srangeabs` [(#10240)](https://github.com/stdlib-js/stdlib/pull/10240) _(by Bhargav Dabhade, Philipp Burckhardt)_
+-   [`564b95d`](https://github.com/stdlib-js/stdlib/commit/564b95d10f2ba27c7ecc0db98712df489458c657) - **bench:** refactor to use string interpolation in `stats/base/dists/cauchy` [(#10249)](https://github.com/stdlib-js/stdlib/pull/10249) _(by Vishal Gaikwad, Philipp Burckhardt)_
 -   [`2a8cda9`](https://github.com/stdlib-js/stdlib/commit/2a8cda98b404d0507e04c4c62d572726a08b015a) - **feat:** add `stats/array/midrange-by` [(#10263)](https://github.com/stdlib-js/stdlib/pull/10263) _(by Sachin Pangal, Philipp Burckhardt)_
 -   [`a76fdd9`](https://github.com/stdlib-js/stdlib/commit/a76fdd9159a85d9e63982dce2c3a87861d1bf662) - **bench:** update random value generation for `stats/base/dists/f` [(#10238)](https://github.com/stdlib-js/stdlib/pull/10238) _(by Lokesh Ranjan, Philipp Burckhardt)_
 -   [`ab43b7f`](https://github.com/stdlib-js/stdlib/commit/ab43b7fff2a33d8e101f50d65d18bfa914dbfcf0) - **feat:** add `stats/array/mskmidrange` [(#10221)](https://github.com/stdlib-js/stdlib/pull/10221) _(by Sachin Pangal, Philipp Burckhardt)_
