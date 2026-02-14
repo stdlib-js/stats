@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2a8cda9`](https://github.com/stdlib-js/stdlib/commit/2a8cda98b404d0507e04c4c62d572726a08b015a) - add `stats/array/midrange-by` [(#10263)](https://github.com/stdlib-js/stdlib/pull/10263)
 -   [`ab43b7f`](https://github.com/stdlib-js/stdlib/commit/ab43b7fff2a33d8e101f50d65d18bfa914dbfcf0) - add `stats/array/mskmidrange` [(#10221)](https://github.com/stdlib-js/stdlib/pull/10221)
 -   [`c70d9ed`](https://github.com/stdlib-js/stdlib/commit/c70d9eda1f4465e886f967cf09fdc54f0b11900d) - add `stats/array/midrange` [(#10189)](https://github.com/stdlib-js/stdlib/pull/10189)
 -   [`79a051f`](https://github.com/stdlib-js/stdlib/commit/79a051fbab0d43293a1cb71a92625c7dd2969bfa) - add `stats/array/nanmidrange` [(#10201)](https://github.com/stdlib-js/stdlib/pull/10201)
@@ -3679,6 +3680,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`2a8cda9`](https://github.com/stdlib-js/stdlib/commit/2a8cda98b404d0507e04c4c62d572726a08b015a) - **feat:** add `stats/array/midrange-by` [(#10263)](https://github.com/stdlib-js/stdlib/pull/10263) _(by Sachin Pangal, Philipp Burckhardt)_
 -   [`a76fdd9`](https://github.com/stdlib-js/stdlib/commit/a76fdd9159a85d9e63982dce2c3a87861d1bf662) - **bench:** update random value generation for `stats/base/dists/f` [(#10238)](https://github.com/stdlib-js/stdlib/pull/10238) _(by Lokesh Ranjan, Philipp Burckhardt)_
 -   [`ab43b7f`](https://github.com/stdlib-js/stdlib/commit/ab43b7fff2a33d8e101f50d65d18bfa914dbfcf0) - **feat:** add `stats/array/mskmidrange` [(#10221)](https://github.com/stdlib-js/stdlib/pull/10221) _(by Sachin Pangal, Philipp Burckhardt)_
 -   [`749de6f`](https://github.com/stdlib-js/stdlib/commit/749de6f8c437bf7daad8413ff86175781c934df2) - **bench:** refactor to use string interpolation in `stats/base/dists/bradford` [(#10234)](https://github.com/stdlib-js/stdlib/pull/10234) _(by Vishal Gaikwad)_
