@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`10b28fd`](https://github.com/stdlib-js/stdlib/commit/10b28fdb54393277d093066bf40c84412ca7601d) - add `stats/array/nanmidrange-by` [(#10273)](https://github.com/stdlib-js/stdlib/pull/10273)
 -   [`8bfb552`](https://github.com/stdlib-js/stdlib/commit/8bfb5524d89a26ed6d0524d72d11e5a893338c5d) - add C implementation for `stats/base/ndarray/snanmax` [(#10198)](https://github.com/stdlib-js/stdlib/pull/10198)
 -   [`f04bd84`](https://github.com/stdlib-js/stdlib/commit/f04bd8446b04ed6a0e45822b20dbccf45bcb2ef7) - add `stats/array/mskmaxabs` [(#10280)](https://github.com/stdlib-js/stdlib/pull/10280)
 -   [`c7b5ae5`](https://github.com/stdlib-js/stdlib/commit/c7b5ae52a7ed0b5be7025ee3b93f8ae3f5d5aada) - add `stats/array/mskminabs` [(#10281)](https://github.com/stdlib-js/stdlib/pull/10281)
@@ -3689,6 +3690,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`10b28fd`](https://github.com/stdlib-js/stdlib/commit/10b28fdb54393277d093066bf40c84412ca7601d) - **feat:** add `stats/array/nanmidrange-by` [(#10273)](https://github.com/stdlib-js/stdlib/pull/10273) _(by Om-A-osc, Philipp Burckhardt, Sachin Pangal)_
 -   [`5360fda`](https://github.com/stdlib-js/stdlib/commit/5360fda9c2b6ace5ef3ebb3acdf96920d1ab6089) - **docs:** use correct PDF reference link in `stats/base/dists/signrank/pdf` [(#10303)](https://github.com/stdlib-js/stdlib/pull/10303) _(by Shubham)_
 -   [`8bfb552`](https://github.com/stdlib-js/stdlib/commit/8bfb5524d89a26ed6d0524d72d11e5a893338c5d) - **feat:** add C implementation for `stats/base/ndarray/snanmax` [(#10198)](https://github.com/stdlib-js/stdlib/pull/10198) _(by Samarth Kolarkar, orthodox-64)_
 -   [`5ae946b`](https://github.com/stdlib-js/stdlib/commit/5ae946bda58f813e9ed23610719f395416985c88) - **bench:** update array initialisation and refactor to use string interpolation in `stats/anova1` [(#10199)](https://github.com/stdlib-js/stdlib/pull/10199) _(by Shubham)_
