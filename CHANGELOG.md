@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8bfb552`](https://github.com/stdlib-js/stdlib/commit/8bfb5524d89a26ed6d0524d72d11e5a893338c5d) - add C implementation for `stats/base/ndarray/snanmax` [(#10198)](https://github.com/stdlib-js/stdlib/pull/10198)
 -   [`f04bd84`](https://github.com/stdlib-js/stdlib/commit/f04bd8446b04ed6a0e45822b20dbccf45bcb2ef7) - add `stats/array/mskmaxabs` [(#10280)](https://github.com/stdlib-js/stdlib/pull/10280)
 -   [`c7b5ae5`](https://github.com/stdlib-js/stdlib/commit/c7b5ae52a7ed0b5be7025ee3b93f8ae3f5d5aada) - add `stats/array/mskminabs` [(#10281)](https://github.com/stdlib-js/stdlib/pull/10281)
 -   [`0f2ea57`](https://github.com/stdlib-js/stdlib/commit/0f2ea572ed30d6c259cb103182a1237ec430b983) - add Wald distribution variance package [(#9730)](https://github.com/stdlib-js/stdlib/pull/9730)
@@ -3688,6 +3689,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`8bfb552`](https://github.com/stdlib-js/stdlib/commit/8bfb5524d89a26ed6d0524d72d11e5a893338c5d) - **feat:** add C implementation for `stats/base/ndarray/snanmax` [(#10198)](https://github.com/stdlib-js/stdlib/pull/10198) _(by Samarth Kolarkar, orthodox-64)_
 -   [`5ae946b`](https://github.com/stdlib-js/stdlib/commit/5ae946bda58f813e9ed23610719f395416985c88) - **bench:** update array initialisation and refactor to use string interpolation in `stats/anova1` [(#10199)](https://github.com/stdlib-js/stdlib/pull/10199) _(by Shubham)_
 -   [`4126555`](https://github.com/stdlib-js/stdlib/commit/412655574507fcca6df462c015ab741d7353fec0) - **bench:** update random value generation for `stats/base/dists/gumbel/skewness` [(#10261)](https://github.com/stdlib-js/stdlib/pull/10261) _(by Bhargav Dabhade)_
 -   [`bf1ee75`](https://github.com/stdlib-js/stdlib/commit/bf1ee75f724235ffc70d27d16a58d18c7e4e0d56) - **bench:** refactor to use string interpolation in `stats/base/dists/logistic` [(#10105)](https://github.com/stdlib-js/stdlib/pull/10105) _(by Shubham)_
@@ -7010,7 +7012,7 @@ A total of 566 issues were closed in this release:
 
 ### Contributors
 
-A total of 102 people contributed to this release. Thank you to the following contributors:
+A total of 103 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -7111,6 +7113,7 @@ A total of 102 people contributed to this release. Thank you to the following co
 -   jsai28
 -   navyansh007
 -   officiallyanee
+-   orthodox-64
 -   pranav-1720
 -   pxxad
 -   rahulrangers
