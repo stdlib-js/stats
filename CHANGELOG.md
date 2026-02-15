@@ -3688,6 +3688,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`bf1ee75`](https://github.com/stdlib-js/stdlib/commit/bf1ee75f724235ffc70d27d16a58d18c7e4e0d56) - **bench:** refactor to use string interpolation in `stats/base/dists/logistic` [(#10105)](https://github.com/stdlib-js/stdlib/pull/10105) _(by Shubham)_
 -   [`f04bd84`](https://github.com/stdlib-js/stdlib/commit/f04bd8446b04ed6a0e45822b20dbccf45bcb2ef7) - **feat:** add `stats/array/mskmaxabs` [(#10280)](https://github.com/stdlib-js/stdlib/pull/10280) _(by Sachin Pangal)_
 -   [`c7b5ae5`](https://github.com/stdlib-js/stdlib/commit/c7b5ae52a7ed0b5be7025ee3b93f8ae3f5d5aada) - **feat:** add `stats/array/mskminabs` [(#10281)](https://github.com/stdlib-js/stdlib/pull/10281) _(by Sachin Pangal)_
 -   [`0f2ea57`](https://github.com/stdlib-js/stdlib/commit/0f2ea572ed30d6c259cb103182a1237ec430b983) - **feat:** add Wald distribution variance package [(#9730)](https://github.com/stdlib-js/stdlib/pull/9730) _(by Manit Roy)_
