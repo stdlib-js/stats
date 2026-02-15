@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-14)
+## Unreleased (2026-02-15)
 
 <section class="features">
 
 ### Features
 
+-   [`7ef3bae`](https://github.com/stdlib-js/stdlib/commit/7ef3bae65f5d876db0c56d57ab84ea52e7699b7d) - add `stats/array/nanmskmidrange` [(#10224)](https://github.com/stdlib-js/stdlib/pull/10224)
 -   [`aec0634`](https://github.com/stdlib-js/stdlib/commit/aec0634d886bdade0dd7dd221bbe1bd655669594) - add `stats/array/rangeabs` [(#10227)](https://github.com/stdlib-js/stdlib/pull/10227)
 -   [`3088f39`](https://github.com/stdlib-js/stdlib/commit/3088f3987094c907d9b81fbdeeea5ac58a915ac3) - add implementation of `stats/base/dists/wald/kurtosis` [(#10216)](https://github.com/stdlib-js/stdlib/pull/10216)
 -   [`96f2808`](https://github.com/stdlib-js/stdlib/commit/96f28086b0a4bf03556f5ba91078d68c1823a27d) - add implementation of `stats/base/dists/wald/skewness` [(#10206)](https://github.com/stdlib-js/stdlib/pull/10206)
@@ -3684,6 +3685,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`7ef3bae`](https://github.com/stdlib-js/stdlib/commit/7ef3bae65f5d876db0c56d57ab84ea52e7699b7d) - **feat:** add `stats/array/nanmskmidrange` [(#10224)](https://github.com/stdlib-js/stdlib/pull/10224) _(by Sachin Pangal, stdlib-bot)_
 -   [`aec0634`](https://github.com/stdlib-js/stdlib/commit/aec0634d886bdade0dd7dd221bbe1bd655669594) - **feat:** add `stats/array/rangeabs` [(#10227)](https://github.com/stdlib-js/stdlib/pull/10227) _(by Sachin Pangal)_
 -   [`337e9e8`](https://github.com/stdlib-js/stdlib/commit/337e9e8ceed38e6409a2ec0b2268e79a15dc6ff1) - **bench:** refactor to use string interpolation in `stats/base/dists/cosine` [(#10169)](https://github.com/stdlib-js/stdlib/pull/10169) _(by Bhargav Dabhade)_
 -   [`e7e6955`](https://github.com/stdlib-js/stdlib/commit/e7e695564ed321e40640ba406cf85d8c2f854fc3) - **bench:** use string interpolation in `stats/base/ndarray/nanmeanpn` [(#10170)](https://github.com/stdlib-js/stdlib/pull/10170) _(by Om-A-osc)_
