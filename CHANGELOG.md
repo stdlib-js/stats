@@ -3688,6 +3688,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`5ae946b`](https://github.com/stdlib-js/stdlib/commit/5ae946bda58f813e9ed23610719f395416985c88) - **bench:** update array initialisation and refactor to use string interpolation in `stats/anova1` [(#10199)](https://github.com/stdlib-js/stdlib/pull/10199) _(by Shubham)_
 -   [`4126555`](https://github.com/stdlib-js/stdlib/commit/412655574507fcca6df462c015ab741d7353fec0) - **bench:** update random value generation for `stats/base/dists/gumbel/skewness` [(#10261)](https://github.com/stdlib-js/stdlib/pull/10261) _(by Bhargav Dabhade)_
 -   [`bf1ee75`](https://github.com/stdlib-js/stdlib/commit/bf1ee75f724235ffc70d27d16a58d18c7e4e0d56) - **bench:** refactor to use string interpolation in `stats/base/dists/logistic` [(#10105)](https://github.com/stdlib-js/stdlib/pull/10105) _(by Shubham)_
 -   [`f04bd84`](https://github.com/stdlib-js/stdlib/commit/f04bd8446b04ed6a0e45822b20dbccf45bcb2ef7) - **feat:** add `stats/array/mskmaxabs` [(#10280)](https://github.com/stdlib-js/stdlib/pull/10280) _(by Sachin Pangal)_
