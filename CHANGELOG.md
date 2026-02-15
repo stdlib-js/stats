@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0f2ea57`](https://github.com/stdlib-js/stdlib/commit/0f2ea572ed30d6c259cb103182a1237ec430b983) - add Wald distribution variance package [(#9730)](https://github.com/stdlib-js/stdlib/pull/9730)
 -   [`7ef3bae`](https://github.com/stdlib-js/stdlib/commit/7ef3bae65f5d876db0c56d57ab84ea52e7699b7d) - add `stats/array/nanmskmidrange` [(#10224)](https://github.com/stdlib-js/stdlib/pull/10224)
 -   [`aec0634`](https://github.com/stdlib-js/stdlib/commit/aec0634d886bdade0dd7dd221bbe1bd655669594) - add `stats/array/rangeabs` [(#10227)](https://github.com/stdlib-js/stdlib/pull/10227)
 -   [`3088f39`](https://github.com/stdlib-js/stdlib/commit/3088f3987094c907d9b81fbdeeea5ac58a915ac3) - add implementation of `stats/base/dists/wald/kurtosis` [(#10216)](https://github.com/stdlib-js/stdlib/pull/10216)
@@ -3685,6 +3686,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`0f2ea57`](https://github.com/stdlib-js/stdlib/commit/0f2ea572ed30d6c259cb103182a1237ec430b983) - **feat:** add Wald distribution variance package [(#9730)](https://github.com/stdlib-js/stdlib/pull/9730) _(by Manit Roy)_
 -   [`7b1ec1e`](https://github.com/stdlib-js/stdlib/commit/7b1ec1ee410f8c2a2e49d70bcf878e57ddb966d9) - **bench:** refactor to use string interpolation in `stats/base/dists/frechet` [(#10122)](https://github.com/stdlib-js/stdlib/pull/10122) _(by Shubham)_
 -   [`7ef3bae`](https://github.com/stdlib-js/stdlib/commit/7ef3bae65f5d876db0c56d57ab84ea52e7699b7d) - **feat:** add `stats/array/nanmskmidrange` [(#10224)](https://github.com/stdlib-js/stdlib/pull/10224) _(by Sachin Pangal, stdlib-bot)_
 -   [`aec0634`](https://github.com/stdlib-js/stdlib/commit/aec0634d886bdade0dd7dd221bbe1bd655669594) - **feat:** add `stats/array/rangeabs` [(#10227)](https://github.com/stdlib-js/stdlib/pull/10227) _(by Sachin Pangal)_
