@@ -3685,6 +3685,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`7b1ec1e`](https://github.com/stdlib-js/stdlib/commit/7b1ec1ee410f8c2a2e49d70bcf878e57ddb966d9) - **bench:** refactor to use string interpolation in `stats/base/dists/frechet` [(#10122)](https://github.com/stdlib-js/stdlib/pull/10122) _(by Shubham)_
 -   [`7ef3bae`](https://github.com/stdlib-js/stdlib/commit/7ef3bae65f5d876db0c56d57ab84ea52e7699b7d) - **feat:** add `stats/array/nanmskmidrange` [(#10224)](https://github.com/stdlib-js/stdlib/pull/10224) _(by Sachin Pangal, stdlib-bot)_
 -   [`aec0634`](https://github.com/stdlib-js/stdlib/commit/aec0634d886bdade0dd7dd221bbe1bd655669594) - **feat:** add `stats/array/rangeabs` [(#10227)](https://github.com/stdlib-js/stdlib/pull/10227) _(by Sachin Pangal)_
 -   [`337e9e8`](https://github.com/stdlib-js/stdlib/commit/337e9e8ceed38e6409a2ec0b2268e79a15dc6ff1) - **bench:** refactor to use string interpolation in `stats/base/dists/cosine` [(#10169)](https://github.com/stdlib-js/stdlib/pull/10169) _(by Bhargav Dabhade)_
