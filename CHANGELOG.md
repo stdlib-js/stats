@@ -3689,6 +3689,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`5360fda`](https://github.com/stdlib-js/stdlib/commit/5360fda9c2b6ace5ef3ebb3acdf96920d1ab6089) - **docs:** use correct PDF reference link in `stats/base/dists/signrank/pdf` [(#10303)](https://github.com/stdlib-js/stdlib/pull/10303) _(by Shubham)_
 -   [`8bfb552`](https://github.com/stdlib-js/stdlib/commit/8bfb5524d89a26ed6d0524d72d11e5a893338c5d) - **feat:** add C implementation for `stats/base/ndarray/snanmax` [(#10198)](https://github.com/stdlib-js/stdlib/pull/10198) _(by Samarth Kolarkar, orthodox-64)_
 -   [`5ae946b`](https://github.com/stdlib-js/stdlib/commit/5ae946bda58f813e9ed23610719f395416985c88) - **bench:** update array initialisation and refactor to use string interpolation in `stats/anova1` [(#10199)](https://github.com/stdlib-js/stdlib/pull/10199) _(by Shubham)_
 -   [`4126555`](https://github.com/stdlib-js/stdlib/commit/412655574507fcca6df462c015ab741d7353fec0) - **bench:** update random value generation for `stats/base/dists/gumbel/skewness` [(#10261)](https://github.com/stdlib-js/stdlib/pull/10261) _(by Bhargav Dabhade)_
