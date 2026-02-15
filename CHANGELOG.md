@@ -3688,6 +3688,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`4126555`](https://github.com/stdlib-js/stdlib/commit/412655574507fcca6df462c015ab741d7353fec0) - **bench:** update random value generation for `stats/base/dists/gumbel/skewness` [(#10261)](https://github.com/stdlib-js/stdlib/pull/10261) _(by Bhargav Dabhade)_
 -   [`bf1ee75`](https://github.com/stdlib-js/stdlib/commit/bf1ee75f724235ffc70d27d16a58d18c7e4e0d56) - **bench:** refactor to use string interpolation in `stats/base/dists/logistic` [(#10105)](https://github.com/stdlib-js/stdlib/pull/10105) _(by Shubham)_
 -   [`f04bd84`](https://github.com/stdlib-js/stdlib/commit/f04bd8446b04ed6a0e45822b20dbccf45bcb2ef7) - **feat:** add `stats/array/mskmaxabs` [(#10280)](https://github.com/stdlib-js/stdlib/pull/10280) _(by Sachin Pangal)_
 -   [`c7b5ae5`](https://github.com/stdlib-js/stdlib/commit/c7b5ae52a7ed0b5be7025ee3b93f8ae3f5d5aada) - **feat:** add `stats/array/mskminabs` [(#10281)](https://github.com/stdlib-js/stdlib/pull/10281) _(by Sachin Pangal)_
