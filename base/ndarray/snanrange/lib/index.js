@@ -37,23 +37,9 @@
 
 // MODULES //
 
-var join = require( 'path' ).join;
-var tryRequire = require( '@stdlib/utils/try-require' );
-var isError = require( '@stdlib/assert/is-error' );
 var main = require( './main.js' );
-
-
-// MAIN //
-
-var snanrange;
-var tmp = tryRequire( join( __dirname, './native.js' ) );
-if ( isError( tmp ) ) {
-	snanrange = main;
-} else {
-	snanrange = tmp;
-}
 
 
 // EXPORTS //
 
-module.exports = snanrange;
+module.exports = main;

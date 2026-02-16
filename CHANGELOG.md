@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`5a64342`](https://github.com/stdlib-js/stdlib/commit/5a643426403fa397b0bd695ff1deeddd002cc641) - add C implementation for `stats/base/ndarray/snanrange` [(#10258)](https://github.com/stdlib-js/stdlib/pull/10258)
 -   [`10b28fd`](https://github.com/stdlib-js/stdlib/commit/10b28fdb54393277d093066bf40c84412ca7601d) - add `stats/array/nanmidrange-by` [(#10273)](https://github.com/stdlib-js/stdlib/pull/10273)
 -   [`8bfb552`](https://github.com/stdlib-js/stdlib/commit/8bfb5524d89a26ed6d0524d72d11e5a893338c5d) - add C implementation for `stats/base/ndarray/snanmax` [(#10198)](https://github.com/stdlib-js/stdlib/pull/10198)
 -   [`f04bd84`](https://github.com/stdlib-js/stdlib/commit/f04bd8446b04ed6a0e45822b20dbccf45bcb2ef7) - add `stats/array/mskmaxabs` [(#10280)](https://github.com/stdlib-js/stdlib/pull/10280)
@@ -3691,7 +3690,6 @@ A total of 566 issues were closed in this release:
 
 <details>
 
--   [`5a64342`](https://github.com/stdlib-js/stdlib/commit/5a643426403fa397b0bd695ff1deeddd002cc641) - **feat:** add C implementation for `stats/base/ndarray/snanrange` [(#10258)](https://github.com/stdlib-js/stdlib/pull/10258) _(by Bhargav Dabhade, Sachin Pangal)_
 -   [`0feb882`](https://github.com/stdlib-js/stdlib/commit/0feb882c947d76d28bc6a7cd6b32d1c3431611d2) - **bench:** use single-colon for method and property access benchmarks _(by Philipp Burckhardt)_
 -   [`8d7f767`](https://github.com/stdlib-js/stdlib/commit/8d7f767735bb60e4ef54292f14da380f077fa953) - **test:** remove non-equal branch when testing against fixtures _(by Philipp Burckhardt)_
 -   [`a0c2995`](https://github.com/stdlib-js/stdlib/commit/a0c2995765caeb58bd72a0f9031f9d247c9a2cb0) - **test:** use Distributions for fixtures generation for independent verification _(by Philipp Burckhardt)_

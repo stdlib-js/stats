@@ -27,9 +27,8 @@ var filledarrayBy = require( '@stdlib/array/filled-by' );
 var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
-var snanrange = require( './../lib/main.js' );
+var snanrange = require( './../lib' );
 
 
 // FUNCTIONS //
@@ -110,7 +109,7 @@ function main() {
 	for ( i = min; i <= max; i++ ) {
 		len = pow( 10, i );
 		f = createBenchmark( len );
-		bench( format( '%s:len=%d', pkg, len ), f );
+		bench( pkg+':len='+len, f );
 	}
 }
 
