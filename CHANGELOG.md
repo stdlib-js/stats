@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e53e179`](https://github.com/stdlib-js/stdlib/commit/e53e179ec5f9b063604744804b989bd6ebe2381a) - add `stats/base/ndarray/dnanstdev` [(#10271)](https://github.com/stdlib-js/stdlib/pull/10271)
 -   [`5a64342`](https://github.com/stdlib-js/stdlib/commit/5a643426403fa397b0bd695ff1deeddd002cc641) - add C implementation for `stats/base/ndarray/snanrange` [(#10258)](https://github.com/stdlib-js/stdlib/pull/10258)
 -   [`10b28fd`](https://github.com/stdlib-js/stdlib/commit/10b28fdb54393277d093066bf40c84412ca7601d) - add `stats/array/nanmidrange-by` [(#10273)](https://github.com/stdlib-js/stdlib/pull/10273)
 -   [`8bfb552`](https://github.com/stdlib-js/stdlib/commit/8bfb5524d89a26ed6d0524d72d11e5a893338c5d) - add C implementation for `stats/base/ndarray/snanmax` [(#10198)](https://github.com/stdlib-js/stdlib/pull/10198)
@@ -3691,6 +3692,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`e53e179`](https://github.com/stdlib-js/stdlib/commit/e53e179ec5f9b063604744804b989bd6ebe2381a) - **feat:** add `stats/base/ndarray/dnanstdev` [(#10271)](https://github.com/stdlib-js/stdlib/pull/10271) _(by Pratik)_
 -   [`88c63b2`](https://github.com/stdlib-js/stdlib/commit/88c63b2692cdefa8caa7b42906478865bedd0521) - **bench:** update random value generation for `stats/base/dists/exponential` [(#10330)](https://github.com/stdlib-js/stdlib/pull/10330) _(by Siddhartha Mondal, Philipp Burckhardt)_
 -   [`18db4f6`](https://github.com/stdlib-js/stdlib/commit/18db4f6ca8230913325b71f53a49ad0aac41b10b) - **bench:** update random value generation for `stats/base/dists/frechet` [(#10335)](https://github.com/stdlib-js/stdlib/pull/10335) _(by Lokesh Ranjan)_
 -   [`f5199d6`](https://github.com/stdlib-js/stdlib/commit/f5199d619314724b7b0627f41aba3114b559cec8) - **bench:** update random value generation for `stats/base/dists/frechet` [(#10317)](https://github.com/stdlib-js/stdlib/pull/10317) _(by Lokesh Ranjan, Philipp Burckhardt)_
