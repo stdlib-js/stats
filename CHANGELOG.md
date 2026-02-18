@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-17)
+## Unreleased (2026-02-18)
 
 <section class="features">
 
@@ -3691,6 +3691,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`18db4f6`](https://github.com/stdlib-js/stdlib/commit/18db4f6ca8230913325b71f53a49ad0aac41b10b) - **bench:** update random value generation for `stats/base/dists/frechet` [(#10335)](https://github.com/stdlib-js/stdlib/pull/10335) _(by Lokesh Ranjan)_
 -   [`f5199d6`](https://github.com/stdlib-js/stdlib/commit/f5199d619314724b7b0627f41aba3114b559cec8) - **bench:** update random value generation for `stats/base/dists/frechet` [(#10317)](https://github.com/stdlib-js/stdlib/pull/10317) _(by Lokesh Ranjan, Philipp Burckhardt)_
 -   [`2e3e0e9`](https://github.com/stdlib-js/stdlib/commit/2e3e0e9f450c5fbcf1cab51d1d87a558afcaa93a) - **bench:** update random value generation for `stats/base/dists/f` [(#10316)](https://github.com/stdlib-js/stdlib/pull/10316) _(by Lokesh Ranjan)_
 -   [`5a64342`](https://github.com/stdlib-js/stdlib/commit/5a643426403fa397b0bd695ff1deeddd002cc641) - **feat:** add C implementation for `stats/base/ndarray/snanrange` [(#10258)](https://github.com/stdlib-js/stdlib/pull/10258) _(by Bhargav Dabhade, Sachin Pangal)_
