@@ -3692,6 +3692,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`ff420ae`](https://github.com/stdlib-js/stdlib/commit/ff420aed1e79bd9e89c7394571e2692c4108583c) - **bench:** fix description _(by Athan Reines)_
 -   [`c14812b`](https://github.com/stdlib-js/stdlib/commit/c14812bfee0ec6951166b9ff869289a39eba4174) - **style:** add missing decimal _(by Athan Reines)_
 -   [`e53e179`](https://github.com/stdlib-js/stdlib/commit/e53e179ec5f9b063604744804b989bd6ebe2381a) - **feat:** add `stats/base/ndarray/dnanstdev` [(#10271)](https://github.com/stdlib-js/stdlib/pull/10271) _(by Pratik)_
 -   [`88c63b2`](https://github.com/stdlib-js/stdlib/commit/88c63b2692cdefa8caa7b42906478865bedd0521) - **bench:** update random value generation for `stats/base/dists/exponential` [(#10330)](https://github.com/stdlib-js/stdlib/pull/10330) _(by Siddhartha Mondal, Philipp Burckhardt)_
