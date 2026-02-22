@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8a0bdab`](https://github.com/stdlib-js/stdlib/commit/8a0bdab18b22e650ce6ec73b87f347846774890f) - add `stats/strided/distances/dchebyshev
 -   [`e53e179`](https://github.com/stdlib-js/stdlib/commit/e53e179ec5f9b063604744804b989bd6ebe2381a) - add `stats/base/ndarray/dnanstdev` [(#10271)](https://github.com/stdlib-js/stdlib/pull/10271)
 -   [`5a64342`](https://github.com/stdlib-js/stdlib/commit/5a643426403fa397b0bd695ff1deeddd002cc641) - add C implementation for `stats/base/ndarray/snanrange` [(#10258)](https://github.com/stdlib-js/stdlib/pull/10258)
 -   [`10b28fd`](https://github.com/stdlib-js/stdlib/commit/10b28fdb54393277d093066bf40c84412ca7601d) - add `stats/array/nanmidrange-by` [(#10273)](https://github.com/stdlib-js/stdlib/pull/10273)
@@ -1495,6 +1496,16 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`becb440`](https://github.com/stdlib-js/stdlib/commit/becb440aaa166ce435909ba82f743009ad1e7b6d): remove `stats/strided/distances/dchebychev`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/distances/dchebyshev` which provides the same API and implementation.
+
+-   [`cc812eb`](https://github.com/stdlib-js/stdlib/commit/cc812eb5ac0285a79e7e0ac15ad09a194bd7364b): remove `dchebychev`
+
+    -   To migrate, users should access the symbol `dchebyshev` via the
+        `@stdlib/stats/strided/distances` namespace.
 
 -   [`80a9821`](https://github.com/stdlib-js/stdlib/commit/80a98213f6ca2e1102cc07b3ea3c7c160a7c8ef1): remove `stats/base/sdsnanmeanors`
 
@@ -3692,6 +3703,10 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`f9c61b1`](https://github.com/stdlib-js/stdlib/commit/f9c61b1b1f411ee4b15cf97b5cae853500bc6483) - **bench:** refactor to use string interpolation in `stats/base/dists/gumbel/ctor` [(#10397)](https://github.com/stdlib-js/stdlib/pull/10397) _(by Lokesh Ranjan)_
+-   [`becb440`](https://github.com/stdlib-js/stdlib/commit/becb440aaa166ce435909ba82f743009ad1e7b6d) - **remove:** remove `stats/strided/distances/dchebychev` _(by nakul-krishnakumar)_
+-   [`cc812eb`](https://github.com/stdlib-js/stdlib/commit/cc812eb5ac0285a79e7e0ac15ad09a194bd7364b) - **remove:** remove `dchebychev` from namespace _(by nakul-krishnakumar)_
+-   [`8a0bdab`](https://github.com/stdlib-js/stdlib/commit/8a0bdab18b22e650ce6ec73b87f347846774890f) - **feat:** add `stats/strided/distances/dchebyshev _(by nakul-krishnakumar)_
 -   [`ff420ae`](https://github.com/stdlib-js/stdlib/commit/ff420aed1e79bd9e89c7394571e2692c4108583c) - **bench:** fix description _(by Athan Reines)_
 -   [`c14812b`](https://github.com/stdlib-js/stdlib/commit/c14812bfee0ec6951166b9ff869289a39eba4174) - **style:** add missing decimal _(by Athan Reines)_
 -   [`e53e179`](https://github.com/stdlib-js/stdlib/commit/e53e179ec5f9b063604744804b989bd6ebe2381a) - **feat:** add `stats/base/ndarray/dnanstdev` [(#10271)](https://github.com/stdlib-js/stdlib/pull/10271) _(by Pratik)_
@@ -7033,7 +7048,7 @@ A total of 566 issues were closed in this release:
 
 ### Contributors
 
-A total of 104 people contributed to this release. Thank you to the following contributors:
+A total of 105 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
@@ -7133,6 +7148,7 @@ A total of 104 people contributed to this release. Thank you to the following co
 -   Yuvi Mittal
 -   daksha607
 -   jsai28
+-   nakul-krishnakumar
 -   navyansh007
 -   officiallyanee
 -   orthodox-64
