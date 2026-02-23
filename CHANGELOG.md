@@ -3703,6 +3703,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`9858a43`](https://github.com/stdlib-js/stdlib/commit/9858a43edd095b6b9abeb5bb69213b54ba9dc9ad) - **bench:** use string interpolation in `stats/strided/covarmtk` [(#10407)](https://github.com/stdlib-js/stdlib/pull/10407) _(by Om-A-osc)_
 -   [`a77d03a`](https://github.com/stdlib-js/stdlib/commit/a77d03ae128ff08d5404758c075fba5ac594ca0b) - **bench:** use string interpolation in `stats/strided/dcovarmtk` [(#10412)](https://github.com/stdlib-js/stdlib/pull/10412) _(by Om-A-osc)_
 -   [`f9c61b1`](https://github.com/stdlib-js/stdlib/commit/f9c61b1b1f411ee4b15cf97b5cae853500bc6483) - **bench:** refactor to use string interpolation in `stats/base/dists/gumbel/ctor` [(#10397)](https://github.com/stdlib-js/stdlib/pull/10397) _(by Lokesh Ranjan)_
 -   [`becb440`](https://github.com/stdlib-js/stdlib/commit/becb440aaa166ce435909ba82f743009ad1e7b6d) - **remove:** remove `stats/strided/distances/dchebychev` _(by nakul-krishnakumar)_
