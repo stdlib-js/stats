@@ -128,7 +128,7 @@ tape( 'the function supports an `x` offset', function test( t ) {
 
 	// Test against textbook formula: max(4,3,2)
 	d = dchebyshev( 3, x, 2, 1, y, 1, 0 );
-	t.strictEqual( isAlmostSameValue( d, 4.0, 0 ), true, 'returns expected value' + d );
+	t.strictEqual( isAlmostSameValue( d, 4.0, 0 ), true, 'returns expected value' );
 	t.end();
 });
 

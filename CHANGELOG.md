@@ -3703,6 +3703,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`eff29c8`](https://github.com/stdlib-js/stdlib/commit/eff29c8492e90564c18a01db480cc4ab3455aff6) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`aecc65d`](https://github.com/stdlib-js/stdlib/commit/aecc65d494cda9ca4cb51a0a5badc002bd070604) - **style:** fix missing semicolon _(by Athan Reines)_
 -   [`955bb7d`](https://github.com/stdlib-js/stdlib/commit/955bb7d29d23da091807ab2fb5c087c30d2faee2) - **style:** fix missing semicolon _(by Athan Reines)_
 -   [`5cc3f4f`](https://github.com/stdlib-js/stdlib/commit/5cc3f4f8aad580d87fe6ae2ed41271e4791cca70) - **bench:** refactor to use string interpolation in `stats/base/dists/exponential` [(#10346)](https://github.com/stdlib-js/stdlib/pull/10346) _(by Vishal Gaikwad)_
