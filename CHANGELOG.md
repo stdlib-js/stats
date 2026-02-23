@@ -3703,6 +3703,8 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`8620184`](https://github.com/stdlib-js/stdlib/commit/8620184ee6817de3a8014563248653c7f8d578e4) - **bench:** use string interpolation in `stats/base/ndarray/smskrange` [(#10344)](https://github.com/stdlib-js/stdlib/pull/10344) _(by ANKIT SINGH YADAV)_
+-   [`df7e670`](https://github.com/stdlib-js/stdlib/commit/df7e670a48f3403adefb402ce0a4e5e977e7af53) - **bench:** refactor to use string interpolation in `stats/base/dists/degenerate` [(#10326)](https://github.com/stdlib-js/stdlib/pull/10326) _(by Vishal Gaikwad, Athan Reines)_
 -   [`8f782c1`](https://github.com/stdlib-js/stdlib/commit/8f782c1e3d721d52693c5b5e1418f21c6e81d166) - **docs:** update namespace table of contents [(#10425)](https://github.com/stdlib-js/stdlib/pull/10425) _(by stdlib-bot)_
 -   [`6c58908`](https://github.com/stdlib-js/stdlib/commit/6c58908473e2462a6155d2cc1af1ccd045bc7eb1) - **docs:** update related packages sections [(#10328)](https://github.com/stdlib-js/stdlib/pull/10328) _(by stdlib-bot)_
 -   [`eff29c8`](https://github.com/stdlib-js/stdlib/commit/eff29c8492e90564c18a01db480cc4ab3455aff6) - **chore:** minor clean-up _(by Philipp Burckhardt)_
@@ -7056,8 +7058,9 @@ A total of 566 issues were closed in this release:
 
 ### Contributors
 
-A total of 105 people contributed to this release. Thank you to the following contributors:
+A total of 106 people contributed to this release. Thank you to the following contributors:
 
+-   ANKIT SINGH YADAV
 -   Aadish Jain
 -   Aayush Khanna
 -   Abdul Kaium
