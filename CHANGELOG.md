@@ -3703,6 +3703,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`4afe7e2`](https://github.com/stdlib-js/stdlib/commit/4afe7e2c67726f35d17696cb100df1bc94f09db9) - **style:** add missing space [(#10061)](https://github.com/stdlib-js/stdlib/pull/10061) _(by LZYCODEr, stdlib-bot)_
 -   [`ac2de21`](https://github.com/stdlib-js/stdlib/commit/ac2de219ef2fb87ceb61360e6c267c5ab1e3cdbb) - **style:** replace erroneous tab character with space _(by Philipp Burckhardt)_
 -   [`77a562a`](https://github.com/stdlib-js/stdlib/commit/77a562af730f04df4f25308c21fca66cb994b65a) - **bench:** refactor to use string interpolation in `stats/base/dists/hypergeometric` [(#10390)](https://github.com/stdlib-js/stdlib/pull/10390) _(by Vishal Gaikwad)_
 -   [`8620184`](https://github.com/stdlib-js/stdlib/commit/8620184ee6817de3a8014563248653c7f8d578e4) - **bench:** use string interpolation in `stats/base/ndarray/smskrange` [(#10344)](https://github.com/stdlib-js/stdlib/pull/10344) _(by ANKIT SINGH YADAV)_
@@ -7060,7 +7061,7 @@ A total of 566 issues were closed in this release:
 
 ### Contributors
 
-A total of 106 people contributed to this release. Thank you to the following contributors:
+A total of 107 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
 -   Aadish Jain
@@ -7115,6 +7116,7 @@ A total of 106 people contributed to this release. Thank you to the following co
 -   Karan Anand
 -   Kaustubh Patange
 -   Kohantika Nath
+-   LZYCODEr
 -   Lalit Narayan Yadav
 -   Lokesh Ranjan
 -   MANI
