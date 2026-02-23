@@ -3703,6 +3703,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`8f782c1`](https://github.com/stdlib-js/stdlib/commit/8f782c1e3d721d52693c5b5e1418f21c6e81d166) - **docs:** update namespace table of contents [(#10425)](https://github.com/stdlib-js/stdlib/pull/10425) _(by stdlib-bot)_
 -   [`6c58908`](https://github.com/stdlib-js/stdlib/commit/6c58908473e2462a6155d2cc1af1ccd045bc7eb1) - **docs:** update related packages sections [(#10328)](https://github.com/stdlib-js/stdlib/pull/10328) _(by stdlib-bot)_
 -   [`eff29c8`](https://github.com/stdlib-js/stdlib/commit/eff29c8492e90564c18a01db480cc4ab3455aff6) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`aecc65d`](https://github.com/stdlib-js/stdlib/commit/aecc65d494cda9ca4cb51a0a5badc002bd070604) - **style:** fix missing semicolon _(by Athan Reines)_
