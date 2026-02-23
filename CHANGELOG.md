@@ -3703,6 +3703,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`ac2de21`](https://github.com/stdlib-js/stdlib/commit/ac2de219ef2fb87ceb61360e6c267c5ab1e3cdbb) - **style:** replace erroneous tab character with space _(by Philipp Burckhardt)_
 -   [`77a562a`](https://github.com/stdlib-js/stdlib/commit/77a562af730f04df4f25308c21fca66cb994b65a) - **bench:** refactor to use string interpolation in `stats/base/dists/hypergeometric` [(#10390)](https://github.com/stdlib-js/stdlib/pull/10390) _(by Vishal Gaikwad)_
 -   [`8620184`](https://github.com/stdlib-js/stdlib/commit/8620184ee6817de3a8014563248653c7f8d578e4) - **bench:** use string interpolation in `stats/base/ndarray/smskrange` [(#10344)](https://github.com/stdlib-js/stdlib/pull/10344) _(by ANKIT SINGH YADAV)_
 -   [`df7e670`](https://github.com/stdlib-js/stdlib/commit/df7e670a48f3403adefb402ce0a4e5e977e7af53) - **bench:** refactor to use string interpolation in `stats/base/dists/degenerate` [(#10326)](https://github.com/stdlib-js/stdlib/pull/10326) _(by Vishal Gaikwad, Athan Reines)_
