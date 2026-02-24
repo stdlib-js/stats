@@ -21,8 +21,7 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var Float64Array = require( '@stdlib/array/float64' );
-var uniform = require( '@stdlib/random/base/uniform' );
+var uniform = require( '@stdlib/random/array/uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var format = require( '@stdlib/string/format' );
@@ -34,22 +33,20 @@ var Levy = require( './../lib' );
 
 bench( format( '%s::instantiation', pkg ), function benchmark( b ) {
 	var dist;
-	var len;
+	var opts;
 	var mu;
 	var c;
 	var i;
 
-	len = 100;
-	mu = new Float64Array( len );
-	c = new Float64Array( len );
-	for ( i = 0; i < len; i++ ) {
-		mu[ i ] = uniform( EPS, 10.0 );
-		c[ i ] = uniform( EPS, 20.0 );
-	}
+	opts = {
+		'dtype': 'float64'
+	};
+	mu = uniform( 100, EPS, 10.0, opts );
+	c = uniform( 100, EPS, 20.0, opts );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		dist = new Levy( mu[ i % len ], c[ i % len ] );
+		dist = new Levy( mu[ i % mu.length ], c[ i % c.length ] );
 		if ( !( dist instanceof Levy ) ) {
 			b.fail( 'should return a distribution instance' );
 		}
@@ -90,25 +87,24 @@ bench( format( '%s::get:mu', pkg ), function benchmark( b ) {
 
 bench( format( '%s::set:mu', pkg ), function benchmark( b ) {
 	var dist;
-	var len;
+	var opts;
 	var mu;
 	var c;
 	var y;
 	var i;
 
+	opts = {
+		'dtype': 'float64'
+	};
 	mu = 2.0;
 	c = 3.0;
-	len = 100;
-	y = new Float64Array( len );
+	y = uniform( 100, EPS, 100.0, opts );
 	dist = new Levy( mu, c );
-	for ( i = 0; i < len; i++ ) {
-		y[ i ] = uniform( EPS, 100.0 );
-	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		dist.mu = y[ i % len ];
-		if ( dist.mu !== y[ i % len ] ) {
+		dist.mu = y[ i % y.length ];
+		if ( dist.mu !== y[ i % y.length ] ) {
 			b.fail( 'should return set value' );
 		}
 	}
@@ -148,25 +144,24 @@ bench( format( '%s::get:c', pkg ), function benchmark( b ) {
 
 bench( format( '%s::set:c', pkg ), function benchmark( b ) {
 	var dist;
-	var len;
+	var opts;
 	var mu;
 	var c;
 	var y;
 	var i;
 
+	opts = {
+		'dtype': 'float64'
+	};
 	mu = 2.0;
 	c = 3.0;
-	len = 100;
-	y = new Float64Array( len );
+	y = uniform( 100, EPS, 100.0, opts );
 	dist = new Levy( mu, c );
-	for ( i = 0; i < len; i++ ) {
-		y[ i ] = uniform( EPS, 100.0 );
-	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		dist.c = y[ i % len ];
-		if ( dist.c !== y[ i % len ] ) {
+		dist.c = y[ i % y.length ];
+		if ( dist.c !== y[ i % y.length ] ) {
 			b.fail( 'should return set value' );
 		}
 	}
@@ -180,25 +175,24 @@ bench( format( '%s::set:c', pkg ), function benchmark( b ) {
 
 bench( format( '%s:entropy', pkg ), function benchmark( b ) {
 	var dist;
-	var len;
+	var opts;
 	var mu;
 	var x;
 	var c;
 	var y;
 	var i;
 
+	opts = {
+		'dtype': 'float64'
+	};
 	mu = 2.0;
 	c = 3.0;
-	len = 100;
-	x = new Float64Array( len );
+	x = uniform( 100, EPS, 100.0, opts );
 	dist = new Levy( mu, c );
-	for ( i = 0; i < len; i++ ) {
-		x[ i ] = uniform( EPS, 100.0 );
-	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		dist.mu = x[ i % len ];
+		dist.mu = x[ i % x.length ];
 		y = dist.entropy;
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
@@ -214,25 +208,24 @@ bench( format( '%s:entropy', pkg ), function benchmark( b ) {
 
 bench( format( '%s:mean', pkg ), function benchmark( b ) {
 	var dist;
-	var len;
+	var opts;
 	var mu;
 	var x;
 	var c;
 	var y;
 	var i;
 
+	opts = {
+		'dtype': 'float64'
+	};
 	mu = 2.0;
 	c = 3.0;
-	len = 100;
-	x = new Float64Array( len );
+	x = uniform( 100, EPS, 100.0, opts );
 	dist = new Levy( mu, c );
-	for ( i = 0; i < len; i++ ) {
-		x[ i ] = uniform( EPS, 100.0 );
-	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		dist.mu = x[ i % len ];
+		dist.mu = x[ i % x.length ];
 		y = dist.mean;
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
@@ -248,25 +241,24 @@ bench( format( '%s:mean', pkg ), function benchmark( b ) {
 
 bench( format( '%s:median', pkg ), function benchmark( b ) {
 	var dist;
-	var len;
+	var opts;
 	var mu;
 	var x;
 	var c;
 	var y;
 	var i;
 
+	opts = {
+		'dtype': 'float64'
+	};
 	mu = 2.0;
 	c = 3.0;
-	len = 100;
-	x = new Float64Array( len );
+	x = uniform( 100, EPS, 100.0, opts );
 	dist = new Levy( mu, c );
-	for ( i = 0; i < len; i++ ) {
-		x[ i ] = uniform( EPS, 100.0 );
-	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		dist.mu = x[ i % len ];
+		dist.mu = x[ i % x.length ];
 		y = dist.median;
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
@@ -282,25 +274,24 @@ bench( format( '%s:median', pkg ), function benchmark( b ) {
 
 bench( format( '%s:mode', pkg ), function benchmark( b ) {
 	var dist;
-	var len;
+	var opts;
 	var mu;
 	var x;
 	var c;
 	var y;
 	var i;
 
+	opts = {
+		'dtype': 'float64'
+	};
 	mu = 2.0;
 	c = 3.0;
-	len = 100;
-	x = new Float64Array( len );
+	x = uniform( 100, 1.0 + EPS, 100.0, opts );
 	dist = new Levy( mu, c );
-	for ( i = 0; i < len; i++ ) {
-		x[ i ] = uniform( 1.0 + EPS, 100.0 );
-	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		dist.mu = x[ i % len ];
+		dist.mu = x[ i % x.length ];
 		y = dist.mode;
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
@@ -316,25 +307,24 @@ bench( format( '%s:mode', pkg ), function benchmark( b ) {
 
 bench( format( '%s:stdev', pkg ), function benchmark( b ) {
 	var dist;
-	var len;
+	var opts;
 	var mu;
 	var x;
 	var c;
 	var y;
 	var i;
 
+	opts = {
+		'dtype': 'float64'
+	};
 	mu = 2.0;
 	c = 3.0;
-	len = 100;
-	x = new Float64Array( len );
+	x = uniform( 100, EPS, 100.0, opts );
 	dist = new Levy( mu, c );
-	for ( i = 0; i < len; i++ ) {
-		x[ i ] = uniform( EPS, 100.0 );
-	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		dist.mu = x[ i % len ];
+		dist.mu = x[ i % x.length ];
 		y = dist.stdev;
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
@@ -350,25 +340,24 @@ bench( format( '%s:stdev', pkg ), function benchmark( b ) {
 
 bench( format( '%s:variance', pkg ), function benchmark( b ) {
 	var dist;
-	var len;
+	var opts;
 	var mu;
 	var x;
 	var c;
 	var y;
 	var i;
 
+	opts = {
+		'dtype': 'float64'
+	};
 	mu = 2.0;
 	c = 3.0;
-	len = 100;
-	x = new Float64Array( len );
+	x = uniform( 100, EPS, 100.0, opts );
 	dist = new Levy( mu, c );
-	for ( i = 0; i < len; i++ ) {
-		x[ i ] = uniform( EPS, 100.0 );
-	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		dist.mu = x[ i % len ];
+		dist.mu = x[ i % x.length ];
 		y = dist.variance;
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
@@ -384,25 +373,24 @@ bench( format( '%s:variance', pkg ), function benchmark( b ) {
 
 bench( format( '%s:cdf', pkg ), function benchmark( b ) {
 	var dist;
-	var len;
+	var opts;
 	var mu;
 	var c;
 	var x;
 	var y;
 	var i;
 
+	opts = {
+		'dtype': 'float64'
+	};
 	mu = 2.0;
 	c = 3.0;
-	len = 100;
-	x = new Float64Array( len );
+	x = uniform( 100, -3.0, 3.0, opts );
 	dist = new Levy( mu, c );
-	for ( i = 0; i < len; i++ ) {
-		x[ i ] = uniform( -3.0, 3.0 );
-	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = dist.cdf( x[ i % len ] );
+		y = dist.cdf( x[ i % x.length ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
@@ -417,25 +405,24 @@ bench( format( '%s:cdf', pkg ), function benchmark( b ) {
 
 bench( format( '%s:logpdf', pkg ), function benchmark( b ) {
 	var dist;
-	var len;
+	var opts;
 	var mu;
 	var c;
 	var x;
 	var y;
 	var i;
 
+	opts = {
+		'dtype': 'float64'
+	};
 	mu = 1.0;
 	c = 2.0;
-	len = 100;
-	x = new Float64Array( len );
+	x = uniform( 100, -3.0, 3.0, opts );
 	dist = new Levy( mu, c );
-	for ( i = 0; i < len; i++ ) {
-		x[ i ] = uniform( -3.0, 3.0 );
-	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = dist.logpdf( x[ i % len ] );
+		y = dist.logpdf( x[ i % x.length ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
@@ -450,25 +437,24 @@ bench( format( '%s:logpdf', pkg ), function benchmark( b ) {
 
 bench( format( '%s:pdf', pkg ), function benchmark( b ) {
 	var dist;
-	var len;
+	var opts;
 	var mu;
 	var c;
 	var x;
 	var y;
 	var i;
 
+	opts = {
+		'dtype': 'float64'
+	};
 	mu = 2.0;
 	c = 3.0;
-	len = 100;
-	x = new Float64Array( len );
+	x = uniform( 100, -3.0, 3.0, opts );
 	dist = new Levy( mu, c );
-	for ( i = 0; i < len; i++ ) {
-		x[ i ] = uniform( -3.0, 3.0 );
-	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = dist.pdf( x[ i % len ] );
+		y = dist.pdf( x[ i % x.length ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
@@ -483,25 +469,24 @@ bench( format( '%s:pdf', pkg ), function benchmark( b ) {
 
 bench( format( '%s:quantile', pkg ), function benchmark( b ) {
 	var dist;
-	var len;
+	var opts;
 	var mu;
 	var c;
 	var x;
 	var y;
 	var i;
 
+	opts = {
+		'dtype': 'float64'
+	};
 	mu = 2.0;
 	c = 3.0;
-	len = 100;
-	x = new Float64Array( len );
+	x = uniform( 100, 0.0, 1.0, opts );
 	dist = new Levy( mu, c );
-	for ( i = 0; i < len; i++ ) {
-		x[ i ] = uniform( 0.0, 1.0 );
-	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		y = dist.quantile( x[ i % len ] );
+		y = dist.quantile( x[ i % x.length ] );
 		if ( isnan( y ) ) {
 			b.fail( 'should not return NaN' );
 		}
