@@ -3703,6 +3703,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`4e515d0`](https://github.com/stdlib-js/stdlib/commit/4e515d00f1842205ce95fa65d53d95d19b1ee939) - **bench:** refactor to use string interpolation in `stats/nanmax-by` [(#10462)](https://github.com/stdlib-js/stdlib/pull/10462) _(by Kamal Singh Rautela)_
 -   [`7f69289`](https://github.com/stdlib-js/stdlib/commit/7f69289b72f9026099def38e09c93ee50068b056) - **bench:** update random value generation for `stats/base/dists/gumbel/mean` [(#10363)](https://github.com/stdlib-js/stdlib/pull/10363) _(by Bhargav Dabhade)_
 -   [`0c1fea4`](https://github.com/stdlib-js/stdlib/commit/0c1fea42a94d1ec0d4ba8e9f29e411f0f3515041) - **bench:** update random value generation for `stats/base/dists/levy` [(#10449)](https://github.com/stdlib-js/stdlib/pull/10449) _(by Lokesh Ranjan, Philipp Burckhardt)_
 -   [`45e5fab`](https://github.com/stdlib-js/stdlib/commit/45e5fabec7c1617c1aa88cc757ade2f799221a38) - **bench:** refactor to use string interpolation in `stats/base/dists/geometric` [(#10361)](https://github.com/stdlib-js/stdlib/pull/10361) _(by Vishal Gaikwad, Athan Reines)_
@@ -7070,7 +7071,7 @@ A total of 566 issues were closed in this release:
 
 ### Contributors
 
-A total of 107 people contributed to this release. Thank you to the following contributors:
+A total of 108 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
 -   Aadish Jain
@@ -7122,6 +7123,7 @@ A total of 107 people contributed to this release. Thank you to the following co
 -   Jalaj Kumar
 -   Jay Soni
 -   Jaysukh Makvana
+-   Kamal Singh Rautela
 -   Karan Anand
 -   Kaustubh Patange
 -   Kohantika Nath
