@@ -3703,6 +3703,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`b01344e`](https://github.com/stdlib-js/stdlib/commit/b01344ed3b330781f2fc55fb1cfd652cae06d4f1) - **bench:** refactor to use string interpolation in `stats/kstest` [(#10457)](https://github.com/stdlib-js/stdlib/pull/10457) _(by Kamal Singh Rautela)_
 -   [`7784156`](https://github.com/stdlib-js/stdlib/commit/7784156d4d3b0f963e2b91005dfcd6cde2787770) - **bench:** refactor to use string interpolation in `stats/maxsorted` [(#10459)](https://github.com/stdlib-js/stdlib/pull/10459) _(by Kamal Singh Rautela)_
 -   [`4e515d0`](https://github.com/stdlib-js/stdlib/commit/4e515d00f1842205ce95fa65d53d95d19b1ee939) - **bench:** refactor to use string interpolation in `stats/nanmax-by` [(#10462)](https://github.com/stdlib-js/stdlib/pull/10462) _(by Kamal Singh Rautela)_
 -   [`7f69289`](https://github.com/stdlib-js/stdlib/commit/7f69289b72f9026099def38e09c93ee50068b056) - **bench:** update random value generation for `stats/base/dists/gumbel/mean` [(#10363)](https://github.com/stdlib-js/stdlib/pull/10363) _(by Bhargav Dabhade)_
