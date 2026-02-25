@@ -44,7 +44,7 @@ bench( pkg, function benchmark( b ) {
 	};
 	mu = uniform( 100, -10.0, 10.0, opts );
 	s = uniform( 100, EPS, 5.0, opts );
-	x = uniform( 100, 10, 100.0, opts );
+	x = uniform( 100, 10.0, 100.0, opts );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {

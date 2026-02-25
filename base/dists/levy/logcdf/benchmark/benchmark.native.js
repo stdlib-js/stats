@@ -26,6 +26,7 @@ var tryRequire = require( '@stdlib/utils/try-require' );
 var uniform = require( '@stdlib/random/array/uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var EPS = require( '@stdlib/constants/float64/eps' );
+var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 
 
@@ -39,7 +40,7 @@ var opts = {
 
 // MAIN //
 
-bench( pkg, opts, function benchmark( b ) {
+bench( format( '%s::native', pkg ), opts, function benchmark( b ) {
 	var scale;
 	var opts;
 	var mu;
@@ -52,7 +53,7 @@ bench( pkg, opts, function benchmark( b ) {
 	};
 	mu = uniform( 100, -50.0, 50.0, opts );
 	x = uniform( 100, 50.0, 150.0, opts );
-	scale = uniform( 100, EPS + 50.0, 150.0, opts );
+	scale = uniform( 100, EPS, 20.0, opts );
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {

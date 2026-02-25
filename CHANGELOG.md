@@ -3704,6 +3704,8 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`685691c`](https://github.com/stdlib-js/stdlib/commit/685691c6065af53a0527bcd690d1ade468f452df) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`10cd4eb`](https://github.com/stdlib-js/stdlib/commit/10cd4ebe76e9d71bf4de1807716e1cc9ff5edf79) - **style:** add spaces and use leading slash in relative require _(by Philipp Burckhardt)_
 -   [`707fcd4`](https://github.com/stdlib-js/stdlib/commit/707fcd4483bd8989ea064842812555f5e382dc52) - **feat:** add `stats/base/ndarray/dnanstdevpn` [(#10375)](https://github.com/stdlib-js/stdlib/pull/10375) _(by Pratik, Athan Reines)_
 -   [`1c79757`](https://github.com/stdlib-js/stdlib/commit/1c79757a58ad07f354d864008d6f898d891cb540) - **bench:** refactor to use string interpolation in `stats/base/cuminabs` [(#10472)](https://github.com/stdlib-js/stdlib/pull/10472) _(by Vishal Gaikwad)_
 -   [`8f0eca3`](https://github.com/stdlib-js/stdlib/commit/8f0eca3776656e00cdc36beb5bf6acb57ace9940) - **bench:** refactor to use string interpolation in `stats/base/cumin` [(#10471)](https://github.com/stdlib-js/stdlib/pull/10471) _(by Vishal Gaikwad)_
