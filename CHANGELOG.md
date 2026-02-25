@@ -1391,6 +1391,7 @@
 
 ### Bug Fixes
 
+-   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn`
 -   [`17da583`](https://github.com/stdlib-js/stdlib/commit/17da583dbeb78fa8b171d68af7011cba7b4f6be6) - improve type specificity
 -   [`7df5cea`](https://github.com/stdlib-js/stdlib/commit/7df5cea68c5d3239fa979b7e4d200d19c10bf9f2) - remove unneeded export comments and ensure browser build includes ndarray method
 -   [`ad77b26`](https://github.com/stdlib-js/stdlib/commit/ad77b26a72b25bb371da51c3cb665c2803a8d9b0) - remove unneeded export comments and ensure browser build includes ndarray method
@@ -3704,6 +3705,14 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`4756e95`](https://github.com/stdlib-js/stdlib/commit/4756e952607ba75dc0013d2b8e226e7d3db000d9) - **docs:** use \"probability mass function\" instead of \"probability density function\" for PMF methods _(by Philipp Burckhardt)_
+-   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - **fix:** remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn` _(by Philipp Burckhardt)_
+-   [`e5fc414`](https://github.com/stdlib-js/stdlib/commit/e5fc414b47afe395178b88858a9731651f409b46) - **chore:** fix JSDoc and spacing issues _(by Philipp Burckhardt)_
+-   [`46f06ad`](https://github.com/stdlib-js/stdlib/commit/46f06ad6754741320241c60ff79ffdf0a7175b07) - **docs:** fix section tags in README files _(by Philipp Burckhardt)_
+-   [`4fb4995`](https://github.com/stdlib-js/stdlib/commit/4fb49958095bee6d0cfee8b5d63fcfdf94f87e6e) - **docs:** fix missing and malformed section tags in README files _(by Philipp Burckhardt)_
+-   [`f7191c0`](https://github.com/stdlib-js/stdlib/commit/f7191c093f0607ad6de9b7a21612f36bb3a84d90) - **chore:** use relative paths and remove trailing slashes in require paths _(by Philipp Burckhardt)_
+-   [`b7879ad`](https://github.com/stdlib-js/stdlib/commit/b7879adce2d3bf7a6a1d4e626fd60172b3e33155) - **docs:** fix missing and malformed section closing tags in README files _(by Philipp Burckhardt)_
+-   [`0ca797b`](https://github.com/stdlib-js/stdlib/commit/0ca797b5558b96111256a7446eafe101761b240b) - **bench:** use float literals for `uniform` range arguments _(by Philipp Burckhardt)_
 -   [`685691c`](https://github.com/stdlib-js/stdlib/commit/685691c6065af53a0527bcd690d1ade468f452df) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`10cd4eb`](https://github.com/stdlib-js/stdlib/commit/10cd4ebe76e9d71bf4de1807716e1cc9ff5edf79) - **style:** add spaces and use leading slash in relative require _(by Philipp Burckhardt)_
 -   [`707fcd4`](https://github.com/stdlib-js/stdlib/commit/707fcd4483bd8989ea064842812555f5e382dc52) - **feat:** add `stats/base/ndarray/dnanstdevpn` [(#10375)](https://github.com/stdlib-js/stdlib/pull/10375) _(by Pratik, Athan Reines)_
