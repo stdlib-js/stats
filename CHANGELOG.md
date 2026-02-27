@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-25)
+## Unreleased (2026-02-27)
 
 <section class="features">
 
@@ -3705,6 +3705,10 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`3422651`](https://github.com/stdlib-js/stdlib/commit/3422651a3ec2e6717f25d82020a62f00dbe2aa78) - **docs:** add missing section closing comments in READMEs _(by Philipp Burckhardt)_
+-   [`ee1f1a7`](https://github.com/stdlib-js/stdlib/commit/ee1f1a7b7d7de0dba506731a05698e0bb43b2d1c) - **docs:** fix wrong section order in `stats/base/dists` and `stats/strided` READMEs _(by Philipp Burckhardt)_
+-   [`0249e24`](https://github.com/stdlib-js/stdlib/commit/0249e2403b412deca30b2675326eaef513a7ce3e) - **docs:** remove redundant NaN notes in `stats/base/ndarray/dnanstdev*` READMEs _(by Philipp Burckhardt)_
+-   [`f886d31`](https://github.com/stdlib-js/stdlib/commit/f886d3153a4fd2e2270db0475ba4a4ece0a5d26e) - **docs:** fix orphaned section comments in `stats/base/dists/geometric` READMEs _(by Philipp Burckhardt)_
 -   [`4756e95`](https://github.com/stdlib-js/stdlib/commit/4756e952607ba75dc0013d2b8e226e7d3db000d9) - **docs:** use \"probability mass function\" instead of \"probability density function\" for PMF methods _(by Philipp Burckhardt)_
 -   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - **fix:** remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn` _(by Philipp Burckhardt)_
 -   [`e5fc414`](https://github.com/stdlib-js/stdlib/commit/e5fc414b47afe395178b88858a9731651f409b46) - **chore:** fix JSDoc and spacing issues _(by Philipp Burckhardt)_
