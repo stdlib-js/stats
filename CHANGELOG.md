@@ -3709,6 +3709,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`29f6a68`](https://github.com/stdlib-js/stdlib/commit/29f6a6888d2d653afc0f7ea8d81bb1872fb42780) - **bench:** refactor to use string interpolation in `stats/base/dists/negative-binomial` [(#10101)](https://github.com/stdlib-js/stdlib/pull/10101) _(by Shubham, Philipp Burckhardt)_
 -   [`c265420`](https://github.com/stdlib-js/stdlib/commit/c265420bbb10e78261bf3d1beebe2f5764f0a5c5) - **bench:** update random value generation for `stats/base/dists/f/ctor` [(#10373)](https://github.com/stdlib-js/stdlib/pull/10373) _(by Lokesh Ranjan)_
 -   [`a77363d`](https://github.com/stdlib-js/stdlib/commit/a77363df1266f71666762de91ea7b9c7f6022317) - **bench:** use string interpolation in `stats/strided/dmskmin` [(#10570)](https://github.com/stdlib-js/stdlib/pull/10570) _(by Om-A-osc)_
 -   [`56b63fa`](https://github.com/stdlib-js/stdlib/commit/56b63fa3c38a36688609217c4f9c4ce9d946f3c0) - **bench:** use string interpolation in `stats/strided/dmskrange` [(#10571)](https://github.com/stdlib-js/stdlib/pull/10571) _(by Om-A-osc)_
