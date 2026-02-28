@@ -3706,6 +3706,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`217401a`](https://github.com/stdlib-js/stdlib/commit/217401ace9e30879c844967d58e004af54d48336) - **test:** update test message in `stats/strided/distances/dcityblock` [(#10563)](https://github.com/stdlib-js/stdlib/pull/10563) _(by Nakul Krishnakumar)_
 -   [`177c9b9`](https://github.com/stdlib-js/stdlib/commit/177c9b9ef19cd92078c39b8f8aa0bd8364fb6ca3) - **docs:** fix notes _(by Athan Reines)_
 -   [`2d771d9`](https://github.com/stdlib-js/stdlib/commit/2d771d906a8ecd41c343ca61128107aa7d7c18e5) - **bench:** update random value generation for `stats/base/dists/gumbel/entropy` [(#10362)](https://github.com/stdlib-js/stdlib/pull/10362) _(by Bhargav Dabhade)_
 -   [`94c1431`](https://github.com/stdlib-js/stdlib/commit/94c143124e150a3751b1a70205917f986dca8c03) - **feat:** add `stats/strided/dnanmskminabs` [(#10382)](https://github.com/stdlib-js/stdlib/pull/10382) _(by Sachin Pangal)_
