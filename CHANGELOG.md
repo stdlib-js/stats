@@ -3710,6 +3710,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`95e3a15`](https://github.com/stdlib-js/stdlib/commit/95e3a153b0483dbee7c0d55cb80eee826f0933fb) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`05adc43`](https://github.com/stdlib-js/stdlib/commit/05adc43e3716e88ca774d9af89a8125e8154482b) - **feat:** add C implementation for `stats/base/ndarray/dmidrange` [(#10077)](https://github.com/stdlib-js/stdlib/pull/10077) _(by Bhargav Dabhade, Athan Reines, Sachin Pangal)_
 -   [`e506e10`](https://github.com/stdlib-js/stdlib/commit/e506e10c96aef1b8f8d9a48ed9c6d289e81a763d) - **docs:** fix spelling _(by Athan Reines)_
 -   [`29f6a68`](https://github.com/stdlib-js/stdlib/commit/29f6a6888d2d653afc0f7ea8d81bb1872fb42780) - **bench:** refactor to use string interpolation in `stats/base/dists/negative-binomial` [(#10101)](https://github.com/stdlib-js/stdlib/pull/10101) _(by Shubham, Philipp Burckhardt)_
