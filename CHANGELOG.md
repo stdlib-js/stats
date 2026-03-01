@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`05adc43`](https://github.com/stdlib-js/stdlib/commit/05adc43e3716e88ca774d9af89a8125e8154482b) - add C implementation for `stats/base/ndarray/dmidrange` [(#10077)](https://github.com/stdlib-js/stdlib/pull/10077)
 -   [`a2d1f94`](https://github.com/stdlib-js/stdlib/commit/a2d1f943965c8f2fbd40bb56a71be529c9fa5b82) - add C implementation for `stats/base/ndarray/smaxabs` [(#10040)](https://github.com/stdlib-js/stdlib/pull/10040)
 -   [`a2a6b49`](https://github.com/stdlib-js/stdlib/commit/a2a6b49348a8057afc805b27b535dcbce79fd117) - add C implementation for `stats/base/ndarray/sminabs` [(#10044)](https://github.com/stdlib-js/stdlib/pull/10044)
 -   [`0682ac1`](https://github.com/stdlib-js/stdlib/commit/0682ac10d0ad67b46453f186b3577901886fa42c) - add C implementation for `stats/base/ndarray/dmean` [(#10052)](https://github.com/stdlib-js/stdlib/pull/10052)
@@ -3709,6 +3710,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`05adc43`](https://github.com/stdlib-js/stdlib/commit/05adc43e3716e88ca774d9af89a8125e8154482b) - **feat:** add C implementation for `stats/base/ndarray/dmidrange` [(#10077)](https://github.com/stdlib-js/stdlib/pull/10077) _(by Bhargav Dabhade, Athan Reines, Sachin Pangal)_
 -   [`e506e10`](https://github.com/stdlib-js/stdlib/commit/e506e10c96aef1b8f8d9a48ed9c6d289e81a763d) - **docs:** fix spelling _(by Athan Reines)_
 -   [`29f6a68`](https://github.com/stdlib-js/stdlib/commit/29f6a6888d2d653afc0f7ea8d81bb1872fb42780) - **bench:** refactor to use string interpolation in `stats/base/dists/negative-binomial` [(#10101)](https://github.com/stdlib-js/stdlib/pull/10101) _(by Shubham, Philipp Burckhardt)_
 -   [`c265420`](https://github.com/stdlib-js/stdlib/commit/c265420bbb10e78261bf3d1beebe2f5764f0a5c5) - **bench:** update random value generation for `stats/base/dists/f/ctor` [(#10373)](https://github.com/stdlib-js/stdlib/pull/10373) _(by Lokesh Ranjan)_
