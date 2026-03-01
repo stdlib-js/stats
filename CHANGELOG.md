@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0bfb1ea`](https://github.com/stdlib-js/stdlib/commit/0bfb1ea3fb08d9703a791ec910848a4ea742bb6a) - add C implementation for `stats/base/ndarray/srange` [(#10062)](https://github.com/stdlib-js/stdlib/pull/10062)
 -   [`05adc43`](https://github.com/stdlib-js/stdlib/commit/05adc43e3716e88ca774d9af89a8125e8154482b) - add C implementation for `stats/base/ndarray/dmidrange` [(#10077)](https://github.com/stdlib-js/stdlib/pull/10077)
 -   [`a2d1f94`](https://github.com/stdlib-js/stdlib/commit/a2d1f943965c8f2fbd40bb56a71be529c9fa5b82) - add C implementation for `stats/base/ndarray/smaxabs` [(#10040)](https://github.com/stdlib-js/stdlib/pull/10040)
 -   [`a2a6b49`](https://github.com/stdlib-js/stdlib/commit/a2a6b49348a8057afc805b27b535dcbce79fd117) - add C implementation for `stats/base/ndarray/sminabs` [(#10044)](https://github.com/stdlib-js/stdlib/pull/10044)
@@ -3710,6 +3711,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`0bfb1ea`](https://github.com/stdlib-js/stdlib/commit/0bfb1ea3fb08d9703a791ec910848a4ea742bb6a) - **feat:** add C implementation for `stats/base/ndarray/srange` [(#10062)](https://github.com/stdlib-js/stdlib/pull/10062) _(by Samarth Kolarkar, Philipp Burckhardt, Sachin Pangal)_
 -   [`95e3a15`](https://github.com/stdlib-js/stdlib/commit/95e3a153b0483dbee7c0d55cb80eee826f0933fb) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`05adc43`](https://github.com/stdlib-js/stdlib/commit/05adc43e3716e88ca774d9af89a8125e8154482b) - **feat:** add C implementation for `stats/base/ndarray/dmidrange` [(#10077)](https://github.com/stdlib-js/stdlib/pull/10077) _(by Bhargav Dabhade, Athan Reines, Sachin Pangal)_
 -   [`e506e10`](https://github.com/stdlib-js/stdlib/commit/e506e10c96aef1b8f8d9a48ed9c6d289e81a763d) - **docs:** fix spelling _(by Athan Reines)_
