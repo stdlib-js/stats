@@ -3711,7 +3711,6 @@ A total of 566 issues were closed in this release:
 
 <details>
 
--   [`2a63029`](https://github.com/stdlib-js/stdlib/commit/2a630296ce60cf31ab440a7fc17ea5544d51b760) - **bench:** use string interpolation in `stats/strided/dnanmaxabs` [(#10616)](https://github.com/stdlib-js/stdlib/pull/10616) _(by Om-A-osc)_
 -   [`6c8e3ef`](https://github.com/stdlib-js/stdlib/commit/6c8e3efe4a74238567a19eb5f1c2dbdfce6b04f1) - **bench:** use string interpolation in `stats/strided/dnanmean` [(#10617)](https://github.com/stdlib-js/stdlib/pull/10617) _(by Om-A-osc)_
 -   [`2eabe57`](https://github.com/stdlib-js/stdlib/commit/2eabe57c621a41fd976c51bad133835460ffc4a8) - **bench:** use string interpolation in `stats/strided/dnanmeanors` [(#10618)](https://github.com/stdlib-js/stdlib/pull/10618) _(by Om-A-osc)_
 -   [`0bfb1ea`](https://github.com/stdlib-js/stdlib/commit/0bfb1ea3fb08d9703a791ec910848a4ea742bb6a) - **feat:** add C implementation for `stats/base/ndarray/srange` [(#10062)](https://github.com/stdlib-js/stdlib/pull/10062) _(by Samarth Kolarkar, Philipp Burckhardt, Sachin Pangal)_
