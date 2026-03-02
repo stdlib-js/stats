@@ -37,6 +37,15 @@ var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 var ns = {};
 
 /**
+* @name dchebyshev
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/distances/dchebyshev}
+*/
+setReadOnly( ns, 'dchebyshev', require( './../../../strided/distances/dchebyshev' ) );
+
+/**
 * @name dcityblock
 * @memberof ns
 * @readonly
@@ -71,6 +80,15 @@ setReadOnly( ns, 'dcosineSimilarity', require( './../../../strided/distances/dco
 * @see {@link module:@stdlib/stats/strided/distances/deuclidean}
 */
 setReadOnly( ns, 'deuclidean', require( './../../../strided/distances/deuclidean' ) );
+
+/**
+* @name dminkowski
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/distances/dminkowski}
+*/
+setReadOnly( ns, 'dminkowski', require( './../../../strided/distances/dminkowski' ) );
 
 /**
 * @name dsquaredEuclidean

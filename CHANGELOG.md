@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`ca008ab`](https://github.com/stdlib-js/stdlib/commit/ca008ab16b38a0a428413fd78ffc689e2be0bb6f) - add `dchebyshev` to namespace
+-   [`ef03050`](https://github.com/stdlib-js/stdlib/commit/ef0305025b8a22090c88d891db824d22da1f2dcf) - add `dminkowski` to namespace
 -   [`aab353b`](https://github.com/stdlib-js/stdlib/commit/aab353b810da08a1015a2f3010833d5628a6c2fb) - add `stats/strided/distances/dminkowski` [(#10567)](https://github.com/stdlib-js/stdlib/pull/10567)
 -   [`0bfb1ea`](https://github.com/stdlib-js/stdlib/commit/0bfb1ea3fb08d9703a791ec910848a4ea742bb6a) - add C implementation for `stats/base/ndarray/srange` [(#10062)](https://github.com/stdlib-js/stdlib/pull/10062)
 -   [`05adc43`](https://github.com/stdlib-js/stdlib/commit/05adc43e3716e88ca774d9af89a8125e8154482b) - add C implementation for `stats/base/ndarray/dmidrange` [(#10077)](https://github.com/stdlib-js/stdlib/pull/10077)
@@ -3713,6 +3715,8 @@ A total of 566 issues were closed in this release:
 <details>
 
 -   [`605b1df`](https://github.com/stdlib-js/stdlib/commit/605b1dfa2f484bb76264475b1308c883a08eab75) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`ca008ab`](https://github.com/stdlib-js/stdlib/commit/ca008ab16b38a0a428413fd78ffc689e2be0bb6f) - **feat:** add `dchebyshev` to namespace _(by Athan Reines)_
+-   [`ef03050`](https://github.com/stdlib-js/stdlib/commit/ef0305025b8a22090c88d891db824d22da1f2dcf) - **feat:** add `dminkowski` to namespace _(by Athan Reines)_
 -   [`aab353b`](https://github.com/stdlib-js/stdlib/commit/aab353b810da08a1015a2f3010833d5628a6c2fb) - **feat:** add `stats/strided/distances/dminkowski` [(#10567)](https://github.com/stdlib-js/stdlib/pull/10567) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`3badc70`](https://github.com/stdlib-js/stdlib/commit/3badc707161e55feca4501c7d031171a7813eb39) - **bench:** refactor to use string interpolation in `stats/base/dists/pareto-type1` [(#10467)](https://github.com/stdlib-js/stdlib/pull/10467) _(by Vishal Gaikwad)_
 -   [`27cf3ca`](https://github.com/stdlib-js/stdlib/commit/27cf3caea5ccce5f1af8a1ef06ede0f20f1b1abe) - **bench:** use string interpolation in `stats/strided/dmskmax` [(#10603)](https://github.com/stdlib-js/stdlib/pull/10603) _(by Om-A-osc)_
