@@ -3711,6 +3711,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`3badc70`](https://github.com/stdlib-js/stdlib/commit/3badc707161e55feca4501c7d031171a7813eb39) - **bench:** refactor to use string interpolation in `stats/base/dists/pareto-type1` [(#10467)](https://github.com/stdlib-js/stdlib/pull/10467) _(by Vishal Gaikwad)_
 -   [`27cf3ca`](https://github.com/stdlib-js/stdlib/commit/27cf3caea5ccce5f1af8a1ef06ede0f20f1b1abe) - **bench:** use string interpolation in `stats/strided/dmskmax` [(#10603)](https://github.com/stdlib-js/stdlib/pull/10603) _(by Om-A-osc)_
 -   [`2a63029`](https://github.com/stdlib-js/stdlib/commit/2a630296ce60cf31ab440a7fc17ea5544d51b760) - **bench:** use string interpolation in `stats/strided/dnanmaxabs` [(#10616)](https://github.com/stdlib-js/stdlib/pull/10616) _(by Om-A-osc)_
 -   [`6c8e3ef`](https://github.com/stdlib-js/stdlib/commit/6c8e3efe4a74238567a19eb5f1c2dbdfce6b04f1) - **bench:** use string interpolation in `stats/strided/dnanmean` [(#10617)](https://github.com/stdlib-js/stdlib/pull/10617) _(by Om-A-osc)_
