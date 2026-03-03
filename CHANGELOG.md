@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-02)
+## Unreleased (2026-03-03)
 
 <section class="features">
 
@@ -3714,6 +3714,7 @@ A total of 566 issues were closed in this release:
 
 <details>
 
+-   [`63d2333`](https://github.com/stdlib-js/stdlib/commit/63d233347e79e1c70485d93307f5e3f9de4f1308) - **docs:** update namespace table of contents [(#10668)](https://github.com/stdlib-js/stdlib/pull/10668) _(by stdlib-bot)_
 -   [`605b1df`](https://github.com/stdlib-js/stdlib/commit/605b1dfa2f484bb76264475b1308c883a08eab75) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`ca008ab`](https://github.com/stdlib-js/stdlib/commit/ca008ab16b38a0a428413fd78ffc689e2be0bb6f) - **feat:** add `dchebyshev` to namespace _(by Athan Reines)_
 -   [`ef03050`](https://github.com/stdlib-js/stdlib/commit/ef0305025b8a22090c88d891db824d22da1f2dcf) - **feat:** add `dminkowski` to namespace _(by Athan Reines)_
