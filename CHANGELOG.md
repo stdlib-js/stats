@@ -3715,6 +3715,7 @@ A total of 567 issues were closed in this release:
 
 <details>
 
+-   [`09bcd1e`](https://github.com/stdlib-js/stdlib/commit/09bcd1e668dda1e87e29d1464190833054906e09) - **test:** fix handling of negative zero [(#10649)](https://github.com/stdlib-js/stdlib/pull/10649) _(by Siddhartha Mondal)_
 -   [`0295f28`](https://github.com/stdlib-js/stdlib/commit/0295f28fdb538a0e6f022fa544c1ee78bf818809) - **chore:** address commit comments [(#10665)](https://github.com/stdlib-js/stdlib/pull/10665) _(by Partha Das)_
 -   [`278b4c0`](https://github.com/stdlib-js/stdlib/commit/278b4c0aa7da4e546722a9b5e91c4889b8fcdae8) - **feat:** update `stats/strided/distances` TypeScript declarations [(#10667)](https://github.com/stdlib-js/stdlib/pull/10667) _(by stdlib-bot)_
 -   [`63d2333`](https://github.com/stdlib-js/stdlib/commit/63d233347e79e1c70485d93307f5e3f9de4f1308) - **docs:** update namespace table of contents [(#10668)](https://github.com/stdlib-js/stdlib/pull/10668) _(by stdlib-bot)_
