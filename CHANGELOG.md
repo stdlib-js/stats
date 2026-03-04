@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d93d218`](https://github.com/stdlib-js/stdlib/commit/d93d218286692afdc512af397da0b712bb21570c) - add `stats/strided/dnanmskmaxabs` [(#10381)](https://github.com/stdlib-js/stdlib/pull/10381)
 -   [`2ef7f49`](https://github.com/stdlib-js/stdlib/commit/2ef7f493d387d3a003c8d7532b0e1fc3fc33dfd6) - add `stats/strided/snanmskmaxabs` [(#10383)](https://github.com/stdlib-js/stdlib/pull/10383)
 -   [`565d711`](https://github.com/stdlib-js/stdlib/commit/565d711c96e07927caa577af8cb3d27c14a37bcf) - add `stats/strided/snanmskminabs` [(#10384)](https://github.com/stdlib-js/stdlib/pull/10384)
 -   [`278b4c0`](https://github.com/stdlib-js/stdlib/commit/278b4c0aa7da4e546722a9b5e91c4889b8fcdae8) - update `stats/strided/distances` TypeScript declarations [(#10667)](https://github.com/stdlib-js/stdlib/pull/10667)
@@ -3717,6 +3718,7 @@ A total of 568 issues were closed in this release:
 
 <details>
 
+-   [`d93d218`](https://github.com/stdlib-js/stdlib/commit/d93d218286692afdc512af397da0b712bb21570c) - **feat:** add `stats/strided/dnanmskmaxabs` [(#10381)](https://github.com/stdlib-js/stdlib/pull/10381) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
 -   [`2ef7f49`](https://github.com/stdlib-js/stdlib/commit/2ef7f493d387d3a003c8d7532b0e1fc3fc33dfd6) - **feat:** add `stats/strided/snanmskmaxabs` [(#10383)](https://github.com/stdlib-js/stdlib/pull/10383) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
 -   [`565d711`](https://github.com/stdlib-js/stdlib/commit/565d711c96e07927caa577af8cb3d27c14a37bcf) - **feat:** add `stats/strided/snanmskminabs` [(#10384)](https://github.com/stdlib-js/stdlib/pull/10384) _(by Sachin Pangal, stdlib-bot)_
 -   [`b2dc6c7`](https://github.com/stdlib-js/stdlib/commit/b2dc6c7d1107be6c9bc2accfb56a703c2c81ea37) - **refactor:** remove redundant code from `stats/strided/distances/dcityblock` [(#10690)](https://github.com/stdlib-js/stdlib/pull/10690) _(by Nakul Krishnakumar)_
