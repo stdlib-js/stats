@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-03)
+## Unreleased (2026-03-04)
 
 <section class="features">
 
 ### Features
 
+-   [`565d711`](https://github.com/stdlib-js/stdlib/commit/565d711c96e07927caa577af8cb3d27c14a37bcf) - add `stats/strided/snanmskminabs` [(#10384)](https://github.com/stdlib-js/stdlib/pull/10384)
 -   [`278b4c0`](https://github.com/stdlib-js/stdlib/commit/278b4c0aa7da4e546722a9b5e91c4889b8fcdae8) - update `stats/strided/distances` TypeScript declarations [(#10667)](https://github.com/stdlib-js/stdlib/pull/10667)
 -   [`ca008ab`](https://github.com/stdlib-js/stdlib/commit/ca008ab16b38a0a428413fd78ffc689e2be0bb6f) - add `dchebyshev` to namespace
 -   [`ef03050`](https://github.com/stdlib-js/stdlib/commit/ef0305025b8a22090c88d891db824d22da1f2dcf) - add `dminkowski` to namespace
@@ -3715,6 +3716,8 @@ A total of 568 issues were closed in this release:
 
 <details>
 
+-   [`565d711`](https://github.com/stdlib-js/stdlib/commit/565d711c96e07927caa577af8cb3d27c14a37bcf) - **feat:** add `stats/strided/snanmskminabs` [(#10384)](https://github.com/stdlib-js/stdlib/pull/10384) _(by Sachin Pangal, stdlib-bot)_
+-   [`b2dc6c7`](https://github.com/stdlib-js/stdlib/commit/b2dc6c7d1107be6c9bc2accfb56a703c2c81ea37) - **refactor:** remove redundant code from `stats/strided/distances/dcityblock` [(#10690)](https://github.com/stdlib-js/stdlib/pull/10690) _(by Nakul Krishnakumar)_
 -   [`c76f2eb`](https://github.com/stdlib-js/stdlib/commit/c76f2eb9f4a415b2039a0624c62f1b4adb162508) - **chore:** fix JavaScript lint errors [(#10664)](https://github.com/stdlib-js/stdlib/pull/10664) _(by Partha Das)_
 -   [`09bcd1e`](https://github.com/stdlib-js/stdlib/commit/09bcd1e668dda1e87e29d1464190833054906e09) - **test:** fix handling of negative zero [(#10649)](https://github.com/stdlib-js/stdlib/pull/10649) _(by Siddhartha Mondal)_
 -   [`0295f28`](https://github.com/stdlib-js/stdlib/commit/0295f28fdb538a0e6f022fa544c1ee78bf818809) - **chore:** address commit comments [(#10665)](https://github.com/stdlib-js/stdlib/pull/10665) _(by Partha Das)_
