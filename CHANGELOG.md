@@ -3719,6 +3719,7 @@ A total of 568 issues were closed in this release:
 
 <details>
 
+-   [`ef7e6f0`](https://github.com/stdlib-js/stdlib/commit/ef7e6f021e5d0d32022caf3cfdeaad729c4ac7eb) - **bench:** update random value generation for `stats/base/dists/frechet/ctor` [(#10364)](https://github.com/stdlib-js/stdlib/pull/10364) _(by Lokesh Ranjan, Philipp Burckhardt)_
 -   [`361e9fb`](https://github.com/stdlib-js/stdlib/commit/361e9fb9af4e1587183e7d777fd081f6477433b8) - **bench:** refactor to use string interpolation in `stats/min-by` [(#10465)](https://github.com/stdlib-js/stdlib/pull/10465) _(by Kamal Singh Rautela)_
 -   [`0c31eaf`](https://github.com/stdlib-js/stdlib/commit/0c31eafee1a195d04c0624f11cc4039b7e7035af) - **docs:** fix ndarray dtype in `stats/base/ndarray/dnanmskrange` example [(#10697)](https://github.com/stdlib-js/stdlib/pull/10697) _(by Sachin Pangal)_
 -   [`675c404`](https://github.com/stdlib-js/stdlib/commit/675c404341e210a6ff4d37477bbc3f79e927fd8d) - **bench:** refactor to use string interpolation in `stats/base/dists/binomial` [(#10176)](https://github.com/stdlib-js/stdlib/pull/10176) _(by Vishal Gaikwad)_
