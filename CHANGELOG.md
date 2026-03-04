@@ -3719,6 +3719,7 @@ A total of 568 issues were closed in this release:
 
 <details>
 
+-   [`675c404`](https://github.com/stdlib-js/stdlib/commit/675c404341e210a6ff4d37477bbc3f79e927fd8d) - **bench:** refactor to use string interpolation in `stats/base/dists/binomial` [(#10176)](https://github.com/stdlib-js/stdlib/pull/10176) _(by Vishal Gaikwad)_
 -   [`12c2cee`](https://github.com/stdlib-js/stdlib/commit/12c2cee21de81594436e583fc379339cf5ac89c1) - **bench:** refactor to use string interpolation in `stats/base/dists/chisquare` [(#10325)](https://github.com/stdlib-js/stdlib/pull/10325) _(by Vishal Gaikwad)_
 -   [`14e416c`](https://github.com/stdlib-js/stdlib/commit/14e416c7532119d9041085ba106b08a7dd6f5a59) - **feat:** add C implementation for `stats/base/ndarray/dmeankbn2` [(#10371)](https://github.com/stdlib-js/stdlib/pull/10371) _(by Bhargav Dabhade, Sachin Pangal)_
 -   [`d93d218`](https://github.com/stdlib-js/stdlib/commit/d93d218286692afdc512af397da0b712bb21570c) - **feat:** add `stats/strided/dnanmskmaxabs` [(#10381)](https://github.com/stdlib-js/stdlib/pull/10381) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
