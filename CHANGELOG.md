@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`14e416c`](https://github.com/stdlib-js/stdlib/commit/14e416c7532119d9041085ba106b08a7dd6f5a59) - add C implementation for `stats/base/ndarray/dmeankbn2` [(#10371)](https://github.com/stdlib-js/stdlib/pull/10371)
 -   [`d93d218`](https://github.com/stdlib-js/stdlib/commit/d93d218286692afdc512af397da0b712bb21570c) - add `stats/strided/dnanmskmaxabs` [(#10381)](https://github.com/stdlib-js/stdlib/pull/10381)
 -   [`2ef7f49`](https://github.com/stdlib-js/stdlib/commit/2ef7f493d387d3a003c8d7532b0e1fc3fc33dfd6) - add `stats/strided/snanmskmaxabs` [(#10383)](https://github.com/stdlib-js/stdlib/pull/10383)
 -   [`565d711`](https://github.com/stdlib-js/stdlib/commit/565d711c96e07927caa577af8cb3d27c14a37bcf) - add `stats/strided/snanmskminabs` [(#10384)](https://github.com/stdlib-js/stdlib/pull/10384)
@@ -3718,6 +3719,8 @@ A total of 568 issues were closed in this release:
 
 <details>
 
+-   [`12c2cee`](https://github.com/stdlib-js/stdlib/commit/12c2cee21de81594436e583fc379339cf5ac89c1) - **bench:** refactor to use string interpolation in `stats/base/dists/chisquare` [(#10325)](https://github.com/stdlib-js/stdlib/pull/10325) _(by Vishal Gaikwad)_
+-   [`14e416c`](https://github.com/stdlib-js/stdlib/commit/14e416c7532119d9041085ba106b08a7dd6f5a59) - **feat:** add C implementation for `stats/base/ndarray/dmeankbn2` [(#10371)](https://github.com/stdlib-js/stdlib/pull/10371) _(by Bhargav Dabhade, Sachin Pangal)_
 -   [`d93d218`](https://github.com/stdlib-js/stdlib/commit/d93d218286692afdc512af397da0b712bb21570c) - **feat:** add `stats/strided/dnanmskmaxabs` [(#10381)](https://github.com/stdlib-js/stdlib/pull/10381) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
 -   [`2ef7f49`](https://github.com/stdlib-js/stdlib/commit/2ef7f493d387d3a003c8d7532b0e1fc3fc33dfd6) - **feat:** add `stats/strided/snanmskmaxabs` [(#10383)](https://github.com/stdlib-js/stdlib/pull/10383) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
 -   [`565d711`](https://github.com/stdlib-js/stdlib/commit/565d711c96e07927caa577af8cb3d27c14a37bcf) - **feat:** add `stats/strided/snanmskminabs` [(#10384)](https://github.com/stdlib-js/stdlib/pull/10384) _(by Sachin Pangal, stdlib-bot)_
