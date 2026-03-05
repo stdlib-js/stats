@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-04)
+## Unreleased (2026-03-05)
 
 <section class="features">
 
@@ -3719,6 +3719,7 @@ A total of 568 issues were closed in this release:
 
 <details>
 
+-   [`826063c`](https://github.com/stdlib-js/stdlib/commit/826063c21aea9a86e84306227d3b6eb007533e4f) - **bench:** use string interpolation in `stats/mean` [(#10704)](https://github.com/stdlib-js/stdlib/pull/10704) _(by Om-A-osc)_
 -   [`ef7e6f0`](https://github.com/stdlib-js/stdlib/commit/ef7e6f021e5d0d32022caf3cfdeaad729c4ac7eb) - **bench:** update random value generation for `stats/base/dists/frechet/ctor` [(#10364)](https://github.com/stdlib-js/stdlib/pull/10364) _(by Lokesh Ranjan, Philipp Burckhardt)_
 -   [`361e9fb`](https://github.com/stdlib-js/stdlib/commit/361e9fb9af4e1587183e7d777fd081f6477433b8) - **bench:** refactor to use string interpolation in `stats/min-by` [(#10465)](https://github.com/stdlib-js/stdlib/pull/10465) _(by Kamal Singh Rautela)_
 -   [`0c31eaf`](https://github.com/stdlib-js/stdlib/commit/0c31eafee1a195d04c0624f11cc4039b7e7035af) - **docs:** fix ndarray dtype in `stats/base/ndarray/dnanmskrange` example [(#10697)](https://github.com/stdlib-js/stdlib/pull/10697) _(by Sachin Pangal)_
