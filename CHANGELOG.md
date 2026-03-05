@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`6488982`](https://github.com/stdlib-js/stdlib/commit/6488982297259a8092cfd6d5396aeaeb500e25f8) - add `stats/base/ndarray/dnanmskminabs` [(#10386)](https://github.com/stdlib-js/stdlib/pull/10386)
 -   [`c88c38d`](https://github.com/stdlib-js/stdlib/commit/c88c38d1550cd513ef474683e50e4545f9b43d97) - add `stats/base/ndarray/snanmskmaxabs` [(#10387)](https://github.com/stdlib-js/stdlib/pull/10387)
 -   [`9dd4768`](https://github.com/stdlib-js/stdlib/commit/9dd47683bd91211772158d2cf35507d8dfdc4547) - add `stats/base/ndarray/snanmskminabs` [(#10388)](https://github.com/stdlib-js/stdlib/pull/10388)
 -   [`14e416c`](https://github.com/stdlib-js/stdlib/commit/14e416c7532119d9041085ba106b08a7dd6f5a59) - add C implementation for `stats/base/ndarray/dmeankbn2` [(#10371)](https://github.com/stdlib-js/stdlib/pull/10371)
@@ -3721,6 +3722,7 @@ A total of 568 issues were closed in this release:
 
 <details>
 
+-   [`6488982`](https://github.com/stdlib-js/stdlib/commit/6488982297259a8092cfd6d5396aeaeb500e25f8) - **feat:** add `stats/base/ndarray/dnanmskminabs` [(#10386)](https://github.com/stdlib-js/stdlib/pull/10386) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
 -   [`c88c38d`](https://github.com/stdlib-js/stdlib/commit/c88c38d1550cd513ef474683e50e4545f9b43d97) - **feat:** add `stats/base/ndarray/snanmskmaxabs` [(#10387)](https://github.com/stdlib-js/stdlib/pull/10387) _(by Sachin Pangal, stdlib-bot)_
 -   [`9dd4768`](https://github.com/stdlib-js/stdlib/commit/9dd47683bd91211772158d2cf35507d8dfdc4547) - **feat:** add `stats/base/ndarray/snanmskminabs` [(#10388)](https://github.com/stdlib-js/stdlib/pull/10388) _(by Sachin Pangal, stdlib-bot)_
 -   [`826063c`](https://github.com/stdlib-js/stdlib/commit/826063c21aea9a86e84306227d3b6eb007533e4f) - **bench:** use string interpolation in `stats/mean` [(#10704)](https://github.com/stdlib-js/stdlib/pull/10704) _(by Om-A-osc)_
