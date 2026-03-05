@@ -3723,6 +3723,7 @@ A total of 568 issues were closed in this release:
 
 <details>
 
+-   [`e09a028`](https://github.com/stdlib-js/stdlib/commit/e09a02844bdbb9a72253b6942716bb6255ab8c65) - **bench:** use string interpolation in `stats/maxabs` [(#10702)](https://github.com/stdlib-js/stdlib/pull/10702) _(by Om-A-osc)_
 -   [`1370ff7`](https://github.com/stdlib-js/stdlib/commit/1370ff792d230c5cf14568ee1418af5603cb3579) - **bench:** use string interpolation in `stats/max-by` [(#10703)](https://github.com/stdlib-js/stdlib/pull/10703) _(by Om-A-osc)_
 -   [`f46aad3`](https://github.com/stdlib-js/stdlib/commit/f46aad3ada07d52f96fc728d994e3ccd5a2c89de) - **feat:** add `stats/base/ndarray/dnanmskmaxabs` [(#10385)](https://github.com/stdlib-js/stdlib/pull/10385) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
 -   [`6488982`](https://github.com/stdlib-js/stdlib/commit/6488982297259a8092cfd6d5396aeaeb500e25f8) - **feat:** add `stats/base/ndarray/dnanmskminabs` [(#10386)](https://github.com/stdlib-js/stdlib/pull/10386) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
