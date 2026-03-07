@@ -3723,6 +3723,8 @@ A total of 570 issues were closed in this release:
 
 <details>
 
+-   [`1ec3451`](https://github.com/stdlib-js/stdlib/commit/1ec34512653d2ce74a4b4fe9ad2a6392b56e4a93) - **bench:** refactor to use string interpolation in `stats/array/min` [(#10785)](https://github.com/stdlib-js/stdlib/pull/10785) _(by Aniket Sonawane)_
+-   [`dec8616`](https://github.com/stdlib-js/stdlib/commit/dec8616925247d81da1800ab71c3fa0e5946a6db) - **bench:** refactor to use string interpolation in `stats/array/min-by` [(#10786)](https://github.com/stdlib-js/stdlib/pull/10786) _(by Aniket Sonawane)_
 -   [`34f2f90`](https://github.com/stdlib-js/stdlib/commit/34f2f9060941e2dd7cd4840770547b1f8dc9f91f) - **bench:** refactor to use string interpolation in `stats/array/meankbn` [(#10787)](https://github.com/stdlib-js/stdlib/pull/10787) _(by Aniket Sonawane)_
 -   [`bbd880b`](https://github.com/stdlib-js/stdlib/commit/bbd880b65fbd2ec9973e4308943da956767f23da) - **bench:** refactor to use string interpolation in `stats/array/minsorted` [(#10788)](https://github.com/stdlib-js/stdlib/pull/10788) _(by Aniket Sonawane)_
 -   [`ffd68a0`](https://github.com/stdlib-js/stdlib/commit/ffd68a0037f7a409a5ada4ebfa75426eaa256bd2) - **bench:** refactor to use string interpolation in `stats/array/variancewd` [(#10789)](https://github.com/stdlib-js/stdlib/pull/10789) _(by Aniket Sonawane)_
