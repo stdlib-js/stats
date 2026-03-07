@@ -3723,6 +3723,7 @@ A total of 570 issues were closed in this release:
 
 <details>
 
+-   [`ffd68a0`](https://github.com/stdlib-js/stdlib/commit/ffd68a0037f7a409a5ada4ebfa75426eaa256bd2) - **bench:** refactor to use string interpolation in `stats/array/variancewd` [(#10789)](https://github.com/stdlib-js/stdlib/pull/10789) _(by Aniket Sonawane)_
 -   [`5e973f5`](https://github.com/stdlib-js/stdlib/commit/5e973f5a2ee811f5b21a6ed17d5bb6ddb851846e) - **bench:** refactor to use string interpolation in `stats/array/stdevch` [(#10790)](https://github.com/stdlib-js/stdlib/pull/10790) _(by Aniket Sonawane)_
 -   [`0fd3a03`](https://github.com/stdlib-js/stdlib/commit/0fd3a037ad4b606f6bca2242cb8d3352ffb3363c) - **bench:** refactor to use string interpolation in `stats/array/stdevpn` [(#10791)](https://github.com/stdlib-js/stdlib/pull/10791) _(by Aniket Sonawane)_
 -   [`158060f`](https://github.com/stdlib-js/stdlib/commit/158060f8c512323eac4cf83d7be4453187752719) - **chore:** fix C lint errors [(#10625)](https://github.com/stdlib-js/stdlib/pull/10625) _(by Geo Daoyu)_
