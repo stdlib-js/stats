@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2025 The Stdlib Authors.
+* Copyright (c) 2026 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,13 +21,16 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var uniform = require( '@stdlib/random/array/uniform' );
+var uniform = require( '@stdlib/random/base/uniform' );
+var filledarrayBy = require( '@stdlib/array/filled-by' );
+var bernoulli = require( '@stdlib/random/base/bernoulli' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
+var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
-var dmeanors = require( './../lib/main.js' );
+var dnanstdevch = require( './../lib' );
 
 
 // VARIABLES //
@@ -40,6 +43,19 @@ var options = {
 // FUNCTIONS //
 
 /**
+* Returns a random value, possibly NaN.
+*
+* @private
+* @returns {number} random value or `NaN`
+*/
+function rand() {
+	if ( bernoulli( 0.8 ) < 1 ) {
+		return NaN;
+	}
+	return uniform( -10.0, 10.0 );
+}
+
+/**
 * Creates a benchmark function.
 *
 * @private
@@ -47,11 +63,13 @@ var options = {
 * @returns {Function} benchmark function
 */
 function createBenchmark( len ) {
+	var correction;
 	var xbuf;
 	var x;
 
-	xbuf = uniform( len, -10.0, 10.0, options );
+	xbuf = filledarrayBy( len, 'float64', rand );
 	x = new ndarray( options.dtype, xbuf, [ len ], [ 1 ], 0, 'row-major' );
+	correction = scalar2ndarray( 1.0, options );
 
 	return benchmark;
 
@@ -67,7 +85,7 @@ function createBenchmark( len ) {
 
 		b.tic();
 		for ( i = 0; i < b.iterations; i++ ) {
-			v = dmeanors( [ x ] );
+			v = dnanstdevch( [ x, correction ] );
 			if ( isnan( v ) ) {
 				b.fail( 'should not return NaN' );
 			}
