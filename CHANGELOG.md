@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9c5d666`](https://github.com/stdlib-js/stdlib/commit/9c5d666f3f74d8a7daccc211a0434656e2261b7e) - add C implementation for `stats/base/ndarray/dmeankbn` [(#10283)](https://github.com/stdlib-js/stdlib/pull/10283)
 -   [`fba382e`](https://github.com/stdlib-js/stdlib/commit/fba382ef458e3d4b63943f8e7b5e68794c38631f) - add C implementation for `stats/base/ndarray/dmeanors` [(#10312)](https://github.com/stdlib-js/stdlib/pull/10312)
 -   [`fad16aa`](https://github.com/stdlib-js/stdlib/commit/fad16aaaa353d3ee0bcfb8424160c18c8b0aa14a) - add `stats/base/ndarray/dnanstdevch` [(#10348)](https://github.com/stdlib-js/stdlib/pull/10348)
 -   [`f46aad3`](https://github.com/stdlib-js/stdlib/commit/f46aad3ada07d52f96fc728d994e3ccd5a2c89de) - add `stats/base/ndarray/dnanmskmaxabs` [(#10385)](https://github.com/stdlib-js/stdlib/pull/10385)
@@ -3725,6 +3726,7 @@ A total of 570 issues were closed in this release:
 
 <details>
 
+-   [`9c5d666`](https://github.com/stdlib-js/stdlib/commit/9c5d666f3f74d8a7daccc211a0434656e2261b7e) - **feat:** add C implementation for `stats/base/ndarray/dmeankbn` [(#10283)](https://github.com/stdlib-js/stdlib/pull/10283) _(by Bhargav Dabhade, Philipp Burckhardt, Sachin Pangal)_
 -   [`fba382e`](https://github.com/stdlib-js/stdlib/commit/fba382ef458e3d4b63943f8e7b5e68794c38631f) - **feat:** add C implementation for `stats/base/ndarray/dmeanors` [(#10312)](https://github.com/stdlib-js/stdlib/pull/10312) _(by Bhargav Dabhade, Philipp Burckhardt, Sachin Pangal)_
 -   [`fad16aa`](https://github.com/stdlib-js/stdlib/commit/fad16aaaa353d3ee0bcfb8424160c18c8b0aa14a) - **feat:** add `stats/base/ndarray/dnanstdevch` [(#10348)](https://github.com/stdlib-js/stdlib/pull/10348) _(by Pratik, Philipp Burckhardt)_
 -   [`1ec3451`](https://github.com/stdlib-js/stdlib/commit/1ec34512653d2ce74a4b4fe9ad2a6392b56e4a93) - **bench:** refactor to use string interpolation in `stats/array/min` [(#10785)](https://github.com/stdlib-js/stdlib/pull/10785) _(by Aniket Sonawane)_
