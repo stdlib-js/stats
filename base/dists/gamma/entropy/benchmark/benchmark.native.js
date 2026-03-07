@@ -22,7 +22,6 @@
 
 var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
-var format = require( '@stdlib/string/format' );
 var uniform = require( '@stdlib/random/base/uniform' );
 var Float64Array = require( '@stdlib/array/float64' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
@@ -41,7 +40,7 @@ var opts = {
 
 // MAIN //
 
-bench( format( '%s::native', pkg ), opts, function benchmark( b ) {
+bench( pkg+'::native', opts, function benchmark( b ) {
 	var alpha;
 	var beta;
 	var len;

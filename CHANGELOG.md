@@ -3728,7 +3728,6 @@ A total of 571 issues were closed in this release:
 
 <details>
 
--   [`9c42a28`](https://github.com/stdlib-js/stdlib/commit/9c42a2830057c061cb449cabfa56d58caba8362b) - **bench:** refactor to use string interpolation in `stats/base/dists/gamma` [(#10713)](https://github.com/stdlib-js/stdlib/pull/10713) _(by Siddhartha Mondal)_
 -   [`d11f1f1`](https://github.com/stdlib-js/stdlib/commit/d11f1f1157bf77fbfdc00663f410f41a1ba18a0c) - **feat:** add C implementation for `stats/base/dists/chisquare/logpdf` [(#10778)](https://github.com/stdlib-js/stdlib/pull/10778) _(by Siddhartha Mondal, Philipp Burckhardt, stdlib-bot)_
 -   [`8fc5e6c`](https://github.com/stdlib-js/stdlib/commit/8fc5e6c08689b2e7df7aeb3a14f4918c8d53986b) - **docs:** fix parameter name in comment of `chisquare/mean/src/main.c` [(#10779)](https://github.com/stdlib-js/stdlib/pull/10779) _(by Siddhartha Mondal)_
 -   [`7564e0f`](https://github.com/stdlib-js/stdlib/commit/7564e0f86e6a9a4c28affc29b1ef524f1cb43314) - **feat:** add C implementation for `stats/base/ndarray/smidrange` [(#10057)](https://github.com/stdlib-js/stdlib/pull/10057) _(by Samarth Kolarkar, Philipp Burckhardt, Sachin Pangal)_

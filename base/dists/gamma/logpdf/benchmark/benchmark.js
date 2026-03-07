@@ -21,7 +21,6 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var format = require( '@stdlib/string/format' );
 var Float64Array = require( '@stdlib/array/float64' );
 var uniform = require( '@stdlib/random/base/uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
@@ -65,7 +64,7 @@ bench( pkg, function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:factory', pkg ), function benchmark( b ) {
+bench( pkg+':factory', function benchmark( b ) {
 	var mylogpdf;
 	var alpha;
 	var beta;

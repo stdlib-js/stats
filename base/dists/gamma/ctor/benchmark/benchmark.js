@@ -21,7 +21,6 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var format = require( '@stdlib/string/format' );
 var Float64Array = require( '@stdlib/array/float64' );
 var uniform = require( '@stdlib/random/base/uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
@@ -32,7 +31,7 @@ var Gamma = require( './../lib' );
 
 // MAIN //
 
-bench( format( '%s::instantiation', pkg ), function benchmark( b ) {
+bench( pkg+'::instantiation', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -62,7 +61,7 @@ bench( format( '%s::instantiation', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s::get:alpha', pkg ), function benchmark( b ) {
+bench( pkg+'::get:alpha', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -88,7 +87,7 @@ bench( format( '%s::get:alpha', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s::set:alpha', pkg ), function benchmark( b ) {
+bench( pkg+'::set:alpha', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -120,7 +119,7 @@ bench( format( '%s::set:alpha', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s::get:beta', pkg ), function benchmark( b ) {
+bench( pkg+'::get:beta', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -146,7 +145,7 @@ bench( format( '%s::get:beta', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s::set:beta', pkg ), function benchmark( b ) {
+bench( pkg+'::set:beta', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -178,7 +177,7 @@ bench( format( '%s::set:beta', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:entropy', pkg ), function benchmark( b ) {
+bench( pkg+':entropy', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -212,7 +211,7 @@ bench( format( '%s:entropy', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:kurtosis', pkg ), function benchmark( b ) {
+bench( pkg+':kurtosis', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -246,7 +245,7 @@ bench( format( '%s:kurtosis', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:mean', pkg ), function benchmark( b ) {
+bench( pkg+':mean', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -280,7 +279,7 @@ bench( format( '%s:mean', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:median', pkg ), function benchmark( b ) {
+bench( pkg+':median', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -314,7 +313,7 @@ bench( format( '%s:median', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:mode', pkg ), function benchmark( b ) {
+bench( pkg+':mode', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -348,7 +347,7 @@ bench( format( '%s:mode', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:skewness', pkg ), function benchmark( b ) {
+bench( pkg+':skewness', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -382,7 +381,7 @@ bench( format( '%s:skewness', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:stdev', pkg ), function benchmark( b ) {
+bench( pkg+':stdev', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -416,7 +415,7 @@ bench( format( '%s:stdev', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:variance', pkg ), function benchmark( b ) {
+bench( pkg+':variance', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -450,7 +449,7 @@ bench( format( '%s:variance', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:cdf', pkg ), function benchmark( b ) {
+bench( pkg+':cdf', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -483,7 +482,7 @@ bench( format( '%s:cdf', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:logcdf', pkg ), function benchmark( b ) {
+bench( pkg+':logcdf', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -516,7 +515,7 @@ bench( format( '%s:logcdf', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:logpdf', pkg ), function benchmark( b ) {
+bench( pkg+':logpdf', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -549,7 +548,7 @@ bench( format( '%s:logpdf', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:mgf', pkg ), function benchmark( b ) {
+bench( pkg+':mgf', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -582,7 +581,7 @@ bench( format( '%s:mgf', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:pdf', pkg ), function benchmark( b ) {
+bench( pkg+':pdf', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
@@ -615,7 +614,7 @@ bench( format( '%s:pdf', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:quantile', pkg ), function benchmark( b ) {
+bench( pkg+':quantile', function benchmark( b ) {
 	var alpha;
 	var beta;
 	var dist;
