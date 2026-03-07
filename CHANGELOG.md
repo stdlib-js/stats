@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-06)
+## Unreleased (2026-03-07)
 
 <section class="features">
 
@@ -3723,6 +3723,7 @@ A total of 570 issues were closed in this release:
 
 <details>
 
+-   [`0fd3a03`](https://github.com/stdlib-js/stdlib/commit/0fd3a037ad4b606f6bca2242cb8d3352ffb3363c) - **bench:** refactor to use string interpolation in `stats/array/stdevpn` [(#10791)](https://github.com/stdlib-js/stdlib/pull/10791) _(by Aniket Sonawane)_
 -   [`158060f`](https://github.com/stdlib-js/stdlib/commit/158060f8c512323eac4cf83d7be4453187752719) - **chore:** fix C lint errors [(#10625)](https://github.com/stdlib-js/stdlib/pull/10625) _(by Geo Daoyu)_
 -   [`43243ab`](https://github.com/stdlib-js/stdlib/commit/43243ab71b8c84a2df4c19be8e9842f8ae9ddedc) - **chore:** fix JavaScript lint errors [(#10731)](https://github.com/stdlib-js/stdlib/pull/10731) _(by travisBREAKS)_
 -   [`e09a028`](https://github.com/stdlib-js/stdlib/commit/e09a02844bdbb9a72253b6942716bb6255ab8c65) - **bench:** use string interpolation in `stats/maxabs` [(#10702)](https://github.com/stdlib-js/stdlib/pull/10702) _(by Om-A-osc)_
@@ -7159,7 +7160,7 @@ A total of 570 issues were closed in this release:
 
 ### Contributors
 
-A total of 110 people contributed to this release. Thank you to the following contributors:
+A total of 111 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
 -   Aadish Jain
@@ -7172,6 +7173,7 @@ A total of 110 people contributed to this release. Thank you to the following co
 -   Aksshay Balasubramanian
 -   Aman Bhadkariya
 -   Amisha Chhajed
+-   Aniket Sonawane
 -   Anmol Sah
 -   Annamalai Prabu
 -   Anshu Kumar
