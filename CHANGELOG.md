@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`c2496da`](https://github.com/stdlib-js/stdlib/commit/c2496da925d7c688f68ab8fd0b0aaae031611462) - add `stats/strided/dnanrangeabs` [(#10009)](https://github.com/stdlib-js/stdlib/pull/10009)
+-   [`949d17d`](https://github.com/stdlib-js/stdlib/commit/949d17d65c2f885b2077dfd1cbbefbb4fb0ac805) - add `stats/strided/nanrangeabs` [(#10014)](https://github.com/stdlib-js/stdlib/pull/10014)
 -   [`abe64bf`](https://github.com/stdlib-js/stdlib/commit/abe64bfa1e6f04fa49979532f45f38c64a2239ff) - add C implementation for `lognormal/quantile` [(#10148)](https://github.com/stdlib-js/stdlib/pull/10148)
 -   [`d11f1f1`](https://github.com/stdlib-js/stdlib/commit/d11f1f1157bf77fbfdc00663f410f41a1ba18a0c) - add C implementation for `stats/base/dists/chisquare/logpdf` [(#10778)](https://github.com/stdlib-js/stdlib/pull/10778)
 -   [`7564e0f`](https://github.com/stdlib-js/stdlib/commit/7564e0f86e6a9a4c28affc29b1ef524f1cb43314) - add C implementation for `stats/base/ndarray/smidrange` [(#10057)](https://github.com/stdlib-js/stdlib/pull/10057)
@@ -3729,6 +3731,8 @@ A total of 572 issues were closed in this release:
 
 <details>
 
+-   [`c2496da`](https://github.com/stdlib-js/stdlib/commit/c2496da925d7c688f68ab8fd0b0aaae031611462) - **feat:** add `stats/strided/dnanrangeabs` [(#10009)](https://github.com/stdlib-js/stdlib/pull/10009) _(by Sachin Pangal, stdlib-bot)_
+-   [`949d17d`](https://github.com/stdlib-js/stdlib/commit/949d17d65c2f885b2077dfd1cbbefbb4fb0ac805) - **feat:** add `stats/strided/nanrangeabs` [(#10014)](https://github.com/stdlib-js/stdlib/pull/10014) _(by Sachin Pangal)_
 -   [`748ab37`](https://github.com/stdlib-js/stdlib/commit/748ab37cbabdb05fc3624921520f7ec21fb26ec6) - **chore:** update C example file to match README.md _(by Philipp Burckhardt)_
 -   [`2255c38`](https://github.com/stdlib-js/stdlib/commit/2255c3899fad73f02d3c5968c8c0a5093b232712) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`2b98d7c`](https://github.com/stdlib-js/stdlib/commit/2b98d7cf9736c471ced90fdc639136823fe208c1) - **docs:** update description _(by Philipp Burckhardt)_
