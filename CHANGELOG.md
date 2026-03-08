@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`73c6b3c`](https://github.com/stdlib-js/stdlib/commit/73c6b3cbef45a92a3fc5a5cfb12a5fc4c15e7f3d) - add `stats/base/ndarray/nanmskmidrange` [(#9513)](https://github.com/stdlib-js/stdlib/pull/9513)
+-   [`6b97f56`](https://github.com/stdlib-js/stdlib/commit/6b97f569bd1dbf7f00d80d636404afbc43a53c8c) - add `stats/base/ndarray/snanmskmidrange` [(#9536)](https://github.com/stdlib-js/stdlib/pull/9536)
+-   [`876eadb`](https://github.com/stdlib-js/stdlib/commit/876eadb18dbfbd3b156ee8b9f27f4c98226b0fa9) - add `stats/base/ndarray/dmskmaxabs` [(#9962)](https://github.com/stdlib-js/stdlib/pull/9962)
+-   [`c2496da`](https://github.com/stdlib-js/stdlib/commit/c2496da925d7c688f68ab8fd0b0aaae031611462) - add `stats/strided/dnanrangeabs` [(#10009)](https://github.com/stdlib-js/stdlib/pull/10009)
 -   [`949d17d`](https://github.com/stdlib-js/stdlib/commit/949d17d65c2f885b2077dfd1cbbefbb4fb0ac805) - add `stats/strided/nanrangeabs` [(#10014)](https://github.com/stdlib-js/stdlib/pull/10014)
 -   [`abe64bf`](https://github.com/stdlib-js/stdlib/commit/abe64bfa1e6f04fa49979532f45f38c64a2239ff) - add C implementation for `lognormal/quantile` [(#10148)](https://github.com/stdlib-js/stdlib/pull/10148)
 -   [`d11f1f1`](https://github.com/stdlib-js/stdlib/commit/d11f1f1157bf77fbfdc00663f410f41a1ba18a0c) - add C implementation for `stats/base/dists/chisquare/logpdf` [(#10778)](https://github.com/stdlib-js/stdlib/pull/10778)
@@ -3730,6 +3734,10 @@ A total of 572 issues were closed in this release:
 
 <details>
 
+-   [`73c6b3c`](https://github.com/stdlib-js/stdlib/commit/73c6b3cbef45a92a3fc5a5cfb12a5fc4c15e7f3d) - **feat:** add `stats/base/ndarray/nanmskmidrange` [(#9513)](https://github.com/stdlib-js/stdlib/pull/9513) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
+-   [`6b97f56`](https://github.com/stdlib-js/stdlib/commit/6b97f569bd1dbf7f00d80d636404afbc43a53c8c) - **feat:** add `stats/base/ndarray/snanmskmidrange` [(#9536)](https://github.com/stdlib-js/stdlib/pull/9536) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
+-   [`876eadb`](https://github.com/stdlib-js/stdlib/commit/876eadb18dbfbd3b156ee8b9f27f4c98226b0fa9) - **feat:** add `stats/base/ndarray/dmskmaxabs` [(#9962)](https://github.com/stdlib-js/stdlib/pull/9962) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
+-   [`c2496da`](https://github.com/stdlib-js/stdlib/commit/c2496da925d7c688f68ab8fd0b0aaae031611462) - **feat:** add `stats/strided/dnanrangeabs` [(#10009)](https://github.com/stdlib-js/stdlib/pull/10009) _(by Sachin Pangal, stdlib-bot)_
 -   [`949d17d`](https://github.com/stdlib-js/stdlib/commit/949d17d65c2f885b2077dfd1cbbefbb4fb0ac805) - **feat:** add `stats/strided/nanrangeabs` [(#10014)](https://github.com/stdlib-js/stdlib/pull/10014) _(by Sachin Pangal)_
 -   [`748ab37`](https://github.com/stdlib-js/stdlib/commit/748ab37cbabdb05fc3624921520f7ec21fb26ec6) - **chore:** update C example file to match README.md _(by Philipp Burckhardt)_
 -   [`2255c38`](https://github.com/stdlib-js/stdlib/commit/2255c3899fad73f02d3c5968c8c0a5093b232712) - **chore:** minor clean-up _(by Philipp Burckhardt)_
