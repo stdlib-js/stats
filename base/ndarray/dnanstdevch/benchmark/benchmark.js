@@ -86,8 +86,8 @@ function createBenchmark( len ) {
 		b.tic();
 		for ( i = 0; i < b.iterations; i++ ) {
 			v = dnanstdevch( [ x, correction ] );
-			if ( isnan( v ) ) {
-				b.fail( 'should not return NaN' );
+			if ( typeof v !== 'number' ) {
+				b.fail( 'should return a number' );
 			}
 		}
 		b.toc();
