@@ -141,7 +141,7 @@ import dnanrangeabs = require( './index' );
 	dnanrangeabs.ndarray( x.length, x, 1, null ); // $ExpectError
 	dnanrangeabs.ndarray( x.length, x, 1, undefined ); // $ExpectError
 	dnanrangeabs.ndarray( x.length, x, 1, [] ); // $ExpectError
-	dnanrangeabs.ndarray( x.length, x, 1, {}, ); // $ExpectError
+	dnanrangeabs.ndarray( x.length, x, 1, {} ); // $ExpectError
 	dnanrangeabs.ndarray( x.length, x, 1, ( x: number ): number => x ); // $ExpectError
 }
 

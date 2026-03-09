@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-08)
+## Unreleased (2026-03-09)
 
 <section class="features">
 
@@ -3734,6 +3734,7 @@ A total of 572 issues were closed in this release:
 
 <details>
 
+-   [`5bc6fd8`](https://github.com/stdlib-js/stdlib/commit/5bc6fd859d57bf2408ab4fd8459389ae07e9a253) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`73c6b3c`](https://github.com/stdlib-js/stdlib/commit/73c6b3cbef45a92a3fc5a5cfb12a5fc4c15e7f3d) - **feat:** add `stats/base/ndarray/nanmskmidrange` [(#9513)](https://github.com/stdlib-js/stdlib/pull/9513) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
 -   [`6b97f56`](https://github.com/stdlib-js/stdlib/commit/6b97f569bd1dbf7f00d80d636404afbc43a53c8c) - **feat:** add `stats/base/ndarray/snanmskmidrange` [(#9536)](https://github.com/stdlib-js/stdlib/pull/9536) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
 -   [`876eadb`](https://github.com/stdlib-js/stdlib/commit/876eadb18dbfbd3b156ee8b9f27f4c98226b0fa9) - **feat:** add `stats/base/ndarray/dmskmaxabs` [(#9962)](https://github.com/stdlib-js/stdlib/pull/9962) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_

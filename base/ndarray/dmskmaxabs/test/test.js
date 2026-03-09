@@ -132,16 +132,16 @@ tape( 'if provided an empty ndarray, the function returns `NaN`', function test(
 	t.end();
 });
 
-tape( 'if provided an ndarray containing a single element, the function returns the first element', function test( t ) {
+tape( 'if provided an ndarray containing a single element, the function returns the absolute value of the first element', function test( t ) {
 	var mask;
 	var x;
 	var v;
 
-	x = new Float64Array( [ 1.0, -2.0, -4.0, 5.0, 3.0 ] );
+	x = new Float64Array( [ -3.0, -2.0, -4.0, 5.0, 3.0 ] );
 	mask = new Uint8Array( [ 0, 0, 0, 0, 0 ] );
 
 	v = dmskmaxabs( [ vector( 'float64', x, 1, 1, 0 ), vector( 'uint8', mask, 1, 1, 0 ) ] );
-	t.strictEqual( v, 1.0, 'returns expected value' );
+	t.strictEqual( v, 3.0, 'returns expected value' );
 
 	t.end();
 });

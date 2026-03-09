@@ -24,7 +24,7 @@ limitations under the License.
 
 <section class="intro">
 
-The [**mid-range**][mid-range] is defined as the arithmetic mean of the maximum and minimum values. The measure is the midpoint of the range and a measure of central tendency.
+The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of the maximum and minimum values in a data set. The measure is the midpoint of the range and a measure of central tendency.
 
 </section>
 
@@ -57,9 +57,7 @@ var v = nanmskmidrange( [ x, mask ] );
 
 The function has the following parameters:
 
--   **arrays**: array-like object containing an input ndarray and a mask ndarray.
-
-If a `mask` array element is `0`, the corresponding element in the input ndarray is considered valid and **included** in computation. If a `mask` array element is `1`, the corresponding element in the input ndarray is considered invalid/missing and **excluded** from computation.
+-   **arrays**: array-like object containing a one-dimensional input ndarray and a one-dimensional mask ndarray.
 
 </section>
 
@@ -69,6 +67,7 @@ If a `mask` array element is `0`, the corresponding element in the input ndarray
 
 ## Notes
 
+-   If a mask array element is `0`, the corresponding element in the input ndarray is considered valid and **included** in computation. If a mask array element is `1`, the corresponding element in the input ndarray is considered invalid/missing and **excluded** from computation.
 -   If provided an empty ndarray or a mask with all elements set to `1`, the function returns `NaN`.
 
 </section>

@@ -64,7 +64,6 @@ function createBenchmark( len ) {
 
 	return benchmark;
 
-
 	/**
 	* Benchmark function.
 	*
