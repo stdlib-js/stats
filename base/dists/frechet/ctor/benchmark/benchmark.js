@@ -21,7 +21,8 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var uniform = require( '@stdlib/random/array/uniform' );
+var Float64Array = require( '@stdlib/array/float64' );
+var uniform = require( '@stdlib/random/base/uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var format = require( '@stdlib/string/format' );
@@ -34,21 +35,24 @@ var Frechet = require( './../lib' );
 bench( format( '%s::instantiation', pkg ), function benchmark( bm ) {
 	var alpha;
 	var dist;
-	var opts;
+	var len;
 	var s;
 	var m;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
-	alpha = uniform( 100, EPS, 10.0, opts );
-	m = uniform( 100, -20.0, -10.0, opts );
-	s = uniform( 100, EPS, 10.0, opts );
+	len = 100;
+	alpha = new Float64Array( len );
+	s = new Float64Array( len );
+	m = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		alpha[ i ] = uniform( EPS, 10.0 );
+		s[ i ] = uniform( EPS, 10.0 );
+		m[ i ] = uniform( -20.0, -10.0 );
+	}
 
 	bm.tic();
 	for ( i = 0; i < bm.iterations; i++ ) {
-		dist = new Frechet( alpha[ i % alpha.length ], s[ i % s.length ], m[ i % m.length ] );
+		dist = new Frechet( alpha[ i % len ], s[ i % len ], m[ i % len ] );
 		if ( !( dist instanceof Frechet ) ) {
 			bm.fail( 'should return a distribution instance' );
 		}
@@ -92,30 +96,31 @@ bench( format( '%s::get:alpha', pkg ), function benchmark( bm ) {
 bench( format( '%s::set:alpha', pkg ), function benchmark( bm ) {
 	var alpha;
 	var dist;
-	var opts;
+	var len;
 	var s;
 	var m;
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
 	alpha = 20.0;
 	s = 10.0;
 	m = -3.0;
 	dist = new Frechet( alpha, s, m );
-	y = uniform( 100, EPS, 100.0, opts );
+	len = 100;
+	y = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		y[ i ] = uniform( EPS, 100.0 );
+	}
 
 	bm.tic();
 	for ( i = 0; i < bm.iterations; i++ ) {
-		dist.alpha = y[ i % y.length ];
-		if ( dist.alpha !== y[ i % y.length ] ) {
+		dist.a = y[ i % len ];
+		if ( dist.a !== y[ i % len ] ) {
 			bm.fail( 'should return set value' );
 		}
 	}
 	bm.toc();
-	if ( isnan( dist.alpha ) ) {
+	if ( isnan( dist.a ) ) {
 		bm.fail( 'should not return NaN' );
 	}
 	bm.pass( 'benchmark finished' );
@@ -153,30 +158,31 @@ bench( format( '%s::get:s', pkg ), function benchmark( bm ) {
 bench( format( '%s::set:s', pkg ), function benchmark( bm ) {
 	var alpha;
 	var dist;
-	var opts;
+	var len;
 	var s;
 	var m;
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
 	alpha = 20.0;
 	s = 20.0;
 	m = 30.0;
 	dist = new Frechet( alpha, s, m );
-	y = uniform( 100, EPS, 100.0, opts );
+	len = 100;
+	y = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		y[ i ] = uniform( EPS, 100.0 );
+	}
 
 	bm.tic();
 	for ( i = 0; i < bm.iterations; i++ ) {
-		dist.s = y[ i % y.length ];
-		if ( dist.s !== y[ i % y.length ] ) {
+		dist.b = y[ i % len ];
+		if ( dist.b !== y[ i % len ] ) {
 			bm.fail( 'should return set value' );
 		}
 	}
 	bm.toc();
-	if ( isnan( dist.s ) ) {
+	if ( isnan( dist.b ) ) {
 		bm.fail( 'should not return NaN' );
 	}
 	bm.pass( 'benchmark finished' );
@@ -214,30 +220,31 @@ bench( format( '%s::get:m', pkg ), function benchmark( bm ) {
 bench( format( '%s::set:m', pkg ), function benchmark( bm ) {
 	var alpha;
 	var dist;
-	var opts;
+	var len;
 	var s;
 	var m;
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
 	alpha = 10.0;
 	s = 10.0;
 	m = 5.0;
 	dist = new Frechet( alpha, s, m );
-	y = uniform( 100, 0.0, 20.0, opts );
+	len = 100;
+	y = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		y[ i ] = uniform( 0.0, 20.0 );
+	}
 
 	bm.tic();
 	for ( i = 0; i < bm.iterations; i++ ) {
-		dist.m = y[ i % y.length ];
-		if ( dist.m !== y[ i % y.length ] ) {
+		dist.c = y[ i % len ];
+		if ( dist.c !== y[ i % len ] ) {
 			bm.fail( 'should return set value' );
 		}
 	}
 	bm.toc();
-	if ( isnan( dist.m ) ) {
+	if ( isnan( dist.c ) ) {
 		bm.fail( 'should not return NaN' );
 	}
 	bm.pass( 'benchmark finished' );
@@ -246,7 +253,7 @@ bench( format( '%s::set:m', pkg ), function benchmark( bm ) {
 
 bench( format( '%s:entropy', pkg ), function benchmark( bm ) {
 	var dist;
-	var opts;
+	var len;
 	var x;
 	var a;
 	var b;
@@ -254,18 +261,19 @@ bench( format( '%s:entropy', pkg ), function benchmark( bm ) {
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
 	a = 20.0;
 	b = 10.0;
 	c = 100.0;
 	dist = new Frechet( a, b, c );
-	x = uniform( 100, EPS, c, opts );
+	len = 100;
+	x = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		x[ i ] = uniform( 0.0, c );
+	}
 
 	bm.tic();
 	for ( i = 0; i < bm.iterations; i++ ) {
-		dist.alpha = x[ i % x.length ];
+		dist.a = x[ i % len ];
 		y = dist.entropy;
 		if ( isnan( y ) ) {
 			bm.fail( 'should not return NaN' );
@@ -281,7 +289,7 @@ bench( format( '%s:entropy', pkg ), function benchmark( bm ) {
 
 bench( format( '%s:kurtosis', pkg ), function benchmark( bm ) {
 	var dist;
-	var opts;
+	var len;
 	var x;
 	var a;
 	var b;
@@ -289,18 +297,19 @@ bench( format( '%s:kurtosis', pkg ), function benchmark( bm ) {
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
 	a = 20.0;
 	b = 10.0;
 	c = 120.0;
 	dist = new Frechet( a, b, c );
-	x = uniform( 100, EPS, c, opts );
+	len = 100;
+	x = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		x[ i ] = uniform( 0.0, c );
+	}
 
 	bm.tic();
 	for ( i = 0; i < bm.iterations; i++ ) {
-		dist.alpha = x[ i % x.length ];
+		dist.a = x[ i % len ];
 		y = dist.kurtosis;
 		if ( isnan( y ) ) {
 			bm.fail( 'should not return NaN' );
@@ -316,7 +325,7 @@ bench( format( '%s:kurtosis', pkg ), function benchmark( bm ) {
 
 bench( format( '%s:mean', pkg ), function benchmark( bm ) {
 	var dist;
-	var opts;
+	var len;
 	var x;
 	var a;
 	var b;
@@ -324,18 +333,19 @@ bench( format( '%s:mean', pkg ), function benchmark( bm ) {
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
 	a = 20.0;
 	b = 10.0;
 	c = 110.0;
 	dist = new Frechet( a, b, c );
-	x = uniform( 100, EPS, c, opts );
+	len = 100;
+	x = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		x[ i ] = uniform( 0.0, c );
+	}
 
 	bm.tic();
 	for ( i = 0; i < bm.iterations; i++ ) {
-		dist.alpha = x[ i % x.length ];
+		dist.a = x[ i % len ];
 		y = dist.mean;
 		if ( isnan( y ) ) {
 			bm.fail( 'should not return NaN' );
@@ -351,7 +361,7 @@ bench( format( '%s:mean', pkg ), function benchmark( bm ) {
 
 bench( format( '%s:median', pkg ), function benchmark( bm ) {
 	var dist;
-	var opts;
+	var len;
 	var x;
 	var a;
 	var b;
@@ -359,18 +369,19 @@ bench( format( '%s:median', pkg ), function benchmark( bm ) {
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
 	a = 20.0;
 	b = 10.0;
 	c = 110.0;
 	dist = new Frechet( a, b, c );
-	x = uniform( 100, EPS, c, opts );
+	len = 100;
+	x = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		x[ i ] = uniform( 0.0, c );
+	}
 
 	bm.tic();
 	for ( i = 0; i < bm.iterations; i++ ) {
-		dist.alpha = x[ i % x.length ];
+		dist.a = x[ i % len ];
 		y = dist.median;
 		if ( isnan( y ) ) {
 			bm.fail( 'should not return NaN' );
@@ -386,7 +397,7 @@ bench( format( '%s:median', pkg ), function benchmark( bm ) {
 
 bench( format( '%s:skewness', pkg ), function benchmark( bm ) {
 	var dist;
-	var opts;
+	var len;
 	var x;
 	var a;
 	var b;
@@ -394,18 +405,19 @@ bench( format( '%s:skewness', pkg ), function benchmark( bm ) {
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
 	a = 20.0;
 	b = 10.0;
 	c = 110.0;
 	dist = new Frechet( a, b, c );
-	x = uniform( 100, EPS, c, opts );
+	len = 100;
+	x = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		x[ i ] = uniform( 0.0, c );
+	}
 
 	bm.tic();
 	for ( i = 0; i < bm.iterations; i++ ) {
-		dist.alpha = x[ i % x.length ];
+		dist.a = x[ i % len ];
 		y = dist.skewness;
 		if ( isnan( y ) ) {
 			bm.fail( 'should not return NaN' );
@@ -421,7 +433,7 @@ bench( format( '%s:skewness', pkg ), function benchmark( bm ) {
 
 bench( format( '%s:stdev', pkg ), function benchmark( bm ) {
 	var dist;
-	var opts;
+	var len;
 	var x;
 	var a;
 	var b;
@@ -429,18 +441,19 @@ bench( format( '%s:stdev', pkg ), function benchmark( bm ) {
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
 	a = 20.0;
 	b = 10.0;
 	c = 80.0;
 	dist = new Frechet( a, b, c );
-	x = uniform( 100, EPS, c, opts );
+	len = 100;
+	x = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		x[ i ] = uniform( 0.0, c );
+	}
 
 	bm.tic();
 	for ( i = 0; i < bm.iterations; i++ ) {
-		dist.alpha = x[ i % x.length ];
+		dist.a = x[ i % len ];
 		y = dist.stdev;
 		if ( isnan( y ) ) {
 			bm.fail( 'should not return NaN' );
@@ -456,7 +469,7 @@ bench( format( '%s:stdev', pkg ), function benchmark( bm ) {
 
 bench( format( '%s:variance', pkg ), function benchmark( bm ) {
 	var dist;
-	var opts;
+	var len;
 	var x;
 	var a;
 	var b;
@@ -464,18 +477,19 @@ bench( format( '%s:variance', pkg ), function benchmark( bm ) {
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
 	a = 20.0;
 	b = 10.0;
 	c = 80.0;
 	dist = new Frechet( a, b, c );
-	x = uniform( 100, EPS, c, opts );
+	len = 100;
+	x = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		x[ i ] = uniform( 0.0, c );
+	}
 
 	bm.tic();
 	for ( i = 0; i < bm.iterations; i++ ) {
-		dist.alpha = x[ i % x.length ];
+		dist.a = x[ i % len ];
 		y = dist.variance;
 		if ( isnan( y ) ) {
 			bm.fail( 'should not return NaN' );
@@ -491,7 +505,7 @@ bench( format( '%s:variance', pkg ), function benchmark( bm ) {
 
 bench( format( '%s:cdf', pkg ), function benchmark( bm ) {
 	var dist;
-	var opts;
+	var len;
 	var a;
 	var b;
 	var c;
@@ -499,18 +513,19 @@ bench( format( '%s:cdf', pkg ), function benchmark( bm ) {
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
 	a = 20.0;
 	b = 40.0;
 	c = 30.0;
 	dist = new Frechet( a, b, c );
-	x = uniform( 100, 0.0, 60.0, opts );
+	len = 100;
+	x = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		x[ i ] = uniform( 0.0, 60.0 );
+	}
 
 	bm.tic();
 	for ( i = 0; i < bm.iterations; i++ ) {
-		y = dist.cdf( x[ i % x.length ] );
+		y = dist.cdf( x[ i % len ] );
 		if ( isnan( y ) ) {
 			bm.fail( 'should not return NaN' );
 		}
@@ -525,7 +540,7 @@ bench( format( '%s:cdf', pkg ), function benchmark( bm ) {
 
 bench( format( '%s:pdf', pkg ), function benchmark( bm ) {
 	var dist;
-	var opts;
+	var len;
 	var a;
 	var b;
 	var c;
@@ -533,18 +548,19 @@ bench( format( '%s:pdf', pkg ), function benchmark( bm ) {
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
 	a = 20.0;
 	b = 40.0;
 	c = 30.0;
 	dist = new Frechet( a, b, c );
-	x = uniform( 100, 0.0, 60.0, opts );
+	len = 100;
+	x = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		x[ i ] = uniform( 0.0, 60.0 );
+	}
 
 	bm.tic();
 	for ( i = 0; i < bm.iterations; i++ ) {
-		y = dist.pdf( x[ i % x.length ] );
+		y = dist.pdf( x[ i % len ] );
 		if ( isnan( y ) ) {
 			bm.fail( 'should not return NaN' );
 		}
@@ -559,7 +575,7 @@ bench( format( '%s:pdf', pkg ), function benchmark( bm ) {
 
 bench( format( '%s:quantile', pkg ), function benchmark( bm ) {
 	var dist;
-	var opts;
+	var len;
 	var a;
 	var b;
 	var c;
@@ -567,18 +583,19 @@ bench( format( '%s:quantile', pkg ), function benchmark( bm ) {
 	var y;
 	var i;
 
-	opts = {
-		'dtype': 'float64'
-	};
 	a = 20.0;
 	b = 40.0;
 	c = 30.0;
 	dist = new Frechet( a, b, c );
-	x = uniform( 100, 0.0, 1.0, opts );
+	len = 100;
+	x = new Float64Array( len );
+	for ( i = 0; i < len; i++ ) {
+		x[ i ] = uniform( 0.0, 1.0 );
+	}
 
 	bm.tic();
 	for ( i = 0; i < bm.iterations; i++ ) {
-		y = dist.quantile( x[ i % x.length ] );
+		y = dist.quantile( x[ i % len ] );
 		if ( isnan( y ) ) {
 			bm.fail( 'should not return NaN' );
 		}

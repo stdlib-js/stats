@@ -82,11 +82,10 @@ double API_SUFFIX(stdlib_strided_dnanmskmaxabs_ndarray)( const CBLAS_INT N, cons
 		if ( Mask[ im ] ) {
 			continue;
 		}
-		v = X[ ix ];
+		v = stdlib_base_abs( X[ ix ] );
 		if ( stdlib_base_is_nan( v ) ) {
 			continue;
 		}
-		v = stdlib_base_abs( v );
 		if ( v > max ) {
 			max = v;
 		}

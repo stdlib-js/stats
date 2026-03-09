@@ -79,11 +79,10 @@ function dnanmskmaxabs( N, x, strideX, offsetX, mask, strideMask, offsetMask ) {
 		if ( mask[ im ] ) {
 			continue;
 		}
-		v = x[ ix ];
+		v = abs( x[ ix ] );
 		if ( isnan( v ) ) {
 			continue;
 		}
-		v = abs( v );
 		if ( v > max ) {
 			max = v;
 		}

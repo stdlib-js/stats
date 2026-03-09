@@ -25,14 +25,13 @@ var uniform = require( '@stdlib/random/array/uniform' );
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var EPS = require( '@stdlib/constants/float64/eps' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var Binomial = require( './../lib' );
 
 
 // MAIN //
 
-bench( format( '%s::instantiation', pkg ), function benchmark( b ) {
+bench( pkg+'::instantiation', function benchmark( b ) {
 	var dist;
 	var opts;
 	var n;
@@ -60,7 +59,7 @@ bench( format( '%s::instantiation', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s::get:n', pkg ), function benchmark( b ) {
+bench( pkg+'::get:n', function benchmark( b ) {
 	var dist;
 	var n;
 	var p;
@@ -86,7 +85,7 @@ bench( format( '%s::get:n', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s::set:n', pkg ), function benchmark( b ) {
+bench( pkg+'::set:n', function benchmark( b ) {
 	var dist;
 	var opts;
 	var n;
@@ -118,7 +117,7 @@ bench( format( '%s::set:n', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s::get:p', pkg ), function benchmark( b ) {
+bench( pkg+'::get:p', function benchmark( b ) {
 	var dist;
 	var n;
 	var p;
@@ -144,7 +143,7 @@ bench( format( '%s::get:p', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s::set:p', pkg ), function benchmark( b ) {
+bench( pkg+'::set:p', function benchmark( b ) {
 	var dist;
 	var opts;
 	var n;
@@ -176,7 +175,7 @@ bench( format( '%s::set:p', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:kurtosis', pkg ), function benchmark( b ) {
+bench( pkg+':kurtosis', function benchmark( b ) {
 	var dist;
 	var opts;
 	var x;
@@ -210,7 +209,7 @@ bench( format( '%s:kurtosis', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:mean', pkg ), function benchmark( b ) {
+bench( pkg+':mean', function benchmark( b ) {
 	var dist;
 	var opts;
 	var x;
@@ -244,7 +243,7 @@ bench( format( '%s:mean', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:mode', pkg ), function benchmark( b ) {
+bench( pkg+':mode', function benchmark( b ) {
 	var dist;
 	var opts;
 	var x;
@@ -278,7 +277,7 @@ bench( format( '%s:mode', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:skewness', pkg ), function benchmark( b ) {
+bench( pkg+':skewness', function benchmark( b ) {
 	var dist;
 	var opts;
 	var x;
@@ -312,7 +311,7 @@ bench( format( '%s:skewness', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:stdev', pkg ), function benchmark( b ) {
+bench( pkg+':stdev', function benchmark( b ) {
 	var dist;
 	var opts;
 	var x;
@@ -346,7 +345,7 @@ bench( format( '%s:stdev', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:variance', pkg ), function benchmark( b ) {
+bench( pkg+':variance', function benchmark( b ) {
 	var dist;
 	var opts;
 	var x;
@@ -380,7 +379,7 @@ bench( format( '%s:variance', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:cdf', pkg ), function benchmark( b ) {
+bench( pkg+':cdf', function benchmark( b ) {
 	var dist;
 	var opts;
 	var n;
@@ -413,7 +412,7 @@ bench( format( '%s:cdf', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:logpmf', pkg ), function benchmark( b ) {
+bench( pkg+':logpmf', function benchmark( b ) {
 	var dist;
 	var opts;
 	var n;
@@ -445,7 +444,7 @@ bench( format( '%s:logpmf', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:mgf', pkg ), function benchmark( b ) {
+bench( pkg+':mgf', function benchmark( b ) {
 	var dist;
 	var opts;
 	var n;
@@ -478,7 +477,7 @@ bench( format( '%s:mgf', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:pmf', pkg ), function benchmark( b ) {
+bench( pkg+':pmf', function benchmark( b ) {
 	var dist;
 	var opts;
 	var n;
@@ -510,7 +509,7 @@ bench( format( '%s:pmf', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:quantile', pkg ), function benchmark( b ) {
+bench( pkg+':quantile', function benchmark( b ) {
 	var dist;
 	var opts;
 	var n;

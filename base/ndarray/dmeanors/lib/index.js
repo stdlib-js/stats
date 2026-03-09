@@ -37,23 +37,9 @@
 
 // MODULES //
 
-var join = require( 'path' ).join;
-var tryRequire = require( '@stdlib/utils/try-require' );
-var isError = require( '@stdlib/assert/is-error' );
 var main = require( './main.js' );
-
-
-// MAIN //
-
-var dmeanors;
-var tmp = tryRequire( join( __dirname, './native.js' ) );
-if ( isError( tmp ) ) {
-	dmeanors = main;
-} else {
-	dmeanors = tmp;
-}
 
 
 // EXPORTS //
 
-module.exports = dmeanors;
+module.exports = main;

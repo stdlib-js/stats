@@ -17,7 +17,6 @@
 */
 
 #include "stdlib/stats/strided/dnanmskmaxabs.h"
-#include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
@@ -96,7 +95,7 @@ static double rand_double( void ) {
 * @return             elapsed time in seconds
 */
 static double benchmark1( int iterations, int len ) {
-	uint8_t *mask;
+	unsigned char *mask;
 	double elapsed;
 	double *x;
 	double v;
@@ -104,7 +103,7 @@ static double benchmark1( int iterations, int len ) {
 	int i;
 
 	x = (double *)malloc( len * sizeof( double ) );
-	mask = (uint8_t *)malloc( len * sizeof( uint8_t ) );
+	mask = (unsigned char *)malloc( len * sizeof( unsigned char ) );
 	for ( i = 0; i < len; i++ ) {
 		if ( rand_double() < 0.2 ) {
 			mask[ i ] = 1; // missing
@@ -140,7 +139,7 @@ static double benchmark1( int iterations, int len ) {
 * @return             elapsed time in seconds
 */
 static double benchmark2( int iterations, int len ) {
-	uint8_t *mask;
+	unsigned char *mask;
 	double elapsed;
 	double *x;
 	double v;
@@ -148,7 +147,7 @@ static double benchmark2( int iterations, int len ) {
 	int i;
 
 	x = (double *)malloc( len * sizeof( double ) );
-	mask = (uint8_t *)malloc( len * sizeof( uint8_t ) );
+	mask = (unsigned char *)malloc( len * sizeof( unsigned char ) );
 	for ( i = 0; i < len; i++ ) {
 		if ( rand_double() < 0.2 ) {
 			mask[ i ] = 1; // missing

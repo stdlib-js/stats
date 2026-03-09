@@ -24,7 +24,6 @@ var bench = require( '@stdlib/bench' );
 var linspace = require( '@stdlib/array/base/linspace' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var pow = require( '@stdlib/math/base/special/pow' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var minsorted = require( './../lib' );
 
@@ -89,7 +88,7 @@ function main() {
 	for ( i = min; i <= max; i++ ) {
 		len = pow( 10, i );
 		f = createBenchmark( len );
-		bench( format( '%s:len=%d', pkg, len ), f );
+		bench( pkg+':len='+len, f );
 	}
 }
 

@@ -22,7 +22,6 @@
 
 var bench = require( '@stdlib/bench' );
 var Float64Array = require( '@stdlib/array/float64' );
-var format = require( '@stdlib/string/format' );
 var uniform = require( '@stdlib/random/base/uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var EPS = require( '@stdlib/constants/float64/eps' );
@@ -65,7 +64,7 @@ bench( pkg, function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s:factory', pkg ), function benchmark( b ) {
+bench( pkg+':factory', function benchmark( b ) {
 	var mycdf;
 	var alpha;
 	var beta;

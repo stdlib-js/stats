@@ -116,7 +116,6 @@ static double benchmark1( int iterations, int len ) {
 	v = 0.0f;
 	t = tic();
 	for ( i = 0; i < iterations; i++ ) {
-		// cppcheck-suppress uninitvar
 		v = stdlib_strided_snanmskminabs( len, x, 1, mask, 1 );
 		if ( v != v ) {
 			printf( "should not return NaN\n" );
@@ -160,7 +159,6 @@ static double benchmark2( int iterations, int len ) {
 	v = 0.0f;
 	t = tic();
 	for ( i = 0; i < iterations; i++ ) {
-		// cppcheck-suppress uninitvar
 		v = stdlib_strided_snanmskminabs_ndarray( len, x, 1, 0, mask, 1, 0 );
 		if ( v != v ) {
 			printf( "should not return NaN\n" );

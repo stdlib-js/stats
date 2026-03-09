@@ -22,7 +22,7 @@
 /**
 * Returns the expected value of a chi-squared distribution.
 *
-* @param k    degrees of freedom
+* @param x    degrees of freedom
 * @return     expected value
 *
 * @example
