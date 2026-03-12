@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-10)
+## Unreleased (2026-03-12)
 
 <section class="features">
 
@@ -3735,6 +3735,7 @@ A total of 576 issues were closed in this release:
 
 <details>
 
+-   [`9730d28`](https://github.com/stdlib-js/stdlib/commit/9730d28b2aeff0947d2428a0ab01c1580557cbbe) - **bench:** use string interpolation in `stats/base/ndarray/dcumax` [(#10876)](https://github.com/stdlib-js/stdlib/pull/10876) _(by Om-A-osc)_
 -   [`eee306a`](https://github.com/stdlib-js/stdlib/commit/eee306a3b9f7ff361ec5ad757a38d0a4edc23ad5) - **chore:** address commit comments for commit `949d17d` [(#10864)](https://github.com/stdlib-js/stdlib/pull/10864) _(by Sumithraju)_
 -   [`33f4c10`](https://github.com/stdlib-js/stdlib/commit/33f4c102ad24d1ac6f3883b8f68e528d74631621) - **feat:** adding `stats/incr/nanmmse` [(#6190)](https://github.com/stdlib-js/stdlib/pull/6190) _(by Sanchay Ketan Sinha, Harsh Yadav, Philipp Burckhardt)_
 -   [`3480dc2`](https://github.com/stdlib-js/stdlib/commit/3480dc202d5214003486601367322d985b8bfe29) - **chore:** address commit comments for commit `9c42a28` [(#10853)](https://github.com/stdlib-js/stdlib/pull/10853) _(by Partha Das)_
