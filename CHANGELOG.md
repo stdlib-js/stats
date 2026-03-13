@@ -3735,6 +3735,7 @@ A total of 576 issues were closed in this release:
 
 <details>
 
+-   [`6aae9eb`](https://github.com/stdlib-js/stdlib/commit/6aae9eb4034e9ff338a75ec59a1c56a26a46b2b4) - **bench:** use string interpolation in `stats/base/ndarray/dcumin` [(#10878)](https://github.com/stdlib-js/stdlib/pull/10878) _(by Om-A-osc)_
 -   [`11c4748`](https://github.com/stdlib-js/stdlib/commit/11c4748879f58bc0fd46e70354c73f617f85a1c7) - **bench:** use string interpolation in `stats/base/ndarray/dcuminabs` [(#10879)](https://github.com/stdlib-js/stdlib/pull/10879) _(by Om-A-osc)_
 -   [`db2c323`](https://github.com/stdlib-js/stdlib/commit/db2c3239074dab803cc302baa478c033ef4a1e3b) - **bench:** refactor to use string interpolation in `stats/array/stdev` [(#10792)](https://github.com/stdlib-js/stdlib/pull/10792) _(by Aniket Sonawane, Athan Reines)_
 -   [`dd90aad`](https://github.com/stdlib-js/stdlib/commit/dd90aade754af928c74c03c4099d1d4307648713) - **bench:** use string interpolation in `stats/base/ndarray/dcovarmtk` [(#10875)](https://github.com/stdlib-js/stdlib/pull/10875) _(by Om-A-osc)_
