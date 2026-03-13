@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-12)
+## Unreleased (2026-03-13)
 
 <section class="features">
 
@@ -3735,6 +3735,7 @@ A total of 576 issues were closed in this release:
 
 <details>
 
+-   [`db2c323`](https://github.com/stdlib-js/stdlib/commit/db2c3239074dab803cc302baa478c033ef4a1e3b) - **bench:** refactor to use string interpolation in `stats/array/stdev` [(#10792)](https://github.com/stdlib-js/stdlib/pull/10792) _(by Aniket Sonawane, Athan Reines)_
 -   [`dd90aad`](https://github.com/stdlib-js/stdlib/commit/dd90aade754af928c74c03c4099d1d4307648713) - **bench:** use string interpolation in `stats/base/ndarray/dcovarmtk` [(#10875)](https://github.com/stdlib-js/stdlib/pull/10875) _(by Om-A-osc)_
 -   [`9730d28`](https://github.com/stdlib-js/stdlib/commit/9730d28b2aeff0947d2428a0ab01c1580557cbbe) - **bench:** use string interpolation in `stats/base/ndarray/dcumax` [(#10876)](https://github.com/stdlib-js/stdlib/pull/10876) _(by Om-A-osc)_
 -   [`eee306a`](https://github.com/stdlib-js/stdlib/commit/eee306a3b9f7ff361ec5ad757a38d0a4edc23ad5) - **chore:** address commit comments for commit `949d17d` [(#10864)](https://github.com/stdlib-js/stdlib/pull/10864) _(by Sumithraju)_
