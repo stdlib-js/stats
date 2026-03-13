@@ -25,14 +25,13 @@ var Float64Array = require( '@stdlib/array/float64' );
 var uniform = require( '@stdlib/random/base/uniform' );
 var discreteUniform = require( '@stdlib/random/base/discrete-uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var DiscreteUniform = require( './../lib' );
 
 
 // MAIN //
 
-bench( format( '%s::instantiation', pkg ), function benchmark( bm ) {
+bench( pkg+'::instantiation', function benchmark( bm ) {
 	var dist;
 	var len;
 	var a;
@@ -62,7 +61,7 @@ bench( format( '%s::instantiation', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s::get:a', pkg ), function benchmark( bm ) {
+bench( pkg+'::get:a', function benchmark( bm ) {
 	var dist;
 	var a;
 	var b;
@@ -88,7 +87,7 @@ bench( format( '%s::get:a', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s::set:a', pkg ), function benchmark( bm ) {
+bench( pkg+'::set:a', function benchmark( bm ) {
 	var dist;
 	var len;
 	var a;
@@ -120,7 +119,7 @@ bench( format( '%s::set:a', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s::get:b', pkg ), function benchmark( bm ) {
+bench( pkg+'::get:b', function benchmark( bm ) {
 	var dist;
 	var a;
 	var b;
@@ -146,7 +145,7 @@ bench( format( '%s::get:b', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s::set:b', pkg ), function benchmark( bm ) {
+bench( pkg+'::set:b', function benchmark( bm ) {
 	var dist;
 	var len;
 	var a;
@@ -178,7 +177,7 @@ bench( format( '%s::set:b', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s:entropy', pkg ), function benchmark( bm ) {
+bench( pkg+':entropy', function benchmark( bm ) {
 	var dist;
 	var len;
 	var x;
@@ -212,7 +211,7 @@ bench( format( '%s:entropy', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s:kurtosis', pkg ), function benchmark( bm ) {
+bench( pkg+':kurtosis', function benchmark( bm ) {
 	var dist;
 	var len;
 	var x;
@@ -246,7 +245,7 @@ bench( format( '%s:kurtosis', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s:mean', pkg ), function benchmark( bm ) {
+bench( pkg+':mean', function benchmark( bm ) {
 	var dist;
 	var len;
 	var x;
@@ -280,7 +279,7 @@ bench( format( '%s:mean', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s:median', pkg ), function benchmark( bm ) {
+bench( pkg+':median', function benchmark( bm ) {
 	var dist;
 	var len;
 	var x;
@@ -314,7 +313,7 @@ bench( format( '%s:median', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s:skewness', pkg ), function benchmark( bm ) {
+bench( pkg+':skewness', function benchmark( bm ) {
 	var dist;
 	var len;
 	var x;
@@ -348,7 +347,7 @@ bench( format( '%s:skewness', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s:stdev', pkg ), function benchmark( bm ) {
+bench( pkg+':stdev', function benchmark( bm ) {
 	var dist;
 	var len;
 	var x;
@@ -382,7 +381,7 @@ bench( format( '%s:stdev', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s:variance', pkg ), function benchmark( bm ) {
+bench( pkg+':variance', function benchmark( bm ) {
 	var dist;
 	var len;
 	var x;
@@ -416,7 +415,7 @@ bench( format( '%s:variance', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s:cdf', pkg ), function benchmark( bm ) {
+bench( pkg+':cdf', function benchmark( bm ) {
 	var dist;
 	var len;
 	var a;
@@ -449,7 +448,7 @@ bench( format( '%s:cdf', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s:logcdf', pkg ), function benchmark( bm ) {
+bench( pkg+':logcdf', function benchmark( bm ) {
 	var dist;
 	var len;
 	var a;
@@ -482,7 +481,7 @@ bench( format( '%s:logcdf', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s:logpmf', pkg ), function benchmark( bm ) {
+bench( pkg+':logpmf', function benchmark( bm ) {
 	var dist;
 	var len;
 	var a;
@@ -515,7 +514,7 @@ bench( format( '%s:logpmf', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s:mgf', pkg ), function benchmark( bm ) {
+bench( pkg+':mgf', function benchmark( bm ) {
 	var dist;
 	var len;
 	var a;
@@ -548,7 +547,7 @@ bench( format( '%s:mgf', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s:pmf', pkg ), function benchmark( bm ) {
+bench( pkg+':pmf', function benchmark( bm ) {
 	var dist;
 	var len;
 	var a;
@@ -581,7 +580,7 @@ bench( format( '%s:pmf', pkg ), function benchmark( bm ) {
 	bm.end();
 });
 
-bench( format( '%s:quantile', pkg ), function benchmark( bm ) {
+bench( pkg+':quantile', function benchmark( bm ) {
 	var dist;
 	var len;
 	var a;

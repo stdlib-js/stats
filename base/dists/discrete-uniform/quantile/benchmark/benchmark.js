@@ -24,7 +24,6 @@ var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/array/uniform' );
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var quantile = require( './../lib' );
 
@@ -59,7 +58,7 @@ bench( pkg, function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s::factory', pkg ), function benchmark( b ) {
+bench( pkg+':factory', function benchmark( b ) {
 	var myquantile;
 	var min;
 	var max;

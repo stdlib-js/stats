@@ -27,7 +27,6 @@ var uniform = require( '@stdlib/random/base/uniform' );
 var discreteUniform = require( '@stdlib/random/base/discrete-uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var tryRequire = require( '@stdlib/utils/try-require' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 
 
@@ -41,7 +40,7 @@ var opts = {
 
 // MAIN //
 
-bench( format( '%s::native', pkg ), opts, function benchmark( b ) {
+bench( pkg+'::native', opts, function benchmark( b ) {
 	var min;
 	var max;
 	var len;
