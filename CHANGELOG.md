@@ -3735,6 +3735,7 @@ A total of 576 issues were closed in this release:
 
 <details>
 
+-   [`41e2b32`](https://github.com/stdlib-js/stdlib/commit/41e2b321ee542ca7774071f7cf0f437a7d814be6) - **bench:** restore benchmark names _(by Philipp Burckhardt)_
 -   [`15e9d74`](https://github.com/stdlib-js/stdlib/commit/15e9d746f6bf930594f0e48a82e61e7030edade8) - **bench:** refactor to use string interpolation and array literals in `stats/padjust` [(#10208)](https://github.com/stdlib-js/stdlib/pull/10208) _(by Bhargav Dabhade)_
 -   [`570b077`](https://github.com/stdlib-js/stdlib/commit/570b077ce3411575a1c45bc04c3da1b1fc827db3) - **bench:** refactor to use string interpolation in `stats/base/dists/discrete-uniform` [(#10345)](https://github.com/stdlib-js/stdlib/pull/10345) _(by Vishal Gaikwad, Athan Reines)_
 -   [`69ec0a7`](https://github.com/stdlib-js/stdlib/commit/69ec0a7b9516f20a218f32f6e2c9824f12a21695) - **bench:** use string interpolation in `stats/strided/dmaxabssorted` [(#10181)](https://github.com/stdlib-js/stdlib/pull/10181) _(by Om-A-osc)_
