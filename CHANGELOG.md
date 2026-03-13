@@ -3735,6 +3735,8 @@ A total of 576 issues were closed in this release:
 
 <details>
 
+-   [`15e9d74`](https://github.com/stdlib-js/stdlib/commit/15e9d746f6bf930594f0e48a82e61e7030edade8) - **bench:** refactor to use string interpolation and array literals in `stats/padjust` [(#10208)](https://github.com/stdlib-js/stdlib/pull/10208) _(by Bhargav Dabhade)_
+-   [`570b077`](https://github.com/stdlib-js/stdlib/commit/570b077ce3411575a1c45bc04c3da1b1fc827db3) - **bench:** refactor to use string interpolation in `stats/base/dists/discrete-uniform` [(#10345)](https://github.com/stdlib-js/stdlib/pull/10345) _(by Vishal Gaikwad, Athan Reines)_
 -   [`69ec0a7`](https://github.com/stdlib-js/stdlib/commit/69ec0a7b9516f20a218f32f6e2c9824f12a21695) - **bench:** use string interpolation in `stats/strided/dmaxabssorted` [(#10181)](https://github.com/stdlib-js/stdlib/pull/10181) _(by Om-A-osc)_
 -   [`296dfd1`](https://github.com/stdlib-js/stdlib/commit/296dfd170d555b2ae2f7670439305c64b306ed76) - **bench:** use string interpolation in `stats/base/ndarray/dcumaxabs` [(#10877)](https://github.com/stdlib-js/stdlib/pull/10877) _(by Om-A-osc)_
 -   [`6aae9eb`](https://github.com/stdlib-js/stdlib/commit/6aae9eb4034e9ff338a75ec59a1c56a26a46b2b4) - **bench:** use string interpolation in `stats/base/ndarray/dcumin` [(#10878)](https://github.com/stdlib-js/stdlib/pull/10878) _(by Om-A-osc)_
