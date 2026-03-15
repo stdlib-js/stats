@@ -3736,6 +3736,7 @@ A total of 577 issues were closed in this release:
 
 <details>
 
+-   [`3ea11f2`](https://github.com/stdlib-js/stdlib/commit/3ea11f23f3d6995df240f81028aebe1e6eb95c1c) - **docs:** fix incorrect return value in `stats/base/dists/exponenetial/cdf/README.md` [(#10962)](https://github.com/stdlib-js/stdlib/pull/10962) _(by Om-A-osc)_
 -   [`15be226`](https://github.com/stdlib-js/stdlib/commit/15be2263624860a0f0e4b127bb16995e4036fb6a) - **docs:** fix incorrect return value in `stats/base/dists/exponenetial/logpdf/README.md` [(#10963)](https://github.com/stdlib-js/stdlib/pull/10963) _(by Om-A-osc)_
 -   [`ff46826`](https://github.com/stdlib-js/stdlib/commit/ff468262ccfafc3d15037ccdcb92920f980a6f0d) - **docs:** fix C include headers in `stats/base/dists/traingular/logcdf/README.md` [(#10954)](https://github.com/stdlib-js/stdlib/pull/10954) _(by Om-A-osc)_
 -   [`8085ec9`](https://github.com/stdlib-js/stdlib/commit/8085ec9b06af954eeaaf6491c13d4ee23c2070a0) - **docs:** fix incorrect return value in C usage section `triangular/mean` [(#10958)](https://github.com/stdlib-js/stdlib/pull/10958) _(by Om-A-osc)_
