@@ -3736,6 +3736,8 @@ A total of 577 issues were closed in this release:
 
 <details>
 
+-   [`ea63211`](https://github.com/stdlib-js/stdlib/commit/ea63211c94ab3e1504fd23279f1bd7b6b05d8987) - **docs:** fix incorrect return value in C usage section [(#10955)](https://github.com/stdlib-js/stdlib/pull/10955) _(by Om-A-osc)_
+-   [`de1b9a2`](https://github.com/stdlib-js/stdlib/commit/de1b9a2315bb6d25e755bf63979be4b561e220b8) - **docs:** fix incorrect return value in C usage section `weibull/logpdf` [(#10956)](https://github.com/stdlib-js/stdlib/pull/10956) _(by Om-A-osc)_
 -   [`9604482`](https://github.com/stdlib-js/stdlib/commit/9604482fa07f495e6438b564910f6c3ba3185fb6) - **docs:** fix incorrect return value in C usage section `weibull/pdf` [(#10957)](https://github.com/stdlib-js/stdlib/pull/10957) _(by Om-A-osc)_
 -   [`3ea11f2`](https://github.com/stdlib-js/stdlib/commit/3ea11f23f3d6995df240f81028aebe1e6eb95c1c) - **docs:** fix incorrect return value in `stats/base/dists/exponenetial/cdf/README.md` [(#10962)](https://github.com/stdlib-js/stdlib/pull/10962) _(by Om-A-osc)_
 -   [`15be226`](https://github.com/stdlib-js/stdlib/commit/15be2263624860a0f0e4b127bb16995e4036fb6a) - **docs:** fix incorrect return value in `stats/base/dists/exponenetial/logpdf/README.md` [(#10963)](https://github.com/stdlib-js/stdlib/pull/10963) _(by Om-A-osc)_
