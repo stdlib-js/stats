@@ -3736,6 +3736,7 @@ A total of 577 issues were closed in this release:
 
 <details>
 
+-   [`fe2fcae`](https://github.com/stdlib-js/stdlib/commit/fe2fcaeca1ff0b964da4abd7527cabd6d9744a6d) - **docs:** fix C codeblocks in `stats/base/dists/exponenetial/logcdf` [(#10961)](https://github.com/stdlib-js/stdlib/pull/10961) _(by Om-A-osc)_
 -   [`7e2e27a`](https://github.com/stdlib-js/stdlib/commit/7e2e27a02fb2a4583332457c097a21a00530388e) - **bench:** update random value generation for `stats/base/dists/gumbel/mode` [(#10110)](https://github.com/stdlib-js/stdlib/pull/10110) _(by Bhargav Dabhade, Philipp Burckhardt)_
 -   [`bfbe62b`](https://github.com/stdlib-js/stdlib/commit/bfbe62b4e300e4019c4601f755b0bc8565f184dc) - **test:** add tests to `stats/base/dists/geometric/mgf` [(#10483)](https://github.com/stdlib-js/stdlib/pull/10483) _(by Vishal..)_
 -   [`f63b6ef`](https://github.com/stdlib-js/stdlib/commit/f63b6ef8ab403a18dfd58ae0884361c8d829d9f1) - **feat:** add C implementation for `@stdlib/stats/base/dists/poisson/pmf` [(#10839)](https://github.com/stdlib-js/stdlib/pull/10839) _(by Siddhartha Mondal, Philipp Burckhardt, stdlib-bot)_
