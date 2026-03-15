@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-13)
+## Unreleased (2026-03-15)
 
 <section class="features">
 
@@ -3735,6 +3735,7 @@ A total of 576 issues were closed in this release:
 
 <details>
 
+-   [`0b92622`](https://github.com/stdlib-js/stdlib/commit/0b92622d558b78f814f4b9d6cc646c33e7d109c9) - **docs:** fix C example codeblock in `stats/base/dists/weibull/kurtosis/README.md` [(#10939)](https://github.com/stdlib-js/stdlib/pull/10939) _(by Om-A-osc)_
 -   [`41e2b32`](https://github.com/stdlib-js/stdlib/commit/41e2b321ee542ca7774071f7cf0f437a7d814be6) - **bench:** restore benchmark names _(by Philipp Burckhardt)_
 -   [`15e9d74`](https://github.com/stdlib-js/stdlib/commit/15e9d746f6bf930594f0e48a82e61e7030edade8) - **bench:** refactor to use string interpolation and array literals in `stats/padjust` [(#10208)](https://github.com/stdlib-js/stdlib/pull/10208) _(by Bhargav Dabhade)_
 -   [`570b077`](https://github.com/stdlib-js/stdlib/commit/570b077ce3411575a1c45bc04c3da1b1fc827db3) - **bench:** refactor to use string interpolation in `stats/base/dists/discrete-uniform` [(#10345)](https://github.com/stdlib-js/stdlib/pull/10345) _(by Vishal Gaikwad, Athan Reines)_
