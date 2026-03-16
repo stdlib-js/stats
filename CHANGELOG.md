@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-15)
+## Unreleased (2026-03-16)
 
 <section class="features">
 
@@ -3736,6 +3736,7 @@ A total of 577 issues were closed in this release:
 
 <details>
 
+-   [`e1bf01b`](https://github.com/stdlib-js/stdlib/commit/e1bf01b608e845ac2722b9ef2df8979f7fa556a4) - **bench:** refactor to use string interpolation in `stats/base/ndarray/drange` [(#10996)](https://github.com/stdlib-js/stdlib/pull/10996) _(by Partha Das)_
 -   [`ea63211`](https://github.com/stdlib-js/stdlib/commit/ea63211c94ab3e1504fd23279f1bd7b6b05d8987) - **docs:** fix incorrect return value in C usage section [(#10955)](https://github.com/stdlib-js/stdlib/pull/10955) _(by Om-A-osc)_
 -   [`de1b9a2`](https://github.com/stdlib-js/stdlib/commit/de1b9a2315bb6d25e755bf63979be4b561e220b8) - **docs:** fix incorrect return value in C usage section `weibull/logpdf` [(#10956)](https://github.com/stdlib-js/stdlib/pull/10956) _(by Om-A-osc)_
 -   [`9604482`](https://github.com/stdlib-js/stdlib/commit/9604482fa07f495e6438b564910f6c3ba3185fb6) - **docs:** fix incorrect return value in C usage section `weibull/pdf` [(#10957)](https://github.com/stdlib-js/stdlib/pull/10957) _(by Om-A-osc)_
