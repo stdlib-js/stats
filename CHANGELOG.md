@@ -3736,6 +3736,7 @@ A total of 577 issues were closed in this release:
 
 <details>
 
+-   [`6f83646`](https://github.com/stdlib-js/stdlib/commit/6f83646b645d379c709cb8145b054f5b2ea36c79) - **bench:** refactor to use string interpolation in `stats/base/ndarray/max` [(#10994)](https://github.com/stdlib-js/stdlib/pull/10994) _(by Partha Das)_
 -   [`7a996eb`](https://github.com/stdlib-js/stdlib/commit/7a996eb7a7b20c5419b6871ae3150f7a495cdb70) - **bench:** refactor to use string interpolation in `stats/base/ndarray/min` [(#10995)](https://github.com/stdlib-js/stdlib/pull/10995) _(by Partha Das)_
 -   [`e1bf01b`](https://github.com/stdlib-js/stdlib/commit/e1bf01b608e845ac2722b9ef2df8979f7fa556a4) - **bench:** refactor to use string interpolation in `stats/base/ndarray/drange` [(#10996)](https://github.com/stdlib-js/stdlib/pull/10996) _(by Partha Das)_
 -   [`ea63211`](https://github.com/stdlib-js/stdlib/commit/ea63211c94ab3e1504fd23279f1bd7b6b05d8987) - **docs:** fix incorrect return value in C usage section [(#10955)](https://github.com/stdlib-js/stdlib/pull/10955) _(by Om-A-osc)_
