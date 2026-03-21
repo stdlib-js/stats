@@ -3736,6 +3736,7 @@ A total of 578 issues were closed in this release:
 
 <details>
 
+-   [`5da0471`](https://github.com/stdlib-js/stdlib/commit/5da04714fe812499232e6c818dc1b1a456fe2c1e) - **docs:** correct C return annotation in `stats/base/dists/rayleigh/median` [(#11053)](https://github.com/stdlib-js/stdlib/pull/11053) _(by Om Anand)_
 -   [`53ef691`](https://github.com/stdlib-js/stdlib/commit/53ef6911d4af8e33bc5c8c959739df61234ca1c3) - **docs:** correct C return annotation in `stats/base/dists/rayleigh/mean` [(#11054)](https://github.com/stdlib-js/stdlib/pull/11054) _(by Om Anand)_
 -   [`63f5705`](https://github.com/stdlib-js/stdlib/commit/63f57057daef3619f73ca34773de66111ba61571) - **docs:** fix C example in `stats/base/dists/discrete-uniform/pmf` [(#11052)](https://github.com/stdlib-js/stdlib/pull/11052) _(by Om-A-osc)_
 -   [`5fe2f3e`](https://github.com/stdlib-js/stdlib/commit/5fe2f3e42f1eba5035e18d8113a04d37088749a5) - **chore:** address commit comments for commit `f63b6ef` [(#11001)](https://github.com/stdlib-js/stdlib/pull/11001) _(by Vipeen Kumar)_
