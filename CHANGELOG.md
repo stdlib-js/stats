@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-21)
+## Unreleased (2026-03-22)
 
 <section class="features">
 
@@ -3736,6 +3736,7 @@ A total of 578 issues were closed in this release:
 
 <details>
 
+-   [`8c35e1f`](https://github.com/stdlib-js/stdlib/commit/8c35e1f321923a76acd93dcceef7d3a26fa909c3) - **bench:** refactor to use string interpolation in `stats/strided/dztest`  [(#11078)](https://github.com/stdlib-js/stdlib/pull/11078) _(by Lokesh Ranjan)_
 -   [`c4d51db`](https://github.com/stdlib-js/stdlib/commit/c4d51db1fe762c0ab12fab22a7840440ea3cebb0) - **docs:** correct C return annotation in `stats/base/dists/geometric/stdev` [(#11050)](https://github.com/stdlib-js/stdlib/pull/11050) _(by Om Anand)_
 -   [`acd1595`](https://github.com/stdlib-js/stdlib/commit/acd1595cd6aad7f256df747f499575c865e30506) - **docs:** correct C example in `stats/base/dists/beta/mgf` [(#11051)](https://github.com/stdlib-js/stdlib/pull/11051) _(by Om Anand)_
 -   [`5da0471`](https://github.com/stdlib-js/stdlib/commit/5da04714fe812499232e6c818dc1b1a456fe2c1e) - **docs:** correct C return annotation in `stats/base/dists/rayleigh/median` [(#11053)](https://github.com/stdlib-js/stdlib/pull/11053) _(by Om Anand)_
