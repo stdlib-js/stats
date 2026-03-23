@@ -3736,6 +3736,7 @@ A total of 581 issues were closed in this release:
 
 <details>
 
+-   [`41869d9`](https://github.com/stdlib-js/stdlib/commit/41869d94f78ab23930c999bb2dd09fcd0a71cf9a) - **bench:** refactor to use string interpolation in `stats/meanwd` [(#11088)](https://github.com/stdlib-js/stdlib/pull/11088) _(by Harshit Verma)_
 -   [`d02089a`](https://github.com/stdlib-js/stdlib/commit/d02089a716cf72e62eb60d54f909f0b439a05196) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`18f1915`](https://github.com/stdlib-js/stdlib/commit/18f191560f9322727ee126619e9e083187b64821) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`e712c8e`](https://github.com/stdlib-js/stdlib/commit/e712c8e864d3a4c771e3457f49fe8dec354be34b) - **chore:** address commit comments for commit `29ff047` [(#10856)](https://github.com/stdlib-js/stdlib/pull/10856) _(by Partha Das, stdlib-bot)_
@@ -7249,7 +7250,7 @@ A total of 581 issues were closed in this release:
 
 ### Contributors
 
-A total of 117 people contributed to this release. Thank you to the following contributors:
+A total of 118 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
 -   Aadish Jain
@@ -7296,6 +7297,7 @@ A total of 117 people contributed to this release. Thank you to the following co
 -   Harishchandra Reddy
 -   Haroon Rasheed
 -   Harsh Yadav
+-   Harshit Verma
 -   Hemang Choudhary
 -   Hemant M Mehta
 -   Iryna Andrushko
