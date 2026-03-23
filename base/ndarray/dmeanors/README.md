@@ -210,7 +210,7 @@ int main( void ) {
     // Specify the number of array dimensions:
     const int64_t ndims = 1;
 
-     // Specify the array shape:
+    // Specify the array shape:
     int64_t shape[] = { 4 };
 
     // Specify the array strides:

@@ -3736,6 +3736,8 @@ A total of 581 issues were closed in this release:
 
 <details>
 
+-   [`d02089a`](https://github.com/stdlib-js/stdlib/commit/d02089a716cf72e62eb60d54f909f0b439a05196) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`18f1915`](https://github.com/stdlib-js/stdlib/commit/18f191560f9322727ee126619e9e083187b64821) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`e712c8e`](https://github.com/stdlib-js/stdlib/commit/e712c8e864d3a4c771e3457f49fe8dec354be34b) - **chore:** address commit comments for commit `29ff047` [(#10856)](https://github.com/stdlib-js/stdlib/pull/10856) _(by Partha Das, stdlib-bot)_
 -   [`5a50a24`](https://github.com/stdlib-js/stdlib/commit/5a50a24c0187fa2eff6c40ed60db7e9281406990) - **docs:** fix broken Markdown link [(#10733)](https://github.com/stdlib-js/stdlib/pull/10733) _(by travisBREAKS)_
 -   [`4f32811`](https://github.com/stdlib-js/stdlib/commit/4f3281135aa10fd6a204e9f7d1776e16615bafe1) - **chore:** address commit comments for commit `bfbe62b` [(#10998)](https://github.com/stdlib-js/stdlib/pull/10998) _(by Blessed Oigbochie)_
