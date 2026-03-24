@@ -3736,6 +3736,7 @@ A total of 582 issues were closed in this release:
 
 <details>
 
+-   [`86e456b`](https://github.com/stdlib-js/stdlib/commit/86e456b4797c0520c1b019037bf18c6cca629a0c) - **docs:** fix incorrect return annotation in `stats/base/dists/weibull/pdf` [(#11119)](https://github.com/stdlib-js/stdlib/pull/11119) _(by Om-A-osc)_
 -   [`cd05946`](https://github.com/stdlib-js/stdlib/commit/cd05946c9680de3ec0a5f3d4f67020f7ab71b03e) - **docs:** fix incorrect return annotation in `stats/base/dists/weibull/logcdf` [(#11118)](https://github.com/stdlib-js/stdlib/pull/11118) _(by Om-A-osc)_
 -   [`427a1e2`](https://github.com/stdlib-js/stdlib/commit/427a1e26fadfe4c1acd407a840f5b246d2c4fdfd) - **chore:** fix JavaScript lint errors [(#11068)](https://github.com/stdlib-js/stdlib/pull/11068) _(by Aniket Sonawane)_
 -   [`41869d9`](https://github.com/stdlib-js/stdlib/commit/41869d94f78ab23930c999bb2dd09fcd0a71cf9a) - **bench:** refactor to use string interpolation in `stats/meanwd` [(#11088)](https://github.com/stdlib-js/stdlib/pull/11088) _(by Harshit Verma)_
