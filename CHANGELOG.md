@@ -3736,6 +3736,7 @@ A total of 584 issues were closed in this release:
 
 <details>
 
+-   [`f9dbbfa`](https://github.com/stdlib-js/stdlib/commit/f9dbbfaf48e1830f1c9fb685856eac2edba3fac6) - **docs:** fix C examples [(#11138)](https://github.com/stdlib-js/stdlib/pull/11138) _(by anee3, Athan Reines)_
 -   [`cf9c83f`](https://github.com/stdlib-js/stdlib/commit/cf9c83fa09765f78db1c0a9d1bec4d713c25f0b6) - **chore:** fix JavaScript and EditorConfig lint errors [(#10947)](https://github.com/stdlib-js/stdlib/pull/10947) _(by Sumithraju)_
 -   [`86e456b`](https://github.com/stdlib-js/stdlib/commit/86e456b4797c0520c1b019037bf18c6cca629a0c) - **docs:** fix incorrect return annotation in `stats/base/dists/weibull/pdf` [(#11119)](https://github.com/stdlib-js/stdlib/pull/11119) _(by Om-A-osc)_
 -   [`cd05946`](https://github.com/stdlib-js/stdlib/commit/cd05946c9680de3ec0a5f3d4f67020f7ab71b03e) - **docs:** fix incorrect return annotation in `stats/base/dists/weibull/logcdf` [(#11118)](https://github.com/stdlib-js/stdlib/pull/11118) _(by Om-A-osc)_
@@ -7254,7 +7255,7 @@ A total of 584 issues were closed in this release:
 
 ### Contributors
 
-A total of 118 people contributed to this release. Thank you to the following contributors:
+A total of 119 people contributed to this release. Thank you to the following contributors:
 
 -   ANKIT SINGH YADAV
 -   Aadish Jain
@@ -7364,6 +7365,7 @@ A total of 118 people contributed to this release. Thank you to the following co
 -   Vishal..
 -   Vivek Maurya
 -   Yuvi Mittal
+-   anee3
 -   daksha607
 -   jsai28
 -   nakul-krishnakumar
