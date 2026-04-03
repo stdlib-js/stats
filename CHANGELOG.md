@@ -3737,6 +3737,7 @@ A total of 585 issues were closed in this release:
 
 <details>
 
+-   [`eccfc1f`](https://github.com/stdlib-js/stdlib/commit/eccfc1f2de5e3c6273592c477af066f384d8cbc5) - **style:** enable lint rule _(by Athan Reines)_
 -   [`93ac8b6`](https://github.com/stdlib-js/stdlib/commit/93ac8b6c1c6bc7c309f5607af8341e66be92f9f8) - **test:** add python fixtures support for `stats/incr/wmean` [(#9975)](https://github.com/stdlib-js/stdlib/pull/9975) _(by Om-A-osc, Philipp Burckhardt)_
 -   [`f4a0718`](https://github.com/stdlib-js/stdlib/commit/f4a07184f537ba8ef7928eb6cca51d0e1732f50e) - **feat:** add implementation for `stats/base/dists/halfnormal/logpdf` [(#9708)](https://github.com/stdlib-js/stdlib/pull/9708) _(by Om-A-osc, Philipp Burckhardt)_
 -   [`7a2753c`](https://github.com/stdlib-js/stdlib/commit/7a2753c3f3fda3dc93da993421d16a650e631c3d) - **chore:** fix JavaScript lint errors [(#11199)](https://github.com/stdlib-js/stdlib/pull/11199) _(by Kartikeya-guthub)_
