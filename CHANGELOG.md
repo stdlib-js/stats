@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-02)
+## Unreleased (2026-04-03)
 
 <section class="features">
 
 ### Features
 
+-   [`f4a0718`](https://github.com/stdlib-js/stdlib/commit/f4a07184f537ba8ef7928eb6cca51d0e1732f50e) - add implementation for `stats/base/dists/halfnormal/logpdf` [(#9708)](https://github.com/stdlib-js/stdlib/pull/9708)
 -   [`f63b6ef`](https://github.com/stdlib-js/stdlib/commit/f63b6ef8ab403a18dfd58ae0884361c8d829d9f1) - add C implementation for `@stdlib/stats/base/dists/poisson/pmf` [(#10839)](https://github.com/stdlib-js/stdlib/pull/10839)
 -   [`33f4c10`](https://github.com/stdlib-js/stdlib/commit/33f4c102ad24d1ac6f3883b8f68e528d74631621) - adding `stats/incr/nanmmse` [(#6190)](https://github.com/stdlib-js/stdlib/pull/6190)
 -   [`73c6b3c`](https://github.com/stdlib-js/stdlib/commit/73c6b3cbef45a92a3fc5a5cfb12a5fc4c15e7f3d) - add `stats/base/ndarray/nanmskmidrange` [(#9513)](https://github.com/stdlib-js/stdlib/pull/9513)
@@ -3736,6 +3737,7 @@ A total of 585 issues were closed in this release:
 
 <details>
 
+-   [`f4a0718`](https://github.com/stdlib-js/stdlib/commit/f4a07184f537ba8ef7928eb6cca51d0e1732f50e) - **feat:** add implementation for `stats/base/dists/halfnormal/logpdf` [(#9708)](https://github.com/stdlib-js/stdlib/pull/9708) _(by Om-A-osc, Philipp Burckhardt)_
 -   [`7a2753c`](https://github.com/stdlib-js/stdlib/commit/7a2753c3f3fda3dc93da993421d16a650e631c3d) - **chore:** fix JavaScript lint errors [(#11199)](https://github.com/stdlib-js/stdlib/pull/11199) _(by Kartikeya-guthub)_
 -   [`a0169bc`](https://github.com/stdlib-js/stdlib/commit/a0169bcfc0d05ac94c206ac5d6d0a898ec304463) - **docs:** remove unused `ndarray2array` requires from README usage examples [(#11194)](https://github.com/stdlib-js/stdlib/pull/11194) _(by Philipp Burckhardt)_
 -   [`8448f5a`](https://github.com/stdlib-js/stdlib/commit/8448f5a44bad7e305d50ac9e92ba195bac863389) - **chore:** ensure consistent use of semicolons [(#11170)](https://github.com/stdlib-js/stdlib/pull/11170) _(by Philipp Burckhardt, Athan Reines)_
