@@ -3737,6 +3737,7 @@ A total of 585 issues were closed in this release:
 
 <details>
 
+-   [`93ac8b6`](https://github.com/stdlib-js/stdlib/commit/93ac8b6c1c6bc7c309f5607af8341e66be92f9f8) - **test:** add python fixtures support for `stats/incr/wmean` [(#9975)](https://github.com/stdlib-js/stdlib/pull/9975) _(by Om-A-osc, Philipp Burckhardt)_
 -   [`f4a0718`](https://github.com/stdlib-js/stdlib/commit/f4a07184f537ba8ef7928eb6cca51d0e1732f50e) - **feat:** add implementation for `stats/base/dists/halfnormal/logpdf` [(#9708)](https://github.com/stdlib-js/stdlib/pull/9708) _(by Om-A-osc, Philipp Burckhardt)_
 -   [`7a2753c`](https://github.com/stdlib-js/stdlib/commit/7a2753c3f3fda3dc93da993421d16a650e631c3d) - **chore:** fix JavaScript lint errors [(#11199)](https://github.com/stdlib-js/stdlib/pull/11199) _(by Kartikeya-guthub)_
 -   [`a0169bc`](https://github.com/stdlib-js/stdlib/commit/a0169bcfc0d05ac94c206ac5d6d0a898ec304463) - **docs:** remove unused `ndarray2array` requires from README usage examples [(#11194)](https://github.com/stdlib-js/stdlib/pull/11194) _(by Philipp Burckhardt)_
