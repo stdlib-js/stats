@@ -3737,6 +3737,7 @@ A total of 585 issues were closed in this release:
 
 <details>
 
+-   [`167cf51`](https://github.com/stdlib-js/stdlib/commit/167cf5158bb75d433dcc7dc49df9d98d97496b8e) - **chore:** remove unused rand_double helper in `stats/strided/dmaxabssorted` [(#10180)](https://github.com/stdlib-js/stdlib/pull/10180) _(by Om-A-osc, Athan Reines, stdlib-bot)_
 -   [`dbb4df7`](https://github.com/stdlib-js/stdlib/commit/dbb4df782f01965c6437df7ac8b142bd2547b932) - **docs:** update examples and benchmarks in `stats/base/ndarray/dnanstdev` [(#10700)](https://github.com/stdlib-js/stdlib/pull/10700) _(by Pratik)_
 -   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_
 -   [`bd60a20`](https://github.com/stdlib-js/stdlib/commit/bd60a209ca4b0989663edbbc591bc7da80294827) - **build:** update R version to 4.2.0 in lint workflows [(#11262)](https://github.com/stdlib-js/stdlib/pull/11262) _(by Mara Averick)_
