@@ -3740,6 +3740,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`49457c5`](https://github.com/stdlib-js/stdlib/commit/49457c5f87af9314c351e9af55b471e3f8d3422c) - **refactor:** reuse variance in `stats/base/dists/bernoulli/stdev` [(#11366)](https://github.com/stdlib-js/stdlib/pull/11366) _(by Om-A-osc)_
 -   [`1a0c328`](https://github.com/stdlib-js/stdlib/commit/1a0c328357f92fbf8a7a510c42661c560a480c79) - **refactor:** reuse variance in `stats/base/dists/chi/stdev` [(#11365)](https://github.com/stdlib-js/stdlib/pull/11365) _(by Om-A-osc, Athan Reines)_
 -   [`2d4fd4e`](https://github.com/stdlib-js/stdlib/commit/2d4fd4ebbf39d8d3067d1097064f883d25b34d98) - **bench:** refactor to use string interpolation in `stats/**/nanmax-by` packages [(#10495)](https://github.com/stdlib-js/stdlib/pull/10495) _(by Kamal Singh Rautela, Athan Reines)_
 -   [`d6c72a0`](https://github.com/stdlib-js/stdlib/commit/d6c72a042cca76e97759951cdbf89375b784e16a) - **bench:** refactor to use string interpolation in `stats/strided` [(#11359)](https://github.com/stdlib-js/stdlib/pull/11359) _(by Karan Anand)_
