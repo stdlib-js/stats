@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-10)
+## Unreleased (2026-04-11)
 
 <section class="features">
 
 ### Features
 
+-   [`a110323`](https://github.com/stdlib-js/stdlib/commit/a1103232eb43e13031b24cba6cb1ddbe7ea233d3) - add C implementation for `stats/base/ndarray/smaxsorted` [(#10172)](https://github.com/stdlib-js/stdlib/pull/10172)
 -   [`f4a0718`](https://github.com/stdlib-js/stdlib/commit/f4a07184f537ba8ef7928eb6cca51d0e1732f50e) - add implementation for `stats/base/dists/halfnormal/logpdf` [(#9708)](https://github.com/stdlib-js/stdlib/pull/9708)
 -   [`f63b6ef`](https://github.com/stdlib-js/stdlib/commit/f63b6ef8ab403a18dfd58ae0884361c8d829d9f1) - add C implementation for `@stdlib/stats/base/dists/poisson/pmf` [(#10839)](https://github.com/stdlib-js/stdlib/pull/10839)
 -   [`33f4c10`](https://github.com/stdlib-js/stdlib/commit/33f4c102ad24d1ac6f3883b8f68e528d74631621) - adding `stats/incr/nanmmse` [(#6190)](https://github.com/stdlib-js/stdlib/pull/6190)
@@ -3737,6 +3738,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`a110323`](https://github.com/stdlib-js/stdlib/commit/a1103232eb43e13031b24cba6cb1ddbe7ea233d3) - **feat:** add C implementation for `stats/base/ndarray/smaxsorted` [(#10172)](https://github.com/stdlib-js/stdlib/pull/10172) _(by Samarth Kolarkar, Sachin Pangal, stdlib-bot)_
 -   [`4bfaa03`](https://github.com/stdlib-js/stdlib/commit/4bfaa036a0526c3fe87f61730ed0aeeeb0042135) - **chore:** address commit comments for halfnormal logpdf [(#11290)](https://github.com/stdlib-js/stdlib/pull/11290) _(by Guneet Gill, Athan Reines)_
 -   [`167cf51`](https://github.com/stdlib-js/stdlib/commit/167cf5158bb75d433dcc7dc49df9d98d97496b8e) - **chore:** remove unused rand_double helper in `stats/strided/dmaxabssorted` [(#10180)](https://github.com/stdlib-js/stdlib/pull/10180) _(by Om-A-osc, Athan Reines, stdlib-bot)_
 -   [`dbb4df7`](https://github.com/stdlib-js/stdlib/commit/dbb4df782f01965c6437df7ac8b142bd2547b932) - **docs:** update examples and benchmarks in `stats/base/ndarray/dnanstdev` [(#10700)](https://github.com/stdlib-js/stdlib/pull/10700) _(by Pratik)_
