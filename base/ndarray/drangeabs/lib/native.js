@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2025 The Stdlib Authors.
+* Copyright (c) 2026 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,42 +18,38 @@
 
 'use strict';
 
-/**
-* Compute the arithmetic mean of a one-dimensional double-precision floating-point ndarray using a one-pass trial mean algorithm with pairwise summation.
-*
-* @module @stdlib/stats/base/ndarray/dmeanlipw
-*
-* @example
-* var Float64Array = require( '@stdlib/array/float64' );
-* var ndarray = require( '@stdlib/ndarray/base/ctor' );
-* var dmeanlipw = require( '@stdlib/stats/base/ndarray/dmeanlipw' );
-*
-* var xbuf = new Float64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
-* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
-*
-* var v = dmeanlipw( [ x ] );
-* // returns 2.5
-*/
-
 // MODULES //
 
-var join = require( 'path' ).join;
-var tryRequire = require( '@stdlib/utils/try-require' );
-var isError = require( '@stdlib/assert/is-error' );
-var main = require( './main.js' );
+var serialize = require( '@stdlib/ndarray/base/serialize-meta-data' );
+var getData = require( '@stdlib/ndarray/base/data-buffer' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
 
-var dmeanlipw;
-var tmp = tryRequire( join( __dirname, './native.js' ) );
-if ( isError( tmp ) ) {
-	dmeanlipw = main;
-} else {
-	dmeanlipw = tmp;
+/**
+* Computes the range of absolute values of a one-dimensional double-precision floating-point ndarray.
+*
+* @private
+* @param {ArrayLikeObject<Object>} arrays - array-like object containing an input ndarray
+* @returns {number} range
+*
+* @example
+* var Float64Array = require( '@stdlib/array/float64' );
+* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+*
+* var xbuf = new Float64Array( [ -1.0, 3.0, -4.0, 2.0 ] );
+* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+*
+* var v = drangeabs( [ x ] );
+* // returns 3.0
+*/
+function drangeabs( arrays ) {
+	var x = arrays[ 0 ];
+	return addon( getData( x ), serialize( x ) );
 }
 
 
 // EXPORTS //
 
-module.exports = dmeanlipw;
+module.exports = drangeabs;
