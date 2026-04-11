@@ -3740,6 +3740,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`d6c72a0`](https://github.com/stdlib-js/stdlib/commit/d6c72a042cca76e97759951cdbf89375b784e16a) - **bench:** refactor to use string interpolation in `stats/strided` [(#11359)](https://github.com/stdlib-js/stdlib/pull/11359) _(by Karan Anand)_
 -   [`3a2b51e`](https://github.com/stdlib-js/stdlib/commit/3a2b51e148b68f6c74a56b36aed31a2af0c6fa0e) - **feat:** add C implementation for `stats/base/ndarray/drangeabs` [(#10016)](https://github.com/stdlib-js/stdlib/pull/10016) _(by Bhargav Dabhade, Sachin Pangal, stdlib-bot)_
 -   [`c614c17`](https://github.com/stdlib-js/stdlib/commit/c614c17678fb4b77ffa50ea45fabb0362954574b) - **feat:** add C implementation for `stats/base/ndarray/dmeanlipw` [(#10416)](https://github.com/stdlib-js/stdlib/pull/10416) _(by Loay Ahmed, Sachin Pangal, stdlib-bot)_
 -   [`a110323`](https://github.com/stdlib-js/stdlib/commit/a1103232eb43e13031b24cba6cb1ddbe7ea233d3) - **feat:** add C implementation for `stats/base/ndarray/smaxsorted` [(#10172)](https://github.com/stdlib-js/stdlib/pull/10172) _(by Samarth Kolarkar, Sachin Pangal, stdlib-bot)_
