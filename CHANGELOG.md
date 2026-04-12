@@ -3740,6 +3740,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`a07ad1c`](https://github.com/stdlib-js/stdlib/commit/a07ad1c13b9d2428b8897f47c6c78c6bfb0a235d) - **bench:** refactor to use string interpolation in `stats/incr` [(#11394)](https://github.com/stdlib-js/stdlib/pull/11394) _(by Karan Anand)_
 -   [`db9343f`](https://github.com/stdlib-js/stdlib/commit/db9343fab98f282507251bac9547c713d5811cd7) - **bench:** refactor to use string interpolation in `stats/array` [(#11395)](https://github.com/stdlib-js/stdlib/pull/11395) _(by Karan Anand)_
 -   [`d72d712`](https://github.com/stdlib-js/stdlib/commit/d72d712ba9f8c600f880705813245463d2229803) - **bench:** refactor to use string interpolation in `stats/iter` [(#11395)](https://github.com/stdlib-js/stdlib/pull/11395) _(by Karan Anand)_
 -   [`49457c5`](https://github.com/stdlib-js/stdlib/commit/49457c5f87af9314c351e9af55b471e3f8d3422c) - **refactor:** reuse variance in `stats/base/dists/bernoulli/stdev` [(#11366)](https://github.com/stdlib-js/stdlib/pull/11366) _(by Om-A-osc)_
