@@ -10,6 +10,15 @@
 
 ### Features
 
+-   [`daf1d10`](https://github.com/stdlib-js/stdlib/commit/daf1d1044d0b4d2f23d1d93e9933be272b696ff1) - add `snanmskminabs` to namespace
+-   [`a00e13b`](https://github.com/stdlib-js/stdlib/commit/a00e13b1004be9d8e0967b22de202985a0deda35) - add `snanmskmaxabs` to namespace
+-   [`7f5eb84`](https://github.com/stdlib-js/stdlib/commit/7f5eb84d83fb75c3121d15e87f9497d2b69cadf9) - add `nanrangeabs` to namespace
+-   [`1d2c462`](https://github.com/stdlib-js/stdlib/commit/1d2c4626d068cf4fae4aa2c6e5a4bdbdd02d53be) - add `mskminabs` to namespace
+-   [`1b9c6ad`](https://github.com/stdlib-js/stdlib/commit/1b9c6ad2300197671d2f76dc88f8cf5eaf6a22e3) - add `dnanrangeabs` to namespace
+-   [`6df94c6`](https://github.com/stdlib-js/stdlib/commit/6df94c67973597efe569fbf0851eda299f3afb1b) - add `dnanmskminabs` to namespace
+-   [`355350b`](https://github.com/stdlib-js/stdlib/commit/355350b17c293dfdb74265e7d31acc25242ba23c) - add `dnanmskmaxabs` to namespace
+-   [`7d80168`](https://github.com/stdlib-js/stdlib/commit/7d80168fab93584854a0296f84daffd55fba8830) - add `dpcorrwd` to namespace
+-   [`f475446`](https://github.com/stdlib-js/stdlib/commit/f4754460a799406f0345c5500bcca2c3a069ea62) - add `stats/strided/dpcorrwd` [(#10677)](https://github.com/stdlib-js/stdlib/pull/10677)
 -   [`3a2b51e`](https://github.com/stdlib-js/stdlib/commit/3a2b51e148b68f6c74a56b36aed31a2af0c6fa0e) - add C implementation for `stats/base/ndarray/drangeabs` [(#10016)](https://github.com/stdlib-js/stdlib/pull/10016)
 -   [`c614c17`](https://github.com/stdlib-js/stdlib/commit/c614c17678fb4b77ffa50ea45fabb0362954574b) - add C implementation for `stats/base/ndarray/dmeanlipw` [(#10416)](https://github.com/stdlib-js/stdlib/pull/10416)
 -   [`a110323`](https://github.com/stdlib-js/stdlib/commit/a1103232eb43e13031b24cba6cb1ddbe7ea233d3) - add C implementation for `stats/base/ndarray/smaxsorted` [(#10172)](https://github.com/stdlib-js/stdlib/pull/10172)
@@ -3740,6 +3749,15 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`daf1d10`](https://github.com/stdlib-js/stdlib/commit/daf1d1044d0b4d2f23d1d93e9933be272b696ff1) - **feat:** add `snanmskminabs` to namespace _(by Athan Reines)_
+-   [`a00e13b`](https://github.com/stdlib-js/stdlib/commit/a00e13b1004be9d8e0967b22de202985a0deda35) - **feat:** add `snanmskmaxabs` to namespace _(by Athan Reines)_
+-   [`7f5eb84`](https://github.com/stdlib-js/stdlib/commit/7f5eb84d83fb75c3121d15e87f9497d2b69cadf9) - **feat:** add `nanrangeabs` to namespace _(by Athan Reines)_
+-   [`1d2c462`](https://github.com/stdlib-js/stdlib/commit/1d2c4626d068cf4fae4aa2c6e5a4bdbdd02d53be) - **feat:** add `mskminabs` to namespace _(by Athan Reines)_
+-   [`1b9c6ad`](https://github.com/stdlib-js/stdlib/commit/1b9c6ad2300197671d2f76dc88f8cf5eaf6a22e3) - **feat:** add `dnanrangeabs` to namespace _(by Athan Reines)_
+-   [`6df94c6`](https://github.com/stdlib-js/stdlib/commit/6df94c67973597efe569fbf0851eda299f3afb1b) - **feat:** add `dnanmskminabs` to namespace _(by Athan Reines)_
+-   [`355350b`](https://github.com/stdlib-js/stdlib/commit/355350b17c293dfdb74265e7d31acc25242ba23c) - **feat:** add `dnanmskmaxabs` to namespace _(by Athan Reines)_
+-   [`7d80168`](https://github.com/stdlib-js/stdlib/commit/7d80168fab93584854a0296f84daffd55fba8830) - **feat:** add `dpcorrwd` to namespace _(by Athan Reines)_
+-   [`f475446`](https://github.com/stdlib-js/stdlib/commit/f4754460a799406f0345c5500bcca2c3a069ea62) - **feat:** add `stats/strided/dpcorrwd` [(#10677)](https://github.com/stdlib-js/stdlib/pull/10677) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
 -   [`9430db6`](https://github.com/stdlib-js/stdlib/commit/9430db645b6b1d36afb35e2fe3275d9ce4c384b8) - **refactor:** reuse variance implementation for stdev in `stats/base/dists` [(#11370)](https://github.com/stdlib-js/stdlib/pull/11370) _(by Om-A-osc, Athan Reines)_
 -   [`4fe7fa2`](https://github.com/stdlib-js/stdlib/commit/4fe7fa284a539f7a30709e1a7801e15f54ef153d) - **refactor:** reuse variance in `stats/base/dists/binomial/stdev` [(#11369)](https://github.com/stdlib-js/stdlib/pull/11369) _(by Om-A-osc, Athan Reines)_
 -   [`2105db7`](https://github.com/stdlib-js/stdlib/commit/2105db7b32c31c1cbfa38497f4403f4163950a25) - **refactor:** reuse variance in `stats/base/dists/betaprime/stdev` [(#11368)](https://github.com/stdlib-js/stdlib/pull/11368) _(by Om-A-osc)_

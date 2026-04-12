@@ -451,6 +451,15 @@ setReadOnly( ns, 'dnanminabs', require( './../../strided/dnanminabs' ) );
 setReadOnly( ns, 'dnanmskmax', require( './../../strided/dnanmskmax' ) );
 
 /**
+* @name dnanmskmaxabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dnanmskmaxabs}
+*/
+setReadOnly( ns, 'dnanmskmaxabs', require( './../../strided/dnanmskmaxabs' ) );
+
+/**
 * @name dnanmskmidrange
 * @memberof ns
 * @readonly
@@ -469,6 +478,15 @@ setReadOnly( ns, 'dnanmskmidrange', require( './../../strided/dnanmskmidrange' )
 setReadOnly( ns, 'dnanmskmin', require( './../../strided/dnanmskmin' ) );
 
 /**
+* @name dnanmskminabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dnanmskminabs}
+*/
+setReadOnly( ns, 'dnanmskminabs', require( './../../strided/dnanmskminabs' ) );
+
+/**
 * @name dnanmskrange
 * @memberof ns
 * @readonly
@@ -485,6 +503,15 @@ setReadOnly( ns, 'dnanmskrange', require( './../../strided/dnanmskrange' ) );
 * @see {@link module:@stdlib/stats/strided/dnanrange}
 */
 setReadOnly( ns, 'dnanrange', require( './../../strided/dnanrange' ) );
+
+/**
+* @name dnanrangeabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dnanrangeabs}
+*/
+setReadOnly( ns, 'dnanrangeabs', require( './../../strided/dnanrangeabs' ) );
 
 /**
 * @name dnanstdev
@@ -593,6 +620,15 @@ setReadOnly( ns, 'dnanvariancewd', require( './../../strided/dnanvariancewd' ) )
 * @see {@link module:@stdlib/stats/strided/dnanvarianceyc}
 */
 setReadOnly( ns, 'dnanvarianceyc', require( './../../strided/dnanvarianceyc' ) );
+
+/**
+* @name dpcorrwd
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dpcorrwd}
+*/
+setReadOnly( ns, 'dpcorrwd', require( './../../strided/dpcorrwd' ) );
 
 /**
 * @name drange
@@ -1117,6 +1153,15 @@ setReadOnly( ns, 'mskmidrange', require( './../../strided/mskmidrange' ) );
 setReadOnly( ns, 'mskmin', require( './../../strided/mskmin' ) );
 
 /**
+* @name mskminabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/mskminabs}
+*/
+setReadOnly( ns, 'mskminabs', require( './../../strided/mskminabs' ) );
+
+/**
 * @name mskrange
 * @memberof ns
 * @readonly
@@ -1286,6 +1331,15 @@ setReadOnly( ns, 'nanrange', require( './../../strided/nanrange' ) );
 * @see {@link module:@stdlib/stats/strided/nanrange-by}
 */
 setReadOnly( ns, 'nanrangeBy', require( './../../strided/nanrange-by' ) );
+
+/**
+* @name nanrangeabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/nanrangeabs}
+*/
+setReadOnly( ns, 'nanrangeabs', require( './../../strided/nanrangeabs' ) );
 
 /**
 * @name nanstdev
@@ -1792,6 +1846,15 @@ setReadOnly( ns, 'snanminabs', require( './../../strided/snanminabs' ) );
 setReadOnly( ns, 'snanmskmax', require( './../../strided/snanmskmax' ) );
 
 /**
+* @name snanmskmaxabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/snanmskmaxabs}
+*/
+setReadOnly( ns, 'snanmskmaxabs', require( './../../strided/snanmskmaxabs' ) );
+
+/**
 * @name snanmskmidrange
 * @memberof ns
 * @readonly
@@ -1808,6 +1871,15 @@ setReadOnly( ns, 'snanmskmidrange', require( './../../strided/snanmskmidrange' )
 * @see {@link module:@stdlib/stats/strided/snanmskmin}
 */
 setReadOnly( ns, 'snanmskmin', require( './../../strided/snanmskmin' ) );
+
+/**
+* @name snanmskminabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/snanmskminabs}
+*/
+setReadOnly( ns, 'snanmskminabs', require( './../../strided/snanmskminabs' ) );
 
 /**
 * @name snanmskrange
