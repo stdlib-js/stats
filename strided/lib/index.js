@@ -1180,6 +1180,15 @@ setReadOnly( ns, 'mskminabs', require( './../../strided/mskminabs' ) );
 setReadOnly( ns, 'mskrange', require( './../../strided/mskrange' ) );
 
 /**
+* @name nancount
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/nancount}
+*/
+setReadOnly( ns, 'nancount', require( './../../strided/nancount' ) );
+
+/**
 * @name nanmax
 * @memberof ns
 * @readonly

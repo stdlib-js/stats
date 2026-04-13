@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c3e7377`](https://github.com/stdlib-js/stdlib/commit/c3e7377cf4488e0f510b2f5cb03b5d5e2677a55f) - add `nancount` to namespace
 -   [`887cfd3`](https://github.com/stdlib-js/stdlib/commit/887cfd3b5f509a8e2cd39373d4d2310e4daae841) - add `stats/strided/nancount` [(#11057)](https://github.com/stdlib-js/stdlib/pull/11057)
 -   [`de26ddc`](https://github.com/stdlib-js/stdlib/commit/de26ddc205f7b6bea4c6b094f9dd90cadf83a1c1) - add `dnancount` to namespace
 -   [`4d1d598`](https://github.com/stdlib-js/stdlib/commit/4d1d598a00b57512d4c0ea62cccafd964904b6b4) - add `stats/strided/dnancount` [(#11316)](https://github.com/stdlib-js/stdlib/pull/11316)
@@ -3752,6 +3753,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`c3e7377`](https://github.com/stdlib-js/stdlib/commit/c3e7377cf4488e0f510b2f5cb03b5d5e2677a55f) - **feat:** add `nancount` to namespace _(by Athan Reines)_
 -   [`887cfd3`](https://github.com/stdlib-js/stdlib/commit/887cfd3b5f509a8e2cd39373d4d2310e4daae841) - **feat:** add `stats/strided/nancount` [(#11057)](https://github.com/stdlib-js/stdlib/pull/11057) _(by Om-A-osc, Athan Reines)_
 -   [`de26ddc`](https://github.com/stdlib-js/stdlib/commit/de26ddc205f7b6bea4c6b094f9dd90cadf83a1c1) - **feat:** add `dnancount` to namespace _(by Athan Reines)_
 -   [`4d1d598`](https://github.com/stdlib-js/stdlib/commit/4d1d598a00b57512d4c0ea62cccafd964904b6b4) - **feat:** add `stats/strided/dnancount` [(#11316)](https://github.com/stdlib-js/stdlib/pull/11316) _(by Om-A-osc, Athan Reines)_
