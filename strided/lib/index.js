@@ -352,6 +352,15 @@ setReadOnly( ns, 'dmskmin', require( './../../strided/dmskmin' ) );
 setReadOnly( ns, 'dmskrange', require( './../../strided/dmskrange' ) );
 
 /**
+* @name dnancount
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dnancount}
+*/
+setReadOnly( ns, 'dnancount', require( './../../strided/dnancount' ) );
+
+/**
 * @name dnanmax
 * @memberof ns
 * @readonly

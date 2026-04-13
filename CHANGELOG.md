@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`de26ddc`](https://github.com/stdlib-js/stdlib/commit/de26ddc205f7b6bea4c6b094f9dd90cadf83a1c1) - add `dnancount` to namespace
 -   [`4d1d598`](https://github.com/stdlib-js/stdlib/commit/4d1d598a00b57512d4c0ea62cccafd964904b6b4) - add `stats/strided/dnancount` [(#11316)](https://github.com/stdlib-js/stdlib/pull/11316)
 -   [`daf1d10`](https://github.com/stdlib-js/stdlib/commit/daf1d1044d0b4d2f23d1d93e9933be272b696ff1) - add `snanmskminabs` to namespace
 -   [`a00e13b`](https://github.com/stdlib-js/stdlib/commit/a00e13b1004be9d8e0967b22de202985a0deda35) - add `snanmskmaxabs` to namespace
@@ -3750,6 +3751,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`de26ddc`](https://github.com/stdlib-js/stdlib/commit/de26ddc205f7b6bea4c6b094f9dd90cadf83a1c1) - **feat:** add `dnancount` to namespace _(by Athan Reines)_
 -   [`4d1d598`](https://github.com/stdlib-js/stdlib/commit/4d1d598a00b57512d4c0ea62cccafd964904b6b4) - **feat:** add `stats/strided/dnancount` [(#11316)](https://github.com/stdlib-js/stdlib/pull/11316) _(by Om-A-osc, Athan Reines)_
 -   [`daf1d10`](https://github.com/stdlib-js/stdlib/commit/daf1d1044d0b4d2f23d1d93e9933be272b696ff1) - **feat:** add `snanmskminabs` to namespace _(by Athan Reines)_
 -   [`a00e13b`](https://github.com/stdlib-js/stdlib/commit/a00e13b1004be9d8e0967b22de202985a0deda35) - **feat:** add `snanmskmaxabs` to namespace _(by Athan Reines)_
