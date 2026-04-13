@@ -1774,6 +1774,15 @@ setReadOnly( ns, 'smskmin', require( './../../strided/smskmin' ) );
 setReadOnly( ns, 'smskrange', require( './../../strided/smskrange' ) );
 
 /**
+* @name snancount
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/snancount}
+*/
+setReadOnly( ns, 'snancount', require( './../../strided/snancount' ) );
+
+/**
 * @name snanmax
 * @memberof ns
 * @readonly
