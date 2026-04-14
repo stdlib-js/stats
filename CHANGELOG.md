@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-13)
+## Unreleased (2026-04-14)
 
 <section class="features">
 
@@ -3755,6 +3755,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`36e8e4b`](https://github.com/stdlib-js/stdlib/commit/36e8e4be9c05de181d5e69f7a0f4b689d27c3f35) - **docs:** update namespace table of contents [(#11448)](https://github.com/stdlib-js/stdlib/pull/11448) _(by stdlib-bot)_
 -   [`aab4af1`](https://github.com/stdlib-js/stdlib/commit/aab4af1675e3267ee4bb9b013e1527ba5e641e96) - **feat:** add `snancount` to namespace _(by Athan Reines)_
 -   [`87f3303`](https://github.com/stdlib-js/stdlib/commit/87f3303eb8608fa6933b3e9eb680192cbcb9785f) - **feat:** add `stats/strided/snancount` [(#11438)](https://github.com/stdlib-js/stdlib/pull/11438) _(by Om-A-osc)_
 -   [`a135b0c`](https://github.com/stdlib-js/stdlib/commit/a135b0c7d469dd88edac4e4916fbf6bae8be8b0e) - **docs:** update namespace table of contents [(#11421)](https://github.com/stdlib-js/stdlib/pull/11421) _(by stdlib-bot)_
