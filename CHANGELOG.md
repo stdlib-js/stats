@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`756763e`](https://github.com/stdlib-js/stdlib/commit/756763e3caa2c2b733225faba76f87aeae86c65a) - add `stats/base/ndarray/variancepn` [(#11440)](https://github.com/stdlib-js/stdlib/pull/11440)
 -   [`aab4af1`](https://github.com/stdlib-js/stdlib/commit/aab4af1675e3267ee4bb9b013e1527ba5e641e96) - add `snancount` to namespace
 -   [`87f3303`](https://github.com/stdlib-js/stdlib/commit/87f3303eb8608fa6933b3e9eb680192cbcb9785f) - add `stats/strided/snancount` [(#11438)](https://github.com/stdlib-js/stdlib/pull/11438)
 -   [`c3e7377`](https://github.com/stdlib-js/stdlib/commit/c3e7377cf4488e0f510b2f5cb03b5d5e2677a55f) - add `nancount` to namespace
@@ -3755,6 +3756,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`756763e`](https://github.com/stdlib-js/stdlib/commit/756763e3caa2c2b733225faba76f87aeae86c65a) - **feat:** add `stats/base/ndarray/variancepn` [(#11440)](https://github.com/stdlib-js/stdlib/pull/11440) _(by Pratik)_
 -   [`7a08720`](https://github.com/stdlib-js/stdlib/commit/7a087202aca25ffce1f7b4e8baa448497fc57d8c) - **docs:** improve doctests for ndarray instances in `stats/cumin` [(#11465)](https://github.com/stdlib-js/stdlib/pull/11465) _(by Uday Kakade)_
 -   [`8de902a`](https://github.com/stdlib-js/stdlib/commit/8de902ada35088a18cb8e61b2f48d09c11819809) - **docs:** improve doctests for ndarray instances in `stats/cumax` [(#11468)](https://github.com/stdlib-js/stdlib/pull/11468) _(by Uday Kakade)_
 -   [`36e8e4b`](https://github.com/stdlib-js/stdlib/commit/36e8e4be9c05de181d5e69f7a0f4b689d27c3f35) - **docs:** update namespace table of contents [(#11448)](https://github.com/stdlib-js/stdlib/pull/11448) _(by stdlib-bot)_
