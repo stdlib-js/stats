@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`8ac07be`](https://github.com/stdlib-js/stdlib/commit/8ac07bec0cff1960bc4b82afa8e857074e79e08c) - add various symbols to namespace
+-   [`c1c40e3`](https://github.com/stdlib-js/stdlib/commit/c1c40e349e01caf4b3a7870131e53336facd5d14) - add `dmskmaxabs` to namespace
+-   [`b5a8891`](https://github.com/stdlib-js/stdlib/commit/b5a88910d103159de0d2c9cd9c14f90fc49747cf) - add `variancepn` to namespace
 -   [`756763e`](https://github.com/stdlib-js/stdlib/commit/756763e3caa2c2b733225faba76f87aeae86c65a) - add `stats/base/ndarray/variancepn` [(#11440)](https://github.com/stdlib-js/stdlib/pull/11440)
 -   [`aab4af1`](https://github.com/stdlib-js/stdlib/commit/aab4af1675e3267ee4bb9b013e1527ba5e641e96) - add `snancount` to namespace
 -   [`87f3303`](https://github.com/stdlib-js/stdlib/commit/87f3303eb8608fa6933b3e9eb680192cbcb9785f) - add `stats/strided/snancount` [(#11438)](https://github.com/stdlib-js/stdlib/pull/11438)
@@ -3756,6 +3759,9 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`8ac07be`](https://github.com/stdlib-js/stdlib/commit/8ac07bec0cff1960bc4b82afa8e857074e79e08c) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`c1c40e3`](https://github.com/stdlib-js/stdlib/commit/c1c40e349e01caf4b3a7870131e53336facd5d14) - **feat:** add `dmskmaxabs` to namespace _(by Athan Reines)_
+-   [`b5a8891`](https://github.com/stdlib-js/stdlib/commit/b5a88910d103159de0d2c9cd9c14f90fc49747cf) - **feat:** add `variancepn` to namespace _(by Athan Reines)_
 -   [`756763e`](https://github.com/stdlib-js/stdlib/commit/756763e3caa2c2b733225faba76f87aeae86c65a) - **feat:** add `stats/base/ndarray/variancepn` [(#11440)](https://github.com/stdlib-js/stdlib/pull/11440) _(by Pratik)_
 -   [`7a08720`](https://github.com/stdlib-js/stdlib/commit/7a087202aca25ffce1f7b4e8baa448497fc57d8c) - **docs:** improve doctests for ndarray instances in `stats/cumin` [(#11465)](https://github.com/stdlib-js/stdlib/pull/11465) _(by Uday Kakade)_
 -   [`8de902a`](https://github.com/stdlib-js/stdlib/commit/8de902ada35088a18cb8e61b2f48d09c11819809) - **docs:** improve doctests for ndarray instances in `stats/cumax` [(#11468)](https://github.com/stdlib-js/stdlib/pull/11468) _(by Uday Kakade)_
