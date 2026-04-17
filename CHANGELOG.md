@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`62d1f84`](https://github.com/stdlib-js/stdlib/commit/62d1f841e6b236ecdc7bd7d9744c557bba404002) - add `stats/base/ndarray/midrangeabs` [(#11469)](https://github.com/stdlib-js/stdlib/pull/11469)
 -   [`afe2348`](https://github.com/stdlib-js/stdlib/commit/afe23488d94892d6a640a77aaa4d6923eb0d2d3b) - add `stats/strided/midrangeabs` [(#11264)](https://github.com/stdlib-js/stdlib/pull/11264)
 -   [`685c03e`](https://github.com/stdlib-js/stdlib/commit/685c03ea7fe3aeb0e03ff161547f59d59a32b99c) - add `variancetk` and `varianceyc` to namespace
 -   [`84e56e5`](https://github.com/stdlib-js/stdlib/commit/84e56e56887f3236b8b56001ec2e3081d8059efe) - add `stats/base/ndarray/variancetk` [(#11480)](https://github.com/stdlib-js/stdlib/pull/11480)
@@ -3763,6 +3764,8 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`62d1f84`](https://github.com/stdlib-js/stdlib/commit/62d1f841e6b236ecdc7bd7d9744c557bba404002) - **feat:** add `stats/base/ndarray/midrangeabs` [(#11469)](https://github.com/stdlib-js/stdlib/pull/11469) _(by Sachin Pangal, stdlib-bot)_
+-   [`10210e4`](https://github.com/stdlib-js/stdlib/commit/10210e49f0b5e71b93243d12b650048dc17abed3) - **docs:** update namespace table of contents [(#11497)](https://github.com/stdlib-js/stdlib/pull/11497) _(by stdlib-bot)_
 -   [`afe2348`](https://github.com/stdlib-js/stdlib/commit/afe23488d94892d6a640a77aaa4d6923eb0d2d3b) - **feat:** add `stats/strided/midrangeabs` [(#11264)](https://github.com/stdlib-js/stdlib/pull/11264) _(by Sachin Pangal)_
 -   [`685c03e`](https://github.com/stdlib-js/stdlib/commit/685c03ea7fe3aeb0e03ff161547f59d59a32b99c) - **feat:** add `variancetk` and `varianceyc` to namespace _(by Athan Reines)_
 -   [`84e56e5`](https://github.com/stdlib-js/stdlib/commit/84e56e56887f3236b8b56001ec2e3081d8059efe) - **feat:** add `stats/base/ndarray/variancetk` [(#11480)](https://github.com/stdlib-js/stdlib/pull/11480) _(by Pratik, Athan Reines)_
