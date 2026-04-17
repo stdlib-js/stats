@@ -1560,6 +1560,36 @@
 
 ### BREAKING CHANGES
 
+-   [`d3427df`](https://github.com/stdlib-js/stdlib/commit/d3427df39ee3407e76b32095ec622edf1c7d084e): remove `stats/strided/nancount`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas/ext/base/gnancount` which provides the same API and implementation.
+
+-   [`6a5ee21`](https://github.com/stdlib-js/stdlib/commit/6a5ee212292a52a89ddd3e634809059a011784fa): remove `nancount`
+
+    -   To migrate, users should access the equivalent symbol `gnancount` via the
+        `@stdlib/blas/ext/base` namespace.
+
+-   [`c578a85`](https://github.com/stdlib-js/stdlib/commit/c578a8529be518063f0863632407a7d7f29d95e8): remove `stats/strided/snancount`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas/ext/base/snancount` which provides the same API and implementation.
+
+-   [`283a5c5`](https://github.com/stdlib-js/stdlib/commit/283a5c57b2ad88200173a782b7bd681e1541e28c): remove `snancount`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/blas/ext/base` namespace.
+
+-   [`3193408`](https://github.com/stdlib-js/stdlib/commit/3193408a6cf5df3143142b1af3397dbc949a1fbb): remove `stats/strided/dnancount`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/blas/ext/base/dnancount` which provides the same API and implementation.
+
+-   [`c5db574`](https://github.com/stdlib-js/stdlib/commit/c5db574dc5748a3d000c735ae11961635cb9e5b2): remove `dnancount`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/blas/ext/base` namespace.
+
 -   [`becb440`](https://github.com/stdlib-js/stdlib/commit/becb440aaa166ce435909ba82f743009ad1e7b6d): remove `stats/strided/distances/dchebychev`
 
     -   To migrate, users should update their require/import paths to use
@@ -3766,6 +3796,12 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`d3427df`](https://github.com/stdlib-js/stdlib/commit/d3427df39ee3407e76b32095ec622edf1c7d084e) - **remove:** remove `stats/strided/nancount` _(by Athan Reines)_
+-   [`6a5ee21`](https://github.com/stdlib-js/stdlib/commit/6a5ee212292a52a89ddd3e634809059a011784fa) - **remove:** remove `nancount` from namespace _(by Athan Reines)_
+-   [`c578a85`](https://github.com/stdlib-js/stdlib/commit/c578a8529be518063f0863632407a7d7f29d95e8) - **remove:** remove `stats/strided/snancount` _(by Athan Reines)_
+-   [`283a5c5`](https://github.com/stdlib-js/stdlib/commit/283a5c57b2ad88200173a782b7bd681e1541e28c) - **remove:** remove `snancount` from namespace _(by Athan Reines)_
+-   [`3193408`](https://github.com/stdlib-js/stdlib/commit/3193408a6cf5df3143142b1af3397dbc949a1fbb) - **remove:** remove `stats/strided/dnancount` _(by Athan Reines)_
+-   [`c5db574`](https://github.com/stdlib-js/stdlib/commit/c5db574dc5748a3d000c735ae11961635cb9e5b2) - **remove:** remove `dnancount` from namespace _(by Athan Reines)_
 -   [`66be61a`](https://github.com/stdlib-js/stdlib/commit/66be61a4af9d5aa12e2cc5a7acf6e9fae0030a27) - **feat:** add `midrangeabs` to namespace _(by Athan Reines)_
 -   [`704d0c3`](https://github.com/stdlib-js/stdlib/commit/704d0c3a78e43834c434409b1b154dd30b15668a) - **feat:** add `midrangeabs` to namespace _(by Athan Reines)_
 -   [`62d1f84`](https://github.com/stdlib-js/stdlib/commit/62d1f841e6b236ecdc7bd7d9744c557bba404002) - **feat:** add `stats/base/ndarray/midrangeabs` [(#11469)](https://github.com/stdlib-js/stdlib/pull/11469) _(by Sachin Pangal, stdlib-bot)_

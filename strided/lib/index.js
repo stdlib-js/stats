@@ -352,15 +352,6 @@ setReadOnly( ns, 'dmskmin', require( './../../strided/dmskmin' ) );
 setReadOnly( ns, 'dmskrange', require( './../../strided/dmskrange' ) );
 
 /**
-* @name dnancount
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/strided/dnancount}
-*/
-setReadOnly( ns, 'dnancount', require( './../../strided/dnancount' ) );
-
-/**
 * @name dnanmax
 * @memberof ns
 * @readonly
@@ -1189,15 +1180,6 @@ setReadOnly( ns, 'mskminabs', require( './../../strided/mskminabs' ) );
 setReadOnly( ns, 'mskrange', require( './../../strided/mskrange' ) );
 
 /**
-* @name nancount
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/strided/nancount}
-*/
-setReadOnly( ns, 'nancount', require( './../../strided/nancount' ) );
-
-/**
 * @name nanmax
 * @memberof ns
 * @readonly
@@ -1781,15 +1763,6 @@ setReadOnly( ns, 'smskmin', require( './../../strided/smskmin' ) );
 * @see {@link module:@stdlib/stats/strided/smskrange}
 */
 setReadOnly( ns, 'smskrange', require( './../../strided/smskrange' ) );
-
-/**
-* @name snancount
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/strided/snancount}
-*/
-setReadOnly( ns, 'snancount', require( './../../strided/snancount' ) );
 
 /**
 * @name snanmax
