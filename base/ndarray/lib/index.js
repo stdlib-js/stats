@@ -1567,6 +1567,15 @@ setReadOnly( ns, 'variancech', require( './../../../base/ndarray/variancech' ) )
 setReadOnly( ns, 'variancepn', require( './../../../base/ndarray/variancepn' ) );
 
 /**
+* @name variancetk
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/variancetk}
+*/
+setReadOnly( ns, 'variancetk', require( './../../../base/ndarray/variancetk' ) );
+
+/**
 * @name variancewd
 * @memberof ns
 * @readonly
@@ -1574,6 +1583,15 @@ setReadOnly( ns, 'variancepn', require( './../../../base/ndarray/variancepn' ) )
 * @see {@link module:@stdlib/stats/base/ndarray/variancewd}
 */
 setReadOnly( ns, 'variancewd', require( './../../../base/ndarray/variancewd' ) );
+
+/**
+* @name varianceyc
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/varianceyc}
+*/
+setReadOnly( ns, 'varianceyc', require( './../../../base/ndarray/varianceyc' ) );
 
 /**
 * @name ztest
