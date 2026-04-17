@@ -1090,6 +1090,15 @@ setReadOnly( ns, 'midrange', require( './../../strided/midrange' ) );
 setReadOnly( ns, 'midrangeBy', require( './../../strided/midrange-by' ) );
 
 /**
+* @name midrangeabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/midrangeabs}
+*/
+setReadOnly( ns, 'midrangeabs', require( './../../strided/midrangeabs' ) );
+
+/**
 * @name min
 * @memberof ns
 * @readonly

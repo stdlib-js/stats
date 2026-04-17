@@ -703,6 +703,15 @@ setReadOnly( ns, 'midrange', require( './../../../base/ndarray/midrange' ) );
 setReadOnly( ns, 'midrangeBy', require( './../../../base/ndarray/midrange-by' ) );
 
 /**
+* @name midrangeabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/midrangeabs}
+*/
+setReadOnly( ns, 'midrangeabs', require( './../../../base/ndarray/midrangeabs' ) );
+
+/**
 * @name min
 * @memberof ns
 * @readonly
