@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-16)
+## Unreleased (2026-04-17)
 
 <section class="features">
 
@@ -3759,6 +3759,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`2ab835f`](https://github.com/stdlib-js/stdlib/commit/2ab835f6d0b8721ef7e604d7fdced904bed91443) - **docs:** refactor to use `logEachMap` in examples [(#11485)](https://github.com/stdlib-js/stdlib/pull/11485) _(by Lokesh Ranjan)_
 -   [`8ac07be`](https://github.com/stdlib-js/stdlib/commit/8ac07bec0cff1960bc4b82afa8e857074e79e08c) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`c1c40e3`](https://github.com/stdlib-js/stdlib/commit/c1c40e349e01caf4b3a7870131e53336facd5d14) - **feat:** add `dmskmaxabs` to namespace _(by Athan Reines)_
 -   [`b5a8891`](https://github.com/stdlib-js/stdlib/commit/b5a88910d103159de0d2c9cd9c14f90fc49747cf) - **feat:** add `variancepn` to namespace _(by Athan Reines)_
