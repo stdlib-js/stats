@@ -3796,6 +3796,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`e616ec3`](https://github.com/stdlib-js/stdlib/commit/e616ec3c2b724c7b94937c8b892f54d5ef437719) - **docs:** capitalize `Pearson` and close backtick in `stats/strided/dpcorrwd` [(#11515)](https://github.com/stdlib-js/stdlib/pull/11515) _(by Philipp Burckhardt)_
 -   [`d3427df`](https://github.com/stdlib-js/stdlib/commit/d3427df39ee3407e76b32095ec622edf1c7d084e) - **remove:** remove `stats/strided/nancount` _(by Athan Reines)_
 -   [`6a5ee21`](https://github.com/stdlib-js/stdlib/commit/6a5ee212292a52a89ddd3e634809059a011784fa) - **remove:** remove `nancount` from namespace _(by Athan Reines)_
 -   [`c578a85`](https://github.com/stdlib-js/stdlib/commit/c578a8529be518063f0863632407a7d7f29d95e8) - **remove:** remove `stats/strided/snancount` _(by Athan Reines)_
