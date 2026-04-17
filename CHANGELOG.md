@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`84e56e5`](https://github.com/stdlib-js/stdlib/commit/84e56e56887f3236b8b56001ec2e3081d8059efe) - add `stats/base/ndarray/variancetk` [(#11480)](https://github.com/stdlib-js/stdlib/pull/11480)
 -   [`b827e98`](https://github.com/stdlib-js/stdlib/commit/b827e987100f095fcb8ef37defa26f91f41d7522) - add `stats/base/ndarray/varianceyc` [(#11482)](https://github.com/stdlib-js/stdlib/pull/11482)
 -   [`8ac07be`](https://github.com/stdlib-js/stdlib/commit/8ac07bec0cff1960bc4b82afa8e857074e79e08c) - add various symbols to namespace
 -   [`c1c40e3`](https://github.com/stdlib-js/stdlib/commit/c1c40e349e01caf4b3a7870131e53336facd5d14) - add `dmskmaxabs` to namespace
@@ -3760,6 +3761,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`84e56e5`](https://github.com/stdlib-js/stdlib/commit/84e56e56887f3236b8b56001ec2e3081d8059efe) - **feat:** add `stats/base/ndarray/variancetk` [(#11480)](https://github.com/stdlib-js/stdlib/pull/11480) _(by Pratik, Athan Reines)_
 -   [`b827e98`](https://github.com/stdlib-js/stdlib/commit/b827e987100f095fcb8ef37defa26f91f41d7522) - **feat:** add `stats/base/ndarray/varianceyc` [(#11482)](https://github.com/stdlib-js/stdlib/pull/11482) _(by Pratik, Athan Reines)_
 -   [`5eb7aea`](https://github.com/stdlib-js/stdlib/commit/5eb7aea36a642f90891018aaacd7d3d943fbcf4c) - **docs:** add missing notes _(by Athan Reines)_
 -   [`2ab835f`](https://github.com/stdlib-js/stdlib/commit/2ab835f6d0b8721ef7e604d7fdced904bed91443) - **docs:** refactor to use `logEachMap` in examples [(#11485)](https://github.com/stdlib-js/stdlib/pull/11485) _(by Lokesh Ranjan)_
