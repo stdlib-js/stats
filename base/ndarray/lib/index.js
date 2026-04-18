@@ -1531,6 +1531,15 @@ setReadOnly( ns, 'stdevwd', require( './../../../base/ndarray/stdevwd' ) );
 setReadOnly( ns, 'stdevyc', require( './../../../base/ndarray/stdevyc' ) );
 
 /**
+* @name svariance
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/svariance}
+*/
+setReadOnly( ns, 'svariance', require( './../../../base/ndarray/svariance' ) );
+
+/**
 * @name sztest
 * @memberof ns
 * @readonly
