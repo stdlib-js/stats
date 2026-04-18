@@ -3796,6 +3796,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`a19ed4c`](https://github.com/stdlib-js/stdlib/commit/a19ed4c1ebd7a8e2124665cf5b9442e7e970eb19) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/cumax` [(#11522)](https://github.com/stdlib-js/stdlib/pull/11522) _(by Uday Kakade)_
 -   [`00385f6`](https://github.com/stdlib-js/stdlib/commit/00385f618ba07beba4fa4be45feee0f55591aa5f) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/dcumin` [(#11521)](https://github.com/stdlib-js/stdlib/pull/11521) _(by Uday Kakade)_
 -   [`2505815`](https://github.com/stdlib-js/stdlib/commit/25058156cf7b1138c5c33209a5143100c376b46d) - **docs:** update namespace table of contents [(#11520)](https://github.com/stdlib-js/stdlib/pull/11520) _(by stdlib-bot)_
 -   [`e616ec3`](https://github.com/stdlib-js/stdlib/commit/e616ec3c2b724c7b94937c8b892f54d5ef437719) - **docs:** capitalize `Pearson` and close backtick in `stats/strided/dpcorrwd` [(#11515)](https://github.com/stdlib-js/stdlib/pull/11515) _(by Philipp Burckhardt)_
