@@ -3796,6 +3796,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`71a93c8`](https://github.com/stdlib-js/stdlib/commit/71a93c88b8f794e067e62bfb86e0e549c3b27a0b) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/dcuminabs` [(#11526)](https://github.com/stdlib-js/stdlib/pull/11526) _(by Uday Kakade)_
 -   [`adc6eb6`](https://github.com/stdlib-js/stdlib/commit/adc6eb6b331959b7123e4fb9598450496b980425) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/dcumxabs` [(#11525)](https://github.com/stdlib-js/stdlib/pull/11525) _(by Uday Kakade)_
 -   [`d5dc0ec`](https://github.com/stdlib-js/stdlib/commit/d5dc0ec5e07a3490a539f33c9723df8ddcb20ae9) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/dcumax` [(#11524)](https://github.com/stdlib-js/stdlib/pull/11524) _(by Uday Kakade)_
 -   [`9e562a3`](https://github.com/stdlib-js/stdlib/commit/9e562a3d9c9650d384bb6a3f8966a0c7e1c6a307) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/cumin` [(#11523)](https://github.com/stdlib-js/stdlib/pull/11523) _(by Uday Kakade)_
