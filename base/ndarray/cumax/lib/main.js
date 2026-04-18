@@ -36,6 +36,7 @@ var strided = require( './../../../../base/cumax' ).ndarray;
 * @returns {ndarrayLike} output ndarray
 *
 * @example
+* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 * var ndarray = require( '@stdlib/ndarray/base/ctor' );
 *
 * var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
@@ -45,10 +46,13 @@ var strided = require( './../../../../base/cumax' ).ndarray;
 * var y = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
 *
 * var v = cumax( [ x, y ] );
-* // returns <ndarray>[ 1.0, 3.0, 4.0, 4.0 ]
+* // returns <ndarray>
 *
 * var bool = ( v === y );
 * // returns true
+*
+* var arr = ndarray2array( v );
+* // returns [ 1.0, 3.0, 4.0, 4.0 ]
 */
 function cumax( arrays ) {
 	var x = arrays[ 0 ];

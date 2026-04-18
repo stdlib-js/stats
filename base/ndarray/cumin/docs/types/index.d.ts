@@ -29,6 +29,7 @@ import { ndarray, typedndarray } from '@stdlib/types/ndarray';
 * @returns output ndarray
 *
 * @example
+* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 * var ndarray = require( '@stdlib/ndarray/base/ctor' );
 *
 * var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
@@ -38,10 +39,13 @@ import { ndarray, typedndarray } from '@stdlib/types/ndarray';
 * var y = new ndarray( 'generic', ybuf, [ 4 ], [ 1 ], 0, 'row-major' );
 *
 * var v = cumin( [ x, y ] );
-* // returns <ndarray>[ 1.0, 1.0, 1.0, 1.0 ]
+* // returns <ndarray>
 *
 * var bool = ( v === y );
 * // returns true
+*
+* var arr = ndarray2array( v );
+* // returns [ 1.0, 1.0, 1.0, 1.0 ]
 */
 declare function cumin<T extends typedndarray<unknown> = typedndarray<unknown>>( arrays: [ ndarray, T ] ): T;
 

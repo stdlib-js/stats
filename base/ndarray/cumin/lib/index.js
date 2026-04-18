@@ -24,6 +24,7 @@
 * @module @stdlib/stats/base/ndarray/cumin
 *
 * @example
+* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 * var ndarray = require( '@stdlib/ndarray/base/ctor' );
 * var cumin = require( '@stdlib/stats/base/ndarray/cumin' );
 *
@@ -34,10 +35,13 @@
 * var y = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
 *
 * var v = cumin( [ x, y ] );
-* // returns <ndarray>[ 1.0, 1.0, 1.0, 1.0 ]
+* // returns <ndarray>
 *
 * var bool = ( v === y );
 * // returns true
+*
+* var arr = ndarray2array( v );
+* // returns [ 1.0, 1.0, 1.0, 1.0 ]
 */
 
 // MODULES //

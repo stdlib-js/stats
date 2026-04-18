@@ -46,10 +46,13 @@ var strided = require( './../../../../base/cumin' ).ndarray;
 * var y = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
 *
 * var v = cumin( [ x, y ] );
-* // returns <ndarray>[ 1.0, 1.0, 1.0, 1.0 ]
+* // returns <ndarray>
 *
 * var bool = ( v === y );
 * // returns true
+*
+* var arr = ndarray2array( v );
+* // returns [ 1.0, 1.0, 1.0, 1.0 ]
 */
 function cumin( arrays ) {
 	var x = arrays[ 0 ];

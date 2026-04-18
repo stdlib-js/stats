@@ -25,6 +25,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
+* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 * var ndarray = require( '@stdlib/ndarray/base/ctor' );
 * var dcumaxabs = require( '@stdlib/stats/base/ndarray/dcumaxabs' );
 *
@@ -35,10 +36,13 @@
 * var y = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
 *
 * var v = dcumaxabs( [ x, y ] );
-* // returns <ndarray>[ 1.0, 3.0, 4.0, 4.0 ]
+* // returns <ndarray>
 *
 * var bool = ( v === y );
 * // returns true
+*
+* var arr = ndarray2array( v );
+* // returns [ 1.0, 3.0, 4.0, 4.0 ]
 */
 
 // MODULES //

@@ -37,6 +37,7 @@ var strided = require( './../../../../strided/dcuminabs' ).ndarray;
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
+* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 * var ndarray = require( '@stdlib/ndarray/base/ctor' );
 *
 * var xbuf = new Float64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
@@ -46,10 +47,13 @@ var strided = require( './../../../../strided/dcuminabs' ).ndarray;
 * var y = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
 *
 * var v = dcuminabs( [ x, y ] );
-* // returns <ndarray>[ 1.0, 1.0, 1.0, 1.0 ]
+* // returns <ndarray>
 *
 * var bool = ( v === y );
 * // returns true
+*
+* var arr = ndarray2array( v );
+* // returns [ 1.0, 1.0, 1.0, 1.0 ]
 */
 function dcuminabs( arrays ) {
 	var x = arrays[ 0 ];
