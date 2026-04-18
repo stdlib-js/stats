@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2c7da1c`](https://github.com/stdlib-js/stdlib/commit/2c7da1c4a81b3856be1724146b68ce8b4fb12f30) - add `stats/base/ndarray/dnanrangeabs` [(#11346)](https://github.com/stdlib-js/stdlib/pull/11346)
 -   [`1588bf2`](https://github.com/stdlib-js/stdlib/commit/1588bf256bf277102e267b41a7d68c1798293b7e) - add `svariance` to namespace
 -   [`d985063`](https://github.com/stdlib-js/stdlib/commit/d985063b6fc9348485640f52158bbea28c7e4b86) - add `stats/base/ndarray/svariance` [(#11510)](https://github.com/stdlib-js/stdlib/pull/11510)
 -   [`66be61a`](https://github.com/stdlib-js/stdlib/commit/66be61a4af9d5aa12e2cc5a7acf6e9fae0030a27) - add `midrangeabs` to namespace
@@ -3798,6 +3799,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`2c7da1c`](https://github.com/stdlib-js/stdlib/commit/2c7da1c4a81b3856be1724146b68ce8b4fb12f30) - **feat:** add `stats/base/ndarray/dnanrangeabs` [(#11346)](https://github.com/stdlib-js/stdlib/pull/11346) _(by Sachin Pangal)_
 -   [`7be0aa6`](https://github.com/stdlib-js/stdlib/commit/7be0aa66fb4527b9d255e0d507427dc14f7fa151) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/scumax` [(#11531)](https://github.com/stdlib-js/stdlib/pull/11531) _(by Uday Kakade)_
 -   [`a6b67f6`](https://github.com/stdlib-js/stdlib/commit/a6b67f6978e82bbcb309c36dfda36a7d28b19fbf) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/scumin` [(#11532)](https://github.com/stdlib-js/stdlib/pull/11532) _(by Uday Kakade)_
 -   [`1588bf2`](https://github.com/stdlib-js/stdlib/commit/1588bf256bf277102e267b41a7d68c1798293b7e) - **feat:** add `svariance` to namespace _(by Athan Reines)_
