@@ -3807,6 +3807,8 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`483f9f5`](https://github.com/stdlib-js/stdlib/commit/483f9f50458690009bdfe4266ce6dc95eebb9c24) - **bench:** refactor to use dynamic memory allocation in `blas/base/snanstdev` [(#11607)](https://github.com/stdlib-js/stdlib/pull/11607) _(by Uday Kakade)_
+-   [`bf9d681`](https://github.com/stdlib-js/stdlib/commit/bf9d681bb656cb9356a7480a63e306353d52464a) - **bench:** refactor to use dynamic memory allocation in `blas/base/snanstdevch` [(#11609)](https://github.com/stdlib-js/stdlib/pull/11609) _(by Uday Kakade)_
 -   [`7804aaa`](https://github.com/stdlib-js/stdlib/commit/7804aaa23131173d59d96417301c981129c248d7) - **bench:** refactor to use dynamic memory allocation in `blas/base/snanstdevchpn` [(#11611)](https://github.com/stdlib-js/stdlib/pull/11611) _(by Uday Kakade)_
 -   [`4ac66ae`](https://github.com/stdlib-js/stdlib/commit/4ac66ae1c4bb0fced3efc36152899723c3ebf4dc) - **bench:** refactor to use dynamic memory allocation in `blas/base/snanstdevtk` [(#11613)](https://github.com/stdlib-js/stdlib/pull/11613) _(by Uday Kakade)_
 -   [`67cdf3c`](https://github.com/stdlib-js/stdlib/commit/67cdf3cc8be241859493c2da00974d595eef73cb) - **chore:** propagate recent doctest and lint fixes to sibling packages [(#11585)](https://github.com/stdlib-js/stdlib/pull/11585) _(by Philipp Burckhardt)_
