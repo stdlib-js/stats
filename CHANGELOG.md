@@ -3807,7 +3807,6 @@ A total of 586 issues were closed in this release:
 
 <details>
 
--   [`c59b5f4`](https://github.com/stdlib-js/stdlib/commit/c59b5f4c20848ce7ac01ea7c2372b386ccd2c387) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmeanpn` [(#11586)](https://github.com/stdlib-js/stdlib/pull/11586) _(by Uday Kakade)_
 -   [`514b822`](https://github.com/stdlib-js/stdlib/commit/514b82277049e952d5ea3622fd889bde8bfe06f0) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dstdev` [(#11595)](https://github.com/stdlib-js/stdlib/pull/11595) _(by Uday Kakade)_
 -   [`c7b8e82`](https://github.com/stdlib-js/stdlib/commit/c7b8e82433b570206634972327a986688b840280) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dsempn` [(#11596)](https://github.com/stdlib-js/stdlib/pull/11596) _(by Uday Kakade)_
 -   [`1a1d6d1`](https://github.com/stdlib-js/stdlib/commit/1a1d6d1e60c1496c2613aeab2ef4c3fb16d75899) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dsem` [(#11598)](https://github.com/stdlib-js/stdlib/pull/11598) _(by Uday Kakade)_
