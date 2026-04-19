@@ -3807,6 +3807,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`0873811`](https://github.com/stdlib-js/stdlib/commit/0873811a6cdde040bef142386df8f1fe2c64d4df) - **docs:** inline ndarray output in doctests and add missing article [(#11557)](https://github.com/stdlib-js/stdlib/pull/11557) _(by Philipp Burckhardt)_
 -   [`32bbc2a`](https://github.com/stdlib-js/stdlib/commit/32bbc2a24552b2fd512383f3f9ff53fb53cae574) - **feat:** add `svariancetk`, `svariancewd`, `svarianceyc` to namespace [(#11580)](https://github.com/stdlib-js/stdlib/pull/11580) _(by Pratik)_
 -   [`25c05e1`](https://github.com/stdlib-js/stdlib/commit/25c05e13df7e15e7ed1396368f797f2f1f487070) - **feat:** add `stats/base/ndarray/svarianceyc` [(#11579)](https://github.com/stdlib-js/stdlib/pull/11579) _(by Pratik)_
 -   [`6d111c5`](https://github.com/stdlib-js/stdlib/commit/6d111c5a46bb7b0d848fa8925187357ededdbee2) - **feat:** add `stats/base/ndarray/svariancetk` [(#11575)](https://github.com/stdlib-js/stdlib/pull/11575) _(by Pratik)_
