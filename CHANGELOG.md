@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-18)
+## Unreleased (2026-04-19)
 
 <section class="features">
 
@@ -3800,6 +3800,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`67911a1`](https://github.com/stdlib-js/stdlib/commit/67911a14ad18081aaa75c21b34dd07c2e8beb954) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/scumaxabs` [(#11536)](https://github.com/stdlib-js/stdlib/pull/11536) _(by Uday Kakade)_
 -   [`24e61b9`](https://github.com/stdlib-js/stdlib/commit/24e61b9a33fdec75adbc8ff9cfd3642340787077) - **feat:** add `dnanrangeabs` to namespace _(by Athan Reines)_
 -   [`2c7da1c`](https://github.com/stdlib-js/stdlib/commit/2c7da1c4a81b3856be1724146b68ce8b4fb12f30) - **feat:** add `stats/base/ndarray/dnanrangeabs` [(#11346)](https://github.com/stdlib-js/stdlib/pull/11346) _(by Sachin Pangal)_
 -   [`7be0aa6`](https://github.com/stdlib-js/stdlib/commit/7be0aa66fb4527b9d255e0d507427dc14f7fa151) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/scumax` [(#11531)](https://github.com/stdlib-js/stdlib/pull/11531) _(by Uday Kakade)_
