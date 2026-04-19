@@ -3807,6 +3807,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`4ac66ae`](https://github.com/stdlib-js/stdlib/commit/4ac66ae1c4bb0fced3efc36152899723c3ebf4dc) - **bench:** refactor to use dynamic memory allocation in `blas/base/snanstdevtk` [(#11613)](https://github.com/stdlib-js/stdlib/pull/11613) _(by Uday Kakade)_
 -   [`67cdf3c`](https://github.com/stdlib-js/stdlib/commit/67cdf3cc8be241859493c2da00974d595eef73cb) - **chore:** propagate recent doctest and lint fixes to sibling packages [(#11585)](https://github.com/stdlib-js/stdlib/pull/11585) _(by Philipp Burckhardt)_
 -   [`0873811`](https://github.com/stdlib-js/stdlib/commit/0873811a6cdde040bef142386df8f1fe2c64d4df) - **docs:** inline ndarray output in doctests and add missing article [(#11557)](https://github.com/stdlib-js/stdlib/pull/11557) _(by Philipp Burckhardt)_
 -   [`32bbc2a`](https://github.com/stdlib-js/stdlib/commit/32bbc2a24552b2fd512383f3f9ff53fb53cae574) - **feat:** add `svariancetk`, `svariancewd`, `svarianceyc` to namespace [(#11580)](https://github.com/stdlib-js/stdlib/pull/11580) _(by Pratik)_
