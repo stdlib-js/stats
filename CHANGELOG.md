@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a0ef914`](https://github.com/stdlib-js/stdlib/commit/a0ef91418f41405fc9961c3ff82ef4d124da963e) - add `svariancech` and `svariancepn` to namespace
 -   [`1bccfb0`](https://github.com/stdlib-js/stdlib/commit/1bccfb08e6c5d9e63a57a188c5e09049e681ccbf) - add `stats/base/ndarray/svariancepn` [(#11553)](https://github.com/stdlib-js/stdlib/pull/11553)
 -   [`6342c27`](https://github.com/stdlib-js/stdlib/commit/6342c27545ad14a048ebddca75ac40add90bc0a6) - add `stats/base/ndarray/svariancech` [(#11552)](https://github.com/stdlib-js/stdlib/pull/11552)
 -   [`24e61b9`](https://github.com/stdlib-js/stdlib/commit/24e61b9a33fdec75adbc8ff9cfd3642340787077) - add `dnanrangeabs` to namespace
@@ -3802,6 +3803,7 @@ A total of 586 issues were closed in this release:
 
 <details>
 
+-   [`a0ef914`](https://github.com/stdlib-js/stdlib/commit/a0ef91418f41405fc9961c3ff82ef4d124da963e) - **feat:** add `svariancech` and `svariancepn` to namespace _(by Athan Reines)_
 -   [`1bccfb0`](https://github.com/stdlib-js/stdlib/commit/1bccfb08e6c5d9e63a57a188c5e09049e681ccbf) - **feat:** add `stats/base/ndarray/svariancepn` [(#11553)](https://github.com/stdlib-js/stdlib/pull/11553) _(by Pratik)_
 -   [`6342c27`](https://github.com/stdlib-js/stdlib/commit/6342c27545ad14a048ebddca75ac40add90bc0a6) - **feat:** add `stats/base/ndarray/svariancech` [(#11552)](https://github.com/stdlib-js/stdlib/pull/11552) _(by Pratik)_
 -   [`b37d2bf`](https://github.com/stdlib-js/stdlib/commit/b37d2bfb2cfab12341c371039b51c87d8462b6f8) - **docs:** improve doctests for ndarray instances in `stats/base/ndarray/scuminabs` [(#11537)](https://github.com/stdlib-js/stdlib/pull/11537) _(by Uday Kakade)_

@@ -1549,6 +1549,24 @@ setReadOnly( ns, 'stdevyc', require( './../../../base/ndarray/stdevyc' ) );
 setReadOnly( ns, 'svariance', require( './../../../base/ndarray/svariance' ) );
 
 /**
+* @name svariancech
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/svariancech}
+*/
+setReadOnly( ns, 'svariancech', require( './../../../base/ndarray/svariancech' ) );
+
+/**
+* @name svariancepn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/base/ndarray/svariancepn}
+*/
+setReadOnly( ns, 'svariancepn', require( './../../../base/ndarray/svariancepn' ) );
+
+/**
 * @name sztest
 * @memberof ns
 * @readonly
