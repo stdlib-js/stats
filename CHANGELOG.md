@@ -3809,6 +3809,7 @@ A total of 588 issues were closed in this release:
 
 <details>
 
+-   [`7f95ab0`](https://github.com/stdlib-js/stdlib/commit/7f95ab0879dca943c8bd0aaa37cf7d7c7390c185) - **bench:** refactor to use dynamic memory allocation in `stats/base/snanvariance` [(#11640)](https://github.com/stdlib-js/stdlib/pull/11640) _(by Uday Kakade)_
 -   [`1bd2ab6`](https://github.com/stdlib-js/stdlib/commit/1bd2ab6960e500b14183c94d3da9cbb823d75000) - **bench:** refactor to use dynamic memory allocation in `stats/base/snanstdevyc` [(#11641)](https://github.com/stdlib-js/stdlib/pull/11641) _(by Uday Kakade)_
 -   [`cc00d78`](https://github.com/stdlib-js/stdlib/commit/cc00d7857f8c6b75f22d6973585e5520cd9182f2) - **bench:** refactor to use dynamic memory allocation in `stats/base/snanvariancepn` [(#11643)](https://github.com/stdlib-js/stdlib/pull/11643) _(by Uday Kakade)_
 -   [`7984676`](https://github.com/stdlib-js/stdlib/commit/79846762784ad8e832cbc22932ab797c61bfe617) - **bench:** refactor to use dynamic memory allocation in `stats/base/snanvariancech` [(#11644)](https://github.com/stdlib-js/stdlib/pull/11644) _(by Uday Kakade)_
