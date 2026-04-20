@@ -3809,6 +3809,7 @@ A total of 588 issues were closed in this release:
 
 <details>
 
+-   [`e8dbcf0`](https://github.com/stdlib-js/stdlib/commit/e8dbcf0173eb058a68c27ff798fbc899bd941c03) - **bench:** refactor to use dynamic memory allocation in `stats/strided/sstdev` [(#11652)](https://github.com/stdlib-js/stdlib/pull/11652) _(by Uday Kakade)_
 -   [`e026eba`](https://github.com/stdlib-js/stdlib/commit/e026eba5aac000bdaf8f0d264e9bdb8ac9c32975) - **bench:** refactor to use dynamic memory allocation in `stats/strided/sstdevwd` [(#11653)](https://github.com/stdlib-js/stdlib/pull/11653) _(by Uday Kakade)_
 -   [`d04c53f`](https://github.com/stdlib-js/stdlib/commit/d04c53f65e93ee0ab74cf8800111ce05919ac4e4) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dcovarmtk` [(#11667)](https://github.com/stdlib-js/stdlib/pull/11667) _(by Uday Kakade)_
 -   [`fef01bb`](https://github.com/stdlib-js/stdlib/commit/fef01bbe902c33a0efbf8e1a759bcf5cbce50133) - **bench:** refactor to use dynamic memory allocation in `stats/base/snanstdevwd` [(#11639)](https://github.com/stdlib-js/stdlib/pull/11639) _(by Uday Kakade)_
