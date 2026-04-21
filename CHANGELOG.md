@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`66e748f`](https://github.com/stdlib-js/stdlib/commit/66e748fefcc9442f7e5173132636e4a7948c64b5) - add C implementation for `stats/base/ndarray/dmaxsorted` [(#10220)](https://github.com/stdlib-js/stdlib/pull/10220)
 -   [`c208767`](https://github.com/stdlib-js/stdlib/commit/c2087672ac2dd476232ec1030ae4bc429d516716) - add `nanmidrange` to namespace
 -   [`110f61c`](https://github.com/stdlib-js/stdlib/commit/110f61c402ab2e1e00a1d9b127ff0fc10971433f) - add `stats/nanmidrange` [(#10076)](https://github.com/stdlib-js/stdlib/pull/10076)
 -   [`09a1c9b`](https://github.com/stdlib-js/stdlib/commit/09a1c9badf86164ab2cab6d50e68de2fe623b812) - add `stats/incr/nanvariance` [(#9214)](https://github.com/stdlib-js/stdlib/pull/9214)
@@ -3811,6 +3812,7 @@ A total of 588 issues were closed in this release:
 
 <details>
 
+-   [`66e748f`](https://github.com/stdlib-js/stdlib/commit/66e748fefcc9442f7e5173132636e4a7948c64b5) - **feat:** add C implementation for `stats/base/ndarray/dmaxsorted` [(#10220)](https://github.com/stdlib-js/stdlib/pull/10220) _(by Bhargav Dabhade, Athan Reines, Sachin Pangal)_
 -   [`c208767`](https://github.com/stdlib-js/stdlib/commit/c2087672ac2dd476232ec1030ae4bc429d516716) - **feat:** add `nanmidrange` to namespace _(by Athan Reines)_
 -   [`110f61c`](https://github.com/stdlib-js/stdlib/commit/110f61c402ab2e1e00a1d9b127ff0fc10971433f) - **feat:** add `stats/nanmidrange` [(#10076)](https://github.com/stdlib-js/stdlib/pull/10076) _(by Pratik, Athan Reines)_
 -   [`d440e3b`](https://github.com/stdlib-js/stdlib/commit/d440e3bb77dd653b34b10cd561453096b3efa2e2) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmax` [(#11673)](https://github.com/stdlib-js/stdlib/pull/11673) _(by Uday Kakade)_
