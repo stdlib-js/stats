@@ -3814,6 +3814,7 @@ A total of 588 issues were closed in this release:
 
 <details>
 
+-   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
 -   [`61b1d19`](https://github.com/stdlib-js/stdlib/commit/61b1d19140c82a0925fd5de8b975aefa35783dc6) - **feat:** add C implementation for `stats/base/ndarray/dmeanpn` [(#10493)](https://github.com/stdlib-js/stdlib/pull/10493) _(by Bhargav Dabhade, Athan Reines)_
 -   [`3b862c9`](https://github.com/stdlib-js/stdlib/commit/3b862c9d63c573cb470b66e1f30fd5b8e448357f) - **feat:** add C implementation of `stats/base/ndarray/dmeanpw` [(#10808)](https://github.com/stdlib-js/stdlib/pull/10808) _(by Bhargav Dabhade, Athan Reines)_
 -   [`66e748f`](https://github.com/stdlib-js/stdlib/commit/66e748fefcc9442f7e5173132636e4a7948c64b5) - **feat:** add C implementation for `stats/base/ndarray/dmaxsorted` [(#10220)](https://github.com/stdlib-js/stdlib/pull/10220) _(by Bhargav Dabhade, Athan Reines, Sachin Pangal)_
