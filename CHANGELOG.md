@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-20)
+## Unreleased (2026-04-21)
 
 <section class="features">
 
 ### Features
 
+-   [`110f61c`](https://github.com/stdlib-js/stdlib/commit/110f61c402ab2e1e00a1d9b127ff0fc10971433f) - add `stats/nanmidrange` [(#10076)](https://github.com/stdlib-js/stdlib/pull/10076)
 -   [`09a1c9b`](https://github.com/stdlib-js/stdlib/commit/09a1c9badf86164ab2cab6d50e68de2fe623b812) - add `stats/incr/nanvariance` [(#9214)](https://github.com/stdlib-js/stdlib/pull/9214)
 -   [`0c87c0d`](https://github.com/stdlib-js/stdlib/commit/0c87c0d9d6bfa2edf331a49559f074f5721a87f1) - add `stats/incr/nanmmape` [(#9296)](https://github.com/stdlib-js/stdlib/pull/9296)
 -   [`32bbc2a`](https://github.com/stdlib-js/stdlib/commit/32bbc2a24552b2fd512383f3f9ff53fb53cae574) - add `svariancetk`, `svariancewd`, `svarianceyc` to namespace [(#11580)](https://github.com/stdlib-js/stdlib/pull/11580)
@@ -3809,6 +3810,7 @@ A total of 588 issues were closed in this release:
 
 <details>
 
+-   [`110f61c`](https://github.com/stdlib-js/stdlib/commit/110f61c402ab2e1e00a1d9b127ff0fc10971433f) - **feat:** add `stats/nanmidrange` [(#10076)](https://github.com/stdlib-js/stdlib/pull/10076) _(by Pratik, Athan Reines)_
 -   [`d440e3b`](https://github.com/stdlib-js/stdlib/commit/d440e3bb77dd653b34b10cd561453096b3efa2e2) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmax` [(#11673)](https://github.com/stdlib-js/stdlib/pull/11673) _(by Uday Kakade)_
 -   [`d26e46c`](https://github.com/stdlib-js/stdlib/commit/d26e46c3fda35f57f411080529b977dc3f68b8be) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmaxabs` [(#11674)](https://github.com/stdlib-js/stdlib/pull/11674) _(by Uday Kakade)_
 -   [`deb4fd9`](https://github.com/stdlib-js/stdlib/commit/deb4fd9e8d55f10168179b29c29b9c2a51b31f8b) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmaxsorted` [(#11675)](https://github.com/stdlib-js/stdlib/pull/11675) _(by Uday Kakade)_
