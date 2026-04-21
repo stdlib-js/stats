@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c208767`](https://github.com/stdlib-js/stdlib/commit/c2087672ac2dd476232ec1030ae4bc429d516716) - add `nanmidrange` to namespace
 -   [`110f61c`](https://github.com/stdlib-js/stdlib/commit/110f61c402ab2e1e00a1d9b127ff0fc10971433f) - add `stats/nanmidrange` [(#10076)](https://github.com/stdlib-js/stdlib/pull/10076)
 -   [`09a1c9b`](https://github.com/stdlib-js/stdlib/commit/09a1c9badf86164ab2cab6d50e68de2fe623b812) - add `stats/incr/nanvariance` [(#9214)](https://github.com/stdlib-js/stdlib/pull/9214)
 -   [`0c87c0d`](https://github.com/stdlib-js/stdlib/commit/0c87c0d9d6bfa2edf331a49559f074f5721a87f1) - add `stats/incr/nanmmape` [(#9296)](https://github.com/stdlib-js/stdlib/pull/9296)
@@ -3810,6 +3811,7 @@ A total of 588 issues were closed in this release:
 
 <details>
 
+-   [`c208767`](https://github.com/stdlib-js/stdlib/commit/c2087672ac2dd476232ec1030ae4bc429d516716) - **feat:** add `nanmidrange` to namespace _(by Athan Reines)_
 -   [`110f61c`](https://github.com/stdlib-js/stdlib/commit/110f61c402ab2e1e00a1d9b127ff0fc10971433f) - **feat:** add `stats/nanmidrange` [(#10076)](https://github.com/stdlib-js/stdlib/pull/10076) _(by Pratik, Athan Reines)_
 -   [`d440e3b`](https://github.com/stdlib-js/stdlib/commit/d440e3bb77dd653b34b10cd561453096b3efa2e2) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmax` [(#11673)](https://github.com/stdlib-js/stdlib/pull/11673) _(by Uday Kakade)_
 -   [`d26e46c`](https://github.com/stdlib-js/stdlib/commit/d26e46c3fda35f57f411080529b977dc3f68b8be) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmaxabs` [(#11674)](https://github.com/stdlib-js/stdlib/pull/11674) _(by Uday Kakade)_
