@@ -173,6 +173,7 @@ Other statistical functions included are:
 -   <span class="signature">[`nanmeanpn( x[, options] )`][@stdlib/stats/nanmeanpn]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions, ignoring `NaN` values and using a two-pass error correction algorithm.</span>
 -   <span class="signature">[`nanmeanwd( x[, options] )`][@stdlib/stats/nanmeanwd]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean along one or more ndarray dimensions, ignoring `NaN` values and using Welford's algorithm.</span>
 -   <span class="signature">[`nanmidrangeBy( x[, options], clbk[, thisArg] )`][@stdlib/stats/nanmidrange-by]</span><span class="delimiter">: </span><span class="description">compute the **mid-range** along one or more ndarray dimensions according to a callback function, ignoring `NaN` values.</span>
+-   <span class="signature">[`nanmidrange( x[, options] )`][@stdlib/stats/nanmidrange]</span><span class="delimiter">: </span><span class="description">compute the **mid-range** along one or more ndarray dimensions, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanminBy( x[, options], clbk[, thisArg] )`][@stdlib/stats/nanmin-by]</span><span class="delimiter">: </span><span class="description">compute the minimum value along one or more ndarray dimensions according to a callback function, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanmin( x[, options] )`][@stdlib/stats/nanmin]</span><span class="delimiter">: </span><span class="description">compute the minimum value along one or more ndarray dimensions, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanminabs( x[, options] )`][@stdlib/stats/nanminabs]</span><span class="delimiter">: </span><span class="description">compute the minimum absolute value along one or more ndarray dimensions, ignoring `NaN` values.</span>
@@ -352,6 +353,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/stats/nanmeanwd]: https://github.com/stdlib-js/stats/tree/main/nanmeanwd
 
 [@stdlib/stats/nanmidrange-by]: https://github.com/stdlib-js/stats/tree/main/nanmidrange-by
+
+[@stdlib/stats/nanmidrange]: https://github.com/stdlib-js/stats/tree/main/nanmidrange
 
 [@stdlib/stats/nanmin-by]: https://github.com/stdlib-js/stats/tree/main/nanmin-by
 
