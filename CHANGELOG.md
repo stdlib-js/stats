@@ -3815,6 +3815,7 @@ A total of 588 issues were closed in this release:
 
 <details>
 
+-   [`c660c8e`](https://github.com/stdlib-js/stdlib/commit/c660c8e75f15ee3a716d6b69faf35f710a4ae4d6) - **chore:** fix example positioning and align keywords in `stats/base/dists/chisquare` packages [(#11746)](https://github.com/stdlib-js/stdlib/pull/11746) _(by Philipp Burckhardt)_
 -   [`f1813da`](https://github.com/stdlib-js/stdlib/commit/f1813dabd21da054ff60d0b76c758c5c28ea0dfc) - **chore:** propagate recent fixes to sibling packages [(#11723)](https://github.com/stdlib-js/stdlib/pull/11723) _(by Philipp Burckhardt)_
 -   [`9e425b0`](https://github.com/stdlib-js/stdlib/commit/9e425b0d518324df48c43e78327c6b01b6483d75) - **docs:** update namespace table of contents [(#11712)](https://github.com/stdlib-js/stdlib/pull/11712) _(by stdlib-bot)_
 -   [`11fe978`](https://github.com/stdlib-js/stdlib/commit/11fe9784619f60b1e31355e2ab06ad55ea90c312) - **chore:** minor clean-up [(#11694)](https://github.com/stdlib-js/stdlib/pull/11694) _(by Philipp Burckhardt, Athan Reines)_
