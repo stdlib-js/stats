@@ -3815,6 +3815,7 @@ A total of 588 issues were closed in this release:
 
 <details>
 
+-   [`cc0ab62`](https://github.com/stdlib-js/stdlib/commit/cc0ab62448395c0044c20fa8de044752a4edace2) - **docs:** add missing trailing periods in README descriptions [(#11751)](https://github.com/stdlib-js/stdlib/pull/11751) _(by Philipp Burckhardt)_
 -   [`f24fece`](https://github.com/stdlib-js/stdlib/commit/f24fece54fb56b188cf8052c45d9b7c3de79c9fb) - **chore:** add missing keyword [(#11766)](https://github.com/stdlib-js/stdlib/pull/11766) _(by Philipp Burckhardt)_
 -   [`41606e2`](https://github.com/stdlib-js/stdlib/commit/41606e2fd5262560892caf5217b65dd5ec92a8d3) - **docs:** fix README structure of `stats/base/dists/chi/cdf` [(#11740)](https://github.com/stdlib-js/stdlib/pull/11740) _(by Philipp Burckhardt)_
 -   [`c660c8e`](https://github.com/stdlib-js/stdlib/commit/c660c8e75f15ee3a716d6b69faf35f710a4ae4d6) - **chore:** fix example positioning and align keywords in `stats/base/dists/chisquare` packages [(#11746)](https://github.com/stdlib-js/stdlib/pull/11746) _(by Philipp Burckhardt)_
