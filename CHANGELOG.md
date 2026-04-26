@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-25)
+## Unreleased (2026-04-26)
 
 <section class="features">
 
@@ -3815,6 +3815,7 @@ A total of 588 issues were closed in this release:
 
 <details>
 
+-   [`692d07b`](https://github.com/stdlib-js/stdlib/commit/692d07bcc44df8d615d7e1cf707593d6708230dc) - **docs:** fix copy & paste error in LaTeX equation label and SVG file in `stats/base/dists/kumaraswamy` [(#11785)](https://github.com/stdlib-js/stdlib/pull/11785) _(by Philipp Burckhardt)_
 -   [`cc0ab62`](https://github.com/stdlib-js/stdlib/commit/cc0ab62448395c0044c20fa8de044752a4edace2) - **docs:** add missing trailing periods in README descriptions [(#11751)](https://github.com/stdlib-js/stdlib/pull/11751) _(by Philipp Burckhardt)_
 -   [`f24fece`](https://github.com/stdlib-js/stdlib/commit/f24fece54fb56b188cf8052c45d9b7c3de79c9fb) - **chore:** add missing keyword [(#11766)](https://github.com/stdlib-js/stdlib/pull/11766) _(by Philipp Burckhardt)_
 -   [`41606e2`](https://github.com/stdlib-js/stdlib/commit/41606e2fd5262560892caf5217b65dd5ec92a8d3) - **docs:** fix README structure of `stats/base/dists/chi/cdf` [(#11740)](https://github.com/stdlib-js/stdlib/pull/11740) _(by Philipp Burckhardt)_
