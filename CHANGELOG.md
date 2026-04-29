@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-27)
+## Unreleased (2026-04-29)
 
 <section class="features">
 
@@ -3815,6 +3815,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`9fedcf9`](https://github.com/stdlib-js/stdlib/commit/9fedcf9679b2d3f8a90d30d4706634adf7ddbf73) - **docs:** fix parameter descriptions in `stats/base/dists/lognormal` [(#11829)](https://github.com/stdlib-js/stdlib/pull/11829) _(by Philipp Burckhardt)_
 -   [`6a4d961`](https://github.com/stdlib-js/stdlib/commit/6a4d9614841138f791bfad6fc7d694dffff81a6c) - **docs:** propagate recent doc fixes across `stats/base/dists/*` [(#11815)](https://github.com/stdlib-js/stdlib/pull/11815) _(by Philipp Burckhardt)_
 -   [`8775511`](https://github.com/stdlib-js/stdlib/commit/8775511193f94d03d28e2df4cdc2c5423ee73f03) - **chore:** fix JavaScript lint errors  [(#11794)](https://github.com/stdlib-js/stdlib/pull/11794) _(by Ved Prakash Arya, Athan Reines)_
 -   [`31b9282`](https://github.com/stdlib-js/stdlib/commit/31b92826dc9908a24cedf35e7e63592ce9d6cd69) - **docs:** propagate equation-label / SVG copy-paste fixes across `stats/base/dists/*` [(#11799)](https://github.com/stdlib-js/stdlib/pull/11799) _(by Philipp Burckhardt)_
