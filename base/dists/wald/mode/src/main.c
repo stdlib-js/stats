@@ -33,6 +33,7 @@
 */
 double stdlib_base_dists_wald_mode( const double mu, const double lambda ) {
 	double r;
+	double v;
 	if (
 		stdlib_base_is_nan( mu ) ||
 		stdlib_base_is_nan( lambda ) ||
@@ -42,5 +43,6 @@ double stdlib_base_dists_wald_mode( const double mu, const double lambda ) {
 		return 0.0/0.0; // NaN
 	}
 	r = mu / lambda;
-	return mu * ( stdlib_base_sqrt( 1.0 + ( ( 3.0*r/2.0 ) * ( 3.0*r/2.0 ) ) ) - ( 3.0*r/2.0 ) );
+	v = 1.5 * r;
+	return mu * ( stdlib_base_sqrt( 1.0 + ( v*v ) ) - v );
 }

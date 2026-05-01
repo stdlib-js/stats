@@ -55,6 +55,7 @@ var sqrt = require( '@stdlib/math/base/special/sqrt' );
 */
 function mode( mu, lambda ) {
 	var r;
+	var v;
 	if (
 		isnan( mu ) ||
 		isnan( lambda ) ||
@@ -64,7 +65,8 @@ function mode( mu, lambda ) {
 		return NaN;
 	}
 	r = mu / lambda;
-	return mu * ( sqrt( 1.0 + ( ( 3.0*r/2.0 ) * ( 3.0*r/2.0 ) ) ) - ( 3.0*r/2.0 ) );
+	v = 1.5 * r;
+	return mu * ( sqrt( 1.0 + ( v*v ) ) - v );
 }
 
 
