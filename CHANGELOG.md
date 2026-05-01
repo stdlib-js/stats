@@ -3816,6 +3816,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`cd99d80`](https://github.com/stdlib-js/stdlib/commit/cd99d8072389d37a05848951926c3fe51da19832) - **docs:** propagate fixes to sibling packages [(#11843)](https://github.com/stdlib-js/stdlib/pull/11843) _(by Philipp Burckhardt)_
 -   [`fd45d7b`](https://github.com/stdlib-js/stdlib/commit/fd45d7bc9b9f269802566772fd992b24df0725e7) - **docs:** align JSDoc throws ordering across `stats/array` outliers [(#11838)](https://github.com/stdlib-js/stdlib/pull/11838) _(by Philipp Burckhardt)_
 -   [`83838f6`](https://github.com/stdlib-js/stdlib/commit/83838f6744d5011c8c682f9f162a5b645eca0858) - **docs:** fix sections in `stats/base/dists/gamma` [(#11862)](https://github.com/stdlib-js/stdlib/pull/11862) _(by Philipp Burckhardt)_
 -   [`642af21`](https://github.com/stdlib-js/stdlib/commit/642af2155292c56e1d6514a6813f58b1f6e833d7) - **docs:** remove extra empty line [(#11869)](https://github.com/stdlib-js/stdlib/pull/11869) _(by stdlib-bot)_
