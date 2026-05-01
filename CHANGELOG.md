@@ -3816,6 +3816,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`ca7e8b6`](https://github.com/stdlib-js/stdlib/commit/ca7e8b61d15d5a8ae667120271b133154cc305a5) - **test:** adjust tolerances and simplify assertions _(by Athan Reines)_
 -   [`eeaf7c4`](https://github.com/stdlib-js/stdlib/commit/eeaf7c480e06551fd84cf6966143031a4e855505) - **refactor:** reduce number of arithmetic operations _(by Athan Reines)_
 -   [`4479454`](https://github.com/stdlib-js/stdlib/commit/44794544dd42a8689596d1a6be15d59fa9de328f) - **feat:** add `stats/base/dists/wald/mode` [(#10205)](https://github.com/stdlib-js/stdlib/pull/10205) _(by Manit Roy, Philipp Burckhardt)_
 -   [`9fedcf9`](https://github.com/stdlib-js/stdlib/commit/9fedcf9679b2d3f8a90d30d4706634adf7ddbf73) - **docs:** fix parameter descriptions in `stats/base/dists/lognormal` [(#11829)](https://github.com/stdlib-js/stdlib/pull/11829) _(by Philipp Burckhardt)_

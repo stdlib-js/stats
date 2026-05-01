@@ -123,7 +123,9 @@ tape( 'the function returns the mode of a Wald distribution', opts, function tes
 	lambda = data.lambda;
 	for ( i = 0; i < mu.length; i++ ) {
 		y = mode( mu[i], lambda[i] );
-		t.strictEqual( isAlmostSameValue( y, expected[i], 2 ), true, 'within tolerance. mu: '+mu[i]+'. lambda: '+lambda[i]+'. y: '+y+'. E: '+expected[ i ]+'.' );
+
+		// NOTE: the tolerance here is larger than for the JavaScript implementation due to compiler optimizations which may be performed resulting in result divergence. For discussion, see https://github.com/stdlib-js/stdlib/pull/2298#discussion_r1624765205
+		t.strictEqual( isAlmostSameValue( y, expected[i], 16 ), true, 'within tolerance. mu: '+mu[i]+'. lambda: '+lambda[i]+'. y: '+y+'. E: '+expected[ i ]+'.' );
 	}
 	t.end();
 });

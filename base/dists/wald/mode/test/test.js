@@ -114,7 +114,7 @@ tape( 'the function returns the mode of a Wald distribution', function test( t )
 	lambda = data.lambda;
 	for ( i = 0; i < mu.length; i++ ) {
 		y = mode( mu[i], lambda[i] );
-		t.strictEqual( isAlmostSameValue( y, expected[i], 2 ), true, 'within tolerance. mu: '+mu[i]+'. lambda: '+lambda[i]+'. y: '+y+'. E: '+expected[ i ]+'.' );
+		t.strictEqual( isAlmostSameValue( y, expected[i], 1 ), true, 'within tolerance. mu: '+mu[i]+'. lambda: '+lambda[i]+'. y: '+y+'. E: '+expected[ i ]+'.' );
 	}
 	t.end();
 });
