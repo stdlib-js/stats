@@ -3816,6 +3816,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`83838f6`](https://github.com/stdlib-js/stdlib/commit/83838f6744d5011c8c682f9f162a5b645eca0858) - **docs:** fix sections in `stats/base/dists/gamma` [(#11862)](https://github.com/stdlib-js/stdlib/pull/11862) _(by Philipp Burckhardt)_
 -   [`642af21`](https://github.com/stdlib-js/stdlib/commit/642af2155292c56e1d6514a6813f58b1f6e833d7) - **docs:** remove extra empty line [(#11869)](https://github.com/stdlib-js/stdlib/pull/11869) _(by stdlib-bot)_
 -   [`ca7e8b6`](https://github.com/stdlib-js/stdlib/commit/ca7e8b61d15d5a8ae667120271b133154cc305a5) - **test:** adjust tolerances and simplify assertions _(by Athan Reines)_
 -   [`eeaf7c4`](https://github.com/stdlib-js/stdlib/commit/eeaf7c480e06551fd84cf6966143031a4e855505) - **refactor:** reduce number of arithmetic operations _(by Athan Reines)_
