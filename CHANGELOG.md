@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-02)
+## Unreleased (2026-05-03)
 
 <section class="features">
 
@@ -3817,6 +3817,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`39b17ab`](https://github.com/stdlib-js/stdlib/commit/39b17ab685076fff0b0b7965494a3d7d01c713ed) - **refactor:** change ordering of checks to reflect parameter order [(#11884)](https://github.com/stdlib-js/stdlib/pull/11884) _(by Philipp Burckhardt)_
 -   [`6b8823e`](https://github.com/stdlib-js/stdlib/commit/6b8823efa25ee7c50359a3bcffe7bbc27fa49e2d) - **feat:** add `stats/strided/dpcorr` [(#11818)](https://github.com/stdlib-js/stdlib/pull/11818) _(by Nakul Krishnakumar)_
 -   [`bda2f4f`](https://github.com/stdlib-js/stdlib/commit/bda2f4fb4139dafb4df5870d8507894521ea61be) - **test:** collapse exact-match guard in `stats/base/dists/wald` tests [(#11880)](https://github.com/stdlib-js/stdlib/pull/11880) _(by Philipp Burckhardt)_
 -   [`cd99d80`](https://github.com/stdlib-js/stdlib/commit/cd99d8072389d37a05848951926c3fe51da19832) - **docs:** propagate fixes to sibling packages [(#11843)](https://github.com/stdlib-js/stdlib/pull/11843) _(by Philipp Burckhardt)_
