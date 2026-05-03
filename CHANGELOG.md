@@ -1473,6 +1473,7 @@
 
 ### Bug Fixes
 
+-   [`ec1d66c`](https://github.com/stdlib-js/stdlib/commit/ec1d66c00846b2d836a67b46484b1de1929ba679) - correct C delegation and benchmark inputs in `stats/strided/dpcorr` [(#11890)](https://github.com/stdlib-js/stdlib/pull/11890)
 -   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn`
 -   [`17da583`](https://github.com/stdlib-js/stdlib/commit/17da583dbeb78fa8b171d68af7011cba7b4f6be6) - improve type specificity
 -   [`7df5cea`](https://github.com/stdlib-js/stdlib/commit/7df5cea68c5d3239fa979b7e4d200d19c10bf9f2) - remove unneeded export comments and ensure browser build includes ndarray method
@@ -3817,6 +3818,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`ec1d66c`](https://github.com/stdlib-js/stdlib/commit/ec1d66c00846b2d836a67b46484b1de1929ba679) - **fix:** correct C delegation and benchmark inputs in `stats/strided/dpcorr` [(#11890)](https://github.com/stdlib-js/stdlib/pull/11890) _(by Philipp Burckhardt)_
 -   [`39b17ab`](https://github.com/stdlib-js/stdlib/commit/39b17ab685076fff0b0b7965494a3d7d01c713ed) - **refactor:** change ordering of checks to reflect parameter order [(#11884)](https://github.com/stdlib-js/stdlib/pull/11884) _(by Philipp Burckhardt)_
 -   [`6b8823e`](https://github.com/stdlib-js/stdlib/commit/6b8823efa25ee7c50359a3bcffe7bbc27fa49e2d) - **feat:** add `stats/strided/dpcorr` [(#11818)](https://github.com/stdlib-js/stdlib/pull/11818) _(by Nakul Krishnakumar)_
 -   [`bda2f4f`](https://github.com/stdlib-js/stdlib/commit/bda2f4fb4139dafb4df5870d8507894521ea61be) - **test:** collapse exact-match guard in `stats/base/dists/wald` tests [(#11880)](https://github.com/stdlib-js/stdlib/pull/11880) _(by Philipp Burckhardt)_
