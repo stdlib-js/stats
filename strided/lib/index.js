@@ -622,6 +622,15 @@ setReadOnly( ns, 'dnanvariancewd', require( './../../strided/dnanvariancewd' ) )
 setReadOnly( ns, 'dnanvarianceyc', require( './../../strided/dnanvarianceyc' ) );
 
 /**
+* @name dpcorr
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dpcorr}
+*/
+setReadOnly( ns, 'dpcorr', require( './../../strided/dpcorr' ) );
+
+/**
 * @name dpcorrwd
 * @memberof ns
 * @readonly
