@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-03)
+## Unreleased (2026-05-04)
 
 <section class="features">
 
 ### Features
 
+-   [`051400b`](https://github.com/stdlib-js/stdlib/commit/051400b4778349bb8baa7d626226fe2e3eff0f65) - add `stats/strided/dmidrangeabs` [(#11749)](https://github.com/stdlib-js/stdlib/pull/11749)
 -   [`8a39579`](https://github.com/stdlib-js/stdlib/commit/8a3957961f27a0d3ab4f468dfa710e9dd221c8f9) - add `dpcorr` to namespace
 -   [`6b8823e`](https://github.com/stdlib-js/stdlib/commit/6b8823efa25ee7c50359a3bcffe7bbc27fa49e2d) - add `stats/strided/dpcorr` [(#11818)](https://github.com/stdlib-js/stdlib/pull/11818)
 -   [`4479454`](https://github.com/stdlib-js/stdlib/commit/44794544dd42a8689596d1a6be15d59fa9de328f) - add `stats/base/dists/wald/mode` [(#10205)](https://github.com/stdlib-js/stdlib/pull/10205)
@@ -3819,6 +3820,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`051400b`](https://github.com/stdlib-js/stdlib/commit/051400b4778349bb8baa7d626226fe2e3eff0f65) - **feat:** add `stats/strided/dmidrangeabs` [(#11749)](https://github.com/stdlib-js/stdlib/pull/11749) _(by Sachin Pangal, Athan Reines)_
 -   [`8a39579`](https://github.com/stdlib-js/stdlib/commit/8a3957961f27a0d3ab4f468dfa710e9dd221c8f9) - **feat:** add `dpcorr` to namespace _(by Athan Reines)_
 -   [`ec1d66c`](https://github.com/stdlib-js/stdlib/commit/ec1d66c00846b2d836a67b46484b1de1929ba679) - **fix:** correct C delegation and benchmark inputs in `stats/strided/dpcorr` [(#11890)](https://github.com/stdlib-js/stdlib/pull/11890) _(by Philipp Burckhardt)_
 -   [`39b17ab`](https://github.com/stdlib-js/stdlib/commit/39b17ab685076fff0b0b7965494a3d7d01c713ed) - **refactor:** change ordering of checks to reflect parameter order [(#11884)](https://github.com/stdlib-js/stdlib/pull/11884) _(by Philipp Burckhardt)_
