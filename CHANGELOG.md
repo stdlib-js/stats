@@ -3821,6 +3821,8 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`81fcd32`](https://github.com/stdlib-js/stdlib/commit/81fcd3214635a29ba3749b2aaf54c41197039b50) - **bench:** fix benchmark input in `stats/strided/dpcorrwd` [(#11918)](https://github.com/stdlib-js/stdlib/pull/11918) _(by Nakul Krishnakumar)_
+-   [`738b2c7`](https://github.com/stdlib-js/stdlib/commit/738b2c717eb26b3e374351f754d578f2035aaf20) - **docs:** update namespace table of contents [(#11916)](https://github.com/stdlib-js/stdlib/pull/11916) _(by stdlib-bot)_
 -   [`5f211ce`](https://github.com/stdlib-js/stdlib/commit/5f211cef3f0687f1b17004bfc7dffe6367636b50) - **feat:** add `dmidrangeabs` to namespace _(by Athan Reines)_
 -   [`051400b`](https://github.com/stdlib-js/stdlib/commit/051400b4778349bb8baa7d626226fe2e3eff0f65) - **feat:** add `stats/strided/dmidrangeabs` [(#11749)](https://github.com/stdlib-js/stdlib/pull/11749) _(by Sachin Pangal, Athan Reines)_
 -   [`8a39579`](https://github.com/stdlib-js/stdlib/commit/8a3957961f27a0d3ab4f468dfa710e9dd221c8f9) - **feat:** add `dpcorr` to namespace _(by Athan Reines)_
