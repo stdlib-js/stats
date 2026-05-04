@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5f211ce`](https://github.com/stdlib-js/stdlib/commit/5f211cef3f0687f1b17004bfc7dffe6367636b50) - add `dmidrangeabs` to namespace
 -   [`051400b`](https://github.com/stdlib-js/stdlib/commit/051400b4778349bb8baa7d626226fe2e3eff0f65) - add `stats/strided/dmidrangeabs` [(#11749)](https://github.com/stdlib-js/stdlib/pull/11749)
 -   [`8a39579`](https://github.com/stdlib-js/stdlib/commit/8a3957961f27a0d3ab4f468dfa710e9dd221c8f9) - add `dpcorr` to namespace
 -   [`6b8823e`](https://github.com/stdlib-js/stdlib/commit/6b8823efa25ee7c50359a3bcffe7bbc27fa49e2d) - add `stats/strided/dpcorr` [(#11818)](https://github.com/stdlib-js/stdlib/pull/11818)
@@ -3820,6 +3821,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`5f211ce`](https://github.com/stdlib-js/stdlib/commit/5f211cef3f0687f1b17004bfc7dffe6367636b50) - **feat:** add `dmidrangeabs` to namespace _(by Athan Reines)_
 -   [`051400b`](https://github.com/stdlib-js/stdlib/commit/051400b4778349bb8baa7d626226fe2e3eff0f65) - **feat:** add `stats/strided/dmidrangeabs` [(#11749)](https://github.com/stdlib-js/stdlib/pull/11749) _(by Sachin Pangal, Athan Reines)_
 -   [`8a39579`](https://github.com/stdlib-js/stdlib/commit/8a3957961f27a0d3ab4f468dfa710e9dd221c8f9) - **feat:** add `dpcorr` to namespace _(by Athan Reines)_
 -   [`ec1d66c`](https://github.com/stdlib-js/stdlib/commit/ec1d66c00846b2d836a67b46484b1de1929ba679) - **fix:** correct C delegation and benchmark inputs in `stats/strided/dpcorr` [(#11890)](https://github.com/stdlib-js/stdlib/pull/11890) _(by Philipp Burckhardt)_

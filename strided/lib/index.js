@@ -280,6 +280,15 @@ setReadOnly( ns, 'dmediansorted', require( './../../strided/dmediansorted' ) );
 setReadOnly( ns, 'dmidrange', require( './../../strided/dmidrange' ) );
 
 /**
+* @name dmidrangeabs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dmidrangeabs}
+*/
+setReadOnly( ns, 'dmidrangeabs', require( './../../strided/dmidrangeabs' ) );
+
+/**
 * @name dmin
 * @memberof ns
 * @readonly
