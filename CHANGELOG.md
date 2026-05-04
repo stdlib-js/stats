@@ -1476,6 +1476,7 @@
 
 ### Bug Fixes
 
+-   [`8516750`](https://github.com/stdlib-js/stdlib/commit/851675024a46ddac355e48493759d1e793a1de8a) - add missing suffix wrappers [(#11904)](https://github.com/stdlib-js/stdlib/pull/11904)
 -   [`ec1d66c`](https://github.com/stdlib-js/stdlib/commit/ec1d66c00846b2d836a67b46484b1de1929ba679) - correct C delegation and benchmark inputs in `stats/strided/dpcorr` [(#11890)](https://github.com/stdlib-js/stdlib/pull/11890)
 -   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn`
 -   [`17da583`](https://github.com/stdlib-js/stdlib/commit/17da583dbeb78fa8b171d68af7011cba7b4f6be6) - improve type specificity
@@ -3821,6 +3822,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`8516750`](https://github.com/stdlib-js/stdlib/commit/851675024a46ddac355e48493759d1e793a1de8a) - **fix:** add missing suffix wrappers [(#11904)](https://github.com/stdlib-js/stdlib/pull/11904) _(by Philipp Burckhardt)_
 -   [`79dedda`](https://github.com/stdlib-js/stdlib/commit/79dedda7d0aae0fdab0330830fac1ba84b81ad46) - **refactor:** merge two-condition argument-validation blocks into single if-statement [(#11921)](https://github.com/stdlib-js/stdlib/pull/11921) _(by Philipp Burckhardt)_
 -   [`81fcd32`](https://github.com/stdlib-js/stdlib/commit/81fcd3214635a29ba3749b2aaf54c41197039b50) - **bench:** fix benchmark input in `stats/strided/dpcorrwd` [(#11918)](https://github.com/stdlib-js/stdlib/pull/11918) _(by Nakul Krishnakumar)_
 -   [`738b2c7`](https://github.com/stdlib-js/stdlib/commit/738b2c717eb26b3e374351f754d578f2035aaf20) - **docs:** update namespace table of contents [(#11916)](https://github.com/stdlib-js/stdlib/pull/11916) _(by stdlib-bot)_
