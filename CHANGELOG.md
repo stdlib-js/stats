@@ -3826,6 +3826,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`3e84b59`](https://github.com/stdlib-js/stdlib/commit/3e84b5954df509e37c68961dcaea87447c625096) - **docs:** add missing README C documentation to `stats/base/dists/pareto-type1` [(#11941)](https://github.com/stdlib-js/stdlib/pull/11941) _(by Philipp Burckhardt)_
 -   [`0a5fc6c`](https://github.com/stdlib-js/stdlib/commit/0a5fc6c32eaf8c2efa5f466c33a71c99666db61e) - **refactor:** order validation checks by parameter position in `stats/base/dists/cauchy/*` [(#11942)](https://github.com/stdlib-js/stdlib/pull/11942) _(by Philipp Burckhardt)_
 -   [`e16eb11`](https://github.com/stdlib-js/stdlib/commit/e16eb11c02f1861dad6f5681d76b9e3af9eb7978) - **chore:** minor clean-up [(#11951)](https://github.com/stdlib-js/stdlib/pull/11951) _(by Philipp Burckhardt)_
 -   [`74e79f9`](https://github.com/stdlib-js/stdlib/commit/74e79f9fd8dfae766dd9a016f0c1e63b9abae097) - **fix:** propagate `API_SUFFIX` wrappers and complex number description wording [(#11952)](https://github.com/stdlib-js/stdlib/pull/11952) _(by Philipp Burckhardt)_
