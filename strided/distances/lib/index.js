@@ -55,6 +55,15 @@ setReadOnly( ns, 'dchebyshev', require( './../../../strided/distances/dchebyshev
 setReadOnly( ns, 'dcityblock', require( './../../../strided/distances/dcityblock' ) );
 
 /**
+* @name dcorrelation
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/distances/dcorrelation}
+*/
+setReadOnly( ns, 'dcorrelation', require( './../../../strided/distances/dcorrelation' ) );
+
+/**
 * @name dcosineDistance
 * @memberof ns
 * @readonly
