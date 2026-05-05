@@ -1477,6 +1477,7 @@
 
 ### Bug Fixes
 
+-   [`a65e1fd`](https://github.com/stdlib-js/stdlib/commit/a65e1fd9f921616b23244200dc09c0f87981a1c5) - add suffix wrappers and replace inline NaN literal [(#11947)](https://github.com/stdlib-js/stdlib/pull/11947)
 -   [`8516750`](https://github.com/stdlib-js/stdlib/commit/851675024a46ddac355e48493759d1e793a1de8a) - add missing suffix wrappers [(#11904)](https://github.com/stdlib-js/stdlib/pull/11904)
 -   [`ec1d66c`](https://github.com/stdlib-js/stdlib/commit/ec1d66c00846b2d836a67b46484b1de1929ba679) - correct C delegation and benchmark inputs in `stats/strided/dpcorr` [(#11890)](https://github.com/stdlib-js/stdlib/pull/11890)
 -   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn`
@@ -3823,6 +3824,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`a65e1fd`](https://github.com/stdlib-js/stdlib/commit/a65e1fd9f921616b23244200dc09c0f87981a1c5) - **fix:** add suffix wrappers and replace inline NaN literal [(#11947)](https://github.com/stdlib-js/stdlib/pull/11947) _(by Nakul Krishnakumar)_
 -   [`73653a2`](https://github.com/stdlib-js/stdlib/commit/73653a29dcd13f29dc66c1ceaf02a482606aca0a) - **feat:** add `stats/strided/distances/dcorrelation` [(#11917)](https://github.com/stdlib-js/stdlib/pull/11917) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`8516750`](https://github.com/stdlib-js/stdlib/commit/851675024a46ddac355e48493759d1e793a1de8a) - **fix:** add missing suffix wrappers [(#11904)](https://github.com/stdlib-js/stdlib/pull/11904) _(by Philipp Burckhardt)_
 -   [`79dedda`](https://github.com/stdlib-js/stdlib/commit/79dedda7d0aae0fdab0330830fac1ba84b81ad46) - **refactor:** merge two-condition argument-validation blocks into single if-statement [(#11921)](https://github.com/stdlib-js/stdlib/pull/11921) _(by Philipp Burckhardt)_
