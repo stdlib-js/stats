@@ -1478,6 +1478,7 @@
 
 ### Bug Fixes
 
+-   [`74e79f9`](https://github.com/stdlib-js/stdlib/commit/74e79f9fd8dfae766dd9a016f0c1e63b9abae097) - propagate `API_SUFFIX` wrappers and complex number description wording [(#11952)](https://github.com/stdlib-js/stdlib/pull/11952)
 -   [`a65e1fd`](https://github.com/stdlib-js/stdlib/commit/a65e1fd9f921616b23244200dc09c0f87981a1c5) - add suffix wrappers and replace inline NaN literal [(#11947)](https://github.com/stdlib-js/stdlib/pull/11947)
 -   [`8516750`](https://github.com/stdlib-js/stdlib/commit/851675024a46ddac355e48493759d1e793a1de8a) - add missing suffix wrappers [(#11904)](https://github.com/stdlib-js/stdlib/pull/11904)
 -   [`ec1d66c`](https://github.com/stdlib-js/stdlib/commit/ec1d66c00846b2d836a67b46484b1de1929ba679) - correct C delegation and benchmark inputs in `stats/strided/dpcorr` [(#11890)](https://github.com/stdlib-js/stdlib/pull/11890)
@@ -3825,6 +3826,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`74e79f9`](https://github.com/stdlib-js/stdlib/commit/74e79f9fd8dfae766dd9a016f0c1e63b9abae097) - **fix:** propagate `API_SUFFIX` wrappers and complex number description wording [(#11952)](https://github.com/stdlib-js/stdlib/pull/11952) _(by Philipp Burckhardt)_
 -   [`c5fad82`](https://github.com/stdlib-js/stdlib/commit/c5fad82b2d766118634d3796230c2158a4040d13) - **feat:** add `dcorrelation` to namespace _(by Athan Reines)_
 -   [`a65e1fd`](https://github.com/stdlib-js/stdlib/commit/a65e1fd9f921616b23244200dc09c0f87981a1c5) - **fix:** add suffix wrappers and replace inline NaN literal [(#11947)](https://github.com/stdlib-js/stdlib/pull/11947) _(by Nakul Krishnakumar)_
 -   [`73653a2`](https://github.com/stdlib-js/stdlib/commit/73653a29dcd13f29dc66c1ceaf02a482606aca0a) - **feat:** add `stats/strided/distances/dcorrelation` [(#11917)](https://github.com/stdlib-js/stdlib/pull/11917) _(by Nakul Krishnakumar, Athan Reines)_
