@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-05)
+## Unreleased (2026-05-06)
 
 <section class="features">
 
@@ -3826,6 +3826,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`7acb10f`](https://github.com/stdlib-js/stdlib/commit/7acb10fe279a12ff58df34a3d847828606cd0acd) - **docs:** update namespace table of contents [(#11961)](https://github.com/stdlib-js/stdlib/pull/11961) _(by stdlib-bot)_
 -   [`3e84b59`](https://github.com/stdlib-js/stdlib/commit/3e84b5954df509e37c68961dcaea87447c625096) - **docs:** add missing README C documentation to `stats/base/dists/pareto-type1` [(#11941)](https://github.com/stdlib-js/stdlib/pull/11941) _(by Philipp Burckhardt)_
 -   [`0a5fc6c`](https://github.com/stdlib-js/stdlib/commit/0a5fc6c32eaf8c2efa5f466c33a71c99666db61e) - **refactor:** order validation checks by parameter position in `stats/base/dists/cauchy/*` [(#11942)](https://github.com/stdlib-js/stdlib/pull/11942) _(by Philipp Burckhardt)_
 -   [`e16eb11`](https://github.com/stdlib-js/stdlib/commit/e16eb11c02f1861dad6f5681d76b9e3af9eb7978) - **chore:** minor clean-up [(#11951)](https://github.com/stdlib-js/stdlib/pull/11951) _(by Philipp Burckhardt)_
