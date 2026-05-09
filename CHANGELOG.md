@@ -3826,6 +3826,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`7b81718`](https://github.com/stdlib-js/stdlib/commit/7b81718b12f5f50895bc6f963f1869c1be63e6b6) - **docs:** correct parameter prose in `stats/base/dists/gumbel/mgf` doc comments [(#12007)](https://github.com/stdlib-js/stdlib/pull/12007) _(by Philipp Burckhardt)_
 -   [`01ddffb`](https://github.com/stdlib-js/stdlib/commit/01ddffb2a994e58185114b2c17725c86f35c6a64) - **docs:** propagate recent fixes across `stats/base/dists` and `lapack/base` [(#11999)](https://github.com/stdlib-js/stdlib/pull/11999) _(by Philipp Burckhardt, Athan Reines)_
 -   [`ff7716f`](https://github.com/stdlib-js/stdlib/commit/ff7716f81edf204f6097fbac25083696ff3a2092) - **docs:** correct C API heading function name in `stats/base/dists/exponential/logcdf` [(#11996)](https://github.com/stdlib-js/stdlib/pull/11996) _(by Philipp Burckhardt)_
 -   [`11fb87d`](https://github.com/stdlib-js/stdlib/commit/11fb87dac7ae762d325640afbb400d6aa5fc3736) - **docs:** update namespace table of contents [(#11986)](https://github.com/stdlib-js/stdlib/pull/11986) _(by stdlib-bot)_
