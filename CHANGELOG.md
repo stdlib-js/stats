@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-10)
+## Unreleased (2026-05-11)
 
 <section class="features">
 
@@ -98,7 +98,7 @@
 -   [`0682ac1`](https://github.com/stdlib-js/stdlib/commit/0682ac10d0ad67b46453f186b3577901886fa42c) - add C implementation for `stats/base/ndarray/dmean` [(#10052)](https://github.com/stdlib-js/stdlib/pull/10052)
 -   [`94c1431`](https://github.com/stdlib-js/stdlib/commit/94c143124e150a3751b1a70205917f986dca8c03) - add `stats/strided/dnanmskminabs` [(#10382)](https://github.com/stdlib-js/stdlib/pull/10382)
 -   [`707fcd4`](https://github.com/stdlib-js/stdlib/commit/707fcd4483bd8989ea064842812555f5e382dc52) - add `stats/base/ndarray/dnanstdevpn` [(#10375)](https://github.com/stdlib-js/stdlib/pull/10375)
--   [`8a0bdab`](https://github.com/stdlib-js/stdlib/commit/8a0bdab18b22e650ce6ec73b87f347846774890f) - add `stats/strided/distances/dchebyshev
+-   [`8a0bdab`](https://github.com/stdlib-js/stdlib/commit/8a0bdab18b22e650ce6ec73b87f347846774890f) - add `stats/strided/distances/dchebyshev`
 -   [`e53e179`](https://github.com/stdlib-js/stdlib/commit/e53e179ec5f9b063604744804b989bd6ebe2381a) - add `stats/base/ndarray/dnanstdev` [(#10271)](https://github.com/stdlib-js/stdlib/pull/10271)
 -   [`5a64342`](https://github.com/stdlib-js/stdlib/commit/5a643426403fa397b0bd695ff1deeddd002cc641) - add C implementation for `stats/base/ndarray/snanrange` [(#10258)](https://github.com/stdlib-js/stdlib/pull/10258)
 -   [`10b28fd`](https://github.com/stdlib-js/stdlib/commit/10b28fdb54393277d093066bf40c84412ca7601d) - add `stats/array/nanmidrange-by` [(#10273)](https://github.com/stdlib-js/stdlib/pull/10273)
@@ -3826,6 +3826,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`81c4786`](https://github.com/stdlib-js/stdlib/commit/81c478690aac530a21505bae986e75ba5689aaf4) - **docs:** add negative-scale `@example` to `stats/base/dists/lognormal/cdf` [(#12093)](https://github.com/stdlib-js/stdlib/pull/12093) _(by Philipp Burckhardt)_
 -   [`4daf430`](https://github.com/stdlib-js/stdlib/commit/4daf430f3517294fe778243312cef186b4ec5072) - **test:** fix `Float32Array` import in `stats/strided/snanminabs` [(#12062)](https://github.com/stdlib-js/stdlib/pull/12062) _(by Karan Anand, Athan Reines)_
 -   [`506b8ab`](https://github.com/stdlib-js/stdlib/commit/506b8ab8b73c5f97d5d99ebecdc769d136328fc4) - **test:** fix `Float32Array` import in `stats/strided/snanmin` [(#12061)](https://github.com/stdlib-js/stdlib/pull/12061) _(by Karan Anand, Athan Reines)_
 -   [`1ba3724`](https://github.com/stdlib-js/stdlib/commit/1ba37246a4f68a546b4f9d126a9ce6723beaae05) - **refactor:** remove unnecessary generics _(by Athan Reines)_
@@ -4022,7 +4023,7 @@ A total of 589 issues were closed in this release:
 -   [`e88fed7`](https://github.com/stdlib-js/stdlib/commit/e88fed78fbf6aaf1043cb4489e3af510007b5dd0) - **bench:** refactor to use string interpolation in `@stdlib/stats` [(#11396)](https://github.com/stdlib-js/stdlib/pull/11396) _(by Karan Anand)_
 -   [`9a51841`](https://github.com/stdlib-js/stdlib/commit/9a51841213eb13adbd6b8fe36d96c00aac9fbb17) - **bench:** refactor to use string interpolation in `stats/base` [(#11393)](https://github.com/stdlib-js/stdlib/pull/11393) _(by Karan Anand)_
 -   [`a07ad1c`](https://github.com/stdlib-js/stdlib/commit/a07ad1c13b9d2428b8897f47c6c78c6bfb0a235d) - **bench:** refactor to use string interpolation in `stats/incr` [(#11394)](https://github.com/stdlib-js/stdlib/pull/11394) _(by Karan Anand)_
--   [`db9343f`](https://github.com/stdlib-js/stdlib/commit/db9343fab98f282507251bac9547c713d5811cd7) - **bench:** refactor to use string interpolation in `stats/array` [(#11395)](https://github.com/stdlib-js/stdlib/pull/11395) _(by Karan Anand)_
+-   [`db9343f`](https://github.com/stdlib-js/stdlib/commit/db9343fab98f282507251bac9547c713d5811cd7) - **bench:** refactor to use string interpolation in `stats/array` [(#11392)](https://github.com/stdlib-js/stdlib/pull/11392) _(by Karan Anand)_
 -   [`d72d712`](https://github.com/stdlib-js/stdlib/commit/d72d712ba9f8c600f880705813245463d2229803) - **bench:** refactor to use string interpolation in `stats/iter` [(#11395)](https://github.com/stdlib-js/stdlib/pull/11395) _(by Karan Anand)_
 -   [`49457c5`](https://github.com/stdlib-js/stdlib/commit/49457c5f87af9314c351e9af55b471e3f8d3422c) - **refactor:** reuse variance in `stats/base/dists/bernoulli/stdev` [(#11366)](https://github.com/stdlib-js/stdlib/pull/11366) _(by Om-A-osc)_
 -   [`1a0c328`](https://github.com/stdlib-js/stdlib/commit/1a0c328357f92fbf8a7a510c42661c560a480c79) - **refactor:** reuse variance in `stats/base/dists/chi/stdev` [(#11365)](https://github.com/stdlib-js/stdlib/pull/11365) _(by Om-A-osc, Athan Reines)_
@@ -4220,7 +4221,7 @@ A total of 589 issues were closed in this release:
 -   [`f9c61b1`](https://github.com/stdlib-js/stdlib/commit/f9c61b1b1f411ee4b15cf97b5cae853500bc6483) - **bench:** refactor to use string interpolation in `stats/base/dists/gumbel/ctor` [(#10397)](https://github.com/stdlib-js/stdlib/pull/10397) _(by Lokesh Ranjan)_
 -   [`becb440`](https://github.com/stdlib-js/stdlib/commit/becb440aaa166ce435909ba82f743009ad1e7b6d) - **remove:** remove `stats/strided/distances/dchebychev` _(by nakul-krishnakumar)_
 -   [`cc812eb`](https://github.com/stdlib-js/stdlib/commit/cc812eb5ac0285a79e7e0ac15ad09a194bd7364b) - **remove:** remove `dchebychev` from namespace _(by nakul-krishnakumar)_
--   [`8a0bdab`](https://github.com/stdlib-js/stdlib/commit/8a0bdab18b22e650ce6ec73b87f347846774890f) - **feat:** add `stats/strided/distances/dchebyshev _(by nakul-krishnakumar)_
+-   [`8a0bdab`](https://github.com/stdlib-js/stdlib/commit/8a0bdab18b22e650ce6ec73b87f347846774890f) - **feat:** add `stats/strided/distances/dchebyshev` _(by nakul-krishnakumar)_
 -   [`ff420ae`](https://github.com/stdlib-js/stdlib/commit/ff420aed1e79bd9e89c7394571e2692c4108583c) - **bench:** fix description _(by Athan Reines)_
 -   [`c14812b`](https://github.com/stdlib-js/stdlib/commit/c14812bfee0ec6951166b9ff869289a39eba4174) - **style:** add missing decimal _(by Athan Reines)_
 -   [`e53e179`](https://github.com/stdlib-js/stdlib/commit/e53e179ec5f9b063604744804b989bd6ebe2381a) - **feat:** add `stats/base/ndarray/dnanstdev` [(#10271)](https://github.com/stdlib-js/stdlib/pull/10271) _(by Pratik)_
