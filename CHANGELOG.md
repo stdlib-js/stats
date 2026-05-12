@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-11)
+## Unreleased (2026-05-12)
 
 <section class="features">
 
@@ -3826,6 +3826,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`1d12a90`](https://github.com/stdlib-js/stdlib/commit/1d12a90aff52e001ed123ce3f7a42e034f57c021) - **docs:** use correct `s` predicate in `stats/base/dists/cosine/mgf` [(#12101)](https://github.com/stdlib-js/stdlib/pull/12101) _(by Philipp Burckhardt)_
 -   [`81c4786`](https://github.com/stdlib-js/stdlib/commit/81c478690aac530a21505bae986e75ba5689aaf4) - **docs:** add negative-scale `@example` to `stats/base/dists/lognormal/cdf` [(#12093)](https://github.com/stdlib-js/stdlib/pull/12093) _(by Philipp Burckhardt)_
 -   [`4daf430`](https://github.com/stdlib-js/stdlib/commit/4daf430f3517294fe778243312cef186b4ec5072) - **test:** fix `Float32Array` import in `stats/strided/snanminabs` [(#12062)](https://github.com/stdlib-js/stdlib/pull/12062) _(by Karan Anand, Athan Reines)_
 -   [`506b8ab`](https://github.com/stdlib-js/stdlib/commit/506b8ab8b73c5f97d5d99ebecdc769d136328fc4) - **test:** fix `Float32Array` import in `stats/strided/snanmin` [(#12061)](https://github.com/stdlib-js/stdlib/pull/12061) _(by Karan Anand, Athan Reines)_
