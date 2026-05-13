@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-12)
+## Unreleased (2026-05-13)
 
 <section class="features">
 
@@ -3826,6 +3826,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`f39d0f8`](https://github.com/stdlib-js/stdlib/commit/f39d0f85d898915a1c8fd30cbc7c5847f0aa8916) - **docs:** update namespace table of contents [(#12109)](https://github.com/stdlib-js/stdlib/pull/12109) _(by stdlib-bot)_
 -   [`5e6cc52`](https://github.com/stdlib-js/stdlib/commit/5e6cc5227f955ebcce1827cd5f87261c0ec44001) - **docs:** normalize descriptions in `stats/base/dists/cosine/{ctor,logcdf}` [(#12103)](https://github.com/stdlib-js/stdlib/pull/12103) _(by Philipp Burckhardt)_
 -   [`1d12a90`](https://github.com/stdlib-js/stdlib/commit/1d12a90aff52e001ed123ce3f7a42e034f57c021) - **docs:** use correct `s` predicate in `stats/base/dists/cosine/mgf` [(#12101)](https://github.com/stdlib-js/stdlib/pull/12101) _(by Philipp Burckhardt)_
 -   [`81c4786`](https://github.com/stdlib-js/stdlib/commit/81c478690aac530a21505bae986e75ba5689aaf4) - **docs:** add negative-scale `@example` to `stats/base/dists/lognormal/cdf` [(#12093)](https://github.com/stdlib-js/stdlib/pull/12093) _(by Philipp Burckhardt)_
