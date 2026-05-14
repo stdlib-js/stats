@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-13)
+## Unreleased (2026-05-14)
 
 <section class="features">
 
@@ -3826,6 +3826,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`f2c2f39`](https://github.com/stdlib-js/stdlib/commit/f2c2f3967d9ee8afddc1206e69ddc015ff8f590a) - **docs:** normalize description in `stats/base/dists/exponential/logcdf` [(#12116)](https://github.com/stdlib-js/stdlib/pull/12116) _(by Philipp Burckhardt)_
 -   [`bac6704`](https://github.com/stdlib-js/stdlib/commit/bac67041cbbeeba2ed88f0030d28290e095d02c8) - **chore:** update example and add missing space in `stats/base/dists/normal/mean` [(#12104)](https://github.com/stdlib-js/stdlib/pull/12104) _(by Philipp Burckhardt)_
 -   [`f39d0f8`](https://github.com/stdlib-js/stdlib/commit/f39d0f85d898915a1c8fd30cbc7c5847f0aa8916) - **docs:** update namespace table of contents [(#12109)](https://github.com/stdlib-js/stdlib/pull/12109) _(by stdlib-bot)_
 -   [`5e6cc52`](https://github.com/stdlib-js/stdlib/commit/5e6cc5227f955ebcce1827cd5f87261c0ec44001) - **docs:** normalize descriptions in `stats/base/dists/cosine/{ctor,logcdf}` [(#12103)](https://github.com/stdlib-js/stdlib/pull/12103) _(by Philipp Burckhardt)_
