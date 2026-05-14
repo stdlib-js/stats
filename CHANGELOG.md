@@ -3826,6 +3826,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`b517ce1`](https://github.com/stdlib-js/stdlib/commit/b517ce16f647ffe2270573dff57755fe7ba69027) - **docs:** propagate description and example fixes in `stats/base/dists/*` [(#12132)](https://github.com/stdlib-js/stdlib/pull/12132) _(by Philipp Burckhardt)_
 -   [`3220a54`](https://github.com/stdlib-js/stdlib/commit/3220a542b8dff991c11047065b68123ece76ab1b) - **chore:** propagate `ndarray/*` and `normal/*` fixes [(#12117)](https://github.com/stdlib-js/stdlib/pull/12117) _(by Philipp Burckhardt)_
 -   [`f2c2f39`](https://github.com/stdlib-js/stdlib/commit/f2c2f3967d9ee8afddc1206e69ddc015ff8f590a) - **docs:** normalize description in `stats/base/dists/exponential/logcdf` [(#12116)](https://github.com/stdlib-js/stdlib/pull/12116) _(by Philipp Burckhardt)_
 -   [`bac6704`](https://github.com/stdlib-js/stdlib/commit/bac67041cbbeeba2ed88f0030d28290e095d02c8) - **chore:** update example and add missing space in `stats/base/dists/normal/mean` [(#12104)](https://github.com/stdlib-js/stdlib/pull/12104) _(by Philipp Burckhardt)_
