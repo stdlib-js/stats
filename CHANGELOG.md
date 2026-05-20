@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5ccb887`](https://github.com/stdlib-js/stdlib/commit/5ccb88741162d07ade0c4c62c2bab284e8908aa1) - add `dvariance` to namespace
 -   [`f51c52a`](https://github.com/stdlib-js/stdlib/commit/f51c52a121e764076d14e2d4c704bce0aaa8779f) - add `stats/base/ndarray/dvariance` [(#11745)](https://github.com/stdlib-js/stdlib/pull/11745)
 -   [`c5fad82`](https://github.com/stdlib-js/stdlib/commit/c5fad82b2d766118634d3796230c2158a4040d13) - add `dcorrelation` to namespace
 -   [`73653a2`](https://github.com/stdlib-js/stdlib/commit/73653a29dcd13f29dc66c1ceaf02a482606aca0a) - add `stats/strided/distances/dcorrelation` [(#11917)](https://github.com/stdlib-js/stdlib/pull/11917)
@@ -3827,6 +3828,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`5ccb887`](https://github.com/stdlib-js/stdlib/commit/5ccb88741162d07ade0c4c62c2bab284e8908aa1) - **feat:** add `dvariance` to namespace _(by Athan Reines)_
 -   [`f51c52a`](https://github.com/stdlib-js/stdlib/commit/f51c52a121e764076d14e2d4c704bce0aaa8779f) - **feat:** add `stats/base/ndarray/dvariance` [(#11745)](https://github.com/stdlib-js/stdlib/pull/11745) _(by Pratik, Athan Reines)_
 -   [`4589958`](https://github.com/stdlib-js/stdlib/commit/45899588d2b46feadb809778e13c156bc9cae2aa) - **refactor:** use floating-point zero literals in `stats/base/dists/rayleigh` [(#12204)](https://github.com/stdlib-js/stdlib/pull/12204) _(by Philipp Burckhardt)_
 -   [`906bab9`](https://github.com/stdlib-js/stdlib/commit/906bab98b9f33bc8c3a92e58eeafa2942990d5ab) - **docs:** propagate lint and example fixes to `math` and `stats` siblings [(#12146)](https://github.com/stdlib-js/stdlib/pull/12146) _(by Philipp Burckhardt)_
