@@ -3828,6 +3828,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`8fdaa49`](https://github.com/stdlib-js/stdlib/commit/8fdaa498fe75d79607e9f7376ec69c2ca92a2316) - **refactor:** use `format` for error construction in `stats/incr/pcorrmat` [(#12268)](https://github.com/stdlib-js/stdlib/pull/12268) _(by Philipp Burckhardt)_
 -   [`ac45b11`](https://github.com/stdlib-js/stdlib/commit/ac45b111df7cfa06bf92673d621b6e0d91ec0703) - **refactor:** use `main` as require alias in `stats/base/dists/frechet` [(#12260)](https://github.com/stdlib-js/stdlib/pull/12260) _(by Philipp Burckhardt)_
 -   [`da0bf4e`](https://github.com/stdlib-js/stdlib/commit/da0bf4e0579edef12373a0e3c4eadbcbf402e192) - **docs:** update related packages sections [(#12237)](https://github.com/stdlib-js/stdlib/pull/12237) _(by stdlib-bot, Athan Reines)_
 -   [`47f803e`](https://github.com/stdlib-js/stdlib/commit/47f803efb7e6e84fb26a7ded647b9a398b29a226) - **docs:** fix scale parameter reference in `@stdlib/stats/base/dists/levy/entropy` [(#12258)](https://github.com/stdlib-js/stdlib/pull/12258) _(by Philipp Burckhardt)_
