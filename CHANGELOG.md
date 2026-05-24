@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-22)
+## Unreleased (2026-05-24)
 
 <section class="features">
 
@@ -3828,6 +3828,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`91a6a85`](https://github.com/stdlib-js/stdlib/commit/91a6a85ebfca1036a0123648aa5165900c1cc74a) - **docs:** fix offset parameter wording in multi-offset READMEs [(#12243)](https://github.com/stdlib-js/stdlib/pull/12243) _(by Philipp Burckhardt, Athan Reines)_
 -   [`e1dd43f`](https://github.com/stdlib-js/stdlib/commit/e1dd43fddd1f3e3bbe14af8f0341fc3127595c54) - **docs:** update namespace table of contents [(#12225)](https://github.com/stdlib-js/stdlib/pull/12225) _(by stdlib-bot)_
 -   [`80996a6`](https://github.com/stdlib-js/stdlib/commit/80996a67956c190a908c92e6c5902aa6182cbea9) - **chore:** align keywords with sibling `stdev` packages [(#12219)](https://github.com/stdlib-js/stdlib/pull/12219) _(by Philipp Burckhardt)_
 -   [`5ccb887`](https://github.com/stdlib-js/stdlib/commit/5ccb88741162d07ade0c4c62c2bab284e8908aa1) - **feat:** add `dvariance` to namespace _(by Athan Reines)_
