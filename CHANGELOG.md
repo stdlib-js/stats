@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-27)
+## Unreleased (2026-05-28)
 
 <section class="features">
 
@@ -3828,6 +3828,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`6713f62`](https://github.com/stdlib-js/stdlib/commit/6713f62064d52fe04ab65d773448a5882ff295ed) - **docs:** fix stale plural-function wording in `stats/array/stdev` [(#12325)](https://github.com/stdlib-js/stdlib/pull/12325) _(by Philipp Burckhardt)_
 -   [`fdcf93d`](https://github.com/stdlib-js/stdlib/commit/fdcf93d000432eedb131d8c0a03fbb269e91e66e) - **docs:** update example variables and document domain [(#12301)](https://github.com/stdlib-js/stdlib/pull/12301) _(by Philipp Burckhardt)_
 -   [`ba77943`](https://github.com/stdlib-js/stdlib/commit/ba77943bb69dcdf1db89c7b1e5e786acab35dfe6) - **docs:** updae descriptions in `stats/strided/*abs` package descriptions [(#12310)](https://github.com/stdlib-js/stdlib/pull/12310) _(by Philipp Burckhardt)_
 -   [`3c1e93d`](https://github.com/stdlib-js/stdlib/commit/3c1e93d70791ae8598c0bd192986066d665a2e9d) - **refactor:** replace `isProbability` with inline range check in `stats/base/dists/bernoulli/mgf` [(#12292)](https://github.com/stdlib-js/stdlib/pull/12292) _(by Philipp Burckhardt)_
