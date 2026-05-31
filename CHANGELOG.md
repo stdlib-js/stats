@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-30)
+## Unreleased (2026-05-31)
 
 <section class="features">
 
@@ -3828,6 +3828,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`afb44ae`](https://github.com/stdlib-js/stdlib/commit/afb44ae05ba673e5c777e19761a25dd90bd2d0ac) - **docs:** fix C API parameter name in heading [(#12404)](https://github.com/stdlib-js/stdlib/pull/12404) _(by Philipp Burckhardt)_
 -   [`faef343`](https://github.com/stdlib-js/stdlib/commit/faef34302cc1067c306c01763973ce53fc4933e3) - **style:** use explicit float literal in `stats/base/dists/gumbel/cdf` [(#12379)](https://github.com/stdlib-js/stdlib/pull/12379) _(by Philipp Burckhardt)_
 -   [`aa674a4`](https://github.com/stdlib-js/stdlib/commit/aa674a415e82e2c5db78b60ca4954d4871b0d9d5) - **refactor:** rename parameter to ensure consistency with other packages [(#12376)](https://github.com/stdlib-js/stdlib/pull/12376) _(by Philipp Burckhardt)_
 -   [`80ccc9e`](https://github.com/stdlib-js/stdlib/commit/80ccc9efda46e813af6a0dca63e34d7671b91eeb) - **docs:** update namespace table of contents [(#12329)](https://github.com/stdlib-js/stdlib/pull/12329) _(by stdlib-bot)_
