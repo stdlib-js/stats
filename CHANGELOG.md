@@ -1480,6 +1480,7 @@
 
 ### Bug Fixes
 
+-   [`a0dea9a`](https://github.com/stdlib-js/stdlib/commit/a0dea9a69e82a3df2f7693f088b738db87d4c2d7) - widen main signature input type in `strided/meankbn2` [(#12498)](https://github.com/stdlib-js/stdlib/pull/12498)
 -   [`a557e79`](https://github.com/stdlib-js/stdlib/commit/a557e790e8bf8c5966986b4d3ed81f0b2d9561de) - type `kde2d` output `z` field as an ndarray [(#12501)](https://github.com/stdlib-js/stdlib/pull/12501)
 -   [`5d9b12d`](https://github.com/stdlib-js/stdlib/commit/5d9b12d1437c68dca5d2ecd84b1407e756893dbf) - rename `logpdf` to `logpmf` in `base/dists/geometric/ctor` [(#12500)](https://github.com/stdlib-js/stdlib/pull/12500)
 -   [`3945ae1`](https://github.com/stdlib-js/stdlib/commit/3945ae139f20ead76252483fa84dd83620bacc00) - add missing `correction` argument [(#12505)](https://github.com/stdlib-js/stdlib/pull/12505)
@@ -3831,6 +3832,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`a0dea9a`](https://github.com/stdlib-js/stdlib/commit/a0dea9a69e82a3df2f7693f088b738db87d4c2d7) - **fix:** widen main signature input type in `strided/meankbn2` [(#12498)](https://github.com/stdlib-js/stdlib/pull/12498) _(by Philipp Burckhardt)_
 -   [`a557e79`](https://github.com/stdlib-js/stdlib/commit/a557e790e8bf8c5966986b4d3ed81f0b2d9561de) - **fix:** type `kde2d` output `z` field as an ndarray [(#12501)](https://github.com/stdlib-js/stdlib/pull/12501) _(by Philipp Burckhardt)_
 -   [`5d9b12d`](https://github.com/stdlib-js/stdlib/commit/5d9b12d1437c68dca5d2ecd84b1407e756893dbf) - **fix:** rename `logpdf` to `logpmf` in `base/dists/geometric/ctor` [(#12500)](https://github.com/stdlib-js/stdlib/pull/12500) _(by Philipp Burckhardt)_
 -   [`3945ae1`](https://github.com/stdlib-js/stdlib/commit/3945ae139f20ead76252483fa84dd83620bacc00) - **fix:** add missing `correction` argument [(#12505)](https://github.com/stdlib-js/stdlib/pull/12505) _(by Philipp Burckhardt)_
