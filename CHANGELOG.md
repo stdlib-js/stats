@@ -3832,6 +3832,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`ea9a0df`](https://github.com/stdlib-js/stdlib/commit/ea9a0dfc9de34a9b585e209a2e8a32524dc85f2c) - **refactor:** update parameter names [(#12489)](https://github.com/stdlib-js/stdlib/pull/12489) _(by Philipp Burckhardt)_
 -   [`fabd619`](https://github.com/stdlib-js/stdlib/commit/fabd61956ca6403f298caa7d5476cfbe12f009d6) - **refactor:** use `offsetX` parameter name in `strided/nanrangeabs` [(#12491)](https://github.com/stdlib-js/stdlib/pull/12491) _(by Philipp Burckhardt)_
 -   [`056a080`](https://github.com/stdlib-js/stdlib/commit/056a080213e54c3030bb98128e96b26b4139627a) - **refactor:** remove unused generics [(#12495)](https://github.com/stdlib-js/stdlib/pull/12495) _(by Philipp Burckhardt)_
 -   [`9ee909b`](https://github.com/stdlib-js/stdlib/commit/9ee909b1ed87620a122223b5de6be41ad3f062f1) - **refactor:** align parameter name with implementation in `incr/nanstdev` [(#12492)](https://github.com/stdlib-js/stdlib/pull/12492) _(by Philipp Burckhardt)_
