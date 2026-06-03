@@ -1480,6 +1480,7 @@
 
 ### Bug Fixes
 
+-   [`4f9ef5b`](https://github.com/stdlib-js/stdlib/commit/4f9ef5b858789502bd4356a3693723edd6d714d6) - update parameter name [(#12485)](https://github.com/stdlib-js/stdlib/pull/12485)
 -   [`2a2228d`](https://github.com/stdlib-js/stdlib/commit/2a2228d7ae175857ca7677a3b008d9fd334ae0ef) - update parameter name [(#12486)](https://github.com/stdlib-js/stdlib/pull/12486)
 -   [`a0dea9a`](https://github.com/stdlib-js/stdlib/commit/a0dea9a69e82a3df2f7693f088b738db87d4c2d7) - widen main signature input type in `strided/meankbn2` [(#12498)](https://github.com/stdlib-js/stdlib/pull/12498)
 -   [`a557e79`](https://github.com/stdlib-js/stdlib/commit/a557e790e8bf8c5966986b4d3ed81f0b2d9561de) - type `kde2d` output `z` field as an ndarray [(#12501)](https://github.com/stdlib-js/stdlib/pull/12501)
@@ -3833,6 +3834,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`4f9ef5b`](https://github.com/stdlib-js/stdlib/commit/4f9ef5b858789502bd4356a3693723edd6d714d6) - **fix:** update parameter name [(#12485)](https://github.com/stdlib-js/stdlib/pull/12485) _(by Philipp Burckhardt)_
 -   [`2a2228d`](https://github.com/stdlib-js/stdlib/commit/2a2228d7ae175857ca7677a3b008d9fd334ae0ef) - **fix:** update parameter name [(#12486)](https://github.com/stdlib-js/stdlib/pull/12486) _(by Philipp Burckhardt)_
 -   [`ea9a0df`](https://github.com/stdlib-js/stdlib/commit/ea9a0dfc9de34a9b585e209a2e8a32524dc85f2c) - **refactor:** update parameter names [(#12489)](https://github.com/stdlib-js/stdlib/pull/12489) _(by Philipp Burckhardt)_
 -   [`fabd619`](https://github.com/stdlib-js/stdlib/commit/fabd61956ca6403f298caa7d5476cfbe12f009d6) - **refactor:** use `offsetX` parameter name in `strided/nanrangeabs` [(#12491)](https://github.com/stdlib-js/stdlib/pull/12491) _(by Philipp Burckhardt)_
