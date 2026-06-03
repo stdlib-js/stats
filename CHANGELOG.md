@@ -1480,6 +1480,7 @@
 
 ### Bug Fixes
 
+-   [`5d9b12d`](https://github.com/stdlib-js/stdlib/commit/5d9b12d1437c68dca5d2ecd84b1407e756893dbf) - rename `logpdf` to `logpmf` in `base/dists/geometric/ctor` [(#12500)](https://github.com/stdlib-js/stdlib/pull/12500)
 -   [`3945ae1`](https://github.com/stdlib-js/stdlib/commit/3945ae139f20ead76252483fa84dd83620bacc00) - add missing `correction` argument [(#12505)](https://github.com/stdlib-js/stdlib/pull/12505)
 -   [`74e79f9`](https://github.com/stdlib-js/stdlib/commit/74e79f9fd8dfae766dd9a016f0c1e63b9abae097) - propagate `API_SUFFIX` wrappers and complex number description wording [(#11952)](https://github.com/stdlib-js/stdlib/pull/11952)
 -   [`a65e1fd`](https://github.com/stdlib-js/stdlib/commit/a65e1fd9f921616b23244200dc09c0f87981a1c5) - add suffix wrappers and replace inline NaN literal [(#11947)](https://github.com/stdlib-js/stdlib/pull/11947)
@@ -3829,6 +3830,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`5d9b12d`](https://github.com/stdlib-js/stdlib/commit/5d9b12d1437c68dca5d2ecd84b1407e756893dbf) - **fix:** rename `logpdf` to `logpmf` in `base/dists/geometric/ctor` [(#12500)](https://github.com/stdlib-js/stdlib/pull/12500) _(by Philipp Burckhardt)_
 -   [`3945ae1`](https://github.com/stdlib-js/stdlib/commit/3945ae139f20ead76252483fa84dd83620bacc00) - **fix:** add missing `correction` argument [(#12505)](https://github.com/stdlib-js/stdlib/pull/12505) _(by Philipp Burckhardt)_
 -   [`3418475`](https://github.com/stdlib-js/stdlib/commit/3418475fabc0de813b178807a80853d2867cc326) - **docs:** correct `mu` description and `b` JSDoc type in `stats/base/dists/laplace/mgf` [(#12449)](https://github.com/stdlib-js/stdlib/pull/12449) _(by Philipp Burckhardt)_
 -   [`eeae769`](https://github.com/stdlib-js/stdlib/commit/eeae769abe635aa7199ed3f0e84c922e37e17926) - **chore:** fix description and `dist` keyword [(#12455)](https://github.com/stdlib-js/stdlib/pull/12455) _(by Philipp Burckhardt)_
