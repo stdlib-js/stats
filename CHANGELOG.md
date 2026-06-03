@@ -3832,6 +3832,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`db6c193`](https://github.com/stdlib-js/stdlib/commit/db6c1932c5d04fde65007807c4129ddc17f957be) - **refactor:** align parameter names with sibling packages [(#12493)](https://github.com/stdlib-js/stdlib/pull/12493) _(by Philipp Burckhardt)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`a0dea9a`](https://github.com/stdlib-js/stdlib/commit/a0dea9a69e82a3df2f7693f088b738db87d4c2d7) - **fix:** widen main signature input type in `strided/meankbn2` [(#12498)](https://github.com/stdlib-js/stdlib/pull/12498) _(by Philipp Burckhardt)_
 -   [`a557e79`](https://github.com/stdlib-js/stdlib/commit/a557e790e8bf8c5966986b4d3ed81f0b2d9561de) - **fix:** type `kde2d` output `z` field as an ndarray [(#12501)](https://github.com/stdlib-js/stdlib/pull/12501) _(by Philipp Burckhardt)_
