@@ -3834,6 +3834,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`7563015`](https://github.com/stdlib-js/stdlib/commit/75630151e87f5e595ca445317835edff7927d348) - **refactor:** use `offsetX` parameter name in `strided/nanrange` [(#12490)](https://github.com/stdlib-js/stdlib/pull/12490) _(by Philipp Burckhardt)_
 -   [`e8a15dd`](https://github.com/stdlib-js/stdlib/commit/e8a15dd05466add8b27998c945d4ee5d524bb8d0) - **refactor:** remove unused generic in `stats/base/ndarray/minsorted` [(#12494)](https://github.com/stdlib-js/stdlib/pull/12494) _(by Philipp Burckhardt)_
 -   [`4f9ef5b`](https://github.com/stdlib-js/stdlib/commit/4f9ef5b858789502bd4356a3693723edd6d714d6) - **fix:** update parameter name [(#12485)](https://github.com/stdlib-js/stdlib/pull/12485) _(by Philipp Burckhardt)_
 -   [`2a2228d`](https://github.com/stdlib-js/stdlib/commit/2a2228d7ae175857ca7677a3b008d9fd334ae0ef) - **fix:** update parameter name [(#12486)](https://github.com/stdlib-js/stdlib/pull/12486) _(by Philipp Burckhardt)_
