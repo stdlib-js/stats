@@ -1600,6 +1600,10 @@
 
 ### BREAKING CHANGES
 
+-   [`594bb70`](https://github.com/stdlib-js/stdlib/commit/594bb702605bb473be30d637ae25cb3d8d95c97e): rename class to use camel case
+
+    -   To migrate, users should replace `Lognormal` with `LogNormal`.
+
 -   [`d3427df`](https://github.com/stdlib-js/stdlib/commit/d3427df39ee3407e76b32095ec622edf1c7d084e): remove `stats/strided/nancount`
 
     -   To migrate, users should update their require/import paths to use
@@ -3836,6 +3840,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`594bb70`](https://github.com/stdlib-js/stdlib/commit/594bb702605bb473be30d637ae25cb3d8d95c97e) - **refactor:** correct class name casing in `base/dists/lognormal/ctor` [(#12499)](https://github.com/stdlib-js/stdlib/pull/12499) _(by Philipp Burckhardt)_
 -   [`03bb27c`](https://github.com/stdlib-js/stdlib/commit/03bb27c0d63fdbea701e3de9c9fcde3fe5100999) - **fix:** use scale parameter name `c` in `base/dists/levy/cdf` [(#12488)](https://github.com/stdlib-js/stdlib/pull/12488) _(by Philipp Burckhardt)_
 -   [`93d712b`](https://github.com/stdlib-js/stdlib/commit/93d712b9f648a28afc6f039173a3715139a90991) - **fix:** update parameter names [(#12487)](https://github.com/stdlib-js/stdlib/pull/12487) _(by Philipp Burckhardt)_
 -   [`7563015`](https://github.com/stdlib-js/stdlib/commit/75630151e87f5e595ca445317835edff7927d348) - **refactor:** use `offsetX` parameter name in `strided/nanrange` [(#12490)](https://github.com/stdlib-js/stdlib/pull/12490) _(by Philipp Burckhardt)_
