@@ -3828,6 +3828,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`3418475`](https://github.com/stdlib-js/stdlib/commit/3418475fabc0de813b178807a80853d2867cc326) - **docs:** correct `mu` description and `b` JSDoc type in `stats/base/dists/laplace/mgf` [(#12449)](https://github.com/stdlib-js/stdlib/pull/12449) _(by Philipp Burckhardt)_
 -   [`eeae769`](https://github.com/stdlib-js/stdlib/commit/eeae769abe635aa7199ed3f0e84c922e37e17926) - **chore:** fix description and `dist` keyword [(#12455)](https://github.com/stdlib-js/stdlib/pull/12455) _(by Philipp Burckhardt)_
 -   [`eb16cda`](https://github.com/stdlib-js/stdlib/commit/eb16cda7c4554147bfa724f0ee9a24fcf0422d18) - **docs:** update related packages sections [(#12414)](https://github.com/stdlib-js/stdlib/pull/12414) _(by stdlib-bot)_
 -   [`510d710`](https://github.com/stdlib-js/stdlib/commit/510d7100ba882850675520a6fe8be6219fb05076) - **docs:** propagate recent develop fixes to sibling packages [(#12400)](https://github.com/stdlib-js/stdlib/pull/12400) _(by Philipp Burckhardt)_
