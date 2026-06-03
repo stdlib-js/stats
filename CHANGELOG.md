@@ -3832,6 +3832,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`056a080`](https://github.com/stdlib-js/stdlib/commit/056a080213e54c3030bb98128e96b26b4139627a) - **refactor:** remove unused generics [(#12495)](https://github.com/stdlib-js/stdlib/pull/12495) _(by Philipp Burckhardt)_
 -   [`9ee909b`](https://github.com/stdlib-js/stdlib/commit/9ee909b1ed87620a122223b5de6be41ad3f062f1) - **refactor:** align parameter name with implementation in `incr/nanstdev` [(#12492)](https://github.com/stdlib-js/stdlib/pull/12492) _(by Philipp Burckhardt)_
 -   [`db6c193`](https://github.com/stdlib-js/stdlib/commit/db6c1932c5d04fde65007807c4129ddc17f957be) - **refactor:** align parameter names with sibling packages [(#12493)](https://github.com/stdlib-js/stdlib/pull/12493) _(by Philipp Burckhardt)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
