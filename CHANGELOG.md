@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-03)
+## Unreleased (2026-06-04)
 
 <section class="features">
 
@@ -3840,6 +3840,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`7587c51`](https://github.com/stdlib-js/stdlib/commit/7587c516c9cf38a7048079bf01c42135061b8d98) - **docs:** propagate TSDoc declaration fixes to sibling packages [(#12524)](https://github.com/stdlib-js/stdlib/pull/12524) _(by Philipp Burckhardt)_
 -   [`bccd3c3`](https://github.com/stdlib-js/stdlib/commit/bccd3c3ff447205446f7a41b19134620f8ce2642) - **docs:** follow-up fixes for commits merged to `develop` on 2026-06-03 [(#12511)](https://github.com/stdlib-js/stdlib/pull/12511) _(by Philipp Burckhardt)_
 -   [`b0bd12b`](https://github.com/stdlib-js/stdlib/commit/b0bd12be8db74dcde712428f3fb0086068e558d2) - **chore:** add `univariate` keyword to outliers in `stats/base/dists` [(#12507)](https://github.com/stdlib-js/stdlib/pull/12507) _(by Philipp Burckhardt)_
 -   [`594bb70`](https://github.com/stdlib-js/stdlib/commit/594bb702605bb473be30d637ae25cb3d8d95c97e) - **refactor:** correct class name casing in `base/dists/lognormal/ctor` [(#12499)](https://github.com/stdlib-js/stdlib/pull/12499) _(by Philipp Burckhardt)_
