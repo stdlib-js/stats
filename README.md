@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import statistics from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@deno/mod.js';
+import statistics from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@v0.4.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { anova1, array, bartlettTest, base, binomialTest, chi2gof, chi2test, cumax, cumin, flignerTest, incr, iterators, kde2d, kruskalTest, kstest, leveneTest, lowess, max, maxBy, maxabs, maxsorted, mean, meankbn, meankbn2, meanors, meanpn, meanpw, meanwd, mediansorted, midrange, midrangeBy, min, minBy, minabs, minsorted, nanmax, nanmaxBy, nanmaxabs, nanmean, nanmeanors, nanmeanpn, nanmeanwd, nanmidrange, nanmidrangeBy, nanmin, nanminBy, nanminabs, nanrange, nanrangeBy, padjust, pcorrtest, range, rangeBy, rangeabs, ranks, strided, ttest, ttest2, vartest, wilcoxon, ztest, ztest2 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@deno/mod.js';
+import { anova1, array, bartlettTest, base, binomialTest, chi2gof, chi2test, cumax, cumin, flignerTest, incr, iterators, kde2d, kruskalTest, kstest, leveneTest, lowess, max, maxBy, maxabs, maxsorted, mean, meankbn, meankbn2, meanors, meanpn, meanpw, meanwd, mediansorted, midrange, midrangeBy, min, minBy, minabs, minsorted, nanmax, nanmaxBy, nanmaxabs, nanmean, nanmeanors, nanmeanpn, nanmeanwd, nanmidrange, nanmidrangeBy, nanmin, nanminBy, nanminabs, nanrange, nanrangeBy, padjust, pcorrtest, range, rangeBy, rangeabs, ranks, strided, ttest, ttest2, vartest, wilcoxon, ztest, ztest2 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@v0.4.1-deno/mod.js';
 ```
 
 #### statistics
@@ -191,7 +191,7 @@ Other statistical functions included are:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import statistics from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@deno/mod.js';
+import statistics from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats@v0.4.1-deno/mod.js';
 
 console.log( objectKeys( statistics ) );
 ```
