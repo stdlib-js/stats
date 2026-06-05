@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-06-05)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`6e9254b`](https://github.com/stdlib-js/stdlib/commit/6e9254b32595b7c8e5f3eb3e06a697c67e1a4055) - **docs:** add missing empty `notes` section blocks [(#12564)](https://github.com/stdlib-js/stdlib/pull/12564) _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-06-05)
