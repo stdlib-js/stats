@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-04)
+## Unreleased (2026-06-05)
 
 <section class="features">
 
@@ -3840,6 +3840,7 @@ A total of 589 issues were closed in this release:
 
 <details>
 
+-   [`8e32423`](https://github.com/stdlib-js/stdlib/commit/8e32423156316049de0700cfcb4d3da2b173f008) - **refactor:** align TypeScript declarations across stats packages [(#12512)](https://github.com/stdlib-js/stdlib/pull/12512) _(by Philipp Burckhardt)_
 -   [`359a92f`](https://github.com/stdlib-js/stdlib/commit/359a92fc942dbc65cb930cffd08d0ac6eb445d90) - **docs:** normalize stride parameter descriptions in `stats/base/cumin` [(#12547)](https://github.com/stdlib-js/stdlib/pull/12547) _(by Philipp Burckhardt)_
 -   [`7587c51`](https://github.com/stdlib-js/stdlib/commit/7587c516c9cf38a7048079bf01c42135061b8d98) - **docs:** propagate TSDoc declaration fixes to sibling packages [(#12524)](https://github.com/stdlib-js/stdlib/pull/12524) _(by Philipp Burckhardt)_
 -   [`bccd3c3`](https://github.com/stdlib-js/stdlib/commit/bccd3c3ff447205446f7a41b19134620f8ce2642) - **docs:** follow-up fixes for commits merged to `develop` on 2026-06-03 [(#12511)](https://github.com/stdlib-js/stdlib/pull/12511) _(by Philipp Burckhardt)_
