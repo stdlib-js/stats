@@ -280,8 +280,7 @@ interface Namespace {
 	* Returns an accumulator function which incrementally computes an exponentially weighted mean.
 	*
 	* @param alpha - smoothing factor
-	* @throws must provide a nonnegative number
-	* @throws must be on the interval `[0,1]`
+	* @throws alpha must be on the interval `[0,1]`
 	* @returns accumulator function
 	*
 	* @example
@@ -305,7 +304,6 @@ interface Namespace {
 	* Returns an accumulator function which incrementally computes an exponentially weighted standard deviation.
 	*
 	* @param alpha - smoothing factor
-	* @throws must provide a nonnegative number
 	* @throws must be on the interval `[0,1]`
 	* @returns accumulator function
 	*
@@ -895,10 +893,11 @@ interface Namespace {
 	* @example
 	* var rnorm = require( '@stdlib/random/base/normal' );
 	*
-	* var accumulator = ns.incrmgrubbs( 20 );
-	*
-	* var res;
+	* var accumulator;
 	* var i;
+	*
+	* accumulator = ns.incrmgrubbs( 20 );
+	*
 	* for ( i = 0; i < 200; i++ ) {
 	*     res = accumulator( rnorm( 10.0, 5.0 ) );
 	* }
@@ -1180,11 +1179,6 @@ interface Namespace {
 
 	/**
 	* Returns an accumulator function which incrementally computes a moving maximum value.
-	*
-	* ## Notes
-	*
-	* -   The `W` parameter defines the number of values over which to compute the moving maximum.
-	* -   As `W` values are needed to fill the window buffer, the first `W-1` returned values are calculated from smaller sample sizes. Until the window is full, each returned value is calculated from all provided values.
 	*
 	* @param W - window size
 	* @throws must provide a positive integer
@@ -2032,7 +2026,7 @@ interface Namespace {
 	*
 	* ## Notes
 	*
-	* -   The `W` parameter defines the number of values over which to compute the moving corrected sample standard deviation.
+	* -   The `W` parameter defines the number of values over which to compute the moving sum.
 	* -   As `W` values are needed to fill the window buffer, the first `W-1` returned values are calculated from smaller sample sizes. Until the window is full, each returned value is calculated from all provided values.
 	*
 	* @param W - window size
@@ -2238,11 +2232,6 @@ interface Namespace {
 
 	/**
 	* Returns an accumulator function which incrementally computes a moving unbiased sample variance.
-	*
-	* ## Notes
-	*
-	* -   The `W` parameter defines the number of values over which to compute the moving unbiased sample variance.
-	* -   As `W` values are needed to fill the window buffer, the first `W-1` returned values are calculated from smaller sample sizes. Until the window is full, each returned value is calculated from all provided values.
 	*
 	* @param W - window size
 	* @param mean - mean value
@@ -2462,7 +2451,7 @@ interface Namespace {
 	incrnanmstdev: typeof incrnanmstdev;
 
 	/**
-	* Returns an accumulator function which incrementally computes a moving sum, ignoring `NaN` values.
+	* Returns an accumulator function which incrementally computes a moving sum , ignoring `NaN` values.
 	*
 	* ## Notes
 	*
@@ -2473,6 +2462,8 @@ interface Namespace {
 	* @returns accumulator function
 	*
 	* @example
+	* var nanmsum = require( './../../../incr/nanmsum' );
+	*
 	* var accumulator = ns.incrnanmsum( 3 );
 	*
 	* var v = accumulator();
@@ -2533,7 +2524,7 @@ interface Namespace {
 	/**
 	* Returns an accumulator function which incrementally computes a corrected sample standard deviation, ignoring `NaN` values.
 	*
-	* @param mean - known mean
+	* @param mu - known mean
 	* @returns accumulator function
 	*
 	* @example
@@ -2919,6 +2910,11 @@ interface Namespace {
 	/**
 	* Returns an accumulator function which incrementally computes a corrected sample skewness.
 	*
+	* ## Notes
+	*
+	* -   If provided a value, the accumulator function returns an updated corrected sample skewness. If not provided a value, the accumulator function returns the current corrected sample skewness.
+	* -   If provided `NaN` or a value which, when used in computations, results in `NaN`, the accumulated value is `NaN` for all future invocations.
+	*
 	* @returns accumulator function
 	*
 	* @example
@@ -2944,7 +2940,7 @@ interface Namespace {
 	/**
 	* Returns an accumulator function which incrementally computes a corrected sample standard deviation.
 	*
-	* @param mean - known mean
+	* @param mu - known mean
 	* @returns accumulator function
 	*
 	* @example
@@ -3086,7 +3082,7 @@ interface Namespace {
 	/**
 	* Returns an accumulator function which incrementally computes an unbiased sample variance.
 	*
-	* @param mean - known mean
+	* @param mu - known mean
 	* @returns accumulator function
 	*
 	* @example
@@ -3129,12 +3125,6 @@ interface Namespace {
 	*
 	* @example
 	* var accumulator = ns.incrvmr( 3.14 );
-	*
-	* var D = accumulator();
-	* // returns null
-	*
-	* D = accumulator( 5.0 );
-	* // returns ~1.1
 	*/
 	incrvmr: typeof incrvmr;
 
