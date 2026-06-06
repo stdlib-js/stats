@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`af06cd9`](https://github.com/stdlib-js/stdlib/commit/af06cd9468ea27ec0cc0c05eff186e5f2ce5373a) - update `stats/strided/distances` TypeScript declarations [(#12616)](https://github.com/stdlib-js/stdlib/pull/12616)
 -   [`5766b42`](https://github.com/stdlib-js/stdlib/commit/5766b42bf2f2c7e14cb247e48c8ad87014557ada) - update `stats/base/ndarray` TypeScript declarations [(#12612)](https://github.com/stdlib-js/stdlib/pull/12612)
 -   [`f5053fc`](https://github.com/stdlib-js/stdlib/commit/f5053fccda28ecbfe4a848733ab741cf5a088bc8) - update `stats` TypeScript declarations [(#12615)](https://github.com/stdlib-js/stdlib/pull/12615)
 -   [`c5f70fd`](https://github.com/stdlib-js/stdlib/commit/c5f70fd5663439cbdb6a925f33871eb9974a5166) - update `stats/strided` TypeScript declarations [(#12617)](https://github.com/stdlib-js/stdlib/pull/12617)
@@ -24,6 +25,8 @@
 
 <details>
 
+-   [`af06cd9`](https://github.com/stdlib-js/stdlib/commit/af06cd9468ea27ec0cc0c05eff186e5f2ce5373a) - **feat:** update `stats/strided/distances` TypeScript declarations [(#12616)](https://github.com/stdlib-js/stdlib/pull/12616) _(by stdlib-bot)_
+-   [`01a5367`](https://github.com/stdlib-js/stdlib/commit/01a53679ade097d41ebc0cc6d34186c15b5a75b9) - **docs:** update `stats/incr` TypeScript declarations [(#12613)](https://github.com/stdlib-js/stdlib/pull/12613) _(by stdlib-bot)_
 -   [`5766b42`](https://github.com/stdlib-js/stdlib/commit/5766b42bf2f2c7e14cb247e48c8ad87014557ada) - **feat:** update `stats/base/ndarray` TypeScript declarations [(#12612)](https://github.com/stdlib-js/stdlib/pull/12612) _(by stdlib-bot)_
 -   [`8264796`](https://github.com/stdlib-js/stdlib/commit/8264796fb922e99f322d8140a5993ac9ba6fd200) - **docs:** update `stats/iter` TypeScript declarations [(#12614)](https://github.com/stdlib-js/stdlib/pull/12614) _(by stdlib-bot)_
 -   [`f5053fc`](https://github.com/stdlib-js/stdlib/commit/f5053fccda28ecbfe4a848733ab741cf5a088bc8) - **feat:** update `stats` TypeScript declarations [(#12615)](https://github.com/stdlib-js/stdlib/pull/12615) _(by stdlib-bot)_

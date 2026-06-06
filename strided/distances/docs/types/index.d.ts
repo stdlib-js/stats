@@ -22,6 +22,7 @@
 
 import dchebyshev = require( './../../../../strided/distances/dchebyshev' );
 import dcityblock = require( './../../../../strided/distances/dcityblock' );
+import dcorrelation = require( './../../../../strided/distances/dcorrelation' );
 import dcosineDistance = require( './../../../../strided/distances/dcosine-distance' );
 import dcosineSimilarity = require( './../../../../strided/distances/dcosine-similarity' );
 import deuclidean = require( './../../../../strided/distances/deuclidean' );
@@ -91,6 +92,36 @@ interface Namespace {
 	* // returns 26.0
 	*/
 	dcityblock: typeof dcityblock;
+
+	/**
+	* Computes the correlation distance between two double-precision floating-point strided arrays.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length of `x`
+	* @param y - second input array
+	* @param strideY - stride length of `y`
+	* @returns correlation distance
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( [ 2.0, -2.0, 1.0 ] );
+	*
+	* var v = ns.dcorrelation( x.length, x, 1, y, 1 );
+	* // returns ~0.115
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( [ 2.0, -2.0, 1.0 ] );
+	*
+	* var v = ns.dcorrelation.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns ~0.115
+	*/
+	dcorrelation: typeof dcorrelation;
 
 	/**
 	* Computes the cosine distance between two double-precision floating-point strided arrays.
