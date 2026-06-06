@@ -25,6 +25,7 @@
 
 <details>
 
+-   [`475d2a4`](https://github.com/stdlib-js/stdlib/commit/475d2a4b917d816bfde1f199f00f746110723066) - **docs:** update `stats/base/dists/invgamma` TypeScript declarations [(#12603)](https://github.com/stdlib-js/stdlib/pull/12603) _(by stdlib-bot)_
 -   [`fdb8b08`](https://github.com/stdlib-js/stdlib/commit/fdb8b08c1f9958e65135790d30d4c7f9255c1710) - **docs:** update `stats/array` TypeScript declarations [(#12594)](https://github.com/stdlib-js/stdlib/pull/12594) _(by stdlib-bot)_
 -   [`e5989f9`](https://github.com/stdlib-js/stdlib/commit/e5989f9fbbf926c8986246ff1aa6f1fcaa3058f9) - **docs:** update `stats/base/dists/kumaraswamy` TypeScript declarations [(#12604)](https://github.com/stdlib-js/stdlib/pull/12604) _(by stdlib-bot)_
 -   [`d1e7564`](https://github.com/stdlib-js/stdlib/commit/d1e75645e79c0cc2e5ac4b784260bc8728d8e6d4) - **docs:** update `stats/base/dists/cosine` TypeScript declarations [(#12599)](https://github.com/stdlib-js/stdlib/pull/12599) _(by stdlib-bot)_
