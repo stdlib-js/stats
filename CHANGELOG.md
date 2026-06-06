@@ -25,6 +25,7 @@
 
 <details>
 
+-   [`06cce2c`](https://github.com/stdlib-js/stdlib/commit/06cce2c6cd7e514b993d64dd9614604e885562db) - **docs:** update `stats/base/dists/arcsine` TypeScript declarations [(#12595)](https://github.com/stdlib-js/stdlib/pull/12595) _(by stdlib-bot)_
 -   [`d50cd4e`](https://github.com/stdlib-js/stdlib/commit/d50cd4e8c3f72c95107cb4e67ea873aa254631fd) - **docs:** update `stats/base/dists/chisquare` TypeScript declarations [(#12598)](https://github.com/stdlib-js/stdlib/pull/12598) _(by stdlib-bot)_
 -   [`475d2a4`](https://github.com/stdlib-js/stdlib/commit/475d2a4b917d816bfde1f199f00f746110723066) - **docs:** update `stats/base/dists/invgamma` TypeScript declarations [(#12603)](https://github.com/stdlib-js/stdlib/pull/12603) _(by stdlib-bot)_
 -   [`fdb8b08`](https://github.com/stdlib-js/stdlib/commit/fdb8b08c1f9958e65135790d30d4c7f9255c1710) - **docs:** update `stats/array` TypeScript declarations [(#12594)](https://github.com/stdlib-js/stdlib/pull/12594) _(by stdlib-bot)_
