@@ -25,6 +25,7 @@
 
 <details>
 
+-   [`f83b869`](https://github.com/stdlib-js/stdlib/commit/f83b869b588bb84e82c2215695b78b862aeee072) - **docs:** update `stats/base/dists/logistic` TypeScript declarations [(#12606)](https://github.com/stdlib-js/stdlib/pull/12606) _(by stdlib-bot)_
 -   [`9447665`](https://github.com/stdlib-js/stdlib/commit/94476650507644281e2918ef3b9007c712e3decd) - **docs:** update `stats/base/dists/degenerate` TypeScript declarations [(#12600)](https://github.com/stdlib-js/stdlib/pull/12600) _(by stdlib-bot)_
 -   [`09ebafd`](https://github.com/stdlib-js/stdlib/commit/09ebafdd905642f8f652a34fbd2af17981e97a7b) - **docs:** update `stats/base/dists/chi` TypeScript declarations [(#12597)](https://github.com/stdlib-js/stdlib/pull/12597) _(by stdlib-bot)_
 -   [`72bcd83`](https://github.com/stdlib-js/stdlib/commit/72bcd83880399c89cd8b88deca1d00b1ae288c2a) - **docs:** update `stats/base/dists/studentized-range` TypeScript declarations [(#12610)](https://github.com/stdlib-js/stdlib/pull/12610) _(by stdlib-bot)_
