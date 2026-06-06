@@ -25,6 +25,7 @@
 
 <details>
 
+-   [`1924425`](https://github.com/stdlib-js/stdlib/commit/1924425b157a247c71f03ea9b3ff074a3bdc12f2) - **docs:** update `stats/base/dists/negative-binomial` TypeScript declarations [(#12608)](https://github.com/stdlib-js/stdlib/pull/12608) _(by stdlib-bot)_
 -   [`71ca43c`](https://github.com/stdlib-js/stdlib/commit/71ca43c0a9d13a80668f8102a35ac0c5c47537ee) - **docs:** update `stats/base/dists/rayleigh` TypeScript declarations [(#12609)](https://github.com/stdlib-js/stdlib/pull/12609) _(by stdlib-bot)_
 -   [`6831b5a`](https://github.com/stdlib-js/stdlib/commit/6831b5a309aad7a6e7f5460fb60a2244d2d6bcf4) - **docs:** update `stats/base/dists/frechet` TypeScript declarations [(#12601)](https://github.com/stdlib-js/stdlib/pull/12601) _(by stdlib-bot)_
 -   [`af06cd9`](https://github.com/stdlib-js/stdlib/commit/af06cd9468ea27ec0cc0c05eff186e5f2ce5373a) - **feat:** update `stats/strided/distances` TypeScript declarations [(#12616)](https://github.com/stdlib-js/stdlib/pull/12616) _(by stdlib-bot)_
