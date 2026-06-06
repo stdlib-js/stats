@@ -25,6 +25,7 @@
 
 <details>
 
+-   [`71ca43c`](https://github.com/stdlib-js/stdlib/commit/71ca43c0a9d13a80668f8102a35ac0c5c47537ee) - **docs:** update `stats/base/dists/rayleigh` TypeScript declarations [(#12609)](https://github.com/stdlib-js/stdlib/pull/12609) _(by stdlib-bot)_
 -   [`6831b5a`](https://github.com/stdlib-js/stdlib/commit/6831b5a309aad7a6e7f5460fb60a2244d2d6bcf4) - **docs:** update `stats/base/dists/frechet` TypeScript declarations [(#12601)](https://github.com/stdlib-js/stdlib/pull/12601) _(by stdlib-bot)_
 -   [`af06cd9`](https://github.com/stdlib-js/stdlib/commit/af06cd9468ea27ec0cc0c05eff186e5f2ce5373a) - **feat:** update `stats/strided/distances` TypeScript declarations [(#12616)](https://github.com/stdlib-js/stdlib/pull/12616) _(by stdlib-bot)_
 -   [`01a5367`](https://github.com/stdlib-js/stdlib/commit/01a53679ade097d41ebc0cc6d34186c15b5a75b9) - **docs:** update `stats/incr` TypeScript declarations [(#12613)](https://github.com/stdlib-js/stdlib/pull/12613) _(by stdlib-bot)_
