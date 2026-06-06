@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f5053fc`](https://github.com/stdlib-js/stdlib/commit/f5053fccda28ecbfe4a848733ab741cf5a088bc8) - update `stats` TypeScript declarations [(#12615)](https://github.com/stdlib-js/stdlib/pull/12615)
 -   [`c5f70fd`](https://github.com/stdlib-js/stdlib/commit/c5f70fd5663439cbdb6a925f33871eb9974a5166) - update `stats/strided` TypeScript declarations [(#12617)](https://github.com/stdlib-js/stdlib/pull/12617)
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`f5053fc`](https://github.com/stdlib-js/stdlib/commit/f5053fccda28ecbfe4a848733ab741cf5a088bc8) - **feat:** update `stats` TypeScript declarations [(#12615)](https://github.com/stdlib-js/stdlib/pull/12615) _(by stdlib-bot)_
 -   [`c5f70fd`](https://github.com/stdlib-js/stdlib/commit/c5f70fd5663439cbdb6a925f33871eb9974a5166) - **feat:** update `stats/strided` TypeScript declarations [(#12617)](https://github.com/stdlib-js/stdlib/pull/12617) _(by stdlib-bot)_
 -   [`9cc0f8a`](https://github.com/stdlib-js/stdlib/commit/9cc0f8ad37849993582227cd466d2ff43a111548) - **docs:** update `stats/base/dists/levy` TypeScript declarations [(#12605)](https://github.com/stdlib-js/stdlib/pull/12605) _(by stdlib-bot)_
 -   [`bfca061`](https://github.com/stdlib-js/stdlib/commit/bfca0616aed6f5970ccd9ae204c2b5519a221fb1) - **docs:** update `stats/base/dists/gumbel` TypeScript declarations [(#12602)](https://github.com/stdlib-js/stdlib/pull/12602) _(by stdlib-bot)_
