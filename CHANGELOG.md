@@ -25,6 +25,7 @@
 
 <details>
 
+-   [`72bcd83`](https://github.com/stdlib-js/stdlib/commit/72bcd83880399c89cd8b88deca1d00b1ae288c2a) - **docs:** update `stats/base/dists/studentized-range` TypeScript declarations [(#12610)](https://github.com/stdlib-js/stdlib/pull/12610) _(by stdlib-bot)_
 -   [`59ab38e`](https://github.com/stdlib-js/stdlib/commit/59ab38ed2a7a6f96f5773e0a4b7a889ddef912bf) - **docs:** update `stats/base/dists/lognormal` TypeScript declarations [(#12607)](https://github.com/stdlib-js/stdlib/pull/12607) _(by stdlib-bot)_
 -   [`1924425`](https://github.com/stdlib-js/stdlib/commit/1924425b157a247c71f03ea9b3ff074a3bdc12f2) - **docs:** update `stats/base/dists/negative-binomial` TypeScript declarations [(#12608)](https://github.com/stdlib-js/stdlib/pull/12608) _(by stdlib-bot)_
 -   [`71ca43c`](https://github.com/stdlib-js/stdlib/commit/71ca43c0a9d13a80668f8102a35ac0c5c47537ee) - **docs:** update `stats/base/dists/rayleigh` TypeScript declarations [(#12609)](https://github.com/stdlib-js/stdlib/pull/12609) _(by stdlib-bot)_
