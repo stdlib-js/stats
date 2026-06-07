@@ -25,6 +25,7 @@
 
 <details>
 
+-   [`acdf74c`](https://github.com/stdlib-js/stdlib/commit/acdf74c933e2adac96f2d81a2e04836ea6a168f9) - **docs:** fix `stats/base/dists/discrete-uniform` JSDoc summaries [(#12669)](https://github.com/stdlib-js/stdlib/pull/12669) _(by Philipp Burckhardt)_
 -   [`096d2fc`](https://github.com/stdlib-js/stdlib/commit/096d2fc19ccc525dbe4806689db87bb105fa7077) - **chore:** add keywords [(#12647)](https://github.com/stdlib-js/stdlib/pull/12647) _(by Philipp Burckhardt)_
 -   [`fffefe0`](https://github.com/stdlib-js/stdlib/commit/fffefe026c538bfec930719a8e6e1fa395ab8482) - **docs:** update `stats/base/dists/t` TypeScript declarations [(#12611)](https://github.com/stdlib-js/stdlib/pull/12611) _(by stdlib-bot)_
 -   [`38c7b12`](https://github.com/stdlib-js/stdlib/commit/38c7b1259c24a6918201d210b99b1639a3d27f95) - **docs:** update `stats/base/dists/binomial` TypeScript declarations [(#12596)](https://github.com/stdlib-js/stdlib/pull/12596) _(by stdlib-bot)_
