@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-06)
+## Unreleased (2026-06-07)
 
 <section class="features">
 
@@ -25,6 +25,8 @@
 
 <details>
 
+-   [`096d2fc`](https://github.com/stdlib-js/stdlib/commit/096d2fc19ccc525dbe4806689db87bb105fa7077) - **chore:** add keywords [(#12647)](https://github.com/stdlib-js/stdlib/pull/12647) _(by Philipp Burckhardt)_
+-   [`fffefe0`](https://github.com/stdlib-js/stdlib/commit/fffefe026c538bfec930719a8e6e1fa395ab8482) - **docs:** update `stats/base/dists/t` TypeScript declarations [(#12611)](https://github.com/stdlib-js/stdlib/pull/12611) _(by stdlib-bot)_
 -   [`38c7b12`](https://github.com/stdlib-js/stdlib/commit/38c7b1259c24a6918201d210b99b1639a3d27f95) - **docs:** update `stats/base/dists/binomial` TypeScript declarations [(#12596)](https://github.com/stdlib-js/stdlib/pull/12596) _(by stdlib-bot)_
 -   [`06cce2c`](https://github.com/stdlib-js/stdlib/commit/06cce2c6cd7e514b993d64dd9614604e885562db) - **docs:** update `stats/base/dists/arcsine` TypeScript declarations [(#12595)](https://github.com/stdlib-js/stdlib/pull/12595) _(by stdlib-bot)_
 -   [`d50cd4e`](https://github.com/stdlib-js/stdlib/commit/d50cd4e8c3f72c95107cb4e67ea873aa254631fd) - **docs:** update `stats/base/dists/chisquare` TypeScript declarations [(#12598)](https://github.com/stdlib-js/stdlib/pull/12598) _(by stdlib-bot)_
