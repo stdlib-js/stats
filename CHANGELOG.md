@@ -25,6 +25,8 @@
 
 <details>
 
+-   [`21d7848`](https://github.com/stdlib-js/stdlib/commit/21d78480cab3cd0e896d4a7a4a6fe6e62c2c7e31) - **docs:** move JS examples before C API documentation [(#12704)](https://github.com/stdlib-js/stdlib/pull/12704) _(by Philipp Burckhardt)_
+-   [`437234c`](https://github.com/stdlib-js/stdlib/commit/437234c10dcf8d6024f59f98f18d5d19ecf49026) - **docs:** fix REPL text notes [(#12682)](https://github.com/stdlib-js/stdlib/pull/12682) _(by Philipp Burckhardt)_
 -   [`8d60f41`](https://github.com/stdlib-js/stdlib/commit/8d60f410502fcc75f7d3dc133a20b9202ce7f324) - **docs:** fix JSDoc descriptions [(#12637)](https://github.com/stdlib-js/stdlib/pull/12637) _(by Philipp Burckhardt)_
 -   [`acdf74c`](https://github.com/stdlib-js/stdlib/commit/acdf74c933e2adac96f2d81a2e04836ea6a168f9) - **docs:** fix `stats/base/dists/discrete-uniform` JSDoc summaries [(#12669)](https://github.com/stdlib-js/stdlib/pull/12669) _(by Philipp Burckhardt)_
 -   [`096d2fc`](https://github.com/stdlib-js/stdlib/commit/096d2fc19ccc525dbe4806689db87bb105fa7077) - **chore:** add keywords [(#12647)](https://github.com/stdlib-js/stdlib/pull/12647) _(by Philipp Burckhardt)_
