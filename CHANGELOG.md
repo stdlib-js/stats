@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-08)
+## Unreleased (2026-06-09)
 
 <section class="features">
 
 ### Features
 
+-   [`692e1d7`](https://github.com/stdlib-js/stdlib/commit/692e1d786aa9f2105ac05fda067c9fe64cb55c61) - add `stats/incr/nanmse` [(#12349)](https://github.com/stdlib-js/stdlib/pull/12349)
 -   [`af06cd9`](https://github.com/stdlib-js/stdlib/commit/af06cd9468ea27ec0cc0c05eff186e5f2ce5373a) - update `stats/strided/distances` TypeScript declarations [(#12616)](https://github.com/stdlib-js/stdlib/pull/12616)
 -   [`5766b42`](https://github.com/stdlib-js/stdlib/commit/5766b42bf2f2c7e14cb247e48c8ad87014557ada) - update `stats/base/ndarray` TypeScript declarations [(#12612)](https://github.com/stdlib-js/stdlib/pull/12612)
 -   [`f5053fc`](https://github.com/stdlib-js/stdlib/commit/f5053fccda28ecbfe4a848733ab741cf5a088bc8) - update `stats` TypeScript declarations [(#12615)](https://github.com/stdlib-js/stdlib/pull/12615)
@@ -19,12 +20,27 @@
 
 <!-- /.features -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#5608](https://github.com/stdlib-js/stdlib/issues/5608)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`692e1d7`](https://github.com/stdlib-js/stdlib/commit/692e1d786aa9f2105ac05fda067c9fe64cb55c61) - **feat:** add `stats/incr/nanmse` [(#12349)](https://github.com/stdlib-js/stdlib/pull/12349) _(by wilmerdooley)_
+-   [`e1dbf10`](https://github.com/stdlib-js/stdlib/commit/e1dbf101e15b1caf71e3dc24884869a23bd5b47e) - **docs:** fix notes concerning edge case behavior [(#12711)](https://github.com/stdlib-js/stdlib/pull/12711) _(by Philipp Burckhardt)_
+-   [`21d7848`](https://github.com/stdlib-js/stdlib/commit/21d78480cab3cd0e896d4a7a4a6fe6e62c2c7e31) - **docs:** move JS examples before C API documentation [(#12704)](https://github.com/stdlib-js/stdlib/pull/12704) _(by Philipp Burckhardt)_
 -   [`437234c`](https://github.com/stdlib-js/stdlib/commit/437234c10dcf8d6024f59f98f18d5d19ecf49026) - **docs:** fix REPL text notes [(#12682)](https://github.com/stdlib-js/stdlib/pull/12682) _(by Philipp Burckhardt)_
 -   [`8d60f41`](https://github.com/stdlib-js/stdlib/commit/8d60f410502fcc75f7d3dc133a20b9202ce7f324) - **docs:** fix JSDoc descriptions [(#12637)](https://github.com/stdlib-js/stdlib/pull/12637) _(by Philipp Burckhardt)_
 -   [`acdf74c`](https://github.com/stdlib-js/stdlib/commit/acdf74c933e2adac96f2d81a2e04836ea6a168f9) - **docs:** fix `stats/base/dists/discrete-uniform` JSDoc summaries [(#12669)](https://github.com/stdlib-js/stdlib/pull/12669) _(by Philipp Burckhardt)_
@@ -65,9 +81,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
+-   wilmerdooley
 
 </section>
 
