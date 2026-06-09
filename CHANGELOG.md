@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`50463ad`](https://github.com/stdlib-js/stdlib/commit/50463ad3cacf75a8ae63efb332d6dd188dc98dd7) - add `stats/incr/nanmsumabs` [(#12353)](https://github.com/stdlib-js/stdlib/pull/12353)
 -   [`d6ca649`](https://github.com/stdlib-js/stdlib/commit/d6ca6490d033f6fee757ebe2517f394d112d4c14) - add `stats/incr/nanrmse` [(#12357)](https://github.com/stdlib-js/stdlib/pull/12357)
 -   [`692e1d7`](https://github.com/stdlib-js/stdlib/commit/692e1d786aa9f2105ac05fda067c9fe64cb55c61) - add `stats/incr/nanmse` [(#12349)](https://github.com/stdlib-js/stdlib/pull/12349)
 -   [`af06cd9`](https://github.com/stdlib-js/stdlib/commit/af06cd9468ea27ec0cc0c05eff186e5f2ce5373a) - update `stats/strided/distances` TypeScript declarations [(#12616)](https://github.com/stdlib-js/stdlib/pull/12616)
@@ -26,9 +25,9 @@
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 2 issues were closed in this release:
 
-[#5608](https://github.com/stdlib-js/stdlib/issues/5608), [#5611](https://github.com/stdlib-js/stdlib/issues/5611), [#5621](https://github.com/stdlib-js/stdlib/issues/5621)
+[#5608](https://github.com/stdlib-js/stdlib/issues/5608), [#5621](https://github.com/stdlib-js/stdlib/issues/5621)
 
 </section>
 
@@ -40,7 +39,6 @@ A total of 3 issues were closed in this release:
 
 <details>
 
--   [`50463ad`](https://github.com/stdlib-js/stdlib/commit/50463ad3cacf75a8ae63efb332d6dd188dc98dd7) - **feat:** add `stats/incr/nanmsumabs` [(#12353)](https://github.com/stdlib-js/stdlib/pull/12353) _(by wilmerdooley)_
 -   [`d6ca649`](https://github.com/stdlib-js/stdlib/commit/d6ca6490d033f6fee757ebe2517f394d112d4c14) - **feat:** add `stats/incr/nanrmse` [(#12357)](https://github.com/stdlib-js/stdlib/pull/12357) _(by wilmerdooley)_
 -   [`692e1d7`](https://github.com/stdlib-js/stdlib/commit/692e1d786aa9f2105ac05fda067c9fe64cb55c61) - **feat:** add `stats/incr/nanmse` [(#12349)](https://github.com/stdlib-js/stdlib/pull/12349) _(by wilmerdooley)_
 -   [`e1dbf10`](https://github.com/stdlib-js/stdlib/commit/e1dbf101e15b1caf71e3dc24884869a23bd5b47e) - **docs:** fix notes concerning edge case behavior [(#12711)](https://github.com/stdlib-js/stdlib/pull/12711) _(by Philipp Burckhardt)_
