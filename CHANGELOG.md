@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-09)
+## Unreleased (2026-06-10)
 
 <section class="features">
 
@@ -50,6 +50,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`56f1b9b`](https://github.com/stdlib-js/stdlib/commit/56f1b9b0b7979f0ed7c02953c6aad836246017d7) - **docs:** update parameter type and add keyword [(#12729)](https://github.com/stdlib-js/stdlib/pull/12729) _(by Philipp Burckhardt)_
 -   [`2b9b521`](https://github.com/stdlib-js/stdlib/commit/2b9b52153789b56fedef02c1f9aa8158929b2730) - **fix:** pass `sigma` to `skewness` in `stats/base/dists/rayleigh/ctor` [(#12721)](https://github.com/stdlib-js/stdlib/pull/12721) _(by Philipp Burckhardt)_
 -   [`50463ad`](https://github.com/stdlib-js/stdlib/commit/50463ad3cacf75a8ae63efb332d6dd188dc98dd7) - **feat:** add `stats/incr/nanmsumabs` [(#12353)](https://github.com/stdlib-js/stdlib/pull/12353) _(by wilmerdooley)_
 -   [`d6ca649`](https://github.com/stdlib-js/stdlib/commit/d6ca6490d033f6fee757ebe2517f394d112d4c14) - **feat:** add `stats/incr/nanrmse` [(#12357)](https://github.com/stdlib-js/stdlib/pull/12357) _(by wilmerdooley)_
