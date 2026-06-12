@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-11)
+## Unreleased (2026-06-12)
 
 <section class="features">
 
@@ -50,6 +50,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`77195c3`](https://github.com/stdlib-js/stdlib/commit/77195c343d9d48e264a58f8ec213d0df53ca7317) - **docs:** update namespace table of contents [(#12835)](https://github.com/stdlib-js/stdlib/pull/12835) _(by stdlib-bot)_
 -   [`cae5335`](https://github.com/stdlib-js/stdlib/commit/cae53357950b4c389b0020878c268995cd79d222) - **docs:** propagate develop fixes to sibling packages [(#12736)](https://github.com/stdlib-js/stdlib/pull/12736) _(by Philipp Burckhardt)_
 -   [`56f1b9b`](https://github.com/stdlib-js/stdlib/commit/56f1b9b0b7979f0ed7c02953c6aad836246017d7) - **docs:** update parameter type and add keyword [(#12729)](https://github.com/stdlib-js/stdlib/pull/12729) _(by Philipp Burckhardt)_
 -   [`2b9b521`](https://github.com/stdlib-js/stdlib/commit/2b9b52153789b56fedef02c1f9aa8158929b2730) - **fix:** pass `sigma` to `skewness` in `stats/base/dists/rayleigh/ctor` [(#12721)](https://github.com/stdlib-js/stdlib/pull/12721) _(by Philipp Burckhardt)_
