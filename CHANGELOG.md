@@ -50,6 +50,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`0cd5a91`](https://github.com/stdlib-js/stdlib/commit/0cd5a91823f96d5f6599731354414806b542ab01) - **chore:** update keywords [(#12830)](https://github.com/stdlib-js/stdlib/pull/12830) _(by Philipp Burckhardt)_
 -   [`9a18379`](https://github.com/stdlib-js/stdlib/commit/9a1837946aaf63554733e77e96fa07a0fe6bfba7) - **docs:** describe `mu` as location parameter in `stats/base/dists/logistic/mgf` [(#12874)](https://github.com/stdlib-js/stdlib/pull/12874) _(by Philipp Burckhardt)_
 -   [`cbe79e4`](https://github.com/stdlib-js/stdlib/commit/cbe79e479b16b66d34f8e7b0e513797bb00e06ed) - **refactor:** rename internal variables [(#12894)](https://github.com/stdlib-js/stdlib/pull/12894) _(by Philipp Burckhardt)_
 -   [`77195c3`](https://github.com/stdlib-js/stdlib/commit/77195c343d9d48e264a58f8ec213d0df53ca7317) - **docs:** update namespace table of contents [(#12835)](https://github.com/stdlib-js/stdlib/pull/12835) _(by stdlib-bot)_
