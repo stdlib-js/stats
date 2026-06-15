@@ -50,6 +50,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`b42091b`](https://github.com/stdlib-js/stdlib/commit/b42091b5ada8ff53c4b448623145c43ad9d097aa) - **docs:** align JSDoc and C comments [(#12911)](https://github.com/stdlib-js/stdlib/pull/12911) _(by Philipp Burckhardt, Athan Reines)_
 -   [`5eb4a95`](https://github.com/stdlib-js/stdlib/commit/5eb4a95e4377c83f2acc5108ffc155a92cb0071f) - **chore:** update keywords [(#12816)](https://github.com/stdlib-js/stdlib/pull/12816) _(by Philipp Burckhardt)_
 -   [`1bf66f9`](https://github.com/stdlib-js/stdlib/commit/1bf66f9e8cc014aee3e336f525446f3d01118720) - **chore:** fix example and remove blank line [(#12813)](https://github.com/stdlib-js/stdlib/pull/12813) _(by Philipp Burckhardt)_
 -   [`0cd5a91`](https://github.com/stdlib-js/stdlib/commit/0cd5a91823f96d5f6599731354414806b542ab01) - **chore:** update keywords [(#12830)](https://github.com/stdlib-js/stdlib/pull/12830) _(by Philipp Burckhardt)_
@@ -104,8 +105,9 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 -   wilmerdooley
 
