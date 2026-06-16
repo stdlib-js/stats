@@ -69,6 +69,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`91c5dd1`](https://github.com/stdlib-js/stdlib/commit/91c5dd10beac7d3e2763585abd74c5d29ff429f8) - **style:** add missing spaces [(#12920)](https://github.com/stdlib-js/stdlib/pull/12920) _(by Philipp Burckhardt)_
 -   [`c622071`](https://github.com/stdlib-js/stdlib/commit/c6220711cca10efa75dad796fcd27921c2d38ca7) - **docs:** modernize `stats/base/dists/erlang/mgf` examples [(#12924)](https://github.com/stdlib-js/stdlib/pull/12924) _(by Philipp Burckhardt)_
 -   [`d657500`](https://github.com/stdlib-js/stdlib/commit/d6575009529673f2cd56ae36893388ce3013f305) - **feat:** add C implementation for `stats/base/dists/erlang/logpdf` [(#10719)](https://github.com/stdlib-js/stdlib/pull/10719) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
 -   [`8bdfa53`](https://github.com/stdlib-js/stdlib/commit/8bdfa53a27a3a844cc5ae836f93a94683bcb8637) - **remove:** remove `stats/strided/dmaxabssorted` _(by Neeraj Pathak)_
