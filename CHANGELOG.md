@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d657500`](https://github.com/stdlib-js/stdlib/commit/d6575009529673f2cd56ae36893388ce3013f305) - add C implementation for `stats/base/dists/erlang/logpdf` [(#10719)](https://github.com/stdlib-js/stdlib/pull/10719)
 -   [`af7bd92`](https://github.com/stdlib-js/stdlib/commit/af7bd92627fce5c5d9be7e8878173a257e80427e) - add `stats/strided/dmaxabs-sorted`
 -   [`50463ad`](https://github.com/stdlib-js/stdlib/commit/50463ad3cacf75a8ae63efb332d6dd188dc98dd7) - add `stats/incr/nanmsumabs` [(#12353)](https://github.com/stdlib-js/stdlib/pull/12353)
 -   [`d6ca649`](https://github.com/stdlib-js/stdlib/commit/d6ca6490d033f6fee757ebe2517f394d112d4c14) - add `stats/incr/nanrmse` [(#12357)](https://github.com/stdlib-js/stdlib/pull/12357)
@@ -54,9 +55,9 @@
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#5608](https://github.com/stdlib-js/stdlib/issues/5608), [#5611](https://github.com/stdlib-js/stdlib/issues/5611), [#5621](https://github.com/stdlib-js/stdlib/issues/5621)
+[#3571](https://github.com/stdlib-js/stdlib/issues/3571), [#5608](https://github.com/stdlib-js/stdlib/issues/5608), [#5611](https://github.com/stdlib-js/stdlib/issues/5611), [#5621](https://github.com/stdlib-js/stdlib/issues/5621)
 
 </section>
 
@@ -68,6 +69,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`d657500`](https://github.com/stdlib-js/stdlib/commit/d6575009529673f2cd56ae36893388ce3013f305) - **feat:** add C implementation for `stats/base/dists/erlang/logpdf` [(#10719)](https://github.com/stdlib-js/stdlib/pull/10719) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
 -   [`8bdfa53`](https://github.com/stdlib-js/stdlib/commit/8bdfa53a27a3a844cc5ae836f93a94683bcb8637) - **remove:** remove `stats/strided/dmaxabssorted` _(by Neeraj Pathak)_
 -   [`aae2976`](https://github.com/stdlib-js/stdlib/commit/aae2976d68e8b9177bf4f3c8123b0576c583ee8e) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`e2ac318`](https://github.com/stdlib-js/stdlib/commit/e2ac31806d9247258695eb6d747625565eeb8d9c) - **refactor:** rename `dmaxabssorted` to `dmaxabsSorted` _(by Neeraj Pathak)_
@@ -127,9 +129,10 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Kamal Singh Rautela
 -   Neeraj Pathak
 -   Philipp Burckhardt
 -   wilmerdooley
