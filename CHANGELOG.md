@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-15)
+## Unreleased (2026-06-16)
 
 <section class="features">
 
 ### Features
 
+-   [`af7bd92`](https://github.com/stdlib-js/stdlib/commit/af7bd92627fce5c5d9be7e8878173a257e80427e) - add `stats/strided/dmaxabs-sorted`
 -   [`50463ad`](https://github.com/stdlib-js/stdlib/commit/50463ad3cacf75a8ae63efb332d6dd188dc98dd7) - add `stats/incr/nanmsumabs` [(#12353)](https://github.com/stdlib-js/stdlib/pull/12353)
 -   [`d6ca649`](https://github.com/stdlib-js/stdlib/commit/d6ca6490d033f6fee757ebe2517f394d112d4c14) - add `stats/incr/nanrmse` [(#12357)](https://github.com/stdlib-js/stdlib/pull/12357)
 -   [`692e1d7`](https://github.com/stdlib-js/stdlib/commit/692e1d786aa9f2105ac05fda067c9fe64cb55c61) - add `stats/incr/nanmse` [(#12349)](https://github.com/stdlib-js/stdlib/pull/12349)
@@ -32,6 +33,23 @@
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`8bdfa53`](https://github.com/stdlib-js/stdlib/commit/8bdfa53a27a3a844cc5ae836f93a94683bcb8637): remove `stats/strided/dmaxabssorted`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats/strided/dmaxabs-sorted` which provides the same API and implementation.
+
+-   [`e2ac318`](https://github.com/stdlib-js/stdlib/commit/e2ac31806d9247258695eb6d747625565eeb8d9c): rename `dmaxabssorted` to `dmaxabsSorted`
+
+    -   To migrate, users should update to the new symbol name.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="issues">
 
 ### Closed Issues
@@ -50,6 +68,10 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`8bdfa53`](https://github.com/stdlib-js/stdlib/commit/8bdfa53a27a3a844cc5ae836f93a94683bcb8637) - **remove:** remove `stats/strided/dmaxabssorted` _(by Neeraj Pathak)_
+-   [`aae2976`](https://github.com/stdlib-js/stdlib/commit/aae2976d68e8b9177bf4f3c8123b0576c583ee8e) - **refactor:** update paths _(by Neeraj Pathak)_
+-   [`e2ac318`](https://github.com/stdlib-js/stdlib/commit/e2ac31806d9247258695eb6d747625565eeb8d9c) - **refactor:** rename `dmaxabssorted` to `dmaxabsSorted` _(by Neeraj Pathak)_
+-   [`af7bd92`](https://github.com/stdlib-js/stdlib/commit/af7bd92627fce5c5d9be7e8878173a257e80427e) - **feat:** add `stats/strided/dmaxabs-sorted` _(by Neeraj Pathak)_
 -   [`b42091b`](https://github.com/stdlib-js/stdlib/commit/b42091b5ada8ff53c4b448623145c43ad9d097aa) - **docs:** align JSDoc and C comments [(#12911)](https://github.com/stdlib-js/stdlib/pull/12911) _(by Philipp Burckhardt, Athan Reines)_
 -   [`5eb4a95`](https://github.com/stdlib-js/stdlib/commit/5eb4a95e4377c83f2acc5108ffc155a92cb0071f) - **chore:** update keywords [(#12816)](https://github.com/stdlib-js/stdlib/pull/12816) _(by Philipp Burckhardt)_
 -   [`1bf66f9`](https://github.com/stdlib-js/stdlib/commit/1bf66f9e8cc014aee3e336f525446f3d01118720) - **chore:** fix example and remove blank line [(#12813)](https://github.com/stdlib-js/stdlib/pull/12813) _(by Philipp Burckhardt)_
@@ -105,9 +127,10 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Neeraj Pathak
 -   Philipp Burckhardt
 -   wilmerdooley
 

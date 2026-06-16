@@ -30,7 +30,7 @@ import dcuminabs = require( './../../../strided/dcuminabs' );
 import distances = require( './../../../strided/distances' );
 import dmax = require( './../../../strided/dmax' );
 import dmaxabs = require( './../../../strided/dmaxabs' );
-import dmaxabssorted = require( './../../../strided/dmaxabssorted' );
+import dmaxabsSorted = require( './../../../strided/dmaxabs-sorted' );
 import dmaxsorted = require( './../../../strided/dmaxsorted' );
 import dmean = require( './../../../strided/dmean' );
 import dmeankbn = require( './../../../strided/dmeankbn' );
@@ -594,7 +594,7 @@ interface Namespace {
 	*
 	* var x = new Float64Array( [ -1.0, -2.0, -3.0 ] );
 	*
-	* var v = ns.dmaxabssorted( x.length, x, 1 );
+	* var v = ns.dmaxabsSorted( x.length, x, 1 );
 	* // returns 3.0
 	*
 	* @example
@@ -602,10 +602,10 @@ interface Namespace {
 	*
 	* var x = new Float64Array( [ -1.0, -2.0, -3.0 ] );
 	*
-	* var v = ns.dmaxabssorted.ndarray( x.length, x, 1, 0 );
+	* var v = ns.dmaxabsSorted.ndarray( x.length, x, 1, 0 );
 	* // returns 3.0
 	*/
-	dmaxabssorted: typeof dmaxabssorted;
+	dmaxabsSorted: typeof dmaxabsSorted;
 
 	/**
 	* Computes the maximum value of a sorted double-precision floating-point strided array.

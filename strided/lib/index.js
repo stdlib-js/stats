@@ -127,13 +127,13 @@ setReadOnly( ns, 'dmax', require( './../../strided/dmax' ) );
 setReadOnly( ns, 'dmaxabs', require( './../../strided/dmaxabs' ) );
 
 /**
-* @name dmaxabssorted
+* @name dmaxabsSorted
 * @memberof ns
 * @readonly
 * @type {Function}
-* @see {@link module:@stdlib/stats/strided/dmaxabssorted}
+* @see {@link module:@stdlib/stats/strided/dmaxabs-sorted}
 */
-setReadOnly( ns, 'dmaxabssorted', require( './../../strided/dmaxabssorted' ) );
+setReadOnly( ns, 'dmaxabsSorted', require( './../../strided/dmaxabs-sorted' ) );
 
 /**
 * @name dmaxsorted

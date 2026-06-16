@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# smaxabssorted
+# dmaxabsSorted
 
-> Calculate the maximum absolute value of a sorted single-precision floating-point strided array.
+> Calculate the maximum absolute value of a sorted double-precision floating-point strided array.
 
 <section class="intro">
 
@@ -33,39 +33,39 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var smaxabssorted = require( '@stdlib/stats/strided/smaxabssorted' );
+var dmaxabsSorted = require( '@stdlib/stats/strided/dmaxabs-sorted' );
 ```
 
-#### smaxabssorted( N, x, strideX )
+#### dmaxabsSorted( N, x, strideX )
 
-Computes the maximum absolute value of a sorted single-precision floating-point strided array `x`.
+Computes the maximum absolute value of a sorted double-precision floating-point strided array `x`.
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
+var Float64Array = require( '@stdlib/array/float64' );
 
-var x = new Float32Array( [ -1.0, -2.0, -3.0 ] );
-var v = smaxabssorted( x.length, x, 1 );
+var x = new Float64Array( [ -1.0, -2.0, -3.0 ] );
+var v = dmaxabsSorted( x.length, x, 1 );
 // returns 3.0
 
-x = new Float32Array( [ -3.0, -2.0, -1.0 ] );
-v = smaxabssorted( x.length, x, 1 );
+x = new Float64Array( [ -3.0, -2.0, -1.0 ] );
+v = dmaxabsSorted( x.length, x, 1 );
 // returns 3.0
 ```
 
 The function has the following parameters:
 
 -   **N**: number of indexed elements.
--   **x**: sorted input [`Float32Array`][@stdlib/array/float32].
--   **strideX**: index increment for `x`.
+-   **x**: sorted input [`Float64Array`][@stdlib/array/float64].
+-   **strideX**: stride length for `x`.
 
 The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to compute the maximum absolute value of every other element in `x`,
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
+var Float64Array = require( '@stdlib/array/float64' );
 
-var x = new Float32Array( [ 1.0, 2.0, 2.0, -7.0, 3.0, 3.0, 4.0, 2.0 ] );
+var x = new Float64Array( [ 1.0, 2.0, 2.0, -7.0, 3.0, 3.0, 4.0, 2.0 ] );
 
-var v = smaxabssorted( 4, x, 2 );
+var v = dmaxabsSorted( 4, x, 2 );
 // returns 4.0
 ```
 
@@ -74,24 +74,24 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 <!-- eslint-disable stdlib/capitalized-comments -->
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
+var Float64Array = require( '@stdlib/array/float64' );
 
-var x0 = new Float32Array( [ 2.0, 1.0, 2.0, 2.0, -2.0, 2.0, 3.0, 4.0 ] );
-var x1 = new Float32Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+var x0 = new Float64Array( [ 2.0, 1.0, 2.0, 2.0, -2.0, 2.0, 3.0, 4.0 ] );
+var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var v = smaxabssorted( 4, x1, 2 );
+var v = dmaxabsSorted( 4, x1, 2 );
 // returns 4.0
 ```
 
-#### smaxabssorted.ndarray( N, x, strideX, offsetX )
+#### dmaxabsSorted.ndarray( N, x, strideX, offsetX )
 
-Computes the maximum absolute value of a sorted single-precision floating-point strided array using alternative indexing semantics.
+Computes the maximum absolute value of a sorted double-precision floating-point strided array using alternative indexing semantics.
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
+var Float64Array = require( '@stdlib/array/float64' );
 
-var x = new Float32Array( [ -1.0, -2.0, -3.0 ] );
-var v = smaxabssorted.ndarray( x.length, x, 1, 0 );
+var x = new Float64Array( [ -1.0, -2.0, -3.0 ] );
+var v = dmaxabsSorted.ndarray( x.length, x, 1, 0 );
 // returns 3.0
 ```
 
@@ -102,11 +102,11 @@ The function has the following additional parameters:
 While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameter supports indexing semantics based on a starting index. For example, to calculate the maximum absolute value for every other element in `x` starting from the second element
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
+var Float64Array = require( '@stdlib/array/float64' );
 
-var x = new Float32Array( [ 2.0, 1.0, 2.0, 2.0, -2.0, 2.0, 3.0, 4.0 ] );
+var x = new Float64Array( [ 2.0, 1.0, 2.0, 2.0, -2.0, 2.0, 3.0, 4.0 ] );
 
-var v = smaxabssorted.ndarray( 4, x, 2, 1 );
+var v = dmaxabsSorted.ndarray( 4, x, 2, 1 );
 // returns 4.0
 ```
 
@@ -133,15 +133,15 @@ var v = smaxabssorted.ndarray( 4, x, 2, 1 );
 
 ```javascript
 var linspace = require( '@stdlib/array/linspace' );
-var smaxabssorted = require( '@stdlib/stats/strided/smaxabssorted' );
+var dmaxabsSorted = require( '@stdlib/stats/strided/dmaxabs-sorted' );
 
 var options = {
-    'dtype': 'float32'
+    'dtype': 'float64'
 };
 var x = linspace( -5.0, 5.0, 10, options );
 console.log( x );
 
-var v = smaxabssorted( x.length, x, 1 );
+var v = dmaxabsSorted( x.length, x, 1 );
 console.log( v );
 ```
 
@@ -172,50 +172,50 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/smaxabssorted.h"
+#include "stdlib/stats/strided/dmaxabs_sorted.h"
 ```
 
-#### stdlib_strided_smaxabssorted( N, \*X, strideX )
+#### stdlib_strided_dmaxabs_sorted( N, \*X, strideX )
 
-Computes the maximum absolute value of a sorted single-precision floating-point strided array.
+Computes the maximum absolute value of a sorted double-precision floating-point strided array.
 
 ```c
-const float x[] = { -1.0f, -2.0f, -3.0f, -4.0f, -5.0f, -6.0f, -7.0f, -8.0f };
+const double x[] = { -1.0, -2.0, -3.0, -4.0, -5.0, -6.0, -7.0, -8.0 };
 
-float v = stdlib_strided_smaxabssorted( 4, x, 2 );
-// returns 7.0f
+double v = stdlib_strided_dmaxabs_sorted( 4, x, 2 );
+// returns 7.0
 ```
 
 The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
--   **X**: `[in] float*` input array.
+-   **X**: `[in] double*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 
 ```c
-float stdlib_strided_smaxabssorted( const CBLAS_INT N, const float *X, const CBLAS_INT strideX );
+double stdlib_strided_dmaxabs_sorted( const CBLAS_INT N, const double *X, const CBLAS_INT strideX );
 ```
 
-#### stdlib_strided_smaxabssorted_ndarray( N, \*X, strideX, offsetX )
+#### stdlib_strided_dmaxabs_sorted_ndarray( N, \*X, strideX, offsetX )
 
-Computes the maximum absolute value of a sorted single-precision floating-point strided array using alternative indexing semantics.
+Computes the maximum absolute value of a sorted double-precision floating-point strided array using alternative indexing semantics.
 
 ```c
-const float x[] = { -1.0f, -2.0f, -3.0f, -4.0f, -5.0f, -6.0f, -7.0f, -8.0f };
+const double x[] = { -1.0, -2.0, -3.0, -4.0, -5.0, -6.0, -7.0, -8.0 };
 
-float v = stdlib_strided_smaxabssorted_ndarray( 4, x, 2, 0 );
-// returns 7.0f
+double v = stdlib_strided_dmaxabs_sorted_ndarray( 4, x, 2, 0 );
+// returns 7.0
 ```
 
 The function accepts the following arguments:
 
 -   **N**: `[in] CBLAS_INT` number of indexed elements.
--   **X**: `[in] float*` input array.
+-   **X**: `[in] double*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 -   **offsetX**: `[in] CBLAS_INT` starting index for `X`.
 
 ```c
-float stdlib_strided_smaxabssorted_ndarray( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
+double stdlib_strided_dmaxabs_sorted_ndarray( const CBLAS_INT N, const double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX );
 ```
 
 </section>
@@ -237,12 +237,12 @@ float stdlib_strided_smaxabssorted_ndarray( const CBLAS_INT N, const float *X, c
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/smaxabssorted.h"
+#include "stdlib/stats/strided/dmaxabs_sorted.h"
 #include <stdio.h>
 
 int main( void ) {
     // Create a strided array:
-    const float x[] = { -1.0f, -2.0f, -3.0f, -4.0f, -5.0f, -6.0f, -7.0f, -8.0f };
+    const double x[] = { -1.0, -2.0, -3.0, -4.0, -5.0, -6.0, -7.0, -8.0 };
 
     // Specify the number of elements:
     const int N = 4;
@@ -251,10 +251,10 @@ int main( void ) {
     const int strideX = 2;
 
     // Compute the maximum absolute value:
-    float v = stdlib_strided_smaxabssorted( N, x, strideX );
+    double v = stdlib_strided_dmaxabs_sorted( N, x, strideX );
 
     // Print the result:
-    printf( "maxabs: %f\n", v );
+    printf( "maxabs: %lf\n", v );
 }
 ```
 
@@ -274,9 +274,9 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/strided/dmaxabs-sorted`][@stdlib/stats/strided/dmaxabs-sorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a sorted double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/strided/smaxabs`][@stdlib/stats/strided/smaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a single-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats/strided/smaxsorted`][@stdlib/stats/strided/smaxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dmaxabs`][@stdlib/stats/strided/dmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dmaxsorted`][@stdlib/stats/strided/dmaxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/smaxabssorted`][@stdlib/stats/strided/smaxabssorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a sorted single-precision floating-point strided array.</span>
 
 </section>
 
@@ -286,17 +286,17 @@ int main( void ) {
 
 <section class="links">
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/strided/dmaxabs-sorted]: https://github.com/stdlib-js/stats/tree/main/strided/dmaxabs-sorted
+[@stdlib/stats/strided/dmaxabs]: https://github.com/stdlib-js/stats/tree/main/strided/dmaxabs
 
-[@stdlib/stats/strided/smaxabs]: https://github.com/stdlib-js/stats/tree/main/strided/smaxabs
+[@stdlib/stats/strided/dmaxsorted]: https://github.com/stdlib-js/stats/tree/main/strided/dmaxsorted
 
-[@stdlib/stats/strided/smaxsorted]: https://github.com/stdlib-js/stats/tree/main/strided/smaxsorted
+[@stdlib/stats/strided/smaxabssorted]: https://github.com/stdlib-js/stats/tree/main/strided/smaxabssorted
 
 <!-- </related-links> -->
 
