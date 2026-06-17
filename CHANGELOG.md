@@ -70,6 +70,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`d380d8c`](https://github.com/stdlib-js/stdlib/commit/d380d8c633b019d4bdf2f7255cec5b1e14303acc) - **docs:** fix example placement _(by Athan Reines)_
 -   [`884245d`](https://github.com/stdlib-js/stdlib/commit/884245d7dd6273d24c89f8f294d6796d65c328c4) - **docs:** update namespace table of contents [(#12931)](https://github.com/stdlib-js/stdlib/pull/12931) _(by stdlib-bot)_
 -   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
 -   [`60a4b85`](https://github.com/stdlib-js/stdlib/commit/60a4b8520b6f93a86c9f949a93c150bcd698d62d) - **refactor:** rename internal variables [(#12925)](https://github.com/stdlib-js/stdlib/pull/12925) _(by Philipp Burckhardt)_
