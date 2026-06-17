@@ -70,6 +70,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`60a4b85`](https://github.com/stdlib-js/stdlib/commit/60a4b8520b6f93a86c9f949a93c150bcd698d62d) - **refactor:** rename internal variables [(#12925)](https://github.com/stdlib-js/stdlib/pull/12925) _(by Philipp Burckhardt)_
 -   [`d8fdfb7`](https://github.com/stdlib-js/stdlib/commit/d8fdfb7f6a2db0cce8664d288887789b8f0987b8) - **fix:** improve type specificity for JSON serialization [(#12504)](https://github.com/stdlib-js/stdlib/pull/12504) _(by Philipp Burckhardt)_
 -   [`91c5dd1`](https://github.com/stdlib-js/stdlib/commit/91c5dd10beac7d3e2763585abd74c5d29ff429f8) - **style:** add missing spaces [(#12920)](https://github.com/stdlib-js/stdlib/pull/12920) _(by Philipp Burckhardt)_
 -   [`c622071`](https://github.com/stdlib-js/stdlib/commit/c6220711cca10efa75dad796fcd27921c2d38ca7) - **docs:** modernize `stats/base/dists/erlang/mgf` examples [(#12924)](https://github.com/stdlib-js/stdlib/pull/12924) _(by Philipp Burckhardt)_
