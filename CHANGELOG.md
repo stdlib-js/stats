@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-16)
+## Unreleased (2026-06-17)
 
 <section class="features">
 
@@ -28,6 +28,7 @@
 
 ### Bug Fixes
 
+-   [`d8fdfb7`](https://github.com/stdlib-js/stdlib/commit/d8fdfb7f6a2db0cce8664d288887789b8f0987b8) - improve type specificity for JSON serialization [(#12504)](https://github.com/stdlib-js/stdlib/pull/12504)
 -   [`2b9b521`](https://github.com/stdlib-js/stdlib/commit/2b9b52153789b56fedef02c1f9aa8158929b2730) - pass `sigma` to `skewness` in `stats/base/dists/rayleigh/ctor` [(#12721)](https://github.com/stdlib-js/stdlib/pull/12721)
 
 </section>
@@ -69,6 +70,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`d8fdfb7`](https://github.com/stdlib-js/stdlib/commit/d8fdfb7f6a2db0cce8664d288887789b8f0987b8) - **fix:** improve type specificity for JSON serialization [(#12504)](https://github.com/stdlib-js/stdlib/pull/12504) _(by Philipp Burckhardt)_
 -   [`91c5dd1`](https://github.com/stdlib-js/stdlib/commit/91c5dd10beac7d3e2763585abd74c5d29ff429f8) - **style:** add missing spaces [(#12920)](https://github.com/stdlib-js/stdlib/pull/12920) _(by Philipp Burckhardt)_
 -   [`c622071`](https://github.com/stdlib-js/stdlib/commit/c6220711cca10efa75dad796fcd27921c2d38ca7) - **docs:** modernize `stats/base/dists/erlang/mgf` examples [(#12924)](https://github.com/stdlib-js/stdlib/pull/12924) _(by Philipp Burckhardt)_
 -   [`d657500`](https://github.com/stdlib-js/stdlib/commit/d6575009529673f2cd56ae36893388ce3013f305) - **feat:** add C implementation for `stats/base/dists/erlang/logpdf` [(#10719)](https://github.com/stdlib-js/stdlib/pull/10719) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
