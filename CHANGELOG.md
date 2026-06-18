@@ -70,6 +70,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`900a4e2`](https://github.com/stdlib-js/stdlib/commit/900a4e20acd9a33d8120673e2c607c280168955d) - **refactor:** rename internal variables [(#12955)](https://github.com/stdlib-js/stdlib/pull/12955) _(by Philipp Burckhardt)_
 -   [`13be950`](https://github.com/stdlib-js/stdlib/commit/13be9508ead024cad29c0426a02339b942fd92f5) - **chore:** propagate `Uint64.from` and decimal-literal fixes to siblings [(#12954)](https://github.com/stdlib-js/stdlib/pull/12954) _(by Philipp Burckhardt)_
 -   [`b8c28ee`](https://github.com/stdlib-js/stdlib/commit/b8c28ee715091e82fec21000a95fdb33fabed2fc) - **style:** add missing decimal [(#12937)](https://github.com/stdlib-js/stdlib/pull/12937) _(by Philipp Burckhardt)_
 -   [`8e421b2`](https://github.com/stdlib-js/stdlib/commit/8e421b2b823a08ff0e325792d3714d37fdf5a5da) - **style:** add missing decimal _(by Athan Reines)_
