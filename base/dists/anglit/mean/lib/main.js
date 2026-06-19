@@ -26,7 +26,7 @@ var isnan = require( '@stdlib/math/base/assert/is-nan' );
 // MAIN //
 
 /**
-* Returns the expected value of an Anglit distribution with location parameter `mu` and scale parameter `sigma`.
+* Returns the expected value of an anglit distribution with location parameter `mu` and scale parameter `sigma`.
 *
 * @param {number} mu - location parameter
 * @param {PositiveNumber} sigma - scale parameter

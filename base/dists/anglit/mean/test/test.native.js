@@ -24,7 +24,6 @@ var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var isAlmostSameValue = require( '@stdlib/assert/is-almost-same-value' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
 
@@ -85,7 +84,7 @@ tape( 'if provided `sigma <= 0.0`, the function returns `NaN`', opts, function t
 	t.end();
 });
 
-tape( 'the function returns the expected value of an Anglit distribution', opts, function test( t ) {
+tape( 'the function returns the expected value of an anglit distribution', opts, function test( t ) {
 	var expected;
 	var sigma;
 	var mu;
@@ -97,11 +96,7 @@ tape( 'the function returns the expected value of an Anglit distribution', opts,
 	sigma = data.sigma;
 	for ( i = 0; i < mu.length; i++ ) {
 		y = mean( mu[i], sigma[i] );
-		if ( y === expected[i] ) {
-			t.strictEqual( y, expected[i], 'mu:'+mu[i]+', sigma: '+sigma[i]+', y: '+y+', expected: '+expected[i] );
-		} else {
-			t.strictEqual( isAlmostSameValue( y, expected[i], 1 ), true, 'within tolerance. mu: '+mu[i]+'. sigma: '+sigma[i]+'. y: '+y+'. E: '+expected[ i ]+'.' );
-		}
+		t.strictEqual( y, expected[i], 'returns expected value' );
 	}
 	t.end();
 });
@@ -118,11 +113,7 @@ tape( 'the function returns the expected value for small `mu` values', opts, fun
 	sigma = smallMu.sigma;
 	for ( i = 0; i < mu.length; i++ ) {
 		y = mean( mu[i], sigma[i] );
-		if ( y === expected[i] ) {
-			t.strictEqual( y, expected[i], 'mu:'+mu[i]+', sigma: '+sigma[i]+', y: '+y+', expected: '+expected[i] );
-		} else {
-			t.strictEqual( isAlmostSameValue( y, expected[i], 1 ), true, 'within tolerance. mu: '+mu[i]+'. sigma: '+sigma[i]+'. y: '+y+'. E: '+expected[ i ]+'.' );
-		}
+		t.strictEqual( y, expected[i], 'returns expected value' );
 	}
 	t.end();
 });
@@ -139,11 +130,7 @@ tape( 'the function returns the expected value for large `mu` values', opts, fun
 	sigma = largeMu.sigma;
 	for ( i = 0; i < mu.length; i++ ) {
 		y = mean( mu[i], sigma[i] );
-		if ( y === expected[i] ) {
-			t.strictEqual( y, expected[i], 'mu:'+mu[i]+', sigma: '+sigma[i]+', y: '+y+', expected: '+expected[i] );
-		} else {
-			t.strictEqual( isAlmostSameValue( y, expected[i], 1 ), true, 'within tolerance. mu: '+mu[i]+'. sigma: '+sigma[i]+'. y: '+y+'. E: '+expected[ i ]+'.' );
-		}
+		t.strictEqual( y, expected[i], 'returns expected value' );
 	}
 	t.end();
 });
@@ -160,11 +147,7 @@ tape( 'the function returns the expected value for small `sigma` values', opts, 
 	sigma = smallSigma.sigma;
 	for ( i = 0; i < mu.length; i++ ) {
 		y = mean( mu[i], sigma[i] );
-		if ( y === expected[i] ) {
-			t.strictEqual( y, expected[i], 'mu:'+mu[i]+', sigma: '+sigma[i]+', y: '+y+', expected: '+expected[i] );
-		} else {
-			t.strictEqual( isAlmostSameValue( y, expected[i], 1 ), true, 'within tolerance. mu: '+mu[i]+'. sigma: '+sigma[i]+'. y: '+y+'. E: '+expected[ i ]+'.' );
-		}
+		t.strictEqual( y, expected[i], 'returns expected value' );
 	}
 	t.end();
 });
@@ -181,11 +164,7 @@ tape( 'the function returns the expected value for large `sigma` values', opts, 
 	sigma = largeSigma.sigma;
 	for ( i = 0; i < mu.length; i++ ) {
 		y = mean( mu[i], sigma[i] );
-		if ( y === expected[i] ) {
-			t.strictEqual( y, expected[i], 'mu:'+mu[i]+', sigma: '+sigma[i]+', y: '+y+', expected: '+expected[i] );
-		} else {
-			t.strictEqual( isAlmostSameValue( y, expected[i], 1 ), true, 'within tolerance. mu: '+mu[i]+'. sigma: '+sigma[i]+'. y: '+y+'. E: '+expected[ i ]+'.' );
-		}
+		t.strictEqual( y, expected[i], 'returns expected value' );
 	}
 	t.end();
 });

@@ -1,7 +1,7 @@
 
 {{alias}}( μ, σ )
-    Returns the expected value of an Anglit distribution with location
-    parameter `μ` and scale parameter `σ`.
+    Returns the expected value of an anglit distribution with location parameter
+    `μ` and scale parameter `σ`.
 
     If provided `NaN` as any argument, the function returns `NaN`.
 

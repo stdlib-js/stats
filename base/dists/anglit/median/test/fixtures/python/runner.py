@@ -48,6 +48,7 @@ def gen(loc, sigma, name):
     ```
     """
     z = np.array(anglit.median(loc=loc, scale=sigma))
+
     # Canonicalize values to the analytic median (loc) when numerically close.
     z = np.where(np.isclose(z, loc), loc, z)
 
@@ -72,8 +73,8 @@ def gen(loc, sigma, name):
 
 def main():
     """Generate fixture data."""
-    loc = np.random.rand(100) * 10.0 - 5.0
-    sigma = np.random.rand(100) * 5.0 + 0.01
+    loc = (np.random.rand(100) * 10.0) - 5.0
+    sigma = (np.random.rand(100) * 5.0) + 0.01
     gen(loc, sigma, "data.json")
 
 

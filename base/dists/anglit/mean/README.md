@@ -26,9 +26,9 @@ limitations under the License.
 
 <section class="intro">
 
-The [mean][mean] of an [Anglit][anglit-distribution] random variable with location parameter `mu` and scale parameter `sigma` is
+The [mean][mean] of an [anglit][anglit-distribution] random variable with location parameter `mu` and scale parameter `sigma` is
 
-<!-- <equation class="equation" label="eq:anglit_mean" align="center" raw="\mathbb{E}\left[ X \right] = \mu" alt="Mean for an Anglit distribution."> -->
+<!-- <equation class="equation" label="eq:anglit_mean" align="center" raw="\mathbb{E}\left[ X \right] = \mu" alt="Mean for an anglit distribution."> -->
 
 ```math
 \mathbb{E}\left[ X \right] = \mu
@@ -52,7 +52,7 @@ var mean = require( '@stdlib/stats/base/dists/anglit/mean' );
 
 #### mean( mu, sigma )
 
-Returns the [expected value][mean] of an [Anglit][anglit-distribution] distribution with location parameter `mu` and scale parameter `sigma`.
+Returns the [expected value][mean] of an [anglit][anglit-distribution] distribution with location parameter `mu` and scale parameter `sigma`.
 
 ```javascript
 var y = mean( 2.0, 1.0 );
@@ -151,7 +151,7 @@ logEachMap( 'µ: %lf, σ: %lf, E(X;µ,σ): %lf', mu, sigma, mean );
 
 #### stdlib_base_dists_anglit_mean( mu, sigma )
 
-Returns the [expected value][mean] of an [Anglit][anglit-distribution] distribution with location parameter `mu` and scale parameter `sigma`.
+Returns the [expected value][mean] of an [anglit][anglit-distribution] distribution with location parameter `mu` and scale parameter `sigma`.
 
 ```c
 double out = stdlib_base_dists_anglit_mean( 2.0, 1.0 );
