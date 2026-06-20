@@ -72,6 +72,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`7f1c224`](https://github.com/stdlib-js/stdlib/commit/7f1c224c981787d37ef0360e22c7b6cbd4a007de) - **docs:** update descriptions [(#12969)](https://github.com/stdlib-js/stdlib/pull/12969) _(by Philipp Burckhardt)_
 -   [`50a34cf`](https://github.com/stdlib-js/stdlib/commit/50a34cffd477b655ab96d0aefd61744ef964a58f) - **style:** remove extra trailing newlines [(#12968)](https://github.com/stdlib-js/stdlib/pull/12968) _(by Philipp Burckhardt)_
 -   [`8ca8ea2`](https://github.com/stdlib-js/stdlib/commit/8ca8ea2b4c2f7d764b3d5847a3a00908b13d2121) - **test:** fix filename [(#12974)](https://github.com/stdlib-js/stdlib/pull/12974) _(by Philipp Burckhardt)_
 -   [`4f96827`](https://github.com/stdlib-js/stdlib/commit/4f96827674fd2a842336a3fa476cd3d63fa68021) - **chore:** clean-up tests and documentation _(by Athan Reines)_
