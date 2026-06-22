@@ -84,6 +84,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`dadabba`](https://github.com/stdlib-js/stdlib/commit/dadabba66e44060c40b231ebf1862aa0453e5285) - **chore:** resolve C compiler warnings _(by Athan Reines)_
+-   [`fa820b3`](https://github.com/stdlib-js/stdlib/commit/fa820b3ef9805587eae34c589ee0cd91f89de1b2) - **chore:** resolve C compiler warning _(by Athan Reines)_
 -   [`db6898f`](https://github.com/stdlib-js/stdlib/commit/db6898f04268acaf571817ac991d84f6001c8fcf) - **remove:** remove `stats/strided/dmaxsorted` _(by Neeraj Pathak)_
 -   [`aed59d8`](https://github.com/stdlib-js/stdlib/commit/aed59d8fb4f75747d24fef73037981716ca2da19) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`ae83ddb`](https://github.com/stdlib-js/stdlib/commit/ae83ddbf2f945d2b6b96f0f2da515f3dbb626edc) - **refactor:** rename `dmaxsorted` to `dmaxSorted` _(by Neeraj Pathak)_
