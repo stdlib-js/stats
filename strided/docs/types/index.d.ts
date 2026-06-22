@@ -31,7 +31,7 @@ import distances = require( './../../../strided/distances' );
 import dmax = require( './../../../strided/dmax' );
 import dmaxabs = require( './../../../strided/dmaxabs' );
 import dmaxabsSorted = require( './../../../strided/dmaxabs-sorted' );
-import dmaxsorted = require( './../../../strided/dmaxsorted' );
+import dmaxSorted = require( './../../../strided/dmax-sorted' );
 import dmean = require( './../../../strided/dmean' );
 import dmeankbn = require( './../../../strided/dmeankbn' );
 import dmeankbn2 = require( './../../../strided/dmeankbn2' );
@@ -556,6 +556,32 @@ interface Namespace {
 	dmax: typeof dmax;
 
 	/**
+	* Computes the maximum value of a sorted double-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - sorted input array
+	* @param strideX - stride length
+	* @returns maximum value
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	*
+	* var v = ns.dmaxSorted( x.length, x, 1 );
+	* // returns 3.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	*
+	* var v = ns.dmaxSorted.ndarray( x.length, x, 1, 0 );
+	* // returns 3.0
+	*/
+	dmaxSorted: typeof dmaxSorted;
+
+	/**
 	* Computes the maximum absolute value of a double-precision floating-point strided array.
 	*
 	* @param N - number of indexed elements
@@ -606,32 +632,6 @@ interface Namespace {
 	* // returns 3.0
 	*/
 	dmaxabsSorted: typeof dmaxabsSorted;
-
-	/**
-	* Computes the maximum value of a sorted double-precision floating-point strided array.
-	*
-	* @param N - number of indexed elements
-	* @param x - sorted input array
-	* @param strideX - stride length
-	* @returns maximum value
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
-	*
-	* var v = ns.dmaxsorted( x.length, x, 1 );
-	* // returns 3.0
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
-	*
-	* var v = ns.dmaxsorted.ndarray( x.length, x, 1, 0 );
-	* // returns 3.0
-	*/
-	dmaxsorted: typeof dmaxsorted;
 
 	/**
 	* Computes the arithmetic mean of a double-precision floating-point strided array.

@@ -118,6 +118,15 @@ setReadOnly( ns, 'distances', require( './../../strided/distances' ) );
 setReadOnly( ns, 'dmax', require( './../../strided/dmax' ) );
 
 /**
+* @name dmaxSorted
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/stats/strided/dmax-sorted}
+*/
+setReadOnly( ns, 'dmaxSorted', require( './../../strided/dmax-sorted' ) );
+
+/**
 * @name dmaxabs
 * @memberof ns
 * @readonly
@@ -134,15 +143,6 @@ setReadOnly( ns, 'dmaxabs', require( './../../strided/dmaxabs' ) );
 * @see {@link module:@stdlib/stats/strided/dmaxabs-sorted}
 */
 setReadOnly( ns, 'dmaxabsSorted', require( './../../strided/dmaxabs-sorted' ) );
-
-/**
-* @name dmaxsorted
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/stats/strided/dmaxsorted}
-*/
-setReadOnly( ns, 'dmaxsorted', require( './../../strided/dmaxsorted' ) );
 
 /**
 * @name dmean
