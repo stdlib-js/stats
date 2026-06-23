@@ -84,6 +84,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`f6e6298`](https://github.com/stdlib-js/stdlib/commit/f6e629859db6d74f91097f8015c9e70514c29d88) - **refactor:** rename internal variable [(#13089)](https://github.com/stdlib-js/stdlib/pull/13089) _(by Philipp Burckhardt)_
+-   [`e404167`](https://github.com/stdlib-js/stdlib/commit/e404167cf935b4a7a0fbee91b1d25734409cb235) - **refactor:** reorder import statements [(#13078)](https://github.com/stdlib-js/stdlib/pull/13078) _(by stdlib-bot)_
 -   [`fb7ba7a`](https://github.com/stdlib-js/stdlib/commit/fb7ba7aa301480bcab339b75cc7562966292e365) - **docs:** update namespace table of contents [(#13079)](https://github.com/stdlib-js/stdlib/pull/13079) _(by stdlib-bot)_
 -   [`dadabba`](https://github.com/stdlib-js/stdlib/commit/dadabba66e44060c40b231ebf1862aa0453e5285) - **chore:** resolve C compiler warnings _(by Athan Reines)_
 -   [`fa820b3`](https://github.com/stdlib-js/stdlib/commit/fa820b3ef9805587eae34c589ee0cd91f89de1b2) - **chore:** resolve C compiler warning _(by Athan Reines)_
