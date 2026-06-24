@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-23)
+## Unreleased (2026-06-24)
 
 <section class="features">
 
 ### Features
 
+-   [`6e8f0f3`](https://github.com/stdlib-js/stdlib/commit/6e8f0f36c936495ba1af380d68f43c9fdc7977a5) - add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104)
 -   [`18338ba`](https://github.com/stdlib-js/stdlib/commit/18338ba3da0035672404ba7e87827cad8675ba0a) - add `stats/strided/dmax-sorted`
 -   [`82270fb`](https://github.com/stdlib-js/stdlib/commit/82270fbca651dba57b5e9aa2c64e8ffcdf57d249) - add `stats/base/dists/anglit/mean` [(#10627)](https://github.com/stdlib-js/stdlib/pull/10627)
 -   [`5fee63e`](https://github.com/stdlib-js/stdlib/commit/5fee63ec1080a0c5a4b7aa91deefcb814497bf69) - add `stats/base/dists/anglit/median` [(#10628)](https://github.com/stdlib-js/stdlib/pull/10628)
@@ -70,9 +71,9 @@
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 5 issues were closed in this release:
 
-[#3571](https://github.com/stdlib-js/stdlib/issues/3571), [#5608](https://github.com/stdlib-js/stdlib/issues/5608), [#5611](https://github.com/stdlib-js/stdlib/issues/5611), [#5621](https://github.com/stdlib-js/stdlib/issues/5621)
+[#3568](https://github.com/stdlib-js/stdlib/issues/3568), [#3571](https://github.com/stdlib-js/stdlib/issues/3571), [#5608](https://github.com/stdlib-js/stdlib/issues/5608), [#5611](https://github.com/stdlib-js/stdlib/issues/5611), [#5621](https://github.com/stdlib-js/stdlib/issues/5621)
 
 </section>
 
@@ -84,6 +85,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`6e8f0f3`](https://github.com/stdlib-js/stdlib/commit/6e8f0f36c936495ba1af380d68f43c9fdc7977a5) - **feat:** add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104) _(by Lokesh Ranjan, Neeraj Pathak, Philipp Burckhardt)_
 -   [`f6e6298`](https://github.com/stdlib-js/stdlib/commit/f6e629859db6d74f91097f8015c9e70514c29d88) - **refactor:** rename internal variable [(#13089)](https://github.com/stdlib-js/stdlib/pull/13089) _(by Philipp Burckhardt)_
 -   [`e404167`](https://github.com/stdlib-js/stdlib/commit/e404167cf935b4a7a0fbee91b1d25734409cb235) - **refactor:** reorder import statements [(#13078)](https://github.com/stdlib-js/stdlib/pull/13078) _(by stdlib-bot)_
 -   [`fb7ba7a`](https://github.com/stdlib-js/stdlib/commit/fb7ba7aa301480bcab339b75cc7562966292e365) - **docs:** update namespace table of contents [(#13079)](https://github.com/stdlib-js/stdlib/pull/13079) _(by stdlib-bot)_
@@ -173,10 +175,11 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Kamal Singh Rautela
+-   Lokesh Ranjan
 -   Neeraj Pathak
 -   Om-A-osc
 -   Philipp Burckhardt
