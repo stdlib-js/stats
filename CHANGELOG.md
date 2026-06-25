@@ -90,7 +90,6 @@ A total of 5 issues were closed in this release:
 
 <details>
 
--   [`fba0af3`](https://github.com/stdlib-js/stdlib/commit/fba0af3d48d889ebd262a0c135238961004ac9fa) - **refactor:** use a function wrapper for native binding [(#13002)](https://github.com/stdlib-js/stdlib/pull/13002) _(by Philipp Burckhardt)_
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`fcca2dc`](https://github.com/stdlib-js/stdlib/commit/fcca2dc42eb46f8957fc9e3a4fd0691917f38daf) - **remove:** remove migrated `stats/strided/*` imports from `stats/base/*` namespace [(#13103)](https://github.com/stdlib-js/stdlib/pull/13103) _(by Neeraj Pathak)_
 -   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - **feat:** add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104) _(by Lokesh Ranjan, Neeraj Pathak, Philipp Burckhardt)_

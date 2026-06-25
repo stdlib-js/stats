@@ -56,9 +56,7 @@ var addon = require( './../src/addon.node' );
 * var v = median( NaN );
 * // returns NaN
 */
-function median( c ) {
-	return addon( c );
-}
+var median = addon;
 
 
 // EXPORTS //
