@@ -32,6 +32,7 @@
 
 ### Bug Fixes
 
+-   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
 -   [`d8fdfb7`](https://github.com/stdlib-js/stdlib/commit/d8fdfb7f6a2db0cce8664d288887789b8f0987b8) - improve type specificity for JSON serialization [(#12504)](https://github.com/stdlib-js/stdlib/pull/12504)
 -   [`2b9b521`](https://github.com/stdlib-js/stdlib/commit/2b9b52153789b56fedef02c1f9aa8158929b2730) - pass `sigma` to `skewness` in `stats/base/dists/rayleigh/ctor` [(#12721)](https://github.com/stdlib-js/stdlib/pull/12721)
 
@@ -89,6 +90,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`fba0af3`](https://github.com/stdlib-js/stdlib/commit/fba0af3d48d889ebd262a0c135238961004ac9fa) - **refactor:** use a function wrapper for native binding [(#13002)](https://github.com/stdlib-js/stdlib/pull/13002) _(by Philipp Burckhardt)_
+-   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`fcca2dc`](https://github.com/stdlib-js/stdlib/commit/fcca2dc42eb46f8957fc9e3a4fd0691917f38daf) - **remove:** remove migrated `stats/strided/*` imports from `stats/base/*` namespace [(#13103)](https://github.com/stdlib-js/stdlib/pull/13103) _(by Neeraj Pathak)_
 -   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - **feat:** add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104) _(by Lokesh Ranjan, Neeraj Pathak, Philipp Burckhardt)_
 -   [`2b13bb1`](https://github.com/stdlib-js/stdlib/commit/2b13bb1a58ff9778770ef55dadc2b4b1ed675de0) - **refactor:** rename internal variable [(#13089)](https://github.com/stdlib-js/stdlib/pull/13089) _(by Philipp Burckhardt)_
@@ -180,7 +183,7 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Kamal Singh Rautela
@@ -188,6 +191,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   Neeraj Pathak
 -   Om-A-osc
 -   Philipp Burckhardt
+-   anee3
 -   wilmerdooley
 
 </section>
