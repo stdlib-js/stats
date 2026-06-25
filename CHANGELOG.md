@@ -4,13 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-24)
+## Unreleased (2026-06-25)
 
 <section class="features">
 
 ### Features
 
--   [`6e8f0f3`](https://github.com/stdlib-js/stdlib/commit/6e8f0f36c936495ba1af380d68f43c9fdc7977a5) - add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104)
+-   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104)
 -   [`18338ba`](https://github.com/stdlib-js/stdlib/commit/18338ba3da0035672404ba7e87827cad8675ba0a) - add `stats/strided/dmax-sorted`
 -   [`82270fb`](https://github.com/stdlib-js/stdlib/commit/82270fbca651dba57b5e9aa2c64e8ffcdf57d249) - add `stats/base/dists/anglit/mean` [(#10627)](https://github.com/stdlib-js/stdlib/pull/10627)
 -   [`5fee63e`](https://github.com/stdlib-js/stdlib/commit/5fee63ec1080a0c5a4b7aa91deefcb814497bf69) - add `stats/base/dists/anglit/median` [(#10628)](https://github.com/stdlib-js/stdlib/pull/10628)
@@ -42,6 +42,10 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`fcca2dc`](https://github.com/stdlib-js/stdlib/commit/fcca2dc42eb46f8957fc9e3a4fd0691917f38daf): remove `d*` symbols from namespace
+
+    -   To migrate, users should access the same symbols in the `stats/strided/*` namespace.
 
 -   [`db6898f`](https://github.com/stdlib-js/stdlib/commit/db6898f04268acaf571817ac991d84f6001c8fcf): remove `stats/strided/dmaxsorted`
 
@@ -85,8 +89,9 @@ A total of 5 issues were closed in this release:
 
 <details>
 
--   [`6e8f0f3`](https://github.com/stdlib-js/stdlib/commit/6e8f0f36c936495ba1af380d68f43c9fdc7977a5) - **feat:** add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104) _(by Lokesh Ranjan, Neeraj Pathak, Philipp Burckhardt)_
--   [`f6e6298`](https://github.com/stdlib-js/stdlib/commit/f6e629859db6d74f91097f8015c9e70514c29d88) - **refactor:** rename internal variable [(#13089)](https://github.com/stdlib-js/stdlib/pull/13089) _(by Philipp Burckhardt)_
+-   [`fcca2dc`](https://github.com/stdlib-js/stdlib/commit/fcca2dc42eb46f8957fc9e3a4fd0691917f38daf) - **remove:** remove migrated `stats/strided/*` imports from `stats/base/*` namespace [(#13103)](https://github.com/stdlib-js/stdlib/pull/13103) _(by Neeraj Pathak)_
+-   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - **feat:** add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104) _(by Lokesh Ranjan, Neeraj Pathak, Philipp Burckhardt)_
+-   [`2b13bb1`](https://github.com/stdlib-js/stdlib/commit/2b13bb1a58ff9778770ef55dadc2b4b1ed675de0) - **refactor:** rename internal variable [(#13089)](https://github.com/stdlib-js/stdlib/pull/13089) _(by Philipp Burckhardt)_
 -   [`e404167`](https://github.com/stdlib-js/stdlib/commit/e404167cf935b4a7a0fbee91b1d25734409cb235) - **refactor:** reorder import statements [(#13078)](https://github.com/stdlib-js/stdlib/pull/13078) _(by stdlib-bot)_
 -   [`fb7ba7a`](https://github.com/stdlib-js/stdlib/commit/fb7ba7aa301480bcab339b75cc7562966292e365) - **docs:** update namespace table of contents [(#13079)](https://github.com/stdlib-js/stdlib/pull/13079) _(by stdlib-bot)_
 -   [`dadabba`](https://github.com/stdlib-js/stdlib/commit/dadabba66e44060c40b231ebf1862aa0453e5285) - **chore:** resolve C compiler warnings _(by Athan Reines)_
