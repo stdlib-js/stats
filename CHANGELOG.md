@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-27)
+## Unreleased (2026-06-28)
 
 <section class="features">
 
@@ -90,6 +90,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`4a927af`](https://github.com/stdlib-js/stdlib/commit/4a927afaffbf44d28e2ac942fb5b6cfbe1455e35) - **refactor:** rename internal variable [(#13156)](https://github.com/stdlib-js/stdlib/pull/13156) _(by Philipp Burckhardt)_
 -   [`ba7afec`](https://github.com/stdlib-js/stdlib/commit/ba7afec2a7f1435a3251f347873db6be1b1107ae) - **docs:** remove unused import [(#13142)](https://github.com/stdlib-js/stdlib/pull/13142) _(by Philipp Burckhardt)_
 -   [`fba0af3`](https://github.com/stdlib-js/stdlib/commit/fba0af3d48d889ebd262a0c135238961004ac9fa) - **refactor:** use a function wrapper for native binding [(#13002)](https://github.com/stdlib-js/stdlib/pull/13002) _(by Philipp Burckhardt)_
