@@ -94,6 +94,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`fe3bace`](https://github.com/stdlib-js/stdlib/commit/fe3bacee0706a1562d6654c859ce2644dc69ba56) - **bench:** add missing function documentation and ensure consistency with other benchmarks [(#13221)](https://github.com/stdlib-js/stdlib/pull/13221) _(by Philipp Burckhardt)_
 -   [`aebd92a`](https://github.com/stdlib-js/stdlib/commit/aebd92a2abde124cc3838fdfc2f2d88136eae9e2) - **feat:** add `stats/base/dists/anglit/quantile` [(#10716)](https://github.com/stdlib-js/stdlib/pull/10716) _(by Om-A-osc, Athan Reines, Neeraj Pathak, Philipp Burckhardt)_
 -   [`88ed88f`](https://github.com/stdlib-js/stdlib/commit/88ed88ffa11b6cc1837e75f7fb9024a89ab3d94d) - **feat:** add C implementation for `stats/base/dists/poisson/entropy` [(#10874)](https://github.com/stdlib-js/stdlib/pull/10874) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
 -   [`151e6e9`](https://github.com/stdlib-js/stdlib/commit/151e6e94f4491c50441f8ad8399ce20bd44564d4) - **feat:** add C implementation for `stats/base/dists/lognormal/logpdf` [(#10881)](https://github.com/stdlib-js/stdlib/pull/10881) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
