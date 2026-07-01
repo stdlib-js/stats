@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-29)
+## Unreleased (2026-07-01)
 
 <section class="features">
 
 ### Features
 
+-   [`e500017`](https://github.com/stdlib-js/stdlib/commit/e5000177e6955107b030ae82d6eac5916d24a46a) - add `stats/base/dists/log-logistic/pdf` [(#11203)](https://github.com/stdlib-js/stdlib/pull/11203)
 -   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104)
 -   [`18338ba`](https://github.com/stdlib-js/stdlib/commit/18338ba3da0035672404ba7e87827cad8675ba0a) - add `stats/strided/dmax-sorted`
 -   [`82270fb`](https://github.com/stdlib-js/stdlib/commit/82270fbca651dba57b5e9aa2c64e8ffcdf57d249) - add `stats/base/dists/anglit/mean` [(#10627)](https://github.com/stdlib-js/stdlib/pull/10627)
@@ -90,6 +91,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`e500017`](https://github.com/stdlib-js/stdlib/commit/e5000177e6955107b030ae82d6eac5916d24a46a) - **feat:** add `stats/base/dists/log-logistic/pdf` [(#11203)](https://github.com/stdlib-js/stdlib/pull/11203) _(by Partha Das, Neeraj Pathak, Philipp Burckhardt)_
 -   [`0d7bf9d`](https://github.com/stdlib-js/stdlib/commit/0d7bf9d3a61ebe401eb6f8f8e12a9ea096eb3ccf) - **docs:** rename link reference label [(#13195)](https://github.com/stdlib-js/stdlib/pull/13195) _(by Philipp Burckhardt)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`4a927af`](https://github.com/stdlib-js/stdlib/commit/4a927afaffbf44d28e2ac942fb5b6cfbe1455e35) - **refactor:** rename internal variable [(#13156)](https://github.com/stdlib-js/stdlib/pull/13156) _(by Philipp Burckhardt)_
@@ -187,13 +189,14 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Kamal Singh Rautela
 -   Lokesh Ranjan
 -   Neeraj Pathak
 -   Om-A-osc
+-   Partha Das
 -   Philipp Burckhardt
 -   anee3
 -   wilmerdooley
