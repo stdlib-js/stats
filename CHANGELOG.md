@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`88ed88f`](https://github.com/stdlib-js/stdlib/commit/88ed88ffa11b6cc1837e75f7fb9024a89ab3d94d) - add C implementation for `stats/base/dists/poisson/entropy` [(#10874)](https://github.com/stdlib-js/stdlib/pull/10874)
 -   [`151e6e9`](https://github.com/stdlib-js/stdlib/commit/151e6e94f4491c50441f8ad8399ce20bd44564d4) - add C implementation for `stats/base/dists/lognormal/logpdf` [(#10881)](https://github.com/stdlib-js/stdlib/pull/10881)
 -   [`e500017`](https://github.com/stdlib-js/stdlib/commit/e5000177e6955107b030ae82d6eac5916d24a46a) - add `stats/base/dists/log-logistic/pdf` [(#11203)](https://github.com/stdlib-js/stdlib/pull/11203)
 -   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104)
@@ -78,9 +79,9 @@
 
 ### Closed Issues
 
-A total of 5 issues were closed in this release:
+A total of 6 issues were closed in this release:
 
-[#3568](https://github.com/stdlib-js/stdlib/issues/3568), [#3571](https://github.com/stdlib-js/stdlib/issues/3571), [#5608](https://github.com/stdlib-js/stdlib/issues/5608), [#5611](https://github.com/stdlib-js/stdlib/issues/5611), [#5621](https://github.com/stdlib-js/stdlib/issues/5621)
+[#3568](https://github.com/stdlib-js/stdlib/issues/3568), [#3571](https://github.com/stdlib-js/stdlib/issues/3571), [#3786](https://github.com/stdlib-js/stdlib/issues/3786), [#5608](https://github.com/stdlib-js/stdlib/issues/5608), [#5611](https://github.com/stdlib-js/stdlib/issues/5611), [#5621](https://github.com/stdlib-js/stdlib/issues/5621)
 
 </section>
 
@@ -92,6 +93,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`88ed88f`](https://github.com/stdlib-js/stdlib/commit/88ed88ffa11b6cc1837e75f7fb9024a89ab3d94d) - **feat:** add C implementation for `stats/base/dists/poisson/entropy` [(#10874)](https://github.com/stdlib-js/stdlib/pull/10874) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
 -   [`151e6e9`](https://github.com/stdlib-js/stdlib/commit/151e6e94f4491c50441f8ad8399ce20bd44564d4) - **feat:** add C implementation for `stats/base/dists/lognormal/logpdf` [(#10881)](https://github.com/stdlib-js/stdlib/pull/10881) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
 -   [`e500017`](https://github.com/stdlib-js/stdlib/commit/e5000177e6955107b030ae82d6eac5916d24a46a) - **feat:** add `stats/base/dists/log-logistic/pdf` [(#11203)](https://github.com/stdlib-js/stdlib/pull/11203) _(by Partha Das, Neeraj Pathak, Philipp Burckhardt)_
 -   [`0d7bf9d`](https://github.com/stdlib-js/stdlib/commit/0d7bf9d3a61ebe401eb6f8f8e12a9ea096eb3ccf) - **docs:** rename link reference label [(#13195)](https://github.com/stdlib-js/stdlib/pull/13195) _(by Philipp Burckhardt)_

@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2026 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,11 +20,20 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var isAlmostSameValue = require( '@stdlib/assert/is-almost-same-value' );
 var NINF = require( '@stdlib/constants/float64/ninf' );
-var entropy = require( './../lib' );
+
+
+// VARIABLES //
+
+var entropy = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( entropy instanceof Error )
+};
 
 
 // FIXTURES //
@@ -34,19 +43,19 @@ var data = require( './fixtures/julia/data.json' );
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof entropy, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'if provided `NaN` for `lambda`, the function returns `NaN`', function test( t ) {
+tape( 'if provided `NaN` for `lambda`, the function returns `NaN`', opts, function test( t ) {
 	var v = entropy( NaN );
 	t.strictEqual( isnan( v ), true, 'returns expected value' );
 	t.end();
 });
 
-tape( 'if provided a mean parameter `lambda` that is not a nonnegative number, the function returns `NaN`', function test( t ) {
+tape( 'if provided a mean parameter `lambda` that is not a nonnegative number, the function returns `NaN`', opts, function test( t ) {
 	var v;
 
 	v = entropy( -1.0 );
@@ -58,7 +67,7 @@ tape( 'if provided a mean parameter `lambda` that is not a nonnegative number, t
 	t.end();
 });
 
-tape( 'if provided a `lambda` equal to `0`, the function returns `0`', function test( t ) {
+tape( 'if provided a `lambda` equal to `0`, the function returns `0`', opts, function test( t ) {
 	var v;
 
 	v = entropy( 0.0 );
@@ -67,11 +76,11 @@ tape( 'if provided a `lambda` equal to `0`, the function returns `0`', function 
 	t.end();
 });
 
-tape( 'the function returns the entropy of a Poisson distribution', function test( t ) {
+tape( 'the function returns the entropy of a Poisson distribution', opts, function test( t ) {
 	var expected;
 	var lambda;
-	var i;
 	var y;
+	var i;
 
 	expected = data.expected;
 	lambda = data.lambda;
