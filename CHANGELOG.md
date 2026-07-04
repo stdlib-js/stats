@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`eb582c8`](https://github.com/stdlib-js/stdlib/commit/eb582c8d528d367c271e67132712722cce8ab794) - add `stats/base/dists/log-logistic/mode` [(#11224)](https://github.com/stdlib-js/stdlib/pull/11224)
 -   [`10e10b8`](https://github.com/stdlib-js/stdlib/commit/10e10b8c25e44a1807bc3fef189570c11218433c) - add C implementation for `stats/base/dists/chisquare/pdf` [(#11634)](https://github.com/stdlib-js/stdlib/pull/11634)
 -   [`f52a463`](https://github.com/stdlib-js/stdlib/commit/f52a463381839ad535627b7231b00ec8b7624515) - add `stats/base/dists/tukey-lambda/mode` [(#11911)](https://github.com/stdlib-js/stdlib/pull/11911)
 -   [`aebd92a`](https://github.com/stdlib-js/stdlib/commit/aebd92a2abde124cc3838fdfc2f2d88136eae9e2) - add `stats/base/dists/anglit/quantile` [(#10716)](https://github.com/stdlib-js/stdlib/pull/10716)
@@ -97,7 +96,6 @@ A total of 6 issues were closed in this release:
 
 <details>
 
--   [`eb582c8`](https://github.com/stdlib-js/stdlib/commit/eb582c8d528d367c271e67132712722cce8ab794) - **feat:** add `stats/base/dists/log-logistic/mode` [(#11224)](https://github.com/stdlib-js/stdlib/pull/11224) _(by Partha Das, Neeraj Pathak, Philipp Burckhardt)_
 -   [`10e10b8`](https://github.com/stdlib-js/stdlib/commit/10e10b8c25e44a1807bc3fef189570c11218433c) - **feat:** add C implementation for `stats/base/dists/chisquare/pdf` [(#11634)](https://github.com/stdlib-js/stdlib/pull/11634) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
 -   [`f52a463`](https://github.com/stdlib-js/stdlib/commit/f52a463381839ad535627b7231b00ec8b7624515) - **feat:** add `stats/base/dists/tukey-lambda/mode` [(#11911)](https://github.com/stdlib-js/stdlib/pull/11911) _(by Shubham, Neeraj Pathak, Philipp Burckhardt)_
 -   [`5dee19d`](https://github.com/stdlib-js/stdlib/commit/5dee19dbe000c3512c48f5546478b66a41a2a062) - **bench:** use consistent assertions [(#13229)](https://github.com/stdlib-js/stdlib/pull/13229) _(by Philipp Burckhardt)_
