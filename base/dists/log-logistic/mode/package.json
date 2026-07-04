@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/stats/base/dists/chisquare/pdf",
+  "name": "@stdlib/stats/base/dists/log-logistic/mode",
   "version": "0.0.0",
-  "description": "Chi-squared distribution probability density function (PDF).",
+  "description": "Log logistic distribution mode.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -58,15 +58,11 @@
     "stats",
     "distribution",
     "dist",
-    "probability",
-    "prob",
-    "pdf",
-    "chisquared",
-    "chisquare",
-    "chi-squared",
-    "chi-square",
-    "chisq",
-    "univariate",
-    "continuous"
+    "continuous",
+    "mode",
+    "location",
+    "center",
+    "log-logistic",
+    "univariate"
   ]
 }
