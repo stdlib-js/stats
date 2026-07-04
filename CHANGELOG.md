@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-02)
+## Unreleased (2026-07-04)
 
 <section class="features">
 
 ### Features
 
+-   [`f52a463`](https://github.com/stdlib-js/stdlib/commit/f52a463381839ad535627b7231b00ec8b7624515) - add `stats/base/dists/tukey-lambda/mode` [(#11911)](https://github.com/stdlib-js/stdlib/pull/11911)
 -   [`aebd92a`](https://github.com/stdlib-js/stdlib/commit/aebd92a2abde124cc3838fdfc2f2d88136eae9e2) - add `stats/base/dists/anglit/quantile` [(#10716)](https://github.com/stdlib-js/stdlib/pull/10716)
 -   [`88ed88f`](https://github.com/stdlib-js/stdlib/commit/88ed88ffa11b6cc1837e75f7fb9024a89ab3d94d) - add C implementation for `stats/base/dists/poisson/entropy` [(#10874)](https://github.com/stdlib-js/stdlib/pull/10874)
 -   [`151e6e9`](https://github.com/stdlib-js/stdlib/commit/151e6e94f4491c50441f8ad8399ce20bd44564d4) - add C implementation for `stats/base/dists/lognormal/logpdf` [(#10881)](https://github.com/stdlib-js/stdlib/pull/10881)
@@ -94,6 +95,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`f52a463`](https://github.com/stdlib-js/stdlib/commit/f52a463381839ad535627b7231b00ec8b7624515) - **feat:** add `stats/base/dists/tukey-lambda/mode` [(#11911)](https://github.com/stdlib-js/stdlib/pull/11911) _(by Shubham, Neeraj Pathak, Philipp Burckhardt)_
 -   [`5dee19d`](https://github.com/stdlib-js/stdlib/commit/5dee19dbe000c3512c48f5546478b66a41a2a062) - **bench:** use consistent assertions [(#13229)](https://github.com/stdlib-js/stdlib/pull/13229) _(by Philipp Burckhardt)_
 -   [`fe3bace`](https://github.com/stdlib-js/stdlib/commit/fe3bacee0706a1562d6654c859ce2644dc69ba56) - **bench:** add missing function documentation and ensure consistency with other benchmarks [(#13221)](https://github.com/stdlib-js/stdlib/pull/13221) _(by Philipp Burckhardt)_
 -   [`aebd92a`](https://github.com/stdlib-js/stdlib/commit/aebd92a2abde124cc3838fdfc2f2d88136eae9e2) - **feat:** add `stats/base/dists/anglit/quantile` [(#10716)](https://github.com/stdlib-js/stdlib/pull/10716) _(by Om-A-osc, Athan Reines, Neeraj Pathak, Philipp Burckhardt)_
@@ -197,7 +199,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Kamal Singh Rautela
@@ -206,6 +208,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   Om-A-osc
 -   Partha Das
 -   Philipp Burckhardt
+-   Shubham
 -   anee3
 -   wilmerdooley
 
